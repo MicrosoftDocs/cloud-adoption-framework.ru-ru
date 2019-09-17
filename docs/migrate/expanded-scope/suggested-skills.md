@@ -8,12 +8,12 @@ ms.date: 05/19/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 30f50a6f4d965834de1de354b3149c559f071f72
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: d98d8ea586d76c583ab22670ac310a9f5bf36fc1
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70833561"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71024724"
 ---
 # <a name="skills-readiness-path-during-the-migrate-phase-of-a-migration-journey"></a>Путь подготовки навыков на этапе миграции в процессе миграции
 
@@ -23,16 +23,16 @@ ms.locfileid: "70833561"
 
 ## <a name="prerequisites-skilling-resources"></a>Ресурсы для формирования навыков
 
-Выполнение процессов миграции будет основываться на навыках, полученных во время этапов [планирования](../../business-strategy/suggested-skills.md) и [подготовки](../../organization/suggested-skills.md).
+Выполнение процессов миграции будет основываться на навыках, полученных во время этапов [планирования](../../strategy/suggested-skills.md) и [подготовки](../../organize/suggested-skills.md).
 
 ## <a name="assess-skilling-resources"></a>Оценка ресурсов для формирования навыков
 
 Приведенные ниже инструменты помогут группе выполнить действия по оценке.
 
 - [Балансировка портфеля.](./balance-the-portfolio.md) Обеспечьте баланс и правильное вложение средств в портфеле приложений.
-- [Составление бизнес-обоснования.](../../business-strategy/cloud-migration-business-case.md) Составьте и изучите бизнес-обоснование, влияющее на процесс миграции в облако.
+- [Составление бизнес-обоснования.](../../strategy/cloud-migration-business-case.md) Составьте и изучите бизнес-обоснование, влияющее на процесс миграции в облако.
 - [Рационализация цифровых активов.](../../digital-estate/rationalize.md) Рационализируйте ресурсы цифровых активов.
-- [Оценка портфеля приложений.](/learn/modules/app-and-infra-migration-and-modernization) Критерии принятия решений о переносе или инновациях в портфеле приложений.
+- [Оценка портфеля приложений.](https://docs.microsoft.com/learn/modules/app-and-infra-migration-and-modernization) Критерии принятия решений о переносе или инновациях в портфеле приложений.
 - [Assessing and Planning Microsoft Azure Migration](https://www.pluralsight.com/courses/microsoft-azure-migration-assessing-planning) (Оценка и планирование миграции в Microsoft Azure). Курс PluralSight, помогающий оценить локальные рабочие нагрузки.
 
 Во время процессов оценки будут привлечены архитекторы, чтобы создать решения для каждой рабочей нагрузки. Следующие ресурсы для формирования навыков помогут вам подготовить архитекторов для этих задач.
@@ -45,7 +45,7 @@ ms.locfileid: "70833561"
 
 Следующее руководство поможет подготовить группу к действиям по миграции.
 
-- [Миграция в Azure.](/azure/site-recovery/migrate-tutorial-on-premises-azure) Использование Azure Site Recovery для переноса виртуальных машин в Azure.
+- [Миграция в Azure.](https://docs.microsoft.com/azure/site-recovery/migrate-tutorial-on-premises-azure) Использование Azure Site Recovery для переноса виртуальных машин в Azure.
 - [Rehost workloads to Azure](https://aka.ms/rehostcourse) (Повторное размещение рабочих нагрузок в Azure). Курс PluralSight, который обучает читателей, как повторно разместить рабочие нагрузки в Azure.
 - [Migrating Physical and Virtual Servers to Azure](https://app.pluralsight.com/library/courses/microsoft-azure-migrating-physical-virtual-servers/table-of-contents) (Перенос физических и виртуальных серверов в Azure). Курс PluralSight по переносу серверов в Azure.
 - [Import and Export Data to Azure](https://app.pluralsight.com/library/courses/microsoft-azure-import-export-data/table-of-contents) (Импорт и экспорт данных в Azure). Курс PluralSight по перемещению данных в Azure и из Azure.

@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 060672fb65b983c4ba520dab24097508ba78367d
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 96eb90f5761fd53ab0c4e6b128c77e441c7b36cd
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70833899"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71025334"
 ---
 # <a name="adapt-existing-roles-skills-and-processes-for-the-cloud"></a>Адаптация существующих ролей, навыков и процессов в облаке
 
@@ -54,7 +54,7 @@ ms.locfileid: "70833899"
 
 ## <a name="next-steps"></a>Следующие шаги
 
-Обеспечение правильной поддержки переведенных ролей — это усилия группы. Чтобы приступить к работе с этим руководством, ознакомьтесь с введением в организацию [готовности Организации](../organization/index.md) , чтобы найти правильные структуры и участники команды.
+Обеспечение правильной поддержки переведенных ролей — это усилия группы. Чтобы приступить к работе с этим руководством, ознакомьтесь с введением в организацию [готовности Организации](../organize/index.md) , чтобы найти правильные структуры и участники команды.
 
 > [!div class="nextstepaction"]
 > [Поиск правильных структур команды](./index.md)

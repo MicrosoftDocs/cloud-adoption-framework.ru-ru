@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7895094ea0297f725ae4f0451989055cb1afab93
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: ba799c8634fc6eeda70507ae85464506103e44ff
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70825358"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71025359"
 ---
 # <a name="prepare-for-technical-complexity-agile-change-management"></a>Подготовка к технической сложности: гибкое управление изменениями
 
@@ -46,7 +46,7 @@ INVEST является общей аббревиатурой во многих 
 
 Первоначально рабочая нагрузка на невыполненной работе по миграции вряд ли будет соответствовать критериям INVEST, изложенным в предыдущем разделе. Вместо этого они служат логической группировкой активов из первоначального учета в качестве заполнителя для будущей работы. Эти заполнители могут быть технически неточными, но они служат основой для координации с бизнесом.
 
-![Взаимосвязь между невыполненными работами по миграции, выпуску и итерации, использована в процессе миграции](../../../_images/migration/migrate-release-iteration-backlog-relationship.png)
+![Взаимосвязь между невыполненными работами по миграции, выпуску и итерации, использована в процессе миграции](../../../_images/migrate/backlog-relationships.png)
 
 *Невыполненные работы по миграции, выпуску и итерации отслеживают различные уровни активности во время миграционных процессов.*
 

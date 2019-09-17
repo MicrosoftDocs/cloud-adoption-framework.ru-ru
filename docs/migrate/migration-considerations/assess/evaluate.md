@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b6e395839d00130c43e74f1c4071ef55d27a7286
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 186aa4d4dc5218e2166e7dfb4c9834917e647a02
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70825709"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71024650"
 ---
 # <a name="evaluate-workload-readiness"></a>Оценка готовности рабочей нагрузки
 
@@ -27,16 +27,16 @@ ms.locfileid: "70825709"
 
 ## <a name="common-infrastructure-evaluation-activities"></a>Общие действия по оценке инфраструктуры
 
-- Требования для VMware: [ознакомьтесь с требованиями Azure Site Recovery для VMware](/azure/site-recovery/vmware-physical-azure-support-matrix).
-- Требования для Hyper-V: [ознакомьтесь с требованиями Azure Site Recovery для Hyper-V](/azure/site-recovery/hyper-v-azure-support-matrix).
+- Требования для VMware: [ознакомьтесь с требованиями Azure Site Recovery для VMware](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix).
+- Требования для Hyper-V: [ознакомьтесь с требованиями Azure Site Recovery для Hyper-V](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix).
 
 Не забудьте задокументировать все несоответствия в конфигурации узлов, реплицируемых виртуальных машин, требованиях хранилища и конфигурации сети.
 
 ## <a name="common-database-evaluation-activities"></a>Общие действия по оценке базы данных
 
 - Задокументируйте целевые точки восстановления и целевое время восстановления для текущего развертывания базы данных. Они используются в [действиях, связанных с архитектурой](./architect.md), чтобы помочь в принятии решений.
-- Задокументируйте все требования к конфигурации высокого уровня доступности. Дополнительные сведения о требованиях к SQL Server см. в [руководстве по решениям SQL Server с высоким уровнем доступности](/sql/sql-server/failover-clusters/high-availability-solutions-sql-server).
-- Оцените совместимость PaaS. [Руководство по миграции данных в Azure](https://datamigration.microsoft.com) сопоставляет локальные базы данных с совместимыми решениями Azure PaaS, такими как [Cosmos DB](/azure/cosmos-db) или [Azure DB](/azure/sql-database) для [MySQL](/azure/mysql), [Postgres](/azure/postgresql) или [MariaDB](/azure/mariadb).
+- Задокументируйте все требования к конфигурации высокого уровня доступности. Дополнительные сведения о требованиях к SQL Server см. в [руководстве по решениям SQL Server с высоким уровнем доступности](https://docs.microsoft.com/sql/sql-server/failover-clusters/high-availability-solutions-sql-server).
+- Оцените совместимость PaaS. [Руководство по миграции данных в Azure](https://datamigration.microsoft.com) сопоставляет локальные базы данных с совместимыми решениями Azure PaaS, такими как [Cosmos DB](https://docs.microsoft.com/azure/cosmos-db) или [Azure DB](https://docs.microsoft.com/azure/sql-database) для [MySQL](https://docs.microsoft.com/azure/mysql), [Postgres](https://docs.microsoft.com/azure/postgresql) или [MariaDB](https://docs.microsoft.com/azure/mariadb).
 - Если миграция PaaS является вариантом без необходимости каких-либо исправлений для обеспечения совместимости, то следует обратиться к команде, ответственной за [действия, связанные с архитектурой](./architect.md). Миграция PaaS может значительно сократить время перемещения и снизить совокупную стоимость владения большинства облачных решений.
 - Если миграция PaaS является вариантом, но требуется исправление для обеспечения совместимости, обратитесь к командам, ответственным за [действия по архитектуре](./architect.md) и [действия по исправлению](../migrate/remediate.md). Во многих сценариях преимущества миграции PaaS для решений баз данных могут перевешивать увеличение времени исправления.
 - Задокументируйте размер и скорость изменения для каждой переносимой базы данных.

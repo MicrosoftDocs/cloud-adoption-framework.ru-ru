@@ -8,12 +8,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b7d2ac8d624115c9d843ded8a045cd68f4050650
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: c5600fb06aefb40764117639b7d856f753c3372e
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70825865"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71024969"
 ---
 # <a name="best-practices-for-securing-and-managing-workloads-migrated-to-azure"></a>Рекомендации по обеспечению безопасности рабочих нагрузок, перенесенных в Azure, и управлению ими
 
@@ -58,10 +58,10 @@ ms.locfileid: "70825865"
 
 **Дополнительные сведения:**
 
-- [Дополнительные сведения](/azure/security-center/security-center-intro) о Центре безопасности Azure.
-- [Дополнительные сведения](/azure/security-center/security-center-just-in-time) о преимуществах JIT-доступа к виртуальным машинам.
-- [Дополнительные сведения](/azure/security-center/security-center-adaptive-application) о применении адаптивных элементов управления приложениями.
-- [Начало работы](/azure/security-center/security-center-file-integrity-monitoring) с мониторингом целостности файлов.
+- [Дополнительные сведения](https://docs.microsoft.com/azure/security-center/security-center-intro) о Центре безопасности Azure.
+- [Дополнительные сведения](https://docs.microsoft.com/azure/security-center/security-center-just-in-time) о преимуществах JIT-доступа к виртуальным машинам.
+- [Дополнительные сведения](https://docs.microsoft.com/azure/security-center/security-center-adaptive-application) о применении адаптивных элементов управления приложениями.
+- [Начало работы](https://docs.microsoft.com/azure/security-center/security-center-file-integrity-monitoring) с мониторингом целостности файлов.
 
 ## <a name="best-practice-encrypt-data"></a>Рекомендация. Шифрование данных
 
@@ -92,12 +92,12 @@ ms.locfileid: "70825865"
 
 **Дополнительные сведения:**
 
-- [Дополнительные сведения](/azure/security/azure-security-disk-encryption-overview) о службе "Шифрование дисков Azure" для виртуальных машин IaaS.
-- [Включение](/azure/security/azure-security-disk-encryption-windows) шифрования для виртуальных машин IaaS под управлением Windows.
-- [Дополнительные сведения](/azure/storage/common/storage-service-encryption) о включении Шифрования службы хранилища Azure для неактивных данных.
-- [Обзор](/azure/sql-database/sql-database-always-encrypted-azure-key-vault) функции Always Encrypted.
-- [Сведения](/azure/sql-database/transparent-data-encryption-azure-sql?view=sql-server-2017) о TDE для Базы данных SQL Azure.
-- [Сведения](/azure/sql-database/transparent-data-encryption-byok-azure-sql) о TDE с созданием собственных ключей.
+- [Дополнительные сведения](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-overview) о службе "Шифрование дисков Azure" для виртуальных машин IaaS.
+- [Включение](https://docs.microsoft.com/azure/security/azure-security-disk-encryption-windows) шифрования для виртуальных машин IaaS под управлением Windows.
+- [Дополнительные сведения](https://docs.microsoft.com/azure/storage/common/storage-service-encryption) о включении Шифрования службы хранилища Azure для неактивных данных.
+- [Обзор](https://docs.microsoft.com/azure/sql-database/sql-database-always-encrypted-azure-key-vault) функции Always Encrypted.
+- [Сведения](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-azure-sql?view=sql-server-2017) о TDE для Базы данных SQL Azure.
+- [Сведения](https://docs.microsoft.com/azure/sql-database/transparent-data-encryption-byok-azure-sql) о TDE с созданием собственных ключей.
 
 ## <a name="best-practice-protect-vms-with-antimalware"></a>Рекомендация. Защитите виртуальные машины с помощью антивредоносного ПО
 
@@ -112,7 +112,7 @@ ms.locfileid: "70825865"
 
 **Дополнительные сведения:**
 
-- [Дополнительные сведения](/azure/security/azure-security-antimalware) об антивредоносном ПО Майкрософт.
+- [Дополнительные сведения](https://docs.microsoft.com/azure/security/azure-security-antimalware) об антивредоносном ПО Майкрософт.
 
 ## <a name="best-practice-secure-web-apps"></a>Рекомендация. Защитите веб-приложения
 
@@ -141,11 +141,11 @@ Azure предоставляет несколько решений:
 
 **Дополнительные сведения**
 
-- [Обзор](/azure/key-vault/key-vault-overview) хранилища Azure Key Vault.
-- [Сведения](/azure/application-gateway/waf-overview) о брандмауэре веб-приложения.
-- [Общие сведения](/azure/app-service/environment/intro) о функции "Среда службы приложений".
-- [Сведения](/azure/key-vault/tutorial-web-application-keyvault) о настройке веб-приложения для чтения секретов из Azure Key Vault.
-- [Сведения](/azure/application-gateway/waf-overview) о брандмауэре веб-приложения.
+- [Обзор](https://docs.microsoft.com/azure/key-vault/key-vault-overview) хранилища Azure Key Vault.
+- [Сведения](https://docs.microsoft.com/azure/application-gateway/waf-overview) о брандмауэре веб-приложения.
+- [Общие сведения](https://docs.microsoft.com/azure/app-service/environment/intro) о функции "Среда службы приложений".
+- [Сведения](https://docs.microsoft.com/azure/key-vault/tutorial-web-application-keyvault) о настройке веб-приложения для чтения секретов из Azure Key Vault.
+- [Сведения](https://docs.microsoft.com/azure/application-gateway/waf-overview) о брандмауэре веб-приложения.
 
 ## <a name="best-practice-review-subscriptions-and-resource-permissions"></a>Рекомендация. Рассмотрите подписки и разрешения на ресурсы
 
@@ -161,9 +161,9 @@ Azure предоставляет несколько решений:
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/role-based-access-control/overview) о RBAC.
-- [Сведения](/azure/role-based-access-control/role-assignments-portal) об управлении доступом с помощью RBAC и портала Azure.
-- [Сведения](/azure/role-based-access-control/custom-roles) о настраиваемых ролях.
+- [Сведения](https://docs.microsoft.com/azure/role-based-access-control/overview) о RBAC.
+- [Сведения](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) об управлении доступом с помощью RBAC и портала Azure.
+- [Сведения](https://docs.microsoft.com/azure/role-based-access-control/custom-roles) о настраиваемых ролях.
 
 ## <a name="best-practice-review-audit-and-security-logs"></a>Рекомендация. Просматривайте журналы аудита и безопасности
 
@@ -180,17 +180,17 @@ Azure Active Directory (Azure AD) предоставляет журналы де
 
 **Дополнительные сведения**
 
-- [Сведения](/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor) о журналах действий Azure AD в Azure Monitor.
-- [Сведения о том, как](/azure/active-directory/reports-monitoring/concept-audit-logs) проводить аудит отчетов о действиях на портале Azure AD.
+- [Сведения](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-activity-logs-azure-monitor) о журналах действий Azure AD в Azure Monitor.
+- [Сведения о том, как](https://docs.microsoft.com/azure/active-directory/reports-monitoring/concept-audit-logs) проводить аудит отчетов о действиях на портале Azure AD.
 
 ## <a name="best-practice-evaluate-other-security-features"></a>Рекомендация. Рассмотрите другие компоненты безопасности
 
 Azure предоставляет ряд других средств защиты с расширенными возможностями обеспечения безопасности. Некоторые из этих рекомендаций требуют дополнительных лицензий и услуг уровня "Премиум".
 
-- **Реализуйте административные единицы Azure AD (AU).** Делегирование административных обязанностей персоналу службы поддержки может быть непростой задачей, если используются только базовые средства управления доступом в Azure. Предоставить персоналу службы поддержки доступ к администрированию групп в Azure AD — не самый идеальный метод обеспечения безопасности организации. Использование AU позволяет разделить ресурсы Azure на контейнеры подобно локальным организационным единицам (OU). Для использования AU администратор AU должен иметь лицензию Azure AD уровня "Премиум". [Узнайте больше](/azure/active-directory/users-groups-roles/directory-administrative-units).
-- **Используйте многофакторную проверку подлинности.** При наличии лицензии Azure AD ценовой категории "Премиум" можно включить и принудительно применить многофакторную проверку подлинности для учетных записей администраторов. Фишинг — наиболее распространенный способ компрометации таких учетных данных. Как только злоумышленник получает данные учетной записи администратора, он сможет выполнять масштабные действия, такие как удаление всех групп ресурсов. Многофакторную проверку подлинности можно настроить несколькими способами, в том числе с помощью электронной почты, приложения Authenticator и текстовых сообщений. Администратор может выбрать вариант, который будет меньше всего влиять на работу сотрудников. Многофакторная проверка подлинности интегрируется с аналитикой угроз и политиками условного доступа, случайным образом требуя ответить на запрос защиты многофакторной проверки подлинности. Ознакомьтесь с инструкциями по [обеспечению безопасности](/azure/active-directory/authentication/multi-factor-authentication-security-best-practices) и [настройке многофакторной проверки подлинности](/azure/active-directory/authentication/multi-factor-authentication-security-best-practices).
-- **Реализуйте условный доступ.** В большинстве организаций малого и среднего размера администраторы Azure и служба поддержки, как правило, находятся в одном географическом регионе. В этом случае большинство операций входа будут осуществляться из одних и тех же областей. Если IP-адреса этих расположений достаточно статичны, логично, что вход администраторов не должен выполняться вне этих областей. Даже в случае, когда злоумышленник, находящийся в удаленном расположении, компрометирует учетные данные администратора, можно реализовать такие функции безопасности, как условный доступ в сочетании с многофакторной проверкой подлинности, чтобы запретить вход из удаленных расположений или из расположений, подмененных случайными IP-адресами. [Узнайте больше](/azure/active-directory/conditional-access/overview) об условном доступе и [просмотрите советы и рекомендации](/azure/active-directory/conditional-access/best-practices) по условному доступу в Azure AD.
-- **Просмотрите разрешения корпоративных приложений.** В определенный момент администраторы могут перейти по ссылкам корпорации Майкрософт и третьих лиц, не имея сведений об их влиянии на организацию. По ссылкам могут открываться экраны согласия, назначающие разрешения приложениям Azure, а также разрешаться доступ на чтение данных в Azure AD или даже полный доступ для управления всей подпиской Azure. Следует регулярно проверять приложения, которым администраторы и пользователи разрешили доступ к ресурсам Azure. Убедитесь, что у этих приложений есть только необходимые разрешения. Кроме того, ежеквартально или два раза в год можно рассылать пользователям по электронной почте ссылку на страницы приложений, чтобы они знали о приложениях, которым разрешили доступ к данным своей организации. [Узнайте больше](/azure/active-directory/manage-apps/application-types) о типах приложений и о том, [как управлять](/azure/active-directory/manage-apps/remove-user-or-group-access-portal) назначениями приложений в Azure AD.
+- **Реализуйте административные единицы Azure AD (AU).** Делегирование административных обязанностей персоналу службы поддержки может быть непростой задачей, если используются только базовые средства управления доступом в Azure. Предоставить персоналу службы поддержки доступ к администрированию групп в Azure AD — не самый идеальный метод обеспечения безопасности организации. Использование AU позволяет разделить ресурсы Azure на контейнеры подобно локальным организационным единицам (OU). Для использования AU администратор AU должен иметь лицензию Azure AD уровня "Премиум". [Узнайте больше](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-administrative-units).
+- **Используйте многофакторную проверку подлинности.** При наличии лицензии Azure AD ценовой категории "Премиум" можно включить и принудительно применить многофакторную проверку подлинности для учетных записей администраторов. Фишинг — наиболее распространенный способ компрометации таких учетных данных. Как только злоумышленник получает данные учетной записи администратора, он сможет выполнять масштабные действия, такие как удаление всех групп ресурсов. Многофакторную проверку подлинности можно настроить несколькими способами, в том числе с помощью электронной почты, приложения Authenticator и текстовых сообщений. Администратор может выбрать вариант, который будет меньше всего влиять на работу сотрудников. Многофакторная проверка подлинности интегрируется с аналитикой угроз и политиками условного доступа, случайным образом требуя ответить на запрос защиты многофакторной проверки подлинности. Ознакомьтесь с инструкциями по [обеспечению безопасности](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices) и [настройке многофакторной проверки подлинности](https://docs.microsoft.com/azure/active-directory/authentication/multi-factor-authentication-security-best-practices).
+- **Реализуйте условный доступ.** В большинстве организаций малого и среднего размера администраторы Azure и служба поддержки, как правило, находятся в одном географическом регионе. В этом случае большинство операций входа будут осуществляться из одних и тех же областей. Если IP-адреса этих расположений достаточно статичны, логично, что вход администраторов не должен выполняться вне этих областей. Даже в случае, когда злоумышленник, находящийся в удаленном расположении, компрометирует учетные данные администратора, можно реализовать такие функции безопасности, как условный доступ в сочетании с многофакторной проверкой подлинности, чтобы запретить вход из удаленных расположений или из расположений, подмененных случайными IP-адресами. [Узнайте больше](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) об условном доступе и [просмотрите советы и рекомендации](https://docs.microsoft.com/azure/active-directory/conditional-access/best-practices) по условному доступу в Azure AD.
+- **Просмотрите разрешения корпоративных приложений.** В определенный момент администраторы могут перейти по ссылкам корпорации Майкрософт и третьих лиц, не имея сведений об их влиянии на организацию. По ссылкам могут открываться экраны согласия, назначающие разрешения приложениям Azure, а также разрешаться доступ на чтение данных в Azure AD или даже полный доступ для управления всей подпиской Azure. Следует регулярно проверять приложения, которым администраторы и пользователи разрешили доступ к ресурсам Azure. Убедитесь, что у этих приложений есть только необходимые разрешения. Кроме того, ежеквартально или два раза в год можно рассылать пользователям по электронной почте ссылку на страницы приложений, чтобы они знали о приложениях, которым разрешили доступ к данным своей организации. [Узнайте больше](https://docs.microsoft.com/azure/active-directory/manage-apps/application-types) о типах приложений и о том, [как управлять](https://docs.microsoft.com/azure/active-directory/manage-apps/remove-user-or-group-access-portal) назначениями приложений в Azure AD.
 
 ## <a name="managed-migrated-workloads"></a>Управляемые перенесенные рабочие нагрузки
 
@@ -219,7 +219,7 @@ Azure предоставляет ряд других средств защиты
 
 **Дополнительные сведения**
 
-- [Узнайте о](/azure/architecture/best-practices/naming-conventions) соглашениях об именовании.
+- [Узнайте о](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) соглашениях об именовании.
 
 ## <a name="best-practice-implement-delete-locks-for-resource-groups"></a>Рекомендация. Реализуйте блокировки удаления для групп ресурсов
 
@@ -231,7 +231,7 @@ Azure предоставляет ряд других средств защиты
 
 **Дополнительные сведения**
 
-- [Сведения](/azure/azure-resource-manager/resource-group-lock-resources) о блокировке ресурсов для предотвращения непредвиденных изменений.
+- [Сведения](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-lock-resources) о блокировке ресурсов для предотвращения непредвиденных изменений.
 
 ## <a name="best-practice-understand-resource-access-permissions"></a>Рекомендация. Составьте четкое представление о разрешениях на доступ к ресурсам
 
@@ -260,8 +260,8 @@ Azure предоставляет ряд других средств защиты
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/azure-resource-manager/resource-group-using-tags) о добавлении тегов и их ограничениях.
-- [Просмотрите](/azure/azure-resource-manager/resource-group-using-tags#powershell) примеры PowerShell и CLI для настройки добавления тегов, а также для применения тегов из группы ресурсов к ее ресурсам.
+- [Сведения](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags) о добавлении тегов и их ограничениях.
+- [Просмотрите](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags#powershell) примеры PowerShell и CLI для настройки добавления тегов, а также для применения тегов из группы ресурсов к ее ресурсам.
 - [Ознакомьтесь](https://www.azurefieldnotes.com/2016/07/18/azure-resource-tagging-best-practices) с рекомендациями Azure по добавлению тегов.
 
 ## <a name="best-practice-implement-blueprints"></a>Рекомендация. Реализуйте схемы Blueprints
@@ -273,7 +273,7 @@ Azure предоставляет ряд других средств защиты
 
 **Дополнительные сведения:**
 
-- [Прочитайте](/azure/governance/blueprints/overview) о схемах Blueprints.
+- [Прочитайте](https://docs.microsoft.com/azure/governance/blueprints/overview) о схемах Blueprints.
 - [Просмотрите](https://azure.microsoft.com/blog/customizing-azure-blueprints-to-accelerate-ai-in-healthcare) пример схемы Blueprints, используемый для ускорения работы с искусственным интеллектом в области здравоохранения.
 
 ## <a name="best-practice-review-azure-reference-architectures"></a>Рекомендация. Просмотрите эталонные образцы архитектуры Azure
@@ -285,8 +285,8 @@ Azure предоставляет ряд других средств защиты
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/architecture/reference-architectures) об эталонных образцах архитектуры Azure.
-- [Просмотр](/azure/architecture/example-scenario) примеров сценариев Azure.
+- [Сведения](https://docs.microsoft.com/azure/architecture/reference-architectures) об эталонных образцах архитектуры Azure.
+- [Просмотр](https://docs.microsoft.com/azure/architecture/example-scenario) примеров сценариев Azure.
 
 ## <a name="best-practice-manage-resources-with-azure-management-groups"></a>Рекомендация. Управляйте ресурсами с помощью групп управления Azure
 
@@ -305,7 +305,7 @@ Azure предоставляет ряд других средств защиты
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/governance/management-groups/index) об организации ресурсов в группы управления.
+- [Сведения](https://docs.microsoft.com/azure/governance/management-groups/index) об организации ресурсов в группы управления.
 
 ## <a name="best-practice-deploy-azure-policy"></a>Рекомендация. Разверните службу "Политика Azure"
 
@@ -321,8 +321,8 @@ Azure предоставляет ряд других средств защиты
 
 **Дополнительные сведения:**
 
-- [Общие сведения](/azure/governance/policy/overview) о службе "Политика Azure".
-- [Сведения](/azure/governance/policy/tutorials/create-and-manage) о создании политик и управлении ими для обеспечения соответствия требованиям.
+- [Общие сведения](https://docs.microsoft.com/azure/governance/policy/overview) о службе "Политика Azure".
+- [Сведения](https://docs.microsoft.com/azure/governance/policy/tutorials/create-and-manage) о создании политик и управлении ими для обеспечения соответствия требованиям.
 
 ## <a name="best-practice-implement-a-bcdr-strategy"></a>Рекомендация. Реализуйте стратегию BCDR
 
@@ -359,15 +359,15 @@ Azure Backup создает точки восстановления данных
 - **Прямое резервное копирование в хранилище Служб восстановления.** Для виртуальных машин IaaS можно выполнять резервное копирование путем развертывания хранилища Служб восстановления Azure Backup. Это обеспечивает единое расположение для отслеживания резервных копий и управления ими, а также предоставляет возможности детализированной настройки резервного копирования и восстановления. Резервное копирование выполняется до трех раз в день на уровне файлов или папок. При этом не учитываются приложения и не поддерживается ОС Linux. На каждой виртуальной машине, подлежащей резервному копированию этим методом, необходимо установить агент Служб восстановления Microsoft Azure (MARS).
 - **Защита виртуальной машины с помощью Azure Backup Server.** Azure Backup Server предоставляется бесплатно вместе со службой Azure Backup. Резервная копия виртуальной машины создается в локальном хранилище Azure Backup Server. Затем выполняется резервное копирование Azure Backup Server в хранилище Azure. При резервном копировании учитываются приложения и обеспечивается полная детализация частоты создания и срока хранения резервных копий. Можно выполнять резервное копирование на уровне приложения. Например, можно создавать резервные копии SQL Server или SharePoint.
 
-В целях безопасности Azure Backup шифрует данные при передаче с помощью AES 256 и отправляет их в Azure по протоколу HTTPS. Неактивные данные резервных копий в Azure шифруются с помощью [Шифрования службы хранилища (SSE)](/azure/storage/common/storage-service-encryption?toc=%2fazure%2fstorage%2fqueues%2ftoc.json) (как и данные, предназначенные для передачи и хранения).
+В целях безопасности Azure Backup шифрует данные при передаче с помощью AES 256 и отправляет их в Azure по протоколу HTTPS. Неактивные данные резервных копий в Azure шифруются с помощью [Шифрования службы хранилища (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption?toc=%2fazure%2fstorage%2fqueues%2ftoc.json) (как и данные, предназначенные для передачи и хранения).
 
 ![Azure Backup](./media/migrate-best-practices-security-management/iaas-backup.png)
 *Azure Backup*
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/backup/backup-introduction-to-azure-backup) о разных типах резервного копирования.
-- [Планирование инфраструктуры резервного копирования](/azure/backup/backup-azure-vms-introduction) для виртуальных машин Azure.
+- [Сведения](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup) о разных типах резервного копирования.
+- [Планирование инфраструктуры резервного копирования](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction) для виртуальных машин Azure.
 
 #### <a name="storage-snapshots"></a>Моментальные снимки хранилища
 
@@ -380,11 +380,11 @@ Azure Backup создает точки восстановления данных
 
 **Дополнительные сведения**
 
-- [Сведения](/azure/storage/blobs/storage-blobs-introduction) о хранилище BLOB-объектов Azure.
-- [Сведения о том, как](/azure/storage/blobs/storage-blob-snapshots) создать моментальный снимок BLOB-объекта.
+- [Сведения](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction) о хранилище BLOB-объектов Azure.
+- [Сведения о том, как](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots) создать моментальный снимок BLOB-объекта.
 - [Просмотр демонстрационного сценария](https://azure.microsoft.com/blog/microsoft-azure-block-blob-storage-backup) резервного копирования хранилища BLOB-объектов.
-- [Сведения](/azure/storage/blobs/storage-blob-soft-delete) об обратимом удалении.
-- [Что делать в случае простоя службы хранилища Azure](/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json)
+- [Сведения](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) об обратимом удалении.
+- [Что делать в случае простоя службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json)
 
 #### <a name="third-party-backup"></a>Сторонние решения для резервного копирования
 
@@ -406,8 +406,8 @@ Site Recovery реплицирует виртуальные машины из о
 
 **Дополнительные сведения**
 
-- [Обзор](/azure/virtual-machines/virtual-machines-disaster-recovery-guidance) сценариев аварийного восстановления для виртуальных машин Azure.
-- [Сведения о том, как](/azure/site-recovery/azure-to-azure-replicate-after-migration) настроить аварийное восстановление виртуальных машин Azure после миграции.
+- [Обзор](https://docs.microsoft.com/azure/virtual-machines/virtual-machines-disaster-recovery-guidance) сценариев аварийного восстановления для виртуальных машин Azure.
+- [Сведения о том, как](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-replicate-after-migration) настроить аварийное восстановление виртуальных машин Azure после миграции.
 
 ## <a name="best-practice-use-managed-disks-and-availability-sets"></a>Рекомендация. Используйте управляемые диски и группы доступности
 
@@ -425,9 +425,9 @@ Site Recovery реплицирует виртуальные машины из о
 
 **Дополнительные сведения**
 
-- [Обзор](/azure/virtual-machines/windows/managed-disks-overview) управляемых дисков.
-- [Сведения](/azure/virtual-machines/windows/convert-unmanaged-to-managed-disks) о преобразовании дисков в управляемые.
-- [Сведения о том, как](/azure/virtual-machines/windows/manage-availability) управлять доступностью виртуальных машин Windows в Azure.
+- [Обзор](https://docs.microsoft.com/azure/virtual-machines/windows/managed-disks-overview) управляемых дисков.
+- [Сведения](https://docs.microsoft.com/azure/virtual-machines/windows/convert-unmanaged-to-managed-disks) о преобразовании дисков в управляемые.
+- [Сведения о том, как](https://docs.microsoft.com/azure/virtual-machines/windows/manage-availability) управлять доступностью виртуальных машин Windows в Azure.
 
 ## <a name="best-practice-monitor-resource-usage-and-performance"></a>Рекомендация. Мониторинг потребления ресурсов и производительности
 
@@ -446,10 +446,10 @@ Site Recovery реплицирует виртуальные машины из о
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/azure-monitor/overview) об Azure Monitor.
-- [Рекомендации](/azure/architecture/best-practices/monitoring) по мониторингу и диагностике.
-- [Сведения](/azure/architecture/best-practices/auto-scaling) об автомасштабировании.
-- [Сведения о том, как](/azure/security-center/security-center-export-data-to-siem) маршрутизировать данные Azure в средство SIEM.
+- [Сведения](https://docs.microsoft.com/azure/azure-monitor/overview) об Azure Monitor.
+- [Рекомендации](https://docs.microsoft.com/azure/architecture/best-practices/monitoring) по мониторингу и диагностике.
+- [Сведения](https://docs.microsoft.com/azure/architecture/best-practices/auto-scaling) об автомасштабировании.
+- [Сведения о том, как](https://docs.microsoft.com/azure/security-center/security-center-export-data-to-siem) маршрутизировать данные Azure в средство SIEM.
 
 ## <a name="best-practice-enable-diagnostic-logging"></a>Рекомендация. Включить ведение журнала диагностики
 
@@ -464,8 +464,8 @@ Site Recovery реплицирует виртуальные машины из о
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs) о сборе и использовании данных журнала.
-- [Сведения о поддерживаемых возможностях](/azure/monitoring-and-diagnostics/monitoring-diagnostic-logs-schema) для ведения журналов диагностики.
+- [Сведения](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs) о сборе и использовании данных журнала.
+- [Сведения о поддерживаемых возможностях](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-diagnostic-logs-schema) для ведения журналов диагностики.
 
 ## <a name="best-practice-set-up-alerts-and-playbooks"></a>Рекомендация. Настройте оповещения и сборники схем
 
@@ -481,8 +481,8 @@ Site Recovery реплицирует виртуальные машины из о
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/monitoring-and-diagnostics/monitoring-overview-alerts) об оповещениях.
-- [Сведения](/azure/security-center/security-center-playbooks) о сборниках схем, которые реагируют на оповещения Центра безопасности.
+- [Сведения](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-alerts) об оповещениях.
+- [Сведения](https://docs.microsoft.com/azure/security-center/security-center-playbooks) о сборниках схем, которые реагируют на оповещения Центра безопасности.
 
 ## <a name="best-practice-use-the-azure-dashboard"></a>Рекомендация. Используйте панель мониторинга Azure
 
@@ -496,8 +496,8 @@ Site Recovery реплицирует виртуальные машины из о
 
 **Дополнительные сведения:**
 
-- [Сведения о том, как](/azure/azure-portal/azure-portal-dashboards) создать панель мониторинга.
-- [Сведения](/azure/azure-portal/azure-portal-dashboards-structure) о структуре панели мониторинга.
+- [Сведения о том, как](https://docs.microsoft.com/azure/azure-portal/azure-portal-dashboards) создать панель мониторинга.
+- [Сведения](https://docs.microsoft.com/azure/azure-portal/azure-portal-dashboards-structure) о структуре панели мониторинга.
 
 ## <a name="best-practice-understand-support-plans"></a>Рекомендация. Изучите планы поддержки
 
@@ -528,9 +528,9 @@ Site Recovery реплицирует виртуальные машины из о
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/automation/automation-update-management) об управлении обновлениями в Azure.
-- [Сведения о том, как](/azure/automation/oms-solution-updatemgmt-sccmintegration) интегрировать Configuration Manager с решением "Управление обновлениями".
-- [Ответы на вопросы](/sccm/core/understand/configuration-manager-on-azure) о Configuration Manager в Azure.
+- [Сведения](https://docs.microsoft.com/azure/automation/automation-update-management) об управлении обновлениями в Azure.
+- [Сведения о том, как](https://docs.microsoft.com/azure/automation/oms-solution-updatemgmt-sccmintegration) интегрировать Configuration Manager с решением "Управление обновлениями".
+- [Ответы на вопросы](https://docs.microsoft.com/sccm/core/understand/configuration-manager-on-azure) о Configuration Manager в Azure.
 
 ## <a name="implement-a-change-management-process"></a>Реализация процесса управления изменениями
 
@@ -552,12 +552,12 @@ Site Recovery реплицирует виртуальные машины из о
 
 **Дополнительные сведения:**
 
-- [Сведения](/azure/automation/automation-change-tracking) о решении "Отслеживание изменений".
-- [Сведения](/azure/automation/automation-intro) о возможностях службы автоматизации Azure.
+- [Сведения](https://docs.microsoft.com/azure/automation/automation-change-tracking) о решении "Отслеживание изменений".
+- [Сведения](https://docs.microsoft.com/azure/automation/automation-intro) о возможностях службы автоматизации Azure.
 
 ## <a name="next-steps"></a>Следующие шаги
 
 Ознакомьтесь с другими рекомендациями:
 
-- [Рекомендации](migrate-best-practices-networking.md) по работе с сетями после миграции.
-- [Рекомендации](migrate-best-practices-costs.md) по управлению затратами после миграции.
+- [Рекомендации](./migrate-best-practices-networking.md) по работе с сетями после миграции.
+- [Рекомендации](./migrate-best-practices-costs.md) по управлению затратами после миграции.

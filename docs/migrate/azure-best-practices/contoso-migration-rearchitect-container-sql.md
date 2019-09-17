@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 6b9d2e5f4b230358985d04aca075cb89e8214422
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 22dc2f69f1b7e1541a9556fc8b8802cbb2d5e878
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70829947"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71024472"
 ---
 # <a name="rearchitect-an-on-premises-app-to-an-azure-container-and-azure-sql-database"></a>Повторное проектирование локального приложения на контейнеры Azure и Базу данных SQL Azure
 
@@ -61,7 +61,7 @@ ms.locfileid: "70829947"
 
 ### <a name="proposed-architecture"></a>Предлагаемая архитектура
 
-- Для уровня базы данных приложения компания Contoso сравнивает Базу данных SQL Azure с SQL Server (в [этой статье](/azure/sql-database/sql-database-features)). Принимается решение продолжить работу с Базой данных SQL Azure по нескольким причинам:
+- Для уровня базы данных приложения компания Contoso сравнивает Базу данных SQL Azure с SQL Server (в [этой статье](https://docs.microsoft.com/azure/sql-database/sql-database-features)). Принимается решение продолжить работу с Базой данных SQL Azure по нескольким причинам:
   - База данных SQL Azure — это управляемая реляционная база данных. Она обеспечивает прогнозируемую производительность на нескольких уровнях обслуживания с почти нулевым администрированием. Среди преимуществ: динамическая масштабируемость без простоя, встроенная интеллектуальная оптимизация, глобальная масштабируемость и доступность.
   - Contoso использует упрощенную версию Помощника по миграции данных (DMA) для оценки и переноса локальной базы данных в SQL Azure.
   - Software Assurance позволит Contoso приобрести Базу данных SQL по сниженной цене, воспользовавшись Преимуществом гибридного использования Azure для SQL Server. Это может обеспечить экономию до 30 %.
@@ -103,7 +103,7 @@ ms.locfileid: "70829947"
 [база данных SQL Azure;](https://azure.microsoft.com/services/sql-database) | Предоставляет интеллектуальную, полностью управляемую реляционную облачную службу баз данных. | Стоимость зависит от функций, пропускной способности и размера. [Узнайте больше](https://azure.microsoft.com/pricing/details/sql-database/managed).
 [Реестр контейнеров Azure](https://azure.microsoft.com/services/container-registry) | Хранит образы для всех типов развертываний контейнеров. | Стоимость зависит от функций, типа хранилища и длительности использования. [Узнайте больше](https://azure.microsoft.com/pricing/details/container-registry).
 [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) | Эта служба предназначена для создания и использования постоянно доступных, масштабируемых и распределенных приложений. | Стоимость зависит от размера, расположения и продолжительности работы вычислительных узлов. [Узнайте больше](https://azure.microsoft.com/pricing/details/service-fabric).
-[Azure DevOps](/azure/azure-portal/tutorial-azureportal-devops) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер запускается с репозиторием Git для управления кодом приложения, системой сборки для создания пакетов и других артефактов сборки и системой управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде.
+[Azure DevOps](https://docs.microsoft.com/azure/azure-portal/tutorial-azureportal-devops) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер запускается с репозиторием Git для управления кодом приложения, системой сборки для создания пакетов и других артефактов сборки и системой управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -114,8 +114,8 @@ ms.locfileid: "70829947"
 **Требования** | **Сведения**
 --- | ---
 **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/pricing/free-trial).<br/><br/> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия.<br/><br/> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника.
-**Инфраструктура Azure** | [Узнайте, как](contoso-migration-infrastructure.md) компания Contoso ранее настроила инфраструктуру Azure.
-**Предварительные требования для разработчика** | Contoso необходимы следующие средства на рабочей станции разработчика:<br/><br/> - [Выпуск Visual Studio Community 2017. Версия 15.5](https://www.visualstudio.com)<br/><br/> включенная рабочая нагрузка .NET;<br/><br/> - [Git](https://git-scm.com);<br/><br/> - [пакет SDK для Service Fabric версии 3.0 или более поздней](/azure/service-fabric/service-fabric-get-started);<br/><br/> - [Docker CE (Windows 10) или Docker EE (Windows Server)](https://docs.docker.com/docker-for-windows/install), настроенные на использование контейнеров Windows.
+**Инфраструктура Azure** | [Узнайте, как](./contoso-migration-infrastructure.md) компания Contoso ранее настроила инфраструктуру Azure.
+**Предварительные требования для разработчика** | Contoso необходимы следующие средства на рабочей станции разработчика:<br/><br/> - [Выпуск Visual Studio Community 2017. Версия 15.5](https://www.visualstudio.com)<br/><br/> включенная рабочая нагрузка .NET;<br/><br/> - [Git](https://git-scm.com);<br/><br/> - [пакет SDK для Service Fabric версии 3.0 или более поздней](https://docs.microsoft.com/azure/service-fabric/service-fabric-get-started);<br/><br/> - [Docker CE (Windows 10) или Docker EE (Windows Server)](https://docs.docker.com/docker-for-windows/install), настроенные на использование контейнеров Windows.
 
 <!-- markdownlint-enable MD033 -->
 
@@ -166,8 +166,8 @@ ms.locfileid: "70829947"
 
 **Нужна дополнительная помощь?**
 
-- [Получение справки](/azure/sql-database/sql-database-get-started-portal) о подготовке Базы данных SQL.
-- [Дополнительные сведения об](/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools) ограничениях ресурсов в модели приобретения на основе виртуальных ядер.
+- [Получение справки](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal) о подготовке Базы данных SQL.
+- [Дополнительные сведения об](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools) ограничениях ресурсов в модели приобретения на основе виртуальных ядер.
 
 ## <a name="step-2-create-an-acr-and-provision-an-azure-container"></a>Шаг 2. Создание Реестра контейнеров Azure и подготовка контейнера Azure
 
@@ -298,7 +298,7 @@ ms.locfileid: "70829947"
 
 **Нужна дополнительная помощь?**
 
-[Узнайте о](/azure/sql-database/sql-database-firewall-configure) создании правил брандмауэра для Базы данных SQL Azure и управлении ими.
+[Узнайте о](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure) создании правил брандмауэра для Базы данных SQL Azure и управлении ими.
 
 ### <a name="migrate"></a>Перенос
 
@@ -582,23 +582,23 @@ ms.locfileid: "70829947"
 
 ### <a name="security"></a>Безопасность
 
-- Администраторам Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Узнайте больше](/azure/sql-database/sql-database-security-overview).
+- Администраторам Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Узнайте больше](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview).
 - В частности, нужно обновить контейнер для использования SSL с сертификатами.
-- Необходимо рассмотреть возможность использования Key Vault для защиты секретов для приложений Service Fabric. [Узнайте больше](/azure/service-fabric/service-fabric-application-secret-management).
+- Необходимо рассмотреть возможность использования Key Vault для защиты секретов для приложений Service Fabric. [Узнайте больше](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-secret-management).
 
 ### <a name="backups"></a>Резервные
 
-- Contoso следует рассмотреть требования резервного копирования для базы данных SQL Azure. [Узнайте больше](/azure/sql-database/sql-database-automated-backups).
-- Администраторам Contoso рекомендуется реализовать группы отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Узнайте больше](/azure/sql-database/sql-database-geo-replication-overview).
-- Они могут использовать георепликацию для номера SKU ценовой категории "Премиум" Реестра контейнеров Azure. [Узнайте больше](/azure/container-registry/container-registry-geo-replication).
+- Contoso следует рассмотреть требования резервного копирования для базы данных SQL Azure. [Узнайте больше](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
+- Администраторам Contoso рекомендуется реализовать группы отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Узнайте больше](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview).
+- Они могут использовать георепликацию для номера SKU ценовой категории "Премиум" Реестра контейнеров Azure. [Узнайте больше](https://docs.microsoft.com/azure/container-registry/container-registry-geo-replication).
 - Contoso необходимо рассмотреть развертывание веб-приложения в основном регионе "Восточная часть США 2" и в регионе "Центральная часть США", когда Веб-приложение для контейнеров станет доступно. Администраторы Contoso могут настроить диспетчер трафика для обеспечения отработки отказа в случае региональных сбоев.
-- Cosmos DB создает резервные копии автоматически. Чтобы узнать больше, специалисты Contoso [читают описание](/azure/cosmos-db/online-backup-and-restore) этого процесса.
+- Cosmos DB создает резервные копии автоматически. Чтобы узнать больше, специалисты Contoso [читают описание](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore) этого процесса.
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 
-- После развертывания всех ресурсов специалисты Contoso должны назначить теги Azure в соответствии с [планом инфраструктуры](contoso-migration-infrastructure.md#set-up-tagging).
+- После развертывания всех ресурсов специалисты Contoso должны назначить теги Azure в соответствии с [планом инфраструктуры](./contoso-migration-infrastructure.md#set-up-tagging).
 - Полное лицензирование входит в стоимость служб PaaS, которые использует Contoso. Это будет вычтено из EA.
-- Компания будет использовать Управление затратами Azure по лицензии Cloudyn (дочернее подразделение корпорации Майкрософт). Это решение по управлению затратами для нескольких облаков, которое позволяет использовать облака Azure и другие облачные ресурсы, а также управлять ими. Дополнительные сведения об управлении расходами см. [на этой странице](/azure/cost-management/overview).
+- Компания будет использовать Управление затратами Azure по лицензии Cloudyn (дочернее подразделение корпорации Майкрософт). Это решение по управлению затратами для нескольких облаков, которое позволяет использовать облака Azure и другие облачные ресурсы, а также управлять ими. Дополнительные сведения об управлении расходами см. [на этой странице](https://docs.microsoft.com/azure/cost-management/overview).
 
 ## <a name="conclusion"></a>Заключение
 

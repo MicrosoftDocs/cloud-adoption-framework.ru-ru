@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 9264a6c44ecd134dc8e25d68d35015d02d845cca
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 4b9f6bcb8ce2732cda094e83b832c0e4c920c665
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70829882"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71024178"
 ---
 # <a name="rehost-an-on-premises-app-on-an-azure-vm-and-sql-database-managed-instance"></a>Повторное размещение локального приложения на виртуальной машине Azure и в Управляемом экземпляре Базы данных SQL
 
@@ -111,9 +111,9 @@ ms.locfileid: "70829882"
 
 Служба | Описание | Стоимость
 --- | --- | ---
-[Azure Database Migration Service](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает прозрачную миграцию из нескольких источников баз данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration).
-[Управляемый экземпляр Базы данных SQL Azure](/azure/sql-database/sql-database-managed-instance) | Управляемый экземпляр — это служба управляемой базы данных, которая представляет полностью управляемый экземпляр SQL Server в облаке Azure. Он использует тот же код, что и последняя версия ядра СУБД SQL Server, и имеет новейшие функции, улучшения производительности и исправления системы безопасности. | За использование Управляемых экземпляров Базы данных SQL, выполняемых в Azure, взимается плата на основе емкости. Дополнительные сведения см. в статье [Цены на Базу данных SQL Azure ](https://azure.microsoft.com/pricing/details/sql-database/managed).
-[Azure Site Recovery](/azure/site-recovery) | Служба Site Recovery организует и контролирует миграцию и аварийное восстановление виртуальных машин Azure, а также локальных виртуальных машин и физических серверов. | Во время репликации в Azure взимается плата за службу хранилища Azure. При отработке отказа создаются виртуальные машины Azure, за которые взимается плата. Дополнительными сведениями см. в статье [Цены на Site Recovery](https://azure.microsoft.com/pricing/details/site-recovery).
+[Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает прозрачную миграцию из нескольких источников баз данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration).
+[Управляемый экземпляр Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance) | Управляемый экземпляр — это служба управляемой базы данных, которая представляет полностью управляемый экземпляр SQL Server в облаке Azure. Он использует тот же код, что и последняя версия ядра СУБД SQL Server, и имеет новейшие функции, улучшения производительности и исправления системы безопасности. | За использование Управляемых экземпляров Базы данных SQL, выполняемых в Azure, взимается плата на основе емкости. Дополнительные сведения см. в статье [Цены на Базу данных SQL Azure ](https://azure.microsoft.com/pricing/details/sql-database/managed).
+[Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery) | Служба Site Recovery организует и контролирует миграцию и аварийное восстановление виртуальных машин Azure, а также локальных виртуальных машин и физических серверов. | Во время репликации в Azure взимается плата за службу хранилища Azure. При отработке отказа создаются виртуальные машины Azure, за которые взимается плата. Дополнительными сведениями см. в статье [Цены на Site Recovery](https://azure.microsoft.com/pricing/details/site-recovery).
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -124,10 +124,10 @@ ms.locfileid: "70829882"
 Требования | Подробнее
 --- | ---
 **Регистрация в предварительной версии Управляемого экземпляра** | Необходимо зарегистрироваться в ограниченной общедоступной предварительной версии Управляемого экземпляра Базы данных SQL. Чтобы [зарегистрироваться](https://portal.azure.com#create/Microsoft.SQLManagedInstance), необходима подписка Azure. Регистрация может занять несколько дней, поэтому ее необходимо выполнить перед началом работы с этим сценарием развертывания.
-**Подписка Azure.** | Вы должны были создать подписку, когда выполняли оценку в первой статье этой серии. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/pricing/free-trial).<br/><br/> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия.<br/><br/> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника.<br/><br/> Если вам требуется более детализированные разрешения, см. в разделе [Use Role-Based Access Control to manage Site Recovery access](/azure/site-recovery/site-recovery-role-based-linked-access-control) (Использование управления доступом на основе ролей для управления доступом к Site Recovery).
-**Инфраструктура Azure** | Contoso настраивает свою инфраструктуру Azure, как описано в статье [Развертывание инфраструктуры Azure для миграции в Contoso](contoso-migration-infrastructure.md).
-**Site Recovery (локальный экземпляр)** | Потребуется локальный экземпляр сервера vCenter Server версии 5.5, 6.0 или 6.5<br/><br/> Узел ESXi под управлением версии 5.5, 6.0 или 6.5<br/><br/> Одна или несколько виртуальных машин VMware, которые выполняются на узле ESXi.<br/><br/> Виртуальные машины должны соответствовать [требованиям Azure](/azure/site-recovery/vmware-physical-azure-support-matrix#azure-vm-requirements).<br/><br/> Поддерживаемая конфигурация [сети](/azure/site-recovery/vmware-physical-azure-support-matrix#network) и [хранилища](/azure/site-recovery/vmware-physical-azure-support-matrix#storage).
-**Database Migration Service** | Для Azure Database Migration Service требуется [совместимое локальное VPN-устройство](/azure/vpn-gateway/vpn-gateway-about-vpn-devices).<br/><br/> Необходимо настроить локальное VPN-устройство. Оно должно иметь внешний общедоступный IPv4-адрес. Этот адрес не может быть за устройством преобразования сетевых адресов (NAT).<br/><br/> Убедитесь, что у вас есть доступ к локальной базе данных SQL Server.<br/><br/> Брандмауэр Windows должен иметь доступ к ядру исходной СУБД. Дополнительные сведения о [настройке брандмауэра Windows для доступа к ядру СУБД](/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access).<br/><br/> Если перед вашим компьютером базы данных есть брандмауэр, добавьте правила, разрешающие доступ к базе данных и файлам через SMB-порт 445.<br/><br/> Учетные данные, используемые для подключения к исходному экземпляру сервера SQL Server и целевому Управляемому экземпляру, должны принадлежать к серверной роли sysadmin.<br/><br/> Необходима сетевая папка в локальной базе данных, которую Azure Database Migration Service сможет использовать для резервного копирования базы данных-источника.<br/><br/> Убедитесь, что учетная запись службы, от имени которой выполняется исходный экземпляр SQL Server, имеет разрешения на запись для этой сетевой папки.<br/><br/> Запишите имя пользователя и пароль учетной записи Windows, которой предоставлены полные права доступа к этой сетевой папке. Служба Azure Database Migration Service олицетворяет пользователя с этими учетными данными, чтобы отправить файлы резервных копий в контейнер службы хранилища Azure.<br/><br/> В процессе установки SQL Server Express для протокола TCP/IP устанавливается **отключенное состояние** по умолчанию. Убедитесь, что он включен.
+**Подписка Azure.** | Вы должны были создать подписку, когда выполняли оценку в первой статье этой серии. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/pricing/free-trial).<br/><br/> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия.<br/><br/> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника.<br/><br/> Если вам требуется более детализированные разрешения, см. в разделе [Use Role-Based Access Control to manage Site Recovery access](https://docs.microsoft.com/azure/site-recovery/site-recovery-role-based-linked-access-control) (Использование управления доступом на основе ролей для управления доступом к Site Recovery).
+**Инфраструктура Azure** | Contoso настраивает свою инфраструктуру Azure, как описано в статье [Развертывание инфраструктуры Azure для миграции в Contoso](./contoso-migration-infrastructure.md).
+**Site Recovery (локальный экземпляр)** | Потребуется локальный экземпляр сервера vCenter Server версии 5.5, 6.0 или 6.5<br/><br/> Узел ESXi под управлением версии 5.5, 6.0 или 6.5<br/><br/> Одна или несколько виртуальных машин VMware, которые выполняются на узле ESXi.<br/><br/> Виртуальные машины должны соответствовать [требованиям Azure](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#azure-vm-requirements).<br/><br/> Поддерживаемая конфигурация [сети](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#network) и [хранилища](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix#storage).
+**Database Migration Service** | Для Azure Database Migration Service требуется [совместимое локальное VPN-устройство](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices).<br/><br/> Необходимо настроить локальное VPN-устройство. Оно должно иметь внешний общедоступный IPv4-адрес. Этот адрес не может быть за устройством преобразования сетевых адресов (NAT).<br/><br/> Убедитесь, что у вас есть доступ к локальной базе данных SQL Server.<br/><br/> Брандмауэр Windows должен иметь доступ к ядру исходной СУБД. Дополнительные сведения о [настройке брандмауэра Windows для доступа к ядру СУБД](https://docs.microsoft.com/sql/database-engine/configure-windows/configure-a-windows-firewall-for-database-engine-access).<br/><br/> Если перед вашим компьютером базы данных есть брандмауэр, добавьте правила, разрешающие доступ к базе данных и файлам через SMB-порт 445.<br/><br/> Учетные данные, используемые для подключения к исходному экземпляру сервера SQL Server и целевому Управляемому экземпляру, должны принадлежать к серверной роли sysadmin.<br/><br/> Необходима сетевая папка в локальной базе данных, которую Azure Database Migration Service сможет использовать для резервного копирования базы данных-источника.<br/><br/> Убедитесь, что учетная запись службы, от имени которой выполняется исходный экземпляр SQL Server, имеет разрешения на запись для этой сетевой папки.<br/><br/> Запишите имя пользователя и пароль учетной записи Windows, которой предоставлены полные права доступа к этой сетевой папке. Служба Azure Database Migration Service олицетворяет пользователя с этими учетными данными, чтобы отправить файлы резервных копий в контейнер службы хранилища Azure.<br/><br/> В процессе установки SQL Server Express для протокола TCP/IP устанавливается **отключенное состояние** по умолчанию. Убедитесь, что он включен.
 
 <!-- markdownlint-enable MD033 -->
 
@@ -153,10 +153,10 @@ ms.locfileid: "70829882"
 - После создания Управляемого экземпляра компания не должна добавлять ресурсы в подсеть.
 - С подсетью не должна быть связана группа безопасности сети.
 - Подсеть должна иметь определяемую пользователем таблицу маршрутов. Должен быть назначен единственный интернет-маршрут следующего прыжка 0.0.0.0/0.
-- Наличие необязательной пользовательской DNS. Если в виртуальной сети Azure определена пользовательская DNS, то в список должен быть добавлен IP-адрес рекурсивных сопоставителей Azure (например, 168.63.129.16). Дополнительные сведения см. в разделе [Настройка пользовательской службы DNS для Управляемого экземпляра Базы данных SQL Azure](/azure/sql-database/sql-database-managed-instance-custom-dns).
+- Наличие необязательной пользовательской DNS. Если в виртуальной сети Azure определена пользовательская DNS, то в список должен быть добавлен IP-адрес рекурсивных сопоставителей Azure (например, 168.63.129.16). Дополнительные сведения см. в разделе [Настройка пользовательской службы DNS для Управляемого экземпляра Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-custom-dns).
 - С подсетью не должна быть связана конечная точка службы (служба хранилища или база данных SQL). Конечные точки службы должны быть отключены в виртуальной сети.
-- Для подсети необходимо как минимум 16 IP-адресов. Дополнительные сведения см. в разделе [Определение размера подсети для управляемого экземпляра](/azure/sql-database/sql-database-managed-instance-vnet-configuration).
-- В гибридной среде Contoso требуются пользовательские параметры DNS. Компания Contoso настроит параметры DNS для использования одного или нескольких серверов DNS Azure компании. Дополнительные сведения см. в разделе [Настройка DNS](/azure/sql-database/sql-database-managed-instance-custom-dns).
+- Для подсети необходимо как минимум 16 IP-адресов. Дополнительные сведения см. в разделе [Определение размера подсети для управляемого экземпляра](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration).
+- В гибридной среде Contoso требуются пользовательские параметры DNS. Компания Contoso настроит параметры DNS для использования одного или нескольких серверов DNS Azure компании. Дополнительные сведения см. в разделе [Настройка DNS](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-custom-dns).
 
 ### <a name="set-up-a-virtual-network-for-the-managed-instance"></a>Настройка виртуальной сети в управляемом экземпляре
 
@@ -188,10 +188,10 @@ ms.locfileid: "70829882"
 
 **Нужна дополнительная помощь?**
 
-- См. раздел [Настройка пользовательской службы DNS для Управляемого экземпляра Базы данных SQL Azure](/azure/sql-database/sql-database-managed-instance).
-- См. раздел [Создание виртуальной сети для управляемых экземпляров](/azure/sql-database/sql-database-managed-instance-vnet-configuration).
-- См. раздел [Создание, изменение и удаление пиринга в виртуальной сети](/azure/virtual-network/virtual-network-manage-peering).
-- См. раздел [Включение доменных служб Azure Active Directory](/azure/active-directory-domain-services/active-directory-ds-getting-started-dns).
+- См. раздел [Настройка пользовательской службы DNS для Управляемого экземпляра Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance).
+- См. раздел [Создание виртуальной сети для управляемых экземпляров](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration).
+- См. раздел [Создание, изменение и удаление пиринга в виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering).
+- См. раздел [Включение доменных служб Azure Active Directory](https://docs.microsoft.com/azure/active-directory-domain-services/active-directory-ds-getting-started-dns).
 
 ### <a name="set-up-routing"></a>Настройка маршрутизации
 
@@ -220,7 +220,7 @@ ms.locfileid: "70829882"
 
 **Нужна дополнительная помощь?**
 
-См. в разделе [Создание таблицы маршрутов и маршрута](/azure/sql-database/sql-database-managed-instance-create-tutorial-portal).
+См. в разделе [Создание таблицы маршрутов и маршрута](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-create-tutorial-portal).
 
 ### <a name="create-a-managed-instance"></a>Создание управляемого экземпляра
 
@@ -240,7 +240,7 @@ ms.locfileid: "70829882"
 
 **Нужна дополнительная помощь?**
 
-См. в разделе [Создание управляемого экземпляра базы данных SQL Azure на портале Azure](/azure/sql-database/sql-database-managed-instance-create-tutorial-portal).
+См. в разделе [Создание управляемого экземпляра базы данных SQL Azure на портале Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-create-tutorial-portal).
 
 ## <a name="step-2-prepare-the-azure-database-migration-service"></a>Шаг 2. Подготовка Azure Database Migration Service
 
@@ -271,8 +271,8 @@ ms.locfileid: "70829882"
 
 **Нужна дополнительная помощь?**
 
-- Узнайте, как [настроить Azure Database Migration Service](/azure/dms/quickstart-create-data-migration-service-portal).
-- Узнайте, как [создать и использовать подписанный URL-адрес](/azure/storage/blobs/storage-dotnet-shared-access-signature-part-2).
+- Узнайте, как [настроить Azure Database Migration Service](https://docs.microsoft.com/azure/dms/quickstart-create-data-migration-service-portal).
+- Узнайте, как [создать и использовать подписанный URL-адрес](https://docs.microsoft.com/azure/storage/blobs/storage-dotnet-shared-access-signature-part-2).
 
 ## <a name="step-3-prepare-azure-for-the-site-recovery-service"></a>Шаг 3. Подготовка Azure для службы Site Recovery
 
@@ -284,7 +284,7 @@ ms.locfileid: "70829882"
 
 Администраторы Contoso настраивают Site Recovery следующим образом:
 
-1. Так как эта виртуальная машина реализует веб-интерфейс приложения SmartHotel360, они выполнят отработку отказа виртуальной машины имеющейся рабочей сети (**VNET-PROD-EUS2**) и подсети (**PROD-FE-EUS2**). Сеть и подсеть находятся в основном регионе "Восточная часть США 2". Компания Contoso настраивает сеть при [развертывании инфраструктуры Azure](contoso-migration-infrastructure.md).
+1. Так как эта виртуальная машина реализует веб-интерфейс приложения SmartHotel360, они выполнят отработку отказа виртуальной машины имеющейся рабочей сети (**VNET-PROD-EUS2**) и подсети (**PROD-FE-EUS2**). Сеть и подсеть находятся в основном регионе "Восточная часть США 2". Компания Contoso настраивает сеть при [развертывании инфраструктуры Azure](./contoso-migration-infrastructure.md).
 2. Они создают учетную запись хранения (**contosovmsacc20180528**). Компания Contoso использует учетную запись общего назначения. Специалисты компании Contoso выбирают стандартное хранилище и локально избыточное хранилище репликации.
 
     ![Site Recovery — создание учетной записи хранения](media/contoso-migration-rehost-vm-sql-managed-instance/asr-storage.png)
@@ -295,7 +295,7 @@ ms.locfileid: "70829882"
 
 **Нужна дополнительная помощь?**
 
-См. в разделе [Подготовка ресурсов Azure для репликации локальных компьютеров](/azure/site-recovery/tutorial-prepare-azure).
+См. в разделе [Подготовка ресурсов Azure для репликации локальных компьютеров](https://docs.microsoft.com/azure/site-recovery/tutorial-prepare-azure).
 
 ## <a name="step-4-prepare-on-premises-vmware-for-site-recovery"></a>Шаг 4. Подготовка локальных ресурсов VMware для Site Recovery
 
@@ -319,7 +319,7 @@ Site Recovery требуется доступ к серверам VMware, что
 
 **Нужна дополнительная помощь?**
 
-См. в разделе [Подготовка учетной записи для автоматического обнаружения](/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-automatic-discovery).
+См. в разделе [Подготовка учетной записи для автоматического обнаружения](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-automatic-discovery).
 
 ### <a name="prepare-an-account-for-mobility-service-installation"></a>Подготовка учетной записи к установке службы Mobility Service
 
@@ -332,7 +332,7 @@ Site Recovery требуется доступ к серверам VMware, что
 
 **Нужна дополнительная помощь?**
 
-См. в разделе [Подготовка учетной записи к установке службы Mobility Service](/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-mobility-service-installation).
+См. в разделе [Подготовка учетной записи к установке службы Mobility Service](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial-prepare-on-premises#prepare-an-account-for-mobility-service-installation).
 
 ### <a name="prepare-to-connect-to-azure-vms-after-failover"></a>Подготовка к подключению виртуальных машин Azure после отработки отказа
 
@@ -432,8 +432,8 @@ Site Recovery требуется доступ к серверам VMware, что
 
 **Нужна дополнительная помощь?**
 
-- Полное пошаговое руководство для этих трех шагов см. в статье [Подготовка локальных серверов VMware для аварийного восстановления в Azure](/azure/site-recovery/vmware-azure-tutorial).
-- С помощью подробных инструкций вы можете [настроить исходную среду](/azure/site-recovery/vmware-azure-set-up-source), [развернуть сервер конфигурации](/azure/site-recovery/vmware-azure-deploy-configuration-server) и [настроить параметры репликации](/azure/site-recovery/vmware-azure-set-up-replication).
+- Полное пошаговое руководство для этих трех шагов см. в статье [Подготовка локальных серверов VMware для аварийного восстановления в Azure](https://docs.microsoft.com/azure/site-recovery/vmware-azure-tutorial).
+- С помощью подробных инструкций вы можете [настроить исходную среду](https://docs.microsoft.com/azure/site-recovery/vmware-azure-set-up-source), [развернуть сервер конфигурации](https://docs.microsoft.com/azure/site-recovery/vmware-azure-deploy-configuration-server) и [настроить параметры репликации](https://docs.microsoft.com/azure/site-recovery/vmware-azure-set-up-replication).
 
 ### <a name="enable-replication"></a>Включение репликации
 
@@ -460,7 +460,7 @@ Site Recovery требуется доступ к серверам VMware, что
 
 **Нужна дополнительная помощь?**
 
-Полное пошаговое руководство для этих шагов см. в статье [Включение репликации в Azure для виртуальных машин VMware](/azure/site-recovery/vmware-azure-enable-replication).
+Полное пошаговое руководство для этих шагов см. в статье [Включение репликации в Azure для виртуальных машин VMware](https://docs.microsoft.com/azure/site-recovery/vmware-azure-enable-replication).
 
 ## <a name="step-6-migrate-the-database"></a>Шаг 6. Миграция базы данных
 
@@ -557,9 +557,9 @@ Site Recovery требуется доступ к серверам VMware, что
 
 **Нужна дополнительная помощь?**
 
-- См. в разделе [Выполнение отработки аварийного восстановления в Azure](/azure/site-recovery/tutorial-dr-drill-azure).
-- См. в разделе [Создание и настройка планов восстановления](/azure/site-recovery/site-recovery-create-recovery-plans).
-- См. в разделе [Отработка отказа в Site Recovery](/azure/site-recovery/site-recovery-failover).
+- См. в разделе [Выполнение отработки аварийного восстановления в Azure](https://docs.microsoft.com/azure/site-recovery/tutorial-dr-drill-azure).
+- См. в разделе [Создание и настройка планов восстановления](https://docs.microsoft.com/azure/site-recovery/site-recovery-create-recovery-plans).
+- См. в разделе [Отработка отказа в Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-failover).
 
 ## <a name="clean-up-after-migration"></a>Очистка после миграции
 
@@ -584,24 +584,24 @@ Site Recovery требуется доступ к серверам VMware, что
 
 - Участники команды проверяют группы безопасности сети, которые используются для управления доступом к виртуальной машине. Группы безопасности сети помогают убедиться, что только разрешенный трафик можно передавать в приложение.
 - Команда безопасности Contoso также анализирует возможность защиты данных на диске с помощью шифрования дисков Azure и Key Vault Azure.
-- Команда включает обнаружение угроз в Управляемом экземпляре. Обнаружение угроз передает оповещения в службу безопасности или службу поддержки Contoso для открытия билета, если обнаружена угроза. Дополнительные сведения см. в разделе [Обнаружение угроз в управляемом экземпляре Базы данных SQL Azure](/azure/sql-database/sql-database-managed-instance-threat-detection).
+- Команда включает обнаружение угроз в Управляемом экземпляре. Обнаружение угроз передает оповещения в службу безопасности или службу поддержки Contoso для открытия билета, если обнаружена угроза. Дополнительные сведения см. в разделе [Обнаружение угроз в управляемом экземпляре Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-threat-detection).
 
      ![Безопасность Управляемого экземпляра — обнаружение угроз](./media/contoso-migration-rehost-vm-sql-managed-instance/mi-security.png)
 
-Дополнительные сведения см. в разделе [Рекомендации по безопасности для рабочих нагрузок IaaS в Azure](/azure/security/azure-security-best-practices-vms).
+Дополнительные сведения см. в разделе [Рекомендации по безопасности для рабочих нагрузок IaaS в Azure](https://docs.microsoft.com/azure/security/azure-security-best-practices-vms).
 
 ### <a name="bcdr"></a>Непрерывность бизнес-процессов и аварийное восстановление
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление (BCDR), Contoso выполняет следующие действия:
 
-- Безопасное хранение данных. Компания Contoso выполняет резервное копирование данных, содержащихся в виртуальных машинах, с помощью службы Azure Backup. [Узнайте больше](/azure/backup/backup-introduction-to-azure-backup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json).
-- Поддержание работы приложений. Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Узнайте больше](/azure/site-recovery/azure-to-azure-quickstart).
-- Специалисты Contoso узнают больше о том, как контролировать Управляемый экземпляр SQL, в том числе [резервное копирование баз данных](/azure/sql-database/sql-database-automated-backups).
+- Безопасное хранение данных. Компания Contoso выполняет резервное копирование данных, содержащихся в виртуальных машинах, с помощью службы Azure Backup. [Узнайте больше](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json).
+- Поддержание работы приложений. Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Узнайте больше](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
+- Специалисты Contoso узнают больше о том, как контролировать Управляемый экземпляр SQL, в том числе [резервное копирование баз данных](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 
 - Компания Contoso имеет существующие лицензирование для WEBVM. Чтобы воспользоваться преимуществами цен предложения "Преимущества гибридного использования Azure", компания Contoso преобразует существующую виртуальную машину Azure.
-- Компания использует Управление затратами Azure по лицензии Cloudyn (дочернее подразделение корпорации Майкрософт). Управление затратами — это решение по управлению затратами для нескольких облаков, которое помогает компании Contoso использовать облака Azure и другие облачные ресурсы, а также управлять ими. Дополнительные сведения см. в разделе [Что такое Azure Cost Management?](/azure/cost-management/overview).
+- Компания использует Управление затратами Azure по лицензии Cloudyn (дочернее подразделение корпорации Майкрософт). Управление затратами — это решение по управлению затратами для нескольких облаков, которое помогает компании Contoso использовать облака Azure и другие облачные ресурсы, а также управлять ими. Дополнительные сведения см. в разделе [Что такое Azure Cost Management?](https://docs.microsoft.com/azure/cost-management/overview).
 
 ## <a name="conclusion"></a>Заключение
 

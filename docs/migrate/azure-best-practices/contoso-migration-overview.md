@@ -8,12 +8,12 @@ ms.date: 10/11/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a6af51f1fa6526e2ea7cf13a824c7834d631aa59
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: cc6ce12f425354cbf907474431f2ec0f45735fea
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70820587"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71024964"
 ---
 # <a name="application-migration-patterns-and-examples"></a>Шаблоны переноса приложений и примеры
 
@@ -59,49 +59,49 @@ Azure предоставляет доступ к комплексному наб
 
 **Статья** | **Сведения**
 --- | ---
-[Оценка локальных ресурсов для переноса в Azure](contoso-migration-assessment.md) | В этой статье показано, как выполнить оценку локального приложения, работающего в VMware. В примере вымышленная организация для оценки виртуальных машин приложения использует службу "Миграция Azure". Для оценки базы данных SQL Server приложения они использует Помощник по миграции данных.
+[Оценка локальных ресурсов для переноса в Azure](./contoso-migration-assessment.md) | В этой статье показано, как выполнить оценку локального приложения, работающего в VMware. В примере вымышленная организация для оценки виртуальных машин приложения использует службу "Миграция Azure". Для оценки базы данных SQL Server приложения они использует Помощник по миграции данных.
 
 ### <a name="infrastructure"></a>Инфраструктура
 
 **Статья** | **Сведения**
 --- | ---
-[Развертывание инфраструктуры Azure](contoso-migration-infrastructure.md) | В этой статье показано, как организация может подготовить свою локальную инфраструктуру и инфраструктуру Azure для миграции. Пример инфраструктуры, настроенной в этой статье, упоминается в других примерах, приведенных в этом разделе.
+[Развертывание инфраструктуры Azure](./contoso-migration-infrastructure.md) | В этой статье показано, как организация может подготовить свою локальную инфраструктуру и инфраструктуру Azure для миграции. Пример инфраструктуры, настроенной в этой статье, упоминается в других примерах, приведенных в этом разделе.
 
 ### <a name="windows-server-workloads"></a>Рабочие нагрузки Windows Server
 
 **Статья** | **Сведения**
 --- | ---
-[Повторное размещение приложения на виртуальных машинах Azure](contoso-migration-rehost-vm.md) | В этой статье приведен пример переноса виртуальных машин локального приложения на виртуальные машины Azure с помощью службы Site Recovery.
-[Перепроектирование приложения и перенос в контейнер Azure и Базу данных SQL Azure](contoso-migration-rearchitect-container-sql.md) | В этой статье приведен пример переноса приложения путем перепроектирования его веб-уровня для преобразования в контейнер Windows, работающий в Azure Service Fabric, и базу данных в Базе данных SQL Azure.
+[Повторное размещение приложения на виртуальных машинах Azure](./contoso-migration-rehost-vm.md) | В этой статье приведен пример переноса виртуальных машин локального приложения на виртуальные машины Azure с помощью службы Site Recovery.
+[Перепроектирование приложения и перенос в контейнер Azure и Базу данных SQL Azure](./contoso-migration-rearchitect-container-sql.md) | В этой статье приведен пример переноса приложения путем перепроектирования его веб-уровня для преобразования в контейнер Windows, работающий в Azure Service Fabric, и базу данных в Базе данных SQL Azure.
 
 ### <a name="linux-workloads"></a>Рабочие нагрузки Linux
 
 **Статья** | **Сведения**
 --- | ---
-[Повторное размещение локального приложения Linux на виртуальных машинах Azure и в Базе данных Azure для MySQL](contoso-migration-rehost-linux-vm-mysql.md) | В этой статье приведен пример переноса приложения, размещенного в Linux, на виртуальные машины Azure с помощью Site Recovery. Они перемещают базу данных приложения в Базу данных Azure для MySQL с помощью MySQL Workbench.
-[Повторное размещение приложения Linux на виртуальных машинах Azure](contoso-migration-rehost-linux-vm.md) | В этом примере показано, как выполнить перенос приложения для Linux по методу lift-and-shift на виртуальные машины Azure с помощью службы Site Recovery.
+[Повторное размещение локального приложения Linux на виртуальных машинах Azure и в Базе данных Azure для MySQL](./contoso-migration-rehost-linux-vm-mysql.md) | В этой статье приведен пример переноса приложения, размещенного в Linux, на виртуальные машины Azure с помощью Site Recovery. Они перемещают базу данных приложения в Базу данных Azure для MySQL с помощью MySQL Workbench.
+[Повторное размещение приложения Linux на виртуальных машинах Azure](./contoso-migration-rehost-linux-vm.md) | В этом примере показано, как выполнить перенос приложения для Linux по методу lift-and-shift на виртуальные машины Azure с помощью службы Site Recovery.
 
 ### <a name="sql-server-workloads"></a>Рабочие нагрузки SQL Server
 
 **Статья** | **Сведения**
 --- | ---
-[Повторное размещение приложения на виртуальной машине Azure и в Управляемом экземпляре Базы данных SQL](contoso-migration-rehost-vm-sql-managed-instance.md) | В этой статье приводится пример переноса локального приложения по методу lift-and-shift в Azure. Интерфейсная виртуальная машина приложения переносится с помощью [Azure Site Recovery](/azure/site-recovery/site-recovery-overview), а базу данных приложения переносится в Управляемый экземпляр Базы данных SQL Azure с помощью [Azure Database Migration Service](/azure/dms/dms-overview).
-[Повторное размещение приложения на виртуальных машинах Azure и в группе доступности SQL Server AlwaysOn](contoso-migration-rehost-vm-sql-ag.md) | В этом примере показано, как перенести приложение и данные с помощью виртуальных машин SQL Server, размещенных в Azure. Служба Site Recovery используется для миграции виртуальных машин приложения, а Azure Database Migration Service — для переноса базы данных приложения в кластер SQL Server, защищенный группой доступности AlwaysOn.
+[Повторное размещение приложения на виртуальной машине Azure и в Управляемом экземпляре Базы данных SQL](./contoso-migration-rehost-vm-sql-managed-instance.md) | В этой статье приводится пример переноса локального приложения по методу lift-and-shift в Azure. Интерфейсная виртуальная машина приложения переносится с помощью [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview), а базу данных приложения переносится в Управляемый экземпляр Базы данных SQL Azure с помощью [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview).
+[Повторное размещение приложения на виртуальных машинах Azure и в группе доступности SQL Server AlwaysOn](./contoso-migration-rehost-vm-sql-ag.md) | В этом примере показано, как перенести приложение и данные с помощью виртуальных машин SQL Server, размещенных в Azure. Служба Site Recovery используется для миграции виртуальных машин приложения, а Azure Database Migration Service — для переноса базы данных приложения в кластер SQL Server, защищенный группой доступности AlwaysOn.
 
 ### <a name="aspnet--php--java-apps"></a>Приложения ASP.NET, PHP и Java
 
 **Статья** | **Сведения**
 --- | ---
-[Рефакторинг локального приложения в веб-приложение службы приложений Azure и базу данных SQL Azure](contoso-migration-refactor-web-app-sql.md) | В этом примере показано, как перенести локальное приложение для Windows в веб-приложение Azure, а базу данных приложения — в экземпляр SQL Server Azure с помощью Помощника по миграции данных.
-[Рефакторинг приложения Linux в нескольких регионах с помощью службы приложений Azure, диспетчера трафика и базы данных Azure для MySQL](contoso-migration-refactor-linux-app-service-mysql.md) | В этом примере показано, как перенести локальное приложение для Linux в веб-приложение Azure в нескольких регионах Azure с помощью диспетчера трафика Azure, интегрированного с GitHub для обеспечения непрерывной поставки. База данных приложения переносится в экземпляр Базы данных Azure для MySQL.
-[Перестроение локального приложения в Azure](contoso-migration-rebuild.md) | В этой статье приведен пример перестроения локального приложения с помощью ряда возможностей и управляемых служб Azure, включая Службу приложений Azure, Службу Azure Kubernetes (AKS), Функции Azure, Azure Cognitive Services и Azure Cosmos DB.
-[Масштабирование миграции в Azure](contoso-migration-tfs-vsts.md) | В этой статье показан пример переноса локального развертывание Team Foundation Server в Azure DevOps Services в Azure.
+[Рефакторинг локального приложения в веб-приложение службы приложений Azure и базу данных SQL Azure](./contoso-migration-refactor-web-app-sql.md) | В этом примере показано, как перенести локальное приложение для Windows в веб-приложение Azure, а базу данных приложения — в экземпляр SQL Server Azure с помощью Помощника по миграции данных.
+[Рефакторинг приложения Linux в нескольких регионах с помощью службы приложений Azure, диспетчера трафика и базы данных Azure для MySQL](./contoso-migration-refactor-linux-app-service-mysql.md) | В этом примере показано, как перенести локальное приложение для Linux в веб-приложение Azure в нескольких регионах Azure с помощью диспетчера трафика Azure, интегрированного с GitHub для обеспечения непрерывной поставки. База данных приложения переносится в экземпляр Базы данных Azure для MySQL.
+[Перестроение локального приложения в Azure](./contoso-migration-rebuild.md) | В этой статье приведен пример перестроения локального приложения с помощью ряда возможностей и управляемых служб Azure, включая Службу приложений Azure, Службу Azure Kubernetes (AKS), Функции Azure, Azure Cognitive Services и Azure Cosmos DB.
+[Масштабирование миграции в Azure](./contoso-migration-tfs-vsts.md) | В этой статье показан пример переноса локального развертывание Team Foundation Server в Azure DevOps Services в Azure.
 
 ### <a name="migration-scaling"></a>Масштабирование миграции
 
 **Статья** | **Сведения**
 --- | ---
-[Масштабирование миграции в Azure](contoso-migration-scale.md) | В этой статье рассматривается подготовка примера организации к масштабированию для полной миграции в Azure.
+[Масштабирование миграции в Azure](./contoso-migration-scale.md) | В этой статье рассматривается подготовка примера организации к масштабированию для полной миграции в Azure.
 
 ### <a name="demo-apps"></a>Демонстрационные приложения
 

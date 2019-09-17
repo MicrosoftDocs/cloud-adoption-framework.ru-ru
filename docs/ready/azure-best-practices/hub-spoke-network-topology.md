@@ -11,19 +11,19 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 48f73d7c7f2e7f3bba8183464c786a3e0744807c
-ms.sourcegitcommit: 5846ed4d0bf1b6440f5e87bc34ef31ec8b40b338
+ms.openlocfilehash: 35750064b0a88c65796f662d20dc51e9a38e77ac
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70905490"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71022383"
 ---
 # <a name="hub-and-spoke-network-topology"></a>Звездообразная топология сети
 
 *Звездообразная топология* — это сетевая модель для более эффективного управления общими требованиями к обмену данными или обеспечению безопасности. Она также позволяет избежать ограничений подписки Azure. В этой модели уделяется особое внимание следующим вопросам.
 
 - **Сокращение затрат и повышение эффективности управления**. Централизация служб, которые могут совместно использоваться несколькими рабочими нагрузками, такими как сетевые виртуальные модули (NVA) и DNS-серверы, в одном расположении, что позволяет ИТ-отделу минимизировать избыток ресурсов и усилия по управлению.
-- **Преодоление ограничения подписок**. Большим рабочим нагрузкам может потребоваться больше ресурсов, чем разрешено в рамках одной подписки Azure (см. статью об [ограничениях подписки][Limits]). Пиринг рабочей нагрузки виртуальных сетей из различных подписок в центральный концентратор может преодолеть эти ограничения.
+- **Преодоление ограничения подписок**. Большим рабочим нагрузкам может потребоваться больше ресурсов, чем разрешено в рамках одной подписки Azure Пиринг рабочей нагрузки виртуальных сетей из различных подписок в центральный концентратор может преодолеть эти ограничения. Дополнительные сведения см. в разделе [ограничения подписки](https://docs.microsoft.com/azure/azure-subscription-service-limits).
 - **Четкое разделение зон ответственности**. Вы можете развертывать отдельные рабочие нагрузки между центральными ИТ-командами и командами по выполнению рабочих нагрузок.
 
 Небольшие облачные инфраструктуры могут не воспользоваться преимуществами дополнительной структуры и возможностями, которые предлагает эта модель. Но в сценарии больших внедрений облачных технологий следует рассмотреть возможность применения сетевой звездообразной архитектуры, если у команд есть какие-либо вопросы, перечисленные ранее.
@@ -31,8 +31,8 @@ ms.locfileid: "70905490"
 > [!NOTE]
 > На сайте эталонных архитектур Azure содержатся примеры шаблонов, которые вы можете использовать в качестве основы для реализации собственных звездообразных сетей:
 >
-> - [Реализация звездообразной топологии сети в Azure](/azure/architecture/reference-architectures/hybrid-networking/hub-spoke).
-> - [Реализация звездообразной топологии сети с помощью общих служб в Azure](/azure/architecture/reference-architectures/hybrid-networking/shared-services).
+> - [Реализация звездообразной топологии сети в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/hub-spoke).
+> - [Реализация звездообразной топологии сети с помощью общих служб в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/shared-services).
 
 ## <a name="overview"></a>Обзор
 
@@ -45,7 +45,7 @@ ms.locfileid: "70905490"
 В концентраторе часто содержатся общие компоненты службы, используемые периферийными зонами. Их примеры представлены ниже.
 
 - Инфраструктура Windows Server Active Directory для аутентификации внешних пользователей, которые пытаются получить доступ из ненадежных сетей, до предоставления таким пользователям доступа к рабочим нагрузкам в периферийных зонах. Сюда входят связанные службы федерации Active Directory (AD FS).
-- Служба DNS для разрешения имен рабочих нагрузок в периферийных зонах и получения доступа к ресурсам локально и в Интернете, если [Azure DNS][DNS] не используется.
+- Служба DNS для разрешения имен рабочих нагрузок в периферийных зонах и получения доступа к ресурсам локально и в Интернете, если [Azure DNS](https://docs.microsoft.com/azure/dns/dns-overview) не используется.
 - Инфраструктура открытых ключей (PKI) для реализации единого входа в рабочие нагрузки.
 - Управление TCP- и UDP-трафиком между зонами периферийными зонами и Интернетом.
 - Управление потоком между периферийными зонами и локальными ресурсами.
@@ -61,7 +61,7 @@ ms.locfileid: "70905490"
 
 В Azure каждый компонент (независимо от типа) развертывается в подписке Azure. Изоляция компонентов Azure в разных подписках Azure позволяет выполнять требования различных бизнес-приложений, например настройку дифференцированных уровней доступа и авторизации.
 
-Единую звездообразную реализацию можно масштабировать для создания большого количества периферийных зон. Но, как и в случае с любой ИТ-системой, у этой платформы есть свои ограничения. Развертывание концентратора привязано к определенной подписке Azure, которая имеет ограничения, например максимальное количество пиринговых виртуальных сетей. Ознакомьтесь с дополнительными сведениями о [подписке Azure, границах, квотах и ограничениях службы][Limits].
+Единую звездообразную реализацию можно масштабировать для создания большого количества периферийных зон. Но, как и в случае с любой ИТ-системой, у этой платформы есть свои ограничения. Развертывание концентратора привязано к определенной подписке Azure, которая имеет ограничения, например максимальное количество пиринговых виртуальных сетей. Дополнительные сведения см. в статье [ограничения для подписки Azure и службы, квоты и ограничения] [limits].
 
 В случаях, когда ограничения становятся проблемой, архитектуру можно далее масштабировать, расширяя отдельную звездообразную модель до звездообразного кластера. Вы можете связать несколько концентраторов в одном или нескольких регионах Azure с помощью пиринга между виртуальными сетями, подключения ExpressRoute Azure, виртуальной глобальной сети или VPN типа "сеть — сеть".
 
@@ -83,53 +83,48 @@ ms.locfileid: "70905490"
 
 <!-- images -->
 
-[0]: ./images/network-redundant-equipment.png "Примеры перекрытия компонента"
-[1]: ./images/network-hub-spoke-high-level.png "Подробный пример звездообразной топологии"
-[2]: ./images/network-hub-spokes-cluster.png "Кластер концентраторов и периферийных зон"
-[3]: ./images/network-spoke-to-spoke.png "Связь между периферийными зонами"
-[4]: ./images/network-hub-spoke-block-level-diagram.png "Диаграмма концентратора и периферийной зоны уровня блока"
-[5]: ./images/network-users-groups-subsciptions.png "Пользователи, группы, подписки и проекты"
-[6]: ./images/network-infrastructure-high-level.png "Высокоуровневая схема инфраструктуры"
-[7]: ./images/network-highlevel-perimeter-networks.png "Высокоуровневая схема инфраструктуры"
-[8]: ./images/network-vnet-peering-perimeter-neworks.png "Пиринг между виртуальными сетями и сетями периметра"
-[9]: ./images/network-high-level-diagram-monitoring.png "Общая схема для мониторинга"
-[10]: ./images/network-high-level-workloads.png "Общая схема для рабочих нагрузок"
+[0]: ../../_images/azure-best-practices/network-redundant-equipment.png "Примеры перекрытия компонента"
+[1]: ../../_images/azure-best-practices/network-hub-spoke-high-level.png "Подробный пример звездообразной топологии"
+[2]: ../../_images/azure-best-practices/network-hub-spokes-cluster.png "Кластер концентраторов и периферийных зон"
+[3]: ../../_images/azure-best-practices/network-spoke-to-spoke.png "Связь между периферийными зонами"
+[4]: ../../_images/azure-best-practices/network-hub-spoke-block-level-diagram.png "Диаграмма концентратора и периферийной зоны уровня блока"
+[5]: ../../_images/azure-best-practices/network-users-groups-subscriptions.png "Пользователи, группы, подписки и проекты"
+[6]: ../../_images/azure-best-practices/network-infrastructure-high-level.png "Высокоуровневая схема инфраструктуры"
+[7]: ../../_images/azure-best-practices/network-high-level-perimeter-networks.png "Высокоуровневая схема инфраструктуры"
+[8]: ../../_images/azure-best-practices/network-vnet-peering-perimeter-networks.png "Пиринг между виртуальными сетями и сетями периметра"
+[9]: ../../_images/azure-best-practices/network-high-level-diagram-monitoring.png "Общая схема для мониторинга"
+[10]: ../../_images/azure-best-practices/network-high-level-workloads.png "Общая схема для рабочих нагрузок"
 
 <!-- links -->
 
-[Limits]: /azure/azure-subscription-service-limits
-[Roles]: /azure/role-based-access-control/built-in-roles
-[VNet]: /azure/virtual-network/virtual-networks-overview
-[network-security-groups]: /azure/virtual-network/virtual-networks-nsg
-[DNS]: /azure/dns/dns-overview
-[PrivateDNS]: /azure/dns/private-dns-overview
-[VNetPeering]: /azure/virtual-network/virtual-network-peering-overview
-[user-defined-routes]: /azure/virtual-network/virtual-networks-udr-overview
-[RBAC]: /azure/role-based-access-control/overview
-[azure-ad]: /azure/active-directory/active-directory-whatis
-[VPN]: /azure/vpn-gateway/vpn-gateway-about-vpngateways
-[ExR]: /azure/expressroute/expressroute-introduction
-[ExRD]: /azure/expressroute/expressroute-erdirect-about
-[vWAN]: /azure/virtual-wan/virtual-wan-about
-[NVA]: /azure/architecture/reference-architectures/dmz/nva-ha
-[AzFW]: /azure/firewall/overview
-[SubMgmt]: /azure/architecture/cloud-adoption/appendix/azure-scaffold
-[RGMgmt]: /azure/azure-resource-manager/resource-group-overview
-[DMZ]: /azure/best-practices-network-security
-[ALB]: /azure/load-balancer/load-balancer-overview
-[PIP]: /azure/virtual-network/resource-groups-networking#public-ip-address
-[AFD]: /azure/frontdoor/front-door-overview
-[AppGW]: /azure/application-gateway/application-gateway-introduction
-[WAF]: /azure/application-gateway/application-gateway-web-application-firewall-overview
-[Monitor]: /azure/monitoring-and-diagnostics/
-[ActLog]: /azure/monitoring-and-diagnostics/monitoring-overview-activity-logs
-[DiagLog]: /azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs
-[nsg-log]: /azure/virtual-network/virtual-network-nsg-manage-log
-[OMS]: /azure/operations-management-suite/operations-management-suite-overview
-[NPM]: /azure/log-analytics/log-analytics-network-performance-monitor
-[NetWatch]: /azure/network-watcher/network-watcher-monitoring-overview
-[WebApps]: /azure/app-service/
-[HDI]: /azure/hdinsight/hdinsight-hadoop-introduction
-[EventHubs]: /azure/event-hubs/event-hubs-what-is-event-hubs
-[ServiceBus]: /azure/service-bus-messaging/service-bus-messaging-overview
-[traffic-manager]: /azure/traffic-manager/traffic-manager-overview
+[PrivateDNS]: https://docs.microsoft.com/azure/dns/private-dns-overview
+[VNetPeering]: https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview
+[user-defined-routes]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview
+[RBAC]: https://docs.microsoft.com/azure/role-based-access-control/overview
+[azure-ad]: https://docs.microsoft.com/azure/active-directory/active-directory-whatis
+[VPN]: https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways
+[ExR]: https://docs.microsoft.com/azure/expressroute/expressroute-introduction
+[ExRD]: https://docs.microsoft.com/azure/expressroute/expressroute-erdirect-about
+[vWAN]: https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about
+[NVA]: https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/nva-ha
+[AzFW]: https://docs.microsoft.com/azure/firewall/overview
+[SubMgmt]: ../../reference/azure-scaffold.md
+[RGMgmt]: https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview
+[DMZ]: https://docs.microsoft.com/azure/best-practices-network-security
+[ALB]: https://docs.microsoft.com/azure/load-balancer/load-balancer-overview
+[PIP]: https://docs.microsoft.com/azure/virtual-network/resource-groups-networking#public-ip-address
+[AFD]: https://docs.microsoft.com/azure/frontdoor/front-door-overview
+[AppGW]: https://docs.microsoft.com/azure/application-gateway/application-gateway-introduction
+[WAF]: https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-overview
+[Monitor]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/
+[ActLog]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs
+[DiagLog]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs
+[nsg-log]: https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-manage-log
+[OMS]: https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview
+[NPM]: https://docs.microsoft.com/azure/log-analytics/log-analytics-network-performance-monitor
+[NetWatch]: https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview
+[WebApps]: https://docs.microsoft.com/azure/app-service/
+[HDI]: https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-introduction
+[EventHubs]: https://docs.microsoft.com/azure/event-hubs/event-hubs-what-is-event-hubs
+[ServiceBus]: https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview
+[traffic-manager]: https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview

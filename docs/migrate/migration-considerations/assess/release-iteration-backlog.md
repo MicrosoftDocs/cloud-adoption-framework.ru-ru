@@ -8,16 +8,16 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: dc567c80b6193d651c8bf3884476728a8d3daa7f
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: d2dddb4893a2781da38969949972fa516e32b46c
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70833483"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71025397"
 ---
 # <a name="manage-change-in-an-incremental-migration-effort"></a>Управление изменениями в процессе поэтапной миграции
 
-В этой статье предполагается, что процессы миграции являются поэтапными и выполняются параллельно с [процессом управления](../../../governance/index.md). Тем не менее те же рекомендации можно использовать, чтобы определить начальные задачи в структурной декомпозиции работы для традиционных подходов каскадного управления изменениями.
+В этой статье предполагается, что процессы миграции являются поэтапными и выполняются параллельно с [процессом управления](../../../govern/index.md). Тем не менее те же рекомендации можно использовать, чтобы определить начальные задачи в структурной декомпозиции работы для традиционных подходов каскадного управления изменениями.
 
 ## <a name="release-backlog"></a>Список невыполненных работ по выпуску
 

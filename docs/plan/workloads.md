@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: d77a17af60c8ed4540b2c40ddf8d75a4e4f6f306
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: e7582df81e305ab602c8172b5e93531eb8112432
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70833743"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71022266"
 ---
 # <a name="prioritize-and-define-workloads-for-a-cloud-adoption-plan"></a>Определение приоритетов и определение рабочих нагрузок для плана внедрения в облако
 
@@ -44,7 +44,7 @@ ms.locfileid: "70833743"
 
 В предыдущей статье, [план внедрения в облако и Azure DevOps](./template.md)вы создали план внедрения в облаке в Azure DevOps.
 
-Теперь рабочие нагрузки можно представить в списке мощностью 10 в плане внедрения в облако. Самый простой способ сделать это — воспользоваться массовым редактированием в Microsoft Excel. Сведения о подготовке рабочей станции к групповому редактированию см. в разделе [Добавление или изменение рабочих элементов с помощью Excel](/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
+Теперь рабочие нагрузки можно представить в списке мощностью 10 в плане внедрения в облако. Самый простой способ сделать это — воспользоваться массовым редактированием в Microsoft Excel. Сведения о подготовке рабочей станции к групповому редактированию см. в разделе [Добавление или изменение рабочих элементов с помощью Excel](https://docs.microsoft.com/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
 
 Шаг 5 в этой статье показывает, как выбрать **входной список**. Вместо этого выберите **список запросов**. Затем в раскрывающемся списке **выберите запрос** выберите запрос **шаблона рабочей нагрузки** . Этот запрос загружает все усилия, связанные с миграцией одной рабочей нагрузки в электронную таблицу.
 

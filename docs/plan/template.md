@@ -8,12 +8,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 91c1433f300efc3950cb54852a00b5020a992e8f
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: f7634f15735c68296a96d997d3bf8e915d03e6b7
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70833730"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71022310"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
 
@@ -59,7 +59,7 @@ Azure DevOps — это набор облачных средств для кли
 
 ## <a name="align-the-cloud-adoption-plan"></a>Выровняйте план внедрения в облако
 
-Обзорные страницы этапов стратегии и планирования жизненного цикла внедрения облака каждый ссылаются на [шаблон стратегии и планирования инфраструктуры внедрения в облако](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx). Этот шаблон организует решения и точки данных, которые выключают шаблон для плана внедрения в облако с конкретными планами для внедрения. Если вы еще не сделали этого, вам может потребоваться выполнить упражнения, связанные с [стратегией](../business-strategy/index.md) и [планированием](../plan/index.md) , до согласования нового проекта.
+Обзорные страницы этапов стратегии и планирования жизненного цикла внедрения облака каждый ссылаются на [шаблон стратегии и планирования инфраструктуры внедрения в облако](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx). Этот шаблон организует решения и точки данных, которые выключают шаблон для плана внедрения в облако с конкретными планами для внедрения. Если вы еще не сделали этого, вам может потребоваться выполнить упражнения, связанные с [стратегией](../strategy/index.md) и [планированием](../plan/index.md) , до согласования нового проекта.
 
 Следующие статьи поддерживают выравнивание плана внедрения в облако.
 
