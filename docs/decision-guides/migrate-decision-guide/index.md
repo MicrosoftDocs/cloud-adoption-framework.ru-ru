@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
-ms.openlocfilehash: 39254fdf2dd5638978899308c4fe79cd40cf249f
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 17f462802a9ff5b44dfd734b299057649bbd797b
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70816964"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71023845"
 ---
 # <a name="migration-tools-decision-guide"></a>Руководство по принятию решений о миграции
 
@@ -21,7 +21,7 @@ ms.locfileid: "70816964"
 
 Выбор между миграцией с использованием технологий PaaS (платформа как услуга) или IaaS (инфраструктура как услуга) зависит от баланса между стоимостью, временем, техническими зависимостями и долгосрочными ожиданиями. Чаще всего IaaS обеспечит самый быстрый переход к облаку с минимальными изменениями рабочей нагрузки. Для PaaS обычно требуются изменения в исходном коде или структурах данных, но такая модель дает значительное долгосрочное преимущество в виде снижения эксплуатационных расходов и повышения технической гибкости. На следующей схеме термин _модернизация_ обозначает решение о модернизации ресурса в процессе миграции с размещением обновленного ресурса на платформе PaaS.
 
-![Пример дерева принятия решений по миграции.](../../_images/migration/migration-tools-decision-tree.png)
+![Пример дерева принятия решений по миграции.](../../_images/migrate/migration-tools-decision-tree.png)
 
 ## <a name="key-questions"></a>Основные вопросы
 
@@ -40,7 +40,7 @@ ms.locfileid: "70816964"
 
 ## <a name="learn-more"></a>Подробнее
 
-- **[Общие сведения об облаке. Обзор вычислительных служб в Azure.](/azure/architecture/guide/technology-choices/compute-overview)** Содержит сведения о возможностях вычислительных служб IaaS и PaaS в Azure.
-- **[Общие сведения об облаке. Выбор правильного хранилища данных.](/azure/architecture/guide/technology-choices/data-store-overview)** Описывает варианты хранилищ данных PaaS на платформе Azure.
+- **[Общие сведения об облаке. Обзор вычислительных служб в Azure.](https://docs.microsoft.com/azure/architecture/guide/technology-choices/compute-overview)** Содержит сведения о возможностях вычислительных служб IaaS и PaaS в Azure.
+- **[Общие сведения об облаке. Выбор правильного хранилища данных.](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)** Описывает варианты хранилищ данных PaaS на платформе Azure.
 - **[Расширенная область миграции. Требования к хранилищу превышают пропускную способность сети в процессе миграции.](../../migrate/expanded-scope/network-capacity-exceeded.md)** Описывает альтернативные механизмы переноса данных для сценариев, в которых такой перенос затруднен ограничениями пропускной способности сети.
-- **[База данных SQL. Выбор оптимального варианта SQL Server в Azure.](/azure/sql-database/sql-database-paas-vs-sql-server-iaas#business-motivations-for-choosing-databases-managed-instances-or-sql-virtual-machines)** Описание вариантов и бизнес-обоснований для выбора между размещением рабочих нагрузок SQL Server в среде на основе размещенной инфраструктуры (IaaS) или размещенной службы (PaaS).
+- **[База данных SQL. Выбор оптимального варианта SQL Server в Azure.](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas#business-motivations-for-choosing-databases-managed-instances-or-sql-virtual-machines)** Описание вариантов и бизнес-обоснований для выбора между размещением рабочих нагрузок SQL Server в среде на основе размещенной инфраструктуры (IaaS) или размещенной службы (PaaS).

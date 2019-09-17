@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: d370f8e868be1186aad17b89915f52ad0413d04d
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 9b77b8fbbe6479b716d9b9f91d6e0154db8c0db7
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70816437"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71022804"
 ---
 ::: zone target="chromeless"
 
@@ -67,7 +67,7 @@ ms.locfileid: "70816437"
 
 ::: zone target="docs"
 
-См. подробнее об организации и структуре подписок, управлении развернутыми ресурсами и соблюдении корпоративной политики в руководстве по [системе управления в Azure](/azure/security/governance-in-azure).
+См. подробнее об организации и структуре подписок, управлении развернутыми ресурсами и соблюдении корпоративной политики в руководстве по [системе управления в Azure](https://docs.microsoft.com/azure/security/governance-in-azure).
 
 ::: zone-end
 
@@ -112,8 +112,8 @@ ms.locfileid: "70816437"
 
 ::: zone target="docs"
 
-Эти методы не являются взаимоисключающими. Например, для первоначальной миграции вы можете выбрать модель **повторного размещения**, а затем применить **рефакторинг** или **повторное проектирование** на этапе оптимизации после миграции. Мы вернемся к этому вопросу в разделе этого руководства, посвященном [оптимизации и преобразованию](optimize-and-transform.md).
+Эти методы не являются взаимоисключающими. Например, для первоначальной миграции вы можете выбрать модель **повторного размещения**, а затем применить **рефакторинг** или **повторное проектирование** на этапе оптимизации после миграции. Мы вернемся к этому вопросу в разделе этого руководства, посвященном [оптимизации и преобразованию](./optimize-and-transform.md).
 
 ::: zone-end
 
-![Инфографика с вариантами миграции](../../_images/migration/migration-options.png)
+![Инфографика с вариантами миграции](../../_images/migrate/migration-options.png)

@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: f1d4423e230d2eeff524a864f163e0cb13dc065b
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 275342d452c3f9c47c004014d6e2831c88aa91df
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70818273"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71022235"
 ---
 # <a name="best-practices-for-azure-readiness"></a>Рекомендации по обеспечению готовности к работе в Azure
 
@@ -24,7 +24,7 @@ ms.locfileid: "70818273"
 Используйте перечисленные ниже руководства по упорядочению и развертыванию ресурсов в среде Azure.
 
 - [Основные понятия Azure.](../considerations/fundamental-concepts.md) Изучите основные понятия и термины, используемые в Azure, а также то, как эти понятия связаны друг с другом.
-- [Рекомендации по именованию и добавлению тегов.](../considerations/name-and-tag.md) Ознакомьтесь с подробными рекомендациями по именованию и ресурсов и расстановке в них тегов. Эти рекомендации касаются внедрения облачных решений в организации.
+- [Рекомендации по именованию и добавлению тегов.](../considerations/naming-and-tagging.md) Ознакомьтесь с подробными рекомендациями по именованию и ресурсов и расстановке в них тегов. Эти рекомендации касаются внедрения облачных решений в организации.
 - [Масштабирование с использованием нескольких подписок Azure.](../considerations/scaling-subscriptions.md) Узнайте о стратегиях масштабирования с использованием нескольких подписок Azure.
 - [Организация ресурсов с помощью групп управления Azure.](https://docs.microsoft.com/azure/governance/management-groups/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/bread/toc.json) Узнайте, как группы управления Azure помогают управлять ресурсами, роли, политиками и развертываниями в нескольких подписках.
 - [Обеспечение согласованности гибридного облака.](../../infrastructure/misc/hybrid-consistency.md) Создайте гибридные облачные решения, которые предоставляют преимущества облачных технологий наряду со многими функциями локального управления.

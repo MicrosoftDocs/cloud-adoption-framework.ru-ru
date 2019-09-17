@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: cd4d6e7a017c9a71c090110720c28701082ce792
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 4d28e0ec6dea61a96e463df8fd2717ed0a8c8f02
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70817559"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71023651"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 
@@ -26,7 +26,7 @@ ms.locfileid: "70817559"
 
 ## <a name="tagging-decision-guide"></a>Рекомендации по принятию решений о тегах
 
-![Схема вариантов применения тегов, отсортированных в порядке увеличения сложности, со ссылками для быстрого перехода](../../_images/discovery-guides/discovery-guide-tagging.png)
+![Схема вариантов применения тегов, отсортированных в порядке увеличения сложности, со ссылками для быстрого перехода](../../_images/decision-guides/decision-guide-resource-tagging.png)
 
 Перейти к разделу: [Базовые соглашения об именовании](#baseline-naming-conventions) | [Шаблоны присвоения тегов ресурсам](#resource-tagging-patterns) | [Подробнее](#learn-more)
 
@@ -74,7 +74,7 @@ ms.locfileid: "70817559"
 Дополнительные сведения о присвоении имен и тегов в Azure см. в следующих статьях:
 
 - [Соглашения об именовании для ресурсов Azure.](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) Обратитесь к руководству по рекомендованным соглашениям об именовании для ресурсов Azure.
-- [Использование тегов для упорядочения ресурсов в Azure](/azure/azure-resource-manager/resource-group-using-tags?toc=/azure/billing/TOC.json). Вы можете применить в Azure теги на уровнях группы ресурсов или отдельного ресурса, что дает гибкость в подробном учете бухгалтерских отчетов на основе присвоенных тегов.
+- [Использование тегов для упорядочения ресурсов в Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags?toc=/azure/billing/TOC.json). Вы можете применить в Azure теги на уровнях группы ресурсов или отдельного ресурса, что дает гибкость в подробном учете бухгалтерских отчетов на основе присвоенных тегов.
 
 ## <a name="next-steps"></a>Дополнительная информация
 
