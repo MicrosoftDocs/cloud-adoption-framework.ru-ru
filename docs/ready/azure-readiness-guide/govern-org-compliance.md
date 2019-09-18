@@ -10,16 +10,16 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 94ab5fd4907d7c95ca0d1b0ca932aa25eea5be41
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: e38512ef75a0bb60f07467fc6a73ca90e1392fca
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70818648"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71025244"
 ---
 # <a name="governance-security-and-compliance-in-azure"></a>Система управления, безопасность и соответствие требованиям в Azure
 
-При создании корпоративной политики и планировании стратегий управления вы можете использовать средства и службы, такие как Политика Azure, Azure Blueprints и Центр безопасности Azure, для применения и автоматизации решений по управлению вашей организацией. Прежде чем приступить к планированию управления, [используйте средство тестирования производительности системы управления](http://aka.ms/caf/gov/assess), чтобы выделить потенциальные промахи в подходе к облачному управлению в своей организации. Дополнительные сведения о разработке процессов управления см. в статье [Управление в Microsoft Cloud Adoption Framework для Azure](../../governance/index.md).
+При создании корпоративной политики и планировании стратегий управления вы можете использовать средства и службы, такие как Политика Azure, Azure Blueprints и Центр безопасности Azure, для применения и автоматизации решений по управлению вашей организацией. Прежде чем приступить к планированию управления, [используйте средство тестирования производительности системы управления](http://aka.ms/caf/gov/assess), чтобы выделить потенциальные промахи в подходе к облачному управлению в своей организации. Дополнительные сведения о разработке процессов управления см. в статье [Управление в Microsoft Cloud Adoption Framework для Azure](../../govern/index.md).
 
 # <a name="azure-blueprintstabazureblueprints"></a>[Azure Blueprints](#tab/AzureBlueprints)
 
@@ -90,9 +90,9 @@ ms.locfileid: "70818648"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Azure Blueprints](/azure/governance/blueprints)
+- [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints)
 - [Руководство по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
-- [Примеры схем на основе стандартов](https://docs.microsoft.com/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
+- [Примеры схем на основе стандартов](https://docs.microsoft.com/azure/governance/blueprints/samples/index.md#standards-based-blueprint-samples)
 
 ::: zone-end
 
@@ -130,7 +130,7 @@ ms.locfileid: "70818648"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Политика Azure](/azure/azure-policy)
+- [Политика Azure](https://docs.microsoft.com/azure/azure-policy)
 - [Руководство по принудительному применению политик](../../decision-guides/policy-enforcement/index.md)
 
 ::: zone-end
@@ -157,10 +157,10 @@ ms.locfileid: "70818648"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Центр безопасности Azure](/azure/security-center)
-- [JIT-доступ к виртуальной машине](/azure/security-center/security-center-just-in-time#how-does-just-in-time-access-work)
+- [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center)
+- [JIT-доступ к виртуальной машине](https://docs.microsoft.com/azure/security-center/security-center-just-in-time#how-does-just-in-time-access-work)
 - [Сравнение ценовых категорий "Бесплатный" и "Стандартный"](https://azure.microsoft.com/pricing/details/security-center)
-- [Общие сведения об основных способах защиты](../../governance/security-baseline/index.md)
+- [Общие сведения об основных способах защиты](../../govern/security-baseline/index.md)
 
 ::: zone-end
 

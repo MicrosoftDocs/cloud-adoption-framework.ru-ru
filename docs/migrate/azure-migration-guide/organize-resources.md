@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: dbfc365f874b9ad6045454c53270275a5008935d
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 19299c5855600524f3335b00272974790d83c8fa
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70818750"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71022774"
 ---
 # <a name="organize-your-azure-resources"></a>Организация ресурсов Azure
 
@@ -76,9 +76,9 @@ ms.locfileid: "70818750"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Основные сведения об управлении доступом к ресурсам в Azure](../../governance/resource-consistency/azure-resource-access.md)
-- [Упорядочение ресурсов с помощью групп управления Azure](/azure/azure-resource-manager/management-groups-overview)
-- [Подписка Azure, границы, квоты и ограничения службы](/azure/azure-subscription-service-limits)
+- [Основные сведения об управлении доступом к ресурсам в Azure](../../govern/resource-consistency/resource-access-management.md)
+- [Упорядочение ресурсов с помощью групп управления Azure](https://docs.microsoft.com/azure/azure-resource-manager/management-groups-overview)
+- [Подписка Azure, границы, квоты и ограничения службы](https://docs.microsoft.com/azure/azure-subscription-service-limits)
 
 ::: zone-end
 
@@ -124,7 +124,7 @@ ms.locfileid: "70818750"
 
 ::: zone target="docs"
 
-Рекомендуем ознакомиться с [руководством по шаблонам и рекомендациям](/azure/architecture/best-practices/naming-conventions) и применить полученные знания.
+Рекомендуем ознакомиться с [руководством по шаблонам и рекомендациям](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) и применить полученные знания.
 
 >[!TIP]
 >Старайтесь не использовать специальные символы (`-` или `_`) в качестве первого или последнего символа имени. Такие имена не пройдут проверку по большинству правил.
@@ -151,7 +151,7 @@ ms.locfileid: "70818750"
 
 Каждая группа ресурсов может иметь не более 15 пар "имя — значение" для тегов. Но это ограничение касается только тегов, которые применяются напрямую к группе ресурсов или отдельному ресурсу.
 
-Чтобы получить дополнительные сведения об использовании тегов, ознакомьтесь с [соглашениями об именовании Центра архитектуры Azure для ресурсов Azure](../../ready/considerations/name-and-tag.md#metadata-tags).
+Чтобы получить дополнительные сведения об использовании тегов, ознакомьтесь с [соглашениями об именовании Центра архитектуры Azure для ресурсов Azure](../../ready/considerations/naming-and-tagging.md#metadata-tags).
 
 ::: zone target="docs"
 
@@ -166,7 +166,7 @@ ms.locfileid: "70818750"
 
 ## <a name="learn-more"></a>Подробнее
 
-Дополнительные сведения см. в статье об [организации ресурсов Azure с помощью тегов](/azure/azure-resource-manager/resource-group-using-tags).
+Дополнительные сведения см. в статье об [организации ресурсов Azure с помощью тегов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags).
 
 ::: zone-end
 

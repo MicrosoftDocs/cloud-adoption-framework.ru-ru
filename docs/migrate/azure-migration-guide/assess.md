@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: c95134909838f11377b16e90c5deb68850388938
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 19c3d6861ddb4ad87255233fae1a7f535538324b
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70818835"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71022836"
 ---
 # <a name="assess-the-digital-estate"></a>Оценка цифровых активов
 
@@ -58,8 +58,8 @@ ms.locfileid: "70818835"
 
 ### <a name="read-more"></a>Дополнительные сведения
 
-- [Общие сведения о Миграции Azure](/azure/migrate/migrate-services-overview)
-- [Перенос физических и виртуализированных серверов в Azure.](/azure/migrate/tutorial-migrate-physical-virtual-machines)
+- [Общие сведения о Миграции Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview)
+- [Перенос физических и виртуализированных серверов в Azure.](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines)
 - [Миграция Azure на портале Azure](https://portal.azure.com/#blade/Microsoft_Azure_Migrate/AmhResourceMenuBlade/overview)
 
 ::: zone-end
@@ -68,22 +68,22 @@ ms.locfileid: "70818835"
 
 Служба схемы услуги автоматически обнаруживает компоненты приложений в системах Windows и Linux и сопоставляет взаимодействие между службами. Схема услуги позволяет рассматривать серверы как взаимосвязанные системы, предоставляющие важные услуги. Сопоставление служб отображает сведения о подключениях между серверами, процессами, задержками во входящих и выходящих подключениях и портами в любой подключенной по протоколу TCP архитектуре без дополнительной настройки. Пользователям требуется только установить агент.
 
-Служба "Миграция Azure" и использует решение "Сопоставление служб" для расширения возможностей создания отчетов и зависимостей в среде. Полные сведения об этой интеграции приведены в разделе [Визуализация зависимостей](/azure/migrate/concepts-dependency-visualization). Если вы используете службу "Миграция Azure", то дополнительные действия по настройке и использованию преимуществ Сопоставления служб не требуются. Приведенные ниже инструкции предназначены для справки, если вы захотите использовать Сопоставление служб для других целей или проектов.
+Служба "Миграция Azure" и использует решение "Сопоставление служб" для расширения возможностей создания отчетов и зависимостей в среде. Полные сведения об этой интеграции приведены в разделе [Визуализация зависимостей](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization). Если вы используете службу "Миграция Azure", то дополнительные действия по настройке и использованию преимуществ Сопоставления служб не требуются. Приведенные ниже инструкции предназначены для справки, если вы захотите использовать Сопоставление служб для других целей или проектов.
 
 ### <a name="enable-dependency-visualization-using-service-map"></a>Включение визуализации зависимостей с помощью Сопоставления служб
 
 Чтобы использовать визуализацию зависимостей, необходимо скачать и установить агенты на каждом локальном компьютере, который нужно проанализировать.
 
-- [Агент Microsoft Monitoring Agent (MMA)](/azure/log-analytics/log-analytics-agent-windows) должен быть установлен на каждом компьютере.
-- [Агент зависимостей](/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows) должен быть установлен на каждом компьютере.
+- [Агент Microsoft Monitoring Agent (MMA)](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows) должен быть установлен на каждом компьютере.
+- [Агент зависимостей](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows) должен быть установлен на каждом компьютере.
 - Кроме того, если у вас есть компьютеры без подключения к Интернету, необходимо скачать и установить на них шлюз Log Analytics.
 
 <!-- markdownlint-disable MD024 -->
 
 ### <a name="read-more"></a>Дополнительные сведения
 
-- [Использование решения "Сопоставление служб" в Azure](/azure/azure-monitor/insights/service-map)
-- [Миграция Azure и Сопоставление служб: Визуализация зависимостей](/azure/migrate/concepts-dependency-visualization)
+- [Использование решения "Сопоставление служб" в Azure](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)
+- [Миграция Azure и Сопоставление служб: Визуализация зависимостей](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization)
 
 
 # <a name="scenarios-and-stakeholderstabscenarios"></a>[Сценарии и заинтересованные лица](#tab/Scenarios)

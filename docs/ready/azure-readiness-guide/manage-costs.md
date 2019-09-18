@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 89ce17ad531d1ab3ea3df3072aa93654bbe00696
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: b5fd413b1492d1ef885103ee529b4bdfb68f4666
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70818614"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71025194"
 ---
 # <a name="manage-costs-and-billing-for-your-azure-resources"></a>Управление затратами и выставление счетов для ресурсов Azure
 
@@ -67,9 +67,9 @@ ms.locfileid: "70818614"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Документация по выставлению счетов и управлению затратами в Azure](/azure/billing)
+- [Документация по выставлению счетов и управлению затратами в Azure](https://docs.microsoft.com/azure/billing)
 - [Track costs across business units, environments, or projects](../azure-best-practices/track-costs.md) (Отслеживание затрат по бизнес-подразделениям, средам или проектам)
-- [Обзор дисциплины "Управление затратами"](../../governance/cost-management/index.md)
+- [Обзор дисциплины "Управление затратами"](../../govern/cost-management/index.md)
 
 ::: zone-end
 

@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 375631e516163dd1c0ea4832033c68bf17aad515
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: d1b9d6d7e195661b19eb4dd5c2b3f4f2710682b8
+ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70818495"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "71022013"
 ---
 # <a name="stay-current-with-microsoft-azure"></a>Поддержание актуальности процессов в Microsoft Azure
 
@@ -25,7 +25,7 @@ ms.locfileid: "70818495"
 
 Следующие ресурсы помогут вам поддерживать актуальность в Azure:
 
-- [Служба "Работоспособность служб Azure"](/azure/service-health/service-health-overview)
+- [Служба "Работоспособность служб Azure"](https://docs.microsoft.com/azure/service-health/service-health-overview)
   - Работоспособность служб и оповещения обеспечивают своевременное получение уведомлений о текущих проблемах служб, плановом обслуживании и рекомендации по поддержанию работоспособности. Этот ресурс также содержит сведения о функциях, удаленных из Azure.
 - [Обновления Azure](https://azure.microsoft.com/updates)
   - Подпишитесь на обновления Azure, чтобы просматривать объявления об обновлениях продуктов. Объявления содержат краткое описание со ссылкой на подробные сведения, благодаря чему за обновлениями легко следить.
