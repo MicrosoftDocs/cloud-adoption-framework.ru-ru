@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: e4b0ab9c886ec8868cd1f630db6c193cadaff234
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 82ad7e2c4e7e7eac375e99daa0815c8482492e15
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023909"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71223900"
 ---
 # <a name="encryption-decision-guide"></a>Руководство по принятию решений о шифровании
 
@@ -123,7 +123,7 @@ ms.locfileid: "71023909"
 - [Общие сведения о шифровании в Azure](https://docs.microsoft.com/azure/security/security-azure-encryption-overview). Подробное описание того, как Azure использует шифрование для защиты неактивных данных и передаваемых данных.
 - [Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/key-vault-overview) Azure Key Vault является основной системой управления ключами Azure, которая позволяет хранить в Azure криптографические ключи, секреты и сертификаты, а также управлять ими.
 - [Рекомендации по защите и шифрованию данных в Azure.](https://docs.microsoft.com/azure/security/azure-security-data-encryption-best-practices) Здесь приводятся рекомендации по защите и шифрованию данных в Azure.
-- [Конфиденциальные вычисления в Azure](https://azure.microsoft.com/solutions/confidential-compute/). Инициатива конфиденциальных вычислений Azure предоставляет средства и технологии для создания сред доверенного выполнения и других механизмов шифрования, позволяющих защищать используемые данные.
+- [Конфиденциальные вычисления в Azure](https://azure.microsoft.com/solutions/confidential-compute). Инициатива конфиденциальных вычислений Azure предоставляет средства и технологии для создания сред доверенного выполнения и других механизмов шифрования, позволяющих защищать используемые данные.
 
 ## <a name="next-steps"></a>Дополнительная информация
 

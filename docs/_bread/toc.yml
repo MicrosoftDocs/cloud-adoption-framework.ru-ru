@@ -1,3 +1,38 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Azure
+  tocHref: /azure
+  topicHref: /azure
+  items:
+    - name: Cloud Adoption Framework
+      tocHref: /azure/cloud-adoption-framework/
+      topicHref: /azure/cloud-adoption-framework
+      items:
+        - name: Стратегия
+          tocHref: /azure/cloud-adoption-framework/strategy/
+          topicHref: /azure/cloud-adoption-framework/strategy
+        - name: План
+          tocHref: /azure/cloud-adoption-framework/plan/
+          topicHref: /azure/cloud-adoption-framework/plan
+        - name: Ready
+          tocHref: /azure/cloud-adoption-framework/ready/
+          topicHref: /azure/cloud-adoption-framework/ready
+        - name: Внедрение
+          items:
+            - name: Миграция
+              tocHref: /azure/cloud-adoption-framework/migrate/
+              topicHref: /azure/cloud-adoption-framework/migrate
+            - name: Инновации
+              tocHref: /azure/cloud-adoption-framework/innovate/
+              topicHref: /azure/cloud-adoption-framework/innovate
+        - name: Эксплуатация
+          tocHref: /azure/cloud-adoption-framework/operate/
+          topicHref: /azure/cloud-adoption-framework/operate
+          items:
+            - name: Управление
+              tocHref: /azure/cloud-adoption-framework/govern/
+              topicHref: /azure/cloud-adoption-framework/govern
+            - name: Организация
+              tocHref: /azure/cloud-adoption-framework/organize/
+              topicHref: /azure/cloud-adoption-framework/organize
+            - name: Управление
+              tocHref: /azure/cloud-adoption-framework/manage/
+              topicHref: /azure/cloud-adoption-framework/manage

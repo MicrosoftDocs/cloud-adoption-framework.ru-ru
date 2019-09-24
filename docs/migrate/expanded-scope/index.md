@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Контрольный список при расширенной области миграции в облако
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2019
+ms.date: 09/19/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 125c6d044fd766896971aced5bedbc515c14417f
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 4daf4b01a2fde83de1040f224b8096475a24fe60
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70817338"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71224355"
 ---
 # <a name="expanded-scope-for-cloud-migration"></a>Расширенная область миграции в облако
 
@@ -27,7 +27,7 @@ ms.locfileid: "70817338"
 
 - **Изменения области, связанные с бизнесом**:
   - [балансировка портфеля](./balance-the-portfolio.md);
-  - [поддержка глобальных рынков](./multiple-regions.md);
+  - [поддержка глобальных рынков](../../decision-guides/regions/index.md);
   - учет затрат на миграцию *(ожидается в третьем квартале 2019 г.)* .
 - **Изменения области, связанные с культурой организации**:
   - процессы управления изменениями и утверждения *(ожидается в третьем квартале 2019 г.)* ;
