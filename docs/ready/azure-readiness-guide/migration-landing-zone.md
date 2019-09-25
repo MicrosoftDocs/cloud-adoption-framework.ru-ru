@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit
-ms.openlocfilehash: 9b6c526f407a50327aad8dd2fb2639cb7172cb8d
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: f642ea80ac0147f46a93b7c48f38757f456b7436
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025222"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71223938"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
@@ -33,14 +33,14 @@ ms.locfileid: "71025222"
 ![Выравнивание схемы](../../_images/ready/blueprint-overview.png)
 
 - Буква А находится внутри кривой линии, которая обозначает область действия этой схемы. Эта область предназначена для того, чтобы показать, что эта схема охватывает ограниченную сложность архитектуры, но создана на базе относительно средних требований соответствия.
-- Клиенты с высокой степенью сложности и строгими требованиями соответствия могут лучше обслуживаться с использованием расширенной схемы партнера или одного из [стандартных примеров схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/).
+- Клиенты с высокой степенью сложности и строгими требованиями соответствия могут лучше обслуживаться с использованием расширенной схемы партнера или одного из [стандартных примеров схемы](https://docs.microsoft.com/azure/governance/blueprints/samples).
 - Потребности большинства клиентов будут находиться где-то между этими двумя крайностями. Буква B представляет процесс, изложенный в статьях о [зоне размещения](../considerations/index.md). Для клиентов в этом пространстве вы можете использовать руководства по принятию решений, приведенные в этих статьях, чтобы определить узлы, которые будут добавлены в схему зоны размещения для миграции Cloud Adoption Framework. Такой подход позволяет настроить схему в соответствии с вашими потребностями.
 
 ## <a name="use-this-blueprint"></a>Использование этой схемы
 
 Прежде чем использовать схему зоны размещения для миграции Cloud Adoption Framework, ознакомьтесь со следующими предположениями, решениями и рекомендациями по реализации.
 
-## <a name="assumptions"></a>Допущения
+## <a name="assumptions"></a>Предположения
 
 Следующие предположения или ограничения были использованы при определении этой начальной зоны размещения. Если эти предположения совпадают с вашими ограничениями, вы можете использовать схему для создания первой зоны размещения. Схему также можно расширить, чтобы создать схему зоны размещения, которая соответствует вашим уникальным ограничениям.
 
@@ -59,21 +59,21 @@ ms.locfileid: "71025222"
 |---------|---------|---------|
 |Средства миграции|Будет развернута Azure Site Recovery, и будет создан проект Миграции Azure.|[Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)|
 |Ведение журналов и мониторинг|Будут предоставлены рабочее пространство оперативной аналитики и учетная запись хранения диагностики.|         |
-|Network|Будет создана виртуальная сеть с подсетями для шлюза, брандмауэра, Jumpbox и зоны размещения.|[Решения по выбору сетей](../considerations/network-decisions.md)|
+|Сеть|Будет создана виртуальная сеть с подсетями для шлюза, брандмауэра, Jumpbox и зоны размещения.|[Решения по выбору сетей](../considerations/network-decisions.md)|
 |идентификации|Предполагается, что подписка уже связана с экземпляром Azure Active Directory.|[Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/bread/toc.json)         |
 |Политика|В настоящее время эта схема предполагает, что никакие политики Azure не будут применяться.|         |
 |Разработка подписки|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../considerations/scaling-subscriptions.md)|
 |Группы управления|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../considerations/scaling-subscriptions.md)         |
 |Группы ресурсов|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../considerations/scaling-subscriptions.md)         |
-|Данные|Н/Д|[Выбор оптимального варианта SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/bread/toc.json)         |
+|Data|Н/Д|[Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=https://docs.microsoft.com/azure/architecture/toc.json&bc=https://docs.microsoft.com/azure/architecture/bread/toc.json) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
 |Служба хранилища|Н/Д|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-guidance.md)         |
 |Стандарты именования и расстановки тегов|Н/Д|[Рекомендации Azure по добавлению тегов и стандартам именования](../considerations/naming-and-tagging.md)         |
 |Управление затратами|Н/Д|[Отслеживание затрат](../azure-best-practices/track-costs.md)|
-|Службы вычислений|Н/Д|[Варианты вычислений](../considerations/compute-decisions.md)|
+|Вычисления|Н/Д|[Варианты вычислений](../considerations/compute-decisions.md)|
 
 ## <a name="customize-or-deploy-a-landing-zone-from-this-blueprint"></a>Настройка или развертывание зоны размещения из этой схемы
 
-Скачайте эталонный пример схемы зоны размещения для миграции в соответствии с Cloud Adoption Framework для развертывания или настройки, доступный в [наборе примеров Azure Blueprint](https://docs.microsoft.com/azure/governance/blueprints/samples/index).
+Дополнительные сведения и Загрузка образца платформы облачных технологий для миграции и настройки из [примеров использования схем Azure](https://docs.microsoft.com/azure/governance/blueprints/samples)см. в этой статье.
 
 Примеры схем также доступны на портале. Сведения о развертывании схем см. в руководстве по [Azure Blueprints](./govern-org-compliance.md?tabs=azureblueprints#create-a-blueprint).
 

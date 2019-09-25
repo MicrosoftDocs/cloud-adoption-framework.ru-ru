@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Основные сведения о средствах управления доступом к ресурсам в Azure Диспетчер ресурсов Azure, подписки, группы ресурсов и ресурсы
 author: alexbuckgit
 ms.author: abuck
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 46c6de1ecaba5b8278138114b6aa27a2608bfb74
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 87e0918f4d1dad896576d322c8754bc2f6c56fb3
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031091"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71223038"
 ---
 # <a name="resource-access-management-in-azure"></a>Управление доступом к ресурсам в Azure
 
@@ -33,7 +33,7 @@ ms.locfileid: "71031091"
 
 ## <a name="what-is-an-azure-resource-group"></a>Что такое группа ресурсов Azure?
 
-Каждый ресурс в Azure должен принадлежать [группе ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups). Группа ресурсов — это логическая конструкция, в которой сгруппированы несколько ресурсов, что позволяет управлять ими как единой сущностью. Например, ресурсы с аналогичным жизненным циклом, например ресурсы [n-уровневых приложений](https://docs.microsoft.com/azure/architecture/guide/architecture-styles/n-tier), можно создавать или удалять как группу.
+Каждый ресурс в Azure должен принадлежать [группе ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups). Группа ресурсов — это просто логическая конструкция, которая группирует несколько ресурсов вместе, чтобы ими можно было управлять как единой сущностью _на основе жизненного цикла и безопасности_. Например, ресурсы с аналогичным жизненным циклом, например ресурсы [n-уровневых приложений](https://docs.microsoft.com/azure/architecture/guide/architecture-styles/n-tier), можно создавать или удалять как группу. Другой способ: все, что порождено вместе, управляется вместе и является устаревшим, объединяется в группе ресурсов.
 
 ![Схема группы ресурсов, содержащей ресурс](../../_images/govern/design/governance-1-10.png)
 *рис. 2. Группа ресурсов содержит ресурс.*
@@ -42,7 +42,7 @@ ms.locfileid: "71031091"
 
 ## <a name="what-is-an-azure-subscription"></a>Подписка Azure
 
-Подписка Azure, как и группа ресурсов, — это логическая конструкция, в которой сгруппированы группы и ресурсы в них. Тем не менее подписка Azure также связана с элементами управления, используемыми Azure Resource Manager. Что это означает? Рассмотрим более подробно Azure Resource Manager, чтобы больше узнать о связи между ним и подпиской Azure.
+Подписка Azure, как и группа ресурсов, — это логическая конструкция, в которой сгруппированы группы и ресурсы в них. Тем не менее подписка Azure также связана с элементами управления, используемыми Azure Resource Manager. Рассмотрим более подробно Azure Resource Manager, чтобы больше узнать о связи между ним и подпиской Azure.
 
 ![Схема подписки](../../_images/govern/design/governance-1-11.png)
 Azure*рис. 3. Подписка Azure.*

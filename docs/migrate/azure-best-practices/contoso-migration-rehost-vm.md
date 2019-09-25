@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 3bc125145afce529507a341eae6b818cceee9330
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 1d4538230ae99fd7c22f53e2873645c9b112e46a
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024005"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71224119"
 ---
 # <a name="rehost-an-on-premises-app-to-azure-vms"></a>Повторное размещение локального приложения на виртуальных машинах Azure
 
@@ -95,7 +95,7 @@ ms.locfileid: "71024005"
 
 **Служба** | **Описание** | **Стоимость**
 --- | --- | ---
-[Миграция сервера службы "Миграция Azure"](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm) | Служба управляет переносом локальных приложений и рабочих нагрузок, а также экземпляров виртуальных машин AWS/GCP. | Во время репликации в Azure взимается плата за службу хранилища Azure. При отработке отказа создаются виртуальные машины Azure, за которые взимается плата. Дополнительные сведения о ценах см. на [этой странице](https://azure.microsoft.com/pricing/details/azure-migrate/).
+[Миграция сервера службы "Миграция Azure"](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm) | Служба управляет переносом локальных приложений и рабочих нагрузок, а также экземпляров виртуальных машин AWS/GCP. | Во время репликации в Azure взимается плата за службу хранилища Azure. При отработке отказа создаются виртуальные машины Azure, за которые взимается плата. Дополнительные сведения о ценах см. на [этой странице](https://azure.microsoft.com/pricing/details/azure-migrate).
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -144,7 +144,7 @@ ms.locfileid: "71024005"
 
 **Нужна дополнительная помощь?**
 
-[Узнайте больше о](https://docs.microsoft.com/azure/migrate/) настройке средства миграции серверов Миграции Azure.
+[Узнайте больше о](https://docs.microsoft.com/azure/migrate) настройке средства миграции серверов Миграции Azure.
 
 ### <a name="prepare-to-connect-to-azure-vms-after-failover"></a>Подготовка к подключению виртуальных машин Azure после отработки отказа
 
@@ -276,7 +276,7 @@ ms.locfileid: "71024005"
 
 Теперь, когда приложение работает, компании Contoso необходимо полностью ввести его в эксплуатацию и защитить его в Azure.
 
-### <a name="security"></a>Безопасность
+### <a name="security"></a>Группа безопасности
 
 Специалисты по безопасности компании Contoso проверяют виртуальные машины Azure, чтобы выявить любые проблемы безопасности.
 

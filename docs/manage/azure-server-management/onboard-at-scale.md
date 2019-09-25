@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 56a989e975625c9d8f0f3db80dab9043dca3a479
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: a5b1d551f52ae8800e9a29d4c8a92c14965645cc
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71029092"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71221499"
 ---
 # <a name="configure-azure-management-services-at-scale"></a>Настройка служб управления Azure в масштабе
 
@@ -30,7 +30,7 @@ ms.locfileid: "71029092"
 
 Все решения по управлению, обсуждаемые в [средствах и службах управления Azure](./tools-services.md) , нуждаются в установке агента log Analytics на виртуальных машинах Azure и локальных серверах. Вы можете подключить виртуальные машины Azure в нужном масштабе с помощью политики Azure. Назначьте политику, чтобы убедиться, что агент установлен на всех виртуальных машинах Azure и подключен к нужной рабочей области Log Analytics.
 
-В политике Azure есть встроенная [инициатива политики](https://docs.microsoft.com/azure/governance/policy/index.md#initiative-definition) , которая включает в себя как агент log Analytics, так и [Агент зависимостей Майкрософт](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), необходимый для Azure Monitor для виртуальных машин.
+В политике Azure есть встроенная [инициатива политики](/azure/governance/policy/index#initiative-definition) , которая включает в себя как агент log Analytics, так и [Агент зависимостей Майкрософт](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), необходимый для Azure Monitor для виртуальных машин.
 
 <!-- TODO: Add these when available.
 - [Preview]: Enable Azure Monitor for virtual machine scale sets.

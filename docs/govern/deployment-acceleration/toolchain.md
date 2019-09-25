@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Средства ускорения развертывания в Azure
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b9cf2edd1edafb4390b89465dba4a8e8dcfc1b0e
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: d47162b3e1a6a303e8b346146948667bc42c2326
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71028242"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71222672"
 ---
 # <a name="deployment-acceleration-tools-in-azure"></a>Средства ускорения развертывания в Azure
 

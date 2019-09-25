@@ -4,21 +4,21 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание управления затратами в отношении управления облаком
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: be1d4456ac8924c87241089c637fa3aacc38fb47
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 575eace59b33163c1f0020b005bda2ceeb14dc9b
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71027432"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71220964"
 ---
 # <a name="cost-management-metrics-indicators-and-risk-tolerance"></a>Метрики, индикаторы и допустимость риска управления затратами
 
-Эта статья поможет вам оценить допустимость бизнес-рисков в отношении управления затратами. Определение метрик и показателей позволит создать экономическое обоснование для принятия решений об инвестициях в развитие дисциплины "Управление затратами".
+Эта статья поможет определить степень отклонения бизнес-рисков по отношению к управлению затратами. Определение метрик и показателей позволит создать экономическое обоснование для принятия решений об инвестициях в развитие дисциплины "Управление затратами".
 
 ## <a name="metrics"></a>metrics
 

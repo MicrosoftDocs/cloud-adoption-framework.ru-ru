@@ -4,18 +4,18 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как постепенно улучшать начальную облачную систему управления.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 01/03/2019
+ms.date: 09/13/2019
 ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: d4a0338daa65ea4269077f15acee05cd99a5fb10
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: d7e4c0516e1c52f1fc6ddd8b42485902cb24d58e
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71027230"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71223641"
 ---
 # <a name="improve-your-initial-cloud-governance-foundation"></a>Улучшите начальное облако по управлению Cloud Foundation
 
@@ -28,14 +28,14 @@ ms.locfileid: "71027230"
 > [!IMPORTANT]
 > Организация ресурсов может повлиять на то, как применяется это нормативное руководство. Важно начать с рекомендаций, которые лучше согласованы с первоначальной облачной средой управления, реализованной на предыдущем шаге.
 
-|Риск/потребность | Малый — средний уровень предприятия | Крупные предприятия |
+|Риск/потребность | Стандартное предприятие | Сложное предприятие |
 |---|---|---|
 |Конфиденциальные данные в облаке|[Нормативные руководства](./guides/standard/security-baseline-improvement.md)|[Нормативные руководства](./guides/complex/security-baseline-improvement.md)|
 |Критически важные приложения в облаке|[Нормативные руководства](./guides/standard/resource-consistency-improvement.md)|[Нормативные руководства](./guides/complex/resource-consistency-improvement.md)|
 |Управление затратами на облако|[Нормативные руководства](./guides/standard/cost-management-improvement.md)|[Нормативные руководства](./guides/complex/cost-management-improvement.md)|
 |Многооблачная среда|[Нормативные руководства](./guides/standard/multicloud-improvement.md)|[Нормативные руководства](./guides/complex/multicloud-improvement.md)|
-|Комплексное или устаревшее управление удостоверениями|         |[Нормативные руководства](./guides/complex/identity-baseline-improvement.md)|
-|Использование нескольких уровней управления|         |[Нормативные руководства](./guides/complex/multiple-layers-of-governance.md)|
+|Комплексное или устаревшее управление удостоверениями|Н/Д|[Нормативные руководства](./guides/complex/identity-baseline-improvement.md)|
+|Использование нескольких уровней управления|Н/Д|[Нормативные руководства](./guides/complex/multiple-layers-of-governance.md)|
 
 ## <a name="next-steps"></a>Следующие шаги
 

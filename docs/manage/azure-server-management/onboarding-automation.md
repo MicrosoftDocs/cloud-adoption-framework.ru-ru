@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: a3a1ae1f49fea514ce2ab194f7e959e428b37ad6
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 242c8a1a054507c3b1134b1126ea95e3ead74d84
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71029095"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71221367"
 ---
 # <a name="automate-onboarding"></a>Автоматизация адаптации
 
@@ -21,7 +21,7 @@ ms.locfileid: "71029095"
 
 ## <a name="onboarding-by-using-automation"></a>Адаптация с помощью службы автоматизации
 
-В этом руководстве содержится поддерживаемый репозиторий GitHub с примером кода [клаудадоптионфрамеворк](https://aka.ms/CAF/manage/automation-samples), который содержит примеры сценариев и шаблоны Azure Resource Manager, помогающие автоматизировать развертывание служб управления сервером Azure.
+В этом руководстве содержится поддерживаемый репозиторий GitHub с примером кода [клаудадоптионфрамеворк](https://aka.ms/caf/manage/automation-samples), который содержит примеры сценариев и шаблоны Azure Resource Manager, помогающие автоматизировать развертывание служб управления сервером Azure.
 
 В этих примерах файлов показано, как использовать командлеты Azure PowerShell для автоматизации следующих задач:
 
@@ -33,7 +33,7 @@ ms.locfileid: "71029095"
 
 4. Включите Управление обновлениями и Отслеживание изменений и инвентаризацию для рабочей области.
 
-5. Подключение виртуальных машин Azure с помощью политики Azure (политика устанавливает агент Log Analytics и Dependency Agent на виртуальных машинах Azure).
+5. Подключение виртуальных машин Azure с помощью политики Azure (политика устанавливает агент Log Analytics и агент зависимостей на виртуальных машинах Azure).
 
 6. Подключите локальные серверы, установив на них агент Log Analytics.
 

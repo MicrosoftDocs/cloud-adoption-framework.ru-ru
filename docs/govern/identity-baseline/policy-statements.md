@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Примеры правил политики основных способов идентификации
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: fae5bb8283487ef7724f872fc293def2c1a80071
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 39742436ab6c4a176e40ce8188c13cca55f23521
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71030810"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71222132"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Примеры правил политики основных способов идентификации
 
@@ -67,11 +67,11 @@ ms.locfileid: "71030810"
 
 **Правило политики**. При развертывании любых приложений, для работы с которыми требуется аутентификация клиента, должен использоваться утвержденный поставщик удостоверений, совместимый с основным поставщиком удостоверений для внутренних пользователей.
 
-**Возможные варианты проектирования:** Реализуйте [федерацию с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed) между вашими внутренними поставщиками и поставщиками удостоверений клиентов.
+**Возможные варианты проектирования:** Реализация [Федерации с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed) между внутренними поставщиками удостоверений и клиентами или использование [Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)
 
 ## <a name="identity-reviews"></a>Проверки идентификации
 
-**Технический риск:** Со временем изменения компании, добавление новых развертываний облака или другие проблемы безопасности могут увеличить риски несанкционированного доступа к защищенным ресурсам.
+**Технический риск:** По мере изменения бизнеса с течением времени Добавление новых облачных развертываний или других проблем безопасности может повысить риски несанкционированного доступа к защищенным ресурсам.
 
 **Правило политики**. Процессы системы управления облаком должны включать ежеквартальные проверки с командами управления удостоверениями. Это позволит определять вредоносные субъекты и шаблоны использования, которые должны блокироваться конфигурацией облачных ресурсов.
 

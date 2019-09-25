@@ -4,20 +4,20 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Объяснение системы управления облачными ресурсами в Azure
 author: alexbuckgit
 ms.author: abuck
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 083b18c0c8c5edc0dc21a198df32e8934929299c
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 7f22a4f28d0d84a8847d06d37ad88002a03ecc16
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71027665"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71221868"
 ---
 <!-- markdownlint-disable MD026 -->
 
-# <a name="what-is-cloud-resource-governance"></a>Общее представление о системе управления облачными ресурсами
+# <a name="cloud-resource-governance"></a>Управление облачными ресурсами
 
 В разделе [как работает Azure?](../../getting-started/what-is-azure.md)вы узнали, что Azure — это коллекция серверов и сетевого оборудования, выполняющего виртуализированное оборудование и программное обеспечение от имени пользователей. Azure обеспечивает гибкую разработку приложений и ИТ-отделов Организации, упрощая создание, чтение, обновление и удаление ресурсов по мере необходимости.
 

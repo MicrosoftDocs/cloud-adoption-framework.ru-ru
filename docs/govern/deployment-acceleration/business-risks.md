@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Дополнительные сведения о дисциплине ускорения развертывания как части стратегии управления облаком.
 author: alexbuckgit
 ms.author: abuck
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: feaf5a7f0f2622c2b2289fe81315ea9ccf2ada4e
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: d827b4de1c938180579303e60c6808d65fcd14a8
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71027235"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71220716"
 ---
 # <a name="deployment-acceleration-motivations-and-business-risks"></a>Мотивации и бизнес-риски ускорения развертывания
 
@@ -22,7 +22,7 @@ ms.locfileid: "71027235"
 
 <!-- markdownlint-disable MD026 -->
 
-## <a name="is-deployment-acceleration-relevant"></a>Актуально ли ускорение развертывания?
+## <a name="deployment-acceleration-relevancy"></a>Релевантность для ускорения развертывания
 
 Локальные системы часто развертываются с помощью базовых образов или сценариев установки. Обычно требуется дополнительная настройка, что может включать несколько шагов или вмешательство пользователя. Эти выполняемые вручную процессы подвержены ошибкам и часто приводят к "отклонениям конфигурации", требующим выполнение задач по устранению неполадок и исправлению, занимающих много времени.
 

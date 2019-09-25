@@ -4,21 +4,21 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Метрики, индикаторы и допустимость риска в базовой системе безопасности
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2eeab224a9f025b9e93cf407626455e74d69ccd4
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: b8171839b79ffbe9e3849cf303180d1f1ee049f2
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71027445"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71222853"
 ---
 # <a name="security-baseline-metrics-indicators-and-risk-tolerance"></a>Метрики, индикаторы и допустимость риска в базовой системе безопасности
 
-В этой статье описывается, как оценить допустимость бизнес-рисков в отношении базовой системы безопасности. Определение метрик и показателей позволит создать экономическое обоснование для принятия решений об инвестициях в развитие дисциплины базовой системы безопасности.
+Эта статья поможет определить степень отклонения бизнес-рисков по отношению к базовому плану безопасности. Определение метрик и показателей позволит создать экономическое обоснование для принятия решений об инвестициях в развитие дисциплины базовой системы безопасности.
 
 ## <a name="metrics"></a>metrics
 

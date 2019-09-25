@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 7b450165c1356e5297a3424ea8f699dced0422a4
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 75aa65f9a39576eb807e7b147c2c4a658f693619
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71030571"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71224290"
 ---
 # <a name="skills-readiness-path-during-the-ready-phase-of-a-migration"></a>Путь готовности к навыкам на этапе готовности к миграции
 
@@ -44,9 +44,9 @@ ms.locfileid: "71030571"
 
 На этапе готовности архитекторы должны проектировать решения, охватывающие все среды Azure. Следующие ресурсы могут быть подготовлены для следующих задач:
 
-- [Foundations for cloud architecture](https://app.pluralsight.com/library/courses/cloud-architecture-foundations/) (Основы облачной архитектуры). PluralSight курс для помощи в проектировании правильных базовых решений.
-- [Microsoft Azure architecture](https://app.pluralsight.com/library/courses/cloud-architecture-foundations/) (Архитектура Microsoft Azure). PluralSight курс для архитекторов-заземлений в архитектуре Azure.
-- [Designing migrations for Microsoft Azure](https://app.pluralsight.com/library/courses/cloud-architecture-foundations/) (Проектирование миграции для Microsoft Azure). PluralSight курс, помогающий архитекторам спроектировать решение для перехода.
+- [Foundations for cloud architecture](https://app.pluralsight.com/library/courses/cloud-architecture-foundations) (Основы облачной архитектуры). PluralSight курс для помощи в проектировании правильных базовых решений.
+- [Microsoft Azure architecture](https://app.pluralsight.com/library/courses/cloud-architecture-foundations) (Архитектура Microsoft Azure). PluralSight курс для архитекторов-заземлений в архитектуре Azure.
+- [Designing migrations for Microsoft Azure](https://app.pluralsight.com/library/courses/cloud-architecture-foundations) (Проектирование миграции для Microsoft Azure). PluralSight курс, помогающий архитекторам спроектировать решение для перехода.
 
 ## <a name="deeper-skills-exploration"></a>Углубленное изучение навыков
 
@@ -75,4 +75,4 @@ Microsoft Learn — это новый подход к изучению. Гот�
 
 - [Разработчики](/learn/browse/?roles=developer&term=infrastructure) могут использовать ресурсы для получения помощи при выполнении действий по архитектуре, управлению, модернизации.
 
-Дополнительные схемы обучения см. в [каталоге материалов обучения](/learn/browse/). Используйте фильтр ролей для согласования путей обучения с вашей ролью.
+Дополнительные схемы обучения см. в [каталоге материалов обучения](/learn/browse). Используйте фильтр ролей для согласования путей обучения с вашей ролью.

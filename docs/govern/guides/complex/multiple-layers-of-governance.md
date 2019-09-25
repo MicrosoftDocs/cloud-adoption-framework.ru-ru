@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a0a2674a91b963154d757eb35290b8aeead5c503
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 4efd5b3de5551297a6ef5813a5108f3ad039472c
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71028047"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71222304"
 ---
 # <a name="governance-guide-for-complex-enterprises-multiple-layers-of-governance"></a>Руководство по управлению для сложных предприятий: Использование нескольких уровней управления
 
@@ -57,4 +57,3 @@ ms.locfileid: "71028047"
 - **Группы внедрения в облако:** Подробное решение и реализация приложений или рабочих нагрузок могут осуществляться всеми участниками группы по управлению облаком в контексте требований управления. В некоторых случаях команда может также запросить дополнительные шаблоны согласованности ресурсов Azure, позволяющие ускорить внедрение.
 
 Сведения, касающиеся реализации управления на каждом уровне, требуют координации между каждой из команд. Специалисты MVP по управлению и управлению, описанные в этом разделе, могут помочь в согласовании этой координации.
-

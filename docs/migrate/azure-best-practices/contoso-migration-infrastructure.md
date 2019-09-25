@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: c367bb500cf9271603cab07ac07649607bfc04a4
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 35a7d62236203dd916d99aea8bf67853c86df10a
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024341"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71224151"
 ---
 # <a name="deploy-a-migration-infrastructure"></a>Развертывание инфраструктуры миграции
 
@@ -496,7 +496,7 @@ Contoso развернет концентраторы в каждом регио
 
 #### <a name="subnets-in-the-central-us-production-network-vnet-prod-cus"></a>Подсети в рабочей сети в центральной части США (VNET-PROD-CUS)
 
-Параллельно с рабочей сетью в основном регионе "Восточная часть США 2" в дополнительном регионе "Центральная часть США" функционирует еще одна рабочая сеть.
+Параллельно с рабочей сетью в основном регионе "Восточная часть США 2" имеется рабочая сеть в дополнительном регионе США.
 
 **Подсеть** | **CIDR** | **Адреса** | **Компоненты в подсети**
 --- | --- | --- | ---
@@ -774,16 +774,16 @@ Contoso следует учесть несколько аспектов:
 
 В Contoso составили модель вышеописанной системы для своих приложений.
 
-![Безопасность](./media/contoso-migration-infrastructure/asg.png)
+![Группа безопасности](./media/contoso-migration-infrastructure/asg.png)
 
 Группы безопасности сети, связанные с группами безопасности приложений, будут настроены с наименьшими разрешениями. Благодаря этому из одной части сети в другую смогут передаваться только разрешенные пакеты.
 
 **Действие** | **Name** | **Source** | **Цель** | **Порт**
 --- | --- | --- | --- | ---
-РАЗРЕШИТЬ | AllowiInternetToFE | VNET-HUB-EUS1/IB-TrustZone | APP1-FE 80, 443
-РАЗРЕШИТЬ | AllowWebToApp | APP1-FE | APP1-APP | 80, 443
-РАЗРЕШИТЬ | AllowAppToDB | APP1-APP | APP1-DB | 1433
-Запрет | DenyAllInbound | Any | Any | Any
+Allow | AllowiInternetToFE | VNET-HUB-EUS1/IB-TrustZone | APP1-FE 80, 443
+Allow | AllowWebToApp | APP1-FE | APP1-APP | 80, 443
+Allow | AllowAppToDB | APP1-APP | APP1-DB | 1433
+Запретить | DenyAllInbound | Any | Any | Any
 
 ### <a name="encrypt-data"></a>Шифрование данных
 

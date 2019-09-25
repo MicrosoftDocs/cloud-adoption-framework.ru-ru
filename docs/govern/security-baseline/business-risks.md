@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Мотивации и бизнес-риски основных способов защиты
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a77df6b190db7f9fd5f44e233e175670ff7f4855
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 937eb35c07996e57bc51f85090f8e1fd136848f8
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71026826"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71222282"
 ---
 # <a name="security-baseline-motivations-and-business-risks"></a>Мотивации и бизнес-риски основных способов защиты
 
@@ -22,7 +22,7 @@ ms.locfileid: "71026826"
 
 <!-- markdownlint-disable MD026 -->
 
-## <a name="is-a-security-baseline-relevant"></a>Релевантность основных способов защиты
+## <a name="security-baseline-relevancy"></a>Релевантность базовых показателей безопасности
 
 Безопасность является основной проблемой для ИТ-организации. С облачными развертываниями связаны те же риски безопасности, что и с рабочими нагрузками, размещенными в традиционных локальных центрах обработки данных. Тем не менее характер общедоступных облачных платформ с отсутствием прямого владельца физического оборудования, которое хранит и выполняет рабочие нагрузки, требует наличия собственных политик и процессов для обеспечения безопасности облака.
 

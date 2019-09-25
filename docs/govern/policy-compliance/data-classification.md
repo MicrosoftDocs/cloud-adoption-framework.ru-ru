@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Классификация данных
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d293aa5b4427b8f714175b85c6bb5197b53f107a
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 86c57efed1be2760aca607197eb8d28f0151097a
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71027205"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71223584"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -40,7 +40,7 @@ ms.locfileid: "71027205"
 
 ## <a name="tagging-data-classification-in-azure"></a>Добавление тегов к классификации данных в Azure
 
-Каждый поставщик облачных служб должен предлагать механизм записи метаданных о любом ресурсе. В случае Azure Теги ресурсов являются предлагаемым подходом к хранилищу метаданных, и эти теги можно использовать для применения сведений о классификации данных к развернутым ресурсам. Хотя разметка облачных ресурсов по классификации не является заменой для процесса формальной классификации данных, она предоставляет ценное средство для управления ресурсами и применения политик.
+Теги ресурсов являются предлагаемым подходом к хранилищу метаданных, и эти теги можно использовать для применения сведений о классификации данных к развернутым ресурсам. Хотя разметка облачных ресурсов по классификации не является заменой для процесса формальной классификации данных, она предоставляет ценное средство для управления ресурсами и применения политик. [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) — отличное решение, помогающее классифицировать сами _данные_ независимо от того, где они находятся (в локальной службе в Azure и где-то еще), и должны рассматриваться как часть общей стратегии классификации.
 
 Дополнительные сведения о тегах ресурсов см. в статье [Использование тегов для организации ресурсов в Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags).
 
