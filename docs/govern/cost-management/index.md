@@ -4,18 +4,18 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание управления затратами в отношении управления облаком
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: d7f44027bdc7b2b17dc60dd070092b266609188c
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: b95d3ccf3a7248c38da9936a55fc169adcf2f2a2
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025931"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71221171"
 ---
 # <a name="cost-management-discipline-overview"></a>Обзор дисциплины "Управление затратами"
 
@@ -70,7 +70,7 @@ ms.locfileid: "71025931"
                     </div>
                     <div class="cardText" style="padding-left:0px;">
                         <h3>Бизнес-риски</h3>
-                        <p class="x-hidden-focus">Вы должны распознать мотивы и риски, связанные с дисциплиной "Управление затратами".</p>
+                        <p class="x-hidden-focus">Изучите мотивы и риски, связанные с дисциплиной "Управление затратами".</p>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@ ms.locfileid: "71025931"
                     </div>
                     <div class="cardText" style="padding-left:0px;">
                         <h3>Индикаторы и метрики</h3>
-                        <p class="x-hidden-focus">Показатели, которые помогут понять, настало ли время для инвестиций в дисциплину "Управление затратами".</p>
+                        <p class="x-hidden-focus">Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Управление затратами".</p>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@ ms.locfileid: "71025931"
                     </div>
                     <div class="cardText" style="padding-left:0px;">
                         <h3>Процессы, обеспечивающие соблюдение политики</h3>
-                        <p class="x-hidden-focus">Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Управление затратами".</p>
+                        <p class="x-hidden-focus">Здесь предложены процессы для соблюдения политики в дисциплине "Управление затратами".</p>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@ ms.locfileid: "71025931"
                     </div>
                     <div class="cardText" style="padding-left:0px;">
                         <h3>Зрелость</h3>
-                        <p class="x-hidden-focus">Сопоставление развития системы управления облаком с этапами внедрения облачных технологий.</p>
+                        <p class="x-hidden-focus">Согласование оптимизации управления облаком с этапами внедрения облачных технологий.</p>
                     </div>
                 </div>
             </div>

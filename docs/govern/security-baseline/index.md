@@ -4,18 +4,18 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Общие сведения об основных способах защиты
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 02/11/2019
+ms.date: 09/17/2019
 ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 3d193a2fd71ffcda2b117d722603b08c27144aa3
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 1338fb14ed39915dc9e55c855dd5bbf00ba7a6eb
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71026426"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71221764"
 ---
 # <a name="security-baseline-discipline-overview"></a>Общие сведения об основных способах защиты
 
@@ -72,7 +72,7 @@ ms.locfileid: "71026426"
                     </div>
                     <div class="cardText" style="padding-left:0px;">
                         <h3>Бизнес-риски</h3>
-                        <p class="x-hidden-focus">Вы должны распознать мотивы и риски, связанные с дисциплиной "Основные способы защиты".</p>
+                        <p class="x-hidden-focus">Изучите мотивы и риски, связанные с дисциплиной "Основные способы защиты".</p>
                     </div>
                 </div>
             </div>
@@ -91,7 +91,7 @@ ms.locfileid: "71026426"
                     </div>
                     <div class="cardText" style="padding-left:0px;">
                         <h3>Индикаторы и метрики</h3>
-                        <p class="x-hidden-focus">Показатели, которые помогут понять, настало ли время для инвестиций в дисциплину "Основные способы защиты".</p>
+                        <p class="x-hidden-focus">Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Основные способы защиты".</p>
                     </div>
                 </div>
             </div>
@@ -110,7 +110,7 @@ ms.locfileid: "71026426"
                     </div>
                     <div class="cardText" style="padding-left:0px;">
                         <h3>Процессы, обеспечивающие соблюдение политики</h3>
-                        <p class="x-hidden-focus">Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Основные способы защиты".</p>
+                        <p class="x-hidden-focus">Здесь предложены процессы для соблюдения политики в дисциплине "Основные способы защиты".</p>
                     </div>
                 </div>
             </div>
@@ -129,7 +129,7 @@ ms.locfileid: "71026426"
                     </div>
                     <div class="cardText" style="padding-left:0px;">
                         <h3>Зрелость</h3>
-                        <p class="x-hidden-focus">Сопоставление развития системы управления облаком с этапами внедрения облачных технологий.</p>
+                        <p class="x-hidden-focus">Согласование оптимизации управления облаком с этапами внедрения облачных технологий.</p>
                     </div>
                 </div>
             </div>
