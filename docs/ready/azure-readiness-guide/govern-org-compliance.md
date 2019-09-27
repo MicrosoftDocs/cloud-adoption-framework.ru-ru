@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: e38512ef75a0bb60f07467fc6a73ca90e1392fca
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 99d8520b74f00372d5cbf22f81669a6c27d22431
+ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025244"
+ms.lasthandoff: 09/24/2019
+ms.locfileid: "71224276"
 ---
 # <a name="governance-security-and-compliance-in-azure"></a>Система управления, безопасность и соответствие требованиям в Azure
 
@@ -69,7 +69,7 @@ ms.locfileid: "71025244"
 1. Перейдите в раздел **Схемы — Определения схем**.
 1. Выберите схему, созданную ранее.
 1. Проверьте определение схемы и щелкните **Опубликовать схему**.
-1. Укажите **версию** (например, 1.0) и все **заметки об изменениях**, а затем щелкните **Опубликовать**.
+1. Укажите **версию** (например, _1.0_) и все **заметки об изменениях**, а затем выберите **Опубликовать**.
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints]" submitText="Blueprint definitions" :::
 
@@ -80,7 +80,7 @@ ms.locfileid: "71025244"
 1. Перейдите в раздел [Схемы — Определения схем](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
 1. Выберите схему, созданную ранее.
 1. Проверьте определение схемы и щелкните **Опубликовать схему**.
-1. Укажите **версию** (например, 1.0) и все **заметки об изменениях**, а затем щелкните **Опубликовать**.
+1. Укажите **версию** (например, _1.0_) и все **заметки об изменениях**, а затем выберите **Опубликовать**.
 
 ::: zone-end
 
@@ -92,7 +92,7 @@ ms.locfileid: "71025244"
 
 - [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints)
 - [Руководство по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
-- [Примеры схем на основе стандартов](https://docs.microsoft.com/azure/governance/blueprints/samples/index.md#standards-based-blueprint-samples)
+- [Примеры схем на основе стандартов](/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
 
 ::: zone-end
 
