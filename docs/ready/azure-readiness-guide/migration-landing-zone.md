@@ -4,17 +4,17 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как развернуть зону размещения для миграции в Azure.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 5/19/2019
+ms.date: 09/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit
-ms.openlocfilehash: f642ea80ac0147f46a93b7c48f38757f456b7436
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 329274859f50aa83ebb90e79597fa1ffe0973ab8
+ms.sourcegitcommit: 1dccf1aed8e98aa0f58c4f86d90c65f5fa5ac84d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223938"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71811107"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
@@ -75,7 +75,7 @@ ms.locfileid: "71223938"
 
 Дополнительные сведения и Загрузка образца платформы облачных технологий для миграции и настройки из [примеров использования схем Azure](https://docs.microsoft.com/azure/governance/blueprints/samples)см. в этой статье.
 
-Примеры схем также доступны на портале. Сведения о развертывании схем см. в руководстве по [Azure Blueprints](./govern-org-compliance.md?tabs=azureblueprints#create-a-blueprint).
+Примеры схем также доступны на портале. Дополнительные сведения о создании схемы см. в статье Создание схем [Azure](./govern-org-compliance.md?tabs=azureblueprints#create-a-blueprint).
 
 Дополнительные сведения по настройке, которую необходимо внести в эту схему или итоговую зону размещения, см. в статье [Рекомендации по использованию зон размещения](../considerations/index.md).
 
