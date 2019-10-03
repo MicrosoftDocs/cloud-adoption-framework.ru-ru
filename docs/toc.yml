@@ -678,6 +678,8 @@
                   href: manage/monitor/platform-overview.md
             - name: Обеспечение проверки операционной пригодности
               href: manage/operational-fitness-review.md
+            - name: Централизация операций управления
+              href: manage/centralize-operations.md
     - name: Справочные материалы
       items:
         - name: Стратегия развития Cloud Adoption Framework
