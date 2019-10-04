@@ -4,22 +4,22 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как настроить систему управления, безопасность и соответствие требованиям в среде Azure.
 author: tvuylsteke
 ms.author: kfollis
-ms.date: 04/09/2019
+ms.date: 09/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 99d8520b74f00372d5cbf22f81669a6c27d22431
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: b94c1cac96fa5458c722d0a66e1ef2dac9d167f9
+ms.sourcegitcommit: 1dccf1aed8e98aa0f58c4f86d90c65f5fa5ac84d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224276"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71804478"
 ---
 # <a name="governance-security-and-compliance-in-azure"></a>Система управления, безопасность и соответствие требованиям в Azure
 
-При создании корпоративной политики и планировании стратегий управления вы можете использовать средства и службы, такие как Политика Azure, Azure Blueprints и Центр безопасности Azure, для применения и автоматизации решений по управлению вашей организацией. Прежде чем приступить к планированию управления, [используйте средство тестирования производительности системы управления](http://aka.ms/caf/gov/assess), чтобы выделить потенциальные промахи в подходе к облачному управлению в своей организации. Дополнительные сведения о разработке процессов управления см. в статье [Управление в Microsoft Cloud Adoption Framework для Azure](../../govern/index.md).
+При создании корпоративной политики и планировании стратегий управления вы можете использовать средства и службы, такие как Политика Azure, Azure Blueprints и Центр безопасности Azure, для применения и автоматизации решений по управлению вашей организацией. Прежде чем приступить к планированию управления, [используйте средство тестирования производительности системы управления](https://cafbaseline.com), чтобы выделить потенциальные промахи в подходе к облачному управлению в своей организации. Дополнительные сведения о разработке процессов управления см. в статье [Управление в Microsoft Cloud Adoption Framework для Azure](../../govern/index.md).
 
 # <a name="azure-blueprintstabazureblueprints"></a>[Azure Blueprints](#tab/AzureBlueprints)
 
@@ -78,7 +78,7 @@ ms.locfileid: "71224276"
 ::: zone target="docs"
 
 1. Перейдите в раздел [Схемы — Определения схем](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
-1. Выберите схему, созданную ранее.
+1. Выберите определение схемы, созданное ранее.
 1. Проверьте определение схемы и щелкните **Опубликовать схему**.
 1. Укажите **версию** (например, _1.0_) и все **заметки об изменениях**, а затем выберите **Опубликовать**.
 
@@ -165,6 +165,7 @@ ms.locfileid: "71224276"
 ::: zone-end
 
 ::: zone target="chromeless"
+
 ## <a name="action"></a>Действие
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Security/SecurityMenuBlade/SecurityMenuBlade/0]" submitText="Explore Azure Security Center" :::
