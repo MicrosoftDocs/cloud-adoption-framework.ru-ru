@@ -1,7 +1,7 @@
 ---
-title: 'Стандартное руководство для предприятий: Начальная корпоративная политика, лежащая в основе стратегии управления'
+title: 'Стандартное руководство по корпоративному управлению: Начальная корпоративная политика, лежащая в основе стратегии управления'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: 'Стандартное руководство для предприятий: Начальная корпоративная политика, лежащая в основе стратегии управления'
+description: 'Стандартное руководство по корпоративному управлению: Начальная корпоративная политика, лежащая в основе стратегии управления'
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ec184cc41608452c945e7665eae845a773b7cfbd
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 5e269e623f22fa976f85c75c130ef0b19e4e9620
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223665"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967535"
 ---
-# <a name="standard-enterprise-guide-initial-corporate-policy-behind-the-governance-strategy"></a>Стандартное руководство для предприятий: Начальная корпоративная политика, лежащая в основе стратегии управления
+# <a name="standard-enterprise-governance-guide-initial-corporate-policy-behind-the-governance-strategy"></a>Стандартное руководство по корпоративному управлению: Начальная корпоративная политика, лежащая в основе стратегии управления
 
 Следующая Корпоративная политика определяет начальную позицию управления, которая является отправной точкой для данного руководства. В этой статье определяются риски на ранних стадиях, первоначальные правила политики и ранние процессы для принудительного применения правил политики.
 

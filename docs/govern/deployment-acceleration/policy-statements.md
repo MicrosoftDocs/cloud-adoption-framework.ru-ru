@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4de6cced9bb387f2955d644f93523ac4f26931da
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 1a4a82893535228e84defc8918be6e5fa884ca16
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222664"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967688"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Примеры правил политик ускорения развертывания
 
@@ -32,7 +32,7 @@ ms.locfileid: "71222664"
 
 **Правило политики**. Развертывание всех ресурсов в облаке должно выполняться с использованием шаблонов или сценариев автоматизации, если это возможно.
 
-**Возможные варианты проектирования:** [Шаблоны Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#template-deployment) предоставляют подход "инфраструктура как код" для развертывания ваших ресурсов в Azure. [Terraform](https://docs.microsoft.com/azure/terraform/terraform-overview) также можно использовать как единое локальное и облачное средство развертывания.
+**Возможные варианты проектирования:** [Шаблоны Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/template-deployment-overview) предоставляют подход "инфраструктура как код" для развертывания ваших ресурсов в Azure. [Terraform](https://docs.microsoft.com/azure/terraform/terraform-overview) также можно использовать как единое локальное и облачное средство развертывания.
 
 ## <a name="lack-of-visibility-into-system-issues"></a>Отсутствие видимости системных проблем
 

@@ -11,12 +11,12 @@ ms.subservice: ready
 manager: BrianBlanchard
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 98f456bf9af0ab5a7533acf9a9d49f445b7fe37b
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 62d6ab27e127f9d954989465838cd7c328db0573
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71224328"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967772"
 ---
 # <a name="role-based-access-control"></a>Управление доступом на основе ролей
 
@@ -28,7 +28,7 @@ ms.locfileid: "71224328"
 
 Используя [управление доступом на основе ролей](https://docs.microsoft.com/azure/role-based-access-control/overview), вы можете разделять обязанности в своей команде и предоставлять только требуемый уровень доступа для определенных пользователей, групп, субъектов-служб или управляемых удостоверений для выполнения своих заданий в Azure Active Directory (Azure AD). Вместо того чтобы предоставить всем неограниченный доступ к подписке или ресурсам Azure, можно ограничить разрешения для каждого набора ресурсов.
 
-В [определениях ролей RBAC](https://docs.microsoft.com/azure/role-based-access-control/role-definitions) перечислены операции, которые разрешены или запрещены для пользователей или групп, назначенных этой роли. [Область](/azure/role-based-access-control/index#scope) роли определяет, к каким ресурсам применяются эти указанные разрешения. Области могут быть указаны на нескольких уровнях: группа управления, подписка, группа ресурсов или ресурс. Структура областей строится на отношениях "родитель — потомок".
+В [определениях ролей RBAC](https://docs.microsoft.com/azure/role-based-access-control/role-definitions) перечислены операции, которые разрешены или запрещены для пользователей или групп, назначенных этой роли. [Область](/azure/role-based-access-control/overview#scope) роли определяет, к каким ресурсам применяются эти указанные разрешения. Области могут быть указаны на нескольких уровнях: группа управления, подписка, группа ресурсов или ресурс. Структура областей строится на отношениях "родитель — потомок".
 
 ![Иерархия области RBAC](../../_images/azure-best-practices/rbac-scope.png)
 

@@ -1,7 +1,7 @@
 ---
-title: 'Стандартное руководство для предприятий: Улучшение специализации в плане безопасности'
+title: 'Стандартное руководство по корпоративному управлению: Улучшение специализации в плане безопасности'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: 'Стандартное руководство для предприятий: Улучшение специализации в плане безопасности'
+description: 'Стандартное руководство по корпоративному управлению: Улучшение специализации в плане безопасности'
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 37d47b0a190506f84ed2b973b44ca731e70ad664
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 2e9a913ce0d27e2f15cb83bb842630fcc039f6cc
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223788"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967328"
 ---
-# <a name="standard-enterprise-guide-improve-the-security-baseline-discipline"></a>Стандартное руководство для предприятий: Улучшение специализации в плане безопасности
+# <a name="standard-enterprise-governance-guide-improve-the-security-baseline-discipline"></a>Стандартное руководство по корпоративному управлению: Улучшение специализации в плане безопасности
 
 В этой статье описывается добавление элементов управления безопасностью, поддерживающих перемещение защищенных данных в облако.
 

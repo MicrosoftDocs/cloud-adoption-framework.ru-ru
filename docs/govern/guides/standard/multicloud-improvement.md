@@ -1,7 +1,7 @@
 ---
-title: 'Стандартное руководство для предприятий: Улучшение в облаке'
+title: 'Стандартное руководство по корпоративному управлению: Улучшение в облаке'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: 'Стандартное руководство для предприятий: Улучшение в облаке'
+description: 'Стандартное руководство по корпоративному управлению: Улучшение в облаке'
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2616193b01b252a74ad17a241d97bfd0ebc4860c
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 3a14603574430272004d9fe40654409409dd563e
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223804"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967307"
 ---
-# <a name="small-to-medium-enterprise-guide-multicloud-improvement"></a>Руководство для малого и среднего предприятия. Улучшение в облаке
+# <a name="standard-enterprise-governance-guide-multicloud-improvement"></a>Стандартное руководство по корпоративному управлению: Улучшение в облаке
 
 В этой статье описано, как добавить элементы управления для внедрения в облако.
 
