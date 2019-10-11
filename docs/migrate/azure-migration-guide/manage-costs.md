@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: c6b195a69622a4934f257090650a8ba6ce884025
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 7a5f3b3f9a50cf4a989d268788279f132a42efb7
+ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024812"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71967213"
 ---
 # <a name="migration-focused-cost-control-mechanisms"></a>Механизмы контроля затрат на миграцию
 
@@ -71,7 +71,7 @@ ms.locfileid: "71024812"
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
 - [Настройка и проверка оценки с помощью Миграции Azure](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#set-up-an-assessment)
-- Более полный план по управлению затратами на большее количество ресурсов (инфраструктура, приложения и данные) приведены в разделе [Стратегии действенного управления](../../govern/guides/index.md). В частности, рекомендации приведены в разделах [Дисциплина "Управление затратами"](../../govern/cost-management/index.md) и [Крупные предприятия. Улучшение управления затратами](../../govern/guides/complex/cost-management-improvement.md).
+- Более полный план по управлению затратами на большее количество ресурсов (инфраструктура, приложения и данные) приведены в разделе [Стратегии действенного управления](../../govern/guides/index.md). В частности, рекомендации приведены в статье [Обзор дисциплины "Управление затратами"](../../govern/cost-management/index.md), а также в [руководстве по улучшению управления затратами для крупных предприятий](../../govern/guides/complex/cost-management-improvement.md).
 
 # <a name="estimate-and-optimize-vm-costs-during-and-after-migrationtabestimateoptimize"></a>[Оценка и оптимизация затрат на виртуальные машины во время и после миграции](#tab/EstimateOptimize)
 
@@ -104,7 +104,7 @@ ms.locfileid: "71024812"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-- Более полный план по управлению затратами на большее количество ресурсов (инфраструктура, приложения и данные) приведены в разделе [Стратегии действенного управления](../../govern/guides/index.md). В частности, рекомендации приведены в разделах [Дисциплина "Управление затратами"](../../govern/cost-management/index.md) и [Крупные предприятия. Инкрементное улучшение управления затратами](../../govern/guides/complex/cost-management-improvement.md).
+- Более полный план по управлению затратами на большее количество ресурсов (инфраструктура, приложения и данные) приведены в разделе [Стратегии действенного управления](../../govern/guides/index.md). В частности, рекомендации приведены в статье [Обзор дисциплины "Управление затратами"](../../govern/cost-management/index.md), а также в [руководстве по инкрементному улучшению управления затратами для крупных предприятий](../../govern/guides/complex/cost-management-improvement.md).
 - Дополнительные сведения о Помощнике по Azure приведены в статье об [уменьшении затрат на обслуживание с помощью Помощника по Azure](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations).
 - Дополнительные сведения об Управлении затратами Azure приведены в разделах [Общие сведения об областях и работа с ними](https://docs.microsoft.com/azure/cost-management/understand-work-scopes) и [Изучение и анализ затрат с помощью функции анализа затрат](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis).
 
@@ -142,4 +142,4 @@ ms.locfileid: "71024812"
 
 ## <a name="additional-resources"></a>Дополнительные ресурсы
 
-Более полный план по управлению затратами на большее количество ресурсов (инфраструктура, приложения и данные) приведены в разделе [Стратегии действенного управления](../../govern/guides/index.md). В частности, рекомендации приведены в разделах [Дисциплина "Управление затратами"](../../govern/cost-management/index.md) и [Системы управления в крупных предприятиях. Инкрементное улучшение управления затратами](../../govern/guides/complex/cost-management-improvement.md).
+Более полный план по управлению затратами на большее количество ресурсов (инфраструктура, приложения и данные) приведены в разделе [Стратегии действенного управления](../../govern/guides/index.md). В частности, рекомендации приведены в статье [Обзор дисциплины "Управление затратами"](../../govern/cost-management/index.md), а также в [руководстве по инкрементному улучшению управления затратами для крупных предприятий](../../govern/guides/complex/cost-management-improvement.md).

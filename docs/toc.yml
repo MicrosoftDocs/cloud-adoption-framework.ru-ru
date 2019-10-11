@@ -66,8 +66,6 @@
               href: digital-estate/calculate.md
         - name: Первоначальная проверка соответствия организации
           href: plan/initial-org-alignment.md
-        - name: 'Готовность к применению: адаптация ролей, навыков и процессов'
-          href: plan/adapt-roles-skills-processes.md
         - name: План внедрения в облако
           items:
             - name: Введение
@@ -426,7 +424,7 @@
               items:
                 - name: Обзор
                   href: govern/guides/index.md
-                - name: Руководство для малых и средних предприятий
+                - name: Руководство по организации системы управления для стандартных предприятий
                   items:
                     - name: Обзор
                       href: govern/guides/standard/index.md
@@ -444,7 +442,7 @@
                       href: govern/guides/standard/cost-management-improvement.md
                     - name: сценарии с несколькими облаками.
                       href: govern/guides/standard/multicloud-improvement.md
-                - name: Руководство для больших предприятий
+                - name: Руководство по организации системы управления для сложных предприятий
                   items:
                     - name: Обзор
                       href: govern/guides/complex/index.md
@@ -685,8 +683,9 @@
         - name: Стратегия развития Cloud Adoption Framework
           href: reference/roadmap.md
         - name: Руководства по принятию решений
-          href: decision-guides/index.md
           items:
+            - name: Обзор
+              href: decision-guides/index.md
             - name: Подписки
               href: decision-guides/subscriptions/index.md
             - name: Удостоверение
