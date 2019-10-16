@@ -2,19 +2,19 @@
 title: Руководство по именованию ресурсов и присвоению тегов
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Сведения об упорядочении ресурсов и присвоении тегов, которые играют важнейшую роль при миграции в Azure.
-author: rotycenh
-ms.author: v-tyhopk
+author: alexbuckgit
+ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4d28e0ec6dea61a96e463df8fd2717ed0a8c8f02
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: ef226d55d6b16c69b35c57734de25efec6abaa00
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023651"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378029"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 
@@ -40,7 +40,7 @@ ms.locfileid: "71023651"
 
 Стандартизированное соглашение об именовании служит основой для упорядочения ресурсов, размещенных в облаке. Правильно структурированная система именования позволяет быстро находить ресурсы для целей управления и учета. Если в других отделах вашей организации уже используется соглашение об именовании ИТ-систем, примите отдельное решение: будет ли соглашение об именовании для облака согласованным с уже имеющимися или новыми облачными стандартами.
 
-Обратите внимание, что для разных ресурсов Azure существуют разные [требования к именованию](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions#naming-rules-and-restrictions). Соглашения об именовании должны соответствовать всем таким требованиям.
+Обратите внимание, что для разных ресурсов Azure существуют разные [требования к именованию](../../ready/considerations/naming-and-tagging.md). Соглашения об именовании должны соответствовать всем таким требованиям.
 
 ## <a name="resource-tagging-patterns"></a>Шаблоны присвоения тегов ресурсам
 

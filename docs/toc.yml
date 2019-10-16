@@ -92,24 +92,24 @@
       items:
         - name: Обзор
           href: ready/index.md
-        - name: Руководство по подготовке к работе в Azure
+        - name: Руководство по настройке Azure
           items:
             - name: Перед началом работы
-              href: ready/azure-readiness-guide/index.md
+              href: ready/azure-setup-guide/index.md
             - name: Упорядочение ресурсов
-              href: ready/azure-readiness-guide/organize-resources.md
+              href: ready/azure-setup-guide/organize-resources.md
             - name: Управление доступом
-              href: ready/azure-readiness-guide/manage-access.md
+              href: ready/azure-setup-guide/manage-access.md
             - name: Управление затратами и выставлением счетов
-              href: ready/azure-readiness-guide/manage-costs.md
+              href: ready/azure-setup-guide/manage-costs.md
             - name: 'Планирование системы управления, безопасности и соответствия'
-              href: ready/azure-readiness-guide/govern-org-compliance.md
+              href: ready/azure-setup-guide/govern-org-compliance.md
             - name: Мониторинг и создание отчетов
-              href: ready/azure-readiness-guide/monitoring-reporting.md
+              href: ready/azure-setup-guide/monitoring-reporting.md
             - name: Поддержка актуальности процессов в Azure
-              href: ready/azure-readiness-guide/staying-current.md
+              href: ready/azure-setup-guide/staying-current.md
             - name: Развертывание зоны размещения для миграции
-              href: ready/azure-readiness-guide/migration-landing-zone.md
+              href: ready/azure-setup-guide/migration-landing-zone.md
         - name: Рекомендации по использованию зон размещения
           items:
             - name: Обзор
@@ -404,196 +404,196 @@
           items:
             - name: Обзор
               href: innovate/index.md
+    - name: Управление
+      items:
+        - name: Обзор
+          href: govern/index.md
+        - name: Методика
+          href: govern/methodology.md
+        - name: Тест производительности
+          href: govern/benchmark.md
+        - name: Общие сведения о системе управления
+          href: govern/initial-foundation.md
+        - name: Улучшение базовых аспектов системы управления
+          href: govern/foundation-improvements.md
+        - name: Руководства по управлению
+          items:
+            - name: Обзор
+              href: govern/guides/index.md
+            - name: Руководство по организации системы управления для стандартных предприятий
+              items:
+                - name: Обзор
+                  href: govern/guides/standard/index.md
+                - name: Описание
+                  href: govern/guides/standard/narrative.md
+                - name: Начальная корпоративная политика
+                  href: govern/guides/standard/initial-corporate-policy.md
+                - name: Рекомендации
+                  href: govern/guides/standard/prescriptive-guidance.md
+                - name: Улучшение основных способов защиты
+                  href: govern/guides/standard/security-baseline-improvement.md
+                - name: Улучшение согласованности ресурсов
+                  href: govern/guides/standard/resource-consistency-improvement.md
+                - name: Улучшение управления затратами
+                  href: govern/guides/standard/cost-management-improvement.md
+                - name: сценарии с несколькими облаками.
+                  href: govern/guides/standard/multicloud-improvement.md
+            - name: Руководство по организации системы управления для сложных предприятий
+              items:
+                - name: Обзор
+                  href: govern/guides/complex/index.md
+                - name: Описание
+                  href: govern/guides/complex/narrative.md
+                - name: Начальная корпоративная политика
+                  href: govern/guides/complex/initial-corporate-policy.md
+                - name: Рекомендации
+                  href: govern/guides/complex/prescriptive-guidance.md
+                - name: Улучшение базовых средств идентификации
+                  href: govern/guides/complex/identity-baseline-improvement.md
+                - name: Улучшение основных способов защиты
+                  href: govern/guides/complex/security-baseline-improvement.md
+                - name: Улучшение согласованности ресурсов
+                  href: govern/guides/complex/resource-consistency-improvement.md
+                - name: Улучшение управления затратами
+                  href: govern/guides/complex/cost-management-improvement.md
+                - name: сценарии с несколькими облаками.
+                  href: govern/guides/complex/multicloud-improvement.md
+                - name: Использование нескольких уровней управления
+                  href: govern/guides/complex/multiple-layers-of-governance.md
+        - name: Рекомендации по системе управления
+          items:
+            - name: Оценка корпоративной политики
+              href: govern/corporate-policy.md
+            - name: Облачная корпоративная политика и требования соответствия
+              items:
+                - name: Подготовка корпоративной политики к облачной среде
+                  href: govern/policy-compliance/index.md
+                - name: Описание бизнес-рисков
+                  href: govern/policy-compliance/business-risk.md
+                - name: Оценка допустимости риска
+                  href: govern/policy-compliance/risk-tolerance.md
+                - name: Определение корпоративной политики
+                  href: govern/policy-compliance/policy-definition.md
+                - name: Согласование проекта с политикой
+                  href: govern/policy-compliance/governance-alignment.md
+                - name: 'Разработка процессов, обеспечивающих соблюдение политик'
+                  href: govern/policy-compliance/processes.md
+                - name: Соблюдение нормативных требований
+                  href: govern/policy-compliance/regulatory-compliance.md
+                - name: Готовность к системе безопасности облака
+                  href: govern/policy-compliance/cloud-security-readiness.md
+                - name: Проверка облачной политики
+                  href: govern/policy-compliance/cloud-policy-review.md
+                - name: Классификация данных
+                  href: govern/policy-compliance/data-classification.md
+        - name: Аспекты управления облаком
+          href: govern/governance-disciplines.md
+        - name: Реализация аспектов управления облаком
+          items:
+            - name: управления затратами;
+              items:
+                - name: Обзор управления затратами
+                  href: govern/cost-management/index.md
+                - name: Скачивание шаблона
+                  href: govern/cost-management/template.md
+                - name: Описание бизнес-рисков
+                  href: govern/cost-management/business-risks.md
+                - name: Индикаторы и метрики допустимости риска
+                  href: govern/cost-management/metrics-tolerance.md
+                - name: Примеры политик управления затратами
+                  href: govern/cost-management/policy-statements.md
+                - name: Процессы обеспечения соответствия политикам
+                  href: govern/cost-management/compliance-processes.md
+                - name: Улучшение управления затратами
+                  href: govern/cost-management/discipline-improvement.md
+                - name: Инструменты Azure для управления затратами
+                  href: govern/cost-management/toolchain.md
+            - name: Базовые средства безопасности
+              items:
+                - name: Обзор базовых средств безопасности
+                  href: govern/security-baseline/index.md
+                - name: Скачивание шаблона
+                  href: govern/security-baseline/template.md
+                - name: Описание бизнес-рисков
+                  href: govern/security-baseline/business-risks.md
+                - name: Индикаторы и метрики допустимости риска
+                  href: govern/security-baseline/metrics-tolerance.md
+                - name: Примеры политик базовых средств безопасности
+                  href: govern/security-baseline/policy-statements.md
+                - name: Процессы обеспечения соответствия политикам
+                  href: govern/security-baseline/compliance-processes.md
+                - name: Улучшение базовых средств безопасности
+                  href: govern/security-baseline/discipline-improvement.md
+                - name: Облачные базовые средства безопасности
+                  href: govern/security-baseline/cloud-native-policy.md
+                - name: Дополнительное руководство по защите в Azure
+                  href: govern/security-baseline/azure-security-guidance.md
+                - name: Инструменты Azure для управления базовыми средствами безопасности
+                  href: govern/security-baseline/toolchain.md
+            - name: Базовые средства идентификации
+              items:
+                - name: Обзор базовых средств идентификации
+                  href: govern/identity-baseline/index.md
+                - name: Скачивание шаблона
+                  href: govern/identity-baseline/template.md
+                - name: Описание бизнес-рисков
+                  href: govern/identity-baseline/business-risks.md
+                - name: Индикаторы и метрики допустимости риска
+                  href: govern/identity-baseline/metrics-tolerance.md
+                - name: Примеры политик базовых средств идентификации
+                  href: govern/identity-baseline/policy-statements.md
+                - name: Процессы обеспечения соответствия политикам
+                  href: govern/identity-baseline/compliance-processes.md
+                - name: Улучшение базовых средств идентификации
+                  href: govern/identity-baseline/discipline-improvement.md
+                - name: Инструменты Azure для управления базовыми средствами идентификации
+                  href: govern/identity-baseline/toolchain.md
+            - name: Согласованность ресурсов
+              items:
+                - name: Обзор согласованности ресурсов
+                  href: govern/resource-consistency/index.md
+                - name: Скачивание шаблона
+                  href: govern/resource-consistency/template.md
+                - name: Описание бизнес-рисков
+                  href: govern/resource-consistency/business-risks.md
+                - name: Индикаторы и метрики допустимости риска
+                  href: govern/resource-consistency/metrics-tolerance.md
+                - name: Примеры политик согласованности ресурсов
+                  href: govern/resource-consistency/policy-statements.md
+                - name: Процессы обеспечения соответствия политикам
+                  href: govern/resource-consistency/compliance-processes.md
+                - name: Улучшение согласованности ресурсов
+                  href: govern/resource-consistency/discipline-improvement.md
+                - name: Инструменты Azure для управления согласованностью ресурсов
+                  href: govern/resource-consistency/toolchain.md
+                - name: Управление доступом к ресурсам
+                  href: govern/resource-consistency/resource-access-management.md
+                - name: Разработка системы управления для небольшой рабочей нагрузки
+                  href: govern/resource-consistency/governance-simple-workload.md
+                - name: Разработка системы управления для нескольких команд
+                  href: govern/resource-consistency/governance-multiple-teams.md
+            - name: Ускорение развертывания
+              items:
+                - name: Обзор ускорения развертывания
+                  href: govern/deployment-acceleration/index.md
+                - name: Скачивание шаблона
+                  href: govern/deployment-acceleration/template.md
+                - name: Описание бизнес-рисков
+                  href: govern/deployment-acceleration/business-risks.md
+                - name: Индикаторы и метрики допустимости риска
+                  href: govern/deployment-acceleration/metrics-tolerance.md
+                - name: Примеры политик ускорения развертывания
+                  href: govern/deployment-acceleration/policy-statements.md
+                - name: Процессы обеспечения соответствия политикам
+                  href: govern/deployment-acceleration/compliance-processes.md
+                - name: Улучшение ускорения развертывания
+                  href: govern/deployment-acceleration/discipline-improvement.md
+                - name: Инструменты Azure для ускорения развертывания
+                  href: govern/deployment-acceleration/toolchain.md
     - name: Эксплуатация
       items:
         - name: Обзор
           href: operate/index.md
-        - name: Управление
-          items:
-            - name: Обзор
-              href: govern/index.md
-            - name: Методика
-              href: govern/methodology.md
-            - name: Тест производительности
-              href: govern/benchmark.md
-            - name: Общие сведения о системе управления
-              href: govern/initial-foundation.md
-            - name: Улучшение базовых аспектов системы управления
-              href: govern/foundation-improvements.md
-            - name: Руководства по управлению
-              items:
-                - name: Обзор
-                  href: govern/guides/index.md
-                - name: Руководство по организации системы управления для стандартных предприятий
-                  items:
-                    - name: Обзор
-                      href: govern/guides/standard/index.md
-                    - name: Описание
-                      href: govern/guides/standard/narrative.md
-                    - name: Начальная корпоративная политика
-                      href: govern/guides/standard/initial-corporate-policy.md
-                    - name: Рекомендации
-                      href: govern/guides/standard/prescriptive-guidance.md
-                    - name: Улучшение основных способов защиты
-                      href: govern/guides/standard/security-baseline-improvement.md
-                    - name: Улучшение согласованности ресурсов
-                      href: govern/guides/standard/resource-consistency-improvement.md
-                    - name: Улучшение управления затратами
-                      href: govern/guides/standard/cost-management-improvement.md
-                    - name: сценарии с несколькими облаками.
-                      href: govern/guides/standard/multicloud-improvement.md
-                - name: Руководство по организации системы управления для сложных предприятий
-                  items:
-                    - name: Обзор
-                      href: govern/guides/complex/index.md
-                    - name: Описание
-                      href: govern/guides/complex/narrative.md
-                    - name: Начальная корпоративная политика
-                      href: govern/guides/complex/initial-corporate-policy.md
-                    - name: Рекомендации
-                      href: govern/guides/complex/prescriptive-guidance.md
-                    - name: Улучшение базовых средств идентификации
-                      href: govern/guides/complex/identity-baseline-improvement.md
-                    - name: Улучшение основных способов защиты
-                      href: govern/guides/complex/security-baseline-improvement.md
-                    - name: Улучшение согласованности ресурсов
-                      href: govern/guides/complex/resource-consistency-improvement.md
-                    - name: Улучшение управления затратами
-                      href: govern/guides/complex/cost-management-improvement.md
-                    - name: сценарии с несколькими облаками.
-                      href: govern/guides/complex/multicloud-improvement.md
-                    - name: Использование нескольких уровней управления
-                      href: govern/guides/complex/multiple-layers-of-governance.md
-            - name: Рекомендации по системе управления
-              items:
-                - name: Оценка корпоративной политики
-                  href: govern/corporate-policy.md
-                - name: Облачная корпоративная политика и требования соответствия
-                  items:
-                    - name: Подготовка корпоративной политики к облачной среде
-                      href: govern/policy-compliance/index.md
-                    - name: Описание бизнес-рисков
-                      href: govern/policy-compliance/business-risk.md
-                    - name: Оценка допустимости риска
-                      href: govern/policy-compliance/risk-tolerance.md
-                    - name: Определение корпоративной политики
-                      href: govern/policy-compliance/policy-definition.md
-                    - name: Согласование проекта с политикой
-                      href: govern/policy-compliance/governance-alignment.md
-                    - name: 'Разработка процессов, обеспечивающих соблюдение политик'
-                      href: govern/policy-compliance/processes.md
-                    - name: Соблюдение нормативных требований
-                      href: govern/policy-compliance/regulatory-compliance.md
-                    - name: Готовность к системе безопасности облака
-                      href: govern/policy-compliance/cloud-security-readiness.md
-                    - name: Проверка облачной политики
-                      href: govern/policy-compliance/cloud-policy-review.md
-                    - name: Классификация данных
-                      href: govern/policy-compliance/data-classification.md
-                - name: Аспекты управления облаком
-                  href: govern/governance-disciplines.md
-                - name: Реализация аспектов управления облаком
-                  items:
-                    - name: управления затратами;
-                      items:
-                        - name: Обзор управления затратами
-                          href: govern/cost-management/index.md
-                        - name: Скачивание шаблона
-                          href: govern/cost-management/template.md
-                        - name: Описание бизнес-рисков
-                          href: govern/cost-management/business-risks.md
-                        - name: Индикаторы и метрики допустимости риска
-                          href: govern/cost-management/metrics-tolerance.md
-                        - name: Примеры политик управления затратами
-                          href: govern/cost-management/policy-statements.md
-                        - name: Процессы обеспечения соответствия политикам
-                          href: govern/cost-management/compliance-processes.md
-                        - name: Улучшение управления затратами
-                          href: govern/cost-management/discipline-improvement.md
-                        - name: Инструменты Azure для управления затратами
-                          href: govern/cost-management/toolchain.md
-                    - name: Базовые средства безопасности
-                      items:
-                        - name: Обзор базовых средств безопасности
-                          href: govern/security-baseline/index.md
-                        - name: Скачивание шаблона
-                          href: govern/security-baseline/template.md
-                        - name: Описание бизнес-рисков
-                          href: govern/security-baseline/business-risks.md
-                        - name: Индикаторы и метрики допустимости риска
-                          href: govern/security-baseline/metrics-tolerance.md
-                        - name: Примеры политик базовых средств безопасности
-                          href: govern/security-baseline/policy-statements.md
-                        - name: Процессы обеспечения соответствия политикам
-                          href: govern/security-baseline/compliance-processes.md
-                        - name: Улучшение базовых средств безопасности
-                          href: govern/security-baseline/discipline-improvement.md
-                        - name: Облачные базовые средства безопасности
-                          href: govern/security-baseline/cloud-native-policy.md
-                        - name: Дополнительное руководство по защите в Azure
-                          href: govern/security-baseline/azure-security-guidance.md
-                        - name: Инструменты Azure для управления базовыми средствами безопасности
-                          href: govern/security-baseline/toolchain.md
-                    - name: Базовые средства идентификации
-                      items:
-                        - name: Обзор базовых средств идентификации
-                          href: govern/identity-baseline/index.md
-                        - name: Скачивание шаблона
-                          href: govern/identity-baseline/template.md
-                        - name: Описание бизнес-рисков
-                          href: govern/identity-baseline/business-risks.md
-                        - name: Индикаторы и метрики допустимости риска
-                          href: govern/identity-baseline/metrics-tolerance.md
-                        - name: Примеры политик базовых средств идентификации
-                          href: govern/identity-baseline/policy-statements.md
-                        - name: Процессы обеспечения соответствия политикам
-                          href: govern/identity-baseline/compliance-processes.md
-                        - name: Улучшение базовых средств идентификации
-                          href: govern/identity-baseline/discipline-improvement.md
-                        - name: Инструменты Azure для управления базовыми средствами идентификации
-                          href: govern/identity-baseline/toolchain.md
-                    - name: Согласованность ресурсов
-                      items:
-                        - name: Обзор согласованности ресурсов
-                          href: govern/resource-consistency/index.md
-                        - name: Скачивание шаблона
-                          href: govern/resource-consistency/template.md
-                        - name: Описание бизнес-рисков
-                          href: govern/resource-consistency/business-risks.md
-                        - name: Индикаторы и метрики допустимости риска
-                          href: govern/resource-consistency/metrics-tolerance.md
-                        - name: Примеры политик согласованности ресурсов
-                          href: govern/resource-consistency/policy-statements.md
-                        - name: Процессы обеспечения соответствия политикам
-                          href: govern/resource-consistency/compliance-processes.md
-                        - name: Улучшение согласованности ресурсов
-                          href: govern/resource-consistency/discipline-improvement.md
-                        - name: Инструменты Azure для управления согласованностью ресурсов
-                          href: govern/resource-consistency/toolchain.md
-                        - name: Управление доступом к ресурсам
-                          href: govern/resource-consistency/resource-access-management.md
-                        - name: Разработка системы управления для небольшой рабочей нагрузки
-                          href: govern/resource-consistency/governance-simple-workload.md
-                        - name: Разработка системы управления для нескольких команд
-                          href: govern/resource-consistency/governance-multiple-teams.md
-                    - name: Ускорение развертывания
-                      items:
-                        - name: Обзор ускорения развертывания
-                          href: govern/deployment-acceleration/index.md
-                        - name: Скачивание шаблона
-                          href: govern/deployment-acceleration/template.md
-                        - name: Описание бизнес-рисков
-                          href: govern/deployment-acceleration/business-risks.md
-                        - name: Индикаторы и метрики допустимости риска
-                          href: govern/deployment-acceleration/metrics-tolerance.md
-                        - name: Примеры политик ускорения развертывания
-                          href: govern/deployment-acceleration/policy-statements.md
-                        - name: Процессы обеспечения соответствия политикам
-                          href: govern/deployment-acceleration/compliance-processes.md
-                        - name: Улучшение ускорения развертывания
-                          href: govern/deployment-acceleration/discipline-improvement.md
-                        - name: Инструменты Azure для ускорения развертывания
-                          href: govern/deployment-acceleration/toolchain.md
         - name: Организация
           items:
             - name: Управление организацией
@@ -681,7 +681,7 @@
     - name: Справочные материалы
       items:
         - name: Стратегия развития Cloud Adoption Framework
-          href: reference/roadmap.md
+          href: reference/index.md
         - name: Руководства по принятию решений
           items:
             - name: Обзор
