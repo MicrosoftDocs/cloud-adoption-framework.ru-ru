@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 layout: LandingPage
-ms.openlocfilehash: fa7777f0c6be9c3cd93cfb24cac4ee8e87bee553
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: d5fada848418093b4d1ac7ae3ccc08b492544567
+ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70816165"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "72378337"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -30,7 +30,7 @@ ms.locfileid: "70816165"
 
 <ul class="panelContent cardsF">
     <li style="display: flex; flex-direction: column;">
-        <a href="./azure-readiness-guide/index.md">
+        <a href="./azure-setup-guide/index.md">
             <div class="cardSize">
                 <div class="cardPadding" style="padding-bottom:10px;">
                     <div class="card" style="padding-bottom:10px;">
@@ -40,8 +40,8 @@ ms.locfileid: "70816165"
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>Руководство по подготовке к работе в Azure</h3>
-Ознакомьтесь с руководством по подготовке к работе в Azure, чтобы узнать о средствах и подходах, используемых при создании зоны размещения.
+                            <h3>Руководство по настройке Azure</h3>
+Ознакомьтесь с руководством по настройке Azure, чтобы узнать о средствах и подходах, используемых при создании зоны размещения.
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@ ms.locfileid: "70816165"
         </a>
     </li>
     <li style="display: flex; flex-direction: column;">
-        <a href="./azure-readiness-guide/migration-landing-zone.md">
+        <a href="./azure-setup-guide/migration-landing-zone.md">
             <div class="cardSize">
                 <div class="cardPadding" style="padding-bottom:10px;">
                     <div class="card" style="padding-bottom:10px;">
@@ -111,7 +111,7 @@ ms.locfileid: "70816165"
 
 ## <a name="next-steps"></a>Дополнительная информация
 
-Подготовьтесь к внедрению в облако, просмотрев [руководство по обеспечению готовности к работе в Azure](./azure-readiness-guide/index.md).
+Подготовьтесь к внедрению в облако, просмотрев [руководство по настройке Azure](./azure-setup-guide/index.md).
 
 > [!div class="nextstepaction"]
-> [Руководство по подготовке к работе в Azure](./azure-readiness-guide/index.md)
+> [Руководство по настройке Azure](./azure-setup-guide/index.md)
