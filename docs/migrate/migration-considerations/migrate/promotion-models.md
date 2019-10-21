@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 88f8d847a1eac05a1e291c8908fd9a161904f626
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: b251e5159f6e6728e0b5a7ce807eaba0ea85696a
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70825566"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548448"
 ---
 # <a name="promotion-models---single-step-staged-or-flight"></a>Модели повышения уровня: одноэтапные, многоэтапные или динамические
 
@@ -79,7 +79,7 @@ ms.locfileid: "70825566"
 - Выбранное средство перемещения не может упростить текущую репликацию после перемещения.
 - Вторичное средство репликации данных требуется для синхронизации платформ данных во время интервала времени в промежуточной среде.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После определения и принятия модели повышения уровня командой по внедрению в облако может начаться [исправление активов](./remediate.md).
 

@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 186aa4d4dc5218e2166e7dfb4c9834917e647a02
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 34d9cd3252849353b0fe765db4d84f7e9f2e5ea7
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024650"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72549147"
 ---
 # <a name="evaluate-workload-readiness"></a>Оценка готовности рабочей нагрузки
 
@@ -27,8 +27,8 @@ ms.locfileid: "71024650"
 
 ## <a name="common-infrastructure-evaluation-activities"></a>Общие действия по оценке инфраструктуры
 
-- Требования для VMware: [ознакомьтесь с требованиями Azure Site Recovery для VMware](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix).
-- Требования для Hyper-V: [ознакомьтесь с требованиями Azure Site Recovery для Hyper-V](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix).
+- Требования к VMware. [Ознакомьтесь с требованиями к Azure Site Recovery для VMware](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix).
+- Требования к Hyper-V. [Ознакомьтесь с требованиями к Azure Site Recovery для Hyper-v](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix).
 
 Не забудьте задокументировать все несоответствия в конфигурации узлов, реплицируемых виртуальных машин, требованиях хранилища и конфигурации сети.
 
@@ -36,7 +36,7 @@ ms.locfileid: "71024650"
 
 - Задокументируйте целевые точки восстановления и целевое время восстановления для текущего развертывания базы данных. Они используются в [действиях, связанных с архитектурой](./architect.md), чтобы помочь в принятии решений.
 - Задокументируйте все требования к конфигурации высокого уровня доступности. Дополнительные сведения о требованиях к SQL Server см. в [руководстве по решениям SQL Server с высоким уровнем доступности](https://docs.microsoft.com/sql/sql-server/failover-clusters/high-availability-solutions-sql-server).
-- Оцените совместимость PaaS. [Руководство по миграции данных в Azure](https://datamigration.microsoft.com) сопоставляет локальные базы данных с совместимыми решениями Azure PaaS, такими как [Cosmos DB](https://docs.microsoft.com/azure/cosmos-db) или [Azure DB](https://docs.microsoft.com/azure/sql-database) для [MySQL](https://docs.microsoft.com/azure/mysql), [Postgres](https://docs.microsoft.com/azure/postgresql) или [MariaDB](https://docs.microsoft.com/azure/mariadb).
+- Оцените совместимость PaaS. В [руководством по миграции данных Azure](https://datamigration.microsoft.com) локальные базы данных сопоставляются с совместимыми решениями Azure PaaS, такими как [Cosmos DB](https://docs.microsoft.com/azure/cosmos-db) или [Azure DB](https://docs.microsoft.com/azure/sql-database) для [MySQL](https://docs.microsoft.com/azure/mysql), [PostgreSQL](https://docs.microsoft.com/azure/postgresql)или [MariaDB](https://docs.microsoft.com/azure/mariadb).
 - Если миграция PaaS является вариантом без необходимости каких-либо исправлений для обеспечения совместимости, то следует обратиться к команде, ответственной за [действия, связанные с архитектурой](./architect.md). Миграция PaaS может значительно сократить время перемещения и снизить совокупную стоимость владения большинства облачных решений.
 - Если миграция PaaS является вариантом, но требуется исправление для обеспечения совместимости, обратитесь к командам, ответственным за [действия по архитектуре](./architect.md) и [действия по исправлению](../migrate/remediate.md). Во многих сценариях преимущества миграции PaaS для решений баз данных могут перевешивать увеличение времени исправления.
 - Задокументируйте размер и скорость изменения для каждой переносимой базы данных.
@@ -56,7 +56,7 @@ ms.locfileid: "71024650"
 > [!NOTE]
 > Общий объем хранилища напрямую влияет на потребности в пропускной способности во время начальной репликации. Однако смещение хранилища продолжится от точки репликации до выпуска. Это означает, что смещение имеет общее воздействие на доступную пропускную способность.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После завершения оценки системы на основе полученных результатов выполняется разработка новой [облачной архитектуры](./architect.md).
 

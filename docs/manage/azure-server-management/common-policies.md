@@ -8,19 +8,19 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 9eee6f81922c88304c0ca5bf7edd6572daf493d8
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 0d998f06e73c03a74cdaf5fbd75cb605fa9a2fbb
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71029893"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547318"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 
 [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) поможет вам применить управление к облачным ресурсам. Эта служба поможет вам создать снятие, обеспечивающую соответствие требованиям политики управления в масштабах всей Организации. Чтобы создать политики, используйте командлеты портал Azure или PowerShell. В этой статье приведены примеры командлетов PowerShell.
 
 > [!NOTE]
-> С помощью политики Azure политики принудительного применения (**deployIfNotExists**) не развертываются автоматически на существующих виртуальных машинах. Для обеспечения соответствия этих виртуальных машин необходимо исправление. Дополнительные сведения см. в статье [исправление ресурсов, которые не соответствуют требованиям, с помощью политики Azure](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
+> С помощью политики Azure политики принудительного применения (**deployIfNotExists**) не развертываются автоматически на существующих виртуальных машинах. Для обеспечения соответствия этих виртуальных машин необходимо исправление. Дополнительные сведения см. в статье [исправление несоответствующих ресурсов с помощью политики Azure](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
 
 ## <a name="common-policy-examples"></a>Примеры общих политик
 
@@ -36,7 +36,7 @@ ms.locfileid: "71029893"
 Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq "BuiltIn") -and ($_.Properties.displayName -like "*location*") }
 ```
 
-В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените `$SubscriptionID` значение так, чтобы оно указывало на подписку, которой нужно назначить политику. Перед выполнением скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение `$SubscriptionID`, чтобы оно указывало на подписку, которой нужно назначить политику. Перед выполнением скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
 
 ```powershell
 #Specify the value for $SubscriptionID.
@@ -51,7 +51,7 @@ $policyParam = '{"listOfAllowedLocations":{"value":["eastus","westus"]}}'
 New-AzPolicyAssignment -Name "Allowed Location" -DisplayName "Allowed locations for resource creation" -Scope $scope -PolicyDefinition $AllowedLocationPolicy -Location eastus -PolicyParameter $policyparam
 ```
 
-Этот же скрипт можно использовать для применения других политик, обсуждаемых в этой статье. Просто замените GUID в строке, которая задает `$AllowedLocationPolicy` идентификатор GUID политики, которую необходимо применить.
+Этот же скрипт можно использовать для применения других политик, обсуждаемых в этой статье. Просто замените GUID в строке, которая задает `$AllowedLocationPolicy` с идентификатором GUID политики, которую необходимо применить.
 
 ### <a name="block-certain-resource-types"></a>Блокировать определенные типы ресурсов
 
@@ -75,7 +75,7 @@ Azure предлагает широкий спектр размеров вирт
 
 GUID политики — `2835b622-407b-4114-9198-6f7064cbe0dc`.
 
-В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените `$SubscriptionID` значение так, чтобы оно указывало на подписку, которой нужно назначить политику. Перед выполнением скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение `$SubscriptionID`, чтобы оно указывало на подписку, которой нужно назначить политику. Перед выполнением скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
 
 ```powershell
 #Specify the value for $SubscriptionID.
@@ -89,7 +89,7 @@ New-AzPolicyAssignment -Name "Deploy Antimalware" -DisplayName "Deploy default M
 
 ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте о других доступных средствах и службах управления сервером.
 

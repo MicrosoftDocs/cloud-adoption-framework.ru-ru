@@ -9,14 +9,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 8b0aebe00d987ac49ba965fc1982c1615372ba92
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 3d8d6b656f6bfe8072b53dccc05a67479aa36f24
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71029090"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548575"
 ---
-# <a name="cloud-monitoring-guide-collecting-the-right-data"></a>Руководство по облачному мониторингу: Сбор правильных данных
+# <a name="cloud-monitoring-guide-collecting-the-right-data"></a>Руководство по мониторингу облака: сбор правильных данных
 
 В этой статье приводятся некоторые рекомендации по сбору данных мониторинга в облачном приложении.
 
@@ -47,7 +47,7 @@ ms.locfileid: "71029090"
 
 Благодаря такому набору правил GUID вы получаете практически в реальном времени аналитические данные, а также улучшаете Управление службой.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Стратегия создания предупреждений](./alerting.md)

@@ -1,6 +1,6 @@
 ---
 title: Согласование обязанностей между командами
-titleSuffix: Microsoft Cloud adoption Framework for Azure
+titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Научитесь выдавать обязанности в разных командах.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 818d2fa74c480b8aee36c4d268ae7a83cb93fab3
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 40ccd0c17a55a87c84d40abd749bf8e61f891e6c
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71029935"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72549072"
 ---
 # <a name="align-responsibilities-across-teams"></a>Выровняйте обязанности по командам
 
@@ -51,7 +51,7 @@ ms.locfileid: "71029935"
 |Группа внедрения в облако|Accountable|Accountable|Accountable|Accountable|Консультант|Консультант|Консультант|Курсе|
 |Группа по управлению облаком|Консультант|Курсе|Курсе|Курсе|Accountable|Accountable|Accountable|Accountable|
 ||||||||||
-|Возможности, согласованные с облаком|[Внедрение облачных технологий](./cloud-adoption.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачные операции](./cloud-operations.md)|[CCoE](./cloud-center-of-excellence.md)-[Управление облаком](./cloud-governance.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная платформа](./cloud-platform.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная платформа](./cloud-platform.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная Автоматизация](./cloud-automation.md)|
+|Возможности, согласованные с облаком|[Внедрение облачных технологий](./cloud-adoption.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачные операции](./cloud-operations.md)|[Ккое](./cloud-center-of-excellence.md) -[Cloud управление](./cloud-governance.md)|[Ккое](./cloud-center-of-excellence.md) -[облачной платформы](./cloud-platform.md)|[Ккое](./cloud-center-of-excellence.md) -[облачной платформы](./cloud-platform.md)|[Ккое](./cloud-center-of-excellence.md) -[облачная Автоматизация](./cloud-automation.md)|
 
 ## <a name="central-it"></a>Центральный ИТ-отдел
 
@@ -71,7 +71,7 @@ ms.locfileid: "71029935"
 |Группа внедрения в облако  |Accountable|Консультант  |Предназначен|Accountable|Курсе   |Курсе   |Курсе   |Курсе   |
 |Ккое Model RACI      |Консультант  |Курсе   |Курсе   |Курсе   |Accountable|Accountable|Accountable|Accountable|
 ||||||||||
-|Возможности, согласованные с облаком|[Внедрение облачных технологий](./cloud-adoption.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачные операции](./cloud-operations.md)|[CCoE](./cloud-center-of-excellence.md)-[Управление облаком](./cloud-governance.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная платформа](./cloud-platform.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная платформа](./cloud-platform.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная Автоматизация](./cloud-automation.md)|
+|Возможности, согласованные с облаком|[Внедрение облачных технологий](./cloud-adoption.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачные операции](./cloud-operations.md)|[Ккое](./cloud-center-of-excellence.md) -[Cloud управление](./cloud-governance.md)|[Ккое](./cloud-center-of-excellence.md) -[облачной платформы](./cloud-platform.md)|[Ккое](./cloud-center-of-excellence.md) -[облачной платформы](./cloud-platform.md)|[Ккое](./cloud-center-of-excellence.md) -[облачная Автоматизация](./cloud-automation.md)|
 
 ## <a name="operational-alignment"></a>Оперативное выравнивание
 
@@ -82,7 +82,7 @@ ms.locfileid: "71029935"
 |Группа облачных операций|Консультант  |Консультант  |Предназначен|Accountable|Консультант  |Курсе   |Accountable|Консультант  |
 |Ккое Model RACI      |Консультант  |Курсе   |Курсе   |Курсе   |Accountable|Accountable|Предназначен|Accountable|
 ||||||||||
-|Возможности, согласованные с облаком|[Внедрение облачных технологий](./cloud-adoption.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачные операции](./cloud-operations.md)|[CCoE](./cloud-center-of-excellence.md)-[Управление облаком](./cloud-governance.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная платформа](./cloud-platform.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная платформа](./cloud-platform.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная Автоматизация](./cloud-automation.md)|
+|Возможности, согласованные с облаком|[Внедрение облачных технологий](./cloud-adoption.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачные операции](./cloud-operations.md)|[Ккое](./cloud-center-of-excellence.md) -[Cloud управление](./cloud-governance.md)|[Ккое](./cloud-center-of-excellence.md) -[облачной платформы](./cloud-platform.md)|[Ккое](./cloud-center-of-excellence.md) -[облачной платформы](./cloud-platform.md)|[Ккое](./cloud-center-of-excellence.md) -[облачная Автоматизация](./cloud-automation.md)|
 
 ## <a name="cloud-center-of-excellence-ccoe"></a>Cloud Center (Ккое)
 
@@ -95,9 +95,9 @@ ms.locfileid: "71029935"
 |Группа по облачной платформе  |Консультант  |Курсе   |Курсе   |Консультант  |Консультант  |Accountable|Предназначен|Предназначен|
 |Группа по автоматизации облачных вычислений|Консультант  |Курсе   |Курсе   |Курсе   |Консультант  |Предназначен|Предназначен|Accountable|
 ||||||||||
-|Возможности, согласованные с облаком|[Внедрение облачных технологий](./cloud-adoption.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачные операции](./cloud-operations.md)|[CCoE](./cloud-center-of-excellence.md)-[Управление облаком](./cloud-governance.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная платформа](./cloud-platform.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная платформа](./cloud-platform.md)|[CCoE](./cloud-center-of-excellence.md)-[Облачная Автоматизация](./cloud-automation.md)|
+|Возможности, согласованные с облаком|[Внедрение облачных технологий](./cloud-adoption.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачная стратегия](./cloud-strategy.md)|[Облачные операции](./cloud-operations.md)|[Ккое](./cloud-center-of-excellence.md) -[Cloud управление](./cloud-governance.md)|[Ккое](./cloud-center-of-excellence.md) -[облачной платформы](./cloud-platform.md)|[Ккое](./cloud-center-of-excellence.md) -[облачной платформы](./cloud-platform.md)|[Ккое](./cloud-center-of-excellence.md) -[облачная Автоматизация](./cloud-automation.md)|
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы относить решения о структуре Организации со временем, скачайте и измените [шаблон электронной таблицы RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx). Скопируйте и измените наиболее тесно согласованный пример из матриц RACI в этой статье.
 

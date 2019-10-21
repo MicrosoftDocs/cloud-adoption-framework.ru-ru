@@ -8,16 +8,16 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c43d07c6cfdea0152559d7a13fec7dde148b1530
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 16d67f628ff99f971d2d79127b25698987cc8977
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221567"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547270"
 ---
 # <a name="guest-configuration-policy"></a>Политика конфигурации гостя
 
-Модуль [настройки гостевой конфигурации](/azure/governance/policy/concepts/guest-configuration) политики Azure позволяет выполнять аудит параметров конфигурации на виртуальной машине. В настоящее время Гостевая конфигурация поддерживается только на виртуальных машинах Azure.
+Модуль [настройки гостевой конфигурации](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) политики Azure позволяет выполнять аудит параметров конфигурации на виртуальной машине. В настоящее время Гостевая конфигурация поддерживается только на виртуальных машинах Azure.
 
 Список политик конфигурации гостевой системы можно найти, выполнив поиск по категории "Гостевая конфигурация" на странице портала политики Azure. Список можно также найти, запустив этот командлет в окне PowerShell:
 
@@ -37,7 +37,7 @@ By default, we recommend enabling the following policies:
 
 -->
 
-## <a name="deployment"></a>Развертывание
+## <a name="deployment"></a>Развертывание.
 
 Для развертывания этих политик можно использовать следующий пример скрипта PowerShell:
 
@@ -66,7 +66,7 @@ By default, we recommend enabling the following policies:
 
 ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [включить отслеживание изменений и предупреждения](./enable-tracking-alerting.md) для критически важных изменений файлов, служб, программ и реестра.
 

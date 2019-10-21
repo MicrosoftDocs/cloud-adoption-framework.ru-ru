@@ -8,12 +8,12 @@ ms.date: 12/31/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6cf1be3679032976efa0331e13ea6806f2f8a79f
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 5c3fcb72fc58f4b33735a95a7fcf1623fe081795
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024372"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72548104"
 ---
 # <a name="deploy-a-basic-workload-in-azure"></a>Развертывание основной рабочей нагрузки в Azure
 
@@ -41,7 +41,7 @@ ms.locfileid: "71024372"
 > [!NOTE]
 > В некоторых руководствах по началу работы группа ресурсов развертывается по умолчанию. В этом случае нет необходимости специально создавать группу ресурсов. В противном случае разверните веб-приложение в группу ресурсов, созданную с использованием шагом в одном из руководств по началу работы.
 
-После развертывания простой рабочей нагрузки ознакомьтесь с проверенными методиками по развертыванию [основного веб-приложения](https://docs.microsoft.com/azure/architecture/reference-architectures/app-service-web-app/basic-web-app?toc=/azure/architecture/cloud-adoption-guide/toc.json) в Azure.
+После развертывания простой рабочей нагрузки вы можете узнать больше о рекомендациях по развертыванию [базового веб-приложения](https://docs.microsoft.com/azure/architecture/reference-architectures/app-service-web-app/basic-web-app?toc=/azure/architecture/cloud-adoption-guide/toc.json) в Azure.
 
 ## <a name="single-windows-or-linux-vm-iaas"></a>Одна виртуальная машина Windows или Linux (IaaS)
 
@@ -49,8 +49,8 @@ ms.locfileid: "71024372"
 
 Далее необходимо решить, какую виртуальную машину следует развернуть: Windows или Linux. Чтобы развернуть виртуальную машину Windows в Azure с помощью портала, следуйте указаниям из [этого руководства](https://docs.microsoft.com/azure/virtual-machines/windows/quick-create-portal?toc=/azure/architecture/cloud-adoption-guide/toc.json). И опять же, определяя параметры виртуальной машины на портале Azure, укажите имя созданной ранее группы ресурсов.
 
-Развернув виртуальную машину, ознакомьтесь с [проверенными методиками по запуску виртуальной машины Windows в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-windows/single-vm?toc=/azure/architecture/cloud-adoption-guide/toc.json). Чтобы развернуть виртуальную машину Linux в Azure с помощью портала, следуйте указаниям из [этого руководства](https://docs.microsoft.com/azure/virtual-machines/linux/quick-create-portal?toc=/azure/architecture/cloud-adoption-guide/toc.json). Кроте того, ознакомьтесь с [проверенными методиками по запуску виртуальных машин Linux в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-linux/single-vm?toc=/azure/architecture/cloud-adoption-guide/toc.json).
+После выполнения действий и развертывания виртуальной машины вы можете ознакомиться с рекомендациями [по запуску виртуальной машины Windows в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-windows/single-vm?toc=/azure/architecture/cloud-adoption-guide/toc.json). Чтобы развернуть виртуальную машину Linux в Azure с помощью портала, следуйте указаниям из [этого руководства](https://docs.microsoft.com/azure/virtual-machines/linux/quick-create-portal?toc=/azure/architecture/cloud-adoption-guide/toc.json). Кроме того, вы можете узнать больше о рекомендациях [по запуску виртуальной машины Linux в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-linux/single-vm?toc=/azure/architecture/cloud-adoption-guide/toc.json).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы узнать, как использовать основные компоненты инфраструктуры в облаке Azure, см. статью [Руководство по принятию архитектурных решений](../../decision-guides/index.md).
