@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Операции с платформой — управление и эксплуатация в облаке
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 10/07/2019
+ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: aab6dbe2ff8b1037a86317d00d717b4b22052c59
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: ca62f35c059e185850bb47045fa0edef7be1d223
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72558055"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683599"
 ---
 # <a name="platform-operations-in-cloud-management"></a>Операции с платформой в управлении облаком
 

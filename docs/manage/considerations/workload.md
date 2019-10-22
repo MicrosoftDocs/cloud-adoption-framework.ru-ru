@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Операции рабочей нагрузки — управление облаком и эксплуатация
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 10/07/2019
+ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: f3b554f2453ffa825302680f3f0e4546f41cb3c7
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 5f250362e93a81c6bb38ef11e8659484ef023182
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72558029"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683735"
 ---
 # <a name="workload-operations-in-cloud-management"></a>Операции рабочей нагрузки в управлении облаком
 

@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, что такое операционное управление в Cloud Adoption Framework.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 10/07/2019
+ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 23b9064b91744d5464f89ed4edf64c8d656514a5
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 46af630c299f1fb66565cf1d55e5acf9f36d8251
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72558107"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683663"
 ---
 # <a name="establishing-operational-management-practices-in-the-cloud"></a>Внедрение методов операционного управления в облаке
 

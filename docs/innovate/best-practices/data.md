@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Средства для более демократичным данных в Azure
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 09/24/2019
+ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 1a4c6574ccef3f8373fe149e8756e49555cd0171
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: b9c868efb6f35472552778b583b638da59069edd
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72557938"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683407"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 

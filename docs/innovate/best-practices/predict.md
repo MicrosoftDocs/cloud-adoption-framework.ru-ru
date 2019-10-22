@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Средства для прогнозирования и влияния в Azure
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 09/24/2019
+ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: bc4f3188e0255eab94fb80c1668958651a0d8806
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 28b13b472729a8500719afbe34013daaddc9a3fc
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72557912"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683349"
 ---
 # <a name="tools-to-predict-and-influence-data-in-azure"></a>Средства для прогнозирования и влияния на данные в Azure
 
