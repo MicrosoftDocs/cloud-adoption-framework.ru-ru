@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Облачные инновации — служба переноса данных
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 09/24/2019
+ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 7b6d9d2bb08bd4e3e34fe1cc67f4c6a006a75bb5
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: c75efe3576bb61ecb116ab22e4946b8d87da3d4a
+ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72557405"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "72683417"
 ---
 # <a name="collect-data-through-the-migration-and-modernization-of-existing-data-sources"></a>Получение данных с помощью миграции и модернизации существующих источников данных
 
@@ -46,5 +46,5 @@ ms.locfileid: "72557405"
 |PostgreSQL|База данных Azure для PostgreSQL|DMS|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online)|
 |мондодб|Azure Cosmos DB API Mongo|DMS|Автономно|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db)|
 |MongoDB|Azure Cosmos DB API Mongo|DMS|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online)|
-|Oracle|Диапазон параметров PaaS & IaaS|Третья сторона или миграция Azure|Различные|[Дерево принятия решений](../considerations/data-oracle-migration.md)|
-|Различные NoSQL баз данных|Параметры Космо DB или IaaS|Процедурная миграция или миграция Azure|Различные|[Дерево принятия решений](../considerations/data-no-sql-migration.md)|
+|Oracle|Диапазон параметров PaaS & IaaS|Третья сторона или миграция Azure|Различные|[Дерево принятия решений](../../migrate/expanded-scope/data-oracle-migration.md)|
+|Различные NoSQL баз данных|Параметры Космо DB или IaaS|Процедурная миграция или миграция Azure|Различные|[Дерево принятия решений](../../migrate/expanded-scope/data-no-sql-migration.md)|
