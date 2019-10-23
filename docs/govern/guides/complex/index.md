@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d2218c812c131c16716e9df1f347b4615e0c6b60
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 882d78a7100a84326b486a00611c13dacb4df18e
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220576"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547744"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Руководство по организации системы управления для сложных предприятий
 
@@ -83,7 +83,7 @@ ms.locfileid: "71220576"
 
 ## <a name="next-steps"></a>Дополнительная информация
 
-Теперь, когда вы имеете представление об MVP системы управления и ее предстоящих изменениях, ознакомьтесь с контекстуальными сведениями в дополнительной статье.
+Теперь, когда вы имеете представление о минимально жизнеспособном продукте для системы управления и ее предстоящих изменениях, ознакомьтесь с контекстуальными сведениями в дополнительной статье.
 
 > [!div class="nextstepaction"]
 > [Читать вспомогательное описание](./narrative.md)

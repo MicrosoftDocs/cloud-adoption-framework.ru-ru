@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 9d2f4a6c8541d8967f26db1a38591c7ce775d5e8
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 082b9ccdcc94548b46a5a220cfe83768f7c4cbf6
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223629"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547894"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Руководство по принятию решений о ведении журналов и создании отчетов
 
@@ -69,7 +69,7 @@ ms.locfileid: "71223629"
 
 ### <a name="gateway-aggregation"></a>Агрегация шлюза
 
-Для сценариев, в которых объем облачных данных телеметрии очень велик или существующим локальным системам мониторинга требуется изменение данных журналов перед обработкой, может понадобиться служба [агрегации шлюза данных журналов](/azure/architecture/patterns/gateway-aggregation).
+Для сценариев, в которых объем облачных данных телеметрии очень велик или существующим локальным системам мониторинга требуется изменение данных журналов перед обработкой, может понадобиться служба [агрегации шлюза данных журналов](https://docs.microsoft.com/azure/architecture/patterns/gateway-aggregation).
 
 Служба шлюза развертывается в системе поставщика облачных служб. Затем соответствующие приложения и службы настраиваются, чтобы отправлять данные телеметрии в шлюз вместо системы ведения журналов по умолчанию. После этого шлюз может обрабатывать данные (агрегировать, объединять или иным образом форматировать их), а затем отправлять в службу мониторинга для приема и анализа.
 

@@ -27,9 +27,13 @@
             - name: Инновации
               tocHref: /azure/cloud-adoption-framework/innovate/
               topicHref: /azure/cloud-adoption-framework/innovate
-        - name: Эксплуатация
-          tocHref: /azure/cloud-adoption-framework/operate/
-          topicHref: /azure/cloud-adoption-framework/operate
+              items:
+                - name: Руководство по инновациям Azure
+                  tocHref: /azure/cloud-adoption-framework/innovate/innovation-guide/
+                  topicHref: /azure/cloud-adoption-framework/innovate/innovation-guide
+        - name: Операционная модель
+          tocHref: /azure/cloud-adoption-framework/operating-model/
+          topicHref: /azure/cloud-adoption-framework/operating-model
           items:
             - name: Управление
               tocHref: /azure/cloud-adoption-framework/govern/

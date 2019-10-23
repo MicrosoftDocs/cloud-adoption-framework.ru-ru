@@ -8,12 +8,12 @@ ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f4e8f8c1ef9a145fc1497727738d6d12e8f13d7b
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 88f844cb0a80971457beeb8814a109d70bb5d814
+ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71025079"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72547937"
 ---
 # <a name="mainframe-migration-overview"></a>Обзор миграции мейнфреймов
 
@@ -27,7 +27,7 @@ ms.locfileid: "71025079"
 
 ## <a name="intended-audience"></a>Целевая аудитория
 
-Если вы рассматриваете возможность перенести или создать облачные службы для своей ИТ-среды, это руководство для вас.
+Если вы рассматриваете возможность перенести или добавить облачные службы для своей ИТ-среды, это руководство для вас.
 
 Это руководство поможет начать диалог о миграции в организациях сферы ИТ. Возможно, вы уже больше знаете об Azure и облачных инфраструктурах, чем о мейнфреймах, поэтому мы начнем руководство с обзорных сведений о работе мейнфреймов и далее перейдем к описанию стратегий, позволяющих выбрать объект и метод для миграции.
 
