@@ -192,7 +192,7 @@
               href: migrate/index.md
             - name: Руководство по миграции в Azure
               items:
-                - name: Введение в руководство по миграции в Azure
+                - name: Перед началом работы
                   href: migrate/azure-migration-guide/index.md
                 - name: Необходимые условия для миграции в Azure
                   href: migrate/azure-migration-guide/prerequisites.md
@@ -334,7 +334,7 @@
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-zerto?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Настройка частного облака в качестве сайта аварийного восстановления с помощью VMware Site Recovery Manager
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-site-recovery-manager?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                - name: "Рекомендации по переносу серверов SQL\_Server"
+                - name: Рекомендации по переносу платформ данных
                   items:
                     - name: Обзор
                       href: migrate/azure-best-practices/sql-migration.md
@@ -418,16 +418,16 @@
                           href: 'https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Перенос рабочих нагрузок Oracle в Базу данных Azure для PostgreSQL по сети
                           href: 'https://docs.microsoft.com/azure/dms/tutorial-oracle-azure-postgresql-online?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: Миграция мейнфреймов
-                      items:
-                        - name: Обзор
-                          href: infrastructure/mainframe-migration/index.md
-                        - name: Мифы и факты
-                          href: infrastructure/mainframe-migration/myths-and-facts.md
-                        - name: Стратегии миграции
-                          href: infrastructure/mainframe-migration/migration-strategies.md
-                        - name: Стратегии переноса приложений
-                          href: infrastructure/mainframe-migration/application-strategies.md
+                - name: Рекомендации по переносу мейнфреймов
+                  items:
+                    - name: Обзор
+                      href: infrastructure/mainframe-migration/index.md
+                    - name: Мифы и факты
+                      href: infrastructure/mainframe-migration/myths-and-facts.md
+                    - name: Стратегии миграции
+                      href: infrastructure/mainframe-migration/migration-strategies.md
+                    - name: Стратегии переноса приложений
+                      href: infrastructure/mainframe-migration/application-strategies.md
                 - name: Рекомендации по оптимизации рабочих нагрузок
                   items:
                     - name: Расчет затрат и выбор размера рабочих нагрузок
@@ -546,7 +546,7 @@
               href: innovate/index.md
             - name: Руководство по инновациям Azure
               items:
-                - name: Введение
+                - name: Перед началом работы
                   href: innovate/innovation-guide/index.md
                 - name: Подготовка к сбору отзывов клиентов
                   href: innovate/innovation-guide/adoption.md
@@ -654,40 +654,6 @@
                   items:
                     - name: Обзор
                       href: innovate/best-practices/apps.md
-                    - name: Облачная среда
-                      items:
-                        - name: Полностью облачное приложение
-                          items:
-                            - name: Эталонные решения для полностью облачных приложений
-                              href: 'https://azure.microsoft.com/solutions/architecture/?product=app-service'
-                            - name: Создание приложения .NET Core с использованием Базы данных SQL
-                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Создание приложения .NET с использованием Базы данных SQL
-                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Создание приложения PHP с использованием MySQL
-                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-php-mysql?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Создание приложения Node.js с использованием MongoDB
-                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-nodejs-mongodb-app?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Создание приложения iOS
-                              href: 'https://docs.microsoft.com/azure/app-service-mobile/app-service-mobile-ios-get-started?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Микрослужбы
-                          items:
-                            - name: 'Проектирование и создание микрослужб, а также управление ими в Azure'
-                              href: 'https://docs.microsoft.com/azure/architecture/guide/architecture-styles/microservices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Эталонная архитектура для микрослужб в Service Fabric
-                              href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/microservices/service-fabric?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Эталонная архитектура для микрослужб в Службе Azure Kubernetes (AKS)
-                              href: 'https://docs.microsoft.com/azure/architecture/azure/architecture/reference-architectures/microservices/aks?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                            - name: Руководство по проектированию приложений Azure
-                              href: 'https://docs.microsoft.com/azure/architecture/guide?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: 'Миграция, модернизация и последующее внедрение инноваций'
-                      items:
-                        - name: 'Перенос рабочих нагрузок (приложений, виртуальных машин и данных)'
-                          href: 'https://azure.microsoft.com/migration/'
-                        - name: Перенос существующего приложения с помощью управляемой Службы Azure Kubernetes (AKS)
-                          href: 'https://azure.microsoft.com/solutions/architecture/migrate-existing-applications-with-aks/'
-                        - name: Расширение устаревших данных с помощью Azure Stack и полностью облачных приложений
-                          href: 'https://azure.microsoft.com/solutions/architecture/unlock-legacy-data/'
                     - name: Разработчики-любители
                       items:
                         - name: Создание приложений в PowerApps
@@ -700,28 +666,58 @@
                           href: 'https://docs.microsoft.com/power-platform/admin/wp-compliance-data-privacy?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: 'Политики защиты от потери данных для решений, созданных разработчиками-любителями'
                           href: 'https://docs.microsoft.com/power-platform/admin/wp-data-loss-prevention?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: Современные веб-интерфейсы
+                    - name: Интеллектуальные возможности
                       items:
-                        - name: Эталонные решения для полностью облачных приложений
-                          href: 'https://azure.microsoft.com/solutions/architecture/?product=app-service'
-                        - name: Создание приложения .NET Core с использованием Базы данных SQL
-                          href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Создание приложения .NET с использованием Базы данных SQL
-                          href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Создание приложения PHP с использованием MySQL
-                          href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-php-mysql?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Создание приложения Node.js с использованием MongoDB
-                          href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-nodejs-mongodb-app?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        - name: Современные веб-приложения
+                          items:
+                            - name: Эталонные решения для веб-приложений
+                              href: 'https://azure.microsoft.com/solutions/architecture/?product=app-service'
+                            - name: Создание приложения .NET Core с использованием Базы данных SQL
+                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Создание приложения .NET с использованием Базы данных SQL
+                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Создание приложения PHP с использованием MySQL
+                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-php-mysql?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Создание приложения Node.js с использованием MongoDB
+                              href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-nodejs-mongodb-app?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        - name: Внедрение аналитики
+                          items:
+                            - name: Использование Компьютерного зрения в Visual Studio
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/computer-vision/vs-computer-vision-connected-service'
+                            - name: Перевод текста в реальном времени
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-translate'
+                            - name: Анализ тональности с помощью LUIS
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/luis/luis-quickstart-intent-and-sentiment-analysis'
+                            - name: Преобразование речи в текст
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/speech-service/quickstart-csharp-dotnet-windows'
+                            - name: Поиск в Интернете Bing
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/bing-web-search/tutorial-bing-web-search-single-page-app'
+                            - name: Визуальный поиск на основе изображений
+                              href: 'https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/index'
+                        - name: Чат-боты
+                          items:
+                            - name: Создание и развертывание простого бота
+                              href: 'https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-basic-deploy'
+                            - name: Схема обучения. Создание ботов с помощью служб Azure Bot
+                              href: 'https://docs.microsoft.com/learn/paths/create-bots-with-the-azure-bot-service/'
+                            - name: Репозиторий. Примеры ботов Azure на GitHub
+                              href: 'https://github.com/microsoft/botframework-sdk'
                     - name: Полностью облачные приложения
                       items:
                         - name: Архитектура микрослужб
                           items:
-                            - name: Эталонная архитектура для микрослужб в Службе Azure Kubernetes (AKS)
-                              href: 'https://docs.microsoft.com/azure/architecture/azure/architecture/reference-architectures/microservices/aks?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Контейнеры
-                          items:
                             - name: 'Проектирование и создание микрослужб, а также управление ими в Azure'
                               href: 'https://docs.microsoft.com/azure/architecture/guide/architecture-styles/microservices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Эталонная архитектура для микрослужб в Службе Azure Kubernetes (AKS)
+                              href: 'https://docs.microsoft.com/azure/architecture/azure/architecture/reference-architectures/microservices/aks?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Эталонная архитектура. Пример бессерверных микрослужб
+                              href: 'https://docs.microsoft.com/samples/azure-samples/serverless-microservices-reference-architecture/serverless-microservices-reference-architecture/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        - name: Контейнеры
+                          items:
+                            - name: Что такое Kubernetes?
+                              href: 'https://azure.microsoft.com/topic/what-is-kubernetes/'
+                            - name: Подготовка приложения для Службы Azure Kubernetes (AKS)
+                              href: 'https://docs.microsoft.com/azure/aks/tutorial-kubernetes-prepare-app?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                             - name: Создание кластера Azure Red Hat OpenShift
                               href: 'https://docs.microsoft.com/azure/openshift/tutorial-create-cluster?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Микрослужбы Spring Boot
@@ -732,6 +728,16 @@
                               href: 'https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-distributed-tracing?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                             - name: "Привязывание Azure Cosmos\_DB к приложению Azure Spring Cloud"
                               href: 'https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-bind-cosmos?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                        - name: 'Приложения, управляемые событиями'
+                          items:
+                            - name: Схема обучения. Создание бессерверных приложений
+                              href: 'https://docs.microsoft.com/learn/paths/create-serverless-applications/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Руководство разработчиков функций
+                              href: 'https://docs.microsoft.com/azure/azure-functions/functions-reference?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Электронная книга. Руководство по бессерверным вычислениям
+                              href: 'https://azure.microsoft.com/resources/azure-serverless-computing-cookbook/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                            - name: Документация. Функции Azure
+                              href: 'https://docs.microsoft.com/azure/azure-functions/'
                 - name: Поддержка внедрения
                   items:
                     - name: Обзор
