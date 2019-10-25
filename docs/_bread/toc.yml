@@ -19,6 +19,13 @@
         - name: Ready
           tocHref: /azure/cloud-adoption-framework/ready/
           topicHref: /azure/cloud-adoption-framework/ready
+          items:
+            - name: Рекомендации
+              tocHref: /azure/cloud-adoption-framework/ready/azure-best-practices/
+              topicHref: /azure/cloud-adoption-framework/ready/azure-best-practices
+            - name: Рекомендации
+              tocHref: /azure/security/fundamentals/
+              topicHref: /azure/cloud-adoption-framework/ready/azure-best-practices
         - name: Внедрение
           items:
             - name: Миграция
