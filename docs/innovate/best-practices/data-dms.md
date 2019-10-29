@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: c75efe3576bb61ecb116ab22e4946b8d87da3d4a
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 538cbc89fb592ecc19a5c25c42cf21231bfe05fe
+ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683417"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "73047757"
 ---
 # <a name="collect-data-through-the-migration-and-modernization-of-existing-data-sources"></a>Получение данных с помощью миграции и модернизации существующих источников данных
 
@@ -25,7 +25,7 @@ ms.locfileid: "72683417"
 
 ## <a name="primary-toolset"></a>Основной набор инструментов
 
-При миграции и модернизации данных, которые в настоящее время находятся в локальной системе, наиболее распространенным средством Azure является [Служба миграции данных (DMS)](https://docs.microsoft.com/azure/dms) , которая является частью более широкой цепочки инструментов службы " [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview) ". Для существующих SQL Server источников данных [Помощник по миграции данных (DMA)](/sql/dma/dma-overview) также может помочь в оценке и переносе меньшего количества структур данных.
+При миграции и модернизации данных, которые в настоящее время находятся в локальной системе, наиболее распространенным средством Azure является [Служба миграции данных (DMS)](https://docs.microsoft.com/azure/dms) , которая является частью более широкой цепочки инструментов службы " [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview) ". Для существующих SQL Server источников данных [Помощник по миграции данных (DMA)](https://docs.microsoft.com/sql/dma/dma-overview) также может помочь в оценке и переносе меньшего количества структур данных.
 
 Для поддержки миграций Oracle и NoSQL [Служба миграции данных (DMS)](https://docs.microsoft.com/azure/dms) также может использоваться для определенных типов источника с целевыми базами данных, таких как Oracle в PostgreSQL или MongoDB для Cosmos DB. Чаще всего команды перехода используют сторонние средства или настраиваемые сценарии миграции для перехода на виртуальные машины на основе Cosmos DB, HDInsight или IaaS.
 
