@@ -127,6 +127,12 @@
           href: ready/azure-best-practices/roles.md
         - name: Создание согласованности гибридного облака
           href: infrastructure/misc/hybrid-consistency.md
+    - name: Расширенная область
+      items:
+        - name: Целевые зоны Terraform
+          href: ready/expanded-scope/terraform-landing-zone.md
+        - name: Безопасность границ сети
+          href: reference/networking-vdc.md
     - name: Рекомендации
       items:
         - name: Обзор
@@ -437,8 +443,6 @@
                   href: migrate/azure-best-practices/migrate-best-practices-security-management.md
                 - name: Дополнительные рекомендации
                   items:
-                    - name: Рекомендации по защите границ Azure
-                      href: reference/networking-vdc.md
                     - name: Рекомендации по обеспечению безопасности базы данных Azure
                       href: 'https://docs.microsoft.com/azure/security/fundamentals/database-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Рекомендации по защите и шифрованию данных в Azure
