@@ -8,17 +8,17 @@ ms.date: 09/22/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 2e605766e06b106fab61576e64bd5059569c8b38
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: dcf717841e7ac42e0957ce540fc974c84d112a79
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548777"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058178"
 ---
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Корпоративный каркас Azure: рекомендуемая система управления подписками
 
 > [!NOTE]
-> Формирование шаблонов Azure Enterprise интегрировано в платформу внедрения Microsoft Cloud. Содержимое этой статьи теперь представлено в разделе [готовности](../ready/index.md) новой платформы. Эта статья будет признана устаревшей в начале 2020. Чтобы приступить к использованию нового процесса, ознакомьтесь с [обзором готовности](../ready/index.md), [созданием первой целевой зоны](../ready/azure-setup-guide/migration-landing-zone.md)и/или [сведениями о целевой зоне](../ready/considerations/index.md).
+> Формирование шаблонов Azure Enterprise интегрировано в платформу внедрения Microsoft Cloud. Содержимое этой статьи теперь представлено в разделе [готовности](../ready/index.md) новой платформы. Эта статья будет признана устаревшей в начале 2020. Чтобы приступить к использованию нового процесса, ознакомьтесь с [обзором готовности](../ready/index.md), [созданием первой целевой зоны](../ready/azure-setup-guide/migration-landing-zone.md)и [сведениями о целевой зоне](../ready/considerations/index.md).
 
 Предприятия все чаще внедряют общедоступное облако ввиду его гибкости и динамичности. Они полагаются на сильные стороны облака для создания дохода и оптимизации использования ресурсов для бизнеса. Microsoft Azure предоставляет множество служб и возможностей, из которых как из строительных блоков предприятия конструируют решения для широкого спектра рабочих нагрузок и приложений.
 

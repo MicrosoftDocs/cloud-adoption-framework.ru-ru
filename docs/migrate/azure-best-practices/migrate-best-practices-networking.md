@@ -8,12 +8,12 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 863f1270679a849d53bce04a8c2fded6019fc65f
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 3bba3d7f028849ec3397e14dbdb0f39dfa246660
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548536"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058888"
 ---
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Рекомендации по настройке сетей для рабочих нагрузок, перенесенных в Azure
 
@@ -417,8 +417,8 @@ Allow-Database-BusinessLogic | Разрешение трафика из груп
 
 **Дополнительные сведения**
 
-- [Сведения](https://docs.microsoft.com/azure/virtual-network/virtual-network-ip-addresses-overview-arm#public-ip-addresses) об общедоступных IP-адресах в Azure.
-- [Сведения](https://docs.microsoft.com/azure/security-center/security-center-just-in-time) о JIT-доступе к виртуальным машинам в Центре безопасности Azure.
+- [Общедоступные IP-адреса в Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-ip-addresses-overview-arm#public-ip-addresses)
+- [Управление доступом к виртуальным машинам с помощью JIT](https://docs.microsoft.com/azure/security-center/security-center-just-in-time)
 
 ## <a name="take-advantage-of-azure-security-features-for-networking"></a>Использование преимуществ функций безопасности Azure при настройке сетей
 
@@ -514,7 +514,7 @@ Azure содержит функции безопасности платформ�
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Ознакомьтесь с другими рекомендациями:
+Просмотрите другие рекомендации:
 
 - [Рекомендации по обеспечению безопасности рабочих нагрузок, перенесенных в Azure, и управлению ими](./migrate-best-practices-security-management.md).
 - [Рекомендации](./migrate-best-practices-costs.md) по управлению затратами после миграции.

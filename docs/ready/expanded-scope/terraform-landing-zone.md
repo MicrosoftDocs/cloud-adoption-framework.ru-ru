@@ -1,5 +1,5 @@
 ---
-title: Целевая зона с terraform
+title: Использование terraform для создания целевых зон
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как использовать terraform для создания целевых зон.
 author: arnaudlh
@@ -8,16 +8,16 @@ ms.date: 10/16/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: b540e2f4ea2a9c7f091a5505a19ad61eac05c971
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
-ms.translationtype: HT
+ms.openlocfilehash: 51751ab0033505e34c02c17db363bc985b83e44d
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73049774"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058159"
 ---
 # <a name="use-terraform-to-build-your-landing-zones"></a>Использование terraform для создания целевых зон
 
-Помимо собственных служб Azure, клиенты и партнеры часто используют terraform Hashicorp для развертывания узловых зон. В этом разделе описывается использование целевой зоны прототипа для развертывания основных возможностей ведения журнала, учета и безопасности для подписки Azure.
+Azure предоставляет собственные службы для развертывания целевых зон. Другие сторонние средства также могут помочь в этом. Одним из таких средств, которые клиенты и партнеры часто используют для развертывания начальных зон, является Hashicorp terraform. В этом разделе показано, как использовать целевую зону прототипа для развертывания основных возможностей ведения журнала, учета и безопасности для подписки Azure.
 
 ## <a name="purpose-of-the-landing-zone"></a>Назначение целевой зоны
 

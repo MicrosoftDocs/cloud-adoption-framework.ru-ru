@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 8449878d46c939c58f690e585aac07fa0e827484
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 18fce98055f72e43ea7ecc2565ab859845cea356
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548046"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058816"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -52,7 +52,7 @@ ms.locfileid: "72548046"
 
 ## <a name="unique-intelligent-insights"></a>Уникальная интеллектуальная аналитика
 
-По мере роста объема и сложности сигналов безопасности определение того, являются ли эти сигналы достоверными угрозами, с последующим принятием мер занимает слишком много времени. Корпорация Майкрософт предлагает беспрецедентный спектр аналитики безопасности, предоставляемый в масштабах облака, для быстрого обнаружения и устранения угроз. [Подробнее](https://docs.microsoft.com/azure/security-center/security-center-intro)
+По мере роста объема и сложности сигналов безопасности определение того, являются ли эти сигналы достоверными угрозами, с последующим принятием мер занимает слишком много времени. Корпорация Майкрософт предлагает беспрецедентный спектр аналитики безопасности, предоставляемый в масштабах облака, для быстрого обнаружения и устранения угроз. Дополнительные сведения см. в [обзоре центра безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-intro).
 
 ## <a name="azure-threat-intelligence"></a>Аналитика угроз Azure
 

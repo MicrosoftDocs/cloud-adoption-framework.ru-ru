@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 4948035001cba4ba9b433a6f31811f0c66e1704f
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 574fa1ede2d7ddeb0fe41f05c8519e9b16ba6c51
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548147"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058496"
 ---
 # <a name="rehost-an-on-premises-app-on-an-azure-vm-and-sql-database-managed-instance"></a>Повторное размещение локального приложения на виртуальной машине Azure и в Управляемом экземпляре Базы данных SQL
 
@@ -588,7 +588,7 @@ Contoso необходимо, чтобы после отработки отка�
 
      ![Безопасность Управляемого экземпляра — обнаружение угроз](./media/contoso-migration-rehost-vm-sql-managed-instance/mi-security.png)
 
-Дополнительные сведения см. в разделе [Рекомендации по безопасности для рабочих нагрузок IaaS в Azure](https://docs.microsoft.com/azure/security/azure-security-best-practices-vms).
+Дополнительные сведения см. в разделе [Рекомендации по безопасности для рабочих нагрузок IaaS в Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
 
 ### <a name="bcdr"></a>BCDR
 

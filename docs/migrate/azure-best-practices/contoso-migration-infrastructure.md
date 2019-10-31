@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 93c0bb52159b4573ed796ca3a1aa7cb0ac2d8149
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 13a3a8a8734ffe67298d09544882c612916b995f
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547346"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058909"
 ---
 # <a name="deploy-a-migration-infrastructure"></a>Развертывание инфраструктуры миграции
 
@@ -325,7 +325,7 @@ Azure Site Recovery помогает обеспечить непрерывнос
 
 ### <a name="plan-hybrid-network-connectivity"></a>Планирование возможности подключения к сети в гибридной среде
 
-В Contoso рассмотрели [несколько вариантов архитектуры](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking) для организации гибридных сетевых подключений между Azure и локальным центром обработки данных. [Узнайте больше](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/considerations) о сравнении этих вариантов.
+В Contoso рассмотрели [несколько вариантов архитектуры](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking) для организации гибридных сетевых подключений между Azure и локальным центром обработки данных. Дополнительные сведения см. в статье [Выбор решения для подключения локальной сети к Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/considerations).
 
 Напоминаем, что текущая инфраструктура Contoso в локальной сети состоит из центра обработки данных в Нью-Йорке и локальных филиалов в восточной части США. Во всех расположениях есть подключение к Интернету бизнес-класса. Каждый филиал подключен к центру обработки данных VPN-туннелем IPSec через Интернет.
 
@@ -638,7 +638,7 @@ Active Directory — это критически важная служба в с
 
 ## <a name="step-5-plan-for-governance"></a>Шаг 5. Планирование системы управления
 
-Azure предоставляет ряд средств управления, которыми можно воспользоваться в различных службах и на платформе Azure. Общие сведения о параметрах см. в этой [статье](https://docs.microsoft.com/azure/security/governance-in-azure).
+Azure предоставляет ряд средств управления, которыми можно воспользоваться в различных службах и на платформе Azure. Дополнительные сведения см. в статье [Параметры управления Azure](https://docs.microsoft.com/azure/security/governance-in-azure).
 
 Специалисты Contoso уже начали определять некоторые аспекты управления и обеспечения безопасности при настройке удостоверения и управлении доступом. В целом им следует учесть три аспекта:
 

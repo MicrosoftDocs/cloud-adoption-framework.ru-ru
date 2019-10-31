@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 0d1918f60f6bfe2a6d458b83b5838a8776af51a7
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 39c756c1d90cc9baf7927b2a0ba02814a82f6031
+ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549269"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73058798"
 ---
 # <a name="assess-the-digital-estate"></a>Оценка цифровых активов
 
@@ -58,7 +58,7 @@ ms.locfileid: "72549269"
 
 ::: zone target="docs"
 
-### <a name="read-more"></a>Дополнительные сведения
+### <a name="learn-more"></a>Подробнее
 
 - [Общие сведения о Миграции Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview)
 - [Перенос физических и виртуализированных серверов в Azure.](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines)
@@ -82,7 +82,7 @@ ms.locfileid: "72549269"
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="read-more"></a>Дополнительные сведения
+### <a name="learn-more"></a>Подробнее
 
 - [Использование решения "Сопоставление служб" в Azure](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)
 - [Миграция Azure и Сопоставление служб: Визуализация зависимостей](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization)
@@ -104,7 +104,7 @@ ms.locfileid: "72549269"
 
 Создание основной группы по облачной стратегии, сформированной на основе этих ключевых высокопоставленных заинтересованных лиц, поможет подготовить организацию к внедрению облачных технологий и управлять общими усилиями по миграции в облако. Эта группа отвечает за понимание облачных технологий и процессов миграции, определение бизнес-обоснования миграции и выбор лучших общих решений для выполнения миграции. Она также помогает определить и рассмотреть конкретные приложения, а также взаимодействовать с заинтересованными лицами, чтобы обеспечить успешную миграцию.
 
-Дополнительные сведения о том, как подготовить свою организацию к переходу в облако, доступны в статье о Cloud Adoption Framework, посвященной [первоначальной проверке соответствия организации](../../ready/initial-org-alignment.md).
+Дополнительные сведения о том, как подготовить свою организацию к переходу в облако, доступны в статье о Cloud Adoption Framework, посвященной [первоначальной проверке соответствия организации](../../plan/initial-org-alignment.md).
 
 # <a name="timelinestabtimelines"></a>[Временная шкала](#tab/Timelines)
 
