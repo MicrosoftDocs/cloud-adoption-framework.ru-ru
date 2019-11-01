@@ -1,21 +1,21 @@
 ---
-title: Контрольный список необходимых компонентов для эффективного плана внедрения в облако
+title: Необходимые условия для эффективного плана внедрения в облако
 titleSuffix: Microsoft Cloud Adoption Framework
-description: Контрольный список необходимых компонентов для эффективного плана внедрения в облако
+description: Ознакомьтесь с предварительными требованиями для эффективного плана внедрения в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 0933474aef96d01862f0f230073e275ac262cd83
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 6689945769c7eb31ba306567e2a09e51456d47cc
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73048505"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240218"
 ---
-# <a name="prerequisites-checklist-for-an-effective-cloud-adoption-plan"></a>Контрольный список необходимых компонентов для эффективного плана внедрения в облако
+# <a name="prerequisites-for-an-effective-cloud-adoption-plan"></a>Необходимые условия для эффективного плана внедрения в облако
 
 План работает так же эффективно, как и данные, помещаемые в него. Чтобы план внедрения в облако действовал, существуют две категории входных данных: *стратегическое* и *тактических*. В следующих разделах описаны минимальные точки данных, необходимые в каждой категории.
 

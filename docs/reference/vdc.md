@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 keywords: Azure
 layout: LandingPage
-ms.openlocfilehash: f77d42b9f55e5a8585e663b416f0d354e2de78de
-ms.sourcegitcommit: d37c4443e9acaa381ea74ee3fc50e3b99f13f22a
+ms.openlocfilehash: a07b9609c67d08c445e1f373d1db05c87b791748
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72001855"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239755"
 ---
 # <a name="azure-virtual-datacenter"></a>Виртуальный центр обработки данных Azure
 
@@ -29,22 +29,22 @@ ms.locfileid: "72001855"
 <tr>
     <td style="width: 64px; vertical-align: middle;"><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter.pdf"><img src="../_images/vdc/virtual-datacenter.svg" alt="Virtual Datacenter e-book" /></a></td>
     <td>
-        <h3><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter.pdf">Виртуальный центр обработки данных Azure. Основные понятия</a></h3>
+        <h3><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter.pdf">Виртуальный центр обработки данных Azure: основные понятия</a></h3>
         <p>В этой электронной книге показано, как развертывать рабочие нагрузки предприятия в облачной платформе Azure, соблюдая существующие сетевые политики и политики безопасности.</p>
     </td>
 </tr>
 <tr>
     <td style="width: 64px; vertical-align: middle;"><a href="./networking-vdc.md"><img src="../_images/vdc/vdc-network.png" alt="Network Perspective" /></a></td>
     <td>
-        <h3><a href="./networking-vdc.md">Виртуальный центр обработки данных Azure. Общие сведения о сетевой инфраструктуре</a></h3>
+        <h3><a href="./networking-vdc.md">Виртуальный центр обработки данных Microsoft Azure с точки зрения сети</a></h3>
         <p>Эта онлайн-статья содержит обзор сетевых шаблонов и схем, которые можно использовать для решения проблем безопасности, производительности и масштабирования архитектуры, с которыми сталкиваются многие клиенты, планируя массовое перемещение в облако.</p>
     </td>
 </tr>
 <tr>
     <td style="width: 64px; vertical-align: middle;"><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf"><img src="../_images/vdc/vdc-lift-and-shift.png" alt="Lift and Shift Guide" /></a></td>
     <td>
-        <h3><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf">Виртуальный центр обработки данных Azure. Руководство по миграции методом lift-and-shift</a></h3>
-        <p>В этом техническом документе обсуждается процесс, который сотрудники ИТ-отдела и лица, принимающие решения, могут использовать для обнаружения и планирования миграции приложений и серверов в Azure с помощью подхода "поднятие и смены", что сводит к минимуму дополнительные затраты на разработку при оптимизации облака. параметры размещения.</p>
+        <h3><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf">Виртуальный центр обработки данных Azure: руководство по миграции методом lift-and-shift</a></h3>
+        <p>В этом техническом документе обсуждается процесс, который специалисты по ИТ-персоналу и лица, принимающие решения, могут использовать для обнаружения и планирования миграции приложений и серверов в Azure с помощью подхода переноса и смены, минимизации дополнительных затрат на разработку при оптимизации облака. параметры размещения.</p>
     </td>
 </tr>
 </table>

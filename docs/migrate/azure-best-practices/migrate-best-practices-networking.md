@@ -8,12 +8,12 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3bba3d7f028849ec3397e14dbdb0f39dfa246660
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 4496d272ec4c23feb84157e2eba40935b1d16370
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058888"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240034"
 ---
 # <a name="best-practices-to-set-up-networking-for-workloads-migrated-to-azure"></a>Рекомендации по настройке сетей для рабочих нагрузок, перенесенных в Azure
 
@@ -120,7 +120,7 @@ Azure добавляет DNS-сервер по умолчанию при раз�
 **Дополнительные сведения**
 
 - [Сведения](https://docs.microsoft.com/azure/migrate/contoso-migration-infrastructure) о разрешении имен при использовании собственного DNS-сервера.
-- [Сведения](../../ready/considerations/naming-and-tagging.md) о правилах именования и ограничениях DNS.
+- [Сведения](../../ready/azure-best-practices/naming-and-tagging.md) о правилах именования и ограничениях DNS.
 
 ## <a name="best-practice-set-up-availability-zones"></a>Рекомендации. Настройка зон доступности
 

@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: e6187bc926aacd9a09e67b8cd2bfe94e5a4a42dd
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 83165e21882b4979d0fb3b104fa4f2c12aed326c
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72682623"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239465"
 ---
 # <a name="predict-and-influence"></a>Прогнозирование и влияние
 
@@ -78,7 +78,7 @@ ms.locfileid: "72682623"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Исходя из знаний о [дисциплинах инноваций](./invention.md) в [методологии](./index.md) инноваций, вы знакомы с техническими инструментами, необходимыми для [создания с помощью сопереживание](./build.md).
+На основе знаний, полученных в отношении [дисциплин Invention](./invention.md) в [методологии инноваций](./index.md) , вы знакомы с техническими инструментами, необходимыми для [построения с помощью сопереживание](./build.md).
 
 > [!div class="nextstepaction"]
 > [Сборка с помощью сопереживание](./build.md)

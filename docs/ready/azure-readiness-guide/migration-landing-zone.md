@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit
-ms.openlocfilehash: cb4b14da5b7f9e934a6597fb0fc4e1c8b3d656ff
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: b3adddc6b68d07084ec8c3909d6c8010c25bb387
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548909"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239853"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
@@ -47,7 +47,7 @@ ms.locfileid: "72548909"
 - **Ограничения подписки:** Эта деятельность по внедрению не должна превышать [пределы подписки](https://docs.microsoft.com/azure/azure-subscription-service-limits). Два общих индикатора — это превышение 25 000 виртуальных машин или 10 000 виртуальных ЦП.
 - **Соответствие требованиям:** В этой зоне не требуется никаких требований к соответствию сторонних разработчиков.
 - **Сложность архитектуры:** Сложность архитектуры не требует дополнительных производственных подписок.
-- **Общие службы:** В Azure нет существующих общих служб, которые нуждаются в том, что эта подписка должна рассматриваться как периферийная в архитектуре "звезда".
+- **Общие службы:** В Azure нет существующих общих служб, для которых требуется, чтобы эта подписка рассматривалась как периферийная в основной и периферийной архитектурах.
 
 Если эти предположения кажутся согласованными с текущей средой, тогда эта схема отлично подойдет для начала создания зоны размещения.
 
@@ -59,17 +59,17 @@ ms.locfileid: "72548909"
 |---------|---------|---------|
 |Средства миграции|Будет развернута Azure Site Recovery, и будет создан проект Миграции Azure.|[Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)|
 |Ведение журналов и мониторинг|Будут предоставлены рабочее пространство оперативной аналитики и учетная запись хранения диагностики.|         |
-|Network|Будет создана виртуальная сеть с подсетями для шлюза, брандмауэра, Jumpbox и зоны размещения.|[Решения по выбору сетей](../considerations/network-decisions.md)|
+|Network|Будет создана виртуальная сеть с подсетями для шлюза, брандмауэра, Jumpbox и зоны размещения.|[Решения по выбору сетей](../considerations/networking-options.md)|
 |Удостоверение|Предполагается, что подписка уже связана с экземпляром Azure Active Directory.|[Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)         |
 |Политика|В настоящее время эта схема предполагает, что никакие политики Azure не будут применяться.|         |
-|Разработка подписки|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../considerations/scaling-subscriptions.md)|
-|Группы управления|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../considerations/scaling-subscriptions.md)         |
-|Группы ресурсов|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../considerations/scaling-subscriptions.md)         |
+|Разработка подписки|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)|
+|Группы управления|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
+|Группы ресурсов|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
 |Данные|Н/Д|[Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=https://docs.microsoft.com/azure/architecture/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
-|Storage|Н/Д|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-guidance.md)         |
-|Стандарты именования и расстановки тегов|Н/Д|[Рекомендации Azure по добавлению тегов и стандартам именования](../considerations/naming-and-tagging.md)         |
+|Storage|Н/Д|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-options.md)         |
+|Стандарты именования и расстановки тегов|Н/Д|[Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)         |
 |Управление затратами|Н/Д|[Отслеживание затрат](../azure-best-practices/track-costs.md)|
-|Compute|Н/Д|[Варианты вычислений](../considerations/compute-decisions.md)|
+|Compute|Н/Д|[Варианты вычислений](../considerations/compute-options.md)|
 
 ## <a name="customize-or-deploy-a-landing-zone-from-this-blueprint"></a>Настройка или развертывание зоны размещения из этой схемы
 
