@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ea7d9c51ced367734b28fd550ec1caa69ffe1f27
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 1f0db9ecd49973c769d74a5357e56406e3bce3cf
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058681"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73239695"
 ---
 # <a name="standard-enterprise-governance-guide"></a>Руководство по организации системы управления для стандартных предприятий
 
@@ -41,7 +41,7 @@ ms.locfileid: "73058681"
 
 1. Группа управления для каждого типа среды (например, рабочая среда, среда разработки и тестирования).
 2. Две подписки: для рабочей и нерабочей рабочих нагрузок.
-3. На каждом уровне иерархии группирования должна применяться [согласованная номенклатура](../../../ready/considerations/naming-and-tagging.md).
+3. На каждом уровне иерархии группирования должна применяться [согласованная номенклатура](../../../ready/azure-best-practices/naming-and-tagging.md).
 4. Группы ресурсов следует развертывать способом, который учитывает особенности жизненного цикла ее содержимого: развертывание активов, управление ими и прекращение использования должно осуществляться в комплексе. Рекомендации по использованию групп ресурсов можно найти [здесь](../../../decision-guides/resource-consistency/index.md).
 5. Очень важно [выбрать правильный регион](../../../decision-guides/regions/index.md). Мы рекомендуем выбирать регион так, чтобы вы имели доступ к сетевым ресурсам, средствам мониторинга и аудита в процессе отработки отказа или восстановления размещения, а также чтобы [нужные SKU были доступны в предпочтительных регионах](https://azure.microsoft.com/global-infrastructure/services).
 

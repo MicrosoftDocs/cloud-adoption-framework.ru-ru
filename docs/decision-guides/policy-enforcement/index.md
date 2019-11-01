@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 5dba9732220d5219b7d58a60ba93aec68792a24f
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 10af3ade249bcc115d5b273b2610c093e48bf9a2
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547857"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73238868"
 ---
 # <a name="policy-enforcement-decision-guide"></a>Руководство по принудительному применению политик
 
@@ -57,7 +57,7 @@ ms.locfileid: "72547857"
 
 Когда для облачных активов потребуется большое число подписок, для применения политик ко всем этим подпискам потребуется единая стратегия в масштабе всей облачной системы.
 
-В проекте вашей [подписки](../subscriptions/index.md) должна учитываться политика, связанная с организационной структурой. Помимо поддержки сложной организации в рамках проекта подписки [группы управления Azure](../../ready/considerations/scaling-subscriptions.md#managing-multiple-subscriptions) можно использовать для назначения правил политики Azure нескольким подпискам.
+В проекте вашей [подписки](../subscriptions/index.md) должна учитываться политика, связанная с организационной структурой. Помимо поддержки сложной организации в рамках проекта подписки [группы управления Azure](../../ready/azure-best-practices/scaling-subscriptions.md#managing-multiple-subscriptions) можно использовать для назначения правил политики Azure нескольким подпискам.
 
 ## <a name="automated-enforcement"></a>Автоматизированное принудительное выполнение
 

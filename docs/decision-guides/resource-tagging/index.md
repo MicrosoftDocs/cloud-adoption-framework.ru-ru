@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ef226d55d6b16c69b35c57734de25efec6abaa00
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: 77fe8ba38b2ebf79ddceeb9fe2df940e8e333cc6
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378029"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73238851"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 
@@ -40,7 +40,7 @@ ms.locfileid: "72378029"
 
 Стандартизированное соглашение об именовании служит основой для упорядочения ресурсов, размещенных в облаке. Правильно структурированная система именования позволяет быстро находить ресурсы для целей управления и учета. Если в других отделах вашей организации уже используется соглашение об именовании ИТ-систем, примите отдельное решение: будет ли соглашение об именовании для облака согласованным с уже имеющимися или новыми облачными стандартами.
 
-Обратите внимание, что для разных ресурсов Azure существуют разные [требования к именованию](../../ready/considerations/naming-and-tagging.md). Соглашения об именовании должны соответствовать всем таким требованиям.
+Обратите внимание, что для разных ресурсов Azure существуют разные [требования к именованию](../../ready/azure-best-practices/naming-and-tagging.md). Соглашения об именовании должны соответствовать всем таким требованиям.
 
 ## <a name="resource-tagging-patterns"></a>Шаблоны присвоения тегов ресурсам
 
