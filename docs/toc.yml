@@ -3,7 +3,7 @@
   pdf_name: Microsoft Cloud Adoption Framework for Azure
 - name: Начало работы
   items:
-    - name: Основные сведения о процессе миграции
+    - name: Начало миграции
       href: getting-started/migrate.md
     - name: Основные сведения о процессе внедрения инноваций
       href: getting-started/innovate.md
@@ -21,27 +21,27 @@
           href: strategy/business-outcomes/index.md
         - name: Финансовые показатели
           href: strategy/business-outcomes/fiscal-outcomes.md
-        - name: Результирующая гибкость
+        - name: Показатели гибкости
           href: strategy/business-outcomes/agility-outcomes.md
-        - name: Результирующий охват
+        - name: Показатели всемирного охвата
           href: strategy/business-outcomes/reach-outcomes.md
-        - name: Результирующая вовлеченность
+        - name: Показатели вовлеченности клиентов
           href: strategy/business-outcomes/engagement-outcomes.md
         - name: Показатели производительности
           href: strategy/business-outcomes/performance-outcomes.md
-        - name: Использование бизнес-результатов
+        - name: Шаблон бизнес-результатов
           href: strategy/business-outcomes/business-outcome-template.md
-        - name: Согласование технических задач и показателей обучения
+        - name: Согласование действий с метриками обучения
           href: strategy/learning-metrics.md
     - name: Коммерческое обоснование
       items:
-        - name: Создание бизнес-модели миграции в облако
+        - name: Составление бизнес-обоснования
           href: strategy/cloud-migration-business-case.md
-        - name: Создание финансовой модели для перехода на облачные технологии
+        - name: Создание финансовой модели
           href: strategy/financial-models.md
-        - name: Что такое учет в облаке?
+        - name: Общие сведения об учете в облаке
           href: strategy/cloud-accounting.md
-    - name: Первый проект внедрения
+    - name: Первый проект внедрения облачных технологий
       href: strategy/first-adoption-project.md
     - name: Предлагаемые навыки
       href: strategy/suggested-skills.md
@@ -55,37 +55,37 @@
           href: digital-estate/5-rs-of-rationalization.md
         - name: Что такое цифровые активы
           href: digital-estate/index.md
-        - name: Подходы к планированию цифровых активов
+        - name: Планирование цифровых активов
           href: digital-estate/approach.md
         - name: Сбор данных инвентаризации
           href: digital-estate/inventory.md
         - name: Рациональное использование цифровых активов
           href: digital-estate/rationalize.md
-        - name: Сопоставление моделей затрат для прогнозирования стоимости
+        - name: Сопоставление моделей затрат для прогнозирования расходов
           href: digital-estate/calculate.md
     - name: Первоначальная проверка соответствия организации
       href: plan/initial-org-alignment.md
     - name: План внедрения в облако
       items:
-        - name: Введение
+        - name: Обзор
           href: plan/plan-intro.md
         - name: Предварительные требования
           href: plan/prerequisites.md
-        - name: Развертывание шаблона плана внедрения в облако в Azure DevOps
+        - name: Развертывание шаблона в Azure DevOps
           href: plan/template.md
-        - name: Определение и приоритизация рабочих нагрузок
+        - name: Приоритизация и определение рабочих нагрузок
           href: plan/workloads.md
         - name: Согласование ресурсов и рабочих нагрузок
           href: plan/assets.md
         - name: Просмотр решений о рационализации
           href: plan/review-rationalization.md
-        - name: Изменение путей итерации (определение выпусков и итераций)
+        - name: Установка итераций и разработка планов выпусков
           href: plan/iteration-paths.md
-        - name: Создание временных шкал
+        - name: Оценка временных шкал
           href: plan/timelines.md
     - name: Предлагаемые навыки
       href: plan/suggested-skills.md
-    - name: 'Адаптация существующих ролей, навыков и процессов'
+    - name: Адаптация к облаку
       href: plan/adapt-roles-skills-processes.md
 - name: Ready
   items:
@@ -103,9 +103,9 @@
           href: ready/azure-setup-guide/manage-costs.md
         - name: 'Планирование системы управления, безопасности и соответствия'
           href: ready/azure-setup-guide/govern-org-compliance.md
-        - name: Мониторинг и создание отчетов
+        - name: Организация мониторинга и создания отчетов
           href: ready/azure-setup-guide/monitoring-reporting.md
-        - name: Поддержка актуальности процессов в Azure
+        - name: Последние новости об Azure
           href: ready/azure-setup-guide/staying-current.md
         - name: Развертывание зоны размещения для миграции
           href: ready/azure-setup-guide/migration-landing-zone.md
@@ -115,18 +115,18 @@
           href: ready/considerations/index.md
         - name: Основные понятия Azure
           href: ready/considerations/fundamental-concepts.md
-        - name: Выбор служб вычислений
-          href: ready/considerations/compute-decisions.md
-        - name: Решения по выбору сетей
-          href: ready/considerations/network-decisions.md
-        - name: Рекомендации по выбору хранилища
-          href: ready/considerations/storage-guidance.md
-        - name: Выбор хранилища данных
-          href: ready/considerations/data-decisions.md
+        - name: Обзор вариантов вычислений
+          href: ready/considerations/compute-options.md
+        - name: Обзор вариантов сетевого подключения
+          href: ready/considerations/networking-options.md
+        - name: Обзор вариантов хранения
+          href: ready/considerations/storage-options.md
+        - name: Обзор вариантов данных
+          href: ready/considerations/data-options.md
         - name: Элементы управления доступом на основе ролей
-          href: ready/azure-best-practices/roles.md
+          href: ready/considerations/roles.md
         - name: Создание согласованности гибридного облака
-          href: infrastructure/misc/hybrid-consistency.md
+          href: ready/considerations/hybrid-consistency.md
     - name: Расширенная область
       items:
         - name: Целевые зоны Terraform
@@ -137,19 +137,19 @@
       items:
         - name: Обзор
           href: ready/azure-best-practices/index.md
-        - name: Основные сведения об Azure
+        - name: Организация ресурсов
           items:
             - name: Масштабирование с использованием нескольких подписок
-              href: ready/considerations/scaling-subscriptions.md
+              href: ready/azure-best-practices/scaling-subscriptions.md
             - name: Именование и присвоение тегов
-              href: ready/considerations/naming-and-tagging.md
+              href: ready/azure-best-practices/naming-and-tagging.md
         - name: Сеть
           items:
             - name: Планирование виртуальных сетей
               href: 'https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
             - name: Рекомендации по обеспечению сетевой безопасности
               href: 'https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-            - name: Рекомендации по выбору сетей для миграции рабочих нагрузок
+            - name: Рекомендации по сетевому подключению для перенесенных рабочих нагрузок
               href: migrate/azure-best-practices/migrate-best-practices-networking.md
             - name: Сети периметра
               href: ready/azure-best-practices/perimeter-networks.md
@@ -159,9 +159,9 @@
           items:
             - name: Рекомендации по управлению идентификаторами
               href: 'https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-            - name: "Защита административного доступа в Azure\_AD"
+            - name: Обеспечение безопасности привилегированного доступа
               href: 'https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-admin-roles-secure?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-            - name: Выбор аутентификации Azure AD
+            - name: Выбор метода проверки подлинности
               href: 'https://docs.microsoft.com/azure/security/fundamentals/choose-ad-authn?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
         - name: Хранилище
           items:
@@ -171,21 +171,21 @@
           items:
             - name: Рекомендации по обеспечению безопасности базы данных
               href: 'https://docs.microsoft.com/azure/security/fundamentals/database-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-            - name: "Выбор версии Azure\_SQL"
+            - name: Выбор варианта развертывания в SQL Azure
               href: 'https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
         - name: управления затратами;
           items:
-            - name: 'Отслеживание затрат в бизнес-подразделениях, средах и проектах'
+            - name: Отслеживание затрат
               href: ready/azure-best-practices/track-costs.md
-            - name: Рекомендации для Управления затратами Azure
+            - name: Оптимизация инвестиций в облако
               href: 'https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
             - name: Создание бюджетов и управление ими
               href: 'https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
             - name: Экспорт данных о затратах
               href: 'https://docs.microsoft.com/azure/cost-management/tutorial-export-acm-data?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-            - name: Оптимизация затрат на основе рекомендаций
+            - name: Рекомендации по оптимизации затрат
               href: 'https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-            - name: Использование оповещений о затратах для мониторинга потребления и расходов
+            - name: Отслеживание использования и расходов
               href: 'https://docs.microsoft.com/azure/cost-management/cost-mgt-alerts-monitor-usage-spending?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
     - name: Предлагаемые навыки
       href: ready/suggested-skills.md
@@ -201,9 +201,9 @@
               href: migrate/azure-migration-guide/index.md
             - name: Необходимые условия для миграции в Azure
               href: migrate/azure-migration-guide/prerequisites.md
-            - name: Оценка отдельных рабочих нагрузок до миграции
+            - name: Оценка цифровых активов
               href: migrate/azure-migration-guide/assess.md
-            - name: 'Перенос ресурсов, входящих в состав рабочей нагрузки'
+            - name: Перенос ресурсов рабочей нагрузки
               href: migrate/azure-migration-guide/migrate.md
             - name: Механизмы контроля затрат на миграцию
               href: migrate/azure-migration-guide/manage-costs.md
@@ -211,7 +211,7 @@
               href: migrate/azure-migration-guide/optimize-and-transform.md
             - name: Защита и управление
               href: migrate/azure-migration-guide/secure-and-manage.md
-            - name: Получение помощи во время миграции в Azure
+            - name: Получение помощи
               href: migrate/azure-migration-guide/assistance.md
         - name: Расширенная область
           items:
@@ -235,25 +235,25 @@
           items:
             - name: Обзор
               href: migrate/azure-best-practices/index.md
-            - name: Рекомендации по оценке рабочих нагрузок
+            - name: Оценка рабочих нагрузок
               items:
-                - name: Оценка локальных ресурсов для переноса
+                - name: Оценка локальных рабочих нагрузок
                   href: migrate/azure-best-practices/contoso-migration-assessment.md
-            - name: Рекомендации по переносу рабочих нагрузок
+            - name: Перенос рабочих нагрузок
               items:
                 - name: Настройка сети для перенесенных рабочих нагрузок
                   href: migrate/azure-best-practices/migrate-best-practices-networking.md
-                - name: Шаблоны переноса приложений и примеры
+                - name: Перенос приложений
                   items:
                     - name: Обзор
                       href: migrate/azure-best-practices/contoso-migration-overview.md
-                    - name: Развертывание инфраструктуры Azure
+                    - name: Развертывание инфраструктуры миграции
                       href: migrate/azure-best-practices/contoso-migration-infrastructure.md
                     - name: Рабочие нагрузки Windows Server
                       items:
-                        - name: Повторное размещение приложения на виртуальных машинах Azure
+                        - name: Повторное размещение приложения Windows на виртуальных машинах Azure
                           href: migrate/azure-best-practices/contoso-migration-rehost-vm.md
-                        - name: Повторное проектирование приложения для использования контейнеров Azure и Базы данных SQL Azure
+                        - name: Перепроектирование приложения Windows с помощью контейнеров и SQL Azure
                           href: migrate/azure-best-practices/contoso-migration-rearchitect-container-sql.md
                     - name: Рабочие нагрузки Linux
                       items:
@@ -279,7 +279,7 @@
                           href: migrate/azure-best-practices/contoso-migration-tfs-vsts.md
                     - name: Масштабирование миграции
                       href: migrate/azure-best-practices/contoso-migration-scale.md
-            - name: Рекомендации по переносу узлов VMWare
+            - name: Перенос узлов VMWare
               items:
                 - name: Обзор
                   href: migrate/azure-best-practices/vmware-host.md
@@ -289,31 +289,31 @@
                       href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/private-cloud-secure?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Управление частным облаком
                       items:
-                        - name: Эскалация привилегий в частном облаке
+                        - name: Эскалация привилегий CloudSimple
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/escalate-privileges?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Настройка DNS и DHCP рабочей нагрузки
+                        - name: Настройка рабочих нагрузок DNS и DHCP
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/dns-dhcp-setup?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: "Перенос рабочих нагрузок с помощью растянутых сетей уровня\_2"
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/migration-layer-2-vpn?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Сети для частного облака
                       items:
-                        - name: VPN-подключение к частному облаку
+                        - name: Локальное сетевое подключение с помощью VPN
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/set-up-vpn?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Локальное сетевое подключение с помощью ExpressRoute
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/on-premises-connection?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Виртуальное сетевое подключение Azure с помощью ExpressRoute
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Настройка разрешения имен DNS
+                        - name: Настройка DNS для разрешения имен
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/on-premises-dns-setup?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Платформа VMware
                       items:
-                        - name: Обучение модели разрешений частного облака
+                        - name: Модель разрешений частного облака
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/learn-private-cloud-permissions?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Источники удостоверений vCenter
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/set-vcenter-identity?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Использование Шлюза приложений Azure с виртуальными машинами VMware
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/azure-application-gateway?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Настройка сервера vCenter для частного облака в качестве конечной точки автоматизации vRealize
+                        - name: Сервер vCenter как конечная точка автоматизации vRealize
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/configure-server-vrealize-automation-endpoint?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                         - name: Обеспечение высокой доступности приложения в VMware в Azure
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/ensuring-high-availability?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
@@ -321,25 +321,21 @@
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/load-balancers?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Интеграция основных компонентов Azure
                       items:
-                        - name: "Использование источника удостоверений Azure\_AD в vCenter частного облака"
+                        - name: "Azure\_AD как поставщик удостоверений для vCenter"
                           href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/azure-ad?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Локальное сетевое подключение с помощью ExpressRoute
-                          href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/on-premises-connection?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Виртуальное сетевое подключение Azure с помощью ExpressRoute
-                          href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                 - name: Параметры миграции и аварийного восстановления
                   items:
-                    - name: Перенос виртуальных машин рабочей нагрузки в частное облако
+                    - name: 'Перенос виртуальных машин, на которых выполняется рабочая нагрузка, в частное облако vCenter'
                       href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/migrate-workloads?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: Миграция с помощью Azure Data Box
+                    - name: Перенос данных с помощью Azure Data Box
                       href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/migration-using-azure-data-box?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                    - name: Резервное копирование виртуальных машин рабочей нагрузки
+                    - name: 'Резервное копирование виртуальных машин, на которых выполняется рабочая нагрузка'
                       href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/backup-workloads-veeam?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Настройка частного облака в качестве сайта аварийного восстановления с помощью Zerto
                       href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-zerto?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Настройка частного облака в качестве сайта аварийного восстановления с помощью VMware Site Recovery Manager
                       href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-site-recovery-manager?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-            - name: Рекомендации по переносу платформ данных
+            - name: Перенос платформ данных
               items:
                 - name: Обзор
                   href: migrate/azure-best-practices/sql-migration.md
@@ -423,21 +419,21 @@
                       href: 'https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: Перенос рабочих нагрузок Oracle в Базу данных Azure для PostgreSQL по сети
                       href: 'https://docs.microsoft.com/azure/dms/tutorial-oracle-azure-postgresql-online?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-            - name: Рекомендации по переносу мейнфреймов
+            - name: Перенос мейнфреймов
               items:
                 - name: Обзор
                   href: infrastructure/mainframe-migration/index.md
                 - name: Мифы и факты
                   href: infrastructure/mainframe-migration/myths-and-facts.md
-                - name: Стратегии миграции
+                - name: Переход с мейнфреймов на Azure
                   href: infrastructure/mainframe-migration/migration-strategies.md
-                - name: Стратегии переноса приложений
+                - name: Перенос приложений с мейнфреймов
                   href: infrastructure/mainframe-migration/application-strategies.md
-            - name: Рекомендации по оптимизации рабочих нагрузок
+            - name: Оптимизация рабочих нагрузок
               items:
                 - name: Расчет затрат и выбор размера рабочих нагрузок
                   href: migrate/azure-best-practices/migrate-best-practices-costs.md
-            - name: Рекомендации по обеспечению безопасности рабочих нагрузок и управлению ими
+            - name: Защита рабочих нагрузок и управление ими
               items:
                 - name: Защита рабочих нагрузок и управление ими после переноса
                   href: migrate/azure-best-practices/migrate-best-practices-security-management.md
@@ -733,13 +729,13 @@
                           href: 'https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-bind-cosmos?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                     - name: 'Приложения, управляемые событиями'
                       items:
-                        - name: Схема обучения. Создание бессерверных приложений
+                        - name: Схема обучения по созданию бессерверных приложений
                           href: 'https://docs.microsoft.com/learn/paths/create-serverless-applications/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Руководство разработчиков функций
+                        - name: Руководство разработчиков Функций Azure
                           href: 'https://docs.microsoft.com/azure/azure-functions/functions-reference?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Электронная книга. Руководство по бессерверным вычислениям
+                        - name: Руководство по бессерверным вычислениям в Azure
                           href: 'https://azure.microsoft.com/resources/azure-serverless-computing-cookbook/?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                        - name: Документация. Функции Azure
+                        - name: Документация по Функциям Azure
                           href: 'https://docs.microsoft.com/azure/azure-functions/'
             - name: Поддержка внедрения
               items:
@@ -1107,7 +1103,7 @@
               href: manage/azure-server-management/tools-services.md
         - name: Мониторинг
           items:
-            - name: Введение
+            - name: Обзор
               href: manage/monitor/index.md
             - name: Мониторинг облачных моделей
               href: manage/monitor/cloud-models-monitor-overview.md
