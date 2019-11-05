@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 222768f457f566d1ba19f8c53814110595e03bf3
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: 94b1f2784875553bb27f32189e6d7d723de42634
+ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72379124"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "72980190"
 ---
 # <a name="organize-your-azure-resources"></a>Организация ресурсов Azure
 
@@ -159,7 +159,7 @@ ms.locfileid: "72379124"
 - **Автоматизация** — Вы можете регулярно запускать скрипты для выполнения действий на основе значения тега, например времени завершения работы (ShutdownTime) или даты отзыва (DeprovisionDate).
 - **Выставление счетов.** Теги можно применять в счетах. Они помогают сегментировать счет, например, чтобы определить место возникновения затрат (тег CostCenter) или получателя счета (тег BillTo).
 
-Каждый ресурс или группа ресурсов может иметь не более 15 пар "имя — значение" для тегов. Это ограничение применяется только к тегам, которые непосредственно связаны с группой ресурсов или ресурсами.
+Каждый ресурс или группа ресурсов может содержать не более 50 пар "имя-значение" для тегов. Это ограничение применяется только к тегам, которые непосредственно связаны с группой ресурсов или ресурсами.
 
 Дополнительные рекомендации и примеры тегов можно найти в [руководстве по использованию тегов](../considerations/naming-and-tagging.md) для Cloud Adoption Framework.
 
