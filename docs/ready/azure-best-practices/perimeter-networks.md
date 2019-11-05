@@ -11,12 +11,12 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 92aa03c07a6652f15a0400a025b8911a4d0d07dd
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 95a2bf325615c7eb765ad747d0aad16f008e015d
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73240172"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564026"
 ---
 # <a name="perimeter-networks"></a>Сети периметра
 
@@ -27,9 +27,9 @@ ms.locfileid: "73240172"
 Сети периметра используют следующие функции и службы Azure:
 
 - [Виртуальные сети][virtual-networks], [определяемые пользователем маршруты][user-defined-routes] и [группы безопасности сети][network-security-groups].
-- [Виртуальные сетевые модули][NVA] (NVA).
+- [Сетевые виртуальные устройства (NVA)][NVA]
 - [Подсистема балансировщика нагрузки Azure][ALB]
-- [Шлюз приложений Azure][AppGW] и [брандмауэр веб-приложения][AppGWWAF] (WAF).
+- [Шлюз приложений Azure][AppGW] и [брандмауэр веб-приложения (WAF)][AppGWWAF]
 - [Общедоступные IP-адреса][PIP].
 - [Azure Front Door][AFD] с [брандмауэром веб-приложения][AFDWAF].
 - [Брандмауэр Azure][AzFW]

@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 5eabc654c174ac3eff895e6b2ff94700789f5de5
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 60f622411a71284fa8e97f457da2461ec6e02ac3
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549161"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564644"
 ---
 # <a name="understand-partnership-options"></a>Общие сведения о вариантах партнерства
 
@@ -82,7 +82,7 @@ ms.locfileid: "72549161"
 
 **Внедрение:** С помощью [Azure Cloud Foundation](https://download.microsoft.com/download/D/8/7/D872DFD0-1C46-4145-95E4-B5EAB2958B96/Hybrid_Cloud_Foundation_Datasheet_EN_US.pdf)в службах Майкрософт создайте основные проекты Azure, шаблоны и архитектуру управления путем сопоставления требований с наиболее подходящей эталонной архитектурой и планированием, разработкой и развертыванием инфраструктуры. Управление, безопасность и идентификация, необходимые для рабочих нагрузок.
 
-**Миграция и оптимизация:** [Облачное решение](https://download.microsoft.com/download/3/7/3/373F90E3-8568-44F3-B096-CD9C1CD28AB7/Cloud_Modernization_Datasheet_EN_US.pdf) служб Microsoft Services модернизации предлагает комплексный подход к переносу приложений и инфраструктуры в Azure, а также оптимизации и модернизировать один раз в облаке с помощью упрощенной миграции.
+**Миграция и оптимизация:** [Облачное решение](https://download.microsoft.com/download/3/7/3/373F90E3-8568-44F3-B096-CD9C1CD28AB7/Cloud_Modernization_Datasheet_EN_US.pdf) Microsoft Services модернизации предлагает комплексный подход к переносу приложений и инфраструктуры в Azure, а также оптимизации и модернизировать после облачного развертывания с помощью упрощенной миграции.
 
 **Инновации:** [Решение "облачное облако" служб Майкрософт (ккое)](https://download.microsoft.com/download/F/8/B/F8BBE4BD-E5F8-4DFB-82F7-C0A4E17051BB/Cloud_Center_of_Excellence_Datasheet_EN_US.pdf) предлагает DevOps обучение и использует принципы DevOps в сочетании с готовыми облачными средствами управления службами и безопасности, чтобы помочь в создании бизнес-инноваций. повышение гибкости и сокращение времени на ценность в защищенной, прогнозируемой и гибкой службе доставки и управления операциями.
 

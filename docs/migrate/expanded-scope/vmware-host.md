@@ -1,27 +1,27 @@
 ---
-title: Ускорение миграции с помощью узлов VMWare
+title: Ускорение миграции с помощью узлов VMware
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Ускорение миграции с помощью узлов VMWare
+description: Ускорение миграции с помощью узлов VMware
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 66a39d53adeaf73e96cf04bdc5f80fc9574b675a
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 724a227407f431e08b5344dfd1280397bfca9b65
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72980213"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566871"
 ---
-# <a name="accelerate-migration-with-vmware-hosts"></a>Ускорение миграции с помощью узлов VMWare
+# <a name="accelerate-migration-with-vmware-hosts"></a>Ускорение миграции с помощью узлов VMware
 
-Миграция целых узлов VMWare может привести к перемещению нескольких рабочих нагрузок и нескольких ресурсов за одну миграцию. Следующие рекомендации расширяют область действия [руководства по миграции Azure](../azure-migration-guide/index.md) с помощью миграции узла VMware. Большая часть усилий, которые необходимо выполнить в этом расширении области, возникает во время выполнения предварительных требований и процессов миграции.
+Миграция целых узлов VMware может привести к перемещению нескольких рабочих нагрузок и нескольких ресурсов за одну миграцию. Следующие рекомендации расширяют область действия [руководства по миграции Azure](../azure-migration-guide/index.md) с помощью миграции узла VMware. Большая часть усилий, которые необходимо выполнить в этом расширении области, возникает во время выполнения предварительных требований и процессов миграции.
 
 ## <a name="suggested-prerequisites"></a>Рекомендуемые предварительные требования
 
-При переносе первого узла VMWare в Azure необходимо выполнить ряд предварительных требований для подготовки требований к идентификации, сети и управлению. После выполнения этих предварительных требований для миграции на каждый дополнительный узел требуется значительно меньше усилий. Следующие разделы содержат более подробные сведения о необходимых условиях.
+При переносе первого узла VMware в Azure необходимо выполнить ряд предварительных требований для подготовки требований к идентификации, сети и управлению. После выполнения этих предварительных требований для миграции на каждый дополнительный узел требуется значительно меньше усилий. Следующие разделы содержат более подробные сведения о необходимых условиях.
 
 ### <a name="secure-your-azure-environment"></a>Защита среды Azure
 
@@ -44,15 +44,15 @@ ms.locfileid: "72980213"
 
 ### <a name="integration-with-the-cloud-adoption-plan"></a>Интеграция с планом внедрения в облако
 
-После выполнения других условий необходимо включить каждый узел VMWare в [план внедрения в облако](../../plan/template.md). В рамках плана внедрения в облако добавьте каждый перемещаемый узел в качестве отдельной [рабочей нагрузки](../../plan/workloads.md). В каждой рабочей нагрузке добавьте виртуальные машины для переноса в качестве [ресурсов](../../plan/workloads.md). Дополнительные сведения о добавлении рабочих нагрузок и ресурсов в план внедрения см. в разделе [Добавление и изменение рабочих элементов с помощью Excel](https://docs.microsoft.com/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
+После выполнения других условий необходимо включить каждый узел VMware в [план внедрения в облако](../../plan/template.md). В рамках плана внедрения в облако добавьте каждый перемещаемый узел в качестве отдельной [рабочей нагрузки](../../plan/workloads.md). В каждой рабочей нагрузке добавьте виртуальные машины для переноса в качестве [ресурсов](../../plan/workloads.md). Дополнительные сведения о добавлении рабочих нагрузок и ресурсов в план внедрения см. в разделе [Добавление и изменение рабочих элементов с помощью Excel](https://docs.microsoft.com/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
 
 ## <a name="migrate-process-changes"></a>Изменения в процессе миграции
 
-Во время каждой итерации группа перехода работает с помощью невыполненной работы для переноса рабочих нагрузок с наивысшим приоритетом. Процесс в действительности не изменяется для узлов VMWare. Когда следующая Рабочая нагрузка в невыполненной работе является узлом VMWare, единственным изменением будет использование средства.
+Во время каждой итерации группа перехода работает с помощью невыполненной работы для переноса рабочих нагрузок с наивысшим приоритетом. Процесс в действительности не изменяется для узлов VMware. Когда следующая Рабочая нагрузка в невыполненной работе является узлом VMware, единственным изменением будет использование средства.
 
 В ходе миграции можно использовать следующие средства.
 
-- [Собственные средства VMWare](https://docs.microsoft.com/azure/vmware-cloudsimple/migrate-workloads?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
+- [Собственные средства VMware](https://docs.microsoft.com/azure/vmware-cloudsimple/migrate-workloads?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
 - [Azure Data Box](https://docs.microsoft.com/azure/vmware-cloudsimple/migration-using-azure-data-box?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
 
 Кроме того, можно перенести рабочие нагрузки с помощью отработки отказа аварийного восстановления с помощью следующих средств:

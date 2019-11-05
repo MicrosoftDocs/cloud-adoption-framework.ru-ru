@@ -8,12 +8,12 @@ ms.date: 10/11/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f993676a002eeac128c9a221059815802bf36bdf
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 18b2bc641ba45c83a8ce6c5069857c398801adfd
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73239342"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566427"
 ---
 # <a name="application-migration-patterns-and-examples"></a>Шаблоны переноса приложений и примеры
 
@@ -88,7 +88,7 @@ Azure предоставляет доступ к комплексному наб
 [Повторное размещение приложения на виртуальной машине Azure и в Управляемом экземпляре Базы данных SQL](./contoso-migration-rehost-vm-sql-managed-instance.md) | В этой статье приведен пример миграции с переносом в Azure для локального приложения. Интерфейсная виртуальная машина приложения переносится с помощью [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview), а базу данных приложения переносится в Управляемый экземпляр Базы данных SQL Azure с помощью [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview).
 [Повторное размещение приложения на виртуальных машинах Azure и в группе доступности SQL Server AlwaysOn](./contoso-migration-rehost-vm-sql-ag.md) | В этом примере показано, как перенести приложение и данные с помощью виртуальных машин SQL Server, размещенных в Azure. Служба Site Recovery используется для миграции виртуальных машин приложения, а Azure Database Migration Service — для переноса базы данных приложения в кластер SQL Server, защищенный группой доступности AlwaysOn.
 
-### <a name="aspnet--php--java-apps"></a>Приложения ASP.NET, PHP и Java
+### <a name="aspnet-php-and-java-apps"></a>Приложения ASP.NET, PHP и Java
 
 **Статья** | **Дополнительные сведения**
 --- | ---

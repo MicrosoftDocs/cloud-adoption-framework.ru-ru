@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 13a3a8a8734ffe67298d09544882c612916b995f
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 9d68aca88d9f2ae992616df4b493bcf3c35fc122
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058909"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566501"
 ---
 # <a name="deploy-a-migration-infrastructure"></a>Развертывание инфраструктуры миграции
 
@@ -179,7 +179,7 @@ Contoso использует выпуск Azure AD Free, который пред
 
     ![Группы ресурсов](./media/contoso-migration-infrastructure/resource-groups.png)
 
-##### <a name="scaling-resource-groups"></a>Масштабирование групп ресурсов
+##### <a name="scale-resource-groups"></a>Масштабирование групп ресурсов
 
 В будущем специалисты Contoso будут добавлять другие группы ресурсов по мере необходимости. Например, они могут определить группу ресурсов для каждого приложения или каждой службы, чтобы независимо контролировать и защищать их.
 

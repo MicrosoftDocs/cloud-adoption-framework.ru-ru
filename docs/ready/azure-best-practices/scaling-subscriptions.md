@@ -8,14 +8,14 @@ ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: fbfe025b5e324ec685fcec3001cc8705ac001beb
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 4910309817d348874ec7eed75640bd0407f1ffcf
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73243270"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564007"
 ---
-# <a name="scaling-with-multiple-azure-subscriptions"></a>Масштабирование с использованием нескольких подписок Azure
+# <a name="scale-with-multiple-azure-subscriptions"></a>Масштабирование с помощью нескольких подписок Azure
 
 Организациям часто требуется несколько подписок Azure в результате ограничений ресурсов и других рекомендаций по управлению. Наличие стратегии для масштабирования подписок очень важно.
 
@@ -61,7 +61,7 @@ ms.locfileid: "73243270"
 
 Можно перемещать различные типы ресурсов из одной подписки в другую или использовать автоматическое развертывание для переноса ресурсов в другую подписку. Дополнительные сведения см. в статье [Перемещение ресурсов Azure в другую группу ресурсов или подписку](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources).
 
-## <a name="managing-multiple-subscriptions"></a>Управление несколькими подписками
+## <a name="manage-multiple-subscriptions"></a>Управление несколькими подписками
 
 Если у вас только несколько подписок, управлять ими независимо достаточно просто. Если у вас много подписок, рассмотрите возможность создания иерархии групп управления, чтобы упростить управление подписками и ресурсами.
 
