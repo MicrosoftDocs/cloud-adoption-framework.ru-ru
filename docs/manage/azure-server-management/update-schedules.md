@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 9e6e078859bb580794477328099b66d14009bdca
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 5bb3e37073c3c5d7f401f6d6c706314172eecf88
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221408"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565263"
 ---
 # <a name="create-update-schedules"></a>Создание расписаний обновления
 
@@ -21,20 +21,20 @@ ms.locfileid: "71221408"
 
 Сведения о создании расписания обновления с помощью портал Azure см. в разделе [Планирование развертывания обновлений](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management#schedule-an-update-deployment).
 
-Модуль AZ. Automation теперь поддерживает настройку управления обновлениями с помощью Azure PowerShell. [Версия 1.7.0](https://www.powershellgallery.com/packages/Az/1.7.0) модуля добавляет поддержку командлета [New-азаутоматионупдатеманажементазурекуери](/powershell/module/az.automation/new-azautomationupdatemanagementazurequery?view=azps-1.7.0) , который позволяет использовать теги, расположение и сохраненные поисковые запросы для настройки расписаний обновлений для гибкой группы компьютеров.
+Модуль AZ. Automation теперь поддерживает настройку управления обновлениями с помощью Azure PowerShell. [Версия 1.7.0](https://www.powershellgallery.com/packages/Az/1.7.0) модуля добавляет поддержку командлета [New-азаутоматионупдатеманажементазурекуери](https://docs.microsoft.com/powershell/module/az.automation/new-azautomationupdatemanagementazurequery?view=azps-1.7.0) . Этот командлет позволяет использовать теги, расположение и сохраненные поисковые запросы для настройки расписаний обновлений для гибкой группы компьютеров.
 
 ## <a name="example-script"></a>Пример сценария
 
-В следующем примере сценария показано использование тегов и запросов для создания динамических групп компьютеров, к которым можно применить расписания обновления. Он выполняет следующие действия. При создании собственных скриптов можно обращаться к реализациям конкретных действий.
+В примере сценария в этом разделе показано использование тегов и запросов для создания динамических групп компьютеров, к которым можно применить расписания обновления. Он выполняет следующие действия. При создании собственных скриптов можно обращаться к реализациям конкретных действий.
 
 - Создает расписание обновления службы автоматизации Azure, которое выполняется каждую субботу в 8:00 AM.
 - Создает запрос для компьютеров, соответствующих следующим критериям:
-  - Развернуто в `westus`расположении `eastus`, или `eastus2` в Azure
-  - Примените к ним тег со значением, равным `Owner``JaneSmith`
-  - Примените к ним тег со значением, равным `Production``true`
+  - Развертывается в `westus`, `eastus`или `eastus2` расположении Azure
+  - Примените к ним тег `Owner` со значением, равным `JaneSmith`
+  - Применяйте к ним тег `Production` со значением, равным `true`
 - Применяет расписание обновления к запрашиваемым компьютерам и устанавливает интервал в два часа обновления.
 
-Перед запуском примера скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) . При запуске скрипта необходимо предоставить следующие сведения:
+Перед запуском примера скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) . При запуске скрипта укажите следующие сведения.
 
 - Идентификатор целевой подписки
 - Целевая группа ресурсов
@@ -105,11 +105,11 @@ ms.locfileid: "71221408"
         -Duration (New-TimeSpan -Hours 2) `
         -AzureQuery $AzureQueries `
         -IncludedUpdateClassification Security,Critical
-    ```
+```
 
-## Next steps
+## <a name="next-steps"></a>Дальнейшие действия
 
-See examples of how to implement [common policies in Azure](./common-policies.md) that can help manage your servers.
+См. Примеры реализации [общих политик в Azure](./common-policies.md) , которые могут помочь в управлении серверами.
 
 > [!div class="nextstepaction"]
-> [Common policies in Azure](./common-policies.md)
+> [Общие политики в Azure](./common-policies.md)

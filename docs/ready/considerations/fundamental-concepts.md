@@ -8,12 +8,12 @@ ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 894c4c7431533aa29ad7fcc1cd08046651987f10
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 30dd36841171ebc0e239a8e59f94d290cc5782c7
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73239782"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73561765"
 ---
 # <a name="azure-fundamental-concepts"></a>Основные понятия Azure
 
@@ -88,10 +88,10 @@ Azure определяет три типа ролей для администр�
 - [Управление доступом к ресурсам в Azure](../../govern/resource-consistency/resource-access-management.md)
 - [Общие сведения об Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)
 - [Управление доступом на основе ролей (RBAC) для ресурсов Azure](https://docs.microsoft.com/azure/role-based-access-control/overview)
-- [Что такое Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+- [Что такое Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
 - [Associate or add an Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) (Связывание или добавление подписки Azure в клиент Azure Active Directory)
-- [Топологии Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
-- [Подписки, лицензии, учетные записи и клиенты для облачных предложений Майкрософт](/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)
+- [Топологии Azure AD Connect.](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
+- [Подписки, лицензии, учетные записи и клиенты для облачных предложений Майкрософт](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

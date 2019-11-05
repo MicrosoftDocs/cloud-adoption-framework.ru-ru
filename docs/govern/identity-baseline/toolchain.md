@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 42c0d24d36785615013076b54c0ec51cc2ec4cb4
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 5c06523d2b22293463d55f05c397dd55247f4369
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047931"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566165"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Средства основных способов идентификации в Azure
 
@@ -55,12 +55,12 @@ ms.locfileid: "73047931"
 
 |Рассматриваемый вопрос|Синхронизация хэша паролей и простой единый вход|Сквозная аутентификация и простой единый вход|Федерация с AD FS|
 |:-----|:-----|:-----|:-----|
-|Где происходит аутентификация?|В облаке|В облаке после безопасного обмена данными проверки пароля с локальным агентом аутентификации|Локальная среда|
-|Каковы требования к локальному серверу помимо системы подготовки (Azure AD Connect)?|Нет|Один сервер для каждого дополнительного агента аутентификации|Не менее двух серверов AD FS<br><br>Не менее двух WAP-серверов в сети периметра|
-|Каковы требования к локальному Интернету и сети за пределами системы подготовки?|Нет|[Исходящий доступ в Интернет](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности|[Входящий доступ в Интернет](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре<br><br>Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра<br><br>Балансировка сетевой нагрузки|
-|Существует ли требование к SSL-сертификату?|Нет|Нет|ДА|
+|Где происходит аутентификация?|В облаке|В облаке после безопасного обмена данными проверки пароля с локальным агентом аутентификации|Локальная система|
+|Каковы требования к локальному серверу помимо системы подготовки (Azure AD Connect)?|None|Один сервер для каждого дополнительного агента аутентификации|Не менее двух серверов AD FS<br><br>Не менее двух WAP-серверов в сети периметра|
+|Каковы требования к локальному Интернету и сети за пределами системы подготовки?|None|[Исходящий доступ в Интернет](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности|[Входящий доступ в Интернет](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре<br><br>Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра<br><br>Балансировка сетевой нагрузки|
+|Существует ли требование к SSL-сертификату?|Нет|Нет|Да|
 |Имеется ли решение для мониторинга работоспособности?|Не требуется|Состояние агента, предоставляемое [Центром администрирования Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-pass-through-authentication)|[Azure AD Connect Health](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs)|
-|Пользователи получают единый вход в облачные ресурсы с присоединенных к домену устройств в корпоративной сети?|Да, с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)|Да, с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)|ДА|
+|Пользователи получают единый вход в облачные ресурсы с присоединенных к домену устройств в корпоративной сети?|Да, с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)|Да, с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)|Да|
 |Какие типы входа поддерживаются?|UserPrincipalName и пароль<br><br>Встроенная проверка подлинности Windows с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)<br><br>[Альтернативный идентификатор входа](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom)|UserPrincipalName и пароль<br><br>Встроенная проверка подлинности Windows с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso)<br><br>[Альтернативный идентификатор входа](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-faq)|UserPrincipalName и пароль<br><br>sAMAccountName и пароль<br><br>Встроенная проверка подлинности Windows<br><br>[Аутентификация с использованием сертификатов и смарт-карт](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication)<br><br>[Альтернативный идентификатор входа](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configuring-alternate-login-id)|
 |Поддерживается ли Windows Hello для бизнеса?|[Модель доверия на основе ключей](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification)<br><br>[Модель доверия на основе сертификатов с Intune](https://microscott.azurewebsites.net/2017/12/16/setting-up-windows-hello-for-business-with-intune)|[Модель доверия на основе ключей](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification)<br><br>[Модель доверия на основе сертификатов с Intune](https://microscott.azurewebsites.net/2017/12/16/setting-up-windows-hello-for-business-with-intune)|[Модель доверия на основе ключей](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification)<br><br>[Модель доверия на основе сертификатов](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-key-trust-adfs)|
 |Какие варианты многофакторной идентификации существуют?|[Многофакторная идентификация Azure](https://docs.microsoft.com/azure/multi-factor-authentication)<br><br>[Пользовательские элементы управления для функции условного доступа*](https://docs.microsoft.com/azure/active-directory/conditional-access/controls#custom-controls-preview)|[Многофакторная идентификация Azure](https://docs.microsoft.com/azure/multi-factor-authentication)<br><br>[Пользовательские элементы управления для функции условного доступа*](https://docs.microsoft.com/azure/active-directory/conditional-access/controls#custom-controls-preview)|[Многофакторная идентификация Azure](https://docs.microsoft.com/azure/multi-factor-authentication)<br><br>[Сервер многофакторной идентификации Azure](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-deploy)<br><br>[Сторонняя многофакторная идентификация](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-additional-authentication-methods-for-ad-fs)<br><br>[Пользовательские элементы управления для функции условного доступа*](https://docs.microsoft.com/azure/active-directory/conditional-access/controls#custom-controls-preview)|
@@ -77,6 +77,6 @@ ms.locfileid: "73047931"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-В [техническом документе об инфраструктуре цифрового преобразования удостоверений](https://resources.office.com/ww-landing-M365E-EMS-IDAM-Hybrid-Identity-WhitePaper.html?LCID=EN-US) описаны сочетания и решения для выбора и интеграции каждого из этих компонентов.
+В [техническом документе об инфраструктуре цифрового преобразования удостоверений](https://resources.office.com/ww-landing-M365E-EMS-IDAM-Hybrid-Identity-WhitePaper.html) описаны сочетания и решения для выбора и интеграции каждого из этих компонентов.
 
 Средство [Azure AD Connect](https://aka.ms/aadconnectwiz) позволяет интегрировать локальные каталоги с Azure AD.

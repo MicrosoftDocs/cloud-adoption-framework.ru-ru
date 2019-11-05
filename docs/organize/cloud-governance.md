@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 33572e5de14c4d59e6281124cf488ca0e0c36aef
-ms.sourcegitcommit: 15898374495761bfb76cee719e0f9189856884e6
+ms.openlocfilehash: bf68bc17d5e94ae4c35e0a88d3ca73bd42935a5b
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "72888837"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566789"
 ---
 # <a name="cloud-governance-capabilities"></a>Возможности управления облаком
 
@@ -28,7 +28,7 @@ ms.locfileid: "72888837"
 - Корпоративная архитектура
 - Операции ИТ
 - ИТ – инфраструктура
-- Работа в сети
+- Сеть
 - Удостоверение
 - Виртуализация
 - Непрерывность бизнес-процессов и аварийное восстановление
