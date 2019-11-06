@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 22dc2f69f1b7e1541a9556fc8b8802cbb2d5e878
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 2487b7c213c45b0dcc78ffd4c12b1acae67aa429
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024472"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566654"
 ---
 # <a name="rearchitect-an-on-premises-app-to-an-azure-container-and-azure-sql-database"></a>Повторное проектирование локального приложения на контейнеры Azure и Базу данных SQL Azure
 
@@ -28,7 +28,7 @@ ms.locfileid: "71024472"
 
 - **Адаптация к расширению бизнеса.** По мере развития компании Contoso растет нагрузка на локальные системы и инфраструктуру.
 - **Повышение эффективности**. Contoso необходимо удалить ненужные процедуры и оптимизировать процессы для разработчиков и пользователей. Бизнес нуждается в том, чтобы ИТ были быстрыми и чтобы не тратить время или деньги, обеспечивая более высокие требования клиентов.
-- **Повышение гибкости.** ИТ-отдел компании Contoso должен проявлять большую гибкость в отношении потребностей бизнеса. Должна реагировать быстрее, чем изменения на рынке, чтобы включить успех в глобальную экономику реагирования. Он не должен мешать или становиться помехой для бизнеса.
+- **Повышение гибкости**. ИТ-отдел компании Contoso должен проявлять большую гибкость в отношении потребностей бизнеса. Должна реагировать быстрее, чем изменения на рынке, чтобы включить успех в глобальную экономику реагирования. Он не должен мешать или становиться помехой для бизнеса.
 - **Масштабирование.** По мере успешного роста бизнеса ИТ-отдел компании Contoso должен предоставлять системы, способные расти в том же темпе.
 - **Сокращение затрат.** Компании Contoso требуется минимизировать затраты на лицензирование.
 
@@ -38,7 +38,7 @@ ms.locfileid: "71024472"
 
 <!-- markdownlint-disable MD033 -->
 
-**Цели** | **Сведения**
+**Цели** | **Дополнительные сведения**
 --- | ---
 **Требования приложения** | Потребность использовать приложение в Azure всегда будет критически важной.<br/><br/> Должны быть доступны те же возможности производительности, что и в настоящее время в VMware.<br/><br/> Contoso хочет прекратить поддержку ОС Windows Server 2008 R2, на которой сейчас работает приложение, и готовы инвестировать в приложение.<br/><br/> Contoso хочет перейти с SQL Server 2008 R2 на современную платформу баз данных PaaS, что снизит необходимость в управлении.<br/><br/> Contoso хочет использовать преимущества своих инвестиций в лицензирование SQL Server и Software Assurance по мере возможности.<br/><br/> Contoso хочет иметь возможность увеличивать масштаб веб-уровня приложения.
 **Ограничения** | Приложение состоит из приложения ASP.NET и службы WCF, работающей на той же виртуальной машине. Contoso хочет разделить его между двумя веб-приложениями, используя Службу приложений Azure.
@@ -79,10 +79,10 @@ ms.locfileid: "71024472"
 
 <!-- markdownlint-disable MD033 -->
 
-**Рассмотрение** | **Сведения**
+**Рассмотрение** | **Дополнительные сведения**
 --- | ---
-**Преимущества** | Код приложения SmartHotel360 необходимо изменить для миграции в Azure Service Fabric. Тем не менее реализация изменений требует минимальных усилий при использовании инструментов пакета SDK для Service Fabric.<br/><br/> С переходом на Service Fabric Contoso может приступить к разработке микрослужб, чтобы через какое-то время быстро добавить их в приложение без риска для исходной базы кода.<br/><br/> Контейнеры Windows предоставляют те же преимущества, что контейнеры в целом. Они повышают гибкость, мобильность и управление.<br/><br/> Contoso может использовать преимущества своих инвестиций в программу Software Assurance, используя Преимущество гибридного использования Azure для SQL Server и Windows Server.<br/><br/> После миграции можно будет отказаться от поддержки Windows Server 2008 R2. [Узнайте больше](https://support.microsoft.com/lifecycle).<br/><br/> Contoso может настроить веб-уровень приложения с несколькими экземплярами, после чего он больше не будет являться единой точкой отказа.<br/><br/> Исчезнет зависимость от устаревающей платформы SQL Server 2008 R2.<br/><br/> База данных SQL поддерживает технические требования Contoso. Администраторы Contoso провели оценку локальной базы данных с помощью Помощника по миграции данных и установили, что она является совместимой.<br/><br/> База данных SQL содержит встроенные средства обеспечения отказоустойчивости, которые специалистам Contoso не нужно настраивать. Это гарантия того, что уровень данных больше не является единой точкой отказа.
-**Недостатки** | По сравнению с другими вариантами миграции контейнеры более сложные. Для Contoso длительное изучение контейнеров может стать проблемой. Новый уровень сложности контейнеров представляет большую ценность, несмотря на длительное время, которое требуется на их изучение.<br/><br/> Рабочей группе в Contoso необходимо будет заполнить пробелы в знаниях, чтобы разобраться с Azure, контейнерами и микрослужбами приложения и обеспечить их обслуживание.<br/><br/> Если для переноса базы данных компания Contoso будет использовать Помощник по миграции данных, а не Azure Database Migration Service, инфраструктура компании не будет готова к масштабному переносу баз данных.
+**Преимущества** | Код приложения SmartHotel360 необходимо изменить для миграции в Azure Service Fabric. Тем не менее реализация изменений требует минимальных усилий при использовании инструментов пакета SDK для Service Fabric.<br/><br/> С переходом на Service Fabric Contoso может приступить к разработке микрослужб, чтобы через какое-то время быстро добавить их в приложение без риска для исходной базы кода.<br/><br/> Контейнеры Windows предоставляют те же преимущества, что контейнеры в целом. Они повышают гибкость, мобильность и управление.<br/><br/> Contoso может использовать преимущества своих инвестиций в программу Software Assurance, используя Преимущество гибридного использования Azure для SQL Server и Windows Server.<br/><br/> После миграции можно будет отказаться от поддержки Windows Server 2008 R2. [Дополнительные сведения](https://support.microsoft.com/lifecycle)<br/><br/> Contoso может настроить веб-уровень приложения с несколькими экземплярами, после чего он больше не будет являться единой точкой отказа.<br/><br/> Исчезнет зависимость от устаревающей платформы SQL Server 2008 R2.<br/><br/> База данных SQL поддерживает технические требования Contoso. Администраторы Contoso провели оценку локальной базы данных с помощью Помощника по миграции данных и установили, что она является совместимой.<br/><br/> База данных SQL содержит встроенные средства обеспечения отказоустойчивости, которые специалистам Contoso не нужно настраивать. Это гарантия того, что уровень данных больше не является единой точкой отказа.
+**Недостатки** | По сравнению с другими вариантами миграции контейнеры более сложные. Для Contoso длительное изучение контейнеров может стать проблемой. Новый уровень сложности контейнеров представляет большую ценность, несмотря на длительное время, которое требуется на их изучение.<br/><br/> Рабочей группе в Contoso необходимо будет заполнить пробелы в знаниях, чтобы разобраться с Azure, контейнерами и микрослужбами приложения и обеспечить их обслуживание.<br/><br/> Если компания Contoso использует Помощник по миграции данных вместо Azure Database Migration Service для миграции базы данных, инфраструктура не будет готова к миграции баз данных в нужном масштабе.
 
 <!-- markdownlint-enable MD033 -->
 
@@ -99,23 +99,23 @@ ms.locfileid: "71024472"
 
 **Служба** | **Описание** | **Стоимость**
 --- | --- | ---
-[Помощник по миграции данных (DMA)](/sql/dma/dma-overview?view=ssdt-18vs2017) | Оценивает и обнаруживает проблемы совместимости, которые могут повлиять на функциональность базы данных в Azure. Помощник оценивает соотношение характеристик между источниками и целями SQL и предоставляет рекомендации по улучшению производительности и надежности. | Это средство можно загрузить бесплатно.
-[база данных SQL Azure;](https://azure.microsoft.com/services/sql-database) | Предоставляет интеллектуальную, полностью управляемую реляционную облачную службу баз данных. | Стоимость зависит от функций, пропускной способности и размера. [Узнайте больше](https://azure.microsoft.com/pricing/details/sql-database/managed).
-[Реестр контейнеров Azure](https://azure.microsoft.com/services/container-registry) | Хранит образы для всех типов развертываний контейнеров. | Стоимость зависит от функций, типа хранилища и длительности использования. [Узнайте больше](https://azure.microsoft.com/pricing/details/container-registry).
-[Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) | Эта служба предназначена для создания и использования постоянно доступных, масштабируемых и распределенных приложений. | Стоимость зависит от размера, расположения и продолжительности работы вычислительных узлов. [Узнайте больше](https://azure.microsoft.com/pricing/details/service-fabric).
+[Помощник по миграции данных (DMA)](https://docs.microsoft.com/sql/dma/dma-overview?view=ssdt-18vs2017) | Оценивает и обнаруживает проблемы совместимости, которые могут повлиять на функциональность базы данных в Azure. Помощник оценивает соотношение характеристик между источниками и целями SQL и предоставляет рекомендации по улучшению производительности и надежности. | Это средство можно загрузить бесплатно.
+[база данных SQL Azure;](https://azure.microsoft.com/services/sql-database) | Предоставляет интеллектуальную, полностью управляемую реляционную облачную службу баз данных. | Стоимость зависит от функций, пропускной способности и размера. [Дополнительные сведения](https://azure.microsoft.com/pricing/details/sql-database/managed)
+[Реестр контейнеров Azure](https://azure.microsoft.com/services/container-registry) | Хранит образы для всех типов развертываний контейнеров. | Стоимость зависит от функций, типа хранилища и длительности использования. [Дополнительные сведения](https://azure.microsoft.com/pricing/details/container-registry)
+[Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) | Эта служба предназначена для создания и использования постоянно доступных, масштабируемых и распределенных приложений. | Стоимость зависит от размера, расположения и продолжительности работы вычислительных узлов. [Дополнительные сведения](https://azure.microsoft.com/pricing/details/service-fabric)
 [Azure DevOps](https://docs.microsoft.com/azure/azure-portal/tutorial-azureportal-devops) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер запускается с репозиторием Git для управления кодом приложения, системой сборки для создания пакетов и других артефактов сборки и системой управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 
 Ниже показано, что необходимо компании Contoso для реализации этого сценария.
 
 <!-- markdownlint-disable MD033 -->
 
-**Требования** | **Сведения**
+**Требования** | **Дополнительные сведения**
 --- | ---
 **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/pricing/free-trial).<br/><br/> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия.<br/><br/> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника.
 **Инфраструктура Azure** | [Узнайте, как](./contoso-migration-infrastructure.md) компания Contoso ранее настроила инфраструктуру Azure.
-**Предварительные требования для разработчика** | Contoso необходимы следующие средства на рабочей станции разработчика:<br/><br/> - [Выпуск Visual Studio Community 2017. Версия 15.5](https://www.visualstudio.com)<br/><br/> включенная рабочая нагрузка .NET;<br/><br/> - [Git](https://git-scm.com);<br/><br/> - [пакет SDK для Service Fabric версии 3.0 или более поздней](https://docs.microsoft.com/azure/service-fabric/service-fabric-get-started);<br/><br/> - [Docker CE (Windows 10) или Docker EE (Windows Server)](https://docs.docker.com/docker-for-windows/install), настроенные на использование контейнеров Windows.
+**Предварительные требования для разработчика** | Contoso необходимы следующие средства на рабочей станции разработчика:<br/><br/> - [выпуск Visual Studio Community 2017 15.5](https://www.visualstudio.com);<br/><br/> включенная рабочая нагрузка .NET;<br/><br/> - [Git](https://git-scm.com);<br/><br/> - [пакет SDK для Service Fabric версии 3.0 или более поздней](https://docs.microsoft.com/azure/service-fabric/service-fabric-get-started);<br/><br/> - [Docker CE (Windows 10) или Docker EE (Windows Server)](https://docs.docker.com/docker-for-windows/install), настроенные на использование контейнеров Windows.
 
 <!-- markdownlint-enable MD033 -->
 
@@ -125,17 +125,17 @@ ms.locfileid: "71024472"
 
 > [!div class="checklist"]
 >
-> - **Шаг 1. Подготовка экземпляра базы данных SQL в Azure**. Специалисты компании Contoso выполняют подготовку экземпляра SQL в Azure. После миграции интерфейсной виртуальной машины уровня Интернета в контейнер Azure экземпляр контейнера с внешним веб-интерфейсом приложения будет указывать на эту базу данных.
-> - **Шаг 2. Создание экземпляра службы "Реестр контейнеров Azure" (ACR)** . Contoso подготавливает корпоративный реестр контейнеров для образов контейнеров Docker.
-> - **Шаг 3. Подготовка Azure Service Fabric.** Подготавливает к работе кластер Service Fabric
+> - **Шаг 1. подготавливает экземпляр базы данных SQL в Azure.** Специалисты компании Contoso выполняют подготовку экземпляра SQL в Azure. После миграции интерфейсной виртуальной машины уровня Интернета в контейнер Azure экземпляр контейнера с внешним веб-интерфейсом приложения будет указывать на эту базу данных.
+> - **Шаг 2. Создание реестра контейнеров Azure (запись контроля доступа).** Contoso подготавливает корпоративный реестр контейнеров для образов контейнеров Docker.
+> - **Шаг 3. подготавливаете Service Fabric Azure.** Подготавливает к работе кластер Service Fabric
 > - **Шаг 4. Управление сертификатами Service Fabric.** Компания Contoso настраивает сертификаты для доступа Azure DevOps Services к кластеру.
-> - **Шаг 5. Перенос данных с помощью DMA.** Специалисты Contoso переносят базу данных приложения с помощью Помощника по миграции данных.
-> - **Шаг 6. Настройка Azure DevOps Services.** Компания Contoso настраивает новый проект в Azure DevOps Services и импортирует код в репозиторий Git.
-> - **Шаг 7. Преобразование приложения.** Компания Contoso преобразовывает приложение в контейнер с помощью инструментов Azure DevOps и SDK.
-> - **Шаг 8. Настройка сборки и выпуска.** Contoso настраивает конвейеры сборки и выпуска, чтобы создать и опубликовать приложение в Реестре контейнеров Azure и кластере Service Fabric.
-> - **Шаг 9. Расширение приложения.** После того как приложение становится общедоступным, Contoso расширяет его, чтобы использовать возможности Azure, а затем повторно публикует его в Azure с помощью конвейера.
+> - **Шаг 5. Перенос базы данных с помощью DMA.** Специалисты Contoso переносят базу данных приложения с помощью Помощника по миграции данных.
+> - **Шаг 6. Настройка Azure DevOps Services.** Компания Contoso настраивает новый проект в Azure DevOps Services и импортирует код в репозиторий Git.
+> - **Шаг 7. Преобразование приложения.** Компания Contoso преобразовывает приложение в контейнер с помощью инструментов Azure DevOps и SDK.
+> - **Шаг 8. Настройка сборки и выпуска.** Contoso настраивает конвейеры сборки и выпуска, чтобы создать и опубликовать приложение в Реестре контейнеров Azure и кластере Service Fabric.
+> - **Шаг 9. расширение приложения.** После того как приложение становится общедоступным, Contoso расширяет его, чтобы использовать возможности Azure, а затем повторно публикует его в Azure с помощью конвейера.
 
-## <a name="step-1-provision-an-azure-sql-database"></a>Шаг 1. Подготовка базы данных SQL Azure
+## <a name="step-1-provision-an-azure-sql-database"></a>Шаг 1. Подготовка базы данных SQL Azure
 
 Администраторы Contoso подготавливают базу данных SQL Azure.
 
@@ -169,7 +169,7 @@ ms.locfileid: "71024472"
 - [Получение справки](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal) о подготовке Базы данных SQL.
 - [Дополнительные сведения об](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools) ограничениях ресурсов в модели приобретения на основе виртуальных ядер.
 
-## <a name="step-2-create-an-acr-and-provision-an-azure-container"></a>Шаг 2. Создание Реестра контейнеров Azure и подготовка контейнера Azure
+## <a name="step-2-create-an-acr-and-provision-an-azure-container"></a>Шаг 2. Создание Реестра контейнеров Azure и подготовка контейнера Azure
 
 Контейнер Azure создается с использованием экспортированных файлов из виртуальной машины веб-уровня. Контейнер размещается в Реестре контейнеров Azure (ACR).
 
@@ -181,61 +181,61 @@ ms.locfileid: "71024472"
 
     ![Реестр контейнеров](./media/contoso-migration-rearchitect-container-sql/container-registry2.png)
 
-## <a name="step-3-provision-azure-service-fabric"></a>Шаг 3. Подготовка Azure Service Fabric
+## <a name="step-3-provision-azure-service-fabric"></a>Шаг 3. Подготовка Azure Service Fabric
 
 Контейнер SmartHotel360 будет запускаться в кластере Azure Service Fabric. Администраторы Contoso создают кластер Service Fabric следующим образом:
 
 1. Создайте ресурс Service Fabric в Azure Marketplace.
 
-     ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric1.png)
+     ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric1.png)
 
 2. В разделе **основных сведений** специалисты компании предоставляют уникальное имя DS для кластера и учетные данные для доступа к локальной виртуальной машине. Они размещают ресурс в рабочей группе ресурсов (**ContosoRG**) в основном регионе "Восточная часть США 2".
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric2.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric2.png)
 
 3. В разделе **Конфигурация типа узла** нужно ввести имя типа узла, параметры устойчивости, размер виртуальной машины и конечные точки приложения.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric3.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric3.png)
 
 4. В разделе **Создать Key Vault** они создают Key Vault в своей группе ресурсов инфраструктуры. В нем будет размещаться сертификат.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric4.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric4.png)
 
 5. В разделе **Политики доступа** они предоставляют доступ к виртуальным машинам для развертывания хранилища ключей.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric5.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric5.png)
 
 6. Затем нужно указать имя для сертификата.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric6.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric6.png)
 
 7. На странице сводки специалисты компании копируют ссылку, используемую для загрузки сертификата. Это необходимо для подключения к кластеру Service Fabric.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric7.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric7.png)
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric8.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric8.png)
 
 8. После успешной проверки они подготавливают кластер.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric9.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric9.png)
 
 9. В мастере импорта сертификатов специалисты импортируют загруженный сертификат на компьютеры разработки. Сертификат используется для проверки подлинности в кластере.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric10.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric10.png)
 
 10. После подготовки кластера специалисты компании подключаются к проводнику кластеров Service Fabric Explorer.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric11.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric11.png)
 
 11. Им нужно выбрать правильный сертификат.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric12.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric12.png)
 
 12. После загрузки Service Fabric Explorer администратор Contoso может управлять кластером.
 
-    ![Платформа Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric13.png)
+    ![Service Fabric](./media/contoso-migration-rearchitect-container-sql/service-fabric13.png)
 
-## <a name="step-4-manage-service-fabric-certificates"></a>Шаг 4. Управление сертификатами Service Fabric
+## <a name="step-4-manage-service-fabric-certificates"></a>Шаг 4. Управление сертификатами Service Fabric
 
 Компании Contoso необходимы сертификаты кластера, чтобы разрешить Azure DevOps Services доступ к нему. Администраторы Contoso настраивают их.
 
@@ -255,7 +255,7 @@ ms.locfileid: "71024472"
 
 6. После создания сертификата они скачивают его в локальную среду в формате PFX.
 
-     ![Скачать сертификат](./media/contoso-migration-rearchitect-container-sql/cert4.png)
+     ![Скачивание сертификата](./media/contoso-migration-rearchitect-container-sql/cert4.png)
 
 7. Теперь они возвращаются к списку сертификатов в Key Vault и копируют отпечаток нового сертификата клиента. Они сохраняют его в текстовом файле.
 
@@ -277,7 +277,7 @@ ms.locfileid: "71024472"
 
      ![Добавление сертификата клиента](./media/contoso-migration-rearchitect-container-sql/cert8.png)
 
-## <a name="step-5-migrate-the-database-with-dma"></a>Шаг 5. Миграция базы данных с помощью DMA
+## <a name="step-5-migrate-the-database-with-dma"></a>Шаг 5. Перенос базы данных с помощью DMA
 
 Теперь администраторы Contoso могут перенести базу данных SmartHotel360 с помощью DMA.
 
@@ -300,7 +300,7 @@ ms.locfileid: "71024472"
 
 [Узнайте о](https://docs.microsoft.com/azure/sql-database/sql-database-firewall-configure) создании правил брандмауэра для Базы данных SQL Azure и управлении ими.
 
-### <a name="migrate"></a>Перенос
+### <a name="migrate"></a>Миграция
 
 Теперь администраторы Contoso переносят базу данных.
 
@@ -381,7 +381,7 @@ ms.locfileid: "71024472"
 5. Теперь они проверяют, как изменилось решение.
 
     - Новое приложение — **SmartHotel.RegistrationApplication/** .
-    - Оно содержит две службы. **SmartHotel.Registration.WCF** и **SmartHotel.Registration.Web**.
+    - Оно содержит две службы: **SmartHotel.Registration.WCF** и **SmartHotel.Registration.Web**.
 
     ![Контейнер](./media/contoso-migration-rearchitect-container-sql/container4.png)
 
@@ -405,7 +405,7 @@ ms.locfileid: "71024472"
 
     ![Фиксация](./media/contoso-migration-rearchitect-container-sql/container9.png)
 
-## <a name="step-8-build-and-release-pipelines-in-azure-devops-services"></a>Шаг 8. Конвейеры сборки и выпуска в Azure DevOps Services
+## <a name="step-8-build-and-release-pipelines-in-azure-devops-services"></a>Шаг 8. Конвейеры сборки и выпуска в Azure DevOps Services
 
 Теперь администраторы Contoso настраивают Azure DevOps Services для сборки и выпуска, чтобы реализовать методики DevOps.
 
@@ -459,7 +459,7 @@ ms.locfileid: "71024472"
 
 15. Они выбирают проект и конвейер сборки, используя последнюю версию.
 
-     ![Построить](./media/contoso-migration-rearchitect-container-sql/pipeline12.png)
+     ![Создание](./media/contoso-migration-rearchitect-container-sql/pipeline12.png)
 
 16. Обратите внимание, что молния на артефакте выбрана.
 
@@ -470,7 +470,7 @@ ms.locfileid: "71024472"
 
 18. Они выбирают **Сохранить** > **Создать выпуск**.
 
-    ![Выпуск](./media/contoso-migration-rearchitect-container-sql/pipeline15.png)
+    ![Release](./media/contoso-migration-rearchitect-container-sql/pipeline15.png)
 
 19. По завершении развертывания SmartHotel360 будет работать в Service Fabric.
 
@@ -480,11 +480,11 @@ ms.locfileid: "71024472"
 
     ![Опубликовать](./media/contoso-migration-rearchitect-container-sql/publish5.png)
 
-## <a name="step-9-extend-the-app-and-republish"></a>Шаг 9. Расширение приложения и повторная публикация
+## <a name="step-9-extend-the-app-and-republish"></a>Шаг 9. Расширение приложения и повторная публикация
 
 Теперь, когда приложение SmartHotel360 и база данных запущены в Azure, Contoso хочет расширить приложение.
 
-- Разработчики Contoso создают прототипы нового приложения .NET Core, которое будет работать в кластере Service Fabric.
+- Разработчики компании Contoso добавляют прототип нового приложения .NET Core, которое будет выполняться в кластере Service Fabric.
 - Приложение будет использоваться для вывода данных тональности из Cosmos DB.
 - Эти данные будут представлены в виде твитов, которые обрабатываются с помощью бессерверной функции Azure и API анализа текста Azure Cognitive Services.
 
@@ -494,16 +494,16 @@ ms.locfileid: "71024472"
 
 1. Специалисты компании создают ресурс Azure Cosmos DB в Azure Marketplace.
 
-    ![Продлить](./media/contoso-migration-rearchitect-container-sql/extend1.png)
+    ![Extend](./media/contoso-migration-rearchitect-container-sql/extend1.png)
 
 2. Они предоставляют имя базы данных (**contososmarthotel**), выбирают API SQL и размещают ресурс в группе рабочих ресурсов в основном регионе "Восточная часть США 2".
 
-    ![Продлить](./media/contoso-migration-rearchitect-container-sql/extend2.png)
+    ![Extend](./media/contoso-migration-rearchitect-container-sql/extend2.png)
 
 3. В разделе о **начале работы** они выбирают **Обозреватель данных** и добавляют новую коллекцию.
 4. В разделе **Добавить коллекцию** указываются идентификаторы и устанавливается емкость и пропускная способность.
 
-    ![Продлить](./media/contoso-migration-rearchitect-container-sql/extend3.png)
+    ![Extend](./media/contoso-migration-rearchitect-container-sql/extend3.png)
 
 5. На портале они открывают новую базу данных и выбирают **Коллекция** > **Документы**, а затем — **Новый документ**.
 6. Далее в окно документа вставляется код JSON, приведенный ниже. Это пример данных в виде одного твита.
@@ -527,11 +527,11 @@ ms.locfileid: "71024472"
     }
     ```
 
-    ![Продлить](./media/contoso-migration-rearchitect-container-sql/extend4.png)
+    ![Extend](./media/contoso-migration-rearchitect-container-sql/extend4.png)
 
 7. Определяется конечная точка Cosmos DB и ключ проверки подлинности. Они используются в приложении для подключения к коллекции. В базе данных они выбирают **Ключи** и копируют универсальный код ресурса (URI) и первичный ключ в Блокнот.
 
-    ![Продлить](./media/contoso-migration-rearchitect-container-sql/extend5.png)
+    ![Extend](./media/contoso-migration-rearchitect-container-sql/extend5.png)
 
 ### <a name="update-the-sentiment-app"></a>Обновление приложения тональности
 
@@ -582,15 +582,15 @@ ms.locfileid: "71024472"
 
 ### <a name="security"></a>Безопасность
 
-- Администраторам Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Узнайте больше](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview).
+- Администраторам Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Дополнительные сведения](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview)
 - В частности, нужно обновить контейнер для использования SSL с сертификатами.
-- Необходимо рассмотреть возможность использования Key Vault для защиты секретов для приложений Service Fabric. [Узнайте больше](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-secret-management).
+- Необходимо рассмотреть возможность использования Key Vault для защиты секретов для приложений Service Fabric. [Дополнительные сведения](https://docs.microsoft.com/azure/service-fabric/service-fabric-application-secret-management)
 
-### <a name="backups"></a>Резервные
+### <a name="backups"></a>Резервные копии
 
-- Contoso следует рассмотреть требования резервного копирования для базы данных SQL Azure. [Узнайте больше](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
-- Администраторам Contoso рекомендуется реализовать группы отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Узнайте больше](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview).
-- Они могут использовать георепликацию для номера SKU ценовой категории "Премиум" Реестра контейнеров Azure. [Узнайте больше](https://docs.microsoft.com/azure/container-registry/container-registry-geo-replication).
+- Contoso следует рассмотреть требования резервного копирования для базы данных SQL Azure. [Дополнительные сведения](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)
+- Администраторам Contoso рекомендуется реализовать группы отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Дополнительные сведения](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview)
+- Они могут использовать георепликацию для номера SKU ценовой категории "Премиум" Реестра контейнеров Azure. [Дополнительные сведения](https://docs.microsoft.com/azure/container-registry/container-registry-geo-replication)
 - Contoso необходимо рассмотреть развертывание веб-приложения в основном регионе "Восточная часть США 2" и в регионе "Центральная часть США", когда Веб-приложение для контейнеров станет доступно. Администраторы Contoso могут настроить диспетчер трафика для обеспечения отработки отказа в случае региональных сбоев.
 - Cosmos DB создает резервные копии автоматически. Чтобы узнать больше, специалисты Contoso [читают описание](https://docs.microsoft.com/azure/cosmos-db/online-backup-and-restore) этого процесса.
 
@@ -598,7 +598,7 @@ ms.locfileid: "71024472"
 
 - После развертывания всех ресурсов специалисты Contoso должны назначить теги Azure в соответствии с [планом инфраструктуры](./contoso-migration-infrastructure.md#set-up-tagging).
 - Полное лицензирование входит в стоимость служб PaaS, которые использует Contoso. Это будет вычтено из EA.
-- Компания будет использовать Управление затратами Azure по лицензии Cloudyn (дочернее подразделение корпорации Майкрософт). Это решение по управлению затратами для нескольких облаков, которое позволяет использовать облака Azure и другие облачные ресурсы, а также управлять ими. Дополнительные сведения об управлении расходами см. [на этой странице](https://docs.microsoft.com/azure/cost-management/overview).
+- Компания Contoso будет использовать Управление затратами Azure по лицензии Cloudyn (дочернее подразделение Майкрософт). Это решение по управлению затратами для нескольких облаков, которое позволяет использовать облака Azure и другие облачные ресурсы, а также управлять ими. Дополнительные сведения об управлении расходами см. [на этой странице](https://docs.microsoft.com/azure/cost-management/overview).
 
 ## <a name="conclusion"></a>Заключение
 

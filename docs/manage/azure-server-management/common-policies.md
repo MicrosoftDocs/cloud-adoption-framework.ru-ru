@@ -8,19 +8,19 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 0d998f06e73c03a74cdaf5fbd75cb605fa9a2fbb
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 7008809ef2e80cd5f1c263b705b46a37b6028482
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547318"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656407"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 
 [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) поможет вам применить управление к облачным ресурсам. Эта служба поможет вам создать снятие, обеспечивающую соответствие требованиям политики управления в масштабах всей Организации. Чтобы создать политики, используйте командлеты портал Azure или PowerShell. В этой статье приведены примеры командлетов PowerShell.
 
 > [!NOTE]
-> С помощью политики Azure политики принудительного применения (**deployIfNotExists**) не развертываются автоматически на существующих виртуальных машинах. Для обеспечения соответствия этих виртуальных машин необходимо исправление. Дополнительные сведения см. в статье [исправление несоответствующих ресурсов с помощью политики Azure](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
+> С помощью политики Azure политики принудительного применения (**deployIfNotExists**) не развертываются автоматически на существующих виртуальных машинах. Для обеспечения соответствия виртуальных машин требуется исправление. Дополнительные сведения см. в статье [исправление несоответствующих ресурсов с помощью политики Azure](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
 
 ## <a name="common-policy-examples"></a>Примеры общих политик
 
@@ -28,15 +28,15 @@ ms.locfileid: "72547318"
 
 ### <a name="restrict-resource-regions"></a>Ограничить регионы ресурсов
 
-Нормативные требования и соответствие политике часто зависят от управления физическим расположением, в котором развертываются ресурсы. Вы можете использовать встроенную политику, позволяющую пользователям создавать ресурсы только в список разрешений регионах Azure. Эту политику можно найти на портале, выполнив поиск по слову "расположение" на странице определения политики.
+Нормативные требования и соответствие политике часто зависят от управления физическим расположением, в котором развертываются ресурсы. Вы можете использовать встроенную политику, позволяющую пользователям создавать ресурсы только в определенных регионах Azure.
 
-Также можно выполнить этот командлет, чтобы найти политику.
+Чтобы найти эту политику на портале, выполните поиск по слову "расположение" на странице определения политики. Или выполните этот командлет, чтобы найти политику:
 
 ```powershell
 Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq "BuiltIn") -and ($_.Properties.displayName -like "*location*") }
 ```
 
-В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение `$SubscriptionID`, чтобы оно указывало на подписку, которой нужно назначить политику. Перед выполнением скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Измените значение `$SubscriptionID`, чтобы оно указывало на подписку, которой вы хотите назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
 
 ```powershell
 #Specify the value for $SubscriptionID.
@@ -51,13 +51,13 @@ $policyParam = '{"listOfAllowedLocations":{"value":["eastus","westus"]}}'
 New-AzPolicyAssignment -Name "Allowed Location" -DisplayName "Allowed locations for resource creation" -Scope $scope -PolicyDefinition $AllowedLocationPolicy -Location eastus -PolicyParameter $policyparam
 ```
 
-Этот же скрипт можно использовать для применения других политик, обсуждаемых в этой статье. Просто замените GUID в строке, которая задает `$AllowedLocationPolicy` с идентификатором GUID политики, которую необходимо применить.
+Этот сценарий также можно использовать для применения других политик, описанных в этой статье. Просто замените GUID в строке, которая задает `$AllowedLocationPolicy` с идентификатором GUID политики, которую необходимо применить.
 
 ### <a name="block-certain-resource-types"></a>Блокировать определенные типы ресурсов
 
-Другая распространенная политика, используемая для управления затратами, позволяет блокировать определенные типы ресурсов. Эту политику можно найти на портале, выполнив поиск по фразе "разрешенные типы ресурсов" на странице Определение политики.
+Еще одна распространенная политика, используемая для управления затратами, может также использоваться для блокировки определенных типов ресурсов.
 
-Также можно выполнить этот командлет, чтобы найти политику.
+Чтобы найти эту политику на портале, выполните поиск по запросу "разрешенные типы ресурсов" на странице определения политики. Или выполните этот командлет, чтобы найти политику:
 
 ```powershell
 Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq "BuiltIn") -and ($_.Properties.displayName -like "*allowed resource types") }
@@ -67,15 +67,15 @@ Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq "BuiltIn")
 
 ### <a name="restrict-vm-size"></a>Ограничение размера виртуальной машины
 
-Azure предлагает широкий спектр размеров виртуальных машин для поддержки различных типов рабочих нагрузок. Для управления бюджетом можно создать политику, которая допускает только подмножество размеров виртуальных машин в ваших подписках.
+Azure предлагает широкий спектр размеров виртуальных машин для поддержки различных рабочих нагрузок. Для управления бюджетом можно создать политику, которая допускает только подмножество размеров виртуальных машин в ваших подписках.
 
 ### <a name="deploy-antimalware"></a>Развертывание антивредоносной программы
 
-С помощью этой политики можно развернуть расширение Microsoft IaaSAntimalware с конфигурацией по умолчанию для виртуальных машин, не защищенных с помощью антивредоносной программы.
+С помощью этой политики можно развернуть расширение Microsoft *IaaSAntimalware* с конфигурацией по умолчанию для виртуальных машин, не защищенных с помощью антивредоносной программы.
 
 GUID политики — `2835b622-407b-4114-9198-6f7064cbe0dc`.
 
-В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение `$SubscriptionID`, чтобы оно указывало на подписку, которой нужно назначить политику. Перед выполнением скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение `$SubscriptionID`, указав подписку, которой нужно назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
 
 ```powershell
 #Specify the value for $SubscriptionID.
@@ -84,7 +84,7 @@ $scope = "/subscriptions/$SubscriptionID"
 
 $AntimalwarePolicy = Get-AzPolicyDefinition -Name "2835b622-407b-4114-9198-6f7064cbe0dc"
 
-#Replace location “eastus” with the value you want to use.
+#Replace location “eastus” with the value that you want to use.
 New-AzPolicyAssignment -Name "Deploy Antimalware" -DisplayName "Deploy default Microsoft IaaSAntimalware extension for Windows Server" -Scope $scope -PolicyDefinition $AntimalwarePolicy -Location eastus –AssignIdentity
 
 ```

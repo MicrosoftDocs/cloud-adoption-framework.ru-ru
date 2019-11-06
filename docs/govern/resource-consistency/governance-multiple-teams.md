@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 04e78b51bcea5aea8d8db719b7d88865696d781b
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: caa9d3ced70ce15eacf37b4bcbb653efae9da1ef
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566028"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656687"
 ---
 # <a name="governance-design-for-multiple-teams"></a>Разработка системы управления для нескольких команд
 
@@ -232,7 +232,7 @@ ms.locfileid: "73566028"
 > [!NOTE]
 > Дополнительные сведения о связи между учетными записями Azure и подписками см. в статье Общие сведения о [доступе к ресурсам в Azure](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles) .
 
-Выполните следующие действия.
+Выполните следующие действия:
 
 1. Если у вашей организации нет учетной записи Azure, создайте [ее](https://docs.microsoft.com/azure/active-directory/sign-up-organization). Пользователь, зарегистрировавший учетную запись Azure, становится ее администратором, поэтому руководство организации должно выбрать человека, который возьмет на себя эту роль. Он будет отвечать за:
     - Создание подписок.
@@ -259,7 +259,7 @@ ms.locfileid: "73566028"
 6. Чтобы запросить создание групп ресурсов, создайте процесс утверждения для **владельцев рабочей нагрузки**. Процесс утверждения может быть реализован по-разному, например по электронной почте или с помощью инструмента управления рабочими процессами, к примеру [рабочие процессы SharePoint](https://support.office.com/article/introduction-to-sharepoint-workflow-07982276-54e8-4e17-8699-5056eff4d9e3). Процесс утверждения может состоять из следующих шагов:
     - **Владелец рабочей нагрузки** готовит спецификацию необходимых ресурсов Azure для среды **разработки** или **рабочей** среды (или из обеих) и отправляет ее **владельцу подписки**.
     - **Владелец подписки** проверяет спецификацию и запрашиваемые ресурсы, чтобы убедиться в их применимости для запланированного использования. Например, он проверяет, верны ли запрошенные [размеры виртуальных машин](https://docs.microsoft.com/azure/virtual-machines/windows/sizes).
-    - Если запрос не будет подтвержден, **владелец рабочей нагрузки** получит уведомление. Если запрос подтвержден, **владелец подписки** [создает запрашиваемую группу ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/manage-resource-groups-portal#create-resource-groups), следуя [соглашению об именовании](https://docs.microsoft.com/azure/architecture/best-practices/naming-conventions) в организации, [добавляет **владельца рабочей нагрузки**](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal#add-a-role-assignment) с [ролью **участник**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) и отправляет уведомление **владельцу рабочей нагрузки** о том, что группа ресурсов создана.
+    - Если запрос не будет подтвержден, **владелец рабочей нагрузки** получит уведомление. Если запрос подтвержден, **владелец подписки** [создает запрашиваемую группу ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/manage-resource-groups-portal#create-resource-groups), следуя [соглашению об именовании](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) в организации, [добавляет **владельца рабочей нагрузки**](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal#add-a-role-assignment) с [ролью **участник**](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) и отправляет уведомление **владельцу рабочей нагрузки** о том, что группа ресурсов создана.
 7. Чтобы запросить пиринговое соединение с виртуальной сетью у владельца общей инфраструктуры, для владельцев рабочей нагрузки создается процесс утверждения. Как и на предыдущем этапе, этот процесс утверждения может быть реализован с использованием электронной почты или инструмента управления процессами.
 
 После внедрения своей модели управления можно развернуть службы общей инфраструктуры.

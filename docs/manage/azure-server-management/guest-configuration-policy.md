@@ -8,43 +8,43 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 16d67f628ff99f971d2d79127b25698987cc8977
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 741a73bacadccc0ee7b06542b86b9958aa236982
+ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547270"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "73656313"
 ---
 # <a name="guest-configuration-policy"></a>Политика конфигурации гостя
 
-Модуль [настройки гостевой конфигурации](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) политики Azure позволяет выполнять аудит параметров конфигурации на виртуальной машине. В настоящее время Гостевая конфигурация поддерживается только на виртуальных машинах Azure.
+Для аудита параметров конфигурации на виртуальной машине можно использовать расширение [гостевой настройки](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) политики Azure. В настоящее время Гостевая конфигурация поддерживается только на виртуальных машинах Azure.
 
-Список политик конфигурации гостевой системы можно найти, выполнив поиск по категории "Гостевая конфигурация" на странице портала политики Azure. Список можно также найти, запустив этот командлет в окне PowerShell:
+Чтобы найти список политик конфигурации гостей, выполните поиск по запросу "Конфигурация гостевой службы" на странице портала политики Azure. Или выполните этот командлет в окне PowerShell, чтобы найти список:
 
 ```powershell
 Get-AzPolicySetDefinition | where-object {$_.Properties.metadata.category -eq "Guest Configuration"}
 ```
 
 > [!NOTE]
-> Функциональность гостевой настройки регулярно обновляется для поддержки дополнительных наборов политик. Периодически проверяйте наличие новых поддерживаемых политик и оцените их полезность.
+> Функциональность гостевой настройки регулярно обновляется для поддержки дополнительных наборов политик. Периодически проверяйте наличие новых поддерживаемых политик и оцените, будут ли они полезны.
 
 <!-- TODO: Update these links when available. 
 
-By default, we recommend enabling the following policies:
+By default, we recommend that you enable the following policies:
 
-- [Preview]: Audit to verify password security settings are set correctly inside Linux and Windows machines.
+- [Preview]: Audit to verify that password-security settings are correct on Linux and Windows machines.
 - Audit to verify that certificates are not nearing expiration on Windows VMs.
 
 -->
 
 ## <a name="deployment"></a>Развертывание.
 
-Для развертывания этих политик можно использовать следующий пример скрипта PowerShell:
+Используйте следующий пример скрипта PowerShell для развертывания этих политик в:
 
 - Убедитесь, что параметры безопасности пароля на компьютерах Windows и Linux установлены правильно.
 - Убедитесь, что сертификаты не близки к истечению срока действия на виртуальных машинах Windows.
 
- Перед запуском этого скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) . При запуске скрипта необходимо указать имя подписки, к которой необходимо применить политики.
+ Перед выполнением этого скрипта используйте командлет [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) для входа. При запуске скрипта необходимо указать имя подписки, к которой будут применяться политики.
 
 ```powershell
 
