@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 layout: LandingPage
-ms.openlocfilehash: c112c1d340de944502ac16159977ffa12b5b095d
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: a6e7cb52fdac7607765b32c5355c0f2df066538a
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72378266"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566860"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
@@ -130,7 +130,7 @@ ms.locfileid: "72378266"
 
 ![Модель миграции Cloud Adoption Framework](../_images/operational-transformation-migrate.png)
 
-## <a name="creating-a-balanced-cloud-portfolio"></a>Создание сбалансированного портфеля облачных решений
+## <a name="create-a-balanced-cloud-portfolio"></a>Создание сбалансированного портфеля облачных решений
 
 В сбалансированном портфеле технологий всегда будут очень разные ресурсы в разных состояниях. Часть приложений уже устарела и почти не поддерживается. Другие приложения или ресурсы находятся на этапе обслуживания, но уже не развиваются. Для новых бизнес-процессов изменение рыночных условий диктует необходимость в постоянных улучшениях и модернизации. Когда возникает возможность создать новый поток дохода, в среду включаются новые приложения или ресурсы. На разных этапах жизненного цикла ресурса влияние инвестиций на доход и прибыль будет разным. Чем более поздний этап жизненного цикла проходит приложение, тем меньше возможностей получить доход от внедрения новых функций или модернизации.
 

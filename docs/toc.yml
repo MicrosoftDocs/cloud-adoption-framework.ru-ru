@@ -221,7 +221,7 @@
               href: migrate/expanded-scope/balance-the-portfolio.md
             - name: Подготовка навыков
               href: migrate/expanded-scope/suggested-skills.md
-            - name: Перенос узла VMWare
+            - name: Перенос узла VMware
               href: migrate/expanded-scope/vmware-host.md
             - name: "Перенос рабочих нагрузок SQL\_Server"
               href: migrate/expanded-scope/sql-migration.md
@@ -279,7 +279,7 @@
                           href: migrate/azure-best-practices/contoso-migration-tfs-vsts.md
                     - name: Масштабирование миграции
                       href: migrate/azure-best-practices/contoso-migration-scale.md
-            - name: Перенос узлов VMWare
+            - name: Перенос узлов VMware
               items:
                 - name: Обзор
                   href: migrate/azure-best-practices/vmware-host.md
@@ -475,13 +475,13 @@
               items:
                 - name: Обзор
                   href: migrate/migration-considerations/prerequisites/index.md
-                - name: 'Решения, которые влияют на процесс миграции'
+                - name: 'Решения, влияющие на перенос'
                   href: migrate/migration-considerations/prerequisites/decisions.md
                 - name: Контрольный список планирования среды
                   href: migrate/migration-considerations/prerequisites/planning-checklist.md
                 - name: Сопоставление ролей и обязанностей
                   href: migrate/migration-considerations/prerequisites/cultural-complexity.md
-                - name: Структурирование невыполненных работ для управления изменениями
+                - name: Гибкое управление изменениями
                   href: migrate/migration-considerations/prerequisites/technical-complexity.md
                 - name: Обзор невыполненной работы по миграции
                   href: migrate/migration-considerations/prerequisites/migration-backlog-review.md
@@ -491,31 +491,31 @@
                   href: migrate/migration-considerations/assess/index.md
                 - name: Правильное упорядочение приоритетов
                   href: migrate/migration-considerations/assess/business-priorities.md
-                - name: Оценка готовности рабочих нагрузок и ресурсов
+                - name: Оценка готовности рабочей нагрузки
                   href: migrate/migration-considerations/assess/evaluate.md
                 - name: Проектирование рабочих нагрузок
                   href: migrate/migration-considerations/assess/architect.md
                 - name: Оценка затрат на облако
                   href: migrate/migration-considerations/assess/estimate.md
-                - name: Привлечение партнеров по миграции и получение поддержки
+                - name: Общие сведения о вариантах партнерства
                   href: migrate/migration-considerations/assess/partnership-options.md
-                - name: Управление инкрементными процессами
+                - name: Управление изменениями
                   href: migrate/migration-considerations/assess/release-iteration-backlog.md
-                - name: Изменение процессов утверждения
+                - name: Утверждение изменений архитектуры
                   href: migrate/migration-considerations/assess/approve.md
             - name: Перенос отдельных ресурсов
               items:
                 - name: Обзор
                   href: migrate/migration-considerations/migrate/index.md
-                - name: 'Модели повышения уровня: одноэтапные, многоэтапные или динамические'
+                - name: Модели повышения уровня
                   href: migrate/migration-considerations/migrate/promotion-models.md
-                - name: Задачи исправления
+                - name: Исправление ресурсов
                   href: migrate/migration-considerations/migrate/remediate.md
-                - name: Репликация ресурсов в облако
+                - name: Репликация ресурсов
                   href: migrate/migration-considerations/migrate/replicate.md
                 - name: Возможности репликации
                   href: migrate/migration-considerations/migrate/replicate-options.md
-                - name: Разделение рабочих нагрузок на этапы для тестирования и повышения уровня
+                - name: Промежуточные рабочие нагрузки
                   href: migrate/migration-considerations/migrate/stage.md
             - name: Оптимизация рабочих нагрузок и повышение их уровня
               items:
@@ -525,15 +525,15 @@
                   href: migrate/migration-considerations/optimize/business-change-plan.md
                 - name: Тестирование деловой деятельности
                   href: migrate/migration-considerations/optimize/business-test.md
-                - name: Измерение производительности ресурсов и их оптимизация
+                - name: Тест производительности и изменение размера ресурсов
                   href: migrate/migration-considerations/optimize/optimize.md
-                - name: Готовность к повышению уровня
+                - name: Подготовка к повышению уровня
                   href: migrate/migration-considerations/optimize/ready.md
-                - name: Повышение уровня рабочих нагрузок до рабочей среды
+                - name: Повышение уровня до рабочей среды
                   href: migrate/migration-considerations/optimize/promote.md
                 - name: 'Списание ресурсов, использование которых прекращено'
                   href: migrate/migration-considerations/optimize/decommission.md
-                - name: Ретроспектива
+                - name: Проведение ретроспективных собраний
                   href: migrate/migration-considerations/optimize/retrospective.md
             - name: Защита рабочих нагрузок и управление ими в рабочей среде
               items:

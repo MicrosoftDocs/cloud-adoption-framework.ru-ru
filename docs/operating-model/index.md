@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: operating-model
-ms.openlocfilehash: 77e3ded1f76b096655a7831bc1950bf28bd4c86b
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: d9e26d82dd0332c338567bf962094a39f2ef84b4
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683813"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564528"
 ---
 # <a name="establish-an-operating-model-for-the-cloud"></a>Создание производственной модели для облака
 
@@ -36,7 +36,7 @@ ms.locfileid: "72683813"
 - [Контроль.](../manage/index.md) Согласуйте текущие процессы управления операциями, чтобы максимально повысить эффективность и свести к минимуму прерывание работы.
 - [Организация.](../organize/index.md) По мере совершенствования операционной модели будут также развиваться разные команды и соответствующие возможности.
 
-## <a name="aligning-operating-models"></a>Согласование операционных моделей
+## <a name="align-operating-models"></a>Согласование рабочих моделей
 
 Облачные технологии и цифровая экономика предусматривают использование нескольких операционных моделей. Иногда эта потребность связана с требованием обеспечивать поддержку нескольких общедоступных облаков, но чаще всего — с переходом из локальной среды в облако. В любом сценарии важно согласовать операционные модели для максимальной производительности и минимальной избыточности.
 
