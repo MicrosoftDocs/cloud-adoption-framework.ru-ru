@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 layout: LandingPage
-ms.openlocfilehash: 5a53b72747d20e8b7b2d3ca25a6ffc29b46e1203
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 1e54fdc30e0db1ed1cecf01156bb9c25368a8457
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979893"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565021"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Управление облаком в соответствии с Cloud Adoption Framework
 
@@ -111,7 +111,7 @@ ms.locfileid: "72979893"
 
 ![Методология управления в соответствии с Cloud Adoption Framework](../_images/manage/caf-manage.png)
 
-## <a name="creating-a-balanced-cloud-portfolio"></a>Создание сбалансированного портфеля облачных решений
+## <a name="create-a-balanced-cloud-portfolio"></a>Создание сбалансированного портфеля облачных решений
 
 Как описано в статье, посвященной [согласованию бизнес-процессов](./considerations/business-alignment.md), не все рабочие нагрузки являются критически важными. В любом портфеле предусмотрены различные уровни требований к операционному управлению. Действия по согласованию бизнес-процессов помогают определить степень влияния на бизнес и договориться о расходах на управление, чтобы применять наиболее подходящие процессы и инструменты оперативного управления.
 

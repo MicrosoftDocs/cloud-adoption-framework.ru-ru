@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: d6e95ebec986d0a4af29ec70332f1c6fcb3518f2
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 1bf2331c8ee1275a71be2275cefef49cf0a50dfc
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547568"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566251"
 ---
 # <a name="cloud-governance-guides"></a>Руководства по управлению облаком
 
@@ -62,7 +62,7 @@ ms.locfileid: "72547568"
 
 ## <a name="an-incremental-approach-to-cloud-governance"></a>Поэтапный подход к организации облачной системы управления
 
-## <a name="choosing-a-governance-guide"></a>Выбор руководства по организации системы управления
+## <a name="choose-a-governance-guide"></a>Выбор руководства по организации системы управления
 
 Из этих руководств вы узнаете, как реализовать MVP системы управления. В каждом руководстве показано, как команда по управлению облачными решениями может на шаг опережать команды по внедрению облачных решений в рамках сотрудничества для ускорения внедрения. Модель управления Cloud Adoption Framework регламентирует применение системы управления, начиная с реализации базовой системы и ее последующим усовершенствованием и развитием.
 

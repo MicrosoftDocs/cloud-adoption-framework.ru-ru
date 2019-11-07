@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 7b670f2159784fdb948c95ea45b70adfd6a5fe2d
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: c134cd2a3cf17cd4e650f637fec2c417f3c29ff1
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222247"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73566195"
 ---
 # <a name="identity-baseline-discipline-overview"></a>Общие сведения о дисциплине базовой системы идентификации
 
@@ -35,7 +35,7 @@ ms.locfileid: "71222247"
 > [!CAUTION]
 > Примеры политик взяты из общего опыта клиентов. Чтобы лучше согласовать эти политики с конкретными потребностями системы управления облаком, выполните следующие шаги для создания правил политики, соответствующих уникальным потребностям вашей компании.
 
-## <a name="developing-identity-baseline-governance-policy-statements"></a>Разработка правил политики системы управления базовой идентификацией
+## <a name="develop-governance-policy-statements"></a>Разработка положений политики системы управления
 
 В следующих шести пунктах показаны примеры и потенциальные варианты, которые следует учитывать при разработке системы управления базовых способов идентификации. Используйте каждый пункт как отправную точку при принятии решений с участием команды по управлению облачными решениями и соответствующими бизнес-представителями, а также с ИТ-отделами вашей организации. Так вы сможете определить политики и способы управления рисками, связанными с идентификацией.
 

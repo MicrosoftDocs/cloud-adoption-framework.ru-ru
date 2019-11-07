@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 82ad7e2c4e7e7eac375e99daa0815c8482492e15
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 27a86947bdcf240f3ea469db10c94b3f63ccb1e8
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223900"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564895"
 ---
 # <a name="encryption-decision-guide"></a>Руководство по принятию решений о шифровании
 
@@ -103,7 +103,9 @@ ms.locfileid: "71223900"
 
 При выборе ресурсов для защиты следует учитывать общие требования политики и соответствия, уровень конфиденциальности хранимых данных и требования к производительности рабочих нагрузок.
 
-**Допущения для шифрования неактивных данных.** При шифровании неактивных данных предполагается следующее:
+### <a name="assumptions-about-encrypting-data-at-rest"></a>Допущения при шифровании неактивных данных
+
+При шифровании неактивных данных предполагается следующее:
 
 - Вы храните данные, которые не предназначены для предоставления широкой публике.
 - Рабочие нагрузки имеют запас на дополнительную задержку, вызванную шифрованием дисков.

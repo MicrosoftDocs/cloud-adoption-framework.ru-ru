@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 67dbfbe48626c77303ec8626dc7889f474a28b66
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 315ba0898f6a301af6f91614290c51244fbf6eb0
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72979867"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73564915"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Руководство по облачному мониторингу: Введение
 
