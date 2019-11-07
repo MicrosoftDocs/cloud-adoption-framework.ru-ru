@@ -8,14 +8,14 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 82f6ea5b422bc4d33fe898f86d003ffb2ab92422
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: b960bbd4382a14f254038397f3843d7ad7b65f8c
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565636"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752996"
 ---
-# <a name="learn-with-customers"></a>Знакомство с клиентами
+# <a name="learn-with-customers"></a>Совместное обучение с клиентами
 
 Наши текущие клиенты представляют наш лучший ресурс для обучения. Соберитесь с нами, мы поможем нам [создать с помощью Customer сопереживание](./build.md) , чтобы найти лучшее решение для их нужд. Кроме того, они помогают создать решение с минимальными возможными продуктами (MVP), создавая метрики, из которых [измеряется воздействие на клиентов](./measure.md). В этой статье описывается, как изучать и от наших клиентов.
 
@@ -56,4 +56,4 @@ ms.locfileid: "73565636"
 > [!div class="nextstepaction"]
 > [Общие сведения об общих блокировках и проблемах](./challenges.md)
 
-Некоторые из концепций в этой статье посвящены темам, впервые описанным в руководстве по [экономичному запуску](http://theleanstartup.com/book), написанному при помощи функции RIES.
+Некоторые из концепций в этой статье посвящены темам, впервые описанным в руководстве по [экономичному запуску](https://theleanstartup.com/book), написанному при помощи функции RIES.
