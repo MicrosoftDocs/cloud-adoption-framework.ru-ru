@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: fe7614d29ba6a6baba99cd447d65bc30e3396bec
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 6c1e253d2ff49c331f4f1c153124f2ca06c81c36
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058532"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565557"
 ---
 ::: zone target="docs"
 
@@ -106,10 +106,6 @@ ms.locfileid: "73058532"
 <!-- markdownlint-enable DOCSMD001 -->
 
 ::: zone-end
-
-Платформа [Открытые наборы данных Azure](https://docs.microsoft.com/azure/open-datasets/overview-what-are-open-datasets) позволяет улучшить анализ, включая данные о [праздниках](https://azure.microsoft.com/services/open-datasets/catalog/public-holidays) и [погоде](https://azure.microsoft.com/services/open-datasets/catalog/noaa-global-forecast-system), а также [пространственные изображения](https://azure.microsoft.com/services/open-datasets/catalog/hls) в модели.
-
-Затем необходимо [упростить доступ к бизнес-процессам](https://docs.microsoft.com/business-applications-release-notes/october18/microsoft-flow/democratize-business-processes) и [расширить возможности разработчиков-любителей](https://docs.microsoft.com/business-applications-release-notes/october18/microsoft-flow/empower-citizen-developers).
 
 # <a name="insightstabinsights"></a>[Аналитика](#tab/Insights)
 

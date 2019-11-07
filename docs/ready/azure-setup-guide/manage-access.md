@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 7ce8b1f8509ab0e51c94913ef010eb35b22b8978
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: dc52d39699e20a243a6d1156764e30063aea76a5
+ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72379039"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "73240128"
 ---
 # <a name="manage-access-to-your-azure-environment-with-role-based-access-controls"></a>Управление доступом к среде Azure с помощью управления доступом на основе ролей
 
@@ -29,7 +29,7 @@ RBAC обеспечивает детальное управление досту
 
 При разработке плана управления доступом рекомендуется провести консультации с сотрудниками вашей организации, которые отвечают за безопасность и соответствие требованиям, управление ИТ-ресурсами и структуру предприятия.
 
-Cloud Adoption Framework предоставляет дополнительные рекомендации по [использованию управления доступом на основе ролей](../azure-best-practices/roles.md) в рамках работы по внедрению в облако.
+Cloud Adoption Framework предоставляет дополнительные рекомендации по [использованию управления доступом на основе ролей](../considerations/roles.md) в рамках работы по внедрению в облако.
 
 ::: zone target="chromeless"
 
@@ -88,6 +88,6 @@ Cloud Adoption Framework предоставляет дополнительные
 Дополнительные сведения см. на следующих ресурсах:
 
 - [Что такое управление доступом на основе ролей (RBAC)?](https://docs.microsoft.com/azure/role-based-access-control/overview)
-- [Role-based access control](../azure-best-practices/roles.md) (Управление доступом на основе ролей)
+- [Role-based access control](../considerations/roles.md) (Управление доступом на основе ролей)
 
 ::: zone-end
