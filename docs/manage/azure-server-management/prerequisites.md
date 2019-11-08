@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: dafe5f36a59d60fa91816695cae1e1f3784df046
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 20a4168f5a7650b20357de2ec2628a0edb093993
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565310"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751633"
 ---
 # <a name="phase-1-prerequisite-planning-for-azure-server-management-services"></a>Этап 1. планирование необходимых компонентов для служб управления сервером Azure
 
@@ -34,7 +34,7 @@ ms.locfileid: "73565310"
 
 Для многих служб, которые будут использоваться для подключения служб управления Azure, требуется рабочая область Log Analytics и связанная учетная запись службы автоматизации Azure.
 
-[Log Analytics Рабочая область](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) — это уникальная среда для хранения Azure Monitor данных журнала. Каждая Рабочая область имеет собственный репозиторий и конфигурацию. Источники данных и решения настраиваются для хранения данных в определенных рабочих областях. Для решения мониторинга Azure требуется, чтобы все серверы были подключены к рабочей области, чтобы их данные журналов можно было хранить и получать к ним доступ.
+[Рабочая область Log Analytics](https://docs.microsoft.com/azure/azure-monitor/learn/quick-create-workspace) — это уникальная среда для хранения данных журналов Azure Monitor. Каждая рабочая область имеет собственный репозиторий данных и конфигурацию. Источники данных и решения настраиваются для хранения данных в определенных рабочих областях. Решениям для мониторинга Azure требуется подключение всех серверов к рабочей области, чтобы их данные журналов можно было хранить и получать к ним доступ.
 
 Для некоторых служб управления требуется учетная запись службы [автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro) . Эта учетная запись и возможности службы автоматизации Azure используются для интеграции служб Azure и других общедоступных систем для развертывания, настройки и управления процессами управления сервером.
 

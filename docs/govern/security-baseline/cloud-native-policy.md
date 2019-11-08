@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 19559e34f396561a25761e2b452133f84580fe85
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 9d11dff3ce8900d3dc95e1061af87313eae47a1b
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565952"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752537"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Базовая политика безопасности в облаке
 
@@ -46,7 +46,7 @@ ms.locfileid: "73565952"
 - JIT-доступ, достаточно достаточный уровень доступа для каждой задачи, чтобы ограничить раскрытие учетных данных администратора с повышенными привилегиями.
 - Расширенное удостоверение пользователя и доступ к политикам в нескольких средах с помощью Azure Active Directory.
 
-Хотя очень важно рассматривать [базовую систему идентификации](../identity-baseline/index.md) в контексте базовой системы безопасности, [базовая система идентификации](../index.md) является одной из [пяти дисциплин облачного управления](../identity-baseline/index.md), отделенной от базовой системы безопасности.
+Хотя очень важно рассматривать [базовую систему идентификации](../identity-baseline/index.md) в контексте базовой системы безопасности, [базовая система идентификации](../identity-baseline/index.md) является одной из [пяти дисциплин облачного управления](../index.md), отделенной от базовой системы безопасности.
 
 ### <a name="network-access-policies"></a>Политики доступа к сети
 

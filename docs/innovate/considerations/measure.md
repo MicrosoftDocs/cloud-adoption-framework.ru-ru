@@ -8,14 +8,14 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: c050e34feecfe26431c7105eef46d000fbb32cf8
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 99e2f126c518da72e95a166d203a3c4fdbb546aa
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565604"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752123"
 ---
-# <a name="measure-for-customer-impact"></a>Мера влияния на клиента
+# <a name="measure-for-customer-impact"></a>Оценка влияния на клиента
 
 Существует несколько способов измерения влияния на клиентов. В этой статье вы узнаете, как определить метрики для проверки достоверности, которые возникают из усилия для [создания с помощью клиента сопереживание](./build.md).
 

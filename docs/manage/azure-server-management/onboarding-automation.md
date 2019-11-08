@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: f5dd418a03dd35ebced1a9c73eb8fe6567339859
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 83e1cd80bcb821ba1b815291f7f25f875ba66284
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565391"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751585"
 ---
 # <a name="automate-onboarding"></a>Автоматизация адаптации
 
@@ -37,7 +37,7 @@ ms.locfileid: "73565391"
 
 В этом примере используются файлы, описанные в следующей таблице. Их можно настроить для поддержки собственных сценариев развертывания.
 
-| Имя файла | Description (Описание) |
+| Имя файла | Описание |
 |-----------|-------------|
 | Нев-амсдеплоймент. ps1 | Главный, координирующий сценарий, автоматизирующий подключение. Он создает группы ресурсов, расположение, рабочую область и учетные записи автоматизации, если они еще не существуют. Для этого скрипта PowerShell требуется существующая подписка. |
 | Workspace-Аутоматионаккаунт. JSON | Шаблон диспетчер ресурсов, который развертывает ресурсы рабочей области и учетной записи службы автоматизации. |

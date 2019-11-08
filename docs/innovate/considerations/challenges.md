@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: fe10230be2c71942fa411389b99e00811e008fbc
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 85b02e488476960a50112c1b5ebd7380a873a3f8
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565724"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751997"
 ---
 # <a name="common-blockers-and-challenges-to-innovation"></a>Распространенные блокировки и задачи для инноваций
 
@@ -45,7 +45,7 @@ ms.locfileid: "73565724"
 
 ### <a name="invention-challenges-in-a-digital-economy"></a>Invention проблемы в сфере цифровой экономике
 
-Inventionные задачи на сегодняшний день отличаются. Бесконечный потенциал облачных технологий также дает больше вариантов реализации и более подробное рассмотрение того, как можно использовать эти реализации.
+Inventionные задачи на сегодняшний день отличаются. Бесконечный потенциал облачных технологий также дает больше возможностей для реализации и более подробное рассмотрение того, как можно использовать эти реализации.
 
 Методология инноваций использует следующие инновации, чтобы помочь вам согласовать ваши решения по реализации с целями Invention и внедрения:
 

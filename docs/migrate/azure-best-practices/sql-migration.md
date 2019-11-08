@@ -8,12 +8,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 80e1de695d28f7eca7032559854f9a54dd4d3d99
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 09fb5a11a7d97d4cb94a11fbbb22aef84a29b87e
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72558237"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753600"
 ---
 # <a name="sql-server-migration-best-practices-for-azure"></a>Рекомендации по миграции SQL Server для Azure
 
@@ -27,4 +27,4 @@ ms.locfileid: "72558237"
 
 ## <a name="migration-best-practices"></a>Рекомендации по миграции
 
-В оглавлении слева описываются некоторые рекомендации корпорации Майкрософт, которые могут помочь в выполнении SQL Server миграции с помощью Azure Database Migration Guide, службы миграции данных Azure (DMS) или других средств. Закладка на этой странице для быстрого перехода к полному списку рекомендаций.
+В оглавлении слева описываются некоторые рекомендации корпорации Майкрософт, которые могут помочь в выполнении SQL Server миграции с помощью руководств по миграции баз данных Azure, Azure Database Migration Service (DMS) или других средств. Закладка на этой странице для быстрого перехода к полному списку рекомендаций.

@@ -1,5 +1,5 @@
 ---
-title: Руководство по мониторингу облака — получение правильных данных
+title: 'Руководство по мониторингу облака: получение правильных данных'
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Выберите, когда следует использовать Azure Monitor или System Center Operations Manager в Microsoft Azure
 author: MGoedtel
@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 05596379872fbfa9099297a55d4b75dedc0b672a
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 950b767101fea9b33875f1ad0938599a4f371ba9
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564947"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751531"
 ---
 # <a name="cloud-monitoring-guide-collect-the-right-data"></a>Руководство по мониторингу облака: получение правильных данных
 
@@ -45,7 +45,7 @@ ms.locfileid: "73564947"
 - Использование возможностей детализации панели мониторинга или поддержка настройки представления для уточнения.
 - Если требуются подробные журналы, метрики должны быть нацелены на условия поиска. Если метрики не помогают, повысьте их для следующего инцидента.
 
-С помощью этого набора правил GUID можно легко получить ценную информацию в режиме реального времени, а также улучшить управление службой.
+С помощью этого набора идентификаторов можно получить ценные сведения практически в реальном времени, а также улучшить управление службой.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

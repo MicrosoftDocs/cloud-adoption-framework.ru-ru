@@ -8,12 +8,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 444530a603d7d7e77bb71592a061486db835ea56
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 71632e8f3f995922f4021f216f2090b742141169
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566899"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753527"
 ---
 # <a name="accelerate-migration-by-migrating-an-instance-of-sql-server"></a>Ускорение миграции путем миграции экземпляра SQL Server
 
@@ -102,7 +102,7 @@ ms.locfileid: "73566899"
 
 ### <a name="guidance-and-tutorials-for-suggested-migration-process"></a>Руководство и учебники по предложенному процессу миграции
 
-Выбор лучших рекомендаций по миграции с помощью Database Migration Service зависит от выбранной исходной и целевой платформы. В следующей таблице приведены ссылки на учебники по каждому из стандартных подходов к переносу базы данных SQL с помощью Database Migration Service.
+Выбор лучших рекомендаций по миграции с помощью Azure Database Migration Service зависит от выбранной исходной и целевой платформы. В следующей таблице приведены ссылки на учебники по каждому из стандартных подходов к переносу базы данных SQL с помощью Azure Database Migration Service.
 
 |Источник  |Выбор пути миграции  |Средство  |Тип миграции  |Руководство  |
 |---------|---------|---------|---------|---------|
@@ -114,7 +114,7 @@ ms.locfileid: "73566899"
 
 ### <a name="guidance-and-tutorials-for-various-services-to-equivalent-paas-solutions"></a>Руководства и руководства по различным службам для эквивалентных решений PaaS
 
-После перемещения баз данных из экземпляра SQL Server в Database Migration Service схему и данные можно разместить в нескольких решениях PaaS. Однако другие необходимые службы по-прежнему могут работать на этом сервере. Следующие три руководства помогут в перемещении служб SSIS, SSAS и SSRS в эквивалентные службы PaaS в Azure.
+После перемещения баз данных из экземпляра SQL Server в Azure Database Migration Service схему и данные можно разместить в нескольких решениях PaaS. Однако другие необходимые службы по-прежнему могут работать на этом сервере. Следующие три руководства помогут в перемещении служб SSIS, SSAS и SSRS в эквивалентные службы PaaS в Azure.
 
 |Источник  |Выбор пути миграции  |Средство  |Тип перемещения  |Руководство  |
 |---------|---------|---------|---------|---------|

@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 60c6b72590cc5f912572109f0cce10366413fdf0
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 5b38b5d52ee5151a2ccd696f0049a9feea0d21a0
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565113"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752816"
 ---
 # <a name="inventory-and-visibility-in-cloud-management"></a>Инвентаризация и видимость в управлении облаком
 

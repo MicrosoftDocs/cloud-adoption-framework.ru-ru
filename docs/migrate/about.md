@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6bbd3ffe401a3e886ee1f91072a715002ab5e836
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: ab28d38aafdddc0206b9fc7abc98cb489bba5d1b
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547236"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73751281"
 ---
 # <a name="cloud-migration-in-the-microsoft-cloud-adoption-framework-for-azure"></a>Миграция в облако в Microsoft Cloud Adoption Framework для Azure
 
@@ -44,7 +44,7 @@ ms.locfileid: "72547236"
 
 Для читателей, которые хотят следовать этому руководству от начала до конца, это содержимое поможет разработать надежную стратегию миграции в облако. Руководство ознакомит читателя с теорией и научит реализовывать подобную стратегию.
 
-В качестве первого шага мы рекомендуем читателям ознакомиться с [руководством по миграции Azure](./azure-migration-guide/index.md), чтобы узнать о стандартном наборе инструментов и подходах, необходимых для миграции в рамках общего варианта использования. Затем руководство по базовым показателям можно расширить в соответствии с потребностями читателей благодаря [сложным сценариям миграции](./expanded-scope/index.md), [рекомендациям по миграции](./azure-best-practices/index.md) и [вопросам миграции](./migration-considerations/index.md).
+В качестве первого шага ознакомьтесь с руководством по [миграции Azure](./azure-migration-guide/index.md) , чтобы понять стандартный набор средств и подходов, необходимых для миграции в рамках общего варианта использования. Затем руководство по базовым показателям можно расширить в соответствии с потребностями читателей благодаря [сложным сценариям миграции](./expanded-scope/index.md), [рекомендациям по миграции](./azure-best-practices/index.md) и [вопросам миграции](./migration-considerations/index.md).
 
 > [!div class="nextstepaction"]
 > [Руководство по миграции в Azure](./azure-migration-guide/index.md)
