@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ceb9fb6ff6be481f665a0bb70e3afcc2eddb6e92
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: b071fc546f615679bf712e9caa7725e767b73ad9
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023867"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753188"
 ---
 # <a name="identity-decision-guide"></a>Руководство по принятию решений о системе идентификации
 

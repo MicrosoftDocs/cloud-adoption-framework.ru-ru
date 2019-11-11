@@ -8,12 +8,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 53feb14cab8f2109b86aa5850d856261d132ba19
-ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
+ms.openlocfilehash: 8d512141fa20e408e9955b14c560f1037adcd08f
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73656609"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752902"
 ---
 # <a name="overview-of-azure-server-management-services"></a>Общие сведения о службах управления серверами Azure
 

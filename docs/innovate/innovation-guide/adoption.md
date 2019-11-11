@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 2b2c4768cbe74363cd50b7730c3ba6b4078db14c
-ms.sourcegitcommit: e0a783dac15bc4c41a2f4ae48e1e89bc2dc272b0
+ms.openlocfilehash: 98db83bf842fe4c293eba482572bffbdb50caed6
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73058104"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73565568"
 ---
 ::: zone target="docs"
 
@@ -36,7 +36,7 @@ ms.locfileid: "73058104"
 - **количественное (обратная связь для тестирования):** означает действия, которые мы ожидаем увидеть;
 - **качественное (обратная связь клиентов):** сообщает о том, что эти метрики означают для клиента.
 
-Чтобы интегрировать циклы обратной связи, нужен общий репозиторий для решения. Централизованный репозиторий обеспечит возможность записывать все отзывы о проекте и реагировать на них. [GitHub](https://github.com/) является хранилищем для программного обеспечения с открытым исходным кодом. Это также одна из наиболее часто используемых платформ для размещения репозитория исходного кода для коммерческих приложений. В статье по [созданию репозиториев GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml) содержатся сведения по началу работы с репозиторием.
+Чтобы интегрировать циклы обратной связи, нужен общий репозиторий для решения. Централизованный репозиторий обеспечит возможность записывать все отзывы о проекте и реагировать на них. [GitHub](https://github.com) является хранилищем для программного обеспечения с открытым исходным кодом. Это также одна из наиболее часто используемых платформ для размещения репозитория исходного кода для коммерческих приложений. В статье по [созданию репозиториев GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml) содержатся сведения по началу работы с репозиторием.
 
 Каждый из приведенных ниже инструментов в Azure интегрируется с проектами, размещенными в GitHub, или совместим с ними.
 
@@ -126,7 +126,7 @@ Application Insights — это инструмент отслеживания, 
 ### <a name="action"></a>Действие
 
 Для Azure Boards и Azure Pipelines нужен портал, отдельный от GitHub и Azure.
-Чтобы начать работу с любым из этих инструментов, перейдите к [DevOps Azure](https://dev.azure.com/).
+Чтобы начать работу с любым из этих инструментов, перейдите к [DevOps Azure](https://dev.azure.com).
 
 ::: zone-end
 
@@ -138,11 +138,11 @@ Application Insights — это инструмент отслеживания, 
 
 Чтобы создать проект DevOps, выполните следующие действия:
 
-1. Перейдите к **проекту Azure DevOps**.
+1. Откройте **Azure DevOps Projects**.
 2. Нажмите **Создать проект DevOps**.
 3. Выберите пункт **Среда выполнения, платформа и служба**.
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/microsoft.visualstudio%2Faccount%2Fproject]" submitText="Go to Azure DevOps Project" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/microsoft.visualstudio%2Faccount%2Fproject]" submitText="Go to Azure DevOps Projects" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -152,8 +152,8 @@ Application Insights — это инструмент отслеживания, 
 
 Эти статьи помогут вам централизовать и контролировать отзывы, используя Azure Boards вместе с GitHub.
 
-- [Сведения о начале работы с Azure Boards](https://docs.microsoft.com/azure/devops/boards/boards/kanban-quickstart?view=azure-devops)
-- [Сведения об использовании Azure Boards и GitHub](https://docs.microsoft.com/azure/devops/boards/boards/kanban-quickstart?view=azure-devops)
+- [Сведения о начале работы с Azure Boards](https://docs.microsoft.com/azure/devops/boards/github?view=azure-devops)
+- [Сведения об использовании Azure Boards и GitHub](https://docs.microsoft.com/azure/devops/boards/get-started/?view=azure-devops)
 
 ## <a name="close-the-loop-with-pipelinestabpipelines"></a>[Закрытие цикла с помощью конвейеров](#tab/pipelines)
 
@@ -163,7 +163,7 @@ Application Insights — это инструмент отслеживания, 
 
 Чтобы просмотреть текущие развертывания в конвейере, выполните следующие действия:
 
-1. Перейдите к **Службе приложений**.
+1. Щелкните **Службы приложений**.
 2. Выберите нужное приложение из списка.
 3. В разделе **Развертывание** выберите **Центр развертывания** в области служб приложений.
 
@@ -171,7 +171,7 @@ Application Insights — это инструмент отслеживания, 
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Web%2Fsites]" submitText="Go to App Service" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Web%2Fsites]" submitText="Go to App Services" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 

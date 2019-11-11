@@ -8,12 +8,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: e3dad3c514c4d76a857b6b433b7bf7ee7320e626
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 367480222244c1e4287bebec85743408a10efc19
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565120"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752847"
 ---
 # <a name="it-management-and-operations-in-the-cloud"></a>Управление ИТ-ресурсами и операции в облаке
 

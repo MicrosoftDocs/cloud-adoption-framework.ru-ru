@@ -10,18 +10,18 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 20dd988f3e79c513647f74ade9edad307e01d839
-ms.sourcegitcommit: b30952f08155513480c6b2c47a40271c2b2357cf
+ms.openlocfilehash: c9a02a6d98929455d8d8f6c163825f69de7996be
+ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "72379158"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "73562573"
 ---
 # <a name="manage-costs-and-billing-for-your-azure-resources"></a>Управление затратами и выставление счетов для ресурсов Azure
 
 Управление затратами — это процесс эффективного планирования и контроля затрат, связанных с вашим бизнесом. Обычно задачи по управлению затратами выполняют финансовый отдел, руководство или разработчики приложений. Служба "Управление затратами Azure" помогает организациям планировать затраты. Она также позволяет эффективно анализировать затраты и принимать меры для оптимизации расходов на облако.
 
-Дополнительные сведения о том, как интегрировать процессы управления затратами в облаке в организации, см. в статье Cloud Adoption Framework для Azure, посвященной [отслеживанию затрат по бизнес-подразделениям, средам или проектам.](../azure-best-practices/track-costs.md)
+Дополнительные сведения о том, как интегрировать процессы управления затратами в облаке в организации, см. в статье Cloud Adoption Framework, посвященной [отслеживанию затрат по бизнес-подразделениям, средам или проектам.](../azure-best-practices/track-costs.md)
 
 ## <a name="manage-your-costs-with-azure-cost-management"></a>Управление затратами с помощью службы "Управление затратами Azure"
 

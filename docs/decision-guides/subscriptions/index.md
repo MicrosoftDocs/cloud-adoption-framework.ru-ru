@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4f024a95afcb993bd0fe314737ee4d2f97daffb0
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 4e97c7c1d363b81badc440eb46495b134c680162
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73238784"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753138"
 ---
 # <a name="subscription-decision-guide"></a>Руководство по выбору модели подписки
 
