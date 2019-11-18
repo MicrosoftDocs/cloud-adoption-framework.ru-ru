@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: a2acba3f9aa06298922d2cc95d298d3792a9ada9
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 27fa0720308910db32a340943f584a4502f52e94
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73240007"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73753585"
 ---
 # <a name="assess-the-digital-estate"></a>Оценка цифровых активов
 
@@ -31,7 +31,7 @@ ms.locfileid: "73240007"
 
 ## <a name="azure-migrate"></a>Служба "Миграция Azure"
 
-Служба "Миграция Azure" выполняет оценку локальных инфраструктуры, приложений и данных для переноса в Azure. Служба оценивает пригодность локальных активов к миграции, определяет размер на основе производительности и рассчитывает затраты на работу локальных активов в Azure. Эта служба подходит для миграции методом lift-and-shift, а также для начальных этапов оценки миграции. После завершения оценки с помощью службы "Миграция Azure" можно выполнить перенос.
+Служба "Миграция Azure" выполняет оценку локальных инфраструктуры, приложений и данных для переноса в Azure. Служба оценивает пригодность локальных активов к миграции, определяет размер на основе производительности и рассчитывает затраты на работу локальных активов в Azure. Эта служба подходит для миграции методом lift-and-shift, а также для начальных этапов оценки миграции. После завершения оценки можно выполнить перенос с помощью службы "Миграция Azure".
 
 ![Общие сведения о Миграции Azure](./media/assess/azuremigrate-overview-1.png)
 

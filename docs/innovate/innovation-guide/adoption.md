@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 98db83bf842fe4c293eba482572bffbdb50caed6
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: a6eb791e22d834f51face8819133c0ada6774952
+ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565568"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73752943"
 ---
 ::: zone target="docs"
 
@@ -152,8 +152,8 @@ Application Insights — это инструмент отслеживания, 
 
 Эти статьи помогут вам централизовать и контролировать отзывы, используя Azure Boards вместе с GitHub.
 
-- [Сведения о начале работы с Azure Boards](https://docs.microsoft.com/azure/devops/boards/github?view=azure-devops)
-- [Сведения об использовании Azure Boards и GitHub](https://docs.microsoft.com/azure/devops/boards/get-started/?view=azure-devops)
+- [Сведения о начале работы с Azure Boards](https://docs.microsoft.com/azure/devops/boards/get-started/?view=azure-devops)
+- [Сведения об использовании Azure Boards и GitHub](https://docs.microsoft.com/azure/devops/boards/github?view=azure-devops)
 
 ## <a name="close-the-loop-with-pipelinestabpipelines"></a>[Закрытие цикла с помощью конвейеров](#tab/pipelines)
 
