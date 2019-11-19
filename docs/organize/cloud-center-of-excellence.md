@@ -9,20 +9,20 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: c1819bafaed5e75e6667754d598b075eb3204925
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 1bd332898140d032525935cd8cfc96cb1d46e54e
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564314"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160486"
 ---
 # <a name="cloud-center-of-excellence"></a>Cloud Center of Excellence
 
-Бизнес и техническая гибкость — основные цели большинства ИТ-организаций. Cloud Center (Ккое) — это функция, которая создает баланс между скоростью и стабильностью.
+Бизнес и техническая гибкость — основные цели большинства ИТ-организаций. Облачный центр (Ккое) — это функция, которая создает баланс между скоростью и стабильностью.
 
 ## <a name="function-structure"></a>Структура функции
 
-Для Ккое требуется совместная работа между каждой из следующих возможностей:
+Для модели Ккое требуется совместная работа между каждой из следующих возможностей:
 
 - Внедрение облака (в частности, архитекторы решений)
 - Облачная стратегия (в частности руководители программ и проектов)
@@ -132,7 +132,7 @@ ms.locfileid: "73564314"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Для Cloud Center требуется как [возможности облачной платформы](./cloud-platform.md) , так и [возможности облачной автоматизации](./cloud-automation.md). Следующим шагом является выровняйте [возможности облачной платформы](./cloud-platform.md).
+Для модели Ккое требуются [возможности облачной платформы](./cloud-platform.md) и [возможности облачной автоматизации](./cloud-automation.md). Следующим шагом является выровняйте [возможности облачной платформы](./cloud-platform.md).
 
 > [!div class="nextstepaction"]
 > [Выровняйте возможности облачной платформы](./cloud-platform.md)

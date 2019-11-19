@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit
-ms.openlocfilehash: b3adddc6b68d07084ec8c3909d6c8010c25bb387
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: f5869cd688984946ec55266dca3754547f950017
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73239853"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74159625"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
@@ -65,7 +65,7 @@ ms.locfileid: "73239853"
 |Разработка подписки|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)|
 |Группы управления|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
 |Группы ресурсов|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
-|Данные|Н/Д|[Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=https://docs.microsoft.com/azure/architecture/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
+|Данные|Н/Д|[Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
 |Storage|Н/Д|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-options.md)         |
 |Стандарты именования и расстановки тегов|Н/Д|[Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)         |
 |Управление затратами|Н/Д|[Отслеживание затрат](../azure-best-practices/track-costs.md)|

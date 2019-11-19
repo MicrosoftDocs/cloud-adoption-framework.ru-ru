@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 3eace4b20fac9e22fa8aeaa2d4b7f55a33743e47
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 44fb2e8d7fc71dfa676f5711ab50c2201d67f260
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73751837"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74160378"
 ---
 # <a name="deploy-a-migration-infrastructure"></a>Развертывание инфраструктуры миграции
 
@@ -299,7 +299,7 @@ Azure Backup позволяет выполнять резервное копир
 - Резервные копии являются согласованными с приложениями. Это гарантирует, что резервные копии данных являются транзакционно согласованными и после восстановления приложения будут загружены.
 - Azure Backup поддерживает локально избыточное хранилище (LRS) для репликации нескольких копий данных резервных копий в пределах одного центра обработки данных в случае сбоя локального оборудования.
 - На случай регионального сбоя Azure Backup также поддерживает геоизбыточное хранилище (GRS), реплицируя резервные копии данных в дополнительный сопряженный регион.
-- Azure Backup шифрует транзитные данные с помощью алгоритма AES 256. Неактивные данные резервных копий шифруются с помощью [Шифрования службы хранилища (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption?toc=%2fazure%2fstorage%2fqueues%2ftoc.json).
+- Azure Backup шифрует транзитные данные с помощью алгоритма AES 256. Неактивные данные резервных копий шифруются с помощью [Шифрования службы хранилища (SSE)](https://docs.microsoft.com/azure/storage/common/storage-service-encryption).
 
 Компания Contoso будет использовать Azure Backup с GRS на всех рабочих виртуальных машинах, чтобы обеспечить резервное копирование данных рабочих нагрузок и их быстрое восстановление в случае сбоя или другого нарушения работы. [Узнайте больше](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup).
 
