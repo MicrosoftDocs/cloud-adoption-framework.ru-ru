@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 05b713c2f1f88f50829e38db8a0a0343d3afd32d
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 7df4792fda1436d822108dc20d422e6912a0709f
+ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753515"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74159877"
 ---
 # <a name="evaluate-workload-readiness"></a>Оценка готовности рабочей нагрузки
 
@@ -23,7 +23,7 @@ ms.locfileid: "73753515"
 
 Большая часть содержимого, обсуждающая принципы в облачной инфраструктуре внедрения, зависит от облака. Однако процесс оценки готовности должен быть в значительной степени адаптирован к конкретной облачной платформе. В приведенных ниже рекомендациях предполагается, что вы выполняете миграцию в Azure. Здесь также предполагается, что для [действий репликации](../migrate/replicate.md) используется служба "Миграция Azure" (также известная как Azure Site Recovery). Альтернативные инструменты для репликации см. в [этом разделе](../migrate/replicate-options.md).
 
-Эта статья не охватывает все возможные действия по оценке. Здесь предполагается, что каждая среда и желаемый бизнес-результат будут диктовать определенные требования. Чтобы ускорить формирование этих требований, в оставшейся части этой статьи приведено несколько общих действий по оценке, связанных с оценкой [инфраструктуры](#common-infrastructure-evaluation-activities), [базы данных](#common-database-evaluation-activities) и [сети](#common-network-evaluation-activities).
+В этой статье не записываются все возможные действия по оценке. Здесь предполагается, что каждая среда и желаемый бизнес-результат будут диктовать определенные требования. Чтобы ускорить формирование этих требований, в оставшейся части этой статьи приведено несколько общих действий по оценке, связанных с оценкой [инфраструктуры](#common-infrastructure-evaluation-activities), [базы данных](#common-database-evaluation-activities) и [сети](#common-network-evaluation-activities).
 
 ## <a name="common-infrastructure-evaluation-activities"></a>Общие действия по оценке инфраструктуры
 
