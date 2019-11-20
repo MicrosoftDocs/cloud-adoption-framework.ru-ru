@@ -1239,8 +1239,6 @@
       href: reference/cloud-operating-model.md
     - name: Шаблон Azure для предприятий
       href: reference/azure-scaffold.md
-    - name: Реализация шаблона Azure для предприятий
-      href: reference/azure-scaffold-examples.md
     - name: Виртуальный центр обработки данных
       href: reference/vdc.md
     - name: Принцип работы Azure
