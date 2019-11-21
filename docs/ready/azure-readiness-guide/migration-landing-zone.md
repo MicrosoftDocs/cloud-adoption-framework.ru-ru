@@ -5,20 +5,20 @@ description: Узнайте, как развернуть зону размеще
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/27/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit
-ms.openlocfilehash: f5869cd688984946ec55266dca3754547f950017
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 8c54ebc4c279493089c82a6d9f28c5e35dc3dd7e
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74159625"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251432"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
-Термин *зона размещения для миграции* используется для описания среды, настроенной и подготовленной для размещения рабочих нагрузок, перенесенных из локальной среды в Azure. Целевая зона миграции — это окончательный результат работы с руководством по установке Azure. В этой статье объединены все вопросы готовности, обсуждаемые в этом руководстве, и применяются решения, принятые для развертывания первой зоны размещения для миграции.
+Термин *зона размещения для миграции* используется для описания среды, настроенной и подготовленной для размещения рабочих нагрузок, перенесенных из локальной среды в Azure. A migration landing zone is the final deliverable of the Azure setup guide. В этой статье объединены все вопросы готовности, обсуждаемые в этом руководстве, и применяются решения, принятые для развертывания первой зоны размещения для миграции.
 
 В следующих разделах описана зона размещения, которая обычно используется для создания среды, подходящей для использования во время миграции. Среда или зона размещения, описанные в этой статье, также отображаются в схеме Azure. Вы можете использовать схему зоны размещения для миграции Cloud Adoption Framework, чтобы развернуть определенную среду одним щелчком мыши.
 
@@ -44,10 +44,10 @@ ms.locfileid: "74159625"
 
 Следующие предположения или ограничения были использованы при определении этой начальной зоны размещения. Если эти предположения совпадают с вашими ограничениями, вы можете использовать схему для создания первой зоны размещения. Схему также можно расширить, чтобы создать схему зоны размещения, которая соответствует вашим уникальным ограничениям.
 
-- **Ограничения подписки:** Эта деятельность по внедрению не должна превышать [пределы подписки](https://docs.microsoft.com/azure/azure-subscription-service-limits). Два общих индикатора — это превышение 25 000 виртуальных машин или 10 000 виртуальных ЦП.
-- **Соответствие требованиям:** В этой зоне не требуется никаких требований к соответствию сторонних разработчиков.
-- **Сложность архитектуры:** Сложность архитектуры не требует дополнительных производственных подписок.
-- **Общие службы:** В Azure нет существующих общих служб, для которых требуется, чтобы эта подписка рассматривалась как периферийная в основной и периферийной архитектурах.
+- **Subscription limits:** This adoption effort isn't expected to exceed [subscription limits](https://docs.microsoft.com/azure/azure-subscription-service-limits). Два общих индикатора — это превышение 25 000 виртуальных машин или 10 000 виртуальных ЦП.
+- **Compliance:** No third-party compliance requirements are needed in this landing zone.
+- **Architectural complexity:** Architectural complexity doesn't require additional production subscriptions.
+- **Shared services:** There are no existing shared services in Azure that require this subscription to be treated like a spoke in a hub and spoke architecture.
 
 Если эти предположения кажутся согласованными с текущей средой, тогда эта схема отлично подойдет для начала создания зоны размещения.
 
@@ -65,7 +65,7 @@ ms.locfileid: "74159625"
 |Разработка подписки|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)|
 |Группы управления|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
 |Группы ресурсов|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
-|Данные|Н/Д|[Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
+|Данные|Н/Д|[Choose the correct SQL Server option in Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) and [Azure Data Store guidance](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
 |Storage|Н/Д|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-options.md)         |
 |Стандарты именования и расстановки тегов|Н/Д|[Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)         |
 |Управление затратами|Н/Д|[Отслеживание затрат](../azure-best-practices/track-costs.md)|
@@ -73,9 +73,9 @@ ms.locfileid: "74159625"
 
 ## <a name="customize-or-deploy-a-landing-zone-from-this-blueprint"></a>Настройка или развертывание зоны размещения из этой схемы
 
-Дополнительные сведения и Загрузка образца платформы облачных технологий для миграции и настройки из [примеров использования схем Azure](https://docs.microsoft.com/azure/governance/blueprints/samples)см. в этой статье.
+Learn more and download a reference sample of the Cloud Adoption Framework migrate landing zone blueprint for deployment or customization from [Azure Blueprints samples](https://docs.microsoft.com/azure/governance/blueprints/samples).
 
-Примеры схем также доступны на портале. Дополнительные сведения о создании схемы см. в статье Создание схем [Azure](./govern-org-compliance.md?tabs=azureblueprints#create-a-blueprint).
+Примеры схем также доступны на портале. For details of how to create a blueprint, see [Azure Blueprints](./govern-org-compliance.md?tabs=azureblueprints#create-a-blueprint).
 
 Дополнительные сведения по настройке, которую необходимо внести в эту схему или итоговую зону размещения, см. в статье [Рекомендации по использованию зон размещения](../considerations/index.md).
 
