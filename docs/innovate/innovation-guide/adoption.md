@@ -5,17 +5,17 @@ description: Подготовка к сбору отзывов клиентов
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: article
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: a6eb791e22d834f51face8819133c0ada6774952
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 7bf52b9be08ae2122b6a7f20a19d99f5621fb0e4
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752943"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251944"
 ---
 ::: zone target="docs"
 

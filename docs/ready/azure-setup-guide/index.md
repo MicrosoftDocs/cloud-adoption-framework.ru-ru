@@ -5,17 +5,17 @@ description: Эффективная настройка Azure для органи
 author: timleyden
 ms.author: kfollis
 ms.date: 04/09/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: f8ab35cabf37843f21e51d3f45c464f988649d3c
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 31228f9bd4aefc9c5163b5c85b00425589a2c1d3
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73563292"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251719"
 ---
 ::: zone target="docs"
 

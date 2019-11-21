@@ -5,17 +5,17 @@ description: Узнайте, как сохранять актуальность 
 author: jelledruyts
 ms.author: andym
 ms.date: 04/09/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 7345497c84ee673edaf7e5f66a050334586ccacb
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: cb6cee7879034ebe19efe5ad67c7a9f26a2e3488
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72698458"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251737"
 ---
 # <a name="stay-current-with-microsoft-azure"></a>Поддержание актуальности процессов в Microsoft Azure
 

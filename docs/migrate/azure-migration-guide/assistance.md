@@ -5,17 +5,17 @@ description: Как получить помощь во время переход
 author: matticusau
 ms.author: mlavery
 ms.date: 04/04/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 6e3db730098d4a54522dc359a746e2ca241867d1
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: a63cc0b1ff26bf4dc30635f01ba7a6810a43891c
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70818988"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251655"
 ---
 ::: zone target="chromeless"
 
