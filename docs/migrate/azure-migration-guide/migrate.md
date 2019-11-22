@@ -5,17 +5,17 @@ description: Перенос активов
 author: matticusau
 ms.author: mlavery
 ms.date: 08/08/2019
-ms.topic: conceptual
+ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 22a9f9f3a6c39932b50f58512e015eed41d30068
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 7e464b93dd9cc46526ab5f72bd8cf4fbf15f31f3
+ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753564"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74251818"
 ---
 # <a name="migrate-assets-infrastructure-apps-and-data"></a>Перенос ресурсов (инфраструктуры, приложений и данных)
 
@@ -228,7 +228,7 @@ Zerto обеспечивает виртуальную репликацию, ко
 
 Carbonite предоставляет решения для переноса серверов и данных, позволяющие переносить рабочие нагрузки между любыми физическими, виртуальными или облачными средами.
 
-[Дополнительные сведения](https://www.carbonite.com/data-protection/data-migration-software)
+[Подробнее](https://www.carbonite.com/data-protection/data-migration-software)
 
 ## <a name="movere"></a>Movere
 
@@ -265,7 +265,7 @@ Azure DevOps — это рекомендуемое средство для уп
 
 При переходе на облачные технологии предоставляется прекрасная возможность настроить организацию для использования DevOps и CI/CD. Даже если ваша организация только управляет инфраструктурой, так как вы начинаете управлять инфраструктурой как кодом и используете отраслевые шаблоны и методики для DevOps, то вы сможете начать повышать гибкость с помощью конвейеров CI/CD. Это позволит быстрее адаптироваться к сценариям изменения, роста, выпуска и даже восстановления.
 
-[Azure DevOps](https://dev.azure.com) предоставляет все необходимые функции и обеспечивает интеграцию с Azure, локальными средами или даже другими облаками. Дополнительные сведения можно получить [здесь](https://azure.microsoft.com/services/devops). Пошаговое руководство представлено в разделе [CI and CD with Azure DevOps - Quickstart](https://microsoft.github.io/PartsUnlimited/pandp/200.1x-PandP-CICDQuickstartwithVSTS.html) (Краткое руководство по непрерывной интеграции и непрерывному развертыванию с помощью Azure DevOps).
+Azure DevOps предоставляет все необходимые функции и обеспечивает интеграцию с Azure, локальными средами и другими облаками. Дополнительные сведения см. на странице [Azure DevOps](https://azure.microsoft.com/services/devops). См. [краткое руководство по непрерывной интеграции и непрерывному развертыванию с помощью Azure DevOps](https://microsoft.github.io/PartsUnlimited/pandp/200.1x-PandP-CICDQuickstartwithVSTS.html).
 
 # <a name="cost-managementtabmanagecost"></a>[Управление затратами](#tab/ManageCost)
 
