@@ -70,7 +70,7 @@ ms.locfileid: "74251868"
 
 ::: zone-end
 
-# <a name="sharetabshare"></a>[Share](#tab/Share) (Предоставить общий доступ)
+# <a name="sharetabshare"></a>[Предоставить общий доступ](#tab/Share)
 
 ## <a name="azure-data-share"></a>Azure Data Share
 
