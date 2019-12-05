@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 7e464b93dd9cc46526ab5f72bd8cf4fbf15f31f3
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 2f00fca7cc5d21221faed2a56d0a25dba2e82258
+ms.sourcegitcommit: 72df8c1b669146285a8680e05aeceecd2c3b2e83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251818"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74681757"
 ---
 # <a name="migrate-assets-infrastructure-apps-and-data"></a>Перенос ресурсов (инфраструктуры, приложений и данных)
 
@@ -266,6 +266,14 @@ Azure DevOps — это рекомендуемое средство для уп
 При переходе на облачные технологии предоставляется прекрасная возможность настроить организацию для использования DevOps и CI/CD. Даже если ваша организация только управляет инфраструктурой, так как вы начинаете управлять инфраструктурой как кодом и используете отраслевые шаблоны и методики для DevOps, то вы сможете начать повышать гибкость с помощью конвейеров CI/CD. Это позволит быстрее адаптироваться к сценариям изменения, роста, выпуска и даже восстановления.
 
 Azure DevOps предоставляет все необходимые функции и обеспечивает интеграцию с Azure, локальными средами и другими облаками. Дополнительные сведения см. на странице [Azure DevOps](https://azure.microsoft.com/services/devops). См. [краткое руководство по непрерывной интеграции и непрерывному развертыванию с помощью Azure DevOps](https://microsoft.github.io/PartsUnlimited/pandp/200.1x-PandP-CICDQuickstartwithVSTS.html).
+
+## <a name="suggested-skills"></a>Предлагаемые навыки
+
+Microsoft Learn — это новый подход к изучению. Готовность к новым обязанностям, связанным с освоением и внедрением облачных технологий, дается нелегко. Microsoft Learn предоставляет более результативный подход к практическим занятиям, которые помогают быстрее достичь целей. Получайте баллы, проходите уровни и достигайте более высоких результатов.
+
+Вот пример индивидуальной схемы обучения в Microsoft Learn, которая дополняет руководство по подготовке к DevOps в Cloud Adoption Framework. 
+
+[Создание приложений с помощью Azure DevOps](https://docs.microsoft.com/learn/paths/build-applications-with-azure-devops/): совместная работа с другими пользователями над сборкой приложений с помощью Azure Pipelines и GitHub; выполнение автоматических тестов в конвейере для проверки качества кода; проверка исходного кода и сторонних компонентов на предмет потенциальных уязвимостей; определение нескольких конвейеров, которые совместно используются при сборке приложения; сборка приложений с помощью агентов, размещенных в Майкрософт, и собственных агентов сборки. 
 
 # <a name="cost-managementtabmanagecost"></a>[Управление затратами](#tab/ManageCost)
 
