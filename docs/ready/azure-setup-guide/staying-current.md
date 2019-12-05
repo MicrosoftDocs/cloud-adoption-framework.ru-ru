@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: abfbdb31ccb9e0270f8ef93b1173726a372df53f
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 5c241ab6b5f7c9fafa13492151b0ab49a7f619e8
+ms.sourcegitcommit: 72df8c1b669146285a8680e05aeceecd2c3b2e83
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251458"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74681708"
 ---
 # <a name="stay-current-with-microsoft-azure"></a>Поддержание актуальности процессов в Microsoft Azure
 
@@ -52,6 +52,8 @@ ms.locfileid: "74251458"
 
 Для более глубокого понимания того, как поддерживать актуальность своих процессов и данных в Azure, воспользуйтесь следующими ресурсами:
 
+- [Azure Charts](https://azurecharts.com/)
+  - Этот неофициальный ресурс позволяет визуализировать все обновления Azure за последние 6 месяцев, и содержит другие полезные диаграммы и служебные программы, которые помогут вам отслеживать изменения в Azure.
 - [Пятница с Azure](https://channel9.msdn.com/Shows/Azure-Friday)
   - Еженедельные видеоролики с инженерами-разработчиками Azure. Они выполняют демонстрации, отвечают на вопросы и обмениваются полезными сведениями.
   - Подпишитесь через [RSS](https://channel9.msdn.com/Shows/Azure-Friday/feed).
