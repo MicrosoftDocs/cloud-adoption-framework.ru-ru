@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 086740f6677896220824096a5afe66618779a2d0
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 3ee38869badce877fc89784c1e90a60ed7ee04eb
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566399"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781544"
 ---
 # <a name="cost-management-sample-policy-statements"></a>Примеры правил политики управления затратами
 

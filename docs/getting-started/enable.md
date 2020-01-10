@@ -9,12 +9,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: cb5ba007c18643efe3b0c83b8ff247844cbbe7b2
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: f24227cbbb06630810f7f6b48e7acdf842c171b3
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753289"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781595"
 ---
 # <a name="enable-success-during-a-cloud-adoption-journey"></a>Включение успеха во время поездки на внедрение в облако
 
@@ -29,6 +29,8 @@ ms.locfileid: "73753289"
   - **Управляет:** Выровняйте правильные [дисциплины](../govern/index.md) управления, чтобы постоянно применять управление затратами, устранение рисков, соответствие требованиям и базовые показатели безопасности для всех облачных технологий.
   - **Управление:** Непрерывное [Управление](../manage/index.md) ИТ-портфелем для минимальных перерывов в работе бизнеса и обеспечения стабильной работы портфеля ИТ.
   - **Поддержка:** Выровняйте правильные [варианты партнерства и поддержки](../migrate/migration-considerations/assess/partnership-options.md).
+
+Другой основной темой является безопасность, которая является атрибутом критического качества для успешного внедрения в облако. Безопасность интегрирована в рамках этой платформы для предоставления интегрированных рекомендаций по обеспечению конфиденциальности, целостности и надежности облачных рабочих нагрузок. 
 
 ## <a name="additional-tools"></a>Дополнительные средства
 
@@ -160,6 +162,6 @@ ms.locfileid: "73753289"
 С учетом основных возможностей облачной инфраструктуры внедрения, вероятность успеха при [переносе](./migrate.md) или внедрении [инноваций](./innovate.md) будет значительно выше.
 
 > [!div class="nextstepaction"]
-> [Миграция](./migrate.md)
+> [анализа](./migrate.md)
 >
 > [Инновации](./innovate.md)

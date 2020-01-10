@@ -1,5 +1,5 @@
 ---
-title: Миграция в облако
+title: О миграции в облако
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Общие сведения о содержимом Миграции в облако
 author: BrianBlanchard
@@ -8,12 +8,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ab28d38aafdddc0206b9fc7abc98cb489bba5d1b
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: e98f00f57c8bca0aeb428281b417b2b915213cce
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73751281"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781765"
 ---
 # <a name="cloud-migration-in-the-microsoft-cloud-adoption-framework-for-azure"></a>Миграция в облако в Microsoft Cloud Adoption Framework для Azure
 

@@ -9,16 +9,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: fee983ba2379bb84d56f23139bba987a56e5c54d
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 7c733c715f636416f1a6f3f4a4cfe1d984eae73b
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564706"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781748"
 ---
 # <a name="rationalize-the-digital-estate"></a>Рациональное использование цифровых активов
 
-Рационализация облака — это процесс оценки ресурсов, который определяет наилучший подход к их размещению в облаке. После определения [подхода](./approach.md) и агрегирования [инвентаризации](./inventory.md)может начаться рациональное облако. В разделе " [рационализация облака](./rationalize.md) " обсуждаются наиболее распространенные параметры рационализации.
+Рационализация облака — это процесс оценки ресурсов, который определяет наилучший подход к их размещению в облаке. После определения [подхода](./approach.md) и агрегирования [инвентаризации](./inventory.md)может начаться рациональное облако. В разделе "рационализация облака" обсуждаются наиболее распространенные параметры рационализации.
 
 ## <a name="traditional-view-of-rationalization"></a>Традиционное представление о рационализации
 
