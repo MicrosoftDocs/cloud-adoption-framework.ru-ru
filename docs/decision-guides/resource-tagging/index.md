@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 1142ca43776ab9b147b23ef054d77d76d8aed212
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: c62e087372d21a3883c90425b31e1c5ff9bfd2fb
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160241"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868022"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 
@@ -59,24 +59,24 @@ ms.locfileid: "74160241"
 
 <!-- markdownlint-disable MD033 -->
 
-| Тип тега | Примеры | ОПИСАНИЕ |
+| Тип тега | Примеры | Description |
 |-----|-----|-----|
 | Функциональные            | app = catalogsearch1 <br/>tier = web <br/>webserver = apache<br/>env = prod <br/>env = staging <br/>env = dev                 | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик.                                 |
-| классификация;        | confidentiality=private<br/>sla = 24hours                                 | Классификация ресурсов по методам использования и применимым к ресурсам политикам.                               |
+| Классификация        | confidentiality=private<br/>sla = 24hours                                 | Классификация ресурсов по методам использования и применимым к ресурсам политикам.                               |
 | Учет            | department = finance <br/>project = catalogsearch <br/>region = northamerica | Позволяет сопоставить ресурс с определенным группами внутри организации для выставления счетов. |
 | Партнерство           | owner = jsmith <br/>contactalias = catsearchowners<br/>stakeholders = user1;user2;user3<br/>                       | Сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него.                      |
 | Назначение               | businessprocess=support<br/>businessimpact=moderate<br/>revenueimpact=high   | Сопоставление ресурсов с бизнес-функциями для поддержки решения об инвестициях.  |
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения о присвоении имен и тегов в Azure см. в следующих статьях:
 
-- [Соглашения об именовании для ресурсов Azure.](/azure/architecture/best-practices/resource-naming) Обратитесь к руководству по рекомендованным соглашениям об именовании для ресурсов Azure.
+- [Соглашения об именовании для ресурсов Azure.](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming) Обратитесь к руководству по рекомендованным соглашениям об именовании для ресурсов Azure.
 - [Использование тегов для упорядочения ресурсов в Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags). Вы можете применить в Azure теги на уровнях группы ресурсов или отдельного ресурса, что дает гибкость в подробном учете бухгалтерских отчетов на основе присвоенных тегов.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Присвоение тегов ресурсам — один из базовых компонентов инфраструктуры, решение о котором необходимо принять на этапе внедрения облачных решений. См. [общие сведения о принятии решений](../index.md), чтобы узнать об альтернативных шаблонах или моделях, используемых при принятии решений для других типов инфраструктуры.
 

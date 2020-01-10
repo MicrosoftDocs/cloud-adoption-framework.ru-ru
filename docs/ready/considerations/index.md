@@ -8,12 +8,12 @@ ms.date: 05/20/2019
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 86082985a252e4724f237806669814d41ac29173
-ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
+ms.openlocfilehash: f4cc7aaa9a937327a4dd2ede4bf1c3c619cc632a
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75781442"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868037"
 ---
 # <a name="landing-zone-considerations"></a>Рекомендации по использованию зон размещения
 
@@ -37,7 +37,7 @@ ms.locfileid: "75781442"
 Каждая зона размещения является частью более крупного решения для организации ресурсов в облачной среде. Основные понятия Azure описывают основные стандартные структурные блоки для организации.
 
 - **[Основные понятия Azure](./fundamental-concepts.md)** . Изучите основные понятия и термины, используемые для организации ресурсов в Azure, а также то, как эти понятия связаны друг с другом.
-- **[Руководство по принятию решений о согласованности ресурсов](../../decision-guides/resource-consistency/)** . Ознакомившись со всеми основными понятиями, вы можете использовать это руководство для принятия решений, которые определяют зону размещения.
+- **[Руководство по принятию решений о согласованности ресурсов](../../decision-guides/resource-consistency/index.md)** . Ознакомившись со всеми основными понятиями, вы можете использовать это руководство для принятия решений, которые определяют зону размещения.
 
 ## <a name="governance-considerations"></a>Рекомендации по системе управления
 
