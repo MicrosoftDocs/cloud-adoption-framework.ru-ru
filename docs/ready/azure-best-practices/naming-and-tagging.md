@@ -9,12 +9,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness
-ms.openlocfilehash: 6268fc8a272cd173b95707d19eee5e784a2a0c25
-ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
+ms.openlocfilehash: 657f0fd43b65b0d1122ae275e41370c9ddc5bbd0
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75781561"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868094"
 ---
 # <a name="ready-recommended-naming-and-tagging-conventions"></a>Готово: Рекомендуемые правила именования и добавления тегов
 
@@ -52,7 +52,7 @@ ms.locfileid: "75781561"
 
 Некоторые имена ресурсов, такие как службы PaaS с общедоступными конечными точками или метки DNS виртуальных машин, имеют глобальные области, что означает, что эти имена должны быть уникальными для всей платформы Azure.
 
-Имена ресурсов имеют ограничения по длине. Балансировка контекста, внедренного в имя с его областью и длиной, важна при разработке соглашений об именовании. Дополнительные сведения о правилах именования для допустимых символов, областей и длины имен для типов ресурсов см. в разделе [Соглашения об именовании для ресурсов Azure](/azure/architecture/best-practices/resource-naming).
+Имена ресурсов имеют ограничения по длине. Балансировка контекста, внедренного в имя с его областью и длиной, важна при разработке соглашений об именовании. Дополнительные сведения о правилах именования для допустимых символов, областей и длины имен для типов ресурсов см. в разделе [Соглашения об именовании для ресурсов Azure](https://docs.microsoft.com/azure/architecture/best-practices/resource-naming).
 
 #### <a name="recommended-naming-components"></a>Рекомендуемые компоненты именования
 

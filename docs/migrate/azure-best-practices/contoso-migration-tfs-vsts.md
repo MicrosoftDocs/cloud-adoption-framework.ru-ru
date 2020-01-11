@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 3c87bfbd8fe920d0469da8b3e60da59da07158ed
-ms.sourcegitcommit: 0b6939f65a1e5653149301e9aa14db9a1f67825f
+ms.openlocfilehash: 48ceb3581f72f6fed72360ecf4e30596b4d2eb72
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74557033"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868103"
 ---
 # <a name="refactor-a-team-foundation-server-deployment-to-azure-devops-services"></a>Рефакторинг развертывания Team Foundation Server и его перенос в Azure DevOps Services
 
@@ -69,7 +69,7 @@ ms.locfileid: "74557033"
 
 <!-- markdownlint-disable MD033 -->
 
-**Требования** | **Дополнительные сведения**
+**Требования** | **Сведения**
 --- | ---
 **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/pricing/free-trial).<br/><br/> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия.<br/><br/> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника.<br/><br/> Если вам требуются более детализированные разрешения, ознакомьтесь с [этой статьей](https://docs.microsoft.com/azure/site-recovery/site-recovery-role-based-linked-access-control).
 **Инфраструктура Azure** | Contoso настраивает свою инфраструктуру Azure, как описано в статье [Развертывание инфраструктуры Azure для миграции в Contoso](./contoso-migration-infrastructure.md).
@@ -102,8 +102,8 @@ ms.locfileid: "74557033"
 
 Администраторы Contoso обновляют сервер TFS до TFS 2018 с обновлением 2. Перед запуском:
 
-- Они скачивают [TFS 2018 с обновлением 2](https://visualstudio.microsoft.com/downloads).
-- Они проверяют [требования к оборудованию](/azure/devops/server/requirements), а также читают [заметки о выпуске](https://docs.microsoft.com/visualstudio/releasenotes/tfs2018-relnotes) и [сложности при обновлении](/azure/devops/server/upgrade/get-started#before-you-upgrade-to-tfs-2018).
+- Они загрузили [TFS 2018 с обновлением 2](https://visualstudio.microsoft.com/downloads).
+- Они проверяют [требования к оборудованию](https://docs.microsoft.com/azure/devops/server/requirements), а также читают [заметки о выпуске](https://docs.microsoft.com/visualstudio/releasenotes/tfs2018-relnotes) и [сложности при обновлении](https://docs.microsoft.com/azure/devops/server/upgrade/get-started#before-you-upgrade-to-tfs-2018).
 
 Они выполняют обновление следующим образом:
 
@@ -132,7 +132,7 @@ ms.locfileid: "74557033"
 
 **Нужна дополнительная помощь?**
 
-Ознакомьтесь с дополнительными сведениями об [обновлении TFS](/azure/devops/server/upgrade/get-started).
+Ознакомьтесь с дополнительными сведениями об [обновлении TFS](https://docs.microsoft.com/azure/devops/server/upgrade/get-started).
 
 ## <a name="step-3-validate-the-tfs-collection"></a>Шаг 3. Проверка коллекции TFS
 
@@ -182,7 +182,7 @@ ms.locfileid: "74557033"
 
     `TfsMigrator prepare /collection:http://contosotfs:8080/tfs/ContosoDev /tenantDomainName:contosomigration.onmicrosoft.com /accountRegion:cus`
 
-     ![Подготовка.](./media/contoso-migration-tfs-vsts/prep1.png)
+     ![Подготовка](./media/contoso-migration-tfs-vsts/prep1.png)
 
     Во время подготовки выполняется следующее:
     - Коллекция проверяется для поиска списка всех пользователей, и заполняется журнал схемы идентификации (**IdentityKapLog.csv**).
@@ -191,19 +191,19 @@ ms.locfileid: "74557033"
 
 2. Появляется окно входа в Azure AD, где они вводят учетные данные глобального администратора.
 
-    ![Подготовка.](./media/contoso-migration-tfs-vsts/prep2.png)
+    ![Подготовка](./media/contoso-migration-tfs-vsts/prep2.png)
 
 3. Подготовка завершается, и средство сообщает, что файлы импорта были успешно созданы.
 
-    ![Подготовка.](./media/contoso-migration-tfs-vsts/prep3.png)
+    ![Подготовка](./media/contoso-migration-tfs-vsts/prep3.png)
 
 4. Теперь они могут видеть, что файлы IdentityMapLog.csv и import.json были созданы в новой папке.
 
-    ![Подготовка.](./media/contoso-migration-tfs-vsts/prep4.png)
+    ![Подготовка](./media/contoso-migration-tfs-vsts/prep4.png)
 
 5. Файл import.json предоставляет параметры импорта. Он включает в себя информацию, такую ​​как имя требуемой организации и данные учетной записи хранения. Большинство полей заполнены автоматически. Некоторым полям потребовался ввод пользователя. Contoso открывает файл и добавляет созданное имя организации Azure DevOps Services: **contosodevmigration**. С этим именем URL-адрес Azure DevOps Services будет таким: **contosodevmigration.visualstudio.com**.
 
-    ![Подготовка.](./media/contoso-migration-tfs-vsts/prep5.png)
+    ![Подготовка](./media/contoso-migration-tfs-vsts/prep5.png)
 
     > [!NOTE]
     > Организацию нужно создать до миграции. После завершения миграции ее можно изменить.
@@ -214,7 +214,7 @@ ms.locfileid: "74557033"
     - В Azure DevOps Services эти идентификаторы будут лицензированы и отображаться в качестве пользователя в организации после миграции.
     - Эти идентификаторы отмечены как **Активные** в столбце **Expected Import Status** (Ожидаемое состояние импорта) в файле.
 
-    ![Подготовка.](./media/contoso-migration-tfs-vsts/prep6.png)
+    ![Подготовка](./media/contoso-migration-tfs-vsts/prep6.png)
 
 ## <a name="step-5-migrate-to-azure-devops-services"></a>Шаг 5. Миграция в Azure DevOps Services
 
@@ -266,7 +266,7 @@ ms.locfileid: "74557033"
 Contoso создает резервную копию (DACPAC) для импорта в Azure DevOps Services.
 
 - SqlPackage.exe в SQL Server Data Tools используется для создания DACPAC. Существует несколько версий SqlPackage.exe, установленных со средствами SQL Server Data Tools, расположенными в папках с такими именами, как 120, 130 и 140. Для подготовки DACPAC важно использовать правильную версию.
-- При импорте TFS 2018 должен использоваться SqlPackage.exe из папки с номером 140 или выше. Для CONTOSOTFS этот файл находится в папке: **C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\140**.
+- При импорте TFS 2018 должен использоваться SqlPackage.exe из папки с номером 140 или выше. Для КОНТОСОТФС этот файл находится в папке: "C:\Program Files (x86) \Microsoft Visual Studio\2017\Enterprise\Common7\IDE\Extensions\Microsoft\SQLDB\DAC\140
 
 Администраторы Contoso создают DACPAC следующим образом:
 
@@ -276,15 +276,15 @@ Contoso создает резервную копию (DACPAC) для импор�
     SqlPackage.exe /sourceconnectionstring:"Data Source=SQLSERVERNAME\INSTANCENAME;Initial Catalog=Tfs_ContosoDev;Integrated Security=True" /targetFile:C:\TFSMigrator\Tfs_ContosoDev.dacpac /action:extract /p:ExtractAllTableData=true /p:IgnoreUserLoginMappings=true /p:IgnorePermissions=true /p:Storage=Memory
     ```
 
-    ![Backup](./media/contoso-migration-tfs-vsts/backup1.png)
+    ![Архивация](./media/contoso-migration-tfs-vsts/backup1.png)
 
 2. После запуска команды появляется следующее сообщение.
 
-    ![Backup](./media/contoso-migration-tfs-vsts/backup2.png)
+    ![Архивация](./media/contoso-migration-tfs-vsts/backup2.png)
 
 3. Они проверяют свойства файла DACPAC.
 
-    ![Backup](./media/contoso-migration-tfs-vsts/backup3.png)
+    ![Архивация](./media/contoso-migration-tfs-vsts/backup3.png)
 
 ### <a name="update-the-file-to-storage"></a>Обновление файла в хранилище
 
