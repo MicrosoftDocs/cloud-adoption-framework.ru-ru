@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: b5a94ab41bff26371621acc5e62ae19d9fd02e5c
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 9109a51a85627f3c8d0cee8b72baa0936d56c98e
+ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565488"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75781816"
 ---
 # <a name="operational-compliance-in-azure"></a>Соответствие операций нормативным требованиям в Azure
 
@@ -27,11 +27,12 @@ _Соответствие операций нормативным требова
 
 В этой таблице приведены рекомендуемые минимальные средства для базового плана управления для любой среды корпоративного уровня.
 
-|Process  |Средство  |Назначение  |
+|Процесс  |Инструмент  |Назначение  |
 |---------|---------|---------|
 |Управление исправлениями|Управление обновлениями|Управление обновлениями и их планирование|
 |Принудительное применение политики|Политика Azure|Применение политик для обеспечения соответствия сред и гостевых машин|
 |Настройка среды|Azure Blueprints|Автоматическое обеспечение соответствия для основных служб|
+|Настройка ресурса|Настройка требуемого состояния (DSC)|Автоматическая настройка в гостевой ОС и некоторых аспектов среды|
 
 ::: zone target="docs"
 
@@ -120,7 +121,7 @@ _Соответствие операций нормативным требова
 1. Перейдите в раздел [Политика Azure](https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyMenuBlade/GettingStarted).
 1. Щелкните **Assign a policy** (Назначить политику).
 
-### <a name="learn-more"></a>Подробнее
+### <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
@@ -208,12 +209,12 @@ _Соответствие операций нормативным требова
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="learn-more"></a>Подробнее
+### <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
 - [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints)
-- [Руководство по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
+- [Role-based по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
 - [Примеры схем на основе стандартов](https://docs.microsoft.com/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
 
 ::: zone-end

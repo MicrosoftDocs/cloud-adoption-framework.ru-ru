@@ -10,12 +10,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 770356c4c8254246794a7e71f6d1c565060dcf5b
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 9c10b4a7c46d59a761ae2bb009fdf26b410450ab
+ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251913"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75868006"
 ---
 ::: zone target="docs"
 
@@ -72,7 +72,7 @@ ms.locfileid: "74251913"
 
 ::: zone target="docs"
 
-**Откройте [документацию по Azure DevOps Projects](https://docs.microsoft.com/azure/devops-project)**
+**Перейдите к документации по [началу работы с Azure DevOps.](https://docs.microsoft.com/azure/devops/user-guide/?view=azure-devops)**
 
 ::: zone-end
 
