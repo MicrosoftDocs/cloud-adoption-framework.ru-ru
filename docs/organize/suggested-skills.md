@@ -1,7 +1,7 @@
 ---
-title: Путь подготовки навыков
+title: Развитие технических навыков
 titleSuffix: Microsoft Cloud Adoption Framework for Azure
-description: Обзор пути подготовки навыков
+description: Обзор пути готовности навыков на этапе готовности к миграции.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
@@ -9,12 +9,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: c8954fbb4e5c17ec43951270ded2708cfb3432df
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 21239c8fafe4ef202ec7feba054b8d176fe598ff
+ms.sourcegitcommit: b166fe1621fe7e886616009e56b76873b8cce83c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564240"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76520163"
 ---
 # <a name="skills-readiness-path-during-the-ready-phase-of-a-migration"></a>Путь готовности к навыкам на этапе готовности к миграции
 
@@ -75,6 +75,6 @@ Microsoft Learn — это новый подход к изучению. Гот�
 
 - [Разработчики](https://docs.microsoft.com/learn/browse/?roles=developer&term=infrastructure) могут использовать ресурсы для получения помощи при выполнении действий по архитектуре, управлению, модернизации.
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее…
 
 Для просмотра дополнительных схем обучения перейдите к [каталогу Microsoft Learn](https://docs.microsoft.com/learn/browse). Используйте фильтр ролей для согласования путей обучения с вашей ролью.

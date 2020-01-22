@@ -8,12 +8,12 @@ ms.date: 09/05/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 8a632f9632c1ad5bf6abbfeb60096e2cfadce141
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: b9bc3a5c2b2bf62c49726a29cedbac81d1d1a96e
+ms.sourcegitcommit: b166fe1621fe7e886616009e56b76873b8cce83c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73240139"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "76520180"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Отслеживание затрат по всем бизнес-единицам, средам или проектам
 
@@ -27,7 +27,7 @@ ms.locfileid: "73240139"
 
 Активы (также известные как ресурсы) включают все виртуальные машины, источники данных и приложения, развернутые в облаке. Azure предоставляет несколько механизмов для классификации и организации активов. В статье [Масштабирование с использованием нескольких подписок Azure](../azure-best-practices/scaling-subscriptions.md) подробно описываются способы организации ресурсов на основе нескольких критериев для создания эффективно управляемой среды. Эта статья посвящена применению фундаментальных концепций Azure для обеспечения видимости затрат в облаке.
 
-### <a name="classification"></a>классификация;
+### <a name="classification"></a>Классификация
 
 *Расстановка тегов* — это простой способ классификации активов. Расстановка тегов связывает метаданные с активом. Эти метаданные можно использовать для классификации актива, основанного на различных точках данных. Когда теги используются для классификации активов как частей работы по управлению затратами, компаниям часто требуются следующие теги: "бизнес-подразделение", "отдел", "платежный код", "регион", "среда", "проект", "рабочая нагрузка" или "категоризация приложений". Управления затратами Azure может использовать эти теги для создания различных представлений данных о затратах.
 
@@ -59,7 +59,7 @@ ms.locfileid: "73240139"
 
 Остальная часть этой статьи предполагает использование подхода, основанного на рекомендациях, представленных на предыдущей схеме. Однако, следующие статьи могут помочь вам применить подход к организации ресурсов, который лучше всего подходит вашей компании.
 
-- [Scaling with multiple Azure subscriptions](../azure-best-practices/scaling-subscriptions.md) (Масштабирование с помощью нескольких подписок Azure)
+- [Масштабирование с использованием нескольких подписок Azure](../azure-best-practices/scaling-subscriptions.md)
 - [Развертывание программы Концепция MVP для управления стандартами эффективно управляемой среды](../../govern/guides/complex/index.md)
 
 ## <a name="provide-the-right-level-of-cost-access"></a>Предоставление правильного уровня доступа к затратам
@@ -126,7 +126,7 @@ ms.locfileid: "73240139"
 
 ### <a name="use-azure-cost-management-to-govern-aws-costs"></a>Использование службы "Управление затратами Azure" для управления затратами AWS
 
-- [Интеграция отчетов AWS о затратах и потреблении](https://docs.microsoft.com/azure/cost-management/aws-integration-set-up-configure)
+- [Интеграция отчетов AWS о затратах и потреблении](https://docs.microsoft.com/azure/cost-management-billing/costs/aws-integration-set-up-configure)
 - [Управление затратами AWS](https://docs.microsoft.com/azure/cost-management/aws-integration-manage)
 
 ### <a name="establish-access-roles-and-scope"></a>Установка доступа, ролей и областей
