@@ -1,6 +1,5 @@
 ---
 title: Средства управления затратами в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Средства управления затратами в Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 3b301f8dfcc50539f4325901cd32553368a0da55
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: e35530fbf3a858c000cb78c0c076d7d56d5fbd86
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222641"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806413"
 ---
 # <a name="cost-management-tools-in-azure"></a>Средства управления затратами в Azure
 
@@ -22,7 +21,7 @@ ms.locfileid: "71222641"
 
 Ниже приведен список собственных инструментов Azure, которые могут помочь в совершенствовании политик и процессов, поддерживающих эту дисциплину управления.
 
-| Tool | [портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)  | [Пакет содержимого Azure EA](https://docs.microsoft.com/power-bi/service-connect-to-azure-enterprise)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) |
+| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management/overview-cost-mgt)  | [Пакет содержимого Azure EA](https://docs.microsoft.com/power-bi/service-connect-to-azure-enterprise)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) |
 |---------|---------|---------|---------|---------|
 |Соглашение Enterprise требуется?     | Нет         | Нет         | Да         | Нет         |
 |Управление бюджетом     | Нет         | Да         | Нет         | Да         |

@@ -1,6 +1,5 @@
 ---
 title: Руководство по бизнес-тестированию (UAT) во время миграции
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Процесс миграции в облако, предназначенный для выполнения задач миграции рабочих нагрузок в облако.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 0f1ba39ae283b1ab2fdb276310a9490af6bf87b7
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 4c24ae176d3b8fc8ec4fa504ed406bc32a1c0ab3
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70825514"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801959"
 ---
 # <a name="guidance-for-business-testing-uat-during-migration"></a>Руководство по бизнес-тестированию (UAT) во время миграции
 
@@ -50,7 +49,7 @@ ms.locfileid: "70825514"
 - Выявление имеющихся автоматических тестов, которые могут упростить тестирование опытными пользователями.
 - Для изменений, которые могут потребовать повторного развертывания или тестирования, изучите процессы тестирования, определите тестовые показатели и создайте автоматизацию для дальнейшего упрощения тестирования опытными пользователями.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В сочетании с бизнес-тестированием [оптимизация перенесенных ресурсов](./optimize.md) может уточнить затраты и производительность рабочей нагрузки.
 

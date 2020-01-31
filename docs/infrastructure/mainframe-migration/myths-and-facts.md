@@ -1,6 +1,5 @@
 ---
 title: 'Миграция мэйнфреймов: мифы и факты'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Перенос приложений из среды мейнфреймов в проверенную, высокодоступную и масштабируемую инфраструктуру Azure с поддержкой систем, которые сейчас работают на мейнфреймах.
 author: njray
 ms.author: v-nanra
@@ -8,12 +7,12 @@ ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4adf229b1ffca1d1360d197ab09a04f0d9584ef8
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: e3e14bca45f8e5531e663c76b346f295ccb64319
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547917"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808759"
 ---
 # <a name="mainframe-myths-and-facts"></a>Мифы и факты о мейнфрейме
 
@@ -39,7 +38,7 @@ ms.locfileid: "72547917"
 
 Хотя могут существовать некоторые изолированные экземпляры, в которых облачные решения немного короткие, обычно это обусловлено тем, что алгоритмы приложения не могут быть распределены. Эти несколько примеров являются исключениями, а не правилом.
 
-## <a name="summary"></a>Резюме
+## <a name="summary"></a>Сводка
 
 По сравнению с этим Платформа Azure предлагает альтернативную платформу, способную предоставлять эквивалентные функции и функции мэйнфрейма, а также значительно снизить затраты. Кроме того, Общая стоимость владения облачной моделью затрат на основе подписок гораздо дешевле, чем на мэйнфреймах.
 

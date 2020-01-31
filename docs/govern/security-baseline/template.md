@@ -1,6 +1,5 @@
 ---
 title: Шаблон основных способов защиты
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Объяснение концепции основы безопасности в отношении управления облаком.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2a691223ccb3e6264b53fbf0e018d303cbcf091a
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 8602676ceb6b3c1400254dc6f72cb2d9f99069b0
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222804"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808844"
 ---
 # <a name="security-baseline-template"></a>Шаблон основных способов защиты
 
@@ -31,7 +30,7 @@ ms.locfileid: "71222804"
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

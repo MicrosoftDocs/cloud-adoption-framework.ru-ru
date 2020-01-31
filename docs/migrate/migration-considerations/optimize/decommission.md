@@ -1,6 +1,5 @@
 ---
 title: Списание ресурсов, использование которых прекращено
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Списание ресурсов, использование которых прекращено
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ae2538263af35e8fdb2cf5c861a2c7b0537108d4
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 933a9c42a55e58e5a58f9ef1c308b006e30e1abf
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70833366"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801942"
 ---
 # <a name="decommission-retired-assets"></a>Списание ресурсов, использование которых прекращено
 
@@ -35,7 +34,7 @@ ms.locfileid: "70833366"
 
 Не редко во время миграции при репликации упускают данные. Это особенно верно для устаревших данных, которые не используются регулярно. После выключения снятого с учета ресурса все равно разумно в течение определенного времени хранить его, так как он может послужить временной резервной копией данных. Прежде чем приступить к удалению ресурсов, снятых с учета, компании должны выделить не менее 30 дней на хранение и тестирование.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После списания снятых с учета ресурсов миграция завершается. При этом появляется хорошая возможность улучшить процесс миграции, а в ходе [ретроспективного собрания](./retrospective.md) команда по внедрению в облако может проверить выпуск, чтобы получить новые знания и реализовать улучшения.
 

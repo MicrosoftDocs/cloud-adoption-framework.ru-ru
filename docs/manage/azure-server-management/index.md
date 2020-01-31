@@ -1,6 +1,5 @@
 ---
 title: Общие сведения о службах управления серверами Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как использовать службы управления серверами Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 8d512141fa20e408e9955b14c560f1037adcd08f
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: d83b84ca63043646591c4e2f5b3e5f82fc53c102
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752902"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808062"
 ---
 # <a name="overview-of-azure-server-management-services"></a>Общие сведения о службах управления серверами Azure
 
@@ -38,7 +37,7 @@ ms.locfileid: "73752902"
 - **Гибридная модель.** Службы управления серверами поддерживают виртуальные машины Azure IaaS, а также физические и виртуальные серверы, которые размещены в локальной или любой другой среде.
 - **Безопасность.** Компания Майкрософт прилагает все усилия для обеспечения безопасности ресурсов. Это позволяет не только защитить инфраструктуру Azure, но и расширить используемые технологии и навыки, чтобы обеспечить безопасность ресурсов клиентов независимо от их размещения.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Ознакомьтесь со [средствами, службами и стратегиями планирования](./prerequisites.md), используемыми при внедрении пакета служб управления серверами Azure.
 

@@ -1,6 +1,5 @@
 ---
 title: Примеры правил политики основных способов идентификации
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Примеры правил политики основных способов идентификации
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 44c0f8693362572e0faf1e39d9f2ec7ba2ff16b9
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: c3804f24db454e4c198494e0024632efdc7d0d53
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160068"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805053"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Примеры правил политики основных способов идентификации
 

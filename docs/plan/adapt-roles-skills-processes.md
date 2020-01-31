@@ -1,6 +1,5 @@
 ---
 title: Адаптация существующих ролей, навыков и процессов в облаке
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описывает процесс адаптации существующих ролей, навыков и процессов для облака.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: a272a9b8633f60544aca9982654a899288e3b4e8
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: a39c38a8ac158a45e22930da98f7268e4db21174
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564153"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76800599"
 ---
 # <a name="adapt-existing-roles-skills-and-processes-for-the-cloud"></a>Адаптация существующих ролей, навыков и процессов в облаке
 

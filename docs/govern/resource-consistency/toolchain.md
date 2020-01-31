@@ -1,6 +1,5 @@
 ---
 title: Средства согласованности ресурсов в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Средства согласованности ресурсов в Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a09e4748dd805757d9f78e8dd927737ca9a91f7f
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: a2f553285f9d44085cc816c2db34f76fcb02235d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71222929"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805189"
 ---
 # <a name="resource-consistency-tools-in-azure"></a>Средства согласованности ресурсов в Azure
 
@@ -22,7 +21,7 @@ ms.locfileid: "71222929"
 
 Ниже приведен список инструментов Azure, которые могут помочь в совершенствовании политик и процессов, поддерживающих эту дисциплину системы управления.
 
-| Tool | [портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)  | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Служба автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro) | [Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
+| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)  | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Служба автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro) | [Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 | Развертывание ресурсов                             | Да | Да | Да | Да | Нет  | Нет | Нет |
 | Управление ресурсами                             | Да | Да | Да | Да | Нет  | Нет | Нет |
@@ -46,7 +45,7 @@ ms.locfileid: "71222929"
 
 Вместе с этими средствами и компонентами дисциплины "Согласованность ресурсов" необходимо отслеживать развернутые ресурсы на наличие проблем с производительностью и работоспособностью. [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) — это мониторинг и решение для создания отчетов по умолчанию в Azure. Azure Monitor предоставляет функции для мониторинга облачных ресурсов. В этом списке показано, какие функции предназначены для общих требований к мониторингу.
 
-| Tool | [портал Azure](https://azure.microsoft.com/features/azure-portal) | [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-overview) | [Служба Log Analytics](https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview) | [REST API Azure Monitor](https://docs.microsoft.com/rest/api/monitor) |
+| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal) | [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-overview) | [Служба Log Analytics](https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview) | [REST API Azure Monitor](https://docs.microsoft.com/rest/api/monitor) |
 |----------------------------------------------------|--------------|----------------------|---------------|------------------------|
 | Регистрация данных телеметрии для виртуальной машины                 | Нет           | Нет                   | Да           | Нет                     |
 | Регистрация данных телеметрии для виртуальной сети              | Нет           | Нет                   | Да           | Нет                     |
@@ -62,6 +61,6 @@ ms.locfileid: "71222929"
 > [!NOTE]
 > Организации также используют сторонние средства DevOps для отслеживания рабочих нагрузок и ресурсов. Дополнительные сведения см. в разделе [Интеграция средства DevOps](https://azure.microsoft.com/products/devops-tool-integrations).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как создавать, присваивать [определения политик](https://docs.microsoft.com/azure/governance/policy) и управлять ими в Azure.

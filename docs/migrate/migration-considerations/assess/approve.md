@@ -1,6 +1,5 @@
 ---
 title: Утверждение изменений архитектуры перед миграцией
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Основные сведения о важности утверждения перед миграцией
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8e3030a53a7812eea87ec8cd12d492888cc3c421
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 3776f468c48e7483d884a0c6cae8654218ac1a94
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566847"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802758"
 ---
 # <a name="approve-architecture-changes-before-migration"></a>Утверждение изменений архитектуры перед миграцией
 

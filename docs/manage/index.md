@@ -1,6 +1,5 @@
 ---
 title: Управление облаком
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Управление облаком в соответствии с Cloud Adoption Framework
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 layout: LandingPage
-ms.openlocfilehash: 1e54fdc30e0db1ed1cecf01156bb9c25368a8457
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: dca756b0e511b31372efa1c5ff7a779a34e9d6ac
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565021"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807671"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Управление облаком в соответствии с Cloud Adoption Framework
 
@@ -138,7 +137,7 @@ ms.locfileid: "73565021"
 
 <!-- For a crash course on the theory and quick access to Azure implementation, get started with the [governance guides overview](./guide/index.md). Using this guidance, you can start small and iteratively improve your governance needs in parallel with cloud adoption efforts. -->
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Примените методологию для определения четких бизнес-обязательств.
 

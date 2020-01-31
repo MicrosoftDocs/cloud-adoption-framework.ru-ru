@@ -1,6 +1,5 @@
 ---
 title: Включение отслеживания и предупреждений для критических изменений
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Включение отслеживания и предупреждений для критических изменений
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: f3faa122039097dd6f0f4df1d6f5071b77816545
-ms.sourcegitcommit: 3669614902627f0ca61ee64d97621b2cfa585199
+ms.openlocfilehash: 0cd8776c71eae22fdb7a7894b656a3dc1948e45c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73656622"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808113"
 ---
 # <a name="enable-tracking-and-alerting-for-critical-changes"></a>Включение отслеживания и предупреждений для критических изменений
 

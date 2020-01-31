@@ -1,6 +1,5 @@
 ---
-title: 'Программно определяемая сеть: Звездообразная модель'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
+title: 'Программно-определяемая сеть: Центральная и периферийная'
 description: Обсуждение виртуальных сетевых служб, встроенных в облако.
 author: rotycenh
 ms.author: v-tyhopk
@@ -9,14 +8,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: d2337ea5fdcd18fc2f56c60c64a35ee878710e65
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: a24ccb7f382e03b3eb0138e94e6b02954c36bd87
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71023571"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806634"
 ---
-# <a name="software-defined-networking-hub-and-spoke"></a>Программно определяемая сеть: Звездообразная модель
+# <a name="software-defined-networking-hub-and-spoke"></a>Программно-определяемая сеть: Центральная и периферийная
 
 Звездообразная модель сети организует сетевую облачную инфраструктуру Azure в несколько взаимосвязанных виртуальных сетей. Эта модель позволяет эффективнее управлять общими требованиями к связи или безопасности и работать с потенциальными ограничениями подписки.
 
@@ -49,7 +48,7 @@ ms.locfileid: "71023571"
 
 Звездообразные архитектуры обычно реализуются с помощью виртуальных сетей, развернутых в том же регионе Azure, чтобы свести к минимуму задержку между сетями. Однако большим организациям с глобальным охватом может потребоваться развернуть рабочие нагрузки в нескольких регионах в целях доступности, аварийного восстановления или нормативных требований. Модель "звезда" может использовать [глобальный пиринг виртуальных сетей](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview) Azure для расширения централизованного управления и общих служб в регионах и поддержки рабочих нагрузок, распределенных по всему миру.
 
-## <a name="learn-more"></a>Подробнее...
+## <a name="learn-more"></a>Подробнее…
 
 Примеры реализации звездообразных сетей в Azure см. на сайте эталонных архитектур Azure:
 

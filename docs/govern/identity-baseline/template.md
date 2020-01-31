@@ -1,6 +1,5 @@
 ---
 title: Шаблон основных способов идентификации
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Шаблон основных способов идентификации
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: fafd0d467940f2086731ff9e9575c7e6d12aaf0b
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: c1f8e752f1952890880eb30f9f1911d83fca6a40
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71220420"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807212"
 ---
 # <a name="identity-baseline-template"></a>Шаблон основных способов идентификации
 
@@ -31,7 +30,7 @@ ms.locfileid: "71220420"
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с [понимания бизнес-рисков](./business-risks.md). Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

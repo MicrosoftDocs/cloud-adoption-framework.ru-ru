@@ -1,6 +1,5 @@
 ---
 title: Оптимизация перенесенных рабочих нагрузок
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Оптимизация перенесенных рабочих нагрузок
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7bed1c8383b9c444c9e272c27f71f73fd3325e24
-ms.sourcegitcommit: a26c27ed72ac89198231ec4b11917a20d03bd222
+ms.openlocfilehash: 87235584bc9da0f1a9e5124408b587eec864af48
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70818205"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801891"
 ---
 # <a name="optimize-migrated-workloads"></a>Оптимизация перенесенных рабочих нагрузок
 
@@ -45,7 +44,7 @@ ms.locfileid: "70818205"
 - **Вывод из эксплуатации**. Наибольшая экономия от миграции достигается в том случае, если ранее использовавшиеся ресурсы выводятся из эксплуатации и отключаются.
 - **Ретроспектива**. Каждый выпуск предоставляет возможность более глубоко изучить и внедрить политику готовности к постоянному развитию. После завершения каждого цикла выпуска команде по внедрению облачных решений следует оценить выполненные в ходе миграции процессы и найти возможности для улучшений.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Получив общее понимание процесса оптимизации, вы теперь готовы приступить к следующему процессу [создания плана изменения бизнеса для первой рабочей нагрузки](./business-change-plan.md).
 

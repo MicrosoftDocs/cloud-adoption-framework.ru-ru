@@ -1,6 +1,5 @@
 ---
 title: 'Облачные инновации: прогнозирование и влияние'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Введение в облачные инновации — прогнозирование и влияние
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: bcb01ada3589b733fe97de2689352ab414ef469b
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: f55325b46ee9b2e45dd539c08f426d49357f5ba3
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752984"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808402"
 ---
 # <a name="predict-and-influence"></a>Прогнозирование и влияние
 
@@ -46,7 +45,7 @@ ms.locfileid: "73752984"
 
 Для предоставления прогнозных возможностей можно использовать различные источники данных:
 
-## <a name="insights"></a>Аналитические сведения
+## <a name="insights"></a>Аналитика
 
 Эксперты в предметной области используют данные о потребностях и поведении клиентов для разработки базового бизнес-аналитики на основе необработанных данных. Эти аналитические сведения могут точно определить вхождения требуемых вариантов поведения клиента (или, Кроме того, нежелательные результаты). Во время итераций по прогнозам эти аналитические сведения могут помочь в определении потенциальных корреляций, которые в конечном итоге могут создавать положительные результаты. Рекомендации по включению экспертов для разработки ценных сведений см. в разделе [демократизинг Data](./data.md).
 

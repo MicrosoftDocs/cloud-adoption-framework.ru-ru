@@ -1,6 +1,5 @@
 ---
 title: 'Облачные инновации: мера'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Введение в облачные инновации — Оценка содержимого
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 99e2f126c518da72e95a166d203a3c4fdbb546aa
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: d6e29f159059da9c219006a69a63484b546a4488
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752123"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808419"
 ---
 # <a name="measure-for-customer-impact"></a>Оценка влияния на клиента
 
@@ -23,7 +22,7 @@ ms.locfileid: "73752123"
 
 На [этапе стратегии](../../strategy/index.md) жизненного цикла внедрения облака мы изучаем [мотивации](../../strategy/motivations.md) и [результаты бизнеса](../../strategy/business-outcomes/index.md). Эти рекомендации предоставляют набор метрик, по которым можно тестировать последствия для клиентов. Когда инновации будут успешными, вы увидите результаты, согласованные с стратегическими целями.
 
-Прежде чем устанавливать показатели обучения, определите небольшое количество стратегических метрик, которые должны повлиять на эти инновации. Как правило, стратегические метрики соответствуют одной или нескольким из следующих областей результатов: [гибкость бизнеса](../../strategy/business-outcomes/agility-outcomes.md), [участие клиентов](../../strategy/business-outcomes/engagement-outcomes.md), [достижение клиентов](../../strategy/business-outcomes/reach-outcomes.md), [финансовое влияние](../../strategy/business-outcomes/fiscal-outcomes.md)или в случае с операционными нововведениями: [решение производительность](../../strategy/business-outcomes/fiscal-outcomes.md).
+Прежде чем устанавливать показатели обучения, определите небольшое количество стратегических метрик, которые должны повлиять на эти инновации. Как правило, стратегические метрики соответствуют одной или нескольким из следующих областей результатов: [гибкость бизнеса](../../strategy/business-outcomes/agility-outcomes.md), [участие клиентов](../../strategy/business-outcomes/engagement-outcomes.md), [достижение клиентов](../../strategy/business-outcomes/reach-outcomes.md), [финансовое влияние](../../strategy/business-outcomes/fiscal-outcomes.md)или в случае с операционными инновациями: [производительность решения](../../strategy/business-outcomes/fiscal-outcomes.md).
 
 Задокументируйте согласованные метрики и регулярно следите за их влиянием. Но не следует рассчитывать на то, что ни одна из этих метрик не появилось для нескольких итераций. Дополнительные сведения о настройке и согласовании ожиданий во всех участвующих сторонах см. [в разделе обязательства по итерации](./index.md#commitment-to-iteration).
 

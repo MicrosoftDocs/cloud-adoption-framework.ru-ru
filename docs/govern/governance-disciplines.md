@@ -1,6 +1,5 @@
 ---
 title: Пять аспектов управления облаком
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте о пяти дисциплинах управления облаком в облачной инфраструктуре внедрения.
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: f072870caf18eb460ccc3a34e02d7d1f44872406
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: 022fafd48ae9c03ef8c2b19f7b966a73cab70081
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71223160"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806345"
 ---
 # <a name="the-five-disciplines-of-cloud-governance"></a>Пять аспектов управления облаком
 

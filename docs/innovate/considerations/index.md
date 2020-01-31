@@ -1,6 +1,5 @@
 ---
 title: Инновации в сфере цифровой экономики
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте о принципах внедрения инновационных облачных решений в соответствии с Cloud Adoption Framework.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 8f1a89f5cd216bafeb8df4e9c6e0f64c6ec449f4
-ms.sourcegitcommit: 74c1eb00a3bfad1b24f43e75ae0340688e7aec48
+ms.openlocfilehash: 87d47fa7e6f28f41c7edc98525cadabe65b99d48
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "72980058"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808470"
 ---
 # <a name="innovation-in-the-digital-economy"></a>Инновации в сфере цифровой экономики
 
@@ -64,7 +63,7 @@ ms.locfileid: "72980058"
 
 Только одно обещание звучит правдоподобно на всех этапах процесса реализации инноваций: вы не получите нужные результаты с первой же попытки. Измерения помогут вам понять, какие корректировки необходимо внести для достижения нужных результатов. Требуемые изменения — это результат итераций цикла "создание — оценка — обучение". Команда по внедрению облачных решений и команда по вопросам облачной стратегии должны принять такой итеративный подход, прежде чем реализовывать стратегию развития мышления или цикл "создание — оценка — обучение".
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Прежде чем изобретать следующее замечательное решение, начните с принятия потребностей клиента, используя цикл обратной связи [создание — оценка — обучение](./adoption.md).
 

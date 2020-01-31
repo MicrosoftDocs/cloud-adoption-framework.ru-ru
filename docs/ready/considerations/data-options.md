@@ -1,6 +1,5 @@
 ---
 title: Проверка параметров данных
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Проверьте параметры данных для рабочих нагрузок Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 950465788053fa0977a158a5363cb6271e65b3e6
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 434fb0982b0749a6fcb117b86d8cf3bb6335f13a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73243153"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806889"
 ---
 # <a name="review-your-data-options"></a>Проверка параметров данных
 
@@ -51,16 +50,16 @@ ms.locfileid: "73243153"
 | **Сценарий** | **Служба данных** |
 |-----|-----|
 | Мне нужна глобально распределенная многомодельная база данных с поддержкой вариантов NoSQL. | [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/introduction) |
-| Мне нужна полностью управляемая реляционная база данных, которая масштабируется на лету, со встроенным механизмом безопасности, искусственным интеллектом и высокой скоростью развертывания. | [база данных SQL Azure;](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) |
+| Мне нужна полностью управляемая реляционная база данных, которая масштабируется на лету, со встроенным механизмом безопасности, искусственным интеллектом и высокой скоростью развертывания. | [База данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) |
 | Мне нужна полностью управляемая, масштабируемая реляционная база данных MySQL с высокой доступностью и встроенным механизмом безопасности без дополнительной платы. | [База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql/overview) |
 | Мне нужна полностью управляемая, масштабируемая реляционная база данных PostgreSQL с высокой доступностью и встроенным механизмом безопасности без дополнительной платы. | [База данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql/overview) |
 | Я планирую размещать корпоративные приложения SQL Server в облаке и иметь полный контроль над ОС сервера. | [SQL Server на виртуальных машинах](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview) |
-| Мне нужно полностью управляемое эластичное хранилище данных, обеспечивающее безопасность на каждом уровне масштабируемости без дополнительной платы. | [Хранилище данных Azure SQL](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is) |
+| Мне нужно полностью управляемое эластичное хранилище данных, обеспечивающее безопасность на каждом уровне масштабируемости без дополнительной платы. | [Хранилище данных SQL Azure](https://docs.microsoft.com/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is) |
 | Мне нужны ресурсы хранилища озера данных с поддержкой кластеров Hadoop или данных HDFS. | [Azure Data Lake](https://azure.microsoft.com/solutions/data-lake) |
 | Мне нужна высокая пропускная способность и доступ к данным с малым временем задержки для поддержки быстрых масштабируемых приложений. | [Кэш Azure для Redis](https://docs.microsoft.com/azure/azure-cache-for-redis/cache-overview) |
 | Мне нужна полностью управляемая, масштабируемая реляционная база данных MariaDB с высокой доступностью и встроенной системой безопасности без дополнительной платы. | [База данных Azure для MariaDB](https://docs.microsoft.com/azure/mariadb/overview) |
 
-## <a name="regional-availability"></a>Доступ по регионам
+## <a name="regional-availability"></a>Доступность по регионам
 
 Azure позволяет доставлять службы в нужном масштабе клиентам и партнерам  _в любой точке мира_. Ключевым фактором при планировании развертывания облака является определение того, в каком регионе Azure будут размещаться ресурсы рабочей нагрузки.
 

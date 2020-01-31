@@ -1,6 +1,5 @@
 ---
 title: Руководство по именованию ресурсов и присвоению тегов
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Сведения об упорядочении ресурсов и присвоении тегов, которые играют важнейшую роль при миграции в Azure.
 author: alexbuckgit
 ms.author: abuck
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: c62e087372d21a3883c90425b31e1c5ff9bfd2fb
-ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
+ms.openlocfilehash: 4a4b283fa447b296d429f037f12bbf3b2bfcf0fb
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868022"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806685"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 
@@ -59,7 +58,7 @@ ms.locfileid: "75868022"
 
 <!-- markdownlint-disable MD033 -->
 
-| Тип тега | Примеры | Description |
+| Тип тега | Примеры | Описание |
 |-----|-----|-----|
 | Функциональные            | app = catalogsearch1 <br/>tier = web <br/>webserver = apache<br/>env = prod <br/>env = staging <br/>env = dev                 | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик.                                 |
 | Классификация        | confidentiality=private<br/>sla = 24hours                                 | Классификация ресурсов по методам использования и применимым к ресурсам политикам.                               |

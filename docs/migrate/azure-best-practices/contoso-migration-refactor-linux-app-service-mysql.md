@@ -1,6 +1,5 @@
 ---
 title: Рефакторинг приложения службы поддержки для Linux путем переноса в Службу приложений Azure и Базу данных Azure для MySQL
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Сведения о рефакторинге локального приложения Linux в Contoso путем его перемещения в Службу приложений Azure с использованием GitHub для перехода на веб-уровень и Базу данных SQL Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/11/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e504d4032fc019af43ec7cb1e8513504196559a2
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 2e47647b06da12b9b595f4330767f629121e00a0
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71024214"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807467"
 ---
 # <a name="refactor-a-linux-app-to-multiple-regions-using-azure-app-service-traffic-manager-and-azure-database-for-mysql"></a>Рефакторинг приложения Linux в нескольких регионах с помощью Службы приложений Azure, диспетчера трафика и Базы данных Azure для MySQL
 
@@ -85,11 +84,11 @@ ms.locfileid: "71024214"
 
 **Служба** | **Описание** | **Стоимость**
 --- | --- | ---
-[Служба приложений Azure](https://azure.microsoft.com/services/app-service) | Служба работает и масштабирует приложения, используя Azure PaaS для веб-сайтов. | Ценовая политика основывается на размере необходимых экземпляров и компонентов. [Узнайте больше](https://azure.microsoft.com/pricing/details/app-service/windows).
-[Диспетчер трафика](https://azure.microsoft.com/services/traffic-manager) | Подсистема балансировки нагрузки, использующая DNS для перенаправления пользователей в Azure или на внешние веб-сайты и службы. | Ценообразование основано на количестве получаемых запросов DNS и отслеживаемых конечных точек. | [Узнайте больше](https://azure.microsoft.com/pricing/details/traffic-manager).
-[База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql) | База данных расположена на ядре сервера MySQL с открытым исходным кодом. Она предоставляет разработанную сообществом, полностью управляемую и готовую к использованию на предприятии базу данных MySQL как услугу для разработки и развертывания приложений. | Ценообразование основано на вычислении, хранении и резервном копировании. [Узнайте больше](https://azure.microsoft.com/pricing/details/mysql).
+[Служба приложений Azure](https://azure.microsoft.com/services/app-service) | Служба работает и масштабирует приложения, используя Azure PaaS для веб-сайтов. | Ценовая политика основывается на размере необходимых экземпляров и компонентов. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows).
+[Диспетчер трафика](https://azure.microsoft.com/services/traffic-manager) | Подсистема балансировки нагрузки, использующая DNS для перенаправления пользователей в Azure или на внешние веб-сайты и службы. | Ценообразование основано на количестве получаемых запросов DNS и отслеживаемых конечных точек. | [Подробнее](https://azure.microsoft.com/pricing/details/traffic-manager).
+[База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql) | База данных расположена на ядре сервера MySQL с открытым исходным кодом. Она предоставляет разработанную сообществом, полностью управляемую и готовую к использованию на предприятии базу данных MySQL как услугу для разработки и развертывания приложений. | Ценообразование основано на вычислении, хранении и резервном копировании. [Подробнее](https://azure.microsoft.com/pricing/details/mysql).
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Технические условия
 
 Ниже показано, что необходимо сделать специалистам компании Contoso, чтобы реализовать этот сценарий.
 
@@ -108,14 +107,14 @@ ms.locfileid: "71024214"
 
 > [!div class="checklist"]
 >
-> - **Шаг 1. Подготовка Службы приложений Azure.** Администраторы Contoso подготовят веб-приложения в основном и дополнительном регионах.
-> - **Шаг 2. Настройка диспетчера трафика.** Они настраивают диспетчер трафика перед веб-приложениями с целью маршрутизации и балансировки нагрузки трафика.
-> - **Шаг 3. Подготовка MySQL.** Они подготавливают в Azure экземпляр Базы данных MySQL для Azure.
+> - **Шаг 1. подготавливает службу приложений Azure.** Администраторы Contoso подготовят веб-приложения в основном и дополнительном регионах.
+> - **Шаг 2. Настройка диспетчера трафика.** Они настраивают диспетчер трафика перед веб-приложениями с целью маршрутизации и балансировки нагрузки трафика.
+> - **Шаг 3. Инициализация MySQL.** Они подготавливают в Azure экземпляр Базы данных MySQL для Azure.
 > - **Шаг 4. Перенос базы данных.** Компания переносит базу данных с помощью MySQL Workbench.
-> - **Шаг 5. Настройка GitHub.** Специалисты компании настраивают локальный репозиторий GitHub для веб-сайтов и кода приложения.
-> - **Шаг 6. Развертывание веб-приложений.** Они развертывают веб-приложения из GitHub.
+> - **Шаг 5. Настройка GitHub.** Специалисты компании настраивают локальный репозиторий GitHub для веб-сайтов и кода приложения.
+> - **Шаг 6. Развертывание веб-приложений.** Они развертывают веб-приложения из GitHub.
 
-## <a name="step-1-provision-azure-app-service"></a>Шаг 1. Подготовка Службы приложений Azure
+## <a name="step-1-provision-azure-app-service"></a>Шаг 1. предоставление службы приложений Azure
 
 Администраторы Contoso подготавливают два веб-приложения (по одному в каждом регионе) с помощью Службы приложений Azure.
 
@@ -141,7 +140,7 @@ ms.locfileid: "71024214"
 - Узнайте больше о [веб-приложениях Службы приложений Azure](https://docs.microsoft.com/azure/app-service/overview).
 - Узнайте больше о [Службе приложений Azure на платформе Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-intro).
 
-## <a name="step-2-set-up-traffic-manager"></a>Шаг 2. Настройка диспетчера трафика
+## <a name="step-2-set-up-traffic-manager"></a>Шаг 2. Настройка диспетчера трафика
 
 Администраторы Contoso настраивают диспетчер трафика для направления входящих веб-запросов в веб-приложения веб-уровня osTicket.
 
@@ -162,7 +161,7 @@ ms.locfileid: "71024214"
 - Подробнее о [диспетчере трафика](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview).
 - Узнайте больше о [перенаправлении трафика к приоритетной конечной точке](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-priority-routing-method).
 
-## <a name="step-3-provision-azure-database-for-mysql"></a>Шаг 3. Подготовка базы данных Azure для MySQL
+## <a name="step-3-provision-azure-database-for-mysql"></a>Шаг 3. Подготовка Базы данных Azure для MySQL
 
 Администраторы компании Contoso подготавливают экземпляр базы данных MySQL в основном регионе "Восточная часть США 2".
 
@@ -185,11 +184,11 @@ ms.locfileid: "71024214"
 
     ![MySQL](./media/contoso-migration-refactor-linux-app-service-mysql/mysql-3.png)
 
-## <a name="step-4-migrate-the-database"></a>Шаг 4. Миграция базы данных
+## <a name="step-4-migrate-the-database"></a>Шаг 4. Миграция базы данных
 
 Администраторы компании Contoso выполняют миграцию базы данных с помощью функции резервного копирования и восстановления в инструментах MySQL. Специалисты установят MySQL Workbench, создадут резервную копию базы данных из OSTICKETMYSQL, а затем восстановят ее в Базе данных Azure для сервера MySQL.
 
-### <a name="install-mysql-workbench"></a>Установить MySQL Workbench
+### <a name="install-mysql-workbench"></a>Установка MySQL Workbench
 
 1. Специалисты компании проверяют [предварительные условия и загружают MySQL Workbench](https://dev.mysql.com/downloads/workbench/?utm_source=tuicool).
 2. Специалисты компании устанавливают MySQL Workbench для Windows в соответствии с [инструкциями по установке](https://dev.mysql.com/doc/workbench/en/wb-installing.html). Компьютер, на котором они устанавливаются, должен быть доступен для виртуальной машины OSTICKETMYSQL и Azure через Интернет.
@@ -231,7 +230,7 @@ ms.locfileid: "71024214"
 
     ![MySQL Workbench](./media/contoso-migration-refactor-linux-app-service-mysql/workbench10.png)
 
-## <a name="step-5-set-up-github"></a>Шаг 5. Настройка GitHub
+## <a name="step-5-set-up-github"></a>Шаг 5. Настройка GitHub
 
 Администраторы Contoso создают частный репозиторий GitHub и настраивают подключение к базе данных osTicket в Базе данных Azure для MySQL. Затем они загружают веб-приложение в Службу приложений Azure.
 
@@ -284,7 +283,7 @@ ms.locfileid: "71024214"
     ![Настройка приложения](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app4.png)
 
 5. Затем специалисты повторяют описанные выше действия для дополнительного веб-приложения (**osticket-cus**).
-6. После настройки сайт становится доступным через профиль диспетчера трафика. DNS-имя — новое расположение приложения osTicket. [Узнайте больше](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record).
+6. После настройки сайт становится доступным через профиль диспетчера трафика. DNS-имя — новое расположение приложения osTicket. [Подробнее](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record).
 
     ![Настройка приложения](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app5.png)
 
@@ -303,11 +302,11 @@ ms.locfileid: "71024214"
 1. В службе приложений **APP-SRV-EUS2** специалисты открывают раздел **единицы масштабирования**.
 2. Они настраивают новый параметр автомасштабирования с одним правилом, увеличивающим количество экземпляров на один, когда процент использования ЦП для текущего экземпляра превышает 70 % в течение 10 минут.
 
-    ![Автомасштабирование](./media/contoso-migration-refactor-linux-app-service-mysql/autoscale1.png)
+    ![Автоматическое масштабирование](./media/contoso-migration-refactor-linux-app-service-mysql/autoscale1.png)
 
 3. Они настраивают тот же параметр в **APP-SRV-CUS**, чтобы убедиться, что применяется такое же поведение, если приложение выполняет отработку отказа в дополнительный регион. Единственная разница состоит в том, что они ограничивают количество экземпляров по умолчанию до 1, так как это необходимо только для отработки отказа.
 
-   ![Автомасштабирование](./media/contoso-migration-refactor-linux-app-service-mysql/autoscale2.png)
+   ![Автоматическое масштабирование](./media/contoso-migration-refactor-linux-app-service-mysql/autoscale2.png)
 
 ## <a name="clean-up-after-migration"></a>Очистка после миграции
 
@@ -327,12 +326,12 @@ ms.locfileid: "71024214"
 
 ### <a name="security"></a>Безопасность
 
-Специалисты по безопасности компании Contoso проверили приложение, чтобы выявить любые проблемы безопасности. Они определили, что обмен данными между приложением osTicket и экземпляром базы данных MySQL не настроен для использования протокола SSL. Поэтому им необходимо будет сделать это, чтобы предотвратить взлом трафика, базы данных. [Узнайте больше](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
+Специалисты по безопасности компании Contoso проверили приложение, чтобы выявить любые проблемы безопасности. Они определили, что обмен данными между приложением osTicket и экземпляром базы данных MySQL не настроен для использования протокола SSL. Поэтому им необходимо будет сделать это, чтобы предотвратить взлом трафика, базы данных. [Подробнее](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
 
-### <a name="backups"></a>Резервные
+### <a name="backups"></a>Резервные копии
 
 - Веб-приложения osTicket не содержат данные о состоянии, и поэтому для них не нужно создавать резервные копии.
-- Ее специалистам нет необходимости настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются резервные копии. Они решили использовать для базы данных геоизбыточное хранилище, поэтому она отказоустойчива и готова к внедрению в рабочую среду. Резервные копии можно использовать для восстановления сервера до точки во времени. [Узнайте больше](https://docs.microsoft.com/azure/mysql/concepts-backup).
+- Ее специалистам нет необходимости настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются резервные копии. Они решили использовать для базы данных геоизбыточное хранилище, поэтому она отказоустойчива и готова к внедрению в рабочую среду. Резервные копии можно использовать для восстановления сервера до точки во времени. [Подробнее](https://docs.microsoft.com/azure/mysql/concepts-backup).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 

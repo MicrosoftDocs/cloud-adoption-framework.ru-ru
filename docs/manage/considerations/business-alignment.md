@@ -1,6 +1,5 @@
 ---
 title: 'Выравнивание бизнеса: управление и эксплуатация в облаке'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Выравнивание бизнеса — управление и эксплуатация в облаке
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: deeb663a344bb3eb4e8ecc9af307da5ec1348b7a
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 114589d11b5e915400832d3d61a3ba91ca9d89fc
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565215"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807875"
 ---
 # <a name="create-business-alignment-in-cloud-management"></a>Создание делового выравнивания в управлении облаком
 

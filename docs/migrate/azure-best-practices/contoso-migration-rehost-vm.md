@@ -1,6 +1,5 @@
 ---
 title: Повторное размещение приложения на виртуальных машинах Azure с помощью Azure Site Recovery
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Сведения о том, как компания Contoso перемещает локальное приложение с переносом и сдвигом локальных компьютеров в Azure с помощью службы Azure Site Recovery.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: f38503b0cc998721726845fc1669f40ea8c845e4
-ms.sourcegitcommit: b166fe1621fe7e886616009e56b76873b8cce83c
+ms.openlocfilehash: cb6bb11ee8d87f5ca6069979894de6549bb4a33b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76520197"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807331"
 ---
 # <a name="rehost-an-on-premises-app-on-azure-vms"></a>Повторное размещение локального приложения на виртуальных машинах Azure
 
@@ -76,7 +75,7 @@ ms.locfileid: "76520197"
 **Рассмотрение** | **Сведения**
 --- | ---
 **Преимущества** | Обе виртуальные машины будут перемещены в Azure без изменений, упрощая миграцию.<br/><br/> Так как компания Contoso использует подход с приближением и сдвигом для виртуальных машин приложений, для базы данных приложения специальные средства настройки или миграции не требуются.<br/><br/> Contoso может воспользоваться преимуществами своих инвестиций в программу Software Assurance, используя Преимущество гибридного использования Azure.<br/><br/> Компания Contoso сохранит полный контроль над виртуальными машинами приложений в Azure.
-**Недостатки** | Виртуальные машины WEBVM и SQLVM работают под управлением Windows Server 2008 R2. Операционная система поддерживается средой Azure для определенных ролей (июль 2018 г.). [Узнайте больше](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines).<br/><br/> Веб-уровень и уровень данных приложения останутся в одной точке отработки отказа.<br/><br/> Виртуальная машина SQLVM работает под управлением SQL Server 2008 R2, который не находится в основной фазе поддержки. Однако он поддерживается для виртуальных машин Azure (июль 2018 г.). [Узнайте больше](https://support.microsoft.com/help/956893).<br/><br/> Contoso потребуется и дальше поддерживать виртуальные машины приложения, а не переходить на управляемую службу, такую как Служба приложений Azure и База данных SQL Azure.
+**Недостатки** | Виртуальные машины WEBVM и SQLVM работают под управлением Windows Server 2008 R2. Операционная система поддерживается средой Azure для определенных ролей (июль 2018 г.). [Подробнее](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines).<br/><br/> Веб-уровень и уровень данных приложения останутся в одной точке отработки отказа.<br/><br/> Виртуальная машина SQLVM работает под управлением SQL Server 2008 R2, который не находится в основной фазе поддержки. Однако он поддерживается для виртуальных машин Azure (июль 2018 г.). [Подробнее](https://support.microsoft.com/help/956893).<br/><br/> Contoso потребуется и дальше поддерживать виртуальные машины приложения, а не переходить на управляемую службу, такую как Служба приложений Azure и База данных SQL Azure.
 
 <!-- markdownlint-enable MD033 -->
 
@@ -289,8 +288,8 @@ ms.locfileid: "76520197"
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление (BCDR), Contoso выполняет следующие действия:
 
-- Безопасное хранение данных. Специалисты Contoso выполняют резервное копирование данных, содержащихся в виртуальных машинах, с помощью службы Azure Backup. [Узнайте больше](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json).
-- Поддержание работы приложений. Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Узнайте больше](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
+- Безопасное хранение данных. Специалисты Contoso выполняют резервное копирование данных, содержащихся в виртуальных машинах, с помощью службы Azure Backup. [Подробнее](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json).
+- Поддержание работы приложений. Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Подробнее](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 

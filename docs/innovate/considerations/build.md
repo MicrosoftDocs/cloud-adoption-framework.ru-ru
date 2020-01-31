@@ -1,6 +1,5 @@
 ---
 title: 'Облачные инновации: создание с помощью сопереживание клиента'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Научитесь создавать с помощью Customer сопереживание.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,14 +7,14 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d1f9b53a152ee85d8817fcfdc9cfc613a89a585b
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 406d53bfb322c424737a9b8cec7c028a9833143d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565735"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808555"
 ---
-# <a name="build-with-customer-empathy"></a>Создание с помощью сопереживание клиента
+# <a name="build-with-customer-empathy"></a>Разработка ориентированных на клиента решений
 
 "Потребность в inventionе". Этот поговорке захватывает инделибилити человека и наш естественный диск для инвентаризации. Как описано в словаре Oxford на английском языке, "когда необходимость что-то становится императивной, вы вынуждены найти способы их получения или достижения". Некоторые из них позволили бы запретить эти универсальные истинные сведения о Invention. Однако, как описано в статье [инновации в сфере цифрового энергоэкономичия](./index.md), инновации требуют баланса *Invention* и *внедрения*.
 

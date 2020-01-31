@@ -1,6 +1,5 @@
 ---
 title: Защита и восстановление — облачное управление и эксплуатация
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Защита и восстановление — облачное управление и эксплуатация
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: acfae57b1073d0205619f81b9caea72b5dc6d57d
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: c9733c238903e2fa66f76337bb255c4cfda33896
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160264"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807722"
 ---
 # <a name="protect-and-recover-in-cloud-management"></a>Защита и восстановление в облачном управлении
 
@@ -71,7 +70,7 @@ ms.locfileid: "74160264"
 
 Дополнительные сведения об этом процессе обработки идей см. в статье [дисциплина операций рабочей нагрузки](./workload.md).
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 После выполнения этого компонента базового плана управления группа может взглянуть на избежание простоев в [работе платформ](./platform.md) и [операций рабочей нагрузки](./workload.md).
 

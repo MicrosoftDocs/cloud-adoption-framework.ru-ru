@@ -1,6 +1,5 @@
 ---
 title: Руководство по инновациям Azure. Привлечение клиентов через приложения
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как внедрять инновации, привлекая клиентов через приложения с помощью Azure.
 author: billyclaymyersmsft
 ms.author: wimyers
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 09d5828e7b90a7530158b7f031e4f6f25d4b1d96
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 7b6a94830f35f7dde577ba4b7122cdec7e4a711d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251922"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808351"
 ---
 ::: zone target="docs"
 
@@ -119,7 +118,7 @@ ms.locfileid: "74251922"
 
 Центр приложений Visual Studio также предоставляет службу уведомлений, в которой один вызов может отправлять уведомления в приложение на разных платформах, не обращаясь к каждой службе уведомлений по отдельности. Дополнительные сведения см. в статье об использовании [push-уведомлений в Центре приложений Visual Studio](https://docs.microsoft.com/appcenter/push).
 
-### <a name="learn-more"></a>Подробнее
+### <a name="learn-more"></a>Дополнительные сведения
 
 - [Обзор Службы приложений Azure](https://docs.microsoft.com/azure/app-service/overview)
 - [Веб-приложение для контейнеров. с помощью Docker](https://docs.microsoft.com/azure/app-service/containers/quickstart-docker)
@@ -358,7 +357,7 @@ Azure предлагает распределенную сеть доставк�
 
 ::: zone-end
 
-### <a name="learn-more"></a>Подробнее
+### <a name="learn-more"></a>Дополнительные сведения
 
 - [Azure Front Door](https://docs.microsoft.com/azure/frontdoor/front-door-overview)
 - [Диспетчер трафика](https://docs.microsoft.com/azure/traffic-manager)

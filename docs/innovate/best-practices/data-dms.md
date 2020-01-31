@@ -1,6 +1,5 @@
 ---
 title: 'Облачные инновации: Azure Database Migration Service'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Облачные инновации — Azure Database Migration Service
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 46e21c08bac9501dd9b99fceb4ef3040cc9f0a83
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 44ebe7e28eea56d1b7e61b5926a9588f4c985ae1
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752026"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808674"
 ---
 # <a name="collect-data-through-the-migration-and-modernization-of-existing-data-sources"></a>Получение данных с помощью миграции и модернизации существующих источников данных
 
@@ -49,14 +48,14 @@ ms.locfileid: "73752026"
 
 |Источник  |Выбор пути миграции  |Средство  |Тип перемещения  |Руководство  |
 |---------|---------|---------|---------|---------|
-|SQL Server|Базы данных SQL Azure|Служба миграции баз данных|Автономно|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)|
-|SQL Server|Базы данных SQL Azure|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online)|
-|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Служба миграции баз данных|Автономно|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance)|
-|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)|
+|SQL Server|База данных SQL Azure|Служба миграции баз данных|Вне сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)|
+|SQL Server|База данных SQL Azure|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online)|
+|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Служба миграции баз данных|Вне сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance)|
+|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)|
 |SQL Server RDS|Управляемый экземпляр базы данных SQL Azure или базы данных SQL Azure|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online)|
 |MySQL|База данных Azure для MySQL|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online)|
 |PostgreSQL|База данных Azure для PostgreSQL|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online)|
-|MongoDB|Azure Cosmos DB API Mongo|Служба миграции баз данных|Автономно|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db)|
+|MongoDB|Azure Cosmos DB API Mongo|Служба миграции баз данных|Вне сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db)|
 |MongoDB|Azure Cosmos DB API Mongo|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online)|
 |Oracle|Различные платформы как услуга (PaaS) и параметры IaaS|Средство партнера или служба "миграция Azure"|Вне сети или в сети|[Дерево принятия решений](../../migrate/expanded-scope/data-oracle-migration.md)|
 |Различные параметры NoSQL DB|Параметры Космо DB или IaaS|Процедурная миграция или миграция Azure|Вне сети или в сети|[Дерево принятия решений](../../migrate/expanded-scope/data-no-sql-migration.md)|

@@ -1,6 +1,5 @@
 ---
 title: Проверка невыполненной работы миграции
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Важная проверка невыполненной работы миграции
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d1d7c6e39e143ecc74a58fa5364469c46acf9523
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: c8d6d7ab2403df01b2db99314c3ae73e9514b6b5
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548286"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801449"
 ---
 # <a name="migration-backlog-review"></a>Обзор невыполненной работы по миграции
 

@@ -1,6 +1,5 @@
 ---
 title: Предварительные требования для миграции
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Предварительные требования для миграции
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ce4cf827f391c5fb15f6b9e78997dd0f02e1751b
-ms.sourcegitcommit: f3371811a36e12533ecbc3aa936e2a68e0cee25f
+ms.openlocfilehash: 2f8fe1be35e1f629da3f57e1344b573e97ff571b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "72683780"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801466"
 ---
 # <a name="prerequisites-for-migration"></a>Предварительные требования для миграции
 
@@ -64,7 +63,7 @@ ms.locfileid: "72683780"
 
 В остальных статьях этой серии мы поможем вам разобраться с каждым из этих элементов.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Вооружившись общим пониманием предварительных требований, вы теперь готовы взяться за первое из них: [ранние решения по миграции](./decisions.md).
 

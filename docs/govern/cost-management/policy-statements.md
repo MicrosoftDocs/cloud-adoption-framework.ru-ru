@@ -1,6 +1,5 @@
 ---
 title: Примеры правил политики управления затратами
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Примеры правил политики управления затратами
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 3ee38869badce877fc89784c1e90a60ed7ee04eb
-ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
+ms.openlocfilehash: e9ec4024033d71ca15c34d33beb0cb52967f6d4a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75781544"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806447"
 ---
 # <a name="cost-management-sample-policy-statements"></a>Примеры правил политики управления затратами
 

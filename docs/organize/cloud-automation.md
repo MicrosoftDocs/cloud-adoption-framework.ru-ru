@@ -1,6 +1,5 @@
 ---
 title: Возможности службы автоматизации в облаке
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание формирования возможностей облачной автоматизации
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 945e72550ebc827dbd08e42b87ed3496f465c1a2
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: 26384b8e12962a7c1d86ae71af2b8036e9691de9
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71031110"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806923"
 ---
 # <a name="cloud-automation-capabilities"></a>Возможности службы автоматизации в облаке
 
@@ -62,7 +61,7 @@ ms.locfileid: "71031110"
   - [мотивации для внедрения в облако](../strategy/motivations.md)
   - [бизнес-риски](../govern/policy-compliance/risk-tolerance.md)
   - [рационализация цифрового пространства](../digital-estate/index.md)
-- Отслеживайте планы внедрения и ход выполнения по приоритетной невыполненной [миграции](../migrate/migration-considerations/assess/release-iteration-backlog.md).
+- Отслеживайте планы внедрения и ход выполнения по [приоритетной невыполненной миграции](../migrate/migration-considerations/assess/release-iteration-backlog.md).
 - Выявление возможностей для ускорения внедрения в облако, сокращения усилий благодаря автоматизации, повышения безопасности, стабильности и согласованности.
 - Приоритизация невыполненной работы решений для каталога решений, которые предоставляют наибольшее значение для других стратегических входных данных.
 
@@ -80,7 +79,7 @@ ms.locfileid: "71031110"
 
 Группа по автоматизации облачных служб должна выстроить действия с другими областями возможностей. Такое выравнивание может привести к выносливостиу встречи. Чтобы обеспечить службе автоматизации облачных служб достаточно времени для управления каталогом решений, следует проанализировать ритмичность собраний, чтобы обеспечить максимальную совместную работу и минимизировать перерывы в действиях разработки.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере того, как все необходимые облачные возможности выявляются, коллективные группы могут помочь в [разработке необходимых технических навыков](./suggested-skills.md).
 

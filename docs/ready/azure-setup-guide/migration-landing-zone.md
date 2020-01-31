@@ -1,6 +1,5 @@
 ---
 title: Развертывание зоны размещения для миграции в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как развернуть зону размещения для миграции в Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, setup
-ms.openlocfilehash: 59b57467eeae47b73fa24ce672d9e7e4f0ed4478
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 42e7064a6d3b125a01f6fca9ce041b473fb1b7f6
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251697"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799494"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
@@ -65,11 +64,11 @@ ms.locfileid: "74251697"
 |Разработка подписки|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)|
 |Группы управления|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
 |Группы ресурсов|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
-|Данные|Недоступно|[Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
-|Служба хранилища|Недоступно|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-options.md)         |
-|Стандарты именования и расстановки тегов|Недоступно|[Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)         |
-|управления затратами;|Недоступно|[Отслеживание затрат](../azure-best-practices/track-costs.md)|
-|Среда выполнения приложений|Недоступно|[Варианты вычислений](../considerations/compute-options.md)|
+|Данные|Н/Д|[Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
+|Хранилище|Н/Д|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-options.md)         |
+|Стандарты именования и расстановки тегов|Н/Д|[Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)         |
+|Управление затратами|Н/Д|[Отслеживание затрат](../azure-best-practices/track-costs.md)|
+|Среда выполнения приложений|Н/Д|[Варианты вычислений](../considerations/compute-options.md)|
 
 ## <a name="customize-or-deploy-a-landing-zone-from-this-blueprint"></a>Настройка или развертывание зоны размещения из этой схемы
 
@@ -79,7 +78,7 @@ ms.locfileid: "74251697"
 
 Дополнительные сведения по настройке, которую необходимо внести в эту схему или итоговую зону размещения, см. в статье [Рекомендации по использованию зон размещения](../considerations/index.md).
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 После развертывания зоны размещения для миграции вы можете перенести рабочие нагрузки в Azure.
 Рекомендации по инструментам и процессам, которые необходимы для переноса первой рабочей нагрузки, см. в статье [Руководство по миграции в Azure](../../migrate/azure-migration-guide/index.md).

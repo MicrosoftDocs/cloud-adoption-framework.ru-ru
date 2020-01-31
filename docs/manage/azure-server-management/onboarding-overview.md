@@ -1,6 +1,5 @@
 ---
 title: Подключение к службам управления сервером Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Подключение к службам управления сервером Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c0b1a3ec7f748f9a9217dde45226ae778a2c78d9
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 48c0728c39457a2fa060679460a97c0ddca49c45
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565349"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808011"
 ---
 # <a name="phase-2-onboarding-azure-server-management-services"></a>Этап 2. Подключение служб управления сервером Azure
 

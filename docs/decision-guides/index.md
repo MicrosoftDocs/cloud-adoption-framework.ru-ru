@@ -1,6 +1,5 @@
 ---
 title: Руководства по принятию архитектурных решений
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Сведения о руководствах по архитектурным решениям на платформе внедрения облака.
 author: rotycenh
 ms.author: v-tyhopk
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: c5ffe30a66305dcff1df70a383f6716702b4a067
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: aa1f2b4bfdb77f8b69b79a89da8bd425918799d4
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753319"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806787"
 ---
 # <a name="architectural-decision-guides"></a>Руководства по принятию архитектурных решений
 
@@ -46,7 +45,7 @@ ms.locfileid: "73753319"
 
 [Руководство по регионам.](./regions/index.md) Обсуждение соответствующих критериев выбора для размещения ресурсов в определенных регионах на платформе Azure.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, каким образом подписки и учетные записи используются в качестве базы для облачного развертывания.
 

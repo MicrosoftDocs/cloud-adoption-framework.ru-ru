@@ -1,6 +1,5 @@
 ---
 title: Руководство по облачному мониторингу
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Обзор Azure Monitor и System Center Operations Manager
 author: MGoedtel
 ms.author: magoedte
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 0920e834bcec0fc5885650ba5cab7ec28eac669f
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 6c2b4521443e76a9d85b35b78af4d5811091fccc
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752777"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807586"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Руководство по облачному мониторингу: Введение
 
@@ -66,7 +65,7 @@ ms.locfileid: "73752777"
 
 Первая версия этого руководства охватывает наши текущие платформы мониторинга: Azure Monitor и System Center Operations Manager. В ней также описана рекомендуемая стратегия мониторинга каждой из моделей облачного развертывания. Кроме того, в руководство входит первый набор рекомендаций по мониторингу, начиная со сбора данных и предупреждений.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Стратегия мониторинга для моделей облачного развертывания](./cloud-models-monitor-overview.md)

@@ -1,6 +1,5 @@
 ---
 title: Создание партнерской связи с помощью цикла "сборка-мера-обучение"
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как создавать связи с клиентами с помощью цикла "сборка-мера-обучение".
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 75590b73aff96e3d90ca5103e0ec15e6ad0f0a1e
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 6dc67f308ea257500e71661585b172f7d3deb61a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047743"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808606"
 ---
 # <a name="create-customer-partnerships-through-the-build-measure-learn-feedback-loop"></a>Создание партнерских отношений клиентов с помощью цикла "сборка-мера-обучение"
 

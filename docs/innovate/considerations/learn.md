@@ -1,6 +1,5 @@
 ---
 title: 'Облачные инновации: обучение'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Введение в облачные инновации — изучите содержимое
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: b960bbd4382a14f254038397f3843d7ad7b65f8c
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 3f15407d78517d588e9f98ac6bbbb779574a7afd
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752996"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808436"
 ---
 # <a name="learn-with-customers"></a>Совместное обучение с клиентами
 
@@ -56,4 +55,4 @@ ms.locfileid: "73752996"
 > [!div class="nextstepaction"]
 > [Общие сведения об общих блокировках и проблемах](./challenges.md)
 
-Некоторые из концепций в этой статье посвящены темам, впервые описанным в руководстве по [экономичному запуску](https://theleanstartup.com/book), написанному при помощи функции RIES.
+Некоторые из концепций в этой статье посвящены темам, впервые описанным в руководстве по [экономичному запуску](http://theleanstartup.com/book), написанному при помощи функции RIES.

@@ -1,6 +1,5 @@
 ---
 title: 'Облачные инновации: средства для более демократичным данных в Azure'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Средства для более демократичным данных в Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d86bebc3a993443c4dded4b1a0f23ff518147bd4
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 3fed47eb3a5bb7a3b51f19f2d103395ede848e9d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565839"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808691"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 
@@ -23,7 +22,7 @@ ms.locfileid: "73565839"
 
 ![Подход к облачной инфраструктуре внедрения для демократизинг данных](../../_images/innovate/democratize-data.png)
 
-## <a name="alignment-to-the-methodology"></a>Выравнивание для методологии
+## <a name="alignment-to-the-methodology"></a>Согласование с методикой
 
 Этот тип цифровых Invention можно ускорить с помощью каждого этапа следующих процессов, как показано на предыдущем рисунке. Техническое руководство по ускорению цифровых Invention приведено в оглавлении в левой части этой страницы. Эти статьи группируются по этапам, чтобы выстроить руководство с общей методологией.
 
@@ -42,28 +41,28 @@ ms.locfileid: "73565839"
 
 - Power BI
 - Каталог данных Azure
-- Хранилище данных SQL Azure
+- Хранилище данных SQL Azure
 - Azure Cosmos DB
 - База данных Azure для PostgreSQL
 - База данных Azure для MySQL
 - База данных Azure для MariaDB
 - Масштабирование базы данных Azure для PostgreSQL
-- Озеро данных Azure
-- Azure Database Migration Service
+- Azure Data Lake
+- Служба миграции баз данных Azure
 - База данных SQL Azure с управляемыми экземплярами или без них
 - Фабрика данных Azure
 - Azure Stream Analytics
-- SQL Server Integration Services
+- Службы SQL Server Integration Services
 - Azure Stack
 - SQL Server Stretch Database
 - Microsoft Azure StorSimple
 - Файлы Azure
-- Служба синхронизации файлов Azure
+- Синхронизация файлов Azure
 - PolyBase
 
 Так как Invention приближается к внедрению в масштабе, для каждого решения требуется уточнение и техническая дата_вступл_в_силу. Как и в этом случае, скорее всего, потребуется больше этих служб. Используйте оглавление в левой части этой страницы для руководства по средствам Azure, относящиеся к процессу тестирования гипотезы.
 
-## <a name="get-started"></a>Приступая к работе
+## <a name="get-started"></a>Начать
 
 В оглавлении в левой части этой страницы показано множество статей. Эти статьи помогут вам приступить к работе с каждым из средств в этой цепочки инструментов.
 

@@ -1,6 +1,5 @@
 ---
 title: 'Руководство по управлению для сложных предприятий: улучшение в облаке'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Руководство по управлению для сложных предприятий: улучшение в облаке'
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4279f088dd985b26c87d28a580b8351d45d9384e
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 3da91b65c282e9eba8248645b18cec65763b429b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72547658"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805597"
 ---
 # <a name="governance-guide-for-complex-enterprises-multicloud-improvement"></a>Руководство по управлению для сложных предприятий: улучшение в облаке
 
@@ -60,7 +59,7 @@ ms.locfileid: "72547658"
 
 ## <a name="incremental-improvement-of-the-best-practices"></a>Добавочное улучшение рекомендаций
 
-В этом разделе статьи улучшена структура MVP по управлению, которая включает новые политики Azure и реализацию службы "Управление затратами Azure". Совокупно такие изменения проекта станут новыми положениями корпоративной политики.
+В этом разделе статьи улучшена структура MVP по управлению, которая включает новые политики Azure и реализацию службы "Управление затратами Azure". Совокупно эти изменения проекта позволят внедрить новые правила корпоративной политики.
 
 1. Подключение сетей. Поддерживается системой управления сетями и ИТ.
     1. Добавление подключения от поставщика MPLS или арендованной строки к новому облаку приведет к интеграции сетей. Добавление таблиц маршрутизации и параметров конфигурации брандмауэра позволит контролировать доступ и трафик между средами.

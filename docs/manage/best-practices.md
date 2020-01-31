@@ -1,6 +1,5 @@
 ---
 title: Введение в операционное управление
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Изучите операционное управление в облачной инфраструктуре внедрения.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 38dfd1951982e23cce2108ccc62877dae06d3cbe
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 0e6e788e11ae965c821ef1f3ee1e87ed3add029d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73751623"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807909"
 ---
 # <a name="establish-operational-management-practices-in-the-cloud"></a>Создание методик оперативного управления в облаке
 

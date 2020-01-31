@@ -1,6 +1,5 @@
 ---
 title: Система управления, безопасность и соответствие требованиям в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как настроить систему управления, безопасность и соответствие требованиям в среде Azure.
 author: tvuylsteke
 ms.author: kfollis
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 7a305e1bd3ef8f3f7325905c523d9fe5ded2fc60
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: c38edb9a5723d99974f5f472453bf4b88ee07bb3
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251333"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799613"
 ---
 # <a name="governance-security-and-compliance-in-azure"></a>Система управления, безопасность и соответствие требованиям в Azure
 
@@ -86,12 +85,12 @@ ms.locfileid: "74251333"
 
 ::: zone target="docs"
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
 - [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints)
-- [Руководство по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
+- [Role-based по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
 - [Примеры схем на основе стандартов](https://docs.microsoft.com/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
 
 ::: zone-end
@@ -126,12 +125,12 @@ ms.locfileid: "74251333"
 1. Перейдите в раздел [Политика Azure](https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyMenuBlade/GettingStarted).
 1. Щелкните **Assign a policy** (Назначить политику).
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
 - [Политика Azure](https://docs.microsoft.com/azure/azure-policy)
-- [Руководство по принудительному применению политик](../../decision-guides/policy-enforcement/index.md)
+- [Role-based по принудительному применению политик](../../decision-guides/policy-enforcement/index.md)
 
 ::: zone-end
 
@@ -153,14 +152,14 @@ ms.locfileid: "74251333"
 
 Чтобы ознакомиться с Центром безопасности Azure, перейдите на [портал Azure](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/SecurityMenuBlade/0).
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
 - [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center)
 - [JIT-доступ к виртуальной машине](https://docs.microsoft.com/azure/security-center/security-center-just-in-time#how-does-just-in-time-access-work)
 - [Сравнение ценовых категорий "Бесплатный" и "Стандартный"](https://azure.microsoft.com/pricing/details/security-center)
-- [Общие сведения об основных способах защиты](../../govern/security-baseline/index.md)
+- [Role-based об основных способах защиты](../../govern/security-baseline/index.md)
 
 ::: zone-end
 

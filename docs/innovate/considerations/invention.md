@@ -1,6 +1,5 @@
 ---
 title: 'Облачные инновации: Разработка цифровых инвентионс'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Введение в облачные инновации. Разработка цифровых инвентионс
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,14 +7,14 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 6eaad06105ed6078f462082855378f72bc25d6a7
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 4011f34f61ec41d4ec30be8b9ee8c5cb203f930a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565667"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808453"
 ---
-# <a name="develop-digital-inventions"></a>Разработка цифровых инвентионс
+# <a name="develop-digital-inventions"></a>Развитие разработки цифровых технологий
 
 Как описано в статье [инновации в сфере цифрового энергоэкономичия](./index.md), инновации требуют баланса *Invention* и *внедрения*. Отзывы клиентов и партнерство необходимы для внедрения. Дисциплины, описанные в следующем разделе, определяют ряд подходов к разработке цифровых инвентионс, сохраняя при этом рекомендации по внедрению и заказчику сопереживание. Каждая из дисциплин кратко описана вместе с более глубокими ссылками на каждый процесс.
 

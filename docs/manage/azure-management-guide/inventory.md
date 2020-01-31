@@ -1,6 +1,5 @@
 ---
 title: Инвентаризация и визуальный контроль в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Из этой статьи вы узнаете, как настроить визуальный контроль, мониторинг, создание отчетов и оповещения для среды управления Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 4969681cbc6fbb71da70f3ced09b5e4616c773b5
-ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
+ms.openlocfilehash: 42c7ea0b9647015f8ac049710905c8349d073093
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75781782"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808215"
 ---
 # <a name="inventory-and-visibility-in-azure"></a>Инвентаризация и визуальный контроль в Azure
 

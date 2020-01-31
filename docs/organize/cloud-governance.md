@@ -1,6 +1,5 @@
 ---
 title: Возможности управления облаком
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание формирования возможностей управления облаком
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 38fa6133c9a4f823d4347b3c1b4db5dd81f24ceb
-ms.sourcegitcommit: 7df593a67a2e77b5f61c815814af9f0c36ea5ebd
+ms.openlocfilehash: 824ce55dd6dc78e0d4200efa9c2d1418b343ccb7
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75781460"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806906"
 ---
 # <a name="cloud-governance-capabilities"></a>Возможности управления облаком
 
