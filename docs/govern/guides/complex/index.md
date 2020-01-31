@@ -1,6 +1,5 @@
 ---
 title: Руководство по организации системы управления для сложных предприятий
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Руководство по организации системы управления для сложных предприятий
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4a678620e2d194fa2430579b0289ac39c0720204
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 2485aa48a8af05fdf945f39523439743f30977c6
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753241"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805750"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Руководство по организации системы управления для сложных предприятий
 
@@ -81,7 +80,7 @@ ms.locfileid: "73753241"
 
 ![Пример минимально жизнеспособного продукта для системы управления инкрементальной модели](../../../_images/govern/governance-improvement-large.png)
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Теперь, когда вы имеете представление о минимально жизнеспособном продукте для системы управления и ее предстоящих изменениях, ознакомьтесь с контекстуальными сведениями в дополнительной статье.
 

@@ -1,6 +1,5 @@
 ---
 title: Руководство по разработке плана бизнес-изменения
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Процесс миграции в облако, предназначенный для выполнения задач миграции рабочих нагрузок в облако.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2050c210bad9434e688ec4ef7c2e700cccf39f2c
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 48e670028e26be5a28abf55c7a0565769e17dacf
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564592"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801976"
 ---
 # <a name="business-change-plan"></a>Изменение бизнес-плана
 

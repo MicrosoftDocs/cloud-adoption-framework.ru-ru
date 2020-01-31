@@ -1,6 +1,5 @@
 ---
 title: Руководство по инновациям Azure. Перед началом работы
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как создавать инновационные решения для клиентов, использующих Azure.
 author: matticusau
 ms.author: mlavery
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: bccac613f60c87260b946c7ca92b556d40926286
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 7929224bb8b0a3c0a9bec83ef5a08b492cb2d5f4
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251850"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808283"
 ---
 ::: zone target="docs"
 

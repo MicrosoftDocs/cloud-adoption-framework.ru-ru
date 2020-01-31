@@ -1,6 +1,5 @@
 ---
 title: Как можно согласовать усилия с осмысленными показателями обучения?
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Объяснение концепции обучающих метрик
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: b19357bd98858cc227426d2adb03a6e84210b9b3
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: ab79efb82b641ea19c0774d3809a9115995bec58
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753781"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798134"
 ---
 <!-- markdownlint-disable MD026 -->
 

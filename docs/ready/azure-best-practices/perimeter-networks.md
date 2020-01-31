@@ -1,6 +1,5 @@
 ---
 title: Сети периметра
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Сети периметра
 author: tracsman
 ms.author: jonor
@@ -11,12 +10,12 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 08e2998e6e9f561189562f65b463aa1e0ffbe5b4
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 6125a428d67130d891623a30ca75a11527fbbe23
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160506"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799783"
 ---
 # <a name="perimeter-networks"></a>Сети периметра
 
@@ -74,7 +73,7 @@ ms.locfileid: "74160506"
 
 Используйте один набор экземпляров Брандмауэра Azure (или NVA) для трафика, поступающего из Интернета, и другой набор — для трафика, создаваемого локальными системами. Использование только одного набора брандмауэров в обоих случаях представляет угрозу безопасности, так как между двумя наборами сетевого трафика отсутствует периметр безопасности. Использование отдельных уровней брандмауэра упрощает проверку правил безопасности, а также помогает понять, какие правила соответствуют определенным входящим сетевым запросам.
 
-## <a name="azure-load-balancer"></a>Подсистема балансировщика нагрузки Azure
+## <a name="azure-load-balancer"></a>Azure Load Balancer
 
 [Azure Load Balancer][ALB] обеспечивает высокий уровень доступности (уровень 4) (TCP, UDP), который может распределять входящий трафик между экземплярами службы, определенными в наборе балансировки нагрузки. Трафик, отправленный в подсистему балансировки нагрузки из интерфейсных конечных точек (конечных точек общедоступного или частного IP-адреса), может распространяться с преобразованием адреса и без него в пул внутренних IP-адресов (таких как NVA или виртуальных машин).
 

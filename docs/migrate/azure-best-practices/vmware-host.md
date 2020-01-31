@@ -1,6 +1,5 @@
 ---
 title: Рекомендации по миграции узла VMware в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Введение в рекомендации по миграции узла VMware в Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b55fc8fa06a5e33fde12754e893dd2309407746b
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: c0cbcf87e21789947229dafc717d49ec798e53c2
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564669"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803574"
 ---
 # <a name="vmware-host-migration-best-practices-for-azure"></a>Рекомендации по миграции узла VMware в Azure
 

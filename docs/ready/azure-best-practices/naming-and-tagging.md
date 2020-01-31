@@ -1,6 +1,5 @@
 ---
 title: Рекомендации по именованию и добавлению тегов
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: В этой статье приведены подробные рекомендации по присвоению имен и тегов ресурсам, предназначенные специально для поддержки корпоративных облачных операций по внедрению.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness
-ms.openlocfilehash: e1958d48eec112d11838835b853430c04601ab8b
-ms.sourcegitcommit: f53e8620adfca7bb5660ef23cac1dab069998e0e
+ms.openlocfilehash: b61c9a9ffd778e657854b4da1269eebdb762c73b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "76726329"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799851"
 ---
 # <a name="recommended-naming-and-tagging-conventions"></a>Рекомендации по именованию и добавлению тегов
 

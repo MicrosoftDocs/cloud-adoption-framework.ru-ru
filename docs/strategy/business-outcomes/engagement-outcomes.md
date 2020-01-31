@@ -1,6 +1,5 @@
 ---
 title: Примеры результатов участия клиентов
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Примеры результатов участия клиентов
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 45c4f22613a559add109c1fbfd608452911d0c86
-ms.sourcegitcommit: 7ffb0427bba71177f92618b2f980e864b72742f4
+ms.openlocfilehash: 5ad76f9d1b5b34772396f28cd5c5ba829785f76c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "73047948"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798372"
 ---
 # <a name="examples-of-customer-engagement-outcomes"></a>Примеры результатов участия клиентов
 
@@ -42,7 +41,7 @@ ms.locfileid: "73047948"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Дополнительные сведения о [результатах производительности](./performance-outcomes.md).
+См. [примеры показателей производительности](./performance-outcomes.md).
 
 > [!div class="nextstepaction"]
 > [Результаты производительности](./performance-outcomes.md)

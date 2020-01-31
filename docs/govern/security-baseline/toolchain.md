@@ -1,6 +1,5 @@
 ---
 title: Средства основных способов защиты в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание средств, которые могут способствовать повышению уровня безопасности в Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,16 +8,16 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7f4062c08ef1c9fec72e515453e8acc8cedfc513
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 122e0774912fdc65cd9c8daff0bd48b679634868
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565911"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808810"
 ---
 # <a name="security-baseline-tools-in-azure"></a>Средства основных способов защиты в Azure
 
-[Основные способы защиты](./index.md) — это одна из [пяти дисциплин управления облаком](../governance-disciplines.md). Эта дисциплина сосредоточена на способах установки политик, защищающих сеть, ресурсы и, что важнее, данных, которые будут находиться в решении поставщика облачных служб. В рамках пяти дисциплин управления облаком Базовая оценка безопасности подразумевает классификацию цифровых площадей и данных. Он также включает документацию по рискам, отклонения в бизнесе и стратегии устранения рисков, связанные с безопасностью данных, ресурсов и сетей. С технической точки зрения эта дисциплина также включает участие в принятии решений о [шифровании](../../decision-guides/encryption/index.md), [требованиях к сети](../../decision-guides/software-defined-network/index.md), [стратегиях гибридной идентификации](../../decision-guides/identity/index.md)и средствах для [автоматизации принудительного применения](../../decision-guides/policy-enforcement/index.md) политик безопасности. между [группами ресурсов](../../decision-guides/resource-consistency/index.md).
+[Основные способы защиты](./index.md) — это одна из [пяти дисциплин управления облаком](../governance-disciplines.md). Эта дисциплина сосредоточена на способах установки политик, защищающих сеть, ресурсы и, что важнее, данных, которые будут находиться в решении поставщика облачных служб. В рамках пяти дисциплин управления облаком Базовая оценка безопасности подразумевает классификацию цифровых площадей и данных. Он также включает документацию по рискам, отклонения в бизнесе и стратегии устранения рисков, связанные с безопасностью данных, ресурсов и сетей. С технической точки зрения эта дисциплина также включает участие в принятии решений [о шифровании](../../decision-guides/encryption/index.md), [требованиях к сети](../../decision-guides/software-defined-network/index.md), [стратегиях гибридной идентификации](../../decision-guides/identity/index.md) и средствах для [автоматизации принудительного применения](../../decision-guides/policy-enforcement/index.md) политик безопасности. между [группами ресурсов](../../decision-guides/resource-consistency/index.md).
 
 Следующий список средств Azure может помочь в обработке политик и процессов, поддерживающих базовые показатели безопасности.
 

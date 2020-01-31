@@ -1,6 +1,5 @@
 ---
 title: Автоматизация адаптации
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Автоматизация адаптации
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 83e1cd80bcb821ba1b815291f7f25f875ba66284
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 0c1c06c8e30a61993c9127838de59d070f714c3a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73751585"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808028"
 ---
 # <a name="automate-onboarding"></a>Автоматизация адаптации
 
@@ -37,7 +36,7 @@ ms.locfileid: "73751585"
 
 В этом примере используются файлы, описанные в следующей таблице. Их можно настроить для поддержки собственных сценариев развертывания.
 
-| Имя файла | Описание |
+| Имя файла | Description |
 |-----------|-------------|
 | Нев-амсдеплоймент. ps1 | Главный, координирующий сценарий, автоматизирующий подключение. Он создает группы ресурсов, расположение, рабочую область и учетные записи автоматизации, если они еще не существуют. Для этого скрипта PowerShell требуется существующая подписка. |
 | Workspace-Аутоматионаккаунт. JSON | Шаблон диспетчер ресурсов, который развертывает ресурсы рабочей области и учетной записи службы автоматизации. |

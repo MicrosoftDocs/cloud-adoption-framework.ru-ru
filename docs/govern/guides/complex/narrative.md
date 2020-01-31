@@ -1,6 +1,5 @@
 ---
 title: 'Руководство по управлению для сложных предприятий: сопутствующие инструкции'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Это руководство создает вариант использования для управления во время облачного внедрения сложных предприятий.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: acc82a629adf32cd9a7bfe638b0ad176f1de7933
-ms.sourcegitcommit: 945198179ec215fb264e6270369d561cb146d548
+ms.openlocfilehash: fae1940c1cc522cd917b2b0293d60b630007537c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71967676"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805563"
 ---
 # <a name="governance-guide-for-complex-enterprises-the-supporting-narrative"></a>Руководство по управлению для сложных предприятий: сопутствующие инструкции
 
@@ -61,7 +60,7 @@ ms.locfileid: "71967676"
     ![затраты на локальные ресурсы в сравнении с Azure, демонстрирующие 100 млн долларов США за следующие пять лет](../../../_images/govern/calculator-enterprise.png)
 - Вместе с этой экономией компания планирует изменить управление вложениями в ИТ, изменив зафиксированные капитальные затраты в качестве эксплуатационных расходов. Такое изменение повысит контролируемость инвестиций и ускорит другие запланированные ИТ-проекты.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Компания разработала корпоративную политику для реализации системы управления. Корпоративная политика определяет многие технические решения.
 

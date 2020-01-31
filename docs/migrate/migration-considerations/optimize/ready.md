@@ -1,6 +1,5 @@
 ---
 title: Подготовка перенесенного приложения к перемещению в рабочую среду
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Процесс миграции в облако, предназначенный для выполнения задач миграции рабочих нагрузок в облако.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b7f526cbf2b7efba981058d5614b4378adc8c6f6
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: f3aad7a2b7c592478f9d48a50dc96d5fee607dc8
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71022633"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801619"
 ---
 # <a name="prepare-a-migrated-application-for-production-promotion"></a>Подготовка перенесенного приложения к перемещению в рабочую среду
 
@@ -45,7 +44,7 @@ ms.locfileid: "71022633"
 - **Проверка затрат (плановых и фактических).** Скорее всего, тестирование выявит изменение размера и архитектуры. Убедитесь, что фактические цены на развертывание по-прежнему не противоречат исходному плану.
 - **Объявление и выполнение плана прямой миграции.** Перед выполнением прямой миграции сообщите о ней и выполните план соответствующим образом.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После завершения всех действий по подготовке можно будет [переместить рабочую нагрузку в рабочую среду](./promote.md).
 

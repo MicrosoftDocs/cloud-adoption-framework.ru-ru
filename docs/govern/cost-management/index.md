@@ -1,6 +1,5 @@
 ---
 title: Обзор дисциплины "Управление затратами"
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание управления затратами в отношении управления облаком
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: ac6c3cb0a26cebf655a1161a3fd54197c795c283
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: abba9da343342c99fcfa657aa0abd1c55daaef55
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566424"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806498"
 ---
 # <a name="cost-management-discipline-overview"></a>Обзор дисциплины "Управление затратами"
 
@@ -33,7 +32,7 @@ ms.locfileid: "73566424"
 > [!CAUTION]
 > Примеры политик взяты из общего опыта клиентов. Чтобы лучше согласовать эти политики с конкретными потребностями системы управления облаком, выполните следующие шаги для создания правил политики, соответствующих уникальным потребностям вашей компании.
 
-## <a name="develop-governance-policy-statements"></a>Разработка инструкций политики управления
+## <a name="develop-governance-policy-statements"></a>Разработка положений политики системы управления
 
 Следующие шесть шагов помогут вам определить политики системы управления для контроля затрат в вашей среде.
 
@@ -155,7 +154,7 @@ ms.locfileid: "73566424"
 </li>
 </ul>
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Начните с оценки бизнес-рисков в конкретной среде.
 

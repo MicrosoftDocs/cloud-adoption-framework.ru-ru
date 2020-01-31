@@ -1,6 +1,5 @@
 ---
 title: 'Перенос мэйнфреймов: перенос приложений мэйнфреймов'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Перенос приложений из среды мейнфреймов в проверенную, высокодоступную и масштабируемую инфраструктуру Azure с поддержкой систем, которые сейчас работают на мейнфреймах.
 author: njray
 ms.author: v-nanra
@@ -8,12 +7,12 @@ ms.date: 12/26/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 9eb8c85c2355ae06e63d58e3078f1101bf7e3412
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: a662edd4ae7c6a854014b37cac2ccb0fab4c474e
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73239451"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808827"
 ---
 # <a name="mainframe-application-migration"></a>Перенос приложений с мейнфреймов
 
@@ -77,7 +76,7 @@ ms.locfileid: "73239451"
 
 Чтобы оптимизировать производительность пакетных операций с помощью Azure, учитывайте возможности [вычислительных ресурсов](https://docs.microsoft.com/azure/virtual-machines/windows/overview), [хранилища](https://docs.microsoft.com/azure/storage/blobs/storage-blobs-introduction), [сети](https://azure.microsoft.com/blog/maximize-your-vm-s-performance-with-accelerated-networking-now-generally-available-for-both-windows-and-linux) и [мониторинга](https://docs.microsoft.com/azure/azure-monitor/overview), как описано ниже.
 
-### <a name="compute"></a>Compute
+### <a name="compute"></a>Среда выполнения приложений
 
 Используйте следующую команду:
 
@@ -89,7 +88,7 @@ ms.locfileid: "73239451"
 
 - Параллельную обработку. Azure легко масштабируется для параллельной обработки, обеспечивая большую вычислительную мощность для выполнения пакетных операций.
 
-### <a name="storage"></a>Storage
+### <a name="storage"></a>Хранилище
 
 Используйте следующую команду:
 
@@ -125,7 +124,7 @@ ms.locfileid: "73239451"
 
 ## <a name="migrate-databases-and-data"></a>Перенос баз данных и данных
 
-Как правило, при переносе приложений требуется повторное размещение приложения на уровне данных. Вы можете перенести SQL Server, Открытый исходный код и другие реляционные базы данных в полностью управляемые решения в Azure, такие как [управляемый экземпляр базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance), [Служба базы данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql/overview)и [база данных Azure для MySQL](https://docs.microsoft.com/azure/mysql/overview) с [ Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview).
+Как правило, при переносе приложений требуется повторное размещение приложения на уровне данных. Вы можете перенести SQL Server, Открытый исходный код и другие реляционные базы данных в полностью управляемые решения в Azure, такие как [управляемый экземпляр базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance), [Служба базы данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql/overview)и [база данных Azure для MySQL](https://docs.microsoft.com/azure/mysql/overview) с [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview).
 
 К примеру, вы можете перенести приложение, если на уровне данных мейнфрейма используются:
 
@@ -175,7 +174,7 @@ ms.locfileid: "73239451"
 
 Azure предоставляет проверенную, высокодоступную и масштабируемую инфраструктуру для систем, которые сейчас работают на мейнфреймах. Некоторые рабочие нагрузки можно перенести без особых трудностей. Другие рабочие нагрузки, зависящие от программного обеспечения устаревших систем, такие как CICS и IMS, можно со временем перенести в Azure с помощью решений партнеров. Какой бы из вариантов вы не выбрали, корпорация Майкрософт и ее партнеры готовы помочь вам оптимизировать решение для Azure, сохранив функциональные возможности программного обеспечения системы мейнфрейма.
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее…
 
 Для получения дополнительных сведений см. следующие ресурсы:
 

@@ -1,6 +1,5 @@
 ---
 title: Повторное размещение локального приложения Linux на виртуальных машинах Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как компания Contoso повторно размещает локальное приложение Linux путем переноса на виртуальные машины Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 078749474b13074d9196a80c10768da468e423bc
-ms.sourcegitcommit: b166fe1621fe7e886616009e56b76873b8cce83c
+ms.openlocfilehash: b629cc932b54b7ef7c633cefc847ac3263477674
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76520214"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807348"
 ---
 # <a name="rehost-an-on-premises-linux-app-to-azure-vms"></a>Повторное размещение локального приложения Linux на виртуальных машинах Azure
 
@@ -69,7 +68,7 @@ ms.locfileid: "76520214"
 
 **Рассмотрение** | **Сведения**
 --- | ---
-**Преимущества** | Обе виртуальные машины будут перемещены в Azure без изменений, упрощая миграцию.<br/><br/> Так как компания Contoso использует подход с приближением и сдвигом для виртуальных машин приложений, для базы данных приложения специальные средства настройки или миграции не требуются.<br/><br/> Компания Contoso сохранит полный контроль над виртуальными машинами приложений в Azure. <br/><br/> Виртуальные машины приложения работают под управлением ОС Ubuntu 16.04-TLS, которая является одобренным дистрибутивом Linux. [Узнайте больше](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros).
+**Преимущества** | Обе виртуальные машины будут перемещены в Azure без изменений, упрощая миграцию.<br/><br/> Так как компания Contoso использует подход с приближением и сдвигом для виртуальных машин приложений, для базы данных приложения специальные средства настройки или миграции не требуются.<br/><br/> Компания Contoso сохранит полный контроль над виртуальными машинами приложений в Azure. <br/><br/> Виртуальные машины приложения работают под управлением ОС Ubuntu 16.04-TLS, которая является одобренным дистрибутивом Linux. [Подробнее](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros).
 **Недостатки** | Веб-уровень и уровень данных приложения останутся в одной точке отработки отказа. <br/><br/> Компании Contoso потребуется и дальше поддерживать виртуальные машины приложения, а не переходить на управляемую службу, такую как Служба приложений Azure и База данных Azure для MySQL.<br/><br/> Компания Contoso осведомлена о том, что благодаря простоте миграции виртуальных машин с переносом и сменой виртуальной машины они не используют все преимущества функций [базы данных Azure для MySQL](https://docs.microsoft.com/azure/mysql/overview) (Встроенная Высокая доступность, прогнозируемая производительность, простое масштабирование, автоматическое резервное копирование и встроенная безопасность).
 
 <!-- markdownlint-enable MD033 -->
@@ -300,8 +299,8 @@ Contoso будет осуществлять миграцию следующим 
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление, специалисты компании Contoso выполняют указанные ниже действия.
 
-- **Безопасное хранение данных.** Компания Contoso выполняет резервное копирование данных с виртуальных машин при помощи службы Azure Backup. [Узнайте больше](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json).
-- **Поддержание бесперебойной работы приложений.** Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Узнайте больше](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
+- **Безопасное хранение данных.** Компания Contoso выполняет резервное копирование данных с виртуальных машин при помощи службы Azure Backup. [Подробнее](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json).
+- **Поддержание бесперебойной работы приложений.** Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Подробнее](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 

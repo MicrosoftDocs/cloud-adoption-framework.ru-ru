@@ -1,6 +1,5 @@
 ---
 title: 'Облачные инновации: данные более демократичным'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Введение в облачные инновации — данные более демократичным
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 242985f57cc377b78328e2277ba76f15abaec8b8
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 158c3e25bac2124312a8ceaf3ac5500a58246f48
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753040"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808504"
 ---
 # <a name="democratize-data"></a>Упрощение доступа к данным
 

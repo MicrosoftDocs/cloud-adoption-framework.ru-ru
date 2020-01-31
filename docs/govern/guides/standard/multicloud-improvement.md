@@ -1,6 +1,5 @@
 ---
 title: 'Стандартное руководство по корпоративному управлению: улучшение в облаке'
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: 'Стандартное руководство по корпоративному управлению: улучшение в облаке'
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 29f45afcb10b7d12df8392a8dd9d0d577414e59b
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 3952111d8e4c9bdc8c1920d72e763a56427bb397
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753070"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806158"
 ---
 # <a name="standard-enterprise-governance-guide-multicloud-improvement"></a>Стандартное руководство по корпоративному управлению: улучшение в облаке
 

@@ -1,6 +1,5 @@
 ---
 title: Поддержка бизнес-приоритетов в процессе длительного преобразования
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Поддержка бизнес-приоритетов в процессе длительного преобразования.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a609dbc1c8779452c5dfc9e4fdf67eb407e6c787
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: 2a48dad8cb7d64b766dc5b9a445aeda4245854e7
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72549196"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802724"
 ---
 # <a name="business-priorities-maintaining-alignment"></a>Бизнес-приоритеты: поддержание выравнивания
 

@@ -1,6 +1,5 @@
 ---
 title: Общие сведения о дисциплине "Ускорение развертывания"
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Сведения об ускорении развертывания в связи с управлением облаком.
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 9de6f01a4252383c1d7619078568964fe8e685c9
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 02741fdaeab54267fbb54fcfaa0c65a3f1207045
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566369"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76804186"
 ---
 # <a name="deployment-acceleration-discipline-overview"></a>Общие сведения о дисциплине "Ускорение развертывания"
 
@@ -35,7 +34,7 @@ ms.locfileid: "73566369"
 > [!CAUTION]
 > Примеры политик взяты из общего опыта клиентов. Чтобы лучше согласовать эти политики с конкретными потребностями системы управления облаком, выполните следующие шаги для создания правил политики, соответствующих уникальным потребностям вашей компании.
 
-## <a name="develop-governance-policy-statements"></a>Разработка инструкций политики управления
+## <a name="develop-governance-policy-statements"></a>Разработка положений политики системы управления
 
 Следующие шесть пунктов помогут определить политики управления для контроля развертывания и настройки ресурсов в вашей облачной среде.
 
@@ -157,7 +156,7 @@ ms.locfileid: "73566369"
 </li>
 </ul>
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Начните с оценки [бизнес-рисков](./business-risks.md) в конкретной среде.
 

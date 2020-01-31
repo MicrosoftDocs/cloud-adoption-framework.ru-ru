@@ -1,6 +1,5 @@
 ---
 title: Руководство по организации системы управления для стандартных предприятий
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Руководство по организации системы управления для стандартных предприятий
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1f0db9ecd49973c769d74a5357e56406e3bce3cf
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: dc52ce58bf6ecb62723674c1c4ecfb12f72d07ca
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73239695"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806226"
 ---
 # <a name="standard-enterprise-governance-guide"></a>Руководство по организации системы управления для стандартных предприятий
 
@@ -55,7 +54,7 @@ ms.locfileid: "73239695"
 
 ## <a name="iterative-governance-improvements"></a>Итеративное улучшение системы управления
 
-После развертывания MVP в среду можно быстро интегрировать дополнительные уровни управления. Ниже приведены некоторые способы улучшения MVP в соответствии с потребностями конкретной организации.
+После развертывания MVP в среду можно быстро интегрировать дополнительные уровни управления. Ниже описаны некоторые способы улучшения MVP в соответствии с потребностями конкретной организации:
 
 - [Базовая система безопасности — защищенные данные](./security-baseline-improvement.md)
 - [Настройки ресурсов для критически важных приложений](./resource-consistency-improvement.md)
@@ -80,7 +79,7 @@ ms.locfileid: "73239695"
 
 ![Пример минимально жизнеспособного продукта для системы управления инкрементальной модели](../../../_images/govern/governance-improvement.png)
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Теперь, когда вы знакомы с минимально жизнеспособным продуктом для системы управления и имеете представление об улучшении системы управления, ознакомьтесь с контекстуальными сведениями в дополнительной статье.
 

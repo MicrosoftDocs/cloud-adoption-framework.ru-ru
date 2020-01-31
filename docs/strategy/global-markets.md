@@ -1,6 +1,5 @@
 ---
 title: Общие сведения о влиянии глобальных решений на рынке
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Объяснение концепции глобальных рынков
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 36f0d5ccf826746370054ed213b83968babdee6b
-ms.sourcegitcommit: 35c162d2d09ec1c4a57d3d57a5db1d56ee883806
+ms.openlocfilehash: af3c9d8b155d2c6a5e861e64b6472effbafcbb6d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72548625"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798168"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -21,7 +20,7 @@ ms.locfileid: "72548625"
 
 Облако открывает новые возможности для выполнения в глобальном масштабе. Барьеры в глобальных операциях значительно сокращаются за счет того, что компании могут развертывать ресурсы на рынке, не требуя от них значительных инвестиций в новые центры обработки данных. К сожалению, это также повышает сложность технических и юридических перспектив.
 
-## <a name="data-sovereignty"></a>Независимости данных
+## <a name="data-sovereignty"></a>Независимость данных
 
 Многие георегулирующие регионы установили правила независимости данных. Эти правила ограничивают место хранения данных, то, какие данные могут покинуть страну происхождения, и какие данные можно собирать о гражданах этого региона. Прежде чем приступить к работе с облачными решениями во внешнем географическом регионе, необходимо понять, как поставщик облачных вычислений обрабатывает независимости данных. Дополнительные сведения о подходе Azure для каждой географии доступны [здесь](https://azure.microsoft.com/global-infrastructure/geographies). Дополнительные сведения о соответствии требованиям в Azure см. в разделе [Конфиденциальность в Майкрософт](https://www.microsoft.com/trustcenter/privacy) в центре управления безопасностью Майкрософт.
 

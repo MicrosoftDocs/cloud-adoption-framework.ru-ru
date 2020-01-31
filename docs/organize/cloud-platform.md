@@ -1,6 +1,5 @@
 ---
 title: Возможности облачной платформы
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание формирования возможностей облачной платформы
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: faeea7a0e42c45894d82b31becca06562fef94b9
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: be5e914bd154ec2db0578714d08383c3c8770a5a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71029928"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76800973"
 ---
 # <a name="cloud-platform-capabilities"></a>Возможности облачной платформы
 
@@ -29,9 +28,9 @@ ms.locfileid: "71029928"
 - Корпоративная архитектура
 - Операции ИТ
 - Управление ИТ
-- ИТ-инфраструктура
-- Сети
-- идентификации
+- ИТ – инфраструктура
+- Работа в сети
+- Удостоверение
 - Виртуализация
 - Непрерывность бизнес-процессов и аварийное восстановление
 - Владельцы приложений в ИТ
@@ -50,7 +49,7 @@ ms.locfileid: "71029928"
   - [мотивации для внедрения в облако](../strategy/motivations.md)
   - [бизнес-риски](../govern/policy-compliance/risk-tolerance.md)
   - [рационализация цифрового пространства](../digital-estate/index.md)
-- Отслеживайте планы внедрения и ход выполнения по приоритетной невыполненной [миграции](../migrate/migration-considerations/assess/release-iteration-backlog.md).
+- Отслеживайте планы внедрения и ход выполнения по [приоритетной невыполненной миграции](../migrate/migration-considerations/assess/release-iteration-backlog.md).
 - Выявление и определение приоритетов изменений платформы, необходимых для поддержки невыполненной работы миграции.
 
 ### <a name="technical-tasks"></a>Технические задачи
@@ -70,7 +69,7 @@ ms.locfileid: "71029928"
 
 Опыт работы с облачной платформой обычно поступает от рабочей группы. Участники должны зафиксировать большую часть ежедневных расписаний на работу с облачной платформой. Вклады не ограничиваются собраниями и циклами обратной связи.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере того, как облачная платформа станет более эффективной, можно повысить эффективность внедрения, выровняйте [возможности облачной автоматизации](./cloud-automation.md) . Кроме того, он позволяет создавать лучшие решения и сокращать деловые и технические риски.
 

@@ -1,6 +1,5 @@
 ---
 title: Рефакторинг развертывания Team Foundation Server и его перенос в Azure DevOps Services в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как Contoso выполняет рефакторинг локального развертывания TFS, перемещая его в Azure DevOps Services в Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 48ceb3581f72f6fed72360ecf4e30596b4d2eb72
-ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
+ms.openlocfilehash: 6a80ab660afc9b604a027d3475bb6e2d99f00c98
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868103"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807399"
 ---
 # <a name="refactor-a-team-foundation-server-deployment-to-azure-devops-services"></a>Рефакторинг развертывания Team Foundation Server и его перенос в Azure DevOps Services
 
@@ -128,7 +127,7 @@ ms.locfileid: "75868103"
      ![TFS](./media/contoso-migration-tfs-vsts/upgrade5.png)
 
 > [!NOTE]
-> Некоторым обновлениям TFS необходимо запустить мастер настройки компонентов после завершения обновления. [Узнайте больше](https://docs.microsoft.com/azure/devops/reference/configure-features-after-upgrade?utm_source=ms&utm_medium=guide&utm_campaign=vstsdataimportguide&view=vsts).
+> Некоторым обновлениям TFS необходимо запустить мастер настройки компонентов после завершения обновления. [Подробнее](https://docs.microsoft.com/azure/devops/reference/configure-features-after-upgrade?utm_source=ms&utm_medium=guide&utm_campaign=vstsdataimportguide&view=vsts).
 
 **Нужна дополнительная помощь?**
 

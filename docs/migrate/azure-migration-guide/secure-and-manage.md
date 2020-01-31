@@ -1,6 +1,5 @@
 ---
 title: Защита и управление
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Защита и управление
 author: matticusau
 ms.author: mlavery
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: bd06a0e878b98ff52c7d2c5ab8a3b978758a2ef6
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 6490c9dec38755fcb271774d00471b2a22888fd1
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251624"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806974"
 ---
 # <a name="secure-and-manage"></a>Защита и управление
 
@@ -39,7 +38,7 @@ ms.locfileid: "74251624"
 
 ::: zone target="docs"
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 - [Общие сведения об Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview).
 
@@ -70,7 +69,7 @@ ms.locfileid: "74251624"
 
 ::: zone target="docs"
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Подробные сведения см. в [документации по Работоспособности служб Azure](https://docs.microsoft.com/azure/service-health).
 
@@ -93,7 +92,7 @@ ms.locfileid: "74251624"
 
 ::: zone target="docs"
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 [Обзор](https://docs.microsoft.com/azure/advisor/advisor-overview).
 
@@ -116,7 +115,7 @@ ms.locfileid: "74251624"
 
 ::: zone target="docs"
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 [Обзор](https://docs.microsoft.com/azure/security-center/security-center-intro)
 
@@ -133,7 +132,7 @@ Azure Backup — это служба на платформе Azure, исполь
 1. Выберите существующее или создайте новое хранилище Служб восстановления.
 1. Выберите **Create (or edit) a new policy** (Создать (или изменить) новую политику).
 1. Настройте расписание и период хранения.
-1. Нажмите кнопку **ОК**.
+1. Щелкните **ОК**.
 1. Выберите **Включить резервное копирование**.
 
 ::: zone target="chromeless"
@@ -192,7 +191,7 @@ Azure Backup — это служба на платформе Azure, исполь
 
 ::: zone target="docs"
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 - [Обзор Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview)
 - [Репликация виртуальной машины Azure в другой регион](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)

@@ -1,6 +1,5 @@
 ---
 title: Управление затратами и выставление счетов для ресурсов Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Интерпретируйте счета и узнайте, как настроить бюджеты и платежи для ресурсов Azure.
 author: dchimes
 ms.author: kfollis
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 51d2ae124089ee1afa07e64b2e72bb1eb608bebb
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 4f0f0d900f75338a33b1873b8d0eac6d91835256
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251686"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799528"
 ---
 # <a name="manage-costs-and-billing-for-your-azure-resources"></a>Управление затратами и выставление счетов для ресурсов Azure
 
@@ -63,13 +62,13 @@ ms.locfileid: "74251686"
 1. Перейдите в раздел [Справка и поддержка](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
 1. Выберите **Все запросы на поддержку**.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
 - [Документация по выставлению счетов и управлению затратами в Azure](https://docs.microsoft.com/azure/billing)
-- [Track costs across business units, environments, or projects](../azure-best-practices/track-costs.md) (Отслеживание затрат по бизнес-подразделениям, средам или проектам)
-- [Обзор дисциплины "Управление затратами"](../../govern/cost-management/index.md)
+- [Role-based business units, environments, or projects](../azure-best-practices/track-costs.md) (Отслеживание затрат по бизнес-подразделениям, средам или проектам)
+- [Role-based "Управление затратами"](../../govern/cost-management/index.md)
 
 ::: zone-end
 

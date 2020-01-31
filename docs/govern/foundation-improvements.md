@@ -1,6 +1,5 @@
 ---
 title: Улучшите начальное облако по управлению Cloud Foundation
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как постепенно улучшать начальную облачную систему управления.
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 315797d7ef4ab93d5d386ee32a499f4172752687
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 1b46157e134967095cff9ff84bcfb5b826a22bae
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74159925"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805818"
 ---
 # <a name="improve-your-initial-cloud-governance-foundation"></a>Улучшите начальное облако по управлению Cloud Foundation
 

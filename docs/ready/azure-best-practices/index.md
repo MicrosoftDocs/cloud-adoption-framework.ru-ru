@@ -1,6 +1,5 @@
 ---
 title: Рекомендации по обеспечению готовности к работе в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Обзор рекомендаций по обеспечению готовности к работе в Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: d55635078be0c32496a0237df1b2a67aecc5e574
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 4410c9628cbdf070d2862ba09812e4b968911419
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73240155"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799885"
 ---
 # <a name="best-practices-for-azure-readiness"></a>Рекомендации по обеспечению готовности к работе в Azure
 
@@ -47,7 +46,7 @@ ms.locfileid: "73240155"
 - [Рекомендации по управлению доступом на основе ролей.](../considerations/roles.md) Управление доступом на основе ролей Azure помогает избирательно контролировать доступ на основе групп к ресурсам c назначением определенных ролей пользователей.
 - [Защита привилегированного доступа для гибридных и облачных развертываний в Azure Active Directory.](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-admin-roles-secure?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) Используйте Azure Active Directory для защиты учетных записей администраторов и административного доступа в пределах организации в облаке и локальной среде.
 
-## <a name="storage"></a>Хранилище
+## <a name="storage"></a>Память
 
 - [Рекомендации по выбору службы хранилища Azure.](../considerations/storage-options.md) Выберите оптимальное решение службы хранилища Azure в соответствии с вашими сценариями использования.
 - [Руководство по защите службы хранилища Azure.](https://docs.microsoft.com/azure/storage/common/storage-security-guide?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) Узнайте о функциях системы безопасности службы хранилища Azure.

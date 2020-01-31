@@ -1,6 +1,5 @@
 ---
 title: Эффективная организация ресурсов Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Рекомендации по эффективной организации ресурсов Azure для простоты управления.
 author: laraaleite
 ms.author: kfollis
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 393c80c684de13cf27cba738a8e539533de57d38
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 790bb68a862343452aa5481e20596a839bb7b93c
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251413"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799341"
 ---
 # <a name="organize-your-azure-resources"></a>Организация ресурсов Azure
 
@@ -74,12 +73,12 @@ ms.locfileid: "74251413"
 1. Введите имя для **группы ресурсов**.
 1. Выберите **регион** для расположения группы ресурсов.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
 - [Основные понятия Azure](../considerations/fundamental-concepts.md)
-- [Scaling with multiple Azure subscriptions](../azure-best-practices/scaling-subscriptions.md) (Масштабирование с помощью нескольких подписок Azure)
+- [Масштабирование с использованием нескольких подписок Azure](../azure-best-practices/scaling-subscriptions.md)
 - [Resource access management in Azure](../../govern/resource-consistency/resource-access-management.md) (Управление доступом к ресурсам в Azure)
 - [Упорядочение ресурсов с помощью групп управления Azure](https://docs.microsoft.com/azure/azure-resource-manager/management-groups-overview)
 - [Подписка Azure, границы, квоты и ограничения службы](https://docs.microsoft.com/azure/azure-subscription-service-limits)
@@ -143,8 +142,8 @@ ms.locfileid: "74251413"
 
 | Сущность | Область | Длина | Регистр | Допустимые знаки | Рекомендуемый шаблон | Пример |
 | --- | --- | --- | --- | --- | --- | --- |
-|группа ресурсов. |Subscription |1–90 |Без учета регистра |Буквы, цифры, символ подчеркивания, круглые скобки, дефис и точка (но не в конце имени) и символы Юникода |`<service short name>-<environment>-rg` |`profx-prod-rg` |
-|Группа доступности |группа ресурсов. |От 1 до 80 |Без учета регистра |Буквы, цифры, символ подчеркивания и дефис |`<service-short-name>-<context>-as` |`profx-sql-as` |
+|Группа ресурсов |Подписка |1–90 |Без учета регистра |Буквы, цифры, символ подчеркивания, круглые скобки, дефис и точка (но не в конце имени) и символы Юникода |`<service short name>-<environment>-rg` |`profx-prod-rg` |
+|Группа доступности |Группа ресурсов |От 1 до 80 |Без учета регистра |Буквы, цифры, символ подчеркивания и дефис |`<service-short-name>-<context>-as` |`profx-sql-as` |
 |Тег |Связанная сущность |512 (имя), 256 (значение) |Без учета регистра |Буквенно-цифровой |`"key" : "value"` |`"department" : "Central IT"` |
 
 # <a name="resource-tagstabresourcetags"></a>[Теги ресурсов](#tab/ResourceTags)
@@ -174,7 +173,7 @@ ms.locfileid: "74251413"
 1. Выберите **Назначить теги**.
 1. Введите новые имя и значение или выберите имеющиеся в раскрывающемся списке.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. в статье об [организации ресурсов Azure с помощью тегов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags).
 

@@ -1,6 +1,5 @@
 ---
 title: Предварительные требования для миграции в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Предварительные требования для миграции в Azure
 author: matticusau
 ms.author: mlavery
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 93479cb16b25d40d2f49356b19c4722497bc19f4
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 9baf2c9fdd307125e80fa77d8b2be54bec15b931
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251801"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806991"
 ---
 ::: zone target="chromeless"
 
@@ -54,7 +53,7 @@ ms.locfileid: "74251801"
 - обеспечение рентабельности инвестиций.
 
 > [!NOTE]
-> Еще одним преимуществом этого процессе миграции является дополнительная модель поддержки программного обеспечения для Windows 2008, Windows 2008 R2, SQL Server 2008 и SQL Server 2008 R2. Дополнительные сведения можно найти в разделе
+> Еще одним преимуществом этого процессе миграции является дополнительная модель поддержки программного обеспечения для Windows 2008, Windows 2008 R2, SQL Server 2008 и SQL Server 2008 R2. Дополнительные сведения см. в разделе:
 >
 > - [Windows Server 2008 и Windows Server 2008 R2](https://www.microsoft.com/cloud-platform/windows-server-2008).
 > - [SQL Server 2008 и SQL Server 2008 R2](https://www.microsoft.com/sql-server/sql-server-2008).
@@ -69,7 +68,7 @@ ms.locfileid: "74251801"
 
 При оценке рабочих нагрузок для миграции следует определить приложения, которые не потребуют существенного изменения для выполнения с помощью технологий PaaS, таких как Служба приложений Azure, или с помощью оркестраторов, таких как Служба Azure Kubernetes. Эти приложения должны быть первыми кандидатами для модернизации и оптимизации в облаке.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 - [Руководство по принятию решений о миграции Cloud Adoption Framework](../../decision-guides/migrate-decision-guide/index.md)
 - [Пять принципов рационализации](../../digital-estate/5-rs-of-rationalization.md)
@@ -101,7 +100,7 @@ ms.locfileid: "74251801"
 
 <!-- markdownlint-disable MD024 -->
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 - [Пять принципов рационализации](../../digital-estate/5-rs-of-rationalization.md)
 - [Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)

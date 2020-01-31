@@ -1,6 +1,5 @@
 ---
 title: Руководство по миграции в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Изучите пошаговые инструкции, позволяющие эффективно перенести службы организации в Azure.
 author: matticusau
 ms.author: mlavery
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9f27c7fca9a9a5bd2f5c38f78b8db2092b24d014
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 6f5592c93bb78b14a85e37ffa67ffea697a12345
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251489"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807042"
 ---
 ::: zone target="docs"
 
@@ -88,7 +87,7 @@ ms.locfileid: "74251489"
 
 ::: zone target="docs"
 
-Дополнительные сведения можно найти в разделе
+Дополнительные сведения см. в разделе:
 
 - [Руководство по расширенному сценарию миграции](../expanded-scope/index.md)
 

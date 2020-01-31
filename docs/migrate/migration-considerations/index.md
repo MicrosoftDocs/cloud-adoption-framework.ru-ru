@@ -1,6 +1,5 @@
 ---
 title: Модель миграции Cloud Adoption Framework
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Модель миграции Cloud Adoption Framework
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8087c67d07a17475e49d70a2b70b78d8af20460a
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 46689512ec799ff8b5aa47ea095d34d8c25dd83a
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73240275"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802435"
 ---
 # <a name="cloud-adoption-framework-migration-model"></a>Модель миграции Cloud Adoption Framework
 
@@ -55,7 +54,7 @@ ms.locfileid: "73240275"
 
 Согласованное применение этих принципов позволяет реализовать конечную цель миграции в облако и не должно рассматриваться как необходимое условие на старте. По мере совершенствования вашего подхода к миграции мы рекомендуем вернуться к этому документу для выбора оптимального процесса, соответствующего потребностям организации.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Начните изучение этой модели с ознакомления с [предварительными требованиями для миграции](./prerequisites/index.md).
 

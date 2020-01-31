@@ -1,6 +1,5 @@
 ---
 title: Управление облаком и операции. Рекомендации
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Управление облаком и операции. Рекомендации
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 90fd78e45f71c6ca52ea76f5efe6a3aaae49af74
-ms.sourcegitcommit: 50788e12bb744dd44da14184b3e884f9bddab828
+ms.openlocfilehash: 88ff7f7f068eeb2c516717930f3633ac1473281f
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74160306"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807790"
 ---
 # <a name="it-management-and-operations-in-the-cloud"></a>Управление ИТ-ресурсами и операции в облаке
 
@@ -31,7 +30,7 @@ ms.locfileid: "74160306"
 
 ![Методология управления в соответствии с Cloud Adoption Framework](../../_images/manage/caf-manage.png)
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы получить более глубокое представление о новой модели управления облачными решениями, ознакомьтесь с [основными сведениями о согласовании бизнес-процессов](./business-alignment.md).
 

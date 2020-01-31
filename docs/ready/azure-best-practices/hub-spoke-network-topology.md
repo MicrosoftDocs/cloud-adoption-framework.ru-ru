@@ -1,6 +1,5 @@
 ---
-title: Топология сети концентратора и звезды
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
+title: Звездообразная топология сети
 description: Сведения о топологиях центральных и периферийных сетей.
 author: tracsman
 ms.author: jonor
@@ -11,14 +10,14 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 166c45feddd1b6e1ccc17b5301b99e91a3d18e0e
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 3f0a49675e82727b07c3d285397768de6429e8e8
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566772"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76800038"
 ---
-# <a name="hub-and-spoke-network-topology"></a>Топология сети концентратора и звезды
+# <a name="hub-and-spoke-network-topology"></a>Звездообразная топология сети
 
 *Звездообразная топология* — это сетевая модель для более эффективного управления общими требованиями к обмену данными или обеспечению безопасности. Она также позволяет избежать ограничений подписки Azure. В этой модели уделяется особое внимание следующим вопросам.
 

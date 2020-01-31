@@ -1,6 +1,5 @@
 ---
 title: Контрольный список при расширенной области миграции в облако
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Контрольный список при расширенной области миграции в облако
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 181777e08e82cf7e58c73c7c8b66544d0960656d
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 6a7a59ba62204d43b7085ab3dbd6b934d6aaccc1
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73564638"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76803115"
 ---
 # <a name="expanded-scope-for-cloud-migration"></a>Расширенная область миграции в облако
 
@@ -42,7 +41,7 @@ ms.locfileid: "73564638"
 
 Каждому из этих сценариев посвящены разные статьи в этом разделе документации по Cloud Adoption Framework.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Просмотрите оглавление слева, чтобы найти статьи в соответствии с задачами или изменениями области действия. При изучении этих сценариев начните с первого документа в этом списке, посвященного [балансировке портфеля](./balance-the-portfolio.md).
 

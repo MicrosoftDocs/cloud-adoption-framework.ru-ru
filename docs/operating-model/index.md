@@ -1,6 +1,5 @@
 ---
 title: Общие сведения о производственной модели
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте о производственной модели Cloud Adoption Framework.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: operating-model
-ms.openlocfilehash: cbd9f8dcea85b22f68ddb0401ef5713491200fdc
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: a04be99cfa3a37c9627b4384f240dac865d63da3
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753661"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806957"
 ---
 # <a name="establish-an-operating-model-for-the-cloud"></a>Создание производственной модели для облака
 
@@ -48,7 +47,7 @@ ms.locfileid: "73753661"
 
 Если основной выбранной платформой является Azure, руководства и рекомендации из предыдущих разделов, посвященных операционным моделям, окажутся полезными при создании вашей собственной операционной модели. Но следует помнить о том, что не все наши клиенты предпочитают использовать Azure в качестве основной платформы. Чтобы охватить всю аудиторию, мы сделали так, чтобы содержимое каждого раздела описывало операционные модели на основе общедоступного или частного облака, а их применение давало сходные результаты.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Внедрение системы управления — это традиционный первый шаг при создании производственной модели для облака.
 

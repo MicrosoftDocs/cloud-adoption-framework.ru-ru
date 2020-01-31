@@ -1,6 +1,5 @@
 ---
 title: Управление доступом к среде Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как настроить управление доступом к среде Azure с помощью управления доступом на основе ролей (RBAC).
 author: LijuKodicheraJayadevan
 ms.author: kfollis
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 033d9b254523562c30022a75a97dc10e649a45df
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 83f9461302af6710464b8c7e81a866cfc25d5852
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251375"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799596"
 ---
 # <a name="manage-access-to-your-azure-environment-with-role-based-access-controls"></a>Управление доступом к среде Azure с помощью управления доступом на основе ролей
 
@@ -83,7 +82,7 @@ Cloud Adoption Framework предоставляет дополнительные
 1. Выберите **+ Добавить** > **Добавить назначение ролей**.
 1. Выберите роль, а затем назначьте доступ пользователю, группе или субъекту-службе.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 

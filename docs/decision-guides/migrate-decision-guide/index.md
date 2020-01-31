@@ -1,6 +1,5 @@
 ---
 title: Руководство по принятию решений о миграции
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Руководство по принятию решений о миграции
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
-ms.openlocfilehash: 2129e0f27dd44a32ea0966326cd0c172603783cf
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 38c0e6b56a51155be10501328d68c08bd500847e
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753345"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806753"
 ---
 # <a name="migration-tools-decision-guide"></a>Руководство по принятию решений о миграции
 
@@ -38,7 +37,7 @@ ms.locfileid: "73753345"
 
 Так как платформа Cloud Adoption Framework в значительной мере ориентирована на процессы [добавочной миграции](../../migrate/index.md#migration-implementation), любое первоначальное решение по стратегии и средствам миграции не исключает последующих инноваций и обновлений приложений для использования новых возможностей платформы Azure. Даже если первоначальная миграция нацелена только на смену размещения по модели IaaS, обязательно регулярно проверяйте портфель размещенных в облаке приложений для определения возможностей по оптимизации.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 - **[Общие сведения об облаке. Обзор вычислительных служб в Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/compute-overview).** Содержит сведения о возможностях вычислительных служб IaaS и PaaS в Azure.
 - **[Общие сведения об облаке. Выбор подходящего хранилища данных](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview).** Описывает варианты хранилищ данных PaaS на платформе Azure.

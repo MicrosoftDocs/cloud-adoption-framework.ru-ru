@@ -1,6 +1,5 @@
 ---
 title: Улучшенный базовый план управления в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Распространенные улучшения базового плана управления
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 8cdd9a48d8d229fdca7cba383d677a49525d06cc
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: ad40011769152d906481fe8ffba5dead3f6b0ae5
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752968"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808249"
 ---
 # <a name="enhanced-management-baseline-in-azure"></a>Улучшенный базовый план управления в Azure
 
@@ -45,7 +44,7 @@ ms.locfileid: "73752968"
 
 В таблице приведено несколько процессов, средств и потенциальных возможностей, общих для улучшенных базовых планов управления клиентов.
 
-| Дисциплина  | Process  | Средство | Потенциальное влияние | Подробнее |
+| Дисциплина  | Процесс  | Инструмент | Потенциальное влияние | Дополнительные сведения |
 |---|---|---|---|---|
 |Инвентаризация и визуальный контроль|Отслеживание изменений службы|Azure Resource Graph|Более подробное представление об изменениях в службах Azure может помочь выявить негативные последствия или ускорить их устранение|[Обзор службы Azure Resource Graph](https://docs.microsoft.com/azure/governance/resource-graph/overview)|
 |Инвентаризация и визуальный контроль|Интеграция управления ИТ-услугами (ITSM)|Соединитель управления ИТ-услугами|Автоматическое подключение ITSM повышает осведомленность быстрее.|[Connect Azure to ITSM tools using IT Service Management Connector](https://docs.microsoft.com/azure/azure-monitor/platform/itsmc-overview) (Подключение Azure к инструментам ITSM с помощью соединителя управления ИТ-услугами)|
@@ -124,7 +123,7 @@ ms.locfileid: "73752968"
 
 Чтобы ознакомиться с Центром безопасности Azure, перейдите на [портал Azure](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/SecurityMenuBlade/0).
 
-### <a name="learn-more"></a>Подробнее
+### <a name="learn-more"></a>Дополнительные сведения
 
 Подробные сведения см. в [документации по Центру безопасности Azure](https://docs.microsoft.com/azure/security-center).
 

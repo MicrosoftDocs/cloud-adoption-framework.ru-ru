@@ -1,6 +1,5 @@
 ---
 title: Ускорение миграции путем миграции экземпляра SQL Server
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Миграция целых экземпляров SQL Server может ускорить миграцию рабочей нагрузки.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e499e499cf1639bf9ce1118dcb93254268e9cb54
-ms.sourcegitcommit: 3c325764ad8229b205d793593ff344dca3a0579b
+ms.openlocfilehash: 5b2190456e63c0e1da39f064e34d63eebbf4d998
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "75328928"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802996"
 ---
 # <a name="accelerate-migration-by-migrating-multiple-databases-or-entire-sql-servers"></a>Ускорение миграции путем миграции нескольких баз данных или целых серверов SQL Server
 
@@ -42,11 +41,11 @@ ms.locfileid: "75328928"
 
 Перед выполнением SQL Server миграции Начните с расширения цифрового пространства, включив место для данных. Пространство данных содержит данные инвентаризации ресурсов данных, которые вы собираетесь перенести. В следующих таблицах описывается подход к записи данных.
 
-### <a name="server-inventory"></a>Перечень серверов
+### <a name="server-inventory"></a>Инвентаризация серверов
 
 Ниже приведен пример инвентаризации сервера.
 
-|SQL Server|Цель|Версия|[Критичность](../../manage/considerations/criticality.md)|[Уровень конфиденциальности](../../govern/policy-compliance/data-classification.md)|Число баз данных|Integration Services|Службы SSRS|Службы SSAS|Кластер|Количество узлов|
+|SQL Server|Цель|Версия|[Важности](../../manage/considerations/criticality.md)|[Уровень конфиденциальности](../../govern/policy-compliance/data-classification.md)|Число баз данных|Integration Services|Службы SSRS|Службы SSAS|Кластер|Количество узлов|
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 |SQL-01|Основные приложения|2016|Критически важные интеграции|Строго конфиденциально|40|Н/Д|Н/Д|Н/Д|Да|3|
 |SQL-02|Основные приложения|2016|Критически важные интеграции|Строго конфиденциально|40|Н/Д|Н/Д|Н/Д|Да|3|
@@ -58,7 +57,7 @@ ms.locfileid: "75328928"
 
 Ниже приведен пример инвентаризации базы данных для одного из указанных выше серверов.
 
-|Сервер|База данных|[Критичность](../../manage/considerations/criticality.md)|[Уровень конфиденциальности](../../govern/policy-compliance/data-classification.md)|Результаты Помощник по миграции данных (DMA)|Исправление DMA|Целевая платформа|
+|Сервер|База данных|[Важности](../../manage/considerations/criticality.md)|[Уровень конфиденциальности](../../govern/policy-compliance/data-classification.md)|Результаты Помощник по миграции данных (DMA)|Исправление DMA|Целевая платформа|
 |---------|---------|---------|---------|---------|---------|---------|
 |SQL-01|DB-1|Критически важные интеграции|Строго конфиденциально|Совместимые|Н/Д|База данных SQL Azure|
 |SQL-01|DB-2|Высокая|Confidential|Требуется изменение схемы|Реализованные изменения|База данных SQL Azure|
@@ -94,7 +93,7 @@ ms.locfileid: "75328928"
 
 Предлагаемый путь для миграции и синхронизации использует сочетание следующих трех средств. В следующих разделах описаны более сложные варианты миграции и синхронизации, которые позволяют использовать более широкий спектр целевых и исходных решений.
 
-|Вариант миграции|Цель|
+|Параметр миграции|Цель|
 |---------|---------|
 |[Azure Database Migration Service](https://docs.microsoft.com/sql/dma/dma-overview)|Поддерживает режим "в сети" (минимальное время простоя) и "автономный" (один раз) миграция в управляемый экземпляр базы данных SQL Azure. Поддерживает миграцию с: SQL Server 2005, SQL Server 2008 и SQL Server 2008 R2, SQL Server 2012, SQL Server 2014, SQL Server 2016 и SQL Server 2017.|
 |[Репликация транзакций](https://docs.microsoft.com/sql/relational-databases/replication/administration/enhance-transactional-replication-performance)|Репликация транзакций в управляемый экземпляр базы данных SQL Azure поддерживается для миграций из: SQL Server 2012 (с пакетом обновления 2 (SP2), SP3 или более поздней версии), SQL Server 2014 (RTM CU10 или более поздней версии или с пакетом обновления 1 (SP1) CU3 или более поздней версии), SQL Server 2016 SQL Server 2017.|

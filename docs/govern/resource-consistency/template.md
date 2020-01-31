@@ -1,6 +1,5 @@
 ---
 title: Шаблон согласованности ресурсов
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Шаблон согласованности ресурсов
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 831c40b2bf8f7e8fb64fc6cddcf8d6817376be00
-ms.sourcegitcommit: d19e026d119fbe221a78b10225230da8b9666fe1
+ms.openlocfilehash: f500245b80b0100f075e11b6a796d9acb05458ce
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71221909"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76805121"
 ---
 # <a name="resource-consistency-template"></a>Шаблон согласованности ресурсов
 
@@ -31,7 +30,7 @@ ms.locfileid: "71221909"
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

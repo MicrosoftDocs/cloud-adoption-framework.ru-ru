@@ -1,6 +1,5 @@
 ---
 title: Общие сведения о дисциплине базовой системы идентификации
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание базовый системы идентификации в отношении системы управления облаком
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: c134cd2a3cf17cd4e650f637fec2c417f3c29ff1
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 1ac3041abc6e4721366f8270ce37d6bf6885b140
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566195"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806192"
 ---
 # <a name="identity-baseline-discipline-overview"></a>Общие сведения о дисциплине базовой системы идентификации
 
@@ -159,7 +158,7 @@ ms.locfileid: "73566195"
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Начните с оценки [бизнес-рисков](./business-risks.md) в конкретной среде.
 

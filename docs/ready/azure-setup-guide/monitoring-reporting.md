@@ -1,6 +1,5 @@
 ---
 title: Мониторинг и создание отчетов в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Из этой статьи вы узнаете, как настроить мониторинг, создание отчетов и оповещения для среды управления Azure.
 author: timleyden
 ms.author: tileyden
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 0ed9f9c1739fc73f4d28bf532bd52bd0a182b2fc
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 0b37500652606e3a1018b3b93c03aae546827eff
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251352"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799409"
 ---
 # <a name="monitoring-and-reporting-in-azure"></a>Мониторинг и создание отчетов в Azure
 
@@ -44,7 +43,7 @@ Azure Monitor предоставляет единый унифицированн
 
 Чтобы изучить данные Azure Monitor, перейдите на [портал Azure](https://portal.azure.com/#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview).
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Подробные сведения см. в [документации по Azure Monitor](https://docs.microsoft.com/azure/monitoring-and-diagnostics).
 
@@ -66,8 +65,8 @@ Azure Monitor предоставляет единый унифицированн
 
 Служба "Работоспособность служб Azure" предоставляет такие сведения:
 
-- **Состояние Azure:** глобальное представление со сведениями о работоспособности служб Azure.
-- **Работоспособность служб:** персонализированное представление со сведениями о работоспособности ваших служб Azure.
+- **Состояние Azure:** Глобальное представление со сведениями о работоспособности служб Azure.
+- **Работоспособность служб:** Персонализированное представление со сведениями о работоспособности ваших служб Azure.
 - **Работоспособность ресурса:** подробное представление со сведениями о работоспособности каждого отдельного ресурса.
 
 ::: zone target="chromeless"
@@ -90,7 +89,7 @@ Azure Monitor предоставляет единый унифицированн
 
 Чтобы настроить оповещение в службе "Работоспособность служб", перейдите на [портал Azure](https://portal.azure.com/#blade/Microsoft_Azure_Health/AzureHealthBrowseBlade/healthalerts).
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Подробные сведения см. в [документации по Работоспособности служб Azure](https://docs.microsoft.com/azure/service-health).
 
@@ -120,7 +119,7 @@ Azure Monitor предоставляет единый унифицированн
 
 Чтобы изучить рекомендации Помощника по Azure, перейдите на [портал Azure](https://portal.azure.com/#blade/Microsoft_Azure_Expert/AdvisorBlade).
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Подробные сведения см. в [документации Помощника по Azure](https://docs.microsoft.com/azure/advisor).
 
@@ -150,7 +149,7 @@ Azure Monitor предоставляет единый унифицированн
 
 Чтобы ознакомиться с Центром безопасности Azure, перейдите на [портал Azure](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/SecurityMenuBlade/0).
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Подробные сведения см. в [документации по Центру безопасности Azure](https://docs.microsoft.com/azure/security-center).
 

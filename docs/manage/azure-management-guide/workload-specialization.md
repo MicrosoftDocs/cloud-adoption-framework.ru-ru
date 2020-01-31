@@ -1,6 +1,5 @@
 ---
 title: Специализация рабочей нагрузки для управления облаком в Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Улучшение операций управления облаком, связанных с рабочей нагрузкой
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 2381a7579fad573abeca6afafd6f6fbaa6310ee4
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: ee41e95a8481cd7caeb91d05d4b1420e357aa0f5
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73752912"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76808147"
 ---
 # <a name="workload-specialization-for-cloud-management"></a>Специализация рабочей нагрузки для управления облаком
 
@@ -50,7 +49,7 @@ ms.locfileid: "73752912"
 
 Для обеспечения прозрачности операций рабочей нагрузки необходимы более подробные сведения о конкретной рабочей нагрузке. В процессе постоянного улучшения Application Insights будет необходимым дополнением к цепочке инструментов управления облаком.
 
-|Требование|Средство|Назначение|
+|Требование|Инструмент|Назначение|
 |---|---|---|
 |Мониторинг приложений|Application Insights|Мониторинг и диагностика для приложений|
 |Производительность, доступность и использование|Application Insights|Расширенный мониторинг приложений с помощью панели мониторинга приложений, составных карт, сведений об использовании и трассировки|

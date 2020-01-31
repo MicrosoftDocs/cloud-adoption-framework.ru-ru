@@ -1,6 +1,5 @@
 ---
 title: Метрики, индикаторы и допустимые риски ускорения развертывания
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Метрики, индикаторы и допустимые риски ускорения развертывания
 author: alexbuckgit
 ms.author: abuck
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: af2ce9e70dbc694679538b1910912febb552f695
-ms.sourcegitcommit: 390b374dc7af4c4b85ef9fcb381c7c1bc6076ac7
+ms.openlocfilehash: 26bbcd201d699c8f58d51bb4f83582417127fcbb
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75867956"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76804033"
 ---
 # <a name="deployment-acceleration-metrics-indicators-and-risk-tolerance"></a>Метрики, индикаторы и допустимые риски ускорения развертывания
 

@@ -1,6 +1,5 @@
 ---
 title: Средства и службы управления сервером Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Средства и службы управления сервером Azure
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 51564add9bfe50ab494b39344eb24d3079fce000
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: dbb2d190fcbe787cd3ee26cc0803566b398e945d
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73565278"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807943"
 ---
 # <a name="azure-server-management-tools-and-services"></a>Средства и службы управления сервером Azure
 
@@ -22,9 +21,9 @@ ms.locfileid: "73565278"
 - Миграция
 - Безопасность
 - Защита
-- Мониторинг
+- Монитор
 - Настройка
-- Управление
+- Система управления
 
 В следующих разделах кратко описаны эти области управления и приведены ссылки на подробные сведения о главных службах Azure, которые их поддерживают.
 
@@ -54,7 +53,7 @@ ms.locfileid: "73565278"
 
 Для данных файлового сервера другая служба, которую следует рассмотреть, [Синхронизация файлов Azure](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning). Эта служба помогает централизовать файловые ресурсы Организации в службе файлов Azure, сохраняя гибкость, производительность и совместимость локального файлового сервера. Чтобы использовать эту службу, следуйте инструкциям по развертыванию Синхронизация файлов Azure.
 
-## <a name="monitor"></a>Мониторинг
+## <a name="monitor"></a>Монитор
 
 [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) предоставляет представление для различных ресурсов, таких как приложения, контейнеры и виртуальные машины. Он также собирает данные из нескольких источников:
 
@@ -79,7 +78,7 @@ ms.locfileid: "73565278"
 - Служба [автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro) позволяет выполнять сценарии Python и PowerShell, а также модули Runbook для автоматизации задач в среде. При использовании службы автоматизации с [гибридной рабочей ролью Runbook](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)можно также расширить модули Runbook на локальные ресурсы.
 - [Настройка состояния службы автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-dsc-overview) позволяет принудительно передавать конфигурации требуемого состояния (DSC) PowerShell непосредственно из Azure. DSC также позволяет отслеживать и сохранять конфигурации для гостевых операционных систем и рабочих нагрузок.
 
-## <a name="govern"></a>Управление
+## <a name="govern"></a>Система управления
 
 Внедрение и перемещение в облако создает новые задачи управления. При переходе от рабочего управления к мониторингу и управлению требуется другой подход. Инфраструктура внедрения в облаке для Azure начинается с [руководства](../../govern/index.md). В этой платформе объясняется, как выполнять миграцию в облако, как будет выглядеть путешествие, и кто должен участвовать.
 
@@ -91,7 +90,7 @@ ms.locfileid: "73565278"
 
 - [Azure Site Recovery](https://azure.microsoft.com/pricing/details/site-recovery)
 
-- [Служба архивации Azure](https://azure.microsoft.com/pricing/details/backup)
+- [Azure Backup](https://azure.microsoft.com/pricing/details/backup)
 
 - [Azure Monitor](https://azure.microsoft.com/pricing/details/monitor)
 

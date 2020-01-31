@@ -1,6 +1,5 @@
 ---
 title: Рационализация облака
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Просмотрите параметры, доступные для рационализации цифровых активов.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 91ea4b076740bb745a32f2197d9ddc14970d75f0
-ms.sourcegitcommit: 57390e3a6f7cd7a507ddd1906e866455fa998d84
+ms.openlocfilehash: 1a74487a77388e6260c177096d9563dbe6646cf2
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "73238801"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806566"
 ---
 # <a name="cloud-rationalization"></a>Рационализация облака
 
@@ -135,7 +134,7 @@ ms.locfileid: "73238801"
 - ограниченность функциональности бизнес-процессов;
 - потенциальные затраты, расширение опыта и рост доходов.
 
-## <a name="replace"></a>Замените
+## <a name="replace"></a>Заменить
 
 Решения обычно реализуются с помощью лучших технологий и подходов, доступных в данный момент. Иногда приложения SaaS (программное обеспечение как услуга) могут предоставлять все необходимые функции для размещенного приложения. В этих сценариях рабочую нагрузку можно запланировать для последующей замены, фактически удалив ее из усилий по преобразованию.
 

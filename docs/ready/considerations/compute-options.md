@@ -1,6 +1,5 @@
 ---
 title: Проверка параметров вычислений
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Проверьте параметры вычислений для рабочих нагрузок Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: dbdabb6edc425ea3c70706313d2357323d2a523c
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: d4b1d5728a8cba06900bfe67e288f15b042b8106
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73561879"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76799189"
 ---
 # <a name="review-your-compute-options"></a>Проверка параметров вычислений
 
@@ -56,12 +55,12 @@ ms.locfileid: "73561879"
 | Мне нужно упростить развертывание, управление и работу Kubernetes. | [Служба Azure Kubernetes (AKS)](https://azure.microsoft.com/services/kubernetes-service) |
 | Мне нужно ускорить разработку приложений с помощью управляемой событиями бессерверной архитектуры. | [Функции Azure](https://azure.microsoft.com/services/functions) |
 | Мне нужно разработать микрослужбы и оркестрировать контейнеры в Windows и Linux. | [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) |
-| Мне нужно быстро создавать облачные приложения для Интернета и мобильных устройств, используя полностью управляемую платформу. | [службы приложений Azure](https://azure.microsoft.com/services/app-service) |
+| Мне нужно быстро создавать облачные приложения для Интернета и мобильных устройств, используя полностью управляемую платформу. | [Служба приложений Azure](https://azure.microsoft.com/services/app-service) |
 | Мне нужно помещать приложения в контейнеры и легко запускать контейнеры с помощью одной команды. | [Экземпляры контейнеров Azure](https://azure.microsoft.com/services/container-instances); |
 | Мне нужно планировать задания и управлять вычислительными ресурсами в облачном масштабе с возможностью масштабирования до десятков, сотен или тысяч виртуальных машин. | [Пакетная служба Azure](https://azure.microsoft.com/services/batch) |
-| Мне нужно создавать облачные приложения с высоким уровнем доступности и масштабируемости, а также программные интерфейсы, которые позволят сконцентрироваться на приложениях, не заботясь об оборудовании. | [Облачные службы Azure](https://azure.microsoft.com/services/cloud-services) |
+| Мне нужно создавать облачные приложения с высоким уровнем доступности и масштабируемости, а также программные интерфейсы, которые позволят сконцентрироваться на приложениях, не заботясь об оборудовании. | [Oблачныe службы Azure2} |
 
-## <a name="regional-availability"></a>Доступ по регионам
+## <a name="regional-availability"></a>Доступность по регионам
 
 Azure позволяет доставлять службы в том масштабе, который необходим для охвата клиентов и партнеров  _где бы они ни находились_. Ключевым фактором при планировании развертывания облака является определение того, какой регион Azure будет размещать ресурсы рабочей нагрузки.
 

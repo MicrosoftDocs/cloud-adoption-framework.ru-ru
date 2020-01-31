@@ -1,6 +1,5 @@
 ---
 title: Оценка цифровых активов
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Оценка цифровых активов
 author: matticusau
 ms.author: mlavery
@@ -10,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 31e76ec1f81bc38b03e8f1e480d083983dc85b14
-ms.sourcegitcommit: 3655aa7f3e80249e0b2b562cd40dd750afc82043
+ms.openlocfilehash: 298cfc866e770e2dcd33a22d6cd4713e4053de25
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74251424"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76807076"
 ---
 # <a name="assess-the-digital-estate"></a>Оценка цифровых активов
 
@@ -58,7 +57,7 @@ ms.locfileid: "74251424"
 
 ::: zone target="docs"
 
-### <a name="learn-more"></a>Подробнее
+### <a name="learn-more"></a>Дополнительные сведения
 
 - [Общие сведения о Миграции Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview)
 - [Перенос физических и виртуализированных серверов в Azure.](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines)
@@ -82,7 +81,7 @@ ms.locfileid: "74251424"
 
 <!-- markdownlint-disable MD024 -->
 
-### <a name="learn-more"></a>Подробнее
+### <a name="learn-more"></a>Дополнительные сведения
 
 - [Использование решения "Сопоставление служб" в Azure](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)
 - [Миграция Azure и Сопоставление служб: Визуализация зависимостей](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization)
@@ -118,7 +117,7 @@ ms.locfileid: "74251424"
 - **Управление изменениями.** Есть ли у вашей компании особые требования к реализации и утверждению изменений?
 - **Нормы сегмента.** Нужно ли соблюдать нормы сегмента или отрасли?
 
-# <a name="cost-managementtabmanagecost"></a>[Управление затратами.](#tab/ManageCost)
+# <a name="cost-managementtabmanagecost"></a>[Управление затратами](#tab/ManageCost)
 
 При оценке среды обеспечивается идеальная возможность включить шаг анализа затрат. Используя данные, собранные при оценке, вы сможете анализировать и прогнозировать затраты. При прогнозировании затрат должна учитываться как стоимость служб с учетом потребления, так любые одноразовые затраты (например, при увеличении объема входящего трафика).
 

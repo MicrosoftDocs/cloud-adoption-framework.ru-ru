@@ -1,6 +1,5 @@
 ---
 title: Создание коммерческого обоснования для миграции в облако
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Рекомендации по составлению коммерческого обоснования для миграции в облако.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 629b882c993e85dbb85b04cc9568491bd6e2036d
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 36306ab50f4158741f1ff4334c43900c2f657920
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566624"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798593"
 ---
 # <a name="build-a-business-justification-for-cloud-migration"></a>Создание коммерческого обоснования для миграции в облако
 

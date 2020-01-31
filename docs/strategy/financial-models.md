@@ -1,6 +1,5 @@
 ---
 title: Создание финансовой модели для перехода на облачные технологии
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Создание финансовой модели для перехода на облачные технологии.
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: cb5653de592fb92fa9ad9f5866997703a928ee4e
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 49cce1f4ade76350a820dae2f638edeacb380aa6
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566592"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76798610"
 ---
 # <a name="create-a-financial-model-for-cloud-transformation"></a>Создание финансовой модели для перехода на облачные технологии
 

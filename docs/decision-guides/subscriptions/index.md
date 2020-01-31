@@ -1,6 +1,5 @@
 ---
 title: Руководство по выбору модели подписки
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Сведения об использовании подписок на облачные платформы как основной службы при миграции в Azure.
 author: alexbuckgit
 ms.author: abuck
@@ -9,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4e97c7c1d363b81badc440eb46495b134c680162
-ms.sourcegitcommit: 6f287276650e731163047f543d23581d8fb6e204
+ms.openlocfilehash: 327077f912e916975eef08ad6613f3806a759bca
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73753138"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76806583"
 ---
 # <a name="subscription-decision-guide"></a>Руководство по выбору модели подписки
 
@@ -94,7 +93,7 @@ ms.locfileid: "73753138"
 - [Использование нескольких уровней управления на крупных предприятиях](../../govern/guides/complex/multiple-layers-of-governance.md)
 - [Использование нескольких географических регионов](../regions/index.md)
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Структура подписок — один из базовых компонентов инфраструктуры, решение о котором необходимо принять на этапе внедрения облачных решений. См. [общие сведения о принятии решений](../index.md), чтобы узнать об альтернативных шаблонах или моделях, используемых при принятии решений для других типов инфраструктуры.
 

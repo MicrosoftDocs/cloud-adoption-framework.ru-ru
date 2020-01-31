@@ -1,6 +1,5 @@
 ---
 title: Миграция в облако
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Миграция в облако с помощью Cloud Adoption Framework
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 layout: LandingPage
-ms.openlocfilehash: a6e7cb52fdac7607765b32c5355c0f2df066538a
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: 90a9c69b311f1d4687d2691af13c3b51a7b6f813
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566860"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76802962"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
@@ -211,7 +210,7 @@ ms.locfileid: "73566860"
 
 Эти две стратегии представляют крайние варианты для клиентов, которые собираются вложить средства и ресурсы в миграцию в облако. Большинство компаний использую элементы, взятые из обоих вариантов. Ознакомившись со стратегией развития, примените модель миграции Cloud Adoption Framework, чтобы организовать обсуждение вопросов, связанных с миграцией, и измените базовую стратегию с учетом конкретных потребностей.
 
-## <a name="next-steps"></a>Дополнительная информация
+## <a name="next-steps"></a>Дальнейшие действия
 
 Выберите одну из стратегий развития:
 

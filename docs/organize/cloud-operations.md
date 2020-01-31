@@ -1,6 +1,5 @@
 ---
 title: Возможности облачных операций
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Описание формирования возможностей облачных операций
 author: BrianBlanchard
 ms.author: brblanch
@@ -9,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: c56b3d174438583e07ae3a610180b39318c83f5d
-ms.sourcegitcommit: 443c28f3afeedfbfe8b9980875a54afdbebd83a8
+ms.openlocfilehash: a33dc9921f5e7fcbe2ee05f9483097040d9b309b
+ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "71030150"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "76801041"
 ---
 # <a name="cloud-operation-capabilities"></a>Возможности облачных операций
 
@@ -62,7 +61,7 @@ ms.locfileid: "71030150"
 
 Те, кто выполняет облачные операции, должны участвовать в планировании выпуска и облачном центре, чтобы обеспечить отзыв и подготовиться к рабочим требованиям.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Как внедрение и масштабирование операций, важно определить и автоматизировать рекомендации по управлению, расширяющие существующие ИТ-требования. Формирование [облачного центра](./cloud-center-of-excellence.md) — это важный шаг для масштабирования внедрения облака, облачных операций и действий по управлению облаком.
 
