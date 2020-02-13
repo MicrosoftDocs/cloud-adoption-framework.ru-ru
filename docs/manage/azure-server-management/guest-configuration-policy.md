@@ -1,18 +1,18 @@
 ---
 title: Политика конфигурации гостя
-description: Политика конфигурации гостя
+description: Узнайте, как использовать расширение гостевой конфигурации политики Azure для аудита параметров конфигурации в виртуальной машине Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c676766c2de524dcbe9ca66fc248c410b14e17d7
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 6e935288ce58af0570717c973c21b406ee94ebc0
+ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808079"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77173296"
 ---
 # <a name="guest-configuration-policy"></a>Политика конфигурации гостя
 
@@ -36,7 +36,7 @@ By default, we recommend that you enable the following policies:
 
 -->
 
-## <a name="deployment"></a>Развертывание.
+## <a name="deployment"></a>Развертывание
 
 Используйте следующий пример скрипта PowerShell для развертывания этих политик в:
 
@@ -65,7 +65,7 @@ By default, we recommend that you enable the following policies:
 
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как [включить отслеживание изменений и предупреждения](./enable-tracking-alerting.md) для критически важных изменений файлов, служб, программ и реестра.
 
