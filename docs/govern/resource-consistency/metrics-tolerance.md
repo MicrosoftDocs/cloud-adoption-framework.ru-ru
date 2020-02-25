@@ -1,6 +1,6 @@
 ---
-title: Метрики, индикаторы и допустимость риска по согласованности ресурсов
-description: Метрики, индикаторы и допустимость риска по согласованности ресурсов
+title: Метрики и индикаторы отказоустойчивости ресурсов с согласованностью
+description: Количественная погрешность бизнес-рисков, связанная с согласованностью ресурсов в инфраструктуре внедрения Microsoft Cloud для Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: e6947ce39cc713f969ee658f7c0d0c269fb358d7
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 71b29f1c2d87b916701767e5c74c2699cf8aa4fa
+ms.sourcegitcommit: 1de39a4c3954512892f11e3d1330a04e95ce187d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805155"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77567730"
 ---
 # <a name="resource-consistency-metrics-indicators-and-risk-tolerance"></a>Метрики, индикаторы и допустимость риска по согласованности ресурсов
 
@@ -67,7 +67,7 @@ ms.locfileid: "76805155"
 
 Точные метрики и триггеры, используемые для оценки допустимости рисков и уровня инвестиций в дисциплину согласованности ресурсов, будут относиться к конкретной организации, но приведенные выше примеры должны служить полезной основой для обсуждения в управлении облаком. рабочую.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 С помощью [шаблона управления облачными ресурсами](./template.md) задокументируйте метрики и индикаторы допустимости, соответствующие текущему плану внедрения облака.
 
