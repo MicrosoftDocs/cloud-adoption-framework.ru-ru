@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 825c220bda1c560c5d7bf07bcae649017525ff53
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: e32151fc39f22e4dcb2a9ab40b24f351b11775e7
+ms.sourcegitcommit: 10f687bb1316db509fc1a3dbde72e107a467d72a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805631"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77629306"
 ---
 # <a name="resource-access-management-in-azure"></a>Управление доступом к ресурсам в Azure
 
@@ -58,7 +58,7 @@ ms.locfileid: "76805631"
 ![схеме клиентов Azure, подключающихся к API Azure Resource Manager](../../_images/govern/design/governance-1-13.png)
 *рис. 5. клиенты Azure подключаются к api Azure Resource Manager RESTful.*
 
-Эти клиенты подключаются к Azure Resource Manager через RESTful API. Однако Azure Resource Manager не содержит функциональность, чтобы управлять ресурсами напрямую. Вместо этого большинство типов ресурсов в Azure имеют собственный [**поставщик ресурсов**](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#terminology).
+Эти клиенты подключаются к Azure Resource Manager через RESTful API. Однако Azure Resource Manager не содержит функциональность, чтобы управлять ресурсами напрямую. Скорее, большинство типов ресурсов в Azure имеют собственный [поставщик ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#terminology).
 
 ![поставщиков ресурсов Azure](../../_images/govern/design/governance-1-14.png)
 *рис. 6. поставщики ресурсов Azure.*

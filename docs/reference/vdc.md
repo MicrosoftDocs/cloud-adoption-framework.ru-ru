@@ -7,14 +7,14 @@ ms.date: 06/12/2019
 ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-keywords: Таблицы Azure
+keywords: Azure
 layout: LandingPage
-ms.openlocfilehash: 4e13c064cb449e3f8fca9573b44d214bb644b927
-ms.sourcegitcommit: bf9be7f2fe4851d83cdf3e083c7c25bd7e144c20
+ms.openlocfilehash: bc20624beb0d3a088d119bf0f75c1e1881d37fce
+ms.sourcegitcommit: 10f687bb1316db509fc1a3dbde72e107a467d72a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "73566673"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77629221"
 ---
 # <a name="azure-virtual-datacenter"></a>Виртуальный центр обработки данных Azure
 
@@ -36,8 +36,8 @@ ms.locfileid: "73566673"
 <tr>
     <td style="width: 64px; vertical-align: middle;"><a href="./networking-vdc.md"><img src="../_images/vdc/vdc-network.png" alt="Network Perspective" /></a></td>
     <td>
-        <h3><a href="./networking-vdc.md">Виртуальный центр обработки данных Microsoft Azure с точки зрения сети</a></h3>
-        <p>Эта онлайн-статья содержит обзор сетевых шаблонов и схем, которые можно использовать для решения проблем безопасности, производительности и масштабирования архитектуры, с которыми сталкиваются многие клиенты, планируя массовое перемещение в облако.</p>
+        <h3><a href="./networking-vdc.md">Виртуальный центр обработки данных: перспектива сети</a></h3>
+        <p>В этом обзоре сетевых шаблонов и дизайнов рассматриваются проблемы, связанные с масштабированием, производительностью и безопасностью архитектуры, которые сталкиваются с заказчиками при планировании крупномасштабной миграции в облако.</p>
     </td>
 </tr>
 <tr>
