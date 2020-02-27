@@ -1,18 +1,18 @@
 ---
-title: Определение корпоративной политики для управления облаком
-description: Узнайте, как установить политику, отражающую и исправлять риски.
+title: Определение корпоративной политики Cloud управление
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы научиться устанавливать политики, которые позволяют устранить известные риски и отказоустойчивость в процессе преобразования в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 92c04d53e59d8876291794c5da74104ec62412a9
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 94e49d8f6682d4f5edb6b1d00bd93d47ba600bc8
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806056"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77706682"
 ---
 # <a name="define-corporate-policy-for-cloud-governance"></a>Определение корпоративной политики для управления облаком
 

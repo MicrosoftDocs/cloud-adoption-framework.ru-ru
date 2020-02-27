@@ -1,6 +1,6 @@
 ---
-title: 'Стандартное руководство по корпоративному управлению: рекомендации'
-description: Узнайте о рекомендациях по управлению на стандартных предприятиях.
+title: 'Стандартное корпоративное управление: рекомендации'
+description: Используйте платформу внедрения в облаке для Azure, чтобы установить минимально приемлемый продукт (MVP) для управления, который отражает рекомендации для уровня "Стандартный".
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1705310a335e3fd5aab622b401a6067e8af6d133
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f82dc3d12aa325c3239060a904cc5d3111a056d4
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806804"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709317"
 ---
 # <a name="standard-enterprise-governance-guide-best-practices-explained"></a>Стандартное руководство по корпоративному управлению: рекомендации
 
@@ -113,7 +113,7 @@ ms.locfileid: "76806804"
 - [Программно определяемые сетевые шаблоны](../../../decision-guides/software-defined-network/index.md)
 - [шаблоны проектирования для подписок](../../../decision-guides/subscriptions/index.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После того как это руководство будет реализовано, каждая команда внедрения облачной среды может продолжить работу, имея прочную базу системы управления. В то же время Группа управления облаком будет работать, чтобы постоянно обновлять корпоративные политики и дисциплины управления.
 

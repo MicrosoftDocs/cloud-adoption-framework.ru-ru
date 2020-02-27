@@ -1,6 +1,6 @@
 ---
 title: Улучшения по дисциплине согласованности ресурсов
-description: Улучшения по дисциплине согласованности ресурсов
+description: Используйте платформу внедрения в облаке для Azure, чтобы понять задачи, необходимые для разработки и развития дисциплины согласованности ресурсов на каждом этапе внедрения.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 0113c37aaca23374021d6790bcbb1db751ffcf4a
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3e8c51da7dc0e45ee2722681872ca851ee385656
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807246"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709079"
 ---
 # <a name="resource-consistency-discipline-improvement"></a>Улучшения по дисциплине согласованности ресурсов
 
@@ -124,7 +124,7 @@ ms.locfileid: "76807246"
 - Оцените средства ведения журнала и мониторинга и решите, нужно ли корректировать локальное, облачное или гибридное решение.
 - Для бизнес-подразделений и географически распределенных групп определите, следует ли Организации использовать дополнительные функции управления облаком, такие как [группы управления Azure](https://docs.microsoft.com/azure/governance/management-groups) , чтобы лучше применять централизованную политику и удовлетворять требованиям соглашения об уровне обслуживания.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Теперь, когда вы понимаете концепцию системы управления облачными ресурсами, перейдите к руководству по [управлению доступом к ресурсам](./resource-access-management.md), а затем — к руководствам по проектированию модели системы управления для [простой рабочей нагрузки](./governance-simple-workload.md) или для [нескольких команд](./governance-multiple-teams.md).
 

@@ -1,6 +1,6 @@
 ---
 title: Разработка процессов, обеспечивающих соблюдение политик
-description: Установите процессы, чтобы обеспечить соответствие корпоративным политикам.
+description: Создайте стратегию и процессы для обеспечения соответствия облачному развертыванию требованиям политики. 
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: bf69c13d80063e44a49d945908e2cc319b90ce3e
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 760015fc72cd893cb14dd39d9a9b3078d304da97
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807178"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709470"
 ---
 <!-- markdownlint-disable MD026 -->
 

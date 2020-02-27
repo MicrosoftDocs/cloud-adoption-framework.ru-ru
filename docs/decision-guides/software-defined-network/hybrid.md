@@ -1,6 +1,6 @@
 ---
 title: 'Программно определяемая сеть: Гибридная сеть'
-description: Обсуждение того, как гибридные сети позволяют облачным виртуальным сетям подключаться к локальным ресурсам.
+description: Используйте платформу внедрения облаков для Azure, чтобы узнать, как гибридные сети могут подключать облачные виртуальные сети к локальным ресурсам.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 61ce3447a852ec8aa1caa0737b0f3757f0f26450
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f84dcbd1a215a34e2b05b63db2a08f64dca34a4b
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806617"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708552"
 ---
 # <a name="software-defined-networking-hybrid-network"></a>Программно определяемая сеть: Гибридная сеть
 
@@ -41,7 +41,7 @@ ms.locfileid: "76806617"
 - Масштабирование числа и размера рабочих нагрузок в гибридной облачной среде может значительно усложнить маршрутизацию и управление трафиком.
 - Вам необходимо разработать совместимые политики контроля и управления доступом, чтобы поддерживать согласованное управление своей организацией.
 
-## <a name="learn-more"></a>Подробнее…
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения о гибридных сетях в Azure см. в следующих статьях:
 

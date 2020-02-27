@@ -1,6 +1,6 @@
 ---
 title: 'Стандартное корпоративное управление: улучшение согласованности ресурсов'
-description: Улучшайте базовые показатели управления и устраняйте риски, возникающие при управлении ресурсами, добавляя средства восстановления, изменения размера и мониторинга в платформу внедрения Microsoft Cloud для Azure.
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы узнать об улучшении базовых показателей управления и устранения угрозах, добавив средства восстановления, изменения размера и мониторинга.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 366f5034a89529e65325a8afd2cf0275dcec02e4
-ms.sourcegitcommit: 1de39a4c3954512892f11e3d1330a04e95ce187d
+ms.openlocfilehash: e50d3e258a4b040d1f9cfaa1b274ed977c49b14d
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "77567679"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709113"
 ---
 # <a name="standard-enterprise-governance-guide-improving-resource-consistency"></a>Стандартное руководство по корпоративному управлению: повышение согласованности ресурсов
 

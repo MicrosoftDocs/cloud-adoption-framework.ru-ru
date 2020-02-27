@@ -1,6 +1,6 @@
 ---
 title: Улучшите начальное облако по управлению Cloud Foundation
-description: Узнайте, как постепенно улучшать начальную облачную систему управления.
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать, как постепенно усовершенствовать начальную облачную инфраструктуру управления.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/13/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 1b46157e134967095cff9ff84bcfb5b826a22bae
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 050d9cdfd2069a4d7da2e411233f6a60f270eb10
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805818"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77706614"
 ---
 # <a name="improve-your-initial-cloud-governance-foundation"></a>Улучшите начальное облако по управлению Cloud Foundation
 
@@ -33,8 +33,8 @@ ms.locfileid: "76805818"
 |Критически важные приложения в облаке|[Улучшение дисциплины](./guides/standard/resource-consistency-improvement.md)|[Улучшение дисциплины](./guides/complex/resource-consistency-improvement.md)|
 |Управление затратами на облако|[Улучшение дисциплины](./guides/standard/cost-management-improvement.md)|[Улучшение дисциплины](./guides/complex/cost-management-improvement.md)|
 |Многооблачная среда|[Улучшение дисциплины](./guides/standard/multicloud-improvement.md)|[Улучшение дисциплины](./guides/complex/multicloud-improvement.md)|
-|Комплексное или устаревшее управление удостоверениями|Н/Д|[Улучшение дисциплины](./guides/complex/identity-baseline-improvement.md)|
-|Использование нескольких уровней управления|Н/Д|[Улучшение дисциплины](./guides/complex/multiple-layers-of-governance.md)|
+|Комплексное или устаревшее управление удостоверениями|Недоступно|[Улучшение дисциплины](./guides/complex/identity-baseline-improvement.md)|
+|Использование нескольких уровней управления|Недоступно|[Улучшение дисциплины](./guides/complex/multiple-layers-of-governance.md)|
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

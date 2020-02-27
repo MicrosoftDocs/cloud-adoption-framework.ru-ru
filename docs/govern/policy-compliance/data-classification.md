@@ -1,6 +1,6 @@
 ---
 title: Классификация данных
-description: Классификация данных позволяет определять и назначать данные вашей организации, а также является общей отправной точкой для управления.
+description: Используйте классификацию данных в качестве отправной точки для управления облаком путем определения и назначения ценности для данных Организации.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1f476aaccfc88eab4a2bea1db17e7b1d33f31ee9
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: e956f2c4690d2020770d4da3e50bb163994c4c66
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805087"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77706699"
 ---
 <!-- markdownlint-disable MD026 -->
 

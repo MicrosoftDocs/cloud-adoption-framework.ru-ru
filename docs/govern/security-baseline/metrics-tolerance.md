@@ -1,6 +1,6 @@
 ---
-title: Метрики, индикаторы и допустимость риска в базовой системе безопасности
-description: Метрики, индикаторы и допустимость риска в базовой системе безопасности
+title: Метрики и индикаторы отказоустойчивости с базовыми показателями безопасности
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать, как количественно допуски рисков бизнеса, связанных с базовыми показателями безопасности.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1075563dd4596ad6bd1b4ac202a69a1ab1251cba
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 5f85fd62f78b3be30faab452f12113790e6455d8
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808861"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707345"
 ---
 # <a name="security-baseline-metrics-indicators-and-risk-tolerance"></a>Метрики, индикаторы и допустимость риска в базовой системе безопасности
 

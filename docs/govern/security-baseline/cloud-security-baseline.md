@@ -1,6 +1,6 @@
 ---
 title: Основные сведения о базовой безопасности в облаке
-description: Ознакомьтесь с базовыми показателями безопасности в облаке.
+description: Узнайте об основах безопасности в облаке, которые основаны на пяти дисциплинах управления облачными средствами для создания инфраструктуры руководства.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: abd222cd3fd29f2150a18fafaae82393aa54e98b
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 36aa64e35c5858e41d7cb4d29885289ca0c5435a
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808895"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707583"
 ---
 # <a name="understand-the-cloud-security-baseline"></a>Основные сведения о базовой безопасности в облаке
 

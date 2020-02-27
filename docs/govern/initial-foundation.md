@@ -1,6 +1,6 @@
 ---
 title: Создание начального плана управления Cloud Foundation
-description: Начните работу с управлением облаком, установив начальное облако по управлению Cloud Foundation.
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы приступить к управлению облаком, установив начальное облако по управлению Cloud Foundation.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 290bffadc608d8ff9d593e5231242e3555732bf3
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4de35756be83e02817c4ce8e7a20dd1444007e87
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803795"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708365"
 ---
 # <a name="establish-an-initial-cloud-governance-foundation"></a>Создание начального плана управления Cloud Foundation
 
@@ -64,7 +64,7 @@ ms.locfileid: "76803795"
 </ul>
 <!-- markdownlint-enable MD033 -->
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После того как система управления уже установлена, примените подходящие рекомендации для улучшения решения и защиты от материальных рисков.
 

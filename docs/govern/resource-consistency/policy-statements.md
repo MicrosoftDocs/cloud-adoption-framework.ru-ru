@@ -1,6 +1,6 @@
 ---
 title: Примеры правил политики согласованности ресурсов
-description: Примеры правил политики согласованности ресурсов
+description: Используйте платформу внедрения облаков для Azure, чтобы получить пример инструкций политики согласованности ресурсов, которые помогут вам в разработке заявлений политики Организации.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5e997dee318d0d6799167de4f4c61a93c814c548
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4222639ddb82da88cc95600ad2c6731b541f9f35
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807263"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708144"
 ---
 # <a name="resource-consistency-sample-policy-statements"></a>Примеры правил политики согласованности ресурсов
 
@@ -32,7 +32,7 @@ ms.locfileid: "76807263"
 **Инструкция политики:** Будут реализованы следующие политики:
 
 - Развернутые ресурсы должны быть помечены следующими значениями:
-  - Затраты
+  - Стоимость
   - Важности
   - Соглашение об уровне обслуживания
   - Среда
@@ -86,7 +86,7 @@ ms.locfileid: "76807263"
 
 **Возможные варианты проектирования:** Служба [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) предоставляет возможности резервного копирования, восстановления и репликации, которые снижают продолжительность простоя в сценариях непрерывности бизнес-процессов и аварийного восстановления (BCDR).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Используйте примеры, приведенные в этой статье, в качестве отправной точки для разработки политик по конкретным бизнес-рискам, соответствующих вашим планам внедрения облачных систем.
 

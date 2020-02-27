@@ -1,6 +1,6 @@
 ---
 title: Примеры правил политик базовой системы безопасности
-description: Примеры правил политик базовой системы безопасности
+description: Ознакомьтесь с этими примерами инструкций базовой политики безопасности, чтобы помочь в разрешении заявлений политики для удовлетворения потребностей Организации.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ba0887b93664ac77fc2933c24631110dfab14be0
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 02a1c18a73b784cb9245ed7c83d86c21c0690148
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808878"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707214"
 ---
 # <a name="security-baseline-sample-policy-statements"></a>Примеры правил политик базовой системы безопасности
 
@@ -33,7 +33,7 @@ ms.locfileid: "76808878"
 
 **Потенциальный вариант проектирования:** Установите [стандарты тегов ресурсов](../../decision-guides/resource-tagging/index.md) и убедитесь, что сотрудники отдела ИТ постоянно применяют их к любым развернутым ресурсам с помощью [тегов ресурсов Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags).
 
-## <a name="data-encryption"></a>шифрование данных;
+## <a name="data-encryption"></a>Шифрование данных
 
 **Технический риск:** Существует риск предоставления защищенных данных во время хранения.
 
@@ -89,7 +89,7 @@ ms.locfileid: "76808878"
 
 **Потенциальный вариант проектирования:** Создайте регулярное собрание по проверке безопасности, которое включает в себя соответствующие члены группы управления и ИТ-специалистов. Изучите существующие данные и метрики безопасности, чтобы установить зазоры в текущей политике и средстве базовых показателей безопасности, а также обновить политику, чтобы устранить все новые риски. Используйте [Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview) и [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-intro) , чтобы получить ценные сведения о новых угрозах, относящихся к вашим развертываниям.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Используйте примеры, приведенные в этой статье, в качестве отправной точки для разработки политик по конкретным рискам безопасности, соответствующих вашим планам внедрения облачных систем.
 

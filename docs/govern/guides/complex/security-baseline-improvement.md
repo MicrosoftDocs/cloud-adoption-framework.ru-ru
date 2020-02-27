@@ -1,6 +1,6 @@
 ---
-title: 'Руководство по управлению для сложных предприятий: улучшение специализации в плане безопасности'
-description: 'Руководство по управлению для сложных предприятий: улучшение специализации в плане безопасности'
+title: 'Комплексное корпоративное управление: улучшение специализации в плане безопасности'
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать о добавлении элементов управления безопасностью, поддерживающих перемещение защищенных данных в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 41fba8029eabb570a40d5692374f1cb7e7d7c9b5
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 6501871e909beba8d32cee0c5dd8c3dbe091f252
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806243"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77706818"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-security-baseline-discipline"></a>Руководство по управлению для сложных предприятий: улучшение специализации в плане безопасности
 

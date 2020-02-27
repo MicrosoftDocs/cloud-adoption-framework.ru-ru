@@ -1,6 +1,6 @@
 ---
 title: Средства согласованности ресурсов в Azure
-description: Средства согласованности ресурсов в Azure
+description: Узнайте, как собственные средства Azure могут помочь развитым политикам и процессам, которые поддерживают дисциплину управления согласованностью ресурсов.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a2f553285f9d44085cc816c2db34f76fcb02235d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 002b9d1fc559d87ef84614a6f1c085e08c6b9842
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805189"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708178"
 ---
 # <a name="resource-consistency-tools-in-azure"></a>Средства согласованности ресурсов в Azure
 
@@ -61,6 +61,6 @@ ms.locfileid: "76805189"
 > [!NOTE]
 > Организации также используют сторонние средства DevOps для отслеживания рабочих нагрузок и ресурсов. Дополнительные сведения см. в разделе [Интеграция средства DevOps](https://azure.microsoft.com/products/devops-tool-integrations).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как создавать, присваивать [определения политик](https://docs.microsoft.com/azure/governance/policy) и управлять ими в Azure.

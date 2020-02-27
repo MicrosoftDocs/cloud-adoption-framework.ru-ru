@@ -1,6 +1,6 @@
 ---
 title: Пять аспектов управления облаком
-description: Узнайте о пяти дисциплинах управления облаком в облачной инфраструктуре внедрения.
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать об управлении затратами, ускорении развертывания, базовом удостоверении, согласованности ресурсов и базовом плане безопасности.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 022fafd48ae9c03ef8c2b19f7b966a73cab70081
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d50364a621e57b95e26f5686f4d470984530e161
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806345"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707685"
 ---
 # <a name="the-five-disciplines-of-cloud-governance"></a>Пять аспектов управления облаком
 

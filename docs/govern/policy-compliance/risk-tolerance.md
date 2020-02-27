@@ -1,18 +1,18 @@
 ---
 title: Оценка допустимости риска
-description: Объяснение бизнес-рисков, связанных с преобразованием в облако
+description: Ознакомьтесь с бизнес-рисками, связанными с различными формами преобразования в облако, и способами оценки допустимости риска для бизнеса.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 06f8229ab38134ac4d51a4f0cef212ebc864bbdb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: cbde932d0e4a91a80c4bde6a5b9604b43ee30441
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806022"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709504"
 ---
 # <a name="evaluate-risk-tolerance"></a>Оценка допустимости риска
 

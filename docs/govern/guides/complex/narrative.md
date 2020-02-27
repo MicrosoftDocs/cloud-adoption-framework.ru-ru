@@ -1,6 +1,6 @@
 ---
-title: 'Руководство по управлению для сложных предприятий: сопутствующие инструкции'
-description: Это руководство создает вариант использования для управления во время облачного внедрения сложных предприятий.
+title: 'Сложное корпоративное управление: вспомогательное руководство'
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы установить вариант использования в ходе межоблачного внедрения в облаке предприятия.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: fae1940c1cc522cd917b2b0293d60b630007537c
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 7c2cfcc76153e999b2ca9d50b63cf0a72cfb2c14
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805563"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77706920"
 ---
 # <a name="governance-guide-for-complex-enterprises-the-supporting-narrative"></a>Руководство по управлению для сложных предприятий: сопутствующие инструкции
 

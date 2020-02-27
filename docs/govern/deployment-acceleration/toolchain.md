@@ -1,6 +1,6 @@
 ---
 title: Средства ускорения развертывания в Azure
-description: Средства ускорения развертывания в Azure
+description: Узнайте, как собственные средства Azure могут помочь развитым политикам и процессам, которые поддерживают дисциплину управления ускорением развертывания.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 6617fe95f885836241e4b0f16bc17652f36c5a7d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: ee1c81fe5bada0fa435a598db2f79dc0b23b4392
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806328"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709011"
 ---
 # <a name="deployment-acceleration-tools-in-azure"></a>Средства ускорения развертывания в Azure
 
@@ -26,9 +26,9 @@ ms.locfileid: "76806328"
 |  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Группы управления Azure](https://docs.microsoft.com/azure/governance/management-groups) | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Граф ресурсов Azure](https://docs.microsoft.com/azure/governance/resource-graph/overview) | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management) |
 |---------|---------|---------|---------|---------|---------|---------|
 |Реализация корпоративных политик     |Да |Нет  |Нет  |Нет | Нет |Нет |
-|Применение политик в подписках     |Обязательно для заполнения |Да  |Нет  |Нет | Нет |Нет |
+|Применение политик в подписках     |Обязательно |Да  |Нет  |Нет | Нет |Нет |
 |Развертывание определенных ресурсов     |Нет |Нет  |Да  |Нет | Нет |Нет |
-|Создание полностью соответствующих сред      |Обязательно для заполнения |Обязательно для заполнения  |Обязательно для заполнения  |Да | Нет |Нет |
+|Создание полностью соответствующих сред      |Обязательно |Обязательно  |Обязательно  |Да | Нет |Нет |
 |Политики аудита      |Да |Нет  |Нет  |Нет | Нет |Нет |
 |Запрос к ресурсам Azure      |Нет |Нет  |Нет  |Нет |Да |Нет |
 |Отчет о стоимости ресурсов      |Нет |Нет  |Нет  |Нет |Нет |Да |

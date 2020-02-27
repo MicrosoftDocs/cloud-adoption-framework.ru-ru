@@ -1,6 +1,6 @@
 ---
-title: Мотивации и бизнес-риски дисциплины "Управление затратами"
-description: Мотивации и бизнес-риски дисциплины "Управление затратами"
+title: Бизнес-риски управления затратами
+description: Изучите примеры типичного внедрения клиентов в рамках стратегии управления облачными клиентами. 
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 16408b01e06e29fc2697dbbdd053126d026920f0
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 544c425e94e9fa2cc4a687608f0dece80b3e9251
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806515"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707889"
 ---
 # <a name="cost-management-motivations-and-business-risks"></a>Мотивации и бизнес-риски дисциплины "Управление затратами"
 
@@ -40,7 +40,7 @@ ms.locfileid: "76806515"
 - **Аномалии расходов:** Неожиданные пики в любом направлении могут быть индикаторами неправильного использования.
 - **Переподготавливающие активы:** При развертывании ресурсов в конфигурации, которая превышает потребности приложения или виртуальной машины, они могут создавать отходы.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 С помощью [шаблона управления облачными](./template.md)службами Задокументируйте бизнес-риски, которые, скорее всего, будут представлены текущим планом внедрения в облако.
 

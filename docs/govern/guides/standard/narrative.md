@@ -1,6 +1,6 @@
 ---
-title: 'Стандартное руководство по корпоративному управлению: описание стратегии управления'
-description: Это руководство создает вариант использования для управления во время межоблачного внедрения в облако уровня Standard.
+title: 'Стандартное корпоративное управление: руководство по стратегии управления'
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать о том, как установить вариант использования в рамках стандартного путешествия по внедрению в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1e6edb6db4663c9a3b78394dc715376f697e6f5e
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d963053806a6a43476c7597be5dd628b6e187e06
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805529"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709283"
 ---
 # <a name="standard-enterprise-governance-guide-the-narrative-behind-the-governance-strategy"></a>Стандартное руководство по корпоративному управлению: описание стратегии управления
 
@@ -54,7 +54,7 @@ ms.locfileid: "76805529"
     ![затраты на локальные ресурсы в сравнении с Azure, демонстрирующие 25M долларов США за следующие пять лет](../../../_images/govern/calculator-small-to-medium-enterprise.png)
 - Компания планирует изменить то, как она обеспечивает инвестиции, перепланируя фиксированный капитальный расход в качестве эксплуатационных расходов. Такое изменение повысит контролируемость инвестиций и ускорит другие запланированные ИТ-проекты.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Компания разработала корпоративную политику для реализации системы управления. Корпоративная политика определяет многие технические решения.
 

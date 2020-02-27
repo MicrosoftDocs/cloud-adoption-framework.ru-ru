@@ -1,6 +1,6 @@
 ---
 title: 'Программно-определяемая сеть: Центральная и периферийная'
-description: Обсуждение виртуальных сетевых служб, встроенных в облако.
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать, как в центральных и периферийных сетях организована сетевая инфраструктура в несколько подключенных виртуальных сетей.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: a24ccb7f382e03b3eb0138e94e6b02954c36bd87
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 9138a686aedd3ba54352280b557b6ac622df6a46
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806634"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708586"
 ---
 # <a name="software-defined-networking-hub-and-spoke"></a>Программно-определяемая сеть: Центральная и периферийная
 
@@ -48,7 +48,7 @@ ms.locfileid: "76806634"
 
 Звездообразные архитектуры обычно реализуются с помощью виртуальных сетей, развернутых в том же регионе Azure, чтобы свести к минимуму задержку между сетями. Однако большим организациям с глобальным охватом может потребоваться развернуть рабочие нагрузки в нескольких регионах в целях доступности, аварийного восстановления или нормативных требований. Модель "звезда" может использовать [глобальный пиринг виртуальных сетей](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview) Azure для расширения централизованного управления и общих служб в регионах и поддержки рабочих нагрузок, распределенных по всему миру.
 
-## <a name="learn-more"></a>Подробнее…
+## <a name="learn-more"></a>Дополнительные сведения
 
 Примеры реализации звездообразных сетей в Azure см. на сайте эталонных архитектур Azure:
 
