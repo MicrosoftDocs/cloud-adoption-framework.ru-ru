@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9c4d5bac8046cc27399b2be7bc0b8ce82ea65769
-ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
+ms.openlocfilehash: 20f71083a7a200fd4b45fbdda24ad6bbd24a397a
+ms.sourcegitcommit: 1de39a4c3954512892f11e3d1330a04e95ce187d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77173385"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77567747"
 ---
 # <a name="assess-the-digital-estate"></a>Оценка цифровых активов
 
@@ -24,7 +24,7 @@ ms.locfileid: "77173385"
 
 <!-- markdownlint-disable MD025 -->
 
-# <a name="toolstabtools"></a>[Инструменты](#tab/Tools)
+# <a name="tools"></a>[Инструменты](#tab/Tools)
 
 Следующие инструменты помогут оценить среду, чтобы определить ее пригодность к миграции и наилучший способ. Полезные сведения о выборе нужных инструментов для поддержки процесса переноса приведены в [руководстве по принятию решений о миграции с помощью Cloud Adoption Framework](../../decision-guides/migrate-decision-guide/index.md).
 
@@ -51,7 +51,7 @@ ms.locfileid: "77173385"
 
 ::: zone target="chromeless"
 
-::: form action="Blade[#blade/Microsoft_Azure_Migrate/AmhResourceMenuBlade/overview]" submitText="Assess and migrate servers" :::
+::: form action="OpenBlade[#blade/Microsoft_Azure_Migrate/AmhResourceMenuBlade/overview]" submitText="Assess and migrate servers" :::
 
 ::: zone-end
 
@@ -86,7 +86,7 @@ ms.locfileid: "77173385"
 - [Использование решения "Сопоставление служб" в Azure](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)
 - [Миграция Azure и Сопоставление служб: Визуализация зависимостей](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization)
 
-# <a name="scenarios-and-stakeholderstabscenarios"></a>[Сценарии и заинтересованные лица](#tab/Scenarios)
+# <a name="scenarios-and-stakeholders"></a>[Сценарии и заинтересованные лица](#tab/Scenarios)
 
 ## <a name="scenarios"></a>Сценарии
 
@@ -105,7 +105,7 @@ ms.locfileid: "77173385"
 
 Дополнительные сведения о том, как подготовить свою организацию к переходу в облако, доступны в статье о Cloud Adoption Framework, посвященной [первоначальной проверке соответствия организации](../../plan/initial-org-alignment.md).
 
-# <a name="timelinestabtimelines"></a>[Временная шкала](#tab/Timelines)
+# <a name="timelines"></a>[Временная шкала](#tab/Timelines)
 
 Как правило, клиенты обнаруживают, что сценарий миграции, описываемый в этом руководстве, может быть выполнен за 1–6 месяцев.
 
@@ -117,7 +117,7 @@ ms.locfileid: "77173385"
 - **Управление изменениями.** Есть ли у вашей компании особые требования к реализации и утверждению изменений?
 - **Нормы сегмента.** Нужно ли соблюдать нормы сегмента или отрасли?
 
-# <a name="cost-managementtabmanagecost"></a>[Управление затратами](#tab/ManageCost)
+# <a name="cost-management"></a>[Управление затратами](#tab/ManageCost)
 
 При оценке среды обеспечивается идеальная возможность включить шаг анализа затрат. Используя данные, собранные при оценке, вы сможете анализировать и прогнозировать затраты. При прогнозировании затрат должна учитываться как стоимость служб с учетом потребления, так любые одноразовые затраты (например, при увеличении объема входящего трафика).
 
