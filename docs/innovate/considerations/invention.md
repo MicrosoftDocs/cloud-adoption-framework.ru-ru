@@ -1,18 +1,18 @@
 ---
-title: 'Облачные инновации: Разработка цифровых инвентионс'
-description: Введение в облачные инновации. Разработка цифровых инвентионс
+title: Разработка инновационных цифровых инвентионс
+description: Invention и внедрение для разработки цифровых инвентионс, сохраняя при этом внедрение клиентов и сопереживание.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 4011f34f61ec41d4ec30be8b9ee8c5cb203f930a
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4ddc8c0e479aaf0feee928249919edf9899ce40f
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808453"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171197"
 ---
 # <a name="develop-digital-inventions"></a>Развитие разработки цифровых технологий
 

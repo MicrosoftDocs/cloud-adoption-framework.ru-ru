@@ -1,18 +1,18 @@
 ---
-title: 'Облачные инновации: средства для взаимодействия с устройствами в Azure'
-description: Средства для взаимодействия с устройствами в Azure
+title: Средства инноваций для взаимодействия с устройствами
+description: Узнайте о средствах Azure для взаимодействия между устройствами и внешними возможностями, которые расширяют естественную окружающую среду и поведение клиентов.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 83aa06b897c510b90993d77a119063c3fe5f1af1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: c8fa6bb33a6f65052b5cbc4ad159490ff9a5ad23
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808657"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171248"
 ---
 # <a name="tools-to-interact-with-devices-in-azure"></a>Средства для взаимодействия с устройствами в Azure
 
@@ -38,7 +38,7 @@ ms.locfileid: "76808657"
 - Интегрированная реальность: центр Интернета вещей Azure, Azure Sphere, Azure Kinect DK
 - Скорректированная реальность: с облака IoT на устройство, Azure Digital двойников + HoloLens
 
-## <a name="get-started"></a>Начать
+## <a name="get-started"></a>Начало работы
 
 В оглавлении в левой части этой страницы показано множество статей. Эти статьи помогут вам приступить к работе с каждым из средств в этой цепочки инструментов.
 

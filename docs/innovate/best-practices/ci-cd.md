@@ -1,18 +1,18 @@
 ---
-title: 'Облачные инновации: средства для повышения производительности при внедрении в Azure'
-description: Средства для повышения производительности при внедрении в Azure
+title: Средства внедрения, позволяющие повысить эффективность внедрения
+description: Узнайте о средствах Azure, использующих методологию инноваций, чтобы устранить трение и повысить эффективность внедрения по мере их готовности.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 01961b514f5640d73150504ea65ee9af2fec17b2
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 20dc6aa263e8f7a381809335b4af9b4f4de84dc6
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808708"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171299"
 ---
 # <a name="tools-to-empower-adoption-in-azure"></a>Средства для повышения производительности при внедрении в Azure
 
@@ -37,14 +37,14 @@ ms.locfileid: "76808708"
 
 По мере роста потребности вы можете расширить эту основу для использования других средств. Развернутая основа может содержать такие средства, как:
 
-- Azure Blueprint
+- Azure Blueprints
 - Политика Azure
 - Шаблоны Azure Resource Manager
 - Azure Monitor
 
 В оглавлении, расположенном в левой части этой страницы, приведено руководство по каждому средству, которое соответствует ранее описанной модели зрелости.
 
-## <a name="get-started"></a>Начать
+## <a name="get-started"></a>Начало работы
 
 В оглавлении в левой части этой страницы показано множество статей. Эти статьи помогут вам приступить к работе с каждым из средств в этой цепочки инструментов.
 

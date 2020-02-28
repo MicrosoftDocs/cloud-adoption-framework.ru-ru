@@ -1,6 +1,6 @@
 ---
 title: Подходы к планированию цифровых активов
-description: Узнайте о различных подходах к планированию цифровых площадок.
+description: Узнайте о характеристиках и требованиях нисходящей рабочей нагрузки, управляемых ресурсами или добавочных подходах к планированию цифровых площадок.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/10/2018
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 453ac12e8c86aed46675c710395101ff3a121195
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f2a589844b4564bb787db0efe4d796b7e5576309
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806549"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170043"
 ---
 # <a name="approaches-to-digital-estate-planning"></a>Подходы к планированию цифровых активов
 

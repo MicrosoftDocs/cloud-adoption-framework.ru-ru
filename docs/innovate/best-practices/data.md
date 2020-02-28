@@ -1,18 +1,18 @@
 ---
-title: 'Облачные инновации: средства для более демократичным данных в Azure'
-description: Средства для более демократичным данных в Azure
+title: Средства инноваций для более демократичным данных
+description: Узнайте о каталоге данных Azure и других службах, которые помогут быстро протестировать гипотезу, прежде чем расширять их в более широкие и дорогостоящие цифровые инвентионс.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3fed47eb3a5bb7a3b51f19f2d103395ede848e9d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: e505b7794c9eeff94d746286e0d8cbb9f0cea86e
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808691"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171265"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 
@@ -41,28 +41,28 @@ ms.locfileid: "76808691"
 
 - Power BI
 - Каталог данных Azure
-- Хранилище данных SQL Azure
+- Хранилище данных SQL Azure
 - Azure Cosmos DB
 - База данных Azure для PostgreSQL
 - База данных Azure для MySQL
 - База данных Azure для MariaDB
 - Масштабирование базы данных Azure для PostgreSQL
-- Azure Data Lake
-- Служба миграции баз данных Azure
+- Azure Data Lake;
+- Azure Database Migration Service
 - База данных SQL Azure с управляемыми экземплярами или без них
 - Фабрика данных Azure
 - Azure Stream Analytics
-- Службы SQL Server Integration Services
+- SQL Server Integration Services
 - Azure Stack
 - SQL Server Stretch Database
 - Microsoft Azure StorSimple
 - Файлы Azure
-- Синхронизация файлов Azure
+- Служба синхронизации файлов Azure
 - PolyBase
 
 Так как Invention приближается к внедрению в масштабе, для каждого решения требуется уточнение и техническая дата_вступл_в_силу. Как и в этом случае, скорее всего, потребуется больше этих служб. Используйте оглавление в левой части этой страницы для руководства по средствам Azure, относящиеся к процессу тестирования гипотезы.
 
-## <a name="get-started"></a>Начать
+## <a name="get-started"></a>Начало работы
 
 В оглавлении в левой части этой страницы показано множество статей. Эти статьи помогут вам приступить к работе с каждым из средств в этой цепочки инструментов.
 

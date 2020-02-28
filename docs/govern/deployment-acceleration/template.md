@@ -1,6 +1,6 @@
 ---
 title: Шаблон ускорения развертывания
-description: Шаблон ускорения развертывания
+description: Этот шаблон используется для документирования и обмена инструкциями политики для решения проблем с конфигурацией и развертыванием в облаке.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 210abd5fe90810dea0d4da65422b2db8d66b4c26
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1a6b859de12681e93912f934f6aa5e55c42fcfb9
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806362"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171401"
 ---
 # <a name="deployment-acceleration-template"></a>Шаблон ускорения развертывания
 

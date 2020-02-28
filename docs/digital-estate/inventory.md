@@ -1,18 +1,18 @@
 ---
-title: Сбор данных инвентаризации для цифровых активов
-description: Сбор данных инвентаризации для цифровых активов.
+title: Данные инвентаризации для цифрового пространства
+description: Узнайте, как создать список инвентаризации ИТ-активов, поддерживающих определенные бизнес функции, для последующего анализа и рационализации.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/10/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 013a47725113ee76a7ba64b54a70cce714829290
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1735c5e6f818f727cee3e28f11fbaf31610de8d8
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804577"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170092"
 ---
 # <a name="gather-inventory-data-for-a-digital-estate"></a>Сбор данных инвентаризации для цифровых активов
 

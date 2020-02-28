@@ -1,18 +1,18 @@
 ---
-title: 'Облачные инновации: средства для прогнозирования и влияния в Azure'
-description: Средства для прогнозирования и влияния в Azure
+title: Средства инноваций для прогнозирования и влияния
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы найти средства аналитики, помогающие обнаруживать закономерности, объединять прогнозы и влиять на поведение клиентов.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 656074ea65f490dea1345c2e00742846323cf6db
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 064016bddcf8c78e1b722397a9f18c71a0485776
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808623"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170772"
 ---
 # <a name="tools-to-predict-and-influence-data-in-azure"></a>Средства для прогнозирования и влияния на данные в Azure
 
@@ -37,11 +37,11 @@ ms.locfileid: "76808623"
 - Машинное обучение Azure
 - Azure HDInsight
 - Масштабируемый R Hadoop
-- Хранилище данных SQL Azure
+- Хранилище данных SQL Azure
 
 Использование каждого из этих средств с каждым этапом прогнозирования и влияния отражается в руководстве в оглавлении в левой части этой страницы.
 
-## <a name="get-started"></a>Начать
+## <a name="get-started"></a>Начало работы
 
 В оглавлении в левой части этой страницы показано множество статей. Эти статьи помогут вам приступить к работе с каждым из средств в этой цепочки инструментов.
 

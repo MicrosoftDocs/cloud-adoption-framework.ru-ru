@@ -1,6 +1,6 @@
 ---
-title: Обеспечение успеха клиента во время поездки на внедрение в облако
-description: Обеспечение успеха клиента во время поездки на внедрение в облако
+title: Включение успешного внедрения в облако
+description: Используйте облачную платформу для внедрения самообслуживания и другие средства, которые помогут вам принять решения по внедрению в облако, обеспечивающие успешное выполнение клиентов.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: 34b67422ad8f32cf8d6bae141db05956a1b41e22
-ms.sourcegitcommit: 6a22ac00549eb9964f25d3dfd63730e17f7eefe1
+ms.openlocfilehash: 4abfaa8622db86fefb2c7c99589d3ef81a5ed489
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "77413203"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170177"
 ---
 # <a name="enable-success-during-a-cloud-adoption-journey"></a>Включение успеха во время поездки на внедрение в облако
 
@@ -156,7 +156,7 @@ ms.locfileid: "77413203"
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 С учетом основных возможностей облачной инфраструктуры внедрения, вероятность успеха при [переносе](./migrate.md) или внедрении [инноваций](./innovate.md) будет значительно выше.
 

@@ -1,18 +1,18 @@
 ---
-title: 'Миграция мэйнфреймов: мифы и факты'
-description: Перенос приложений из среды мейнфреймов в проверенную, высокодоступную и масштабируемую инфраструктуру Azure с поддержкой систем, которые сейчас работают на мейнфреймах.
+title: Мифы и факты миграции мэйнфреймов
+description: Научитесь отличать мифы от реальности к мэйнфреймам и оцените рабочие нагрузки мэйнфреймов, наиболее подходящие для Azure.
 author: njray
 ms.author: v-nanra
 ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e3e14bca45f8e5531e663c76b346f295ccb64319
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 101ce6ef12ca9f9c686075c6e839a8353bc93da8
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808759"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171316"
 ---
 # <a name="mainframe-myths-and-facts"></a>Мифы и факты о мейнфрейме
 

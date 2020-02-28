@@ -1,6 +1,6 @@
 ---
 title: Рациональное использование цифровых активов
-description: Оцените цифровые ресурсы, чтобы определить лучший способ для их размещения в облаке.
+description: Использование облачных решений для анализа цифровых активов и определения лучшего подхода к их размещению в облаке.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/10/2018
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: c618e6c1cf83199ae55df44397e07f3755fbb1f8
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 38d574735dbc7854a03b98aee9d3e7012b939ff8
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804560"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170143"
 ---
 # <a name="rationalize-the-digital-estate"></a>Рациональное использование цифровых активов
 
