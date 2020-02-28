@@ -1,6 +1,6 @@
 ---
 title: Руководство по принятию решений о системе идентификации
-description: Сведения о системе идентификации, которая играет важнейшую роль при миграции в Azure.
+description: Узнайте, как службы управления идентификацией и доступом (IAM) позволяют контролировать управление доступом в облаке.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: b447330368823947bfe027036b14c3a6c1fb94f1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 67e1b0fefeeab9e95fb001b162efaa5c0f247c59
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807110"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708008"
 ---
 # <a name="identity-decision-guide"></a>Руководство по принятию решений о системе идентификации
 

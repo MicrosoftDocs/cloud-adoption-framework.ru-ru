@@ -1,6 +1,6 @@
 ---
 title: Руководство по принятию решений касательно согласованности ресурсов
-description: Сведения о согласованности ресурсов при планировании миграции в Azure.
+description: Осознайте важность согласованности облачных ресурсов и изучите факторы, которые определяют требования к согласованности ресурсов.
 author: doodlemania2
 ms.author: dermar
 ms.date: 10/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 6f995a3f6ffb26f408a45610d7d0674e02bf6a31
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: df1299c091c994e143fdc8102590c823f2974ac2
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806702"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708722"
 ---
 # <a name="resource-consistency-decision-guide"></a>Руководство по принятию решений касательно согласованности ресурсов
 

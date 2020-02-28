@@ -1,6 +1,6 @@
 ---
 title: Руководство по принятию решений о шифровании
-description: Сведения о шифровании как основной службе для миграции в Azure.
+description: Внедрите политику шифрования — одну из основных служб, используемых при миграции в Azure, которая обеспечивает дополнительные уровни безопасности для облачных рабочих нагрузок и данных.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 7df170713e10460d9e928837a99287be0afd5805
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: c81096576934aa55bd0381e7ac26dd8666b827ea
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807059"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707991"
 ---
 # <a name="encryption-decision-guide"></a>Руководство по принятию решений о шифровании
 

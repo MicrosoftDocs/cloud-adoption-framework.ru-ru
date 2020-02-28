@@ -1,6 +1,6 @@
 ---
 title: Общие сведения об основных способах защиты
-description: Общие сведения об основных способах защиты
+description: Ознакомьтесь с подходом к разработке дисциплины "Основные способы защиты" в составе стратегии управления облаком.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: ecea5b28e64004f85b4312a35b78bef81048c050
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 75a0212628c41f82ceccd198c87e69d430b74258
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808980"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77707430"
 ---
 # <a name="security-baseline-discipline-overview"></a>Общие сведения об основных способах защиты
 

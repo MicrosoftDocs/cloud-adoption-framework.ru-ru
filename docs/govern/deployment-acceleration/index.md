@@ -1,6 +1,6 @@
 ---
 title: Общие сведения о дисциплине "Ускорение развертывания"
-description: Сведения об ускорении развертывания в связи с управлением облаком.
+description: Используйте Cloud Adoption Framework для Azure, чтобы понять, как связаны между собой ускорение развертывания и система управления облаком.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 02741fdaeab54267fbb54fcfaa0c65a3f1207045
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3c83e40ab6d08b461095385ac58cf64d74da86a9
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76804186"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708977"
 ---
 # <a name="deployment-acceleration-discipline-overview"></a>Общие сведения о дисциплине "Ускорение развертывания"
 

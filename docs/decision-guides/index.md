@@ -1,6 +1,6 @@
 ---
 title: Руководства по принятию архитектурных решений
-description: Сведения о руководствах по архитектурным решениям на платформе внедрения облака.
+description: Используйте эти основные шаблоны и модели компонентов инфраструктуры облачного развертывания в конкретных сценариях развертывания в облаке.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: aa1f2b4bfdb77f8b69b79a89da8bd425918799d4
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 6fcd5892eb9d13b61cbaa697731718e1ca8ce3eb
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806787"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708161"
 ---
 # <a name="architectural-decision-guides"></a>Руководства по принятию архитектурных решений
 

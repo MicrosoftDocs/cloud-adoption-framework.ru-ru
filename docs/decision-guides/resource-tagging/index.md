@@ -1,6 +1,6 @@
 ---
 title: Руководство по именованию ресурсов и присвоению тегов
-description: Сведения об упорядочении ресурсов и присвоении тегов, которые играют важнейшую роль при миграции в Azure.
+description: Изучите подходы к именованию и присвоению тегов, а также способы упорядочения облачных ресурсов в рамках Cloud Adoption Framework для Azure.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4a4b283fa447b296d429f037f12bbf3b2bfcf0fb
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 90b69a21f1643d4545b2ea5bce46d0c3c499d9a3
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806685"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708688"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 

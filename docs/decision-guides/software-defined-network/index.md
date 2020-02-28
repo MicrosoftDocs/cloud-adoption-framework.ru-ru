@@ -1,6 +1,6 @@
 ---
 title: Руководство по принятию решений о программно-конфигурируемой сети
-description: Узнайте о программно-конфигурируемых сетях, которые играют важнейшую роль при миграции в Azure.
+description: Используйте Cloud Adoption Framework для Azure, чтобы узнать, как программно-конфигурируемая сеть обеспечивает работу виртуализованных сетей с централизованным управлением с помощью программного обеспечения.
 author: rotycenh
 ms.author: v-tyhopk
 ms.date: 02/11/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 7eb03b01dfab3627117b4d07727f09669e6b0924
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4fa9f16a2636cf5e8f1340bf51ae39e8db3198b0
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806600"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708739"
 ---
 # <a name="software-defined-networking-decision-guide"></a>Руководство по принятию решений о программно-конфигурируемой сети
 

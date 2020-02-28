@@ -1,6 +1,6 @@
 ---
 title: Рекомендации по принятию решений о регионах
-description: Узнайте, как выбрать регион для облачной платформы.
+description: Изучите сведения о регионах, в которых доступна облачная платформа, а также факторы и характеристики, которые могут повлиять на выбор региона Azure.
 author: doodlemania2
 ms.author: dermar
 ms.date: 10/17/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: aff6a3129bd93df434737a861f0b5f0daad24bcc
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d8545d000d817aa8d6bcaa40a67a157ca5e57669
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806719"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77708501"
 ---
 # <a name="azure-regions"></a>Регионы Azure
 

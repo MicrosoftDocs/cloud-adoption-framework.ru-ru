@@ -1,6 +1,6 @@
 ---
 title: Руководства по управлению облаком
-description: Ознакомьтесь с практическими руководствами по управлению на платформе Cloud Adoption Framework.
+description: Ознакомьтесь с руководствами по управлению облаком, иллюстрирующими рекомендации по поэтапному подходу к любому сценарию управления.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: de76ec738e6a2fe8493b12c7c510aa68d1bfe0a2
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 51f24653998ab3cd4cf7fd043b487e4d7c1ccc5b
+ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76805495"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "77709232"
 ---
 # <a name="cloud-governance-guides"></a>Руководства по управлению облаком
 
@@ -90,7 +90,7 @@ ms.locfileid: "76805495"
 |---|---|---|
 | Центр обработки данных или сторонние поставщики услуг размещения | Меньше пяти центров обработки данных. | Больше пяти центров обработки данных. |
 | Сеть | Отсутствие глобальной сети или 1–2 поставщика глобальных сетей. | Сложная или глобальная сеть. |
-| Удостоверение | Один лес и один домен. | Сложная система с несколькими лесами и несколькими доменами. |
+| Идентификация | Один лес и один домен. | Сложная система с несколькими лесами и несколькими доменами. |
 
 ### <a name="desired-future-state-after-incremental-improvement-of-cloud-governance"></a>Требуемое будущее состояние после поэтапного улучшения системы облачного управления
 
