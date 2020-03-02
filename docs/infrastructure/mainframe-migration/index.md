@@ -1,18 +1,18 @@
 ---
 title: Обзор миграции мейнфреймов
-description: Перенос приложений из среды мейнфреймов в проверенную, высокодоступную и масштабируемую инфраструктуру Azure с поддержкой систем, которые сейчас работают на мейнфреймах.
+description: Переносите рабочие нагрузки, приложения и базы данных мейнфреймов на платформу Azure с проверенной высокодоступной масштабируемой инфраструктурой, в которой отсутствуют многие недостатки, присущие мейнфреймам.
 author: njray
 ms.author: v-nanra
 ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 899e1575fa4e8c3bd83ebec38f0a38cb1e02d314
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 04058077ed9fc739a063e75d0da4effb4c784436
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808793"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171384"
 ---
 # <a name="mainframe-migration-overview"></a>Обзор миграции мейнфреймов
 

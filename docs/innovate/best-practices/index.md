@@ -1,18 +1,18 @@
 ---
-title: 'Облачные инновации: Разработка цифровых технологий в Azure'
-description: Разработка цифровых технологий в Azure
+title: Разработка цифровых инновационных решений
+description: Используйте Cloud Adoption Framework для Azure, чтобы создать методологию внедрения инноваций и цепочку инструментов для разработки новых цифровых технологий.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 19a58470b3c918532921b68be5904ff8b1f1f825
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: d3beb01940da6b391bca2751866e5f484ce2f713
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808640"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170738"
 ---
 # <a name="develop-digital-inventions-in-azure"></a>Разработка цифровых технологий в Azure
 

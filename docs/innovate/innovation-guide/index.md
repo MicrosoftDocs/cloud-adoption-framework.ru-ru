@@ -1,6 +1,6 @@
 ---
-title: Руководство по инновациям Azure. Перед началом работы
-description: Узнайте, как создавать инновационные решения для клиентов, использующих Azure.
+title: Инновации в Azure. Перед началом работы
+description: Подготовьте свою среду для внедрения облачных инновационных решений с помощью функций Azure, которые помогут вам привлекать клиентов, создавать решения и осваивать новые технологии.
 author: matticusau
 ms.author: mlavery
 ms.date: 10/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 7929224bb8b0a3c0a9bec83ef5a08b492cb2d5f4
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 262fe97adea985beb2f5f8331ba5a68572900d58
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808283"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171010"
 ---
 ::: zone target="docs"
 

@@ -1,18 +1,18 @@
 ---
 title: Инновации в сфере цифровой экономики
-description: Узнайте о принципах внедрения инновационных облачных решений в соответствии с Cloud Adoption Framework.
+description: Сосредоточьтесь на изучении потребностей клиентов и быстром создании инновационных облачных решений, определяющих способ взаимодействия ваших клиентов с вашими продуктами.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 87d47fa7e6f28f41c7edc98525cadabe65b99d48
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: b0d08b4f5ac822acd1d2a2574a9bd3d240175ca1
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808470"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171180"
 ---
 # <a name="innovation-in-the-digital-economy"></a>Инновации в сфере цифровой экономики
 

@@ -1,6 +1,6 @@
 ---
-title: Облачные инновации в Cloud Adoption Framework
-description: Узнайте об облачных инновациях в Cloud Adoption Framework.
+title: Инновации, связанные с внедрением облачных технологий
+description: Узнайте, как инновации, которые основываются на внедрении облачных технологий, обеспечивают преимущества для бизнеса за счет использования новых технических навыков и расширения бизнес-возможностей.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/14/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 layout: LandingPage
-ms.openlocfilehash: c4acca0cc71a149f6cb7ab5ecd058a833967c7e1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4b596fc83cf3d0b9a951287e052215622f6ee6b2
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808385"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171129"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Облачные инновации в Cloud Adoption Framework
 
