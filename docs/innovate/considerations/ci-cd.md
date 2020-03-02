@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: bfaacd1f07b24a3d88b03aa577e1f1ca38493423
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 59ef9ad61c9e3545fbcdbd62e05711e20de38a29
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170568"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223488"
 ---
 # <a name="empower-adoption"></a>Поддержка внедрения
 
@@ -45,7 +45,7 @@ ms.locfileid: "78170568"
 
 При масштабировании инноваций не является ценным инструментом, чем общая база кода для решения. К сожалению, не существует надежного способа прогнозирования итерации или того, какой специалист MVP выдает выигрышное сочетание. Именно поэтому никогда не слишком рано создавать общую базу кода или репозиторий. Это один [технический пик](./build.md#reduce-complexity-and-delay-technical-spikes) , который никогда не должен задерживаться. По мере того как команда проходит по различным решениям MVP, общий репозиторий обеспечивает простоту совместной работы и ускоренную разработку. Когда изменения в решении изменяют метрики обучения, система управления версиями позволяет выполнять откат до более ранней, более эффективной версии решения.
 
-Наиболее распространенным средством для управления репозиториями кода является [GitHub](https://guides.github.com), позволяющее создать репозиторий с общим кодом всего за несколько щелчков мышью. Кроме того, [Azure Repos](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops) функции Azure DevOps можно использовать для создания репозитория [Git](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#git) или [Team Foundation](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#tfvc) .
+Наиболее распространенным средством управления репозиториями кода является [GitHub](https://guides.github.com), которое позволяет создать общий репозиторий кода всего за несколько шагов. Кроме того, [Azure Repos](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops) функции Azure DevOps можно использовать для создания репозитория [Git](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#git) или [Team Foundation](https://docs.microsoft.com/azure/devops/repos/get-started/what-is-repos?view=azure-devops#tfvc) .
 
 ## <a name="feedback-loops"></a>Циклы обратной связи
 
@@ -61,7 +61,7 @@ ms.locfileid: "78170568"
 
 В непрерывной интеграции изменения кода часто объединяются в основную ветвь. Автоматизированные процессы сборки и тестирования позволяют гарантировать, что код в главной ветви всегда является производственным. Это гарантирует, что разработчики работают вместе для разработки общих решений, предоставляющих точные и надежные циклы обратной связи.
 
-Azure DevOps и [Azure pipelines](https://docs.microsoft.com/azure/devops/pipelines) предоставляют возможности непрерывной интеграции всего за несколько щелчков в GitHub или в различных репозиториях.
+Azure DevOps и [Azure pipelines](https://docs.microsoft.com/azure/devops/pipelines) предоставляют возможности непрерывной интеграции всего за несколько шагов в GitHub или в различных репозиториях.
 Узнайте больше о [непрерывной интеграции](https://docs.microsoft.com/azure/devops/learn/what-is-continuous-integration)или ознакомьтесь с [практическими занятиями](https://www.azuredevopslabs.com/labs/azuredevops/continuousintegration). Существуют также архитектуры решений для ускорения создания [конвейеров CI/CD с помощью Azure DevOps](https://azure.microsoft.com/solutions/devops).
 
 ## <a name="reliable-testing"></a>Надежное тестирование
@@ -94,7 +94,7 @@ Azure DevOps и [Azure pipelines](https://docs.microsoft.com/azure/devops/pipeli
 
 В Azure [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) предоставляет средства и интерфейс для получения и просмотра данных от клиентов. Вы можете применить эти наблюдения и аналитические сведения для уточнения невыполненной работы с помощью [Azure Boards](https://docs.microsoft.com/azure/devops/boards).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Когда вы получите представление о средствах и процессах, необходимых для повышения производительности, научитесь изучать более широкие возможности инноваций: [взаимодействие с устройствами](./devices.md). Эта дисциплина помогает снизить барьеры между физическими и цифровыми впечатлениями, что упрощает внедрение вашего решения.
 

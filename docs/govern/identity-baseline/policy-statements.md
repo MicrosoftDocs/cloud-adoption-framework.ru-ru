@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4cf67b9580fb6b3970dc9982d9df94a809a73f36
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: d4c69bafe9bf0dc0bfdb060455c82d3b3a638a47
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709300"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223846"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Примеры правил политики основных способов идентификации
 
@@ -76,7 +76,7 @@ ms.locfileid: "77709300"
 
 **Возможные варианты проектирования:** Установите ежеквартальное собрание по проверке безопасности, включающее участников группы управления и ИТ-сотрудников, ответственных за управление службами удостоверений. Проверьте существующие данные и метрики безопасности, чтобы установить зазоры в текущей политике управления удостоверениями и инструментарии, и обновите политику, чтобы устранить все новые риски.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Используйте примеры, упомянутые в этой статье, в качестве отправной точки для разработки политик для решения конкретных бизнес-рисков, которые согласованы с планами внедрения в облако.
 

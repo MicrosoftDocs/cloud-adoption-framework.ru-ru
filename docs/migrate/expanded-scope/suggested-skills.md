@@ -3,16 +3,16 @@ title: Подготовка навыков для миграции в облак
 description: Подготовка навыков для миграции в облако
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 05/19/2019
+ms.date: 02/25/2020
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d6768f3944699fdde483fb25f47bcb22be2484f1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f24d619106674cedf12bc650cd0807e0f766e3c6
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802945"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222317"
 ---
 # <a name="skills-readiness-for-cloud-migration"></a>Подготовка навыков для миграции в облако
 
@@ -28,7 +28,7 @@ ms.locfileid: "76802945"
 
 Приведенные ниже инструменты помогут группе выполнить действия по оценке.
 
-- [Балансировка портфеля](./balance-the-portfolio.md): Обеспечьте баланс и правильное выделение инвестиций в портфеле приложений.
+- [Балансировка портфеля](../../strategy/balance-the-portfolio.md): Обеспечьте баланс и правильное выделение инвестиций в портфеле приложений.
 - [Формирование делового обоснования](../../strategy/cloud-migration-business-case.md): создание и понимание делового обоснования, влияющего на усилия по миграции в облако.
 - [Рационализировать в](../../digital-estate/rationalize.md)цифровом ресурсе: рационализировать активы.
 - [Оценка портфеля приложений](https://docs.microsoft.com/learn/modules/app-and-infra-migration-and-modernization): критерии принятия решений о переходах и вариантах внедрения инноваций в портфеле приложений.
@@ -62,7 +62,7 @@ ms.locfileid: "76802945"
 
 - [Защита рабочих нагрузок и управление ими в Azure](../azure-best-practices/migrate-best-practices-security-management.md). рекомендации по обеспечению безопасности и управлению рабочими нагрузками в Azure.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Вернитесь к [контрольному списку расширенной области](./index.md), чтобы убедиться, что выбранный метод миграции полностью вам подходит.
 

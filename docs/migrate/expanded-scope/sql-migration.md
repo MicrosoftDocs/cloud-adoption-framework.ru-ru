@@ -7,12 +7,12 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 5b2190456e63c0e1da39f064e34d63eebbf4d998
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: c41a8ebbce9fa4a8f0036c2aa395706f44069263
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802996"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78225499"
 ---
 # <a name="accelerate-migration-by-migrating-multiple-databases-or-entire-sql-servers"></a>Ускорение миграции путем миграции нескольких баз данных или целых серверов SQL Server
 
@@ -45,26 +45,26 @@ ms.locfileid: "76802996"
 
 Ниже приведен пример инвентаризации сервера.
 
-|SQL Server|Цель|Версия|[Важности](../../manage/considerations/criticality.md)|[Уровень конфиденциальности](../../govern/policy-compliance/data-classification.md)|Число баз данных|Integration Services|Службы SSRS|Службы SSAS|Кластер|Количество узлов|
+|SQL Server|Назначение|Версия|[Важности](../../manage/considerations/criticality.md)|[Уровень конфиденциальности](../../govern/policy-compliance/data-classification.md)|Число баз данных|Службы SSIS|SSRS|SSAS|Кластер|Число узлов|
 |---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|---------|
 |SQL-01|Основные приложения|2016|Критически важные интеграции|Строго конфиденциально|40|Н/Д|Н/Д|Н/Д|Да|3|
 |SQL-02|Основные приложения|2016|Критически важные интеграции|Строго конфиденциально|40|Н/Д|Н/Д|Н/Д|Да|3|
 |SQL-03|Основные приложения|2016|Критически важные интеграции|Строго конфиденциально|40|Н/Д|Н/Д|Н/Д|Да|3|
-|SQL-04|BI|2012|Высокая|XX|6|Н/Д|Confidential|Да — многомерный куб|Нет|1|
-|SQL-05|Интеграция|2008 R2|Низкая|Общие|20|Да|Н/Д|Н/Д|Нет|1|
+|SQL-04|BI|2012|Высокий|XX|6|Н/Д|Confidential|Да — многомерный куб|Нет|1|
+|SQL-05|Integration|2008 R2|Низкий|Общие|20|Да|Н/Д|Н/Д|Нет|1|
 
 ### <a name="database-inventory"></a>Инвентаризация базы данных
 
 Ниже приведен пример инвентаризации базы данных для одного из указанных выше серверов.
 
-|Сервер|База данных|[Важности](../../manage/considerations/criticality.md)|[Уровень конфиденциальности](../../govern/policy-compliance/data-classification.md)|Результаты Помощник по миграции данных (DMA)|Исправление DMA|Целевая платформа|
+|Server|Database|[Важности](../../manage/considerations/criticality.md)|[Уровень конфиденциальности](../../govern/policy-compliance/data-classification.md)|Результаты Помощник по миграции данных (DMA)|Исправление DMA|Целевая платформа|
 |---------|---------|---------|---------|---------|---------|---------|
-|SQL-01|DB-1|Критически важные интеграции|Строго конфиденциально|Совместимые|Н/Д|База данных SQL Azure|
-|SQL-01|DB-2|Высокая|Confidential|Требуется изменение схемы|Реализованные изменения|База данных SQL Azure|
-|SQL-01|DB-3|Высокая|Общие|Совместимые|Н/Д|Управляемый экземпляр SQL Azure|
-|SQL-01|DB-4|Низкая|Строго конфиденциально|Требуется изменение схемы|Запланированные изменения|Управляемый экземпляр SQL Azure|
-|SQL-01|DB-5|Критически важные интеграции|Общие|Совместимые|Н/Д|Управляемый экземпляр SQL Azure|
-|SQL-01|DB-6|Высокая|Confidential|Совместимые|Н/Д|База данных SQL Azure|
+|SQL-01|DB-1|Критически важные интеграции|Строго конфиденциально|Совместим|Н/Д|База данных SQL Azure|
+|SQL-01|DB-2|Высокий|Confidential|Требуется изменение схемы|Реализованные изменения|База данных SQL Azure|
+|SQL-01|DB-3|Высокий|Общие|Совместим|Н/Д|Управляемый экземпляр SQL Azure|
+|SQL-01|DB-4|Низкий|Строго конфиденциально|Требуется изменение схемы|Запланированные изменения|Управляемый экземпляр SQL Azure|
+|SQL-01|DB-5|Критически важные интеграции|Общие|Совместим|Н/Д|Управляемый экземпляр SQL Azure|
+|SQL-01|DB-6|Высокий|Confidential|Совместим|Н/Д|База данных SQL Azure|
 
 ### <a name="integration-with-the-cloud-adoption-plan"></a>Интеграция с планом внедрения в облако
 
@@ -93,7 +93,7 @@ ms.locfileid: "76802996"
 
 Предлагаемый путь для миграции и синхронизации использует сочетание следующих трех средств. В следующих разделах описаны более сложные варианты миграции и синхронизации, которые позволяют использовать более широкий спектр целевых и исходных решений.
 
-|Параметр миграции|Цель|
+|Параметр миграции|Назначение|
 |---------|---------|
 |[Azure Database Migration Service](https://docs.microsoft.com/sql/dma/dma-overview)|Поддерживает режим "в сети" (минимальное время простоя) и "автономный" (один раз) миграция в управляемый экземпляр базы данных SQL Azure. Поддерживает миграцию с: SQL Server 2005, SQL Server 2008 и SQL Server 2008 R2, SQL Server 2012, SQL Server 2014, SQL Server 2016 и SQL Server 2017.|
 |[Репликация транзакций](https://docs.microsoft.com/sql/relational-databases/replication/administration/enhance-transactional-replication-performance)|Репликация транзакций в управляемый экземпляр базы данных SQL Azure поддерживается для миграций из: SQL Server 2012 (с пакетом обновления 2 (SP2), SP3 или более поздней версии), SQL Server 2014 (RTM CU10 или более поздней версии или с пакетом обновления 1 (SP1) CU3 или более поздней версии), SQL Server 2016 SQL Server 2017.|
@@ -103,23 +103,23 @@ ms.locfileid: "76802996"
 
 Выбор лучших рекомендаций по миграции с помощью Azure Database Migration Service зависит от выбранной исходной и целевой платформы. В следующей таблице приведены ссылки на учебники по каждому из стандартных подходов к переносу базы данных SQL с помощью Azure Database Migration Service.
 
-|Источник  |Выбор пути миграции  |Средство  |Тип миграции  |Руководство  |
+|Источник  |Target  |Средство  |Тип миграции  |Руководство  |
 |---------|---------|---------|---------|---------|
-|SQL Server|База данных SQL Azure|Служба миграции баз данных|Вне сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)|
-|SQL Server|База данных SQL Azure|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online)|
-|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Служба миграции баз данных|Вне сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance)|
-|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)|
-|SQL Server RDS|База данных SQL Azure (или управляемый экземпляр)|Служба миграции баз данных|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online)|
+|SQL Server|База данных SQL Azure|Database Migration Service|Вне сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)|
+|SQL Server|База данных SQL Azure|Database Migration Service|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online)|
+|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Database Migration Service|Вне сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance)|
+|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Database Migration Service|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)|
+|SQL Server RDS|База данных SQL Azure (или управляемый экземпляр)|Database Migration Service|В сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online)|
 
 ### <a name="guidance-and-tutorials-for-various-services-to-equivalent-paas-solutions"></a>Руководства и руководства по различным службам для эквивалентных решений PaaS
 
 После перемещения баз данных из экземпляра SQL Server в Azure Database Migration Service схему и данные можно разместить в нескольких решениях PaaS. Однако другие необходимые службы по-прежнему могут работать на этом сервере. Следующие три руководства помогут в перемещении служб SSIS, SSAS и SSRS в эквивалентные службы PaaS в Azure.
 
-|Источник  |Выбор пути миграции  |Средство  |Тип перемещения  |Руководство  |
+|Источник  |Target  |Средство  |Тип перемещения  |Руководство  |
 |---------|---------|---------|---------|---------|
-|Службы SQL Server Integration Services|Среда выполнения интеграции фабрики данных Azure|Фабрика данных Azure|Вне сети|[Руководство](https://docs.microsoft.com/azure/data-factory/create-azure-ssis-integration-runtime)|
+|Службы интеграции SQL Server|Среда выполнения интеграции фабрики данных Azure|Фабрика данных Azure|Вне сети|[Руководство](https://docs.microsoft.com/azure/data-factory/create-azure-ssis-integration-runtime)|
 |SQL Server Analysis Services-табличная модель|Службы Azure Analysis Services|SQL Server Data Tools|Вне сети|[Руководство](https://docs.microsoft.com/azure/analysis-services/analysis-services-deploy)|
-|службы SQL Server Reporting Services|Сервер отчетов Power BI|Power BI|Вне сети|[Руководство](https://docs.microsoft.com/power-bi/report-server/migrate-report-server)|
+|службы SQL Server Reporting Services|Сервер отчетов Power BI|Power BI|Вне сети|[Руководство](https://docs.microsoft.com/power-bi/report-server/migrate-report-server)|
 
 ### <a name="guidance-and-tutorials-for-migration-from-sql-server-to-an-iaas-instance-of-sql-server"></a>Руководство и руководства по миграции с SQL Server на экземпляр IaaS SQL Server
 
@@ -127,7 +127,7 @@ ms.locfileid: "76802996"
 
 Используйте этот подход для переноса баз данных или других служб на экземпляре SQL Server.
 
-|Источник  |Выбор пути миграции  |Средство  |Тип перемещения  |Руководство  |
+|Источник  |Target  |Средство  |Тип перемещения  |Руководство  |
 |---------|---------|---------|---------|---------|
 |SQL Server одного экземпляра|Сервер SQL Server в IaaS|Изменяем|Вне сети|[Руководство](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-migrate-sql)|
 
@@ -137,7 +137,7 @@ ms.locfileid: "76802996"
 
 В идеале вы переносите зависимые рабочие нагрузки, приложения и виртуальные машины в той же итерации, что и экземпляр SQL Server. В этом случае можно протестировать рабочую нагрузку вместе с источником данных. После тестирования можно преобразовать структуру данных в рабочую среду и завершить процесс синхронизации.
 
-Теперь рассмотрим ситуацию, в которой существует значительный промежуток времени между миграцией базы данных и рабочей нагрузкой. К сожалению, это может быть самым существенным изменением процесса оптимизации во время миграции, не связанных с рабочей нагрузкой. При миграции нескольких баз данных в рамках SQL Server миграции эти базы данных могут сосуществовать как в облаке, так и в локальной среде, для нескольких итераций. В течение этого времени необходимо поддерживать синхронизацию данных до тех пор, пока эти зависимые ресурсы не будут перенесены, протестированы и подвергнуты повышению уровня.
+Теперь рассмотрим ситуацию, в которой существует значительный промежуток времени между миграцией базы данных и рабочей нагрузкой. К сожалению, это может стать самым значительным изменением процесса оптимизации во время миграции, не управляемой рабочей нагрузкой. При миграции нескольких баз данных в рамках SQL Server миграции эти базы данных могут сосуществовать как в облаке, так и в локальной среде, для нескольких итераций. В течение этого времени необходимо поддерживать синхронизацию данных до тех пор, пока эти зависимые ресурсы не будут перенесены, протестированы и подвергнуты повышению уровня.
 
 До тех пор, пока все зависимые рабочие нагрузки не будут выдвинуты, вы и ваша команда обязаны поддерживать синхронизацию данных из исходной системы с целевой системой. Эта синхронизация потребляет пропускную способность сети, облачные затраты и, что самое важное, время людей. Правильное выравнивание плана внедрения в рабочей нагрузке по миграции SQL Server, а также всех зависимых рабочих нагрузок и приложений может снизить эти дорогостоящие издержки.
 
@@ -155,7 +155,7 @@ ms.locfileid: "76802996"
 
 До тех пор пока шаг 5 не будет пройден, вы не сможете завершить работу баз данных и синхронизацию. До тех пор пока все базы данных в экземпляре SQL Server не пройдут все семь шагов, следует рассматривать локальный экземпляр SQL Server как рабочую. Должна поддерживаться вся синхронизация.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Вернитесь к [контрольному списку расширенной области](./index.md), чтобы убедиться, что выбранный метод миграции полностью вам подходит.
 

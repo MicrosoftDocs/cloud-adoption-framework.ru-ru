@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 9d8bf9a5188eae55c14a22a8007aa6e9cc01b02c
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 250f78bb0287e30615aee4b2cfb1234823197f56
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708603"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222664"
 ---
 # <a name="software-defined-networking-cloud-native"></a>Программно-определяемая сеть: машинный код в облаке
 
@@ -41,4 +41,4 @@ ms.locfileid: "77708603"
 Дополнительные сведения о виртуальных сетях, машинных в облаке, в Azure см. в следующих статьях:
 
 - [Виртуальная сеть Azure: практические руководства](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm). Вновь созданные виртуальные сети Azure по умолчанию являются облачными. Используйте эти руководства для планирования, проектирования и развертывания виртуальных сетей.
-- [Ограничения подписки: сети](https://docs.microsoft.com/azure/azure-subscription-service-limits?toc=/azure/virtual-network/toc.json#networking-limits). Любая отдельная виртуальная сеть и подключенные ресурсы могут существовать только в рамках одной подписки и связываться ограничениями подписки.
+- [Ограничения подписки: сети](https://docs.microsoft.com/azure/azure-subscription-service-limits?toc=/azure/virtual-network/toc.json#networking-limits). Каждая виртуальная сеть и подключенные ресурсы существуют в одной подписке. Эти ресурсы привязаны к ограничениям подписки.

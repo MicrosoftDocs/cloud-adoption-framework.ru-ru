@@ -7,18 +7,18 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 0cd8776c71eae22fdb7a7894b656a3dc1948e45c
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 4581c865f3dd928df91e7e1eef97a0ea341e4ccb
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808113"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223508"
 ---
 # <a name="enable-tracking-and-alerting-for-critical-changes"></a>Включение отслеживания и предупреждений для критических изменений
 
 Отслеживание изменений и Инвентаризация Azure предоставляют оповещения о состоянии конфигурации гибридной среды и изменениях в этой среде. Он может сообщать о критических изменениях файла, службы, программного обеспечения и реестра, которые могут повлиять на развернутые серверы.
 
-По умолчанию служба инвентаризации Azure Automation не отслеживает файлы и параметры реестра. Решение предоставляет список разделов реестра, которые мы рекомендуем использовать для мониторинга. Чтобы просмотреть этот список, перейдите к учетной записи службы автоматизации в портал Azure и выберите **инвентаризация** > **изменить параметры**.
+По умолчанию служба инвентаризации Azure Automation не отслеживает файлы и параметры реестра. Решение предоставляет список разделов реестра, которые мы рекомендуем использовать для мониторинга. Чтобы просмотреть этот список, перейдите к учетной записи службы автоматизации в портал Azure, а затем выберите **инвентаризация** > **изменить параметры**.
 
 ![Снимок экрана с представлением инвентаризации Azure Automation в портал Azure](./media/change-tracking1.png)
 
@@ -94,7 +94,7 @@ ConfigurationChange | where FieldsChanged contains "FileContentChecksum" and Fil
   ConfigurationChange | where RegistryKey == "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\KnownDlls"
   ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как использовать службу автоматизации Azure для [создания расписаний обновлений](./update-schedules.md) для управления обновлениями на серверах.
 

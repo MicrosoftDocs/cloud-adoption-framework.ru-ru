@@ -8,18 +8,18 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, setup
-ms.openlocfilehash: 42e7064a6d3b125a01f6fca9ce041b473fb1b7f6
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: cac594b7acd3764e6e5663ad28a77f292f7d440b
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799494"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78225345"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
 Термин *зона размещения для миграции* используется для описания среды, настроенной и подготовленной для размещения рабочих нагрузок, перенесенных из локальной среды в Azure. Целевая зона миграции — это окончательный результат работы с руководством по установке Azure. В этой статье объединены все вопросы готовности, обсуждаемые в этом руководстве, и применяются решения, принятые для развертывания первой зоны размещения для миграции.
 
-В следующих разделах описана зона размещения, которая обычно используется для создания среды, подходящей для использования во время миграции. Среда или зона размещения, описанные в этой статье, также отображаются в схеме Azure. Вы можете использовать схему зоны размещения для миграции Cloud Adoption Framework, чтобы развернуть определенную среду одним щелчком мыши.
+В следующих разделах описана зона размещения, которая обычно используется для создания среды, подходящей для использования во время миграции. Среда или зона размещения, описанные в этой статье, также отображаются в схеме Azure. Чтобы развернуть определенную среду с помощью одного шага, можно использовать схему "миграция целевой зоны" в облачной инфраструктуре внедрения.
 
 ## <a name="purpose-of-the-blueprint"></a>Цель схемы
 
@@ -59,16 +59,16 @@ ms.locfileid: "76799494"
 |Средства миграции|Будет развернута Azure Site Recovery, и будет создан проект Миграции Azure.|[Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)|
 |Ведение журналов и мониторинг|Будут предоставлены рабочее пространство оперативной аналитики и учетная запись хранения диагностики.|         |
 |Сеть|Будет создана виртуальная сеть с подсетями для шлюза, брандмауэра, Jumpbox и зоны размещения.|[Решения по выбору сетей](../considerations/networking-options.md)|
-|Удостоверение|Предполагается, что подписка уже связана с экземпляром Azure Active Directory.|[Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/bread/toc.json)         |
+|Тождество|Предполагается, что подписка уже связана с экземпляром Azure Active Directory.|[Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/bread/toc.json)         |
 |Политика|В настоящее время эта схема предполагает, что никакие политики Azure не будут применяться.|         |
 |Разработка подписки|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)|
 |Группы управления|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
 |Группы ресурсов|Недоступно — предназначено для одной производственной подписки.|[Масштабирование с помощью подписок](../azure-best-practices/scaling-subscriptions.md)         |
 |Данные|Н/Д|[Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
-|Хранилище|Н/Д|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-options.md)         |
+|Память|Н/Д|[Рекомендации по выбору службы хранилища Azure](../considerations/storage-options.md)         |
 |Стандарты именования и расстановки тегов|Н/Д|[Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)         |
-|Управление затратами|Н/Д|[Отслеживание затрат](../azure-best-practices/track-costs.md)|
-|Среда выполнения приложений|Н/Д|[Варианты вычислений](../considerations/compute-options.md)|
+|управления затратами;|Н/Д|[Отслеживание затрат](../azure-best-practices/track-costs.md)|
+|Службы вычислений|Н/Д|[Варианты вычислений](../considerations/compute-options.md)|
 
 ## <a name="customize-or-deploy-a-landing-zone-from-this-blueprint"></a>Настройка или развертывание зоны размещения из этой схемы
 
@@ -78,7 +78,7 @@ ms.locfileid: "76799494"
 
 Дополнительные сведения по настройке, которую необходимо внести в эту схему или итоговую зону размещения, см. в статье [Рекомендации по использованию зон размещения](../considerations/index.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После развертывания зоны размещения для миграции вы можете перенести рабочие нагрузки в Azure.
 Рекомендации по инструментам и процессам, которые необходимы для переноса первой рабочей нагрузки, см. в статье [Руководство по миграции в Azure](../../migrate/azure-migration-guide/index.md).

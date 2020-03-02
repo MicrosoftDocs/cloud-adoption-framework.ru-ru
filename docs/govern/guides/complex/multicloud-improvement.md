@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 07126e67dbe76562e664e35a4817d0e51733236f
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 9f4b11023e8b345283054c0ddede132f10664632
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709181"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223921"
 ---
 # <a name="governance-guide-for-complex-enterprises-multicloud-improvement"></a>Руководство по управлению для сложных предприятий: улучшение в облаке
 
@@ -31,7 +31,7 @@ ms.locfileid: "77709181"
 
 - Удостоверением управляет локальный экземпляр Active Directory. Благодаря репликации в Azure Active Directory процесс гибридной идентификации стал проще.
 - ИТ операции или облачные операции во многом управляются Azure Monitor и связанными возможностями автоматизации.
-- Аварийное восстановление и непрерывность бизнес-процессов (ДРБК) контролируются экземплярами хранилища Azure.
+- Непрерывность бизнес-процессов и аварийное восстановление (BCDR) контролируются экземплярами хранилища Azure.
 - Центр безопасности Azure используется для мониторинга нарушений и атак безопасности.
 - Центр безопасности Azure и Azure Monitor используются для мониторинга системы управления в облаке.
 - Azure Blueprints, Политика Azure и группы управления используются для обеспечения соответствия политике.
