@@ -42,9 +42,11 @@ items:
             href: strategy/financial-models.md
           - name: Общие сведения об учете в облаке
             href: strategy/cloud-accounting.md
+          - name: Выравнивание портфеля
+            href: strategy/balance-the-portfolio.md
       - name: Первый проект внедрения облачных технологий
         href: strategy/first-adoption-project.md
-      - name: Предлагаемые навыки
+      - name: 'Навыки, соответствующие стратегии'
         href: strategy/suggested-skills.md
   - name: План
     items:
@@ -84,10 +86,16 @@ items:
             href: plan/iteration-paths.md
           - name: Оценка временных шкал
             href: plan/timelines.md
-      - name: Предлагаемые навыки
-        href: plan/suggested-skills.md
-      - name: Адаптация к облаку
-        href: plan/adapt-roles-skills-processes.md
+      - name: План подготовки навыков
+        items:
+          - name: Создание плана подготовки
+            href: plan/adapt-roles-skills-processes.md
+          - name: Сопоставление ролей и навыков
+            href: plan/suggested-skills.md
+      - name: Рекомендации
+        items:
+          - name: Оценка цифрового пространства в Azure
+            href: plan/contoso-migration-assessment.md
   - name: Ready
     items:
       - name: Обзор
@@ -108,32 +116,46 @@ items:
             href: ready/azure-setup-guide/monitoring-reporting.md
           - name: Последние новости об Azure
             href: ready/azure-setup-guide/staying-current.md
-          - name: Развертывание зоны размещения для миграции
-            href: ready/azure-setup-guide/migration-landing-zone.md
-      - name: Рекомендации по использованию зон размещения
+      - name: Первая зона размещения
+        items:
+          - name: Что такое целевая зона
+            href: ready/landing-zone/index.md
+          - name: Выбор первой целевой зоны
+            href: ready/landing-zone/first-landing-zone.md
+          - name: Схема переноса целевой зоны
+            href: ready/landing-zone/migrate-landing-zone.md
+          - name: Целевые зоны Terraform
+            href: ready/landing-zone/terraform-landing-zone.md
+      - name: Расширение целевой зоны
         items:
           - name: Обзор
             href: ready/considerations/index.md
-          - name: Основные понятия Azure
-            href: ready/considerations/fundamental-concepts.md
-          - name: Обзор вариантов вычислений
-            href: ready/considerations/compute-options.md
-          - name: Обзор вариантов сетевого подключения
-            href: ready/considerations/networking-options.md
-          - name: Обзор вариантов хранения
-            href: ready/considerations/storage-options.md
-          - name: Обзор вариантов данных
-            href: ready/considerations/data-options.md
-          - name: Элементы управления доступом на основе ролей
-            href: ready/considerations/roles.md
-          - name: Создание согласованности гибридного облака
-            href: ready/considerations/hybrid-consistency.md
-      - name: Расширенная область
-        items:
-          - name: Целевые зоны Terraform
-            href: ready/expanded-scope/terraform-landing-zone.md
-          - name: Безопасность границ сети
-            href: reference/networking-vdc.md
+          - name: Основные рекомендации по использованию целевых зон
+            items:
+              - name: Основные понятия Azure
+                href: ready/considerations/fundamental-concepts.md
+              - name: Обзор вариантов вычислений
+                href: ready/considerations/compute-options.md
+              - name: Обзор вариантов сетевого подключения
+                href: ready/considerations/networking-options.md
+              - name: Обзор вариантов хранения
+                href: ready/considerations/storage-options.md
+              - name: Обзор вариантов данных
+                href: ready/considerations/data-options.md
+              - name: Элементы управления доступом на основе ролей
+                href: ready/considerations/roles.md
+              - name: Создание согласованности гибридного облака
+                href: ready/considerations/hybrid-consistency.md
+          - name: Повышение уровня безопасности целевой зоны (конфиденциальные данные)
+            items:
+              - name: Реализация архитектуры защищенной гибридной сети в Azure
+                href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+              - name: Рекомендации по защите управления удостоверениями и доступом в Azure
+                href: 'https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+              - name: Рекомендации по защите сетей Azure
+                href: 'https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+              - name: Рекомендации по защите операций в Azure
+                href: 'https://docs.microsoft.com/azure/security/fundamentals/operational-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
       - name: Рекомендации
         items:
           - name: Обзор
@@ -146,6 +168,8 @@ items:
                 href: ready/azure-best-practices/naming-and-tagging.md
           - name: Сеть
             items:
+              - name: Безопасность границ сети
+                href: reference/networking-vdc.md
               - name: Планирование виртуальных сетей
                 href: 'https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
               - name: Рекомендации по обеспечению сетевой безопасности
@@ -188,7 +212,7 @@ items:
                 href: 'https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
               - name: Отслеживание использования и расходов
                 href: 'https://docs.microsoft.com/azure/cost-management/cost-mgt-alerts-monitor-usage-spending?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-      - name: Предлагаемые навыки
+      - name: 'Навыки, связанные с готовыми и целевыми зонами'
         href: ready/suggested-skills.md
   - name: Внедрение
     items:
@@ -200,90 +224,40 @@ items:
             items:
               - name: Перед началом работы
                 href: migrate/azure-migration-guide/index.md
-              - name: Необходимые условия для миграции в Azure
-                href: migrate/azure-migration-guide/prerequisites.md
-              - name: Оценка цифровых активов
+              - name: Оценка каждой рабочей нагрузки и уточнение планов
                 href: migrate/azure-migration-guide/assess.md
               - name: Перенос ресурсов рабочей нагрузки
                 href: migrate/azure-migration-guide/migrate.md
+              - name: 'Тестирование, оптимизация и повышение уровня'
+                href: migrate/azure-migration-guide/optimize-and-transform.md
               - name: Механизмы контроля затрат на миграцию
                 href: migrate/azure-migration-guide/manage-costs.md
-              - name: Оптимизация и преобразование
-                href: migrate/azure-migration-guide/optimize-and-transform.md
-              - name: Защита и управление
-                href: migrate/azure-migration-guide/secure-and-manage.md
               - name: Получение помощи
                 href: migrate/azure-migration-guide/assistance.md
-          - name: Расширенная область
-            items:
-              - name: Контрольный список расширенной области
-                href: migrate/expanded-scope/index.md
-              - name: Выравнивание портфеля
-                href: migrate/expanded-scope/balance-the-portfolio.md
-              - name: Подготовка навыков
-                href: migrate/expanded-scope/suggested-skills.md
-              - name: Перенос узла VMware
-                href: migrate/expanded-scope/vmware-host.md
-              - name: "Перенос рабочих нагрузок SQL\_Server"
-                href: migrate/expanded-scope/sql-migration.md
-              - name: Несколько центров обработки данных
-                href: migrate/expanded-scope/multiple-datacenters.md
-              - name: Требования к данным превышают возможности сети
-                href: migrate/expanded-scope/network-capacity-exceeded.md
-              - name: Система управления и соответствие требованиям
-                href: migrate/expanded-scope/governance-or-compliance.md
-          - name: Рекомендации
+          - name: Сценарии миграции
             items:
               - name: Обзор
-                href: migrate/azure-best-practices/index.md
-              - name: Оценка рабочих нагрузок
+                href: migrate/azure-best-practices/contoso-migration-overview.md
+              - name: Рабочие нагрузки Windows Server
                 items:
-                  - name: Оценка локальных рабочих нагрузок
-                    href: migrate/azure-best-practices/contoso-migration-assessment.md
-              - name: Перенос рабочих нагрузок
+                  - name: Повторное размещение приложения Windows на виртуальных машинах Azure
+                    href: migrate/azure-best-practices/contoso-migration-rehost-vm.md
+                  - name: Перепроектирование приложения Windows с помощью контейнеров и SQL Azure
+                    href: migrate/azure-best-practices/contoso-migration-rearchitect-container-sql.md
+              - name: Рабочие нагрузки Linux
                 items:
-                  - name: Настройка сети для перенесенных рабочих нагрузок
-                    href: migrate/azure-best-practices/migrate-best-practices-networking.md
-                  - name: Перенос приложений
-                    items:
-                      - name: Обзор
-                        href: migrate/azure-best-practices/contoso-migration-overview.md
-                      - name: Развертывание инфраструктуры миграции
-                        href: migrate/azure-best-practices/contoso-migration-infrastructure.md
-                      - name: Рабочие нагрузки Windows Server
-                        items:
-                          - name: Повторное размещение приложения Windows на виртуальных машинах Azure
-                            href: migrate/azure-best-practices/contoso-migration-rehost-vm.md
-                          - name: Перепроектирование приложения Windows с помощью контейнеров и SQL Azure
-                            href: migrate/azure-best-practices/contoso-migration-rearchitect-container-sql.md
-                      - name: Рабочие нагрузки Linux
-                        items:
-                          - name: Повторное размещение приложения Linux на виртуальных машинах Azure
-                            href: migrate/azure-best-practices/contoso-migration-rehost-linux-vm.md
-                          - name: Повторное размещение локального приложения Linux на виртуальных машинах Azure и в Базе данных Azure для MySQL
-                            href: migrate/azure-best-practices/contoso-migration-rehost-linux-vm-mysql.md
-                      - name: Рабочие нагрузки SQL Server
-                        items:
-                          - name: Повторное размещение приложения на виртуальных машинах Azure и в Управляемом экземпляре Базы данных SQL Azure
-                            href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md
-                          - name: Повторное размещение приложения на виртуальных машинах Azure и в группе доступности AlwaysOn SQL Server
-                            href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-ag.md
-                      - name: 'Приложения ASP.NET, PHP и Java'
-                        items:
-                          - name: Рефакторинг приложения в Службе приложений Azure и Базе данных SQL Azure
-                            href: migrate/azure-best-practices/contoso-migration-refactor-web-app-sql.md
-                          - name: Рефакторинг приложения Linux в Службе приложений Azure и Базе данных Azure для MySQL
-                            href: migrate/azure-best-practices/contoso-migration-refactor-linux-app-service-mysql.md
-                          - name: Перестроение приложения в Azure
-                            href: migrate/azure-best-practices/contoso-migration-rebuild.md
-                          - name: Перенос Team Foundation Server в Azure DevOps Services
-                            href: migrate/azure-best-practices/contoso-migration-tfs-vsts.md
-                      - name: Масштабирование миграции
-                        href: migrate/azure-best-practices/contoso-migration-scale.md
-              - name: Перенос узлов VMware
+                  - name: Повторное размещение приложения Linux на виртуальных машинах Azure
+                    href: migrate/azure-best-practices/contoso-migration-rehost-linux-vm.md
+                  - name: Повторное размещение локального приложения Linux на виртуальных машинах Azure и в Базе данных Azure для MySQL
+                    href: migrate/azure-best-practices/contoso-migration-rehost-linux-vm-mysql.md
+                  - name: Рефакторинг приложения Linux в Службе приложений Azure и Базе данных Azure для MySQL
+                    href: migrate/azure-best-practices/contoso-migration-refactor-linux-app-service-mysql.md
+              - name: Узлы VMware
                 items:
                   - name: Обзор
                     href: migrate/azure-best-practices/vmware-host.md
+                  - name: Рекомендации по переносу узлов VMWare
+                    href: migrate/expanded-scope/vmware-host.md
                   - name: Предварительные требования
                     items:
                       - name: Защита среды
@@ -336,7 +310,35 @@ items:
                         href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-zerto?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Настройка частного облака в качестве сайта аварийного восстановления с помощью VMware Site Recovery Manager
                         href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-site-recovery-manager?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-              - name: Перенос платформ данных
+              - name: Приложения ASP.NET
+                items:
+                  - name: Рефакторинг приложения в Службе приложений Azure и Базе данных SQL Azure
+                    href: migrate/azure-best-practices/contoso-migration-refactor-web-app-sql.md
+                  - name: Перестроение приложения в Azure
+                    href: migrate/azure-best-practices/contoso-migration-rebuild.md
+                  - name: Перенос Team Foundation Server в Azure DevOps Services
+                    href: migrate/azure-best-practices/contoso-migration-tfs-vsts.md
+              - name: Приложения Java
+                items:
+                  - name: Варианты переноса
+                    href: 'https://docs.microsoft.com/azure/java/migration-overview?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Переход из Spring в Службу приложений Azure
+                    href: 'https://docs.microsoft.com/azure/java/migrate-java-se-to-java-se-app-service?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Перенос Tomcat в Службу приложений Azure
+                    href: 'https://docs.microsoft.com/azure/java/migrate-tomcat-to-tomcat-app-service?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Перенос Tomcat в контейнеры в AKS
+                    href: 'https://docs.microsoft.com/azure/java/migrate-tomcat-to-containers-on-azure-kubernetes-service?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Переход из WebLogic в Виртуальные машины Azure
+                    href: 'https://docs.microsoft.com/azure/java/migrate-weblogic-to-virtual-machines?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+              - name: "SQL\_Server"
+                items:
+                  - name: "Рекомендации по переносу рабочих нагрузок SQL\_Server"
+                    href: migrate/expanded-scope/sql-migration.md
+                  - name: Повторное размещение приложения на виртуальных машинах Azure и в Управляемом экземпляре Базы данных SQL Azure
+                    href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md
+                  - name: Повторное размещение приложения на виртуальных машинах Azure и в группе доступности AlwaysOn SQL Server
+                    href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-ag.md
+              - name: Платформы данных
                 items:
                   - name: Обзор
                     href: migrate/azure-best-practices/sql-migration.md
@@ -420,7 +422,7 @@ items:
                         href: 'https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Перенос рабочих нагрузок Oracle в Базу данных Azure для PostgreSQL по сети
                         href: 'https://docs.microsoft.com/azure/dms/tutorial-oracle-azure-postgresql-online?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-              - name: Перенос мейнфреймов
+              - name: Мейнфреймы
                 items:
                   - name: Обзор
                     href: infrastructure/mainframe-migration/index.md
@@ -430,45 +432,49 @@ items:
                     href: infrastructure/mainframe-migration/migration-strategies.md
                   - name: Перенос приложений с мейнфреймов
                     href: infrastructure/mainframe-migration/application-strategies.md
-              - name: Оптимизация рабочих нагрузок
-                items:
-                  - name: Расчет затрат и выбор размера рабочих нагрузок
-                    href: migrate/azure-best-practices/migrate-best-practices-costs.md
-              - name: Защита рабочих нагрузок и управление ими
+              - name: Перенос безопасных рабочих нагрузок
                 items:
                   - name: Защита рабочих нагрузок и управление ими после переноса
                     href: migrate/azure-best-practices/migrate-best-practices-security-management.md
-                  - name: Дополнительные рекомендации
-                    items:
-                      - name: Рекомендации по обеспечению безопасности базы данных Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/database-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по защите и шифрованию данных в Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по защите управления удостоверениями и доступом в Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по защите сетей Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по защите операций в Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/operational-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по использованию Azure PaaS
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-deployments?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по безопасности Azure Service Fabric
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/service-fabric-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по обеспечению безопасности виртуальных машин Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/iaas?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Реализация архитектуры защищенной гибридной сети в Azure
-                        href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по обеспечению безопасности Интернета вещей
-                        href: 'https://docs.microsoft.com/azure/iot-fundamentals/iot-security-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Защита баз данных PaaS в Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-sql?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Защита мобильных приложений и веб-приложений PaaS с помощью службы приложений Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-app-services?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Защита мобильных приложений и веб-приложений PaaS с помощью службы хранилища Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-storage?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Рекомендации по безопасности для рабочих нагрузок IaaS в Azure
-                        href: 'https://docs.microsoft.com/azure/security/fundamentals/iaas?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
-          - name: Рекомендации по переносу
+                  - name: Рекомендации по обеспечению безопасности базы данных Azure
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/database-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Рекомендации по защите и шифрованию данных в Azure
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Рекомендации по использованию Azure PaaS
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-deployments?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Рекомендации по безопасности Azure Service Fabric
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/service-fabric-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Рекомендации по обеспечению безопасности виртуальных машин Azure
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/iaas?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Рекомендации по обеспечению безопасности Интернета вещей
+                    href: 'https://docs.microsoft.com/azure/iot-fundamentals/iot-security-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Защита баз данных PaaS в Azure
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-sql?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Защита мобильных приложений и веб-приложений PaaS с помощью службы приложений Azure
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-app-services?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Защита мобильных приложений и веб-приложений PaaS с помощью службы хранилища Azure
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-storage?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Рекомендации по безопасности для рабочих нагрузок IaaS в Azure
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/iaas?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+          - name: Рекомендации
+            items:
+              - name: Обзор
+                href: migrate/azure-best-practices/index.md
+              - name: Несколько центров обработки данных
+                href: migrate/expanded-scope/multiple-datacenters.md
+              - name: Требования к данным превышают возможности сети
+                href: migrate/expanded-scope/network-capacity-exceeded.md
+              - name: Настройка сети для перенесенных рабочих нагрузок
+                href: migrate/azure-best-practices/migrate-best-practices-networking.md
+              - name: Развертывание инфраструктуры миграции
+                href: migrate/azure-best-practices/contoso-migration-infrastructure.md
+              - name: Оптимизация затрат на перенесенные рабочие нагрузки
+                href: migrate/azure-best-practices/migrate-best-practices-costs.md
+              - name: Масштабирование миграции
+                href: migrate/azure-best-practices/contoso-migration-scale.md
+              - name: Система управления и соответствие требованиям
+                href: migrate/expanded-scope/governance-or-compliance.md
+          - name: Улучшение процессов
             items:
               - name: Обзор
                 href: migrate/migration-considerations/index.md
@@ -486,9 +492,9 @@ items:
                     href: migrate/migration-considerations/prerequisites/technical-complexity.md
                   - name: Обзор невыполненной работы по миграции
                     href: migrate/migration-considerations/prerequisites/migration-backlog-review.md
-              - name: Оценка ресурсов и рабочих нагрузок
+              - name: Оценка процессов
                 items:
-                  - name: Оценка ресурсов перед миграцией
+                  - name: 'Проверка предположений оценки перед миграцией: добавление уточнения R'
                     href: migrate/migration-considerations/assess/index.md
                   - name: Правильное упорядочение приоритетов
                     href: migrate/migration-considerations/assess/business-priorities.md
@@ -496,7 +502,7 @@ items:
                     href: migrate/migration-considerations/assess/evaluate.md
                   - name: Проектирование рабочих нагрузок
                     href: migrate/migration-considerations/assess/architect.md
-                  - name: Оценка затрат на облако
+                  - name: Обновление и уточнение начальных оценок для работы в облаке
                     href: migrate/migration-considerations/assess/estimate.md
                   - name: Общие сведения о вариантах партнерства
                     href: migrate/migration-considerations/assess/partnership-options.md
@@ -504,7 +510,7 @@ items:
                     href: migrate/migration-considerations/assess/release-iteration-backlog.md
                   - name: Утверждение изменений архитектуры
                     href: migrate/migration-considerations/assess/approve.md
-              - name: Перенос отдельных ресурсов
+              - name: Процессы миграции
                 items:
                   - name: Обзор
                     href: migrate/migration-considerations/migrate/index.md
@@ -518,7 +524,7 @@ items:
                     href: migrate/migration-considerations/migrate/replicate-options.md
                   - name: Промежуточные рабочие нагрузки
                     href: migrate/migration-considerations/migrate/stage.md
-              - name: Оптимизация рабочих нагрузок и повышение их уровня
+              - name: 'Процессы тестирования, оптимизации и повышение уровня'
                 items:
                   - name: Обзор
                     href: migrate/migration-considerations/optimize/index.md
@@ -536,10 +542,8 @@ items:
                     href: migrate/migration-considerations/optimize/decommission.md
                   - name: Проведение ретроспективных собраний
                     href: migrate/migration-considerations/optimize/retrospective.md
-              - name: Защита рабочих нагрузок и управление ими в рабочей среде
-                items:
-                  - name: Обзор
-                    href: migrate/migration-considerations/secure-and-manage/index.md
+          - name: 'Навыки, соответствующие миграции'
+            href: migrate/expanded-scope/suggested-skills.md
       - name: Инновации
         items:
           - name: Обзор
@@ -561,38 +565,6 @@ items:
               - name: Прогнозирование и влияние
                 href: innovate/innovation-guide/predict.md
           - name: Рекомендации
-            items:
-              - name: Обзор
-                href: innovate/considerations/index.md
-              - name: Согласование действий по повышению рентабельности
-                href: innovate/business-value.md
-              - name: Принятие потребностей клиента
-                items:
-                  - name: Циклы обратной связи
-                    href: innovate/considerations/adoption.md
-                  - name: Разработка ориентированных на клиента решений
-                    href: innovate/considerations/build.md
-                  - name: Оценка влияния на клиента
-                    href: innovate/considerations/measure.md
-                  - name: Совместное обучение с клиентами
-                    href: innovate/considerations/learn.md
-                  - name: 'Проблемы и преграды, встающие перед клиентами'
-                    href: innovate/considerations/challenges.md
-              - name: Разработка цифровых технологий
-                items:
-                  - name: Развитие разработки цифровых технологий
-                    href: innovate/considerations/invention.md
-                  - name: Упрощение доступа к данным
-                    href: innovate/considerations/data.md
-                  - name: Привлечение клиентов с помощью приложений
-                    href: innovate/considerations/apps.md
-                  - name: Поддержка внедрения
-                    href: innovate/considerations/ci-cd.md
-                  - name: Взаимодействие с устройствами
-                    href: innovate/considerations/devices.md
-                  - name: Прогнозирование и влияние
-                    href: innovate/considerations/predict.md
-          - name: Рекомендации по инновациям
             items:
               - name: Общие сведения и цепочка инструментов Azure
                 href: innovate/best-practices/index.md
@@ -860,6 +832,38 @@ items:
                         href: 'https://docs.microsoft.com/azure/machine-learning/studio/model-progression-experiment-to-web-service?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Ввод в эксплуатацию служб машинного обучения в Azure HDInsight
                         href: 'https://docs.microsoft.com/azure/hdinsight/r-server/r-server-operationalize?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json'
+          - name: Улучшение процессов
+            items:
+              - name: Обзор
+                href: innovate/considerations/index.md
+              - name: Согласование действий по повышению рентабельности
+                href: innovate/business-value.md
+              - name: Принятие потребностей клиента
+                items:
+                  - name: Циклы обратной связи
+                    href: innovate/considerations/adoption.md
+                  - name: Разработка ориентированных на клиента решений
+                    href: innovate/considerations/build.md
+                  - name: Оценка влияния на клиента
+                    href: innovate/considerations/measure.md
+                  - name: Совместное обучение с клиентами
+                    href: innovate/considerations/learn.md
+                  - name: 'Проблемы и преграды, встающие перед клиентами'
+                    href: innovate/considerations/challenges.md
+              - name: Разработка цифровых технологий
+                items:
+                  - name: Развитие разработки цифровых технологий
+                    href: innovate/considerations/invention.md
+                  - name: Упрощение доступа к данным
+                    href: innovate/considerations/data.md
+                  - name: Привлечение клиентов с помощью приложений
+                    href: innovate/considerations/apps.md
+                  - name: Поддержка внедрения
+                    href: innovate/considerations/ci-cd.md
+                  - name: Взаимодействие с устройствами
+                    href: innovate/considerations/devices.md
+                  - name: Прогнозирование и влияние
+                    href: innovate/considerations/predict.md
   - name: Управление
     items:
       - name: Обзор
@@ -1186,7 +1190,7 @@ items:
         href: organize/cost-conscious-organization.md
       - name: 'Антишаблоны: сравнение ИТ-структур'
         href: organize/fiefdoms-silos.md
-  - name: Справочник
+  - name: Ресурсы
     items:
       - name: Стратегия развития Cloud Adoption Framework
         href: reference/index.md
@@ -1244,5 +1248,5 @@ items:
         href: reference/vdc.md
       - name: Принцип работы Azure
         href: getting-started/what-is-azure.md
-  - name: Центр архитектуры Azure
-    href: 'https://docs.microsoft.com/azure/architecture'
+      - name: Центр архитектуры Azure
+        href: 'https://docs.microsoft.com/azure/architecture'
