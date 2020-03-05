@@ -1,6 +1,6 @@
 ---
-title: Создание финансовой модели для перехода на облачные технологии
-description: Создание финансовой модели для перехода на облачные технологии.
+title: Финансовая модель для миграции в облако
+description: Узнайте, что необходимо для создания финансовой модели, которая точно представляет собой полное бизнес-значение преобразования в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/10/2018
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 49cce1f4ade76350a820dae2f638edeacb380aa6
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: ebc85c5a76d9f53b0117567fc79de51488e9b51d
+ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798610"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78337989"
 ---
 # <a name="create-a-financial-model-for-cloud-transformation"></a>Создание финансовой модели для перехода на облачные технологии
 
@@ -104,7 +104,7 @@ ms.locfileid: "76798610"
 
 Если цикл обновления утвержден и включен в бюджет, преобразование в облако может помочь устранить эту стоимость. Если цикл обновления планируется, но еще не утвержден, то преобразование в облако может избежать капитальных расходов. Оба сокращения будут добавлены к разности затрат.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Дополнительные сведения о моделях [облачного учета](./cloud-accounting.md) .
 

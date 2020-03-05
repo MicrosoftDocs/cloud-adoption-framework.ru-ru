@@ -1,6 +1,6 @@
 ---
-title: Создание коммерческого обоснования для миграции в облако
-description: Рекомендации по составлению коммерческого обоснования для миграции в облако.
+title: Деловое обоснование для миграции в облако
+description: Узнайте, как начать разработку делового обоснования для миграции в облако с помощью инфраструктуры внедрения в облако для Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/10/2018
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 36306ab50f4158741f1ff4334c43900c2f657920
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 28762d3540124b40bd3db4d7bd431033a1c25b5f
+ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798593"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78337974"
 ---
 # <a name="build-a-business-justification-for-cloud-migration"></a>Создание коммерческого обоснования для миграции в облако
 
@@ -105,7 +105,7 @@ ms.locfileid: "76798593"
 
 Если рентабельность инвестиций по-прежнему не выровнена, обратитесь за помощью к торговому представителю корпорации Майкрософт или [привлеките опытного партнера](https://azure.microsoft.com/migration/support).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 > [!div class="nextstepaction"]
 > [Создание финансовой модели для перехода на облачные технологии](./financial-models.md)
