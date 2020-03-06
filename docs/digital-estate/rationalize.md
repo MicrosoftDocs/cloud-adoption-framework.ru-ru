@@ -9,11 +9,11 @@ ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
 ms.openlocfilehash: 14f96dde6558588c092a181aa2b7a2e57220cf5f
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78225299"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78337406"
 ---
 # <a name="rationalize-the-digital-estate"></a>Рациональное использование цифровых активов
 
@@ -155,7 +155,7 @@ ms.locfileid: "78225299"
 
 В некоторых случаях финансовая модель может быть слишком тесной для принятия решения без дополнительной рационализации. В таких случаях может потребоваться более традиционный подход к рационализации.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Результатом усилий по рациональной работе является приоритет невыполненной работы всех активов, затрагиваемых выбранным преобразованием. Эта невыполненная работа теперь может выступать в качестве основы для модели затрат облачных служб.
 
