@@ -1,18 +1,18 @@
 ---
-title: Планирование необходимых компонентов для служб управления Azure Server
-description: Необходимые средства и планирование для служб управления Azure Server
+title: Планирование для служб управления Azure Server
+description: Узнайте о средствах и подготовьте ресурсы, необходимые для управления службами управления сервером Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 934263f5c143d021ce97125f025f96d8ae6f338f
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 7e64edb1f009d2fe7a522a9716c3b8ba2d52ef12
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807977"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341607"
 ---
 # <a name="phase-1-prerequisite-planning-for-azure-server-management-services"></a>Этап 1. планирование необходимых компонентов для служб управления сервером Azure
 
