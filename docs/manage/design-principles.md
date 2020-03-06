@@ -1,18 +1,18 @@
 ---
-title: Применение принципов проектирования и расширенных операций
-description: Применение принципов проектирования и расширенных операций
+title: Принципы разработки и расширенные операции
+description: Узнайте, как применить принципы проектирования и дополнительные параметры, чтобы создать предложение, обеспечивающее минимальный уровень бизнес-обязательств для всех поддерживаемых рабочих нагрузок.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 16762a0eae366c3bf1cd578faaf52df60e6c97b1
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: a5861b23e5cc408957f922472dd6ee863c7c13fa
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807688"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341051"
 ---
 # <a name="apply-design-principles-and-advanced-operations"></a>Применение принципов проектирования и расширенных операций
 

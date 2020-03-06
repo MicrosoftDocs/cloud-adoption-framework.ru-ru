@@ -1,18 +1,18 @@
 ---
-title: Управление выравниванием по всем дисциплинам управления облаком
-description: В этой статье обсуждается управление уровнем управления в рамках дисциплин управления облаком.
+title: Уровни управления в управлении облаком
+description: Узнайте, как ограничивать возможности управления облаком для обеспечения единообразного набора процессов и средств, которые можно предложить для рабочих нагрузок, размещенных в облаке.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: d6bd93d65c7db0972a6b2a0b55c8ee9bef1417f3
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 18a75ed46e247394aadc0caccd53988314553bcf
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807824"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341425"
 ---
 # <a name="management-leveling-across-cloud-management-disciplines"></a>Управление выравниванием по всем дисциплинам управления облаком
 
@@ -49,7 +49,7 @@ ms.locfileid: "76807824"
 
 Уровень специализации платформы управления извлекает из процессов и средств, которые согласованы с дисциплинами операций платформы. Аналогичным образом, уровень специализации рабочей нагрузки управления извлекается из процессов и средств, которые согласованы с операциями рабочей нагрузки.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Следующий шаг к определению каждого уровня управления облачными средствами — это понимание [инвентаризации и видимости](./inventory.md).
 
