@@ -1,18 +1,18 @@
 ---
 title: Общие сведения о службах управления серверами Azure
-description: Узнайте, как использовать службы управления серверами Azure
+description: В этом разделе документации по Cloud Adoption Framework объясняется, как создать директивный план по развертыванию служб управления серверами в вашей среде.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: d83b84ca63043646591c4e2f5b3e5f82fc53c102
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: c6afdfe05a9245d729b17d1d56f3c64ffa6107bd
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808062"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341680"
 ---
 # <a name="overview-of-azure-server-management-services"></a>Общие сведения о службах управления серверами Azure
 
