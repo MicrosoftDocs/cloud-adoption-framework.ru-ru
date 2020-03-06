@@ -1,6 +1,6 @@
 ---
-title: Руководство по инновациям Azure. Прогнозирование и влияние
-description: Узнайте, как прогнозировать использование Azure и влиять на него.
+title: Инновации в Azure. Прогнозирование и влияние
+description: Узнайте о решениях Azure для прогнозирования потребностей клиентов и интеграции прогнозов в решение, что помогает влиять на поведение клиентов.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 00bd41050d469c8bab6ee0c6a8c4e68facd92ca9
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 42cf4ffb65456bf1519a0f2bb0f017bb078687d9
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808266"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78170976"
 ---
 ::: zone target="docs"
 
@@ -38,7 +38,7 @@ ms.locfileid: "76808266"
 |Студия машинного обучения Azure|Да|Да|нет|Общее представление о прогнозных алгоритмах|
 |Служба машинного обучения|Да|Да|Да|специалист по анализу и обработке данных;|
 
-## <a name="azure-cognitive-servicestabcognitiveservices"></a>[Azure Cognitive Services](#tab/CognitiveServices)
+## <a name="azure-cognitive-services"></a>[Azure Cognitive Services](#tab/CognitiveServices)
 
 Самый быстрый и простой способ прогнозирования потребностей клиентов — использование Azure Cognitive Services. Службы Cognitive Services позволяют делать прогнозы на основе существующих моделей, что не требует дополнительного обучения. Эти службы — оптимальный и эффективный вариант, если среди ваших сотрудников нет специалиста по анализу и обработке данных для обучения прогнозной модели. Для некоторых служб обучение не требуется, в то время как для других требуется в минимальном объеме.
 
@@ -70,7 +70,7 @@ ms.locfileid: "76808266"
 
 ::: zone-end
 
-## <a name="azure-machine-learning-studiotabmachinelearningstudio"></a>[Студия машинного обучения Azure](#tab/MachineLearningStudio)
+## <a name="azure-machine-learning-studio"></a>[Студия машинного обучения Azure](#tab/MachineLearningStudio)
 
 Если имеющиеся модели в Cognitive Services не совпадают с необходимым прогнозом, Студия машинного обучения Azure может предоставить способ создания нужных прогнозов, не требующий глубоких навыков по анализу данных.
 
@@ -101,7 +101,7 @@ ms.locfileid: "76808266"
 
 ::: zone-end
 
-## <a name="azure-machine-learning-servicetabmachinelearningservice"></a>[Служба "Машинное обучение Azure"](#tab/MachineLearningService)
+## <a name="azure-machine-learning-service"></a>[Служба "Машинное обучение Azure"](#tab/MachineLearningService)
 
 Служба "Машинное обучение Azure" предоставляет более системный подход на основе кода, необходимый для более глубокого обучения наборов данных клиентов. Используя такие языки, как Python, специалисты по обработке и анализу данных могут обучить, а затем собрать алгоритм для прогнозирования потребностей клиентов.
 

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9c4f18c4c81dce2caa41b1dab5dddc394042f390
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 91d800c3f3575cc16d239106805fdfaef8a29e14
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808181"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78223514"
 ---
 # <a name="platform-specialization-for-cloud-management"></a>Специализация платформы для управления облаком
 
@@ -55,7 +55,7 @@ ms.locfileid: "76808181"
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="improve-system-designtabsystemsdesign"></a>[Улучшение проектирования системы](#tab/SystemsDesign)
+## <a name="improve-system-design"></a>[Улучшение проектирования системы](#tab/SystemsDesign)
 
 ::: zone-end
 
@@ -86,7 +86,7 @@ Azure Architecture Framework ориентирована на усовершен�
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="automated-remediationtabautomatedremediation"></a>[Автоматическое исправление](#tab/AutomatedRemediation)
+## <a name="automated-remediation"></a>[Автоматическое исправление](#tab/AutomatedRemediation)
 
 ::: zone-end
 
@@ -103,7 +103,7 @@ Azure Architecture Framework ориентирована на усовершен�
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="scale-the-solution-with-a-service-catalogtabservicecatalog"></a>[Масштабирование решения с помощью каталога служб](#tab/ServiceCatalog)
+## <a name="scale-the-solution-with-a-service-catalog"></a>[Масштабирование решения с помощью каталога служб](#tab/ServiceCatalog)
 
 ::: zone-end
 
@@ -119,7 +119,7 @@ Azure Architecture Framework ориентирована на усовершен�
 
 1. На портале Azure перейдите к пункту **Центр управляемых приложений (предварительная версия)** .
 2. На панели **Обзор** выберите **Приложения каталога услуг**.
-3. Щелкните **+ Добавить**, чтобы выбрать определение приложения из каталога служб компании.
+3. Щелкните **+Добавить**, чтобы выбрать определение приложения в каталоге служб компании.
 
 Отображаются все управляемые приложения, которые вы обслуживаете.
 
@@ -153,7 +153,7 @@ Azure Architecture Framework ориентирована на усовершен�
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="continuous-improvementtabcontinuousimprovement"></a>[Непрерывное улучшение](#tab/ContinuousImprovement)
+## <a name="continuous-improvement"></a>[Непрерывное улучшение](#tab/ContinuousImprovement)
 
 ::: zone-end
 

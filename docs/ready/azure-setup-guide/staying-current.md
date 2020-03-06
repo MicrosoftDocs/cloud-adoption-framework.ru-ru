@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 8dd545e4d34dfafd6a777828b9c590030797fdae
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3852317648526cceadfd772b72adbd1af2bb7d08
+ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799222"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "78222056"
 ---
 # <a name="stay-current-with-microsoft-azure"></a>Поддержание актуальности процессов в Microsoft Azure
 
@@ -22,7 +22,7 @@ ms.locfileid: "76799222"
 
 <!-- markdownlint-disable MD025 -->
 
-# <a name="top-resourcestabtopresources"></a>[Основные ресурсы](#tab/TopResources)
+# <a name="top-resources"></a>[Основные ресурсы](#tab/TopResources)
 
 <!-- markdownlint-enable MD025 -->
 
@@ -45,14 +45,14 @@ ms.locfileid: "76799222"
 
 <!-- markdownlint-disable MD025 -->
 
-# <a name="additional-resourcestabadditionalresources"></a>[Дополнительные ресурсы](#tab/AdditionalResources)
+# <a name="additional-resources"></a>[Дополнительные ресурсы](#tab/AdditionalResources)
 
 <!-- markdownlint-enable MD025 -->
 
 Для более глубокого понимания того, как поддерживать актуальность своих процессов и данных в Azure, воспользуйтесь следующими ресурсами:
 
 - [Azure Charts](https://azurecharts.com/)
-  - Этот неофициальный ресурс позволяет визуализировать все обновления Azure за последние 6 месяцев, и содержит другие полезные диаграммы и служебные программы, которые помогут вам отслеживать изменения в Azure.
+  - Эта неофициальная визуализация показывает все обновления Azure, реализованные за последние шесть месяцев. Она содержит полезные диаграммы и служебные программы для отслеживания изменений в Azure.
 - [Пятница с Azure](https://channel9.msdn.com/Shows/Azure-Friday)
   - Еженедельные видеоролики с инженерами-разработчиками Azure. Они выполняют демонстрации, отвечают на вопросы и обмениваются полезными сведениями.
   - Подпишитесь через [RSS](https://channel9.msdn.com/Shows/Azure-Friday/feed).

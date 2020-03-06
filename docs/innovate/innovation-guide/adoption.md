@@ -1,6 +1,6 @@
 ---
-title: Руководство по инновациям Azure. Подготовка к сбору отзывов клиентов
-description: Подготовка к сбору отзывов клиентов
+title: Инновации в Azure. Подготовка отзывов
+description: Узнайте, как использовать средства Azure для сбора количественных и качественных отзывов о веб-приложениях и API, размещенных в GitHub.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: c78eae75bca30cac541a997fa9d4901b03b277c0
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 58d1e420f9f1b76ea37a5ba7edc5c71aba9d0049
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808368"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171095"
 ---
 ::: zone target="docs"
 
@@ -39,7 +39,7 @@ ms.locfileid: "76808368"
 
 Каждый из приведенных ниже инструментов в Azure интегрируется с проектами, размещенными в GitHub, или совместим с ними.
 
-## <a name="quantitative-feedback-for-web-appstabquantitative-apps"></a>[Количественная обратная связь для веб-приложений](#tab/Quantitative-Apps)
+## <a name="quantitative-feedback-for-web-apps"></a>[Количественная обратная связь для веб-приложений](#tab/Quantitative-Apps)
 
 Application Insights — это инструмент отслеживания, который обеспечивает количественную обратную связь об использовании приложения практически в реальном времени. Эти данные помогут протестировать и проверить текущую гипотезу, чтобы сформировать следующую функцию или пользовательскую историю в списке невыполненной работы.
 
@@ -74,7 +74,7 @@ Application Insights — это инструмент отслеживания, 
 - [Начало работы с Azure Monitor Application Insights](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-users)
 - [Создание настраиваемых панелей мониторинга ключевых показателей эффективности с помощью Azure Application Insights](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-app-dashboards)
 
-## <a name="quantitative-feedback-for-apistabquantitative-apis"></a>[Количественная обратная связь для интерфейсов API](#tab/Quantitative-APIs)
+## <a name="quantitative-feedback-for-apis"></a>[Количественная обратная связь для интерфейсов API](#tab/Quantitative-APIs)
 
 Связанная экономика меняет способ внедрения инноваций на предприятиях. Рынки и отрасли попадают под влияние быстрее, чем когда-либо. Сбои в работе могут быть представлены в различных формах, и предприятия должны справляться с _дилеммой новатора_: как наладить темп изменений, не влияя на текущую деловую активность.
 
@@ -116,7 +116,7 @@ Application Insights — это инструмент отслеживания, 
 
 - [Сбор отзывов об API-интерфейсах при помощи Azure Monitor](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor)
 
-## <a name="qualitative-feedbacktabqualitative"></a>[Качественная обратная связь](#tab/Qualitative)
+## <a name="qualitative-feedback"></a>[Качественная обратная связь](#tab/Qualitative)
 
 В очереди невыполненной работы (или на доске) обратная связь записывается в виде пользовательских историй. Кроме того, здесь связанная работа отслеживается как практические задачи. Инструменты Azure Boards можно интегрировать непосредственно в GitHub. Это обеспечивает беспроблемное взаимодействие между управлением обратной связью и любым исходным кодом.
 
@@ -154,7 +154,7 @@ Application Insights — это инструмент отслеживания, 
 - [Сведения о начале работы с Azure Boards](https://docs.microsoft.com/azure/devops/boards/get-started/?view=azure-devops)
 - [Сведения об использовании Azure Boards и GitHub](https://docs.microsoft.com/azure/devops/boards/github?view=azure-devops)
 
-## <a name="close-the-loop-with-pipelinestabpipelines"></a>[Закрытие цикла с помощью конвейеров](#tab/pipelines)
+## <a name="close-the-loop-with-pipelines"></a>[Закрытие цикла с помощью конвейеров](#tab/pipelines)
 
 Реакцией на отзывы не всегда будет добавление функции, запрашиваемой клиентом. Но каждая точка данных должна приводить к некоторым изменениям. Это изменение может касаться вашего образа мышления. Это также может быть совершенно другое техническое изменение, отличающееся от запрошенного. В любом случае конвейеры развертывания и такие инструменты, как Azure Pipelines, позволяют быстро публиковать эти изменения, поэтому ими можно быстро делиться с клиентом.
 

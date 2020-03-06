@@ -1,6 +1,6 @@
 ---
-title: Руководство по инновациям Azure. Привлечение клиентов через приложения
-description: Узнайте, как внедрять инновации, привлекая клиентов через приложения с помощью Azure.
+title: Инновации в Azure. Привлечение клиентов с помощью приложений
+description: Узнайте о службах Azure для модернизации существующих веб-приложений и приложений API, а также создания собственных облачных приложений.
 author: billyclaymyersmsft
 ms.author: wimyers
 ms.date: 10/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 7b6a94830f35f7dde577ba4b7122cdec7e4a711d
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: ad638c667a75561dfbdb9827413249ebc93fd9dc
+ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808351"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "78171078"
 ---
 ::: zone target="docs"
 
@@ -34,7 +34,7 @@ ms.locfileid: "76808351"
 
 <!-- markdownlint-disable MD025 -->
 
-# <a name="deliver-value-fastertabdelivervaluefaster"></a>[Оперативное повышение рентабельности](#tab/DeliverValueFaster)
+# <a name="deliver-value-faster"></a>[Оперативное повышение рентабельности](#tab/DeliverValueFaster)
 
 Одно из преимуществ облачных решений — возможность оперативно собирать отзывы и быстрее предоставлять полезные решения своим пользователям. Независимо от того, является этот пользователь внешним клиентом или пользователем в вашей компании, чем быстрее вы сможете получить отзывы о своих приложениях, тем лучше.
 
@@ -131,7 +131,7 @@ ms.locfileid: "76808351"
 - [Документация по пакету Azure SDK для Go](https://docs.microsoft.com/azure/go)
 - [Решения DevOps](https://azure.microsoft.com/solutions/devops)
 
-# <a name="create-cloud-native-appstabcloudnative"></a>[Создание приложений, ориентированных на облако](#tab/CloudNative)
+# <a name="create-cloud-native-apps"></a>[Создание приложений, ориентированных на облако](#tab/CloudNative)
 
 <!-- markdownlint-disable MD026 -->
 
@@ -287,7 +287,7 @@ Azure Red Hat OpenShift обеспечивает гибкие возможнос
 
 **Щелкните [Azure Red Hat OpenShift](https://docs.microsoft.com/azure/openshift/intro-openshift)** .
 
-# <a name="isolate-points-of-failuretabisolatepointsoffailure"></a>[Изолирование точек сбоя](#tab/IsolatePointsOfFailure)
+# <a name="isolate-points-of-failure"></a>[Изолирование точек сбоя](#tab/IsolatePointsOfFailure)
 
 Когда первоначальное тестирование будет подходить к концу, проанализируйте способы изоляции и удаления точек сбоя. Благодаря распределенному характеру облачной платформы Azure можно спроектировать приложение, позволяющее избежать сбоев, одновременно улучшив его производительность.
 
