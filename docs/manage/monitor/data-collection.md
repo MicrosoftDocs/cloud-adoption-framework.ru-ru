@@ -1,6 +1,6 @@
 ---
-title: 'Руководство по мониторингу облака: получение правильных данных'
-description: Выберите, когда следует использовать Azure Monitor или System Center Operations Manager в Microsoft Azure
+title: Собирайте данные мониторинга в облаке
+description: Узнайте, как оценить работоспособность и доступность облачного решения, чтобы получить правильные данные мониторинга.
 author: MGoedtel
 ms.author: magoedte
 ms.date: 06/26/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: a406d0c05594cff736265b0b69e24dcc8bc0f695
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 3b537caf193601057da458b07cb62bdba64a7b6b
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223247"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341112"
 ---
 # <a name="cloud-monitoring-guide-collect-the-right-data"></a>Руководство по мониторингу облака: получение правильных данных
 

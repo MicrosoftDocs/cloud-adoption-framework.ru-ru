@@ -1,18 +1,18 @@
 ---
-title: Подключение к службам управления сервером Azure
-description: Подключение к службам управления сервером Azure
+title: Встроенные службы управления сервером Azure
+description: Подключение служб управления сервером Azure с информацией для виртуальных машин Azure и локальных серверов.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 48c0728c39457a2fa060679460a97c0ddca49c45
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: dcb6be86ec0bcf231cef8286768d014ae7489fea
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808011"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341527"
 ---
 # <a name="phase-2-onboarding-azure-server-management-services"></a>Этап 2. Подключение служб управления сервером Azure
 
@@ -43,7 +43,7 @@ ms.locfileid: "76808011"
 - **Автоматическая регистрация:** Если агент Log Analytics установлен на сервере и настроен для подключения к рабочей области, решения, включенные в этой рабочей области, автоматически применяются к серверу.
 - **Согласие:** Даже если агент установлен и подключен к рабочей области, решение не применяется, если оно не Добавлено в конфигурацию области сервера в рабочей области.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как подключить одну виртуальную машину с помощью портала, чтобы оценить процесс адаптации.
 

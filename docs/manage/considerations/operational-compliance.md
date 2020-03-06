@@ -1,18 +1,18 @@
 ---
-title: Операционная совместимость — облачное управление и эксплуатация
-description: Операционная совместимость — облачное управление и эксплуатация
+title: Оперативное соответствие в управлении облаком
+description: Использование инфраструктуры внедрения в облаке для Azure, чтобы узнать, как обеспечить соответствие рабочим обязательствам.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: f83ec1ced367cca89349188932e608604dc3a005
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 894208ff08a0100e8d5d8d5d9df3eff592773426
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807756"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78340984"
 ---
 # <a name="operational-compliance-in-cloud-management"></a>Оперативное соответствие в управлении облаком
 
@@ -52,13 +52,13 @@ ms.locfileid: "76807756"
 
 ### <a name="remediation-automation"></a>Автоматизация исправления
 
-В качестве улучшенных базовых показателей для управления облаком некоторые рабочие нагрузки могут воспользоваться преимуществами автоматического исправления. When a workload commonly encounters issues that can't be resolved through code or architectural changes, automating remediation can help reduce the burden of cloud management and increase user satisfaction.
+В качестве улучшенных базовых показателей для управления облаком некоторые рабочие нагрузки могут воспользоваться преимуществами автоматического исправления. Если в рабочей нагрузке часто возникают проблемы, которые не удается устранить с помощью кода или архитектурных изменений, Автоматизация исправления может помочь снизить нагрузку на облачное управление и повысить удовлетворенность пользователей.
 
-Many would argue that any issue that's common enough to automate should be resolved through resolution of technical debt. When a long-term resolution is prudent, it should be the default option. However, a number of business scenarios make it difficult to justify large investments in the resolution of technical debt. When such a resolution can't be justified, but remediation is a common and costly burden, automated remediation is the next best solution.
+Многие считают, что любая проблема, которая достаточно распространена для автоматизации, должна быть решена посредством разрешения технической задолженности. Если долгосрочное разрешение является разумным, оно должно быть параметром по умолчанию. Однако некоторые бизнес-сценарии затрудняют выровнять большие инвестиции в разрешении технической задолженности. Если такое решение не может быть вычислено, но исправление является распространенным и дорогостоящим, автоматическое исправление является следующим лучшим решением.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
-[Protection and recovery](./protect.md) are the next areas to consider in a cloud management baseline.
+[Защита и восстановление](./protect.md) — это следующие области, которые следует учитывать в базовом плане управления облаком.
 
 > [!div class="nextstepaction"]
-> [Protect and recover](./protect.md)
+> [Защита и восстановление](./protect.md)

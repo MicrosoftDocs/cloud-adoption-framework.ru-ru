@@ -1,18 +1,18 @@
 ---
 title: Обеспечение проверки операционной пригодности
-description: Руководство по базовым операционным концепциям
+description: Создайте процесс проверки готовности к эксплуатации, чтобы полностью понять проблемы, возникающие в результате выполнения рабочих нагрузок в рабочей среде.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: df13e7bf3622c7062c3da1fc30a6a3fee9d28c90
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 9bc4e2bb9b39a83ab8829ea4a12cd1bb019bf0c3
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807569"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341816"
 ---
 # <a name="establish-an-operational-fitness-review"></a>Обеспечение проверки операционной пригодности
 

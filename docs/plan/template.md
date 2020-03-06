@@ -1,18 +1,18 @@
 ---
 title: Развертывание плана внедрения в облако в Azure DevOps
-description: Развертывание шаблона для плана внедрения в облако
+description: Узнайте, как быстро развернуть невыполненную работу в Azure DevOps с помощью шаблона плана внедрения в облако, который соответствует усилиям по внедрению облака в стандартизованный процесс.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: a7e4dfda94b15a1e589ffadc9b13db57f4a70ef7
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: a7f03ce1f83d59fdcfe2b2ce696b6b591b8d0655
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800123"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341935"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
 
@@ -70,7 +70,7 @@ Azure DevOps — это набор облачных средств для кли
 
 Эти пять статей содержат сведения о каждой задаче выравнивания, необходимой для начала управления вашими усилиями по внедрению. Следующий шаг позволяет начать упражнение по выравниванию.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Начните выровняйте проект плана путем [определения и приоритизации рабочих нагрузок](./workloads.md).
 

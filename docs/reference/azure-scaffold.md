@@ -1,18 +1,18 @@
 ---
-title: Azure Enterprise формирования шаблонов теперь является платформой внедрения Microsoft Cloud для Azure.
-description: Azure Enterprise формирования шаблонов теперь является платформой внедрения Microsoft Cloud для Azure.
+title: Теперь Azure Enterprise — это облачная платформа внедрения для Azure.
+description: Корпоративный шаблон Azure интегрирован в платформу внедрения Microsoft Cloud для Azure.
 author: rdendtler
 ms.author: rodend
 ms.date: 09/22/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: f3ad28acadb2f9d1e46783c9a6b0c76c55605e6a
-ms.sourcegitcommit: b166fe1621fe7e886616009e56b76873b8cce83c
+ms.openlocfilehash: 5596317c42b94c27c60208b4b90839516a0fbe81
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "76520146"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341799"
 ---
 # <a name="azure-enterprise-scaffold-is-now-the-microsoft-cloud-adoption-framework-for-azure"></a>Azure Enterprise формирования шаблонов теперь является платформой внедрения Microsoft Cloud для Azure.
 

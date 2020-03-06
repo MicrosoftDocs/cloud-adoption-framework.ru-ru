@@ -1,6 +1,6 @@
 ---
 title: Рекомендации по именованию и добавлению тегов
-description: В этой статье приведены подробные рекомендации по присвоению имен и тегов ресурсам, предназначенные специально для поддержки корпоративных облачных операций по внедрению.
+description: Ознакомьтесь с подробными рекомендациями по именованию и маркировке ресурсов, предназначенных специально для поддержки корпоративных облачных технологий.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/01/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit
-ms.openlocfilehash: 5e168659c5120ded6b5cfde116699ced61390bdd
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: 915e974e3968e873c8cf23ec7696f66469f01c82
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337867"
+ms.locfileid: "78342020"
 ---
 # <a name="recommended-naming-and-tagging-conventions"></a>Рекомендации по именованию и добавлению тегов
 

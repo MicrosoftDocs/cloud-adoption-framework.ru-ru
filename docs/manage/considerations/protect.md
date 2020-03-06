@@ -1,18 +1,18 @@
 ---
-title: Защита и восстановление — облачное управление и эксплуатация
-description: Защита и восстановление — облачное управление и эксплуатация
+title: Защита и восстановление в облачном управлении
+description: Узнайте о важности подготовки к невозможности сбоя рабочей нагрузки. Эта подготовка позволяет команде выявлять сбои быстрее и быстро восстанавливаться.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c9733c238903e2fa66f76337bb255c4cfda33896
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: f46fb65572d319e2dc9a4a779cd205bbe476908b
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76807722"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341001"
 ---
 # <a name="protect-and-recover-in-cloud-management"></a>Защита и восстановление в облачном управлении
 
@@ -70,7 +70,7 @@ ms.locfileid: "76807722"
 
 Дополнительные сведения об этом процессе обработки идей см. в статье [дисциплина операций рабочей нагрузки](./workload.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После выполнения этого компонента базового плана управления группа может взглянуть на избежание простоев в [работе платформ](./platform.md) и [операций рабочей нагрузки](./workload.md).
 

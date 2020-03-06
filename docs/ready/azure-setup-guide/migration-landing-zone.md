@@ -1,6 +1,6 @@
 ---
-title: Развертывание зоны размещения для миграции в Azure
-description: Узнайте, как развернуть зону размещения для миграции в Azure.
+title: Развертывание целевой зоны миграции Azure
+description: Используйте облачную платформу внедрения для Azure, чтобы узнать, как использовать схему целевой зоны для развертывания определенной среды.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/27/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, setup
-ms.openlocfilehash: cac594b7acd3764e6e5663ad28a77f292f7d440b
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: ba20999ecaf3b0abbde371fb965618fc24ee2479
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78225345"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341898"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 

@@ -1,18 +1,18 @@
 ---
-title: Средства и службы управления сервером Azure
-description: Средства и службы управления сервером Azure
+title: Службы управления сервером Azure
+description: Используйте платформу облачного внедрения для Azure, чтобы узнать об областях в наборе служб управления сервером Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: df6851ff628c0abcb38ee9139fcf24f31e2117cf
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 38f7c2f6fc5be0cdad9a963fcf7f0fbb65937d3d
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223286"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341605"
 ---
 # <a name="azure-server-management-tools-and-services"></a>Средства и службы управления сервером Azure
 
@@ -73,7 +73,7 @@ ms.locfileid: "78223286"
 
 Эти службы необходимы для поддержки текущих операций:
 
-- [Управление обновлениями](https://docs.microsoft.com/azure/automation/automation-update-management#view-update-assessments) автоматизирует развертывание исправлений в среде, включая развертывание в экземплярах операционной системы, работающих за пределами Azure. Она поддерживает операционные системы Windows и Linux, а также отслеживает основные уязвимости ОС и несоответствие, вызванные отсутствием исправлений.
+- [Управление обновлениями](/azure/automation/automation-update-management) автоматизирует развертывание исправлений в среде, включая развертывание в экземплярах операционной системы, работающих за пределами Azure. Она поддерживает операционные системы Windows и Linux, а также отслеживает основные уязвимости ОС и несоответствие, вызванные отсутствием исправлений.
 - [Отслеживание изменений и Инвентаризация](https://docs.microsoft.com/azure/automation/change-tracking) позволяют получить представление о программном обеспечении, работающем в вашей среде, и выделить произошедшие изменения.
 - Служба [автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro) позволяет выполнять сценарии Python и PowerShell, а также модули Runbook для автоматизации задач в среде. При использовании службы автоматизации с [гибридной рабочей ролью Runbook](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)можно также расширить модули Runbook на локальные ресурсы.
 - [Настройка состояния службы автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-dsc-overview) позволяет принудительно передавать конфигурации требуемого состояния (DSC) PowerShell непосредственно из Azure. DSC также позволяет отслеживать и сохранять конфигурации для гостевых операционных систем и рабочих нагрузок.
