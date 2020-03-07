@@ -10,11 +10,11 @@ ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
 ms.openlocfilehash: 51f24653998ab3cd4cf7fd043b487e4d7c1ccc5b
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
-ms.translationtype: HT
+ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709232"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78337731"
 ---
 # <a name="cloud-governance-guides"></a>Руководства по управлению облаком
 
@@ -90,7 +90,7 @@ ms.locfileid: "77709232"
 |---|---|---|
 | Центр обработки данных или сторонние поставщики услуг размещения | Меньше пяти центров обработки данных. | Больше пяти центров обработки данных. |
 | Сеть | Отсутствие глобальной сети или 1–2 поставщика глобальных сетей. | Сложная или глобальная сеть. |
-| Идентификация | Один лес и один домен. | Сложная система с несколькими лесами и несколькими доменами. |
+| Удостоверение | Один лес и один домен. | Сложная система с несколькими лесами и несколькими доменами. |
 
 ### <a name="desired-future-state-after-incremental-improvement-of-cloud-governance"></a>Требуемое будущее состояние после поэтапного улучшения системы облачного управления
 
