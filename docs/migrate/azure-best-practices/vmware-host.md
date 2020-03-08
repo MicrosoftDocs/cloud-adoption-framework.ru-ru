@@ -7,22 +7,18 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: c0cbcf87e21789947229dafc717d49ec798e53c2
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 80567c1cb0c36f9f95cea78d812300585050277a
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803574"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892554"
 ---
 # <a name="vmware-host-migration-best-practices-for-azure"></a>Рекомендации по миграции узла VMware в Azure
 
 Миграция всего узла VMware в Azure может ускорить стандартную методологию миграции, описанную в этой инфраструктуре, и на рисунке ниже.
 
 ![Модель миграции Cloud Adoption Framework](../../_images/operational-transformation-migrate.png)
-
-## <a name="migration-processes"></a>Процессы миграции
-
-В [расширенной статье о миграции узла VMware](../expanded-scope/vmware-host.md) описан подход к интеграции миграций узла VMware с другими усилиями по миграции в Azure для упрощения и стандартизации процесса.
 
 ## <a name="migration-best-practices"></a>Рекомендации по миграции
 

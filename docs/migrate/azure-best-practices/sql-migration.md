@@ -7,22 +7,18 @@ ms.date: 10/10/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 52c0c756ec6748b32486deca32054acfd15cd12b
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 8115a33c67c0099e97c0d368c007ac6a1099b0d9
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76803591"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892571"
 ---
 # <a name="sql-server-migration-best-practices-for-azure"></a>Рекомендации по миграции SQL Server для Azure
 
 Миграция всего SQL Server в Azure может ускорить стандартную методологию миграции, описанную в этой инфраструктуре, и на рисунке ниже.
 
 ![Модель миграции Cloud Adoption Framework](../../_images/operational-transformation-migrate.png)
-
-## <a name="migration-processes"></a>Процессы миграции
-
-В [развернутой статье с областью действия SQL Server миграции](../expanded-scope/sql-migration.md) описан подход к интеграции SQL Server миграций с другими усилиями по миграции в Azure для упрощения и стандартизации процесса.
 
 ## <a name="migration-best-practices"></a>Рекомендации по миграции
 

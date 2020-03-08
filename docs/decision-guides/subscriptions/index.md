@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: f00377f4da5a3c95114571af36e4a759a26c63f3
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 99bcfee8f72250c156178117b368af62eb8a68c9
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77707957"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892418"
 ---
 # <a name="subscription-decision-guide"></a>Руководство по выбору модели подписки
 
@@ -91,7 +91,7 @@ ms.locfileid: "77707957"
 
 - [Управление доступом к ресурсам в Azure](../../govern/resource-consistency/resource-access-management.md)
 - [Использование нескольких уровней управления на крупных предприятиях](../../govern/guides/complex/multiple-layers-of-governance.md)
-- [Использование нескольких географических регионов](../regions/index.md)
+- [Использование нескольких географических регионов](../../migrate/azure-best-practices/multiple-regions.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

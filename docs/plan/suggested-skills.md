@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: a14d6338489fa873b1f78951ca34400819d71c0b
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 3fdfbcbaabb79876d32fa8ea172b2c426ada9464
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78342037"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892690"
 ---
 # <a name="getting-started-on-a-skills-readiness-path"></a>Приступая к работе с путем готовности навыков
 
@@ -28,7 +28,7 @@ ms.locfileid: "78342037"
 - **[Готово](../ready/suggested-skills.md):** Разрабатывайте навыки, необходимые для подготовки бизнеса, культуры, людей и среды для внесения изменений.
 
 - **Внедрение:** Навыки внедрения согласовываются с различными техническими усилиями:
-  - **[Миграция](../migrate/expanded-scope/suggested-skills.md):** Получите навыки, необходимые для реализации плана миграции в облако.
+  - **[Миграция](../migrate/suggested-skills.md):** Получите навыки, необходимые для реализации плана миграции в облако.
   - **Инновации:** Получите навыки, необходимые для предоставления инновационных новых решений.
 
 - **Работают:** Навыки, связанные с операционной моделью внедрения в облако, согласовываются с различными возможностями для получения навыков.

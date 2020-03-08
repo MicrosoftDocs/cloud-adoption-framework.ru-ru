@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 759bd75a134b1f5a5992f038a33693f632b86b03
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 1bf3c79b95c748880e5d560003aa65acb1949c48
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76801517"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78891909"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -47,10 +47,3 @@ ms.locfileid: "76801517"
 Этот новый рост наиболее ощутимо представлен в изменениях в выпуске или невыполненной работе по итерации.
 
 Ретроспектива обозначает конец выпуска или итерации, так как команды получают опыт и извлекают уроки, а также они корректируют [невыполненную работу по выпуску и итерации](../assess/release-iteration-backlog.md), чтобы отразить новые процессы и эксперименты, которые необходимо протестировать. Это запускает следующую итерацию в процессе миграции.
-
-## <a name="next-steps"></a>Дальнейшие действия
-
-Раздел [Безопасные средства мониторинга и управления](../secure-and-manage/index.md) этого содержимого может помочь подготовить читателя к переходу от миграции к операциям.
-
-> [!div class="nextstepaction"]
-> [Безопасные средства мониторинга и управления](../secure-and-manage/index.md)

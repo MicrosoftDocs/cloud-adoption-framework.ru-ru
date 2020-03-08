@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 layout: LandingPage
-ms.openlocfilehash: 4abfaa8622db86fefb2c7c99589d3ef81a5ed489
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: c9e33b32590cd3b73e5bc42a662abf5ef6de36da
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170177"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892248"
 ---
 # <a name="enable-success-during-a-cloud-adoption-journey"></a>Включение успеха во время поездки на внедрение в облако
 
@@ -22,7 +22,7 @@ ms.locfileid: "78170177"
 В рамках этой инфраструктуры включение — это основная тема. В следующем контрольном списке описываются фундаментальные принципы внедрения в облако, которые гарантируют успех пути внедрения как ИТ, так и бизнеса:
 
 - **План:** Создание четких [результатов бизнеса](../strategy/business-outcomes/index.md), четко определенного [плана](../digital-estate/index.md)по работе с цифровыми разработкой и хорошо понятных невыполненных работ по [внедрению](../migrate/migration-considerations/prerequisites/migration-backlog-review.md).
-- **Готово:** Обеспечьте готовность персонала с помощью [навыков и планов обучения](../ready/technical-skills.md).
+- **Готово:** Обеспечьте готовность персонала с помощью [навыков и планов обучения](../ready/suggested-skills.md).
 - **Работают:** Определите управляемую операционную модель для программного выполнения действий в течение и долго после внедрения.
   - **[Организация](../organize/index.md):** Выровняйте людей и группы для предоставления правильных облачных операций и внедрения.
   - **Управляет:** Выровняйте правильные [дисциплины](../govern/index.md) управления, чтобы постоянно применять управление затратами, устранение рисков, соответствие требованиям и базовые показатели безопасности для всех облачных технологий.
@@ -77,7 +77,7 @@ ms.locfileid: "78170177"
     </a>
 </li>
 <li style="display: flex; flex-direction: column;">
-    <a href="../ready/technical-skills.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
+    <a href="../ready/suggested-skills.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
         <div class="cardSize" style="flex: 1 0 auto; display: flex;">
             <div class="cardPadding" style="display: flex;">
                 <div class="card">

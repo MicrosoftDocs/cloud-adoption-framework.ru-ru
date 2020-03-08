@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: cd4009e8201cf6267e9da297ce13987cb025139e
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 1f6d7545814f51f79a45b619f73dab857ac582d3
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171282"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78891995"
 ---
 # <a name="collect-data-through-the-migration-and-modernization-of-existing-data-sources"></a>Получение данных с помощью миграции и модернизации существующих источников данных
 
@@ -57,5 +57,3 @@ ms.locfileid: "78171282"
 |PostgreSQL|База данных Azure для PostgreSQL|Database Migration Service|Справка в Интернете|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online)|
 |MongoDB|Azure Cosmos DB API Mongo|Database Migration Service|Вне сети|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db)|
 |MongoDB|Azure Cosmos DB API Mongo|Database Migration Service|Справка в Интернете|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online)|
-|Oracle;|Различные платформы как услуга (PaaS) и параметры IaaS|Средство партнера или служба "миграция Azure"|Вне сети или в сети|[Дерево принятия решений](../../migrate/expanded-scope/data-oracle-migration.md)|
-|Различные параметры NoSQL DB|Параметры Космо DB или IaaS|Процедурная миграция или миграция Azure|Вне сети или в сети|[Дерево принятия решений](../../migrate/expanded-scope/data-no-sql-migration.md)|

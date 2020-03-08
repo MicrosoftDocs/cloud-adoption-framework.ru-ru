@@ -7,12 +7,12 @@ ms.date: 09/05/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: bfd8fd5d227ea0329137015a41cd9f3cb8d8c19b
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
-ms.translationtype: HT
+ms.openlocfilehash: 946183aca25ec2a150d6b1f2896e87ea58ad5ef6
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78384032"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892713"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Отслеживание затрат по всем бизнес-единицам, средам или проектам
 
@@ -82,7 +82,7 @@ ms.locfileid: "78384032"
 
 В соответствии с рекомендацией, членам всех групп должна быть назначена роль "Участник управления затратами". Эта роль предоставляет доступ к созданию бюджетов, управлению ними, а также их экспорта для более эффективного отслеживания затрат, а также их отчетности. Однако членам [команды по разработке стратегии облачных технологий](../../organize/cloud-strategy.md) следует назначить роль "Читатель управления затратами". Поскольку они не участвуют в составлении бюджетов в рамках инструмента Управление затратами Azure.
 
-### <a name="scope"></a>Область видимости
+### <a name="scope"></a>Область
 
 Следующие настройки области и ролей создадут необходимую видимость в управлении затратами. Эта лучшая методика может потребовать незначительных изменений для соответствия с решениями об организации активов.
 
@@ -114,14 +114,14 @@ ms.locfileid: "78384032"
 
 ### <a name="get-started-with-azure-cost-management"></a>Приступая к работе со службой "Управление затратами Azure"
 
-Дополнительные сведения о работе с Azure Cost Management см. [Как оптимизировать инвестиции в облако с помощью службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json).
+Дополнительные сведения о работе с Azure Cost Management см. [Как оптимизировать инвестиции в облако с помощью службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json).
 
 ### <a name="use-azure-cost-management"></a>Использование службы "Управление затратами Azure"
 
-- [Создание бюджетов и управление ими](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets)
-- [Экспорт данных о затратах](https://docs.microsoft.com/azure/cost-management/tutorial-export-acm-data)
-- [Оптимизация затрат на основе рекомендаций](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations)
-- [Использование оповещения о затратах для отслеживания потребления и расходов](https://docs.microsoft.com/azure/cost-management/cost-mgt-alerts-monitor-usage-spending)
+- [Создание бюджетов и управление ими](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets)
+- [Экспорт данных о затратах](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-export-acm-data)
+- [Оптимизация затрат на основе рекомендаций](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
+- [Использование оповещения о затратах для отслеживания потребления и расходов](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending)
 
 ### <a name="use-azure-cost-management-to-govern-aws-costs"></a>Использование службы "Управление затратами Azure" для управления затратами AWS
 

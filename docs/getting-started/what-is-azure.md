@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: governance
-ms.openlocfilehash: f74e5f6fa5abc263af73fcf69b489de6518c9e37
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 39373c0f2c4c7d96613fd10d5734a2826b6f1933
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78169922"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892070"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -41,7 +41,7 @@ Azure, как и другие облачные платформы, основа�
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Теперь, когда вы понимаете внутренние компоненты Azure, Узнайте больше об управлении облачными ресурсами.
+Узнайте больше о внедрении в облако с помощью [инфраструктуры внедрения Microsoft Cloud для Azure](https://docs.microsoft.com/azure/cloud-adoption-framework).
 
 > [!div class="nextstepaction"]
-> [Система управления ресурсами](../govern/resource-consistency/what-is-governance.md)
+> [Сведения о платформе внедрения Microsoft Cloud для Azure](https://docs.microsoft.com/azure/cloud-adoption-framework)

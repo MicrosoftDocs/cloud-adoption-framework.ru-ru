@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 481a617d3a09ae1f81fe313dd557314aed8f4f29
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 2ab2fa1cce7e779538137302a326ca49a291ad28
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77706852"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892110"
 ---
 # <a name="standard-enterprise-governance-guide"></a>Руководство по организации системы управления для стандартных предприятий
 
@@ -42,7 +42,7 @@ ms.locfileid: "77706852"
 2. Две подписки: для рабочей и нерабочей рабочих нагрузок.
 3. На каждом уровне иерархии группирования должна применяться [согласованная номенклатура](../../../ready/azure-best-practices/naming-and-tagging.md).
 4. Группы ресурсов следует развертывать способом, который учитывает особенности жизненного цикла ее содержимого: развертывание активов, управление ими и прекращение использования должно осуществляться в комплексе. Рекомендации по использованию групп ресурсов можно найти [здесь](../../../decision-guides/resource-consistency/index.md).
-5. Очень важно [выбрать правильный регион](../../../decision-guides/regions/index.md). Мы рекомендуем выбирать регион так, чтобы вы имели доступ к сетевым ресурсам, средствам мониторинга и аудита в процессе отработки отказа или восстановления размещения, а также чтобы [нужные SKU были доступны в предпочтительных регионах](https://azure.microsoft.com/global-infrastructure/services).
+5. Очень важно [выбрать правильный регион](../../../migrate/azure-best-practices/multiple-regions.md). Мы рекомендуем выбирать регион так, чтобы вы имели доступ к сетевым ресурсам, средствам мониторинга и аудита в процессе отработки отказа или восстановления размещения, а также чтобы [нужные SKU были доступны в предпочтительных регионах](https://azure.microsoft.com/global-infrastructure/services).
 
 Ниже приведен пример использования этого шаблона:
 

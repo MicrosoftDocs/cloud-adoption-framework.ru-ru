@@ -7,12 +7,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 0616b2721a903be369192a47fcd888247fd6cad6
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 783652f1f469333c97ebd50673a3d42e1a9741d7
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222612"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892588"
 ---
 # <a name="best-practices-for-costing-and-sizing-workloads-migrated-to-azure"></a>Рекомендации по оценке затрат на рабочие нагрузки, перенесенные в Azure, и определению их размеров
 
@@ -241,9 +241,9 @@ Azure предоставляет различные типы учетных за
 **Дополнительные сведения**
 
 - [Общие сведения о службе "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management/overview).
-- [Как оптимизировать инвестиции в облако с помощью службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management/cost-mgt-best-practices)
+- [Как оптимизировать инвестиции в облако с помощью службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices)
 - [Использование отчетов службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management/use-reports).
-- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations?toc=/azure/billing/TOC.json).
+- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/billing/TOC.json).
 - [Обзор API потребления ресурсов Azure](https://docs.microsoft.com/rest/api/consumption/budgets).
 
 ## <a name="best-practice-monitor-resource-utilization"></a>Рекомендации: мониторинг использования ресурсов
@@ -260,7 +260,7 @@ Azure предоставляет различные типы учетных за
 
 - Общие сведения о [службе Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) и [Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview).
 - [Рекомендации Azure Advisor по затратам](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations).
-- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management/tutorial-acm-opt-recommendations?toc=/azure/billing/TOC.json) и [Предотвращение непредвиденных расходов с помощью функции выставления счетов и управления затратами в Azure](https://docs.microsoft.com/azure/billing/billing-getting-started).
+- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/billing/TOC.json) и [Предотвращение непредвиденных расходов с помощью функции выставления счетов и управления затратами в Azure](https://docs.microsoft.com/azure/billing/billing-getting-started).
 - Узнайте о [наборе средств оптимизации ресурсов Azure (ARO)](https://github.com/Azure/azure-quickstart-templates/tree/master/azure-resource-optimization-toolkit).
 
 ## <a name="best-practice-implement-resource-group-budgets"></a>Рекомендации. Реализация бюджетов групп ресурсов
@@ -273,7 +273,7 @@ Azure предоставляет различные типы учетных за
 **Дополнительные сведения**
 
 - [Управление затратами с помощью API управления бюджетом Azure](https://docs.microsoft.com/azure/billing/billing-cost-management-budget-scenario).
-- [Руководство. Создание и управление бюджетами Azure](https://docs.microsoft.com/azure/cost-management/tutorial-acm-create-budgets?toc=/azure/billing/TOC.json).
+- [Руководство. Создание и управление бюджетами Azure](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/billing/TOC.json).
 
 ## <a name="best-practice-optimize-azure-monitor-retention"></a>Рекомендации: Оптимизация хранения Azure Monitor
 
@@ -342,7 +342,7 @@ Azure предоставляет REST API с доступом к данным д
 - Узнайте о службе [Функциях Azure](https://azure.microsoft.com/services/functions).
 - Узнайте о [пакетной службе Azure](https://azure.microsoft.com/services/batch).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Просмотрите другие рекомендации:
 

@@ -1,6 +1,6 @@
 ---
 title: Сети периметра
-description: Узнайте о том, как сети периметра, также называемые демилитаризованными зонами (сети периметра), используют функции и службы Azure.
+description: Узнайте, как сети периметра (также называемые сети периметра) используют функции и службы Azure.
 author: tracsman
 ms.author: jonor
 ms.date: 05/10/2019
@@ -10,13 +10,15 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 2aa561a7ffdcf43ffc56ad89849e933ea8abf186
-ms.sourcegitcommit: 4948a5f458725e8a0c7206f08502422965a549d5
+ms.openlocfilehash: c2af34fce6f86ed4aafe432d37e8def9a82d4705
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76994224"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892673"
 ---
+<!-- cSpell:ignore tracsman jonor rossort NVAs WAFs -->
+
 # <a name="perimeter-networks"></a>Сети периметра
 
 [Сети периметра][perimeter-network] обеспечивают безопасное подключение между облачными сетями и локальными или физическими сетями центра обработки данных, а также двухстороннюю связь с Интернетом. Они также известны как демилитаризованные зоны (DMZ).
@@ -41,15 +43,15 @@ ms.locfileid: "76994224"
 
 Как правило, основные ИТ-группы и группы безопасности отвечают за определение требований к работе с сетями периметра.
 
-![Пример топологии сети концентратора и звезды][7]
+![Пример топологии сети концентратора и звезды](../../_images/azure-best-practices/network-high-level-perimeter-networks.png)
 
-На предыдущей схеме показан пример [топологии сети концентратора и звезды](./hub-spoke-network-topology.md) , которая реализует принудительное применение двух периметров с доступом к Интернету и локальной сети. Оба периметра располагаются в концентраторе DMZ. В концентраторе DMZ сеть периметра с доступом в Интернет можно масштабировать для поддержки большого количества бизнес-приложений (LOB) с помощью нескольких ферм WAF и экземпляров Брандмауэра Azure, которые обеспечивают защиту периферийных виртуальных сетей. Концентратор также обеспечивает подключение через VPN или Azure ExpressRoute при необходимости.
+На приведенной выше схеме показан пример [топологии сети концентратора и звезды](./hub-spoke-network-topology.md) , которая реализует принудительное применение двух периметров с доступом к Интернету и локальной сети. Оба периметра располагаются в концентраторе DMZ. В концентраторе DMZ сеть периметра с доступом в Интернет можно масштабировать для поддержки большого количества бизнес-приложений (LOB) с помощью нескольких ферм WAF и экземпляров Брандмауэра Azure, которые обеспечивают защиту периферийных виртуальных сетей. Концентратор также обеспечивает подключение через VPN или Azure ExpressRoute при необходимости.
 
 ## <a name="virtual-networks"></a>Виртуальные сети
 
 Обычно сети периметра создаются с помощью [виртуальной сети][virtual-networks] с несколькими подсетями для размещения другого типа служб, выполняющих фильтрацию и анализ трафика в Интернет и обратно через NVA, WAF и экземпляры Шлюзов приложения Azure.
 
-## <a name="user-defined-routes"></a>Пользовательские маршруты
+## <a name="user-defined-routes"></a>Определяемые пользователем маршруты
 
 С помощью [определяемых пользователем маршрутов][user-defined-routes] клиенты могут развертывать брандмауэры, IDS или IPS и другие виртуальные устройства, а также направлять сетевой трафик через эти устройства безопасности. Это позволяет применять, контролировать и проверять политики границ безопасности. Определяемые пользователем маршруты можно создать, чтобы обеспечить передачу трафика через указанные пользовательские виртуальные машины, NVA и подсистемы балансировки нагрузки.
 
@@ -81,7 +83,7 @@ Azure Load Balancer может также проверять работоспо�
 
 В качестве примера использования топологии сети HUB и звезды можно развернуть внешнюю подсистему балансировки нагрузки как в концентраторе, так и на периферийных. В концентраторе подсистема балансировки нагрузки эффективно направляет трафик на службы в периферийных зонах. В периферийных зонах подсистемы балансировки нагрузки управляют трафиком приложений.
 
-## <a name="azure-front-door-service"></a>Служба Azure Front Door
+## <a name="azure-front-door-service"></a>Azure Front Door Service
 
 [Azure Front Door][AFD] — это высокодоступная и масштабируемая платформа от Майкрософт для ускорения веб-приложений и глобальная подсистема балансировки нагрузки HTTPS. С помощью Azure Front Door Service можно создавать, использовать и масштабировать динамические веб-приложения и статическое содержимое. Она выполняется более чем в 100 расположениях на границе глобальной сети Майкрософт.
 
@@ -107,40 +109,13 @@ Azure Front Door Service предоставляет вашему приложе�
 
 Данные телеметрии доступны в представлениях Azure Monitor в режиме реального времени во время атаки и для статистических целей. Вы можете добавить защиту на прикладном уровне, используя брандмауэр веб-приложения в Шлюзе приложений Azure. Защита обеспечивается для общедоступных IP-адресов Azure IPv4.
 
-<!-- images -->
-
-[0]: ../../_images/azure-best-practices/network-redundant-equipment.png "Примеры перекрытия компонента"
-[1]: ../../_images/azure-best-practices/network-hub-spoke-high-level.png "Подробный пример звездообразной топологии"
-[2]: ../../_images/azure-best-practices/network-hub-spokes-cluster.png "Кластер концентраторов и периферийных зон"
-[3]: ../../_images/azure-best-practices/network-spoke-to-spoke.png "Связь между периферийными зонами"
-[4]: ../../_images/azure-best-practices/network-hub-spoke-block-level-diagram.png "Схема звездообразной топологии на уровне блоков"
-[5]: ../../_images/azure-best-practices/network-users-groups-subscriptions.png "Пользователи, группы, подписки и проекты"
-[6]: ../../_images/azure-best-practices/network-infrastructure-high-level.png "Высокоуровневая схема инфраструктуры"
-[7]: ../../_images/azure-best-practices/network-high-level-perimeter-networks.png "Высокоуровневая схема инфраструктуры"
-[8]: ../../_images/azure-best-practices/network-vnet-peering-perimeter-networks.png "Пиринг виртуальных сетей и сети периметра"
-[9]: ../../_images/azure-best-practices/network-high-level-diagram-monitoring.png "Общая схема для мониторинга"
-[10]: ../../_images/azure-best-practices/network-high-level-workloads.png "Схема высокого уровня для рабочих нагрузок"
-
 <!-- links -->
 
-[Limits]: https://docs.microsoft.com/azure/azure-subscription-service-limits
-[Roles]: https://docs.microsoft.com/azure/role-based-access-control/built-in-roles
 [virtual-networks]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview
 [network-security-groups]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg
-[DNS]: https://docs.microsoft.com/azure/dns/dns-overview
-[PrivateDNS]: https://docs.microsoft.com/azure/dns/private-dns-overview
-[VNetPeering]: https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview
 [user-defined-routes]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview
-[RBAC]: https://docs.microsoft.com/azure/role-based-access-control/overview
-[azure-ad]: https://docs.microsoft.com/azure/active-directory/active-directory-whatis
-[VPN]: https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways
-[ExR]: https://docs.microsoft.com/azure/expressroute/expressroute-introduction
-[ExRD]: https://docs.microsoft.com/azure/expressroute/expressroute-erdirect-about
-[vWAN]: https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about
 [NVA]: https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/nva-ha
 [AzFW]: https://docs.microsoft.com/azure/firewall/overview
-[SubMgmt]: https://docs.microsoft.com/azure/architecture/cloud-adoption/reference/azure-scaffold
-[RGMgmt]: https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview
 [perimeter-network]: https://docs.microsoft.com/azure/best-practices-network-security
 [ALB]: https://docs.microsoft.com/azure/load-balancer/load-balancer-overview
 [DDoS]: https://docs.microsoft.com/azure/virtual-network/ddos-protection-overview
@@ -149,15 +124,3 @@ Azure Front Door Service предоставляет вашему приложе�
 [AFDWAF]: https://docs.microsoft.com/azure/frontdoor/waf-overview
 [AppGW]: https://docs.microsoft.com/azure/application-gateway/application-gateway-introduction
 [AppGWWAF]: https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-overview
-[Monitor]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/
-[ActLog]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-activity-logs
-[DiagLog]: https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-overview-of-diagnostic-logs
-[nsg-log]: https://docs.microsoft.com/azure/virtual-network/virtual-network-nsg-manage-log
-[OMS]: https://docs.microsoft.com/azure/operations-management-suite/operations-management-suite-overview
-[NPM]: https://docs.microsoft.com/azure/log-analytics/log-analytics-network-performance-monitor
-[NetWatch]: https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview
-[WebApps]: https://docs.microsoft.com/azure/app-service/
-[HDI]: https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-introduction
-[EventHubs]: https://docs.microsoft.com/azure/event-hubs/event-hubs-what-is-event-hubs
-[ServiceBus]: https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview
-[traffic-manager]: https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview

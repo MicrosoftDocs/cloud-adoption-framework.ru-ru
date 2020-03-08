@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 6fcd5892eb9d13b61cbaa697731718e1ca8ce3eb
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 66ff53f203a07f5f61ae2ba448f56d6531ffaa94
+ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708161"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "78892452"
 ---
 # <a name="architectural-decision-guides"></a>Руководства по принятию архитектурных решений
 
@@ -42,8 +42,6 @@ ms.locfileid: "77708161"
 [Шифрование](./encryption/index.md). Защитите конфиденциальные данные с помощью шифрования с учетом требований корпоративной политики безопасности и обеспечения соответствия.
 
 [Ведение журналов и создание отчетов](./logging-and-reporting/index.md): Отслеживайте данные журнала, создаваемые облачными ресурсами. Анализ данных предоставляет сведения об операциях, обслуживании и состоянии соответствия рабочих нагрузок.
-
-[Руководство по регионам.](./regions/index.md) Обсуждение соответствующих критериев выбора для размещения ресурсов в определенных регионах на платформе Azure.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
