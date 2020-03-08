@@ -1,18 +1,18 @@
 ---
-title: Отслеживание затрат по всем бизнес-единицам, средам или проектам
-description: Отслеживание затрат по всем бизнес-единицам, средам или проектам
+title: Следите за затратами между филиалами и средами
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы понять, какие решения и подходы к реализации могут создавать механизмы отслеживания.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: a416f5eef95717792036c1a40b99614cefde2cec
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: bfd8fd5d227ea0329137015a41cd9f3cb8d8c19b
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337386"
+ms.locfileid: "78384032"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Отслеживание затрат по всем бизнес-единицам, средам или проектам
 
