@@ -7,18 +7,18 @@ ms.date: 02/25/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 52abb490ed3364945bef887a8ed7f144f7dca14a
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: e6cfe951c3b499d101ed29208b2beba0c9867c48
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78228539"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79023899"
 ---
-<!-- cSpell:ignore arnaudlh arnaul Arnaud Hashicorp's vCPUs eastasia southeastasia lalogs tfvars -->
+<!-- cSpell:ignore arnaudlh arnaul Arnaud vCPUs eastasia southeastasia lalogs tfvars -->
 
 # <a name="use-terraform-to-build-your-landing-zones"></a>Использование terraform для создания целевых зон
 
-Azure предоставляет собственные службы для развертывания целевых зон. Другие сторонние средства также могут помочь в этом. Одним из таких средств, которые клиенты и партнеры часто используют для развертывания начальных зон, является Hashicorp terraform. В этом разделе показано, как использовать целевую зону прототипа для развертывания базовых журналов, учетных данных и возможностей обеспечения безопасности для подписки Azure.
+Azure предоставляет собственные службы для развертывания целевых зон. Другие сторонние средства также могут помочь в этом. Одним из таких средств, которые клиенты и партнеры часто используют для развертывания начальных зон, является HashiCorp terraform. В этом разделе показано, как использовать целевую зону прототипа для развертывания базовых журналов, учетных данных и возможностей обеспечения безопасности для подписки Azure.
 
 ## <a name="purpose-of-the-landing-zone"></a>Назначение целевой зоны
 

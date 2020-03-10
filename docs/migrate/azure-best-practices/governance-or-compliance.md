@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 17952dc4c3ff28f2fcfe1a378a9efb969d65925b
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: b0aea9b1b69a659511e9a788e22a0e88e23e9047
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78897983"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79023740"
 ---
 # <a name="governance-or-compliance-strategy"></a>Стратегия системы управления и соответствия
 
@@ -52,8 +52,8 @@ ms.locfileid: "78897983"
 
 - [Управление затратами](../../govern/cost-management/template.md)
 - [Базовые средства безопасности](../../govern/security-baseline/template.md)
-- [Согласованность ресурсов].. /.. /Говерн/ресаурце-консистенци/Темплате.МД)
-- [Базовый идентификатор удостоверения].. /.. /Говерн/идентити-баселине/Темплате.МД)
+- [Согласованность ресурсов](../../govern/resource-consistency/template.md)
+- [Базовые средства идентификации](../../govern/identity-baseline/template.md)
 - [Ускорение развертывания](../../govern/deployment-acceleration/template.md)
 
 Рекомендации по разработке руководств по системе управления на основе модели управления Cloud Adoption Framework приведены в разделе [Реализация стратегии управления облаком](../../govern/corporate-policy.md).
@@ -66,7 +66,7 @@ ms.locfileid: "78897983"
 
 Во время этого процесса план проекта должен включать распределение времени для группы управления облаком, чтобы выполнить проверку соответствия для каждой рабочей нагрузки, запланированной для повышения уровня производства.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 В качестве окончательного элемента в [контрольном списке развернутой области](./index.md)вернитесь к контрольному списку и повторно оцените все дополнительные требования к области, необходимые для миграции.
 
