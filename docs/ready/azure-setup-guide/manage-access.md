@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 83f9461302af6710464b8c7e81a866cfc25d5852
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 86988a83b0c68bea60d0cceff5a168e2b2b08fd5
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799596"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79024062"
 ---
+<!-- cSpell:ignore LijuKodicheraJayadevan Fsubscriptions Fresource -->
+
 # <a name="manage-access-to-your-azure-environment-with-role-based-access-controls"></a>Управление доступом к среде Azure с помощью управления доступом на основе ролей
 
 Управление доступом к ресурсам и подпискам Azure является важной частью стратегии управления Azure, и рекомендуется назначение прав и привилегий доступа на основе групп. Работа с группами, а не с отдельными пользователями, облегчает поддержку политик доступа, обеспечивает согласованное управление доступом между группами, а также способствует сокращению количества ошибок конфигурации. Управление доступом на основе ролей Azure (RBAC) — это основной способ управления доступом в Azure.

@@ -9,18 +9,20 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 0b37500652606e3a1018b3b93c03aae546827eff
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 762c302bf52473ae917ab5c59c589225f1c5f0ac
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799409"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79023998"
 ---
+<!-- cSpell:ignore timleyden tileyden -->
+
 # <a name="monitoring-and-reporting-in-azure"></a>Мониторинг и создание отчетов в Azure
 
 Azure включает множество служб, которые в совокупности составляют комплексное решение для сбора, анализа и использования данных телеметрии из вашего приложения и ресурсов Azure, которые поддерживают такие службы. Кроме того, эти службы могут обеспечивать мониторинг критически важных локальных ресурсов и предоставлять гибридную среду мониторинга.
 
-# <a name="azure-monitortabazuremonitor"></a>[Azure Monitor](#tab/AzureMonitor)
+# <a name="azure-monitor"></a>[Azure Monitor](#tab/AzureMonitor)
 
 Azure Monitor предоставляет единый унифицированный концентратор для всех данных мониторинга и диагностики в Azure. Его можно использовать для получения сведений по ресурсам. С помощью Azure Monitor можно находить и устранять проблемы и оптимизировать производительность. Вы также можете понять поведение клиентов.
 
@@ -51,13 +53,15 @@ Azure Monitor предоставляет единый унифицированн
 
 ::: zone target="chromeless"
 
+<!-- markdownlint-disable DOCSMD001 -->
+
 ## <a name="action"></a>Действие
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Monitoring/AzureMonitoringBrowseBlade/overview]" submitText="Explore Azure Monitor" :::
 
 ::: zone-end
 
-# <a name="azure-service-healthtabazureservicehealth"></a>[Служба "Работоспособность служб Azure"](#tab/AzureServiceHealth)
+# <a name="azure-service-health"></a>[Служба "Работоспособность служб Azure"](#tab/AzureServiceHealth)
 
 Работоспособность служб Azure предоставляет персонализированное представление состояния работоспособности используемых служб и регионов Azure. В нем публикуется информация об активных проблемах, которая поможет вам понять влияние этих проблем на ваши ресурсы. Информация регулярно обновляется, и в случае решения проблемы вы получаете уведомление.
 
@@ -95,7 +99,7 @@ Azure Monitor предоставляет единый унифицированн
 
 ::: zone-end
 
-# <a name="azure-advisortabazureadvisor"></a>[Помощник по Azure](#tab/AzureAdvisor)
+# <a name="azure-advisor"></a>[Помощник по Azure](#tab/AzureAdvisor)
 
 Помощник по Azure — это бесплатный персонализированный облачный консультант, который помогает следовать лучшим методикам для развернутых в Azure решений. Он анализирует конфигурацию ресурсов и данные телеметрии их использования и предоставляет рекомендации по оптимизации среды. Эти рекомендации разделены на следующие категории:
 
@@ -125,7 +129,7 @@ Azure Monitor предоставляет единый унифицированн
 
 ::: zone-end
 
-# <a name="azure-security-centertabazuresecuritycenter"></a>[Центр безопасности Azure](#tab/AzureSecurityCenter)
+# <a name="azure-security-center"></a>[Центр безопасности Azure](#tab/AzureSecurityCenter)
 
 Центр безопасности Azure также играет важную роль в стратегии мониторинга. Он помогает отслеживать безопасность компьютеров, сети, хранилища, служб данных и приложений. Центр безопасности предоставляет расширенные средства обнаружения угроз с применением машинного обучения и аналитики поведения, которые помогают обнаруживать активные угрозы для ваших ресурсов Azure. Кроме того, Центр безопасности предоставляет защиту от угроз, которая блокирует вредоносные программы или другой нежелательный код, а также сокращает контактную зону атак методом подбора и других сетевых атак.
 
