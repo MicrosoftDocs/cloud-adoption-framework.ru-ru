@@ -1,18 +1,18 @@
 ---
 title: Основные понятия Azure
-description: Изучите основные понятия и термины, используемые в Azure, и узнайте, как эти понятия связаны друг с другом.
+description: Используйте платформу внедрения облачных решений Azure для изучения фундаментальных концепций и терминов, используемых в Azure, а также принципов связи друг с другом.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: d11e69014a9e46f916afb5bc8caf083c930ce725
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 90eed8109627298c8e6a044eff3333154bb17f1d
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799154"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092571"
 ---
 # <a name="azure-fundamental-concepts"></a>Основные понятия Azure
 

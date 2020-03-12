@@ -1,18 +1,18 @@
 ---
 title: Что такое учет в облаке?
-description: Объяснение концепции облачного учета
+description: Используйте платформу внедрения облаков для Azure, чтобы понять общие модели облачного учета для ИТ, когда вы начнете процесс миграции в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 016f0502108fa771490293bd6588f3fe7193fb07
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: 0ccff095f78442f583bcd526ee624161276c0db3
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79023832"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092872"
 ---
 <!-- markdownlint-disable MD026 -->
 

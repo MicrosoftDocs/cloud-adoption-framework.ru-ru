@@ -1,18 +1,18 @@
 ---
 title: Создание Организации, ориентированной на стоимость
-description: Ознакомьтесь с рекомендациями по созданию организаций с учетом затрат.
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы изучить рекомендации по созданию Организации, ориентированной на стоимость.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.openlocfilehash: 9c4b6e89d3593bebad491cb967d39be529de8989
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 57205533f8ae9b2da39ba7cc94e1071b0bde8c4f
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78225396"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093848"
 ---
 # <a name="build-a-cost-conscious-organization"></a>Создание Организации, ориентированной на стоимость
 
@@ -82,7 +82,7 @@ ms.locfileid: "78225396"
 
 - **Оптимизация:** Учитывая видимость Ккое для нескольких развертываний, группа находится в идеальном месте, чтобы предложить советы по оптимизации и упростить настройку ресурсов в группах.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Обработайте эти обязанности на каждом уровне бизнеса, чтобы помочь компании, не зависящей от затрат. Чтобы приступить к работе с этим руководством, ознакомьтесь с введением в организацию [готовности Организации](./index.md) , чтобы определить подходящую структуру команды.
 

@@ -42,12 +42,14 @@ items:
             href: strategy/financial-models.md
           - name: Общие сведения об учете в облаке
             href: strategy/cloud-accounting.md
-          - name: Выравнивание портфеля
-            href: strategy/balance-the-portfolio.md
       - name: Первый проект внедрения облачных технологий
         href: strategy/first-adoption-project.md
       - name: Дополнительные сведения
         items:
+          - name: Балансировка приоритетов конкурирующих задач
+            href: strategy/balance-competing-priorities.md
+          - name: Выравнивание портфеля
+            href: strategy/balance-the-portfolio.md
           - name: Международные рынки
             href: strategy/global-markets.md
       - name: 'Навыки, соответствующие стратегии'
@@ -256,7 +258,7 @@ items:
                     href: migrate/azure-best-practices/contoso-migration-refactor-linux-app-service-mysql.md
               - name: Узлы VMware
                 items:
-                  - name: Обзор
+                  - name: Рекомендации по повторному размещению VMWare
                     href: migrate/azure-best-practices/vmware-host.md
                   - name: Предварительные требования
                     items:
@@ -496,6 +498,8 @@ items:
                 items:
                   - name: 'Проверка предположений оценки перед миграцией: добавление уточнения R'
                     href: migrate/migration-considerations/assess/index.md
+                  - name: Классификация рабочих нагрузок
+                    href: migrate/migration-considerations/assess/classify.md
                   - name: Правильное упорядочение приоритетов
                     href: migrate/migration-considerations/assess/business-priorities.md
                   - name: Оценка готовности рабочей нагрузки
@@ -524,7 +528,7 @@ items:
                     href: migrate/migration-considerations/migrate/replicate-options.md
                   - name: Промежуточные рабочие нагрузки
                     href: migrate/migration-considerations/migrate/stage.md
-              - name: 'Процессы тестирования, оптимизации и повышение уровня'
+              - name: Процесс повышения уровня
                 items:
                   - name: Обзор
                     href: migrate/migration-considerations/optimize/index.md
@@ -1194,6 +1198,8 @@ items:
     items:
       - name: Стратегия развития Cloud Adoption Framework
         href: reference/index.md
+      - name: Новые возможности
+        href: reference/whats-new.md
       - name: Операционная модель
         items:
           - name: Обзор

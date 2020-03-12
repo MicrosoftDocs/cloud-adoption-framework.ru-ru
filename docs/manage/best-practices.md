@@ -1,18 +1,18 @@
 ---
 title: Введение в операционное управление
-description: Изучите операционное управление в облачной инфраструктуре внедрения.
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы понять, какие переходы необходимо внести, чтобы обеспечить оперативное управление в облаке.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: b426acdc4ae88a88acd295758be4e2d4a6b85dc0
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: d2e6434dc43ae7de4873384901ac73804c3d586d
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223268"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092077"
 ---
 # <a name="establish-operational-management-practices-in-the-cloud"></a>Создание методик оперативного управления в облаке
 

@@ -1,18 +1,18 @@
 ---
 title: Проверка предположений оценки перед миграцией
-description: Проверка предположений оценки перед миграцией
+description: Используйте Cloud Adoption Framework для Azure, чтобы узнать, как проверить предположительные оценки перед началом миграции в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e370ef47b27449a3a46965dc309403a09fb3829d
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 30cc06e28477c70987c7e8dc23300e3e0a184dd2
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222283"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094115"
 ---
 # <a name="validate-assessment-assumptions-before-migration"></a>Проверка предположений оценки перед миграцией
 
@@ -62,7 +62,7 @@ ms.locfileid: "78222283"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Получив общее понимание процесса оценки, вы теперь готовы приступить к следующему процессу [согласования бизнес-приоритетов](./business-priorities.md).
+Получив общее понимание процесса оценки, вы будете готовы приступить к процессу путем [классификации рабочих нагрузок](./classify.md).
 
 > [!div class="nextstepaction"]
-> [Согласование бизнес-приоритетов](./business-priorities.md)
+> [Классификация рабочих нагрузок](./classify.md)

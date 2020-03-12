@@ -1,18 +1,18 @@
 ---
 title: Примеры результатов производительности
-description: Примеры результатов производительности
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы оценить результаты производительности в контексте преобразования облака.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 8810b4ab2ce78dd2add8a424518717392305346a
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 9a97a4d1c633a7da2153da946655dd41a8376648
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222090"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092904"
 ---
 # <a name="examples-of-performance-outcomes"></a>Примеры результатов производительности
 
@@ -42,7 +42,7 @@ Azure Site Recovery упрощает тестирование аварийног
 
 - **Пример:** Компания с водои газовым учреждением использовала технологии Azure для реализации полного восстановления сайта. Компания решила не полностью работать с облаком для повседневных операций, но функции непрерывности бизнеса и аварийного восстановления в облаке по-прежнему защищают свой центр обработки данных. В качестве ураган, образованного сотнями миль, их партнеры по реализации начали восстанавливать сайт в Azure. Прежде чем все будет затронуто, все критически важные ресурсы были запущены в Azure, предотвращая простои.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [использовать шаблон результата бизнеса](./business-outcome-template.md).
 

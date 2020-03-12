@@ -1,18 +1,18 @@
 ---
 title: Проверка параметров вычислений
-description: Проверьте параметры вычислений для рабочих нагрузок Azure.
+description: Узнайте, как определить требования к вычислению для размещения рабочих нагрузок, с помощью инфраструктуры внедрения в облако для Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/15/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: d4b1d5728a8cba06900bfe67e288f15b042b8106
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: b2712867c8b5dbdf79e5f235ebd45fe02ae4bf20
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799189"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092557"
 ---
 # <a name="review-your-compute-options"></a>Проверка параметров вычислений
 

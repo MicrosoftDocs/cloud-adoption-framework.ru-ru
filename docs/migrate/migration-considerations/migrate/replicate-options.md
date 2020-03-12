@@ -1,18 +1,18 @@
 ---
 title: Варианты репликации
-description: Процесс миграции в облако, предназначенный для выполнения задач миграции рабочих нагрузок в облако.
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы понять процесс репликации и причины, по которым требуется репликация для миграции в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: bf798a816d799ba856d8ea20b999de1240ac5284
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 790ef71ed6a3880b23a851adc0054666e16c0dde
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802146"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092840"
 ---
 # <a name="replication-options"></a>Варианты репликации
 
@@ -41,7 +41,7 @@ ms.locfileid: "76802146"
 - Выполните тестовую отработку отказа, чтобы убедиться, что все работает.
 - Выполните однократную отработку отказа в Azure.
 
-## <a name="azure-database-migration-service"></a>Служба миграции баз данных Azure
+## <a name="azure-database-migration-service"></a>Azure Database Migration Service
 
 Эта служба упрощает миграцию в облако, так как используется только одна комплексная служба, а не множество разных инструментов. [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) — это простое комплексное решение для перемещения локальных баз данных SQL Server в облако. Это полностью управляемая служба, которая выполняет непрерывную миграцию из множества источников баз данных на платформы данных Azure с минимальным временем простоя. Это решение объединяет в себе некоторые функциональные возможности существующих инструментов и служб, предоставляя клиентам комплексное решение с высоким уровнем доступности.
 

@@ -1,6 +1,6 @@
 ---
 title: Облачные возможности стратегии
-description: Описание возможностей облачных стратегий
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы научиться сопоставлять технические действия с результатами бизнеса.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 17ef8a6b84e16b2baf7a69918051c7f6a8257396
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 43973a5199f0c5f15e31381cddba56efab1ecb14
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800854"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093817"
 ---
 # <a name="cloud-strategy-capabilities"></a>Облачные возможности стратегии
 
@@ -25,10 +25,10 @@ ms.locfileid: "76800854"
 
 Эта возможность обычно предоставляется следующими типами ролей. При определении группы облачных стратегий она должна включать многие из следующих ролей:
 
-- Финансы
-- Бизнес
+- Finance.
+- Специализированное ПО
 - Отдел кадров
-- Operations
+- Операции
 - Корпоративная архитектура
 - ИТ – инфраструктура
 - Группы приложений

@@ -1,18 +1,18 @@
 ---
 title: Первоначальная проверка соответствия организации
-description: Первоначальная проверка соответствия организации
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать, как завершить начальное выравнивание Организации и подготовить свои команды к внедрению в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 42fd2e1668c0eb9411cc53679e4a81c5a9ca7a43
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 2df963beba9087f8f3bfc2faf850eb384cd507a3
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76800361"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093768"
 ---
 # <a name="initial-organization-alignment"></a>Первоначальная проверка соответствия организации
 

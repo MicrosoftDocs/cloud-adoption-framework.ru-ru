@@ -1,18 +1,18 @@
 ---
 title: Оценка готовности рабочей нагрузки
-description: Процесс миграции в облако, предназначенный для выполнения задач миграции рабочих нагрузок в облако.
+description: Узнайте, что нужно для того, чтобы оценить готовность рабочей нагрузки к переходу в облако. Вы узнаете, как проверить все активы и связанные с ними зависимости.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: c695d83c4e04b3cd837ff5916e47c128f17a1d34
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 3065dfa39af189c5275f966e758fe49004f4de00
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76802554"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094775"
 ---
 # <a name="evaluate-workload-readiness"></a>Оценка готовности рабочей нагрузки
 

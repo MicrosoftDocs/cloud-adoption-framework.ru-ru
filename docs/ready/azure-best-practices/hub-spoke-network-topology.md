@@ -1,6 +1,6 @@
 ---
 title: Звездообразная топология сети
-description: Сведения о топологиях центральных и периферийных сетей.
+description: Узнайте о топологиях центральных и периферийных сетей для более эффективного управления общими требованиями к взаимодействию или безопасности.
 author: tracsman
 ms.author: jonor
 ms.date: 05/10/2019
@@ -10,12 +10,12 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: a8ff3977f7a5935dffb0e3bdc013e8730b4c1ff2
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: a2827273aa3fd28478c2615610f74f32b155a299
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78891926"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092584"
 ---
 <!-- cSpell:ignore tracsman jonor rossort NVAs -->
 

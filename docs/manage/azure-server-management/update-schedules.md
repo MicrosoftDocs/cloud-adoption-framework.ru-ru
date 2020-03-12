@@ -1,18 +1,18 @@
 ---
 title: Создание расписаний обновления
-description: Используйте портал Azure или новые модули командлетов PowerShell для управления расписаниями обновлений.
+description: Используйте платформу внедрения облаков для Azure, чтобы узнать, как управлять расписаниями обновлений с помощью портал Azure или новых модулей командлетов PowerShell.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 2f049fce8c109c3028fa84c5822c0eb1053023bb
-ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
+ms.openlocfilehash: fd812b40ee6d55e543f6b8f61a8af32e34c2e2e2
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77173358"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094511"
 ---
 # <a name="create-update-schedules"></a>Создание расписаний обновления
 
@@ -106,7 +106,7 @@ ms.locfileid: "77173358"
         -IncludedUpdateClassification Security,Critical
 ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 См. Примеры реализации [общих политик в Azure](./common-policies.md) , которые могут помочь в управлении серверами.
 

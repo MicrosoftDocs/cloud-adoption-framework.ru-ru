@@ -1,6 +1,6 @@
 ---
 title: Возможности управления облаком
-description: Описание формирования возможностей управления облаком
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы узнать, как возможности управления в облаке обеспечивают правильную оценку и управление отказоустойчивостью и рисками.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 824ce55dd6dc78e0d4200efa9c2d1418b343ccb7
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 7569d0718f7b25625cc40887af81edda53ff0b1e
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806906"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093900"
 ---
 # <a name="cloud-governance-capabilities"></a>Возможности управления облаком
 
@@ -25,10 +25,10 @@ ms.locfileid: "76806906"
 
 - Управление ИТ
 - Корпоративная архитектура
-- Безопасность
+- безопасность
 - Операции ИТ
 - ИТ – инфраструктура
-- Работа в сети
+- Сеть
 - Удостоверение
 - Виртуализация
 - Непрерывность бизнес-процессов и аварийное восстановление

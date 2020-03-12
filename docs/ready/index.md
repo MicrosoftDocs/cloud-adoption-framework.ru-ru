@@ -1,6 +1,6 @@
 ---
 title: Подготовка к внедрению в облако
-description: Узнайте, как подготовить среду к внедрению в облако
+description: Узнайте, как создать зону для размещения рабочих нагрузок, которые вы планируете создавать в облаке или переносить в него.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 layout: LandingPage
-ms.openlocfilehash: cd4b29823636cfaa758d0568d3298bc146a00eb8
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 11ab187c24bcd288834cf3c4823e508096e69492
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892486"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092519"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -48,7 +48,7 @@ ms.locfileid: "78892486"
         </a>
     </li>
     <li style="display: flex; flex-direction: column;">
-        <a href="./landing-zone/migrate-landing-zone.md">
+        <a href="./landing-zone/first-landing-zone.md">
             <div class="cardSize">
                 <div class="cardPadding" style="padding-bottom:10px;">
                     <div class="card" style="padding-bottom:10px;">
@@ -59,7 +59,7 @@ ms.locfileid: "78892486"
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Первая зона размещения</h3>
-Изучите схему зоны размещения для миграции в соответствии с Cloud Adoption Framework. Используйте эту схему, чтобы создать первую зону размещения с целью подготовки к миграции для экспериментов и обучения.
+Выберите наиболее подходящий вариант целевой зоны, чтобы определить начальную точку на основе кода для вашей среды.
                         </div>
                     </div>
                 </div>
@@ -77,8 +77,8 @@ ms.locfileid: "78892486"
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>Расширение схемы</h3>
-Используйте рекомендации по работе с зоной размещения, чтобы определить и внести необходимые изменения в шаблон схемы.
+                            <h3>Расширение целевой зоны</h3>
+Выполните требования к платформе для плана внедрения в облако, развернув первую целевую зону.
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ ms.locfileid: "78892486"
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Рекомендации</h3>
-Измените зону размещения в соответствии с рекомендациями, чтобы создать правильную конфигурацию для текущего и будущего использования.
+Измените зону размещения в соответствии с рекомендациями, чтобы создать правильную конфигурацию для существующих и будущих целевых зон.
                         </div>
                     </div>
                 </div>

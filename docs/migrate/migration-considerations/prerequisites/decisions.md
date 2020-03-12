@@ -1,18 +1,18 @@
 ---
 title: Решения, влияющие на перенос
-description: Важные решения, которые необходимо принять в отношении процесса миграции.
+description: Используйте платформу внедрения облаков для Azure, чтобы принять соответствующие решения и выбрать действия выполнения, которые будут поддерживать успешную миграцию.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3281f7a14c5af58e435be9e3a412fc5285da1b47
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 07856662f95a588f252c78e8a3dd67eba6e8163c
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78225468"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094080"
 ---
 <!-- cSpell:ignore migrateable -->
 
@@ -83,7 +83,7 @@ ms.locfileid: "78225468"
 - Масштаб трудозатрат.
 - Время трудозатрат.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После того как процесс будет понятен группе, пора ознакомиться с техническими требованиями. Контрольный список [планирования среды переноса](./planning-checklist.md) помогает убедиться, что техническая база готова к переносу.
 

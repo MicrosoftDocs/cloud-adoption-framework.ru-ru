@@ -1,6 +1,6 @@
 ---
 title: Создание стратегии внедрения в облако
-description: Используйте облако для оптимизации бизнес-стратегии
+description: Используйте Cloud Adoption Framework для Azure, чтобы узнать, как облако может помочь оптимизировать бизнес-стратегию.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 layout: LandingPage
-ms.openlocfilehash: 5ecc4c99604b6991337ae4f4022a2a8ee0464b0f
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 5494b9485f67f51c79fac84ca2822bf041ea873f
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76798338"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092345"
 ---
 <!-- markdownlint-disable MD026 -->
 

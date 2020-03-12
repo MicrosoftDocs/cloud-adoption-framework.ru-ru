@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 7e64edb1f009d2fe7a522a9716c3b8ba2d52ef12
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 97d4b52b50f943dfd0e146e84d4e5fc5a1d97711
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341607"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094648"
 ---
 # <a name="phase-1-prerequisite-planning-for-azure-server-management-services"></a>Этап 1. планирование необходимых компонентов для служб управления сервером Azure
 
@@ -97,7 +97,7 @@ ms.locfileid: "78341607"
 > [!NOTE]
 > При создании учетной записи службы автоматизации с помощью портал Azure портал по умолчанию пытается создать учетные записи запуска от имени как для Azure Resource Manager, так и для классической модели развертывания. Если у вас нет классических виртуальных машин в вашей среде и вы не являетесь соадминистратором подписки, на портале создается учетная запись запуска от имени для диспетчер ресурсов, но при развертывании классической учетной записи запуска от имени выдается ошибка. Если вы не планируете поддерживать классические ресурсы, эту ошибку можно пропустить.
 >
-> Вы также можете создавать учетные записи запуска от имени с помощью [PowerShell](https://docs.microsoft.com/azure/automation/manage-runas-account#create-run-as-account-using-powershell).
+> Вы также можете создавать учетные записи запуска от имени с помощью [PowerShell](https://docs.microsoft.com/azure/automation/manage-runas-account#creating-a-run-as-account-using-powershell).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

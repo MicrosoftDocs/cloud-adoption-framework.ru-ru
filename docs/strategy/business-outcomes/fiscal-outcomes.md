@@ -1,6 +1,6 @@
 ---
 title: Примеры финансовых результатов
-description: Примеры финансовых результатов
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы понять финансовые результаты в контексте преобразования в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 7ee0451bd356cfc3fb4c7648f0bbf6b10ab0145f
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: 4f9ec4df29469f17f6c057f8d3c0308c66cf1ba5
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79023840"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092887"
 ---
 # <a name="examples-of-fiscal-outcomes"></a>Примеры финансовых результатов
 
@@ -94,7 +94,7 @@ ms.locfileid: "79023840"
 
 - **Пример:** В настоящее время центр обработки данных компании начисляется на _x долл. США_ в год в течение следующих трех лет. Для обновления оборудования в следующем году требуется дополнительный _y-USD_ . Можно преобразовать капитальные расходы в модель рабочих расходов с четностью в _z долл. США_ в месяц, что позволяет повысить эффективность управления и учета эксплуатационных расходов на технологии.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Дополнительные сведения о [результатах гибкости](./agility-outcomes.md).
 

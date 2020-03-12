@@ -1,6 +1,6 @@
 ---
 title: Сети периметра
-description: Узнайте, как сети периметра (также называемые сети периметра) используют функции и службы Azure.
+description: Узнайте, как эффективно настроить Azure для вашей организации, с помощью инфраструктуры внедрения в облако для Azure.
 author: tracsman
 ms.author: jonor
 ms.date: 05/10/2019
@@ -10,12 +10,12 @@ ms.subservice: ready
 manager: rossort
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: c2af34fce6f86ed4aafe432d37e8def9a82d4705
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: cbf77bad65753d219e3a0a53f300aee3690b001d
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892673"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093233"
 ---
 <!-- cSpell:ignore tracsman jonor rossort NVAs WAFs -->
 

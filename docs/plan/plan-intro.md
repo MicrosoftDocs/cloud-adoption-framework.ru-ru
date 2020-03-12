@@ -1,18 +1,18 @@
 ---
 title: Планирование внедрения в облако
-description: Планирование внедрения в облако
+description: Используйте облачную платформу внедрения для Azure, чтобы узнать, как план внедрения в облако помогает компаниям сбалансировать ИТ-портфель и управлять переходами с течением времени.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 36d87caae344414e7bb311fb032d28f58bc5ea6c
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: d02dfda3b44155b7208e9caf00e979553fe97ff3
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222164"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79093555"
 ---
 # <a name="plan-for-cloud-adoption"></a>Планирование внедрения в облако
 
@@ -41,7 +41,7 @@ ms.locfileid: "78222164"
 5. **Определение итераций и выпусков.** *итерации* — это блоки времени, выделенные для выполнения работы. *Выпуски* — это определение работы, которая должна быть выполнена перед запуском изменений в рабочих процессах.
 6. **Оценка временных шкал:** Создайте приблизительные временные шкалы для целей планирования выпуска на основе первоначальных оценок.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Перед созданием плана внедрения в облако убедитесь, что выполнены все [необходимые условия](./prerequisites.md) .
 

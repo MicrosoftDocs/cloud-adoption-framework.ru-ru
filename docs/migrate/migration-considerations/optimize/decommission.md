@@ -1,18 +1,18 @@
 ---
 title: Списание ресурсов, использование которых прекращено
-description: Списание ресурсов, использование которых прекращено
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать, как правильно списать ресурсы с минимальными перерывами в бизнесе.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 933a9c42a55e58e5a58f9ef1c308b006e30e1abf
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: a62ef520f948d8bea415e4a65749944b91bb16c8
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76801942"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092754"
 ---
 # <a name="decommission-retired-assets"></a>Списание ресурсов, использование которых прекращено
 

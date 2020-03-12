@@ -7,13 +7,15 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2d7ae4989251c0c3022c1044280d433e4dc920ad
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 854e22b70250496704cade4d7465c217705c928d
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78898009"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094828"
 ---
+<!-- cSpell:ignore HDFS databox VHDX -->
+
 # <a name="data-requirements-exceed-network-capacity-during-a-migration-effort"></a>Требования к данным превышают емкость сети во время миграции
 
 При миграции в облако ресурсы реплицируются и синхронизируются по сети между существующим центром обработки данных и облаком. И нередко требования к объему данных имеющихся рабочих нагрузок превышают пропускную способность сети. В этом случае процесс миграции может значительно замедлиться, а в некоторых случаях — полностью остановиться. Следующие рекомендации помогут расширить область применения [руководства по миграции Azure](../azure-migration-guide/index.md), чтобы получить решение, позволяющее обойти ограничения сети.
@@ -28,7 +30,7 @@ ms.locfileid: "78898009"
 
 **Автономная перенос независимых хранилищ данных:** На рисунке ниже приведены примеры передачи данных в сети и в автономном режиме с помощью Azure Data Box. Эти подходы можно использовать для доставки больших объемов данных в облако перед переносом рабочей нагрузки. При автономном переносе данных исходные данные копируются на устройство Azure Data Box, которое затем физически отправляется в корпорацию Майкрософт для переноса в учетную запись хранения Azure в виде файла или большого двоичного объекта. Этот процесс можно использовать для доставки данных, не привязанных непосредственно к определенной рабочей нагрузке, до выполнения других действий по переносу. Это сокращает объем данных, которые должны быть переданы по сети, и позволяет выполнить миграцию с учетом ограничений сети.
 
-Данный подход можно использовать для перемещения данных HDFS, резервных копий, архивов, файловых серверов, приложений и т. д. В имеющемся техническом руководстве объясняется, как использовать этот подход для перемещения данных из [хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) или [службы копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) в Data Box.
+Этот подход можно использовать для перемещения данных из HDFS, резервных копий, архивов, файловых серверов и приложений. В имеющемся техническом руководстве объясняется, как использовать этот подход для перемещения данных из [хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) или [службы копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) в Data Box.
 
 Существуют также [сторонние решения партнеров](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box), которые используют Azure Data Box для миграции по методу "Seed and Feed", при котором большой объем данных перемещается в автономном режиме, но затем синхронизируется по сети, используя меньшую пропускную способность.
 
