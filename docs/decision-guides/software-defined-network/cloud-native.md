@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 250f78bb0287e30615aee4b2cfb1234823197f56
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: e0903b816dbbdf6d227870d8bae99fd585d1734e
+ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222664"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79140326"
 ---
 # <a name="software-defined-networking-cloud-native"></a>Программно-определяемая сеть: машинный код в облаке
 
@@ -36,7 +36,7 @@ ms.locfileid: "78222664"
 - Имеющиеся рабочие нагрузки, предназначенные для работы в локальном центре обработки данных, могут нуждаться в обширной модификации, чтобы воспользоваться преимуществами облачных функций, например службы хранения или проверки подлинности.
 - Управление собственными сетями в облаке осуществляется исключительно с помощью средств управления облачными платформами, и поэтому может привести к расхождениям управления и политики от существующих ИТ-стандартов по мере того, как будет продолжено время.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Дополнительные сведения о виртуальных сетях, машинных в облаке, в Azure см. в следующих статьях:
 
