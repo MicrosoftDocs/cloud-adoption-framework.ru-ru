@@ -1,6 +1,6 @@
 ---
 title: Оценка каждой рабочей нагрузки и уточнение планов
-description: Этот раздел руководства по миграции Azure поможет вам оценить свою среду, чтобы определить переносимые ресурсы и соответствующие методы миграции.
+description: Cloud Adoption Framework для Azure поможет оценить готовность вашей среды к миграции и определить рекомендуемые методы.
 author: matticusau
 ms.author: mlavery
 ms.date: 02/25/2020
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 40e62a05101e14fcd7507011d521521e58920ffc
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 47cfc7bdbf823ad8a785705e361ba8fa1a44894f
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78225548"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094328"
 ---
 # <a name="assess-each-workload-and-refine-plans"></a>Оценка каждой рабочей нагрузки и уточнение планов
 

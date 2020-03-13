@@ -1,6 +1,6 @@
 ---
-title: Специализация платформы для управления облаком в Azure
-description: Улучшение операций управления облаком, связанных с платформой.
+title: Специализированные платформы для облачного управления
+description: Cloud Adoption Framework для Azure поможет улучшить ориентированные на разные платформы операции облачного управления, в том числе в области проектирования систем и автоматического исправления.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 91d800c3f3575cc16d239106805fdfaef8a29e14
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 12643d3e26620760e9a13e29936617bfb246fe29
+ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223514"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "78341748"
 ---
 # <a name="platform-specialization-for-cloud-management"></a>Специализация платформы для управления облаком
 

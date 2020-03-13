@@ -1,6 +1,6 @@
 ---
 title: Предварительные требования для миграции в Azure
-description: Предварительные требования для миграции в Azure
+description: Cloud Adoption Framework для Azure поможет узнать, как подготовиться к миграции в Azure и определить предварительные требования для успешного проекта миграции.
 author: matticusau
 ms.author: mlavery
 ms.date: 04/04/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9baf2c9fdd307125e80fa77d8b2be54bec15b931
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 777b68bcd7faa613681f2d9ebbdf6cffe4accc3f
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76806991"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79094790"
 ---
 ::: zone target="chromeless"
 
@@ -30,7 +30,7 @@ ms.locfileid: "76806991"
 
 Материалы, приведенные в этом разделе, помогут подготовить текущую среду к миграции в Azure.
 
-# <a name="overviewtaboverview"></a>[Обзор](#tab/Overview)
+# <a name="overview"></a>[Обзор](#tab/Overview)
 
 Причины миграции в Azure включают в себя устранение рисков, связанных с устаревшим оборудованием, сокращение капитальных затрат, освобождение места в центре обработки данных и быстрая реализация рентабельности инвестиций.
 
@@ -58,7 +58,7 @@ ms.locfileid: "76806991"
 > - [Windows Server 2008 и Windows Server 2008 R2](https://www.microsoft.com/cloud-platform/windows-server-2008).
 > - [SQL Server 2008 и SQL Server 2008 R2](https://www.microsoft.com/sql-server/sql-server-2008).
 
-# <a name="understand-migration-approachestabapproach"></a>[Описание подходов при миграции](#tab/Approach)
+# <a name="understand-migration-approaches"></a>[Описание подходов при миграции](#tab/Approach)
 
 Выбор стратегии и инструментов для переноса приложения в Azure во многом зависит от бизнес-факторов, требуемых технологий и временных ограничений. Он потребует глубокого понимания фактических рабочих нагрузок и ресурсов (инфраструктуры, приложений и данных), которые будут перенесены.
 
@@ -73,7 +73,7 @@ ms.locfileid: "76806991"
 - [Руководство по принятию решений о миграции Cloud Adoption Framework](../../decision-guides/migrate-decision-guide/index.md)
 - [Пять принципов рационализации](../../digital-estate/5-rs-of-rationalization.md)
 
-# <a name="planning-checklisttabchecklist"></a>[Контрольный список планирования](#tab/Checklist)
+# <a name="planning-checklist"></a>[Контрольный список планирования](#tab/Checklist)
 
 Перед началом миграции необходимо выполнить некоторые предварительные требования. Точные сведения об этих действиях зависят от переносимой среды. Обычно используется следующий контрольный список.
 

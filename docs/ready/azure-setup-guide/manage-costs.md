@@ -1,6 +1,6 @@
 ---
-title: Управление затратами и выставление счетов для ресурсов Azure
-description: Интерпретируйте счета и узнайте, как настроить бюджеты и платежи для ресурсов Azure.
+title: Управление затратами и выставлением счетов за использование ресурсов Azure
+description: Cloud Adoption Framework для Azure поможет интерпретировать счета и узнать, как настроить бюджеты и платежи за использование ресурсов Azure.
 author: dchimes
 ms.author: kfollis
 ms.date: 04/09/2019
@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 4f0f0d900f75338a33b1873b8d0eac6d91835256
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: 0f91ed2c09b2511304a59bc8768507f737ec6c76
+ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76799528"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "79024029"
 ---
+<!-- cSpell:ignore dchimes -->
+
 # <a name="manage-costs-and-billing-for-your-azure-resources"></a>Управление затратами и выставление счетов для ресурсов Azure
 
 Управление затратами — это процесс эффективного планирования и контроля затрат, связанных с вашим бизнесом. Обычно задачи по управлению затратами выполняют финансовый отдел, руководство или разработчики приложений. Служба "Управление затратами Azure" помогает организациям планировать затраты. Она также позволяет эффективно анализировать затраты и принимать меры для оптимизации расходов на облако.

@@ -1,6 +1,6 @@
 ---
 title: Инвентаризация и визуальный контроль в Azure
-description: Из этой статьи вы узнаете, как настроить визуальный контроль, мониторинг, создание отчетов и оповещения для среды управления Azure.
+description: Изучите различные средства, которые обеспечивают как инвентаризацию, так и визуальный контроль состояния выполнения инвентаризации для сбора операционных данных.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 42c7ea0b9647015f8ac049710905c8349d073093
-ms.sourcegitcommit: 2362fb3154a91aa421224ffdb2cc632d982b129b
+ms.openlocfilehash: da3675484c04c9c02384fcbbc0337accff2aaffe
+ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "76808215"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "79092139"
 ---
 # <a name="inventory-and-visibility-in-azure"></a>Инвентаризация и визуальный контроль в Azure
 
@@ -44,7 +44,7 @@ _Инвентаризация и визуальный контроль_ — э�
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="azure-service-healthtabazureservicehealth"></a>[Служба "Работоспособность служб Azure"](#tab/AzureServiceHealth)
+## <a name="azure-service-health"></a>[Служба "Работоспособность служб Azure"](#tab/AzureServiceHealth)
 
 ::: zone-end
 
@@ -91,7 +91,7 @@ _Инвентаризация и визуальный контроль_ — э�
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="log-analyticstablog-analytics"></a>[Служба Log Analytics](#tab/Log-Analytics)
+## <a name="log-analytics"></a>[Служба Log Analytics](#tab/Log-Analytics)
 
 ::: zone-end
 
@@ -120,7 +120,7 @@ _Инвентаризация и визуальный контроль_ — э�
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="azure-monitortabazure-monitor"></a>[Azure Monitor](#tab/Azure-Monitor)
+## <a name="azure-monitor"></a>[Azure Monitor](#tab/Azure-Monitor)
 
 ::: zone-end
 
@@ -166,7 +166,7 @@ Azure Monitor предоставляет единый унифицированн
 ::: zone-end
 ::: zone target="chromeless"
 
-## <a name="onboard-solutionstabconfigure-solutions"></a>[Подключение решений](#tab/Configure-solutions)
+## <a name="onboard-solutions"></a>[Подключение решений](#tab/Configure-solutions)
 
 ::: zone-end
 
