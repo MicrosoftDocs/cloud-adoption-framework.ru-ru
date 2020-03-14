@@ -1,6 +1,6 @@
 ---
 title: Шаблон Azure для предприятий
-description: Описание корпоративного шаблона, который помогает обеспечить безопасную и управляемую среду.
+description: Azure Enterprise формирования шаблонов теперь является платформой внедрения Microsoft Cloud для Azure. Узнайте, как решить потребность в управлении и сбалансировать ее с необходимой гибкостью.
 author: rdendtler
 ms.author: rodend
 ms.date: 09/22/2018
@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ROBOTS: NOINDEX
-ms.openlocfilehash: 8291b48d2955d623b643c944f4307613bcf22f47
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: c545f147ba374fe1150573b060c600269eb628b1
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79023944"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311614"
 ---
 <!-- cSpell:ignore rodend subscope ITSM Hashi -->
 

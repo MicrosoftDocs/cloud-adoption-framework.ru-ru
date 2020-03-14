@@ -1,6 +1,6 @@
 ---
-title: Рефакторинг развертывания Team Foundation Server и его перенос в Azure DevOps Services в Azure
-description: Узнайте, как Contoso выполняет рефакторинг локального развертывания TFS, перемещая его в Azure DevOps Services в Azure.
+title: Рефакторинг Team Foundation Server развертывание в Azure DevOps Services
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать, как выполнить рефакторинг локального развертывания TFS, переменив его на Azure DevOps Services в Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 003a5674116f7964971710c5c8c67fc51fa03493
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 36a12a676a9bb48584c9914f93642b1ccbcad406
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222879"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311631"
 ---
 <!-- cSpell:ignore contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME azuredevopsmigration validateonly -->
 

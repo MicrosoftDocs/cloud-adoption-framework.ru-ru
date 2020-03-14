@@ -1,18 +1,18 @@
 ---
-title: Рекомендации по оценке затрат на рабочие нагрузки, перенесенные в Azure, и определению их размеров
-description: Получите рекомендации по оценке затрат на рабочие нагрузки, перенесенные в Azure, и определению их размеров.
+title: Издержки и изменение размера рабочих нагрузок, перенесенных в Azure
+description: Используйте платформу внедрения облаков для Azure, чтобы получить рекомендации по изучению затрат и изменению размера рабочих нагрузок, перенесенных в Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 783652f1f469333c97ebd50673a3d42e1a9741d7
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: 89ac6886756c304d8acae5a4180a9715d336a92e
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892588"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311920"
 ---
 # <a name="best-practices-for-costing-and-sizing-workloads-migrated-to-azure"></a>Рекомендации по оценке затрат на рабочие нагрузки, перенесенные в Azure, и определению их размеров
 
@@ -342,7 +342,7 @@ Azure предоставляет REST API с доступом к данным д
 - Узнайте о службе [Функциях Azure](https://azure.microsoft.com/services/functions).
 - Узнайте о [пакетной службе Azure](https://azure.microsoft.com/services/batch).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Просмотрите другие рекомендации:
 

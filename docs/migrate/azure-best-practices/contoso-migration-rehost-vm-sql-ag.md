@@ -1,6 +1,6 @@
 ---
-title: Повторное размещение приложения путем его переноса на виртуальные машины Azure и SQL Server группы доступности Always On
-description: Узнайте, как компания Contoso повторно размещает локальное приложение, перемещая его на виртуальные машины Azure и в группы доступности SQL Server AlwaysOn
+title: Повторное размещение в Azure и SQL Server группы доступности Always On
+description: Используйте платформу внедрения облаков для Azure, чтобы узнать, как повторно разместить локальное приложение, переполнив его на виртуальные машины Azure и SQL Server группы доступности Always On.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: b52b1fad33a9868682ddcd7cf905c7f8ab9b3612
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: bc530c3f97b26a519198ef7b9ddc1fce967fbed6
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222964"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311546"
 ---
 # <a name="rehost-an-on-premises-app-with-azure-virtual-machines-and-sql-server-always-on-availability-groups"></a>Повторное размещение локального приложения с помощью виртуальных машин Azure и SQL Server группы доступности Always On
 

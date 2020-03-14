@@ -1,18 +1,18 @@
 ---
-title: Как с помощью ретроспектив создать установку на повышение профессиональной компетенции?
-description: Процесс миграции в облако, предназначенный для выполнения задач миграции рабочих нагрузок в облако.
+title: Создание подхода к росту с помощью ретроспектив
+description: Узнайте, как ретроспективное обучение поможет создать подход к росту и расширить возможности групп для обеспечения устойчивого роста.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 1bf3c79b95c748880e5d560003aa65acb1949c48
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: d56330f1a4dcfd2057a945d53f7a0f7365b0b600
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78891909"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311784"
 ---
 <!-- markdownlint-disable MD026 -->
 

@@ -1,18 +1,18 @@
 ---
-title: Повторное размещение приложения службы поддержки для Linux в Azure и Базе данных Azure для MySQL
-description: Узнайте, как компания Contoso повторно размещает приложение Linux, перенеся его на виртуальные машины Azure и в Базу данных Azure для MySQL.
+title: Повторное размещение приложения службы поддержки Linux в Azure и базе данных Azure для MySQL
+description: Узнайте, как повторно разместить локальное приложение Linux, перенесите его на виртуальные машины Azure и базу данных Azure для MySQL с помощью инфраструктуры внедрения в облако для Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a5043e3d42b843cfb714823fcb476e7bfdc0a2fd
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 89ba67d795f03a424a22fbf834f07f9d45241449
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223005"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311478"
 ---
 <!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL contosohost contosodc contosovmsacc contosoosticket vcenter cswiz osticket NSGs systemctl -->
 

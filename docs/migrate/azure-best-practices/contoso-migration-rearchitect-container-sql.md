@@ -1,6 +1,6 @@
 ---
 title: Перепроектирование приложения и перенос в контейнер Azure и Базу данных SQL Azure
-description: Узнайте, как перепроектировать приложение Contoso для переноса в контейнеры Azure для Windows и Базу данных SQL Azure.
+description: Узнайте, как выполнить переопределение архитектуры локального приложения в контейнер Azure и базу данных SQL Azure с помощью инфраструктуры внедрения в облако для Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: d41c63d9876a5ead14acee9b39542ab256144920
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 37bf2a4d96cc1f60b351f40f6a2c51c2ea1dcf95
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223115"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311648"
 ---
 <!-- cSpell:ignore reqs contosohost contosodc contosoacreus contososmarthotel smarthotel vcenter WEBVM SQLVM -->
 

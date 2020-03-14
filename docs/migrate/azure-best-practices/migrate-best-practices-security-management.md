@@ -1,18 +1,18 @@
 ---
-title: Рекомендации по обеспечению безопасности рабочих нагрузок, перенесенных в Azure, и управлению ими
-description: Выполнив миграцию в Azure, ознакомьтесь с рекомендациями по управлению перенесенными рабочими нагрузками и обеспечению их безопасности.
+title: Защита рабочих нагрузок, перенесенных в Azure, и управление ими
+description: Используйте платформу внедрения облаков для Azure, чтобы ознакомиться с рекомендациями по эксплуатации, управлению и обеспечению безопасности перенесенных рабочих нагрузок.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: cef5746f8ab3368150ddcc328a8d929853dfb253
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: d61816b0140c36aa405025358a43068201bcad03
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222679"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311937"
 ---
 # <a name="best-practices-for-securing-and-managing-workloads-migrated-to-azure"></a>Рекомендации по обеспечению безопасности рабочих нагрузок, перенесенных в Azure, и управлению ими
 
@@ -548,7 +548,7 @@ Site Recovery реплицирует виртуальные машины из о
 - [Сведения](https://docs.microsoft.com/azure/automation/automation-change-tracking) о решении "Отслеживание изменений".
 - [Сведения](https://docs.microsoft.com/azure/automation/automation-intro) о возможностях службы автоматизации Azure.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Просмотрите другие рекомендации:
 

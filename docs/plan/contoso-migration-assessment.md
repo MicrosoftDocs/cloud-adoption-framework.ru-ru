@@ -1,6 +1,6 @@
 ---
-title: Оценка локальных рабочих нагрузок для переноса в Azure
-description: Узнайте, как компания Contoso проводит оценку локальных компьютеров перед миграцией в Azure, используя такие средства, как Миграция Azure и Помощник по миграции данных.
+title: Оценка локальных рабочих нагрузок для миграции в Azure
+description: Изучите пример, как оценить локальное приложение для миграции в Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 78d33031879a49bd70a6dcfb01be604ca4371e49
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 6fc2992f98c16171173a3313fe19411c05883fa2
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78228422"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312107"
 ---
 <!-- cSpell:ignore WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL CONTOSODC contosohost vcenter prereqs ctypes ctypeslib smarthotelapp -->
 

@@ -1,6 +1,6 @@
 ---
-title: Повторное размещение локального приложения с миграцией на виртуальные машины Azure с помощью Управляемого экземпляра Базы данных SQL Azure
-description: В этой статье рассказывается о том, как компания Contoso перемещает локальное приложение в виртуальные машины Azure используя Управляемый экземпляр Базы данных SQL Azure.
+title: Повторное размещение в Azure и Управляемый экземпляр Базы данных SQL Azure
+description: Узнайте, как повторно разместить локальное приложение на виртуальных машинах Azure с помощью Управляемый экземпляр Базы данных SQL Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/11/2018
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 7ec95c75d81b93852a59ef137a02cc35d83a1cd3
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 0308308ab098f7cc7fe7c05094549b01f36c2d61
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223087"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311971"
 ---
 # <a name="rehost-an-on-premises-app-on-an-azure-vm-and-sql-database-managed-instance"></a>Повторное размещение локального приложения на виртуальной машине Azure и в Управляемом экземпляре Базы данных SQL
 

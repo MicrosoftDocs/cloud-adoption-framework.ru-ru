@@ -1,6 +1,6 @@
 ---
 title: Повторное размещение локального приложения Linux на виртуальных машинах Azure
-description: Узнайте, как компания Contoso повторно размещает локальное приложение Linux путем переноса на виртуальные машины Azure.
+description: Узнайте, как повторно разместить локальное приложение Linux, перенесите его на виртуальные машины Azure с помощью инфраструктуры внедрения в облако для Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 12d69eee9fa52d6c7aef4b7b71b654808928ace4
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: b44a5d9c8e0447488abd500afeaa70fb87a819b1
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223000"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79311954"
 ---
 <!-- cSpell:ignore SQLVM OSTICKETWEB OSTICKETMYSQL contosohost contosodc vcenter WEBVM systemctl NSGs -->
 

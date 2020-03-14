@@ -1,18 +1,18 @@
 ---
-title: Обзор примеров переноса приложений для Azure
-description: Содержит обзор примеров переноса приложений, входящих в состав раздела "Миграция" положений Cloud Adoption Framework.
+title: Примеры миграции приложений для Azure
+description: Используйте платформу внедрения облаков для Azure, чтобы узнать, как можно перенести локальную инфраструктуру в облако Microsoft Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 639d90285c1500a661e872931456f63c188daafc
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: ecb6cfc10b88490269b50a5fe6bec7d2c3277d7b
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337458"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312584"
 ---
 # <a name="application-migration-patterns-and-examples"></a>Шаблоны переноса приложений и примеры
 
@@ -54,7 +54,7 @@ Azure предоставляет доступ к комплексному наб
 - Каждый сценарий миграции определяется немного отличающимися бизнес-целями, которые определяют стратегию миграции.
 - Для каждого сценария развертывания мы предоставляем сведения о бизнес-факторах и целях, предлагаемой архитектуре, шагах по выполнению миграции, а также рекомендации по очистке и дальнейшим действиям после завершения миграции.
 
-### <a name="assessment"></a>Оценка
+### <a name="assessment"></a>OMS.
 
 **Статья** | **Сведения**
 --- | ---

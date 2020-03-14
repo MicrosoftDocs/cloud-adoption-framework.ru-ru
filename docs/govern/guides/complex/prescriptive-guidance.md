@@ -9,11 +9,11 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 ms.openlocfilehash: 74f81e139e7eacc7445321592eab4027a40a8c56
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709215"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312389"
 ---
 # <a name="governance-guide-for-complex-enterprises-best-practices-explained"></a>Руководство по управлению для сложных предприятий: рекомендации
 

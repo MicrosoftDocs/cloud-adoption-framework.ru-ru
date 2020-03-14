@@ -1,18 +1,18 @@
 ---
-title: Какую роль репликация и синхронизация играют в процессе миграции?
-description: Процесс миграции в облако, предназначенный для выполнения задач миграции рабочих нагрузок в облако.
+title: Репликация и процесс миграции
+description: Сведения о роли, которую выполняет репликация в процессе миграции, а также о планировании предварительных требований и рисков действий репликации.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 5eaea53e65951cb5fee3d36b2eba472e1048feb2
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 31930cfef32d4a02b3892405e2c5b462e0039566
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222266"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312610"
 ---
 <!-- markdownlint-disable MD026 -->
 
