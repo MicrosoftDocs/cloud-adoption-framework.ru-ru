@@ -1,6 +1,6 @@
 ---
 title: Миграция в облако
-description: Миграция в облако с помощью Cloud Adoption Framework
+description: Узнайте, как наладить итеративные процессы для оценки, миграции оптимизации, а также защиты рабочих нагрузок и управления ими, если планируете переход в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 layout: LandingPage
-ms.openlocfilehash: 90a9c69b311f1d4687d2691af13c3b51a7b6f813
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: c4ee7491fb5fbfa549dfe82c82e720f51188a25c
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337804"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312311"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
@@ -21,12 +21,12 @@ ms.locfileid: "78337804"
 
 ## <a name="getting-started"></a>Начало работы
 
-Чтобы подготовиться к этому этапу жизненного цикла миграции в облако, ниже представлена последовательность из пяти задач.
+Для подготовки к этому этапу внедрения облачных технологий на платформе рекомендуется выполнить следующие упражнения:
 
 <!-- markdownlint-disable MD033 -->
 <ul class="panelContent cardsF">
     <li style="display: flex; flex-direction: column;">
-        <a href="./azure-migration-guide/prerequisites.md?tabs=Checklist">
+        <a href="./azure-migration-guide/index.md">
             <div class="cardSize">
                 <div class="cardPadding" style="padding-bottom:10px;">
                     <div class="card" style="padding-bottom:10px;">
@@ -36,27 +36,8 @@ ms.locfileid: "78337804"
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>Требования к миграции</h3>
-Разверните и подготовьте зону для размещения нескольких первых рабочих нагрузок, которые будут перенесены в Azure. Создайте стратегию и план внедрения в облако.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li style="display: flex; flex-direction: column;">
-        <a href="./azure-migration-guide/index.md">
-            <div class="cardSize">
-                <div class="cardPadding" style="padding-bottom:10px;">
-                    <div class="card" style="padding-bottom:10px;">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img alt="" src="../_images/icons/2.png" data-linktype="external">
-                            </div>
-                        </div>
-                        <div class="cardText" style="padding-left:0px;">
                             <h3>Перенос первой рабочей нагрузки</h3>
-Используйте руководство по миграции Azure для переноса рабочей нагрузки. Там описаны средства и подходы, используемые в процессе переноса.
+Ознакомьтесь с собственными средствами Azure и подходом к миграции в руководстве по миграции Azure.
                         </div>
                     </div>
                 </div>
@@ -70,12 +51,12 @@ ms.locfileid: "78337804"
                     <div class="card" style="padding-bottom:10px;">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img alt="" src="../_images/icons/3.png" data-linktype="external">
+                                <img alt="" src="../_images/icons/2.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
-                            <h3>Расширенные сценарии миграции</h3>
-Используйте расширенный контрольный список, чтобы определить сценарии, для которых может потребоваться изменить будущие решения, связанные с архитектурой состояния, процессами миграции, конфигурацией зоны размещения или самим процессом миграции.
+                            <h3>Сценарии миграции</h3>
+Реализуйте дополнительные сценарии миграции с помощью дополнительных средств и подходов.
                         </div>
                     </div>
                 </div>
@@ -89,12 +70,12 @@ ms.locfileid: "78337804"
                     <div class="card" style="padding-bottom:10px;">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img alt="" src="../_images/icons/4.png" data-linktype="external">
+                                <img alt="" src="../_images/icons/3.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Рекомендации</h3>
-Внесите требуемые изменения в соответствии с рекомендациями, чтобы обеспечить правильную реализацию стратегии миграции с учетом расширенной области или рабочей нагрузки либо архитектуры.
+Обеспечьте соответствие распространенным потребностям при миграции, применив согласованные рекомендации.
                         </div>
                     </div>
                 </div>
@@ -108,12 +89,12 @@ ms.locfileid: "78337804"
                     <div class="card" style="padding-bottom:10px;">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img alt="" src="../_images/icons/5.png" data-linktype="external">
+                                <img alt="" src="../_images/icons/4.png" data-linktype="external">
                             </div>
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Улучшение процессов</h3>
-Миграция — это интенсивный процесс. По мере его выполнения используйте соответствующие рекомендации для оценки и отладки различных аспектов.
+Миграция — это интенсивный процесс. По мере его выполнения используйте программы улучшения процесса для оценки и отладки различных аспектов миграции.
                         </div>
                     </div>
                 </div>
@@ -123,11 +104,16 @@ ms.locfileid: "78337804"
 </ul>
 <!-- markdownlint-enable MD033 -->
 
+Эта методики и приведенные выше инструкции основаны на следующих предположениях:
+
+- Перед переносом рабочих нагрузок определена, настроена и развернута как минимум одна [целевая зона](../ready/index.md), чтобы обеспечить соответствие потребностям краткосрочного плана внедрения.
+- Миграция часто ассоциируется с терминами _lift-and-shift_ или _повторное размещение_. Эти методики и приведенные выше инструкции предполагают, что центр обработки данных не переносится с помощью чистого подхода повторного размещения (он используется только для совсем небольшого числа рабочих нагрузок). Многие рабочие нагрузки можно разместить повторно. Но клиенты предпочитают модернизировать определенные ресурсы в рамках каждой рабочей нагрузки. При выполнении этого итеративного процесса часто встает вопрос о балансе между скоростью и модернизацией.
+
 ## <a name="iterative-migration-process"></a>Итеративный процесс миграции
 
 По существу, миграция в облако состоит из четыре простых этапов: оценка, миграция, оптимизация, а также защита и управление. В этом разделе документации Cloud Adoption Framework описано, как повысить рентабельность на каждом из этапов процесса и согласовать эти этапы с планом внедрения облака. Все эти этапы итеративного процесса представлены ниже.
 
-![Модель миграции Cloud Adoption Framework](../_images/operational-transformation-migrate.png)
+![Модель миграции Cloud Adoption Framework](../_images/migrate/methodology.png)
 
 ## <a name="create-a-balanced-cloud-portfolio"></a>Создание сбалансированного портфеля облачных решений
 
@@ -143,7 +129,7 @@ ms.locfileid: "78337804"
 
 В этих статьях описываются две стратегии со сходными целями — миграция в Azure большой доли существующих ресурсов. Но бизнес-результаты и текущее состояние существенно влияют на выбор процессов для достижения этой цели. Здесь небольшие отклонения привели к двум радикально отличающимся подходам к достижению сходного целевого состояния.
 
-![Модель миграции Cloud Adoption Framework](../_images/operational-transformation-migrate.png)
+![Модель миграции Cloud Adoption Framework](../_images/migrate/methodology.png)
 
 Эта модель управляет процессом добавочных изменений для достижения целевого состояния, разделяя миграцию на две основные составляющие.
 
@@ -173,48 +159,9 @@ ms.locfileid: "78337804"
 
 Поэтапный подход к миграции, используемый в Cloud Adoption Framework, помогает создать последовательный план с учетом и описанием всех технических и культурных ограничений. Эта модель ускоряет миграцию и одновременно снижает издержки этого процесса для ИТ-отдела и бизнеса в целом. Ниже представлены два примера поэтапной миграции, выполняемой на основе списка невыполненных работ по миграции.
 
-<!-- markdownlint-disable MD033 -->
-
-<ul class="panelContent cardsZ">
-<li style="display: flex; flex-direction: column;">
-    <a href="./azure-migration-guide/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Руководство по миграции в Azure</h3>
-                        <p><b>Сводка.</b> Клиент выполняет миграцию виртуальных машин числом не более 1000. Менее десяти поддерживаемых приложений, принадлежат владельцу приложения, а не ИТ-отделу организации. Всеми остальными приложениями, виртуальными машинами и данными для них управляют члены группы по внедрения облачных решений. Члены этой группы имеют административный доступ к рабочим средам в существующем центре обработки данных.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./expanded-scope/index.md" style="display: flex; flex-direction: column; flex: 1 0 auto;">
-        <div class="cardSize" style="flex: 1 0 auto; display: flex;">
-            <div class="cardPadding" style="display: flex;">
-                <div class="card">
-                    <div class="cardText">
-                        <h3>Руководство для сложного сценария</h3>
-                        <p><b>Сводка.</b> Клиент выполняет миграцию, которая сложным образом влияет на весь его бизнес, культуру и технологии. Это руководство описывает несколько конкретных проблем, связанных со сложностью, и способы их решения.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-</ul>
-
-<!-- markdownlint-enable MD033 -->
-
-Эти две стратегии представляют крайние варианты для клиентов, которые собираются вложить средства и ресурсы в миграцию в облако. Большинство компаний использую элементы, взятые из обоих вариантов. Ознакомившись со стратегией развития, примените модель миграции Cloud Adoption Framework, чтобы организовать обсуждение вопросов, связанных с миграцией, и измените базовую стратегию с учетом конкретных потребностей.
-
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Выберите одну из стратегий развития:
+Для начала ознакомьтесь с [руководством по миграции Azure](./azure-migration-guide/index.md).
 
 > [!div class="nextstepaction"]
 > [Руководство по миграции в Azure](./azure-migration-guide/index.md)
->
-> [Руководство по расширенному сценарию миграции](./expanded-scope/index.md)
