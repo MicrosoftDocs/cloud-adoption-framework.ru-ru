@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 854e22b70250496704cade4d7465c217705c928d
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 565cb0d97fc764375f708d8e3db8f2a1c0a852e4
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094828"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508378"
 ---
 <!-- cSpell:ignore HDFS databox VHDX -->
 
@@ -59,7 +59,7 @@ ms.locfileid: "79094828"
 
 ### <a name="suggested-action-during-the-migrate-process"></a>Предлагаемое действие во время процесса миграции
 
-**Копировать хранилище:** Этот подход можно использовать для перемещения данных HDFS, резервных копий, архивов, файловых серверов, приложений и т. д. В имеющемся техническом руководстве объясняется, как использовать этот подход для перемещения данных из [хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) или [службы копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) в Data Box.
+**Копировать хранилище:** Этот подход можно использовать для перемещения данных HDFS, резервных копий, архивов, файловых серверов или приложений. В имеющемся техническом руководстве объясняется, как использовать этот подход для перемещения данных из [хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) или [службы копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) в Data Box.
 
 Существуют также [сторонние решения партнеров](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box), которые используют Azure Data Box для миграции по методу "Seed and Sync", при котором большой объем данных перемещается в автономном режиме, но затем синхронизируется по сети, используя меньшую пропускную способность.
 

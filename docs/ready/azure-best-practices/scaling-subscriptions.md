@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 96564a10bc8dda4ed1966cf5dd41c5ea233f2327
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: b734446a4bac7d8db12119b2248aece9a3377d37
+ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312662"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "79508395"
 ---
 # <a name="scale-with-multiple-azure-subscriptions"></a>Масштабирование с помощью нескольких подписок Azure
 
@@ -22,7 +22,7 @@ ms.locfileid: "79312662"
 
 При развертывании первой рабочей рабочей нагрузки в Azure следует начинать с двух подписок: одной для рабочей среды и другой для непроизводственной среды (разработки и тестирования).
 
-![Базовая модель подписки, показывающая ключи рядом с полями "производство" и "непроизводство"](../../_images/ready/basic-subscription-model.png)
+![Базовая модель подписки, показывающая ключи рядом с полями "производство" и "непроизводство"](../../_images/ready/initial-subscription-model.png)
 
 Этот подход рекомендуется по нескольким причинам:
 
@@ -102,7 +102,7 @@ ms.locfileid: "79312662"
 - [Расширьте доступ для управления всеми подписками Azure и группами управления](https://docs.microsoft.com/azure/role-based-access-control/elevate-access-global-admin).
 - [Переместите ресурсы Azure в другую группу ресурсов или подписку](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-move-resources).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Ознакомьтесь [с рекомендуемыми соглашениями об именовании и добавлении тегов](./naming-and-tagging.md), которые следует соблюдать при развертывании ресурсов Azure.
 
