@@ -2,6 +2,8 @@ items:
   - name: Cloud Adoption Framework
     href: index.md
     pdf_name: Microsoft Cloud Adoption Framework for Azure
+  - name: Новые возможности
+    href: getting-started/whats-new.md
   - name: Начало работы
     items:
       - name: Начало миграции
@@ -124,7 +126,7 @@ items:
             href: ready/azure-setup-guide/staying-current.md
       - name: Первая зона размещения
         items:
-          - name: Что такое целевая зона
+          - name: Что такое целевая зона?
             href: ready/landing-zone/index.md
           - name: Выбор первой целевой зоны
             href: ready/landing-zone/first-landing-zone.md
