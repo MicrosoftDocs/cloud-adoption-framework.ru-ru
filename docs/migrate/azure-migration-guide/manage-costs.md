@@ -1,6 +1,6 @@
 ---
 title: Механизмы контроля затрат на миграцию
-description: Из этой статьи вы узнаете, как настроить бюджеты и платежи, а также как интерпретировать счета за ресурсы Azure.
+description: Cloud Adoption Framework для Azure поможет узнать, как настроить бюджеты и платежи, а также интерпретировать счета за использование ресурсов Azure.
 author: bandersmsft
 ms.author: banders
 ms.date: 08/08/2019
@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 82c801abee32e0399eb124440868bc455034a018
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: b220929fd6348909b8f06f7a537e1052c459d24d
+ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222661"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79312124"
 ---
+<!-- cSpell:ignore bandersmsft -->
+
 # <a name="migration-focused-cost-control-mechanisms"></a>Механизмы контроля затрат на миграцию
 
 Переход в облако связан с рядом изменений, касающихся того, как мы работаем, независимо от нашей роли в группе по технологиям. Затраты — отличный пример этих изменений. В прошлом затраты на ресурсы ИТ (инфраструктуру, приложения и данные) утверждались только с руководителями финансового одела и отдела ИТ. Облако предоставляет каждому участнику инфраструктуры ИТ возможность принимать решения и делать так, как лучше для пользователей. Тем не менее, принятие таких решений возлагает ответственность за разумность затрат.
