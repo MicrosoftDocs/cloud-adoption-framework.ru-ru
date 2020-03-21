@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 3b6434937816255269bda41c422099a07a25f5bc
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 5513187c65aebc7ae01825bdafa0f175f277c745
+ms.sourcegitcommit: 5d7e93540a679252f1c7207e62cb2ee7213a6ae9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341833"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80069743"
 ---
 # <a name="cloud-monitoring-guide-monitoring-strategy-for-cloud-deployment-models"></a>Руководство по мониторингу облака: стратегия мониторинга для моделей облачного развертывания
 
