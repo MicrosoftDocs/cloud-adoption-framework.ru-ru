@@ -2,18 +2,18 @@
 title: 'Программно-определяемая сеть: машинный код в облаке'
 description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать о виртуальных сетях, машинных в облаке, которые необходимы для развертывания виртуальных машин в облаке.
 author: rotycenh
-ms.author: v-tyhopk
+ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: e0903b816dbbdf6d227870d8bae99fd585d1734e
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: 5fc722b46c860fff1880d864604993bf02c05447
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140326"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225759"
 ---
 # <a name="software-defined-networking-cloud-native"></a>Программно-определяемая сеть: машинный код в облаке
 

@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 28762d3540124b40bd3db4d7bd431033a1c25b5f
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: 2b255d85b8df33f712238d0457a0e78a5481801d
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337974"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225723"
 ---
 # <a name="build-a-business-justification-for-cloud-migration"></a>Создание коммерческого обоснования для миграции в облако
 
@@ -68,7 +68,7 @@ ms.locfileid: "78337974"
 
 ## <a name="migration-specific-initial-investment"></a>Начальные инвестиции, связанные с миграцией
 
-- Поставщики облачных решений, такие как Калькуляторы предложений Azure, для оценки инвестиций в облако. Один из примеров — [Калькулятор цен Azure](https://azure.microsoft.com/pricing) .
+- Поставщики облачных решений, такие как Калькуляторы предложений Azure, для оценки инвестиций в облако. Один из примеров — [Калькулятор цен Azure](https://azure.com/calculator) .
 - Некоторые поставщики облачных служб также предоставляют экономичные Калькуляторы. Пример [калькулятора совокупной стоимости владения (TCO) Azure](https://azure.com/tco) — это один из примеров.
 - Для получения более точных структур затрат рассмотрим упражнение по [планированию цифровых площадок](../digital-estate/index.md) .
 - Оцените затраты на миграцию.
@@ -105,7 +105,7 @@ ms.locfileid: "78337974"
 
 Если рентабельность инвестиций по-прежнему не выровнена, обратитесь за помощью к торговому представителю корпорации Майкрософт или [привлеките опытного партнера](https://azure.microsoft.com/migration/support).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Создание финансовой модели для перехода на облачные технологии](./financial-models.md)
