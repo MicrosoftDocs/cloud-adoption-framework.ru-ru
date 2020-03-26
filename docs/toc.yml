@@ -1140,6 +1140,8 @@ items:
                 href: manage/monitor/alerting.md
               - name: Обзор платформ мониторинга
                 href: manage/monitor/platform-overview.md
+              - name: 'Навыки, связанные с мониторингом'
+                href: manage/monitor/suggested-skills.md
           - name: Централизация операций управления
             href: manage/centralize-operations.md
           - name: Обеспечение проверки операционной пригодности
