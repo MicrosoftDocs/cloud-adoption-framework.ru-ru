@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 05a3ce3eb018a9b15f66b90749782def260c66d7
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 6210750d5c11d4ebca55d4c96c7a87d03ca87355
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77707617"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357134"
 ---
+<!-- cSpell:ignore CFO's MPLS -->
+
 # <a name="governance-guide-for-complex-enterprises-improve-the-identity-baseline-discipline"></a>Руководство по управлению для сложных предприятий: повышение дисциплины базовых показателей удостоверений
 
 Эта статья посвящена добавлению элементов управления базовых показателей идентификаторов в MVP по управлению.
@@ -91,7 +93,7 @@ ms.locfileid: "77707617"
 
 Добавление этих изменений в MVP по управлению помогает устранить многие риски, описанные в этой статье, позволяя каждой группе внедрения в облако быстро переходить за эту препятствием.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере того как внедрение в облако продолжится и обеспечивает дополнительную ценность для бизнеса, риски и потребности в управлении облаком тоже изменятся. Ниже приведены некоторые изменения, которые могут возникнуть. Для этой вымышленной компании следующим триггером является включение защищенных данных в план внедрения облака. Для этого изменения требуются дополнительные средства управления безопасностью.
 

@@ -7,13 +7,15 @@ ms.date: 10/11/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3a4ebcb2264ff863200071363b8369d8a76549d3
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 988d7524941b49821cd96546cc3adafe317dff8a
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311495"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356247"
 ---
+<!-- cSpell:ignore contosohost contosodc vcenter DBHOST DBUSER WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL osticket contosoosticket trafficmanager CNAME -->
+
 # <a name="refactor-a-linux-app-to-multiple-regions-using-azure-app-service-traffic-manager-and-azure-database-for-mysql"></a>Рефакторинг приложения Linux в нескольких регионах с помощью Службы приложений Azure, диспетчера трафика и Базы данных Azure для MySQL
 
 В этой статье показано, как вымышленная компания Contoso выполняет рефакторинг двухуровневого приложения LAMP (Linux, Apache, MySQL, PHP), перенеся его из локальной среды в Azure, используя Службу приложений Azure с интеграцией с GitHub и Базу данных Azure для MySQL.
@@ -72,7 +74,7 @@ ms.locfileid: "79311495"
 
 Порядок миграции в Contoso будет следующим:
 
-1. В качестве первого шага администраторы Contoso настраивают инфраструктуру Azure, включая подготовку Службы приложений Azure, настройку диспетчера трафика и подготовку экземпляра Базы данных Azure для MySQL.
+1. В качестве первого шага администраторы Contoso настроили инфраструктуру Azure, включая подготовку службы приложений Azure, настройку диспетчера трафика и подготовку экземпляра базы данных Azure для MySQL.
 2. После подготовки Azure компания переносит базу данных с помощью MySQL Workbench.
 3. После запуска базы данных в Azure администраторы настраивают частный репозиторий GitHub для Службы приложений Azure с непрерывной поставкой и загружают его с помощью приложения osTicket.
 4. Затем с портала Azure они загружают приложение из GitHub в контейнер Docker под управлением Службы приложений Azure.
@@ -88,7 +90,7 @@ ms.locfileid: "79311495"
 [Диспетчер трафика](https://azure.microsoft.com/services/traffic-manager) | Подсистема балансировки нагрузки, использующая DNS для перенаправления пользователей в Azure или на внешние веб-сайты и службы. | Ценообразование основано на количестве получаемых запросов DNS и отслеживаемых конечных точек. | [Дополнительные сведения](https://azure.microsoft.com/pricing/details/traffic-manager)
 [База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql) | База данных расположена на ядре сервера MySQL с открытым исходным кодом. Она предоставляет разработанную сообществом, полностью управляемую и готовую к использованию на предприятии базу данных MySQL как услугу для разработки и развертывания приложений. | Ценообразование основано на вычислении, хранении и резервном копировании. [Дополнительные сведения](https://azure.microsoft.com/pricing/details/mysql)
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>предварительные требования
 
 Ниже показано, что необходимо сделать специалистам компании Contoso, чтобы реализовать этот сценарий.
 
@@ -291,7 +293,7 @@ ms.locfileid: "79311495"
 
     ![Настройка приложения](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app6.png)
 
-8. Они настраивают оба веб-приложения **osticket-eus2** и **osticket-cus**, чтобы разрешить пользовательские имена узлов.
+8. Они настраивают веб-приложения **остиккет-eus2** и **остиккет-Cu** , чтобы разрешить пользовательские имена узлов.
 
     ![Настройка приложения](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app7.png)
 
@@ -324,7 +326,7 @@ ms.locfileid: "79311495"
 
 Теперь, когда приложение работает, компании Contoso необходимо полностью ввести его в эксплуатацию и защитить свою новую инфраструктуру.
 
-### <a name="security"></a>Безопасность
+### <a name="security"></a>безопасность
 
 Специалисты по безопасности компании Contoso проверили приложение, чтобы выявить любые проблемы безопасности. Они определили, что обмен данными между приложением osTicket и экземпляром базы данных MySQL не настроен для использования протокола SSL. Поэтому им необходимо будет сделать это, чтобы предотвратить взлом трафика, базы данных. [Дополнительные сведения](https://docs.microsoft.com/azure/mysql/howto-configure-ssl)
 

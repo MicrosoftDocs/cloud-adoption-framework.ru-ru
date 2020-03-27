@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: f229515b39c69fa0e9e6c840810720bca4e12dc6
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: f1c35b41f267887c62b2568583b929657517c87e
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78342054"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354847"
 ---
 # <a name="prerequisites-for-an-effective-cloud-adoption-plan"></a>Необходимые условия для эффективного плана внедрения в облако
 
@@ -38,9 +38,9 @@ ms.locfileid: "78342054"
 
 Эти вопросы необходимы для точности плана внедрения в облако. Как минимум, для создания плана необходимо ответить на вопросы, связанные с обоснованием цифровых площадок. Для предоставления точных шкал времени также важны вопросы о организации и навыках.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-После того, как команда будет хорошо работать с стратегическими входными данными и входными данными для рационализации цифровых площадок, может начаться следующее [Определение приоритетов рабочих нагрузок](./workloads.md) .
+[Развертывание шаблона плана внедрения в облако](./template.md) в Azure DevOps.
 
 > [!div class="nextstepaction"]
-> [Определение приоритетов и определение рабочих нагрузок](./workloads.md)
+> [Развертывание шаблона в Azure DevOps](./template.md)

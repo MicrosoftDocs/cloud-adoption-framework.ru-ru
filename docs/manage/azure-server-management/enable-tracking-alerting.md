@@ -7,13 +7,15 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 124f8943b7014f7f9fffeb39d464f3ad28e85816
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 9fe6cd29e6bff2ea9d969c715aec65d608f0b23e
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341714"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356422"
 ---
+<!-- cSpell:ignore HKEY kusto -->
+
 # <a name="enable-tracking-and-alerting-for-critical-changes"></a>Включение отслеживания и предупреждений для критических изменений
 
 Отслеживание изменений и Инвентаризация Azure предоставляют оповещения о состоянии конфигурации гибридной среды и изменениях в этой среде. Он может сообщать о критических изменениях файла, службы, программного обеспечения и реестра, которые могут повлиять на развернутые серверы.
@@ -94,7 +96,7 @@ ConfigurationChange | where FieldsChanged contains "FileContentChecksum" and Fil
   ConfigurationChange | where RegistryKey == "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\KnownDlls"
   ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как использовать службу автоматизации Azure для [создания расписаний обновлений](./update-schedules.md) для управления обновлениями на серверах.
 

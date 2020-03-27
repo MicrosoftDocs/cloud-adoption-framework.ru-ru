@@ -8,14 +8,14 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit
-ms.openlocfilehash: 9e60e84659828efdc9802c45cf2f91ad945c8cda
-ms.sourcegitcommit: 5d7e93540a679252f1c7207e62cb2ee7213a6ae9
+ms.openlocfilehash: 2ebb04a09c6c14b44e0237c2530144c69014f5b4
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80069791"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354517"
 ---
-<!-- cSpell:ignore eastus westus westeurope usgovia accountlookup messagequery -->
+<!-- cSpell:ignore westeurope usgovia accountlookup messagequery -->
 
 # <a name="recommended-naming-and-tagging-conventions"></a>Рекомендации по именованию и добавлению тегов
 
@@ -61,7 +61,7 @@ ms.locfileid: "80069791"
 
 Сократите длину компонентов именования, чтобы избежать превышения ограничений по длине имени ресурса.
 
-| Компонент именования            | Описание                                                                                                                                                                                                      | Примеры                                         |
+| Компонент именования            | Description                                                                                                                                                                                                      | Примеры                                         |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|
 | Бизнес-единица               | Подразделение высшего уровня компании, которому принадлежит подписка или рабочая нагрузка, к которой принадлежит ресурс. В небольших организациях этот компонент может представлять собой единый корпоративный организационный элемент верхнего уровня. | _fin_, _mktg_, _product_, _it_, _corp_           |
 | Тип подписки           | Краткое описание назначения подписки, содержащей ресурс. Часто разбивается по типу среды развертывания или конкретным рабочим нагрузкам.                                                       | " _произв_.", " _Общий_", " _клиент_ "                       |
@@ -77,11 +77,11 @@ ms.locfileid: "80069791"
 
 <!-- cSpell:disable -->
 
-### <a name="general"></a>Общие
+### <a name="general"></a>Общие сведения
 
 | Тип ресурса                      | Префикс имени |
 |---------------------------------|-------------|
-| Группа ресурсов                  | rg-         |
+| группа ресурсов.                  | rg-         |
 | Определение политики               | политик     |
 | Экземпляр службы управления API | apim       |
 
@@ -121,7 +121,7 @@ ms.locfileid: "80069791"
 | Веб-приложение                     | приложения        |
 | Приложение-функция                | функцию       |
 | облачная служба               | привести        |
-| Концентраторы уведомлений           | NTF        |
+| Центры уведомлений           | NTF        |
 | Пространство имен концентраторов уведомлений | нтфнс —      |
 
 ### <a name="databases"></a>Базы данных
@@ -143,7 +143,7 @@ ms.locfileid: "80069791"
 | Тип ресурса       | Префикс имени |
 |------------------|-------------|
 | Учетная запись хранения  | st          |
-| Azure StorSimple | ssimp       |
+| StorSimple Azure | ssimp       |
 
 ### <a name="ai--machine-learning"></a>Средства ИИ и машинного обучения
 
@@ -173,7 +173,7 @@ ms.locfileid: "80069791"
 | Центр Интернета вещей                         | IOT        |
 | Power BI Embedded               | PBI        |
 
-### <a name="integration"></a>Integration
+### <a name="integration"></a>Интеграция
 
 | Тип ресурса        | Префикс имени |
 |-------------------|-------------|
@@ -208,9 +208,9 @@ ms.locfileid: "80069791"
 
 Теги, применяемые к ресурсам, и теги, которые являются обязательными или необязательными, отличаются в разных организациях. В следующем списке приведены примеры общих тегов, которые охватывают важный контекст и сведения о ресурсе. Используйте этот список в качестве отправной точки для создания собственных соглашений добавлении тегов.
 
-| Имя тега                  | Описание                                                                                                                                                                                                          | Ключ               | Пример значения                                              |
+| Имя тега                  | Description                                                                                                                                                                                                          | Клавиши               | Пример значения                                              |
 |---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|------------------------------------------------------------|
-| Имя приложения          | Название приложения, службы или рабочей нагрузки, с которой связан ресурс.                                                                                                                                       | _ApplicationName_ | _{имя_приложения}_                                               |
+| имя приложения;          | Название приложения, службы или рабочей нагрузки, с которой связан ресурс.                                                                                                                                       | _ApplicationName_ | _{имя_приложения}_                                               |
 | Имя утверждающего             | Лицо, ответственное за утверждение расходов, связанных с этим ресурсом.                                                                                                                                                     | _Approver_        | _{адрес_электронной_почты}_                                                  |
 | Обязательный или утвержденный бюджет  | Деньги, выделенные для этого приложения, службы или рабочей нагрузки.                                                                                                                                                          | _BudgetAmount_    | _{\$}_                                                     |
 | Бизнес-единица             | Подразделение высшего уровня компании, которому принадлежит подписка или рабочая нагрузка, к которой принадлежит ресурс. В небольших организациях этот тег может представлять один корпоративный или общий организационный элемент верхнего уровня. | _BusinessUnit_    | _Финансы_, _маркетинг_, _{Product Name}_ , _Corp_, _Shared_ |
@@ -220,7 +220,7 @@ ms.locfileid: "80069791"
 | Среда               | Среда развертывания приложения, рабочей нагрузки или службы.                                                                                                                                                     | _Env_             | _Произв_., _dev_, _QA_, _этап_, _тест_                       |
 | Имя владельца                | Владелец приложения, рабочей нагрузки или службы.                                                                                                                                                                      | _Владелец_           | _{адрес_электронной_почты}_                                                  |
 | Имя запрашивающего            | Пользователь, запросивший создание этого приложения.                                                                                                                                                                 | _Requestor_       | _{адрес_электронной_почты}_                                                  |
-| Service - класс             | Уровень соглашения об уровне обслуживания приложения, рабочей нагрузки или службы.                                                                                                                                              | _ServiceClass_    | _Dev_, _бронзовая_, _серебристая_, _золото_                          |
+| Класс службы             | Уровень соглашения об уровне обслуживания приложения, рабочей нагрузки или службы.                                                                                                                                              | _ServiceClass_    | _Dev_, _бронзовая_, _серебристая_, _золото_                          |
 | Дата начала проекта | Дата, когда приложение, рабочая нагрузка или служба впервые развернуты.                                                                                                                                                  | _StartDate_       | _{дата}_                                                   |
 
 ## <a name="example-names"></a>Примеры имен
@@ -233,44 +233,44 @@ ms.locfileid: "80069791"
 
 ### <a name="example-names-general"></a>Примеры имен: общие
 
-| Тип ресурса                      | Область видимости                              | Формат                                                      | Примеры                                                                                                                |
+| Тип ресурса                      | Область                              | Формат                                                      | Примеры                                                                                                                |
 |---------------------------------|------------------------------------|-------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | Subscription                    | Учетной записи <br/>Соглашение Enterprise | \<Business Unit\>-\<Subscription type\>-\<\#\#\#\>          | <ul><li>mktg-prod-001 </li><li>corp-shared-001 </li><li>fin-client-001</li></ul>                                        |
-| Группа ресурсов                  | Subscription                       | RG-\<имя приложения или службы\>-\<тип подписки\>-\<\#\#\#\> | <ul><li>rg-mktgsharepoint-prod-001 </li><li>rg-acctlookupsvc-share-001 </li><li>rg-ad-dir-services-shared-001</li></ul> |
+| группа ресурсов.                  | Subscription                       | RG-\<имя приложения или службы\>-\<тип подписки\>-\<\#\#\#\> | <ul><li>rg-mktgsharepoint-prod-001 </li><li>rg-acctlookupsvc-share-001 </li><li>rg-ad-dir-services-shared-001</li></ul> |
 | Экземпляр службы управления API | Global                             | apim —\<имя приложения или службы\>                                | apim-Navigator-произв.                                                                                                     |
 
 ### <a name="example-names-networking"></a>Примеры имен: Сетевые подключения
 
-| Тип ресурса                   | Область видимости           | Формат                                                               | Примеры                                                                                                                      |
+| Тип ресурса                   | Область           | Формат                                                               | Примеры                                                                                                                      |
 |------------------------------|-----------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| Виртуальная сеть              | Группа ресурсов  | vnet-\<Subscription type\>-\<Region\>-\<\#\#\#\>                     | <ul><li>vnet-shared-eastus2-001 </li><li>vnet-prod-westus-001 </li><li>vnet-client-eastus2-001</li></ul>                      |
+| Виртуальная сеть              | группа ресурсов.  | vnet-\<Subscription type\>-\<Region\>-\<\#\#\#\>                     | <ul><li>vnet-shared-eastus2-001 </li><li>vnet-prod-westus-001 </li><li>vnet-client-eastus2-001</li></ul>                      |
 | Подсеть                       | Виртуальная сеть | snet-\<subscription\>-\<subregion\>-\<\#\#\#\>                       | <ul><li>snet-shared-eastus2-001 </li><li>snet-prod-westus-001 </li><li>snet-client-eastus2-001</li></ul>                      |
-| Сетевой интерфейс      | Группа ресурсов  | nic-\<\#\#\>-\<vmname\>-\<subscription\>\<\#\#\#\>                   | <ul><li>nic-01-dc1-shared-001 </li><li>nic-02-vmhadoop1-prod-001 </li><li>nic-02-vmtest1-client-001</li></ul>                 |
-| Общедоступный IP-адрес            | Группа ресурсов  | pip-\<vm name or app name\>-\<Environment\>-\<subregion\>-\<\#\#\#\> | <ul><li>pip-dc1-shared-eastus2-001 </li><li>pip-hadoop-prod-westus-001</li></ul>                                              |
-| Подсистема балансировки нагрузки                | Группа ресурсов  | lb-\<app name or role\>\<Environment\>\<\#\#\#\>                     | <ul><li>lb-navigator-prod-001 </li><li>lb-sharepoint-dev-001</li></ul>                                                        |
+| Сетевой интерфейс      | группа ресурсов.  | nic-\<\#\#\>-\<vmname\>-\<subscription\>\<\#\#\#\>                   | <ul><li>nic-01-dc1-shared-001 </li><li>nic-02-vmhadoop1-prod-001 </li><li>nic-02-vmtest1-client-001</li></ul>                 |
+| Общедоступный IP-адрес            | группа ресурсов.  | pip-\<vm name or app name\>-\<Environment\>-\<subregion\>-\<\#\#\#\> | <ul><li>pip-dc1-shared-eastus2-001 </li><li>pip-hadoop-prod-westus-001</li></ul>                                              |
+| Подсистема балансировки нагрузки                | группа ресурсов.  | lb-\<app name or role\>\<Environment\>\<\#\#\#\>                     | <ul><li>lb-navigator-prod-001 </li><li>lb-sharepoint-dev-001</li></ul>                                                        |
 | Группа безопасности сети (NSG) | Подсеть или сетевая карта   | NSG-\<имя политики или имя приложения\>-\<\#\#\#\>                           | <ul><li>nsg-weballow-001 </li><li>nsg-rdpallow-001 </li><li>nsg-sqlallow-001 </li><li>nsg-dnsbloked-001</li></ul>             |
 | Шлюз локальной сети        | Виртуальный шлюз | лгв-\<тип подписки\>-\<Region\>-\<\#\#\#\>                      | <ul><li>лгв-Shared-eastus2-001 </li><li>лгв-произв-westus-001 </li><li>лгв-Client-eastus2-001</li></ul>                         |
 | Шлюз виртуальной сети      | Виртуальная сеть | ВГВ-\<тип подписки\>-\<Region\>-\<\#\#\#\>                      | <ul><li>ВГВ-Shared-eastus2-001 </li><li>ВГВ-произв-westus-001 </li><li>ВГВ-Client-eastus2-001</li></ul>                         |
-| Подключение типа "сеть-сеть"      | Группа ресурсов  | cn-\<local gateway name\>-to-\<virtual gateway name\>                | <ul><li>CN-лгв-Shared-eastus2-001-to-ВГВ-Shared-eastus2-001 </li><li>CN-лгв-Shared-eastus2-001-to-Shared-westus-001</li></ul> |
-| VPN-подключение               | Группа ресурсов  | cn-\<subscription1\>\<region1\>-to-\<subscription2\>\<region2\>-     | <ul><li>cn-shared-eastus2-to-shared-westus </li><li>cn-prod-eastus2-to-prod-westus</li></ul>                                  |
-| Таблица маршрутов                  | Группа ресурсов  | маршрут\<имя таблицы маршрутов\>                                           | <ul><li>lb-navigator-prod-001 </li><li>lb-sharepoint-dev-001</li></ul>                                                        |
+| Подключение типа "сеть-сеть"      | группа ресурсов.  | cn-\<local gateway name\>-to-\<virtual gateway name\>                | <ul><li>CN-лгв-Shared-eastus2-001-to-ВГВ-Shared-eastus2-001 </li><li>CN-лгв-Shared-eastus2-001-to-Shared-westus-001</li></ul> |
+| VPN-подключение               | группа ресурсов.  | cn-\<subscription1\>\<region1\>-to-\<subscription2\>\<region2\>-     | <ul><li>cn-shared-eastus2-to-shared-westus </li><li>cn-prod-eastus2-to-prod-westus</li></ul>                                  |
+| Таблица маршрутов                  | группа ресурсов.  | маршрут\<имя таблицы маршрутов\>                                           | <ul><li>lb-navigator-prod-001 </li><li>lb-sharepoint-dev-001</li></ul>                                                        |
 | Имя DNS                    | Global          | \<A record of vm\>.[\<region\>.cloudapp.azure.com]                   | <ul><li>dc1.westus.cloudapp.azure.com </li><li>web1.eastus2.cloudapp.azure.com</li></ul>                                      |
 
 ### <a name="example-names-compute-and-web"></a>Примеры имен: COMPUTE и Web
 
-| Тип ресурса                  | Область видимости          | Формат                                                              | Примеры                                                                                                                          |
+| Тип ресурса                  | Область          | Формат                                                              | Примеры                                                                                                                          |
 |-----------------------------|----------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Виртуальная машина             | Группа ресурсов | vm\<policy name or appname\>\<\#\#\#\>                              | <ul><li>vmnavigator001 </li><li>vmsharepoint001 </li><li>vmsqlnode001 </li><li>vmhadoop001</li></ul>                              |
+| Виртуальная машина             | группа ресурсов. | vm\<policy name or appname\>\<\#\#\#\>                              | <ul><li>vmnavigator001 </li><li>vmsharepoint001 </li><li>vmsqlnode001 </li><li>vmhadoop001</li></ul>                              |
 | Учетная запись хранения виртуальных машин          | Global         | stvm\<performance type\>\<appname or prodname\>\<region\>\<\#\#\#\> | <ul><li>stvmstcoreeastus2001 </li><li>stvmpmcoreeastus2001 </li><li>stvmstplmeastus2001 </li><li>stvmsthadoopeastus2001</li></ul> |
 | Веб-приложение                     | Global         | Имя приложения\<приложения\>-\<Environment\>-\<\#\#\#\>. [{azurewebsites.net}]   | <ul><li>app-navigator-prod-001.azurewebsites.net </li><li>app-accountlookup-dev-001.azurewebsites.net</li></ul>                   |
 | Приложение-функция                | Global         | Func-\<имя приложения\>-\<Environment\>-\<\#\#\#\>. [{azurewebsites.net}]  | <ul><li>func-navigator-prod-001.azurewebsites.net </li><li>func-accountlookup-dev-001.azurewebsites.net</li></ul>                 |
 | облачная служба               | Global         | может быть\<имя приложения\>-\<Environment\>-\<\#\#\#\>. [{cloudapp.net}]        | <ul><li>could-navigator-prod-001.azurewebsites.net </li><li>could-accountlookup-dev-001.azurewebsites.net</li></ul>                   |
-| Концентратор уведомлений            | Группа ресурсов | NTF-\<имя приложения\>-\<среды\>                                    | <ul><li>NTF-Navigator-произв. </li><li>NTF-излучение-dev</li></ul>                                                                   |
+| Концентратор уведомлений            | группа ресурсов. | NTF-\<имя приложения\>-\<среды\>                                    | <ul><li>NTF-Navigator-произв. </li><li>NTF-излучение-dev</li></ul>                                                                   |
 | Пространство имен концентраторов уведомлений | Global         | нтфнс-\<имя приложения\>-\<среды\>                                  | <ul><li>нтфнс-Navigator-произв. </li><li>нтфнс-излучение-dev</li></ul>                                                               |
 
 ### <a name="example-names-databases"></a>Примеры имен: базы данных
 
-| Тип ресурса                     | Область видимости              | Формат                                 | Примеры                                                                  |
+| Тип ресурса                     | Область              | Формат                                 | Примеры                                                                  |
 |--------------------------------|--------------------|----------------------------------------|---------------------------------------------------------------------------|
 | сервер Базы данных SQL Azure;      | Global             | Имя приложения SQL-\<\>-\<среды\>       | <ul><li>SQL-Navigator-произв. </li><li>SQL-излучение-dev</li></ul>           |
 | База данных SQL Azure             | База данных SQL Azure | sqldb —\<имя базы данных > —\<среды\> | <ul><li>sqldb-Users-произв. </li><li>sqldb-Users-dev</li></ul>               |
@@ -283,26 +283,26 @@ ms.locfileid: "80069791"
 
 ### <a name="example-names-storage"></a>Примеры имен: хранилище
 
-| Тип ресурса                        | Область видимости  | Формат                                                                        | Примеры                                                              |
+| Тип ресурса                        | Область  | Формат                                                                        | Примеры                                                              |
 |-----------------------------------|--------|-------------------------------------------------------------------------------|-----------------------------------------------------------------------|
 | Учетная запись хранения (общее использование)     | Global | st\<storage name\>\<\#\#\#\>                                                  | <ul><li>stnavigatordata001 </li><li>stemissionsoutput001</li></ul>    |
 | Учетная запись хранения (журналы диагностики) | Global | stdiag\<first 2 letters of subscription name and number\>\<region\>\<\#\#\#\> | <ul><li>stdiagsh001eastus2001 </li><li>stdiagsh001westus001</li></ul> |
-| Azure StorSimple                  | Global | ssimp\<App Name\>\<Environment\>                                              | <ul><li>ssimpnavigatorprod </li><li>ssimpemissionsdev</li></ul>       |
+| StorSimple Azure                  | Global | ssimp\<App Name\>\<Environment\>                                              | <ul><li>ssimpnavigatorprod </li><li>ssimpemissionsdev</li></ul>       |
 
 ### <a name="example-names-ai--machine-learning"></a>Примеры имен: AI + Машинное обучение
 
-| Тип ресурса                       | Область видимости          | Формат                            | Примеры                                                          |
+| Тип ресурса                       | Область          | Формат                            | Примеры                                                          |
 |----------------------------------|----------------|-----------------------------------|-------------------------------------------------------------------|
 | Когнитивный поиск Azure           | Global         | srch-\<App Name\>-\<Environment\> | <ul><li>srch-navigator-prod </li><li>srch-emissions-dev</li></ul> |
-| Azure Cognitive Services         | Группа ресурсов | шестеренки-\<имя приложения\>-\<среды\>  | <ul><li>шестеренки-Navigator-произв. </li><li>шестеренки-излучение-dev</li></ul>   |
-| Рабочая область службы "Машинное обучение Azure" | Группа ресурсов | МЛВ-\<имя приложения\>-\<среды\>  | <ul><li>МЛВ-Navigator-произв. </li><li>МЛВ-излучение-dev</li></ul>   |
+| Azure Cognitive Services         | группа ресурсов. | шестеренки-\<имя приложения\>-\<среды\>  | <ul><li>шестеренки-Navigator-произв. </li><li>шестеренки-излучение-dev</li></ul>   |
+| Рабочая область службы "Машинное обучение Azure" | группа ресурсов. | МЛВ-\<имя приложения\>-\<среды\>  | <ul><li>МЛВ-Navigator-произв. </li><li>МЛВ-излучение-dev</li></ul>   |
 
 ### <a name="example-names-analytics-and-iot"></a>Примеры имен: аналитика и IoT
 
-| Тип ресурса                  | Область видимости          | Формат                              | Примеры                                                              |
+| Тип ресурса                  | Область          | Формат                              | Примеры                                                              |
 |-----------------------------|----------------|-------------------------------------|-----------------------------------------------------------------------|
 | Фабрика данных Azure          | Global         | ADF-\<имя приложения\>\<среды\>     | <ul><li>ADF-Navigator-произв. </li><li>ADF-излучени-dev</li></ul>       |
-| Azure Stream Analytics      | Группа ресурсов | asa-\<App Name\>-\<Environment\>    | <ul><li>asa-navigator-prod </li><li>asa-emissions-dev</li></ul>       |
+| Azure Stream Analytics      | группа ресурсов. | asa-\<App Name\>-\<Environment\>    | <ul><li>asa-navigator-prod </li><li>asa-emissions-dev</li></ul>       |
 | Учетная запись Data Lake Analytics | Global         | dla\<App Name\>\<Environment\>      | <ul><li>dlanavigatorprod </li><li>dlaemissionsdev</li></ul>           |
 | Учетная запись Data Lake Storage   | Global         | dls\<App Name\>\<Environment\>      | <ul><li>dlsnavigatorprod </li><li>dlsemissionsdev</li></ul>           |
 | концентратор событий;                   | Global         | evh-\<App Name\>-\<Environment\>    | <ul><li>evh-navigator-prod </li><li>evh-emissions-dev</li></ul>       |
@@ -314,7 +314,7 @@ ms.locfileid: "80069791"
 
 ### <a name="example-names-integration"></a>Примеры имен: интеграция
 
-| Тип ресурса        | Область видимости       | Формат                                                     | Примеры                                                      |
+| Тип ресурса        | Область       | Формат                                                     | Примеры                                                      |
 |-------------------|-------------|------------------------------------------------------------|---------------------------------------------------------------|
 | Служебная шина       | Global      | sb-\<App Name\>-\<Environment\>.[{servicebus.windows.net}] | <ul><li>sb-navigator-prod </li><li>sb-emissions-dev</li></ul> |
 | Очередь служебной шины | Служебная шина | sbq-\<query descriptor\>                                   | <ul><li>sbq-messagequery</li></ul>                            |

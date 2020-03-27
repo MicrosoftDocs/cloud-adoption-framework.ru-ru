@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7c2cfcc76153e999b2ca9d50b63cf0a72cfb2c14
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: cb514ea2395deef91e6eca802de630ad77926823
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77706920"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357094"
 ---
+<!-- cSpell:ignore CDO's CIO's -->
+
 # <a name="governance-guide-for-complex-enterprises-the-supporting-narrative"></a>Руководство по управлению для сложных предприятий: сопутствующие инструкции
 
 В следующем примере создается вариант использования для управления [во время облачного внедрения в облако](./index.md). Прежде чем приступать к рекомендациям в этом разделе, важно понимать предположения и причины, которые отражаются в этом пошаговом описании. Затем вы сможете лучше согласовать стратегию управления с Организацией по внедрению в облако в своей организации.

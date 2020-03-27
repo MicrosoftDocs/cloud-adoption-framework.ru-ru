@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 544c425e94e9fa2cc4a687608f0dece80b3e9251
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 38fb0523b2c5915a351223fdb603dbb0cacbf602
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77707889"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357150"
 ---
+<!-- cSpell:ignore prepurchases -->
+
 # <a name="cost-management-motivations-and-business-risks"></a>Мотивации и бизнес-риски дисциплины "Управление затратами"
 
 В этой статье рассматриваются причины применения клиентами дисциплины "Управление затратами" в рамках стратегии системы управления облаком. Здесь также приводится несколько примеров бизнес-рисков, которые могут привести в действие правила политики.
@@ -40,7 +42,7 @@ ms.locfileid: "77707889"
 - **Аномалии расходов:** Неожиданные пики в любом направлении могут быть индикаторами неправильного использования.
 - **Переподготавливающие активы:** При развертывании ресурсов в конфигурации, которая превышает потребности приложения или виртуальной машины, они могут создавать отходы.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 С помощью [шаблона управления облачными](./template.md)службами Задокументируйте бизнес-риски, которые, скорее всего, будут представлены текущим планом внедрения в облако.
 

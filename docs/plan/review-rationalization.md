@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: e38616b97f5026bd66de510cac12932290e276ba
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: aa544540c0bebb001f9256527a5f0ba388801c3c
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093260"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354801"
 ---
 # <a name="review-rationalization-decisions"></a>Просмотр решений о рационализации
 
@@ -68,7 +68,7 @@ ms.locfileid: "79093260"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Определите итерации и выпуски](./iteration-paths.md) , чтобы начать планирование работы.
+[Создание итераций и планов выпусков](./iteration-paths.md) для начала работы по планированию.
 
 > [!div class="nextstepaction"]
-> [Определите итерации и выпуски](./iteration-paths.md) , чтобы начать планирование работы.
+> [Создание итераций и планов выпусков](./iteration-paths.md) для начала работы по планированию.

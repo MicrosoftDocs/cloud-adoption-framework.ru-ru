@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3ba4cc99b210784c7503085234c25c1d9a0ae634
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: fe1bed4da302041998ec09efd2224be3d94fe3aa
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508004"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356714"
 ---
 # <a name="measure-for-customer-impact"></a>Оценка влияния на клиента
 
@@ -70,5 +70,7 @@ ms.locfileid: "79508004"
 
 > [!div class="nextstepaction"]
 > [Знакомство с клиентами](./learn.md)
+
+<!-- cSpell:ignore Ries -->
 
 Некоторые из концепций в этой статье посвящены темам, впервые описанным в руководстве по [экономичному запуску](http://theleanstartup.com/book), написанному при помощи функции RIES.

@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: e505b7794c9eeff94d746286e0d8cbb9f0cea86e
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: a22742755f9336fd1cbbae3bb4417314228a432d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171265"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356815"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 
@@ -39,26 +39,26 @@ ms.locfileid: "78171265"
 
 В Azure следующие средства обычно используются для ускорения цифровых Invention на предыдущих этапах:
 
-- Power BI
-- Каталог данных Azure
-- Хранилище данных SQL Azure
-- Azure Cosmos DB
-- База данных Azure для PostgreSQL
-- База данных Azure для MySQL
-- База данных Azure для MariaDB
-- Масштабирование базы данных Azure для PostgreSQL
-- Azure Data Lake;
-- Azure Database Migration Service
-- База данных SQL Azure с управляемыми экземплярами или без них
-- Фабрика данных Azure
-- Azure Stream Analytics
-- SQL Server Integration Services
-- Azure Stack
-- SQL Server Stretch Database
-- Microsoft Azure StorSimple
-- Файлы Azure
-- Служба синхронизации файлов Azure
-- PolyBase
+- [Power BI](https://docs.microsoft.com/power-bi)
+- [Каталог данных Azure](https://docs.microsoft.com/azure/data-catalog)
+- [Azure синапсе Analytics](https://docs.microsoft.com/azure/synapse-analytics)
+- [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db)
+- [База данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql)
+- [База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql)
+- [База данных Azure для MariaDB](https://docs.microsoft.com/azure/mariadb)
+- [Масштабирование базы данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-nodes)
+- [Azure Data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
+- [Azure Database Migration Service](https://docs.microsoft.com/azure/dms)
+- [База данных SQL Azure с управляемыми экземплярами или без них](https://docs.microsoft.com/azure/sql-database)
+- [Фабрика данных Azure](https://docs.microsoft.com/azure/data-factory).
+- [Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics)
+- [SQL Server Integration Services](https://docs.microsoft.com/sql/integration-services)
+- [Azure Stack](https://docs.microsoft.com/azure-stack)
+- [SQL Server Stretch Database](https://docs.microsoft.com/sql/sql-server/stretch-database)
+- [Microsoft Azure StorSimple](https://docs.microsoft.com/azure/storsimple)
+- [Файлы Azure](https://docs.microsoft.com/azure/storage/files)
+- [Служба "Синхронизация файлов Azure"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)
+- [PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase)
 
 Так как Invention приближается к внедрению в масштабе, для каждого решения требуется уточнение и техническая дата_вступл_в_силу. Как и в этом случае, скорее всего, потребуется больше этих служб. Используйте оглавление в левой части этой страницы для руководства по средствам Azure, относящиеся к процессу тестирования гипотезы.
 

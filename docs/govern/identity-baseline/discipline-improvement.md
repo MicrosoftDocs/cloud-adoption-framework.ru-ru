@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: cc8f2396e379180d213bd042d65f36e9eaef2828
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: 44b6c2dc910068f70645e54c372e3f4290d02669
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508123"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357000"
 ---
+<!-- cSpell:ignore offboarding preintegration -->
+
 # <a name="identity-baseline-discipline-improvement"></a>Улучшения дисциплины "Базовая система идентификации"
 
 Дисциплина "Базовая система идентификации" посвящена способам создания политик, гарантирующих согласованность и непрерывность идентификаторов пользователей независимо от поставщика облачных служб, который размещает приложение или рабочую нагрузку. В рамках пяти дисциплин управления облаком базовая система идентификации включает в себя решения в отношении [стратегии гибридной идентификации](../../decision-guides/identity/index.md), оценки и расширения репозиториев идентификаторов, реализации единого входа, аудита и мониторинга несанкционированного использования или действий злоумышленников. В некоторых случаях она также может включать решения по модернизации, консолидации или интеграции нескольких поставщиков удостоверений.

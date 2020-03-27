@@ -7,12 +7,12 @@ ms.date: 5/19/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 18b247665b8a371a9949ebaf838d3833a56067a3
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 063fc4074a7b5972b6b2938abdcb90937412e832
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092492"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353549"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -66,7 +66,7 @@ ms.locfileid: "79092492"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-После начала первого проекта внедрения облачных технологий группа облачных стратегий может превратить свое внимание в долгосрочный [план внедрения в облако](../plan/index.md).
+Узнайте о стратегиях [балансировки конкурирующих приоритетов](./balance-competing-priorities.md).
 
 > [!div class="nextstepaction"]
-> [Создание плана внедрения в облако](../plan/index.md)
+> [Балансировка приоритетов конкурирующих задач](./balance-competing-priorities.md)

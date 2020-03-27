@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: a27ef0d432fc0aad64211e9b2228d4f82387f854
-ms.sourcegitcommit: 5d7e93540a679252f1c7207e62cb2ee7213a6ae9
+ms.openlocfilehash: 9173909afb7ffe625a28ec72255c15540dcf7c63
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80069810"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353529"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -52,9 +52,9 @@ ms.locfileid: "80069810"
 
 Еще более ценная метрика — это количество панелей мониторинга, созданных из Объединенных источников данных. Это число отражает бизнес-процессы текущего состояния, затрагиваемые новыми источниками данных. Благодаря общему доступу к новым источникам данных ваш бизнес может использовать их, используя средства создания отчетов, такие как Power BI для получения добавочной аналитической информации и изменения бизнес-изменений.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-После согласования метрик обучения можно приступить к [созданию бизнес-сценария](cloud-migration-business-case.md) для предоставления этих метрик. 
+После согласования метрик обучения можно приступить к [созданию бизнес-сценария](.\cloud-migration-business-case.md) для предоставления этих метрик.
 
 > [!div class="nextstepaction"]
-> [Создание облачного бизнес-случая](cloud-migration-business-case.md)
+> [Создание облачного бизнес-случая](.\cloud-migration-business-case.md)

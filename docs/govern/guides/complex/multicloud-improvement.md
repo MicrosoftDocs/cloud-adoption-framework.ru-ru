@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9f4b11023e8b345283054c0ddede132f10664632
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 05ee11a452044157458d5c27f3f1f522f0f1e617
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223921"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357085"
 ---
+<!-- cSpell:ignore MPLS -->
+
 # <a name="governance-guide-for-complex-enterprises-multicloud-improvement"></a>Руководство по управлению для сложных предприятий: улучшение в облаке
 
 ## <a name="advancing-the-narrative"></a>Будущие описания
@@ -81,7 +83,7 @@ ms.locfileid: "78223921"
 
 Включение в составе облака должно содержаться в том месте, где оно требуется, исходя из технических требований или конкретных бизнес-требований. По мере роста многооблачного внедрения повышает сложность и риски безопасности.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Во многих крупных предприятиях пять дисциплин управления облаком могут быть заблокированы для внедрения. В следующей статье содержатся некоторые дополнительные соображения о том, как сделать управление участником группы, чтобы обеспечить долгосрочное успешность в облаке.
 

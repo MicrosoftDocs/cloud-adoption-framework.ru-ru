@@ -7,12 +7,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: dd8030c884b6c5b66c733080d26f29bb8319740e
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: 6e5296ac6350df0d6894ad740a70e49a5ee7eae0
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508412"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354179"
 ---
 # <a name="best-practices-for-costing-and-sizing-workloads-migrated-to-azure"></a>Рекомендации по оценке затрат на рабочие нагрузки, перенесенные в Azure, и определению их размеров
 
@@ -243,7 +243,7 @@ Azure предоставляет различные типы учетных за
 - [Общие сведения о службе "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management/overview).
 - [Как оптимизировать инвестиции в облако с помощью службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices)
 - [Использование отчетов службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management/use-reports).
-- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/billing/TOC.json).
+- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/billing/toc.json).
 - [Обзор API потребления ресурсов Azure](https://docs.microsoft.com/rest/api/consumption/budgets).
 
 ## <a name="best-practice-monitor-resource-utilization"></a>Рекомендации: мониторинг использования ресурсов
@@ -260,7 +260,7 @@ Azure предоставляет различные типы учетных за
 
 - Общие сведения о [службе Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) и [Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview).
 - [Рекомендации Azure Advisor по затратам](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations).
-- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/billing/TOC.json) и [Предотвращение непредвиденных расходов с помощью функции выставления счетов и управления затратами в Azure](https://docs.microsoft.com/azure/billing/billing-getting-started).
+- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/billing/toc.json) и [Предотвращение непредвиденных расходов с помощью функции выставления счетов и управления затратами в Azure](https://docs.microsoft.com/azure/billing/billing-getting-started).
 - Узнайте о [наборе средств оптимизации ресурсов Azure (ARO)](https://github.com/Azure/azure-quickstart-templates/tree/master/azure-resource-optimization-toolkit).
 
 ## <a name="best-practice-implement-resource-group-budgets"></a>Рекомендации. Реализация бюджетов групп ресурсов
@@ -273,7 +273,7 @@ Azure предоставляет различные типы учетных за
 **Дополнительные сведения**
 
 - [Управление затратами с помощью API управления бюджетом Azure](https://docs.microsoft.com/azure/billing/billing-cost-management-budget-scenario).
-- [Руководство. Создание и управление бюджетами Azure](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/billing/TOC.json).
+- [Руководство. Создание и управление бюджетами Azure](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/billing/toc.json).
 
 ## <a name="best-practice-optimize-azure-monitor-retention"></a>Рекомендации: Оптимизация хранения Azure Monitor
 

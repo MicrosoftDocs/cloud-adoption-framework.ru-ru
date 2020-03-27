@@ -7,42 +7,43 @@ ms.date: 03/23/2020
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7e078bbeea12c71997474d372b0b6b838ed5f4a3
-ms.sourcegitcommit: a1209c9dab369171e1fe0cdc6a58e3f6ae6a8f22
+ms.openlocfilehash: fe1dcc215c318ef35c7a1d19af50b1451eb1935d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "80261541"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356222"
 ---
+<!-- cSpell:ignore kusto ITIL -->
+
 # <a name="skills-readiness-for-cloud-monitoring"></a>Готовность навыков мониторинга в облаке
 
-На этапе планирования процесса миграции цель состоит в разработке планов, необходимых для пошагового внедрения. Эти планы также должны включать в себя способ работы с этими рабочими нагрузками перед их переходом или выпуском в рабочую среду, а не впоследствии. ИТ-заинтересованные лица предполагают наличие ценных услуг и предполагают их без перерывов в работе. Сотрудники отдела ИТ понимают, что им нужно изучить новые навыки и адаптировать их, чтобы они были готовы к эффективному изучению интегрированных служб Azure для эффективного мониторинга ресурсов в Azure и гибридных средах. 
+На этапе планирования процесса миграции цель состоит в разработке планов, необходимых для пошагового внедрения. Эти планы также должны включать в себя способ работы с этими рабочими нагрузками перед их переходом или выпуском в рабочую среду, а не впоследствии. ИТ-заинтересованные лица предполагают наличие ценных услуг и предполагают их без перерывов в работе. Сотрудники отдела ИТ понимают, что им нужно изучить новые навыки и адаптировать их, чтобы они были готовы к эффективному изучению интегрированных служб Azure для эффективного мониторинга ресурсов в Azure и гибридных средах.
 
 Чтобы ускорить развитие необходимых навыков, можно использовать следующие схемы обучения:
 
 - Общие сведения о [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
-- Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](https://docs.microsoft.com//learn/paths/implement-resource-mgmt-security/). 
+- Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](https://docs.microsoft.com//learn/paths/implement-resource-mgmt-security).
 
 - Введение в [политику Azure](https://docs.microsoft.com/azure/governance/policy/overview) поможет вам узнать, как использовать политику Azure для создания и назначения политик, а также управления ими. Политика Azure позволяет развертывать и настраивать агенты Azure Monitor, включать мониторинг с помощью Azure Monitor для виртуальных машин и центра безопасности Azure, развертывать параметры диагностики, проверять параметры гостевой конфигурации и многое другое.
 
 - Общие сведения о [интерфейсе командной строки Azure](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) (CLI), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](https://docs.microsoft.com/powershell/azure/?view=azps-3.6.1). Предложения LinkedIn в рамках [обучающего курса обучение средствам управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), семинарам, охватывающим Azure CLI и языки программирования PowerShell:
 
-   - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
-   
-   - [Приступая к работе с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell) 
+  - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
+  - [Приступая к работе с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
 
 - Узнайте, как создавать [запросы журналов в Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries).  Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение.
 
 - Узнайте, как [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) помогает просматривать доступность и производительность приложений и служб вместе в одном месте. Pluralsight предлагает следующие курсы, которые помогут вам:
 
-   - [Microsoft Azure мониторинг и управления IaaS](https://www.pluralsight.com/courses/azure-iaas-monitoring-management-getting-started) позволяет узнать, как использовать Azure Monitor для выполнения базового мониторинга рабочих нагрузок, выполняемых в IaaS.
+  - [Microsoft Azure мониторинг и управления IaaS](https://www.pluralsight.com/courses/azure-iaas-monitoring-management-getting-started) позволяет узнать, как использовать Azure Monitor для выполнения базового мониторинга рабочих нагрузок, выполняемых в IaaS.
 
-   - [Мониторинг Microsoft Azure ресурсов и рабочих нагрузок](https://www.pluralsight.com/courses/microsoft-azure-resources-workloads-monitoring) поможет вам узнать, как использовать средства мониторинга Microsoft Azure для мониторинга сети Azure (а также локальных) ресурсов.
+  - [Мониторинг Microsoft Azure ресурсов и рабочих нагрузок](https://www.pluralsight.com/courses/microsoft-azure-resources-workloads-monitoring) поможет вам узнать, как использовать средства мониторинга Microsoft Azure для мониторинга сети Azure (а также локальных) ресурсов.
 
-   - [Microsoft Azure инженер DevOps: оптимизация механизмов обратной связи](https://www.pluralsight.com/courses/microsoft-azure-optimize-feedback-mechanisms) поможет вам подготовиться к использованию Azure Monitor, включая Application Insights и log Analytics для мониторинга и оптимизации веб-приложений.
+  - [Microsoft Azure инженер DevOps: оптимизация механизмов обратной связи](https://www.pluralsight.com/courses/microsoft-azure-optimize-feedback-mechanisms) поможет вам подготовиться к использованию Azure Monitor, включая Application Insights и log Analytics для мониторинга и оптимизации веб-приложений.
 
-   - [Microsoft Azure мониторинга базы данных сборник тренировочных заданий](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) поможет вам узнать, как реализовать и использовать мониторинг базы данных SQL Azure, хранилища данных SQL azure и Azure Cosmos DB.
+  - [Microsoft Azure мониторинга базы данных сборник тренировочных заданий](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) поможет вам узнать, как реализовать и использовать мониторинг базы данных SQL Azure, хранилища данных SQL azure и Azure Cosmos DB.
 
 - С помощью [дуги Azure для серверов](https://docs.microsoft.com/azure/azure-arc/servers/overview)вы узнаете, как управлять компьютерами под управлением Windows и Linux, размещенными за пределами Azure, аналогично управлению собственными виртуальными машинами Azure.
 
@@ -60,19 +61,19 @@ ms.locfileid: "80261541"
 
 ## <a name="azure-devops-and-project-management"></a>Управление DevOps и проектом Azure
 
-Гибридная облачная среда прерывает работу с неопределенными ролями, обязанностями и действиями. Организациям необходимо перейти на современные методики управления службами, в том числе гибкие и DevOps методологии, чтобы лучше удовлетворить потребности преобразования и оптимизации современных бизнес-процессов с оптимизацией и эффективным способом. 
+Гибридная облачная среда прерывает работу с неопределенными ролями, обязанностями и действиями. Организациям необходимо перейти на современные методики управления службами, в том числе гибкие и DevOps методологии, чтобы лучше удовлетворить потребности преобразования и оптимизации современных бизнес-процессов с оптимизацией и эффективным способом.
 
 В рамках миграции на облачную платформу мониторинга ИТ-группа, ответственная за управление мониторингом в Организации, должна включать в себя гибкие возможности обучения и участия в действиях DevOps. Это также *относится к разработке в DevOps* , принимая требования и применяя их к гибким требованиям, чтобы обеспечить минимально приемлемые решения для мониторинга, которые последовательно обновляются и в соответствии с потребностями бизнеса. Чтобы система управления версиями управляла пакетами решений итеративного мониторинга и другими связанными материалами, подключите проект Azure DevOps Server к репозиторию GitHub Enterprise Server. Это обеспечивает связь между фиксациями и запросами на вытягивание для рабочих элементов GitHub. Вы можете использовать GitHub Enterprise для разработки при интеграции и развертывании непрерывного мониторинга, используя Azure Boards для планирования и отслеживания работы.
 
 Чтобы узнать больше, ознакомьтесь со следующими сведениями.
 
-- Приступая [к работе с Azure DevOps](https://docs.microsoft.com/learn/modules/get-started-with-devops/). 
+- Приступая [к работе с Azure DevOps](https://docs.microsoft.com/learn/modules/get-started-with-devops).
 
-- [Дополнительные сведения о DevOps Dojo (Белая лента Foundation)](https://docs.microsoft.com/learn/paths/devops-dojo-white-belt-foundation/)
+- [Дополнительные сведения о DevOps Dojo (Белая лента Foundation)](https://docs.microsoft.com/learn/paths/devops-dojo-white-belt-foundation)
 
-- [Развивайте свои методики DevOps](https://docs.microsoft.com/learn/paths/evolve-your-devops-practices/)
+- [Развивайте свои методики DevOps](https://docs.microsoft.com/learn/paths/evolve-your-devops-practices)
 
-- [Автоматизация развертывания с помощью Azure DevOps](https://docs.microsoft.com/learn/paths/automate-deployments-azure-devops/)
+- [Автоматизация развертывания с помощью Azure DevOps](https://docs.microsoft.com/learn/paths/automate-deployments-azure-devops)
 
 ## <a name="other-considerations"></a>Другие вопросы
 

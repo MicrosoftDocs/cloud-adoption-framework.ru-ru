@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: b44a5d9c8e0447488abd500afeaa70fb87a819b1
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 3130494f151897d005a5ded28268d056f15bd15c
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311954"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355960"
 ---
 <!-- cSpell:ignore SQLVM OSTICKETWEB OSTICKETMYSQL contosohost contosodc vcenter WEBVM systemctl NSGs -->
 
@@ -92,7 +92,7 @@ Contoso будет осуществлять миграцию следующим 
 --- | --- | ---
 [Миграция сервера службы "Миграция Azure"](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-linux-vm) | Служба управляет переносом локальных приложений и рабочих нагрузок, а также экземпляров виртуальных машин AWS/GCP. | Во время репликации в Azure взимается плата за службу хранилища Azure. При отработке отказа создаются виртуальные машины Azure, за которые взимается плата. Дополнительные сведения о ценах см. на [этой странице](https://azure.microsoft.com/pricing/details/azure-migrate).
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>предварительные требования
 
 Ниже приведены действия компании Contoso, необходимые для этого сценария.
 
@@ -259,7 +259,7 @@ Contoso будет осуществлять миграцию следующим 
 
 3. Специалисты компании перезапускают службу с помощью команды **systemctl перезапустите apache2**.
 
-    !["Перезапуск"](./media/contoso-migration-rehost-linux-vm/restart.png)
+    ![Перезагрузить](./media/contoso-migration-rehost-linux-vm/restart.png)
 
 4. Наконец, они обновляют записи DNS для **OSTICKETWEB** и **OSTICKETMYSQL** на одном из контроллеров домена Contoso.
 
@@ -288,9 +288,9 @@ Contoso будет осуществлять миграцию следующим 
 
 Теперь, когда приложение работает, компании Contoso необходимо полностью ввести его в эксплуатацию и защитить свою новую инфраструктуру.
 
-### <a name="security"></a>Безопасность
+### <a name="security"></a>безопасность
 
-Специалисты по безопасности компании Contoso проверяют виртуальные машины OSTICKETWEB и OSTICKETMYSQL на наличие любых проблем с безопасностью.
+Группа безопасности Contoso просматривает виртуальные машины ОСТИККЕТВЕБ и ОСТИККЕТМИСКЛ, чтобы определить проблемы безопасности.
 
 - Чтобы можно было управлять доступом, команда проверяет группы безопасности сети (NSG) для виртуальных машин. NSG позволяют пропускать только разрешенный для приложения трафик.
 - Команда также анализирует возможность защиты данных на диске виртуальной машины с помощью шифрования дисков и Azure KeyVault.

@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 2048a302c717ba51b674e50ffdcfe334ba14e101
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: cdaf9eaba2c7f8df6430dc3ef359e146515437fb
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094758"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356395"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 
@@ -47,7 +47,7 @@ $AllowedLocationPolicy = Get-AzPolicyDefinition -Name "e56962a6-4747-49cd-b67b-b
 
 #Replace the locations with the ones you want to specify.
 $policyParam = '{"listOfAllowedLocations":{"value":["eastus","westus"]}}'
-New-AzPolicyAssignment -Name "Allowed Location" -DisplayName "Allowed locations for resource creation" -Scope $scope -PolicyDefinition $AllowedLocationPolicy -Location eastus -PolicyParameter $policyparam
+New-AzPolicyAssignment -Name "Allowed Location" -DisplayName "Allowed locations for resource creation" -Scope $scope -PolicyDefinition $AllowedLocationPolicy -Location eastus -PolicyParameter $policyParam
 ```
 
 Этот сценарий также можно использовать для применения других политик, описанных в этой статье. Просто замените GUID в строке, которая задает `$AllowedLocationPolicy` с идентификатором GUID политики, которую необходимо применить.
@@ -83,7 +83,7 @@ $scope = "/subscriptions/$SubscriptionID"
 
 $AntimalwarePolicy = Get-AzPolicyDefinition -Name "2835b622-407b-4114-9198-6f7064cbe0dc"
 
-#Replace location “eastus” with the value that you want to use.
+#Replace location "eastus" with the value that you want to use.
 New-AzPolicyAssignment -Name "Deploy Antimalware" -DisplayName "Deploy default Microsoft IaaSAntimalware extension for Windows Server" -Scope $scope -PolicyDefinition $AntimalwarePolicy -Location eastus –AssignIdentity
 
 ```

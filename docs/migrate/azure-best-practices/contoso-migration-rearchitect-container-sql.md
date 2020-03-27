@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 37bf2a4d96cc1f60b351f40f6a2c51c2ea1dcf95
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 83a5c356f5144700173fa4df593e313e44e3172f
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311648"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356360"
 ---
 <!-- cSpell:ignore reqs contosohost contosodc contosoacreus contososmarthotel smarthotel vcenter WEBVM SQLVM -->
 
 # <a name="rearchitect-an-on-premises-app-to-an-azure-container-and-azure-sql-database"></a>Повторное проектирование локального приложения на контейнеры Azure и Базу данных SQL Azure
 
-В этой статье показано, как вымышленная компания Contoso перепроектирует двухуровневое приложение .NET для Windows, работающее на виртуальных машинах VMware, в процессе миграции на платформу Azure. Contoso переносит интерфейсную виртуальную машину в контейнер Azure для Windows, а базу данных приложения — в базу данных Azure SQL.
+В этой статье показано, как вымышленная компания Contoso перерабатывает приложение с двумя уровнями Windows .NET, работающее на виртуальных машинах VMware, в рамках миграции в Azure. Contoso переносит интерфейсную виртуальную машину в контейнер Azure для Windows, а базу данных приложения — в базу данных Azure SQL.
 
 Приложение SmartHotel360, используемое в этом примере, предоставляется в виде открытого кода. Если вы хотите использовать его для тестирования, то можете скачать это приложение с сайта [GitHub](https://github.com/Microsoft/SmartHotel360).
 
@@ -109,7 +109,7 @@ ms.locfileid: "79311648"
 [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) | Эта служба предназначена для создания и использования постоянно доступных, масштабируемых и распределенных приложений. | Стоимость зависит от размера, расположения и продолжительности работы вычислительных узлов. [Дополнительные сведения](https://azure.microsoft.com/pricing/details/service-fabric)
 [Azure DevOps](https://docs.microsoft.com/azure/azure-portal/tutorial-azureportal-devops) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер запускается с репозиторием Git для управления кодом приложения, системой сборки для создания пакетов и других артефактов сборки и системой управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>предварительные требования
 
 Ниже показано, что необходимо компании Contoso для реализации этого сценария.
 
@@ -597,7 +597,7 @@ ms.locfileid: "79311648"
 
 Теперь, когда выполняется миграция ресурсов в Azure, компании Contoso необходимо полностью ввести его в эксплуатацию и защитить свою новую инфраструктуру.
 
-### <a name="security"></a>Безопасность
+### <a name="security"></a>безопасность
 
 - Администраторам Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Дополнительные сведения](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview)
 - В частности, нужно обновить контейнер для использования SSL с сертификатами.

@@ -8,13 +8,15 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a83e2b8a0892e216106890e0bed0066be527e974
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: a9c09aaf915a7f008cde80ebdc050ee95bbf7430
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709266"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80357013"
 ---
+<!-- cSpell:ignore MPLS -->
+
 # <a name="standard-enterprise-governance-guide-multicloud-improvement"></a>Стандартное руководство по корпоративному управлению: улучшение в облаке
 
 В этой статье описано, как добавить элементы управления для внедрения в облако.
@@ -32,7 +34,7 @@ ms.locfileid: "77709266"
 С того времени изменились некоторые факторы, влияющие на систему управления.
 
 - Удостоверением управляет локальный экземпляр Active Directory. Благодаря репликации в Azure Active Directory процесс гибридной идентификации стал проще.
-- В основном управление ИТ-операциями или облачными операциями выполняется службой Azure Monitor и связанными с ней службами автоматизации.
+- ИТ операции или облачные операции во многом управляются Azure Monitor и связанными автоматизированными процессами.
 - Аварийное восстановление и непрерывность бизнес-процессов контролируются экземплярами хранилища Azure.
 - Центр безопасности Azure используется для мониторинга нарушений и атак безопасности.
 - Центр безопасности Azure и Azure Monitor используются для мониторинга системы управления в облаке.

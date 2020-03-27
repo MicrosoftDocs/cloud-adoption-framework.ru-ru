@@ -8,13 +8,15 @@ ms.topic: guide
 ms.date: 03/20/2020
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 54d1af4e3f4c0669548638451544de9c6678481a
-ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
+ms.openlocfilehash: 317119a6bdc2e2057c37c78b773cab5f9052fa81
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80226585"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356590"
 ---
+<!-- cSpell:ignore asabbour sabbour autoscaler Istio Linkerd -->
+
 # <a name="application-development-and-deployment"></a>Разработка и развертывание приложений
 
 Изучите шаблоны и методики разработки приложений, настройте конвейеры DevOps и реализуйте рекомендации по проектированию надежности сайта (выполняются).

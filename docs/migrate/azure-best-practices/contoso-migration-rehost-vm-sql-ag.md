@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: bc530c3f97b26a519198ef7b9ddc1fce967fbed6
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 67b0db7d1f85ef38972df273c1fa722f426d208d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311546"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356209"
 ---
+<!-- cSpell:ignore NSGs WEBVM SQLVM contosoadmin contosohost contosodc contosovmsacc cswiz vcenter iisreset inetpub SQLAOG shaog sourcedb SQLAOGAVSET contosocloudwitness BEPOOL MSSQLSERVER alwayson -->
+
 # <a name="rehost-an-on-premises-app-with-azure-virtual-machines-and-sql-server-always-on-availability-groups"></a>Повторное размещение локального приложения с помощью виртуальных машин Azure и SQL Server группы доступности Always On
 
 В этой статье показано, как вымышленная компания Contoso в процессе миграции в Azure повторно размещает двухуровневый приложение Windows .NET, работающее на виртуальных машинах VMware. Компания Contoso переносит интерфейсную виртуальную машину приложения на виртуальную машину Azure, а базу данных приложений — на виртуальную машину SQL Server в Azure, запущенную в отказоустойчивом кластере Windows Server с группами доступности SQL Server AlwaysOn.
@@ -113,7 +115,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 ![Процесс миграции](media/contoso-migration-rehost-vm-sql-ag/migration-process.png)
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>предварительные требования
 
 Ниже указано, что необходимо сделать компании Contoso в этом сценарии.
 
@@ -284,7 +286,7 @@ Contoso оценивает предлагаемый дизайн, составл
 2. Они устанавливают пробу для мониторинга виртуальных машин на TCP-порте 59999.
 3. Они устанавливают интервал 5 секунд между пробами и пороговое значение 2. При сбое двух проб виртуальная машина будет считаться неработоспособной.
 
-    ![Зонд](media/contoso-migration-rehost-vm-sql-ag/nlb-probe.png)
+    ![Проба](media/contoso-migration-rehost-vm-sql-ag/nlb-probe.png)
 
 ### <a name="configure-the-load-balancer-to-receive-traffic"></a>Настройка распределителя нагрузки для приема трафика
 
@@ -300,7 +302,7 @@ Contoso оценивает предлагаемый дизайн, составл
 3. Они определяют внутренний пул, в который будет передаваться трафик, и порт, на котором виртуальные машины ожидают передачи данных трафика.
 4. Они включают плавающий IP-адрес (прямой ответ от сервера). Это всегда необходимо для SQL AlwaysOn.
 
-    ![Зонд](media/contoso-migration-rehost-vm-sql-ag/nlb-probe.png)
+    ![Проба](media/contoso-migration-rehost-vm-sql-ag/nlb-probe.png)
 
 **Нужна дополнительная помощь?**
 
@@ -650,7 +652,7 @@ DMA подключается к локальной виртуальной маш
 
 Теперь, когда выполняется миграция ресурсов в Azure, компании Contoso необходимо полностью ввести его в эксплуатацию и защитить свою новую инфраструктуру.
 
-### <a name="security"></a>Безопасность
+### <a name="security"></a>безопасность
 
 Специалисты по безопасности компании Contoso проверяют виртуальные машины Azure, WEBVM, SQLAOG1 и SQLAOG2, чтобы выявить любые проблемы безопасности.
 

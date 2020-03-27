@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 064016bddcf8c78e1b722397a9f18c71a0485776
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: a1201c3e1bf05f7fc704b1a12744d8f031607169
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170772"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356822"
 ---
 # <a name="tools-to-predict-and-influence-data-in-azure"></a>Средства для прогнозирования и влияния на данные в Azure
 
@@ -34,10 +34,10 @@ ms.locfileid: "78170772"
 
 В Azure следующие средства обычно используются для ускорения цифровых Invention на каждом из предыдущих фаз:
 
-- Машинное обучение Azure
-- Azure HDInsight
-- Масштабируемый R Hadoop
-- Хранилище данных SQL Azure
+- [Машинное обучение Azure](https://docs.microsoft.com/azure/machine-learning)
+- [Azure HDInsight](https://docs.microsoft.com/azure/hdinsight)
+- [Масштабируемый R Hadoop](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-r-scaler-sparkr)
+- [Azure синапсе Analytics](https://docs.microsoft.com/azure/synapse-analytics)
 
 Использование каждого из этих средств с каждым этапом прогнозирования и влияния отражается в руководстве в оглавлении в левой части этой страницы.
 

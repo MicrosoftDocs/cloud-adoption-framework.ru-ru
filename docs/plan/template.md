@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 243094da7b92a374124474eaaf0c955b5fdb85ed
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: fb35c059f3c3c6c9485d70a78a2c3fa1b49dc10d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140609"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354760"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
 
@@ -30,7 +30,7 @@ Azure DevOps — это набор облачных средств для кли
 4. Выберите **создать проект** , чтобы создать новый проект в клиенте на основе шаблона плана. Индикатор выполнения показывает ход выполнения развертывания проекта.
 5. После завершения развертывания выберите **Переход к проекту** , чтобы увидеть новый проект.
 
-После создания проекта перейдите к этой статье, чтобы увидеть, как можно изменить шаблон, чтобы он совпадал с планом внедрения в облако.
+После создания проекта перейдите к этой статье, чтобы узнать, как изменить шаблон в соответствии с планом внедрения в облако.
 
 Дополнительную техническую поддержку и рекомендации по этому средству см. в разделе [Azure DevOps Services демонстрационный генератор](https://docs.microsoft.com/azure/devops/demo-gen/?toc=/azure/devops/demo-gen/toc.json&bc=/azure/devops/demo-gen/breadcrumb/toc.json&view=azure-devops).
 

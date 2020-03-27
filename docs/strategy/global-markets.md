@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 267408d4634bbed9c6bb9c8884e2af395f5df4d9
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: e2e0399f227f69ef1ae27b6b23a847a6508650d4
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337838"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353486"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -40,10 +40,9 @@ ms.locfileid: "78337838"
 
 Важно понимать закономерности использования внешних пользователей, таких как клиенты или партнеры. Подобно шаблонам использования сотрудников, шаблоны использования внешних пользователей могут негативно повлиять на производительность облачных развертываний. Если большая или критически важная база пользователей находится в иностранной стране, то в общую структуру решения можно включить глобальную стратегию развертывания.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-После того как глобальные решения на рынке были приняты и переданы, Группа готова начать [установку технических стандартов](../digital-estate/index.md) для этих метрик.
-Результатом будет невыполненная [работа преобразования или невыполненная миграция](..//migrate/migration-considerations/prerequisites/technical-complexity.md).
+Узнайте о [навыках, необходимых на этапе стратегии](./suggested-skills.md) в пути внедрения в облако.
 
 > [!div class="nextstepaction"]
-> [Оценка цифрового пространства](../digital-estate/index.md)
+> [Навыки, относящиеся к стратегии](./suggested-skills.md)

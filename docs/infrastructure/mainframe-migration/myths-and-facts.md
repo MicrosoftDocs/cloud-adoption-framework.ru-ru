@@ -7,13 +7,15 @@ ms.date: 12/27/2018
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 101ce6ef12ca9f9c686075c6e839a8353bc93da8
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 35cd68a317ae3c4d49c961d020d6e803f387741d
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171316"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356875"
 ---
+<!-- cSpell:ignore njray nanra chargebacks IPLs -->
+
 # <a name="mainframe-myths-and-facts"></a>Мифы и факты о мейнфрейме
 
 Мейнфреймы занимают видное место в истории вычислительной техники и остаются жизнеспособными для высокоспециализированных рабочих нагрузок. Большинство согласятся с тем, что мэйнфреймы являются проверенной платформой с давно установленными операционными процедурами, которые делают их среды надежными и гибкими. Программное обеспечение выполняется на основе использования, которое измеряется в миллионах инструкций в секунду (MIPS), и подробные отчеты об использовании доступны для получения возмещений.

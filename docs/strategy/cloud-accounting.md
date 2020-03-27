@@ -7,13 +7,15 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 0ccff095f78442f583bcd526ee624161276c0db3
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 4458cdb4cf5b63a6ed8bb6cb2d17020c948d0702
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092872"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354076"
 ---
+<!-- cSpell:ignore CIOs -->
+
 <!-- markdownlint-disable MD026 -->
 
 # <a name="what-is-cloud-accounting"></a>Что такое учет в облаке?
@@ -58,7 +60,7 @@ ms.locfileid: "79092872"
 
 В структуре системы очень важно выбрать модели учета. Выбор модели учета может повлиять на стратегии подписок, стандарты именования, стандарты тегов, а также схемы политик и схем.
 
-После того как вы работали с бизнесом, чтобы принимать решения о облачной модели бухгалтерского учета и [глобальных рынках](./global-markets.md), у вас есть достаточные сведения для [разработки Azure Foundation](../ready/index.md).
+После того как вы работали с бизнесом, чтобы принимать решения о облачной модели бухгалтерского учета и [глобальных рынках](./global-markets.md), у вас есть достаточные сведения для [выбора первого проекта внедрения в облако](./first-adoption-project.md).
 
 > [!div class="nextstepaction"]
-> [Разработка Azure Foundation](../ready/index.md)
+> [Выберите свой первый проект внедрения в облако](./first-adoption-project.md)

@@ -7,12 +7,12 @@ ms.date: 03/02/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 0e93f0279ba210be594b3b5af40cf16657f224e3
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: a3e316d49acaaee00d5ecd10efac9aa15c2dbd49
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79095313"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353679"
 ---
 # <a name="whats-new-in-the-microsoft-cloud-adoption-framework"></a>Новые возможности платформы внедрения Microsoft Cloud
 
@@ -39,7 +39,7 @@ ms.locfileid: "79095313"
 - [Первая целевая зона](../ready/landing-zone/first-landing-zone.md): раскрывает сравнение различных зон размещения.
 - [Миграция целевой зоны](../ready/landing-zone/migrate-landing-zone.md): перемещена статья о схеме с предыдущей целевой зоной, чтобы отделить определение схемы КАФ от выбора первой целевой зоны, чтобы обеспечить дополнительные параметры зоны размещения.
 - [Terraform Главная зона](../ready/landing-zone/terraform-landing-zone.md) : перемещено из раздела "развернутая область" методологии готовности в новый раздел "Главная зона" методологии готовности для того, чтобы Terraformся от первого класса в диалоге "Целевая зона".
-- Сгруппируйте основные вопросы о целевой зоне в ОГЛАВЛЕНИи в разделе "основные рекомендации по основным зонам".
+- Сгруппируйте основные вопросы о целевой зоне в содержании в разделе "основные рекомендации по основным зонам".
 - Перемещены рекомендации по обеспечению безопасности из методологии миграции в раздел "повышение безопасности зоны размещения (конфиденциальные данные)", чтобы предоставить читателям доступ к этому руководству ранее в жизненном цикле.
 
 ### <a name="refinements-to-the-azure-migration-guide"></a>Усовершенствования в руководством по миграции Azure

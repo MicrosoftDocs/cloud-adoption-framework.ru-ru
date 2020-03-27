@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 7a8b70d43ef68137418f0c2cfc731871561844f0
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: a3874de7d2dc78edfcf9e483661748749856cc17
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311376"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355748"
 ---
+<!-- cSpell:ignore NSGs WEBVM SQLVM contosohost vcenter contosodc agentless -->
+
 # <a name="rehost-an-on-premises-app-on-azure-vms"></a>Повторное размещение локального приложения на виртуальных машинах Azure
 
 В этой статье показано, как вымышленная компания Contoso повторно размещает двухуровневое интерфейсное приложение .NET для Windows, работающее на виртуальных машинах VMware, в выполнив миграцию виртуальных машин приложения на виртуальные машины Azure.
@@ -96,7 +98,7 @@ ms.locfileid: "79311376"
 --- | --- | ---
 [Миграция сервера службы "Миграция Azure"](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm) | Служба управляет переносом локальных приложений и рабочих нагрузок, а также экземпляров виртуальных машин AWS/GCP. | Во время репликации в Azure взимается плата за службу хранилища Azure. При отработке отказа создаются виртуальные машины Azure, за которые взимается плата. Дополнительные сведения о ценах см. на [этой странице](https://azure.microsoft.com/pricing/details/azure-migrate).
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>предварительные требования
 
 Ниже показано, что необходимо сделать специалистам компании Contoso, чтобы реализовать этот сценарий.
 
@@ -275,7 +277,7 @@ ms.locfileid: "79311376"
 
 Теперь, когда приложение работает, компании Contoso необходимо полностью ввести его в эксплуатацию и защитить его в Azure.
 
-### <a name="security"></a>Безопасность
+### <a name="security"></a>безопасность
 
 Специалисты по безопасности компании Contoso проверяют виртуальные машины Azure, чтобы выявить любые проблемы безопасности.
 

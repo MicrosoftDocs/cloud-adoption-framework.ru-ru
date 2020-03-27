@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 89ba67d795f03a424a22fbf834f07f9d45241449
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: d8cd22e929841a4f580b00dc5d2033c8be227bce
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311478"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356189"
 ---
 <!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL contosohost contosodc contosovmsacc contosoosticket vcenter cswiz osticket NSGs systemctl -->
 
@@ -83,7 +83,7 @@ ms.locfileid: "79311478"
 [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery) | Служба организует и контролирует миграцию и аварийное восстановление виртуальных машин Azure, а также локальных виртуальных машин и физических серверов. | Во время репликации в Azure взимается плата за службу хранилища Azure. При отработке отказа создаются виртуальные машины Azure, за которые взимается плата. Дополнительные сведения о ценах см. на [этой странице](https://azure.microsoft.com/pricing/details/site-recovery).
 [База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql) | База данных расположена на ядре сервера MySQL с открытым исходным кодом. Она предоставляет разработанную сообществом, полностью управляемую и готовую к использованию на предприятии базу данных MySQL как услугу для разработки и развертывания приложений.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>предварительные требования
 
 Ниже приведены действия компании Contoso, необходимые для этого сценария.
 
@@ -417,7 +417,7 @@ Site Recovery требуется доступ к серверам VMware, что
 
 3. Специалисты компании перезапускают службу с помощью команды **systemctl перезапустите apache2**.
 
-    !["Перезапуск"](./media/contoso-migration-rehost-linux-vm-mysql/restart.png)
+    ![Перезагрузить](./media/contoso-migration-rehost-linux-vm-mysql/restart.png)
 
 4. Наконец, они обновляют записи DNS для **OSTICKETWEB** на одном из контроллеров домена Contoso.
 
@@ -439,7 +439,7 @@ Site Recovery требуется доступ к серверам VMware, что
 
 Теперь, когда приложение работает, компании Contoso необходимо полностью ввести его в эксплуатацию и защитить свою новую инфраструктуру.
 
-### <a name="security"></a>Безопасность
+### <a name="security"></a>безопасность
 
 Специалисты по безопасности компании Contoso проверяют виртуальную машину и базу данных на наличие любых проблем с безопасностью.
 
@@ -453,7 +453,7 @@ Site Recovery требуется доступ к серверам VMware, что
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление, специалисты компании Contoso выполняют указанные ниже действия.
 
-- **Безопасное хранение данных.** Компания Contoso выполняет резервное копирование данных с виртуальных машин приложения при помощи службы Azure Backup. [Дополнительные сведения](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup?toc=%2fazure%2fvirtual-machines%2flinux%2ftoc.json) Ее специалистам нет необходимости настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются и сохраняются резервные копии. Они решили использовать для базы данных геоизбыточное хранилище, поэтому она отказоустойчива и готова к внедрению в рабочую среду.
+- **Безопасное хранение данных.** Компания Contoso выполняет резервное копирование данных с виртуальных машин приложения при помощи службы Azure Backup. [Дополнительные сведения](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup) Ее специалистам нет необходимости настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются и сохраняются резервные копии. Они решили использовать для базы данных геоизбыточное хранилище, поэтому она отказоустойчива и готова к внедрению в рабочую среду.
 - **Поддержание бесперебойной работы приложений.** Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Дополнительные сведения](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат

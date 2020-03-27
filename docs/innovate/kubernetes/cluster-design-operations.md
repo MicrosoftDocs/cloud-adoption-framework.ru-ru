@@ -8,13 +8,15 @@ ms.topic: guide
 ms.date: 12/16/2019
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 5b5aafd1c9470b566395201a46c75d96581306bd
-ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
+ms.openlocfilehash: 94288e4dd6e9bde1113c6343067dfaec9e7f3c62
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80226572"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356560"
 ---
+<!-- cSpell:ignore asabbour sabbour autoscaler PDBs -->
+
 # <a name="cluster-design-and-operations"></a>Проектирование и эксплуатация кластеров
 
 Выявление конфигурации кластера и структуры сети. Масштабируемость в будущем путем автоматизации подготовки инфраструктуры. Обеспечьте высокий уровень доступности, планируя непрерывность бизнес-процессов и аварийное восстановление.
@@ -22,6 +24,8 @@ ms.locfileid: "80226572"
 ## <a name="plan-train-and-proof"></a>Планирование, обучение и подтверждение
 
 По мере того как вы приступите к работе, контрольный список и приведенные ниже ресурсы помогут вам спланировать структуру кластера. Вы можете ответить на следующие вопросы:
+
+<!-- markdownlint-disable MD033 -->
 
 > [!div class="checklist"]
 >
@@ -34,7 +38,7 @@ ms.locfileid: "80226572"
 >
 > | Контрольный список  | Ресурсы |
 > |------------------------------------------------------------------|-----------------------------------------------------------------|
-> | **Выявление рекомендаций по проектированию сети.** Ознакомьтесь с вопросами по проектированию сети кластера, Сравните сетевые модели и выберите подключаемый модуль Kubernetes Networking, соответствующий вашим потребностям.    | [Кубенет и сетевой интерфейс контейнеров Azure (CNI)](https://docs.microsoft.com/azure/aks/concepts-network#azure-virtual-networks) <br/> [Использование кубенет Network с собственными диапазонами IP-адресов в службе Kubernetes Azure (AKS)](https://docs.microsoft.com/azure/aks/configure-kubenet) <br/> [Настройка сети Azure CNI в службе Kubernetes Azure (AKS)](https://docs.microsoft.com/azure/aks/configure-azure-cni) <br/> [Защита структуры сети для кластера AKS]] (https://github.com/Azure/sg-aks-workshop/blob/master/cluster-design/NetworkDesign.md)|
+> | **Выявление рекомендаций по проектированию сети.** Ознакомьтесь с вопросами по проектированию сети кластера, Сравните сетевые модели и выберите подключаемый модуль Kubernetes Networking, соответствующий вашим потребностям.    | [Кубенет и сетевой интерфейс контейнеров Azure (CNI)](https://docs.microsoft.com/azure/aks/concepts-network#azure-virtual-networks) <br/> [Использование кубенет Network с собственными диапазонами IP-адресов в службе Kubernetes Azure (AKS)](https://docs.microsoft.com/azure/aks/configure-kubenet) <br/> [Настройка сети Azure CNI в службе Kubernetes Azure (AKS)](https://docs.microsoft.com/azure/aks/configure-azure-cni) <br/> [Разработка безопасной сети для кластера AKS](https://github.com/Azure/sg-aks-workshop/blob/master/cluster-design/NetworkDesign.md)|
 > | **Создайте несколько пулов узлов.** Для поддержки приложений, имеющих различные требования к вычислению или хранению, при необходимости можно настроить кластер с несколькими пулами узлов. Например, используйте дополнительные пулы узлов, чтобы предоставить графические процессоры для приложений с большим объемом вычислений или доступ к высокопроизводительному хранилищу SSD.   | [Создание нескольких пулов узлов для кластера и управление им в службе Kubernetes Azure](https://docs.microsoft.com/azure/aks/use-multiple-node-pools) |
 > | **Решите требования к доступности.** Чтобы обеспечить более высокий уровень доступности приложений, кластеры можно распределять между зонами доступности. Эти зоны являются физически отдельными центрами обработки данных в пределах заданного региона. Когда компоненты кластера распределяются по нескольким зонам, кластер может допускать сбои в одной из этих зон. Приложения и операции управления по-прежнему будут доступны, даже если у всего центра обработки данных возникла проблема.   | [Создание кластера Azure Kubernetes Service (AKS), использующего зоны доступности](https://docs.microsoft.com/azure/aks/availability-zones) |
 

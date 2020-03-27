@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d6cf92c2cb08e59196bc9c24aadf1fa2c812db0d
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 67ea91e503290c8fee37f3d36770fbbea1b336b4
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312532"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356791"
 ---
 # <a name="build-with-customer-empathy"></a>Разработка ориентированных на клиента решений
 
@@ -103,9 +103,11 @@ _Тимебоксинг_ — это стандартный способ убед
 
 ## <a name="references"></a>Ссылки
 
+<!-- cSpell:ignore Ries -->
+
 Некоторые из концепций в этой статье посвящены темам, обсуждаемым при [*экономичном запуске*](http://theleanstartup.com/book) (функция RIES, самые Business, 2011).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После построения решения MVP можно измерять значение сопереживание и масштабное значение. Узнайте, как [измерять влияние на клиентов](./measure.md).
 

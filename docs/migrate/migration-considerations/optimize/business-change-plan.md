@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d1c842c672cc091deaad4e0b7f4ffc89231895c7
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: fd8db03a28c5372ad5ca796607a079ffdcbe4f92
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312039"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80355275"
 ---
 # <a name="business-change-plan"></a>Изменение бизнес-плана
 
@@ -57,7 +57,7 @@ ms.locfileid: "79312039"
 
 В разных компаниях свой план бизнес-изменений. Цель этих вопросов — помочь бизнесу охотнее следовать изменениям, связанным с каждым выпуском. Если рассматривать каждый выпуск не как технологическое изменение, которое нужно принять, а как план бизнес-изменений, бизнес-результаты могут стать более достижимыми.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После документирования и планирования бизнес-изменений можно начать [бизнес-тестирование](./business-test.md).
 
@@ -65,5 +65,7 @@ ms.locfileid: "79312039"
 > [Руководство по бизнес-тестированию (UAT) во время миграции](./business-test.md)
 
 ## <a name="references"></a>Ссылки
+
+<!-- cSpell:ignore Eason -->
 
 - Еасон, K. (1988) _информационные технологии и организационные изменения_, Нью-Йорк: Кузнецова и Фрэнсис.
