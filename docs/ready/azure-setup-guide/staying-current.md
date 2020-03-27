@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: ad8b6259aaa0808e2628fed9b88f0f806c46e655
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: a75c014401a8a45eee0d0e301cf209ad3eda690b
+ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341986"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "80225808"
 ---
 # <a name="stay-current-with-microsoft-azure"></a>Поддержание актуальности процессов в Microsoft Azure
 
@@ -51,11 +51,15 @@ ms.locfileid: "78341986"
 
 Для более глубокого понимания того, как поддерживать актуальность своих процессов и данных в Azure, воспользуйтесь следующими ресурсами:
 
-- [Azure Charts](https://azurecharts.com/)
-  - Эта неофициальная визуализация показывает все обновления Azure, реализованные за последние шесть месяцев. Она содержит полезные диаграммы и служебные программы для отслеживания изменений в Azure.
 - [Пятница с Azure](https://channel9.msdn.com/Shows/Azure-Friday)
   - Еженедельные видеоролики с инженерами-разработчиками Azure. Они выполняют демонстрации, отвечают на вопросы и обмениваются полезными сведениями.
   - Подпишитесь через [RSS](https://channel9.msdn.com/Shows/Azure-Friday/feed).
-- [Еженедельный бюллетень Azure](https://azureweekly.info)
-  - Этот бюллетень представляет собой неофициальный ресурс, предоставляемый [endjin](https://endjin.com). Он содержит сводку основных новостей недели о Microsoft Azure. Он также содержит интересное историческое содержимое.
+- [Диаграммы Azure](https://azurecharts.com/)*
+  - Эта визуализация показывает все обновления Azure, реализованные за последние шесть месяцев. Она содержит полезные диаграммы и служебные программы для отслеживания изменений в Azure.
+- [AzAdvertizer](https://www.azadvertizer.net/)*
+  - Отслеживание выпусков и изменений в возможностях системы управления Azure (таких как Политика Azure, инициативы политик, псевдонимы политик и RBAC).
+- [Еженедельный бюллетень Azure](https://azureweekly.info)*
+  - Этот бюллетень от [endjin](https://endjin.com) содержит сводку основных новостей недели о Microsoft Azure. Он также содержит интересное историческое содержимое.
   - Подпишитесь через [электронную почту](https://azureweekly.info).
+
+\* *Эти ресурсы предоставляются сообществом и не поддерживаются официально корпорацией Майкрософт.*

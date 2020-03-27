@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 77d95d4d4be65bea8d37a722abe6f0459d43e43f
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: e17ab7acd3813929fc05915908108b1cd634d5f0
+ms.sourcegitcommit: e21e70a5ad7bff2f2009a2da8e91a54fccd6d38f
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79024040"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "80299058"
 ---
 <!-- cSpell:ignore timleyden -->
 
@@ -49,7 +49,7 @@ ms.locfileid: "79024040"
 ::: zone target="docs"
 
 > [!TIP]
-> Чтобы использовать интерактивный интерфейс, просмотрите это руководство на портале Azure. Перейдите в [центр быстрого запуска](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade) на портале Azure и выберите **Общие сведения о настройке Azure**, а затем выполните пошаговые инструкции.
+> Чтобы использовать интерактивный интерфейс, просмотрите это руководство на портале Azure. Перейдите в [Центр быстрого запуска Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade) на портале Azure и выберите **руководство по настройке Azure**, а затем выполните пошаговые инструкции.
 
 Дальнейшие действия: [Упорядочение ресурсов для упрощения применения параметров](./organize-resources.md)
 
