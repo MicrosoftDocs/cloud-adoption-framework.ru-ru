@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: a75c014401a8a45eee0d0e301cf209ad3eda690b
-ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
+ms.openlocfilehash: 94e5dfb8f6a7d38f844c490a649bd35cf0887685
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80225808"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80353817"
 ---
+<!-- cSpell:ignore jelledruyts andym endjin -->
+
 # <a name="stay-current-with-microsoft-azure"></a>Поддержание актуальности процессов в Microsoft Azure
 
 Облачные платформы, такие как Microsoft Azure, меняются быстрее, чем того ожидают организации. Эта скорость изменения означает, что организациям приходится адаптировать людей и процессы к новому ритму. Если вы отвечаете за поддержание актуальности процессов организации в соответствии с этими изменениями, то иногда может быть непросто. Перечисленные в этом разделе ресурсы помогут вам поддерживать актуальность процессов.
@@ -54,9 +56,9 @@ ms.locfileid: "80225808"
 - [Пятница с Azure](https://channel9.msdn.com/Shows/Azure-Friday)
   - Еженедельные видеоролики с инженерами-разработчиками Azure. Они выполняют демонстрации, отвечают на вопросы и обмениваются полезными сведениями.
   - Подпишитесь через [RSS](https://channel9.msdn.com/Shows/Azure-Friday/feed).
-- [Диаграммы Azure](https://azurecharts.com/)*
+- [Диаграммы Azure](https://azurecharts.com)*
   - Эта визуализация показывает все обновления Azure, реализованные за последние шесть месяцев. Она содержит полезные диаграммы и служебные программы для отслеживания изменений в Azure.
-- [AzAdvertizer](https://www.azadvertizer.net/)*
+- [AzAdvertizer](https://www.azadvertizer.net)*
   - Отслеживание выпусков и изменений в возможностях системы управления Azure (таких как Политика Azure, инициативы политик, псевдонимы политик и RBAC).
 - [Еженедельный бюллетень Azure](https://azureweekly.info)*
   - Этот бюллетень от [endjin](https://endjin.com) содержит сводку основных новостей недели о Microsoft Azure. Он также содержит интересное историческое содержимое.

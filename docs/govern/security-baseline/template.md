@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5341abc29fffdfebca60acc3db44bb846aada0d9
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: ed3e9a193a33ab89ac7a421dcbc1a89a55ffc9b6
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77707175"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392791"
 ---
 # <a name="security-baseline-template"></a>Шаблон основных способов защиты
 
@@ -24,11 +24,7 @@ ms.locfileid: "77707175"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии со своими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Основные способы защиты" в рамках стратегии управления облаком.
 
-<!-- markdownlint-disable MD033 -->
-
- <a href="https://archcenter.blob.core.windows.net/cdn/fusion/governance/Security%20Baseline%20Discipline%20Template.docx">Скачайте шаблон дисциплины управления</a>
-
-<!-- markdownlint-enable MD033 -->
+[Скачать шаблон дисциплины управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Security%20Baseline%20Discipline%20Template.docx)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

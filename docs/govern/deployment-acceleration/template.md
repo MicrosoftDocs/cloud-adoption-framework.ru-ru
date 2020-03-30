@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1a6b859de12681e93912f934f6aa5e55c42fcfb9
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: c5d7da3d1dd447063879c786d59840f256c418e1
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171401"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392589"
 ---
 # <a name="deployment-acceleration-template"></a>Шаблон ускорения развертывания
 
@@ -24,11 +24,7 @@ ms.locfileid: "78171401"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии с вашими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Ускорение развертывания" в рамках стратегии управления облаком.
 
-<!-- markdownlint-disable MD033 -->
-
- <a href="https://archcenter.blob.core.windows.net/cdn/fusion/governance/Deployment%20Acceleration%20Discipline%20Template.docx">Скачайте шаблон дисциплины управления</a>
-
-<!-- markdownlint-enable MD033 -->
+[Скачать шаблон дисциплины управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Deployment%20Acceleration%20Discipline%20Template.docx)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4b4f3f9e8be48f96abf9471738a50491ac80d317
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: ce937c6e3c173d829a311b838e33ede754a0f173
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708807"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392481"
 ---
 # <a name="cost-management-template"></a>Шаблон Управления затратами
 
@@ -24,13 +24,9 @@ ms.locfileid: "77708807"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии со своими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Управление затратами" в рамках стратегии управления облаком.
 
-<!-- markdownlint-disable MD033 -->
+[Скачать шаблон дисциплины управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx)
 
- <a href="https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx">Скачайте шаблон дисциплины управления</a>
-
-<!-- markdownlint-enable MD033 -->
-
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

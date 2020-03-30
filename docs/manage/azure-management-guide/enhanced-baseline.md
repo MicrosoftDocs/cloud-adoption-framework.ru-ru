@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 0ff06bb935a55c45c12748903c83d976bcbb14e0
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 223d6bf040987b7266d284d9175b588d08806c9f
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092324"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356523"
 ---
+<!-- cSpell:ignore ITSMC -->
+
 # <a name="enhanced-management-baseline-in-azure"></a>Улучшенный базовый план управления в Azure
 
 Первые три дисциплины управления облаком описывают базовый план управления. В предыдущих статьях этого руководства для служб управления облаком, которые называются базовым планом управления, указан продукт с минимальным функционалом. В этой статье описаны некоторые распространенные улучшения базового плана.
@@ -74,7 +76,7 @@ ms.locfileid: "79092324"
 
 Чтобы создать модули runbook и управлять ими, сделайте следующее:
 
-1. Щелкните [Служба автоматизации Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Automation%2FAutomationAccounts).
+1. Щелкните [Служба автоматизации Azure](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts).
 1. Выберите **Учетные записи автоматизации** и одну из перечисленных учетных записей.
 1. Перейдите в раздел **Автоматизация процессов**.
 1. Представленные параметры позволяют создавать модули runbook, расписания и другие функции автоматического исправления, а также управлять ими.
@@ -83,7 +85,7 @@ ms.locfileid: "79092324"
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Automation%2FAutomationAccounts]" submitText="Assign Policy" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts]" submitText="Assign Policy" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 

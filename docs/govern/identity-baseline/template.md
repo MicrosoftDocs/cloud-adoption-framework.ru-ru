@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 6b17a4aaaaa26d7cc1be33dd95f6a8905e1adc2b
-ms.sourcegitcommit: 238e7a06b56950cebdcc8f75924849fc995e6ff2
+ms.openlocfilehash: 71b16800dde767b7b257e4ac8bb63cf4083ddd23
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "77173198"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392356"
 ---
 # <a name="identity-baseline-template"></a>Шаблон основных способов идентификации
 
@@ -24,13 +24,9 @@ ms.locfileid: "77173198"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии со своими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Основные способы идентификации" в рамках стратегии управления облаком.
 
-<!-- markdownlint-disable MD033 -->
+[Скачать шаблон дисциплины управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Identity%20Baseline%20Discipline%20Template.docx)
 
- <a href="https://archcenter.blob.core.windows.net/cdn/fusion/governance/Identity%20Baseline%20Discipline%20Template.docx">Скачайте шаблон дисциплины управления</a>
-
-<!-- markdownlint-enable MD033 -->
-
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с [понимания бизнес-рисков](./business-risks.md). Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

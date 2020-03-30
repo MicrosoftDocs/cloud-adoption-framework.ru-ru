@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 42cf4ffb65456bf1519a0f2bb0f017bb078687d9
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: adb39a25cfb232b19bd983e5d4e0ab7d7370add1
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170976"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356604"
 ---
 ::: zone target="docs"
 
@@ -48,7 +48,7 @@ ms.locfileid: "78170976"
 
 Чтобы использовать API-интерфейс Cognitive Services, выполните приведенные ниже действия.
 
-1. На [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2Faccounts) откройте раздел **Cognitive Services**.
+1. На [портале Azure](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.CognitiveServices%2FAccounts) откройте раздел **Cognitive Services**.
 2. Нажмите кнопку **Добавить**, чтобы найти API-интерфейс Cognitive Services в Azure Marketplace.
 3. Выполните одно из приведенных ниже действий.
    - Если вы знаете имя нужной службы, введите его в поле **Поиск в Marketplace**.
@@ -58,7 +58,7 @@ ms.locfileid: "78170976"
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2Faccounts]" submitText="Go to Cognitive Services" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2FAccounts]" submitText="Go to Cognitive Services" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -66,7 +66,7 @@ ms.locfileid: "78170976"
 
 ::: zone target="docs"
 
-Перейдите непосредственно к Cognitive Services на [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2Faccounts).
+Перейдите непосредственно к Cognitive Services на [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2FAccounts).
 
 ::: zone-end
 
@@ -80,7 +80,7 @@ ms.locfileid: "78170976"
 
 С помощью Студии машинного обучения Azure Machine вы можете создать модель и экспериментировать с нею, выполнив приведенные ниже действия.
 
-1. На [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2Fworkspaces) откройте **Студию машинного обучения Azure**.
+1. На [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2FWorkspaces) откройте **Студию машинного обучения Azure**.
 2. Нажмите **Создать рабочую область Студии машинного обучения** и следуйте инструкциям на экране, чтобы создать рабочую область.
 
    Новая рабочая область предоставляет интерфейс перетаскивания для создания модели и проведения экспериментов с ней в качестве альтернативы углубленному обучению.
@@ -89,7 +89,7 @@ ms.locfileid: "78170976"
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2Fworkspaces]" submitText="Go to Azure Machine Learning Studio" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2FWorkspaces]" submitText="Go to Azure Machine Learning Studio" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -97,7 +97,7 @@ ms.locfileid: "78170976"
 
 ::: zone target="docs"
 
-Перейдите непосредственно к службе "Студия машинного обучения Azure" на [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2Fworkspaces).
+Перейдите непосредственно к службе "Студия машинного обучения Azure" на [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearning%2FWorkspaces).
 
 ::: zone-end
 
@@ -117,7 +117,7 @@ ms.locfileid: "78170976"
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearningServices%2Fworkspaces]" submitText="Go to Azure Machine Learning service" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearningServices%2FWorkspaces]" submitText="Go to Azure Machine Learning service" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -125,7 +125,7 @@ ms.locfileid: "78170976"
 
 ::: zone target="docs"
 
-Перейдите непосредственно к службе "Студия машинного обучения Azure" на [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearningServices%2Fworkspaces).
+Перейдите непосредственно к службе "Студия машинного обучения Azure" на [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.MachineLearningServices%2FWorkspaces).
 
 ::: zone-end
 

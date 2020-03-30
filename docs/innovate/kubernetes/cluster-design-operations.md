@@ -1,6 +1,5 @@
 ---
 title: Проектирование и эксплуатация кластеров
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте о Kubernetes в облачной инфраструктуре внедрения для проектирования и эксплуатации кластеров.
 author: sabbour
 ms.author: asabbour
@@ -8,18 +7,18 @@ ms.topic: guide
 ms.date: 12/16/2019
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 94288e4dd6e9bde1113c6343067dfaec9e7f3c62
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 1a4bcb42ec8fdcdbdb53d918c8348c22c2606649
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356560"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392737"
 ---
 <!-- cSpell:ignore asabbour sabbour autoscaler PDBs -->
 
 # <a name="cluster-design-and-operations"></a>Проектирование и эксплуатация кластеров
 
-Выявление конфигурации кластера и структуры сети. Масштабируемость в будущем путем автоматизации подготовки инфраструктуры. Обеспечьте высокий уровень доступности, планируя непрерывность бизнес-процессов и аварийное восстановление.
+Определите конфигурацию и сетевую структуру кластера. Масштабируемость в будущем путем автоматизации подготовки инфраструктуры. Поддерживайте высокий уровень доступности, планируя непрерывность бизнес-процессов и аварийное восстановление.
 
 ## <a name="plan-train-and-proof"></a>Планирование, обучение и подтверждение
 

@@ -8,12 +8,12 @@ ms.date: 02/25/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: fe53435fe09873a619b2860a63e7bf67fe7bca93
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: 77c64f23770e2f3eccc74142e186c887f9444dbe
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508323"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354240"
 ---
 <!-- markdownlint-disable MD026 -->
 

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: da3675484c04c9c02384fcbbc0337accff2aaffe
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 0caf14e402c2c91b1c7b297df7f648d924f9e449
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092139"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356500"
 ---
 # <a name="inventory-and-visibility-in-azure"></a>Инвентаризация и визуальный контроль в Azure
 
@@ -103,7 +103,7 @@ _Инвентаризация и визуальный контроль_ — э�
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.OperationalInsights%2Fworkspaces]" submitText="Explore Azure Monitor" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.OperationalInsights%2FWorkspaces]" submitText="Explore Azure Monitor" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -174,8 +174,8 @@ Azure Monitor предоставляет единый унифицированн
 
 Существует два подхода для подключения:
 
-- [использование отдельной виртуальной машины](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboard-single-vm);
-- [использование всей подписки](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboard-at-scale).
+- [использование отдельной виртуальной машины](../../manage/azure-server-management/onboard-single-vm.md);
+- [использование всей подписки](../../manage/azure-server-management/onboard-at-scale.md).
 
 В каждой статье описывается последовательность действий по подключению этих решений:
 

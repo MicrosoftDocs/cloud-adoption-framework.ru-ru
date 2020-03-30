@@ -1,23 +1,22 @@
 ---
 title: Рекомендации по использованию зон размещения Azure
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как зоны размещения используются в качестве основных стандартных блоков любой среды внедрения в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
-ms.topic: overview
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 04293b0e0d30ae1eaa85f4c86c6c7d70b2cfac82
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 594f10968e45477895fcc5dcd1b2a95d16d7c861
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092965"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392651"
 ---
 # <a name="first-landing-zone"></a>Первая зона размещения
 
-Инфраструктура как код — это естественный переход во время большинства усилий по внедрению в облако. Развертывание первой целевой зоны в облаке является общей отправной точкой при переходе на управляемую кодом среду. Эта статья поможет вам понять понятие основной _зоны_ и решить, какая зона размещения наиболее подходит для текущих нужд внедрения.
+Большинство стратегий внедрения облачных технологий предусматривают переход на инфраструктуру как код. Развертывание первой целевой зоны в облаке является общей отправной точкой при переходе на управляемую кодом среду. Эта статья поможет вам понять понятие основной _зоны_ и решить, какая зона размещения наиболее подходит для текущих нужд внедрения.
 
 ## <a name="code-first-approach-to-landing-zones"></a>Подход к начальным зонам с использованием кода
 

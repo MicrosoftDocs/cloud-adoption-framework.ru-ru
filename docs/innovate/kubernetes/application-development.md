@@ -1,6 +1,5 @@
 ---
 title: Разработка и развертывание приложений
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте об использовании Kubernetes в облачной инфраструктуре внедрения для разработки и архитектуры приложений.
 author: sabbour
 ms.author: asabbour
@@ -8,18 +7,18 @@ ms.topic: guide
 ms.date: 03/20/2020
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 317119a6bdc2e2057c37c78b773cab5f9052fa81
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 6ad36a6dfbce83b23bfcee382ff44daeb9db5f7f
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356590"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392766"
 ---
 <!-- cSpell:ignore asabbour sabbour autoscaler Istio Linkerd -->
 
 # <a name="application-development-and-deployment"></a>Разработка и развертывание приложений
 
-Изучите шаблоны и методики разработки приложений, настройте конвейеры DevOps и реализуйте рекомендации по проектированию надежности сайта (выполняются).
+Изучите шаблоны и методики разработки приложений, настройте конвейеры DevOps и выполните рекомендации по обеспечению надежности информационных систем (SRE).
 
 ## <a name="plan-train-and-proof"></a>Планирование, обучение и подтверждение
 

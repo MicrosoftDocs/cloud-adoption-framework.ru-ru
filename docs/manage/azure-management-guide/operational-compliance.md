@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: a76ca679b8c61e96b8bc8552b8ffbcaa0822e46a
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 18c3c81fdd756e90e729387c7030c64e8a87a056
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094732"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80356458"
 ---
 <!-- cSpell:ignore WSUS -->
 
@@ -60,8 +60,8 @@ _Соответствие операций нормативным требова
 >
 > Существует два подхода для подключения:
 >
-> - [использование отдельной виртуальной машины](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboard-single-vm);
-> - [использование всей подписки](https://docs.microsoft.com/azure/cloud-adoption-framework/manage/azure-server-management/onboard-at-scale).
+> - [использование отдельной виртуальной машины](../../manage/azure-server-management/onboard-single-vm.md);
+> - [использование всей подписки](../../manage/azure-server-management/onboard-at-scale.md).
 >
 > Прежде чем продолжить работу с решением "Управление обновлениями" выберите один из них.
 
@@ -69,7 +69,7 @@ _Соответствие операций нормативным требова
 
 Чтобы применить политику к группе ресурсов, сделайте следующее:
 
-1. Щелкните [Служба автоматизации Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Automation%2FAutomationAccounts).
+1. Щелкните [Служба автоматизации Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts).
 1. Выберите **Учетные записи автоматизации** и одну из перечисленных учетных записей.
 1. Перейдите в раздел **Управление конфигурацией**.
 1. Возможности **инвентаризации**, **управления изменениями** и **настройки состояния** могут использоваться для управления состоянием управляемых виртуальных машин и соответствием их операций нормативным требованиям.
@@ -78,7 +78,7 @@ _Соответствие операций нормативным требова
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Automation%2FAutomationAccounts]" submitText="Assign Policy" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts]" submitText="Assign Policy" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 

@@ -9,14 +9,14 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 86988a83b0c68bea60d0cceff5a168e2b2b08fd5
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: 5fedbb5164da05b166d8a42d8d1ceaf43ee95185
+ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79024062"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80354448"
 ---
-<!-- cSpell:ignore LijuKodicheraJayadevan Fsubscriptions Fresource -->
+<!-- cSpell:ignore LijuKodicheraJayadevan -->
 
 # <a name="manage-access-to-your-azure-environment-with-role-based-access-controls"></a>Управление доступом к среде Azure с помощью управления доступом на основе ролей
 
@@ -46,7 +46,7 @@ Cloud Adoption Framework предоставляет дополнительные
 1. Выберите **+ Добавить** > **Добавить назначение ролей**.
 1. Выберите роль, а затем назначьте доступ пользователю, группе или субъекту-службе.
 
-::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2Fsubscriptions%2FresourceGroups]" submitText="Go to resource groups" ::: form-end
+::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources/Subscriptions/ResourceGroups]" submitText="Go to resource groups" ::: form-end
 
 **Предоставление доступа к подпискам**
 
@@ -68,7 +68,7 @@ Cloud Adoption Framework предоставляет дополнительные
 
 Чтобы предоставить пользователю доступ к группе ресурсов, сделайте следующее:
 
-1. Перейдите на страницу [Группы ресурсов](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2Fsubscriptions%2FresourceGroups).
+1. Перейдите на страницу [Группы ресурсов](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups).
 1. Выберите группу ресурсов.
 1. Выберите **Управление доступом (IAM)** .
 1. Выберите **+ Добавить** > **Добавить назначение ролей**.
