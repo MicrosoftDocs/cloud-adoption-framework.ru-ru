@@ -1,19 +1,18 @@
 ---
 title: Что такое целевая зона?
-titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Узнайте, как зоны размещения используются в качестве основных стандартных блоков любой среды внедрения в облако.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
-ms.topic: overview
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 77c64f23770e2f3eccc74142e186c887f9444dbe
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 907cb23b61ffada1a97abe87545ed7d4cdd7d56a
+ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80354240"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "80392573"
 ---
 <!-- markdownlint-disable MD026 -->
 
