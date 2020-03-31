@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 90959045d877c313576540c3f0288eff8c136b5f
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 3eff0f6130adc35d8c087d385d42b06e141f3c64
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77706869"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433500"
 ---
 # <a name="resource-consistency-motivations-and-business-risks"></a>Мотивации и бизнес-риски согласованности ресурсов
 

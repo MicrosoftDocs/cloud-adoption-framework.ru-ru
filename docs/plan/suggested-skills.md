@@ -4,15 +4,15 @@ description: Приступите к внедрению облачных слу�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 03/23/2020
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 29c4f2aac24c80fcec877e5645dbe61363af5983
-ms.sourcegitcommit: a1209c9dab369171e1fe0cdc6a58e3f6ae6a8f22
+ms.openlocfilehash: ab1cb0e0f98001c6095c5774270ff47e0b088cb3
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "80261476"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80427941"
 ---
 # <a name="getting-started-on-a-skills-readiness-path"></a>Приступая к работе с путем готовности навыков
 

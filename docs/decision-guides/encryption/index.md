@@ -4,16 +4,16 @@ description: Внедрите политику шифрования — одн�
 author: rotycenh
 ms.author: abuck
 ms.date: 02/11/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: acc5e2bbaa665888b3453aa54e9292a99801f3df
-ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
+ms.openlocfilehash: 33c26a266cb1bbb428fb54f8e5ccbd242f75e1f6
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80225893"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434922"
 ---
 # <a name="encryption-decision-guide"></a>Руководство по принятию решений о шифровании
 

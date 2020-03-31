@@ -4,15 +4,15 @@ description: Узнайте, как быстро развернуть невып
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: fb35c059f3c3c6c9485d70a78a2c3fa1b49dc10d
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: f8ced104862d27c01c2d63ecbcb4af15deded343
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80354760"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434004"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
 

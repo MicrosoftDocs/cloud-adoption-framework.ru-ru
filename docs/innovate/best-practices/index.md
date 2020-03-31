@@ -4,15 +4,15 @@ description: Используйте Cloud Adoption Framework для Azure, чт�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d3beb01940da6b391bca2751866e5f484ce2f713
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 746e4cf6dd9aac69ce6ed5bc6505e739b503d4df
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170738"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434118"
 ---
 # <a name="develop-digital-inventions-in-azure"></a>Разработка цифровых технологий в Azure
 

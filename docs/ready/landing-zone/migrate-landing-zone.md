@@ -4,15 +4,15 @@ description: Узнайте, как развернуть зону размеще
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: ed7e64e2c18187621f2c7703b5b1d9f2056997ea
-ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
+ms.openlocfilehash: 924be38b70013a570f83c5fc156c28c051ec468d
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80392631"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80431932"
 ---
 <!-- cSpell:ignore vCPUs jumpbox -->
 

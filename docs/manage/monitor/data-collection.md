@@ -4,16 +4,16 @@ description: Узнайте, как оценить работоспособно�
 author: MGoedtel
 ms.author: magoedte
 ms.date: 06/26/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 3b537caf193601057da458b07cb62bdba64a7b6b
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 39d8f559bfcd8e7df1a957d7af0488c85ea36876
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341112"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80429981"
 ---
 # <a name="cloud-monitoring-guide-collect-the-right-data"></a>Руководство по мониторингу облака: получение правильных данных
 
@@ -46,7 +46,7 @@ ms.locfileid: "78341112"
 
 С помощью этого набора идентификаторов можно получить ценные сведения практически в реальном времени, а также улучшить управление службой.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Стратегия создания предупреждений](./alerting.md)

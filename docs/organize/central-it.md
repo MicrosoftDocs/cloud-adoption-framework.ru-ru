@@ -4,16 +4,16 @@ description: Используйте облачную платформу внед
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/10/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 00cf24b493bbeacae5e3f3d35d2951cbe838219e
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 62c94478e46b30e2f4d905dc09774edaa474da50
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094004"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80428680"
 ---
 # <a name="central-it-capabilities"></a>Центральные ИТ — возможности
 
@@ -50,7 +50,7 @@ ms.locfileid: "79094004"
 
 ### <a name="strategic-tasks"></a>Стратегические задачи
 
-- Эксперт
+- Обзор.
   - [результаты бизнеса](../strategy/business-outcomes/index.md)
   - [финансовые модели](../strategy/financial-models.md)
   - [мотивации для внедрения в облако](../strategy/motivations.md)

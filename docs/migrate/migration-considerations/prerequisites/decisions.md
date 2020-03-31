@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d90e1fa73029d87d1f699e1a0651a63368bf3b21
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 8d9207e5494ef6e645780c35477636c5ebcb9df2
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80355195"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80429054"
 ---
 <!-- cSpell:ignore migrateable -->
 

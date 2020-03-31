@@ -4,16 +4,16 @@ description: Узнайте о процессе проектирования м�
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: efdca4c5848e8815166fd2ddf308d40ae62f75a1
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 817ed122636543274c71a621a19e5bcad83741f1
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223726"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80429927"
 ---
 # <a name="governance-design-for-a-simple-workload"></a>Разработка системы управления для небольшой рабочей нагрузки
 
@@ -110,7 +110,7 @@ Azure доверяет аутентификацию пользователей �
 
 Наконец, создав подписку и связав с нею клиент Azure AD, вы можете [добавить в нее **владельца рабочей нагрузки** со встроенной ролью **владельца**](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#to-assign-a-user-as-an-administrator).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Развертывание основной рабочей нагрузки в Azure](../../infrastructure/virtual-machines/basic-workload.md)

@@ -4,15 +4,15 @@ description: Создайте процесс проверки готовност
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2018
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 9bc4e2bb9b39a83ab8829ea4a12cd1bb019bf0c3
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: e36599414d45fc6cda0e714694c45a64d9d4857e
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341816"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433565"
 ---
 # <a name="establish-an-operational-fitness-review"></a>Обеспечение проверки операционной пригодности
 
@@ -24,7 +24,7 @@ ms.locfileid: "78341816"
 - Доступность
 - Устойчивость, включая непрерывность бизнес-процессов и аварийное восстановление
 - Управление
-- Безопасность
+- безопасность
 
 Процесс проверки готовности к эксплуатации гарантирует, что критически важные рабочие нагрузки отвечают ожиданиям вашего бизнеса относительно принципов качества.
 

@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4222639ddb82da88cc95600ad2c6731b541f9f35
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 42f8e589d0d9231ff3ea9ab6b514cfc22f8b518c
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708144"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433455"
 ---
 # <a name="resource-consistency-sample-policy-statements"></a>Примеры правил политики согласованности ресурсов
 
@@ -67,7 +67,7 @@ ms.locfileid: "77708144"
 
 **Возможные варианты проектирования:** Единообразное использование [чертежей Azure](https://docs.microsoft.com/azure/governance/blueprints) для управления автоматизированными развертываниями позволяет выполнять последовательные развертывания ресурсов Azure, которые соответствуют стандартам и политикам управления вашей организации.
 
-## <a name="monitoring"></a>Мониторинг
+## <a name="monitoring"></a>Наблюдение
 
 **Технический риск:** Неправильно реализованный или непротиворечивый инструментированный мониторинг может препятствовать обнаружению проблем с работоспособностью рабочей нагрузки или других нарушений соответствия политике.
 
@@ -86,7 +86,7 @@ ms.locfileid: "77708144"
 
 **Возможные варианты проектирования:** Служба [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) предоставляет возможности резервного копирования, восстановления и репликации, которые снижают продолжительность простоя в сценариях непрерывности бизнес-процессов и аварийного восстановления (BCDR).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Используйте примеры, приведенные в этой статье, в качестве отправной точки для разработки политик по конкретным бизнес-рискам, соответствующих вашим планам внедрения облачных систем.
 

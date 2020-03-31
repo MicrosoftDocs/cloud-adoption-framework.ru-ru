@@ -4,15 +4,15 @@ description: Используйте это дерево принятия реш�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
-ms.openlocfilehash: 7e6f22d725a06fc82a08e868d4d41f26eea5d60b
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: dbceb5872aa754f94f2050d9053260f1cc1d7254
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78892537"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434876"
 ---
 # <a name="migration-tools-decision-guide"></a>Руководство по принятию решений о миграции
 

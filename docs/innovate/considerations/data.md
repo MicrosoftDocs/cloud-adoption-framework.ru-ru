@@ -4,15 +4,15 @@ description: Узнайте о демократизатион, о том, как
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 1ee86c13d94f62770e21e3a8208e9c0695725ba5
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: 2fac366e56e279204a791d5d8813500fe57de8d6
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78170228"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433310"
 ---
 # <a name="democratize-data"></a>Упрощение доступа к данным
 

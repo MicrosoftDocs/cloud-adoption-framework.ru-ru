@@ -4,15 +4,15 @@ description: Узнайте, как бизнес-тестирование исп
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 675eda4aeb2109c21c2e3f47a100a985fd6e2861
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 15ab13f8d5797921e125c3b397b44213afcde249
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311766"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80432371"
 ---
 # <a name="guidance-for-business-testing-uat-during-migration"></a>Руководство по бизнес-тестированию (UAT) во время миграции
 
@@ -49,7 +49,7 @@ ms.locfileid: "79311766"
 - Выявление имеющихся автоматических тестов, которые могут упростить тестирование опытными пользователями.
 - Для изменений, которые могут потребовать повторного развертывания или тестирования, изучите процессы тестирования, определите тестовые показатели и создайте автоматизацию для дальнейшего упрощения тестирования опытными пользователями.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В сочетании с бизнес-тестированием [оптимизация перенесенных ресурсов](./optimize.md) может уточнить затраты и производительность рабочей нагрузки.
 

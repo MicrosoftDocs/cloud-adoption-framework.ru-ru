@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 81140a69d3d024159c62b499de2e69cd57eb3d1f
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 3d0a4e06a2aaa21f191130b937790408abf16952
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709249"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434293"
 ---
 # <a name="standard-enterprise-guide-improve-the-cost-management-discipline"></a>Стандартное Корпоративное руководство: улучшение дисциплины управления затратами
 
@@ -78,7 +78,7 @@ ms.locfileid: "77709249"
 
 Добавление этих процессов и изменений в MVP по управлению ресурсами помогает исправлять многие риски, связанные с управление затратами. Вместе они обеспечивают прозрачность, отчетность и оптимизацию, необходимые для управления затратами.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере того как внедрение в облако продолжится и обеспечивает дополнительную ценность для бизнеса, риски и потребности в управлении облаком тоже изменятся. Для вымышленной компании, приведенной в этом разделе, следующим шагом является использование этих инвестиций в Управление несколькими облаками.
 

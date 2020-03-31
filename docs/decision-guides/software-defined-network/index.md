@@ -4,16 +4,16 @@ description: Используйте Cloud Adoption Framework для Azure, чт�
 author: rotycenh
 ms.author: abuck
 ms.date: 02/11/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: a07130e8d7ac201f7519658ea84e3ff9df33ecbb
-ms.sourcegitcommit: 25cd1b3f218d0644f911737a6d5fd259461b2458
+ms.openlocfilehash: 3dc3071fbba6d8b33ccf7fd75a0f451160481fc5
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "80225740"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433121"
 ---
 # <a name="software-defined-networking-decision-guide"></a>Руководство по принятию решений о программно-конфигурируемой сети
 

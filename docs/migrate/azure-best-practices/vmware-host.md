@@ -4,15 +4,15 @@ description: Используйте платформу внедрения в о�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/10/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7fb9e477575a870d1be09b45c91917f85c6a2f10
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: e6c83204fae94210f9675654d106f4c224dfc912
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312141"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80429620"
 ---
 # <a name="vmware-host-migration-best-practices-for-azure"></a>Рекомендации по миграции узла VMware в Azure
 

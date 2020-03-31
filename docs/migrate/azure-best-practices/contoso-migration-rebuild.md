@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 45d5a27e6d7ba933c82bc41825e76cf8f7830767
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 2713ce102d115c4f5cd16ef37baaaa22a06acfc8
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356345"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80431090"
 ---
 <!-- cSpell:ignore reqs contosohost contosodc contosoacreus contososmarthotel smarthotel smarthotelcontoso smarthotelakseus smarthotelacreus smarthotelpets smarthotelpetchecker smarthotelsettingsurl vcenter WEBVM SQLVM eastus kubectl contosodevops visualstudio azuredeploy cloudapp publishfront petchecker appsettings -->
 
@@ -162,7 +162,7 @@ ms.locfileid: "80356345"
 
    ![AKS](./media/contoso-migration-rebuild/aks4.png)
 
-6. Проверка подлинности Azure CLI выполняется с помощью команды **az login**. После ее запуска нужно следовать инструкциям для проверки подлинности с помощью веб-браузера. Дополнительные сведения о входе с помощью Azure CLI см. в [этой статье](/cli/azure/authenticate-azure-cli?view=azure-cli-latest).
+6. Проверка подлинности Azure CLI выполняется с помощью команды **az login**. После ее запуска нужно следовать инструкциям для проверки подлинности с помощью веб-браузера. Дополнительные сведения о входе с помощью Azure CLI см. в [этой статье](https://docs.microsoft.com/cli/azure/authenticate-azure-cli?view=azure-cli-latest).
 
    ![AKS](./media/contoso-migration-rebuild/aks5.png)
 

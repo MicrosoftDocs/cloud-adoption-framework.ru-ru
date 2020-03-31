@@ -4,15 +4,15 @@ description: Используйте прогнозное моделирован�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: e299025afcbf1066411f8d4792fe739663d46c74
-ms.sourcegitcommit: 10637acba8c857a6f5aa8c4a80c0649903f60402
+ms.openlocfilehash: bbbed6fd267a6cac7b052c28a0b902c233d74374
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "78171112"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80427377"
 ---
 # <a name="predict-and-influence"></a>Прогнозирование и влияние
 

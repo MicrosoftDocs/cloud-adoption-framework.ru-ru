@@ -4,15 +4,15 @@ description: Изучите подход к инвестиции в продол
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 43399d4d84d824f03a7fb19da493223f3baea717
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 92453f3323a2479160bd7bd45e6ef5101c1d9f1b
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341255"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80430135"
 ---
 # <a name="workload-operations-in-cloud-management"></a>Операции рабочей нагрузки в управлении облаком
 
@@ -94,7 +94,7 @@ _Принцип Парето_ (также называемый _правилом
 
 Чтобы помочь улучшить общие операции, [платформа архитектуры Azure](https://docs.microsoft.com/azure/architecture/guide/pillars) предоставляет подход к оценке конкретных рабочих нагрузок для обеспечения соответствия этим основам. Вы можете применить эти основные принципы как к операциям платформы, так и к операциям рабочей нагрузки.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Благодаря полному пониманию методологии управления в облачной инфраструктуре внедрения, теперь вы можете реализовать принципы управления облаком. Рекомендации по обеспечению действия методологии в среде эксплуатации см. в статье [управление облаком в облачной инфраструктуре внедрения](../index.md) цикла внедрения.
 

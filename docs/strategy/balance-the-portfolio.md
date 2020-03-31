@@ -4,15 +4,15 @@ description: Узнайте о стратегиях балансировки м�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 03/04/2020
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: fc0c52932b15a0987f78e853c3b3756d27629ae0
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 381359391d7fc39281d49d202f66edf5691be293
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80353477"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433797"
 ---
 <!-- cSpell:ignore CSAT -->
 

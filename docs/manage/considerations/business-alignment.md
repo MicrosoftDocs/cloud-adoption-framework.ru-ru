@@ -4,15 +4,15 @@ description: Используйте облачную платформу внед
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: ee88c1fc88e5c678f7356aa15b473d0fe61eaa2d
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: 432e974a304741a64e0cd7da9577ecec5e35d57e
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140660"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434058"
 ---
 # <a name="create-business-alignment-in-cloud-management"></a>Создание делового выравнивания в управлении облаком
 

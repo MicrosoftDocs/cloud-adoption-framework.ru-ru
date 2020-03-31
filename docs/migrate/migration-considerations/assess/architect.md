@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: af77abda7d26e032549db0c04f535593fc906789
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: e5211d263e2833b8cef41d3f8b3cc1d709b89d39
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094184"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80432905"
 ---
 # <a name="architect-workloads-prior-to-migration"></a>Проектирование рабочих нагрузок до миграции
 

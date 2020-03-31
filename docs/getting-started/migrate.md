@@ -4,15 +4,15 @@ description: Получите исчерпывающие рекомендаци�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 8555770721a1c00f40ca66a6f7c65adc635cec59
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 3ec14b513bc8030d2b04144465ecc0cbb48b97fc
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80357227"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434792"
 ---
 # <a name="begin-a-cloud-migration-journey-in-azure"></a>Начало процесса миграции в облако в Azure
 

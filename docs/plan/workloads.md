@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 8d9297534f04b6656b584fa82d565e9119599f26
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 4ffd05a17466d0ca61605de5080b54316de78e4d
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80354691"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433965"
 ---
 # <a name="define-and-prioritize-workloads-for-a-cloud-adoption-plan"></a>Определение и определение приоритетов рабочих нагрузок для плана внедрения в облако
 
@@ -80,7 +80,7 @@ ms.locfileid: "80354691"
 | Соответствие нормативным требованиям | Существуют ли какие-либо требования к совместимости сторонних производителей для этой рабочей нагрузки? |         |
 | Владельцы приложений | Кто может учитывать влияние приложений, связанных с этой рабочей нагрузкой, на бизнес? |         |
 | Периоды замораживания бизнеса | Существуют ли какие-либо случаи, когда бизнес не будет разрешено изменять? |         |
-| Географических регионов | Затронуты ли эти рабочие нагрузки? |         |
+| Географические регионы | Затронуты ли эти рабочие нагрузки? |         |
 
 ### <a name="technical-inputs"></a>Технические входные данные
 

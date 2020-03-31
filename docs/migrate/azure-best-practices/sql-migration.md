@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/10/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e23d954835e20735ca5f8ab57e0139504c5f4c75
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: d077492b4be83d7d4d3f7b5485c9e22a9181fbe3
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79311903"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433037"
 ---
 # <a name="sql-server-migration-best-practices-for-azure"></a>Рекомендации по миграции SQL Server для Azure
 

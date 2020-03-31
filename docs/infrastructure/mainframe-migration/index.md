@@ -4,15 +4,15 @@ description: Переносите рабочие нагрузки, прилож�
 author: njray
 ms.author: v-nanra
 ms.date: 12/27/2018
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 1203f03c771997fc3dd533385bf19748ab3447c1
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: 9d11c3954bb97d14c5ee4c59e27013cff7e8cf7a
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140541"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80425541"
 ---
 <!-- cSpell:ignore nanra njray dbspaces dbextents VSAM RACF LPARS ASSGN DLBL EXTENT LIBDEF EXEC IPLs -->
 

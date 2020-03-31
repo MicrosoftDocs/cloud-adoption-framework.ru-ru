@@ -4,16 +4,16 @@ description: Использование облачных решений для �
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 042487ce2c579f581547e4942785cbbba659ad5e
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 7389663a9a530b447d5cea977d28aa8b55621ee4
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80357265"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434802"
 ---
 # <a name="rationalize-the-digital-estate"></a>Рациональное использование цифровых активов
 

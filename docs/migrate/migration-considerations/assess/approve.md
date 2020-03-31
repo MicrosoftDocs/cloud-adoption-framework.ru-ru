@@ -4,15 +4,15 @@ description: Узнайте, как классифицировать измен�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2de71f5a28da4b6ec7c876f26f929b3e0e6de425
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: d59f2d92f6777cd3210de715eb0de217fe9abce8
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80353838"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80432915"
 ---
 <!-- cSpell:ignore architected ITIL -->
 

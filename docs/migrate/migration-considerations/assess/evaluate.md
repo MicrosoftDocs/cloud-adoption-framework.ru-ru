@@ -4,15 +4,15 @@ description: Узнайте, что нужно для того, чтобы оц�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3065dfa39af189c5275f966e758fe49004f4de00
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 4321cf289bcab6fbee061fbff27d45fd8d695eac
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094775"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80432793"
 ---
 # <a name="evaluate-workload-readiness"></a>Оценка готовности рабочей нагрузки
 

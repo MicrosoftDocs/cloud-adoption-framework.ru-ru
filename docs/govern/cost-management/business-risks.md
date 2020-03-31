@@ -4,16 +4,16 @@ description: Изучите примеры типичного внедрения
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 38fb0523b2c5915a351223fdb603dbb0cacbf602
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 0afb5c3a4c8c1f355083ae6d4734ca4fa45b34ca
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80357150"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434710"
 ---
 <!-- cSpell:ignore prepurchases -->
 

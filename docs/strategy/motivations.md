@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 5/19/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: cb5de82fab4e5a1c9f93b82ce8c7065d741ca292
-ms.sourcegitcommit: 26caeb6b7f4e14df30bf16727d0b1b3d63b9c0c2
+ms.openlocfilehash: b504d5b7bb5c126a43464d0e776417b1ead0b8ac
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78337847"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433719"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -76,7 +76,7 @@ ms.locfileid: "78337847"
 - Улучшение взаимодействия с клиентами и сотрудничества.
 - Преобразование продуктов или служб.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Понимание прогнозируемых результатов бизнеса помогает упростить диалоги, которые необходимо иметь в процессе документирования причин и поддержки метрик в соответствии с вашей бизнес-стратегией. Далее Читайте обзор результатов бизнеса, которые обычно связаны с переходом в облако.
 

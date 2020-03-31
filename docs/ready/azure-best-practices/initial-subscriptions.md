@@ -4,15 +4,15 @@ description: Начните внедрение Azure, создав первон�
 author: alexbuckgit
 ms.author: abuck
 ms.date: 05/20/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 4e2a538c91328e7153f7f5ed37d07b8dbbeb4ea0
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: ba648a2e26085b8a13b698097c54d184c27f8fff
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80359833"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433325"
 ---
 # <a name="create-your-initial-azure-subscriptions"></a>Создание первоначальных подписок Azure
 

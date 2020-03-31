@@ -4,16 +4,16 @@ description: Используйте инфраструктуру внедрен�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: 4f9ec4df29469f17f6c057f8d3c0308c66cf1ba5
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 5950b94a6247864ef101e6e8c2040eee899a5bb4
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092887"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433749"
 ---
 # <a name="examples-of-fiscal-outcomes"></a>Примеры финансовых результатов
 

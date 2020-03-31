@@ -4,15 +4,15 @@ description: Узнайте, как использовать службы упр
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 3525b8d84ee6dd54072a4fed401114578de7fcb3
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: ecc0dd8b3a91461d5c5d1dd1ce4c062646d974fb
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094483"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80430505"
 ---
 # <a name="set-up-basic-alerts"></a>Настройка базовых оповещений
 

@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: a1201c3e1bf05f7fc704b1a12744d8f031607169
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 9c261154f502fa96b053caead0ea999697a6f6b4
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356822"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433429"
 ---
 # <a name="tools-to-predict-and-influence-data-in-azure"></a>Средства для прогнозирования и влияния на данные в Azure
 
@@ -37,7 +37,7 @@ ms.locfileid: "80356822"
 - [Машинное обучение Azure](https://docs.microsoft.com/azure/machine-learning)
 - [Azure HDInsight](https://docs.microsoft.com/azure/hdinsight)
 - [Масштабируемый R Hadoop](https://docs.microsoft.com/azure/hdinsight/hdinsight-hadoop-r-scaler-sparkr)
-- [Azure синапсе Analytics](https://docs.microsoft.com/azure/synapse-analytics)
+- [Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics)
 
 Использование каждого из этих средств с каждым этапом прогнозирования и влияния отражается в руководстве в оглавлении в левой части этой страницы.
 

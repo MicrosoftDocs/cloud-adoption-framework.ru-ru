@@ -4,16 +4,16 @@ description: Узнайте, как собственные средства Azur
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 0aa9525a42e62012e1aa5913d9f806cc2a40e2f0
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 368d2811bb54ef373be8df036d96452023891b83
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77709402"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434963"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Средства основных способов идентификации в Azure
 
@@ -46,7 +46,7 @@ ms.locfileid: "77709402"
 
 При выборе этого метода Azure AD передает процесс проверки подлинности в отдельную доверенную систему проверки подлинности, например локальную службы федерации Active Directory (AD FS) (AD FS) или доверенный сторонний поставщик Федерации, для проверки пароля пользователя.
 
-Статья [Выбор правильного метода аутентификации для гибридного решения для идентификации Azure Active Directory](https://docs.microsoft.com/azure/security/azure-ad-choose-authn) содержит дерево принятия решений, которое поможет вам выбрать лучшее решение для вашей организации.
+Статья [Выбор правильного метода аутентификации для гибридного решения для идентификации Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn) содержит дерево принятия решений, которое поможет вам выбрать лучшее решение для вашей организации.
 
 Ниже указана таблица со списком собственных средств Azure, которые могут помочь в совершенствовании политик и процессов, поддерживающих эту дисциплину управления.
 

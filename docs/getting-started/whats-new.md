@@ -7,12 +7,12 @@ ms.date: 03/27/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: c701d49a80ea0ec087f26f792b7ffe8dbd4c061f
-ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
+ms.openlocfilehash: 4863cb5c4fcffc7e994fb852da82271d9b8d41e8
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80392491"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434744"
 ---
 <!-- markdownlint-disable MD024 -->
 

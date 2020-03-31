@@ -4,15 +4,15 @@ description: Подготовка навыков для миграции в об
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 02/25/2020
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ab7b0e80a360c214aae418e3383ced59ec06c268
-ms.sourcegitcommit: 58ea417a7df3318e3d1a76d3807cc4e7e3976f52
+ms.openlocfilehash: a491bf0c5530898e229c5f87e3ef09a55b100382
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "78898061"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80428942"
 ---
 # <a name="skills-readiness-for-cloud-migration"></a>Подготовка навыков для миграции в облако
 

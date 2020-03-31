@@ -4,16 +4,16 @@ description: Ознакомьтесь с руководством по наст�
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 614c43a59d7fab493aa97eca47dcd43a73987fa9
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: dfbdfaafaf9787af54a9c2622e5ed8ef791a1138
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508140"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433254"
 ---
 <!-- cSpell:ignore netops -->
 

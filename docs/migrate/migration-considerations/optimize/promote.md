@@ -4,15 +4,15 @@ description: Используйте платформу внедрения в о�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 34444c31aa977e6088c7aabbb916a27c008c2b04
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 0ec1144e93c449f15579d5cf0246bb44785faed0
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80355212"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80429282"
 ---
 <!-- cSpell:ignore CISO prepromotion -->
 

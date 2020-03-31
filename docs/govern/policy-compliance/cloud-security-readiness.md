@@ -4,15 +4,15 @@ description: Узнайте, как подготовить офис информ
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: dc82f4d8ad21bcbb9d36b00fbdad1f91d6d4ec2c
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: b30cac2fb4ba372c7fd11f8528ecac4c0f3e84c3
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356938"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433061"
 ---
 <!-- cSpell:ignore CISO -->
 

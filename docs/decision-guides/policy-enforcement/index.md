@@ -4,16 +4,16 @@ description: Используя Cloud Adoption Framework для Azure, узна�
 author: rotycenh
 ms.author: abuck
 ms.date: 02/11/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: f873e95e70fbc9afb06a4603d4be6f9e757d869f
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 9d480b98fc69e899185ea9633ebf00725557e908
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80355551"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433169"
 ---
 # <a name="policy-enforcement-decision-guide"></a>Руководство по принудительному применению политик
 

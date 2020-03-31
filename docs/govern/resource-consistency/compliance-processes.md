@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 6751de6d448be8119dceaed86339e1c27ccc40f3
-ms.sourcegitcommit: d660484d534bc61fc60470373f3fcc885a358219
+ms.openlocfilehash: dd9f23a35e4e97605c23fbc52d32433eab97539b
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "79508106"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433664"
 ---
 # <a name="resource-consistency-policy-compliance-processes"></a>Процессы обеспечения соответствия политике согласованности ресурсов
 

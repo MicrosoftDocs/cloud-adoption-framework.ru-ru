@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: df41ee9dfe94d0279f8a0c29982e8aff2dd83782
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: a597a76e1d42d08c3800fd2f3831729bf53f10f1
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312056"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80432880"
 ---
 # <a name="business-priorities-maintaining-alignment"></a>Бизнес-приоритеты: поддержание выравнивания
 
@@ -48,7 +48,7 @@ ms.locfileid: "79312056"
 
 Когда на рынке происходят изменения, команда по вопросам облачной стратегии вместе с руководством компании пытается понять, как лучше реагировать на изменения. Если требуются изменения приоритетов миграции, то список невыполненной работы по миграции корректируется. Это продвигает рабочие нагрузки, которые ранее имели более низкий приоритет.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 При правильно согласованных бизнес-приоритетах команда по внедрению в облако может с уверенностью начать [оценивать рабочие нагрузки](./evaluate.md) для разработки архитектуры и планов миграции.
 

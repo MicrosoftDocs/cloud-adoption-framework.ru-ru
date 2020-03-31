@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 290f2fb23b4c79f97c6009505493c1c59ac17355
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 1dc9a438a502a63c6c989f822330acd2ee7cef5f
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708858"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434678"
 ---
 # <a name="cost-management-policy-compliance-processes"></a>Процессы обеспечения соответствия политикам управления затратами
 
@@ -56,7 +56,7 @@ ms.locfileid: "77708858"
 - **Месячные отклонения бюджета:** Обсудите любые отклонения в месячных расходах, превышающие соотношение прогнозируемых и фактических значений в 20% с руководителем единицы выставления счетов. Запишите решение проблемы и изменения запланированного бюджета.
 - **Скорость внедрения:** Любое отклонение на уровне подписки, превышающее 20%, вызовет проверку с руководителем единицы выставления счетов. Запишите решение проблемы и изменения запланированного бюджета.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Используя [шаблон управления облаком](./template.md), задокументируйте процессы и триггеры, соответствующие текущему плану внедрения облака.
 

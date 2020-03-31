@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4cbf0c7760ed2c471e1b462ae2712c544e9d0e8c
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 8e3ed4ff6457c0e9d00777f94c812097f0b742e9
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80355498"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80429398"
 ---
 # <a name="manage-change-in-an-incremental-migration-effort"></a>Управление изменениями в процессе поэтапной миграции
 

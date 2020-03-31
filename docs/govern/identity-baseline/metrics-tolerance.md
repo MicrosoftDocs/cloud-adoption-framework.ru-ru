@@ -4,16 +4,16 @@ description: Используйте облачную платформу внед
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9d50e40ba5877eab0f2aa904f2bcc1e984c309ca
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 5af612501dd2fb8bb73ada0e9dfcd4f3ee784e35
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223885"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433522"
 ---
 # <a name="identity-baseline-metrics-indicators-and-risk-tolerance"></a>Метрики, индикаторы и допустимость риска по основным способам идентификации
 
@@ -59,7 +59,7 @@ ms.locfileid: "78223885"
 
 Точные метрики и триггеры, используемые для оценки отказоустойчивости и уровня инвестиций в базовую дисциплину удостоверений, будут относиться к конкретной организации, но приведенные выше примеры должны служить основой для обсуждения группы управления в облаке.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 С помощью [шаблона управления облачными ресурсами](./template.md) задокументируйте метрики и индикаторы допустимости, соответствующие текущему плану внедрения облака.
 

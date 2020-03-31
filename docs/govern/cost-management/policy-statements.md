@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 3f9b7076cb50d9526beccfe4faabaa043b010841
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 7908dfe5a4ab63d37f97296cf8b830f358a2f4ea
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708892"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434652"
 ---
 # <a name="cost-management-sample-policy-statements"></a>Примеры правил политики управления затратами
 
@@ -74,7 +74,7 @@ ms.locfileid: "77708892"
 - В Azure есть [аналитические функции Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-performance), которые помогут в анализе использования системы.
 - Также существует несколько методов группировки и маркировки ресурсов с учетом их ролей. Совместно с группой управления следует выбрать для Azure [модель согласованности ресурсов](../../decision-guides/resource-consistency/index.md) и применить ее ко всем ресурсам.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Используйте примеры, приведенные в этой статье, в качестве отправной точки для разработки политик по конкретным бизнес-рискам, соответствующих вашим планам внедрения облачных систем.
 

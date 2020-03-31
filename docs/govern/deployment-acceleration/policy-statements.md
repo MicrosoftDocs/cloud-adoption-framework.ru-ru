@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9e25c81e2811bcefa238366462db3d2c66184b08
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: c10353d4ed284309f782f9ebbc13085d1f6bd14f
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708960"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434542"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Примеры правил политик ускорения развертывания
 
@@ -52,7 +52,7 @@ ms.locfileid: "77708960"
 
 **Возможные варианты проектирования:** Установите ежемесячное собрание по проверке безопасности, включающее участников группы управления и ИТ-сотрудников, ответственных за облачные приложения и ресурсы. Проверьте существующие данные и метрики безопасности, чтобы установить зазоры в текущей политике и средствах ускорения развертывания и обновить политику, чтобы устранить все новые риски.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Используйте примеры, приведенные в этой статье, в качестве отправной точки для разработки политик по конкретным бизнес-рискам, соответствующих вашим планам внедрения облачных систем.
 

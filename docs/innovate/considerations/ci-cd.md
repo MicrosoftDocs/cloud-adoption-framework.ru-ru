@@ -4,15 +4,15 @@ description: Используйте модель зрелости методол
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 9b355fa346373d1fcca069e2e47e23d1ee3a86b2
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: c29eedc234d3795ce0bad76b324e7049dfe15633
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356751"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433341"
 ---
 <!-- cSpell:ignore deprioritize -->
 

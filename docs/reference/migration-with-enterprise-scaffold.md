@@ -4,16 +4,16 @@ description: Azure Enterprise формирования шаблонов тепе
 author: rdendtler
 ms.author: rodend
 ms.date: 09/22/2018
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ROBOTS: NOINDEX
-ms.openlocfilehash: 4e6daee6f5f69599fc8346cf6414b2dff14ae7a9
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 3a1f33fa671dbf42586e371c40ee814d105114d9
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80353742"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80431969"
 ---
 <!-- cSpell:ignore rodend subscope ITSM Hashi -->
 
