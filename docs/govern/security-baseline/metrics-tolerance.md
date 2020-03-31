@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5f85fd62f78b3be30faab452f12113790e6455d8
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 770b266f243a016d0de65dfc235717a405025aa9
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77707345"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80425968"
 ---
 # <a name="security-baseline-metrics-indicators-and-risk-tolerance"></a>Метрики, индикаторы и допустимость риска в базовой системе безопасности
 

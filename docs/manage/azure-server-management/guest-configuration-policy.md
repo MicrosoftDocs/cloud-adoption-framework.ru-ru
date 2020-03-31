@@ -4,15 +4,15 @@ description: Используйте облачную платформу внед
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 73373e5cc56ef7e5804151171a22ad9f541f1cd3
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 2dd8bd0ff7c991fd2141a3bfa44581e5c3e4af42
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79094697"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434106"
 ---
 # <a name="guest-configuration-policy"></a>Политика конфигурации гостя
 

@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d4c69bafe9bf0dc0bfdb060455c82d3b3a638a47
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 8594d37e41475ca26f96b89fe50591fbd0ecfc04
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78223846"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434196"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Примеры правил политики основных способов идентификации
 
@@ -76,7 +76,7 @@ ms.locfileid: "78223846"
 
 **Возможные варианты проектирования:** Установите ежеквартальное собрание по проверке безопасности, включающее участников группы управления и ИТ-сотрудников, ответственных за управление службами удостоверений. Проверьте существующие данные и метрики безопасности, чтобы установить зазоры в текущей политике управления удостоверениями и инструментарии, и обновите политику, чтобы устранить все новые риски.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Используйте примеры, упомянутые в этой статье, в качестве отправной точки для разработки политик для решения конкретных бизнес-рисков, которые согласованы с планами внедрения в облако.
 

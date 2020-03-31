@@ -4,15 +4,15 @@ description: Используйте инфраструктуру внедрен�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: ce9ce90d429064eeb8e848fd203aec11d042e539
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 44bc3cbe47fa30303d7ba806cb445c73a7d5837f
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80354531"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80427883"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Отслеживание затрат по всем бизнес-единицам, средам или проектам
 

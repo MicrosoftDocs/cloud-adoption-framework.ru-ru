@@ -4,15 +4,15 @@ description: Узнайте о каталоге данных Azure и други
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: a22742755f9336fd1cbbae3bb4417314228a432d
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 613e1ebaa3341b9aa96af659d0eb03cbc21a1303
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356815"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80425606"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 
@@ -41,7 +41,7 @@ ms.locfileid: "80356815"
 
 - [Power BI](https://docs.microsoft.com/power-bi)
 - [Каталог данных Azure](https://docs.microsoft.com/azure/data-catalog)
-- [Azure синапсе Analytics](https://docs.microsoft.com/azure/synapse-analytics)
+- [Azure Synapse Analytics](https://docs.microsoft.com/azure/synapse-analytics)
 - [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db)
 - [База данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql)
 - [База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql)

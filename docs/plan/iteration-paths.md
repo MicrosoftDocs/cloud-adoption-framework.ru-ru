@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 8aaee4546568301eabbe774cea08c3d5d975bb3e
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: f49d96af36176b08e4de93ab81439b4cd17d8fc2
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79092672"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80428124"
 ---
 # <a name="establish-iterations-and-release-plans"></a>Установка итераций и разработка планов выпусков
 

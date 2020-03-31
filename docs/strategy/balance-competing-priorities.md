@@ -4,15 +4,15 @@ description: Узнайте о стратегиях балансировки к�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 03/04/2020
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: a0524d8e7cd48f3b93191d9633bb57b10fb2261b
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 95841468b109b4561d0632905c5004d6e4435954
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80353696"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80433830"
 ---
 # <a name="balance-competing-priorities"></a>Балансировка приоритетов конкурирующих задач
 

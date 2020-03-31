@@ -4,16 +4,16 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d7148df4bb06a0dc4ca035b89f7077888fb7306c
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.openlocfilehash: 148a89cd63bfa7c29caea9f5b8f74f64132aed08
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "77708943"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434325"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-resource-consistency-discipline"></a>Руководство по управлению для сложных предприятий: улучшение дисциплины согласованности ресурсов
 
@@ -108,7 +108,7 @@ ms.locfileid: "77708943"
 
 Добавление этих процессов и изменений в MVP для управления помогает устранить многие риски, связанные с системой управления ресурсами. Вместе они добавляют элементы управления восстановлением, масштабированием и мониторингом, необходимые для расширения возможностей операций с использованием облака.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Так как внедрение облака растет и доставляет дополнительную ценность для бизнеса, также изменяются риски и требования к управлению облаком. Для вымышленной компании в этом пошаговом окне следующий триггер — когда масштаб развертывания превышает 1 000 ресурсов в облако или ежемесячные затраты превышают $10 000 долларов США в месяц. На этом этапе группа управления облаком добавляет элементы управления затратами.
 

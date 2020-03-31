@@ -4,15 +4,15 @@ description: Используйте платформу облачного вне
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 38f7c2f6fc5be0cdad9a963fcf7f0fbb65937d3d
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 57859a8e3af75fa19f929e8fb614197ff69c47df
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341605"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80434078"
 ---
 # <a name="azure-server-management-tools-and-services"></a>Средства и службы управления сервером Azure
 
@@ -22,7 +22,7 @@ ms.locfileid: "78341605"
 - Безопасность
 - Защита
 - Монитор
-- Настройка
+- Configure
 - Управление
 
 В следующих разделах кратко описаны эти области управления и приведены ссылки на подробные сведения о главных службах Azure, которые их поддерживают.
@@ -61,7 +61,7 @@ ms.locfileid: "78341605"
 - Log Analytics ([журналы](https://docs.microsoft.com/azure/azure-monitor/platform/data-collection#logs)) — это функция Azure Monitor. Его роль является центральной для общей истории управления Azure. Он служит хранилищем данных для анализа журналов и многих других служб Azure. Она предлагает расширенный язык запросов и модуль аналитики, который предоставляет подробные сведения о работе приложений и ресурсов.
 - [Журнал действий Azure](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) также является компонентом Azure Monitor. Он предоставляет подробные сведения о событиях уровня подписки, происходящих в Azure.
 
-## <a name="configure"></a>Настройка
+## <a name="configure"></a>Configure
 
 В эту категорию помещаются несколько служб. Они могут помочь:
 
@@ -73,7 +73,7 @@ ms.locfileid: "78341605"
 
 Эти службы необходимы для поддержки текущих операций:
 
-- [Управление обновлениями](/azure/automation/automation-update-management) автоматизирует развертывание исправлений в среде, включая развертывание в экземплярах операционной системы, работающих за пределами Azure. Она поддерживает операционные системы Windows и Linux, а также отслеживает основные уязвимости ОС и несоответствие, вызванные отсутствием исправлений.
+- [Управление обновлениями](https://docs.microsoft.com/azure/automation/automation-update-management) автоматизирует развертывание исправлений в среде, включая развертывание в экземплярах операционной системы, работающих за пределами Azure. Она поддерживает операционные системы Windows и Linux, а также отслеживает основные уязвимости ОС и несоответствие, вызванные отсутствием исправлений.
 - [Отслеживание изменений и Инвентаризация](https://docs.microsoft.com/azure/automation/change-tracking) позволяют получить представление о программном обеспечении, работающем в вашей среде, и выделить произошедшие изменения.
 - Служба [автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro) позволяет выполнять сценарии Python и PowerShell, а также модули Runbook для автоматизации задач в среде. При использовании службы автоматизации с [гибридной рабочей ролью Runbook](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)можно также расширить модули Runbook на локальные ресурсы.
 - [Настройка состояния службы автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-dsc-overview) позволяет принудительно передавать конфигурации требуемого состояния (DSC) PowerShell непосредственно из Azure. DSC также позволяет отслеживать и сохранять конфигурации для гостевых операционных систем и рабочих нагрузок.

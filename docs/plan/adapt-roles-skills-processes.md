@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: d016ee6fdc530774f759e100d704f9efc023c38b
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 32436e7227f82a3d959f917978368c298743f2d1
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341952"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80428186"
 ---
 # <a name="adapt-existing-roles-skills-and-processes-for-the-cloud"></a>Адаптация существующих ролей, навыков и процессов в облаке
 
@@ -51,7 +51,7 @@ ms.locfileid: "78341952"
 
 Отследите эти зависимости и запишите процессы, которые будут их поддерживать. Также обратите внимание на то, существуют ли уже существующие процессы. Для процессов, требующих инструментов, убедитесь, что временная шкала для развертывания любых средств соответствует общему расписанию цифрового преобразования.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Обеспечение правильной поддержки переведенных ролей — это усилия группы. Чтобы приступить к работе с этим руководством, ознакомьтесь с введением в организацию [готовности Организации](../organize/index.md) , чтобы найти правильные структуры и участники команды.
 

@@ -4,15 +4,15 @@ description: Узнайте, как включить службы управле
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/10/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: d79539e6708a46a905e1b69a4d6bd186eaff2d0f
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 38285bfe7ebc713d186e6e952b119637161d12ce
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341697"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80426523"
 ---
 # <a name="enable-server-management-services-on-a-single-vm-for-evaluation"></a>Включение служб управления сервером на одной виртуальной машине для оценки
 
@@ -32,7 +32,7 @@ ms.locfileid: "78341697"
 - [Подключение решений Управление обновлениями, Отслеживание изменений и инвентаризации из виртуальной машины Azure](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-vm)
 - [Подключение мониторинга Azure для виртуальных машин](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-single-vm)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как использовать политику Azure для подключения виртуальных машин Azure в нужном масштабе.
 

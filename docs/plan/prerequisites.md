@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 07/01/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: f1c35b41f267887c62b2568583b929657517c87e
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: e723e16c039bace12c0a4e5e97c8e6635875732d
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80354847"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80427989"
 ---
 # <a name="prerequisites-for-an-effective-cloud-adoption-plan"></a>Необходимые условия для эффективного плана внедрения в облако
 

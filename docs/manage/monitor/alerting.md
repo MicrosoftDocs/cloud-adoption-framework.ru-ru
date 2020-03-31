@@ -4,16 +4,16 @@ description: Узнайте, как определить, когда испол�
 author: MGoedtel
 ms.author: magoedte
 ms.date: 06/26/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: bb74e869b2fab2142a8c0ffd8c7396268e2231ed
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: f8399e540b81154ce9de8c5ec1d0512c18d90ed8
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356307"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80430037"
 ---
 <!-- cSpell:ignore kusto multiresource multisignal -->
 

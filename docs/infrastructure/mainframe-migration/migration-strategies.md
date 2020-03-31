@@ -4,15 +4,15 @@ description: Получите техническое руководство по
 author: njray
 ms.author: v-nanra
 ms.date: 12/26/2018
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: cf3f64e8fd059ec847591a9f86f41e68aee0fd40
-ms.sourcegitcommit: 388e32dd4861039149c846c926c0e9230cf28ae3
+ms.openlocfilehash: 0f57483ed09ec87422773c6a2fb53e2785a0a24e
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79140524"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80425516"
 ---
 <!-- cSpell:ignore njray nanra vCPUs Proliant Sysplex IPLs DASDs LPARs ISPF Panvalet -->
 

@@ -4,16 +4,16 @@ description: Узнайте об Azure Monitor и System Center Operations Manag
 author: MGoedtel
 ms.author: magoedte
 ms.date: 07/31/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 4303a51a1a6df47e07e22f3de87639230f4a4c71
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 1cb25ad399c790a3dfbdd6c55119a50165f36196
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79091437"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80426044"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Руководство по облачному мониторингу: Введение
 

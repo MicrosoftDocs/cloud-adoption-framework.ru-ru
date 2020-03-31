@@ -4,15 +4,15 @@ description: Используйте платформу внедрения обл
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: bdd45861141b8fe69f8c13a49bdb6d387acd12ba
-ms.sourcegitcommit: 0ea426f2f471eb7310c6f09478be1306cf7bf0d8
+ms.openlocfilehash: 3e7c74a1d2afa880a0bdec5215b2237e8261ec79
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "78341187"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80426360"
 ---
 # <a name="business-impact-in-cloud-management"></a>Влияние на бизнес в управлении облаком
 
@@ -56,7 +56,7 @@ ms.locfileid: "78341187"
 
 - Каждый бизнес должен обновлять каждую рабочую нагрузку в *примере* или *Очистить шаблон* с учетом *времени и значений, влияющих* на каждую рабочую нагрузку. По умолчанию *влияние времени и значений* представляет прогнозируемые убытки в час, связанные с непростоией рабочей нагрузки.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Когда предприятие затронет влияние, можно [согласовать обязательства](./commitment.md).
 

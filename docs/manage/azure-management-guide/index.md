@@ -4,17 +4,17 @@ description: Узнайте, что такое Cloud Adoption Framework для A
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 6e9b83784d2fdaaca7ae4a55ccd977d266b6193d
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 30ce3f5d074e7b446da6c11efe5aa81e1c25724f
+ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356476"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "80426836"
 ---
 ::: zone target="docs"
 
