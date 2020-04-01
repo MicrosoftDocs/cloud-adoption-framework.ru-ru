@@ -7,12 +7,12 @@ ms.date: 10/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e6c83204fae94210f9675654d106f4c224dfc912
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 735c958838cecc5704f38a76b2a27371628cdb66
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80429620"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527754"
 ---
 # <a name="vmware-host-migration-best-practices-for-azure"></a>Рекомендации по миграции узла VMware в Azure
 
@@ -22,4 +22,4 @@ ms.locfileid: "80429620"
 
 ## <a name="migration-best-practices"></a>Рекомендации по миграции
 
-В оглавлении слева описываются некоторые рекомендации по нескольким веб-свойствам Майкрософт, которые могут помочь при выполнении миграции узла VMware в решения VMware для Azure (AVS). Закладка на этой странице для быстрого перехода к полному списку рекомендаций.
+В оглавлении слева приведены рекомендации по нескольким веб-свойствам Майкрософт, которые могут помочь при выполнении миграции узла VMware в решения Azure VMware (AVS). Закладка на этой странице для быстрого перехода к полному списку рекомендаций.

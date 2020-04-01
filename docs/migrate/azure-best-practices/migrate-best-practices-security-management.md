@@ -7,12 +7,12 @@ ms.date: 12/08/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3680af7b55012d0fbfbe0feac632e92b178aa8d2
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 6ed87d6a46dd1a31611c50ed5ce8d3c30c5849aa
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80354231"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527210"
 ---
 <!-- cSpell:ignore FIPS SIEM majeure NSGs -->
 
@@ -381,7 +381,7 @@ Azure Backup создает точки восстановления данных
 - [Сведения о том, как](https://docs.microsoft.com/azure/storage/blobs/storage-blob-snapshots) создать моментальный снимок BLOB-объекта.
 - [Просмотр демонстрационного сценария](https://azure.microsoft.com/blog/microsoft-azure-block-blob-storage-backup) резервного копирования хранилища BLOB-объектов.
 - [Сведения](https://docs.microsoft.com/azure/storage/blobs/storage-blob-soft-delete) об обратимом удалении.
-- [Что делать в случае простоя службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=%2fazure%2fstorage%2fblobs%2ftoc.json)
+- [Что делать в случае простоя службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-disaster-recovery-guidance?toc=/azure/storage/blobs/toc.json)
 
 #### <a name="third-party-backup"></a>Сторонние решения для резервного копирования
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: f8399e540b81154ce9de8c5ec1d0512c18d90ed8
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 3053d26f5b2cf3c7d1589f165fb32702b007d49f
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80430037"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527562"
 ---
 <!-- cSpell:ignore kusto multiresource multisignal -->
 
@@ -93,7 +93,7 @@ Azure Monitor для виртуальных машин | Критерии раб
 
 С другой стороны, в этом правиле есть несколько важных сносок.
 
-Данные **телеметрии гостевой ОС** имеют ряд путей, которые можно приступить к системе.
+Данные **телеметрии гостевой ОС** имеют несколько путей, чтобы приступить к системе.
 
 - Самый быстрый способ оповещения об этих данных — импортировать их в качестве пользовательских метрик. Это можно сделать с помощью расширения система диагностики Azure, а затем с помощью оповещения метрики. Однако пользовательские метрики сейчас находятся в режиме предварительной версии и [более дороги, чем другие параметры](https://azure.microsoft.com/pricing/details/monitor).
 

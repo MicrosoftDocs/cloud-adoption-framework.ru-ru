@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: ccb7a6e428075a69532238f25fd89e825f2a4b35
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: c57b2326475f9434aee0b98cf69bf85956ce076e
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80426345"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527104"
 ---
 # <a name="management-leveling-across-cloud-management-disciplines"></a>Управление выравниванием по всем дисциплинам управления облаком
 
@@ -34,7 +34,7 @@ ms.locfileid: "80426345"
 
 Организации могут также выбрать [функции внешнего источника, связанные с одним или несколькими уровнями управления для поставщика услуг](https://www.microsoft.com/cloud-adoption-framework-offers?ot=manage). Эти поставщики услуг могут использовать [Azure лигхсаусе](https://azure.com/lighthouse) для обеспечения большей точности и прозрачности.
 
-Остальные статьи в этой серии описывают ряд процессов, которые обычно встречаются в каждой из этих дисциплин.
+Остальные статьи в этой серии описывают процессы, которые обычно встречаются в каждой из этих дисциплин.
 В [руководстве по управлению Azure](../azure-management-guide/index.md) демонстрируются средства, которые могут поддерживать каждый из этих процессов. Чтобы получить помощь в создании базового плана управления, начните с руководства по управлению Azure. После создания базового плана эта серия статей и рекомендации помогут вам расширить этот базовый план, чтобы определить другие уровни поддержки управления.
 
 ## <a name="cloud-management-disciplines"></a>Дисциплины управления облаком

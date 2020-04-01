@@ -7,12 +7,12 @@ ms.date: 03/20/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 8d0265ff32f7cad82a98fd1dbc1070db40aa6167
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: c7d27fb64e03358876eb8384c09e3add5f5c433e
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80426883"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527247"
 ---
 <!-- cSpell:ignore asabbour sabbour kured -->
 
@@ -60,7 +60,7 @@ ms.locfileid: "80426883"
 > | **Обеспечьте безопасность сетевого трафика внутри Pod с помощью политик сети.** Примените принцип наименьших привилегий для управления потоком сетевого трафика между модулями Pod в кластере. | [Защита трафика внутри Pod с помощью политик сети](https://docs.microsoft.com/azure/aks/use-network-policies) |
 > | **Ограничьте доступ к серверу API с помощью полномочных IP-адресов.** Повышайте безопасность кластера и уменьшайте уязвимую зону, ограничивая доступ к серверу API до ограниченного набора диапазонов IP-адресов. | [Безопасный доступ к серверу API](https://docs.microsoft.com/azure/aks/api-server-authorized-ip-ranges) |
 > | **Ограничение исходящего трафика кластера.** Сведения о том, какие порты и адреса следует разрешить при ограничении исходящего трафика для кластера. Вы можете использовать брандмауэр Azure или устройство брандмауэра стороннего производителя для защиты исходящего трафика и определить необходимые порты и адреса. | [Управление трафиком исходящего трафика для узлов кластера в AKS](https://docs.microsoft.com/azure/aks/limit-egress-traffic) |
-> | **Безопасный трафик с помощью брандмауэра веб-приложения (WAF).** Используйте шлюз приложений Azure как входной контроллер для кластеров Kubernetes.  | [Настройка шлюза приложений Azure в качестве входящего контроллера](https://docs.microsoft.com/azure/application-gateway/ingress-controller-overview)    |
+> | **Безопасный трафик с помощью брандмауэра веб-приложения (WAF).** Используйте шлюз приложений Azure в качестве входящего контроллера для кластеров Kubernetes.  | [Настройка шлюза приложений Azure в качестве входящего контроллера](https://docs.microsoft.com/azure/application-gateway/ingress-controller-overview)    |
 > | **Примените обновления безопасности и ядра к рабочим узлам.** Изучите процесс обновления узла AKS. Для защиты кластеров обновления безопасности автоматически применяются к узлам Linux в AKS. Учитываются такие обновления, как исправления безопасности для операционной системы и обновления ядра. Чтобы завершить установку некоторых обновлений, нужно перезагрузить узел. | [Использование куред для автоматической перезагрузки узлов для применения обновлений](https://docs.microsoft.com/azure/aks/node-updates-kured) |
 > | **Настройка контейнера и решения для сканирования кластеров.** Проверяйте контейнеры, отправленные в реестр контейнеров Azure, и получайте более подробные представления об узлах кластера, облачном трафике и средствах управления безопасностью. | [Интеграция реестра контейнеров Azure с центром безопасности](https://docs.microsoft.com/azure/security-center/azure-container-registry-integration) <br/> [Интеграция службы Kubernetes Azure с центром безопасности](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)  |
 

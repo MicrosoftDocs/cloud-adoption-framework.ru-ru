@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3c41a207ed16364d4fc91625beeb9883bf6a8d0b
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 4b6ed0a62c3efcdf30e854fcbed6ee468a826e9c
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80433353"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527663"
 ---
 # <a name="common-blockers-and-challenges-to-innovation"></a>Распространенные блокировки и задачи для инноваций
 

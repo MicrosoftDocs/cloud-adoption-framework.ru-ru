@@ -7,12 +7,12 @@ ms.date: 12/16/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 31ea5b2e5906f08de5197906b57cbe32337e80f9
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 594b8ae3ce7949c3289d9a81ac9870889a5dba98
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80426842"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527184"
 ---
 <!-- cSpell:ignore asabbour sabbour autoscaler PDBs -->
 
@@ -62,7 +62,7 @@ ms.locfileid: "80426842"
 
 ## <a name="optimize-and-scale"></a>Оптимизация и масштабирование
 
-Теперь, когда приложение находится в рабочей среде, как можно оптимизировать рабочий процесс и подготовить приложение и команду к масштабированию? Используйте контрольный список оптимизации и масштабирования для подготовки. Вы должны иметь возможность ответить на следующие вопросы:
+Теперь, когда приложение находится в рабочей среде, как можно оптимизировать рабочий процесс и подготовить приложение и команду к масштабированию? Для подготовки используйте контрольный список для оптимизации и масштабирования. Вы должны иметь возможность ответить на следующие вопросы:
 
 > [!div class="checklist"]
 >
@@ -77,5 +77,5 @@ ms.locfileid: "80426842"
 > | Контрольный список  | Ресурсы |
 > |------------------------------------------------------------------|-----------------------------------------------------------------|
 > | **Автоматическое масштабирование кластера в соответствии с потребностями приложений.** Чтобы справиться с потребностями приложений, может потребоваться изменить число узлов, которые запускают рабочие нагрузки, автоматически с помощью автомасштабирования кластера. | [Настройка автомасштабирования кластера Kubernetes](https://docs.microsoft.com/azure/aks/cluster-autoscaler)    |
-> | **Спланируйте непрерывность бизнес-процессов и аварийное восстановление.** Спланируйте развертывание в многорегионом, создайте план миграции хранилища и включите георепликацию для образов контейнеров. | [Рекомендации по развертыванию в нескольких регионах](https://docs.microsoft.com/azure/aks/operator-best-practices-multi-region)  <br/> [Георепликация реестра контейнеров Azure](https://docs.microsoft.com/azure/container-registry/container-registry-geo-replication)  |
+> | **Спланируйте непрерывность бизнес-процессов и аварийное восстановление.** Спланируйте развертывание в многорегионом, создайте план миграции хранилища и включите георепликацию для образов контейнеров. | [Рекомендации по развертыванию регионов](https://docs.microsoft.com/azure/aks/operator-best-practices-multi-region)  <br/> [Георепликация реестра контейнеров Azure](https://docs.microsoft.com/azure/container-registry/container-registry-geo-replication)  |
 > | **Настройка мониторинга и устранения неполадок в масштабе.** Настройка оповещений и мониторинга для приложений в Kubernetes. Узнайте о конфигурации по умолчанию, о том, как интегрировать более сложные метрики и как добавить собственные настраиваемые средства мониторинга и оповещения для надежной работы приложения. | [Начало работы с мониторингом и оповещениями для Kubernetes (видео)](https://www.youtube.com/watch?v=W7aN_z-cyUw&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=16) <br/> [Настройка оповещений с помощью Azure Monitor для контейнеров](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview) <br/> [Обзор журналов диагностики для основных компонентов](https://docs.microsoft.com/azure/aks/view-master-logs) <br/> [Диагностика службы Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/concepts-diagnostics)    |

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9f945ee790bf33d37601ba5a09c49581f95a5d9a
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 48da6b708644030a2efc20dc0764bcb1b40ffe25
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80434985"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527595"
 ---
 <!-- cSpell:ignore offboarding preintegration -->
 
@@ -130,7 +130,7 @@ ms.locfileid: "80434985"
 - Проверьте процессы адаптации, отключения и обновления учетных данных.
 - Изучите возрастающие уровни автоматизации и связи между модулями управления доступом к удостоверениям (IAM).
 - Рассмотрите возможность реализации подхода "операции безопасности разработки" (DevSecOps).
-- Выполните анализ влияния для оценки результатов затрат, безопасности и внедрения пользователями.
+- Проведите анализ влияния, чтобы оценить результаты по затратам, безопасности и внедрению пользователей.
 - Периодически создавайте отчет о влиянии, который отображает изменения в метриках, создаваемых системой, и оценивайте влияние [стратегии гибридной идентификации](../../decision-guides/identity/index.md) на бизнес.
 - Реализуйте интегрированный мониторинг, рекомендуемый [Центром безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-intro).
 
