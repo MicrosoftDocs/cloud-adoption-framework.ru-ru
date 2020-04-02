@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit
-ms.openlocfilehash: f3d92caa6d71451975c47c1c596fe2332264388f
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 48d8659e757c5cf078b33097a4be467e3c8ba2b9
+ms.sourcegitcommit: f068ebc73b56f81f91773a963c5fc8fd2221a148
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80433933"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "80606638"
 ---
 <!-- cSpell:ignore westeurope usgovia accountlookup messagequery -->
 
@@ -75,7 +75,7 @@ ms.locfileid: "80433933"
 
 В следующем списке приведены рекомендуемые префиксы типов ресурсов Azure, которые следует использовать при определении соглашений об именах.
 
-<!-- cSpell:disable -->
+<!-- cSpell:ignore apim snet traf vmss stvm arcm ntfns sqldb psql sqldw sqlstrdb ssimp srch hbase appi migr -->
 
 ### <a name="general"></a>Общие сведения
 
