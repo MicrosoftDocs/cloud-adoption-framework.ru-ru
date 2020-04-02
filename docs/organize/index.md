@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
 layout: LandingPage
-ms.openlocfilehash: 353cf2effa8158634f93299c504bd3c069b5d11b
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: de34df16a5c709ac5cffbdb355f70c60c8a18c25
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093737"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527698"
 ---
 # <a name="manage-organizational-alignment"></a>Управление бизнес-согласованием
 
@@ -77,7 +77,7 @@ ms.locfileid: "79093737"
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Подготовка команд</h3>
-Определите подразделения, которые будут обеспечивать работу с облачными службами. Изучите ряд представленных примеров передовой практики.
+Определите подразделения, которые будут обеспечивать работу с облачными службами. Некоторые рекомендации приведены для справки.
                         </div>
                     </div>
                 </div>
@@ -96,7 +96,7 @@ ms.locfileid: "79093737"
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Матрица RACI</h3>
-Важным аспектом любой операционной модели является четкое определение ролей. Воспользуйтесь матрицей RACI, чтобы распределить между командами сферы ответственности, полномочия и роли, обеспечивающие функционирование облачной операционной модели.
+Важным аспектом любой операционной модели является четкое определение ролей. Воспользуйтесь матрицей RACI, чтобы разделить между командами сферы ответственности, а также распределить полномочия и роли, обеспечивающие функционирование облачной операционной модели.
                         </div>
                     </div>
                 </div>

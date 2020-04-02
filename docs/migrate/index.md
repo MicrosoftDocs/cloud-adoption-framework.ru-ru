@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 layout: LandingPage
-ms.openlocfilehash: c4ee7491fb5fbfa549dfe82c82e720f51188a25c
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.openlocfilehash: 10fa2bf0f63351adbf50c04b2725090d0c350d2d
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79312311"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527756"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
@@ -37,7 +37,7 @@ ms.locfileid: "79312311"
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Перенос первой рабочей нагрузки</h3>
-Ознакомьтесь с собственными средствами Azure и подходом к миграции в руководстве по миграции Azure.
+Ознакомьтесь с собственными средствами Azure и подходом к миграции, описанными в руководстве по миграции Azure.
                         </div>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ ms.locfileid: "79312311"
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Сценарии миграции</h3>
-Реализуйте дополнительные сценарии миграции с помощью дополнительных средств и подходов.
+Реализуйте альтернативные сценарии миграции с использованием дополнительных средств и подходов.
                         </div>
                     </div>
                 </div>

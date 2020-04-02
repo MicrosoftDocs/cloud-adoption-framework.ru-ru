@@ -8,12 +8,12 @@ ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 layout: LandingPage
-ms.openlocfilehash: 7374a531192ed140c8aa76d0e74e3817e34626db
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: d23c97ab3d1bc5c25617792d53f147654eb33daa
+ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80427423"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80527615"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Облачные инновации в Cloud Adoption Framework
 
@@ -59,7 +59,7 @@ ms.locfileid: "80427423"
                         </div>
                         <div class="cardText" style="padding-left:0px;">
                             <h3>Руководство по инновациям Azure</h3>
-Azure предлагает ряд облачных средств, которые ускоряют развертывание инновационных решений. Вы можете использовать разные сочетания средств с учетом своих задач. Мы рекомендуем создать минимально жизнеспособный продукт (MVP) с использованием базовых средств.
+Azure предлагает облачные средства, которые ускоряют развертывание инновационных решений. Вы можете использовать разные сочетания средств с учетом своих задач. Мы рекомендуем создать минимально жизнеспособный продукт (MVP) с использованием базовых средств.
                         </div>
                     </div>
                 </div>
