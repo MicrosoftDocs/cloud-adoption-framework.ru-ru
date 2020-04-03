@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 5c410527182d7185a052bc99826ea06154fdae5f
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 2d836e6d5397a5b2ff36ab57ee23712cfe40561a
+ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80429631"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80636455"
 ---
 <!-- cSpell:ignore HDFS databox VHDX -->
 
@@ -79,7 +79,7 @@ ms.locfileid: "80429631"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Вернитесь к [контрольному списку расширенной области](./index.md), чтобы убедиться, что выбранный метод миграции полностью вам подходит.
+Вернитесь к [контрольному списку рекомендаций по миграции](./index.md) , чтобы убедиться, что метод миграции полностью согласован.
 
 > [!div class="nextstepaction"]
-> [Контрольный список расширенной области](./index.md)
+> [Контрольный список рекомендаций по миграции](./index.md)

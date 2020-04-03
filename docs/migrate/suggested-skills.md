@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a491bf0c5530898e229c5f87e3ef09a55b100382
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: e390fe341662fc2aedef82db2db33050e49efa6c
+ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80428942"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80636417"
 ---
 # <a name="skills-readiness-for-cloud-migration"></a>Подготовка навыков для миграции в облако
 
@@ -60,11 +60,11 @@ ms.locfileid: "80428942"
 
 Следующие инструменты помогут команде найти способы защиты перенесенных ресурсов и управления ими.
 
-- [Защита рабочих нагрузок и управление ими в Azure](azure-best-practices/migrate-best-practices-security-management.md). рекомендации по обеспечению безопасности и управлению рабочими нагрузками в Azure.
+- [Защита рабочих нагрузок и управление ими в Azure](./azure-best-practices/migrate-best-practices-security-management.md). рекомендации по обеспечению безопасности и управлению рабочими нагрузками в Azure.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Вернитесь к [контрольному списку расширенной области](./index.md), чтобы убедиться, что выбранный метод миграции полностью вам подходит.
+Вернитесь к [контрольному списку рекомендаций по миграции](./azure-best-practices/index.md) , чтобы убедиться, что метод миграции полностью согласован.
 
 > [!div class="nextstepaction"]
-> [Контрольный список расширенной области](./index.md)
+> [Контрольный список рекомендаций по миграции](./index.md)

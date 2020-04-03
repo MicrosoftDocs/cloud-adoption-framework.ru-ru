@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit
-ms.openlocfilehash: 48d8659e757c5cf078b33097a4be467e3c8ba2b9
-ms.sourcegitcommit: f068ebc73b56f81f91773a963c5fc8fd2221a148
+ms.openlocfilehash: 0af59638c43902e835b3224817d8a24e7358b4b2
+ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "80606638"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80636361"
 ---
 <!-- cSpell:ignore westeurope usgovia accountlookup messagequery -->
 
@@ -227,7 +227,7 @@ ms.locfileid: "80606638"
 
 В следующем разделе приведены примеры имен распространенных типов ресурсов Azure в облачном развертывании Enterprise.
 
-<!-- cSpell:disable -->
+<!-- cspell:ignore mktgsharepoint acctlookupsvc vmhadoop vmtest vmsharepoint vmnavigator vmsqlnode stvmstcoreeastus stvmpmcoreeastus stvmstplmeastus stvmsthadoopeastus stnavigatordata stemissionsoutput stdiag stdiagsh ssimpnavigatorprod ssimpemissionsdev dlanavigatorprod dlsnavigatorprod dlaemissionsdev dlsemissionsdev weballow rdpallow sqlallow dnsblocked cloudapp azurewebsites servicebus -->
 
 <!-- markdownlint-disable MD024 MD033 -->
 
@@ -245,10 +245,10 @@ ms.locfileid: "80606638"
 |------------------------------|-----------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | Виртуальная сеть              | группа ресурсов.  | vnet-\<Subscription type\>-\<Region\>-\<\#\#\#\>                     | <ul><li>vnet-shared-eastus2-001 </li><li>vnet-prod-westus-001 </li><li>vnet-client-eastus2-001</li></ul>                      |
 | Подсеть                       | Виртуальная сеть | snet-\<subscription\>-\<subregion\>-\<\#\#\#\>                       | <ul><li>snet-shared-eastus2-001 </li><li>snet-prod-westus-001 </li><li>snet-client-eastus2-001</li></ul>                      |
-| Сетевой интерфейс      | группа ресурсов.  | nic-\<\#\#\>-\<vmname\>-\<subscription\>\<\#\#\#\>                   | <ul><li>nic-01-dc1-shared-001 </li><li>nic-02-vmhadoop1-prod-001 </li><li>nic-02-vmtest1-client-001</li></ul>                 |
+| Сетевой интерфейс      | группа ресурсов.  | NIC-\<\#\#\>-\<имя виртуальной машины\>-\<Subscription\>\<\#\#\#\>                   | <ul><li>nic-01-dc1-shared-001 </li><li>nic-02-vmhadoop1-prod-001 </li><li>nic-02-vmtest1-client-001</li></ul>                 |
 | Общедоступный IP-адрес            | группа ресурсов.  | pip-\<vm name or app name\>-\<Environment\>-\<subregion\>-\<\#\#\#\> | <ul><li>pip-dc1-shared-eastus2-001 </li><li>pip-hadoop-prod-westus-001</li></ul>                                              |
 | Подсистема балансировки нагрузки                | группа ресурсов.  | lb-\<app name or role\>\<Environment\>\<\#\#\#\>                     | <ul><li>lb-navigator-prod-001 </li><li>lb-sharepoint-dev-001</li></ul>                                                        |
-| Группа безопасности сети (NSG) | Подсеть или сетевая карта   | NSG-\<имя политики или имя приложения\>-\<\#\#\#\>                           | <ul><li>nsg-weballow-001 </li><li>nsg-rdpallow-001 </li><li>nsg-sqlallow-001 </li><li>nsg-dnsbloked-001</li></ul>             |
+| Группа безопасности сети (NSG) | Подсеть или сетевая карта   | NSG-\<имя политики или имя приложения\>-\<\#\#\#\>                           | <ul><li>nsg-weballow-001 </li><li>nsg-rdpallow-001 </li><li>nsg-sqlallow-001 </li><li>NSG-днсблоккед-001</li></ul>             |
 | Шлюз локальной сети        | Виртуальный шлюз | лгв-\<тип подписки\>-\<Region\>-\<\#\#\#\>                      | <ul><li>лгв-Shared-eastus2-001 </li><li>лгв-произв-westus-001 </li><li>лгв-Client-eastus2-001</li></ul>                         |
 | Шлюз виртуальной сети      | Виртуальная сеть | ВГВ-\<тип подписки\>-\<Region\>-\<\#\#\#\>                      | <ul><li>ВГВ-Shared-eastus2-001 </li><li>ВГВ-произв-westus-001 </li><li>ВГВ-Client-eastus2-001</li></ul>                         |
 | Подключение типа "сеть-сеть"      | группа ресурсов.  | cn-\<local gateway name\>-to-\<virtual gateway name\>                | <ul><li>CN-лгв-Shared-eastus2-001-to-ВГВ-Shared-eastus2-001 </li><li>CN-лгв-Shared-eastus2-001-to-Shared-westus-001</li></ul> |
@@ -260,8 +260,8 @@ ms.locfileid: "80606638"
 
 | Тип ресурса                  | Область          | Формат                                                              | Примеры                                                                                                                          |
 |-----------------------------|----------------|---------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
-| Виртуальная машина             | группа ресурсов. | vm\<policy name or appname\>\<\#\#\#\>                              | <ul><li>vmnavigator001 </li><li>vmsharepoint001 </li><li>vmsqlnode001 </li><li>vmhadoop001</li></ul>                              |
-| Учетная запись хранения виртуальных машин          | Global         | stvm\<performance type\>\<appname or prodname\>\<region\>\<\#\#\#\> | <ul><li>stvmstcoreeastus2001 </li><li>stvmpmcoreeastus2001 </li><li>stvmstplmeastus2001 </li><li>stvmsthadoopeastus2001</li></ul> |
+| Виртуальная машина             | группа ресурсов. | \<виртуальной машины имя политики или имя приложения\>\<\#\#\#\>                              | <ul><li>vmnavigator001 </li><li>vmsharepoint001 </li><li>vmsqlnode001 </li><li>vmhadoop001</li></ul>                              |
+| Учетная запись хранения виртуальных машин          | Global         | ствм\<тип производительности\>\<имя приложения или имя рабочей области\>\<Region\>\<\#\#\#\> | <ul><li>stvmstcoreeastus2001 </li><li>stvmpmcoreeastus2001 </li><li>stvmstplmeastus2001 </li><li>stvmsthadoopeastus2001</li></ul> |
 | Веб-приложение                     | Global         | Имя приложения\<приложения\>-\<Environment\>-\<\#\#\#\>. [{azurewebsites.net}]   | <ul><li>app-navigator-prod-001.azurewebsites.net </li><li>app-accountlookup-dev-001.azurewebsites.net</li></ul>                   |
 | Приложение-функция                | Global         | Func-\<имя приложения\>-\<Environment\>-\<\#\#\#\>. [{azurewebsites.net}]  | <ul><li>func-navigator-prod-001.azurewebsites.net </li><li>func-accountlookup-dev-001.azurewebsites.net</li></ul>                 |
 | облачная служба               | Global         | может быть\<имя приложения\>-\<Environment\>-\<\#\#\#\>. [{cloudapp.net}]        | <ul><li>could-navigator-prod-001.azurewebsites.net </li><li>could-accountlookup-dev-001.azurewebsites.net</li></ul>                   |

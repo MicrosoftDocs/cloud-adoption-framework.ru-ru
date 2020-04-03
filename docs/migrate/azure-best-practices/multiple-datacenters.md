@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 1a9e9082e4ceca7b83a4491c49e0932a3caaa9d7
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 2ee44d3e83dde52e03dbe2dffca7edc51899da0e
+ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80429662"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80636432"
 ---
 # <a name="multiple-datacenters"></a>Несколько центров обработки данных
 
@@ -66,7 +66,7 @@ ms.locfileid: "80429662"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Вернитесь к [контрольному списку расширенной области](./index.md), чтобы убедиться, что выбранный метод миграции полностью вам подходит.
+Вернитесь к [контрольному списку рекомендаций по миграции](./index.md) , чтобы убедиться, что метод миграции полностью согласован.
 
 > [!div class="nextstepaction"]
-> [Контрольный список расширенной области](./index.md)
+> [Контрольный список рекомендаций по миграции](./index.md)

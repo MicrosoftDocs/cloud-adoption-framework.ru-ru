@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 42eba9c774a063fe915db50b6615a3a59ce261c6
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 760eee5216ad774e7f55b13257c46aef97008792
+ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80434025"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80636368"
 ---
 # <a name="governance-or-compliance-strategy"></a>Стратегия системы управления и соответствия
 
@@ -68,7 +68,7 @@ ms.locfileid: "80434025"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-В качестве окончательного элемента в [контрольном списке развернутой области](./index.md)вернитесь к контрольному списку и повторно оцените все дополнительные требования к области, необходимые для миграции.
+В качестве окончательного элемента в [контрольном списке рекомендаций по миграции](./index.md)вернитесь к контрольному списку и повторно оцените все дополнительные требования к области, необходимые для миграции.
 
 > [!div class="nextstepaction"]
-> [Контрольный список расширенной области](./index.md)
+> [Контрольный список рекомендаций по миграции](./index.md)
