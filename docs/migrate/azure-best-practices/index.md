@@ -7,18 +7,18 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 22f2718775b194196f65672f0cbc1712d0a3a4ac
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: a7affd1d64e80cfdf85504ed62960de78a4a34a5
+ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80433552"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80636372"
 ---
 # <a name="best-practices-for-cloud-migration"></a>Рекомендации по миграции в облако
 
 В документацию Cloud Adoption Framework входит [руководство по миграции в Azure](../azure-migration-guide/index.md). Мы рекомендуем использовать его как отправную точку для тех, кого интересует миграция в Azure. В этом руководстве описан ряд средств и методов для переноса виртуальных машин в облако. В этом разделе Cloud Adoption Framework рассматриваются рекомендации, которые описывают расширенные сценарии использования основных облачных средств.
 
-## <a name="cloud-migration-best-practice-checklist"></a>Рекомендованный контрольный список для миграции в облако
+## <a name="cloud-migration-best-practices-checklist"></a>Рекомендованный контрольный список для миграции в облако
 
 В приведенном ниже контрольном списке представлены сложные сценарии, в которых может потребоваться расширить области миграции за пределы сценария, описанного в [руководстве по миграции Azure](../azure-migration-guide/index.md).
 
