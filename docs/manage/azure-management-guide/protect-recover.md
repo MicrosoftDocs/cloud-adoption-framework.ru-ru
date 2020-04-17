@@ -4,17 +4,17 @@ description: Узнайте, как обеспечить стабильност�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: article
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 2da32f8a03eed3e3200408264748559cf2888402
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: f4b6b2d5d944e3176b2f36ef713955a4c29324f9
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356475"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80426571"
 ---
 <!-- cSpell:ignore siterecovery -->
 
@@ -53,7 +53,7 @@ _Защита и восстановление_ — это третья и ок�
 1. Выберите имеющееся или создайте новое хранилище Служб восстановления Azure.
 1. Выберите **Create (or edit) a new policy** (Создать (или изменить) новую политику).
 1. Настройте расписание и период хранения.
-1. Щелкните **ОК**.
+1. Нажмите кнопку **ОК**.
 1. Выберите **Включить резервное копирование**.
 
 ::: zone target="chromeless"

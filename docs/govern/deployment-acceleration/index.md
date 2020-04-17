@@ -10,10 +10,10 @@ ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
 ms.openlocfilehash: 3c83e40ab6d08b461095385ac58cf64d74da86a9
-ms.sourcegitcommit: af45c1c027d7246d1a6e4ec248406fb9a8752fb5
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/27/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "77708977"
 ---
 # <a name="deployment-acceleration-discipline-overview"></a>Общие сведения о дисциплине "Ускорение развертывания"

@@ -1,60 +1,61 @@
-- name: Azure
-  tocHref: /azure
-  topicHref: /azure
-  items:
-    - name: Cloud Adoption Framework
-      tocHref: /azure/cloud-adoption-framework/
-      topicHref: /azure/cloud-adoption-framework
-      items:
-        - name: Стратегия
-          tocHref: /azure/cloud-adoption-framework/strategy/
-          topicHref: /azure/cloud-adoption-framework/strategy
-        - name: План
-          tocHref: /azure/cloud-adoption-framework/plan/
-          topicHref: /azure/cloud-adoption-framework/plan
-          items:
-            - name: Цифровые активы
-              tocHref: /azure/cloud-adoption-framework/digital-estate/
-              topicHref: /azure/cloud-adoption-framework/digital-estate
-        - name: Ready
-          tocHref: /azure/cloud-adoption-framework/ready/
-          topicHref: /azure/cloud-adoption-framework/ready
-          items:
-            - name: Рекомендации
-              tocHref: /azure/cloud-adoption-framework/ready/azure-best-practices/
-              topicHref: /azure/cloud-adoption-framework/ready/azure-best-practices
-            - name: Рекомендации
-              tocHref: /azure/security/fundamentals/
-              topicHref: /azure/cloud-adoption-framework/ready/azure-best-practices
-        - name: Внедрение
-          items:
-            - name: Миграция
-              tocHref: /azure/cloud-adoption-framework/migrate/
-              topicHref: /azure/cloud-adoption-framework/migrate
-            - name: Инновации
-              tocHref: /azure/cloud-adoption-framework/innovate/
-              topicHref: /azure/cloud-adoption-framework/innovate
-              items:
-                - name: Руководство по инновациям Azure
-                  tocHref: /azure/cloud-adoption-framework/innovate/innovation-guide/
-                  topicHref: /azure/cloud-adoption-framework/innovate/innovation-guide
-        - name: Операционная модель
-          tocHref: /azure/cloud-adoption-framework/operating-model/
-          topicHref: /azure/cloud-adoption-framework/operating-model
-          items:
-            - name: Управление
-              tocHref: /azure/cloud-adoption-framework/govern/
-              topicHref: /azure/cloud-adoption-framework/govern
-            - name: Организация
-              tocHref: /azure/cloud-adoption-framework/organize/
-              topicHref: /azure/cloud-adoption-framework/organize
-            - name: Управление
-              tocHref: /azure/cloud-adoption-framework/manage/
-              topicHref: /azure/cloud-adoption-framework/manage
-        - name: Справочные материалы
-          tocHref: /azure/cloud-adoption-framework/reference/
-          topicHref: /azure/cloud-adoption-framework/reference
-          items:
-            - name: Руководства по принятию решений
-              tocHref: /azure/cloud-adoption-framework/decision-guides/
-              topicHref: /azure/cloud-adoption-framework/decision-guides
+items:
+  - name: Azure
+    tocHref: /azure
+    topicHref: /azure
+    items:
+      - name: Cloud Adoption Framework
+        tocHref: /azure/cloud-adoption-framework/
+        topicHref: /azure/cloud-adoption-framework
+        items:
+          - name: Стратегия
+            tocHref: /azure/cloud-adoption-framework/strategy/
+            topicHref: /azure/cloud-adoption-framework/strategy
+          - name: План
+            tocHref: /azure/cloud-adoption-framework/plan/
+            topicHref: /azure/cloud-adoption-framework/plan
+            items:
+              - name: Цифровые активы
+                tocHref: /azure/cloud-adoption-framework/digital-estate/
+                topicHref: /azure/cloud-adoption-framework/digital-estate
+          - name: Ready
+            tocHref: /azure/cloud-adoption-framework/ready/
+            topicHref: /azure/cloud-adoption-framework/ready
+            items:
+              - name: Рекомендации
+                tocHref: /azure/cloud-adoption-framework/ready/azure-best-practices/
+                topicHref: /azure/cloud-adoption-framework/ready/azure-best-practices
+              - name: Рекомендации
+                tocHref: /azure/security/fundamentals/
+                topicHref: /azure/cloud-adoption-framework/ready/azure-best-practices
+          - name: Внедрение
+            items:
+              - name: Миграция
+                tocHref: /azure/cloud-adoption-framework/migrate/
+                topicHref: /azure/cloud-adoption-framework/migrate
+              - name: Инновации
+                tocHref: /azure/cloud-adoption-framework/innovate/
+                topicHref: /azure/cloud-adoption-framework/innovate
+                items:
+                  - name: Руководство по инновациям Azure
+                    tocHref: /azure/cloud-adoption-framework/innovate/innovation-guide/
+                    topicHref: /azure/cloud-adoption-framework/innovate/innovation-guide
+          - name: Операционная модель
+            tocHref: /azure/cloud-adoption-framework/operating-model/
+            topicHref: /azure/cloud-adoption-framework/operating-model
+            items:
+              - name: Управление
+                tocHref: /azure/cloud-adoption-framework/govern/
+                topicHref: /azure/cloud-adoption-framework/govern
+              - name: Организация
+                tocHref: /azure/cloud-adoption-framework/organize/
+                topicHref: /azure/cloud-adoption-framework/organize
+              - name: Управление
+                tocHref: /azure/cloud-adoption-framework/manage/
+                topicHref: /azure/cloud-adoption-framework/manage
+          - name: Справочник
+            tocHref: /azure/cloud-adoption-framework/reference/
+            topicHref: /azure/cloud-adoption-framework/reference
+            items:
+              - name: Руководства по принятию решений
+                tocHref: /azure/cloud-adoption-framework/decision-guides/
+                topicHref: /azure/cloud-adoption-framework/decision-guides
