@@ -4,17 +4,17 @@ description: Cloud Adoption Framework для Azure поможет узнать, 
 author: timleyden
 ms.author: tileyden
 ms.date: 04/09/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 1a45fda645231dcd9548c770dee0afd19b8df30c
-ms.sourcegitcommit: 959cb0f63e4fe2d01fec2b820b8237e98599d14f
+ms.openlocfilehash: 5541db81b97c2b3ade8e83270d9986ef142ace76
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "79093534"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80427783"
 ---
 <!-- cSpell:ignore timleyden tileyden -->
 

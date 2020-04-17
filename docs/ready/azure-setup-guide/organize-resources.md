@@ -4,17 +4,17 @@ description: Получите необходимые рекомендации п
 author: laraaleite
 ms.author: kfollis
 ms.date: 04/09/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 6ed6e547156a2fa9f07a49460fedd94a8ceb152b
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: b47f0e3cf6c69bbdf3d5c8260ad4094312e1bea2
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80354340"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997552"
 ---
 <!-- cSpell:ignore laraaleite profx fsubscriptions fresource -->
 
@@ -24,8 +24,7 @@ ms.locfileid: "80354340"
 
 <!-- markdownlint-disable MD024 MD025 -->
 
-<!-- cSpell:disable-next-line -->
-# <a name="azure-management-groups-and-hierarchy"></a>[Группы и иерархия управления Azure](#tab/AzureManagmentGroupsAndHierarchy)
+# <a name="azure-management-groups-and-hierarchy"></a>[Группы и иерархия управления Azure](#tab/AzureManagementGroupsAndHierarchy)
 
 В Azure предоставляются четыре уровня области управления: группы управления, подписки, группы ресурсов и ресурсы. На рисунке ниже показаны связи между этими уровнями.
 
@@ -86,7 +85,7 @@ ms.locfileid: "80354340"
 - [Организация и администрирование подписок Azure](../azure-best-practices/organize-subscriptions.md)
 - [Упорядочение ресурсов с помощью групп управления Azure](https://docs.microsoft.com/azure/azure-resource-manager/management-groups-overview)
 - [Resource access management in Azure](../../govern/resource-consistency/resource-access-management.md) (Управление доступом к ресурсам в Azure)
-- [Подписка Azure, границы, квоты и ограничения службы](https://docs.microsoft.com/azure/azure-subscription-service-limits)
+- [Подписка Azure, границы, квоты и ограничения службы](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits)
 
 ::: zone-end
 
@@ -161,7 +160,7 @@ ms.locfileid: "80354340"
 
 - **Метаданные и документация.** Администраторы могут с легкостью просматривать сведения о ресурсах, с которыми они работают, применяя теги, например ProjectOwner, чтобы узнать, кто является владельцем проекта.
 - **Автоматизация** — Вы можете регулярно запускать скрипты для выполнения действий на основе значения тега, например времени завершения работы (ShutdownTime) или даты отзыва (DeprovisionDate).
-- **Оптимизация затрат:** В Управлении затратами Azure можно применить тег "место возникновения затрат" в качестве фильтра, чтобы сообщить о расходах на основе потребления ресурсов командой или отделом.
+- **Оптимизация затрат:** вы можете выделить ресурсы для команд и ресурсов, ответственных за затраты. В Управлении затратами Azure можно применить тег "место возникновения затрат" в качестве фильтра, чтобы сообщить о расходах на основе использования группы или отдела.
 
 Каждый ресурс или группа ресурсов может содержать не более 50 пар "имя-значение" для тегов. Это ограничение применяется только к тегам, которые непосредственно связаны с группой ресурсов или ресурсами.
 
@@ -173,14 +172,14 @@ ms.locfileid: "80354340"
 
 Чтобы применить тег к группе ресурсов, сделайте следующее:
 
-1. Перейдите на страницу [Группы ресурсов](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2fSubscriptions%2fResourceGroups).
+1. Перейдите на страницу [Группы ресурсов](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups).
 1. Выберите группу ресурсов.
 1. Выберите **Назначить теги**.
 1. Введите новые имя и значение или выберите имеющиеся в раскрывающемся списке.
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-Дополнительные сведения см. в статье об [организации ресурсов Azure с помощью тегов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags).
+Дополнительные сведения см. в статье об [организации ресурсов Azure с помощью тегов](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
 
 ::: zone-end
 

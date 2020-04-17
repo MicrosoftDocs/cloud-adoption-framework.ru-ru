@@ -10,10 +10,10 @@ ms.subservice: organize
 ms.custom: organize
 layout: LandingPage
 ms.openlocfilehash: de34df16a5c709ac5cffbdb355f70c60c8a18c25
-ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80527698"
 ---
 # <a name="manage-organizational-alignment"></a>Управление бизнес-согласованием

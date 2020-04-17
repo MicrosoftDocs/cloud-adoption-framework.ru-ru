@@ -4,17 +4,17 @@ description: Узнайте, как настроить управление до
 author: LijuKodicheraJayadevan
 ms.author: kfollis
 ms.date: 04/09/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 5fedbb5164da05b166d8a42d8d1ceaf43ee95185
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 9cf54c8366f70d4b06debd6c09c54bd757759458
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80354448"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80433182"
 ---
 <!-- cSpell:ignore LijuKodicheraJayadevan -->
 
@@ -46,7 +46,7 @@ Cloud Adoption Framework предоставляет дополнительные
 1. Выберите **+ Добавить** > **Добавить назначение ролей**.
 1. Выберите роль, а затем назначьте доступ пользователю, группе или субъекту-службе.
 
-::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources/Subscriptions/ResourceGroups]" submitText="Go to resource groups" ::: form-end
+::: form action="OpenBlade[#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups]" submitText="Go to resource groups" ::: form-end
 
 **Предоставление доступа к подпискам**
 

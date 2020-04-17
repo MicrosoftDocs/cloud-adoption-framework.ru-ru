@@ -4,17 +4,17 @@ description: Cloud Adoption Framework для Azure поможет интерпр
 author: dchimes
 ms.author: kfollis
 ms.date: 04/09/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 0f91ed2c09b2511304a59bc8768507f737ec6c76
-ms.sourcegitcommit: 011332538dbc6774b732f7b9f2b89d6c8aa90c36
+ms.openlocfilehash: 5f0636a5467d1bc1461597f4b0b215b88d8f017d
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "79024029"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80433925"
 ---
 <!-- cSpell:ignore dchimes -->
 

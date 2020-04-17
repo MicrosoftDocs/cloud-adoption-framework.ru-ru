@@ -4,17 +4,17 @@ description: Узнайте больше о методах безопаснос�
 author: matticusau
 ms.author: mlavery
 ms.date: 04/04/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: ec67108e90fb367535298ba7fab3b8ac32705255
-ms.sourcegitcommit: 72a280cd7aebc743a7d3634c051f7ae46e4fc9ae
+ms.openlocfilehash: 7e9dd472d2913979211959d1f230bf4fb9c33cba
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "78222476"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80432937"
 ---
 <!-- markdownlint-disable MD024 MD025 DOCSMD001 -->
 
@@ -46,7 +46,7 @@ ms.locfileid: "78222476"
 
 ::: zone-end
 
-# <a name="azure-service-health"></a>[Служба "Работоспособность служб Azure"](#tab/servicehealth)
+# <a name="azure-service-health"></a>[Служба "Работоспособность служб Azure"](#tab/serviceHealth)
 
 Работоспособность служб Azure предоставляет индивидуальные инструкции и средства поддержки на случай проблем со службами Azure. Служба может сообщать о масштабе проблем и уведомлять вас после их устранения. Эта служба также помогает подготовиться к запланированному техническому обслуживанию и изменениям, которые могут повлиять на доступность ваших ресурсов.
 
@@ -149,7 +149,7 @@ Azure Backup — это служба на платформе Azure, исполь
 
 ::: zone-end
 
-# <a name="azure-site-recovery"></a>[Azure Site Recovery](#tab/siterecovery)
+# <a name="azure-site-recovery"></a>[Azure Site Recovery](#tab/siteRecovery)
 
 Ранее в этом руководстве было рассмотрено, как можно использовать Azure Site Recovery для выполнения миграции. Но после завершения миграции эта служба также образует критически важный компонент в стратегии аварийного восстановления.
 

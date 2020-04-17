@@ -4,17 +4,17 @@ description: Узнайте о решениях Azure для прогнозир�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: adb39a25cfb232b19bd983e5d4e0ab7d7370add1
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 166c938b510959427a30cecea1c97de35032d20e
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356604"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80427003"
 ---
 ::: zone target="docs"
 

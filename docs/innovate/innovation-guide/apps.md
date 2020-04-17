@@ -4,17 +4,17 @@ description: Узнайте о службах Azure для модернизац�
 author: billyclaymyersmsft
 ms.author: wimyers
 ms.date: 10/17/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 79235ed1a467c9b8316f935f99894218d3b40432
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 7f0ebc370b18e5c010322a2dacac8750714810f8
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80356696"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80427363"
 ---
 <!-- cSpell:ignore billyclaymyersmsft wimyers functionapp -->
 
