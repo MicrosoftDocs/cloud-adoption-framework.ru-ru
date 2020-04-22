@@ -4,21 +4,21 @@ description: Узнайте, как проверить решение на пр�
 author: matticusau
 ms.author: mlavery
 ms.date: 02/25/2020
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: eff32a369c55011cea8fb8ace2e7bfae28680eda
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: 8ac8887f849704610822429a2b5e49833a78487c
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80353860"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81119726"
 ---
 <!-- markdownlint-disable MD025 DOCSMD001 -->
 
-# <a name="test-optimize-and-promote"></a>Тестирование, оптимизация и повышение уровня
+# <a name="release-workloads-test-optimize-and-handoff"></a>Рабочие нагрузки выпуска (тестирование, оптимизация и передача)
 
 Теперь, когда вы перенесли службы в Azure, необходимо рассмотреть решение для возможных областей оптимизации. Это может включать в себя проверку проекта решения, изменение размера служб и анализ затрат.
 

@@ -4,21 +4,21 @@ description: Подготовьтесь к миграции в Azure, опред
 author: matticusau
 ms.author: mlavery
 ms.date: 08/08/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 697e42d16918960f97bc534bad93a854af963a49
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: eca885e84e0f3a29a0d3417c550de78d7bdf74fc
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80353906"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81396033"
 ---
 <!-- cSpell:ignore Cloudamize agentless uncontained SSMA Carbonite Movere -->
 
-# <a name="migrate-assets-infrastructure-apps-and-data"></a>Перенос ресурсов (инфраструктуры, приложений и данных)
+# <a name="deploy-workloads-and-assets-infrastructure-apps-and-data"></a>Развертывание рабочих нагрузок и ресурсов (инфраструктуры, приложений и данных)
 
 На этом этапе перехода вы используете результаты этапа оценки, чтобы инициировать миграцию среды. Это руководство поможет вам найти соответствующие инструменты для достижения "состояния готовности", включая собственные инструменты, сторонние инструменты и инструменты управления проектами.
 
@@ -262,7 +262,7 @@ Azure DevOps — это рекомендуемое средство для уп
 - [Планировщик (Майкрософт).](https://tasks.office.com) Простое визуальное средство организации командной работы.
 - [Microsoft Project.](https://products.office.com/project/project-and-portfolio-management-software) Управление проектами и портфелем, управление емкостью ресурсов, управление финансами, учет рабочего времени и управление расписанием.
 - [Microsoft Teams.](https://products.office.com/microsoft-teams) Средство совместной работы и обмена данными. Teams также интегрируется с Планировщиком и другими инструментами для улучшения совместной работы.
-- [Azure DevOps.](https://dev.azure.com) Шаблон планирования Cloud Adoption Framework не обязательно применять для работы с Azure DevOps. Вы можете использовать службу без шаблона и управлять инфраструктурой как кодом или использовать рабочие элементы и доски для управления проектами. По мере развития ваша организация может воспользоваться возможностями CI/CD.
+- [Azure DevOps Services.](https://azure.microsoft.com/services/devops) Шаблон планирования Cloud Adoption Framework не обязательно применять для работы с Azure DevOps. Вы можете использовать службу без шаблона и управлять инфраструктурой как кодом или использовать рабочие элементы и доски для управления проектами. По мере развития ваша организация может воспользоваться возможностями CI/CD.
 
 Это не единственные доступные инструменты. Многие другие инструменты сторонних производителей широко применяются в сообществе управления проектами.
 

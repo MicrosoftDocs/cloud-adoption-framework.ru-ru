@@ -7,16 +7,16 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 82ded4af4d3014187e012dbc7d371237d519b4ca
-ms.sourcegitcommit: 1a4b140f09bdaa141037c54a4a3b5577cda269db
+ms.openlocfilehash: 115b79d41c4f7d0c2c9b27db0d42b61e1ee45dee
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "80392421"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81119692"
 ---
-# <a name="execute-a-migration"></a>Выполнение миграции
+# <a name="deploy-workloads"></a>Развертывание рабочих нагрузок
 
-После оценки рабочей нагрузки ее можно перенести в облако. Эта серия статей расскажет вам о разных действиях, которые могут потребоваться для выполнения миграции.
+Оцененные рабочие нагрузки можно развернуть в облаке или в промежуточной среде для выпуска. В этой серии статей описаны разные действия, которые могут потребоваться для выполнения этой фазы миграции.
 
 ## <a name="objective"></a>Назначение
 

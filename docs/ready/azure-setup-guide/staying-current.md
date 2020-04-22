@@ -4,17 +4,17 @@ description: Cloud Adoption Framework для Azure поможет узнать, 
 author: jelledruyts
 ms.author: andym
 ms.date: 04/09/2019
-ms.topic: guide
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 94e5dfb8f6a7d38f844c490a649bd35cf0887685
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.openlocfilehash: d0c3379da2962236dfb64ff45a5a9495b8a3fc36
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80353817"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80808779"
 ---
 <!-- cSpell:ignore jelledruyts andym endjin -->
 
@@ -59,9 +59,9 @@ ms.locfileid: "80353817"
 - [Диаграммы Azure](https://azurecharts.com)*
   - Эта визуализация показывает все обновления Azure, реализованные за последние шесть месяцев. Она содержит полезные диаграммы и служебные программы для отслеживания изменений в Azure.
 - [AzAdvertizer](https://www.azadvertizer.net)*
-  - Отслеживание выпусков и изменений в возможностях системы управления Azure (таких как Политика Azure, инициативы политик, псевдонимы политик и RBAC).
+  - Отслеживание выпусков и изменений в возможностях системы управления Azure, таких как Политика Azure, инициативы политик, псевдонимы политик и управление доступом на основе ролей (RBAC).
 - [Еженедельный бюллетень Azure](https://azureweekly.info)*
   - Этот бюллетень от [endjin](https://endjin.com) содержит сводку основных новостей недели о Microsoft Azure. Он также содержит интересное историческое содержимое.
   - Подпишитесь через [электронную почту](https://azureweekly.info).
 
-\* *Эти ресурсы предоставляются сообществом и не поддерживаются официально корпорацией Майкрософт.*
+\* _Эти ресурсы предоставляются сообществом и не поддерживаются официально корпорацией Майкрософт._

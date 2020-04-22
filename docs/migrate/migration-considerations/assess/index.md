@@ -7,14 +7,14 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a04208a147d2cf9f50b30f8053b49367fa08aabe
-ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
+ms.openlocfilehash: cc095a1751e945ca18763757582a6cd27b65d72a
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "80527678"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81119768"
 ---
-# <a name="validate-assessment-assumptions-before-migration"></a>Проверка предположений оценки перед миграцией
+# <a name="assess-workloads-and-validate-assumptions-before-migration"></a>Оценка рабочих нагрузок и проверка допущений перед миграцией
 
 Многие из существующих рабочих нагрузок идеально подходят для миграции в облако, но не каждый ресурс совместим с облачными платформами и не каждая рабочая нагрузка сможет использовать преимущества размещения в облаке. [Планирование цифровых активов](../../../digital-estate/index.md) позволяет подготовить общий [список предстоящих работ по миграции](../prerequisites/technical-complexity.md#migration-backlog-aligning-business-priorities-and-timing) для переносимых рабочих нагрузок. Но эти мероприятия по планированию выполняются на обобщенном уровне. При их реализации используются допущения команды по вопросам облачной стратегии без подробного анализа технических вопросов.
 
