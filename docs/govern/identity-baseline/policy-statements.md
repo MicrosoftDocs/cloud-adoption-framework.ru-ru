@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 8594d37e41475ca26f96b89fe50591fbd0ecfc04
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: c3543299d323c8be6bf7ee88d6e9205c307e24f9
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80434196"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997442"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Примеры правил политики основных способов идентификации
 
@@ -42,7 +42,7 @@ ms.locfileid: "80434196"
 - Модель доступа с минимальными правами применяется к любым ресурсам, участвующим в критически важных приложениях или защищенных данных.
 - Разрешения с повышенными правами должны быть исключением, а все подобные исключения должны быть записаны в группу управления Cloud. Исключения будут регулярно проверяться.
 
-**Возможные варианты проектирования:** Ознакомьтесь с [рекомендациями по управлению удостоверениями в Azure](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices) , чтобы реализовать стратегию управления доступом на основе РОЛЕЙ (RBAC), которая предоставляет доступ в зависимости от [необходимости знать](https://wikipedia.org/wiki/Need_to_know) и [наименее принципы безопасности](https://wikipedia.org/wiki/Principle_of_least_privilege) .
+**Возможные варианты проектирования:** Ознакомьтесь с [рекомендациями по управлению удостоверениями в Azure](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices) , чтобы реализовать стратегию управления доступом на основе РОЛЕЙ (RBAC), которая предоставляет доступ в зависимости от [необходимости знать](https://wikipedia.org/wiki/Need_to_know) и [наименее принципы безопасности](https://wikipedia.org/wiki/Principle_of_least_privilege) .
 
 ## <a name="lack-of-shared-management-accounts-between-on-premises-and-the-cloud"></a>Отсутствие общих учетных записей управления между локальной версией и облаком
 
@@ -76,7 +76,7 @@ ms.locfileid: "80434196"
 
 **Возможные варианты проектирования:** Установите ежеквартальное собрание по проверке безопасности, включающее участников группы управления и ИТ-сотрудников, ответственных за управление службами удостоверений. Проверьте существующие данные и метрики безопасности, чтобы установить зазоры в текущей политике управления удостоверениями и инструментарии, и обновите политику, чтобы устранить все новые риски.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Используйте примеры, упомянутые в этой статье, в качестве отправной точки для разработки политик для решения конкретных бизнес-рисков, которые согласованы с планами внедрения в облако.
 

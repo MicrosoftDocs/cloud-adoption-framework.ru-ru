@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.openlocfilehash: 229f640fed7024b35f67ea3b39c2e4bb2a24a3c2
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80428986"
 ---
 # <a name="migration-backlog-review"></a>Обзор невыполненной работы по миграции
@@ -32,7 +32,7 @@ ms.locfileid: "80428986"
 
 В статье о [рационализации цифровых ресурсов](../../../digital-estate/rationalize.md) обсуждается эффект гибкости и экономии времени в результате рассмотрения основных предположений при оценке цифровых ресурсов. Чтобы полностью реализовать эти возможности, команде по внедрению в облако необходимо узнать о предположениях и причинах их формулировки. Эти знания позволяют команде по внедрению в облако оспаривать предположения.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Имея общее представление о невыполненной работе по миграции и цифровых площадках, команда готова выйти за пределы предварительных требований и начать [оценку рабочих нагрузок](../assess/index.md).
 

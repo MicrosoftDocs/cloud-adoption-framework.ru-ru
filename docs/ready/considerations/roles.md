@@ -10,18 +10,18 @@ ms.subservice: ready
 manager: BrianBlanchard
 tags: azure-resource-manager
 ms.custom: virtual-network
-ms.openlocfilehash: 03defd0e428bd0caf4e83d4999ba5b42cf63b43a
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: e52840d52e85cfa5876fbeaf227963953560da0d
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80433871"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997932"
 ---
 # <a name="role-based-access-control"></a>Управление доступом на основе ролей
 
 Рекомендуется использовать права и привилегии доступа на основе групп. Работа с группами, а не с отдельными пользователями, облегчает поддержку политик доступа, обеспечивает согласованное управление доступом между группами, а также способствует сокращению количества ошибок конфигурации. Назначение и удаление пользователей в соответствующих группах позволяет обеспечить актуальность привилегий определенного пользователя. [Управление доступом на основе ролей](https://docs.microsoft.com/azure/role-based-access-control/overview) Azure помогает избирательно контролировать доступ к ресурсам c назначением определенных ролей пользователей.
 
-Общие сведения о рекомендуемых методиках RBAC как части стратегии идентификации и безопасности см. в разделе [Azure Identity Management and access control security best practices](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices#use-role-based-access-control) (Рекомендации по защите управления удостоверениями и доступом в Azure).
+Общие сведения о рекомендуемых методиках RBAC как части стратегии идентификации и безопасности см. в разделе [Azure Identity Management and access control security best practices](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices#use-role-based-access-control) (Рекомендации по защите управления удостоверениями и доступом в Azure).
 
 ## <a name="overview-of-role-based-access-control"></a>Общие сведения об управлении доступом на основе ролей
 
@@ -38,7 +38,7 @@ ms.locfileid: "80433871"
 ![Рекомендуемый шаблон для использования ролей RBAC](../../_images/azure-best-practices/rbac-least-privilege.png)
 
 > [!NOTE]
-> Чем более конкретные или подробные разрешения вы определяете, тем выше вероятность того, что элементы управления доступом станут сложными и ими будет труднее управлять. Это особенно актуально с ростом облачной инфраструктуры. Избегайте использования разрешений для конкретных ресурсов. Вместо этого [используйте группы управления](https://docs.microsoft.com/azure/governance/management-groups) для управления доступом в масштабах предприятия и [группы ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview#resource-groups) для управления доступом в подписках. Следует также избегать использования разрешений для конкретных пользователей. Вместо этого назначьте доступ для [групп в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups).
+> Чем более конкретные или подробные разрешения вы определяете, тем выше вероятность того, что элементы управления доступом станут сложными и ими будет труднее управлять. Это особенно актуально с ростом облачной инфраструктуры. Избегайте использования разрешений для конкретных ресурсов. Вместо этого [используйте группы управления](https://docs.microsoft.com/azure/governance/management-groups) для управления доступом в масштабах предприятия и [группы ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/overview#resource-groups) для управления доступом в подписках. Следует также избегать использования разрешений для конкретных пользователей. Вместо этого назначьте доступ для [групп в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups).
 
 ## <a name="use-built-in-rbac-roles"></a>Использование встроенных ролей RBAC
 

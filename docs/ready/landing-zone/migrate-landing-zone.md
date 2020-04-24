@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 924be38b70013a570f83c5fc156c28c051ec468d
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: a76a09e40fc11511213c0f496c9332ba9a05962f
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80431932"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997841"
 ---
 <!-- cSpell:ignore vCPUs jumpbox -->
 
@@ -22,16 +22,16 @@ ms.locfileid: "80431932"
 
 ## <a name="deploy-the-first-landing-zone"></a>Развертывание первой целевой зоны
 
-Прежде чем использовать схему "Целевая зона миграции" в облачной инфраструктуре внедрения, ознакомьтесь со следующими предположениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения облачных технологий, то схему миграции на основе [целевой зоны](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/index) можно развернуть с помощью [шагов развертывания][deploy-sample].
+Прежде чем использовать схему "Целевая зона миграции" в облачной инфраструктуре внедрения, ознакомьтесь со следующими предположениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения облачных технологий, то схему миграции на основе [целевой зоны](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone) можно развернуть с помощью [шагов развертывания][deploy-sample].
 
 > [!div class="nextstepaction"]
 > [Развертывание образца схемы][deploy-sample]
 
-## <a name="assumptions"></a>Предположения
+## <a name="assumptions"></a>Допущения
 
 В эту начальную целевую зону входят следующие допущения или ограничения. Если эти предположения совпадают с вашими ограничениями, вы можете использовать схему для создания первой зоны размещения. Схему также можно расширить, чтобы создать схему зоны размещения, которая соответствует вашим уникальным ограничениям.
 
-- **Ограничения подписки:** Эта деятельность по внедрению не должна превышать [пределы подписки](https://docs.microsoft.com/azure/azure-subscription-service-limits).
+- **Ограничения подписки:** Эта деятельность по внедрению не должна превышать [пределы подписки](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits).
 - **Соответствие требованиям:** В этой зоне не требуется никаких требований к соответствию сторонних разработчиков.
 - **Сложность архитектуры:** Сложность архитектуры не требует дополнительных производственных подписок.
 - **Общие службы:** В Azure нет существующих общих служб, для которых требуется, чтобы эта подписка рассматривалась как периферийная в основной и периферийной архитектурах.
@@ -47,17 +47,17 @@ ms.locfileid: "80431932"
 |------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Средства миграции              | Будет развернута Azure Site Recovery, и будет создан проект Миграции Azure.                | [Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)                                                                                                                                                                                               |
 | Ведение журналов и мониторинг       | Будут предоставлены рабочее пространство оперативной аналитики и учетная запись хранения диагностики.                |                                                                                                                                                                                                                                                                                       |
-| Сеть                      | Будет создана виртуальная сеть с подсетями для шлюза, брандмауэра, Jumpbox и зоны размещения.  | [Решения по выбору сетей](../considerations/networking-options.md)                                                                                                                                                                                                                       |
-| Удостоверение                     | Предполагается, что подписка уже связана с экземпляром Azure Active Directory. | [Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) |
+| Сеть                      | Будет создана виртуальная сеть с подсетями для шлюза, брандмауэра, Jumpbox и зоны размещения.  | [Сетевые решения](../considerations/networking-options.md)                                                                                                                                                                                                                       |
+| Идентификация                     | Предполагается, что подписка уже связана с экземпляром Azure Active Directory. | [Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) |
 | Политика                       | В настоящее время эта схема предполагает, что никакие политики Azure не будут применяться.                        |                                                                                                                                                                                                                                                                                       |
 | Разработка подписки          | Недоступно — предназначено для одной производственной подписки.                                              | [Создание первоначальных подписок](../azure-best-practices/initial-subscriptions.md)                                                                                                                                                                                                      |
 | Группы ресурсов              | Недоступно — предназначено для одной производственной подписки.                                              | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                                                 |
 | Группы управления            | Недоступно — предназначено для одной производственной подписки.                                              | [Организация подписок и управление ими](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                                |
-| Данные                         | Недоступно                                                                                               | [Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)                       |
-| Память                      | Недоступно                                                                                               | [Рекомендации по выбору службы хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
-| Стандарты именования и расстановки тегов | Недоступно                                                                                               | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                                                    |
-| управления затратами;              | Недоступно                                                                                               | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                                              |
-| Службы вычислений                      | Недоступно                                                                                               | [Варианты вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
+| Данные                         | Н/Д                                                                                               | [Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)                       |
+| Память                      | Н/Д                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
+| Стандарты именования и расстановки тегов | Н/Д                                                                                               | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                                                    |
+| управления затратами;              | Н/Д                                                                                               | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                                              |
+| Службы вычислений                      | Н/Д                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
 
 ## <a name="customize-or-deploy-a-landing-zone"></a>Настройка или развертывание целевой зоны
 
@@ -68,7 +68,7 @@ ms.locfileid: "80431932"
 
 Рекомендации по настройке, которые следует внести в эту схему или в итоговую целевую зону, см. в статье [сведения о целевой зоне](../considerations/index.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После развертывания первой целевой зоны вы можете [расширить целевую зону](../considerations/index.md) .
 
