@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 ms.openlocfilehash: 20282136ad3a7132e9a4458723db3fda5160eeb9
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434283"
 ---
 # <a name="standard-enterprise-governance-guide-initial-corporate-policy-behind-the-governance-strategy"></a>Стандартное руководство по корпоративному управлению: первоначальная Корпоративная политика для стратегии управления
@@ -38,7 +38,7 @@ ms.locfileid: "80434283"
 
 [!INCLUDE [policy-statements](../../../../includes/policy-statements.md)]
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Эта корпоративная политика подготавливает группу управления облаком для реализации MVP по управлению, которая будет основой для внедрения. Следующим шагом является реализация MVP.
 

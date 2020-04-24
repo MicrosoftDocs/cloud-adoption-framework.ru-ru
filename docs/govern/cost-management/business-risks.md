@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 ms.openlocfilehash: 0afb5c3a4c8c1f355083ae6d4734ca4fa45b34ca
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434710"
 ---
 <!-- cSpell:ignore prepurchases -->
@@ -42,7 +42,7 @@ ms.locfileid: "80434710"
 - **Аномалии расходов:** Неожиданные пики в любом направлении могут быть индикаторами неправильного использования.
 - **Переподготавливающие активы:** При развертывании ресурсов в конфигурации, которая превышает потребности приложения или виртуальной машины, они могут создавать отходы.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 С помощью [шаблона управления облачными](./template.md)службами Задокументируйте бизнес-риски, которые, скорее всего, будут представлены текущим планом внедрения в облако.
 

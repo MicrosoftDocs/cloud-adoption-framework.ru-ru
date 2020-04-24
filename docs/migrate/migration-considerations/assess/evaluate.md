@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.openlocfilehash: 4321cf289bcab6fbee061fbff27d45fd8d695eac
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80432793"
 ---
 # <a name="evaluate-workload-readiness"></a>Оценка готовности рабочей нагрузки
@@ -55,7 +55,7 @@ ms.locfileid: "80432793"
 > [!NOTE]
 > Общий объем хранилища напрямую влияет на потребности в пропускной способности во время начальной репликации. Однако смещение хранилища продолжится от точки репликации до выпуска. Это означает, что смещение имеет общее воздействие на доступную пропускную способность.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После завершения оценки системы на основе полученных результатов выполняется разработка новой [облачной архитектуры](./architect.md).
 

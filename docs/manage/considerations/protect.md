@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: c393b00de1d235553dcea544493ef019f46b1e0c
-ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80527574"
 ---
 # <a name="protect-and-recover-in-cloud-management"></a>Защита и восстановление в облачном управлении
@@ -70,10 +70,10 @@ ms.locfileid: "80527574"
 
 Дополнительные сведения об этом процессе обработки идей см. в статье [дисциплина операций рабочей нагрузки](./workload.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После выполнения этого компонента базового плана управления группа может взглянуть на избежание простоев в [работе платформ](./platform.md) и [операций рабочей нагрузки](./workload.md).
 
 > [!div class="nextstepaction"]
-> [Операции с платформой](./platform.md)
-> [операций рабочей нагрузки](./workload.md)
+> [Platform operations](./platform.md)Операции рабочей нагрузки операций платформы[Workload operations](./workload.md) 
+> 

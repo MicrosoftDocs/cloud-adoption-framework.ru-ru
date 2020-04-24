@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ffcec60ce604cd4698daa78065223c52d1136c51
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 9bc19716cc0122ea95672b4a48d6536a77fb5fe3
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80431290"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80996200"
 ---
 # <a name="software-defined-networking-cloud-native"></a>Программно-определяемая сеть: машинный код в облаке
 
@@ -36,9 +36,9 @@ ms.locfileid: "80431290"
 - Имеющиеся рабочие нагрузки, предназначенные для работы в локальном центре обработки данных, могут нуждаться в обширной модификации, чтобы воспользоваться преимуществами облачных функций, например службы хранения или проверки подлинности.
 - Управление собственными сетями в облаке осуществляется исключительно с помощью средств управления облачными платформами, и поэтому может привести к расхождениям управления и политики от существующих ИТ-стандартов по мере того, как будет продолжено время.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Дополнительные сведения о виртуальных сетях, машинных в облаке, в Azure см. в следующих статьях:
 
 - [Виртуальная сеть Azure: практические руководства](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm). Вновь созданные виртуальные сети Azure по умолчанию являются облачными. Используйте эти руководства для планирования, проектирования и развертывания виртуальных сетей.
-- [Ограничения подписки: сети](https://docs.microsoft.com/azure/azure-subscription-service-limits?toc=/azure/virtual-network/toc.json#networking-limits). Каждая виртуальная сеть и подключенные ресурсы существуют в одной подписке. Эти ресурсы привязаны к ограничениям подписки.
+- [Ограничения подписки: сети](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits?toc=/azure/virtual-network/toc.json#networking-limits). Каждая виртуальная сеть и подключенные ресурсы существуют в одной подписке. Эти ресурсы привязаны к ограничениям подписки.

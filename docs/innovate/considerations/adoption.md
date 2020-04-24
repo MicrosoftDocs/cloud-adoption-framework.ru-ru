@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.openlocfilehash: 8afb39bdad3b521d3470e2e5eaca3f64a81061c0
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80433414"
 ---
 # <a name="create-customer-partnerships-through-the-build-measure-learn-feedback-loop"></a>Создание партнерских отношений клиентов с помощью цикла "сборка-мера-обучение"
@@ -30,15 +30,15 @@ ms.locfileid: "80433414"
 
 Этот процесс управления отношениями с клиентами и их интеграции в ваши инновации включают три этапа разработки:
 
-- [Создание с помощью сопереживание клиента](./build.md)
-- [Мера влияния на клиента](./measure.md)
-- [Знакомство с клиентами](./learn.md)
+- [Разработка ориентированных на клиента решений](./build.md)
+- [Оценка влияния на клиента](./measure.md)
+- [Совместное обучение с клиентами](./learn.md)
 
 Каждый этап процесса позволяет создавать лучшие решения для клиентов.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как выполнить [сборку с помощью Customer сопереживание](./build.md) , чтобы начать цикл "сборка-мера-обучение".
 
 > [!div class="nextstepaction"]
-> [Создание с помощью сопереживание клиента](./build.md)
+> [Разработка ориентированных на клиента решений](./build.md)

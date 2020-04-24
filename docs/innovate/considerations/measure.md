@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.openlocfilehash: 49377f419a8b5315a9f4a544fca37579b6dfbcaa
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80427398"
 ---
 # <a name="measure-for-customer-impact"></a>Оценка влияния на клиента
@@ -64,12 +64,12 @@ ms.locfileid: "80427398"
 
 Эти типы группирования позволяют проверять метрики обучения в различных перекрестных разделах клиентов, которые выбирают вам в ходе ваших инноваций. Все последующие метрики должны быть производными от определяемого пользователем группирования.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 По мере накопления метрик обучения группа может начать [изучать клиентов](./learn.md).
 
 > [!div class="nextstepaction"]
-> [Знакомство с клиентами](./learn.md)
+> [Совместное обучение с клиентами](./learn.md)
 
 <!-- cSpell:ignore Ries -->
 

@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e390fe341662fc2aedef82db2db33050e49efa6c
-ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
+ms.openlocfilehash: 396fecb03210980cae4c4f14cc6afcee331c3034
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80636417"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997563"
 ---
 # <a name="skills-readiness-for-cloud-migration"></a>Подготовка навыков для миграции в облако
 
@@ -32,29 +32,29 @@ ms.locfileid: "80636417"
 - [Формирование делового обоснования](../strategy/cloud-migration-business-case.md): создание и понимание делового обоснования, влияющего на усилия по миграции в облако.
 - [Рационализировать в](../digital-estate/rationalize.md)цифровом ресурсе: рационализировать активы.
 - [Оценка портфеля приложений](https://docs.microsoft.com/learn/modules/app-and-infra-migration-and-modernization): критерии принятия решений о переходах и вариантах внедрения инноваций в портфеле приложений.
-- [Оценка и планирование Microsoft Azure миграции](https://www.pluralsight.com/courses/microsoft-azure-migration-assessing-planning): Pluralsight курс, помогающий оценить локальные рабочие нагрузки.
+- [Оценка и планирование Microsoft Azure миграции](https://www.pluralsight.com/courses/microsoft-azure-migration-assessing-planning). Pluralsight курс, помогающий оценить локальные рабочие нагрузки.
 
 Во время процесса оценки архитекторы будут проектировать решения для каждой рабочей нагрузки. Следующие ресурсы по обеспечению квалификации помогают подготовить архитекторы для этих задач:
 
-- [Основы облачной архитектуры](https://app.pluralsight.com/library/courses/cloud-architecture-foundations): Pluralsight курс для помощи в проектировании правильных базовых решений
-- [Архитектура Microsoft Azure](https://app.pluralsight.com/library/courses/cloud-architecture-foundations): Pluralsight курсы для архитекторов в архитектуре Azure
-- [Проектирование миграций для Microsoft Azure](https://app.pluralsight.com/library/courses/cloud-architecture-foundations): курс Pluralsight для помощи архитекторам в проектировании решения для миграции
+- [Основы для облачной архитектуры](https://www.pluralsight.com/courses/cloud-architecture-foundations): Pluralsight курс, помогающий спроектировать правильные решения для базовых решений.
+- [Microsoft Azure архитектура — начало работы](https://www.pluralsight.com/courses/azure-architecture-getting-started). Pluralsight курс, который позволяет архитекторам получить базовые знания об архитектуре Azure.
+- [Проектирование миграций для Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-migrations-designing): курс Pluralsight, помогающий архитекторам спроектировать решение для перехода.
 
 ## <a name="migrate-skilling-resources"></a>Ресурсы для формирования навыков миграции
 
 Следующее руководство поможет подготовить группу к действиям по миграции.
 
 - [Миграция в Azure](https://docs.microsoft.com/azure/site-recovery/migrate-tutorial-on-premises-azure): использование Azure Site Recovery для переноса виртуальных машин в Azure.
-- [Перемещайте рабочие нагрузки в Azure](https://aka.ms/rehostcourse): курс Pluralsight, который обучает читателям, как повторно размещать рабочие нагрузки в Azure.
-- [Перенос физических и виртуальных серверов в Azure](https://app.pluralsight.com/library/courses/microsoft-azure-migrating-physical-virtual-servers/table-of-contents): курс Pluralsight для миграции серверов в Azure
-- [Импорт и экспорт данных в Azure](https://app.pluralsight.com/library/courses/microsoft-azure-import-export-data/table-of-contents): Pluralsight курс по перемещению данных в Azure и обратно
+- Повторное [размещение рабочих нагрузок в Azure](https://www.pluralsight.com/courses/microsoft-azure-workloads-rehosting). Pluralsight курс, который научит посетителей, как повторно разместить рабочие нагрузки в Azure.
+- [Перенос физических и виртуальных серверов в Azure](https://www.pluralsight.com/courses/microsoft-azure-migrating-physical-virtual-servers): Pluralsight курс для миграции серверов в Azure.
+- [Импорт и экспорт данных в Azure](https://www.pluralsight.com/courses/microsoft-azure-import-export-data). Pluralsight курс по перемещению данных в Azure и обратно.
 
 ## <a name="optimize-and-promote-process-changes"></a>Изменение процесса оптимизации и перемещения в рабочую среду
 
 Следующие инструменты помогут группе оптимизировать ресурсы и переместить их в рабочую среду.
 
-- [Стоимость и размер](azure-best-practices/migrate-best-practices-costs.md): измените размер, чтобы выровнять затраты и бюджеты.
-- [Повышение рабочей нагрузки](azure-best-practices/migrate-best-practices-networking.md). Измените конфигурацию сети, чтобы перенаправлять пользователей рабочей среды на перенесенные рабочие нагрузки.
+- [Стоимость и размер](./azure-best-practices/migrate-best-practices-costs.md): измените размер, чтобы выровнять затраты и бюджеты.
+- [Повышение рабочей нагрузки](./azure-best-practices/migrate-best-practices-networking.md). Измените конфигурацию сети, чтобы перенаправлять пользователей рабочей среды на перенесенные рабочие нагрузки.
 
 ## <a name="secure-and-manage-process-changes"></a>Изменение процесса защиты и управления
 
@@ -62,7 +62,7 @@ ms.locfileid: "80636417"
 
 - [Защита рабочих нагрузок и управление ими в Azure](./azure-best-practices/migrate-best-practices-security-management.md). рекомендации по обеспечению безопасности и управлению рабочими нагрузками в Azure.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Вернитесь к [контрольному списку рекомендаций по миграции](./azure-best-practices/index.md) , чтобы убедиться, что метод миграции полностью согласован.
 

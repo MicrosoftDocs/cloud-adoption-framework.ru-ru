@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.openlocfilehash: 32436e7227f82a3d959f917978368c298743f2d1
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80428186"
 ---
 # <a name="adapt-existing-roles-skills-and-processes-for-the-cloud"></a>Адаптация существующих ролей, навыков и процессов в облаке
@@ -51,7 +51,7 @@ ms.locfileid: "80428186"
 
 Отследите эти зависимости и запишите процессы, которые будут их поддерживать. Также обратите внимание на то, существуют ли уже существующие процессы. Для процессов, требующих инструментов, убедитесь, что временная шкала для развертывания любых средств соответствует общему расписанию цифрового преобразования.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Обеспечение правильной поддержки переведенных ролей — это усилия группы. Чтобы приступить к работе с этим руководством, ознакомьтесь с введением в организацию [готовности Организации](../organize/index.md) , чтобы найти правильные структуры и участники команды.
 

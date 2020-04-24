@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.openlocfilehash: f8ced104862d27c01c2d63ecbcb4af15deded343
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434004"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
@@ -70,9 +70,9 @@ Azure DevOps — это набор облачных средств для кли
 
 Эти пять статей содержат сведения о каждой задаче выравнивания, необходимой для начала управления вашими усилиями по внедрению. Следующий шаг позволяет начать упражнение по выравниванию.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Начните выровняйте проект плана путем [определения и приоритизации рабочих нагрузок](./workloads.md).
 
 > [!div class="nextstepaction"]
-> [Определение и определение приоритетов рабочих нагрузок](./workloads.md)
+> [Определение и приоритизация рабочих нагрузок](./workloads.md)

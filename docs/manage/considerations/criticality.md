@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: 0c3042469ff2c562ff84d173837685f73c9df933
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80426459"
 ---
 # <a name="business-criticality-in-cloud-management"></a>Критические бизнес-задача в управлении облаком
@@ -64,7 +64,7 @@ ms.locfileid: "80426459"
 2. Обновите каждую рабочую нагрузку в *примере* или *очистите шаблон* , чтобы отразить критические значения по умолчанию в столбце *критическая* нагрузка.
 3. Бизнес должен ввести правильные значения, чтобы отразить любые отклонения от важности по умолчанию.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После определения критически важности для бизнеса можно [вычислить и зафиксировать влияние на бизнес](./impact.md).
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 48da6b708644030a2efc20dc0764bcb1b40ffe25
-ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
+ms.openlocfilehash: 254abb817b89e34e9e92fb2b9eb949784e269601
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "80527595"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80995217"
 ---
 <!-- cSpell:ignore offboarding preintegration -->
 
@@ -72,7 +72,7 @@ ms.locfileid: "80527595"
 - Рассмотрите возможность использования следующих моделей доступа:
   - Модель [доступа с минимальными привилегиями](https://docs.microsoft.com/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models) .
   - Модель доступа с [базовым идентификатором привилегированных удостоверений](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure) .
-- Завершите все сведения о прединтеграции и ознакомьтесь с рекомендациями по [идентификации](https://docs.microsoft.com/azure/security/azure-security-identity-management-best-practices).
+- Завершите все сведения о прединтеграции и ознакомьтесь с рекомендациями по [идентификации](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices).
   - Включите единый идентификатор, единый вход (SSO) или простой единый вход.
   - Настройте многофакторную проверку подлинности для администраторов.
   - При необходимости Консолидируйте или Интегрируйте поставщики удостоверений.
@@ -134,7 +134,7 @@ ms.locfileid: "80527595"
 - Периодически создавайте отчет о влиянии, который отображает изменения в метриках, создаваемых системой, и оценивайте влияние [стратегии гибридной идентификации](../../decision-guides/identity/index.md) на бизнес.
 - Реализуйте интегрированный мониторинг, рекомендуемый [Центром безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-intro).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Теперь, когда вы понимаете концепцию стратегии управления удостоверениями в облаке, изучите [цепочку инструментов для базовой идентификации](./toolchain.md), чтобы выбрать наиболее подходящие средства и функции Azure, которые вам потребуются при развитии дисциплины управления базовой системы идентификации на платформе Azure.
 

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: 1eaa3abcef760d31d2107ddf1922b13d52e8441c
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434095"
 ---
 # <a name="phase-1-prerequisite-planning-for-azure-server-management-services"></a>Этап 1. планирование необходимых компонентов для служб управления сервером Azure
@@ -40,9 +40,9 @@ ms.locfileid: "80434095"
 Для следующих служб управления сервером Azure требуется связанная Рабочая область Log Analytics и учетная запись службы автоматизации:
 
 - [Управление обновлениями Azure](https://docs.microsoft.com/azure/automation/automation-update-management)
-- [Отслеживание изменений и Инвентаризация](https://docs.microsoft.com/azure/automation/change-tracking)
-- [Гибридный компонент Runbook Worker](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)
-- [Настройка требуемого состояния](https://docs.microsoft.com/azure/virtual-machines/extensions/dsc-overview)
+- [Отслеживание изменений и инвентаризация](https://docs.microsoft.com/azure/automation/change-tracking)
+- [Гибридная рабочая роль Runbook](https://docs.microsoft.com/azure/automation/automation-hybrid-runbook-worker)
+- [Настройка требуемого состояния (DSC)](https://docs.microsoft.com/azure/virtual-machines/extensions/dsc-overview)
 
 Вторая фаза этого руководства посвящена развертыванию служб и скриптов автоматизации. В нем показано, как создать рабочую область Log Analytics и учетную запись службы автоматизации. В этом руководстве также показано, как использовать политику Azure, чтобы убедиться, что новые виртуальные машины подключены к нужной рабочей области.
 
@@ -99,7 +99,7 @@ ms.locfileid: "80434095"
 >
 > Вы также можете создавать учетные записи запуска от имени с помощью [PowerShell](https://docs.microsoft.com/azure/automation/manage-runas-account#creating-a-run-as-account-using-powershell).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как подключить [серверы](./onboarding-overview.md) к службам управления сервером Azure.
 

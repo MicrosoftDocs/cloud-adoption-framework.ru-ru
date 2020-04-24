@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ef91284dda14c3784b8d3dafe4e5354735bf3f19
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: f65118884e4bac8b62d3857008ccd5ad126656b9
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80434476"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80808988"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-cost-management-discipline"></a>Руководство по управлению для сложных предприятий: улучшение дисциплины управления затратами
 
@@ -78,7 +78,7 @@ ms.locfileid: "80434476"
 
 Добавление описанных выше процессов и изменений в MVP по управлению ресурсами помогает исправлять многие риски, связанные с управление затратами. Вместе они обеспечивают прозрачность, отчетность и оптимизацию, необходимые для управления затратами.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Так как внедрение в облако растет и обеспечивает дополнительную ценность для бизнеса, риски и потребности в управлении облаком также изменятся. Для этой вымышленной компании следующий шаг заключается в использовании этих инвестиций в Управление несколькими облаками.
 

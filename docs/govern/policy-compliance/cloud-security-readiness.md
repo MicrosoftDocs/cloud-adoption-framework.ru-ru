@@ -7,12 +7,12 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: b30cac2fb4ba372c7fd11f8528ecac4c0f3e84c3
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 84bb47e05086ba0921a189d96d20c76a1ab5b057
+ms.sourcegitcommit: 825f9ae5b6cdd2fa6cb18c14a9733ba9106194f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80433061"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81646826"
 ---
 <!-- cSpell:ignore CISO -->
 
@@ -30,7 +30,7 @@ ms.locfileid: "80433061"
 
 При такой проверке роль CISO заключается в создании безопасного баланса между ограничениями существующей политики и соответствия и улучшенным состоянием безопасности поставщиков облачных служб. Измерение этого процесса может иметь различные формы. Зачастую он измеряется количеством политик безопасности, которые можно безопасно перенести в поставщик облачных служб.
 
-**Передача угроз безопасности.** Поскольку службы перемещаются в модели размещения "инфраструктура как услуга" (IaaS), Бизнес предполагает меньше непосредственных рисков, касающихся подготовки оборудования. Риск не устраняется, вместо этого он перемещается в поставщик облачных служб. Если подход поставщика облачных решений к подготовке к аппаратному обеспечению обеспечивает одинаковый уровень риска, то риск выполнения подготовки оборудования удаляется из корпоративной области ответственности и передается в облако. поставщики. Это снижает общую угрозу безопасности ИТ-специалиста, который отвечает за управление, хотя сам риск по-прежнему должен отслеживаться и проверяться периодически.
+**Передача угроз безопасности.** Поскольку службы перемещаются в модели размещения "инфраструктура как услуга" (IaaS), Бизнес предполагает меньше непосредственных рисков, касающихся подготовки оборудования. Риск не устраняется, вместо этого он перемещается в поставщик облачных служб. Если поставщик облачной подготовки к подготовке к оборудованию обеспечивает такой же уровень защиты, как и в случае безопасного повторяемого процесса, риск выполнения подготовки оборудования удаляется из корпоративной области ответственности и передается поставщику облачных услуг. Это снижает общую угрозу безопасности ИТ-специалиста, который отвечает за управление, хотя сам риск по-прежнему должен отслеживаться и проверяться периодически.
 
 По мере того как решения переходят в "стек" для внедрения моделей "платформа как услуга" (PaaS) или "программное обеспечение как услуга" (SaaS), можно избежать и передавать дополнительные риски. Когда риск безопасно перемещается в поставщик облачных служб, затраты на выполнение, мониторинг и применение политик безопасности или других политик соответствия также можно безопасно уменьшить.
 
@@ -40,38 +40,37 @@ ms.locfileid: "80433061"
 
 Знания об облачной инфраструктуре очень важны для подхода к [проверке политики](./cloud-policy-review.md) с установкой на повышение профессиональной компетенции. Следующие ресурсы помогут CISO лучше распознавать состояние безопасности платформы Microsoft Azure.
 
-Ресурсы по платформе безопасности:
+**Ресурсы по платформе безопасности:**
 
 - [Жизненный цикл разработки безопасности, внутренние аудиты](https://www.microsoft.com/sdl)
-- [Обязательное обучение безопасности, наведение справок](https://downloads.cloudsecurityalliance.org/star/self-assessment/StandardResponsetoRequestforInformationWindowsAzureSecurityPrivacy.docx)
-- [Выполнение тестов на проникновение, обнаружение вторжений и атак DDoS, аудит и ведение журнала](https://www.microsoft.com/trustcenter/Security/AuditingAndLogging)
+- [Обязательное обучение безопасности, фоновые проверки](https://downloads.cloudsecurityalliance.org/star/self-assessment/StandardResponsetoRequestforInformationWindowsAzureSecurityPrivacy.docx)
+- [Выполнение тестов на проникновение, обнаружение вторжений и атак DDoS, аудит и ведение журнала](https://www.microsoft.com/security/business/operations)
 - [Современный центр обработки данных](https://www.microsoft.com/cloud-platform/global-datacenters), физическая безопасность, [безопасная сеть](https://docs.microsoft.com/azure/security/security-network-overview)
-- [Microsoft Azure Security Response in the Cloud](https://aka.ms/SecurityResponsePaper) (Реагирование на нарушения безопасности в облаке Microsoft Azure (PDF-документ))
+- [Microsoft Azure Security Response in the Cloud](https://aka.ms/securityresponsepaper) (Реагирование на нарушения безопасности в облаке Microsoft Azure (PDF-документ))
 
-Конфиденциальность и управление:
+**Конфиденциальность и управление:**
 
-- [Постоянное управление данными](https://www.microsoft.com/trustcenter/Privacy/You-own-your-data)
-- [Управление расположением данных](https://www.microsoft.com/trustcenter/Privacy/Where-your-data-is-located)
-- [Предоставление доступа к данным на ваших условиях](https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms)
-- [Реагирование на запросы правоохранительных органов](https://www.microsoft.com/trustcenter/Privacy/Responding-to-govt-agency-requests-for-customer-data)
-- [Строгие стандарты конфиденциальности](https://www.microsoft.com/TrustCenter/Privacy/We-set-and-adhere-to-stringent-standards)
+- [Постоянное управление данными](https://www.microsoft.com/trust-center/privacy/data-management)
+- [Управление расположением данных](https://www.microsoft.com/trust-center/privacy/data-location)
+- [Предоставление доступа к данным на ваших условиях](https://www.microsoft.com/trust-center/privacy/data-access)
+- [Реагирование на запросы правоохранительных органов](https://www.microsoft.com/trust-center/privacy)
+- [Строгие стандарты конфиденциальности](https://www.microsoft.com/trust-center/privacy)
 
-Соответствие:
+**Имевшее**
 
-- [Центр управления безопасностью Майкрософт](https://www.microsoft.com/trustcenter/default.aspx)
-- [Центр стандартных элементов управления](https://www.microsoft.com/trustcenter/Common-Controls-Hub)
-- [Контрольный список комплексной экспертизы облачных служб](https://www.microsoft.com/trustcenter/Compliance/Due-Diligence-Checklist)
-- [Соответствие служб, расположений и отрасли](https://www.microsoft.com/trustcenter/Compliance/default.aspx)
+- [Центр управления безопасностью Майкрософт](https://www.microsoft.com/trust-center)
+- [Центр стандартных элементов управления](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Контрольный список комплексной экспертизы облачных служб](https://www.microsoft.com/trust-center/compliance/due-diligence-checklist)
+- [Соответствие региональным стандартам и странам](https://www.microsoft.com/trust-center/compliance/regional-country-compliance)
 
-Прозрачность:
+**Прозрач**
 
-- [Как корпорация Майкрософт защищает данные клиентов в службах Azure](https://www.microsoft.com/trustcenter/Transparency/default.aspx)
+- [Как корпорация Майкрософт защищает данные клиентов в службах Azure](https://www.microsoft.com/trust-center)
 - [Как корпорация Майкрософт управляет расположением данных в службах Azure](https://azuredatacentermap.azurewebsites.net)
-- [Кто в корпорации Майкрософт имеет доступ к вашим данным и на каких условиях](https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms)
-- [Как корпорация Майкрософт защищает данные клиентов в службах Azure](https://www.microsoft.com/trustcenter/Transparency/default.aspx)
-- [Проверка сертификации для служб Azure, центр обеспечения прозрачности](https://www.microsoft.com/trustcenter/Compliance/default.aspx)
+- [Кто в корпорации Майкрософт имеет доступ к вашим данным и на каких условиях](https://www.microsoft.com/trust-center/privacy/data-access)
+- [Обзор сертификации для служб Azure, концентратора прозрачности](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Первым шагом для выполнения действий в любой стратегии управления является [Проверка политики](./cloud-policy-review.md). [Политика и соответствие требованиям](./index.md) могут быть полезными при проверке политики.
 

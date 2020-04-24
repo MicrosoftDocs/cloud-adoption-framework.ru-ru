@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 63d882aefab6488b05e7f0aec506c2e371d9464e
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 2241e1f4e6f738ce435e6cbedfe686a4ed85e1de
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80431302"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80996222"
 ---
 # <a name="software-defined-networking-cloud-dmz"></a>Программно определяемые сети: облачная сеть периметра
 
@@ -43,4 +43,4 @@ ms.locfileid: "80431302"
 
 Дополнительные сведения о реализации ДЕМИЛИТАРИЗОВАНной зоны в Azure см. в следующих статьях:
 
-- [Реализация сети периметра между Azure и локальным центром обработки данных](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-hybrid). В этой статье описывается, как реализовать архитектуру защищенной гибридной сети в Azure.
+- [Реализация сети периметра между Azure и локальным центром обработки данных](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz). В этой статье описывается, как реализовать архитектуру защищенной гибридной сети в Azure.

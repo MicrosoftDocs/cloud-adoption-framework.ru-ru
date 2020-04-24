@@ -10,10 +10,10 @@ ms.subservice: reference
 keywords: Azure
 layout: LandingPage
 ms.openlocfilehash: 4eb8e5a0c9fa88bdfbd6e00c55047e75873ff36f
-ms.sourcegitcommit: 5411c3b64af966b5c56669a182d6425e226fd4f6
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/13/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "79311563"
 ---
 <!-- cSpell:ignore tracsman jonor -->
@@ -46,7 +46,7 @@ ms.locfileid: "79311563"
     <td style="width: 64px; vertical-align: middle;"><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf"><img src="../_images/vdc/vdc-lift-and-shift.png" alt="Lift and Shift Guide" /></a></td>
     <td>
         <h3><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf">Виртуальный центр обработки данных Azure: руководство по поднятию и смене</a></h3>
-        <p>В этом техническом документе обсуждается процесс, который специалисты по ИТ-персоналу и лица, принимающие решения, могут использовать для обнаружения и планирования миграции приложений и серверов в Azure с помощью подхода переноса и смены, минимизации дополнительных затрат на разработку при оптимизации облака. параметры размещения.</p>
+        <p>В этом техническом документе обсуждается процесс, который специалисты по ИТ-персоналу и лица, принимающие решения, могут использовать для обнаружения и планирования миграции приложений и серверов в Azure с помощью подхода перемещения и смены, что сводит к минимуму дополнительные затраты на разработку, одновременно оптимизируя варианты размещения в облаке.</p>
     </td>
 </tr>
 </table>

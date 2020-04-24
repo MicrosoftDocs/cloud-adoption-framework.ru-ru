@@ -7,12 +7,12 @@ ms.date: 05/19/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 81ac405667bb12f61ec324388e81e38543efb690
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 21a9c395f8a60c7c73c7e39f181061de816b9c47
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80433698"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997510"
 ---
 # <a name="skills-readiness-path-during-the-plan-phase-of-a-migration-journey"></a>Путь готовности к навыкам на этапе планирования процесса миграции
 
@@ -55,7 +55,7 @@ ms.locfileid: "80433698"
 На этапе готовности технический персонал создает целевую зону миграции, которая поддерживает рабочие нагрузки размещения, эксплуатации и регулирования, которые были перенесены в облако. Эти схемы обучения помогут вам в разработке необходимых навыков:
 
 - [Создайте учетную запись Azure](https://docs.microsoft.com/learn/modules/create-an-azure-account). Первым шагом в использовании Azure является создание учетной записи. Ваша учетная запись содержит подготовленные вами службы Azure и обрабатывает личные настройки, такие как удостоверение, выставление счетов и предпочтения.
-- [портал Azure](https://docs.microsoft.com/learn/modules/tour-azure-portal). Обзор функций и служб портала Azure, а также возможностей его настройки.
+- [Портал Azure](https://docs.microsoft.com/learn/modules/tour-azure-portal). Обзор функций и служб портала Azure, а также возможностей его настройки.
 - [Введение в Azure](https://docs.microsoft.com/learn/modules/welcome-to-azure). Начните работу с Azure, создав и настроив первую виртуальную машину в облаке.
 - [Общие сведения о безопасности в Azure](https://docs.microsoft.com/learn/modules/intro-to-security-in-azure). Ознакомьтесь с основными понятиями защиты инфраструктуры и данных при работе в облаке. Узнайте, каковы ваши обязанности и обязанности Azure.
 - [Управление ресурсами в Azure](https://docs.microsoft.com/learn/paths/manage-resources-in-azure). Узнайте, как работать с командной строкой Azure и веб-порталом для создания и администрирования облачных ресурсов.
@@ -63,7 +63,7 @@ ms.locfileid: "80433698"
 - [Сети Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-networking). Узнайте об основах сетей Azure и о том, как сеть Azure помогает повысить устойчивость и сократить задержку.
 - [Параметры вычислений Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-compute). Сведения о службах вычислений Azure.
 - [Защита ресурсов с помощью RBAC](https://docs.microsoft.com/learn/modules/secure-azure-resources-with-rbac). Используйте RBAC, чтобы защитить ресурсы.
-- [Варианты хранения данных](https://docs.microsoft.com/learn/modules/intro-to-data-in-azure/index). Узнайте о преимуществах хранилища данных Azure.
+- [Варианты хранения данных](https://docs.microsoft.com/learn/modules/intro-to-data-in-azure). Узнайте о преимуществах хранилища данных Azure.
 
 ## <a name="organizational-skills"></a>Навыки организации
 
@@ -82,15 +82,15 @@ ms.locfileid: "80433698"
 
 - [Центр Microsoft IT Pro Center](https://www.microsoft.com/itpro). служит бесплатным онлайн-ресурсом, способствующим карьерному росту ИТ-специалистов в сфере облачных технологий. Узнайте, что эксперты из отрасли предлагают для вашей облачной роли и какие навыки там можно получить. Выполните учебный курс в удобном для вас темпе для развития наиболее необходимых навыков, чтобы оставаться ценным и востребованным сотрудником.
 
-Мы рекомендуем превратить знание Azure в официальное распознавание с помощью [Microsoft Azure сертификационного обучения и экзаменов](https://www.microsoft.com/learning/azure-certification.aspx).
+Мы рекомендуем превратить знание Azure в официальное распознавание с помощью [Microsoft Azure сертификационного обучения и экзаменов](https://www.microsoft.com/learning/certification-overview.aspx).
 
 ## <a name="microsoft-learn"></a>Microsoft Learn
 
 Microsoft Learn — это новый подход к изучению. Готовность к работе с новыми навыками и обязанностями, связанными с внедрением облачных технологий, дается нелегко. Microsoft Learn предоставляет более результативный подход к практическим занятиям, которые помогают быстрее достичь целей. Получите баллы, уровни и получите больше!
 
-Ниже приведен пример специализированных путей обучения, которые соответствуют стратегии, потион облачной инфраструктурой внедрения.
+Ниже приведен пример специализированного пути обучения, который соответствует стратегии, относящейся к инфраструктуре внедрения облачных технологий.
 
-[Узнайте о бизнес-](https://docs.microsoft.com/learn/paths/learn-business-value-of-azure)преимуществах Microsoft Azure. в этом учебном материале мы рассмотрим, как цифровое преобразование и возможности облака могут преобразовать ваш бизнес. Мы рассмотрим, как Microsoft Azure облачные службы могут обеспечить работу вашей организации на доверенной облачной платформе. Наконец, мы покажем, как сделать эту организацию реальной для вашей организации.
+[Узнайте о бизнес-](https://docs.microsoft.com/learn/paths/learn-business-value-of-azure)преимуществах Microsoft Azure. в этом учебном материале мы рассмотрим, как цифровое преобразование и возможности облака могут преобразовать ваш бизнес. Мы рассмотрим, какие возможности могут дать облачные службы Microsoft Azure для вашей организации на надежной облачной платформе. Наконец, мы подведем итоги, продемонстрировав, как применить эту схему на практике в вашей организации.
 
 ## <a name="learn-more"></a>Дополнительные сведения
 

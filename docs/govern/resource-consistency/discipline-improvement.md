@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 ms.openlocfilehash: dcfa6596d61233efa83bc6a1c6977a2ebe4ad510
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80433487"
 ---
 # <a name="resource-consistency-discipline-improvement"></a>Улучшения по дисциплине согласованности ресурсов
@@ -124,11 +124,11 @@ ms.locfileid: "80433487"
 - Оцените средства ведения журнала и мониторинга и решите, нужно ли корректировать локальное, облачное или гибридное решение.
 - Для бизнес-подразделений и географически распределенных групп определите, следует ли Организации использовать дополнительные функции управления облаком, такие как [группы управления Azure](https://docs.microsoft.com/azure/governance/management-groups) , чтобы лучше применять централизованную политику и удовлетворять требованиям соглашения об уровне обслуживания.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Теперь, когда вы понимаете концепцию системы управления облачными ресурсами, перейдите к руководству по [управлению доступом к ресурсам](./resource-access-management.md), а затем — к руководствам по проектированию модели системы управления для [простой рабочей нагрузки](./governance-simple-workload.md) или для [нескольких команд](./governance-multiple-teams.md).
 
 > [!div class="nextstepaction"]
-> [Дополнительные сведения об управлении доступом к ресурсам в azure](./resource-access-management.md)
-> [сведения о соглашениях об уровне обслуживания для Azure](https://azure.microsoft.com/support/legal/sla)
-> [сведения о ведении журналов, создании отчетов и мониторинге](../../decision-guides/logging-and-reporting/index.md) .
+> [Дополнительные сведения об управлении доступом к ресурсам в Azure](./resource-access-management.md)
+> Узнайте о[соглашениях об уровне обслуживания для Azure](https://azure.microsoft.com/support/legal/sla)
+> :[ведение журналов, отчеты и мониторинг](../../decision-guides/logging-and-reporting/index.md)

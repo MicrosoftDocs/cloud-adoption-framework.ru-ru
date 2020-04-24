@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 ms.openlocfilehash: 770b266f243a016d0de65dfc235717a405025aa9
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80425968"
 ---
 # <a name="security-baseline-metrics-indicators-and-risk-tolerance"></a>Метрики, индикаторы и допустимость риска в базовой системе безопасности
@@ -56,7 +56,7 @@ ms.locfileid: "80425968"
 
 Точные метрики и триггеры, используемые для оценки допустимости рисков и уровня инвестиций в базовую дисциплину безопасности, будут относиться к конкретной организации, но приведенные выше примеры должны служить основой для обсуждения в вашей команде управления облаком.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 С помощью [шаблона управления облачными ресурсами](./template.md) задокументируйте метрики и индикаторы допустимости, соответствующие текущему плану внедрения облака.
 

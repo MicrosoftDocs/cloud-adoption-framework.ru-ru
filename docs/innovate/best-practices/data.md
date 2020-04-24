@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.openlocfilehash: 613e1ebaa3341b9aa96af659d0eb03cbc21a1303
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80425606"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
@@ -57,7 +57,7 @@ ms.locfileid: "80425606"
 - [SQL Server Stretch Database](https://docs.microsoft.com/sql/sql-server/stretch-database)
 - [Microsoft Azure StorSimple](https://docs.microsoft.com/azure/storsimple)
 - [Файлы Azure](https://docs.microsoft.com/azure/storage/files)
-- [Служба "Синхронизация файлов Azure"](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)
+- [Синхронизация файлов Azure](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)
 - [PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase)
 
 Так как Invention приближается к внедрению в масштабе, для каждого решения требуется уточнение и техническая дата_вступл_в_силу. Как и в этом случае, скорее всего, потребуется больше этих служб. Используйте оглавление в левой части этой страницы для руководства по средствам Azure, относящиеся к процессу тестирования гипотезы.

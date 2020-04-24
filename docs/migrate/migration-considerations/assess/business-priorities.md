@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.openlocfilehash: a597a76e1d42d08c3800fd2f3831729bf53f10f1
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80432880"
 ---
 # <a name="business-priorities-maintaining-alignment"></a>Бизнес-приоритеты: поддержание выравнивания
@@ -48,7 +48,7 @@ ms.locfileid: "80432880"
 
 Когда на рынке происходят изменения, команда по вопросам облачной стратегии вместе с руководством компании пытается понять, как лучше реагировать на изменения. Если требуются изменения приоритетов миграции, то список невыполненной работы по миграции корректируется. Это продвигает рабочие нагрузки, которые ранее имели более низкий приоритет.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 При правильно согласованных бизнес-приоритетах команда по внедрению в облако может с уверенностью начать [оценивать рабочие нагрузки](./evaluate.md) для разработки архитектуры и планов миграции.
 

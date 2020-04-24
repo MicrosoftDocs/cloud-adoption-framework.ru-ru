@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.openlocfilehash: 107385f48f43b449fd835b5ac28aa0a9ebb5207f
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80433073"
 ---
 # <a name="align-your-cloud-governance-design-guide-with-corporate-policy"></a>Сопоставление руководства по проектированию управления облаком с корпоративной политикой
@@ -32,7 +32,7 @@ ms.locfileid: "80433073"
 
 Хотя каждое внедрение облака имеет уникальные цели, приоритеты и трудности, эти примеры должны предоставлять хороший шаблон по превращению политики в руководство. Выберите самый подходящий в вашей ситуации сценарий в качестве отправной точки и примените его в соответствии с потребностями конкретной политики.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Сформировав руководство по проектированию, установите процессы, обеспечивающие соблюдение политики, для обеспечения соответствия ее требованиям.
 

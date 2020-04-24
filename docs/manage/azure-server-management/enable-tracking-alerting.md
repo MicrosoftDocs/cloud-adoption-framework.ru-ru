@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: c973dfbdf7cb4fede3520465b2192b7f821cec1d
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434145"
 ---
 <!-- cSpell:ignore HKEY kusto -->
@@ -20,7 +20,7 @@ ms.locfileid: "80434145"
 
 Отслеживание изменений и Инвентаризация Azure предоставляют оповещения о состоянии конфигурации гибридной среды и изменениях в этой среде. Он может сообщать о критических изменениях файла, службы, программного обеспечения и реестра, которые могут повлиять на развернутые серверы.
 
-По умолчанию служба инвентаризации Azure Automation не отслеживает файлы и параметры реестра. Решение предоставляет список разделов реестра, которые мы рекомендуем использовать для мониторинга. Чтобы просмотреть этот список, перейдите к учетной записи службы автоматизации в портал Azure, а затем выберите **инвентаризация** > **изменить параметры**.
+По умолчанию служба инвентаризации Azure Automation не отслеживает файлы и параметры реестра. Решение предоставляет список разделов реестра, которые мы рекомендуем использовать для мониторинга. Чтобы просмотреть этот список, перейдите к учетной записи службы автоматизации в портал Azure, а затем выберите**Параметры редактирования**для **инвентаризации** > .
 
 ![Снимок экрана с представлением инвентаризации Azure Automation в портал Azure](./media/change-tracking1.png)
 
@@ -82,7 +82,7 @@ ConfigurationChange | where FieldsChanged contains "FileContentChecksum" and Fil
 
 ### <a name="specific-software-version-is-or-isnt-installed-on-a-machine"></a>Определенная версия программного обеспечения или не установлена на компьютере
 
-Используйте следующий запрос для оценки безопасности. Этот запрос ссылается на `ConfigurationData`, который содержит журналы инвентаризации и предоставляет Последнее состояние конфигурации, а не изменения.
+Используйте следующий запрос для оценки безопасности. Этот запрос ссылается `ConfigurationData`на, который содержит журналы инвентаризации и предоставляет Последнее состояние конфигурации, а не изменения.
 
   ```kusto
   ConfigurationData | where SoftwareName contains "Monitoring Agent" and CurrentVersion != "8.0.11081.0"
@@ -96,7 +96,7 @@ ConfigurationChange | where FieldsChanged contains "FileContentChecksum" and Fil
   ConfigurationChange | where RegistryKey == "HKEY_LOCAL_MACHINE\\System\\CurrentControlSet\\Control\\Session Manager\\KnownDlls"
   ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как использовать службу автоматизации Azure для [создания расписаний обновлений](./update-schedules.md) для управления обновлениями на серверах.
 

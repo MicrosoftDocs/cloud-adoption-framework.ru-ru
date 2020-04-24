@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.openlocfilehash: 186013e2f626be18f0cef8beea66d638be9a793c
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434828"
 ---
 # <a name="gather-inventory-data-for-a-digital-estate"></a>Сбор данных инвентаризации для цифровых активов
@@ -34,9 +34,9 @@ ms.locfileid: "80434828"
 
 Инвентаризация в первой итерации редко завершается. Мы настоятельно рекомендуем Отделу облачных стратегий расположить заинтересованные лица и опытных пользователей для проверки инвентаризации. По возможности используйте дополнительные средства, такие как анализ сети и зависимостей, для обнаружения ресурсов, которые отправляют трафик, но не в запасах.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После компиляции и проверки инвентаризации ее можно рационально использовать. Обоснование инвентаризации является следующим шагом к планированию цифровых площадок.
 
 > [!div class="nextstepaction"]
-> [Рационализация цифровых активов](./rationalize.md)
+> [Рациональное использование цифровых активов](./rationalize.md)

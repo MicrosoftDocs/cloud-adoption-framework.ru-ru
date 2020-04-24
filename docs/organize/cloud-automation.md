@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
 ms.openlocfilehash: 8e35ed2cdd90b51e13a29b0709f44ad395e9e0fb
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80428610"
 ---
 # <a name="cloud-automation-capabilities"></a>Возможности службы автоматизации в облаке
@@ -55,7 +55,7 @@ ms.locfileid: "80428610"
 
 ### <a name="strategic-tasks"></a>Стратегические задачи
 
-- Обзор.
+- Эксперт
   - [результаты бизнеса](../strategy/business-outcomes/index.md)
   - [финансовые модели](../strategy/financial-models.md)
   - [мотивации для внедрения в облако](../strategy/motivations.md)
@@ -79,9 +79,9 @@ ms.locfileid: "80428610"
 
 Группа по автоматизации облачных служб должна выстроить действия с другими областями возможностей. Такое выравнивание может привести к выносливостиу встречи. Чтобы обеспечить службе автоматизации облачных служб достаточно времени для управления каталогом решений, следует проанализировать ритмичность собраний, чтобы обеспечить максимальную совместную работу и минимизировать перерывы в действиях разработки.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 По мере того, как все необходимые облачные возможности выявляются, коллективные группы могут помочь в [разработке необходимых технических навыков](./suggested-skills.md).
 
 > [!div class="nextstepaction"]
-> [Создание технических навыков](./suggested-skills.md)
+> [Развитие технических навыков](./suggested-skills.md)

@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.openlocfilehash: bbbed6fd267a6cac7b052c28a0b902c233d74374
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80427377"
 ---
 # <a name="predict-and-influence"></a>Прогнозирование и влияние
@@ -75,7 +75,7 @@ ms.locfileid: "80427377"
 
 Узнайте больше о том, как создать внешний интерфейс с помощью [решения скорректированной реальности](./devices.md#adjusted-reality).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Теперь, когда вы знакомы с [дисциплинами Invention](./invention.md) и [методологии внедрения инноваций](./index.md), вы готовы научиться [создавать их с помощью сопереживаниеов клиентов](./build.md).
 

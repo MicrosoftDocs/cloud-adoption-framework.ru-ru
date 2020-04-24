@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: operating-model
 ms.openlocfilehash: 03843aa441188bb0bd91d0febfdd5681d6a6670b
-ms.sourcegitcommit: da7ebd67a0ebf29361f093f00e10217b212a2eb2
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/01/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80526818"
 ---
 # <a name="operating-model-terminology"></a>Терминология рабочей модели
@@ -33,7 +33,7 @@ ms.locfileid: "80526818"
 
 Внедрение облачных технологий — это «то, что мы делаем» для реализации бизнес-ценности. Операционная модель представляет «кто мы и как мы работаем в повседневной работе» во время передачи облачных технологий.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 [Используйте операционную модель](./index.md) , предоставляемую платформой внедрения облаков, для разработки оперативной зрелости.
 

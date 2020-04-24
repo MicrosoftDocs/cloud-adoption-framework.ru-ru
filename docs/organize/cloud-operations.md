@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
 ms.openlocfilehash: fc5097eb5a6bb0c0400c0789ea197d0472f858ea
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80428545"
 ---
 # <a name="cloud-operation-capabilities"></a>Возможности облачных операций
@@ -61,7 +61,7 @@ ms.locfileid: "80428545"
 
 Те, кто выполняет облачные операции, должны участвовать в планировании выпуска и облачном центре, чтобы обеспечить отзыв и подготовиться к рабочим требованиям.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Как внедрение и масштабирование операций, важно определить и автоматизировать рекомендации по управлению, расширяющие существующие ИТ-требования. Формирование [облачного центра](./cloud-center-of-excellence.md) — это важный шаг для масштабирования внедрения облака, облачных операций и действий по управлению облаком.
 

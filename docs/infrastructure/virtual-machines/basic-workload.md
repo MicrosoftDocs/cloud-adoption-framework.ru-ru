@@ -7,12 +7,12 @@ ms.date: 12/31/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 015999a9852625abe4ad02a60ad37fc162dd4861
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 34673307e33ab8ae9dad979fa3fa958c84be310c
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80425417"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997703"
 ---
 # <a name="deploy-a-basic-workload-in-azure"></a>Развертывание основной рабочей нагрузки в Azure
 
@@ -26,7 +26,7 @@ ms.locfileid: "80425417"
 
 ## <a name="basic-workload"></a>Базовая рабочая нагрузка
 
-Под *основной рабочей нагрузкой* обычно подразумевается отдельное веб-приложение или отдельная виртуальная сеть с виртуальной машиной.
+*Базовая рабочая нагрузка* обычно определяется как единое веб-приложение или виртуальная сеть (VNet) с виртуальной машиной (ВМ).
 
 > [!NOTE]
 > В этом руководстве не рассматривается разработка приложений. Дополнительные сведения об этом см. в [руководстве по архитектуре приложений Azure](https://docs.microsoft.com/azure/architecture/guide).
@@ -44,12 +44,12 @@ ms.locfileid: "80425417"
 
 ## <a name="single-windows-or-linux-vm-iaas"></a>Одна виртуальная машина Windows или Linux (IaaS)
 
-Если используется простая рабочая нагрузка, которая выполняется на одной виртуальной машине, первым делом необходимо развернуть виртуальную сеть. Все ресурсы инфраструктуры как услуги (IaaS) в Azure, например виртуальные машины, подсистемы балансировки нагрузки и шлюзы, нуждаются в виртуальной сети. Узнайте больше о [виртуальных сетях Azure](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview), а затем выполните действия по [развертыванию виртуальной сети в Azure с помощью портала](https://docs.microsoft.com/azure/virtual-network/quick-create-portal). Определяя параметры виртуальной сети на портале Azure, укажите имя созданной ранее группы ресурсов.
+Если используется простая рабочая нагрузка, которая выполняется на одной виртуальной машине, первым делом необходимо развернуть виртуальную сеть. Все ресурсы инфраструктуры как услуги (IaaS) в Azure, например виртуальные машины, подсистемы балансировки нагрузки и шлюзы, нуждаются в виртуальной сети. Узнайте о [виртуальных сетях Azure](https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview), а затем выполните действия по [развертыванию виртуальной сети в Azure с помощью портала](https://docs.microsoft.com/azure/virtual-network/quick-create-portal). Определяя параметры виртуальной сети на портале Azure, укажите имя созданной ранее группы ресурсов.
 
 Далее необходимо решить, какую виртуальную машину следует развернуть: Windows или Linux. Чтобы развернуть виртуальную машину Windows в Azure с помощью портала, следуйте указаниям из [этого руководства](https://docs.microsoft.com/azure/virtual-machines/windows/quick-create-portal). И опять же, определяя параметры виртуальной машины на портале Azure, укажите имя созданной ранее группы ресурсов.
 
 После выполнения действий и развертывания виртуальной машины вы можете ознакомиться с рекомендациями [по запуску виртуальной машины Windows в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-windows/single-vm). Чтобы развернуть виртуальную машину Linux в Azure с помощью портала, следуйте указаниям из [этого руководства](https://docs.microsoft.com/azure/virtual-machines/linux/quick-create-portal). Кроме того, вы можете узнать больше о рекомендациях [по запуску виртуальной машины Linux в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/virtual-machines-linux/single-vm).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Чтобы узнать, как использовать основные компоненты инфраструктуры в облаке Azure, см. статью [Руководство по принятию архитектурных решений](../../decision-guides/index.md).

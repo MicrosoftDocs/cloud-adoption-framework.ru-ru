@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 489f15b3ceda87c57f244c4ed597c4b5f05d11e9
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 234136b777107c93e7ea26b9a183c1ec34b75e24
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80426040"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "81120102"
 ---
 # <a name="security-baseline-discipline-improvement"></a>Улучшения дисциплины "Базовая система безопасности"
 
@@ -46,13 +46,13 @@ ms.locfileid: "80426040"
 - Определите схему классификации данных.
 - Выполните процесс планирования цифровых активов для инвентаризации текущих ИТ-ресурсов, участвующих в бизнес-процессах и вспомогательных операциях.
 - Выполните [проверку политики](../../govern/policy-compliance/cloud-policy-review.md), чтобы начать процесс модернизации существующих корпоративных политик ИТ-безопасности, и определите политики MVP для известных рисков.
-- Просмотрите рекомендации по безопасности вашей облачной платформы. Для Azure такие рекомендации можно найти на [платформе Microsoft Service Trust](https://www.microsoft.com/trustcenter/stp/default.aspx).
-- Определите, содержит ли ваша политика базовой системы безопасности [жизненный цикл разработки защищенных приложений](https://www.microsoft.com/securityengineering/sdl).
+- Просмотрите рекомендации по безопасности вашей облачной платформы. Для Azure такие рекомендации можно найти на [платформе Microsoft Service Trust](https://servicetrust.microsoft.com).
+- Определите, содержит ли ваша политика базовой системы безопасности [жизненный цикл разработки защищенных приложений](https://www.microsoft.com/en-us/securityengineering/sdl).
 - Оцените бизнес-риски, связанные с сетью, данными и ресурсами, на основе следующих выпусков (от одного до трех) и измерьте допустимые отклонения по отношению к этим рискам в вашей организации.
 - Чтобы получить общие сведения о сфере безопасности, просмотрите отчет корпорации Майкрософт о новинках в области кибербезопасности [здесь](https://www.microsoft.com/security/operations/security-intelligence-report).
 - Рассмотрите возможность создания роли [специалиста по разработке и операциям в сфере безопасности](https://www.microsoft.com/en-us/securityengineering/devsecops) в своей организации.
 
-<!-- "en-us" location is required for the URL above. -->
+<!-- "en-us" location is required for the URLs above. -->
 
 ## <a name="build-and-predeployment"></a>Сборка и предразвертывание
 
@@ -113,11 +113,11 @@ ms.locfileid: "80426040"
 - Подготовьте процедуры для быстрой остановки несанкционированного доступа и отключения ресурсов, которые мог скомпрометировать злоумышленник.
 - Регулярно проверяйте новейшие рекомендации по обеспечению безопасности и по возможности применяйте их к вашей политике безопасности, возможностям автоматизации и мониторинга.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Теперь, когда вы ознакомились с концепцией управления безопасностью в облаке, ознакомьтесь с рекомендациями и методами обеспечения безопасности от корпорации Майкрософт для Azure в [этой статье](./azure-security-guidance.md).
 
 > [!div class="nextstepaction"]
-> [Ознакомьтесь с руководством по безопасности для azure](./azure-security-guidance.md)
-> [Введение в безопасность Azure](https://docs.microsoft.com/azure/security/azure-security)
-> [сведения о ведении журналов, создании отчетов и мониторинге](../../decision-guides/logging-and-reporting/index.md) .
+> [Ознакомьтесь с руководством по безопасности](./azure-security-guidance.md)
+> [в](https://docs.microsoft.com/azure/security/fundamentals/overview)
+> Azure общие[сведения о ведении журналов, составлении отчетов и мониторинге](../../decision-guides/logging-and-reporting/index.md) .

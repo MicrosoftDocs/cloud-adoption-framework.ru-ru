@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
 ms.openlocfilehash: 2dc5503c7c24263bf74c4708ffe5e1dca0b8b97b
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80428532"
 ---
 # <a name="cloud-platform-capabilities"></a>Возможности облачной платформы
@@ -30,7 +30,7 @@ ms.locfileid: "80428532"
 - Управление ИТ
 - ИТ – инфраструктура
 - Сеть
-- Удостоверение
+- Идентификация
 - Виртуализация
 - Непрерывность бизнес-процессов и аварийное восстановление
 - Владельцы приложений в ИТ
@@ -43,7 +43,7 @@ ms.locfileid: "80428532"
 
 ### <a name="strategic-tasks"></a>Стратегические задачи
 
-- Обзор.
+- Эксперт
   - [результаты бизнеса](../strategy/business-outcomes/index.md)
   - [финансовые модели](../strategy/financial-models.md)
   - [мотивации для внедрения в облако](../strategy/motivations.md)
@@ -69,7 +69,7 @@ ms.locfileid: "80428532"
 
 Опыт работы с облачной платформой обычно поступает от рабочей группы. Участники должны зафиксировать большую часть ежедневных расписаний на работу с облачной платформой. Вклады не ограничиваются собраниями и циклами обратной связи.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 По мере того, как облачная платформа станет более эффективной, можно повысить эффективность внедрения, выровняйте [возможности облачной автоматизации](./cloud-automation.md) . Кроме того, он позволяет создавать лучшие решения и сокращать деловые и технические риски.
 

@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: a611d6e8437bbb6a62d1050f6f916ee9ac429228
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 45eda399229361d9a2bd762ec6c8d8624e3a0742
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80426273"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997130"
 ---
 # <a name="inventory-and-visibility-in-cloud-management"></a>Инвентаризация и видимость в управлении облаком
 
@@ -118,7 +118,7 @@ ms.locfileid: "80426273"
 
 Существует множество причин, по которым для организации может потребоваться несколько клиентов в одном поставщике облачных служб. В этих сценариях централизованная обработка данных является обязательным компонентом расширенного базового управления, поскольку он может обеспечить видимость для каждого из этих клиентов или сред.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Операционная совместимость основана на возможностях инвентаризации, применяя автоматизацию управления и элементы управления. Узнайте, как [соответствие операционных](./operational-compliance.md) систем сопоставлению с вашими процессами.
 

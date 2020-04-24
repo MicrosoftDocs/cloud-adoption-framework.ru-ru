@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: cb612930318ed2ecd355cb5466f50650086d7f4c
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80430565"
 ---
 # <a name="automate-onboarding"></a>Автоматизация адаптации
@@ -36,7 +36,7 @@ ms.locfileid: "80430565"
 
 В этом примере используются файлы, описанные в следующей таблице. Их можно настроить для поддержки собственных сценариев развертывания.
 
-| Имя файла | Description |
+| Имя файла | Описание |
 |-----------|-------------|
 | Нев-амсдеплоймент. ps1 | Главный, координирующий сценарий, автоматизирующий подключение. Он создает группы ресурсов, расположение, рабочую область и учетные записи автоматизации, если они еще не существуют. Для этого скрипта PowerShell требуется существующая подписка. |
 | Workspace-Аутоматионаккаунт. JSON | Шаблон диспетчер ресурсов, который развертывает ресурсы рабочей области и учетной записи службы автоматизации. |
@@ -51,9 +51,9 @@ ms.locfileid: "80430565"
 .\New-AMSDeployment.ps1 -SubscriptionName '{Subscription Name}' -WorkspaceName '{Workspace Name}' -WorkspaceLocation '{Azure Location}' -AutomationAccountName {Account Name} -AutomationAccountLocation {Account Location}
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как настроить базовые оповещения для уведомления команды о событиях и проблемах управления ключами.
 
 > [!div class="nextstepaction"]
-> [Настройка основных оповещений](./setup-alerts.md)
+> [Настройка базовых оповещений](./setup-alerts.md)

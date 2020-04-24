@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 ms.openlocfilehash: 7fa026a06f2f42fda09783a29554e2a6c4797fcd
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434418"
 ---
 <!-- cSpell:ignore MPLS -->
@@ -83,7 +83,7 @@ ms.locfileid: "80434418"
 
 Включение в составе облака должно содержаться в том месте, где оно требуется, исходя из технических требований или конкретных бизнес-требований. По мере роста многооблачного внедрения повышает сложность и риски безопасности.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Во многих крупных предприятиях пять дисциплин управления облаком могут быть заблокированы для внедрения. В следующей статье содержатся некоторые дополнительные соображения о том, как сделать управление участником группы, чтобы обеспечить долгосрочное успешность в облаке.
 

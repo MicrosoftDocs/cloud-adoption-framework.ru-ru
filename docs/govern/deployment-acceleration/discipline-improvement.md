@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 ms.openlocfilehash: 97f8a82295a8eff5614c965ba583fcbf8d50f501
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434582"
 ---
 # <a name="deployment-acceleration-discipline-improvement"></a>Улучшение дисциплины "Ускорение развертывания"
@@ -95,7 +95,7 @@ ms.locfileid: "80434582"
 - Регулярно просматривайте средства настройки и сценарии для улучшения процессов и выявления общих проблем.
 - Работайте с командами разработки, эксплуатации и безопасности, чтобы помочь проработать практики DevSecOps и преодолеть организационные трудности, которые приводят к неэффективности.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Теперь, когда вы понимаете концепцию стратегии управления удостоверениями в облаке, изучите [цепочку инструментов для базовой идентификации](./toolchain.md), чтобы выбрать наиболее подходящие средства и функции Azure, которые вам потребуются при развитии дисциплины управления базовой системы идентификации на платформе Azure.
 

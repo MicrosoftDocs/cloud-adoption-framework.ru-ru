@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.openlocfilehash: e0823eef01a2966459a10293c25d877b1c732c64
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80425811"
 ---
 <!-- cSpell:ignore njray nanra Attunity Codit DRDA ISAM ISQL LPARS VSAM ODBC JDBC GDGs REXX dbextents Raincode Tmax -->
@@ -178,10 +178,10 @@ Azure предоставляет проверенную, высокодосту�
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-Для получения дополнительных сведений см. следующие ресурсы:
+Дополнительные сведения см. в следующих ресурсах:
 
 - [Начало работы с Azure](https://docs.microsoft.com/azure)
 
-- [Развертывание IBM DB2 pureScale в Azure](https://azure.microsoft.com/resources/deploy-ibm-db2-purescale-on-azure)
+- [Развертывание IBM DB2 Пурескале в Azure](https://azure.microsoft.com/resources/deploy-ibm-db2-purescale-on-azure)
 
 - [Документация по Host Integration Server](https://docs.microsoft.com/host-integration-server)

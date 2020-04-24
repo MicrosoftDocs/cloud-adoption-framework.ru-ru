@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: ecc0dd8b3a91461d5c5d1dd1ce4c062646d974fb
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80430505"
 ---
 # <a name="set-up-basic-alerts"></a>Настройка базовых оповещений
@@ -47,9 +47,9 @@ Azure Monitor предлагает возможности [оповещений]
 
 В качестве примера пакет использует серверное оборудование HP. Измените параметры в связанном файле конфигурации, чтобы они отражали оборудование изготовителя оборудования. Кроме того, в файл конфигурации можно добавить дополнительные счетчики производительности. Чтобы развернуть пакет, запустите файл Нев-кореалертс. ps1.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Сведения об операциях и механизмах обеспечения безопасности, которые поддерживают текущие операции.
 
 > [!div class="nextstepaction"]
-> [Текущее управление и безопасность](./ongoing-management-overview.md)
+> [Управление и безопасность](./ongoing-management-overview.md)

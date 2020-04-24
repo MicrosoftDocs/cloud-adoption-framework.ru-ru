@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.openlocfilehash: e99bb023f73baad9e1940f06128ba09bd79ab0a1
-ms.sourcegitcommit: f068ebc73b56f81f91773a963c5fc8fd2221a148
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80606579"
 ---
 <!-- markdownlint-disable MD026 -->
@@ -75,7 +75,7 @@ ms.locfileid: "80606579"
 
 Такой подход сводит риски к минимуму, позволяя команде действовать быстро. Это также гарантирует, что риски будут немедленно устранены и устранены до развертывания.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как оценить устойчивость риска во время внедрения облака.
 

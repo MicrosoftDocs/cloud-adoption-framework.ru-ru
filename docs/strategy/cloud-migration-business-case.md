@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
 ms.openlocfilehash: 9ef3c108d330cd52b470c590a48f79c65502a7e6
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80431641"
 ---
 # <a name="build-a-business-justification-for-cloud-migration"></a>Создание коммерческого обоснования для миграции в облако
@@ -105,7 +105,7 @@ ms.locfileid: "80431641"
 
 Если рентабельность инвестиций по-прежнему не выровнена, обратитесь за помощью к торговому представителю корпорации Майкрософт или [привлеките опытного партнера](https://azure.microsoft.com/migration/support).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 > [!div class="nextstepaction"]
 > [Создание финансовой модели для перехода на облачные технологии](./financial-models.md)

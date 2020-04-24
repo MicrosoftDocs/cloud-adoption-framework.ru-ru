@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.openlocfilehash: 90a6718c028023e1bae101b35fff873dd47e4ab2
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80427957"
 ---
 # <a name="review-rationalization-decisions"></a>Просмотр решений о рационализации
@@ -66,7 +66,7 @@ ms.locfileid: "80427957"
 
 Для крупномасштабных сложных планов внедрения с несколькими отдельными проектами рекомендуется обновить путь итерации. Изменение пути к области делает рабочую нагрузку видимой только для группы, назначенной этому пути к области. Это изменение может упростить работу группы по внедрению в облако, уменьшая количество видимых задач. Но это усложняет процесс управления проектами.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 [Создание итераций и планов выпусков](./iteration-paths.md) для начала работы по планированию.
 

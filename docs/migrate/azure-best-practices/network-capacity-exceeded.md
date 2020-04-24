@@ -1,18 +1,18 @@
 ---
 title: Превышение пропускной способности сети
-description: Требования к данным превышают емкость сети во время миграции.
+description: Требования к данным превышают пропускную способность сети в процессе миграции.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2d836e6d5397a5b2ff36ab57ee23712cfe40561a
-ms.sourcegitcommit: 88fbc36cd634c3069e1a841a763a5327c737aa84
+ms.openlocfilehash: 4d32a1b521240806b78435141b9876967b4093d8
+ms.sourcegitcommit: 825f9ae5b6cdd2fa6cb18c14a9733ba9106194f2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80636455"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "81646853"
 ---
 <!-- cSpell:ignore HDFS databox VHDX -->
 
@@ -32,7 +32,7 @@ ms.locfileid: "80636455"
 
 Этот подход можно использовать для перемещения данных из HDFS, резервных копий, архивов, файловых серверов и приложений. В имеющемся техническом руководстве объясняется, как использовать этот подход для перемещения данных из [хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) или [службы копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) в Data Box.
 
-Существуют также [сторонние решения партнеров](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box), которые используют Azure Data Box для миграции по методу "Seed and Feed", при котором большой объем данных перемещается в автономном режиме, но затем синхронизируется по сети, используя меньшую пропускную способность.
+Существуют также сторонние решения партнеров, которые используют Azure Data Box для миграции по методу "Seed and Feed", при котором большой объем данных перемещается в автономном режиме, но затем синхронизируется по сети, используя меньшую пропускную способность.
 
 ![Автономная передача данных и передача данных по сети с помощью Azure Data Box](../../_images/migrate/databox.png)
 
@@ -61,13 +61,13 @@ ms.locfileid: "80636455"
 
 **Копировать хранилище:** Этот подход можно использовать для перемещения данных HDFS, резервных копий, архивов, файловых серверов или приложений. В имеющемся техническом руководстве объясняется, как использовать этот подход для перемещения данных из [хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [REST](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest) или [службы копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) в Data Box.
 
-Существуют также [сторонние решения партнеров](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box), которые используют Azure Data Box для миграции по методу "Seed and Sync", при котором большой объем данных перемещается в автономном режиме, но затем синхронизируется по сети, используя меньшую пропускную способность.
+Существуют также сторонние решения партнеров, которые используют Azure Data Box для миграции по методу "Seed and Sync", при котором большой объем данных перемещается в автономном режиме, но затем синхронизируется по сети, используя меньшую пропускную способность.
 
 **Доставка устройства:** После копирования данных устройство может быть [отправлено в корпорацию Майкрософт](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up). После получения и импорта данные будут доступны в учетной записи хранения Azure.
 
 **Восстановите ресурс** . [Убедитесь, что данные](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure) доступны в учетной записи хранения. После проверки данные можно использовать в качестве большого двоичного объекта или в Файлах Azure. Если данные — это VHD- или VHDX-файл, то его можно преобразовать в управляемые диски. Затем эти управляемые диски можно использовать для создания экземпляра виртуальной машины, которая представляет собой реплику исходного локального ресурса.
 
-**Синхронизация:** Если для перенесенного ресурса требуется синхронизация отклонения, одно из [сторонних решений партнеров](https://azuremarketplace.microsoft.com/campaigns/databox/azure-data-box) можно использовать для синхронизации файлов до тех пор, пока ресурс не будет восстановлен.
+**Синхронизация:** Если для перенесенного ресурса требуется синхронизация отклонения, одно из сторонних решений партнеров можно использовать для синхронизации файлов до тех пор, пока ресурс не будет восстановлен.
 
 ## <a name="optimize-and-promote-process-changes"></a>Изменение процесса оптимизации и перемещения в рабочую среду
 
@@ -77,7 +77,7 @@ ms.locfileid: "80636455"
 
 Это изменение области, скорее всего, не затронет действия по защите и управлению.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Вернитесь к [контрольному списку рекомендаций по миграции](./index.md) , чтобы убедиться, что метод миграции полностью согласован.
 

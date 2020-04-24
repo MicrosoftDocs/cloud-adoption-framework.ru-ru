@@ -9,10 +9,10 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 ms.openlocfilehash: a4f022d995cf4dca25cfd5369ce92dd4496e8687
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80434595"
 ---
 # <a name="deployment-acceleration-motivations-and-business-risks"></a>Мотивации и бизнес-риски ускорения развертывания
@@ -39,7 +39,7 @@ ms.locfileid: "80434595"
 - **Превышение затрат:** Непредвиденные изменения в конфигурации системных ресурсов могут сделать более сложным определение основной причины проблем, повышая затраты на разработку, эксплуатацию и обслуживание.
 - **Неэффективные Организации:** Барьеры между разработкой, эксплуатацией и группами безопасности могут привести к многочисленным проблемам при эффективном внедрении облачных технологий и разработке единой модели управления облаком.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 С помощью [шаблона управления облачными](./template.md)службами Задокументируйте бизнес-риски, которые, скорее всего, будут представлены текущим планом внедрения в облако.
 

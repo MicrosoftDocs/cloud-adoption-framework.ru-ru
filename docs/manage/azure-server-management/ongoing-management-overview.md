@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: d006773b66bf9e41301c4d2e9b34018394594e28
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80430538"
 ---
 # <a name="phase-3-ongoing-management-and-security"></a>Этап 3. постоянное управление и безопасность
@@ -30,7 +30,7 @@ ms.locfileid: "80430538"
 
 Рекомендуется ознакомиться с рекомендациями, предоставляемыми этой службой, и реализовать их. Дополнительные сведения о дополнительных преимуществах центра безопасности Azure см. в статье [рекомендации центра безопасности Azure](https://docs.microsoft.com/azure/migrate/migrate-best-practices-security-management#best-practice-follow-azure-security-center-recommendations).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как [включить функцию гостевой настройки политики Azure](./guest-configuration-policy.md) .
 

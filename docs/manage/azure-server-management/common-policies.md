@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: 3f6d5cbc2485a8e5a3752f24659e8873abb40a8d
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80430614"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
@@ -35,7 +35,7 @@ ms.locfileid: "80430614"
 Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq "BuiltIn") -and ($_.Properties.displayName -like "*location*") }
 ```
 
-В следующем сценарии показано, как назначить политику. Измените значение `$SubscriptionID`, чтобы оно указывало на подписку, которой вы хотите назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Измените `$SubscriptionID` значение, указав подписку, которой вы хотите назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
 
 ```powershell
 #Specify the value for $SubscriptionID.
@@ -50,7 +50,7 @@ $policyParam = '{"listOfAllowedLocations":{"value":["eastus","westus"]}}'
 New-AzPolicyAssignment -Name "Allowed Location" -DisplayName "Allowed locations for resource creation" -Scope $scope -PolicyDefinition $AllowedLocationPolicy -Location eastus -PolicyParameter $policyParam
 ```
 
-Этот сценарий также можно использовать для применения других политик, описанных в этой статье. Просто замените GUID в строке, которая задает `$AllowedLocationPolicy` с идентификатором GUID политики, которую необходимо применить.
+Этот сценарий также можно использовать для применения других политик, описанных в этой статье. Просто замените GUID в строке, которая задает `$AllowedLocationPolicy` идентификатор GUID политики, которую необходимо применить.
 
 ### <a name="block-certain-resource-types"></a>Блокировать определенные типы ресурсов
 
@@ -74,7 +74,7 @@ Azure предлагает широкий спектр размеров вирт
 
 GUID политики — `2835b622-407b-4114-9198-6f7064cbe0dc`.
 
-В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение `$SubscriptionID`, указав подписку, которой нужно назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените `$SubscriptionID` значение так, чтобы оно указывало на подписку, которой необходимо назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
 
 ```powershell
 #Specify the value for $SubscriptionID.
@@ -88,7 +88,7 @@ New-AzPolicyAssignment -Name "Deploy Antimalware" -DisplayName "Deploy default M
 
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте о других доступных средствах и службах управления сервером.
 

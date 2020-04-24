@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 380229fd898fa36e425f4c4792de221139b64cec
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: ffa318f44a6fe3a856598581ca7cc2de37fbd6f5
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80430832"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80997363"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -41,9 +41,9 @@ ms.locfileid: "80430832"
 
 Теги ресурсов — хороший подход к хранению метаданных, и эти теги можно использовать для применения сведений о классификации данных к развернутым ресурсам. Хотя Теги облачных ресурсов по классификации не являются заменой для процесса формальной классификации данных, он предоставляет ценное средство для управления ресурсами и применения политик. [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) — это отличное решение, помогающее классифицировать сами _данные_ , независимо от того, где они находятся (локально, в Azure или где-либо еще). Рассмотрите его как часть общей стратегии классификации.
 
-Дополнительные сведения о разметке ресурсов в Azure см. в статье [Использование тегов для Организации ресурсов Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags).
+Дополнительные сведения о разметке ресурсов в Azure см. в статье [Использование тегов для Организации ресурсов Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Применяйте классификации данных во время выполнения одного из руководств по управлению.
 

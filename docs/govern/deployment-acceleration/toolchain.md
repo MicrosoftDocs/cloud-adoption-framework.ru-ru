@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b6fac6af93c68f22561b578cfe598bc9d847c902
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.openlocfilehash: 434f8118d075c907d543f344c26c99c10cbc9bb4
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "80434507"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "80995455"
 ---
 # <a name="deployment-acceleration-tools-in-azure"></a>Средства ускорения развертывания в Azure
 
@@ -23,26 +23,26 @@ ms.locfileid: "80434507"
 
 Ниже приведен список инструментов Azure, которые могут помочь в совершенствовании политик и процессов, поддерживающих эту дисциплину системы управления.
 
-|  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Группы управления Azure](https://docs.microsoft.com/azure/governance/management-groups) | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview) | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Граф ресурсов Azure](https://docs.microsoft.com/azure/governance/resource-graph/overview) | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management) |
+|  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Группы управления Azure](https://docs.microsoft.com/azure/governance/management-groups) | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Azure Resource Graph](https://docs.microsoft.com/azure/governance/resource-graph/overview) | [Azure Cost Management](https://docs.microsoft.com/azure/cost-management) |
 |---------|---------|---------|---------|---------|---------|---------|
-|Реализация корпоративных политик     |Да |нет  |нет  |нет | нет |нет |
-|Применение политик в подписках     |Обязательно |Да  |нет  |нет | нет |нет |
-|Развертывание определенных ресурсов     |нет |нет  |Да  |нет | нет |нет |
-|Создание полностью соответствующих сред      |Обязательно |Обязательно  |Обязательно  |Да | нет |нет |
-|Политики аудита      |Да |нет  |нет  |нет | нет |нет |
-|Запрос к ресурсам Azure      |нет |нет  |нет  |нет |Да |нет |
-|Отчет о стоимости ресурсов      |нет |нет  |нет  |нет |нет |Да |
+|Реализация корпоративных политик     |Да |Нет  |Нет  |Нет | Нет |Нет |
+|Применение политик в подписках     |Обязательный |Да  |Нет  |Нет | Нет |Нет |
+|Развертывание определенных ресурсов     |Нет |Нет  |Да  |Нет | Нет |Нет |
+|Создание полностью соответствующих сред      |Обязательный |Обязательный  |Обязательный  |Да | Нет |Нет |
+|Политики аудита      |Да |Нет  |Нет  |Нет | Нет |Нет |
+|Запрос к ресурсам Azure      |Нет |Нет  |Нет  |Нет |Да |Нет |
+|Отчет о стоимости ресурсов      |Нет |Нет  |Нет  |Нет |Нет |Да |
 
 Ниже приведены дополнительные средства, которые могут потребоваться для выполнения определенных задач ускорения развертывания. Часто эти средства используются за пределами команды системы управления, но по-прежнему считаются важным аспектом дисциплины "Ускорение развертывания".
 
-|  | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Azure DevOps](https://docs.microsoft.com/azure/devops/index) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
+|  | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Azure DevOps](https://docs.microsoft.com/azure/devops) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|
-|Развертывание вручную (один ресурс)     | Да | Да  | нет  | Не эффективное | нет | Да |
-|Развертывание вручную (полная среда)     | Не эффективное | Да | нет  | Не эффективное | нет | Да |
-|Автоматическое развертывание (полная среда)     | нет  | Да  | нет  | Да  | нет | Да |
-|Обновление конфигурации одного ресурса     | Да | Да | Не эффективное | Не эффективное | нет | Да — во время репликации |
-|Обновление конфигурации полной среды     | Не эффективное | Да | Да | Да  | нет | Да — во время репликации |
-|Управление схемой конфигурации     | Не эффективное | Не эффективное | Да  | Да  | нет | Да — во время репликации |
-|Создание автоматического конвейера для развертывания кода и настройки ресурсов (DevOps)     | нет | нет | нет | Да | нет | нет |
+|Развертывание вручную (один ресурс)     | Да | Да  | Нет  | Не эффективное | Нет | Да |
+|Развертывание вручную (полная среда)     | Не эффективное | Да | Нет  | Не эффективное | Нет | Да |
+|Автоматическое развертывание (полная среда)     | Нет  | Да  | Нет  | Да  | Нет | Да |
+|Обновление конфигурации одного ресурса     | Да | Да | Не эффективное | Не эффективное | Нет | Да — во время репликации |
+|Обновление конфигурации полной среды     | Не эффективное | Да | Да | Да  | Нет | Да — во время репликации |
+|Управление схемой конфигурации     | Не эффективное | Не эффективное | Да  | Да  | Нет | Да — во время репликации |
+|Создание автоматического конвейера для развертывания кода и настройки ресурсов (DevOps)     | Нет | Нет | Нет | Да | Нет | Нет |
 
 Помимо собственных средств Azure, упомянутых выше, довольно часто клиенты используют сторонние средства для упрощения развертываний в рамках дисциплины "Ускорение развертывания" и развертываний DevOps.

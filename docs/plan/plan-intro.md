@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.openlocfilehash: e45d3fe552c13b502f61dfa91e0af85ad10e00b2
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80428106"
 ---
 # <a name="plan-for-cloud-adoption"></a>Планирование внедрения в облако
@@ -41,7 +41,7 @@ ms.locfileid: "80428106"
 5. **Создание итераций и планов выпусков.** *итерации* — это блоки времени, выделенные для выполнения работы. *Выпуски* — это определение работы, которая должна быть выполнена перед запуском изменений в рабочих процессах.
 6. **Оценка временных шкал:** Создайте приблизительные временные шкалы для целей планирования выпуска на основе первоначальных оценок.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Перед созданием плана внедрения в облако убедитесь, что выполнены все [необходимые условия](./prerequisites.md) .
 

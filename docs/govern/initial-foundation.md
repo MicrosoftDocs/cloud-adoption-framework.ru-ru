@@ -10,10 +10,10 @@ ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
 ms.openlocfilehash: 5cd0a9f4a9ec7d32b2aced903f2689884c32e97c
-ms.sourcegitcommit: ea63be7fa94a75335223bd84d065ad3ea1d54fdb
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/27/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80356972"
 ---
 # <a name="establish-an-initial-cloud-governance-foundation"></a>Создание начального плана управления Cloud Foundation
@@ -66,9 +66,9 @@ ms.locfileid: "80356972"
 </ul>
 <!-- markdownlint-enable MD033 -->
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После того как система управления уже установлена, примените подходящие рекомендации для улучшения решения и защиты от материальных рисков.
 
 > [!div class="nextstepaction"]
-> [Улучшение первоначальной системы управления](./foundation-improvements.md)
+> [Улучшение исходных базовых аспектов системы управления](./foundation-improvements.md)

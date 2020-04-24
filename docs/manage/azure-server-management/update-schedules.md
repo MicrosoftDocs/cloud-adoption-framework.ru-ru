@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.openlocfilehash: c3d40eb748c58643a981110e03417275b465c158
-ms.sourcegitcommit: afe10f97fc0e0402a881fdfa55dadebd3aca75ab
+ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/31/2020
+ms.lasthandoff: 04/16/2020
 ms.locfileid: "80430490"
 ---
 # <a name="create-update-schedules"></a>Создание расписаний обновления
@@ -28,9 +28,9 @@ ms.locfileid: "80430490"
 
 - Создает расписание обновления службы автоматизации Azure, которое выполняется каждую субботу в 8:00 AM.
 - Создает запрос для компьютеров, соответствующих следующим критериям:
-  - Развертывается в `westus`, `eastus`или `eastus2` расположении Azure
-  - Примените к ним тег `Owner` со значением, равным `JaneSmith`
-  - Применяйте к ним тег `Production` со значением, равным `true`
+  - Развернуто в `westus`расположении `eastus`, или `eastus2` в Azure
+  - Примените `Owner` к ним тег со значением, равным`JaneSmith`
+  - Примените `Production` к ним тег со значением, равным`true`
 - Применяет расписание обновления к запрашиваемым компьютерам и устанавливает интервал в два часа обновления.
 
 Перед запуском примера скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) . При запуске скрипта укажите следующие сведения.
@@ -106,9 +106,9 @@ ms.locfileid: "80430490"
         -IncludedUpdateClassification Security,Critical
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 См. Примеры реализации [общих политик в Azure](./common-policies.md) , которые могут помочь в управлении серверами.
 
 > [!div class="nextstepaction"]
-> [Общие политики в Azure](./common-policies.md)
+> [Пользовательские политики в Azure](./common-policies.md)
