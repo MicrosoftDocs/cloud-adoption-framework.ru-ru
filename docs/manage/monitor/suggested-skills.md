@@ -3,16 +3,16 @@ title: Готовность навыков мониторинга в облак�
 description: Готовность навыков мониторинга в облаке
 author: BrianBlanchard
 ms.author: magoedte
-ms.date: 03/23/2020
+ms.date: 05/05/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 30d3b590c6382b0487cac3cfd6c5c0d343432f67
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: fe76729b4a845d71629d7d24d4bdd3110fa6ab9a
+ms.sourcegitcommit: 5058bc57cb53701ac409959b46767ae6fd56ba93
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81120550"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82861441"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -37,13 +37,13 @@ ms.locfileid: "81120550"
 
 - Узнайте, как [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) помогает просматривать доступность и производительность приложений и служб вместе в одном месте. Pluralsight предлагает следующие курсы, которые помогут вам:
 
-  - [Microsoft Azure мониторинг и управления IaaS](https://www.pluralsight.com/courses/azure-iaas-monitoring-management-getting-started) позволяет узнать, как использовать Azure Monitor для выполнения базового мониторинга рабочих нагрузок, выполняемых в IaaS.
-
-  - [Мониторинг Microsoft Azure ресурсов и рабочих нагрузок](https://www.pluralsight.com/courses/microsoft-azure-resources-workloads-monitoring) помогает узнать, как использовать средства мониторинга Microsoft Azure для мониторинга сетевых ресурсов Azure, а также локальных ресурсов.
+  - [Мониторинг Microsoft Azure ресурсов и рабочих нагрузок](https://app.pluralsight.com/library/courses/microsoft-azure-resources-workloads-monitoring-update/table-of-contents) помогает узнать, как использовать средства мониторинга Microsoft Azure для мониторинга сетевых ресурсов Azure, а также локальных ресурсов.
 
   - [Microsoft Azure инженер DevOps: оптимизация механизмов обратной связи](https://www.pluralsight.com/courses/microsoft-azure-optimize-feedback-mechanisms) поможет вам подготовиться к использованию Azure Monitor, включая Application Insights и log Analytics для мониторинга и оптимизации веб-приложений.
 
   - [Microsoft Azure мониторинга базы данных сборник тренировочных заданий](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) поможет вам узнать, как реализовать и использовать мониторинг базы данных SQL Azure, хранилища данных SQL azure и Azure Cosmos DB.
+
+  - [Инструментирование приложений с помощью Azure Monitor Application Insights](https://app.pluralsight.com/library/courses/microsoft-azure-application-insights-web-application-instrument) является глубоким курсом, посвященным использованию пакета SDK Application Insights для сбора данных телеметрии и событий из приложения с помощью угловых и компонентов Node. js.
 
 - С помощью [дуги Azure для серверов](https://docs.microsoft.com/azure/azure-arc/servers/overview)вы узнаете, как управлять компьютерами под управлением Windows и Linux, размещенными за пределами Azure, аналогично управлению собственными виртуальными машинами Azure.
 
@@ -69,7 +69,7 @@ ms.locfileid: "81120550"
 
 - Приступая [к работе с Azure DevOps](https://docs.microsoft.com/learn/modules/get-started-with-devops).
 
-- [Дополнительные сведения о DevOps Dojo (Белая лента Foundation)](https://docs.microsoft.com/learn/paths/devops-dojo-white-belt-foundation)
+- [Узнайте о курсе "DevOps dojo white belt foundation"](https://docs.microsoft.com/learn/paths/devops-dojo-white-belt-foundation)
 
 - [Развитие практик DevOps](https://docs.microsoft.com/learn/paths/evolve-your-devops-practices)
 
