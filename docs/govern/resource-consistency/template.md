@@ -1,5 +1,5 @@
 ---
-title: Шаблон согласованности ресурсов
+title: Шаблон дисциплины согласованности ресурсов
 description: Используйте этот шаблон в качестве отправной точки для документирования и обмена инструкциями политики, которые управляют ИТ-операциями и управлением в облаке.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 8cb96fc97e8e0ac4695ca28dbcad964d246f95e5
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 5a41d4c227c1f96fd4f7e81e893e607bfd51e92b
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80433654"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83217971"
 ---
-# <a name="resource-consistency-template"></a>Шаблон согласованности ресурсов
+# <a name="resource-consistency-discipline-template"></a>Шаблон дисциплины согласованности ресурсов
 
 Первым шагом для реализации изменений является взаимодействие с нужным. То же самое касается изменения рекомендаций системы управления. Приведенный ниже шаблон служит отправной точкой для документирования и обмена инструкциями политики, которые управляют ИТ-операциями и управлением в облаке.
 
@@ -24,9 +24,9 @@ ms.locfileid: "80433654"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии со своими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Согласованность ресурсов" в рамках стратегии управления облаком.
 
-[Скачать шаблон дисциплины управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Resource%20Consistency%20Discipline%20Template.docx)
+[Загрузка шаблона "дисциплина согласованности ресурсов"](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Resource%20Consistency%20Discipline%20Template.docx)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 
