@@ -7,12 +7,12 @@ ms.date: 04/04/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: be340d1566fce58012cd63c6efc90fd2e0636260
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 3debb2057b4f4a6c925b62b3d783c135c5d2b3bb
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81121718"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83215183"
 ---
 <!-- cSpell:ignore SIEM -->
 
@@ -24,14 +24,14 @@ ms.locfileid: "81121718"
 
 В следующем списке эталонных архитектур и рекомендаций приведены примеры способов улучшения безопасности размещения.
 
-- [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-get-started?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json): подключение подписки к центру безопасности.
-- [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json). Подключите метку Azure, чтобы предоставить решение для **управления событиями сведений о безопасности (SIEM)** и **автоматизированного реагирования на системы безопасности (взлетел)** .
+- [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-get-started?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json): подключение подписки к центру безопасности.
+- [Azure Sentinel](https://docs.microsoft.com/azure/sentinel/quickstart-onboard?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Подключите метку Azure, чтобы предоставить решение для **управления событиями сведений о безопасности (SIEM)** и **автоматизированного реагирования на системы безопасности (взлетел)** .
 - [Безопасность границы сети](../../reference/networking-vdc.md): несколько шаблонов ссылок для разработки сети, аналогично тому, как граница сети защищена в центре обработки данных.
-- [Архитектура защищенной сети](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json): Эталонная архитектура для реализации демилитаризованной зоны и безопасной сетевой архитектуры.
-- [Управление удостоверениями и доступом](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json). ряд рекомендаций по реализации удостоверений и доступа для защиты целевой зоны в Azure.
-- [Рекомендации по сетевой безопасности](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json). предоставляет дополнительные рекомендации по обеспечению безопасности сети.
-- [Операционная безопасность](https://docs.microsoft.com/azure/security/fundamentals/operational-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) предоставляет рекомендации по повышению эксплуатационной безопасности в Azure.
-- [Базовый план безопасности](../../govern/guides/complex/security-baseline-improvement.md#incremental-improvement-of-the-best-practices): пример разработки базового плана безопасности, управляемого системой управления, для соблюдения требований безопасности.
+- [Архитектура защищенной сети](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json): Эталонная архитектура для реализации демилитаризованной зоны и безопасной сетевой архитектуры.
+- [Управление удостоверениями и доступом](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). ряд рекомендаций по реализации удостоверений и доступа для защиты целевой зоны в Azure.
+- [Рекомендации по сетевой безопасности](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). предоставляет дополнительные рекомендации по обеспечению безопасности сети.
+- [Операционная безопасность](https://docs.microsoft.com/azure/security/fundamentals/operational-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) предоставляет рекомендации по повышению эксплуатационной безопасности в Azure.
+- [Основы безопасности](../../govern/guides/complex/security-baseline-improvement.md#incremental-improvement-of-the-best-practices): пример разработки базовых показателей безопасности, основанных на управлении, для соблюдения требований безопасности.
 
 ## <a name="test-driven-development-cycle"></a>Цикл разработки на основе тестирования
 
@@ -39,7 +39,7 @@ ms.locfileid: "81121718"
 
 ![Процесс разработки на основе тестирования для облачных целевых зон](../../_images/ready/test-driven-development-process.png)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [улучшить операции размещения зоны](./landing-zone-operations.md) для поддержки важных приложений.
 

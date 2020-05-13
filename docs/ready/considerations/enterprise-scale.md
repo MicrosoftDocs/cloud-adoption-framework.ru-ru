@@ -7,12 +7,12 @@ ms.date: 04/04/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 683385356d94400c8b29e55d019870c18eeda863
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 1e34cf58fd3f9827a3cf8dd1ffd866fdcfcca1f7
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81121783"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83215234"
 ---
 # <a name="start-with-enterprise-scale-landing-zones"></a>Начало работы с зонами в масштабе предприятия
 
@@ -65,7 +65,7 @@ ms.locfileid: "81121783"
 
 Дополнительные примеры в [статье примеры чертежей Azure](https://docs.microsoft.com/azure/governance/blueprints/samples) можно использовать в качестве "Красного" или "зеленого" теста для корпоративных зон корпоративного уровня. Применение этих схем обеспечит соответствие среды стандартам до внедрения. Это последующий подход особенно полезен в качестве способа проверки начальных зон сторонних или партнеров перед внедрением облака:
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Выберите одну из схем целевой зоны корпоративного уровня.
 Там же вы можете использовать те же рекомендации, что и в статье [Запуск и развертывание](./index.md) , чтобы расширить корпоративные зоны корпоративного уровня в соответствии с вашими потребностями.

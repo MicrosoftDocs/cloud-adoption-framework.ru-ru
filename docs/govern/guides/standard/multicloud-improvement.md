@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 27ee8420a1d610705b76c80590229ee1a7c454da
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 360c222130341e19d4fd185cc738fa47c26e01a6
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80434260"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83214537"
 ---
 <!-- cSpell:ignore MPLS -->
 
@@ -35,7 +35,7 @@ ms.locfileid: "80434260"
 
 - Удостоверением управляет локальный экземпляр Active Directory. Благодаря репликации в Azure Active Directory процесс гибридной идентификации стал проще.
 - ИТ операции или облачные операции во многом управляются Azure Monitor и связанными автоматизированными процессами.
-- Аварийное восстановление и непрерывность бизнес-процессов контролируются экземплярами хранилища Azure.
+- Аварийное восстановление и непрерывность бизнес-процессов контролируются хранилищами служб восстановления Azure.
 - Центр безопасности Azure используется для мониторинга нарушений и атак безопасности.
 - Центр безопасности Azure и Azure Monitor используются для мониторинга системы управления в облаке.
 - Azure Blueprints, Политика Azure и группы управления Azure используются для обеспечения соответствия политике.

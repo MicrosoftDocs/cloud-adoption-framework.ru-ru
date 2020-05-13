@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 6ccc459f1d708964afdc7c25cefdf314c44a6e02
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 4fc258b8213842e0cc3428146f83cb9e31bb39df
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80433144"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83214990"
 ---
 # <a name="software-defined-networking-hybrid-network"></a>Программно определяемая сеть: Гибридная сеть
 
-Архитектура сети гибридного облака позволяет виртуальным сетям получить доступ к локальным ресурсам и службам, и наоборот, с помощью выделенного подключения между сетями, такого как ExpressRoute или другого метода подключения напрямую к сетям.
+Архитектура гибридной облачной сети позволяет виртуальным сетям получать доступ к локальным ресурсам и службам и наоборот, используя выделенное подключение к глобальной сети, такое как ExpressRoute или другой способ подключения, для прямого подключения сетей.
 
 ![Гибридная сеть](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/images/expressroute.png)
 
