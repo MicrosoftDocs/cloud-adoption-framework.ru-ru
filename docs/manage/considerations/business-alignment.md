@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 432e974a304741a64e0cd7da9577ecec5e35d57e
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 7db8091d12a763568a3ba7e549770fa94cf0ea23
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80434058"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83216594"
 ---
 # <a name="create-business-alignment-in-cloud-management"></a>Создание делового выравнивания в управлении облаком
 
@@ -26,18 +26,18 @@ ms.locfileid: "80434058"
 
 - ** [Важность](./criticality.md):** Сопоставление рабочих нагрузок с бизнес-процессами. Важность ранжирования для фокусировки инвестиций.
 - ** [Влияние](./impact.md):** Понимание влияния потенциального простоя, которое поможет в оценке рентабельности инвестиций в управление облаком.
-- **[Обязательства](./commitment.md):** разработка настоящего партнерства путем создания и документирования соглашений *с бизнесом*.
+- **[Обязательства](./commitment.md):** разработка настоящего партнерства путем создания и документирования соглашений _с бизнесом_.
 
 > [!NOTE]
 > Эти термины являются классическими ИТ – терминами, такими как SLA, RTO и RPO. Сопоставление конкретных бизнеса и ИТ-терминов подробно рассматривается в статье [обязательства](./commitment.md) .
 
-## <a name="ops-management-planning-workbook"></a>Книга по планированию управления Ops
+## <a name="operations-management-workbook"></a>Книга Operations Management
 
-Чтобы помочь в сборе решений, которые появляющиеся в результате этого диалога о выравнивании терминов, на нашем сайте GitHub доступна [Книга управления Ops](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) . Эта книга не выполняет расчеты соглашения об уровне обслуживания или затрат. Он служит только для того, чтобы помочь в захвате таких мер и прогнозирования при утере, чтобы избежать усилий.
+Для отслеживания решений, которые появляющиеся в результате этого диалога о выравнивании терминов, на нашем сайте GitHub доступна [Книга Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) . Эта книга не выполняет расчеты соглашения об уровне обслуживания или затрат. Он служит только для того, чтобы помочь в захвате таких мер и прогнозирования при утере, чтобы избежать усилий.
 
 Кроме того, эти же рабочие нагрузки и связанные ресурсы можно пометить непосредственно в Azure, если решения уже развернуты в облаке.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Начните создавать выравнивание для бизнеса, определив [критические рабочие нагрузки](./criticality.md).
 

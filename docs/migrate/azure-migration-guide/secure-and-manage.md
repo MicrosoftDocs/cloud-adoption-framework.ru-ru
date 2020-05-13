@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 7e9dd472d2913979211959d1f230bf4fb9c33cba
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: c807929b68c38e36c5921934220e3212fdf3d59e
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80432937"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83216577"
 ---
 <!-- markdownlint-disable MD024 MD025 DOCSMD001 -->
 
@@ -145,7 +145,7 @@ Azure Backup — это служба на платформе Azure, исполь
 
 ::: zone target="docs"
 
-[Обзор](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup)
+[Обзор](https://docs.microsoft.com/azure/backup/backup-overview)
 
 ::: zone-end
 
