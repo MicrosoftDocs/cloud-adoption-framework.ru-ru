@@ -1,6 +1,6 @@
 ---
-title: Шаблон ускорения развертывания
-description: Этот шаблон используется для документирования и обмена инструкциями политики для решения проблем с конфигурацией и развертыванием в облаке.
+title: Шаблон "дисциплина ускорения развертывания"
+description: Этот шаблон используется в качестве отправной точки для документирования и обмена инструкциями политики для решения проблем с конфигурацией и развертыванием в облаке.
 author: alexbuckgit
 ms.author: abuck
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1378e2f316d607bc27f57c16fb20af98cc9feaf3
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 3fa30216fdd46efcdb953f43b3d85edbe61517c7
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80434513"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83220249"
 ---
 # <a name="deployment-acceleration-template"></a>Шаблон ускорения развертывания
 
@@ -24,9 +24,9 @@ ms.locfileid: "80434513"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии с вашими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Ускорение развертывания" в рамках стратегии управления облаком.
 
-[Скачать шаблон дисциплины управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Deployment%20Acceleration%20Discipline%20Template.docx)
+[Скачайте шаблон "дисциплина ускорения развертывания"](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Deployment%20Acceleration%20Discipline%20Template.docx)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

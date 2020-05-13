@@ -9,15 +9,16 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: c946b5e7e43004653b31bc67ff1e325363deff9f
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: c1c54d7587bf73f5c9348c878caea7ae7cde89ae
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81396173"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83220198"
 ---
 # <a name="the-five-disciplines-of-cloud-governance"></a>Пять аспектов управления облаком
 
+<!-- docsTest:disable TODO -->
 <!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsI">
@@ -26,7 +27,10 @@ ms.locfileid: "81396173"
             <div class="cardPadding" style="padding-bottom:10px;">
                 <div class="card" style="padding-bottom:10px;">
                     <div class="cardText" style="padding-left:0px;">
-Любое изменение бизнес-процессов или технологических платформ создает риск. Группы управления облаком, члены которых иногда называются Cloud хранителей, являются решениями для устранения этих рисков и обеспечения минимального перерыва для внедрения или внедрения инноваций.<br/><br/>Модель управления инфраструктурой внедрения в облаке помогает принимать решения (независимо от выбранной облачной платформы), сосредоточенные на <a href="./corporate-policy.md">разработке корпоративной политики</a> и <a href="#disciplines-of-cloud-governance">пяти дисциплинах управления облаком</a>. <a href="./guides/index.md">Практические руководства по проектированию</a> демонстрируют эту модель с помощью служб Azure. Узнайте о дисциплинах в модели управления облачной инфраструктуры внедрения.
+Любое изменение бизнес-процессов или технологических платформ создает риск. Группы управления облаком, члены которых иногда называются Cloud хранителей, являются решениями для устранения этих рисков и обеспечения минимального перерыва для внедрения или внедрения инноваций.
+    <br>
+    <br>
+Модель управления инфраструктурой внедрения в облаке помогает принимать решения (независимо от выбранной облачной платформы), сосредоточенные на <a href="./corporate-policy.md">разработке корпоративной политики</a> и <a href="#disciplines-of-cloud-governance">пяти дисциплинах управления облаком</a>. <a href="./guides/index.md">Практические руководства по проектированию</a> демонстрируют эту модель с помощью служб Azure. Узнайте о дисциплинах в модели управления облачной инфраструктуры внедрения.
                     </div>
                 </div>
             </div>
@@ -40,7 +44,7 @@ ms.locfileid: "81396173"
                         <div class="cardText" style="padding-left:0px;">
     <img src="../_images/operational-transformation-govern-highres.png" alt="Diagram of the Cloud Adoption Framework governance model: Corporate policy and governance disciplines">
     <br>
-    <i>Рис. 1. схема корпоративной политики и пять дисциплин управления облаком.</i>
+    <i>Рис. 1. схема корпоративной политики и пяти дисциплин управления облаком.</i>
                         </div>
                     </div>
                 </div>

@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c3d40eb748c58643a981110e03417275b465c158
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: ba44b786e63a0f7a9c63a527b6abbb1074a410fb
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80430490"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83219552"
 ---
 # <a name="create-update-schedules"></a>Создание расписаний обновления
 
@@ -27,10 +27,10 @@ ms.locfileid: "80430490"
 В примере сценария в этом разделе показано использование тегов и запросов для создания динамических групп компьютеров, к которым можно применить расписания обновления. Он выполняет следующие действия. При создании собственных скриптов можно обращаться к реализациям конкретных действий.
 
 - Создает расписание обновления службы автоматизации Azure, которое выполняется каждую субботу в 8:00 AM.
-- Создает запрос для компьютеров, соответствующих следующим критериям:
-  - Развернуто в `westus`расположении `eastus`, или `eastus2` в Azure
-  - Примените `Owner` к ним тег со значением, равным`JaneSmith`
-  - Примените `Production` к ним тег со значением, равным`true`
+- Создает запрос для всех компьютеров, соответствующих следующим условиям:
+  - Развернут в `westus` , `eastus` или в `eastus2` расположении Azure.
+  - Имеет `Owner` тег, которому присвоено значение `JaneSmith` .
+  - Имеет `Production` тег, которому присвоено значение `true` .
 - Применяет расписание обновления к запрашиваемым компьютерам и устанавливает интервал в два часа обновления.
 
 Перед запуском примера скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) . При запуске скрипта укажите следующие сведения.
@@ -54,19 +54,19 @@ ms.locfileid: "80430490"
 
     param (
         [Parameter(Mandatory=$true)]
-        [string]$SubscriptionId,
+        [string] $SubscriptionId,
 
         [Parameter(Mandatory=$true)]
-        [string]$ResourceGroupName,
+        [string] $ResourceGroupName,
 
         [Parameter(Mandatory=$true)]
-        [string]$WorkspaceName,
+        [string] $WorkspaceName,
 
         [Parameter(Mandatory=$true)]
-        [string]$AutomationAccountName,
+        [string] $AutomationAccountName,
 
         [Parameter(Mandatory=$false)]
-        [string]$scheduleName = "SaturdayCriticalSecurity"
+        [string] $scheduleName = "SaturdayCriticalSecurity"
     )
 
     Import-Module Az.Automation
@@ -87,8 +87,8 @@ ms.locfileid: "80430490"
 
     $query1Location =@("westus", "eastus", "eastus2")
     $query1FilterOperator = "Any"
-    $ownerTag = @{"Owner"= @("JaneSmith")}
-    $ownerTag.add("Production", "true")
+    $ownerTag = @{ "Owner"= @("JaneSmith") }
+    $ownerTag.Add("Production", "true")
 
     $DGQuery = New-AzAutomationUpdateManagementAzureQuery -ResourceGroupName $ResourceGroupName `
         -AutomationAccountName $AutomationAccountName `
@@ -106,7 +106,7 @@ ms.locfileid: "80430490"
         -IncludedUpdateClassification Security,Critical
 ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 См. Примеры реализации [общих политик в Azure](./common-policies.md) , которые могут помочь в управлении серверами.
 

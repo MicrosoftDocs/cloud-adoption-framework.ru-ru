@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: f83678c1a2b3387155b9fa908c54e81670daf8ae
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 0396ccaf952bc9d7812304af5d1d9c9952b751cc
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80426506"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83219637"
 ---
 # <a name="phase-2-onboarding-azure-server-management-services"></a>Этап 2. Подключение служб управления сервером Azure
 
@@ -38,12 +38,12 @@ ms.locfileid: "80426506"
 
 ![Схема рекомендуемой модели развертывания](./media/recommended-deployment.png)
 
-Как показано на предыдущей схеме, агент Log Analytics имеет как *автоматическую регистрацию* , так и настройку *согласия* для локальных серверов:
+Как показано на предыдущей схеме, агент Log Analytics имеет как _автоматическую регистрацию_ , так и настройку _согласия_ для локальных серверов:
 
 - **Автоматическая регистрация:** Если агент Log Analytics установлен на сервере и настроен для подключения к рабочей области, решения, включенные в этой рабочей области, автоматически применяются к серверу.
 - **Согласие:** Даже если агент установлен и подключен к рабочей области, решение не применяется, если оно не Добавлено в конфигурацию области сервера в рабочей области.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как подключить одну виртуальную машину с помощью портала, чтобы оценить процесс адаптации.
 

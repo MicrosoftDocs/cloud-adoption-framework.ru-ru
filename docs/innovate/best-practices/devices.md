@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: f6dfc621d20f2f2d3135e99be197e3fdfd315bdc
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 401acfb2a0689fe54d43c29a8ab32a8d6e218670
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80425398"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83219773"
 ---
 # <a name="tools-to-interact-with-devices-in-azure"></a>Средства для взаимодействия с устройствами в Azure
 
@@ -33,10 +33,16 @@ ms.locfileid: "80425398"
 
 В Azure вы обычно используете следующие средства для ускорения цифровых Invention на каждом из предыдущих уровней внешних решений. Эти средства группируются в зависимости от объема опыта, необходимого для снижения сложности в выпуске средств с учетом этих средств.
 
-- Мобильный интерфейс: служба приложений Azure, PowerApps, Microsoft Flow, Intune
-- Смешанная реальность: Unity, пространственные привязки Azure, HoloLens
-- Интегрированная реальность: центр Интернета вещей Azure, Azure Sphere, Azure Kinect DK
-- Скорректированная реальность: с облака IoT на устройство, Azure Digital двойников + HoloLens
+<!-- markdownlint-disable MD033 -->
+
+| Категория | Инструменты |
+|---|---|
+| Мобильные возможности | <li> Служба приложений Azure <li> PowerApps. <li> Microsoft Flow <li> Intune |
+| Смешанная реальность | <li> Unity <li> Пространственные привязки Azure <li> HoloLens |
+| Интегрированная реальность | <li> Центр Интернета вещей Azure <li> Azure Sphere <li> Azure Kinect DK |
+| Скорректированная реальность | <li> Облако IoT на устройстве <li> Azure Digital двойников + HoloLens |
+
+<!--markdownlint-enable MD033 -->
 
 ## <a name="get-started"></a>Начало работы
 

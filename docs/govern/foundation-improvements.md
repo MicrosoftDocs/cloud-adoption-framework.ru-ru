@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 050d9cdfd2069a4d7da2e411233f6a60f270eb10
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 41535db6452be0b8efea9a91329169326c444ab0
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "77706614"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83220215"
 ---
 # <a name="improve-your-initial-cloud-governance-foundation"></a>Улучшите начальное облако по управлению Cloud Foundation
 
@@ -27,18 +27,18 @@ ms.locfileid: "77706614"
 > [!IMPORTANT]
 > Организация ресурсов может повлиять на применение этих рекомендаций. Важно начать с рекомендаций, которые лучше согласованы с первоначальной облачной средой управления, реализованной на предыдущем шаге.
 
-|Риск/потребность | Стандартное предприятие | Сложное предприятие |
+| Риск/потребность | Стандартный выпуск Enterprise | Сложное предприятие |
 |---|---|---|
-|Конфиденциальные данные в облаке|[Оптимизация аспектов](./guides/standard/security-baseline-improvement.md)|[Оптимизация аспектов](./guides/complex/security-baseline-improvement.md)|
-|Критически важные приложения в облаке|[Оптимизация аспектов](./guides/standard/resource-consistency-improvement.md)|[Оптимизация аспектов](./guides/complex/resource-consistency-improvement.md)|
-|Управление затратами на облако|[Оптимизация аспектов](./guides/standard/cost-management-improvement.md)|[Оптимизация аспектов](./guides/complex/cost-management-improvement.md)|
-|Многооблачная среда|[Оптимизация аспектов](./guides/standard/multicloud-improvement.md)|[Оптимизация аспектов](./guides/complex/multicloud-improvement.md)|
-|Комплексное или устаревшее управление удостоверениями|Н/Д|[Оптимизация аспектов](./guides/complex/identity-baseline-improvement.md)|
-|Использование нескольких уровней управления|Н/Д|[Оптимизация аспектов](./guides/complex/multiple-layers-of-governance.md)|
+| Конфиденциальные данные в облаке | [Оптимизация аспектов](./guides/standard/security-baseline-improvement.md) | [Оптимизация аспектов](./guides/complex/security-baseline-improvement.md) |
+| Критически важные приложения в облаке | [Оптимизация аспектов](./guides/standard/resource-consistency-improvement.md) | [Оптимизация аспектов](./guides/complex/resource-consistency-improvement.md) |
+| Управление затратами на облако | [Оптимизация аспектов](./guides/standard/cost-management-improvement.md) | [Оптимизация аспектов](./guides/complex/cost-management-improvement.md) |
+| Многооблачная среда | [Оптимизация аспектов](./guides/standard/multicloud-improvement.md) | [Оптимизация аспектов](./guides/complex/multicloud-improvement.md) |
+| Комплексное или устаревшее управление удостоверениями | Н/Д | [Оптимизация аспектов](./guides/complex/identity-baseline-improvement.md) |
+| Использование нескольких уровней управления | Н/Д | [Оптимизация аспектов](./guides/complex/multiple-layers-of-governance.md) |
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-Помимо применения рекомендаций, методологию управления в облачной инфраструктуре внедрения можно настроить в соответствии с уникальными бизнес-ограничениями. После соблюдения соответствующих рекомендаций [оцените корпоративную политику, чтобы понять дополнительные требования к настройке](./corporate-policy.md).
+Помимо применения рекомендаций, управление методологией в облачной инфраструктуре внедрения можно настроить в соответствии с уникальными бизнес-ограничениями. После соблюдения соответствующих рекомендаций [оцените корпоративную политику, чтобы понять дополнительные требования к настройке](./corporate-policy.md).
 
 > [!div class="nextstepaction"]
 > [Оценка корпоративной политики](./corporate-policy.md)

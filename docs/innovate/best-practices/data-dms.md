@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: afaedb0607ecf4b1195578dc72e756616c6384d4
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 1f1060ba4df7dfb398a94f8611901612e1ecf60d
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80425510"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83219790"
 ---
 # <a name="collect-data-through-the-migration-and-modernization-of-existing-data-sources"></a>Получение данных с помощью миграции и модернизации существующих источников данных
 
@@ -46,14 +46,14 @@ ms.locfileid: "80425510"
 
 Мы рекомендуем выбрать приемлемое время простоя предприятия и протестировать автономную миграцию. Это необходимо для проверки соответствия времени восстановления допустимому простою. Если время восстановления неприемлемо, выполните оперативную миграцию.
 
-|Источник  |Назначение  |Инструмент  |Тип перемещения  |Руководство  |
-|---------|---------|---------|---------|---------|
-|SQL Server|База данных SQL Azure|Database Migration Service|Offline|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql)|
-|SQL Server|База данных SQL Azure|Database Migration Service|Справка в Интернете|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online)|
-|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Database Migration Service|Offline|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance)|
-|SQL Server|Управляемый экземпляр Базы данных SQL Azure|Database Migration Service|Справка в Интернете|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online)|
-|SQL Server RDS|Управляемый экземпляр базы данных SQL Azure или базы данных SQL Azure|Database Migration Service|Справка в Интернете|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online)|
-|MySQL|База данных Azure для MySQL|Database Migration Service|Справка в Интернете|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online)|
-|PostgreSQL|База данных Azure для PostgreSQL|Database Migration Service|Справка в Интернете|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online)|
-|MongoDB|Azure Cosmos DB API Mongo|Database Migration Service|Offline|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db)|
-|MongoDB|Azure Cosmos DB API Mongo|Database Migration Service|Справка в Интернете|[Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online)|
+| Источник  | Назначение  | Инструмент  | Тип перемещения | Руководство |
+|---|---|---|---|---|
+| SQL Server | База данных SQL Azure | Database Migration Service | Вне сети | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql) |
+| SQL Server | База данных SQL Azure | Database Migration Service | Справка в Интернете | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online) |
+| SQL Server | Управляемый экземпляр Базы данных SQL Azure | Database Migration Service | Вне сети | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance) |
+| SQL Server | Управляемый экземпляр Базы данных SQL Azure | Database Migration Service | Справка в Интернете | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online) |
+| SQL Server RDS | Управляемый экземпляр базы данных SQL Azure или базы данных SQL Azure | Database Migration Service | Справка в Интернете | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online) |
+| MySQL | База данных Azure для MySQL | Database Migration Service | Справка в Интернете | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online) |
+| PostgreSQL | База данных Azure для PostgreSQL | Database Migration Service | Справка в Интернете | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online) |
+| MongoDB | Azure Cosmos DB API Mongo | Database Migration Service | Вне сети | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db) |
+| MongoDB | Azure Cosmos DB API Mongo | Database Migration Service | Справка в Интернете | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online) |

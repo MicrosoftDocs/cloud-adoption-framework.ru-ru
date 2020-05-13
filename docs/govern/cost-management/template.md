@@ -1,5 +1,5 @@
 ---
-title: Шаблон Управления затратами
+title: Шаблон дисциплины управления затратами
 description: Этот шаблон используется для определения инструкций политики управления затратами, которые фиксируют бизнес-риски, отказоустойчивость, процессы соответствия и инструментарий.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 64530122cf1e4ba1de8b1ee34df37d9ed62c12cd
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 2a14775618e220211d851bb86da371187da6d75a
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80434630"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83220470"
 ---
-# <a name="cost-management-template"></a>Шаблон Управления затратами
+# <a name="cost-management-discipline-template"></a>Шаблон дисциплины управления затратами
 
 Перед внедрением изменений прежде всего нужно правильно сообщить о таком изменении. То же самое касается изменения рекомендаций системы управления. Приведенный ниже шаблон служит отправной точкой для документирования и обмена инструкциями политики, регулирующими проблемы управления затратами в облаке.
 
@@ -24,9 +24,9 @@ ms.locfileid: "80434630"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии со своими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Управление затратами" в рамках стратегии управления облаком.
 
-[Скачать шаблон дисциплины управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx)
+[Скачайте шаблон "дисциплина управления затратами"](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

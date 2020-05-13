@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: cb612930318ed2ecd355cb5466f50650086d7f4c
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 9e0c9904bd05eb2464c2765050fbdbf3948079a1
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80430565"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83219671"
 ---
 # <a name="automate-onboarding"></a>Автоматизация адаптации
 
@@ -24,7 +24,7 @@ ms.locfileid: "80430565"
 
 - Создайте [рабочую область log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/manage-access). (Или используйте существующую рабочую область, если она соответствует требованиям. Дополнительные сведения см. в разделе [планирование рабочей области](./prerequisites.md#log-analytics-workspace-and-automation-account-planning).
 
-- Создайте учетную запись службы автоматизации. (Или используйте существующую учетную запись, если она соответствует требованиям. Дополнительные сведения см. в разделе [планирование рабочей области](./prerequisites.md#log-analytics-workspace-and-automation-account-planning).
+- Создайте учетную запись службы автоматизации или используйте существующую учетную запись, которая соответствует требованиям. Дополнительные сведения см. в разделе [планирование рабочей области](./prerequisites.md#log-analytics-workspace-and-automation-account-planning).
 
 - Свяжите учетную запись службы автоматизации и рабочую область Log Analytics. Этот шаг не требуется при адаптации с помощью портал Azure.
 
@@ -51,7 +51,7 @@ ms.locfileid: "80430565"
 .\New-AMSDeployment.ps1 -SubscriptionName '{Subscription Name}' -WorkspaceName '{Workspace Name}' -WorkspaceLocation '{Azure Location}' -AutomationAccountName {Account Name} -AutomationAccountLocation {Account Location}
 ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как настроить базовые оповещения для уведомления команды о событиях и проблемах управления ключами.
 
