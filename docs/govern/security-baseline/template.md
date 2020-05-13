@@ -1,5 +1,5 @@
 ---
-title: Шаблон основных способов защиты
+title: Шаблон по специализации в плане безопасности
 description: Используйте этот шаблон в качестве отправной точки для документирования и обмена инструкциями политики, которые управляют вопросами, связанными с безопасностью в облаке.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 94570e0e4fbb41342dbe41e0377160449d832818
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 7a76999130144b2ac67913f0c9f1974456e442c0
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80425917"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83217716"
 ---
-# <a name="security-baseline-template"></a>Шаблон основных способов защиты
+# <a name="security-baseline-discipline-template"></a>Шаблон по специализации в плане безопасности
 
 Первым шагом для реализации изменений является взаимодействие с нужным. То же самое касается изменения рекомендаций системы управления. Приведенный ниже шаблон предоставляет отправную точку для документирования и обмена инструкциями политики, которые управляют вопросами, связанными с безопасностью в облаке.
 
@@ -24,9 +24,9 @@ ms.locfileid: "80425917"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии со своими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Основные способы защиты" в рамках стратегии управления облаком.
 
-[Скачать шаблон дисциплины управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Security%20Baseline%20Discipline%20Template.docx)
+[Загрузка шаблона по специализации в плане безопасности](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Security%20Baseline%20Discipline%20Template.docx)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

@@ -1,6 +1,6 @@
 ---
 title: Средства согласованности ресурсов в Azure
-description: Узнайте, как собственные средства Azure могут помочь развитым политикам и процессам, которые поддерживают дисциплину управления согласованностью ресурсов.
+description: Узнайте, как собственные средства Azure могут помочь развитым политикам и процессам, поддерживающим дисциплину согласованности ресурсов.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,20 +8,20 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2f4d06c06ffcb89d30205b90ba37f70f76d50b1f
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: a64cbd53cdd4c524b370681ebedf1f8282ac2a93
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80997295"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83217954"
 ---
 # <a name="resource-consistency-tools-in-azure"></a>Средства согласованности ресурсов в Azure
 
-[Согласованность ресурсов](./index.md) является одной из [пяти дисциплин системы управления облаком](../governance-disciplines.md). Эта дисциплина направлена на создание политик, связанных с оперативным управлением рабочей средой, приложением или рабочей нагрузкой. В рамках пяти дисциплин управления облачными ресурсами дисциплина согласованности ресурсов включает наблюдение за приложениями, рабочей нагрузкой и производительностью активов. Она также включает задачи, необходимые для удовлетворения требований масштабирования, устранения нарушений соглашения о производительности и упреждающего предотвращения нарушений соглашения о производительности за счет автоматического исправления.
+[Согласованность ресурсов](./index.md) является одной из [пяти дисциплин управления облаком](../governance-disciplines.md). Эта дисциплина направлена на создание политик, связанных с оперативным управлением рабочей средой, приложением или рабочей нагрузкой. В рамках пяти дисциплин управления облачными ресурсами дисциплина согласованности ресурсов включает наблюдение за приложениями, рабочей нагрузкой и производительностью активов. Она также включает задачи, необходимые для удовлетворения требований масштабирования, устранения нарушений соглашения о производительности и упреждающего предотвращения нарушений соглашения о производительности за счет автоматического исправления.
 
-Ниже приведен список инструментов Azure, которые могут помочь в совершенствовании политик и процессов, поддерживающих эту дисциплину системы управления.
+Ниже приведен список средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Служба автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro) | [Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-introduction-to-azure-backup) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
+| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Служба автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro) | [Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 | Развертывание ресурсов                             | Да | Да | Да | Да | Нет  | Нет | Нет |
 | Управление ресурсами                             | Да | Да | Да | Да | Нет  | Нет | Нет |
@@ -40,12 +40,12 @@ ms.locfileid: "80997295"
 | Применение автоматических обновлений                  | Нет  | Нет  | Нет  | Да | Нет  | Нет | Нет |
 | Управление выставлением счетов                               | Да | Нет  | Нет  | Нет  | Нет  | Нет | Нет |
 | Планирование ресурсов для аварийного восстановления         | Да | Да | Да | Нет  | Нет  | Да | Да |
-|Восстановление данных во время сбоя или нарушения условий Соглашения об уровне обслуживания     | Нет | Нет  | Нет  | Нет  | Нет  | Да | Да |
-|Восстановление приложений и данных во время сбоя или нарушения условий Соглашения об уровне обслуживания     | Нет | Нет  | Нет  | Нет  | Нет  | Да | Да |
+| Восстановление данных во время сбоя или нарушения условий Соглашения об уровне обслуживания     | Нет | Нет  | Нет  | Нет  | Нет  | Да | Да |
+| Восстановление приложений и данных во время сбоя или нарушения условий Соглашения об уровне обслуживания     | Нет | Нет  | Нет  | Нет  | Нет  | Да | Да |
 
 Вместе с этими средствами и компонентами дисциплины "Согласованность ресурсов" необходимо отслеживать развернутые ресурсы на наличие проблем с производительностью и работоспособностью. [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) — это мониторинг и решение для создания отчетов по умолчанию в Azure. Azure Monitor предоставляет функции для мониторинга облачных ресурсов. В этом списке показано, какие функции предназначены для общих требований к мониторингу.
 
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal) | [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-overview) | [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview) | [REST API Azure Monitor](https://docs.microsoft.com/rest/api/monitor) |
+| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal) | [Application Insights](https://docs.microsoft.com/azure/application-insights/app-insights-overview) | [Log Analytics](https://docs.microsoft.com/azure/azure-monitor/log-query/log-query-overview) | [Azure Monitor REST API](https://docs.microsoft.com/rest/api/monitor) |
 |----------------------------------------------------|--------------|----------------------|---------------|------------------------|
 | Регистрация данных телеметрии для виртуальной машины                 | Нет           | Нет                   | Да           | Нет                     |
 | Регистрация данных телеметрии для виртуальной сети              | Нет           | Нет                   | Да           | Нет                     |
@@ -61,6 +61,6 @@ ms.locfileid: "80997295"
 > [!NOTE]
 > Организации также используют сторонние средства DevOps для отслеживания рабочих нагрузок и ресурсов. Дополнительные сведения см. в разделе [Интеграция средства DevOps](https://azure.microsoft.com/products/devops-tool-integrations).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как создавать, присваивать [определения политик](https://docs.microsoft.com/azure/governance/policy) и управлять ими в Azure.

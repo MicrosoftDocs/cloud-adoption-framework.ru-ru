@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4d32a1b521240806b78435141b9876967b4093d8
-ms.sourcegitcommit: 825f9ae5b6cdd2fa6cb18c14a9733ba9106194f2
+ms.openlocfilehash: a7caa77a9f11f464160548aded6b280bbc9b0b00
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "81646853"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83217168"
 ---
 <!-- cSpell:ignore HDFS databox VHDX -->
 
@@ -34,7 +34,7 @@ ms.locfileid: "81646853"
 
 Существуют также сторонние решения партнеров, которые используют Azure Data Box для миграции по методу "Seed and Feed", при котором большой объем данных перемещается в автономном режиме, но затем синхронизируется по сети, используя меньшую пропускную способность.
 
-![Автономная передача данных и передача данных по сети с помощью Azure Data Box](../../_images/migrate/databox.png)
+![Автономная передача данных и передача данных по сети с помощью Azure Data Box](../../_images/migrate/data-box.png)
 
 ## <a name="assess-process-changes"></a>Изменения в процессе оценки
 
@@ -77,7 +77,7 @@ ms.locfileid: "81646853"
 
 Это изменение области, скорее всего, не затронет действия по защите и управлению.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Вернитесь к [контрольному списку рекомендаций по миграции](./index.md) , чтобы убедиться, что метод миграции полностью согласован.
 
