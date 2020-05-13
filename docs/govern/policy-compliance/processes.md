@@ -1,6 +1,6 @@
 ---
 title: Разработка процессов, обеспечивающих соблюдение политик
-description: Создайте стратегию и процессы для обеспечения соответствия облачному развертыванию требованиям политики. 
+description: Создайте стратегию и процессы для обеспечения соответствия облачному развертыванию требованиям политики.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b7bdcd96786a232ef810794cf93546275a9603b0
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: c2a087fec598e2b9d581370f76e35aefef88048f
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80430811"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83224193"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -76,6 +76,8 @@ ms.locfileid: "80430811"
 
 Ниже приведены некоторые примеры триггеров и действий в случае нарушения.
 
+<!-- docsTest:ignore "Cost Management" "Deployment Acceleration" "Identity Baseline" "Resource Consistency" "Security Baseline" -->
+
 | Дисциплина управления облаком | Пример триггера | Пример действия |
 |-----------------------------|----------------|---------------|
 | Управление затратами | Ежемесячные расходы на облако более чем на 20 % выше, чем ожидалось. | Уведомить руководителя единицы выставления счетов, который начнет проверку использования ресурсов. |
@@ -88,7 +90,7 @@ ms.locfileid: "80430811"
 
 Сведения о выборе наилучшего шаблона мониторинга для развертывания см. в разделе рекомендации по [ведению журнала и отчетности](../../decision-guides/logging-and-reporting/index.md).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте больше о соответствии нормативным требованиям в облаке.
 

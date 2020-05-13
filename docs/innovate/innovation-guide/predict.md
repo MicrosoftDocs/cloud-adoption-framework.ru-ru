@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 166c938b510959427a30cecea1c97de35032d20e
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 97008960de4eecb7ff0dc4f756ad4ca11865c634
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80427003"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83224057"
 ---
 ::: zone target="docs"
 
@@ -32,11 +32,11 @@ ms.locfileid: "80427003"
 
 Представленная ниже таблица поможет вам найти оптимальное решение с учетом потребностей реализации.
 
-|Служба  |Предварительно созданные модели  |Создание и экспериментирование  |Обучение и создание с помощью Python|Необходимые навыки|
-|---------|---------|---------|---------|---------|
-|Azure Cognitive Services|Да|нет|нет|API и навыки разработчиков|
-|Студия машинного обучения Azure|Да|Да|нет|Общее представление о прогнозных алгоритмах|
-|Служба машинного обучения|Да|Да|Да|специалист по анализу и обработке данных;|
+| Служба | Предварительно созданные модели | Создание и экспериментирование | Обучение и создание с помощью Python | Необходимые навыки |
+|---|---|---|---|---|
+| Azure Cognitive Services | Да | нет | нет | API и навыки разработчиков |
+| Студия машинного обучения Azure | Да | Да | нет | Общее представление о прогнозных алгоритмах |
+| Служба машинного обучения | Да | Да | Да | специалист по анализу и обработке данных; |
 
 ## <a name="azure-cognitive-services"></a>[Azure Cognitive Services](#tab/CognitiveServices)
 
@@ -48,7 +48,7 @@ ms.locfileid: "80427003"
 
 Чтобы использовать API-интерфейс Cognitive Services, выполните приведенные ниже действия.
 
-1. На [портале Azure](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.CognitiveServices%2FAccounts) откройте раздел **Cognitive Services**.
+1. На [портале Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.CognitiveServices%2FAccounts) откройте раздел **Cognitive Services**.
 2. Нажмите кнопку **Добавить**, чтобы найти API-интерфейс Cognitive Services в Azure Marketplace.
 3. Выполните одно из приведенных ниже действий.
    - Если вы знаете имя нужной службы, введите его в поле **Поиск в Marketplace**.
@@ -56,11 +56,7 @@ ms.locfileid: "80427003"
 
 ::: zone target="chromeless"
 
-<!-- markdownlint-disable DOCSMD001 -->
-
 ::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.CognitiveServices%2FAccounts]" submitText="Go to Cognitive Services" :::
-
-<!-- markdownlint-enable DOCSMD001 -->
 
 ::: zone-end
 

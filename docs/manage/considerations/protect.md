@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c393b00de1d235553dcea544493ef019f46b1e0c
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 423c87fd351f3220710ab35ffe0bc4e6beac3a1d
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80527574"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83223904"
 ---
 # <a name="protect-and-recover-in-cloud-management"></a>Защита и восстановление в облачном управлении
 
@@ -68,12 +68,12 @@ ms.locfileid: "80527574"
 
 Каждая из предыдущих моделей сокращает RTO, что приводит к более быстрому восстановлению возможностей бизнес-процесса. Однако каждая модель также приводит к значительному увеличению затрат на управление облаком.
 
-Дополнительные сведения об этом процессе обработки идей см. в статье [дисциплина операций рабочей нагрузки](./workload.md).
+Дополнительные сведения об этом процессе обработки идей см. в разделе [операции рабочей нагрузки дисциплина](./workload.md).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-После выполнения этого компонента базового плана управления группа может взглянуть на избежание простоев в [работе платформ](./platform.md) и [операций рабочей нагрузки](./workload.md).
+После выполнения этого компонента базового плана управления группа может взглянуть на то, чтобы избежать простоев в [работе платформы](./platform.md) и [операций рабочей нагрузки](./workload.md).
 
 > [!div class="nextstepaction"]
-> [Platform operations](./platform.md)Операции рабочей нагрузки операций платформы[Workload operations](./workload.md) 
-> 
+> Операции с платформой [Platform operations](./platform.md) 
+>  [Операции рабочей нагрузки](./workload.md)

@@ -7,12 +7,12 @@ ms.date: 05/05/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: fe76729b4a845d71629d7d24d4bdd3110fa6ab9a
-ms.sourcegitcommit: 5058bc57cb53701ac409959b46767ae6fd56ba93
+ms.openlocfilehash: c32ecde3bc5929bc8ed360b1d792e5f2345bfd8f
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82861441"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83223683"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -28,12 +28,12 @@ ms.locfileid: "82861441"
 
 - Введение в [политику Azure](https://docs.microsoft.com/azure/governance/policy/overview) поможет вам узнать, как использовать политику Azure для создания и назначения политик, а также управления ими. Политика Azure позволяет развертывать и настраивать агенты Azure Monitor, включать мониторинг с помощью Azure Monitor для виртуальных машин и центра безопасности Azure, развертывать параметры диагностики, проверять параметры гостевой конфигурации и многое другое.
 
-- Общие сведения о [интерфейсе командной строки Azure](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest) (CLI), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](https://docs.microsoft.com/powershell/azure/?view=azps-3.6.1). Предложения LinkedIn в рамках [обучающего курса обучение средствам управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), семинарам, охватывающим Azure CLI и языки программирования PowerShell:
+- Общие сведения о [интерфейсе командной строки Azure (CLI)](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](https://docs.microsoft.com/powershell/azure/?view=azps-3.6.1). Предложения LinkedIn в рамках [обучающего курса обучение средствам управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), семинарам, охватывающим Azure CLI и языки программирования PowerShell:
 
   - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
-  - [Начало работы с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
+  - [Getting started with Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell) (Приступая к работе с Azure PowerShell)
 
-- Узнайте, как создавать [запросы журналов в Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries).  Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение.
+- Узнайте, как создавать [запросы журналов в Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries). Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение.
 
 - Узнайте, как [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) помогает просматривать доступность и производительность приложений и служб вместе в одном месте. Pluralsight предлагает следующие курсы, которые помогут вам:
 
@@ -63,7 +63,7 @@ ms.locfileid: "82861441"
 
 Гибридная облачная среда прерывает работу с неопределенными ролями, обязанностями и действиями. Организациям необходимо перейти на современные методики управления службами, в том числе гибкие и DevOps методологии, чтобы лучше удовлетворить потребности преобразования и оптимизации современных бизнес-процессов с оптимизацией и эффективным способом.
 
-В рамках миграции на облачную платформу мониторинга ИТ-группа, ответственная за управление мониторингом в Организации, должна включать в себя гибкие возможности обучения и участия в действиях DevOps. Это также *относится к разработке в DevOps* , принимая требования и применяя их к гибким требованиям, чтобы обеспечить минимально приемлемые решения для мониторинга, которые последовательно обновляются и в соответствии с потребностями бизнеса. Чтобы система управления версиями управляла пакетами решений итеративного мониторинга и другими связанными материалами, подключите проект Azure DevOps Server к репозиторию GitHub Enterprise Server. Это обеспечивает связь между фиксациями и запросами на вытягивание для рабочих элементов GitHub. Вы можете использовать GitHub Enterprise для разработки при интеграции и развертывании непрерывного мониторинга, используя Azure Boards для планирования и отслеживания работы.
+В рамках миграции на облачную платформу мониторинга ИТ-группа, ответственная за управление мониторингом в Организации, должна включать в себя гибкие возможности обучения и участия в действиях DevOps. Это также _относится к разработке в DevOps_ , принимая требования и применяя их к гибким требованиям, чтобы обеспечить минимально приемлемые решения для мониторинга, которые последовательно обновляются и в соответствии с потребностями бизнеса. Чтобы система управления версиями управляла пакетами решений итеративного мониторинга и другими связанными материалами, подключите проект Azure DevOps Server к репозиторию GitHub Enterprise Server. Это обеспечивает связь между фиксациями и запросами на вытягивание для рабочих элементов GitHub. Вы можете использовать GitHub Enterprise для разработки при интеграции и развертывании непрерывного мониторинга, используя Azure Boards для планирования и отслеживания работы.
 
 Чтобы узнать больше, ознакомьтесь со следующими сведениями.
 

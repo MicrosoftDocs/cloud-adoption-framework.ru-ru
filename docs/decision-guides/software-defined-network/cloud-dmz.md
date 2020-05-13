@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 2241e1f4e6f738ce435e6cbedfe686a4ed85e1de
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 66419aa1ec4ebf7a1513ae064edd3b24e98758b9
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80996222"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83224295"
 ---
 # <a name="software-defined-networking-cloud-dmz"></a>Программно определяемые сети: облачная сеть периметра
 
@@ -36,7 +36,7 @@ ms.locfileid: "80996222"
 
 Команды внедрения в облако должны учитывать следующие моменты при рассмотрении реализации архитектуры виртуальной сети DMZ в облаке:
 
-- Подключение локальных сетей к облачным усложняет требования безопасности. Несмотря на то, что подключения между облачными сетями и локальной средой защищены, вам все равно нужно обеспечить защиту облачных ресурсов. Все общедоступные IP-адреса, созданные для доступа к облачным рабочим нагрузкам, должны быть надежно защищены с помощью [общедоступной](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) сети периметра или [брандмауэра Azure](https://docs.microsoft.com/azure/firewall).
+- Подключение локальных сетей к облачным усложняет требования безопасности. Несмотря на то, что подключения между облачными сетями и локальной средой защищены, вам все равно нужно обеспечить защиту облачных ресурсов. Все общедоступные IP-адреса, созданные для доступа к облачным рабочим нагрузкам, должны быть надежно защищены с помощью [общедоступной](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) сети периметра или [брандмауэра Azure](https://docs.microsoft.com/azure/firewall/overview).
 - Архитектура сети периметра в облаке обычно используется в качестве первого шага, в то время как подключение дополнительно защищено, а политика безопасности согласована между локальными и облачными сетями, что позволяет более широко внедрять полномасштабную архитектуру гибридных сетей. Однако он также может применяться к изолированным развертываниям с конкретными требованиями к безопасности, удостоверениям и подключениям, предъявляемым подходом к облачной сети периметра.
 
 ## <a name="learn-more"></a>Дополнительные сведения
