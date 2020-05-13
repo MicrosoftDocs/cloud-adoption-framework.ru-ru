@@ -7,18 +7,18 @@ ms.date: 09/22/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: cdc36832b39c1219a3e0d80a8bf09b7449a3b78d
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 2b1cfc3ed38889a8767a979e1abf6e4712d463b8
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80431864"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83221643"
 ---
 <!-- cSpell:ignore rodend -->
 
 # <a name="azure-enterprise-scaffold-is-now-the-microsoft-cloud-adoption-framework-for-azure"></a>Azure Enterprise формирования шаблонов теперь является платформой внедрения Microsoft Cloud для Azure.
 
-Корпоративный шаблон Azure интегрирован в платформу внедрения Microsoft Cloud для Azure. Цели корпоративного шаблона теперь рассматриваются в разделе [Ready (готовность](../ready/index.md) к облачной инфраструктуре внедрения). Содержимое корпоративного шаблона не рекомендуется к использованию.
+Корпоративный шаблон Azure интегрирован в платформу внедрения Microsoft Cloud для Azure. Цели корпоративного шаблона теперь решены в [методологии готовности](../ready/index.md) инфраструктуры внедрения облаков. Содержимое корпоративного шаблона не рекомендуется к использованию.
 
 Чтобы приступить к работе с облачной инфраструктурой внедрения, см.:
 
@@ -26,4 +26,4 @@ ms.locfileid: "80431864"
 - [Создание первой целевой зоны](../ready/landing-zone/migrate-landing-zone.md)
 - [Рекомендации для целевой зоны](../ready/considerations/index.md).
 
-Если вам нужно просмотреть нерекомендуемое содержимое, см. статью [Azure Enterprise](.\migration-with-enterprise-scaffold.md).
+Если вам нужно просмотреть нерекомендуемое содержимое, см. статью [Azure Enterprise](./migration-with-enterprise-scaffold.md).

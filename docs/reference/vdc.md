@@ -7,21 +7,21 @@ ms.date: 06/12/2019
 ms.topic: landing-page
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-keywords: Azure
 layout: LandingPage
-ms.openlocfilehash: 4eb8e5a0c9fa88bdfbd6e00c55047e75873ff36f
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 87966103eaf1d360db77e9bdf34f62afa77fdaa9
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "79311563"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83221660"
 ---
+<!-- docsTest:ignore "Azure Virtual Datacenter" -->
 <!-- cSpell:ignore tracsman jonor -->
 
 # <a name="azure-virtual-datacenter"></a>Виртуальный центр обработки данных Azure
 
 > [!WARNING]
-> Виртуальный центр обработки данных Azure интегрирован в платформу внедрения Microsoft Cloud для Azure. Это руководство служит значительным компонентом для методологии готовности и управления в облачной инфраструктуре внедрения. Для поддержки клиентов, выполняющих этот переход, следующие ресурсы были заархивированы и будут храниться в отдельном репозитории GitHub.
+> Виртуальный центр обработки данных Azure интегрирован в платформу внедрения Microsoft Cloud для Azure. Это руководство является важной частью фундамента для готовых и управляемых методологий в рамках облачной инфраструктуры внедрения. Для поддержки клиентов, выполняющих этот переход, следующие ресурсы были заархивированы и будут храниться в отдельном репозитории GitHub.
 
 ## <a name="archived-resources"></a>Архивные ресурсы
 
@@ -29,7 +29,7 @@ ms.locfileid: "79311563"
 
 <table>
 <tr>
-    <td style="width: 64px; vertical-align: middle;"><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter.pdf"><img src="../_images/vdc/virtual-datacenter.svg" alt="Virtual Datacenter e-book" /></a></td>
+    <td style="width: 64px; vertical-align: middle;"><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter.pdf"><img src="../_images/vdc/virtual-datacenter.svg" alt="Azure Virtual Datacenter e-book" /></a></td>
     <td>
         <h3><a href="https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter.pdf">Виртуальный центр обработки данных Azure: основные понятия</a></h3>
         <p>В этой электронной книге показано, как развертывать рабочие нагрузки предприятия в облачной платформе Azure, соблюдая существующие сетевые политики и политики безопасности.</p>

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 8e634d4e471995d569f21aacccdb0b535d9c0b5b
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 9db4b6a6f068e2939248804b693a9600bf7b9625
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "77708926"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83220861"
 ---
 # <a name="evaluate-corporate-policy"></a>Оценка корпоративной политики
 
@@ -26,7 +26,12 @@ ms.locfileid: "77708926"
         <div class="cardPadding" style="padding-bottom:10px;">
             <div class="card" style="padding-bottom:10px;">
                 <div class="cardText" style="padding-left:0px;">
-Любое изменение бизнес-процессов или технологических платформ создает риск для бизнеса. Перед командами управления облаком, членов которых иногда называют хранителями облачных сред, стоит задача снижения этих рисков с минимальным вмешательством в усилия по внедрению или внедрению инноваций.<br/><br/>Тем не менее управление облаком требует не только технической реализации. Незначительные изменения в корпоративной концепции или корпоративной политике могут существенно повлиять на внедрение. Прежде чем приступать к реализации, важно обратить внимание на нее при определении корпоративной политики.<br/><br/>
+Любое изменение бизнес-процессов или технологических платформ создает риск для бизнеса. Перед командами управления облаком, членов которых иногда называют хранителями облачных сред, стоит задача снижения этих рисков с минимальным вмешательством в усилия по внедрению или внедрению инноваций.
+<br>
+<br>
+Тем не менее управление облаком требует не только технической реализации. Незначительные изменения в корпоративной концепции или корпоративной политике могут существенно повлиять на внедрение. Прежде чем приступать к реализации, важно обратить внимание на нее при определении корпоративной политики.
+<br>
+<br>
                 </div>
             </div>
         </div>
@@ -39,7 +44,7 @@ ms.locfileid: "77708926"
                 <div class="card" style="padding-bottom:10px;">
                     <div class="cardText" style="padding-left:0px;">
 <img src="../_images/operational-transformation-govern-highres.png" alt="Diagram of the Cloud Adoption Framework governance model: Corporate policy and governance disciplines">
-<br/>
+<br>
 <i>Рис. 1. визуальная политика Организации и пять дисциплин управления облаком.</i>
                     </div>
                 </div>
@@ -119,7 +124,7 @@ ms.locfileid: "77708926"
 
 <!-- markdownlint-enable MD033 -->
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как подготовить корпоративную политику к работе в облаке.
 
