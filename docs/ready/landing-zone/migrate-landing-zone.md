@@ -7,18 +7,18 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: a76a09e40fc11511213c0f496c9332ba9a05962f
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 218dbe7cdc4be8e98b4c8ef3fd20ebd865a58a84
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80997841"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83222901"
 ---
 <!-- cSpell:ignore vCPUs jumpbox -->
 
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
-Термин *зона размещения для миграции* используется для описания среды, настроенной и подготовленной для размещения рабочих нагрузок, перенесенных из локальной среды в Azure.
+_Целевая зона миграции_ — это среда, подготовленная и подготовленная для размещения рабочих нагрузок, переносимых из локальной среды в Azure.
 
 ## <a name="deploy-the-first-landing-zone"></a>Развертывание первой целевой зоны
 
@@ -27,7 +27,7 @@ ms.locfileid: "80997841"
 > [!div class="nextstepaction"]
 > [Развертывание образца схемы][deploy-sample]
 
-## <a name="assumptions"></a>Допущения
+## <a name="assumptions"></a>Предположения
 
 В эту начальную целевую зону входят следующие допущения или ограничения. Если эти предположения совпадают с вашими ограничениями, вы можете использовать схему для создания первой зоны размещения. Схему также можно расширить, чтобы создать схему зоны размещения, которая соответствует вашим уникальным ограничениям.
 
@@ -48,7 +48,7 @@ ms.locfileid: "80997841"
 | Средства миграции              | Будет развернута Azure Site Recovery, и будет создан проект Миграции Azure.                | [Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)                                                                                                                                                                                               |
 | Ведение журналов и мониторинг       | Будут предоставлены рабочее пространство оперативной аналитики и учетная запись хранения диагностики.                |                                                                                                                                                                                                                                                                                       |
 | Сеть                      | Будет создана виртуальная сеть с подсетями для шлюза, брандмауэра, Jumpbox и зоны размещения.  | [Сетевые решения](../considerations/networking-options.md)                                                                                                                                                                                                                       |
-| Идентификация                     | Предполагается, что подписка уже связана с экземпляром Azure Active Directory. | [Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json) |
+| Идентификация                     | Предполагается, что подписка уже связана с экземпляром Azure Active Directory. | [Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) |
 | Политика                       | В настоящее время эта схема предполагает, что никакие политики Azure не будут применяться.                        |                                                                                                                                                                                                                                                                                       |
 | Разработка подписки          | Недоступно — предназначено для одной производственной подписки.                                              | [Создание первоначальных подписок](../azure-best-practices/initial-subscriptions.md)                                                                                                                                                                                                      |
 | Группы ресурсов              | Недоступно — предназначено для одной производственной подписки.                                              | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                                                 |
@@ -61,14 +61,14 @@ ms.locfileid: "80997841"
 
 ## <a name="customize-or-deploy-a-landing-zone"></a>Настройка или развертывание целевой зоны
 
-Дополнительные сведения и Загрузка образца схемы "миграция целевой зоны" для развертывания или настройки из [Azure Blueprint примеров][deploy-sample].
+Узнайте больше и скачайте образец схемы КАФ мигрировать Zone, чтобы выполнить развертывание или настройку из [Azure Blueprint примеров][deploy-sample].
 
 > [!div class="nextstepaction"]
 > [Развертывание образца схемы][deploy-sample]
 
 Рекомендации по настройке, которые следует внести в эту схему или в итоговую целевую зону, см. в статье [сведения о целевой зоне](../considerations/index.md).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После развертывания первой целевой зоны вы можете [расширить целевую зону](../considerations/index.md) .
 

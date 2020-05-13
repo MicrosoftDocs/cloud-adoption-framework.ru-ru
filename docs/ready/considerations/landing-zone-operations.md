@@ -7,12 +7,12 @@ ms.date: 04/04/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 7c3e7bb61ba6fde3ad2c236706673fbc7d195ef6
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 43325baa63035779a7a7482faaf828f2ecc5614c
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81121809"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83223088"
 ---
 # <a name="improve-landing-zone-operations"></a>Улучшение операций размещения в зонах
 
@@ -27,14 +27,16 @@ ms.locfileid: "81121809"
 - [Централизованное управление операциями управления](../../manage/centralize-operations.md). Используйте Azure лигхсаусе для централизации управления операциями в нескольких клиентах Azure.
 - [Создание проверки](../../manage/operational-fitness-review.md)готовности к работе: Проверка среды на предмет пригодности к эксплуатации.
 - Рекомендации по операциям для конкретной рабочей нагрузки:
-  - [Контрольный список для обеспечения устойчивости](https://docs.microsoft.com/azure/architecture/checklist/resiliency-per-service?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
-  - [Анализ режима сбоя](https://docs.microsoft.com/azure/architecture/resiliency/failure-mode-analysis?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
-  - [Восстановление после прерывания работы служб во всем регионе](https://docs.microsoft.com/azure/architecture/resiliency/recovery-loss-azure-region?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
-  - [Восстановление данных после повреждения или случайного удаления](https://docs.microsoft.com/azure/architecture/framework/resiliency/data-management?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Контрольный список для обеспечения устойчивости](https://docs.microsoft.com/azure/architecture/checklist/resiliency-per-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Анализ режима сбоя](https://docs.microsoft.com/azure/architecture/resiliency/failure-mode-analysis?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Восстановление после прерывания работы служб во всем регионе](https://docs.microsoft.com/azure/architecture/resiliency/recovery-loss-azure-region?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Восстановление данных после повреждения или случайного удаления](https://docs.microsoft.com/azure/architecture/framework/resiliency/data-management?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
 
 ## <a name="four-steps-to-improve-operations-beyond-a-single-landing-zone"></a>Четыре шага для улучшения операций за пределами одной целевой зоны
 
 [Методология управления](../../manage/index.md) предоставляет общие рекомендации по созданию емкости для управления операциями, описанной в разделе [Управление методологией](../../manage/index.md). Мы будем использовать базовую структуру этой методологии и следующие шаги из этой методологии, чтобы улучшить операции размещения и операции в каждой целевой зоне.
+
+<!-- cSpell:ignore caf -->
 
 ![Управление методологией](../../_images/manage/caf-manage.png)
 
@@ -49,7 +51,7 @@ ms.locfileid: "81121809"
 
 ![Процесс разработки на основе тестирования для облачных целевых зон](../../_images/ready/test-driven-development-process.png)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [улучшить управление главной зоной](./landing-zone-governance.md) для поддержки внедрения в масштабе.
 

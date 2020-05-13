@@ -7,14 +7,14 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d59f2d92f6777cd3210de715eb0de217fe9abce8
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 6d7962b637d1eabde220e82222c51568f0608afd
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80432915"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83222170"
 ---
-<!-- cSpell:ignore architected ITIL -->
+<!-- cSpell:ignore ITIL -->
 
 # <a name="approve-architecture-changes-before-migration"></a>Утверждение изменений архитектуры перед миграцией
 
@@ -67,7 +67,7 @@ ms.locfileid: "80432915"
 
 По возможности технические изменения должны быть обнаружены и задокументированы в процессе оценки. Независимо от процессов утверждения команда по внедрению в облако должна привлекать утверждающих лиц на ранних этапах. Чем раньше начнется утверждение изменений, тем менее вероятно, что процесс утверждения помешает действиям по миграции.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Эти рекомендации должны упростить интеграцию правильной процедуры утверждения с низким уровнем рисков в задачи по миграции. После утверждения изменений рабочей нагрузки группа внедрения облаков готова к [миграции рабочих нагрузок](../migrate/index.md).
 

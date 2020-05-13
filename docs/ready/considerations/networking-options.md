@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: bc14bb03f048ab335cd836c6a4a520b8df0ccad8
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: c310bb6bf7bf2054f315d80c5bddf75871edef09
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80997980"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83223071"
 ---
 <!-- cSpell:ignore paas NVAs VPNs -->
 
@@ -53,16 +53,16 @@ ms.locfileid: "80997980"
 | **Сценарий** | **Сетевой продукт или служба** |
 | --- | --- |
 | Мне необходима сетевая инфраструктура для подключения всего, от виртуальных машин до входящих VPN соединений. | [Виртуальная сеть Azure](https://docs.microsoft.com/azure/virtual-network) |
-| Мне нужно сбалансировать входящие и исходящие подключения и запросы к приложениям или службам. | [Подсистема балансировки нагрузки Azure](https://docs.microsoft.com/azure/load-balancer) |
+| Мне нужно сбалансировать входящие и исходящие подключения и запросы к приложениям или службам. | [Подсистема балансировщика нагрузки Azure](https://docs.microsoft.com/azure/load-balancer) |
 | Мне нужно оптимизировать доставку из ферм серверов приложений, при этом повысив безопасность приложений с помощью брандмауэра веб-приложения. | [Шлюз приложений Azure](https://docs.microsoft.com/azure/application-gateway) <br/>[Azure Front Door Service](https://docs.microsoft.com/azure/frontdoor) |
 | Мне нужно безопасно использовать Интернет для доступа к Виртуальной сети Azure через высокопроизводительные VPN-шлюзы. | [VPN-шлюз Azure](https://docs.microsoft.com/azure/vpn-gateway) |
 | Мне нужно обеспечить сверхбыстрые DNS-ответы и сверхвысокую доступность для всех потребностей домена. | [Azure DNS](https://docs.microsoft.com/azure/dns) |
 | Мне нужно ускорить доставку содержимого, передаваемого по каналам с высокой пропускной способностью, — от приложений и сохраненного содержимого до потокового видео — клиентам со всего мира. | [Сеть доставки содержимого Azure](https://docs.microsoft.com/azure/cdn) |
 | Мне нужно защитить приложения Azure от DDoS-атак. | [Защита от атак DDoS Azure](https://docs.microsoft.com/azure/virtual-network/ddos-protection-overview) |
-| Мне нужно оптимально распределять трафик между службами в регионах Azure по всему миру, обеспечивая при этом высокую доступность и быстроту отклика. | [Диспетчер трафика Azure](https://docs.microsoft.com/azure/traffic-manager)<br/>[Azure Front Door Service](https://docs.microsoft.com/azure/frontdoor) |
+| Мне нужно оптимально распределять трафик между службами в регионах Azure по всему миру, обеспечивая при этом высокую доступность и быстроту отклика. | [Диспетчер трафика Azure](https://docs.microsoft.com/azure/traffic-manager) <br><br> [Azure Front Door Service](https://docs.microsoft.com/azure/frontdoor) |
 | Мне нужна возможность добавления частных сетевых подключений для доступа к облачным службам Майкрософт из корпоративных сетей, как если бы они находились в моем центре обработки данных. | [Azure ExpressRoute](https://docs.microsoft.com/azure/expressroute) |
 | Мне нужно отслеживать и диагностировать условия на уровне сетевого сценария. | [Наблюдатель за сетями Azure](https://docs.microsoft.com/azure/network-watcher) |
-| Мне нужны возможности собственного брандмауэра со встроенной высокой доступностью, неограниченной масштабируемостью облака и отсутствием обслуживания. | [Брандмауэр Azure](https://docs.microsoft.com/azure/firewall) |
+| Мне нужны возможности собственного брандмауэра со встроенной высокой доступностью, неограниченной масштабируемостью облака и отсутствием обслуживания. | [Брандмауэр Azure](https://docs.microsoft.com/azure/firewall/overview) |
 | Мне нужно безопасно подключить бизнес-офисы, розничные отделения и сайты. | [Виртуальная глобальная сеть Azure](https://docs.microsoft.com/azure/virtual-wan) |
 | Мне нужна масштабируемая точка доставки с повышенным уровнем безопасности для глобальных веб-приложений на базе микрослужб. | [Azure Front Door Service](https://docs.microsoft.com/azure/frontdoor) |
 
@@ -74,14 +74,17 @@ ms.locfileid: "80997980"
 
 В таблице ниже приведены основные сценарии, которые поддерживают эти шаблоны.
 
-| **Сценарий**                                                                                                                                                                                                                                                                                                                        | **Рекомендуемая архитектура сети**                                                  |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------|
-| Все рабочие нагрузки, размещенные в Azure, развернутые в целевой зоне, полностью основаны на PaaS, не нуждаются в виртуальной сети и не являются частью усилий по внедрению облака, которые включают ресурсы IaaS.                                                                                                                        | [Только PaaS](../../decision-guides/software-defined-network/paas-only.md)            |
-| Рабочие нагрузки, размещенные в Azure, развернут ресурсы на основе IaaS, как виртуальные машины, или потребуют наличия виртуальной сети, но не подключения к локальной среде.                                                                                                                                          | [Машинный код в облаке](../../decision-guides/software-defined-network/cloud-native.md)      |
-| Рабочие нагрузки, размещенные в Azure, требуют ограниченного доступа к локальным ресурсам, но облачные подключения следует считать ненадежными.                                                                                                                                                                                           | [Облачная сеть периметра](../../decision-guides/software-defined-network/cloud-dmz.md)            |
-| Рабочие нагрузки, размещенные в Azure, требуют ограниченного доступа к локальным ресурсам, и вы планируете внедрить современные политики безопасности и безопасное подключение между облачной и локальной средами.                                                                                                                         | [Гибридная среда](../../decision-guides/software-defined-network/hybrid.md)                  |
+| **Сценарий**                                                                                                                                                                                                                                                                                                                                                          | **Рекомендуемая архитектура сети**                                                  |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| Все рабочие нагрузки, размещенные в Azure, развернутые в целевой зоне, полностью основаны на PaaS, не нуждаются в виртуальной сети и не являются частью усилий по внедрению облака, которые включают ресурсы IaaS.                                                                                                                                                          | [Только PaaS](../../decision-guides/software-defined-network/paas-only.md)            |
+| Рабочие нагрузки, размещенные в Azure, развернут ресурсы на основе IaaS, как виртуальные машины, или потребуют наличия виртуальной сети, но не подключения к локальной среде.                                                                                                                                                                            | [Машинный код в облаке](../../decision-guides/software-defined-network/cloud-native.md)      |
+| Рабочие нагрузки, размещенные в Azure, требуют ограниченного доступа к локальным ресурсам, но облачные подключения следует считать ненадежными.                                                                                                                                                                                                                             | [Облачная сеть периметра](../../decision-guides/software-defined-network/cloud-dmz.md)            |
+| Рабочие нагрузки, размещенные в Azure, требуют ограниченного доступа к локальным ресурсам, и вы планируете внедрить современные политики безопасности и безопасное подключение между облачной и локальной средами.                                                                                                                                                           | [Гибридная](../../decision-guides/software-defined-network/hybrid.md)                  |
 | Необходимо развернуть и управлять большим количеством виртуальных машин и рабочих нагрузок, потенциально превышающих [ограничения подписки Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits), совместно использовать службы между подписками или использовать более сегментированную структуру для разделения ролей, приложений или разрешений. | [Звездообразная модель](../../decision-guides/software-defined-network/hub-spoke.md)        |
-| Имеется множество филиалов, которым необходимо подключаться друг к другу и к Azure.                                                                                                                                                                                                                                                       | [Виртуальная глобальная сеть Azure](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about) |
+| Имеется множество филиалов, которым необходимо подключаться друг к другу и к Azure.                                                                                                                                                                                                                                                                                         | [Виртуальная глобальная сеть Azure](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about) |
+
+<!-- TODO: Refactor VDC content below. -->
+<!-- docsTest:ignore "Azure Virtual Datacenter" -->
 
 ### <a name="azure-virtual-datacenter"></a>Виртуальный центр обработки данных Azure
 
@@ -97,6 +100,6 @@ ms.locfileid: "80997980"
 
 В процессе проектирования сети ознакомьтесь с этими статьями.
 
-- [Планирование виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json). Узнайте, как планировать виртуальные сети на основе требований к изоляции, подключению и расположению.
-- [Рекомендации Azure по обеспечению сетевой безопасности](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json). Узнайте о рекомендациях Azure, которые могут помочь вам повысить безопасность сети.
-- [Рекомендации для работы в сети при переносе рабочих нагрузок в Azure](https://docs.microsoft.com/azure/migrate/migrate-best-practices-networking?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json). Получите дополнительные рекомендации о внедрении сети Azure для поддержки рабочих нагрузок на основе IaaS и PaaS.
+- [Планирование виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Узнайте, как планировать виртуальные сети на основе требований к изоляции, подключению и расположению.
+- [Рекомендации Azure по обеспечению сетевой безопасности](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Узнайте о рекомендациях Azure, которые могут помочь вам повысить безопасность сети.
+- [Рекомендации для работы в сети при переносе рабочих нагрузок в Azure](https://docs.microsoft.com/azure/migrate/migrate-best-practices-networking?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Получите дополнительные рекомендации о внедрении сети Azure для поддержки рабочих нагрузок на основе IaaS и PaaS.
