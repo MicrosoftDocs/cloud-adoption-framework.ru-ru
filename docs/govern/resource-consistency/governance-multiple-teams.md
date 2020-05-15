@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 30c25159dc677c5220c80697c282304f73a59a9b
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: db90e2ca82164d645605e49dc288c21b610e12b9
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83218804"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83399539"
 ---
 <!-- cSpell:ignore netops -->
 
@@ -87,7 +87,7 @@ ms.locfileid: "83218804"
 ![Администратор службы подписки с ролью владельца ](../../_images/govern/design/governance-2-1.png)
  _рис. 3. Подписка с правами администратора службы назначила встроенную роль владельца._
 
-<!-- docsTest:ignore "resource group A" "resource group B" "resource groups A and B" "workload owner A" "workload owner B" -->
+<!-- docsTest:ignore "resource group A" "resource groups A and B" "workload owner A" -->
 
 1. В первом примере есть **Владелец рабочей нагрузки A** без разрешений в области подписки, у которой нет &mdash; прав доступа к ресурсам по умолчанию. Этот пользователь хочет развернуть ресурсы для своей рабочей нагрузки и управлять ими. Ему необходимо обратиться к **администратору служб** с запросом о создании группы ресурсов.
     ![Владелец рабочей нагрузки запрашивает создание группы ресурсов A](../../_images/govern/design/governance-2-2.png)
@@ -168,7 +168,8 @@ ms.locfileid: "83218804"
 
 Начнем с оценки первого способа. Воспользуйтесь моделью разрешений, о которой шла речь в предыдущем разделе, когда администратор служб одной подписки создает группы ресурсов и добавляет к ним пользователей со встроенной ролью **участника** или **читателя**.
 
-<!-- docsTest:ignore managedBy hub-vnet prod-vnet app1-dev-vnet app2-dev-vnet app1-prod-vnet app2-prod-vnet -->
+<!-- docsTest:ignore managedBy -->
+<!-- hub-vnet prod-vnet app1-dev-vnet app2-dev-vnet app1-prod-vnet app2-prod-vnet -->
 
 1. Первая развернутая группа ресурсов представляет собой среду **общей инфраструктуры**. Учетная запись **владельца подписки** создает группу ресурсов для ресурсов общей инфраструктуры с именем `netops-shared-rg` .
     ![Создание группы ресурсов](../../_images/govern/design/governance-3-0d.png)

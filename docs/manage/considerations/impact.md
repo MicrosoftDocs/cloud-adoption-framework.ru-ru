@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 17951fef2a93d4c592cc620e4f8aa14ba0c11c58
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: dc2c490850c47dfa92ec91d5133168b982b5c719
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83217359"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83398479"
 ---
 # <a name="business-impact-in-cloud-management"></a>Влияние на бизнес в управлении облаком
 
@@ -52,11 +52,11 @@ ms.locfileid: "83217359"
 
 ## <a name="use-the-template"></a>Использовать шаблон
 
-Если вы используете [книгу Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) для планирования управления облачными средствами, рассмотрите возможность выполнения следующих действий.
+Если вы используете [книгу Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) для планирования управления облачными средствами, рассмотрите возможность выполнения следующих действий.
 
 - Каждый бизнес должен обновлять каждую рабочую нагрузку в _примере_ или _Очистить шаблон_ с учетом *времени и значений, влияющих* на каждую рабочую нагрузку. По умолчанию *влияние времени и значений* представляет прогнозируемые убытки в час, связанные с непростоией рабочей нагрузки.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Когда предприятие затронет влияние, можно [согласовать обязательства](./commitment.md).
 

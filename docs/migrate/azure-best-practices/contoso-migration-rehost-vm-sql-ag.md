@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: ff7c476737bed0f079cbebac736506cb6801bfd8
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: c356554dbdca417708d7eb9698d9729270d8e981
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223615"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83401010"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM contosohost vcenter contosodc AOAG SQLAOG SQLAOGAVSET contosoadmin contosocloudwitness MSSQLSERVER BEPOOL contosovmsacc SHAOG NSGs inetpub iisreset -->
 
@@ -203,7 +203,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 1. Они указывают узнаваемое название для учетной записи (**contosocloudwitness**).
 2. Они развертывают общую универсальную учетную запись с LRS.
-3. Они размещают учетную запись в третьем регионе — центрально-южной части США. Они размещаются за пределами основного и дополнительного регионов, чтобы она оставалась доступной во время региональных сбоев.
+3. Они размещают учетную запись в третьем регионе: Юго-Центральный регион США. Они размещаются за пределами основного и дополнительного регионов, чтобы она оставалась доступной во время региональных сбоев.
 4. Они размещают ее в группе ресурсов, содержащей ресурсы инфраструктуры, **ContosoInfraRG**.
 
     ![Облако-свидетель](./media/contoso-migration-rehost-vm-sql-ag/witness-storage.png)

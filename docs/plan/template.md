@@ -7,15 +7,13 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 00efe3b582b5850ff7a5c6c1a6ab16977c6ada4d
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: cb0b963b68fbad8d883e7cbbfd107cc774136ad0
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83216900"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83401086"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
 
 Azure DevOps — это набор облачных средств для клиентов Azure, которые управляют итеративными проектами. Он также включает средства для управления конвейерами развертывания и другие важные аспекты DevOps.
@@ -60,7 +58,7 @@ Azure DevOps — это набор облачных средств для кли
 
 ## <a name="align-the-cloud-adoption-plan"></a>Выровняйте план внедрения в облако
 
-На страницах с обзором стратегии и этапов планирования в жизненном цикле внедрения облака каждый ссылается на [шаблон стратегии и план инфраструктуры внедрения в облако](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx). Этот шаблон организует решения и точки данных, которые выключают шаблон для плана внедрения в облако с конкретными планами для внедрения. Если вы еще не сделали этого, вам может потребоваться выполнить упражнения, связанные с [стратегией](../strategy/index.md) и [планированием](../plan/index.md) , до согласования нового проекта.
+Обзорные страницы этапов стратегии и планирования жизненного цикла внедрения облака каждый ссылаются на [шаблон стратегии и планирования инфраструктуры внедрения в облако](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx). Этот шаблон организует решения и точки данных, которые выключают шаблон для плана внедрения в облако с конкретными планами для внедрения. Если вы еще не сделали этого, вам может потребоваться выполнить упражнения, связанные с [стратегией](../strategy/index.md) и [планированием](../plan/index.md) , до согласования нового проекта.
 
 Следующие статьи поддерживают выравнивание плана внедрения в облако.
 

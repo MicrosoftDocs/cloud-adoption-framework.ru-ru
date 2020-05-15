@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 1f1060ba4df7dfb398a94f8611901612e1ecf60d
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 87376016c2d775d9aa546036504dfdf8c3ec9ba2
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219790"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83398733"
 ---
 # <a name="collect-data-through-the-migration-and-modernization-of-existing-data-sources"></a>Получение данных с помощью миграции и модернизации существующих источников данных
 
@@ -28,7 +28,7 @@ ms.locfileid: "83219790"
 
 При миграции и модернизировать локальных данных наиболее распространенным средством Azure является [Azure Database Migration Service](https://docs.microsoft.com/azure/dms). Эта служба является частью более широкой цепочки инструментов [Azure Migrate](https://docs.microsoft.com/azure/migrate/migrate-services-overview) . Для существующих SQL Server источников данных [Помощник по миграции данных](https://docs.microsoft.com/sql/dma/dma-overview) может помочь в оценке и миграции небольшого количества структур данных.
 
-Для поддержки миграций Oracle и NoSQL можно также использовать [Database Migration Service](https://docs.microsoft.com/azure/dms) для определенных типов баз данных источника и назначения. Примеры включают Oracle в PostgreSQL и MongoDB в Cosmos DB. Как правило, группы внедрения используют средства партнеров или пользовательские сценарии для перехода на Azure Cosmos DB, Azure HDInsight или виртуальные машины в зависимости от инфраструктуры как услуги (IaaS).
+Для поддержки миграций Oracle и NoSQL можно также использовать [Database Migration Service](https://docs.microsoft.com/azure/dms) для определенных типов баз данных источника и назначения. Примеры включают Oracle в PostgreSQL и MongoDB в Azure Cosmos DB. Как правило, группы внедрения используют средства партнеров или пользовательские сценарии для перехода на Azure Cosmos DB, Azure HDInsight или виртуальные машины в зависимости от инфраструктуры как услуги (IaaS).
 
 ## <a name="considerations-and-guidance"></a>Рекомендации и рекомендации
 

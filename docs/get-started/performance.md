@@ -7,15 +7,13 @@ ms.date: 04/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 6052e119cc2bf2ce078bfdc3df6613ff665e503f
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 845574b9b7e045869561f43745a23ec104893d1f
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229370"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400205"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 # <a name="get-started-ensure-consistent-performance-across-a-portfolio"></a>Начало работы. обеспечение согласованной производительности в портфеле
 
 Как обеспечить достаточную производительность в портфеле рабочих нагрузок? Это поможет вам установить процессы для поддержания производительности в масштабах всего предприятия. Шаги, описанные здесь, помогут группе операций обеспечить согласованность ожидаемой производительности во всех рабочих нагрузках. Производительность также зависит от других ролей и функций. В этой статье сопоставлены вспомогательные функции, помогающие создать выравнивание между участниками группы.
@@ -32,7 +30,7 @@ ms.locfileid: "83229370"
 
 - Улучшите базовый план управления, чтобы включить автоматизированные задачи по исправлению, связанные с отклонениями от ожидания производительности.
 - Если для удовлетворения требований к производительности требуются шаблоны данных рабочей нагрузки или изменения в архитектуре, то операции, связанные с рабочей нагрузкой, могут предоставлять больше элементов управления производительностью.
-- Задокументируйте рабочие решения в портфеле ИТ в [книге Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) , чтобы включить решения по автоматизации производительности в разделе "операционная совместимость" на вкладке "базовые требования".
+- Задокументируйте рабочие решения в портфеле ИТ в [книге Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) , чтобы включить решения по автоматизации производительности в разделе "операционная совместимость" на вкладке "базовые требования".
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -147,7 +145,7 @@ ms.locfileid: "83229370"
 
 - Протестируйте готовность рабочих развертываний в рабочей среде с помощью политик согласованности ресурсов.
 - Проверяйте соответствие требованиям руководства по проектированию согласованности ресурсов и требований к операциям.
-- Задокументируйте все расширенные требования к операциям в [книге Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx).
+- Задокументируйте все расширенные требования к операциям в [книге Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx).
 
 **Рекомендации по поддержке готовности к завершению.**
 

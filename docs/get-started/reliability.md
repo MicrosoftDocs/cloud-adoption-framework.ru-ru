@@ -7,15 +7,13 @@ ms.date: 04/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 8e17c53a2a54a212fa312b62b2ff527497583919
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: c75b7a17c8c2676688f5221ec0e4d0f2ed0641a5
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229435"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400214"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 # <a name="get-started-improve-reliability-with-the-right-controls"></a>Начало работы. повышение надежности с помощью правильных элементов управления
 
 Как применить нужные элементы управления для повышения надежности? Это поможет минимизировать сбои, связанные с несовпадениями в конфигурации, Организации ресурсов, базовых показателях безопасности или защите ресурсов. Действия, описанные в этом руководстве, помогут группе операций сбалансировать надежность и стоимость ИТ-портфеля и помочь группе управления в обеспечении согласованного применения баланса. Надежность также зависит от других ролей и функций. В этой статье сопоставлены различные вспомогательные функции, помогающие создать выравнивание между участниками группы.
@@ -34,7 +32,7 @@ ms.locfileid: "83229435"
 - Согласуйте бизнес-обязательства с группой облачных стратегий, чтобы разработать план для расширенных операций и требований к устойчивости.
 - Разверните свой базовый план управления, если для большинства рабочих нагрузок требуются дополнительные операции.
 - Примените расширенные требования к зонам и ресурсам, которые поддерживают рабочие нагрузки с более высоким уровнем важности.
-- Задокументируйте решения по работе с портфелем ИТ в [книге Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx).
+- Задокументируйте решения по работе с портфелем ИТ в [книге Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx).
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -158,7 +156,7 @@ ms.locfileid: "83229435"
 
 - Протестируйте готовность рабочих развертываний в рабочей среде с помощью политик согласованности ресурсов.
 - Проверяйте соответствие требованиям руководства по проектированию согласованности ресурсов и требований к операциям.
-- Задокументируйте все расширенные требования к операциям в [книге Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx).
+- Задокументируйте все расширенные требования к операциям в [книге Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx).
 
 **Рекомендации по поддержке готовности к завершению.**
 

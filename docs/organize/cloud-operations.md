@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 04/20/2020
-ms.openlocfilehash: 3fd693d5e3275eea40d1a71149207689b7dca35b
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 3e11e280e0faa12d7bbb6ee1a951e9eb1546cdab
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83215625"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400987"
 ---
 # <a name="cloud-operations-functions"></a>Функции облачных операций
 
@@ -74,7 +74,7 @@ ms.locfileid: "83215625"
 
 Дополнительные сведения
 
-- Функции [облачного центра](../organize/cloud-center-of-excellence.md)
+- [Cloud Center по](../organize/cloud-center-of-excellence.md) функциям.
 - [Антишаблоны Организации: приемники и фиефдомс](../organize/fiefdoms-silos.md).
 
 Научитесь распределять обязанности групп, разрабатывая кросс-группную матрицу, определяющую ответственные, осведомленные, проученные и информированные (RACI) стороны. Скачайте и измените [шаблон электронной таблицы RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx).

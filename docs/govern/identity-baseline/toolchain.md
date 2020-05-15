@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7000f40ebfedb6f5285f3e9148c7f07ebbc17ab5
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 71aab771fbfe5b0b0f63750dbf2fc97327dd8436
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83218532"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83399760"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Средства основных способов идентификации в Azure
 
@@ -39,7 +39,7 @@ ms.locfileid: "83218532"
 
 **Сквозная проверка подлинности Azure AD:** Обеспечивает постоянную проверку пароля для служб проверки подлинности Azure AD с помощью агента программного обеспечения, работающего на одном или нескольких локальных серверах.
 
-<!-- docsTest:ignore "pass-through authentication method" -->
+<!-- docsTest:ignore "the pass-through authentication method" -->
 
 > [!NOTE]
 > Компании с требованием безопасности для немедленного применения локальных состояний учетных записей пользователей, политик паролей и часов входа должны учитывать метод сквозной проверки подлинности.
@@ -60,8 +60,8 @@ ms.locfileid: "83218532"
 | Оценка | Синхронизация хэша паролей и простой единый вход | Сквозная аутентификация и простой единый вход | Федерация с AD FS |
 | --- | --- | --- | --- |
 | Где происходит аутентификация? | В облаке | В облаке после безопасного обмена данными проверки пароля с локальным агентом аутентификации | В локальной среде |
-| Каковы требования к локальному серверу помимо системы подготовки (Azure AD Connect)? | Нет | Один сервер для каждого дополнительного агента аутентификации | Не менее двух серверов AD FS <br><br> Не менее двух WAP-серверов в сети периметра |
-| Каковы требования к локальному Интернету и сети за пределами системы подготовки? | Нет | [Исходящий доступ в Интернет](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности | [Входящий доступ в Интернет](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре <br><br> Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра <br><br> Балансировка сетевой нагрузки |
+| Каковы требования к локальному серверу помимо системы подготовки (Azure AD Connect)? | Отсутствуют | Один сервер для каждого дополнительного агента аутентификации | Не менее двух серверов AD FS <br><br> Не менее двух WAP-серверов в сети периметра |
+| Каковы требования к локальному Интернету и сети за пределами системы подготовки? | Отсутствуют | [Исходящий доступ в Интернет](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности | [Входящий доступ в Интернет](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре <br><br> Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра <br><br> Балансировка сетевой нагрузки |
 | Существует ли требование к SSL-сертификату? | Нет | Нет | Да |
 | Имеется ли решение для мониторинга работоспособности? | Не требуется | Состояние агента, предоставляемое [Центром администрирования Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-pass-through-authentication) | [Azure AD Connect Health](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs) |
 | Пользователи получают единый вход в облачные ресурсы с присоединенных к домену устройств в корпоративной сети? | Да, с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso) | Да, с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso) | Да |

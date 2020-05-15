@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 0e26e7ee1c4bc534ea461de2293fe69b75de1360
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: d1cbf6c608bbea2374cb6325e755fc9367aedc03
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83218396"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83399597"
 ---
 # <a name="govern-methodology-for-the-cloud"></a>Управление методологией для облака
 
@@ -25,7 +25,7 @@ ms.locfileid: "83218396"
 
 Путь без цели — это просто блуждание. Прежде чем приступить к первому шагу, важно создать грубое представление о конечном состоянии. Следующая инфографика дает общее представление того, каким должно быть финальное состояние. Это не ваша отправная точка, но она показывает потенциальные места назначения.
 
-![Инфографика модели управления Cloud Adoption Framework](../_images/operational-transformation-govern-highres.png)
+![Инфографика модели управления Cloud Adoption Framework](../_images/operational-transformation-govern-large.png)
 
 Модель управления Cloud Adoption Framework (CAF) описывает важнейшие этапы внедрения. Каждый из этих этапов сопряжен с разными типами рисков, которые компаниям необходимо устранять по мере внедрения новых облачных решений. В этом руководстве по организации системы управления описаны действия, которые следует выполнить команде по управлению облачными решениями. Каждый из принципов модели управления CAF будет описан более подробно. В целом можно выделить следующие элементы.
 

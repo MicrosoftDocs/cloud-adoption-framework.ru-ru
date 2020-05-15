@@ -7,15 +7,13 @@ ms.date: 04/04/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 22956507d801163b2ee75f074f48bbd955546c11
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: d14e37cad9d6d1e63200a9401cfaac2ca2e07655
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229617"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400711"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 # <a name="get-started-manage-cloud-costs"></a>Начало работы: Управление затратами на облачные ресурсы
 
 Одной из основных дисциплин управления облаком является управление затратами. Дисциплина управления затратами сосредоточена на создании бюджетов, мониторинге моделей распределения затрат и реализации элементов управления для улучшения поведения облачных затрат в портфеле ИТ. Однако оптимизация корпоративных затрат включает множество других ролей и функций, чтобы уменьшить затраты и сбалансировать требования масштабирования, производительности, безопасности и надежности. В этой статье эти различные вспомогательные функции сопоставлены с руководством по началу работы, чтобы помочь в создании выравнивания между участниками группы.

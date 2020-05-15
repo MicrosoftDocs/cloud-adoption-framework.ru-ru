@@ -7,15 +7,13 @@ ms.date: 04/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 39e5feba4e0d214a86767bf6a2152ae1887dc383
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 007a2219a65147e1682de5d1e0a4ae29251d2153
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229799"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400007"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 # <a name="get-started-design-and-configuration"></a>Начало работы: проектирование и настройка
 
 Проектирование и настройка среды — это наиболее распространенные блокировки для перехода или внедрения инноваций. Быстро реализовать проект, поддерживающий долгосрочный план внедрения, может быть трудно. В этой статье описывается подход и ряд действий, которые помогут преодолеть общие блокировки и ускорить внедрение.

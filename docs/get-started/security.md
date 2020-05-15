@@ -7,18 +7,16 @@ ms.date: 04/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 3de015250a7fd14e01eb14094e564f51e0425648
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 100d5c327fb6e87f0a355f5305ff83ebb972b020
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229331"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400759"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 <!-- cSpell:ignore CISO passwordless -->
 
-# <a name="get-started-implementing-security-across-the-enterprise-environment"></a>Начало работы: реализация безопасности в среде предприятия
+# <a name="get-started-implement-security-across-the-enterprise-environment"></a>Начало работы. Реализация безопасности в среде предприятия
 
 Безопасность позволяет бизнесу создавать гарантии конфиденциальности, целостности и доступности с критически важными усилиями по защите от потенциального воздействия на операции, вызванные внутренним и внешним вредоносным и непреднамеренно работающим. В этой статье описываются ключевые шаги, которые помогут снизить или избежать бизнес-риска от кибербезопасности атак путем быстрого создания важных методов обеспечения безопасности в облаке и интеграции безопасности в процесс внедрения в облако.
 

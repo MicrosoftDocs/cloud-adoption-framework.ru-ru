@@ -7,14 +7,13 @@ ms.date: 03/27/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: ebeb0d36b82a60ce0a0516b98909db5da8626dd2
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: e7fa0e1046ce6c898a2f5bc804afff8450cda103
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83228941"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400138"
 ---
-<!-- cSpell:ignore CAF -->
 <!-- markdownlint-disable MD024 -->
 
 # <a name="whats-new-in-the-microsoft-cloud-adoption-framework-for-azure"></a>Новые возможности платформы внедрения Microsoft Cloud для Azure

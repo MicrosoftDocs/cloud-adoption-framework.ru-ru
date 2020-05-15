@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ddeea58c9e50327f318640160317556191c26d7f
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 7666a937e59d9e528cb7337e83ab3ec4a20b448b
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83216152"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83401343"
 ---
 # <a name="evaluate-workload-readiness"></a>Оценка готовности рабочей нагрузки
 
@@ -35,7 +35,7 @@ ms.locfileid: "83216152"
 
 - Задокументируйте целевые показатели точки восстановления (RPO) и целевое время восстановления (RTO) текущего развертывания базы данных. Они используются во время выполнения [действий архитектуры](./architect.md) , чтобы помочь в принятии решений.
 - Задокументируйте все требования к конфигурации высокого уровня доступности. Дополнительные сведения о требованиях к SQL Server см. в [руководстве по решениям SQL Server с высоким уровнем доступности](https://docs.microsoft.com/sql/sql-server/failover-clusters/high-availability-solutions-sql-server).
-- Оцените совместимость PaaS. В [руководством по миграции данных Azure](https://datamigration.microsoft.com) локальные базы данных сопоставляются с совместимыми решениями Azure PaaS, такими как [Cosmos DB](https://docs.microsoft.com/azure/cosmos-db) или [Azure DB](https://docs.microsoft.com/azure/sql-database) для [MySQL](https://docs.microsoft.com/azure/mysql), [PostgreSQL](https://docs.microsoft.com/azure/postgresql)или [MariaDB](https://docs.microsoft.com/azure/mariadb).
+- Оцените совместимость PaaS. С [помощью руководств по миграции данных Azure](https://datamigration.microsoft.com) локальные базы данных сопоставляются с совместимыми решениями Azure PaaS, такими как [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db), база данных [SQL Azure](https://docs.microsoft.com/azure/sql-database) [для MySQL](https://docs.microsoft.com/azure/mysql), база [данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql)или [база данных Azure для MariaDB](https://docs.microsoft.com/azure/mariadb).
 - Если миграция PaaS является вариантом без необходимости каких-либо исправлений для обеспечения совместимости, то следует обратиться к команде, ответственной за [действия, связанные с архитектурой](./architect.md). Миграция PaaS может значительно сократить время перемещения и снизить совокупную стоимость владения большинства облачных решений.
 - Если миграция PaaS является вариантом, но требуется исправление для обеспечения совместимости, обратитесь к командам, ответственным за [действия по архитектуре](./architect.md) и [действия по исправлению](../migrate/remediate.md). Во многих сценариях преимущества миграции PaaS для решений баз данных могут перевешивать увеличение времени исправления.
 - Задокументируйте размер и скорость изменения для каждой переносимой базы данных.

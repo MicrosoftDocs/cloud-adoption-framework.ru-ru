@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 2230fe8d8ee2f2c7d5b9a695ec01268e3306bff9
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 2114b212718adb22b190f854de665e0d59fa50a4
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83217410"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83398459"
 ---
 # <a name="business-criticality-in-cloud-management"></a>Критические бизнес-задача в управлении облаком
 
@@ -58,7 +58,7 @@ ms.locfileid: "83217410"
 
 ## <a name="use-the-template"></a>Использовать шаблон
 
-Следующие шаги применяются, если вы используете [книгу Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) для планирования управления облаком.
+Следующие шаги применяются, если вы используете [книгу Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) для планирования управления облаком.
 
 1. Запишите шкалу критический работы на вкладке **масштаб** книги.
 2. Обновите каждую рабочую нагрузку в _примере_ или _очистите шаблон_ , чтобы отразить критические значения по умолчанию в столбце _критическая_ нагрузка.

@@ -1,22 +1,22 @@
 ---
-title: Функции центра облачных операций безопасности
-description: Сведения о возможностях, необходимых для обеспечения безопасности в облаке
+title: Облачные функции SOC
+description: Общие сведения о функциях центра Cloud Security Operations (SOC).
 author: JanetCThomas
 ms.author: janet
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 04/30/2020
-ms.openlocfilehash: 7c3044e4d5e970b9f78bb46bda2aadf11273e556
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: c966129e01d9cf97af0ac1db0a8ac7bec8efb751
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83228642"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83401125"
 ---
 <!-- cSpell:ignore CISO MTTA MTTR SIEM NIST SOCs CDOC -->
 
-# <a name="functions-of-a-cloud-security-operations-center-soc"></a>Функции центра Cloud Security Operations Center (SOC)
+# <a name="cloud-soc-functions"></a>Облачные функции SOC
 
 Основной целью центра Cloud Security Operations Center (SOC) является обнаружение, реагирование и восстановление из активных атак на корпоративные ресурсы.
 
@@ -38,7 +38,7 @@ ms.locfileid: "83228642"
 - **Управление инцидентами:** Дисциплина становится формальной для координации нетехнических элементов инцидентов с юридическими, взаимосвязями и другими группами.
 **Интеграция внутреннего контекста:** Чтобы помочь в определении приоритетов для действий SOC, таких как относительные показатели рисков учетных записей и устройств, чувствительность данных и приложений, а также ключевые границы изоляции безопасности для тесной защиты.
 
- Дополнительные сведения можно найти в разделе 
+ Дополнительные сведения можно найти в разделе
 
 - [Стратегии и &mdash; операции безопасности стандартов архитектуры](https://docs.microsoft.com/security/compass/security-operations-videos-and-decks)
 - [Модуль перспективы Workshop 4b: стратегия защиты от угроз](https://docs.microsoft.com/security/ciso-workshop/ciso-workshop-module-4b)

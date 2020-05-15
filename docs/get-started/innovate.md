@@ -7,15 +7,13 @@ ms.date: 04/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: a49e52f94b2c9b84afd4e00402a4307fac21923b
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: cd222e7a4e7c9c03344542d0dc61a8080f611ff2
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229643"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400525"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 # <a name="get-started-accelerate-new-product-and-service-innovation-in-the-cloud"></a>Начало работы. ускорение новых нововведений продуктов и услуг в облаке
 
 Создание новых продуктов и служб в облаке требует иного подхода, чем миграция. Методология инноваций в облачной инфраструктуре внедрения создает подход, который помогает разрабатывать новые продукты и службы.
@@ -31,6 +29,8 @@ ms.locfileid: "83229643"
 **Результатам**
 
 - Используйте [шаблон стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) для записи мотивации и желаемых результатов бизнеса.
+
+<!-- docsTest:ignore "Get started: Accelerate migration" -->
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -149,7 +149,7 @@ ms.locfileid: "83229643"
 **Результатам**
 
 - Выполните [проверку архитектуры Azure](https://docs.microsoft.com/assessments/?id=azure-architecture-review) , чтобы оценить различные решения по архитектуре и эксплуатации.
-- Настройте [книгу Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) в соответствии с необходимыми дополнительными операциями.
+- Настройте [книгу Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) в соответствии с необходимыми дополнительными операциями.
 
 **Рекомендации по поддержке готовности к завершению.**
 

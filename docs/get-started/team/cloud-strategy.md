@@ -7,15 +7,13 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 04/04/2020
-ms.openlocfilehash: 81955582145c9ffa2b63364a1ed2948715cf37d5
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: a885de58423bea1cef9e2e87ef4d09f4cb6e9363
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83228980"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83399876"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 # <a name="get-started-build-a-cloud-strategy-team"></a>Начало работы. Создание группы стратегии облака
 
 Каждому пути внедрения в облако потребуется определенный уровень стратегии. Это руководство по началу работы поможет вам создать собственную рабочую группу или виртуальную группу (v-Team), чтобы обеспечить надежную облачную стратегию. Первый шаг — решить, нужна ли вам группа стратегии, или, если существующие участники группы могут доставлять облачную стратегию в качестве распределенных обязанностей.

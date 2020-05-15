@@ -9,14 +9,14 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: c27ab20e703ae8ef37fcfba1a2d3f4585d2832da
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 137ab71429b6f827ee0f01154ea372784327e964
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219399"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400928"
 ---
-<!-- docsTest:disable -->
+<!-- docsTest:disable TODO -->
 <!-- cSpell:ignore tracsman jonor rossort NVAs iptables WAFs DDOS ITSM LLAP anycast vwan -->
 
 # <a name="the-virtual-datacenter-a-network-perspective"></a>Виртуальный центр обработки данных: перспектива сети
@@ -246,7 +246,7 @@ Microsoft Azure предоставляет службы и инфраструк�
 - [Виртуальные сетевые модули][NVA]
 - [Подсистема балансировщика нагрузки Azure][ALB]
 - [Шлюз приложений Azure][AppGW] с [брандмауэром веб-приложения (WAF)][AppGWWAF]
-- [Общедоступные IP-адреса][PIP].
+- [Общедоступные IP-адреса][PIP]
 - [Передняя дверца Azure][azure-front-door] с [брандмауэром веб-приложения (WAF)][AFDWAF]
 - [Брандмауэр Azure][AzFW] и [Диспетчер брандмауэра Azure][AzFWMgr]
 - [Стандартная защита от атак DDoS][DDoS]
@@ -430,7 +430,7 @@ Azure Monitor также позволяет создавать настраив�
 
 Безопасность | Прочие службы Azure | |
 |-|-|-|
-| [Брандмауэр Azure][AzFW] <br> [Диспетчер брандмауэра][AzFWMgr] <br> [WAF шлюза приложений][AppGWWAF] <br> [Передняя дверь WAF][AFDWAF] <br> [Azure от атак DDoS][DDoS] <br> | [Хранилище Azure][Storage] <br> [Azure SQL][SQL] <br> [Веб-приложения Azure][WebApps] <br> [База данных Cosmos][cosmos-db] <br> [HDInsight][HDInsight] | [Центры событий][EventHubs] <br> [Служебная шина][ServiceBus] <br> [Azure IoT][IoT] <br> [Машинное обучение Azure][machine-learning] |
+| [Брандмауэр Azure][AzFW] <br> [Диспетчер брандмауэра][AzFWMgr] <br> [WAF шлюза приложений][AppGWWAF] <br> [Передняя дверь WAF][AFDWAF] <br> [Azure от атак DDoS][DDoS] <br> | [Хранилище Azure][Storage] <br> [Azure SQL][SQL] <br> [Веб-приложения Azure][WebApps] <br> [Azure Cosmos DB][cosmos-db] <br> [HDInsight][HDInsight] | [Центры событий][EventHubs] <br> [Служебная шина][ServiceBus] <br> [Azure IoT][IoT] <br> [Машинное обучение Azure][machine-learning] |
 
 <!-- markdownlint-enable MD033 -->
 

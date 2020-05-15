@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 7db8091d12a763568a3ba7e549770fa94cf0ea23
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 5a7bfbffa84e7a64221d560b88067caebd311e85
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83216594"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400767"
 ---
 # <a name="create-business-alignment-in-cloud-management"></a>Создание делового выравнивания в управлении облаком
 
@@ -33,7 +33,7 @@ ms.locfileid: "83216594"
 
 ## <a name="operations-management-workbook"></a>Книга Operations Management
 
-Для отслеживания решений, которые появляющиеся в результате этого диалога о выравнивании терминов, на нашем сайте GitHub доступна [Книга Operations Management](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) . Эта книга не выполняет расчеты соглашения об уровне обслуживания или затрат. Он служит только для того, чтобы помочь в захвате таких мер и прогнозирования при утере, чтобы избежать усилий.
+Для отслеживания решений, которые появляющиеся в результате этого диалога о выравнивании терминов, на нашем сайте GitHub доступна [Книга Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) . Эта книга не выполняет расчеты соглашения об уровне обслуживания или затрат. Он служит только для того, чтобы помочь в захвате таких мер и прогнозирования при утере, чтобы избежать усилий.
 
 Кроме того, эти же рабочие нагрузки и связанные ресурсы можно пометить непосредственно в Azure, если решения уже развернуты в облаке.
 

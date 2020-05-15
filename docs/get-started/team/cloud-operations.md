@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 04/04/2020
-ms.openlocfilehash: c3bb04bd49a055e71a7572cd8c144a45f5da2efd
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: af65cff02d7c3768bf5fca554334923cf2172937
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229019"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400162"
 ---
 # <a name="get-started-build-a-cloud-operations-team"></a>Начало работы: создание группы облачных операций
 
@@ -55,7 +55,7 @@ ms.locfileid: "83229019"
 
 - Изучите [стратегию и шаблон плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) вашей компании с членами группы "облачная стратегия", чтобы понять мотивацию, метрики и стратегию.
 - Изучите [шаблон плана внедрения в облаке](../../plan/template.md) компании с членами группы внедрения в облако, чтобы понять временные шкалы и приоритеты.
-- Начните разработку [книги Operations Management](https://raw.githubusercontent.com/microsoft/cloudadoptionframework/master/manage/opsmanagementworkbook.xlsx) , чтобы понять эксплуатационные требования и обязательства, которые были установлены в бизнесе.
+- Начните разработку [книги Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) , чтобы понять эксплуатационные требования и обязательства, которые были установлены в бизнесе.
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -128,7 +128,7 @@ ms.locfileid: "83229019"
 **Рекомендации по поддержке готовности к завершению.**
 
 - Создание [делового выравнивания](../../manage/considerations/business-alignment.md) в облаке.
-- Документирование предположений портфеля и операций в [книге Operations Management](https://raw.githubusercontent.com/microsoft/cloudadoptionframework/master/manage/opsmanagementworkbook.xlsx).
+- Документирование предположений портфеля и операций в [книге Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx).
 
 **Подгруппа для учетных записей:**
 

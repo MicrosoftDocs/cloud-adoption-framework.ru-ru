@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 33aaab94c1f6758f6b77be62ab7a70ed2f6bc1ee
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 0f9c71ec1ee9ce258def9abb297e89567399aeb9
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223836"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400807"
 ---
 <!-- cSpell:ignore kusto multiresource multisignal -->
 
@@ -87,7 +87,7 @@ Azure Monitor включает поддержку интеграции с дру
 Azure Monitor для виртуальных машин | Критерии работоспособности — это метрики, записываемые в хранилище метрик. | Оповещения создаются, когда состояние работоспособности меняется с работоспособного на неработоспособное. Это оповещение поддерживает только группы действий, настроенные для отправки SMS или уведомлений по электронной почте. |
 | | Данные журнала производительности операционной системы на карте и виртуальной машине записываются в хранилище журналов. | Создание оповещений о запросах журнала. |
 
-<!-- docsTest:ignore "speed driven" -->
+<!-- docsTest:ignore "speed driven by cost" -->
 
 ### <a name="fastest-speed-driven-by-cost"></a>Самая высокая скорость, управляемая затратами
 

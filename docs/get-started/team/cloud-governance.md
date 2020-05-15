@@ -7,15 +7,13 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 04/04/2020
-ms.openlocfilehash: 5b1d1cb9213b40242e95af60bead9ef3a919054a
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: ac6696cf71d43fb8cae3ec5d7e8fe455cf18d989
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229149"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83400179"
 ---
-<!-- docsTest:ignore Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template -->
-
 # <a name="get-started-build-a-cloud-governance-team"></a>Приступая к работе. Создание группы по управлению облаком
 
 Группа управления облаком обеспечивает правильную оценку рисков и отказоустойчивость и управление ими. Эта команда обеспечивает правильную идентификацию рисков, которые не могут допускаться бизнесом. Сотрудники этой группы преобразуют риски в Управление корпоративными политиками.
@@ -55,7 +53,7 @@ ms.locfileid: "83229149"
 
 - Изучите [стратегию и шаблон плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) вашей компании с членами группы "облачная стратегия", чтобы понять мотивацию, метрики и стратегию.
 - Изучите [шаблон плана внедрения в облаке](../../plan/template.md) компании с членами группы внедрения в облако, чтобы понять временные шкалы и приоритеты.
-- Изучите [книгу Operations Management](https://raw.githubusercontent.com/microsoft/cloudadoptionframework/master/manage/opsmanagementworkbook.xlsx) Team, чтобы узнать о требованиях к эксплуатации и обязательствах, которые были установлены в бизнесе.
+- Изучите [книгу Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) Team, чтобы узнать о требованиях к эксплуатации и обязательствах, которые были установлены в бизнесе.
 
 <!-- markdownlint-disable MD033 -->
 <br>
