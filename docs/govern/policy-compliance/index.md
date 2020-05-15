@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: eec9c7ae36dbe92142226e78afcdd465e4aa66a2
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 63eeb2cbcaa278934ba107114057f911604883f2
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83224227"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83399523"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -31,7 +31,7 @@ ms.locfileid: "83224227"
 
 В традиционной системе управления с поэтапным подходом корпоративная политика создает рабочее определение управления. Большинство действий по управлению, выполняемых ИТ-отделами, ориентированы на внедрение технологий мониторинга, принудительного применения, эксплуатации и автоматизации этих корпоративных политик. Облачная система управления основана на аналогичных концепциях.
 
-![Корпоративная система управления и дисциплины управления](../../_images/operational-transformation-govern-highres.png)
+![Корпоративная система управления и дисциплины управления](../../_images/operational-transformation-govern-large.png)
 
 _Рис. 1. Корпоративная система управления и дисциплины управления._
 
