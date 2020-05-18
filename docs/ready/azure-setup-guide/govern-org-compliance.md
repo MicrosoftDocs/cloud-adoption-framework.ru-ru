@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 4dea8b186d2c37f614be364c605144a744479990
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: e7b5811099119e3f3b1c148ae550bd92e8fc8090
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80433201"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83223258"
 ---
 <!-- cSpell:ignore tvuylsteke >
 
@@ -54,7 +54,7 @@ ms.locfileid: "80433201"
 
 ::: zone target="docs"
 
-1. Перейдите в раздел [Схемы — Начало работы](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted).
+1. Выберите [Схемы: начало работы](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted).
 1. В разделе **Создание схемы** выберите **Создать**.
 1. Отфильтруйте список схем, чтобы выбрать соответствующую схему.
 1. Укажите **имя схемы** и выберите соответствующий **источник определения**.
@@ -162,8 +162,8 @@ ms.locfileid: "80433201"
 
 - [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center)
 - [JIT-доступ к виртуальной машине](https://docs.microsoft.com/azure/security-center/security-center-just-in-time#how-does-just-in-time-access-work)
-- [Сравнение ценовых категорий "Бесплатный" и "Стандартный"](https://azure.microsoft.com/pricing/details/security-center)
-- [Role-based об основных способах защиты](../../govern/security-baseline/index.md)
+- [Ценовые категории Центра безопасности](https://azure.microsoft.com/pricing/details/security-center)
+- [Role-based дисциплины "Базовые средства безопасности"](../../govern/security-baseline/index.md)
 
 ::: zone-end
 

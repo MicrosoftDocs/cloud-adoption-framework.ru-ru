@@ -1,6 +1,6 @@
 ---
 title: Общие сведения о дисциплине базовой системы идентификации
-description: Ознакомьтесь с подходом к разработке дисциплины "Основные способы идентификации" в составе стратегии управления облаком.
+description: Ознакомьтесь с подходом к разработке дисциплины "Базовые средства идентификации" в составе стратегии управления облаком.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -9,151 +9,152 @@ ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
 layout: LandingPage
-ms.openlocfilehash: 555128b25aa514bd1f98b2e0b53c3f4e1420cfef
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 4728270f71893680886e40b4e647b9fec6624ef7
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80997444"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83218821"
 ---
 # <a name="identity-baseline-discipline-overview"></a>Общие сведения о дисциплине базовой системы идентификации
 
-Основные способы идентификации — это один из [пяти аспектов системы управления облачными ресурсами](../governance-disciplines.md) в [модели управления Cloud Adoption Framework](../index.md). Идентификатор все чаще рассматривается в качестве основного периметра безопасности в облаке, что является переходом от традиционного подхода к безопасности сети. Службы идентификации предоставляют основные механизмы, поддерживающие контроль доступа и организацию ресурсов в информационной среде, а дисциплина "Базовая система идентификации" дополняет [дисциплину "Базовая система безопасности"](../security-baseline/index.md), последовательно применяя требования проверки подлинности и авторизации в рамках усилий по принятию облака.
+Базовые средства идентификации — это одна из [пяти дисциплин системы управления облачными ресурсами](../governance-disciplines.md) в [модели управления Cloud Adoption Framework](../index.md). Идентификатор все чаще рассматривается в качестве основного периметра безопасности в облаке, что является переходом от традиционного подхода к безопасности сети. Службы идентификации предоставляют основные механизмы, поддерживающие контроль доступа и организацию ресурсов в информационной среде, а дисциплина "Базовая система идентификации" дополняет [дисциплину "Базовая система безопасности"](../security-baseline/index.md), последовательно применяя требования проверки подлинности и авторизации в рамках усилий по принятию облака.
 
 > [!NOTE]
-> Система управления базовой идентификацией не заменяет существующие ИТ-подразделения, процессы и процедуры, которые позволяют вашей организации управлять службами идентификации и защищать их. Основная цель этой дисциплины — выявить потенциальные бизнес-риски, связанные с идентификацией, и предоставить рекомендации по их устранению для ИТ-специалистов, отвечающих за внедрение, обслуживание и эксплуатацию инфраструктуры управления идентификацией. При разработке политик и процессов управления не забудьте привлечь соответствующих ИТ-специалистов к процессам планирования и проверки.
+> Дисциплина "Базовые средства идентификации" не заменяет существующие ИТ-подразделения, процессы и процедуры, которые позволяют вашей организации управлять службами идентификации и защищать их. Основная цель этой дисциплины — выявить потенциальные бизнес-риски, связанные с идентификацией, и предоставить рекомендации по их устранению для ИТ-специалистов, отвечающих за внедрение, обслуживание и эксплуатацию инфраструктуры управления идентификацией. При разработке политик и процессов управления не забудьте привлечь соответствующих ИТ-специалистов к процессам планирования и проверки.
 
 В этом разделе документации по Cloud Adoption Framework описано, как включить аспект работы с основными способами идентификации в стратегию управления облачными решениями. Основная аудитория этого руководства — облачные архитекторы вашей организации и другие участники вашей команды по управлению облачными решениями. Тем не менее решения, политики и процессы, вытекающие из этой дисциплины, должны включать привлечение соответствующих участников ИТ-команды, отвечающих за внедрение решениями по управлению идентификацией в вашей организации и управление ими, а также обсуждение с ними связанных с этим вопросов.
 
-Если вашей организации не хватает внутреннего опыта в области базовой системы идентификации и безопасности, рассмотрите возможность привлечения внешних консультантов в рамках этой дисциплины. Кроме того, рассмотрите возможность привлечения [служб консультирования Майкрософт](https://www.microsoft.com/industry/services/consulting), службы [Microsoft FastTrack](https://azure.microsoft.com/programs/azure-fasttrack) по внедрению облака или других внешних партнеров по внедрению облачных технологий для обсуждения проблем, связанных с этой дисциплиной.
+Если вашей организации не хватает внутреннего опыта в области идентификации и безопасности, рассмотрите возможность привлечения внешних консультантов в рамках этой дисциплины. Кроме того, рассмотрите возможность привлечения [служб консультирования Майкрософт](https://www.microsoft.com/industry/services/consulting), службы [Microsoft FastTrack](https://azure.microsoft.com/programs/azure-fasttrack) по внедрению облака или других внешних партнеров по внедрению облачных технологий для обсуждения проблем, связанных с этой дисциплиной.
 
 ## <a name="policy-statements"></a>Правила политики
 
-Действующие правила политики и соответствующие требования к архитектуре служат основой дисциплины "Базовая система идентификации". Примеры правил политики см. в [этой статье](./policy-statements.md). Эти примеры можно использовать в качестве отправной точки для политик системы управления организации.
+Действующие правила политики и соответствующие требования к архитектуре служат основой дисциплины "Базовая система идентификации". Примеры правил политики см. в статье [Заявления политик для базовых средств идентификации](./policy-statements.md). Эти примеры можно использовать в качестве отправной точки для политик системы управления организации.
 
 > [!CAUTION]
 > Примеры политик взяты из общего опыта клиентов. Чтобы лучше согласовать эти политики с конкретными потребностями системы управления облаком, выполните следующие шаги для создания правил политики, соответствующих уникальным потребностям вашей компании.
 
 ## <a name="develop-governance-policy-statements"></a>Разработка положений политики системы управления
 
-В следующих шести пунктах показаны примеры и потенциальные варианты, которые следует учитывать при разработке системы управления базовых способов идентификации. Используйте каждый пункт как отправную точку при принятии решений с участием команды по управлению облачными решениями и соответствующими бизнес-представителями, а также с ИТ-отделами вашей организации. Так вы сможете определить политики и способы управления рисками, связанными с идентификацией.
+В следующих шести пунктах показаны примеры и потенциальные варианты, которые следует учитывать при разработке дисциплины "Базовые средства идентификации". Используйте каждый пункт как отправную точку при принятии решений с участием команды по управлению облачными решениями и соответствующими бизнес-представителями, а также с ИТ-отделами вашей организации. Так вы сможете определить политики и способы управления рисками, связанными с идентификацией.
 
 <!-- markdownlint-disable MD033 -->
 
 <ul class="panelContent cardsE">
-<li style="display: flex; flex-direction: column;">
-    <a href="./template.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-template.png" class="x-hidden-focus"/>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./template.md">
+            <div class="cardSize">
+                <div class="cardPadding" >
+                    <div class="card" >
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../../_images/govern/process-template.png" class="x-hidden-focus"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Шаблон базовой системы идентификации</h3>
-                        <p class="x-hidden-focus">Скачайте шаблон для документирования дисциплины "Базовая система идентификации".</p>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Шаблон дисциплины "Базовые средства идентификации"</h3>
+                            <p class="x-hidden-focus">Скачайте шаблон для документирования дисциплины "Базовые средства идентификации".</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </a>
-</li><li style="display: flex; flex-direction: column;">
-    <a href="./business-risks.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-risks.png" class="x-hidden-focus"/>
+        </a>
+    </li>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./business-risks.md">
+            <div class="cardSize">
+                <div class="cardPadding" >
+                    <div class="card" >
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../../_images/govern/process-risks.png" class="x-hidden-focus"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Бизнес-риски</h3>
-                        <p class="x-hidden-focus">Вы должны изучить мотивы и риски, связанные с дисциплиной "Базовая система идентификации".</p>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Бизнес-риски</h3>
+                            <p class="x-hidden-focus">Вы должны изучить мотивы и риски, связанные с дисциплиной "Базовая система идентификации".</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./metrics-tolerance.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-metrics.png" class="x-hidden-focus"/>
+        </a>
+    </li>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./metrics-tolerance.md">
+            <div class="cardSize">
+                <div class="cardPadding" >
+                    <div class="card" >
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../../_images/govern/process-metrics.png" class="x-hidden-focus"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Индикаторы и метрики</h3>
-                        <p class="x-hidden-focus">Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Базовая система идентификации".</p>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Индикаторы и метрики</h3>
+                            <p class="x-hidden-focus">Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Базовая система идентификации".</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./compliance-processes.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-enforce.png" class="x-hidden-focus"/>
+        </a>
+    </li>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./compliance-processes.md">
+            <div class="cardSize">
+                <div class="cardPadding" >
+                    <div class="card" >
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../../_images/govern/process-enforce.png" class="x-hidden-focus"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Процессы, обеспечивающие соблюдение политики</h3>
-                        <p class="x-hidden-focus">Здесь предложены процессы для соблюдения политики в дисциплине "Базовая система идентификации".</p>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Процессы, обеспечивающие соблюдение политики</h3>
+                            <p class="x-hidden-focus">Здесь предложены процессы для соблюдения политики в дисциплине "Базовая система идентификации".</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./discipline-improvement.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-maturity.png" class="x-hidden-focus"/>
+        </a>
+    </li>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./discipline-improvement.md">
+            <div class="cardSize">
+                <div class="cardPadding" >
+                    <div class="card" >
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../../_images/govern/process-maturity.png" class="x-hidden-focus"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Зрелость</h3>
-                        <p class="x-hidden-focus">Согласование оптимизации управления облаком с этапами внедрения облачных технологий.</p>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Зрелость</h3>
+                            <p class="x-hidden-focus">Согласование оптимизации управления облаком с этапами внедрения облачных технологий.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./toolchain.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-toolchain.png" class="x-hidden-focus"/>
+        </a>
+    </li>
+    <li style="display: flex; flex-direction: column;">
+        <a href="./toolchain.md">
+            <div class="cardSize">
+                <div class="cardPadding" >
+                    <div class="card" >
+                        <div class="cardImageOuter">
+                            <div class="cardImage">
+                                <img src="../../_images/govern/process-toolchain.png" class="x-hidden-focus"/>
+                            </div>
                         </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Цепочка инструментов</h3>
-                        <p class="x-hidden-focus">Службы Azure, которые можно использовать для поддержки дисциплины "Базовая система идентификации".</p>
+                        <div class="cardText" style="padding-left:0px;">
+                            <h3>Цепочка инструментов</h3>
+                            <p class="x-hidden-focus">Службы Azure, которые можно использовать для поддержки дисциплины "Базовая система идентификации".</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </a>
-</li>
+        </a>
+    </li>
 </ul>
 
 <!-- markdownlint-enable MD033 -->

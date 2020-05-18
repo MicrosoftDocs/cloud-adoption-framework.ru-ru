@@ -1,6 +1,6 @@
 ---
 title: Эффективная организация ресурсов Azure
-description: Получите необходимые рекомендации по эффективной организации ресурсов Azure для простоты управления.
+description: Ознакомьтесь с рекомендациями по эффективной организации ресурсов Azure, которые помогут упростить управление ресурсами.
 author: laraaleite
 ms.author: kfollis
 ms.date: 04/09/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: b47f0e3cf6c69bbdf3d5c8260ad4094312e1bea2
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: d3d0afed921d11b16b1d33de311df1144aea6d4a
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80997552"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83221949"
 ---
 <!-- cSpell:ignore laraaleite profx fsubscriptions fresource -->
 
@@ -146,9 +146,9 @@ ms.locfileid: "80997552"
 
 | Сущность | Область | Длина | Регистр | Допустимые знаки | Рекомендуемый шаблон | Пример |
 | --- | --- | --- | --- | --- | --- | --- |
-|Группа ресурсов |Подписка |1–90 |Без учета регистра |Буквы, цифры, символ подчеркивания, круглые скобки, дефис и точка (но не в конце имени) и символы Юникода |`<service short name>-<environment>-rg` |`profx-prod-rg` |
-|Группа доступности |Группа ресурсов |От 1 до 80 |Без учета регистра |Буквы, цифры, символ подчеркивания и дефис |`<service-short-name>-<context>-as` |`profx-sql-as` |
-|Тег |Связанная сущность |512 (имя), 256 (значение) |Без учета регистра |Буквенно-цифровой |`"key" : "value"` |`"department" : "Central IT"` |
+| Группа ресурсов | Подписка | 1–90 | Без учета регистра | Буквы, цифры, символ подчеркивания, круглые скобки, дефис и точка (но не в конце имени) и символы Юникода | `<service short name>-<environment>-rg` | `profx-prod-rg` |
+| Группа доступности | Группа ресурсов | От 1 до 80 | Без учета регистра | Буквы, цифры, символ подчеркивания и дефис | `<service-short-name>-<context>-as` | `profx-sql-as` |
+| Тег | Связанная сущность | 512 (имя), 256 (значение) | Без учета регистра | Буквенно-цифровой | `"key" : "value"` | `"department" : "Central IT"` |
 
 # <a name="resource-tags"></a>[Теги ресурсов](#tab/ResourceTags)
 
@@ -164,7 +164,7 @@ ms.locfileid: "80997552"
 
 Каждый ресурс или группа ресурсов может содержать не более 50 пар "имя-значение" для тегов. Это ограничение применяется только к тегам, которые непосредственно связаны с группой ресурсов или ресурсами.
 
-Дополнительные рекомендации и примеры тегов можно найти в [руководстве по использованию тегов](../azure-best-practices/naming-and-tagging.md) для Cloud Adoption Framework.
+Дополнительные сведения можно найти в статье [Рекомендации по именованию и назначению тегов](../azure-best-practices/naming-and-tagging.md) для Cloud Adoption Framework.
 
 ::: zone target="docs"
 
@@ -172,7 +172,7 @@ ms.locfileid: "80997552"
 
 Чтобы применить тег к группе ресурсов, сделайте следующее:
 
-1. Перейдите на страницу [Группы ресурсов](https://ms.portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups).
+1. Перейдите на страницу [Группы ресурсов](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups).
 1. Выберите группу ресурсов.
 1. Выберите **Назначить теги**.
 1. Введите новые имя и значение или выберите имеющиеся в раскрывающемся списке.

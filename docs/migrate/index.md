@@ -3,108 +3,35 @@ title: Миграция в облако
 description: Узнайте, как наладить итеративные процессы для оценки, миграции оптимизации, а также защиты рабочих нагрузок и управления ими, если планируете переход в облако.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2020
-ms.topic: landing-page
+ms.date: 05/04/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-layout: LandingPage
-ms.openlocfilehash: b341996c45c4a0c5b7d8467419c3117f939afa20
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 8a1c601108befd2dbbb32a6b24d72a1b0852d081
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81120755"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83219535"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
 Любой корпоративный [план внедрения облачных технологий](../plan/index.md) включает рабочие нагрузки, которые не обязательно будут широко использоваться при создании бизнес-логики. Эти рабочие нагрузки можно перенести в облако, используя столько подходов (lift-and-shift, lift-and-optimize или модернизация), сколько вам нужно. Каждый из таких подходов считается миграцией. Следующие задачи помогут определить итеративные процессы для оценки, миграции, оптимизации, а также защиты этих рабочих нагрузок и управления ими.
 
-## <a name="getting-started"></a>Начало работы
-
-Для подготовки к этому этапу внедрения облачных технологий на платформе рекомендуется выполнить следующие упражнения:
+Для подготовки к этому этапу внедрения облачных технологий мы рекомендуем следующее:
 
 <!-- markdownlint-disable MD033 -->
-<ul class="panelContent cardsF">
-    <li style="display: flex; flex-direction: column;">
-        <a href="./azure-migration-guide/index.md">
-            <div class="cardSize">
-                <div class="cardPadding" style="padding-bottom:10px;">
-                    <div class="card" style="padding-bottom:10px;">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img alt="" src="../_images/icons/1.png" data-linktype="external">
-                            </div>
-                        </div>
-                        <div class="cardText" style="padding-left:0px;">
-                            <h3>Перенос первой рабочей нагрузки</h3>
-Ознакомьтесь с собственными средствами Azure и подходом к миграции, описанными в руководстве по миграции Azure.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li style="display: flex; flex-direction: column;">
-        <a href="./azure-best-practices/index.md">
-            <div class="cardSize">
-                <div class="cardPadding" style="padding-bottom:10px;">
-                    <div class="card" style="padding-bottom:10px;">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img alt="" src="../_images/icons/2.png" data-linktype="external">
-                            </div>
-                        </div>
-                        <div class="cardText" style="padding-left:0px;">
-                            <h3>Сценарии миграции</h3>
-Реализуйте альтернативные сценарии миграции с использованием дополнительных средств и подходов.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li style="display: flex; flex-direction: column;">
-        <a href="./azure-best-practices/index.md">
-            <div class="cardSize">
-                <div class="cardPadding" style="padding-bottom:10px;">
-                    <div class="card" style="padding-bottom:10px;">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img alt="" src="../_images/icons/3.png" data-linktype="external">
-                            </div>
-                        </div>
-                        <div class="cardText" style="padding-left:0px;">
-                            <h3>Рекомендации</h3>
-Обеспечьте соответствие распространенным потребностям при миграции, применив согласованные рекомендации.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li style="display: flex; flex-direction: column;">
-        <a href="./migration-considerations/index.md">
-            <div class="cardSize">
-                <div class="cardPadding" style="padding-bottom:10px;">
-                    <div class="card" style="padding-bottom:10px;">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img alt="" src="../_images/icons/4.png" data-linktype="external">
-                            </div>
-                        </div>
-                        <div class="cardText" style="padding-left:0px;">
-                            <h3>Улучшение процессов</h3>
-Миграция — это интенсивный процесс. По мере его выполнения используйте программы улучшения процесса для оценки и отладки различных аспектов миграции.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
+
+| | |
+|---|---|
+| ![1](../_images/icons/1.png)     | <br>[Перенос первой рабочей нагрузки.](./azure-migration-guide/index.md) Ознакомьтесь с собственными средствами Azure и подходом к миграции, описанными в руководстве по миграции Azure.                                |
+| ![2](../_images/icons/2.png)     | <br>[Сценарии миграции.](./azure-best-practices/index.md) Реализуйте альтернативные сценарии миграции с использованием дополнительных средств и подходов.                                |
+| ![3](../_images/icons/3.png)     | <br>[Рекомендация](./azure-best-practices/index.md). Обеспечьте соответствие распространенным потребностям при миграции, применив согласованные рекомендации.                                |
+| ![4](../_images/icons/4.png)      | <br>[Улучшение процессов.](./migration-considerations/index.md) Миграция — это интенсивный процесс. По мере его выполнения используйте программы улучшения процесса для оценки и отладки различных аспектов миграции.                        |
+
 <!-- markdownlint-enable MD033 -->
 
-Эта методики и приведенные выше инструкции основаны на следующих предположениях:
+Методика миграции и приведенные выше инструкции основаны на следующих предположениях:
 
 - Методология, управляющая спринтами миграции, основана на волнах или выпусках миграции, которые определяются с помощью методик планирования, подготовки и внедрения. В рамках каждого спринта миграции пакет рабочих нагрузок переносится в облако.
 - Перед переносом рабочих нагрузок определена, настроена и развернута как минимум одна [целевая зона](../ready/index.md), чтобы обеспечить соответствие потребностям краткосрочного плана внедрения.
@@ -127,7 +54,7 @@ ms.locfileid: "81120755"
 > [!NOTE]
 > В ходе некоторых ранних итераций миграции область действия обычно ограничивается одной рабочей нагрузкой. Такой подход позволяет максимально сохранить навыки, предоставляя команде больше времени для экспериментов и обучения.
 > [!NOTE]
-> При создании фабрики миграции каждая из описанных фаз может распределяться между разными командами и (или) спринтами. Такой подход может улучшить воспроизводимость и ускорить миграцию.
+> При создании фабрики миграции каждая из описанных фаз может распределяться между разными командами и спринтами. Такой подход может улучшить воспроизводимость и ускорить миграцию.
 
 ## <a name="migration-waves"></a>Волны миграции
 
@@ -137,7 +64,7 @@ ms.locfileid: "81120755"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Приведенные выше инструкции по началу работы и последующее руководство по методологии миграции помогут вам приобрести навыки для оптимизации процессов в рамках каждого спринта миграции. [Руководство по миграции Azure](./azure-migration-guide/index.md) — это серия кратких статей с описанием самых распространенных средств и подходов, используемых во время первой волны миграции.
+Приведенные выше инструкции и последующее руководство по методологии миграции помогут вам приобрести навыки для оптимизации процессов в рамках каждого спринта миграции. [Руководство по миграции Azure](./azure-migration-guide/index.md) — это серия кратких статей с описанием самых распространенных средств и подходов, используемых во время первой волны миграции.
 
 > [!div class="nextstepaction"]
 > [Руководство по миграции в Azure](./azure-migration-guide/index.md)

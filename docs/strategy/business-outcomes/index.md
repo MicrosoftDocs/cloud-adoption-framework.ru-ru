@@ -7,12 +7,12 @@ ms.date: 03/27/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 646ac9da914939a63b9bd4a5cb73ae2899263823
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 5284af93b76ae2396e753914264861492b65356f
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80392516"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83218770"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -22,7 +22,7 @@ ms.locfileid: "80392516"
 
 При любом переходе в облако обсуждение определенных бизнес-результатов обеспечивает прозрачность и укрепляет партнерские отношения между подразделениями. Структура бизнес-результатов — это простой шаблон, который помогает техническим специалистам документировать и согласовывать свою работу. С помощью этого шаблона можно собрать мнения об ожидаемых бизнес-результатах, на которые повлияет планируемый процесс преобразования, от различных заинтересованных лиц. Вы можете выбрать электронный формат шаблона или даже разместить его на доске для обсуждения с руководителями и другими заинтересованными лицами.
 
-Подробные сведения о бизнес-результатах и предлагаемом шаблоне см. в руководстве по [определению бизнес-результатов](./business-outcome-template.md). Также вы можете скачать [шаблон структуры бизнес-результатов](https://archcenter.blob.core.windows.net/cdn/business-outcome-template.xlsx).
+Подробные сведения о бизнес-результатах и предлагаемом шаблоне см. в статье [Документирование бизнес-результатов](./business-outcome-template.md). Также вы можете скачать [шаблон структуры бизнес-результатов](https://archcenter.blob.core.windows.net/cdn/business-outcome-template.xlsx).
 
 ## <a name="prepare-for-conversations-with-different-personas"></a>Подготовка к обсуждению с разными лицами
 

@@ -1,0 +1,186 @@
+### YamlMime:Hub
+title: Microsoft Cloud Adoption Framework для Azure
+summary: Cloud Adoption Framework — это пакет с документацией, руководствами по реализации, рекомендациями и средствами, которые предоставляются корпорацией Майкрософт для ускорения перехода к облаку.
+brand: azure
+metadata:
+  title: Microsoft Cloud Adoption Framework для Azure
+  description: Cloud Adoption Framework — это пакет с документацией, руководствами по реализации, рекомендациями и средствами, которые ускоряют переход к облаку.
+  ms.service: cloud-adoption-framework
+  ms.topic: landing-page
+  services: cloud-adoption-framework
+  author: JanetCThomas
+  ms.author: janet
+  ms.date: 04/20/2020
+  ms.openlocfilehash: 2214466178729bcf6cb0e6ddd02a22d036039004
+  ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+  ms.translationtype: HT
+  ms.contentlocale: ru-RU
+  ms.lasthandoff: 05/12/2020
+  ms.locfileid: "83228309"
+highlightedContent:
+  items:
+  - title: Начните переход к облаку
+    itemType: get-started
+    url: ./get-started/index.md
+  - title: Найдите инструменты и шаблоны для внедрения облака
+    itemType: download
+    url: ./reference/tools-templates.md
+  - title: Что такое Cloud Adoption Framework
+    itemType: overview
+    url: ./overview.md
+  - title: Что нового в Cloud Adoption Framework
+    itemType: whats-new
+    url: ./get-started/whats-new.md
+productDirectory:
+  title: Руководство по Cloud Adoption Framework
+  summary: В этом руководстве описаны разные этапы жизненного цикла внедрения облачных технологий, чтобы вы могли получить нужные рекомендации в нужное время.
+  items:
+  - title: Начало работы
+    imageSrc: https://docs.microsoft.com/media/common/i_road-map.svg
+    links:
+    - url: ./get-started/cloud-concepts.md
+      text: Документирование базовых решений
+    - url: ./get-started/migrate.md
+      text: Ускорение миграции
+    - url: ./get-started/operational-excellence.md
+      text: Обеспечение максимальной эффективности операционных процессов
+    - url: ./get-started/org-alignment.md
+      text: Согласование процессов в организации
+  - title: Стратегия
+    imageSrc: ./_images/caf-strategy.png
+    links:
+    - url: ./strategy/motivations.md
+      text: Цели
+    - url: ./strategy/business-outcomes/index.md
+      text: Бизнес-результаты
+    - url: ./strategy/partner-alignment.md
+      text: Согласование стратегии взаимодействия с партнерами
+    - url: ./strategy/first-adoption-project.md
+      text: Выбор подходящего первого проекта
+  - title: План
+    imageSrc: ./_images/caf-plan.png
+    links:
+    - url: ./digital-estate/rationalize.md
+      text: Рационализация цифровых активов
+    - url: ./plan/initial-org-alignment.md
+      text: Соответствие структуре организации
+    - url: ./plan/suggested-skills.md
+      text: План подготовки навыков
+    - url: ./plan/template.md
+      text: Использование DevOps при создании плана внедрения облака
+  - title: Ready
+    imageSrc: ./_images/caf-ready.png
+    links:
+    - url: ./ready/azure-setup-guide/index.md
+      text: Руководство по настройке Azure
+    - url: ./ready/landing-zone/migrate-landing-zone.md
+      text: Первая зона размещения
+    - url: ./ready/considerations/index.md
+      text: Расширение целевой зоны
+    - url: ./ready/azure-best-practices/index.md
+      text: Рекомендации по обеспечению готовности к работе в Azure
+  - title: Миграция
+    imageSrc: ./_images/caf-migrate.png
+    links:
+    - url: ./migrate/azure-migration-guide/index.md
+      text: Руководство по миграции в Azure
+    - url: ./migrate/azure-best-practices/contoso-migration-overview.md
+      text: Сценарии миграции
+    - url: ./migrate/azure-best-practices/index.md
+      text: Рекомендации по миграции в облако
+    - url: ./migrate/migration-considerations/index.md
+      text: Улучшение процессов
+  - title: Инновации
+    imageSrc: ./_images/caf-adopt.png
+    links:
+    - url: ./innovate/business-value.md
+      text: Согласование действий по повышению рентабельности
+    - url: ./innovate/innovation-guide/index.md
+      text: Руководство по инновациям Azure
+    - url: ./innovate/best-practices/index.md
+      text: Рекомендации
+    - url: ./innovate/considerations/adoption.md
+      text: Циклы обратной связи
+  - title: Управление
+    imageSrc: ./_images/caf-govern.png
+    links:
+    - url: ./govern/methodology.md
+      text: Методика
+    - url: ./govern/benchmark.md
+      text: Оценка производительности
+    - url: ./govern/initial-foundation.md
+      text: Базовые аспекты системы управления
+    - url: ./govern/foundation-improvements.md
+      text: Улучшение базовых аспектов
+  - title: Управление
+    imageSrc: ./_images/caf-manage.png
+    links:
+    - url: ./manage/azure-management-guide/index.md
+      text: Базовый план управления
+    - url: ./manage/considerations/business-alignment.md
+      text: Бизнес-обязательства
+    - url: ./manage/best-practices.md
+      text: Расширение базового плана
+    - url: ./manage/design-principles.md
+      text: Оценка принципов проектирования
+  - title: Организация
+    imageSrc: https://docs.microsoft.com/media/common/i_configure-teams.svg
+    links:
+    - url: ./organize/index.md
+      text: Соответствие структуре организации
+    - url: ./organize/organization-structures.md
+      text: Подготовка команд
+    - url: ./organize/raci-alignment.md
+      text: Согласование обязанностей
+tools:
+  title: Развитие навыков с помощью Microsoft Learn
+  summary: Узнайте больше об Azure и Cloud Adoption Framework, пройдя следующие модули Microsoft Learn.
+  items:
+  - title: Microsoft Cloud Adoption Framework для Azure
+    imageSrc: ./_images/learn-caf-logo.png
+    url: https://docs.microsoft.com/learn/modules/microsoft-cloud-adoption-framework-for-azure/index
+  - title: Основные понятия Azure
+    imageSrc: ./_images/learn-azure-fundamentals-logo.png
+    url: https://docs.microsoft.com/learn/paths/azure-fundamentals
+  - title: Изучение ценности Azure для бизнеса
+    imageSrc: ./_images/learn-business-value-of-azure-logo.png
+    url: https://docs.microsoft.com/learn/paths/learn-business-value-of-azure
+conceptualContent:
+  title: Оценки
+  summary: Оценки помогают спланировать переход к облаку. Используйте их для выявления различий между текущим и требуемым состояниями. Мы предоставим персонализированные проверенные рекомендации, которые помогут вам достичь желаемого состояния.
+  items:
+  - title: Средство отслеживания перехода в облако
+    links:
+    - url: https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker
+      itemType: get-started
+      text: Определите путь перехода к облаку с учетом потребностей своего бизнеса.
+  - title: Средство стратегической оценки и подготовки к миграции (SMART)
+    links:
+    - url: https://docs.microsoft.com/assessments/?mode=pre-assessment&id=Strategic-Migration-Assessment
+      itemType: get-started
+      text: Откройте для себя возможности перехода к облаку, улучшайте процессы и повышайте результативность бизнеса.
+  - title: Тест производительности системы управления
+    links:
+    - url: https://www.cafbaseline.com
+      itemType: quickstart
+      text: Определите расхождения между текущим состоянием и бизнес-приоритетами, а также получите доступ к ресурсам, которые позволят устранить эти расхождения.
+  - title: Проверка архитектуры Azure
+    links:
+    - url: https://docs.microsoft.com/assessments/?mode=pre-assessment&id=azure-architecture-review
+      itemType: architecture
+      text: Узнайте, как расширить возможности базовых операций для приоритетных рабочих нагрузок.
+additionalContent:
+  sections:
+  - title: Получить поддержку
+    summary: Если на вашем пути к облаку возникли препятствия, корпорация Майкрософт предоставит вам ресурсы для их устранения.
+    items:
+    - title: FastTrack for Azure
+      summary: Получить помощь от специалистов Майкрософт
+      url: https://azure.microsoft.com/programs/azure-fasttrack
+    - title: Программа по миграции в Azure
+      summary: Получить помощь с переносом рабочих нагрузок в облако
+      url: https://azure.microsoft.com/migration/migration-program
+    - title: Найти партнера
+      summary: Найти партнера, который поможет приступить к работе
+      url: https://aka.ms/adopt/findapartner
+  footer: Узнайте о преимуществах Cloud Adoption Framework для вашего бизнеса. [https://aka.ms/adopt](https://azure.microsoft.com/cloud-adoption-framework)

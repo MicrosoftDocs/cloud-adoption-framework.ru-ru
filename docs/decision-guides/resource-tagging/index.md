@@ -8,13 +8,15 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 7d59f446966d853e29fc5c44bbc2da44cba114c2
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 824d5fbe48074dd9a220a20bbf05f3d17c3445c1
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81396105"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83222765"
 ---
+<!--docsTest:disable - TODO -->
+
 <!-- cSpell:ignore catalogsearch northamerica jsmith contactalias catsearchowners businessprocess businessimpact revenueimpact -->
 
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
@@ -27,8 +29,8 @@ ms.locfileid: "81396105"
   - [Модели облачного учета](../../strategy/cloud-accounting.md)
   - [Вычисления рентабельности инвестиций](../../strategy/financial-models.md#return-on-investment)
   - [Отслеживание затрат](../../ready/azure-best-practices/track-costs.md)
-  - [Бюджеты](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
-  - [Оповещения](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?toc=https://docs.microsoft.com/azure/cloud-adoption-framework/toc.json&bc=https://docs.microsoft.com/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Бюджеты](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Оповещения](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
   - [Отслеживание регулярных затрат и отчетность](../../govern/cost-management/compliance-processes.md)
   - [Оптимизация после реализации](../../govern/cost-management/discipline-improvement.md#operate-and-post-implementation)
   - [Тактика оптимизации затрат](../../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices)
@@ -76,11 +78,11 @@ ms.locfileid: "81396105"
 
 | Тип тега | Примеры | Описание |
 |-----|-----|-----|
-| Функциональные            | app = catalogsearch1 <br/>tier = web <br/>webserver = apache<br/>env = prod <br/>env = staging <br/>env = dev                 | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик.                                 |
-| Классификация        | confidentiality=private<br/>sla = 24hours                                 | Классификация ресурсов по методам использования и применимым к ресурсам политикам.                               |
-| Учет            | department = finance <br/>program = business-initiative <br/>region = northamerica | Позволяет сопоставить ресурс с определенным группами внутри организации для выставления счетов. |
-| Партнерство           | owner = jsmith <br/>contactalias = catsearchowners<br/>stakeholders = user1;user2;user3<br/>                       | Сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него.                      |
-| Назначение               | businessprocess=support<br/>businessimpact=moderate<br/>revenueimpact=high   | Сопоставление ресурсов с бизнес-функциями для поддержки решения об инвестициях.  |
+| Функциональные | app&nbsp;=&nbsp;catalogsearch1 <br> tier&nbsp;=&nbsp;web <br> webserver&nbsp;=&nbsp;apache <br> env&nbsp;=&nbsp;prod <br> env&nbsp;=&nbsp;staging <br> env&nbsp;=&nbsp;dev | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик. |
+| Классификация | confidentiality&nbsp;=&nbsp;private <br> SLA&nbsp;=&nbsp;24hours | Классификация ресурсов по методам использования и применимым к ресурсам политикам. |
+| Учет | department&nbsp;=&nbsp;finance <br> program&nbsp;=&nbsp;business-initiative <br> region&nbsp;=&nbsp;northamerica | Позволяет сопоставить ресурс с определенным группами внутри организации для выставления счетов. |
+| Партнерство | owner&nbsp;=&nbsp;jsmith <br> contactalias&nbsp;=&nbsp;catsearchowners <br> stakeholders&nbsp;=&nbsp;user1;user2;user3 | Сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него. |
+| Назначение | businessprocess&nbsp;=&nbsp;support <br> businessimpact&nbsp;=&nbsp;moderate <br> revenueimpact&nbsp;=&nbsp;high | Сопоставление ресурсов с бизнес-функциями для поддержки решения об инвестициях. |
 
 <!-- markdownlint-enable MD033 -->
 
@@ -89,7 +91,7 @@ ms.locfileid: "81396105"
 Дополнительные сведения о присвоении имен и тегов в Azure см. в следующих статьях:
 
 - [Соглашения об именовании для ресурсов Azure.](../../ready/azure-best-practices/naming-and-tagging.md) Обратитесь к руководству по рекомендованным соглашениям об именовании для ресурсов Azure.
-- [Использование тегов для упорядочения ресурсов в Azure](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-using-tags). Вы можете применить в Azure теги на уровнях группы ресурсов или отдельного ресурса, что дает гибкость в подробном учете бухгалтерских отчетов на основе присвоенных тегов.
+- [Используйте теги для упорядочивания ресурсов Azure и создания иерархии управления.](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources) Вы можете применить в Azure теги на уровнях группы ресурсов или отдельного ресурса, что дает гибкость в подробном учете бухгалтерских отчетов на основе присвоенных тегов.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: e8ccc7dcefb1fe2fe194e743fe139819ab29b01f
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: db526c15a4e33f9531a404c8c257d9c6b5b90261
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "81120495"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83222323"
 ---
 ::: zone target="docs"
 
@@ -64,7 +64,7 @@ Application Insights — это инструмент отслеживания, 
 
 ::: zone target="docs"
 
-Чтобы просмотреть данные о приложениях, откройте [портал Azure](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Insights%2FComponents).
+Чтобы просмотреть данные о приложениях, откройте [портал Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Insights%2FComponents).
 
 ::: zone-end
 
@@ -108,7 +108,7 @@ Application Insights — это инструмент отслеживания, 
 
 ::: zone target="docs"
 
-Чтобы открыть службы управления API, перейдите на [портал Azure](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.ApiManagement%2FService).
+Чтобы открыть службы управления API, перейдите на [портал Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.ApiManagement%2FService).
 
 ::: zone-end
 
@@ -177,7 +177,7 @@ Application Insights — это инструмент отслеживания, 
 
 ::: zone target="docs"
 
-Чтобы просмотреть свои приложения в Службе приложений, перейдите на [портал Azure](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Web%2FSites).
+Чтобы просмотреть свои приложения в Службе приложений, перейдите на [портал Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.Web%2FSites).
 
 ::: zone-end
 

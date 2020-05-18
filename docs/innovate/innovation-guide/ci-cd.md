@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: d4c09f7e92f0c023b641148987a1dad0459e91e5
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 8ba2926d702b12234dd81f93cb6820352c0fbf58
+ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80809022"
+ms.lasthandoff: 05/12/2020
+ms.locfileid: "83222272"
 ---
 ::: zone target="docs"
 
@@ -28,7 +28,7 @@ ms.locfileid: "80809022"
 
 ::: zone-end
 
-Вы знаете, что инновации очень важны для успеха бизнеса. Для внедрения инноваций недостаточно ввести новые технологии. Необходимо уделять внимание поддержке тех людей, которые катализируют изменения и создают новые ценности, интересующие вас. *Разработчики* являются двигателями цифрового преобразования, и для расширения их возможностей необходимо повысить скорость разработки. Чтобы высвободить творческую энергию команд разработчиков, необходимо помочь им повысить эффективность труда, обеспечить безопасную совместную работу в глобальном масштабе, а также устранить препятствия для масштабирования инноваций.
+Вы знаете, что инновации очень важны для успеха бизнеса. Для внедрения инноваций недостаточно ввести новые технологии. Необходимо уделять внимание поддержке тех людей, которые катализируют изменения и создают новые ценности, интересующие вас. _Разработчики_ являются двигателями цифрового преобразования, и для расширения их возможностей необходимо повысить скорость разработки. Чтобы высвободить творческую энергию команд разработчиков, необходимо помочь им повысить эффективность труда, обеспечить безопасную совместную работу в глобальном масштабе, а также устранить препятствия для масштабирования инноваций.
 
 ## <a name="generate-value"></a>Преимущества
 
@@ -77,6 +77,7 @@ ms.locfileid: "80809022"
 
 ::: zone target="chromeless"
 
+<!-- docsTest:ignore "Azure DevOps Projects" -->
 <!-- markdownlint-disable DOCSMD001 -->
 
 ### <a name="action"></a>Действие
@@ -87,7 +88,7 @@ ms.locfileid: "80809022"
 2. Нажмите **Создать проект DevOps**.
 3. Выберите пункт **Среда выполнения, платформа и служба**.
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/Microsoft.VisualStudio%2FAccount%2FProject]" submitText="Go to Azure DevOps Project" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResource/resourceType/Microsoft.VisualStudio%2FAccount%2FProject]" submitText="Go to Azure DevOps Projects" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
