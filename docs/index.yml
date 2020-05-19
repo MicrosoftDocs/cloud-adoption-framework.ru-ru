@@ -11,12 +11,12 @@ metadata:
   author: JanetCThomas
   ms.author: janet
   ms.date: 04/20/2020
-  ms.openlocfilehash: 2214466178729bcf6cb0e6ddd02a22d036039004
-  ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+  ms.openlocfilehash: 79cb54103165ff42402513e66053456b124bd77d
+  ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 05/12/2020
-  ms.locfileid: "83228309"
+  ms.lasthandoff: 05/14/2020
+  ms.locfileid: "83398986"
 highlightedContent:
   items:
   - title: Начните переход к облаку
@@ -67,7 +67,7 @@ productDirectory:
     - url: ./plan/suggested-skills.md
       text: План подготовки навыков
     - url: ./plan/template.md
-      text: Использование DevOps при создании плана внедрения облака
+      text: План внедрения облака для DevOps
   - title: Ready
     imageSrc: ./_images/caf-ready.png
     links:
@@ -147,7 +147,7 @@ tools:
     url: https://docs.microsoft.com/learn/paths/learn-business-value-of-azure
 conceptualContent:
   title: Оценки
-  summary: Оценки помогают спланировать переход к облаку. Используйте их для выявления различий между текущим и требуемым состояниями. Мы предоставим персонализированные проверенные рекомендации, которые помогут вам достичь желаемого состояния.
+  summary: Оценки помогают спланировать переход к облаку. Используйте их для выявления различий между текущим и требуемым состояниями. Мы предоставим персонализированные проверенные рекомендации, которые помогут вам достичь требуемого состояния.
   items:
   - title: Средство отслеживания перехода в облако
     links:

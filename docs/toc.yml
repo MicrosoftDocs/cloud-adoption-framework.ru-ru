@@ -41,6 +41,8 @@ items:
         href: get-started/reliability.md
       - name: Обеспечение стабильной производительности
         href: get-started/performance.md
+      - name: Обеспечение успеха клиентов
+        href: get-started/enable.md
       - name: Согласование процессов в организации
         href: get-started/org-alignment.md
       - name: Формирование команды по вопросам облачной стратегии
@@ -1265,24 +1267,50 @@ items:
         href: organize/index.md
       - name: Обязательные облачные функции
         items:
-          - name: Облачная стратегия
+          - name: Функции облачной стратегии.
             href: organize/cloud-strategy.md
-          - name: Внедрение в облако
+          - name: Функции внедрения облачных технологий
             href: organize/cloud-adoption.md
-          - name: Система управления облаком
+          - name: Функции системы управления облаком
             href: organize/cloud-governance.md
-          - name: Центральный ИТ-отдел
+          - name: Функции центрального ИТ-отдела
             href: organize/central-it.md
-          - name: Операции в облаке
+          - name: Функции облачных операций
             href: organize/cloud-operations.md
-          - name: Cloud Center of Excellence
+          - name: Функции Cloud Center of Excellence
             href: organize/cloud-center-of-excellence.md
-          - name: Облачная платформа
+          - name: Функции облачной платформы
             href: organize/cloud-platform.md
-          - name: Автоматизация работы с облаком
+          - name: Функции облачной автоматизации
             href: organize/cloud-automation.md
-          - name: Безопасность облака
-            href: organize/cloud-security.md
+          - name: Функции облачной безопасности
+            items:
+              - name: Функции группы облачной безопасности
+                href: organize/cloud-security.md
+              - name: Политика и стандарты
+                href: organize/cloud-security-policy-standards.md
+              - name: Центр обеспечения безопасности (SOC)
+                href: organize/cloud-security-operations-center.md
+              - name: Архитектура безопасности
+                href: organize/cloud-security-architecture.md
+              - name: Управление соответствием требованиям безопасности
+                href: organize/cloud-security-compliance-management.md
+              - name: Безопасность людей
+                href: organize/cloud-security-people.md
+              - name: Безопасность приложений и DevSecOps
+                href: organize/cloud-security-apsec-devsecops.md
+              - name: Безопасность данных
+                href: organize/cloud-security-data-security.md
+              - name: Безопасность инфраструктуры и конечных точек
+                href: organize/cloud-security-infrastructure-endpoint.md
+              - name: Удостоверения и ключи
+                href: organize/cloud-security-identity-keys.md
+              - name: Анализ угроз
+                href: organize/cloud-security-threat-intelligence.md
+              - name: Управление состоянием
+                href: organize/cloud-security-posture-management.md
+              - name: Подготовка инцидентов
+                href: organize/cloud-security-incident-preparation.md
       - name: Структура сформированных команд
         href: organize/organization-structures.md
       - name: Согласование с матрицей RACI

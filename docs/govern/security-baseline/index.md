@@ -4,17 +4,16 @@ description: Ознакомьтесь с подходом к разработк�
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
-ms.topic: landing-page
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-layout: LandingPage
-ms.openlocfilehash: 9c8bc1a9dd0c475a72db73ad032dabd1ff83f476
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 4b5e98141b581eb9b39f3056f1025c7fe614ae70
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219858"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83398939"
 ---
 # <a name="security-baseline-discipline-overview"></a>Общие сведения об основных способах защиты
 
@@ -40,122 +39,14 @@ ms.locfileid: "83219858"
 
 <!-- markdownlint-disable MD033 -->
 
-<ul class="panelContent cardsE">
-<li style="display: flex; flex-direction: column;">
-    <a href="./template.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-template.png" class="x-hidden-focus"/>
-                        </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Шаблон дисциплины "Основные способы защиты"</h3>
-                        <p class="x-hidden-focus">Скачайте шаблон для документирования дисциплины "Основные способы защиты".</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./business-risks.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-risks.png" class="x-hidden-focus"/>
-                        </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Бизнес-риски</h3>
-                        <p class="x-hidden-focus">Изучите мотивы и риски, связанные с дисциплиной "Основные способы защиты".</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./metrics-tolerance.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-metrics.png" class="x-hidden-focus"/>
-                        </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Индикаторы и метрики</h3>
-                        <p class="x-hidden-focus">Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Основные способы защиты".</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./compliance-processes.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-enforce.png" class="x-hidden-focus"/>
-                        </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Процессы, обеспечивающие соблюдение политики</h3>
-                        <p class="x-hidden-focus">Здесь предложены процессы для соблюдения политики в дисциплине "Основные способы защиты".</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./discipline-improvement.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-maturity.png" class="x-hidden-focus"/>
-                        </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Зрелость</h3>
-                        <p class="x-hidden-focus">Согласование оптимизации управления облаком с этапами внедрения облачных технологий.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-<li style="display: flex; flex-direction: column;">
-    <a href="./toolchain.md">
-        <div class="cardSize">
-            <div class="cardPadding" >
-                <div class="card" >
-                    <div class="cardImageOuter">
-                        <div class="cardImage">
-                            <img src="../../_images/govern/process-toolchain.png" class="x-hidden-focus"/>
-                        </div>
-                    </div>
-                    <div class="cardText" style="padding-left:0px;">
-                        <h3>Цепочка инструментов</h3>
-                        <p class="x-hidden-focus">Службы Azure, которые можно использовать для поддержки дисциплины "Основные способы защиты".</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </a>
-</li>
-</ul>
+| | |
+|---|---|
+| <br> ![Значок шаблона](../../_images/govern/process-template.png) | [Шаблон дисциплины "Основные способы защиты".](./template.md) Скачайте шаблон для документирования дисциплины "Основные способы защиты". |
+| <br> ![Значок рисков](../../_images/govern/process-risks.png) | [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Основные способы защиты". |
+| <br> ![Значок метрик](../../_images/govern/process-metrics.png) | [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, настало ли время для инвестиций в дисциплину "Основные способы защиты". |
+| <br> ![Значок соблюдения](../../_images/govern/process-enforce.png) | [Процессы, обеспечивающие соблюдение политик.](./compliance-processes.md) Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Основные способы защиты". |
+| <br> ![Значок зрелости](../../_images/govern/process-maturity.png) | [Зрелость.](./discipline-improvement.md) Согласование степени зрелости управления облаком с этапами внедрения облачных технологий. |
+| <br> ![Значок цепочки инструментов](../../_images/govern/process-toolchain.png) | [Цепочка инструментов.](./toolchain.md) Службы Azure, которые можно использовать для поддержки дисциплины "Основные способы защиты". |
 
 <!-- markdownlint-enable MD033 -->
 

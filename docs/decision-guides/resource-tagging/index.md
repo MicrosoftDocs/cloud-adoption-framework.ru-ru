@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 824d5fbe48074dd9a220a20bbf05f3d17c3445c1
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 638f8dad1d7f284104765b28fe53561d98e02b56
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222765"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83399820"
 ---
-<!--docsTest:disable - TODO -->
-
 <!-- cSpell:ignore catalogsearch northamerica jsmith contactalias catsearchowners businessprocess businessimpact revenueimpact -->
 
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
@@ -75,15 +73,17 @@ ms.locfileid: "83222765"
 Ниже перечислены несколько распространенных шаблонов присвоения тегов, которые могут служить примером применения тегов для упорядочения облачных ресурсов. Эти шаблоны не являются взаимоисключающими и могут применяться параллельно друг с другом, позволяя организовать активы несколькими способами с учетом потребностей вашей компании.
 
 <!-- markdownlint-disable MD033 -->
+<!-- docsTest:disable -->
 
 | Тип тега | Примеры | Описание |
 |-----|-----|-----|
 | Функциональные | app&nbsp;=&nbsp;catalogsearch1 <br> tier&nbsp;=&nbsp;web <br> webserver&nbsp;=&nbsp;apache <br> env&nbsp;=&nbsp;prod <br> env&nbsp;=&nbsp;staging <br> env&nbsp;=&nbsp;dev | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик. |
 | Классификация | confidentiality&nbsp;=&nbsp;private <br> SLA&nbsp;=&nbsp;24hours | Классификация ресурсов по методам использования и применимым к ресурсам политикам. |
 | Учет | department&nbsp;=&nbsp;finance <br> program&nbsp;=&nbsp;business-initiative <br> region&nbsp;=&nbsp;northamerica | Позволяет сопоставить ресурс с определенным группами внутри организации для выставления счетов. |
-| Партнерство | owner&nbsp;=&nbsp;jsmith <br> contactalias&nbsp;=&nbsp;catsearchowners <br> stakeholders&nbsp;=&nbsp;user1;user2;user3 | Сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него. |
-| Назначение | businessprocess&nbsp;=&nbsp;support <br> businessimpact&nbsp;=&nbsp;moderate <br> revenueimpact&nbsp;=&nbsp;high | Сопоставление ресурсов с бизнес-функциями для поддержки решения об инвестициях. |
+| Партнерство | owner&nbsp;=&nbsp;jsmith <br> contactalias&nbsp;=&nbsp;catsearchowners <br> stakeholders&nbsp;=&nbsp;user1;user2;user3 | Предоставляет сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него. |
+| Назначение | businessprocess&nbsp;=&nbsp;support <br> businessimpact&nbsp;=&nbsp;moderate <br> revenueimpact&nbsp;=&nbsp;high | Сопоставляет ресурсы с бизнес-функциями для поддержки решений об инвестициях. |
 
+<!-- docsTest:enable -->
 <!-- markdownlint-enable MD033 -->
 
 ## <a name="learn-more"></a>Дополнительные сведения
