@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2df19abaa4878194697cd22fbf193c21580b22d2
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: daad757372250014556de53ddd6cfdacf66b0b7f
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83400134"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83620344"
 ---
 # <a name="assess-your-transformation-journey"></a>Оценка пути преобразования
 
@@ -24,7 +24,7 @@ ms.locfileid: "83400134"
 Получите персонализированный отчет, в котором описываются различия между текущим состоянием и бизнес-приоритетами, а также адаптированные ресурсы, которые помогут вам приступить к работе. Оцените текущее и будущее состояние для определения способов использования платформы.
 
 > [!div class="nextstepaction"]
-> [Использование средства "контрольный тест для управления"](https::/cafbaseline.com)
+> [Использование средства "контрольный тест для управления"](https://cafbaseline.com)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

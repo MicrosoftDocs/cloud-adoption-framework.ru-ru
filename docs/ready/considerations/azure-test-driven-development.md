@@ -7,12 +7,12 @@ ms.date: 04/04/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: b4edc0f0e485c040045bc8c1b7bce6c91f3d13f9
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 13dc523902e5db36abf559a25c6edba44f912613
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83221915"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621539"
 ---
 # <a name="test-driven-development-tdd-for-landing-zones-in-azure"></a>Разработка на основе тестирования (TDD) для начальных зон в Azure
 
@@ -26,7 +26,7 @@ ms.locfileid: "83221915"
 
 ## <a name="microsoft-provided-test-and-deployment-templates-to-accelerate-tdd"></a>Шаблоны тестирования и развертывания, предоставляемые корпорацией Майкрософт для ускорения TDD
 
-Следующие примеры предоставляются корпорацией Майкрософт в целях управления. Однако каждый из них можно использовать как тест или серию тестов в цикле разработки на основе тестирования для целевых зон. Дополнительные сведения о каждом средстве см. в следующем разделе.
+Следующие примеры предоставляются корпорацией Майкрософт в целях управления. Но каждый из них можно использовать как тест или серию тестов в цикле разработки на основе тестирования для целевых зон. Дополнительные сведения о каждом средстве см. в следующем разделе.
 
 - Схемы Azure предоставляют различные [примеры схем](https://docs.microsoft.com/azure/governance/blueprints/samples), включая политики для тестирования и шаблонов для развертывания. Эти образцы схем могут ускорить разработку, развертывание и тестирование в циклах TDD.
 - Политика Azure также включает [встроенные инициативы политики](https://docs.microsoft.com/azure/governance/policy/samples/built-in-initiatives), которые можно использовать для тестирования и принудительного применения полного определения для целевой зоны. Политика Azure включает [встроенные определения политик](https://docs.microsoft.com/azure/governance/policy/samples/built-in-policies) , которые могут удовлетворять индивидуальным критериям принятия в рамках определения Done.
@@ -52,4 +52,4 @@ ms.locfileid: "83221915"
 Чтобы приступить к рефакторингу первой целевой зоны, оцените [основные соображения для основных зон](./basic-considerations.md).
 
 > [!div class="nextstepaction"]
-> [Основные соображения о целевой зоне](./basic-considerations.md)
+> [Основные рекомендации по использованию целевых зон](./basic-considerations.md)

@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: b05218d1dfc353e0d9cbed9006a980b845f67915
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 42ace02c82ffbb034f3405a6c699d7b0d29fbf1e
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83221864"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621510"
 ---
 # <a name="review-your-compute-options"></a>Проверка параметров вычислений
 
@@ -64,7 +64,7 @@ ms.locfileid: "83221864"
 
 Azure позволяет предоставлять службы в нужном масштабе, чтобы получать доступ к своим клиентам и партнерам в _любом месте_. Ключевым фактором при планировании развертывания облака является определение того, какой регион Azure будет размещать ресурсы рабочей нагрузки.
 
-Некоторые функции вычислений, такие как Служба приложений Azure, обычно доступны в большинстве регионов Azure. Однако некоторые вычислительные службы поддерживаются только в выбранных регионах. Некоторые типы виртуальных машин и связанные с ними типы хранилищ имеют ограниченную региональную доступность. Прежде чем выбирать регионы, в которые будут развернуты ресурсы, рекомендуем ознакомиться со [страницей регионов](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=azure-vmware-cloudsimple,cloud-services,batch,container-instances,app-service,service-fabric,functions,kubernetes-service,virtual-machine-scale-sets,virtual-machines) , чтобы проверить актуальность сведений о доступности в регионе.
+Некоторые функции вычислений, такие как Служба приложений Azure, обычно доступны в большинстве регионов Azure. Но некоторые службы вычислений поддерживаются только в определенных регионах. Некоторые типы виртуальных машин и связанные с ними типы хранилищ имеют ограниченную региональную доступность. Прежде чем выбирать регионы, в которые будут развернуты ресурсы, рекомендуем ознакомиться со [страницей регионов](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=azure-vmware-cloudsimple,cloud-services,batch,container-instances,app-service,service-fabric,functions,kubernetes-service,virtual-machine-scale-sets,virtual-machines) , чтобы проверить актуальность сведений о доступности в регионе.
 
 Дополнительные сведения о глобальной инфраструктуре Azure см. на [странице регионов Azure](https://azure.microsoft.com/global-infrastructure/regions). Вы также можете просматривать [продукты, доступные по регионам](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=all) , для получения конкретных сведений об общих службах, доступных в каждом регионе Azure.
 

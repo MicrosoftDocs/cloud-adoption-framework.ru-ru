@@ -7,12 +7,12 @@ ms.date: 04/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: cd222e7a4e7c9c03344542d0dc61a8080f611ff2
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: 97da5f902fb195a4390b33ef5b8eed2f12ac4a94
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83400525"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621192"
 ---
 # <a name="get-started-accelerate-new-product-and-service-innovation-in-the-cloud"></a>Начало работы. ускорение новых нововведений продуктов и услуг в облаке
 
@@ -155,7 +155,7 @@ ms.locfileid: "83400525"
 
 - [Развертывание базового плана управления](../manage/best-practices.md). в этом разделе облачной инфраструктуры внедрения вы узнаете о различных переходах в операционное управление в облаке.
 - [Ознакомьтесь с дополнительными операциями](../manage/design-principles.md): Узнайте о способах работы за пределами базового плана управления.
-- Если для поддержки ваших операций требуются расширенные операции, оцените [бизнес-обязательства](https://docs.microsoft.com/manage/considerations/business-alignment) , чтобы определить эксплуатационные обязанности для обеих команд.
+- Если для поддержки ваших операций требуются расширенные операции, оцените [бизнес-обязательства](../manage/considerations/business-alignment.md) , чтобы определить эксплуатационные обязанности для обеих команд.
 
 <!-- markdownlint-disable MD033 -->
 <br>

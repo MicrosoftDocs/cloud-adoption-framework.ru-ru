@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: d3d0afed921d11b16b1d33de311df1144aea6d4a
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 93aec136df947f9df94d188dffce79f037cf8fed
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83221949"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621562"
 ---
 <!-- cSpell:ignore laraaleite profx fsubscriptions fresource -->
 
@@ -172,7 +172,7 @@ ms.locfileid: "83221949"
 
 Чтобы применить тег к группе ресурсов, сделайте следующее:
 
-1. Перейдите на страницу [Группы ресурсов](https://portal.azure.com/#blade/HubsExtension/Resources/resourceType/Microsoft.Resources%2FSubscriptions%2FResourceGroups).
+1. Перейдите на страницу [Группы ресурсов](https://portal.azure.com/#blade/HubsExtension/BrowseResourceGroups).
 1. Выберите группу ресурсов.
 1. Выберите **Назначить теги**.
 1. Введите новые имя и значение или выберите имеющиеся в раскрывающемся списке.

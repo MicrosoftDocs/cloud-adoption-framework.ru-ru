@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: c125f60358a433e2d6f65b103fba8722b1491ad1
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: af1ba2cbf55d0c144241676f59e6ad154ea1b5f2
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83215336"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83620418"
 ---
 <!-- cSpell:ignore HDFS -->
 
@@ -65,7 +65,7 @@ ms.locfileid: "83215336"
 
 Azure позволяет предоставлять службы в нужном масштабе, чтобы обеспечить доступ к своим клиентам и партнерам, _где бы они ни_находились. Ключевым фактором при планировании развертывания облака является определение того, в каком регионе Azure будут размещаться ресурсы рабочей нагрузки.
 
-Большинство служб баз данных обычно доступны в большинстве регионов Azure. Тем не менее есть несколько регионов, в основном ориентированных на государственных клиентов, которые поддерживают только подмножество этих продуктов. Прежде чем выбирать регионы, в которые будут развернуты ресурсы базы данных, рекомендуется обратиться к [странице регионов](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=data-factory,sql-server-stretch-database,redis-cache,database-migration,sql-data-warehouse,postgresql,mariadb,cosmos-db,mysql,sql-database) , чтобы проверить актуальное состояние доступности в регионах.
+Большинство служб баз данных обычно доступны в большинстве регионов Azure. Но существует несколько регионов, в основном нацеленных на правительственных клиентов, которые поддерживают только подмножество этих продуктов. Прежде чем выбирать регионы, в которые будут развернуты ресурсы базы данных, рекомендуется обратиться к [странице регионов](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=data-factory,sql-server-stretch-database,redis-cache,database-migration,sql-data-warehouse,postgresql,mariadb,cosmos-db,mysql,sql-database) , чтобы проверить актуальное состояние доступности в регионах.
 
 Дополнительные сведения о глобальной инфраструктуре Azure см. на странице [Регионы Azure](https://azure.microsoft.com/global-infrastructure/regions). Вы также можете просматривать [продукты, доступные по регионам](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=all) , для получения конкретных сведений об общих службах, доступных в каждом регионе Azure.
 

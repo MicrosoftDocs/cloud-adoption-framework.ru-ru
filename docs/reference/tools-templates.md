@@ -7,12 +7,12 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: 205540490fb8e25624d854abd666b736c701f7bb
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: eda7866700edb0a1e86776f1b0f23d95799d5b67
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83400913"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621579"
 ---
 <!-- cSpell:ignore Terraform's -->
 
@@ -24,18 +24,18 @@ ms.locfileid: "83400913"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Средство записи облачного пути](https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker) | Найдите свой путь внедрения в облаке в соответствии с потребностями вашего бизнеса. |
+| [Средство отслеживания перехода в облако](https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
 | [&nbsp;Шаблон стратегии и &nbsp; плана &nbsp;](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) | Документирование решений при выполнении стратегии и плана внедрения в облако. |
 
 ## <a name="plan"></a>План
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Средство записи облачного пути](https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker) | Найдите свой путь внедрения в облаке в соответствии с потребностями вашего бизнеса. |
+| [Средство отслеживания перехода в облако](https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
 | [&nbsp;Шаблон стратегии и &nbsp; плана &nbsp;](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) | Документирование решений при выполнении стратегии и плана внедрения в облако. |
 | [Генератор планов внедрения в облако](../plan/template.md) | Стандартизация процессов путем развертывания невыполненной работы для [Azure Boards](https://docs.microsoft.com/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона плана внедрения в облако. |
 
-## <a name="ready"></a>Готово
+## <a name="ready"></a>Ready
 
 | Ресурс | Описание |
 |----------|-------------|
@@ -50,12 +50,12 @@ ms.locfileid: "83400913"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Оценка производительности управления](https://cafbaseline.com) | Выявление пропусков между текущим состоянием и бизнес-приоритетами, а также получение нужных ресурсов для устранения этих пропусков. |
+| [Оценка производительности управления](https://cafbaseline.com) | Определите расхождения между текущим состоянием и бизнес-приоритетами, а также получите доступ к ресурсам, которые позволят устранить эти расхождения. |
 | [&nbsp;Проект КАФ Foundation &nbsp;](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone-governance) | Упрощенная реализация начального руководства для предоставления практических опыта работы с инструментами управления в Azure. |
 | [Шаблон процесса управления](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Governance%20Discipline%20Template.docx) | Определите базовый набор процессов управления, используемый для реализации каждой дисциплины управления. |
 | [Шаблон процесса управления затратами](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Cost%20Management%20Discipline%20Template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации с целью сосредоточиться на управлении затратами. |
 | [Шаблон процесса ускорения развертывания](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Deployment%20Acceleration%20Discipline%20Template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации с помощью ускорения развертывания. |
-| [Шаблон процесса идентификации](https://archcenter.blob.core.windows.net/cdn/fusion/governance/identity%20baseline%20discipline%20template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации, чтобы сосредоточиться на требованиях к идентификации. |
+| [Шаблон процесса идентификации](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Identity%20Baseline%20Discipline%20Template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации, чтобы сосредоточиться на требованиях к идентификации. |
 | [Шаблон процесса согласованности ресурсов](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Resource%20Consistency%20Discipline%20Template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на согласованности ресурсов. |
 | [Шаблон базового процесса безопасности](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Security%20Baseline%20Discipline%20Template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на базовых показателях безопасности. |
 
