@@ -31,6 +31,8 @@ items:
         href: get-started/innovate.md
       - name: Устранение ограничений проекта и конфигурации среды
         href: get-started/design-and-configuration.md
+      - name: Обеспечение успеха клиентов
+        href: get-started/enable.md
       - name: Обеспечение максимальной эффективности операционных процессов
         href: get-started/operational-excellence.md
       - name: Управление затратами на облако
@@ -41,8 +43,6 @@ items:
         href: get-started/reliability.md
       - name: Обеспечение стабильной производительности
         href: get-started/performance.md
-      - name: Обеспечение успеха клиентов
-        href: get-started/enable.md
       - name: Согласование процессов в организации
         href: get-started/org-alignment.md
       - name: Формирование команды по вопросам облачной стратегии

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 703a5152ef47d19ec5eb654f9ba4d83786562d12
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 3eb722a170f508f749795fbfc91dc2ce58a1edb9
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83224397"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621205"
 ---
 # <a name="encryption-decision-guide"></a>Руководство по принятию решений о шифровании
 
@@ -122,7 +122,7 @@ ms.locfileid: "83224397"
 Дополнительные сведения о шифровании и управлении ключами на платформе Azure см. в следующих статьях:
 
 - **[Общие сведения о шифровании в Azure.](https://docs.microsoft.com/azure/security/fundamentals/encryption-overview)** Подробное описание того, как Azure использует шифрование для защиты неактивных данных и передаваемых данных.
-- **[Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/key-vault-overview)** Azure Key Vault является основной системой управления ключами Azure, которая позволяет хранить в Azure криптографические ключи, секреты и сертификаты, а также управлять ими.
+- **[Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/overview)** Azure Key Vault является основной системой управления ключами Azure, которая позволяет хранить в Azure криптографические ключи, секреты и сертификаты, а также управлять ими.
 - **[Рекомендации по защите и шифрованию данных в Azure.](https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices)** Здесь приводятся рекомендации по защите и шифрованию данных в Azure.
 - **[Конфиденциальные вычисления в Azure.](https://azure.microsoft.com/solutions/confidential-compute)** Инициатива конфиденциальных вычислений Azure предоставляет средства и технологии для создания сред доверенного выполнения и других механизмов шифрования, позволяющих защищать используемые данные.
 

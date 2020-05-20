@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: edd91f1786dfc0649e06d643662fb7af12ec4c96
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: 5c5ba323856ef3eb9612c7abdd733bfa32c6725f
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83399685"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83620503"
 ---
 # <a name="governance-in-the-microsoft-cloud-adoption-framework-for-azure"></a>Управление в Microsoft Cloud Adoption Framework для Azure
 
@@ -25,7 +25,7 @@ ms.locfileid: "83399685"
 
 | | |
 |---|---|
-| <br> ![1](../_images/icons/1.png) | [Методика.](./methodology.md) Освойте базовые понятия методологии управления облаком в Cloud Adoption Framework. Это даст вам общее представление о целевом состоянии. |
+| <br> ![1](../_images/icons/1.png) | <br> [Методика.](./methodology.md) Освойте базовые понятия методологии управления облаком в Cloud Adoption Framework. Это даст вам общее представление о целевом состоянии. |
 | <br> ![2](../_images/icons/2.png) | <br> [Тест производительности.](./benchmark.md) Оцените текущее и будущее состояние для определения способов использования платформы. |
 | <br> ![3](../_images/icons/3.png) | <br> [Общие сведения о системе управления.](./initial-foundation.md) Приступите к работе, используя небольшой и легко реализуемый набор средств управления. Эта основа системы управления называется минимально жизнеспособным продуктом (MVP).                                |
 | <br> ![4](../_images/icons/4.png) | <br> [Улучшение исходных базовых аспектов системы управления.](./foundation-improvements.md) По мере приближения к целевому состоянию при реализации плана внедрения облачных технологий поэтапно добавляйте элементы управления, чтобы устранить реальные риски. |

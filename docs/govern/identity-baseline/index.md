@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2e171736ccf993d3e7401350008ab542759b703b
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: 92e793e2df89bbb70fe51fd7af9ef8fc1456ffa2
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83400787"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83620658"
 ---
 # <a name="identity-baseline-discipline-overview"></a>Общие сведения о дисциплине базовой системы идентификации
 
@@ -41,12 +41,12 @@ ms.locfileid: "83400787"
 
 | | |
 |---|---|
-| <br> ![Значок шаблона](../../_images/govern/process-template.png) ;; <br> [Шаблон дисциплины "Базовые средства идентификации".](./template.md) Скачайте шаблон для документирования дисциплины "Базовые средства идентификации". |
-| <br> ![Значок рисков](../../_images/govern/process-risks.png) ;; <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Базовая система идентификации". |
-| <br> ![Значок метрик](../../_images/govern/process-metrics.png) ;; <br> [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, настало ли время для инвестиций в дисциплину "Базовая система идентификации". |
-| <br> ![Значок соблюдения](../../_images/govern/process-enforce.png) ;; <br> [Процессы, обеспечивающие соблюдение политик.](./compliance-processes.md) Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Базовая система идентификации". |
-| <br> ![Значок зрелости](../../_images/govern/process-maturity.png) ;; <br> [Зрелость.](./discipline-improvement.md) Согласование степени зрелости управления облаком с этапами внедрения облачных технологий. |
-| <br> ![Значок цепочки инструментов](../../_images/govern/process-toolchain.png) ;; <br> [Цепочка инструментов.](./toolchain.md) Службы Azure, которые можно использовать для поддержки дисциплины "Базовая система идентификации". |
+| <br> ![Значок шаблона](../../_images/govern/process-template.png)   | <br> [Шаблон дисциплины "Базовые средства идентификации".](./template.md) Скачайте шаблон для документирования дисциплины "Базовые средства идентификации". |
+| <br> ![Значок рисков](../../_images/govern/process-risks.png)         | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Базовая система идентификации". |
+| <br> ![Значок метрик](../../_images/govern/process-metrics.png)     | <br> [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, настало ли время для инвестиций в дисциплину "Базовая система идентификации". |
+| <br> ![Значок соблюдения](../../_images/govern/process-enforce.png)   | <br> [Процессы, обеспечивающие соблюдение политик.](./compliance-processes.md) Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Базовая система идентификации". |
+| <br> ![Значок зрелости](../../_images/govern/process-maturity.png)   | <br> [Зрелость.](./discipline-improvement.md) Согласование степени зрелости управления облаком с этапами внедрения облачных технологий. |
+| <br> ![Значок цепочки инструментов](../../_images/govern/process-toolchain.png) | <br> [Цепочка инструментов.](./toolchain.md) Службы Azure, которые можно использовать для поддержки дисциплины "Базовая система идентификации". |
 
 <!-- markdownlint-enable MD033 -->
 
