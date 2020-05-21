@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: b747a6f0d50fbf2510dc3a5220f72d513e8d1cb3
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 7aeb83064faa4105214d47149fbf9e789add47d3
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83216713"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621225"
 ---
 <!-- cSpell:ignore WSUS getting started -->
 
@@ -127,7 +127,7 @@ _Соответствие операций нормативным требова
 Дополнительные сведения см. на следующих ресурсах:
 
 - [Политика Azure](https://docs.microsoft.com/azure/azure-policy)
-- [Understand Azure Policy's Guest Configuration](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) (Общие сведения о гостевой конфигурации службы "Политика Azure").
+- [Политика Azure: гостевая конфигурация](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration)
 - [Role-based по принудительному применению политик](../../decision-guides/policy-enforcement/index.md)
 
 ## <a name="azure-blueprints"></a>Azure Blueprints
@@ -158,7 +158,7 @@ _Соответствие операций нормативным требова
 
 ::: zone target="chromeless"
 
-1. Перейдите в раздел **Схемы — Начало работы**.
+1. Выберите **Схемы: начало работы**.
 1. На панели **Создание схемы** выберите **Создать**.
 1. Отфильтруйте список схем, чтобы выбрать соответствующую схему.
 1. В поле **Имя схемы** введите имя схемы.
@@ -172,7 +172,7 @@ _Соответствие операций нормативным требова
 
 ::: zone target="docs"
 
-1. Перейдите в раздел [Схемы — Начало работы](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted).
+1. Выберите [Схемы: начало работы](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted).
 1. На панели **Создание схемы** выберите **Создать**.
 1. Отфильтруйте список схем, чтобы выбрать соответствующую схему.
 1. В поле **Имя схемы** введите имя схемы.
@@ -201,7 +201,7 @@ _Соответствие операций нормативным требова
 
 ::: zone target="docs"
 
-1. Перейдите в раздел [Схемы — Определения схем](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
+1. Выберите [Схемы: Определения схем](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
 1. Выберите схему, созданную ранее.
 1. Проверьте определение схемы и щелкните **Опубликовать схему**.
 1. В поле **Версия** введите версию, например 1.0.

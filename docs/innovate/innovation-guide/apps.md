@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 53bf6e8a6c3e01255e57613b3b1a3cd2fa9cdc07
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: c1a6ce684998ed3a9a67ad92face8adfdcbce104
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222255"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621340"
 ---
 <!-- cSpell:ignore billyclaymyersmsft wimyers functionapp -->
 
@@ -116,7 +116,7 @@ ms.locfileid: "83222255"
 
 ## <a name="visual-studio-app-center"></a>Центр приложений Visual Studio
 
-Так как мобильные приложения продолжают набирать популярность, одновременно растет потребность в платформе, которая может обеспечить автоматическое тестирование на реальных устройствах различных конфигураций. Центр приложений Visual Studio — это не только место для тестирования приложений в iOS, Android, Windows и macOS. Он также предоставляет платформу мониторинга, которая может использовать Azure Application Insights для быстрого и легкого анализа телеметрии. Дополнительные сведения см. в [обзоре Центра приложений Visual Studio](https://docs.microsoft.com/appcenter).
+Так как мобильные приложения продолжают набирать популярность, одновременно растет потребность в платформе, которая может обеспечить автоматическое тестирование на реальных устройствах различных конфигураций. Центр приложений Visual Studio не только предоставляет пространство, где вы можете тестировать приложения в iOS, Android, Windows и macOS. Это еще и платформа мониторинга, на которой можно использовать Azure Application Insights для быстрого и простого анализа данных телеметрии. Дополнительные сведения см. в документации по [Центру приложений Visual Studio](https://docs.microsoft.com/appcenter).
 
 Центр приложений Visual Studio также предоставляет службу уведомлений, в которой один вызов может отправлять уведомления в приложение на разных платформах, не обращаясь к каждой службе уведомлений по отдельности. Дополнительные сведения см. в статье об использовании [push-уведомлений в Центре приложений Visual Studio](https://docs.microsoft.com/appcenter/push).
 
@@ -287,7 +287,9 @@ ms.locfileid: "83222255"
 
 Azure Red Hat OpenShift обеспечивает гибкие возможности для самостоятельного развертывания полностью управляемых кластеров OpenShift. Поддерживайте соответствие требованиям, сосредоточившись на разработке своего приложения. За исправление, обновление и мониторинг главного узла, а также узлов инфраструктуры и приложения будут отвечать Майкрософт и Red Hat. Выберите собственные решения для реестра, сети, хранилища или CI/CD. Вы можете сразу же приступить к работе благодаря встроенным решениям для автоматизированного управления исходным кодом, создания контейнеров и приложений, развертывания, масштабирования, управления работоспособностью и многих других задач.
 
-**Щелкните [Azure Red Hat OpenShift](https://docs.microsoft.com/azure/openshift/intro-openshift)** .
+### <a name="learn-more"></a>Дополнительные сведения
+
+- [Azure Red Hat OpenShift](https://docs.microsoft.com/azure/openshift/intro-openshift)
 
 # <a name="isolate-points-of-failure"></a>[Изолирование точек сбоя](#tab/IsolatePointsOfFailure)
 

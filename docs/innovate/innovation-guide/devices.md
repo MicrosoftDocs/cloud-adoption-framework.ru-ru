@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 3cc247866d60b428a908180ba3eda74bb61f8cd3
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: b7967a97a48e987db623de9abff304a4e0b4458c
+ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83224091"
+ms.lasthandoff: 05/19/2020
+ms.locfileid: "83621305"
 ---
 <!-- cSpell:ignore umarmohamedusman umarm Moovit -->
 
@@ -61,9 +61,11 @@ ms.locfileid: "83224091"
 
 ::: zone target="docs"
 
-**Перейдите к [Центру Интернета вещей](https://docs.microsoft.com/azure/iot-hub)** .
+### <a name="learn-more"></a>Дополнительные сведения
 
-**Перейдите к [службам подготовки устройств](https://docs.microsoft.com/azure/iot-dps)** .
+- [Центр Интернета вещей](https://docs.microsoft.com/azure/iot-hub)
+
+- [Служба подготовки устройств (DPS) к добавлению в Центр Интернета вещей](https://docs.microsoft.com/azure/iot-dps)
 
 ::: zone-end
 
@@ -82,16 +84,16 @@ ms.locfileid: "83224091"
 
 <!-- markdownlint-enable DOCSMD001 -->
 
-Служба подготовки устройств к добавлению в Центр Интернета вещей — это вспомогательная служба, предоставляющая полностью автоматическую JIT-подготовку.
+Служба подготовки устройств к добавлению в Центр Интернета вещей Azure — это вспомогательная служба, предоставляющая полностью автоматическую JIT-подготовку.
 
 <!-- markdownlint-disable MD024 -->
 
 ### <a name="action"></a>Действие
 
-Чтобы создать Службу подготовки устройств к добавлению в Центр Интернета вещей, выполните следующие действия:
+Чтобы создать Службу подготовки устройств к добавлению в Центр Интернета вещей Azure, сделайте следующее:
 
-1. Перейдите к **службам подготовки устройств к добавлению в Центр Интернета вещей**.
-2. Нажмите **Создать службы подготовки устройств**.
+1. Перейдите к **службам подготовки устройств**.
+2. Выберите **Добавить**.
 
 <!-- markdownlint-disable DOCSMD001 -->
 
@@ -113,7 +115,9 @@ ms.locfileid: "83224091"
 
 ::: zone target="docs"
 
-**Перейдите к [Azure Digital Twins](https://docs.microsoft.com/azure/digital-twins/about-digital-twins)** .
+### <a name="learn-more"></a>Дополнительные сведения
+
+- [Azure Digital Twins](https://docs.microsoft.com/azure/digital-twins/about-digital-twins)
 
 ::: zone-end
 
@@ -150,7 +154,9 @@ ms.locfileid: "83224091"
 
 ::: zone target="docs"
 
-**Перейдите к [Azure Maps](https://docs.microsoft.com/azure/azure-maps)** .
+### <a name="learn-more"></a>Дополнительные сведения
+
+- [Azure Maps](https://docs.microsoft.com/azure/azure-maps)
 
 ::: zone-end
 
@@ -185,7 +191,7 @@ ms.locfileid: "83224091"
 
 ::: zone target="docs"
 
-**Перейдите к [Пространственным привязкам Azure](https://azure.microsoft.com/services/spatial-anchors)** .
+- [Пространственные привязки Azure.](https://azure.microsoft.com/services/spatial-anchors)
 
 ::: zone-end
 
@@ -214,9 +220,11 @@ ms.locfileid: "83224091"
 
 ::: zone target="docs"
 
-**Перейдите к службе [Удаленная отрисовка Azure](https://azure.microsoft.com/services/remote-rendering)** .
+### <a name="learn-more"></a>Дополнительные сведения
 
-**Перейдите к [рендерингу с помощью Azure](https://docs.microsoft.com/azure/batch/batch-rendering-service)** .
+- [Удаленная отрисовка Azure](https://azure.microsoft.com/services/remote-rendering)
+
+- [Рендеринг с помощью Azure](https://docs.microsoft.com/azure/batch/batch-rendering-service)
 
 ::: zone-end
 

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: a4e26787fb2125dd2784698b06171e898dd7ac55
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 574dba7b2c5db10b007dcf6cb7ecdd6dc93a0111
+ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83214486"
+ms.lasthandoff: 05/14/2020
+ms.locfileid: "83401165"
 ---
 <!-- cSpell:ignore Cloudamize agentless uncontained SSMA Carbonite Movere -->
 
@@ -197,13 +197,13 @@ Database Experimentation Assistant использует следующие де�
 
 - [Общие сведения о Database Experimentation Assistant](https://docs.microsoft.com/sql/dea/database-experimentation-assistant-overview)
 
-## <a name="cosmos-db-data-migration-tool"></a>Средство переноса данных Azure Cosmos DB
+## <a name="azure-cosmos-db-data-migration-tool"></a>Средство переноса данных Azure Cosmos DB
 
 Средство переноса данных Azure Cosmos DB позволяет импортировать данные из различных источников в коллекции и таблицы Azure Cosmos DB. Данные можно импортировать из JSON-файлов, CSV-файлов, с сервера SQL, из MongoDB, хранилища таблиц Azure, Amazon DynamoDB и даже из коллекций API SQL для базы данных Azure Cosmos DB. Средство переноса данных можно также использовать при миграции из односекционной коллекции в многосекционную для API SQL.
 
 Дополнительные сведения см. в разделе:
 
-- [Средство переноса данных Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/import-data)
+- [Средство переноса данных Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db/import-data)
 
 <!-- markdownlint-disable MD025 -->
 
@@ -241,7 +241,7 @@ Movere — это решение для обнаружения, которое �
 
 [Дополнительные сведения](https://www.movere.io)
 
-## <a name="cosmos-db-partners"></a>Партнеры Cosmos DB
+## <a name="azure-cosmos-db-partners"></a>Партнеры Azure Cosmos DB
 
 Вы можете выбрать из множества опытных партнеров и инструментов для системного интегратора, которые помогут с переносом данных в Azure Cosmos DB в соответствии с требованиями вашей базы данных NoSQL.
 
