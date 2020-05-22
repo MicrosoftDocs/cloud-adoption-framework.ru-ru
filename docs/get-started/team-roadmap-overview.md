@@ -3,16 +3,16 @@ title: Руководства по началу работы для специа
 description: Используйте эти руководства по началу работы, чтобы понять цели и обязанности групп, отвечающих вашим усилиям по внедрению в облако. В этих руководствах представлено руководство по облачной инфраструктуре внедрения.
 author: JanetCThomas
 ms.author: janet
-ms.date: 04/04/2020
+ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 891300cd245b96598e1bce375aef064dc3544d7a
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 72d6f233f1dbdda60a0f48dbc89449915c013cf8
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229305"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83752001"
 ---
 # <a name="getting-started-guides-for-cloud-adoption-teams"></a>Руководства по началу работы для специалистов по внедрению в облако
 

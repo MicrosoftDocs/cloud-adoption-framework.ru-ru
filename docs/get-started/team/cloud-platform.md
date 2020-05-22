@@ -6,13 +6,13 @@ ms.author: janet
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
-ms.date: 04/04/2020
-ms.openlocfilehash: 50ebbe6f3c141671412d5338d89c1de623ab3b0c
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.date: 05/15/2020
+ms.openlocfilehash: c7753434a9ce901693938651f303add90bb6002b
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229006"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83751955"
 ---
 # <a name="get-started-build-a-cloud-platform-team"></a>Начало работы: создание группы облачной платформы
 

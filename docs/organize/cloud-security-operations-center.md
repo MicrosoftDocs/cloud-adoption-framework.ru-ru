@@ -6,13 +6,13 @@ ms.author: janet
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
-ms.date: 04/30/2020
-ms.openlocfilehash: c966129e01d9cf97af0ac1db0a8ac7bec8efb751
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.date: 05/15/2020
+ms.openlocfilehash: 6bac764d067e755039ef2089aa64da05c63a1f86
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83401125"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755408"
 ---
 <!-- cSpell:ignore CISO MTTA MTTR SIEM NIST SOCs CDOC -->
 
@@ -38,7 +38,7 @@ ms.locfileid: "83401125"
 - **Управление инцидентами:** Дисциплина становится формальной для координации нетехнических элементов инцидентов с юридическими, взаимосвязями и другими группами.
 **Интеграция внутреннего контекста:** Чтобы помочь в определении приоритетов для действий SOC, таких как относительные показатели рисков учетных записей и устройств, чувствительность данных и приложений, а также ключевые границы изоляции безопасности для тесной защиты.
 
- Дополнительные сведения можно найти в разделе
+ Дополнительные сведения см. в разделе:
 
 - [Стратегии и &mdash; операции безопасности стандартов архитектуры](https://docs.microsoft.com/security/compass/security-operations-videos-and-decks)
 - [Модуль перспективы Workshop 4b: стратегия защиты от угроз](https://docs.microsoft.com/security/ciso-workshop/ciso-workshop-module-4b)

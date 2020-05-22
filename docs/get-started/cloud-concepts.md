@@ -3,16 +3,16 @@ title: 'Начало работы: документирование решени
 description: Изучите и задокументируйте начальные решения, необходимые для достижения пути внедрения в облако.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2020
+ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: ebcf336b72b91b8290b93fd16b5d1add709b8999
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: 16d808b09b0631f95445288dcf856c8aca0a0965
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83399703"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83753013"
 ---
 # <a name="get-started-understand-and-document-foundational-alignment-decisions"></a>Начало работы: изучение и документирование решений по выравниванию в базовых принципах
 

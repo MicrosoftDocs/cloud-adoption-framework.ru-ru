@@ -6,13 +6,13 @@ ms.author: janet
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
-ms.date: 04/04/2020
-ms.openlocfilehash: bbb9f557f68fc50ef38c34371fe5b550375c335b
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.date: 05/15/2020
+ms.openlocfilehash: eff835c50a121f7338439d3987e0e294af759956
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83229227"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83751978"
 ---
 # <a name="get-started-build-a-cloud-automation-team"></a>Приступая к работе. Создание облачной группы автоматизации
 

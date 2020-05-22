@@ -7,12 +7,12 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: eda7866700edb0a1e86776f1b0f23d95799d5b67
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: 3968e453eb89a0f00d7fd23eeec90fb6a947cd05
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621579"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83756062"
 ---
 <!-- cSpell:ignore Terraform's -->
 
@@ -27,7 +27,7 @@ ms.locfileid: "83621579"
 | [Средство отслеживания перехода в облако](https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
 | [&nbsp;Шаблон стратегии и &nbsp; плана &nbsp;](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) | Документирование решений при выполнении стратегии и плана внедрения в облако. |
 
-## <a name="plan"></a>План
+## <a name="plan"></a>Планирование
 
 | Ресурс | Описание |
 |----------|-------------|
@@ -63,7 +63,7 @@ ms.locfileid: "83621579"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Проверка архитектуры Azure](https://docs.microsoft.com/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
+| [Microsoft Azure хорошо спроектированная проверка](https://docs.microsoft.com/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
 | [&nbsp; &nbsp; Исходный &nbsp; код рекомендаций](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/manage/Automation-Best-Practices) | Этот развертываемый исходный код дополняет и ускоряет внедрение рекомендаций для служб управления сервером Azure. Используйте этот исходный код, чтобы быстро включить управление операциями и установить базовый план операций. |
 | [Книга Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) | Документирование решений об управлении операциями в облаке и обеспечение взаимодействия с бизнесом для обеспечения соответствия требованиям соглашения об уровне обслуживания, инвестиций в устойчивость и распределении бюджета, связанных с операциями. |
 

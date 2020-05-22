@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 51047cd648953b68caa7f09e132b832a287e4a71
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: 9bcd4fb4a516062c053322932e1de878f4ec9095
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83399060"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83756181"
 ---
 # <a name="resource-access-management-in-azure"></a>Управление доступом к ресурсам в Azure
 
@@ -41,7 +41,7 @@ ms.locfileid: "83399060"
 
 ## <a name="what-is-an-azure-subscription"></a>Подписка Azure
 
-Подписка Azure, как и группа ресурсов, — это логическая конструкция, в которой сгруппированы группы и ресурсы в них. Тем не менее подписка Azure также связана с элементами управления, используемыми Azure Resource Manager. Рассмотрим более подробно Azure Resource Manager, чтобы больше узнать о связи между ним и подпиской Azure.
+Подписка Azure, как и группа ресурсов, — это логическая конструкция, в которой сгруппированы группы и ресурсы в них. Подписка Azure также связывается с элементами управления, используемыми Azure Resource Manager. Рассмотрим более подробно Azure Resource Manager, чтобы больше узнать о связи между ним и подпиской Azure.
 
 ![Схема подписки Azure ](../../_images/govern/design/governance-1-11.png)
  _рис. 3. Подписка Azure._

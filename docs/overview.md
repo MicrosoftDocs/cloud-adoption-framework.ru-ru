@@ -3,17 +3,17 @@ title: Инфраструктура внедрения Microsoft Cloud для Az
 description: Получите средства, рекомендации и руководства, которые помогут соформировать стратегии и обеспечить требуемые результаты на всех этапах жизненного цикла внедрения в облако.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 05/04/2020
+ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: homepage
-ms.openlocfilehash: 06ac22741c7b61b59ae308444833852f2fcbff08
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: 0e43a719894836ac3b4a97574c98deef90cb9e38
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621460"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755356"
 ---
 <!-- markdownlint-disable MD026 -->
 

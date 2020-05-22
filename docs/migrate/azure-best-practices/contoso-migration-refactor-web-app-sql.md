@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 37a8a55762dc1ddb49e41673da1497cef4a1606f
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 24259e0d9f011241a503aca143f4d03c2dc1fe6a
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223649"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83756028"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc smarthotel SHWEB SHWCF -->
 
@@ -126,8 +126,8 @@ Contoso оценивает предлагаемый дизайн, составл
 
 > [!div class="checklist"]
 >
-> - **Шаг 1. подготавливает экземпляр базы данных SQL в Azure.** Специалисты компании Contoso выполняют подготовку экземпляра SQL в Azure. После миграции веб-сайта приложения в Azure веб-приложение службы WCF будет указывать на этот экземпляр.
-> - **Шаг 2. Оценка базы данных с помощью Помощник по миграции базы данных Azure (DMA) и перенос Database Migration Service (DMS).** Компания Contoso оценивает базу данных для миграции и переносит базу данных приложения в службу Azure Data Migration Service.
+> - **Шаг 1. подготавливает экземпляр базы данных SQL в Azure.** Специалисты компании Contoso выполняют подготовку экземпляра SQL в Azure. После переноса веб-сайта приложения в Azure веб-приложение службы WCF будет указывать на этот экземпляр.
+> - **Шаг 2. Оцените базу данных с помощью Помощник по миграции базы данных Azure (DMA) и перенесите ее с помощью Database Migration Service (DMS).** Компания Contoso оценивает базу данных для миграции и переносит базу данных приложения с помощью службы Azure Data Migration Service.
 > - **Шаг 3. предоставление веб-приложений.** Специалисты компании Contoso выполняют подготовку двух веб-приложений.
 > - **Шаг 4. Настройка Azure DevOps.** Специалисты компании Contoso создают новый проект Azure DevOps и импортируют репозитории Git.
 > - **Шаг 5. Настройка строк подключения.** Специалисты компании Contoso настраивают строки подключения для обеспечения взаимодействия веб-приложения веб-уровня, веб-приложения службы WCF и экземпляра SQL.
@@ -165,7 +165,7 @@ Contoso оценивает предлагаемый дизайн, составл
 - [Получение справки](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal) о подготовке Базы данных SQL.
 - [Дополнительные сведения об](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools) ограничениях ресурсов Виртуальное ядро.
 
-## <a name="step-2-assess-the-database-with-database-migration-assistant-dma-and-migrate-with-azure-database-migration-service-dms"></a>Шаг 2. Оценка базы данных с помощью Помощник по миграции базы данных (DMA) и миграция с помощью Azure Database Migration Service (DMS)
+## <a name="step-2-assess-the-database-using-database-migration-assistant-dma-and-migrate-it-using-azure-database-migration-service-dms"></a>Шаг 2. Оценка базы данных с помощью Помощник по миграции базы данных (DMA) и перенос ее с помощью Azure Database Migration Service (DMS)
 
 Администраторы Contoso оценивают базу данных с помощью базы данных Помощник по миграции (DMA), а затем переносят ее с помощью служб Azure Database Migration Services (DMS), используя пошаговое [руководство по миграции](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online). Они могут выполнять интерактивные, автономные и гибридные (предварительные) миграции.
 
@@ -294,7 +294,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 12. В конвейере > **артефакты**выберите **+ Добавить артефакт**, а затем выберите для сборки с помощью конвейера **ContosoSmarthotel360Refactor** .
 
-     ![Сборка](./media/contoso-migration-refactor-web-app-sql/pipeline12.png)
+     ![Создание](./media/contoso-migration-refactor-web-app-sql/pipeline12.png)
 
 13. Они проверяют, что артефакт включен, чтобы включить триггер непрерывного развертывания.
 

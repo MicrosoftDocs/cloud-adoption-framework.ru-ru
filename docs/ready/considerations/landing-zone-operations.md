@@ -1,20 +1,20 @@
 ---
-title: Улучшение операций размещения в зонах
-description: Улучшение операций размещения в зонах
+title: Оптимизация операций с целевыми зонами
+description: Оптимизация операций с целевыми зонами
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2020
+ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 43325baa63035779a7a7482faaf828f2ecc5614c
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 1e338974e3720609640b23e7123fc003801cb371
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223088"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83756521"
 ---
-# <a name="improve-landing-zone-operations"></a>Улучшение операций размещения в зонах
+# <a name="improve-landing-zone-operations"></a>Оптимизация операций с целевыми зонами
 
 Операции размещения зоны обеспечивают первоначальную основу для управления операциями. В качестве масштаба операций эти улучшения переоптимизируют целевые зоны, чтобы удовлетворить растущие эксплуатационные требования, надежность и производительность.
 
@@ -56,4 +56,4 @@ ms.locfileid: "83223088"
 Узнайте, как [улучшить управление главной зоной](./landing-zone-governance.md) для поддержки внедрения в масштабе.
 
 > [!div class="nextstepaction"]
-> [Улучшенное управление начальной зоной](./landing-zone-governance.md)
+> [Оптимизация управления целевыми зонами](./landing-zone-governance.md)

@@ -3,16 +3,16 @@ title: Разработка на основе тестирования для ц
 description: Разработка на основе тестирования для целевых зон
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2020
+ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 0eb8597e32f14685e1f1fc69a51673fb1d1d360f
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: d7aa0f388f68e876569ef2e8c3638b77af8ed033
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621807"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755730"
 ---
 # <a name="test-driven-development-tdd-for-landing-zones"></a>Разработка на основе тестирования (TDD) для целевых зон
 

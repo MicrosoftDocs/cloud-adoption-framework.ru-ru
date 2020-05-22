@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 8c79c5fe2069d73a9f488f82700f7a96a7c24829
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: d9c493436196a8cf95453d1822dfa43df0fa6b5c
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223921"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755994"
 ---
 # <a name="platform-operations-in-cloud-management"></a>Операции с платформой в управлении облаком
 
@@ -55,7 +55,7 @@ ms.locfileid: "83223921"
 - **Управление:** Операционные процессы, которые сохраняют систему в рабочей среде.
 - **Безопасность:** Защита приложений и данных от угроз.
 
-[Платформа архитектуры Azure](https://docs.microsoft.com/azure/architecture/guide/pillars) предоставляет подход к оценке определенных рабочих нагрузок для обеспечения соответствия этим основам в целях улучшения общих операций. Эти фундаментальные значения можно применять как к операциям платформы, так и к операциям рабочей нагрузки.
+В [Microsoft Azure хорошо спроектированная платформа](https://docs.microsoft.com/azure/architecture/guide/pillars) предоставляет подход к оценке определенных рабочих нагрузок для обеспечения соответствия этим основам в целях улучшения общих операций. Эти фундаментальные значения можно применять как к операциям платформы, так и к операциям рабочей нагрузки.
 
 ## <a name="get-started-with-specific-platforms"></a>Приступая к работе с конкретными платформами
 

@@ -1,22 +1,22 @@
 ---
-title: Облачные функции безопасности
+title: Функции облачной безопасности
 description: Обзор организационных функций, необходимых для управления рисками информационной безопасности на предприятии
 author: MarkSimos
 ms.author: mas
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
-ms.date: 04/30/2020
-ms.openlocfilehash: 6ab95bab83c7683628c0ba4a0e332d8aba4b4034
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.date: 05/15/2020
+ms.openlocfilehash: 68ce6816dbcbbc1770ac8a51a6d77329e65b4eca
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83401275"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755313"
 ---
 <!-- cSpell:ignore MarkSimos -->
 
-# <a name="cloud-security-functions"></a>Облачные функции безопасности
+# <a name="cloud-security-functions"></a>Функции облачной безопасности
 
 Эта статья содержит сводку организационных функций, необходимых для управления угрозами информационной безопасности на предприятии. Эти организационные функции совместно формируют человеческий участок общей кибербезопасности системы. Каждая функция может выполняться одним или несколькими людьми, и каждый пользователь может выполнять одну или несколько функций в зависимости от различных факторов, таких как культура, бюджет и доступные ресурсы.
 
@@ -33,14 +33,14 @@ ms.locfileid: "83401275"
 В каждой из следующих статей содержатся сведения о каждой функции. В каждой статье приводятся сводные сведения о задачах, способах развития функции из-за изменений в среде угроз или облачных технологиях, а также о связях и зависимостях, которые важны для достижения успеха.
 
 - [Политика и стандарты](./cloud-security-policy-standards.md)
-- [Security Operations Center (SOC)](./cloud-security-operations-center.md)
+- [Центр обеспечения безопасности (SOC)](./cloud-security-operations-center.md)
 - [Архитектура безопасности](./cloud-security-architecture.md)
 - [Управление соответствием требованиям безопасности](./cloud-security-compliance-management.md)
 - [Безопасность людей](./cloud-security-people.md)
-- [Безопасность приложений и Девсекопс](./cloud-security-apsec-devsecops.md)
+- [Безопасность приложений и DevSecOps](./cloud-security-apsec-devsecops.md)
 - [Безопасность данных](./cloud-security-data-security.md)
 - [Безопасность инфраструктуры и конечных точек](./cloud-security-infrastructure-endpoint.md)
-- [Удостоверение и ключи](./cloud-security-identity-keys.md)
+- [Удостоверения и ключи](./cloud-security-identity-keys.md)
 - [Анализ угроз](./cloud-security-threat-intelligence.md)
-- [Управление уровнями](./cloud-security-posture-management.md)
+- [Управление состоянием](./cloud-security-posture-management.md)
 - [Подготовка инцидентов](./cloud-security-incident-preparation.md)

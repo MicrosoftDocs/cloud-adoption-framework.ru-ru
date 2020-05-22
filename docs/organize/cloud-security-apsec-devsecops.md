@@ -6,13 +6,13 @@ ms.author: janet
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
-ms.date: 04/30/2020
-ms.openlocfilehash: 723b7339c29870f267c4b469f2b8a0de79ee026b
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.date: 05/15/2020
+ms.openlocfilehash: 3211c0a923d292b15b67ffd6734b97261307a199
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83228460"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755530"
 ---
 # <a name="application-security-and-devsecops-functions"></a>Безопасность приложений и функции Девсекопс
 
@@ -48,7 +48,7 @@ ms.locfileid: "83228460"
 - Безопасность инфраструктуры
 - Обмен данными (обучение и средства)
 - Безопасность людей
-- Удостоверение и ключи
+- Удостоверения и ключи
 - Группы управления соответствием и рисками
 - Основные бизнес-руководители или их представители
 

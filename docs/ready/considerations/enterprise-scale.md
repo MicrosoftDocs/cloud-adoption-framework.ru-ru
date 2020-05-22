@@ -3,16 +3,16 @@ title: Начало работы с зонами в масштабе предп�
 description: Начало работы с зонами в масштабе предприятия
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2020
+ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 1e34cf58fd3f9827a3cf8dd1ffd866fdcfcca1f7
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 3eb1e11a50236d078c5dd9b1cc6f317bdfc96823
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83215234"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755745"
 ---
 # <a name="start-with-enterprise-scale-landing-zones"></a>Начало работы с зонами в масштабе предприятия
 
@@ -59,7 +59,7 @@ ms.locfileid: "83215234"
 
 Каждый из следующих шаблонов предоставляет клиентам первичную целевую зону корпоративного уровня, включая шаблоны инфраструктуры:
 
-- [ISO 27001: общие службы](https://docs.microsoft.com/azure/governance/blueprints/samples/iso27001-shared)
+- [Общие службы ISO 27001](https://docs.microsoft.com/azure/governance/blueprints/samples/iso27001-shared)
 - [ISO 27001: рабочая нагрузка Среды службы приложений или Базы данных SQL](https://docs.microsoft.com/azure/governance/blueprints/samples/iso27001-ase-sql-workload)
 - [ОТДЕЛЕНИЯное управление для Великобритании и Великобритании](https://docs.microsoft.com/azure/governance/blueprints/samples/ukofficial)
 

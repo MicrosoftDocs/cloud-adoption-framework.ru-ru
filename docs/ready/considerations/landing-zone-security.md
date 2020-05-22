@@ -1,22 +1,22 @@
 ---
-title: Повышение безопасности зоны размещения
-description: Повышение безопасности зоны размещения
+title: Повышение безопасности целевых зон
+description: Повышение безопасности целевых зон
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2020
+ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 3debb2057b4f4a6c925b62b3d783c135c5d2b3bb
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 116c628d31267fafe50d8a870f9e6c83d3c51f3c
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83215183"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83756504"
 ---
 <!-- cSpell:ignore SIEM -->
 
-# <a name="improve-landing-zone-security"></a>Повышение безопасности зоны размещения
+# <a name="improve-landing-zone-security"></a>Повышение безопасности целевых зон
 
 Если рабочие нагрузки или зона размещения, в которой они размещены, должны иметь доступ к любым конфиденциальным данным или критически важным системам, важно защитить данные и ресурсы. Повышение безопасности узловой зоны основано на [подходе к разработке на основе тестирования для размещения зон](./test-driven-development.md) путем расширения или рефакторинга целевой зоны для учета повышенных требований к безопасности.
 
@@ -44,4 +44,4 @@ ms.locfileid: "83215183"
 Узнайте, как [улучшить операции размещения зоны](./landing-zone-operations.md) для поддержки важных приложений.
 
 > [!div class="nextstepaction"]
-> [Улучшение операций размещения в зонах](./landing-zone-operations.md)
+> [Оптимизация операций с целевыми зонами](./landing-zone-operations.md)

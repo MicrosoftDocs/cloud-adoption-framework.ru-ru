@@ -6,13 +6,13 @@ ms.author: janet
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
-ms.date: 04/30/2020
-ms.openlocfilehash: 81dc8e9ab0aaad9981dd44fdbbd64d4b5d1caf87
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.date: 05/15/2020
+ms.openlocfilehash: 427ab031953652c32c77a24e73fb0a0e4cfa10af
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83228655"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755431"
 ---
 # <a name="function-of-cloud-infrastructure-and-endpoint-security"></a>Функции облачной инфраструктуры и безопасности конечных точек
 
@@ -39,7 +39,7 @@ ms.locfileid: "83228655"
 
 - Архитектура и операции ИТ
 - Архитектура безопасности
-- Security Operations Center (SOC)
+- Центр обеспечения безопасности (SOC)
 - Группа соответствия
 - Группа аудита
 
