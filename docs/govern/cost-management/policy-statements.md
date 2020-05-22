@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d686d50b98cbdef31c48d27f20d1c66f942e0818
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 72b2651b1b9b9332048f9f2f452feac039346d9c
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83220504"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755039"
 ---
 # <a name="cost-management-sample-policy-statements"></a>Примеры правил политики управления затратами
 
@@ -27,7 +27,7 @@ ms.locfileid: "83220504"
 
 ## <a name="future-proofing"></a>Перспективность
 
-**Бизнес-риск:** Текущие критерии, которые не гарантируют инвестиции в дисциплину управления затратами от группы разработчиков. Но вы полагаете, что в будущем такое внимание появится.
+**Бизнес-риск:** Текущие критерии, которые не гарантируют инвестиции в дисциплину управления затратами от группы разработчиков, но в будущем предполагается, что эти инвестиции потребуются.
 
 **Инструкция политики:** Необходимо связать все активы, развернутые в облаке, с единицей выставления счетов и приложением или рабочей нагрузкой. Эта политика обеспечит эффективную дисциплину управления затратами.
 

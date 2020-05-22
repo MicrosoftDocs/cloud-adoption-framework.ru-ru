@@ -4,16 +4,16 @@ titleSuffix: Microsoft Cloud Adoption Framework for Azure
 description: Процесс рефакторинга целевой зоны
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2020
+ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 8e1576afb56afd79a1028658609dc62c25775f75
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: b7be19e3d17f55a30d7c544c660b3a417247fd8a
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621589"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755681"
 ---
 # <a name="refactor-landing-zones"></a>Рефакторинг целевых зон
 

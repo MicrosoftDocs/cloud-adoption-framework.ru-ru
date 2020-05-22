@@ -1,20 +1,20 @@
 ---
-title: Улучшенное управление начальной зоной
-description: Улучшенное управление начальной зоной
+title: Оптимизация управления целевыми зонами
+description: Оптимизация управления целевыми зонами
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 04/04/2020
+ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 9f0005c3d84f1a9f49c3756932838bbe5634269d
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: fd500f00ecd021a1d05904c675d63a64e8b6764b
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83213959"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83756538"
 ---
-# <a name="improve-landing-zone-governance"></a>Улучшенное управление начальной зоной
+# <a name="improve-landing-zone-governance"></a>Оптимизация управления целевыми зонами
 
 Управление начальной зоной является наименьшей единицей общего управления. Создание системы управления звуком в первых нескольких целевых зонах позволит сократить объем рефакторинга, необходимый позже в жизненном цикле внедрения. Улучшение управления целевой зоной обеспечит интеграцию средств контроля затрат, создание базовых инструментов, позволяющих масштабироваться, и упрощает для группы управления облаком доставку в соответствии с пятью дисциплинами облачного управления.
 
