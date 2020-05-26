@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: cc26fd22e386769312288f3e6b8dc5cb11585ab1
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: f7670efdfb22a6542efe93f309e8bbaf83a2027e
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83751863"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83815129"
 ---
 # <a name="get-started-build-a-cloud-operations-team"></a>Начало работы: создание группы облачных операций
 
@@ -29,7 +29,7 @@ ms.locfileid: "83751863"
 **Результатам**
 
 - Определите, нужна ли вам группа облачных операций.
-- Задокументируйте решение и ответственных лиц в [шаблоне RACI (ответственный, учетный, просматривается и обучится)](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) , выбрав вкладку **Выравнивание Организации** .
+- Задокументируйте решение и ответственных лиц в [шаблоне RACI (ответственный, учетный, просматривается и обучится)](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) на `Org Alignment` листе.
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -71,7 +71,7 @@ ms.locfileid: "83751863"
 
 **Результатам**
 
-- Устанавливайте ритмичность с каждой из вспомогательных групп. По возможности выровняйте этот ритмичность с циклами выпуска и планирования.
+- Создайте ритмичность с помощью вспомогательных групп. По возможности выровняйте этот ритмичность с циклами выпуска и планирования.
 - Устанавливайте отдельную ритмичность непосредственно с помощью команды облачной стратегии или ее членов группы, чтобы ознакомиться с рабочими требованиями, связанными со следующей волной внедрения.
 
 **Рекомендации по поддержке готовности к завершению.**

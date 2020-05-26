@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 4ef888e26089a2262fadeb93ec33ed063bcbf753
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 10525a8bf3c49646d99e5e99de6372c0c1d570ee
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80636495"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83815299"
 ---
 # <a name="azure-migration-guide-before-you-start"></a>Руководство по миграции Azure: Перед началом работы
 
@@ -25,7 +25,7 @@ ms.locfileid: "80636495"
 ::: zone target="docs"
 
 > [!TIP]
-> Чтобы использовать интерактивный интерфейс, просмотрите это руководство на портале Azure. Перейдите в [центр быстрого запуска](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade) на портале Azure и выберите **Migrate your environment to Azure** (Перенос среды в Azure), а затем выполните пошаговые инструкции.
+> Чтобы использовать интерактивный интерфейс, просмотрите это руководство на портале Azure. Перейдите в [Центр быстрого запуска Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade) на портале Azure, выберите **руководство по миграции в Azure**, а затем выполните пошаговые инструкции.
 
 ::: zone-end
 

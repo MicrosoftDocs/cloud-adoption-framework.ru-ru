@@ -1225,9 +1225,9 @@ items:
             href: manage/centralize-operations.md
           - name: Обеспечение проверки операционной пригодности
             href: manage/operational-fitness-review.md
-          - name: Повышение отказоустойчивости платформы или рабочей нагрузки
+          - name: Повышение надежности платформы или рабочей нагрузки
             items:
-              - name: Контрольный список для обеспечения устойчивости служб Azure
+              - name: Контрольный список для обеспечения надежности служб Azure
                 href: 'https://docs.microsoft.com/azure/architecture/checklist/resiliency-per-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
               - name: Анализ режима сбоя
                 href: 'https://docs.microsoft.com/azure/architecture/resiliency/failure-mode-analysis?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
@@ -1363,7 +1363,7 @@ items:
         items:
           - name: Использование Центра архитектуры Azure с архитектурой решения
             href: 'https://docs.microsoft.com/azure/architecture'
-          - name: Платформа архитектуры Azure для работы с архитектурой рабочей нагрузки
+          - name: Применение Microsoft Azure Well-Architected Framework при проектировании архитектуры рабочих нагрузок
             href: 'https://docs.microsoft.com/azure/architecture/framework'
           - name: Документация по реализации продукта
             href: 'https://docs.microsoft.com'

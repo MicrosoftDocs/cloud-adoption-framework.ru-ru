@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: homepage
-ms.openlocfilehash: 0e43a719894836ac3b4a97574c98deef90cb9e38
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: b6c88d978b6b7750bd687e411663d5828f6f4257
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755356"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83815486"
 ---
 <!-- markdownlint-disable MD026 -->
 
@@ -42,9 +42,7 @@ ms.locfileid: "83755356"
 
 ## <a name="understand-the-lifecycle"></a>Основные сведения о жизненном цикле
 
-Каждая из описанных выше методологий является частью широкого жизненного цикла внедрения в облако. На следующем рисунке объединены все методологии для демонстрации общего жизненного цикла. Инфраструктура внедрения облачных технологий — это полноценная Инфраструктура жизненного цикла, поддерживающая клиентов на всех этапах внедрения, предоставляя методологии в качестве конкретных подходов к переработке общих блокирующих блокировок.
-
-<!-- cSpell:ignore caf -->
+Каждая описанная выше методика является частью широкого жизненного цикла внедрения в облако. Инфраструктура внедрения облачных технологий — это полноценная Инфраструктура жизненного цикла, поддерживающая клиентов на всех этапах внедрения, предоставляя методологии в качестве конкретных подходов к переработке распространенных блокировок, как показано ниже.
 
 ::: image type="content" source="./_images/caf-overview-new.svg" alt-text="Overview of the Cloud Adoption Framework" :::
 

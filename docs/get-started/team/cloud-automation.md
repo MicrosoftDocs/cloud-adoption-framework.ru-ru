@@ -7,18 +7,18 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: eff835c50a121f7338439d3987e0e294af759956
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 4c560271b86b384aa0ba43763344bd0a5335f239
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83751978"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83814228"
 ---
 # <a name="get-started-build-a-cloud-automation-team"></a>Приступая к работе. Создание облачной группы автоматизации
 
 Это краткое описание поможет вам понять цели и цели группы автоматизации, которая работает над внедрением в облаке.
 
-В рамках усилий по внедрению в облако возможности облачной автоматизации разблокируют потенциал DevOps и собственного подхода в облаке. Опыт в каждой из этих областей может ускорить внедрение и инновации.
+В рамках усилий по внедрению в облако возможности облачной автоматизации разблокируют потенциал DevOps и собственного подхода в облаке. Опыт в этих областях может ускорить внедрение и инновации.
 
 ## <a name="prerequisites"></a>Предварительные требования
 

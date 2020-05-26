@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: b4914cfadb3b94d997861c233e524d966aabe107
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 7ab2ea31c90215efd37c2ab0d65f8a8c7baf24b1
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83752594"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83814296"
 ---
 # <a name="get-started-align-your-organization"></a>Приступая к работе. Выровняйте свою организацию
 
@@ -74,7 +74,7 @@ ms.locfileid: "83752594"
 
 ## <a name="step-5-align-raci-charts"></a>Шаг 5. Выровняйте RACI диаграммы
 
-На каждом уровне зрелости ответственность за различные облачные функции смещается на новые команды. Такое чередование исполнителей позволяет ускорить процесс внедрения и инноваций за счет устранения барьеров и автоматизации изменений. Чтобы правильно выровнять назначения, в статье о [выравнивании RACI](../organize/raci-alignment.md) отображается диаграмма RACI для каждой из указанных в ссылке организационных структур.
+На каждом уровне зрелости ответственность за различные облачные функции смещается на новые команды. Такое чередование исполнителей позволяет ускорить процесс внедрения и инноваций за счет устранения барьеров и автоматизации изменений. Чтобы правильно выровнять назначения, в статье о [выравнивании RACI](../organize/raci-alignment.md) показана диаграмма RACI для каждой организационной структуры.
 
 ## <a name="additional-information"></a>Дополнительные сведения
 

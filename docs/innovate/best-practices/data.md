@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 613e1ebaa3341b9aa96af659d0eb03cbc21a1303
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 9e54205060604e24974d853e666962130b756ada
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80425606"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83814925"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 
@@ -49,7 +49,7 @@ ms.locfileid: "80425606"
 - [Масштабирование базы данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-nodes)
 - [Azure Data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
 - [Azure Database Migration Service](https://docs.microsoft.com/azure/dms)
-- [База данных SQL Azure с управляемыми экземплярами или без них](https://docs.microsoft.com/azure/sql-database)
+- [База данных SQL Azure с Управляемый экземпляр Azure SQL или без нее](https://docs.microsoft.com/azure/sql-database)
 - [Фабрика данных Azure](https://docs.microsoft.com/azure/data-factory).
 - [Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics)
 - [SQL Server Integration Services](https://docs.microsoft.com/sql/integration-services)

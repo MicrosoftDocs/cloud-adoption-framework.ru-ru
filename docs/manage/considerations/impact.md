@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: dc2c490850c47dfa92ec91d5133168b982b5c719
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: 42a4dc16a7249ab7211da1e1574511479a566011
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83398479"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83815248"
 ---
 # <a name="business-impact-in-cloud-management"></a>Влияние на бизнес в управлении облаком
 
@@ -54,7 +54,7 @@ ms.locfileid: "83398479"
 
 Если вы используете [книгу Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) для планирования управления облачными средствами, рассмотрите возможность выполнения следующих действий.
 
-- Каждый бизнес должен обновлять каждую рабочую нагрузку в _примере_ или _Очистить шаблон_ с учетом *времени и значений, влияющих* на каждую рабочую нагрузку. По умолчанию *влияние времени и значений* представляет прогнозируемые убытки в час, связанные с непростоией рабочей нагрузки.
+- Каждый бизнес должен обновлять каждую рабочую нагрузку либо на `Example` листе, либо на `Clean Template` листе, а также в `Time/Value Impact` каждой рабочей нагрузке. По умолчанию `Time/Value Impact` представляет прогнозируемые убытки в час, связанные с непростоией рабочей нагрузки.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

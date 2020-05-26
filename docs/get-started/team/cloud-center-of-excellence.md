@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 9c44c03c0a467e897ba648d1f4ae81fc7bae1c71
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: ebccc9b47cc12b0b54b9a7aec1c88d2a7e733816
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83751826"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83814314"
 ---
 <!-- cSpell:ignore deprioritize -->
 
@@ -109,7 +109,7 @@ Cloud Center (Ккое) обеспечивает баланс между ско�
 
 ## <a name="baseline-capability"></a>Базовые возможности
 
-Для модели Ккое требуется совместная работа между каждой из следующих возможностей:
+Для модели Ккое требуется совместная работа между следующими возможностями:
 
 - Внедрение облака (в частности, архитекторы решений).
 - Облачная стратегия (в частности руководители программ и проектов).

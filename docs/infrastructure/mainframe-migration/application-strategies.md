@@ -7,12 +7,12 @@ ms.date: 12/26/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a4b66a43cdf3524b23c109cdc5fa4e965c6e01f4
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: eb599b892e5cb3e898faf84fb1bd8b65b8d9d03b
+ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83217665"
+ms.lasthandoff: 05/24/2020
+ms.locfileid: "83815078"
 ---
 <!-- cSpell:ignore njray nanra Attunity Codit DRDA ISAM ISQL LPARS VSAM ODBC JDBC GDGs REXX TIP dbextents Raincode Tmax -->
 
@@ -176,9 +176,11 @@ ms.locfileid: "83217665"
 
 Azure предоставляет проверенную, высокодоступную и масштабируемую инфраструктуру для систем, которые сейчас работают на мейнфреймах. Некоторые рабочие нагрузки можно перенести без особых трудностей. Другие рабочие нагрузки, зависящие от программного обеспечения устаревших систем, такие как CICS и IMS, можно со временем перенести в Azure с помощью решений партнеров. Какой бы из вариантов вы не выбрали, корпорация Майкрософт и ее партнеры готовы помочь вам оптимизировать решение для Azure, сохранив функциональные возможности программного обеспечения системы мейнфрейма.
 
-## <a name="learn-more"></a>Дополнительные сведения
+<!-- docsTest:ignore "IBM DB2 pureScale" -->
 
-Для получения дополнительных сведений см. следующие ресурсы:
+## <a name="learn-more"></a>Подробнее
+
+Дополнительные сведения см. в следующих ресурсах:
 
 - [Начало работы с Azure](https://docs.microsoft.com/azure)
 
