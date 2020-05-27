@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: f88d7a6e7856e1a909547d721be2e4b4a132692e
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 5aa8f25ea54fc6ab8df5728bc742f6f3c9ff3886
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83753535"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862472"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Руководство по принятию решений о ведении журналов и создании отчетов
 
@@ -36,7 +36,7 @@ ms.locfileid: "83753535"
 | Имеется ли у вас существующая локальная инфраструктура мониторинга? | нет | Да | Да |  нет |
 | Есть ли у вас требования, препятствующие хранению данных журналов во внешних хранилищах? | нет | Да | нет | нет |
 | Вам необходимо интегрировать облачный мониторинг с локальными системами? | нет | нет | Да | нет |
-Необходимо ли обрабатывать или фильтровать данные телеметрии перед их отправкой в системы мониторинга? | нет | нет | нет | Да |
+| Необходимо ли обрабатывать или фильтровать данные телеметрии перед их отправкой в системы мониторинга? | нет | нет | нет | Да |
 
 ### <a name="cloud-native"></a>Облачная среда
 
