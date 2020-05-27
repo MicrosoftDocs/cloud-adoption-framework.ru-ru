@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 68aff93493200e4878e31b961b3c97608c76c7c3
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 79c428da9d0be27c209fcc30686225217832dbe1
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814398"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862506"
 ---
 # <a name="get-started-accelerate-new-product-and-service-innovation-in-the-cloud"></a>Начало работы. ускорение новых нововведений продуктов и услуг в облаке
 
@@ -206,7 +206,7 @@ ms.locfileid: "83814398"
 
 - [Согласие на ценность бизнеса](../innovate/business-value.md). Если с момента последнего согласия на бизнес-ценность прошло более трех месяцев или если одно из них никогда не было завершено, начните здесь.
 - [Руководство по инновациям Azure](../innovate/innovation-guide/index.md). Используйте руководство по инновациям Azure, чтобы ускорить развертывание инновационных решений, понимаясь инструментами и процессами, которые могут помочь в создании минимального (MVP) продукта.
-- Рекомендации по [инновациям](../innovate/best-practices/index.md). Узнайте, как объединить службы Azure, чтобы создать цепочки инструментов для цифрового Invention.
+- Рекомендации по [инновациям](../innovate/best-practices/index.md). Объедините службы Azure, чтобы создать цепочки инструментов для цифрового Invention.
 - [Циклы обратной связи](../innovate/considerations/adoption.md): Разрабатывайте улучшенные циклы обратной связи, чтобы быстро доставлять повлиять на ваших клиентов.
 
 <!-- markdownlint-disable MD033 -->

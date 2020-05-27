@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: a77190bd55e9c5dd0656bc62b8ac10c34b1d13ce
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: fd859de8d7388a0cbd7c55255e005d98e6e87418
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815197"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83861588"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless SQLMI iisreset -->
 
@@ -91,7 +91,7 @@ ms.locfileid: "83815197"
 | **Оценка** | **Сведения** |
 | --- | --- |
 | **Плюсы** | Интерфейс WEBVM будет перемещен в Azure без изменений, упрощая миграцию. <br><br> Управляемый экземпляр SQL соответствует техническим требованиям и целям компании Contoso. <br><br> Управляемый экземпляр обеспечит 100-процентную совместимость с текущим развертыванием, позволяя компании прекратить использование SQL Server 2008 R2. <br><br> Компания может задействовать свои инвестиции в программу Software Assurance, воспользовавшись Преимуществом гибридного использования Azure для SQL Server и Windows Server. <br><br> Службу Azure Database Migration Service можно будет повторно использовать для миграции в будущем. <br><br> В Управляемый экземпляр Базы данных SQL встроены средства обеспечения отказоустойчивости, которые специалистам Contoso не требуется настраивать. Это гарантия того, что уровень данных больше не является единой точкой отказа. |
-| **Минусы** | WEBVM работает под управлением Windows Server 2008 R2. Эта операционная система поддерживается в Azure, но больше не является поддерживаемой платформой. [Подробнее](https://support.microsoft.com/help/956893). <br><br> Веб-уровень остается единой точкой отработки отказа, а службы по-прежнему предоставляет только WEBVM. <br><br> Компании Contoso потребуется и дальше поддерживать веб-уровень приложения как виртуальную машину, а не переходить на управляемую службу, такую как Служба приложений Azure. <br><br> На уровне данных Управляемый экземпляр может быть не лучшим решением, если компании Contoso требуется настраивать операционную систему или сервер базы данных либо запускать сторонние приложения наряду с SQL Server. Использование SQL Server на виртуальной машине IaaS может обеспечить такую гибкость. |
+| **Минусы** | WEBVM работает под управлением Windows Server 2008 R2. Эта операционная система поддерживается в Azure, но больше не является поддерживаемой платформой. [Подробнее.](https://support.microsoft.com/help/956893) <br><br> Веб-уровень остается единой точкой отработки отказа, а службы по-прежнему предоставляет только WEBVM. <br><br> Компании Contoso потребуется и дальше поддерживать веб-уровень приложения как виртуальную машину, а не переходить на управляемую службу, такую как Служба приложений Azure. <br><br> На уровне данных Управляемый экземпляр может быть не лучшим решением, если компании Contoso требуется настраивать операционную систему или сервер базы данных либо запускать сторонние приложения наряду с SQL Server. Использование SQL Server на виртуальной машине IaaS может обеспечить такую гибкость. |
 
 <!-- markdownlint-enable MD033 -->
 
@@ -113,7 +113,7 @@ ms.locfileid: "83815197"
 | [Управляемый экземпляр Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance) | Управляемый экземпляр — это служба управляемой базы данных, которая представляет полностью управляемый экземпляр SQL Server в облаке Azure. Он использует тот же код, что и последняя версия ядра СУБД SQL Server, и имеет новейшие функции, улучшения производительности и исправления системы безопасности. | За использование Управляемых экземпляров Базы данных SQL, выполняемых в Azure, взимается плата на основе емкости. Дополнительные сведения см. в статье [Цены на Базу данных SQL Azure ](https://azure.microsoft.com/pricing/details/sql-database/managed). |
 | [Служба "Миграция Azure"](https://docs.microsoft.com/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для | Оцените виртуальные машины VMware. Служба "миграция Azure" оценивает Пригодность для миграции | компьютеров. Он предоставляет оценки размеров и стоимости для выполнения в | Azure. | Начиная с мая 2018 года "Миграция Azure" — это бесплатная служба. |
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 Компания Contoso и другие пользователи должны отвечать следующим предварительным условиям этого сценария.
 
@@ -186,7 +186,7 @@ ms.locfileid: "83815197"
 
 **Требуется дополнительная помощь?**
 
-- См. раздел [Настройка пользовательской службы DNS для Управляемого экземпляра Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance).
+- Ознакомьтесь с [обзором управляемый экземпляр базы данных SQL](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance).
 - См. раздел [Создание виртуальной сети для управляемых экземпляров](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-vnet-configuration).
 - См. раздел [Создание, изменение и удаление пиринга в виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering).
 - См. раздел [Включение доменных служб Azure Active Directory](https://docs.microsoft.com/azure/active-directory-domain-services/tutorial-create-instance).
@@ -332,7 +332,7 @@ ms.locfileid: "83815197"
 
 **Требуется дополнительная помощь?**
 
-[Узнайте, как](https://docs.microsoft.com/azure/migrate) настроить миграцию Azure: средство миграции сервера.
+Дополнительные сведения о настройке [средства миграции Azure: Server Migration Tool](https://docs.microsoft.com/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
 
 ### <a name="prepare-on-premises-vms"></a>Подготовка локальных виртуальных машин
 
@@ -362,7 +362,7 @@ ms.locfileid: "83815197"
 
 5. Требуется дополнительная помощь?
 
-   - [Дополнительные сведения о](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm#prepare-vms-for-migration) подготовке виртуальных машин к миграции.
+   - Дополнительные сведения о [подготовке виртуальных машин к миграции](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm#prepare-vms-for-migration).
 
 ## <a name="step-5-replicate-the-on-premises-vms"></a>Шаг 5. репликация локальных виртуальных машин
 
@@ -546,8 +546,8 @@ ms.locfileid: "83815197"
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление (BCDR), Contoso выполняет следующие действия:
 
-- Безопасное хранение данных. Специалисты Contoso выполняют резервное копирование данных, содержащихся в виртуальных машинах, с помощью службы Azure Backup. [Подробнее](https://docs.microsoft.com/azure/backup/backup-overview).
-- Поддержание работы приложений. Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Подробнее](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
+- Безопасное хранение данных. Специалисты Contoso выполняют резервное копирование данных, содержащихся в виртуальных машинах, с помощью службы Azure Backup. [Подробнее.](https://docs.microsoft.com/azure/backup/backup-overview)
+- Поддержание работы приложений. Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Подробнее.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
 - Специалисты Contoso узнают больше о том, как контролировать Управляемый экземпляр SQL, в том числе [резервное копирование баз данных](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат

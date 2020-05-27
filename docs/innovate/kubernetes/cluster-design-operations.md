@@ -7,18 +7,18 @@ ms.date: 12/16/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d48a451a9cb6bcedb4f680701f9a6752df24e6a3
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: c13936beacf44700078fad59bd93f7754d8ddd99
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223989"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83861775"
 ---
 <!-- cSpell:ignore asabbour sabbour autoscaler PDBs -->
 
 # <a name="cluster-design-and-operations"></a>Проектирование и эксплуатация кластеров
 
-Выявление конфигурации кластера и структуры сети. Масштабируемость в будущем путем автоматизации подготовки инфраструктуры. Обеспечьте высокий уровень доступности, планируя непрерывность бизнес-процессов и аварийное восстановление.
+Выявление конфигурации кластера и структуры сети. Масштабируемость в будущем путем автоматизации подготовки инфраструктуры. Поддерживайте высокий уровень доступности, планируя непрерывность бизнес-процессов и аварийное восстановление.
 
 ## <a name="plan-train-and-proof"></a>Планирование, обучение и подтверждение
 
@@ -37,7 +37,7 @@ ms.locfileid: "83223989"
 >
 > | Контрольный список  | Ресурсы |
 > |------------------------------------------------------------------|-----------------------------------------------------------------|
-> | **Выявление рекомендаций по проектированию сети.** Ознакомьтесь с вопросами по проектированию сети кластера, Сравните сетевые модели и выберите подключаемый модуль Kubernetes Networking, соответствующий вашим потребностям.    | [Кубенет и сетевой интерфейс контейнеров Azure (CNI)](https://docs.microsoft.com/azure/aks/concepts-network#azure-virtual-networks) <br/> [Использование сети kubenet с пользовательскими диапазонами IP-адресов в Службе Azure Kubernetes (AKS)](https://docs.microsoft.com/azure/aks/configure-kubenet) <br/> [Настройка сети Azure CNI в Службе Azure Kubernetes (AKS)](https://docs.microsoft.com/azure/aks/configure-azure-cni) <br/> [Разработка безопасной сети для кластера AKS](https://github.com/azure/sg-aks-workshop/blob/master/cluster-design/NetworkDesign.md) |
+> | **Выявление рекомендаций по проектированию сети.** Ознакомьтесь с вопросами по проектированию сети кластера, Сравните сетевые модели и выберите подключаемый модуль Kubernetes Networking, соответствующий вашим потребностям.    | [Кубенет и сетевой интерфейс контейнеров Azure (CNI)](https://docs.microsoft.com/azure/aks/concepts-network#azure-virtual-networks) <br> [Использование сети kubenet с пользовательскими диапазонами IP-адресов в Службе Azure Kubernetes (AKS)](https://docs.microsoft.com/azure/aks/configure-kubenet) <br> [Настройка сети Azure CNI в Службе Azure Kubernetes (AKS)](https://docs.microsoft.com/azure/aks/configure-azure-cni) <br> [Разработка безопасной сети для кластера AKS](https://github.com/azure/sg-aks-workshop/blob/master/cluster-design/NetworkDesign.md) |
 > | **Создайте несколько пулов узлов.** Для поддержки приложений, имеющих различные требования к вычислению или хранению, при необходимости можно настроить кластер с несколькими пулами узлов. Например, используйте дополнительные пулы узлов, чтобы предоставить графические процессоры для приложений с большим объемом вычислений или доступ к высокопроизводительному хранилищу SSD.   | [Создание нескольких пулов узлов для кластера и управление им в службе Kubernetes Azure](https://docs.microsoft.com/azure/aks/use-multiple-node-pools) |
 > | **Решите требования к доступности.** Чтобы обеспечить более высокий уровень доступности приложений, кластеры можно распределять между зонами доступности. Эти зоны являются физически отдельными центрами обработки данных в пределах заданного региона. Когда компоненты кластера распределяются по нескольким зонам, кластер Кано допускает сбой в одной из этих зон. Приложения и операции управления по-прежнему будут доступны, даже если у всего центра обработки данных возникла проблема.   | [Создание кластера Azure Kubernetes Service (AKS), использующего зоны доступности](https://docs.microsoft.com/azure/aks/availability-zones) |
 
@@ -77,5 +77,5 @@ ms.locfileid: "83223989"
 > | Контрольный список  | Ресурсы |
 > |------------------------------------------------------------------|-----------------------------------------------------------------|
 > | **Автоматическое масштабирование кластера в соответствии с потребностями приложений.** Чтобы справиться с потребностями приложений, может потребоваться изменить число узлов, которые запускают рабочие нагрузки, автоматически с помощью автомасштабирования кластера. | [Настройка автомасштабирования кластера Kubernetes](https://docs.microsoft.com/azure/aks/cluster-autoscaler)    |
-> | **Спланируйте непрерывность бизнес-процессов и аварийное восстановление.** Спланируйте развертывание в многорегионом, создайте план миграции хранилища и включите георепликацию для образов контейнеров. | [Рекомендации по развертыванию регионов](https://docs.microsoft.com/azure/aks/operator-best-practices-multi-region)  <br/> [Георепликация реестра контейнеров Azure](https://docs.microsoft.com/azure/container-registry/container-registry-geo-replication)  |
-> | **Настройка мониторинга и устранения неполадок в масштабе.** Настройка оповещений и мониторинга для приложений в Kubernetes. Узнайте о конфигурации по умолчанию, о том, как интегрировать более сложные метрики и как добавить собственные настраиваемые средства мониторинга и оповещения для надежной работы приложения. | [Приступая к работе с мониторингом и оповещениями для Kubernetes (видео)](https://www.youtube.com/watch?v=W7aN_z-cyUw&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=16) <br/> [Настройка оповещений с помощью Azure Monitor для контейнеров](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview) <br/> [Обзор журналов диагностики для основных компонентов](https://docs.microsoft.com/azure/aks/view-master-logs) <br/> [Диагностика службы Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/concepts-diagnostics)    |
+> | **Спланируйте непрерывность бизнес-процессов и аварийное восстановление.** Спланируйте развертывание в многорегионом, создайте план миграции хранилища и включите георепликацию для образов контейнеров. | [Рекомендации по развертыванию регионов](https://docs.microsoft.com/azure/aks/operator-best-practices-multi-region) <br> [Георепликация реестра контейнеров Azure](https://docs.microsoft.com/azure/container-registry/container-registry-geo-replication)  |
+> | **Настройка мониторинга и устранения неполадок в масштабе.** Настройка оповещений и мониторинга для приложений в Kubernetes. Узнайте о конфигурации по умолчанию, о том, как интегрировать более сложные метрики и как добавить собственные настраиваемые средства мониторинга и оповещения для надежной работы приложения. | [Приступая к работе с мониторингом и оповещениями для Kubernetes (видео)](https://www.youtube.com/watch?v=W7aN_z-cyUw&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=16) <br> [Настройка оповещений с помощью Azure Monitor для контейнеров](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview) <br> [Обзор журналов диагностики для основных компонентов](https://docs.microsoft.com/azure/aks/view-master-logs) <br> [Диагностика службы Azure Kubernetes Service (AKS)](https://docs.microsoft.com/azure/aks/concepts-diagnostics)    |
