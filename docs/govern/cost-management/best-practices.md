@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 0632b80f168ba51f5709322cc229e4b7a21094c4
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 237ec750ddc8be3614d686c325458f12e9b0f5d9
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815112"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862370"
 ---
 <!-- docsTest:ignore ARO -->
 
@@ -93,7 +93,7 @@ ms.locfileid: "83815112"
 
 При развертывании виртуальных машин Azure для поддержки рабочих нагрузок можно выбрать несколько вариантов. Каждый тип виртуальной машины имеет свои особые возможности и различные комбинации ЦП, памяти и дисков. Виртуальные машины сгруппированы следующим образом.
 
-| **Type** | **Сведения** | **Использование** |
+| Тип | Сведения | Использовать |
 |---|---|---|
 | **Общего назначения** | Сбалансированное соотношение ресурсов ЦП и памяти. | Подходит для тестирования и разработки, небольших и средних баз данных, с низким и средним объемами. | Веб-серверы трафика. |
 | **Оптимизированные по вычислительным ресурсам** | Высокое соотношение ресурсов ЦП и памяти. | Хорошее решение для веб-сервера со средним объемом трафика, сетевых устройств, пакетных процессов и серверов приложений. |
@@ -126,13 +126,13 @@ Azure предоставляет различные типы данных хра
 
 <!-- markdownlint-disable MD033 -->
 
-| **Тип данных** | **Сведения** | **Использование** |
+| Тип данных | Сведения | Использование |
 | ---|---|---|
-| **BLOB-объекты** | Оптимизировано для хранения больших объемов неструктурированных объектов, таких как текстовые или двоичные данные. | Доступ к данным отовсюду через HTTP/HTTPS. | Используется для сценариев потоковой передачи и произвольного доступа. Например, для передачи изображений и документов непосредственно в браузер, потокового видео и аудио, а также для хранения данных резервного копирования и аварийного восстановления. |
+| **BLOB-объекты** | Оптимизировано для хранения больших объемов неструктурированных объектов, таких как текстовые или двоичные данные. | Доступ к данным отовсюду через HTTP/HTTPS. <br><br> Используется для сценариев потоковой передачи и произвольного доступа. Например, для передачи изображений и документов непосредственно в браузер, потокового видео и аудио, а также для хранения данных резервного копирования и аварийного восстановления. |
 | **Файлы** | Управляемые общие файловые ресурсы, доступ к которым осуществляется через SMB 3,0. | Используется при переносе локальных файловых ресурсов и для предоставления нескольких прав доступа и подключений к данным файлов. |
 | **Диски** | На основе страничных BLOB-объектах. <br><br> Тип диска (скорость): Стандартный HDD, Стандартный SSD, SSD класса Premium или Ultra Disks. <br><br> Управление дисками. неуправляемый (Управление параметрами дисков и хранением) или управление ими (выберите тип диска, и Azure управляет диском). | Используйте диски уровня "Премиум" для виртуальных машин. Для простого управления и масштабирования используются управляемые диски. |
 | **Очереди** | Хранение и получение большого количества сообщений, доступ к которым осуществлялся через вызовы с проверкой подлинности (HTTP или HTTPS). | Подключение компонентов приложения к очереди асинхронных сообщений. |
-| **Таблице** | Хранение таблиц. | Теперь входит в состав API таблиц Azure Cosmos DB. |
+| **Таблицы** | Хранение таблиц. | Теперь входит в состав API таблиц Azure Cosmos DB. |
 
 <!--markdownlint-enable MD033 -->
 
@@ -142,7 +142,7 @@ Azure предоставляет различные типы данных хра
 
 <!-- markdownlint-disable MD033 -->
 
-| **Уровень доступа** | **Сведения** | **Использование** |
+| Уровень доступа | Сведения | Использование |
 | --- | --- | --- |
 | **Горячий** | Выше стоимость хранения, ниже расходы на доступ и транзакции <br><br> Это уровень доступа по умолчанию. | Используйте для активно используемых данных, к которым часто обращаются. |
 | **Здорово** | Снижение затрат на хранение, повышение стоимости доступа и транзакций. <br><br> Хранение не менее чем 30 дней. | Краткосрочное хранение, данные доступны, но к ним редко обращаются. |
@@ -156,7 +156,7 @@ Azure предоставляет различные типы учетных за
 
 <!-- markdownlint-disable MD033 -->
 
-| **Тип учетной записи** | **Сведения** | **Использование** |
+| Тип учетной записи | Сведения | Использование |
 | --- | --- | --- |
 | **Универсальный уровень общего назначения версии 2** | Поддерживает BLOB-объекты (блок, страница, добавление), файлы, диски, очереди и таблицы. <br><br> Поддерживает горячий, стильный и архивный уровни доступа. Поддерживается хранилище, избыточное в виде зоны (ZRS). | Используется для большинства сценариев и типов данных. Учетные записи хранения уровня "Стандартный" могут быть основаны на жестких дисках или SSD. |
 | **Уровень Premium общего назначения версии 2** | Поддерживает данные хранилища BLOB-объектов (страничные BLOB-объекты). Поддерживает горячий, стильный и архивный уровни доступа. Поддерживается ZRS. <br><br> Хранение на SSD. | Майкрософт рекомендует использовать для всех виртуальных машин. |
@@ -169,7 +169,7 @@ Azure предоставляет различные типы учетных за
 
 Учетные записи хранения могут использовать различные виды избыточности для обеспечения устойчивости и высокого уровня доступности.
 
-| **Type** | **Сведения** | **Использование** |
+| Тип | Сведения | Использование |
 | --- | --- | --- |
 | **Локально избыточное хранилище (LRS)** | Защищает от локальных сбоев, реплицируя одну единицу хранения в отдельный домен сбоя и домен обновления. Сохраняет несколько копий данных в одном центре обработки данных. Предоставляет по крайней мере 99,999999999% (одиннадцать 9) устойчивости объектов в течение заданного года. | Рекомендуется, если приложение хранит данные, которые можно легко воссоздать. |
 | **Хранилище, избыточное в виде зоны (ZRS)** | Предоставляет защиту от сбоя центр обработки данных, реплицируя все три кластера хранилища в одном регионе. Каждый кластер хранилища физически отделен и размещен в собственной зоне доступности. Предоставляет по крайней мере уровне 99,9999999999% (двенадцать 9) устойчивость объектов в течение определенного года, сохраняя несколько копий данных в нескольких центрах обработки или регионах. | Рекомендуется, если требуется согласованность, устойчивость и высокий уровень доступности. Не может защитить данные от региональной аварии, при которой полностью выходят из строя несколько зон. |
@@ -178,11 +178,11 @@ Azure предоставляет различные типы учетных за
 
 **Подробнее:**
 
-- [Обзор цен на хранилище Azure](https://azure.microsoft.com/pricing/details/storage)
-- [Дополнительные сведения](https://docs.microsoft.com/azure/storage/common/storage-import-export-service) Импорт и экспорт Azure для внедрения больших объемов данных в большие двоичные объекты и файлы Azure.
-- [Выбор между большими двоичными объектами Azure, службой файлов Azure и дисками Azure](https://docs.microsoft.com/azure/storage/common/storage-introduction).
+- Ознакомьтесь с [ценами на хранилище Azure](https://azure.microsoft.com/pricing/details/storage).
+- Узнайте, как использовать [службу импорта и экспорта Azure](https://docs.microsoft.com/azure/storage/common/storage-import-export-service) для безопасного импорта больших объемов данных в хранилище BLOB-объектов Azure и файлы Azure.
+- Сравните [большие двоичные объекты, файлы и типы данных дискового хранилища](https://docs.microsoft.com/azure/storage/common/storage-introduction).
 - Дополнительные сведения о [уровнях доступа](https://docs.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers).
-- [Общие сведения об учетной записи хранения](https://docs.microsoft.com/azure/storage/common/storage-account-overview).
+- Проверьте [различные типы учетных записей хранения](https://docs.microsoft.com/azure/storage/common/storage-account-overview).
 - Сведения о [избыточности службы хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-redundancy), включая LRS, ZRS, GRS и GRS доступа для чтения.
 - Дополнительные сведения о [службе файлов Azure](https://docs.microsoft.com/azure/storage/files/storage-files-introduction).
 
@@ -207,7 +207,7 @@ Azure предоставляет различные типы учетных за
 
 - [Взгляните](https://azure.microsoft.com/pricing/hybrid-benefit) на калькулятор преимущество гибридного использования Azure экономии.
 - Дополнительные сведения о [преимущество гибридного использования Azure для Windows Server](https://azure.microsoft.com/pricing/hybrid-benefit).
-- [Руководство по выбору ценовой категории для виртуальных машин SQL Server в Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-pricing-guidance).
+- Ознакомьтесь с [руководством по ценам для SQL Server виртуальных машин Azure](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-pricing-guidance).
 
 ## <a name="best-practice-use-reserved-vm-instances"></a>Рекомендации. использование зарезервированных экземпляров виртуальных машин
 
@@ -237,9 +237,9 @@ Azure предоставляет различные типы учетных за
 
 **Подробнее:**
 
-- [Ознакомьтесь с обзором](https://docs.microsoft.com/azure/billing/billing-consumption-api-overview) API-интерфейсов использования Azure.
-- [Подключение к Azure Consumption Insights в Power BI Desktop (бета-версия)](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights).
-- [Управление доступом к данным для выставления счетов в Azure](https://docs.microsoft.com/azure/billing/billing-manage-access).
+- Ознакомьтесь с [обзором интерфейсов API потребления Azure](https://docs.microsoft.com/azure/billing/billing-consumption-api-overview).
+- Дополнительные сведения о [подключении к Azure consumption Insights в Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights).
+- Узнайте, как [управлять доступом к сведениям о выставлении счетов для Azure с помощью управления доступом на основе ролей (RBAC)](https://docs.microsoft.com/azure/billing/billing-manage-access).
 
 ## <a name="best-practice-monitor-resource-utilization"></a>Рекомендации: мониторинг использования ресурсов
 
@@ -253,8 +253,8 @@ Azure предоставляет различные типы учетных за
 
 **Подробнее:**
 
-- Общие сведения о [службе Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) и [Azure Advisor](https://docs.microsoft.com/azure/advisor/advisor-overview).
-- [Рекомендации Azure Advisor по затратам](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations).
+- Ознакомьтесь с обзором [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) и [помощника по Azure](https://docs.microsoft.com/azure/advisor/advisor-overview).
+- Получите [рекомендации по стоимости помощника по Azure](https://docs.microsoft.com/azure/advisor/advisor-cost-recommendations).
 - Узнайте, как [оптимизировать расходы от рекомендаций](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)и [предотвратить непредвиденные расходы](https://docs.microsoft.com/azure/billing/billing-getting-started).
 - Узнайте о [наборе средств оптимизации ресурсов Azure (АТО)](https://github.com/azure/azure-quickstart-templates/tree/master/azure-resource-optimization-toolkit).
 
@@ -306,11 +306,11 @@ Azure предоставляет различные типы учетных за
 
 **Подробнее:**
 
-- [Общие сведения о службе "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management/overview).
-- [Как оптимизировать инвестиции в облако с помощью службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices)
-- [Использование отчетов службы "Управление затратами Azure"](https://docs.microsoft.com/azure/cost-management/use-reports).
-- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations).
-- [Ознакомьтесь](https://docs.microsoft.com/rest/api/consumption/budgets) с API-интерфейсами использования Azure.
+- Ознакомьтесь с [обзором службы управления затратами Azure](https://docs.microsoft.com/azure/cost-management/overview).
+- Узнайте, как [оптимизировать инвестиции в облако с помощью службы "Управление затратами Azure](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices)".
+- Узнайте, как использовать [отчеты службы "Управление затратами Azure](https://docs.microsoft.com/azure/cost-management/use-reports)".
+- Ознакомьтесь с руководством по [оптимизации затрат из рекомендаций](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations).
+- Ознакомьтесь с [API-интерфейсами использования Azure](https://docs.microsoft.com/rest/api/consumption/budgets).
 
 ## <a name="best-practice-implement-resource-group-budgets"></a>Рекомендации. Реализация бюджетов групп ресурсов
 
@@ -321,8 +321,8 @@ Azure предоставляет различные типы учетных за
 
 **Подробнее:**
 
-- [Узнайте, как](https://docs.microsoft.com/azure/billing/billing-cost-management-budget-scenario) управлять затратами с помощью бюджетов Azure.
-- [Руководство. Создание и управление бюджетами Azure](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
+- Узнайте, как [управлять затратами с помощью бюджетов Azure](https://docs.microsoft.com/azure/billing/billing-cost-management-budget-scenario).
+- Ознакомьтесь с руководством по [созданию бюджета Azure и управлению им](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets).
 
 ## <a name="best-practice-review-azure-advisor-recommendations"></a>Рекомендация. Ознакомьтесь с рекомендациями помощника по Azure
 
@@ -344,7 +344,7 @@ Azure предоставляет различные типы учетных за
 
 **Подробнее:**
 
-- [Мониторинг использования и ожидаемых затрат](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs).
+- Узнайте [, как отслеживать использование и оценивать затраты](https://docs.microsoft.com/azure/monitoring-and-diagnostics/monitoring-usage-and-estimated-costs).
 
 ## <a name="best-practice-optimize-storage"></a>Рекомендации. Оптимизация хранилища
 
@@ -358,7 +358,8 @@ Azure предоставляет различные типы учетных за
 **Подробнее:**
 
 - Дополнительные сведения о [уровнях доступа](https://docs.microsoft.com/azure/storage/blobs/storage-blob-storage-tiers).
-- Общие сведения о StorSimple см. в [этой статье](https://docs.microsoft.com/azure/azure-monitor/overview), а цены на StorSimple [здесь](https://azure.microsoft.com/pricing/details/storsimple).
+- Ознакомьтесь с [обзором StorSimple](https://docs.microsoft.com/azure/azure-monitor/overview).
+- Ознакомьтесь с [ценами на StorSimple](https://azure.microsoft.com/pricing/details/storsimple).
 
 ## <a name="best-practice-automate-vm-optimization"></a>Рекомендации: Автоматизация оптимизации виртуальной машины
 
@@ -368,9 +369,9 @@ Azure предоставляет различные типы учетных за
 
 **Подробнее:**
 
-- [Вертикальное автомасштабирование масштабируемых наборов виртуальных машин](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-vertical-scale-reprovision).
-- [Расписание автозапуска виртуальных машин](https://azure.microsoft.com/updates/azure-devtest-labs-schedule-vm-auto-start).
-- [Решение для запуска и остановки виртуальных машин в нерабочее время в службе автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-solution-vm-management).
+- Дополнительные сведения об [автомасштабировании по вертикали](https://docs.microsoft.com/azure/virtual-machine-scale-sets/virtual-machine-scale-sets-vertical-scale-reprovision).
+- Проверьте [Azure DevTest Labs: запланируйте автоматический запуск виртуальной машины](https://azure.microsoft.com/updates/azure-devtest-labs-schedule-vm-auto-start).
+- Узнайте, как [запускать или прекращать работу виртуальных машин в службе автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-solution-vm-management).
 - Получите дополнительные сведения о [помощнике по Azure](https://docs.microsoft.com/azure/advisor/advisor-overview)и [средстве оптимизации ресурсов Azure (АТО)](https://github.com/azure/azure-quickstart-templates/tree/master/azure-resource-optimization-toolkit).
 
 ## <a name="best-practice-use-logic-apps-and-runbooks-with-budgets-api"></a>Рекомендации. Использование Logic Apps и модулей Runbook с API бюджетов

@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: f7670efdfb22a6542efe93f309e8bbaf83a2027e
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 02317405adc974e9836bb3e64b881da3296e3d8e
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815129"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862438"
 ---
 # <a name="get-started-build-a-cloud-operations-team"></a>Начало работы: создание группы облачных операций
 
@@ -202,4 +202,4 @@ ms.locfileid: "83815129"
 - [Функции Cloud Center of Excellence](../../organize/cloud-center-of-excellence.md)
 - [Антишаблоны Организации: приемники и фиефдомс](../../organize/fiefdoms-silos.md)
 
-Узнайте, как выстроить обязанности между группами, разработав межкомандную матрицу, определяющую RACI стороны. Скачайте и измените [шаблон электронной таблицы RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx).
+Выровняйте обязанности между командами, разработав межкомандную матрицу, определяющую RACI стороны. Скачайте и измените [шаблон электронной таблицы RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx).

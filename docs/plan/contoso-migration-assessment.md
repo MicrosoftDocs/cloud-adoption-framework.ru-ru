@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 8624b11e0f99404c4f718c8a1c07de803d7fb876
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: dba69e75565658b0101a1849ca3d90e21890fa4a
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815384"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862608"
 ---
 <!-- docsTest:disable TODO -->
 
@@ -101,7 +101,7 @@ ms.locfileid: "83815384"
   - Виртуальная машина **OSTICKETWEB** работает на Apache 2 и PHP 7.0.
   - Виртуальная машина **OSTICKETMYSQL** работает на MySQL 5.7.22.
 
-## <a name="prerequisites"></a>Предварительные требования
+## <a name="prerequisites"></a>Предварительные условия
 
 Компания Contoso и другие пользователи должны отвечать следующим предварительным условиям оценки:
 
@@ -288,7 +288,7 @@ ms.locfileid: "83815384"
 
     **Пример.**
 
-    ```C:\>CertUtil -HashFile C:\AzureMigrate\AzureMigrate.ova SHA256```
+    `C:\>CertUtil -HashFile C:\AzureMigrate\AzureMigrate.ova SHA256`
 
 3. Созданный хэш должен соответствовать хэш-значениям, указанным в разделе [Проверка безопасности](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#verify-security) руководства по [оценке виртуальных машин VMware для миграции](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware) .
 
@@ -491,13 +491,13 @@ ms.locfileid: "83815384"
 - Оценка достоверности полезна при _определении размера на основе производительности_. Служба "Миграция Azure" может иметь недостаточное количество точек данных для определения размера на основе использования. При определении размера _как для локальной виртуальной машины_ значение оценки достоверности всегда равно 5 звездам, так как в службе "Миграция Azure" есть все данные для определения размера виртуальной машины.
 - В зависимости от процента доступных точек данных оценка достоверности может быть такой:
 
-   | Уровень доступности точек данных | Оценка достоверности |
-   | --- | --- |
-   | 0–20 % | 1 звезда |
-   | 21–40 % | 2 звезды |
-   | 41–60 % | 3 звезды |
-   | 61–80 % | 4 звезды |
-   | 81–100 % | 5 звезд |
+    | Уровень доступности точек данных | Оценка достоверности |
+    | --- | --- |
+    | 0–20 % | 1 звезда |
+    | 21–40 % | 2 звезды |
+    | 41–60 % | 3 звезды |
+    | 61–80 % | 4 звезды |
+    | 81–100 % | 5 звезд |
 
 #### <a name="verify-azure-readiness"></a>Проверка готовности к работе в Azure
 

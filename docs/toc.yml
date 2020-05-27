@@ -387,7 +387,7 @@ items:
                 items:
                   - name: Рефакторинг приложения в Службе приложений Azure и Базе данных SQL Azure
                     href: migrate/azure-best-practices/contoso-migration-refactor-web-app-sql.md
-                  - name: Рефакторинг приложения в Службе приложений Azure и управляемом экземпляре Базы данных SQL Azure
+                  - name: Рефакторинг приложения в Службу приложений Azure и Управляемый экземпляр SQL Azure
                     href: migrate/azure-best-practices/contoso-migration-refactor-web-app-sql-managed-instance.md
                   - name: Перестроение приложения в Службе приложений Azure
                     href: migrate/azure-best-practices/contoso-migration-rebuild.md
@@ -415,7 +415,7 @@ items:
                     href: 'https://docs.microsoft.com/azure/java/migrate-jboss-eap-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
               - name: "SQL\_Server"
                 items:
-                  - name: Повторное размещение приложения на виртуальных машинах Azure и в управляемом экземпляре Базы данных SQL Azure
+                  - name: Повторное размещение приложения на виртуальных машинах Azure и в Управляемом экземпляре Azure SQL
                     href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md
                   - name: Повторное размещение приложения на виртуальных машинах Azure и в группе доступности AlwaysOn SQL Server
                     href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-ag.md
@@ -427,7 +427,7 @@ items:
                     items:
                       - name: "Рефакторинг SQL\_Server в Базу данных SQL Azure"
                         href: 'https://datamigration.microsoft.com/scenario/sql-to-azuresqldb'
-                      - name: "Рефакторинг SQL\_Server в управляемый экземпляр Базы данных SQL Azure"
+                      - name: Рефакторинг SQL Server в Управляемый экземпляр SQL Azure
                         href: 'https://datamigration.microsoft.com/scenario/sql-to-azuresqldbmi'
                       - name: "Рефакторинг рабочих нагрузок SQL\_Server в SQL\_Server на виртуальных машинах Azure"
                         href: 'https://datamigration.microsoft.com/scenario/sql-to-sqlvm'
@@ -483,11 +483,11 @@ items:
                         href: 'https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Миграция из SQL Server в Базу данных SQL Azure в подключенном режиме
                         href: 'https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Миграция из SQL Server в управляемый экземпляр Базы данных SQL Azure в автономном режиме
+                      - name: "Миграция SQL\_Server в Управляемый экземпляр SQL Azure в автономном режиме"
                         href: 'https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Миграция из SQL Server в управляемый экземпляр Базы данных SQL Azure в подключенном режиме
+                      - name: "Миграция SQL\_Server в Управляемый экземпляр SQL Azure в подключенном режиме"
                         href: 'https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                      - name: Миграция из Amazon RDS SQL Server в Базу данных SQL Azure или управляемый экземпляр Базы данных SQL Azure в подключенном режиме
+                      - name: Миграция SQL Server Amazon RDS в Базу данных SQL Azure или Управляемый экземпляр SQL Azure в подключенном режиме
                         href: 'https://docs.microsoft.com/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Миграция из MySQL в Базу данных Azure для MySQL в подключенном режиме
                         href: 'https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'

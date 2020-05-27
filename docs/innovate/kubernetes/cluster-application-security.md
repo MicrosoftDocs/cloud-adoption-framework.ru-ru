@@ -7,12 +7,12 @@ ms.date: 03/20/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 6a5ae0083e619dc2db975682b5f50c0e8e2f1936
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 919291ade8c760429eb5df4d848f745014912eb6
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83224023"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83861996"
 ---
 <!-- cSpell:ignore asabbour sabbour kured -->
 
@@ -37,7 +37,7 @@ ms.locfileid: "83224023"
 > |------------------------------------------------------------------|-----------------------------------------------------------------|
 > | **Ознакомьтесь с техническим документом Security Essentials.** Основные цели безопасной среды Kubernetes гарантируют, что приложения, которые она запускает, защищены, что проблемы безопасности могут быть идентифицированы и устранены быстро, а будущие аналогичные проблемы будут предотвращены. | [Полное рекомендации по защите Kubernetes (технический документ)](https://clouddamcdnprodep.azureedge.net/gdc/gdc8LXmoZ/original)     |
 > | **Проверьте настройку усиления безопасности для узлов кластера.** Зафиксированная система безопасности снижает контактную зону атаки и позволяет безопасно развертывать контейнеры. | [Усиление безопасности на узлах виртуальных машин AKS](https://docs.microsoft.com/azure/aks/security-hardened-vm-host-image)     |
-> | **Настройка управления доступом на основе ролей кластера (RBAC).** Этот механизм управления позволяет назначить пользователям или группам пользователей разрешение на выполнение каких-либо действий. Это может быть создание или изменение ресурсов, просмотр журналов выполнения рабочих нагрузок приложений и т. п. | [Общие сведения об управлении доступом на основе ролей (RBAC) в Kubernetes (видео)](https://www.youtube.com/watch?v=G3R24JSlGjY&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=12) <br/> [Интеграция Azure AD со службой Kubernetes Azure](https://docs.microsoft.com/azure/aks/azure-ad-integration) <br/> [Ограничение доступа к файлу конфигурации кластера](https://docs.microsoft.com/azure/aks/control-kubeconfig-access)   |
+> | **Настройка управления доступом на основе ролей кластера (RBAC).** Этот механизм управления позволяет назначить пользователям или группам пользователей разрешение на выполнение каких-либо действий. Это может быть создание или изменение ресурсов, просмотр журналов выполнения рабочих нагрузок приложений и т. п. | [Общие сведения об управлении доступом на основе ролей (RBAC) в Kubernetes (видео)](https://www.youtube.com/watch?v=G3R24JSlGjY&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=12) <br> [Интеграция Azure AD со службой Kubernetes Azure](https://docs.microsoft.com/azure/aks/azure-ad-integration) <br> [Ограничение доступа к файлу конфигурации кластера](https://docs.microsoft.com/azure/aks/control-kubeconfig-access)   |
 
 ## <a name="deploy-to-production-and-apply-best-practices"></a>Развертывание в рабочей среде и применение рекомендаций
 
@@ -62,7 +62,7 @@ ms.locfileid: "83224023"
 > | **Ограничение исходящего трафика кластера.** Сведения о том, какие порты и адреса следует разрешить при ограничении исходящего трафика для кластера. Вы можете использовать брандмауэр Azure или устройство брандмауэра стороннего производителя для защиты исходящего трафика и определить необходимые порты и адреса. | [Управление трафиком исходящего трафика для узлов кластера в AKS](https://docs.microsoft.com/azure/aks/limit-egress-traffic) |
 > | **Безопасный трафик с помощью брандмауэра веб-приложения (WAF).** Используйте шлюз приложений Azure в качестве входящего контроллера для кластеров Kubernetes.  | [Настройка шлюза приложений Azure в качестве входящего контроллера](https://docs.microsoft.com/azure/application-gateway/ingress-controller-overview)    |
 > | **Примените обновления безопасности и ядра к рабочим узлам.** Изучите процесс обновления узла AKS. Для защиты кластеров обновления безопасности автоматически применяются к узлам Linux в AKS. Учитываются такие обновления, как исправления безопасности для операционной системы и обновления ядра. Чтобы завершить установку некоторых обновлений, нужно перезагрузить узел. | [Использование куред для автоматической перезагрузки узлов для применения обновлений](https://docs.microsoft.com/azure/aks/node-updates-kured) |
-> | **Настройка контейнера и решения для сканирования кластеров.** Проверяйте контейнеры, отправленные в реестр контейнеров Azure, и получайте более подробные представления об узлах кластера, облачном трафике и средствах управления безопасностью. | [Интеграция реестра контейнеров Azure с центром безопасности](https://docs.microsoft.com/azure/security-center/azure-container-registry-integration) <br/> [Интеграция службы Kubernetes Azure с центром безопасности](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)  |
+> | **Настройка контейнера и решения для сканирования кластеров.** Проверяйте контейнеры, отправленные в реестр контейнеров Azure, и получайте более подробные представления об узлах кластера, облачном трафике и средствах управления безопасностью. | [Интеграция реестра контейнеров Azure с центром безопасности](https://docs.microsoft.com/azure/security-center/azure-container-registry-integration) <br> [Интеграция службы Kubernetes Azure с центром безопасности](https://docs.microsoft.com/azure/security-center/azure-kubernetes-service-integration)  |
 
 ## <a name="optimize-and-scale"></a>Оптимизация и масштабирование
 

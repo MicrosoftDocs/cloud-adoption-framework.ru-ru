@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 8dd96aaba22713a0dce733d379b44eeaae386e81
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 252db2665a4ea7d64947cfd8a973013b6a17e97b
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222697"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862455"
 ---
 # <a name="align-cost-models-with-the-digital-estate-to-forecast-cloud-costs"></a>Сопоставление моделей затрат на цифровые активы для прогнозирования затрат на облако
 
@@ -21,7 +21,7 @@ ms.locfileid: "83222697"
 
 Средства ценообразования Azure помогают управлять облачными затратами с прозрачностью и точностью, позволяя максимально эффективно использовать Azure и другие облака. Благодаря инструментам для мониторинга, выделения и оптимизации расходов на облако клиенты могут с уверенностью увеличивать будущие инвестиции.
 
-- [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview). Служба "миграция Azure", возможно, является самым экономичным подходом к выравниванию моделей затрат. Этот инструмент позволяет [инвентаризировать](./inventory.md) цифровые активы, [ограниченно рационализировать](./rationalize.md) их и подсчитать затраты на их содержание.
+- [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview). Служба "миграция Azure", возможно, является самым экономичным подходом к выравниванию моделей затрат. Это средство позволяет проводить [инвентаризацию](./inventory.md), [ограниченную рациональность](./rationalize.md)и вычисление затрат в одном средстве.
 
 - [Калькулятор совокупной стоимости владения (TCO)](https://azure.microsoft.com/pricing/tco/calculator): снижение общей стоимости владения локальной инфраструктурой с помощью облачной платформы Azure. Используйте калькулятор совокупной стоимости владения Azure для подсчета сэкономленных средств, которые будут получены в случае миграции рабочих нагрузок приложений в Azure. Введите краткое описание локальной среды, чтобы получить мгновенный отчет.
 

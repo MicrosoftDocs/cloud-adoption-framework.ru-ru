@@ -1,18 +1,18 @@
 ---
 title: Рекомендации по обеспечению безопасности Cloud перспективы
-description: Узнайте, как подготовить офис информационной безопасности (перспективы) для облачного преобразования и добавочного управления.
+description: Подготовьте главный офис информационной безопасности (перспективы) для преобразования в облако и поэтапное управление.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: fcf85d3da5821a87b7dd18cc421ecdbda4c3c39d
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 53549ed01b9656ba4ce365e4707b411bdae2db1f
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83224261"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862285"
 ---
 <!-- cSpell:ignore CISO -->
 

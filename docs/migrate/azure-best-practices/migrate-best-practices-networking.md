@@ -7,12 +7,12 @@ ms.date: 12/04/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 75a89a0020b4c0ae7ab336ab0d3789bf5096dab7
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 8e0c340e8d0dffb36c692ee3f3b8d4b0ece978a0
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222408"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83861095"
 ---
 <!-- cSpell:ignore NSGs CIDR FQDNs BGP's ACLs WAFs -->
 
@@ -25,7 +25,7 @@ ms.locfileid: "83222408"
 
 ## <a name="design-virtual-networks"></a>Проектирование виртуальных сетей
 
-Azure предоставляет виртуальные сети:
+Azure предоставляет виртуальные сети с этими возможностями:
 
 - Ресурсы Azure конфиденциально, непосредственно и безопасно обмениваются данными друг с другом в виртуальных сетях.
 - Вы можете настроить подключения конечных точек в виртуальных сетях для виртуальных машин и служб, которым требуется подключение к Интернету.
@@ -75,7 +75,7 @@ _Звездообразная топология_
 
 - [Сведения](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/hub-spoke) о звездообразной топологии.
 - Рекомендации по настройке сети для запуска виртуальных машин [Windows](https://docs.microsoft.com/azure/architecture/reference-architectures/n-tier/windows-vm) и [Linux](https://docs.microsoft.com/azure/architecture/reference-architectures/n-tier/linux-vm) в Azure.
-- [Сведения](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview) о пиринге виртуальных сетей.
+- Дополнительные сведения об [пиринга виртуальных сетей](https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview).
 
 ## <a name="best-practice-design-subnets"></a>Рекомендации: проектирование подсетей
 
@@ -100,7 +100,7 @@ _Звездообразная топология_
 
 **Подробнее:**
 
-- [Сведения](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm#segmentation) о проектировании подсетей.
+- Сведения о [проектировании подсетей](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm#segmentation).
 - [Узнайте о том](https://docs.microsoft.com/azure/migrate/contoso-migration-infrastructure), как вымышленная компания (Contoso) подготовила сетевую инфраструктуру для миграции.
 
 ## <a name="best-practice-set-up-a-dns-server"></a>Рекомендации. Настройка DNS-сервера
@@ -120,8 +120,8 @@ Azure добавляет DNS-сервер по умолчанию при раз�
 
 **Подробнее:**
 
-- [Сведения](https://docs.microsoft.com/azure/migrate/contoso-migration-infrastructure) о разрешении имен при использовании собственного DNS-сервера.
-- [Сведения](../../ready/azure-best-practices/naming-and-tagging.md) о правилах именования и ограничениях DNS.
+- Сведения о [разрешении имен при использовании собственного DNS-сервера](https://docs.microsoft.com/azure/migrate/contoso-migration-infrastructure).
+- Сведения о [правилах именования DNS и ограничениях](../../ready/azure-best-practices/naming-and-tagging.md).
 
 ## <a name="best-practice-set-up-availability-zones"></a>Рекомендации. Настройка зон доступности
 
@@ -144,7 +144,7 @@ Azure добавляет DNS-сервер по умолчанию при раз�
 
 **Подробнее:**
 
-- [Общие сведения](https://docs.microsoft.com/azure/availability-zones/az-overview) о зонах доступности.
+- Ознакомьтесь с [обзором зоны доступности](https://docs.microsoft.com/azure/availability-zones/az-overview).
 
 ## <a name="design-hybrid-cloud-networking"></a>Проектирование гибридных облачных сетей
 
@@ -155,7 +155,7 @@ Azure добавляет DNS-сервер по умолчанию при раз�
 
 **Подробнее:**
 
-- [Сведения](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/vpn) о гибридных облачных сетях.
+- Дополнительные сведения о [гибридных облачных сетях](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/vpn).
 
 ## <a name="best-practice-implement-a-highly-available-site-to-site-vpn"></a>Рекомендации. Реализация высокодоступного VPN типа "сеть — сеть"
 
@@ -187,12 +187,12 @@ _VPN "сеть — сеть"_
 
 **Подробнее:**
 
-- [Просмотр](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices) совместимых локальных VPN-устройств.
-- [Общие сведения](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways) о VPN-шлюзах.
-- [Сведения](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable) о VPN-подключениях с высоким уровнем доступности.
-- [Сведения](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-plan-design) о планировании и проектировании VPN-шлюза.
-- [Просмотр](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsku) параметров VPN-шлюза.
-- [Просмотр](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways#gwsku) SKU шлюзов.
+- Ознакомьтесь [с совместимыми локальными VPN-устройствами](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-devices).
+- Ознакомьтесь с [обзором VPN-шлюзов Azure](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways).
+- Узнайте о [высокодоступных VPN-подключениях](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-highlyavailable).
+- Узнайте о [планировании и проектировании VPN-шлюза](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-plan-design).
+- Проверьте [параметры VPN-шлюза](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpn-gateway-settings#gwsku).
+- Проверьте [номера SKU шлюзов](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways#gwsku).
 - [Сведения](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-bgp-overview) о настройке BGP с VPN-шлюзами Azure.
 
 ### <a name="best-practice-configure-a-gateway-for-vpn-gateways"></a>Рекомендации. Настройка шлюза для VPN-шлюзов
@@ -216,8 +216,7 @@ _VPN "сеть — сеть"_
 - Использование предпочтительных устройств провайдеров упрощает использование и подключение, а также управление конфигурацией.
 - Встроенная панель управления глобальной виртуальной сетью Azure обеспечивает мгновенное устранение неполадок, что экономит время и предоставляет простой способ отслеживания широкомасштабных подключений "сеть — сеть".
 
-**Дополнительные сведения:** 
- [Дополнительные сведения](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about) Виртуальная глобальная сеть Azure.
+**Дополнительные сведения:** Дополнительные сведения о [виртуальной глобальной сети Azure](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about).
 
 ### <a name="best-practice-implement-expressroute-for-mission-critical-connections"></a>Рекомендации. Реализация ExpressRoute для критически важных соединений
 
@@ -234,7 +233,7 @@ _VPN "сеть — сеть"_
 **Подробнее:**
 
 - [Общие сведения](https://docs.microsoft.com/azure/expressroute/expressroute-introduction) об ExpressRoute.
-- [Сведения](https://docs.microsoft.com/azure/expressroute/expressroute-erdirect-about) об ExpressRoute Direct.
+- Дополнительные сведения о программе [ExpressRoute Direct](https://docs.microsoft.com/azure/expressroute/expressroute-erdirect-about).
 
 ### <a name="best-practice-optimize-expressroute-routing-with-bgp-communities"></a>Рекомендации. Оптимизация маршрутизации ExpressRoute с помощью сообществ BGP
 
@@ -277,7 +276,7 @@ _Оптимизированное подключение сообществ BGP_
 
 **Подробнее:**
 
-- [Узнайте, как](https://docs.microsoft.com/azure/expressroute/expressroute-optimize-routing) оптимизировать маршрутизацию.
+- Узнайте, как [оптимизировать маршрутизацию](https://docs.microsoft.com/azure/expressroute/expressroute-optimize-routing).
 
 ## <a name="secure-vnets"></a>Защита виртуальных сетей
 
@@ -285,8 +284,8 @@ _Оптимизированное подключение сообществ BGP_
 
 **Подробнее:**
 
-- [Общие сведения](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices) о рекомендациях по сетевой безопасности.
-- [Сведения](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm#security) о проектировании защищенных сетей.
+- Ознакомьтесь с [обзором рекомендаций по безопасности сети](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices).
+- Научитесь [создавать защищенные сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm#security).
 
 ## <a name="best-practice-implement-an-azure-perimeter-network"></a>Рекомендации. Реализация сети периметра Azure
 
@@ -347,8 +346,8 @@ _Развертывание сети периметра_
 
 **Подробнее:**
 
-- [Сведения](https://docs.microsoft.com/azure/virtual-network/security-overview) о группах безопасности сети.
-- [Просмотр](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags) тегов служб, доступных для групп безопасности сети.
+- Ознакомьтесь со сведениями о[группах безопасности сети (группы безопасности сети)](https://docs.microsoft.com/azure/virtual-network/security-overview).
+- Проверьте [теги службы, доступные для группы безопасности сети](https://docs.microsoft.com/azure/virtual-network/security-overview#service-tags).
 
 ## <a name="best-practice-use-application-security-groups"></a>Рекомендации: использование групп безопасности приложений
 
@@ -387,7 +386,7 @@ _Пример группы безопасности приложений_
 
 **Подробнее:**
 
-- [Сведения](https://docs.microsoft.com/azure/virtual-network/security-overview#application-security-groups) о группах безопасности приложений.
+- Сведения о [группах безопасности приложений](https://docs.microsoft.com/azure/virtual-network/security-overview#application-security-groups).
 
 ### <a name="best-practice-secure-access-to-paas-using-vnet-service-endpoints"></a>Рекомендации: безопасный доступ к PaaS с помощью конечных точек службы виртуальной сети
 
@@ -402,7 +401,7 @@ _Конечные точки службы_
 
 **Подробнее:**
 
-- [Сведения](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview) о конечных точках службы виртуальной сети.
+- Сведения о [конечных точках службы виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview).
 
 ## <a name="best-practice-control-public-ip-addresses"></a>Рекомендации: Управление общедоступными IP-адресами
 
@@ -460,8 +459,8 @@ _Брандмауэр Azure_
 
 **Подробнее:**
 
-- [Сведения](https://docs.microsoft.com/azure/application-gateway/waf-overview) о WAF.
-- [Просмотр](https://docs.microsoft.com/azure/application-gateway/application-gateway-waf-configuration) ограничений и исключений WAF.
+- Дополнительные сведения о [WAF](https://docs.microsoft.com/azure/application-gateway/waf-overview).
+- Ознакомьтесь [с ограничениями WAF и исключениями](https://docs.microsoft.com/azure/application-gateway/application-gateway-waf-configuration).
 
 ## <a name="best-practice-implement-azure-network-watcher"></a>Рекомендация: реализация наблюдателя за сетями Azure
 
@@ -479,8 +478,8 @@ _Наблюдатель за сетями_
 
 **Подробнее:**
 
-- [Общие сведения](https://docs.microsoft.com/azure/network-watcher) о службе "Наблюдатель за сетями".
-- [Сведения](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview) о журналах потоков NSG.
+- Ознакомьтесь с [обзором наблюдателя за сетями](https://docs.microsoft.com/azure/network-watcher).
+- Дополнительные сведения о [журналах потоков NSG](https://docs.microsoft.com/azure/network-watcher/network-watcher-nsg-flow-logging-overview).
 
 ## <a name="use-partner-tools-in-the-azure-marketplace"></a>Использование партнерских средств в Azure Marketplace.
 
@@ -511,7 +510,7 @@ _Наблюдатель за сетями_
 
 **Подробнее:**
 
-- [Сведения](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz) об использовании виртуальных сетевых устройств в виртуальной сети Azure.
+- Узнайте [, как использовать NVA в виртуальной сети Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

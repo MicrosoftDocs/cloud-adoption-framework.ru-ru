@@ -1,6 +1,6 @@
 ---
 title: Обзор платформ мониторинга в облаке
-description: Получите общий обзор двух платформ мониторинга, которые помогут понять, как каждая из них предоставляет основные функции мониторинга.
+description: Ознакомьтесь с общими сведениями о двух платформах мониторинга, которые помогут понять, как каждая из них предоставляет основные функции мониторинга.
 author: mgoedtel
 ms.author: magoedte
 ms.date: 07/31/2019
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 45645ec900c4c85c4dd7698f6d5861027dae8bf6
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: abe6fb81a1108e291d0a4f12382172a5f6b39e4d
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223751"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83861487"
 ---
 <!-- cSpell:ignore opsman ITSM -->
 

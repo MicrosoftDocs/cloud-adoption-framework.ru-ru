@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 243bafcfc7033ff932fc8112255a8f6a4a1d2904
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 368c5b44513ee98cb7f361305bfe1de468474a03
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815333"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83861537"
 ---
 <!-- cSpell:ignore VMUUID kusto -->
 
@@ -125,14 +125,14 @@ ms.locfileid: "83815333"
 
 1. Введите имя компьютера или ВМУУИД, чтобы включить компьютеры, на которых вы хотите принять участие в Отслеживание изменений.
 
-    ```kusto
-    Heartbeat
-    | where AzureEnvironment=~"Azure" or Computer in~ ("list of the on-premises server names", "server1")
-    | distinct Computer
-    ```
+  ```kusto
+  Heartbeat
+  | where AzureEnvironment=~"Azure" or Computer in~ ("list of the on-premises server names", "server1")
+  | distinct Computer
+  ```
 
-    > [!NOTE]
-    > Имя сервера должно точно соответствовать значению в выражении и не должно содержать суффикс доменного имени.
+  > [!NOTE]
+  > Имя сервера должно точно соответствовать значению в выражении и не должно содержать суффикс доменного имени.
 
 1. Щелкните **Сохранить**. По умолчанию конфигурация области связана с сохраненным поиском **микрософтдефаулткомпутерграуп** . Он будет автоматически обновлен.
 
