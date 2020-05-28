@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 61398802202a33f9c514cf5a5b6a2528e7b662e4
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: ca635542f68a69d4e823b2917f69646074438550
+ms.sourcegitcommit: 6fef15cc3a8af725dc743e19f127513bc58dd257
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83215999"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "84023531"
 ---
 <!-- cSpell:ignore givenscj OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc contosoosticket osticket InnoDB binlog systemctl NSGs -->
 
@@ -151,7 +151,7 @@ ms.locfileid: "83215999"
 
 **Требуется дополнительная помощь?**
 
-[Узнайте, как](https://docs.microsoft.com/azure/migrate) настроить миграцию Azure: средство миграции сервера.
+Дополнительные сведения о настройке [средства миграции Azure: Server Migration Tool](https://docs.microsoft.com/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
 
 ## <a name="step-2-prepare-on-premises-vmware-for-azure-migrate-server-migration"></a>Шаг 2. Подготовка локальной среды VMware для миграции Azure: миграция сервера
 
@@ -167,7 +167,7 @@ ms.locfileid: "83215999"
 
 **Требуется дополнительная помощь?**
 
-- [Дополнительные сведения о](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-linux-vm#prepare-vms-for-migration) подготовке виртуальных машин к миграции.
+- Дополнительные сведения о [подготовке виртуальных машин к миграции](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-linux-vm#prepare-vms-for-migration).
 
 ## <a name="step-3-replicate-vm"></a>Шаг 3. репликация виртуальной машины
 
@@ -405,8 +405,8 @@ ms.locfileid: "83215999"
 
 **Требуется дополнительная помощь?**
 
-- [Дополнительные сведения о](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#run-a-test-migration) выполнении тестовой миграции.
-- [Узнайте больше](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#migrate-vms) о переносе виртуальных машин в Azure.
+- Дополнительные сведения о [выполнении тестовой миграции](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#run-a-test-migration).
+- Сведения о [миграции виртуальных машин в Azure](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#migrate-vms).
 
 ## <a name="review-the-deployment"></a>Проверка развертывания
 
@@ -438,9 +438,9 @@ ms.locfileid: "83215999"
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление, специалисты компании Contoso выполняют указанные ниже действия.
 
-- **Обеспечьте безопасность данных.** Компания Contoso выполняет резервное копирование данных с виртуальных машин приложения при помощи службы Azure Backup. [Подробнее](https://docs.microsoft.com/azure/backup/backup-overview). Ее специалистам нет необходимости настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются и сохраняются резервные копии. Они решили использовать для базы данных геоизбыточное хранилище, поэтому она отказоустойчива и готова к внедрению в рабочую среду.
+- **Обеспечьте безопасность данных.** Contoso создает резервные копии данных на виртуальной машине приложения с помощью службы [Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview) . Ее специалистам нет необходимости настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются и сохраняются резервные копии. Они решили использовать для базы данных геоизбыточное хранилище, поэтому она отказоустойчива и готова к внедрению в рабочую среду.
 
-- **Обеспечьте работоспособность приложений.** Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Подробнее](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
+- **Обеспечьте работоспособность приложений.** Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. Дополнительные сведения см. [в разделе Краткое руководство. Настройка аварийного восстановления в дополнительном регионе Azure для виртуальной машины Azure](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 

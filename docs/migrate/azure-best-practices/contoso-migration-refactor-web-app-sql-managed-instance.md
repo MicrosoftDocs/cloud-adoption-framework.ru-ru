@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: fd8c7e81d457ee3a63186217fda72223272ad3b7
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 1de34dc3a37414a87bdc89b233af2e2564d44b10
+ms.sourcegitcommit: 6fef15cc3a8af725dc743e19f127513bc58dd257
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815265"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "84023497"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM contosohost vcenter contosodc smarthotel SQLMI SHWCF SHWEB -->
 
@@ -107,7 +107,7 @@ Contoso оценивает предлагаемый дизайн, составл
 --- | --- | ---
 [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает прозрачную миграцию из нескольких источников баз данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration).
 [Управляемый экземпляр Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance) | Управляемый экземпляр — это служба управляемой базы данных, которая представляет полностью управляемый экземпляр SQL Server в облаке Azure. Он использует тот же код, что и последняя версия ядра СУБД SQL Server, и имеет новейшие функции, улучшения производительности и исправления системы безопасности. | За использование Управляемых экземпляров Базы данных SQL, выполняемых в Azure, взимается плата на основе емкости. Дополнительные сведения см. в статье [Цены на Базу данных SQL Azure ](https://azure.microsoft.com/pricing/details/sql-database/managed).
-[служба приложений Azure](https://docs.microsoft.com/azure/app-service/overview); | Создавайте мощные облачные приложения с помощью полностью управляемой платформы. | Стоимость зависит от размера, расположения и длительности использования. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows).
+[служба приложений Azure](https://docs.microsoft.com/azure/app-service/overview); | Создавайте мощные облачные приложения с помощью полностью управляемой платформы. | Стоимость зависит от размера, расположения и длительности использования. [Подробнее.](https://azure.microsoft.com/pricing/details/app-service/windows)
 [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started/what-is-azure-pipelines) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер запускается с репозиторием Git для управления кодом приложения, системой сборки для создания пакетов и других артефактов сборки и системой управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде.
 
 ## <a name="prerequisites"></a>Предварительные требования
@@ -179,7 +179,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 **Требуется дополнительная помощь?**
 
-- См. раздел [Настройка пользовательской службы DNS для Управляемого экземпляра Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance).
+- Ознакомьтесь с [обзором управляемый экземпляр базы данных SQL](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance).
 - См. раздел [Создание виртуальной сети для управляемых экземпляров](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-configure-vnet-subnet).
 - См. раздел [Создание, изменение и удаление пиринга в виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering).
 - См. раздел [Включение доменных служб Azure Active Directory](https://docs.microsoft.com/azure/active-directory-domain-services/tutorial-create-instance).
@@ -424,14 +424,14 @@ Contoso оценивает предлагаемый дизайн, составл
 
 ### <a name="security"></a>Безопасность
 
-- Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview).
+- Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview)
 - В частности, компании Contoso нужно обновить веб-приложения для использования SSL с сертификатами.
 
 ### <a name="backups"></a>Резервные копии
 
-- Contoso необходимо проверить требования к резервному копированию для базы данных Управляемый экземпляр Azure SQL. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
+- Contoso необходимо проверить требования к резервному копированию для базы данных Управляемый экземпляр Azure SQL. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)
 - Contoso также потребуются дополнительные сведения об управлении резервным копированием и восстановлением Базы данных SQL. См. [дополнительные сведения](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) об автоматическом резервном копировании.
-- Компании Contoso нужно рассмотреть реализацию групп отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview).
+- Компании Contoso нужно рассмотреть реализацию групп отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview)
 - Компании Contoso необходимо рассмотреть развертывание веб-приложения в основном регионе "Восточная часть США 2" и в регионе "Центральная часть США" для обеспечения отказоустойчивости. Компания Contoso может настроить диспетчер трафика, чтобы обеспечить отработку отказа при возникновении региональных стандартов.
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат

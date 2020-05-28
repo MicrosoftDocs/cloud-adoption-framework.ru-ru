@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 24259e0d9f011241a503aca143f4d03c2dc1fe6a
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 3372db305c2353b10fb33deb43585ee182836efd
+ms.sourcegitcommit: 6fef15cc3a8af725dc743e19f127513bc58dd257
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83756028"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "84023514"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc smarthotel SHWEB SHWCF -->
 
@@ -103,8 +103,8 @@ Contoso оценивает предлагаемый дизайн, составл
 --- | --- | ---
 [Помощник по миграции данных (DMA)](https://docs.microsoft.com/sql/dma/dma-overview?view=ssdt-18vs2017) | DMA используется специалистами Contoso для оценки и выявления проблем совместимости, которые могут повлиять на функциональность базы данных в Azure. Помощник оценивает соотношение характеристик между источниками и целями SQL и предоставляет рекомендации по улучшению производительности и надежности. | Это средство можно загрузить бесплатно.
 [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает прозрачную миграцию из нескольких источников баз данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration).
-[База данных SQL Azure](https://azure.microsoft.com/services/sql-database) | Интеллектуальная полностью управляемая реляционная служба облачной базы данных. | Стоимость зависит от функций, пропускной способности и размера. [Подробнее](https://azure.microsoft.com/pricing/details/sql-database/managed).
-[служба приложений Azure](https://docs.microsoft.com/azure/app-service/overview); | Создавайте мощные облачные приложения с помощью полностью управляемой платформы. | Стоимость зависит от размера, расположения и длительности использования. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows).
+[База данных SQL Azure](https://azure.microsoft.com/services/sql-database) | Интеллектуальная полностью управляемая реляционная служба облачной базы данных. | Стоимость зависит от функций, пропускной способности и размера. [Подробнее.](https://azure.microsoft.com/pricing/details/sql-database/managed)
+[служба приложений Azure](https://docs.microsoft.com/azure/app-service/overview); | Создавайте мощные облачные приложения с помощью полностью управляемой платформы. | Стоимость зависит от размера, расположения и длительности использования. [Подробнее.](https://azure.microsoft.com/pricing/details/app-service/windows)
 [Azure DevOps](https://docs.microsoft.com/azure/azure-portal/tutorial-azureportal-devops) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер запускается с репозиторием Git для управления кодом приложения, системой сборки для создания пакетов и других артефактов сборки и системой управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде.
 
 ## <a name="prerequisites"></a>Предварительные требования
@@ -163,7 +163,7 @@ Contoso оценивает предлагаемый дизайн, составл
 **Требуется дополнительная помощь?**
 
 - [Получение справки](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal) о подготовке Базы данных SQL.
-- [Дополнительные сведения об](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools) ограничениях ресурсов Виртуальное ядро.
+- Дополнительные сведения об [ограничениях ресурсов Виртуальное ядро](https://docs.microsoft.com/azure/sql-database/sql-database-vcore-resource-limits-elastic-pools).
 
 ## <a name="step-2-assess-the-database-using-database-migration-assistant-dma-and-migrate-it-using-azure-database-migration-service-dms"></a>Шаг 2. Оценка базы данных с помощью Помощник по миграции базы данных (DMA) и перенос ее с помощью Azure Database Migration Service (DMS)
 
@@ -294,7 +294,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 12. В конвейере > **артефакты**выберите **+ Добавить артефакт**, а затем выберите для сборки с помощью конвейера **ContosoSmarthotel360Refactor** .
 
-     ![Создание](./media/contoso-migration-refactor-web-app-sql/pipeline12.png)
+     ![Сборка](./media/contoso-migration-refactor-web-app-sql/pipeline12.png)
 
 13. Они проверяют, что артефакт включен, чтобы включить триггер непрерывного развертывания.
 
@@ -357,14 +357,14 @@ Contoso оценивает предлагаемый дизайн, составл
 
 ### <a name="security"></a>Безопасность
 
-- Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview).
+- Contoso необходимо обеспечить безопасность своей новой базы данных **SmartHotel-Registration**. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview)
 - В частности, компании Contoso нужно обновить веб-приложения для использования SSL с сертификатами.
 
 ### <a name="backups"></a>Резервные копии
 
-- Contoso следует рассмотреть требования резервного копирования для базы данных SQL Azure. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
+- Contoso следует рассмотреть требования резервного копирования для базы данных SQL Azure. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)
 - Contoso также потребуются дополнительные сведения об управлении резервным копированием и восстановлением Базы данных SQL. См. [дополнительные сведения](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) об автоматическом резервном копировании.
-- Компании Contoso нужно рассмотреть реализацию групп отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview).
+- Компании Contoso нужно рассмотреть реализацию групп отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview)
 - Компании Contoso необходимо рассмотреть развертывание веб-приложения в основном регионе "Восточная часть США 2" и в регионе "Центральная часть США" для обеспечения отказоустойчивости. Компания Contoso может настроить диспетчер трафика, чтобы обеспечить отработку отказа во время региональных сбоев.
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат

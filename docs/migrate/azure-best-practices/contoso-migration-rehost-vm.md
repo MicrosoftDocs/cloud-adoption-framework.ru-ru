@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 61edff97499b0d9bf5b9d5e4349c548431bdf395
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 146760046dc82b80e347ca2b71ca2ac5f8c090e0
+ms.sourcegitcommit: 6fef15cc3a8af725dc743e19f127513bc58dd257
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223564"
+ms.lasthandoff: 05/27/2020
+ms.locfileid: "84023429"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless -->
 
@@ -77,7 +77,7 @@ ms.locfileid: "83223564"
 | **Оценка** | **Сведения** |
 | --- | --- |
 | **Плюсы** | Обе виртуальные машины будут перемещены в Azure без изменений, упрощая миграцию. <br><br> Так как компания Contoso использует подход с приближением и сдвигом для виртуальных машин приложений, для базы данных приложения специальные средства настройки или миграции не требуются. <br><br> Contoso может воспользоваться преимуществами своих инвестиций в программу Software Assurance, используя Преимущество гибридного использования Azure. <br><br> Компания Contoso сохранит полный контроль над виртуальными машинами приложений в Azure. |
-| **Минусы** | Виртуальные машины WEBVM и SQLVM работают под управлением Windows Server 2008 R2. Операционная система поддерживается в Azure для конкретных ролей. [Подробнее](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines). <br><br> Веб-уровни и уровень данных приложения останутся единой точкой отказа. <br><br> SQLVM работает на SQL Server 2008 R2, которая больше не находится в основной поддержке. Однако она поддерживается для виртуальных машин Azure. [Подробнее](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support). <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure и база данных SQL Azure. |
+| **Минусы** | Виртуальные машины WEBVM и SQLVM работают под управлением Windows Server 2008 R2. Операционная система поддерживается в Azure для конкретных ролей. [Подробнее.](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines) <br><br> Веб-уровни и уровень данных приложения останутся единой точкой отказа. <br><br> SQLVM работает на SQL Server 2008 R2, которая больше не находится в основной поддержке. Однако она поддерживается для виртуальных машин Azure. [Подробнее.](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support) <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure и база данных SQL Azure. |
 
 <!-- markdownlint-enable MD033 -->
 
@@ -167,8 +167,7 @@ ms.locfileid: "83223564"
 
 **Требуется дополнительная помощь?**
 
-[Узнайте, как](https://docs.microsoft.com/azure/migrate) настроить миграцию Azure: средство миграции сервера.
-
+Дополнительные сведения о настройке [средства миграции Azure: Server Migration Tool](https://docs.microsoft.com/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
 ### <a name="prepare-on-premises-vms"></a>Подготовка локальных виртуальных машин
 
 После миграции компания Contoso хочет подключиться к виртуальным машинам Azure и разрешить Azure управлять виртуальными машинами. Для этого перед миграцией администраторы компании Contoso выполняют указанные ниже действия.
@@ -196,7 +195,7 @@ ms.locfileid: "83223564"
 
 5. Требуется дополнительная помощь?
 
-   - [Дополнительные сведения о](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm#prepare-vms-for-migration) подготовке виртуальных машин к миграции.
+   - Дополнительные сведения о [подготовке виртуальных машин к миграции](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm#prepare-vms-for-migration).
 
 ## <a name="step-2-replicate-the-on-premises-vms"></a>Шаг 2. репликация локальных виртуальных машин
 
@@ -227,8 +226,8 @@ ms.locfileid: "83223564"
 
 7. В **преимущество гибридного использования Azure**выберите следующее:
 
-    - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Нажмите кнопку **Далее**.
-    - Выберите вариант **Да**, если у вас есть компьютеры с Windows Server, на которые распространяются активные подписки Software Assurance или Windows Server, и вы хотите применить это преимущество к компьютерам, которые вы переносите. Нажмите кнопку **Далее**.
+    - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Выберите **Далее**.
+    - Выберите вариант **Да**, если у вас есть компьютеры с Windows Server, на которые распространяются активные подписки Software Assurance или Windows Server, и вы хотите применить это преимущество к компьютерам, которые вы переносите. Выберите **Далее**.
 
 8. В разделе **Вычисления** просмотрите имя виртуальной машины, размер, тип диска ОС и группу доступности. Виртуальные машины должны соответствовать [требованиям Azure](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
 
@@ -236,7 +235,7 @@ ms.locfileid: "83223564"
     - **Диск ОС:** Укажите диск операционной системы (загрузочный) для виртуальной машины. Диск ОС — это диск с загрузчиком операционной системы и установщиком.
     - **Группа доступности:** Если после миграции виртуальная машина должна находиться в группе доступности Azure, укажите набор. Группа должна находиться в целевой группе ресурсов, которую вы указываете для миграции.
 
-9. В разделе **Диски** укажите, следует ли реплицировать диски виртуальных машин в Azure, и выберите тип диска (SSD или HDD (цен. категория "Стандартный") или управляемые диски (цен. категория "Премиум")) в Azure. Нажмите кнопку **Далее**.
+9. В разделе **Диски** укажите, следует ли реплицировать диски виртуальных машин в Azure, и выберите тип диска (SSD или HDD (цен. категория "Стандартный") или управляемые диски (цен. категория "Премиум")) в Azure. Выберите **Далее**.
     - Диски можно исключить из репликации.
     - Если вы исключите диски, они не будут присутствовать на виртуальной машине Azure после миграции.
 
@@ -283,8 +282,8 @@ ms.locfileid: "83223564"
 
 **Требуется дополнительная помощь?**
 
-- [Дополнительные сведения о](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#run-a-test-migration) выполнении тестовой миграции.
-- [Узнайте больше](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#migrate-vms) о переносе виртуальных машин в Azure.
+- Дополнительные сведения о [выполнении тестовой миграции](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#run-a-test-migration).
+- Сведения о [миграции виртуальных машин в Azure](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#migrate-vms).
 
 ## <a name="clean-up-after-migration"></a>Очистка после миграции
 
