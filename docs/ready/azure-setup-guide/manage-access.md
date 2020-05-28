@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 94f51b92b50dabff8551e30e476d2738c3f2fef7
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: e8f20079df4a0e3e55a93e1a35734673d53a0634
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621652"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862523"
 ---
 <!-- cSpell:ignore LijuKodicheraJayadevan -->
 
@@ -30,7 +30,7 @@ RBAC обеспечивает детальное управление досту
 
 При разработке плана управления доступом рекомендуется провести консультации с сотрудниками вашей организации, которые отвечают за безопасность и соответствие требованиям, управление ИТ-ресурсами и структуру предприятия.
 
-Cloud Adoption Framework предоставляет дополнительные рекомендации по [использованию управления доступом на основе ролей](../considerations/roles.md) в рамках работы по внедрению в облако.
+Cloud Adoption Framework предоставляет дополнительные рекомендации по [использованию управления доступом на основе ролей](../considerations/roles.md) при внедрении облачных технологий.
 
 ::: zone target="chromeless"
 

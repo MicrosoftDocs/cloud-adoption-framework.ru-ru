@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: c807929b68c38e36c5921934220e3212fdf3d59e
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 84e31db3819235b7a17d6a5f4727e09854bc1b35
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83216577"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83755882"
 ---
 <!-- markdownlint-disable MD024 MD025 DOCSMD001 -->
 
@@ -73,7 +73,7 @@ ms.locfileid: "83216577"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-Подробные сведения см. в [документации по Работоспособности служб Azure](https://docs.microsoft.com/azure/service-health).
+Дополнительные сведения см. в статье [Документация по службе "Работоспособность служб Azure"](https://docs.microsoft.com/azure/service-health).
 
 ::: zone-end
 

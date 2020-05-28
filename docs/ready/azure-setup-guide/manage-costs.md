@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: f80d8de3133f6579673cd9cfc04a1ab2a8660539
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: db27550b06f498c8bb4b7f65c7e50c80a4e47c0d
+ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621614"
+ms.lasthandoff: 05/21/2020
+ms.locfileid: "83756368"
 ---
 <!-- cSpell:ignore dchimes -->
 
@@ -37,13 +37,13 @@ ms.locfileid: "83621614"
 
 ### <a name="predict-and-manage-costs"></a>Прогнозирование затрат и управление ими
 
-1. Перейдите к разделу [Управление затратами + выставление счетов"](https://portal.azure.com/#blade/Microsoft_Azure_Billing/ModernBillingMenuBlade/Overview).
+1. Перейдите к разделу [Управление затратами + выставление счетов](https://portal.azure.com/#blade/Microsoft_Azure_Billing/ModernBillingMenuBlade/Overview).
 1. Выберите **Управление затратами**.
 1. Изучите функции, которые помогают анализировать и оптимизировать затраты на облако.
 
 ### <a name="manage-invoices-and-payment-methods"></a>Управление счетами и методами оплаты
 
-1. Перейдите к разделу [Управление затратами + выставление счетов"](https://portal.azure.com/#blade/Microsoft_Azure_Billing/ModernBillingMenuBlade/Overview).
+1. Перейдите к разделу [Управление затратами + выставление счетов](https://portal.azure.com/#blade/Microsoft_Azure_Billing/ModernBillingMenuBlade/Overview).
 1. В разделе **Выставление счетов** слева выберите **Накладные** или **Методы оплаты**.
 
 ## <a name="billing-and-subscription-support"></a>Поддержка по вопросам подписки и выставления счетов
@@ -54,14 +54,14 @@ ms.locfileid: "83621614"
 
 Чтобы отправить запрос в службу поддержки, сделайте следующее:
 
-1. Перейдите в раздел [Справка и поддержка](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
+1. Перейдите к разделу [Справка и поддержка](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
 1. Выберите **Новый запрос в службу поддержки**.
 
 ### <a name="view-a-support-request"></a>Просмотр запроса на поддержку
 
 Чтобы просмотреть свои запросы на поддержку и их состояние, сделайте следующее:
 
-1. Перейдите в раздел [Справка и поддержка](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
+1. Перейдите к разделу [Справка и поддержка](https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/overview).
 1. Выберите **Все запросы на поддержку**.
 
 ## <a name="learn-more"></a>Дополнительные сведения

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: b7967a97a48e987db623de9abff304a4e0b4458c
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: 0b876c402f18492b956b5ae561107ec6b57e63ee
+ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621305"
+ms.lasthandoff: 05/26/2020
+ms.locfileid: "83862115"
 ---
 <!-- cSpell:ignore umarmohamedusman umarm Moovit -->
 
@@ -37,12 +37,12 @@ ms.locfileid: "83621305"
 > [!div class="checklist"]
 >
 > - Промышленные ресурсы
-> - HoloLens 2
-> - Azure Sphere
-> - Kinect DK
+> - [Microsoft HoloLens 2](https://docs.microsoft.com/hololens)
+> - [Azure Sphere](https://docs.microsoft.com/azure-sphere/product-overview/what-is-azure-sphere)
+> - [Azure Kinect DK](https://docs.microsoft.com/azure/kinect-dk/about-azure-kinect-dk)
 > - Дроны
-> - База данных SQL Azure для пограничных вычислений
-> - IoT Plug and Play
+> - [SQL Azure для пограничных вычислений](https://docs.microsoft.com/azure/azure-sql-edge/overview)
+> - статье об [IoT Plug and Play](https://docs.microsoft.com/azure/iot-pnp/overview-iot-plug-and-play).
 
 <!-- markdownlint-disable MD025 -->
 
