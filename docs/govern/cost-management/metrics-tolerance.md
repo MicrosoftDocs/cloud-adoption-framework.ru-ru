@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: abaa95421c8e6acdec724f40e5b0e1cd30b7babf
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 8c4387575f9cb9190327f2d644a60695809e185a
+ms.sourcegitcommit: 09a2cb66863f7f7fe69568c5ed007ab9f360b85e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815061"
+ms.lasthandoff: 06/02/2020
+ms.locfileid: "84301000"
 ---
 # <a name="risk-tolerance-metrics-and-indicators-in-the-cost-management-discipline"></a>Метрики и индикаторы отказоустойчивости рисков в дисциплине управления затратами
 
@@ -49,7 +49,7 @@ ms.locfileid: "83815061"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-[Шаблон политики управления затратами](./template.md) используется для документирования метрик и индикаторов допуска, которые совпадают с текущим планом внедрения в облаке.
+Используйте [шаблон "дисциплина управления затратами](./template.md) ", чтобы документировать метрики и индикаторы отклонения, которые совпадают с текущим планом внедрения в облаке.
 
 Ознакомьтесь с примерами политик управления затратами в качестве отправной точки для разработки собственных политик для решения конкретных бизнес-рисков, связанных с планами внедрения в облако.
 
