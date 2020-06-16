@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: e64acdc08f975662d3176964acbc2c0dcd53e3e4
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: ebd9d6435e3dce2e084a25f4a7a38c3694598d7c
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83224244"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786728"
 ---
-<!-- markdownlint-disable MD026 -->
-
 # <a name="what-is-data-classification"></a>Классификация данных
 
 Классификация данных позволяет определить и назначить данные организации и предоставляет общую отправную точку для управления. Процесс классификации данных распределяет данные по конфиденциальности и бизнес-влиянию для обнаружения рисков. Если данные классифицируются, вы можете управлять ими способами, которые защищают конфиденциальные или важные данные от кражи или потери.

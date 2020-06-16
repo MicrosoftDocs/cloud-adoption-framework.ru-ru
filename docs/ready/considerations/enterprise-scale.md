@@ -7,20 +7,18 @@ ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 3eb1e11a50236d078c5dd9b1cc6f317bdfc96823
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 071a8edd7faebcc5df0e91154c02857287e3638d
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755745"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84787488"
 ---
 # <a name="start-with-enterprise-scale-landing-zones"></a>Начало работы с зонами в масштабе предприятия
 
 Иногда группа облачной платформы не является разумной для запуска малых и масштабируемых рабочих групп. В течение нескольких лет рабочие группы работали с ограничениями существующей локальной среды компании, чтобы достичь текущего штата зрелости по безопасности, эксплуатации и управлению. Репликация необходимых процессов, средств и архитектур на основе новых ограничений любой облачной среды займет некоторое время. Для ускорения процесса обучения требуется немного другая отправная точка. При сравнении приведенного ниже образа с самым [ранним руководством по рефакторингу в рамках этой методологии](../landing-zone/refactor.md)фундаментальное изменение является отправной точкой, которая теперь более сложна и далее в этой статье.
 
 ![Иллюстрация рефакторинга целевой зоны — описывается в разделе далее в этой статье.](../../_images/ready/refactor-enterprise-scale.png)
-
-<!-- markdownlint-disable MD026 -->
 
 ## <a name="qualifiers-should-i-start-with-enterprise-scale"></a>Квалификаторы: следует ли начинать с корпоративного масштаба?
 

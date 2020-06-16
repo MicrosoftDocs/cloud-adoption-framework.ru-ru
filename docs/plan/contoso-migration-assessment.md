@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: dba69e75565658b0101a1849ca3d90e21890fa4a
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: edb3ba0fe7a32b23c34c60c0673eff87d5664d81
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83862608"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84787679"
 ---
 <!-- docsTest:disable TODO -->
 
-<!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc OSTICKETWEB OSTICKETMYSQL smarthotelapp ctypes ctypeslib prereqs -->
+<!-- cSpell:ignore WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL CONTOSODC contosohost vcenter prereqs ctypes ctypeslib smarthotelapp -->
 
 # <a name="assess-on-premises-workloads-for-migration-to-azure"></a>Оценка локальных рабочих нагрузок для переноса в Azure
 
@@ -31,10 +31,10 @@ ms.locfileid: "83862608"
 
 <!-- markdownlint-disable MD033 -->
 
-| Имя приложения | Платформа | Уровни приложения | Сведения |
+| Имя приложения. | Платформа | Уровни приложения | Сведения |
 | --- | --- | --- | --- |
-| SmartHotel360 <br><br> (управляет требованиями к путешествиям в компании Contoso) | Работает на системе Windows с помощью базы данных SQL Server | Двухуровневое приложение. Внешний интерфейс веб-сайта ASP.NET запускается на одной виртуальной машине (**WEBVM**), а SQL Server — на другой (**SQLVM**). | Виртуальные машины — это VMware, работающие на узле ESXi, управляемом vCenter Server. <br><br> Пример приложения можно загрузить в репозитории [GitHub](https://github.com/Microsoft/SmartHotel360). |
-| osTicket <br><br> (Приложение службы поддержки компании Contoso) | Запускается в Apache или на Linux с помощью MySQL PHP (LAMP) | Двухуровневое приложение. Внешний интерфейс веб-сайта PHP запускается на одной виртуальной машине (**OSTICKETWEB**), а база данных MySQL — на другой (**OSTICKETMYSQL**). | Приложение используется приложениями служб клиента для отслеживания проблем у внутренних сотрудников и внешних клиентов. <br><br> Пример можно загрузить в репозитории [GitHub](https://github.com/osTicket/osTicket). |
+| SmartHotel360 <br><br> (управляет требованиями к путешествиям в компании Contoso) | Работает на системе Windows с помощью базы данных SQL Server | Двухуровневое приложение. Интерфейсный веб-сайт ASP.NET работает на одной виртуальной машине ( `WEBVM` ), а SQL Server выполняется на другой виртуальной машине ( `SQLVM` ). | Виртуальные машины работают на VMware ESXi узле, управляемом vCenter Server. <br><br> Пример приложения можно загрузить в репозитории [GitHub](https://github.com/Microsoft/SmartHotel360). |
+| osTicket <br><br> (Приложение службы поддержки компании Contoso) | Запускается в Apache или на Linux с помощью MySQL PHP (LAMP) | Двухуровневое приложение. Клиентский веб-сайт PHP работает на одной виртуальной машине ( `OSTICKETWEB` ), а база данных MySQL работает на другой виртуальной машине ( `OSTICKETMYSQL` ). | Приложение используется приложениями служб клиента для отслеживания проблем у внутренних сотрудников и внешних клиентов. <br><br> Пример можно загрузить в репозитории [GitHub](https://github.com/osTicket/osTicket). |
 
 <!-- markdownlint-enable MD033 -->
 
@@ -101,7 +101,7 @@ ms.locfileid: "83862608"
   - Виртуальная машина **OSTICKETWEB** работает на Apache 2 и PHP 7.0.
   - Виртуальная машина **OSTICKETMYSQL** работает на MySQL 5.7.22.
 
-## <a name="prerequisites"></a>Предварительные условия
+## <a name="prerequisites"></a>Предварительные требования
 
 Компания Contoso и другие пользователи должны отвечать следующим предварительным условиям оценки:
 
@@ -197,7 +197,7 @@ ms.locfileid: "83862608"
     ![Помощник по миграции данных. Отчет о рекомендуемых возможностях](../migrate/azure-best-practices/media/contoso-migration-assessment/dma-assessment-6.png)
 
     > [!NOTE]
-    > Компании Contoso следует [включить прозрачное шифрование данных](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017) для всех баз данных SQL Server. Это еще более важно, когда база данных находится в облаке, чем когда она размещается локально. Прозрачное шифрование данных следует включать только после миграции. Если прозрачное шифрование данных уже включено, компания Contoso должна переместить сертификат или асимметричный ключ в главную базу данных или на целевой сервер. Узнайте, как [переместить прозрачное шифрование защищенной базы данных на другой экземпляр SQL Server](https://docs.microsoft.com/sql/relational-databases/security/encryption/move-a-tde-protected-database-to-another-sql-server?view=sql-server-2017).
+    > Компании Contoso следует [включить прозрачное шифрование данных](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017) для всех баз данных SQL Server. Это еще более важно, когда база данных находится в облаке, чем когда она размещается локально. Прозрачное шифрование данных следует включать только после миграции. Если прозрачное шифрование данных уже включено, компания Contoso должна переместить сертификат или асимметричный ключ в `master` базу данных целевого сервера. Узнайте, как [переместить прозрачное шифрование защищенной базы данных на другой экземпляр SQL Server](https://docs.microsoft.com/sql/relational-databases/security/encryption/move-a-tde-protected-database-to-another-sql-server?view=sql-server-2017).
 
 3. Затем компания Contoso может экспортировать оценку в формате JSON или CSV.
 
@@ -281,14 +281,13 @@ ms.locfileid: "83862608"
 Прежде чем развертывать OVA-файл, компания Contoso проверяет, что он не поврежден:
 
 1. На компьютере, на который был загружен файл, компания Contoso открывает окно командной строки с правами администратора.
-
 2. Чтобы создать хэш файла в формате OVA, компания Contoso выполняет следующую команду:
 
-    `C:\>CertUtil -HashFile <file_location> [Hashing Algorithm]`
+    `C:\> CertUtil -HashFile <file_location> [Hashing Algorithm]`
 
-    **Пример.**
+    **Пример**.
 
-    `C:\>CertUtil -HashFile C:\AzureMigrate\AzureMigrate.ova SHA256`
+    `C:\> CertUtil -HashFile C:\AzureMigrate\AzureMigrate.ova SHA256`
 
 3. Созданный хэш должен соответствовать хэш-значениям, указанным в разделе [Проверка безопасности](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware#verify-security) руководства по [оценке виртуальных машин VMware для миграции](https://docs.microsoft.com/azure/migrate/tutorial-assess-vmware) .
 
@@ -315,7 +314,6 @@ ms.locfileid: "83862608"
 Теперь компания Contoso запускает сборщик для обнаружения виртуальных машин. В настоящее время сборщик поддерживает только **английский (США)** в качестве языка операционной системы и языка интерфейса сборщика.
 
 1. В консоли клиента vSphere компания Contoso выбирает **Открыть консоль**. Компания Contoso принимает условия лицензирования и задает параметры пароля для сборщика виртуальной машины.
-
 2. На рабочем столе компания Contoso выбирает ярлык **Диспетчер конфигураций устройства Microsoft Azure**.
 
     ![Консоль клиента vSphere. Ярлык сборщика](../migrate/azure-best-practices/media/contoso-migration-assessment/collector-shortcut-v2.png)
@@ -329,7 +327,7 @@ ms.locfileid: "83862608"
 
     ![Сборщик Миграции Azure. Проверка предварительных требований](../migrate/azure-best-practices/media/contoso-migration-assessment/collector-verify-prereqs-v2.png)
 
-5. Войдите в свою учетную запись **Azure** и выберите подписку и проект миграции, который вы создали ранее. Также введите имя **устройства** , чтобы его можно было найти в портал Azure.
+5. Войдите в учетную запись Azure и выберите подписку и выполните миграцию проекта, созданного ранее. Также введите имя **устройства** , чтобы его можно было найти в портал Azure.
 
 6. На вкладке **Укажите сведения о vCenter Server** компания Contoso указывает имя (FQDN) или IP-адрес экземпляра vCenter Server, а также учетные данные только для чтения, используемые для обнаружения.
 
@@ -368,10 +366,10 @@ ms.locfileid: "83862608"
 1. В разделе **Компьютеры** компания Contoso выбирает компьютер. В столбце **Зависимости** она выбирает **Требует установки**.
 
 2. В области **Обнаружение компьютеров** специалист Contoso:
-    - Скачивает Microsoft Monitoring Agent (MMA) и агент зависимостей Майкрософт для каждой виртуальной машины Windows.
-    - Скачивает MMA и агент зависимостей для каждой виртуальной машины Linux.
+    - Скачивает Microsoft Monitoring Agent и Microsoft Dependency Agent для каждой виртуальной машины Windows.
+    - Скачивает Microsoft Monitoring Agent и Microsoft Dependency Agent для каждой виртуальной машины Linux.
 
-3. Компания Contoso копирует идентификатор рабочей области и ключ. При установке MMA специалистам компании Contoso необходим идентификатор рабочей области и ключ.
+3. Компания Contoso копирует идентификатор рабочей области и ключ. Компании Contoso требуется идентификатор и ключ рабочей области при установке Microsoft Monitoring Agent.
 
     ![Скачивание агента](../migrate/azure-best-practices/media/contoso-migration-assessment/download-agents.png)
 
@@ -395,13 +393,13 @@ ms.locfileid: "83862608"
 
 5. В окне **Готово к установке** компания Contoso устанавливает MMA.
 
-#### <a name="install-the-dependency-agent-on-windows-vms"></a>Установка агента зависимостей на виртуальные машины Windows
+#### <a name="install-the-microsoft-dependency-agent-on-windows-vms"></a>Установка Microsoft Dependency Agent на виртуальных машинах Windows
 
-1. Компания Contoso дважды щелкает скачанный агент зависимостей.
+1. Компания Contoso дважды щелкает загруженный файл агента.
 
 2. Компания принимает условия лицензионного соглашения и ждет окончания установки.
 
-    ![Установка Dependency Agent. Установка](../migrate/azure-best-practices/media/contoso-migration-assessment/dependency-agent.png)
+    ![Установка Microsoft Dependency Agent](../migrate/azure-best-practices/media/contoso-migration-assessment/dependency-agent.png)
 
 ### <a name="install-the-agents-on-linux-vms"></a>Установка агентов на виртуальные машины Linux
 
@@ -413,11 +411,11 @@ ms.locfileid: "83862608"
 
     `sudo apt-get install python-ctypeslib`
 
-1. Чтобы установить агент MMA, компания Contoso должна запустить команды от имени привилегированного пользователя. Чтобы стать привилегированным пользователем, компания Contoso выполняет команду и вводит пароль:
+2. Чтобы установить агент MMA, компания Contoso должна запустить команды от имени привилегированного пользователя. Чтобы стать привилегированным пользователем, компания Contoso выполняет команду и вводит пароль:
 
     `sudo -i`
 
-1. Компания Contoso устанавливает MMA:
+3. Компания Contoso устанавливает MMA:
 
     - Она вводит идентификатор и ключ рабочей области в команде.
     - Команды предназначены для 64-разрядных систем.
@@ -426,11 +424,11 @@ ms.locfileid: "83862608"
 
         `wget https://raw.githubusercontent.com/Microsoft/OMS-Agent-for-Linux/master/installer/scripts/onboard_agent.sh && sh onboard_agent.sh -w 6b7fcaff-7efb-4356-ae06-516cacf5e25d -s k7gAMAw5Bk8pFVUTZKmk2lG4eUciswzWfYLDTxGcD8pcyc4oT8c6ZRgsMy3MmsQSHuSOcmBUsCjoRiG2x9A8Mg==`
 
-#### <a name="install-the-dependency-agent-on-linux-vms"></a>Установка агента зависимостей на виртуальные машины Linux
+#### <a name="install-the-microsoft-dependency-agent-on-linux-vms"></a>Установка Microsoft Dependency Agent на виртуальных машинах Linux
 
-После установки MMA компания Contoso устанавливает агент зависимостей на виртуальных машинах Linux:
+После установки Microsoft Monitoring Agent компания Contoso устанавливает Microsoft Dependency Agent на виртуальных машинах Linux:
 
-1. Агент зависимостей устанавливается на компьютеры Linux с помощью InstallDependencyAgent-Linux64. bin — сценария оболочки, который содержит самораспаковывающийся двоичный файл. Компания Contoso запускает файл с помощью команды "sh" или добавляет разрешения на выполнение в сам файл.
+1. Microsoft Dependency Agent устанавливается на компьютеры Linux с помощью `InstallDependencyAgent-Linux64.bin` среды, сценария оболочки, который содержит самораспаковывающийся двоичный файл. Contoso запускает файл с помощью `sh` или добавляет разрешения на выполнение для самого файла.
 
 2. Компания Contoso устанавливает агент зависимостей Linux в качестве привилегированного пользователя:
 
@@ -457,8 +455,7 @@ ms.locfileid: "83862608"
 
     ![Миграция Azure. Просмотр зависимостей группы](../migrate/azure-best-practices/media/contoso-migration-assessment/sqlvm-dependencies.png)
 
-4. Компания Contoso выбирает виртуальные машины, которые будут добавлены в группы (SQLVM и WEBVM). Специалист Contoso удерживает клавишу CTRL, чтобы выбрать несколько виртуальных машин.
-
+4. Компания Contoso выбирает виртуальные машины, которые будут добавлены в группы (SQLVM и WEBVM). Contoso удерживает `Ctrl` ключ при выборе нескольких виртуальных машин.
 5. Она выбирает **Создать группу**, а затем вводит имя (**smarthotelapp**).
 
     > [!NOTE]
@@ -468,7 +465,7 @@ ms.locfileid: "83862608"
 
 1. В **группах** компания Contoso открывает группу (**smarthotelapp**), а затем выбирает **Создать оценку**.
 
-    ![Миграция Azure. Создание оценки](../migrate/azure-best-practices/media/contoso-migration-assessment/run-vm-assessment.png)
+    ![Служба "миграция Azure": создание оценки](../migrate/azure-best-practices/media/contoso-migration-assessment/run-vm-assessment.png)
 
 2. Чтобы просмотреть оценку, Contoso выбирает **Управление**  >  **оценками**.
 

@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 3c73d4baaa71b87c749483a8fb5ba9f53bb72d70
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: b3f72f4fb73550c3e2a421cb9965b8ac0c75b80e
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83752713"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786081"
 ---
 # <a name="improve-operations"></a>Улучшение операций
 
@@ -33,6 +33,6 @@ ms.locfileid: "83752713"
 
 ![Принципы общей архитектуры](../_images/shared-principles.png)
 
-Приведенные выше принципы совместно используются в [помощнике по Azure](https://docs.microsoft.com/azure/advisor/advisor-overview), [Microsoft Azure хорошо спроектированной инфраструктурой](https://docs.microsoft.com/azure/architecture/framework)и решениях в [центр архитектуры Azure](https://docs.microsoft.com/azure/architecture). Помощник Azure оценивает принципы для отдельных ресурсов. Центр архитектуры Azure применяет эти принципы для создания хорошо спроектированных решений. Microsoft Azure хорошо спроектированная инфраструктура помогает сбалансировать эти принципы в рабочей нагрузке при принятии решений по архитектуре.
+Приведенные выше принципы совместно используются в [помощнике по Azure](https://docs.microsoft.com/azure/advisor/advisor-overview), в [Microsoft Azure хорошо спроектированной инфраструктурой](https://docs.microsoft.com/azure/architecture/framework)и решениях в [центр архитектуры Azure](https://docs.microsoft.com/azure/architecture). Помощник Azure оценивает принципы для отдельных ресурсов. Центр архитектуры Azure применяет эти принципы для создания хорошо спроектированных решений. Инфраструктура Microsoft Azure с грамотным проектированием помогает сбалансировать эти принципы в рабочей нагрузке при принятии решений по архитектуре.
 
 Инфраструктура внедрения облачных решений обеспечивает хорошо управляемую среду, применяя эти принципы в портфеле рабочих нагрузок и вспомогательных средах.

@@ -8,18 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ebad1c02e22f00532ebb1fa0d16fc4b156ea9253
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 3ce9fd30d23bfc72121f1dffc9dbf8edd6b228b6
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755936"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786513"
 ---
 # <a name="motivations-and-business-risks-in-the-resource-consistency-discipline"></a>Мотивация и бизнес-риски в дисциплине согласованности ресурсов
 
 В этой статье рассматриваются причины применения клиентами дисциплины "Согласованность ресурсов" в рамках стратегии управления облаком. Здесь также приводятся несколько примеров потенциальных бизнес-рисков, которые могут управлять правилами политики.
-
-<!-- markdownlint-disable MD026 -->
 
 ## <a name="relevance"></a>релевантности
 

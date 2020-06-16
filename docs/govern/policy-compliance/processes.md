@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: c2a087fec598e2b9d581370f76e35aefef88048f
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: fac64038c805eed0566554dd42551b32f4294900
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83224193"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786234"
 ---
-<!-- markdownlint-disable MD026 -->
-
 # <a name="establish-policy-adherence-processes"></a>Разработка процессов, обеспечивающих соблюдение политик
 
 После установления положений облачной политики и разработки руководства по проектированию необходимо создать стратегию, обеспечивающую соответствие облачного развертывания требованиям политики. Эта стратегия должна охватывать текущие процессы проверки и связи в группе управления облаком, установить критерии, когда нарушения политики требуют действий, и определить требования для автоматизированных систем мониторинга и обеспечения соответствия требованиям, которые будут обнаруживать нарушения и запускать действия по исправлению.

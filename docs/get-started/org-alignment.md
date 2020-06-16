@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 91e9199d8d4dee4a52b0d558f16bb3fcd344bf78
-ms.sourcegitcommit: d2a6430eba5aa3db4a21b8dc4f1c9996224b9cb3
+ms.openlocfilehash: 300a2c7758d78842e917f4cd0881406835e0aad9
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/28/2020
-ms.locfileid: "84149378"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786030"
 ---
 # <a name="get-started-align-your-organization"></a>Приступая к работе. Выровняйте свою организацию
 
@@ -72,7 +72,7 @@ ms.locfileid: "84149378"
 
 Просмотрите это видео, чтобы получить обзор общих структур команды на различных этапах работы Организации.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4wvTS]
+> [!VIDEO <https://www.microsoft.com/en-us/videoplayer/embed/RE4wvTS>]
 
 ## <a name="step-5-align-raci-charts"></a>Шаг 5. Выровняйте RACI диаграммы
 

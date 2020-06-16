@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1a5dc85aba4b5bd37bc65682bd039ecf57658624
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: 71d813526d739984390fc671c44245b21ce078f1
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83862336"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786251"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Средства основных способов идентификации в Azure
 
@@ -55,15 +55,13 @@ ms.locfileid: "83862336"
 <!-- markdownlint-disable MD033 -->
 <!-- docsTest:ignore UserPrincipalName SamAccountName -->
 
-<!-- TODO: Fix link for Azure Active Directory admin center -->
-
 | Оценка | Синхронизация хэша паролей и простой единый вход | Сквозная аутентификация и простой единый вход | Федерация с AD FS |
 | --- | --- | --- | --- |
-| Где происходит аутентификация? | В облаке | В облаке после безопасного обмена данными проверки пароля с локальным агентом аутентификации | В локальной среде |
-| Каковы требования к локальному серверу помимо системы подготовки (Azure AD Connect)? | None | Один сервер для каждого дополнительного агента аутентификации | Не менее двух серверов AD FS <br><br> Не менее двух WAP-серверов в сети периметра |
-| Каковы требования к локальному Интернету и сети за пределами системы подготовки? | None | [Исходящий доступ в Интернет](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности | [Входящий доступ в Интернет](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре <br><br> Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра <br><br> Балансировка сетевой нагрузки |
+| Где происходит аутентификация? | В облаке | В облаке после безопасного обмена данными проверки пароля с локальным агентом аутентификации | Локальная среда |
+| Каковы требования к локальному серверу помимо системы подготовки (Azure AD Connect)? | Отсутствуют | Один сервер для каждого дополнительного агента аутентификации | Не менее двух серверов AD FS <br><br> Не менее двух WAP-серверов в сети периметра |
+| Каковы требования к локальному Интернету и сети за пределами системы подготовки? | Отсутствуют | [Исходящий доступ в Интернет](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности | [Входящий доступ в Интернет](https://docs.microsoft.com/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре <br><br> Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра <br><br> Балансировка сетевой нагрузки |
 | Существует ли требование к SSL-сертификату? | Нет | Нет | Да |
-| Имеется ли решение для мониторинга работоспособности? | Не требуется | Состояние агента, предоставляемое [Центром администрирования Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-pass-through-authentication) | [Azure AD Connect Health](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs) |
+| Имеется ли решение для мониторинга работоспособности? | Не требуется | Состояние агента, предоставляемое [Центром администрирования Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/tshoot-connect-pass-through-authentication#general-issues) | [Azure AD Connect Health](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-health-adfs) |
 | Пользователи получают единый вход в облачные ресурсы с присоединенных к домену устройств в корпоративной сети? | Да, с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso) | Да, с [простым единым входом](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso) | Да |
 | Какие типы входа поддерживаются? | UserPrincipalName и пароль <br><br>  Встроенная проверка подлинности Windows с помощью [простого единого входа](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso) <br><br> [Альтернативное имя пользователя](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-custom) | UserPrincipalName и пароль <br><br> Встроенная проверка подлинности Windows с помощью [простого единого входа](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sso) <br><br> [Альтернативное имя пользователя](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-pta-faq) | UserPrincipalName и пароль <br><br> SamAccountName + Password <br><br> Встроенная проверка подлинности Windows <br><br> [Аутентификация с использованием сертификатов и смарт-карт](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication) <br><br> [Альтернативное имя пользователя](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/configuring-alternate-login-id) |
 | Поддерживается ли Windows Hello для бизнеса? | [Модель доверия на основе ключей](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) <br><br> [Модель доверия на основе сертификатов с Intune](https://microscott.azurewebsites.net/2017/12/16/setting-up-windows-hello-for-business-with-intune) | [Модель доверия на основе ключей](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) <br><br> [Модель доверия на основе сертификатов с Intune](https://microscott.azurewebsites.net/2017/12/16/setting-up-windows-hello-for-business-with-intune) | [Модель доверия на основе ключей](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification) <br><br> [Модель доверия на основе сертификатов](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-key-trust-adfs) |

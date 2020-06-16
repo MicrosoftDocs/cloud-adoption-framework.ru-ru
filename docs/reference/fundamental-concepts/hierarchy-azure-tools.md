@@ -7,15 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 17d6368eb8e0d55e8ad8107601a690046af1c2e9
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: ae57f79aeb4976a2c6306728f354ab972f3b33e3
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755635"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84788121"
 ---
-<!-- markdownlint-disable MD026 -->
-
 # <a name="how-do-azure-products-support-the-portfolio-hierarchy"></a>Как продукты Azure поддерживают иерархию портфеля?
 
 Для [понимания и согласования иерархии портфеля](./hosting-hierarchy.md)набор определений для иерархии портфеля и сопоставления ролей установил иерархию областей для большинства подходов к портфелю. Как описано в этой статье, вам может не понадобиться каждый из выставляемых уровней или _областей_. Минимизация количества слоев сокращает сложность, поэтому эти слои не должны рассматриваться как требование.

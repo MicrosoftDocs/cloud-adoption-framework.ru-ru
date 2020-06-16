@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 1b3f21999cea35de59f30d882f9d8b104169952c
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: ba2a227f0ee12322d7d306b1bad2ff3c1a325e26
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815231"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84785248"
 ---
 # <a name="workload-operations-in-cloud-management"></a>Операции рабочей нагрузки в управлении облаком
 
@@ -94,7 +94,7 @@ _Принцип Парето_ (также называемый _правилом
 - **Управление:** Операционные процессы, которые сохраняют систему в рабочей среде.
 - **Безопасность:** Защита приложений и данных от угроз.
 
-Чтобы помочь улучшить общие операции, [Microsoft Azure хорошо спроектированная платформа](https://docs.microsoft.com/azure/architecture/guide/pillars) предоставляет подход к оценке конкретных рабочих нагрузок для обеспечения соответствия этим основам. Вы можете применить эти основные принципы как к операциям платформы, так и к операциям рабочей нагрузки.
+Чтобы помочь улучшить общие операции, [Microsoft Azure хорошо спроектированная платформа](https://docs.microsoft.com/azure/architecture/framework) предоставляет подход к оценке конкретных рабочих нагрузок для обеспечения соответствия этим основам. Применяйте эти основы как к операциям платформы, так и к операциям рабочей нагрузки.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

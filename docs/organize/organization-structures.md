@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 9e4358b631008ef83a7b2635d5c2774a1e059815
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 7c157af494de7ac735f38387aa5aa5a48d3ddba8
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755259"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84787713"
 ---
 <!-- cSpell:ignore ccoe -->
 
@@ -23,7 +23,7 @@ ms.locfileid: "83755259"
 
 По мере роста потребности в внедрении требуется баланс и структура. Просмотрите это видео, чтобы получить обзор общих структур команды на различных этапах работы Организации.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4wvTS]
+> [!VIDEO <https://www.microsoft.com/en-us/videoplayer/embed/RE4wvTS>]
 
 На приведенном ниже рисунке изображены структуры, основанные на типичных созревания этапах. Используйте эти примеры для поиска организационной структуры, которая наилучшим образом соответствует рабочим потребностям.
 

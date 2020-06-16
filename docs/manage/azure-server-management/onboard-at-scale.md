@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 368c5b44513ee98cb7f361305bfe1de468474a03
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: 83739453ac8d9466c01656788a22baaec4e78e5a
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83861537"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84785435"
 ---
 <!-- cSpell:ignore VMUUID kusto -->
 
@@ -36,7 +36,7 @@ ms.locfileid: "83861537"
 
 Для всех решений по управлению, обсуждаемых в [средствах управления и службах Azure](./tools-services.md) , требуется, чтобы агент log Analytics был установлен на виртуальных машинах Azure и локальных серверах. Вы можете подключить виртуальные машины Azure в нужном масштабе с помощью политики Azure. Назначьте политику, чтобы убедиться, что агент установлен на виртуальных машинах Azure и подключен к нужной рабочей области Log Analytics.
 
-В политике Azure есть [Встроенная инициатива политики](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#initiatives) , которая включает в себя агент log Analytics и [Агент зависимостей (Майкрософт](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent)), необходимый для Azure Monitor для виртуальных машин.
+В политике Azure есть [Встроенная инициатива политики](https://docs.microsoft.com/azure/governance/policy/concepts/definition-structure#initiatives) , которая включает в себя log Analytics агент и [Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), необходимые Azure Monitor для виртуальных машин.
 
 <!-- TODOBACKLOG: Add these when available.
 **Preview:** Enable Azure Monitor for virtual machine scale sets.
@@ -66,7 +66,7 @@ ms.locfileid: "83861537"
 
     ![Снимок экрана: интерфейс политики портала](./media/onboarding-at-scale3.png)
 
-6. Установите флажок **управляемое расположение удостоверений** . Если эта политика относится к типу [DeployIfNotExists](https://docs.microsoft.com/azure/governance/policy/concepts/effects#deployifnotexists), для развертывания политики потребуется управляемое удостоверение. На портале учетная запись будет создана, как указано в выбранном флажке.
+6. Установите флажок **управляемое расположение удостоверений** . Если эта политика относится к типу `[DeployIfNotExists](https://docs.microsoft.com/azure/governance/policy/concepts/effects#deployifnotexists)` , для развертывания политики потребуется управляемое удостоверение. На портале учетная запись будет создана, как указано в выбранном флажке.
 
 7. Выберите **назначить**.
 
@@ -77,7 +77,7 @@ ms.locfileid: "83861537"
 > [!NOTE]
 > Создайте требуемую [рабочую область log Analytics и учетную запись службы автоматизации Azure](./prerequisites.md#create-a-workspace-and-automation-account) , прежде чем подключать службы управления сервером Azure к серверам.
 
-Для локальных серверов необходимо загрузить и установить [агент log Analytics и агент зависимостей Майкрософт](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud) вручную и настроить их для подключения к нужной рабочей области. Необходимо указать идентификатор рабочей области и сведения о ключе. Чтобы получить эти сведения, перейдите в рабочую область log Analytics в портал Azure, а затем выберите **Параметры**  >  **Дополнительные параметры**.
+Для локальных серверов необходимо загрузить и установить [агент log Analytics и Microsoft dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud) вручную и настроить их для подключения к нужной рабочей области. Необходимо указать идентификатор рабочей области и сведения о ключе. Чтобы получить эти сведения, перейдите в рабочую область log Analytics в портал Azure, а затем выберите **Параметры**  >  **Дополнительные параметры**.
 
 ![Снимок экрана с дополнительными параметрами Log Analytics рабочей области в портал Azure](./media/onboarding-on-premises.png)
 
@@ -145,7 +145,7 @@ ms.locfileid: "83861537"
 1. В портал Azure откройте **все службы**, а затем выберите **Управление и**  >  **решения**управления.
 2. В представлении **решения** выберите **Добавить**.
 3. Выполните поиск **аналитика журнала действий** и выберите его.
-4. Нажмите кнопку **создания**.
+4. Выберите **Создать**.
 
 Необходимо указать **имя рабочей** области, созданной в предыдущем разделе, в котором включено решение.
 
@@ -158,7 +158,7 @@ ms.locfileid: "83861537"
 1. В портал Azure откройте **все службы**, а затем выберите **Управление и**  >  **решения**управления.
 2. В представлении **решения** выберите **Добавить**.
 3. Выполните поиск **работоспособности агента Azure log Analytics** и выберите его.
-4. Нажмите кнопку **создания**.
+4. Выберите **Создать**.
 
 Необходимо указать **имя рабочей** области, созданной в предыдущем разделе, в котором включено решение.
 
@@ -173,7 +173,7 @@ ms.locfileid: "83861537"
 1. В портал Azure откройте **все службы**и выберите **Управление**  >  **решениями**управления.
 2. В представлении **решения** выберите **Добавить**.
 3. Найдите и выберите пункт **Оценка защиты от вредоносных программ**.
-4. Нажмите кнопку **создания**.
+4. Выберите **Создать**.
 
 Необходимо указать **имя рабочей** области, созданной в предыдущем разделе, в котором включено решение.
 

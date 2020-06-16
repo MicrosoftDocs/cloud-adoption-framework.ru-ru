@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 975248025ff170ff872fdd5970f548a8fc83c953
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 8a1b1838617c9d82c4e8cca239aa4abc9d853f3c
+ms.sourcegitcommit: 568037e0d2996e4644c11eb61f96362a402759ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83215404"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84799965"
 ---
 # <a name="create-your-initial-azure-subscriptions"></a>Создание первоначальных подписок Azure
 
@@ -46,7 +46,7 @@ ms.locfileid: "83215404"
 
 ## <a name="shared-services-subscription"></a>Подписка на общие службы
 
-Если вы планируете разместить **более 1 000 виртуальных машин или экземпляров вычислений в облаке в течение 24 месяцев**, создайте еще одну подписку Azure для размещения общих служб. Это позволит заранее подготовиться к поддержке корпоративной архитектуры с конечным состоянием.
+Если вы планируете разместить **более 1 000 виртуальных машин или экземпляров вычислений в облаке в течение 24 месяцев**, создайте еще одну подписку Azure для размещения общих служб. Это поможет вам подготовиться к поддержке корпоративной архитектуры с конечным состоянием.
 
 ![Начальная модель подписки, показывающая ключи рядом с полями "Рабочий" и "Общие службы"](../../_images/ready/initial-subscription-model-with-shared-services.png)
 

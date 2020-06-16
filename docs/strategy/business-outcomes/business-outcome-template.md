@@ -7,20 +7,18 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: cc7558e9adf16d962e086307e213af990ff60e92
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: de561a28e1b6b0bf6253bcb082ded110e84572c3
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219008"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84788155"
 ---
 # <a name="how-to-use-the-business-outcome-template"></a>Использование шаблона результата бизнеса
 
 Как обсуждалось в [обзоре результатов бизнеса](./index.md), может быть трудно преодолеть разрыв между деловыми и техническими обсуждениями. Этот простой шаблон предназначен для того, чтобы помочь командам собирать результаты, которые будут использоваться в дальнейшем при разработке стратегий межпользовательского преобразования.
 
 Скачайте [электронную таблицу шаблона результата предприятия](https://archcenter.blob.core.windows.net/cdn/business-outcome-template.xlsx) , чтобы начать мозговой штурм и отслеживать результаты бизнеса. Продолжайте чтение, чтобы узнать, как использовать шаблон. В [разделе «результаты бизнеса](./index.md) » приобретаются идеи о потенциальных возможностях бизнеса, которые могут возникать в беседах руководителей.
-
-<!-- markdownlint-disable MD026 -->
 
 ## <a name="use-the-business-outcome-template"></a>Использование шаблона результата бизнеса
 

@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d7d621f8f25b5369c4b9d39341c3e735b0996493
-ms.sourcegitcommit: 871d0256a2d448e22b4ab8054e906fc2db946518
+ms.openlocfilehash: 6672d86f215360f1024b233f62a48eb390b52a52
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2020
-ms.locfileid: "83705947"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84785180"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -22,7 +22,7 @@ ms.locfileid: "83705947"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов — инфраструктуру, приложение и анализ данных.  
 
-## <a name="fundamentals"></a>Базовый
+## <a name="fundamentals"></a>Основы
 
 - Общие сведения о [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
@@ -31,7 +31,7 @@ ms.locfileid: "83705947"
 - Общие сведения о [интерфейсе командной строки Azure (CLI)](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](https://docs.microsoft.com/powershell/azure/?view=azps-3.6.1). Предложения LinkedIn в рамках [обучающего курса обучение средствам управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), семинарам, охватывающим Azure CLI и языки программирования PowerShell:
 
   - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
-  - [Начало работы с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
+  - [Getting started with Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell) (Приступая к работе с Azure PowerShell)
 
 - Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](https://docs.microsoft.com/learn/paths/implement-resource-mgmt-security).
 
@@ -39,7 +39,7 @@ ms.locfileid: "83705947"
 
 ## <a name="infrastructure-monitoring"></a>Мониторинг инфраструктуры
 
-- [Разработка стратегии мониторинга для инфраструктуры в Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-monitoring-strategy-infrastructure-design-update) помогает изучить фундаментальные сведения о возможностях мониторинга и решениях в Azure. 
+- [Разработка стратегии мониторинга для инфраструктуры в Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-monitoring-strategy-infrastructure-design-update) помогает изучить фундаментальные сведения о возможностях мониторинга и решениях в Azure.
 
 - Сведения о мониторинге кластеров [Kubernetes](https://www.youtube.com/watch?time_continue=3&v=RjsNmapggPU&feature=emb_logo) см. в глубоком подробном обзоре мониторинга кластера Kubernetes с Azure Monitor для контейнеров.
 
@@ -61,15 +61,15 @@ ms.locfileid: "83705947"
   
   - [Microsoft Azure мониторинга базы данных сборник тренировочных заданий](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) поможет вам узнать, как реализовать и использовать мониторинг базы данных SQL Azure, хранилища данных SQL azure и Azure Cosmos DB.
 
-  - [Инструментирование приложений с помощью Azure Monitor Application Insights](https://app.pluralsight.com/library/courses/microsoft-azure-application-insights-web-application-instrument) является глубоким курсом, посвященным использованию пакета SDK Application Insights для сбора данных телеметрии и событий из приложения с помощью угловых и компонентов Node. js.
+  - [Инструментирование приложений с помощью Azure Monitor Application Insights](https://app.pluralsight.com/library/courses/microsoft-azure-application-insights-web-application-instrument) является подробным курсом, посвященным использованию пакета SDK Application Insights для сбора данных телеметрии и событий из приложения с помощью угловых и Node.js компонентов.
 
   - [Отладка и профилирование приложений](https://www.pluralsight.com/courses/devintersection-azureai-session-31) — это запись из сеанса конференции Майкрософт по использованию и интерпретации данных, предоставляемых Azure Monitor Application Insights snapshot Debugger и Profiler.
 
 ## <a name="data-analysis"></a>Анализ данных
 
-- Узнайте, как создавать [запросы журналов в Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries). Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение. 
+- Узнайте, как создавать [запросы журналов в Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries). Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение.
 
-- [Язык запросов Kusto (ККЛ) с нуля](https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch) — это полный курс, включающий в себя подробные примеры, охватывающие широкий спектр вариантов использования и методов для анализа журналов в Azure Monitor журналов. 
+- [Язык запросов Kusto (ККЛ) с нуля](https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch) — это полный курс, включающий в себя подробные примеры, охватывающие широкий спектр вариантов использования и методов для анализа журналов в Azure Monitor журналов.
 
 ## <a name="deeper-skills-exploration"></a>Углубленное изучение навыков
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 146760046dc82b80e347ca2b71ca2ac5f8c090e0
-ms.sourcegitcommit: 6fef15cc3a8af725dc743e19f127513bc58dd257
+ms.openlocfilehash: b58479787111c9351212254358b47a450522900c
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "84023429"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84785214"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless -->
 
@@ -76,8 +76,8 @@ ms.locfileid: "84023429"
 
 | **Оценка** | **Сведения** |
 | --- | --- |
-| **Плюсы** | Обе виртуальные машины будут перемещены в Azure без изменений, упрощая миграцию. <br><br> Так как компания Contoso использует подход с приближением и сдвигом для виртуальных машин приложений, для базы данных приложения специальные средства настройки или миграции не требуются. <br><br> Contoso может воспользоваться преимуществами своих инвестиций в программу Software Assurance, используя Преимущество гибридного использования Azure. <br><br> Компания Contoso сохранит полный контроль над виртуальными машинами приложений в Azure. |
-| **Минусы** | Виртуальные машины WEBVM и SQLVM работают под управлением Windows Server 2008 R2. Операционная система поддерживается в Azure для конкретных ролей. [Подробнее.](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines) <br><br> Веб-уровни и уровень данных приложения останутся единой точкой отказа. <br><br> SQLVM работает на SQL Server 2008 R2, которая больше не находится в основной поддержке. Однако она поддерживается для виртуальных машин Azure. [Подробнее.](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support) <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure и база данных SQL Azure. |
+| **Преимущества** | Обе виртуальные машины будут перемещены в Azure без изменений, упрощая миграцию. <br><br> Так как компания Contoso использует подход с приближением и сдвигом для виртуальных машин приложений, для базы данных приложения специальные средства настройки или миграции не требуются. <br><br> Contoso может воспользоваться преимуществами своих инвестиций в программу Software Assurance, используя Преимущество гибридного использования Azure. <br><br> Компания Contoso сохранит полный контроль над виртуальными машинами приложений в Azure. |
+| **Недостатки** | Виртуальные машины WEBVM и SQLVM работают под управлением Windows Server 2008 R2. Операционная система поддерживается в Azure для конкретных ролей. [Подробнее](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines). <br><br> Веб-уровни и уровень данных приложения останутся единой точкой отказа. <br><br> SQLVM работает на SQL Server 2008 R2, которая больше не находится в основной поддержке. Однако она поддерживается для виртуальных машин Azure. [Подробнее](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support). <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure и база данных SQL Azure. |
 
 <!-- markdownlint-enable MD033 -->
 
@@ -168,6 +168,7 @@ ms.locfileid: "84023429"
 **Требуется дополнительная помощь?**
 
 Дополнительные сведения о настройке [средства миграции Azure: Server Migration Tool](https://docs.microsoft.com/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
+
 ### <a name="prepare-on-premises-vms"></a>Подготовка локальных виртуальных машин
 
 После миграции компания Contoso хочет подключиться к виртуальным машинам Azure и разрешить Azure управлять виртуальными машинами. Для этого перед миграцией администраторы компании Contoso выполняют указанные ниже действия.

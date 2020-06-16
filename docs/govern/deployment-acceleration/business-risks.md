@@ -8,18 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1a2c1f53e5559c9ca161cad5b68266f0cd1ff83d
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: d1f9ea9498cd47702b2c3bc359a54100f1b7c74c
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755017"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786438"
 ---
 # <a name="motivations-and-business-risks-in-the-deployment-acceleration-discipline"></a>Мотивация и бизнес-риски в дисциплине ускорения развертывания
 
 В этой статье рассматриваются причины применения клиентами дисциплины "Ускорение развертывания" в рамках стратегии управления облаком. Здесь также приводится несколько примеров бизнес-рисков, которые могут привести в действие правила политики.
-
-<!-- markdownlint-disable MD026 -->
 
 ## <a name="relevance"></a>релевантности
 

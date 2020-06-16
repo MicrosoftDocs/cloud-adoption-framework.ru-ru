@@ -8,18 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 370dfa7a040a41e22f23741ca30cf3a305de7f29
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 49ec30f5a623e3be0c06f4c019669bfd9d3e6006
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219892"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786268"
 ---
 # <a name="motivations-and-business-risks-in-the-identity-baseline-discipline"></a>Мотивация и бизнес-риски в плане основы идентификации
 
 В этой статье рассматриваются причины применения клиентами дисциплины "Основные способы идентификации" в рамках стратегии управления облачными службами. Здесь также приводится несколько примеров бизнес-рисков, которые могут привести в действие правила политики.
-
-<!-- markdownlint-disable MD026 -->
 
 ## <a name="relevance"></a>релевантности
 

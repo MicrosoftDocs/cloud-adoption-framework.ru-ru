@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 54ea9341cfcd5064a6cae737f302ef03736f21af
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 8eaded2f79ce16e2dfa0bc5730093abfd2e5ee32
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83752866"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786098"
 ---
 # <a name="enable-customer-success-with-a-sound-operating-model"></a>Обеспечение успеха клиента с помощью звуковой рабочей модели
 
@@ -45,7 +45,7 @@ ms.locfileid: "83752866"
 
 ![Принципы общей архитектуры](../_images/shared-principles.png)
 
-Приведенные выше принципы совместно используются в [помощнике по Azure](https://docs.microsoft.com/azure/advisor/advisor-overview), [Microsoft Azure хорошо спроектированной инфраструктурой](https://docs.microsoft.com/azure/architecture/framework)и решениях в [центр архитектуры Azure](https://docs.microsoft.com/azure/architecture).
+Эти принципы являются общими для [помощника по Azure](https://docs.microsoft.com/azure/advisor/advisor-overview), [Microsoft Azure хорошо спроектированной инфраструктуры](https://docs.microsoft.com/azure/architecture/framework)и решений в [центр архитектуры Azure](https://docs.microsoft.com/azure/architecture).
 
 - [Помощник Azure](https://docs.microsoft.com/azure/advisor/advisor-overview) оценивает принципы отдельных ресурсов в решениях, рабочих нагрузках и полном портфеле.
 - [Центр архитектуры Azure](https://docs.microsoft.com/azure/architecture) применяет эти принципы для разработки и управления конкретными техническими решениями.

@@ -7,15 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2f09b7894782a038c7e39e85f0a93c2a49b20b07
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 05600c8e5169f13110e45e680f3849174225b11f
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223547"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84787798"
 ---
-<!-- markdownlint-disable MD026 -->
-
 # <a name="what-role-does-replication-play-in-the-migration-process"></a>Какую роль репликация играет в процессе миграции?
 
 Локальные центры обработки данных заполнены физическими ресурсами, такими как серверы, устройства и сетевые устройства. Однако каждый сервер — это просто физическая оболочка. Реальное значение имеют двоичные файлы, выполняемые на сервере. Приложения и данные являются целью центра обработки данных. Это основные двоичные файлы, которые будут перенесены. Работу этих приложений и хранилищ данных обеспечивают другие цифровые активы и двоичные источники, такие как операционные системы, сетевые маршруты, файлы и протоколы безопасности.
