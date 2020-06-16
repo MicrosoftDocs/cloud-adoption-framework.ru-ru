@@ -7,15 +7,13 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 05a2d46bff1bc68bfaad32427170c8e6e5035963
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: 32a261bc94cc00fad8d44e0a7699b4bda27fbbee
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621692"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84787171"
 ---
-<!-- markdownlint-disable MD026 -->
-
 # <a name="develop-a-cloud-adoption-strategy"></a>Создание стратегии внедрения в облако
 
 Облако обеспечивает базовые технологические преимущества, которые помогают предприятиям реализовать различные бизнес-стратегии. Применяя подходы, в основе которых лежит использование облака, вы можете повысить гибкость ведения бизнеса, снизить затраты, ускорить выход продукта на существующий рынок и обеспечить возможность его быстрого появления на новых рынках. Чтобы воспользоваться этим потенциалом, начните с определения бизнес-стратегии, которая будет понятна как ИТ-специалистам, так и заинтересованным лицам из бизнес-сферы.

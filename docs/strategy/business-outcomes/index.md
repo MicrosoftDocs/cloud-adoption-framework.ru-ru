@@ -7,15 +7,13 @@ ms.date: 03/27/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 5284af93b76ae2396e753914264861492b65356f
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: d298be02fcb27b0f7165d36c045455decc3a8908
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83218770"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84788138"
 ---
-<!-- markdownlint-disable MD026 -->
-
 # <a name="what-business-outcomes-are-associated-with-transformation-journeys"></a>Какие бизнес-результаты связаны с процессами преобразования?
 
 Успешные преобразования начинаются, когда учитываются бизнес-результаты. Внедрение облачных решений может потребовать много денег и времени. Успешность этого процесса напрямую зависит от наличия нужного уровня поддержки в ИТ-отделе и других бизнес-подразделениях. Эта серия статей разработана для того, чтобы помочь клиентам определить четкие бизнес-результаты с наблюдаемыми показателями или изменениями в эффективности работы.

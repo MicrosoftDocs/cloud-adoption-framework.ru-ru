@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d52ac870c7732732ec5ec92e93b5af6caaf8eacf
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 239e006b7d4c8165e55bc3ba9bd921bc3f4e0842
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755223"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84786642"
 ---
-<!-- markdownlint-disable MD026 -->
-
 # <a name="prepare-corporate-it-policy-for-the-cloud"></a>Подготовка корпоративной ИТ-политики для облака
 
 Облачная система управления формируется в результате постоянного внедрения облачных технологий в течение длительного времени, так как настоящее устойчивое преобразование невозможно выполнить за один раз. Попытка быстро создать завершенную облачную систему управления без изменения ключевых аспектов корпоративной политики редко приносит желаемые результаты. Вместо этого мы рекомендуем применять поэтапный подход.

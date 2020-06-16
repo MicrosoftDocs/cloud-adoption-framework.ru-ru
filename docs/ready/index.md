@@ -7,15 +7,13 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 90b5e71302310e9f1fd8391f3132b60926cc381e
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: 684144a3547a03217c4509cca72bacdc717230e4
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621803"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84788104"
 ---
-<!-- markdownlint-disable MD026 -->
-
 # <a name="ensure-the-environment-is-prepared-for-the-cloud-adoption-plan"></a>Подготовка среды к реализации плана по внедрению в облако
 
 Прежде чем начинать процесс внедрения, нужно создать зону для размещения рабочих нагрузок, которые вы планируете создавать в облаке или переносить в него. В этом разделе документации описано, как создать такую зону размещения.
