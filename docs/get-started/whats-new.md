@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 905ceb5acbfaef1e07297cdd1a70c21770aea2b9
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: dfe9fcd9e0d714185d59518638b6c7e659089af6
+ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84786455"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84813222"
 ---
 <!-- markdownlint-disable MD024 -->
 
@@ -116,8 +116,8 @@ ms.locfileid: "84786455"
 | Статья                                                                   | Описание                                                                                                              |
 |---------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | [Что &nbsp; такое &nbsp; &nbsp; Главная &nbsp; зона?](../ready/landing-zone/index.md)                 | **Новая статья:** Определяет термин "Главная зона".                                                      |
-| [Первая зона размещения](../ready/landing-zone/first-landing-zone.md)         | **Новая статья:** Раскрывает сравнение различных зон размещения.                                                     |
-| [Зона размещения для миграции в соответствии с CAF](../ready/landing-zone/migrate-landing-zone.md) | Разделяйте схему схемы облачной инфраструктуры внедрения на основе выбора первой целевой зоны.         |
+| Первая зона размещения         | **Новая статья:** Раскрывает сравнение различных зон размещения.                                                     |
+| [Целевая зона миграции КАФ](../ready/landing-zone/migrate-landing-zone.md) | Разделяйте схему схемы облачной инфраструктуры внедрения на основе выбора первой целевой зоны.         |
 | [Зона terraform](../ready/landing-zone/terraform-landing-zone.md) | Перемещен в раздел "Главная зона" методологии готовности для повышения terraform в диалоге "Целевая зона". |
 
 ### <a name="migration-updates"></a>Обновления для миграции

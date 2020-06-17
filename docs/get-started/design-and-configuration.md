@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 761c6c7a8bed468a7d2c9005365a815fbe48e8ae
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 9e0376779050003f9a19442d49858009fc6d963f
+ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83752882"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84812949"
 ---
 # <a name="get-started-design-and-configuration"></a>Начало работы: проектирование и настройка
 
@@ -112,7 +112,7 @@ ms.locfileid: "83752882"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- [Выбор целевой зоны](../ready/landing-zone/first-landing-zone.md). Используйте эту статью, чтобы найти правильный подход к развертыванию целевой зоны на основе краткосрочного плана внедрения. Затем разверните эту стандартизированную базу кода.
+- [Выбор целевой зоны](../ready/landing-zone/index.md): Используйте этот раздел, чтобы найти правильный подход к развертыванию целевой зоны на основе краткосрочного плана внедрения. Затем разверните эту стандартизированную базу кода.
 - [Расширение целевой зоны](../ready/considerations/index.md). не пытайтесь удовлетворить долгосрочные ограничения на управление, безопасность или операции, пока не потребуется поддержка плана краткосрочного внедрения.
 
 <!-- markdownlint-disable MD033 -->

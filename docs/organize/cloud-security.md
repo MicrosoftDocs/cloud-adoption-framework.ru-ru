@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 68ce6816dbcbbc1770ac8a51a6d77329e65b4eca
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 58fa0ac8b3c522318472f4adbe4ae8d28d2f8636
+ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755313"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84813294"
 ---
 <!-- cSpell:ignore MarkSimos -->
 
@@ -26,8 +26,6 @@ ms.locfileid: "83755313"
 
 **Безопасность — это спорт группы:** Важно, чтобы отдельные участники группы безопасности видят друг друга как часть группы безопасности, входящей в состав всей Организации и частью более крупного сообщества безопасности с тем же злоумышленников. Это целостное представление позволяет команде хорошо работать в целом. Особенно важно, что группы работают с незапланированными пробелами и перекрываются во время развития ролей и обязанностей.
 
-<!-- cSpell:ignore apsec -->
-
 ## <a name="security-functions"></a>Функции безопасности
 
 В каждой из следующих статей содержатся сведения о каждой функции. В каждой статье приводятся сводные сведения о задачах, способах развития функции из-за изменений в среде угроз или облачных технологиях, а также о связях и зависимостях, которые важны для достижения успеха.
@@ -37,7 +35,7 @@ ms.locfileid: "83755313"
 - [Архитектура безопасности](./cloud-security-architecture.md)
 - [Управление соответствием требованиям безопасности](./cloud-security-compliance-management.md)
 - [Безопасность людей](./cloud-security-people.md)
-- [Безопасность приложений и DevSecOps](./cloud-security-apsec-devsecops.md)
+- [Безопасность приложений и DevSecOps](./cloud-security-application-security-devsecops.md)
 - [Безопасность данных](./cloud-security-data-security.md)
 - [Безопасность инфраструктуры и конечных точек](./cloud-security-infrastructure-endpoint.md)
 - [Удостоверения и ключи](./cloud-security-identity-keys.md)

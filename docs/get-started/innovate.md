@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 79c428da9d0be27c209fcc30686225217832dbe1
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: b15349a976c9891536292eba25295cf4412472ba
+ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83862506"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84812957"
 ---
 # <a name="get-started-accelerate-new-product-and-service-innovation-in-the-cloud"></a>Начало работы. ускорение новых нововведений продуктов и услуг в облаке
 
@@ -177,7 +177,7 @@ ms.locfileid: "83862506"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- [Выбор целевой зоны](../ready/landing-zone/first-landing-zone.md). Используйте эту статью, чтобы найти правильный подход к развертыванию целевой зоны на основе шаблона внедрения. Затем разверните эту стандартизированную базу кода.
+- [Выбор целевой зоны](../ready/landing-zone/index.md): Используйте этот раздел, чтобы найти правильный подход к развертыванию целевой зоны на основе шаблона внедрения. Затем разверните эту стандартизированную базу кода.
 - [Расширение целевой зоны](../ready/considerations/index.md). независимо от начальной точки, выявление пробелов в развернутой целевой зоне для добавления необходимых компонентов для Организации ресурсов, безопасности, управления, соответствия и операций.
 
 <!-- markdownlint-disable MD033 -->

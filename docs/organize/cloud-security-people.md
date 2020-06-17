@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: d954d3869edc6f668d4375b87a91d519c50e17d1
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: ac85b955ccc69f981038d38b97873c2db82021da
+ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755393"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84813261"
 ---
 # <a name="people-security-functions-in-the-cloud"></a>Функции безопасности пользователей в облаке
 
@@ -41,8 +41,6 @@ ms.locfileid: "83755393"
 - Операции безопасности, для оценки рисков
 - Физическая безопасность, для предварительной оценки риска
 
-<!-- cSpell:ignore apsec -->
-
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Ознакомьтесь с функциями [безопасности приложений и девсекопс](./cloud-security-apsec-devsecops.md).
+Ознакомьтесь с функциями [безопасности приложений и девсекопс](./cloud-security-application-security-devsecops.md).

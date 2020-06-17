@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ROBOTS: NOINDEX
-ms.openlocfilehash: e101c48e4d772e7669b3b4ea021f3065ea7297eb
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 35c2870d09ca01a7354c3c5fc98b67fa04a985ef
+ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787407"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84813324"
 ---
 <!-- docsTest:disable -->
 <!-- cSpell:ignore rodend subscope ITSM Hashi -->
@@ -21,7 +21,7 @@ ms.locfileid: "84787407"
 # <a name="azure-enterprise-scaffold-prescriptive-subscription-governance"></a>Корпоративный каркас Azure: рекомендуемая система управления подписками
 
 > [!NOTE]
-> Формирование шаблонов Azure Enterprise интегрировано в платформу внедрения Microsoft Cloud. Содержимое этой статьи теперь представлено в разделе [готовности](../ready/index.md) новой платформы. Эта статья будет признана устаревшей в начале 2020. Чтобы приступить к использованию нового процесса, ознакомьтесь с [обзором готовности](../ready/index.md), [созданием первой целевой зоны](../ready/landing-zone/migrate-landing-zone.md)и [сведениями о целевой зоне](../ready/considerations/index.md).
+> Формирование шаблонов Azure Enterprise интегрировано в платформу внедрения Microsoft Cloud. Содержимое этой статьи теперь представлено в разделе [готовности](../ready/index.md) новой платформы. Эта статья будет признана устаревшей в начале 2020. Чтобы приступить к использованию нового процесса, см. раздел [Общие сведения](../ready/index.md), [целевые зоны Azure](../ready/landing-zone/index.md)и сведения о [целевой зоне](../ready/considerations/index.md).
 
 Предприятия все чаще внедряют общедоступное облако ввиду его гибкости и динамичности. Они полагаются на сильные стороны облака для создания дохода и оптимизации использования ресурсов для бизнеса. Microsoft Azure предоставляет множество служб и возможностей, из которых как из строительных блоков предприятия конструируют решения для широкого спектра рабочих нагрузок и приложений.
 

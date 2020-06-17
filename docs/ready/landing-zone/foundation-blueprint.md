@@ -7,14 +7,14 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: fe8f5d584da2c90e76226fb0d1d6a54d278f2159
-ms.sourcegitcommit: 568037e0d2996e4644c11eb61f96362a402759ec
+ms.openlocfilehash: b39c4fd19fecef4bb3f764d716efeb3832a0fa4e
+ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 06/16/2020
-ms.locfileid: "84799591"
+ms.locfileid: "84813397"
 ---
-<!-- docsTest:ignore "CAF Foundation blueprint -->
+<!-- docsTest:ignore "CAF Foundation blueprint" -->
 
 # <a name="deploy-a-caf-foundation-blueprint"></a>Развертывание схемы КАФ Foundation
 
@@ -22,7 +22,7 @@ ms.locfileid: "84799591"
 
 ## <a name="deploy-the-blueprint"></a>Развертывание схемы
 
-Прежде чем использовать чертеж КАФ Foundation в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения в облако, то [проект КАФ Foundation](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone) можно развернуть с помощью [шагов развертывания][deploy-sample].
+Прежде чем использовать чертеж КАФ Foundation в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения в облако, то [проект КАФ Foundation](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation) можно развернуть с помощью [шагов развертывания][deploy-sample].
 
 > [!div class="nextstepaction"]
 > [Развертывание образца схемы][deploy-sample]
@@ -43,7 +43,7 @@ ms.locfileid: "84799591"
 
 В этом варианте реализации предполагается, что Целевая подписка уже связана с экземпляром Azure Active Directory в соответствии с [рекомендациями по управлению удостоверениями](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 
-### <a name="network-topology-and-connectivity"></a>Топология сети и подключение
+### <a name="network-topology-and-connectivity"></a>Топология сети и возможности подключения
 
 В этом варианте реализации предполагается, что в целевой зоне уже есть определенная топология сети в соответствии с [рекомендациями по безопасности сети](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 

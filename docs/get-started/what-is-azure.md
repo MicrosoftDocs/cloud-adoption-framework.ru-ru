@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: governance
-ms.openlocfilehash: 1992dedc1f20ad19bbc13a81f6277c5ad2bcd27f
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 7008ba1cb2efbf154324598dc73f32fdbefff5bf
+ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84786472"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84812916"
 ---
 <!-- cSpell:ignore PDU -->
 
@@ -24,6 +24,8 @@ Azure — это общедоступная облачная платформа 
 <!-- markdownlint-disable MD034 -->
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2ixGo]
+
+<!-- markdownlint-enable MD034 -->
 
 Azure, как и другие облачные платформы, основана на технологии, которая называется _виртуализацией_. Большую часть компьютерного оборудования можно эмулировать в программном обеспечении, так как это набор инструкций, которые навсегда или на какое-то время закодированы в кремниевые ИС. Используя слой эмуляции, в котором инструкции программного обеспечения сопоставляются с инструкциями оборудования, виртуализированное оборудование может работать в программном обеспечении так, как если бы оно было физическим.
 
