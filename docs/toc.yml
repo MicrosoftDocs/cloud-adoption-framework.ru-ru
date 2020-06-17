@@ -169,28 +169,54 @@ items:
             href: ready/azure-setup-guide/monitoring-reporting.md
           - name: Последние новости об Azure
             href: ready/azure-setup-guide/staying-current.md
-      - name: Первая зона размещения
+      - name: Целевые зоны Azure
         items:
           - name: Что такое целевая зона?
             href: ready/landing-zone/index.md
-          - name: Рефакторинг целевых зон
-            href: ready/landing-zone/refactor.md
-          - name: Выбор первой целевой зоны
-            href: ready/landing-zone/first-landing-zone.md
-          - name: Схема переноса целевой зоны
-            href: ready/landing-zone/migrate-landing-zone.md
-          - name: Целевые зоны Terraform
-            href: ready/landing-zone/terraform-landing-zone.md
-      - name: Расширение целевой зоны
-        items:
-          - name: Обзор
-            href: ready/considerations/index.md
-          - name: Разработка на основе тестирования (TDD) для целевых зон
-            href: ready/considerations/test-driven-development.md
-          - name: TDD для целевой зоны в Azure
-            href: ready/considerations/azure-test-driven-development.md
+          - name: Области проектирования
+            href: ready/landing-zone/design-areas.md
+          - name: Варианты реализации
+            href: ready/landing-zone/implementation-options.md
+          - name: Начало работы в масштабе организации
+            items:
+              - name: Обзор
+                href: ready/enterprise-scale/index.md
+              - name: Реализация целевых зон корпоративного уровня
+                href: ready/enterprise-scale/implementation.md
+              - name: Architecture
+                href: ready/enterprise-scale/architecture.md
+              - name: Принципы проектирования
+                href: ready/enterprise-scale/design-principles.md
+              - name: Рекомендации по проектированию
+                href: ready/enterprise-scale/design-guidelines.md
+              - name: Критические области проектирования
+                items:
+                  - name: Соглашение о регистрации предприятия и арендаторы Azure AD
+                    href: ready/enterprise-scale/enterprise-enrollment-and-azure-ad-tenants.md
+                  - name: Управление удостоверениями и доступом
+                    href: ready/enterprise-scale/identity-and-access-management.md
+                  - name: Организация групп управления и подписок
+                    href: ready/enterprise-scale/management-group-and-subscription-organization.md
+                  - name: Топология сети и возможности подключения
+                    href: ready/enterprise-scale/network-topology-and-connectivity.md
+                  - name: Управление и мониторинг
+                    href: ready/enterprise-scale/management-and-monitoring.md
+                  - name: Непрерывность бизнес-процессов и аварийное восстановление
+                    href: ready/enterprise-scale/business-continuity-and-disaster-recovery.md
+                  - name: 'Безопасность, система управления и соответствие требованиям'
+                    href: ready/enterprise-scale/security-governance-and-compliance.md
+                  - name: Автоматизация платформы и DevOps
+                    href: ready/enterprise-scale/platform-automation-and-devops.md
+              - name: Рекомендации по реализации
+                href: ready/enterprise-scale/implementation-guidelines.md
           - name: Как начать с малого и увеличить масштаб
             items:
+              - name: Схема миграции CAF
+                href: ready/landing-zone/migrate-landing-zone.md
+              - name: Схема CAF Foundation
+                href: ready/landing-zone/foundation-blueprint.md
+              - name: Целевые зоны Terraform
+                href: ready/landing-zone/terraform-landing-zone.md
               - name: Основные рекомендации по использованию целевых зон
                 items:
                   - name: Обзор
@@ -227,10 +253,14 @@ items:
                     href: 'https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                   - name: Рекомендации по защите операций в Azure
                     href: 'https://docs.microsoft.com/azure/security/fundamentals/operational-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-          - name: Начало работы в масштабе организации
+          - name: Теория "инфраструктуры как кода"
             items:
-              - name: Обзор
-                href: ready/considerations/enterprise-scale.md
+              - name: Рефакторинг целевых зон
+                href: ready/landing-zone/refactor.md
+              - name: Разработка на основе тестирования (TDD) для целевых зон
+                href: ready/considerations/test-driven-development.md
+              - name: TDD для целевой зоны в Azure
+                href: ready/considerations/azure-test-driven-development.md
       - name: Рекомендации
         items:
           - name: Обзор
@@ -245,6 +275,8 @@ items:
                 href: ready/azure-best-practices/organize-subscriptions.md
               - name: Именование и присвоение тегов
                 href: ready/azure-best-practices/naming-and-tagging.md
+              - name: Перемещение ресурсов
+                href: 'https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
           - name: Сеть
             items:
               - name: Безопасность границ сети
