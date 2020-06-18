@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: fd859de8d7388a0cbd7c55255e005d98e6e87418
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: 47343781c43b3074e722eacff293c120f11aec47
+ms.sourcegitcommit: e5c4db8f660fa4c58d1441f0feb4cce415491dfd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83861588"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "84943038"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless SQLMI iisreset -->
 
@@ -90,8 +90,8 @@ ms.locfileid: "83861588"
 
 | **Оценка** | **Сведения** |
 | --- | --- |
-| **Плюсы** | Интерфейс WEBVM будет перемещен в Azure без изменений, упрощая миграцию. <br><br> Управляемый экземпляр SQL соответствует техническим требованиям и целям компании Contoso. <br><br> Управляемый экземпляр обеспечит 100-процентную совместимость с текущим развертыванием, позволяя компании прекратить использование SQL Server 2008 R2. <br><br> Компания может задействовать свои инвестиции в программу Software Assurance, воспользовавшись Преимуществом гибридного использования Azure для SQL Server и Windows Server. <br><br> Службу Azure Database Migration Service можно будет повторно использовать для миграции в будущем. <br><br> В Управляемый экземпляр Базы данных SQL встроены средства обеспечения отказоустойчивости, которые специалистам Contoso не требуется настраивать. Это гарантия того, что уровень данных больше не является единой точкой отказа. |
-| **Минусы** | WEBVM работает под управлением Windows Server 2008 R2. Эта операционная система поддерживается в Azure, но больше не является поддерживаемой платформой. [Подробнее.](https://support.microsoft.com/help/956893) <br><br> Веб-уровень остается единой точкой отработки отказа, а службы по-прежнему предоставляет только WEBVM. <br><br> Компании Contoso потребуется и дальше поддерживать веб-уровень приложения как виртуальную машину, а не переходить на управляемую службу, такую как Служба приложений Azure. <br><br> На уровне данных Управляемый экземпляр может быть не лучшим решением, если компании Contoso требуется настраивать операционную систему или сервер базы данных либо запускать сторонние приложения наряду с SQL Server. Использование SQL Server на виртуальной машине IaaS может обеспечить такую гибкость. |
+| **Преимущества** | Интерфейс WEBVM будет перемещен в Azure без изменений, упрощая миграцию. <br><br> Управляемый экземпляр SQL соответствует техническим требованиям и целям компании Contoso. <br><br> Управляемый экземпляр обеспечит 100-процентную совместимость с текущим развертыванием, позволяя компании прекратить использование SQL Server 2008 R2. <br><br> Компания может задействовать свои инвестиции в программу Software Assurance, воспользовавшись Преимуществом гибридного использования Azure для SQL Server и Windows Server. <br><br> Службу Azure Database Migration Service можно будет повторно использовать для миграции в будущем. <br><br> В Управляемый экземпляр Базы данных SQL встроены средства обеспечения отказоустойчивости, которые специалистам Contoso не требуется настраивать. Это гарантия того, что уровень данных больше не является единой точкой отказа. |
+| **Недостатки** | WEBVM работает под управлением Windows Server 2008 R2. Эта операционная система поддерживается в Azure, но больше не является поддерживаемой платформой. [Подробнее](https://support.microsoft.com/help/956893). <br><br> Веб-уровень остается единой точкой отработки отказа, а службы по-прежнему предоставляет только WEBVM. <br><br> Компании Contoso потребуется и дальше поддерживать веб-уровень приложения как виртуальную машину, а не переходить на управляемую службу, такую как Служба приложений Azure. <br><br> На уровне данных Управляемый экземпляр может быть не лучшим решением, если компании Contoso требуется настраивать операционную систему или сервер базы данных либо запускать сторонние приложения наряду с SQL Server. Использование SQL Server на виртуальной машине IaaS может обеспечить такую гибкость. |
 
 <!-- markdownlint-enable MD033 -->
 
@@ -109,9 +109,9 @@ ms.locfileid: "83861588"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает прозрачную миграцию из нескольких источников баз данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) и | [Database Migration Service цены](https://azure.microsoft.com/pricing/details/database-migration). |
+| [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает прозрачную миграцию из нескольких источников баз данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
 | [Управляемый экземпляр Базы данных SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance) | Управляемый экземпляр — это служба управляемой базы данных, которая представляет полностью управляемый экземпляр SQL Server в облаке Azure. Он использует тот же код, что и последняя версия ядра СУБД SQL Server, и имеет новейшие функции, улучшения производительности и исправления системы безопасности. | За использование Управляемых экземпляров Базы данных SQL, выполняемых в Azure, взимается плата на основе емкости. Дополнительные сведения см. в статье [Цены на Базу данных SQL Azure ](https://azure.microsoft.com/pricing/details/sql-database/managed). |
-| [Служба "Миграция Azure"](https://docs.microsoft.com/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для | Оцените виртуальные машины VMware. Служба "миграция Azure" оценивает Пригодность для миграции | компьютеров. Он предоставляет оценки размеров и стоимости для выполнения в | Azure. | Начиная с мая 2018 года "Миграция Azure" — это бесплатная служба. |
+| [Служба "Миграция Azure"](https://docs.microsoft.com/azure/migrate/migrate-services-overview) | Компания Contoso использует службу "Миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | Начиная с мая 2018 года "Миграция Azure" — это бесплатная служба. |
 
 ## <a name="prerequisites"></a>Предварительные условия
 
@@ -546,8 +546,8 @@ ms.locfileid: "83861588"
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление (BCDR), Contoso выполняет следующие действия:
 
-- Безопасное хранение данных. Специалисты Contoso выполняют резервное копирование данных, содержащихся в виртуальных машинах, с помощью службы Azure Backup. [Подробнее.](https://docs.microsoft.com/azure/backup/backup-overview)
-- Поддержание работы приложений. Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Подробнее.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
+- Безопасное хранение данных. Специалисты Contoso выполняют резервное копирование данных, содержащихся в виртуальных машинах, с помощью службы Azure Backup. [Подробнее](https://docs.microsoft.com/azure/backup/backup-overview).
+- Поддержание работы приложений. Специалисты компании Contoso реплицируют виртуальные машины приложения в дополнительный регион Azure с помощью Site Recovery. [Подробнее](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
 - Специалисты Contoso узнают больше о том, как контролировать Управляемый экземпляр SQL, в том числе [резервное копирование баз данных](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат

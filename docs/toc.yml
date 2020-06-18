@@ -211,12 +211,14 @@ items:
                 href: ready/enterprise-scale/implementation-guidelines.md
           - name: Как начать с малого и увеличить масштаб
             items:
-              - name: Схема миграции CAF
+              - name: Схема зоны размещения для миграции в соответствии с CAF
                 href: ready/landing-zone/migrate-landing-zone.md
               - name: Схема CAF Foundation
                 href: ready/landing-zone/foundation-blueprint.md
               - name: Целевые зоны Terraform
                 href: ready/landing-zone/terraform-landing-zone.md
+              - name: Расширение целевой зоны
+                href: ready/considerations/index.md
               - name: Основные рекомендации по использованию целевых зон
                 items:
                   - name: Обзор
@@ -1330,7 +1332,7 @@ items:
               - name: Безопасность людей
                 href: organize/cloud-security-people.md
               - name: Безопасность приложений и DevSecOps
-                href: organize/cloud-security-apsec-devsecops.md
+                href: organize/cloud-security-application-security-devsecops.md
               - name: Безопасность данных
                 href: organize/cloud-security-data-security.md
               - name: Безопасность инфраструктуры и конечных точек

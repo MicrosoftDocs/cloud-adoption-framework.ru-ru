@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 2fdad87bbdde14aa94d5eeb5a4926726816b6172
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: e5e9f2f6aec9285408c10927aa9e7aedc8ad178a
+ms.sourcegitcommit: e5c4db8f660fa4c58d1441f0feb4cce415491dfd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84792575"
+ms.lasthandoff: 06/17/2020
+ms.locfileid: "84942987"
 ---
 # <a name="design-principles"></a>Принципы проектирования
 
