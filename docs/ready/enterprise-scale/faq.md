@@ -1,18 +1,18 @@
 ---
 title: ВОПРОСЫ И ОТВЕТЫ
-description: ВОПРОСЫ И ОТВЕТЫ
+description: Вопросы и ответы.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 7225502e8b02f2bd54dd61fe67aa2c9465621ed7
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: befa3a167d38dc49120255b7ba7f5a992be8d888
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84792484"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85076913"
 ---
 # <a name="faq"></a>ВОПРОСЫ И ОТВЕТЫ
 

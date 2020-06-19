@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 02317405adc974e9836bb3e64b881da3296e3d8e
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: 08090044ab0d97f8bdcf5258b0df0cbcb4c54bcd
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83862438"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85075777"
 ---
 # <a name="get-started-build-a-cloud-operations-team"></a>Начало работы: создание группы облачных операций
 
@@ -63,7 +63,7 @@ ms.locfileid: "83862438"
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
 | --- | --- |
-| <li>  Группа по эксплуатации облака | <li> Группа по облачной стратегии <li> Группа по внедрению облака <li> Группа по системе управления облаком <li> Облачный центр для ИТ и централизованного ИТ |
+| <li>  Группа по эксплуатации облака | <li> Группа по облачной стратегии <li> Группа по внедрению облака <li> Группа по системе управления облаком <li> Облачный центр для ИТ и специалистов по ИТ |
 
 ## <a name="step-3-establish-a-cadence-with-other-teams"></a>Шаг 3. Создание ритмичности с помощью других команд
 
@@ -197,7 +197,7 @@ ms.locfileid: "83862438"
 
 Как внедрение и масштабирование операций, важно определить и автоматизировать рекомендации по управлению, расширяющие существующие ИТ-требования. Формирование группы в облаке (Ккое) является важным шагом к масштабированию внедрения облака, облачных операций и действий по управлению облаком.
 
-Дополнительные сведения
+См. также:
 
 - [Функции Cloud Center of Excellence](../../organize/cloud-center-of-excellence.md)
 - [Антишаблоны Организации: приемники и фиефдомс](../../organize/fiefdoms-silos.md)

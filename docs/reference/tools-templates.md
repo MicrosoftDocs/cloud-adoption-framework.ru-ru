@@ -7,12 +7,12 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: 3968e453eb89a0f00d7fd23eeec90fb6a947cd05
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: c098fbf86771b9520d7530354ab993f956683050
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83756062"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85077173"
 ---
 <!-- cSpell:ignore Terraform's -->
 
@@ -43,8 +43,8 @@ ms.locfileid: "83756062"
 | [Шаблон отслеживания именования и маркировки](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/CAF%20Readiness%20Naming%20and%20Tagging%20tracking%20template.xlsx) | Документирование решений о стандартах именования и маркировки для обеспечения согласованности и сокращения времени адаптации. |
 | [&nbsp;Проект КАФ Foundation &nbsp;](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone-governance) | Используйте упрощенную реализацию первоначальной системы управления, чтобы обеспечить практический опыт работы с инструментами управления в Azure. |
 | [Схема КАФ миграции на главную зону](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone) | Подготавливайте и подготавливайте рабочие нагрузки узла, перенесенные из локальной среды в Azure. Дополнительные сведения об этом проекте см. [в статье развертывание целевой зоны миграции](../ready/landing-zone/migrate-landing-zone.md). |
-| [Схема Terraformной зоны](../ready/landing-zone/terraform-landing-zone.md) | База кода с открытым исходным кодом для terraform версии схем целевой зоны каф. |
-| [Реестр terraform](https://registry.terraform.io/search?q=aztfmod) | Веб-сайт реестра terraform с фильтрацией для перечисления всех модулей инфраструктуры внедрения в облаке, необходимых для создания целевой зоны terraform. |
+| [Модули terraform](../ready/landing-zone/terraform-landing-zone.md) | База кода с открытым исходным кодом для terraform версии зон КАФ. |
+| [Реестр terraform](https://registry.terraform.io/search?q=aztfmod) | Веб-сайт реестра terraform с фильтрацией для перечисления всех модулей инфраструктуры внедрения в облаке, необходимых для создания целевой зоны с помощью terraform. |
 
 ## <a name="govern"></a>Управление
 
@@ -63,7 +63,7 @@ ms.locfileid: "83756062"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Microsoft Azure хорошо спроектированная проверка](https://docs.microsoft.com/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
+| [Общие сведения о Microsoft Azure Well-Architected](https://docs.microsoft.com/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
 | [&nbsp; &nbsp; Исходный &nbsp; код рекомендаций](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/manage/Automation-Best-Practices) | Этот развертываемый исходный код дополняет и ускоряет внедрение рекомендаций для служб управления сервером Azure. Используйте этот исходный код, чтобы быстро включить управление операциями и установить базовый план операций. |
 | [Книга Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) | Документирование решений об управлении операциями в облаке и обеспечение взаимодействия с бизнесом для обеспечения соответствия требованиям соглашения об уровне обслуживания, инвестиций в устойчивость и распределении бюджета, связанных с операциями. |
 

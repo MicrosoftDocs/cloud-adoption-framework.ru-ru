@@ -1,6 +1,6 @@
 ---
 title: Общие сведения о функциях Cloud Center (Ккое)
-description: Узнайте о функциях облачного центра (Ккое), включая источник, область и конечный результат.
+description: Узнайте о функциях облачного центра (Ккое), включая источник, область и конечные результаты.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/15/2020
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 749a6d4693b07102c0904eca72b87a53998d6b59
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 7db178d6a17786e89d1cf273300147f54aeb1ef4
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755768"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85077213"
 ---
 <!-- cSpell:ignore ccoe deprioritize -->
 
@@ -135,7 +135,7 @@ ms.locfileid: "83755768"
 
 Для модели Ккое требуются функции облачной платформы и облачные функции автоматизации. Следующий шаг — выровняйте функции облачной платформы.
 
-Дополнительные сведения
+См. также:
 
 - [Функции облачной платформы](./cloud-platform.md)
 - [Функции облачной автоматизации](./cloud-automation.md)

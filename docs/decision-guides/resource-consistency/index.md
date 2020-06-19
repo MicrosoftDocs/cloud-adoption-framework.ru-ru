@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 0d38c59c75c2119043f04cdeb9c10402bfce53c2
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 1947ed8ccadae4f2f2d289bc3c58e9206fbe533d
+ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83753530"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84993690"
 ---
 # <a name="resource-consistency-decision-guide"></a>Руководство по принятию решений касательно согласованности ресурсов
 
@@ -37,7 +37,7 @@ ms.locfileid: "83753530"
 1. Все ли содержимое группы ресурсов управляется, обновляется и отслеживается в комплексе? Выполняются ли такие операции одними и теми же специалистами в команде?
 1. Прекращается ли использование ресурсов в группе в комплексе?
 
-Если вы ответили _Нет_ на любой из приведенных выше вопросов, ресурс, насчет которого вы сомневаетесь, следует поместить в другую группу ресурсов.
+Если вы ответили **Нет** на любой из приведенных выше вопросов, ресурс, насчет которого вы сомневаетесь, следует поместить в другую группу ресурсов.
 
 > [!IMPORTANT]
 > Группы ресурсов также привязаны к региону. При этом очень часто ресурсы находится в разных регионах, но в одной группе ресурсов, так как они управляются вместе, как описано выше. См. сведения о [выборе регионов](../../migrate/azure-best-practices/multiple-regions.md).

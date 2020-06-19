@@ -1,18 +1,18 @@
 ---
 title: Реализация корпоративных зон корпоративного уровня в Azure
-description: Обзор параметров для реализации архитектуры корпоративного масштаба
+description: Проверьте параметры для реализации архитектуры корпоративного масштаба.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 83c95275b124e6a2fe5787ae3f33d6566c0303e9
-ms.sourcegitcommit: 568037e0d2996e4644c11eb61f96362a402759ec
+ms.openlocfilehash: b804810e23213dc6ebedbe94aa9ea7c1af91cc8e
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84800067"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85076874"
 ---
 # <a name="implement-enterprise-scale-landing-zones-in-azure"></a>Реализация корпоративных зон корпоративного уровня в Azure
 
@@ -22,7 +22,7 @@ ms.locfileid: "84800067"
 
 В таблице ниже приведены примеры модульных реализаций.
 
-| Пример развертывания  | Описание  | Репозиторий GitHub | Развернуть в Azure |
+| Пример развертывания  | Описание  | Репозиторий GitHub | Развертывание в Azure |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 | Корпоративный масштаб | Это рекомендуемая основа для внедрения корпоративного масштаба. | [Пример в GitHub](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/wingtip/README.md) | [Развертывание примера в Azure](https://ms.portal.azure.com/?feature.customportal=false#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzOps%2Fmain%2Ftemplate%2Fux-foundation.json) |
 | Виртуальная глобальная сеть корпоративного уровня | Добавьте модуль виртуальной глобальной сети в фундамент предприятия. | [Пример в GitHub](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) | [Развертывание примера в Azure](https://ms.portal.azure.com/?feature.customportal=false#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FAzOps%2Fmain%2Ftemplate%2Fux-vwan.json) |

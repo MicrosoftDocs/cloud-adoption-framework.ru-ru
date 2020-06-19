@@ -7,18 +7,18 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: b39c4fd19fecef4bb3f764d716efeb3832a0fa4e
-ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
+ms.openlocfilehash: 672feabf0bb15d47ffdedbe85279bb7ff9228172
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84813397"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85075908"
 ---
 <!-- docsTest:ignore "CAF Foundation blueprint" -->
 
 # <a name="deploy-a-caf-foundation-blueprint"></a>Развертывание схемы КАФ Foundation
 
-В проекте КАФ Foundation не выполняется развертывание целевой зоны. Вместо этого он развертывает средства, необходимые для определения MVP по управлению (минимально приемлемый продукт), для начала разработки дисциплин управления. Эта схема предназначена для добавления в существующую целевую зону и может быть применена к целевой зоне КАФ миграции с одним действием.
+В проекте КАФ Foundation не выполняется развертывание целевой зоны. Вместо этого он развертывает средства, необходимые для определения MVP по управлению (минимально приемлемый продукт), для начала разработки дисциплин управления. Эта схема предназначена для добавления в существующую целевую зону и может быть применена к схеме КАФ миграции целевой зоны с одним действием.
 
 ## <a name="deploy-the-blueprint"></a>Развертывание схемы
 

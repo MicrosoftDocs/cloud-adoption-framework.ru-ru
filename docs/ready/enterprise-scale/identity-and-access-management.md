@@ -1,18 +1,18 @@
 ---
 title: Управление удостоверениями и доступом
-description: Управление удостоверениями и доступом
+description: Управление удостоверениями и доступом.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 7bac08f2e7d7482be5d8425fe634e54e28043fc0
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: c3b364a42e69a1064122091780bbf66fe3424f6c
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84792497"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85077167"
 ---
 # <a name="identity-and-access-management"></a>Управление удостоверениями и доступом
 

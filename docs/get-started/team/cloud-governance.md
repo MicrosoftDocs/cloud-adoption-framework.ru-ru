@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: f27ca49738a987780729b9354e9a4653d5ecafcd
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 1129098d5a99defd309c4a252991e31be623808f
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814245"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85075861"
 ---
 # <a name="get-started-build-a-cloud-governance-team"></a>Приступая к работе. Создание группы по управлению облаком
 
@@ -62,7 +62,7 @@ ms.locfileid: "83814245"
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
 | --- | --- |
-| <li> Группа по системе управления облаком | <li> Группа по облачной стратегии <li> Группа по внедрению облака <li> Группа по эксплуатации облака <li> Облачный центр для ИТ и централизованного ИТ |
+| <li> Группа по системе управления облаком | <li> Группа по облачной стратегии <li> Группа по внедрению облака <li> Группа по эксплуатации облака <li> Облачный центр для ИТ и специалистов по ИТ |
 
 ## <a name="step-3-establish-a-cadence-with-other-teams"></a>Шаг 3. Создание ритмичности с помощью других команд
 

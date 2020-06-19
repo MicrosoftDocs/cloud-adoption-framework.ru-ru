@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: d6d1d60ce89aa6ab809bb413a0d56ecea5ceb352
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 6405317ef9172ac8f0b50b2afadd8d3850fc0ad6
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83751837"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85075781"
 ---
 # <a name="get-started-build-a-cloud-migration-team"></a>Приступая к работе. Создание группы по миграции в облако
 
@@ -75,7 +75,7 @@ ms.locfileid: "83751837"
 
 Может потребоваться дополнительная поддержка от существующих ИТ-специалистов. Это может быть ценным участником внедрения в облако, который становится облачным брокером и партнером для инноваций и гибкости бизнеса.
 
-- [Центральные ИТ – обязанности](../../organize/central-it.md)
+- [Централизованные обязанности ИТ для ИТ](../../organize/central-it.md)
 
 ## <a name="whats-next"></a>Что дальше?
 

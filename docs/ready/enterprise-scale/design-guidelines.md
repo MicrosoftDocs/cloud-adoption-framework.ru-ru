@@ -1,18 +1,18 @@
 ---
 title: Рекомендации по проектированию
-description: Рекомендации по проектированию
+description: Рекомендации по проектированию.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: a1f3a23a57071dee637ecd0b7721ce8db4f86194
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: c1f23841cbde493b2c8279a1870ebbe7b061c721
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84792653"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85076942"
 ---
 # <a name="design-guidelines"></a>Рекомендации по проектированию
 
@@ -30,9 +30,9 @@ ms.locfileid: "84792653"
 
 1. [Клиенты регистрации и Azure Active Directory предприятия](./enterprise-enrollment-and-azure-ad-tenants.md)
 2. [Управление удостоверениями и доступом](./identity-and-access-management.md)
-3. [Группа управления и организация подписки](./management-group-and-subscription-organization.md)
-4. [Топология сети и подключение](./network-topology-and-connectivity.md)
+3. [Организация групп управления и подписок](./management-group-and-subscription-organization.md)
+4. [Топология сети и возможности подключения](./network-topology-and-connectivity.md)
 5. [Управление и мониторинг](./management-and-monitoring.md)
 6. [Непрерывность бизнес-процессов и аварийное восстановление](./business-continuity-and-disaster-recovery.md)
-7. [Безопасность, управление и соответствие требованиям](./security-governance-and-compliance.md)
+7. [Безопасность, система управления и соответствие требованиям](./security-governance-and-compliance.md)
 8. [Автоматизация платформы и DevOps](./platform-automation-and-devops.md)

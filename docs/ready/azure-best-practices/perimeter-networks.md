@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: 1a2ba721783451128f4d2f117305309b40a8b862
-ms.sourcegitcommit: 568037e0d2996e4644c11eb61f96362a402759ec
+ms.openlocfilehash: 222008cde15fdd0aef0a46ac3937fadade7e6cc9
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84799761"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85076723"
 ---
 <!-- cSpell:ignore tracsman jonor rossort NVAs WAFs -->
 
@@ -40,7 +40,7 @@ ms.locfileid: "84799761"
 > - [Реализация ДЕМИЛИТАРИЗОВАНной зоны между Azure и локальным центром обработки данных](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz)
 > - [Реализация сети периметра между Azure и Интернетом](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 
-Как правило, центральные ИТ и группы по безопасности отвечают за определение требований к работе с сетями периметра.
+Как правило, Центральная группа ИТ и группы безопасности несут ответственность за определение требований к работе с сетями периметра.
 
 ![Пример топологии сети концентратора и звезды](../../_images/azure-best-practices/network-high-level-perimeter-networks.png)
 

@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: a5b3caa04e3f87c30236425aff770e82e0a37b4c
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: eedd956934022db81fbc8380db27a3831ab1b197
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755588"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85077193"
 ---
 # <a name="cloud-migration-functions"></a>Облачные функции миграции
 
@@ -75,7 +75,7 @@ ms.locfileid: "83755588"
 
 Может потребоваться дополнительная поддержка от существующих ИТ-специалистов. Это может быть ценным участником внедрения в облако, который становится облачным брокером и партнером для инноваций и гибкости бизнеса.
 
-- [Центральные ИТ – обязанности](../organize/central-it.md)
+- [Централизованные обязанности ИТ для ИТ](../organize/central-it.md)
 
 ## <a name="whats-next"></a>Что дальше?
 

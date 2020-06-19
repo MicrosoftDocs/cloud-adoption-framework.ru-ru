@@ -1,18 +1,18 @@
 ---
 title: 'Начало работы: создание группы облачной платформы'
-description: Это поможет команде облачной платформы понять область, конечные результаты и возможности, за которые они отвечают.
+description: Это поможет команде облачной платформы понять область, конечные результаты и предоставляемые ими возможности.
 author: JanetCThomas
 ms.author: janet
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: c7753434a9ce901693938651f303add90bb6002b
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 28abe413c521bdb4915548fbdbafc8a0be4fc532
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83751955"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85075656"
 ---
 # <a name="get-started-build-a-cloud-platform-team"></a>Начало работы: создание группы облачной платформы
 
