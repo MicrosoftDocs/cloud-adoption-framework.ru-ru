@@ -1,20 +1,20 @@
 ---
-title: Группа управления и организация подписки
-description: Группа управления и организация подписки
+title: Организация групп управления и подписок
+description: Группа управления и организация подписки.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: e6188f4687595c96788478b12853a0b01dffd2ce
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 8e120a450bdc2d129e092c1e2de4a118a9437a29
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84792458"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85075050"
 ---
-# <a name="management-group-and-subscription-organization"></a>Группа управления и организация подписки
+# <a name="management-group-and-subscription-organization"></a>Организация групп управления и подписок
 
 ![Иерархия группы управления](./media/sub-org.png)
 
@@ -66,8 +66,7 @@ _Рис. 1. иерархия групп управления._
 - Подписки обеспечивают границу управления и изоляцию, создавая четкое разделение проблем.
 
 - Существует ручной процесс (запланированная будущая Автоматизация), который можно использовать для ограничения использования клиентом Azure AD подписок на корпоративную регистрацию. Это предотвращает создание подписок MSDN в области корневой группы управления.
-  
-**Рекомендации по проектированию:**
+  **Рекомендации по проектированию:**
 
 - Подписку следует рассматривать как демократичными единицу управления в соответствии с потребностями бизнеса и приоритетами.
 

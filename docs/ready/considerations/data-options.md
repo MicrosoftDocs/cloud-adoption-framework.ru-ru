@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 74fc5b90484bbbc8f72568eb83bbca7c8eb25afb
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 36f473f768d499619f2749491bbc7753696cba79
+ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755802"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84994105"
 ---
 <!-- cSpell:ignore HDFS -->
 
@@ -63,7 +63,7 @@ ms.locfileid: "83755802"
 
 ## <a name="regional-availability"></a>Доступность по регионам
 
-Azure позволяет предоставлять службы в нужном масштабе, чтобы обеспечить доступ к своим клиентам и партнерам, _где бы они ни_находились. Ключевым фактором при планировании развертывания облака является определение того, в каком регионе Azure будут размещаться ресурсы рабочей нагрузки.
+Azure позволяет предоставлять службы в нужном масштабе, чтобы обеспечить доступ к своим клиентам и партнерам, **где бы они ни**находились. Ключевым фактором при планировании развертывания облака является определение того, в каком регионе Azure будут размещаться ресурсы рабочей нагрузки.
 
 Большинство служб баз данных обычно доступны в большинстве регионов Azure. Но существует несколько регионов, в основном нацеленных на правительственных клиентов, которые поддерживают только подмножество этих продуктов. Прежде чем выбирать регионы, в которые будут развернуты ресурсы базы данных, рекомендуется обратиться к [странице регионов](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=data-factory,sql-server-stretch-database,redis-cache,database-migration,sql-data-warehouse,postgresql,mariadb,cosmos-db,mysql,sql-database) , чтобы проверить актуальное состояние доступности в регионах.
 

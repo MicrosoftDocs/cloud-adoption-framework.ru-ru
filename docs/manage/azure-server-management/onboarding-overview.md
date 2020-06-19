@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 0396ccaf952bc9d7812304af5d1d9c9952b751cc
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: de26df188d2e6e240b07abde8c284bf57cb232db
+ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219637"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84992859"
 ---
 # <a name="phase-2-onboarding-azure-server-management-services"></a>Этап 2. Подключение служб управления сервером Azure
 
@@ -38,7 +38,7 @@ ms.locfileid: "83219637"
 
 ![Схема рекомендуемой модели развертывания](./media/recommended-deployment.png)
 
-Как показано на предыдущей схеме, агент Log Analytics имеет как _автоматическую регистрацию_ , так и настройку _согласия_ для локальных серверов:
+Как показано на предыдущей схеме, агент Log Analytics имеет две конфигурации для локальных серверов:
 
 - **Автоматическая регистрация:** Если агент Log Analytics установлен на сервере и настроен для подключения к рабочей области, решения, включенные в этой рабочей области, автоматически применяются к серверу.
 - **Согласие:** Даже если агент установлен и подключен к рабочей области, решение не применяется, если оно не Добавлено в конфигурацию области сервера в рабочей области.

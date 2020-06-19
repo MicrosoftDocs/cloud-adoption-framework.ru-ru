@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 5a7bfbffa84e7a64221d560b88067caebd311e85
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: 1c1a2bbdb6665246563f9514b55784f48114dee9
+ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83400767"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84992841"
 ---
 # <a name="create-business-alignment-in-cloud-management"></a>Создание делового выравнивания в управлении облаком
 
@@ -26,7 +26,7 @@ ms.locfileid: "83400767"
 
 - ** [Важность](./criticality.md):** Сопоставление рабочих нагрузок с бизнес-процессами. Важность ранжирования для фокусировки инвестиций.
 - ** [Влияние](./impact.md):** Понимание влияния потенциального простоя, которое поможет в оценке рентабельности инвестиций в управление облаком.
-- **[Обязательства](./commitment.md):** разработка настоящего партнерства путем создания и документирования соглашений _с бизнесом_.
+- ** [Обязательства](./commitment.md):** Разработка настоящего партнерства путем создания и документирования соглашений с бизнесом.
 
 > [!NOTE]
 > Эти термины являются классическими ИТ – терминами, такими как SLA, RTO и RPO. Сопоставление конкретных бизнеса и ИТ-терминов подробно рассматривается в статье [обязательства](./commitment.md) .

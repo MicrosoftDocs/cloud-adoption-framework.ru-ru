@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: c32f2dafe1e7cd8f718c35abd7bf1bacd4b392c5
-ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
+ms.openlocfilehash: 9cca384f3c4e38e6a8a023210aca18c2e92c60dc
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84813282"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85074674"
 ---
 # <a name="deploy-a-migration-landing-zone"></a>Развертывание зоны размещения для миграции
 
@@ -59,7 +59,7 @@ _Целевая зона миграции_ — это среда, подгото
 
 Этот вариант реализации не реализует никаких средств управления. В отсутствие определенной автоматизации политики эта Целевая зона не должна использоваться для критически важных рабочих нагрузок или конфиденциальных данных. Предполагается, что эта Целевая зона используется для ограниченного рабочего развертывания, чтобы начать обучение, итерацию и разработку всей операционной модели параллельно с этими усилиями на раннем этапе миграции.
 
-Чтобы ускорить параллельную разработку дисциплин, ознакомьтесь с [управляемой методологией](../../govern/index.md) и рассмотрите возможность развертывания схемы [КАФ Foundation](./foundation-blueprint.md) в дополнение к зоне КАФ миграции.
+Чтобы ускорить параллельную разработку дисциплин, ознакомьтесь с [управляемой методологией](../../govern/index.md) и рассмотрите возможность развертывания схемы [КАФ Foundation](./foundation-blueprint.md) в дополнение к чертежу зоны миграции каф.
 
 > [!WARNING]
 > По мере разработки дисциплин может потребоваться рефакторинг. Может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
@@ -127,4 +127,4 @@ _Целевая зона миграции_ — это среда, подгото
 
 <!-- links -->
 
-[deploy-sample]: https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy
+[Deploy-sample]: https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy

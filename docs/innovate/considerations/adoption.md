@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3dc7eeb2a8727fd1787265b408d1f930f3d76c11
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: d6534d15e1b552d0f8bcf8849e972da480dfb1a1
+ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222492"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84993997"
 ---
 # <a name="create-customer-partnerships-through-the-build-measure-learn-feedback-loop"></a>Создание партнерских отношений клиентов с помощью цикла "сборка-мера-обучение"
 
@@ -24,7 +24,7 @@ ms.locfileid: "83222492"
 
 ## <a name="the-build-measure-learn-feedback-loop"></a>Цикл обратной связи "сборка-мера-обучение"
 
-Как описано в статье [инновации в сфере цифрового энергоэкономичия](./index.md), инновации требуют баланса _Invention_ и _внедрения_. Отзывы клиентов и внедрение дисков партнерства. Если превратить своих клиентов в надежные, устойчивые партнеры во время циклов инноваций, вы можете использовать лучшие продукты и ускорить рост рынка.
+Как описано в статье [инновации в сфере цифрового энергоэкономичия](./index.md), инновации требуют баланса между Invention и внедрением. Отзывы клиентов и внедрение дисков партнерства. Если превратить своих клиентов в надежные, устойчивые партнеры во время циклов инноваций, вы можете использовать лучшие продукты и ускорить рост рынка.
 
 ![Схема цикла обратной связи "Построение-мера-обучение"](../../_images/innovate/bml-feedback-loop.png)
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: e8ec09b9653af39e950dd5cbd814417b35022963
-ms.sourcegitcommit: 6fef15cc3a8af725dc743e19f127513bc58dd257
+ms.openlocfilehash: 7682617184f7b9bcb3ffda775097163e4fac2716
+ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "84023480"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84993865"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM contosohost vcenter contosodc AOAG SQLAOG SQLAOGAVSET contosoadmin contosocloudwitness MSSQLSERVER BEPOOL contosovmsacc SHAOG NSGs inetpub iisreset -->
 
@@ -92,10 +92,10 @@ Contoso оценивает предлагаемый дизайн, составл
 
 <!-- markdownlint-disable MD033 -->
 
-**Оценка** | **Сведения**
+**Рассматриваемый вопрос** | **Сведения**
 --- | ---
-**Плюсы** | Интерфейс WEBVM будет перемещен в Azure без изменений, упрощая миграцию. <br><br> Уровень SQL Server будет работать под управлением SQL Server 2017 и Windows Server 2016. Это позволяет прекратить использование операционной системы Windows Server 2008 R2, а SQL Server 2017 соответствует техническим требованиям и целям компании Contoso. Обеспечивается 100-процентная совместимость, и в то же время прекращается использование SQL Server 2008 R2. <br><br> Contoso может воспользоваться преимуществами своих инвестиций в программу Software Assurance, используя Преимущество гибридного использования Azure. <br><br> Развертывание SQL Server с высоким уровнем доступности в Azure обеспечивает отказоустойчивость, благодаря чему уровень данных приложения больше не является единственной точкой отработки отказа.
-**Минусы** | WEBVM работает под управлением Windows Server 2008 R2. Операционная система поддерживается средой Azure для определенных ролей (июль 2018 г.). [Подробнее.](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines) <br><br> Веб-уровень приложения останется единственной точкой отработки отказа. <br><br> Компании Contoso потребуется и дальше поддерживать веб-уровень как виртуальную машину Azure, а не переходить на управляемую службу, такую как Служба приложений Azure. <br><br> С помощью выбранного решения компании Contoso потребуется и дальше управлять двумя виртуальными машинами SQL Server, а не переходить на управляемую платформу, такую как управляемый экземпляр Базы данных SQL Azure. Кроме того, в рамках программы Software Assurance компания Contoso может обменять свои имеющиеся лицензии на сниженные тарифы при использовании управляемого экземпляра Базы данных SQL Azure.
+**Преимущества** | Интерфейс WEBVM будет перемещен в Azure без изменений, упрощая миграцию. <br><br> Уровень SQL Server будет работать под управлением SQL Server 2017 и Windows Server 2016. Это позволяет прекратить использование операционной системы Windows Server 2008 R2, а SQL Server 2017 соответствует техническим требованиям и целям компании Contoso. Обеспечивается 100-процентная совместимость, и в то же время прекращается использование SQL Server 2008 R2. <br><br> Contoso может воспользоваться преимуществами своих инвестиций в программу Software Assurance, используя Преимущество гибридного использования Azure. <br><br> Развертывание SQL Server с высоким уровнем доступности в Azure обеспечивает отказоустойчивость, благодаря чему уровень данных приложения больше не является единственной точкой отработки отказа.
+**Недостатки** | WEBVM работает под управлением Windows Server 2008 R2. Операционная система поддерживается средой Azure для определенных ролей (июль 2018 г.). [Подробнее](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines). <br><br> Веб-уровень приложения останется единственной точкой отработки отказа. <br><br> Компании Contoso потребуется и дальше поддерживать веб-уровень как виртуальную машину Azure, а не переходить на управляемую службу, такую как Служба приложений Azure. <br><br> С помощью выбранного решения компании Contoso потребуется и дальше управлять двумя виртуальными машинами SQL Server, а не переходить на управляемую платформу, такую как управляемый экземпляр Базы данных SQL Azure. Кроме того, в рамках программы Software Assurance компания Contoso может обменять свои имеющиеся лицензии на сниженные тарифы при использовании управляемого экземпляра Базы данных SQL Azure.
 
 <!-- markdownlint-enable MD033 -->
 
@@ -221,7 +221,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 Перед настройкой кластера администраторы Contoso создают теневую копию диска операционной системы на каждом компьютере.
 
-![Создание моментального снимка](./media/contoso-migration-rehost-vm-sql-ag/snapshot.png)
+![Create snapshot](./media/contoso-migration-rehost-vm-sql-ag/snapshot.png)
 
 1. Затем они запускают скрипт, который они составили для создания отказоустойчивого кластера Windows.
 
@@ -258,7 +258,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 ## <a name="step-3-deploy-the-azure-load-balancer"></a>Шаг 3. Развертывание балансировщика нагрузки Azure
 
-Администраторам Contoso необходимо развернуть внутреннюю подсистему балансировки нагрузки, расположенную перед узлами кластера. Подсистема балансировки нагрузки ожидает передачу данных и направляет ее на соответствующий узел.
+Администраторам Contoso теперь требуется развернуть внутреннюю подсистему балансировки нагрузки перед узлами кластера. Подсистема балансировки нагрузки ожидает передачу данных и направляет ее на соответствующий узел.
 
 ![балансировка нагрузки;](./media/contoso-migration-rehost-vm-sql-ag/architecture-lb.png)
 
@@ -571,7 +571,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 - Чтобы можно было управлять доступом, команда проверяет группы безопасности сети (NSG) для виртуальной машины. NSG позволяют пропускать только разрешенный для приложения трафик.
 - Команда рассматривает возможность защиты данных на диске с использованием функций шифрования дисков Azure и Key Vault.
-- Команда должна оценить прозрачное шифрование данных (TDE), а затем включить его в базе данных SmartHotel360, работающей на новой виртуальной машине SQL AOG. [Подробнее.](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017)
+- Команда должна оценить прозрачное шифрование данных (TDE), а затем включить его в базе данных SmartHotel360, работающей на новой виртуальной машине SQL AOG. [Подробнее](https://docs.microsoft.com/sql/relational-databases/security/encryption/transparent-data-encryption?view=sql-server-2017).
 
 Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
 
@@ -579,9 +579,9 @@ Contoso оценивает предлагаемый дизайн, составл
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление (BCDR), Contoso выполняет следующие действия:
 
-- Для защиты данных компания Contoso создает резервные копии данных на виртуальных машинах WEBVM, SQLAOG1 и SQLAOG2 с помощью службы Azure Backup. [Подробнее.](https://docs.microsoft.com/azure/backup/backup-overview)
-- Сотрудники Contoso также научаться использовать службу хранилища Azure для резервного копирования SQL Server непосредственно в хранилище BLOB-объектов. [Подробнее.](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-use-storage-sql-server-backup-restore)
-- Чтобы приложения продолжали работать, компания Contoso реплицирует виртуальные машины приложений в Azure в дополнительный регион с помощью Site Recovery. [Подробнее.](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
+- Для защиты данных компания Contoso создает резервные копии данных на виртуальных машинах WEBVM, SQLAOG1 и SQLAOG2 с помощью службы Azure Backup. [Подробнее](https://docs.microsoft.com/azure/backup/backup-overview).
+- Сотрудники Contoso также научаться использовать службу хранилища Azure для резервного копирования SQL Server непосредственно в хранилище BLOB-объектов. [Подробнее](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-use-storage-sql-server-backup-restore).
+- Чтобы приложения продолжали работать, компания Contoso реплицирует виртуальные машины приложений в Azure в дополнительный регион с помощью Site Recovery. [Подробнее](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 

@@ -1,18 +1,18 @@
 ---
 title: Рефакторинг целевых зон
-description: Процесс рефакторинга целевой зоны
+description: Процесс рефакторинга целевых зон.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 2c0cd1d7c44b6e950720af709216e6d3aa132b77
-ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
+ms.openlocfilehash: 2252b1c575c3fa853d0da05e75c964a63cfb3285
+ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84813316"
+ms.lasthandoff: 06/19/2020
+ms.locfileid: "85075019"
 ---
 # <a name="refactor-landing-zones"></a>Рефакторинг целевых зон
 

@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 1ea8a14ccd68fbdb73576ca27c98e50e9196bba5
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: a995ac179320d8d1a2c81e3d64b3af3c048b5898
+ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787526"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84994120"
 ---
 # <a name="review-your-compute-options"></a>Проверка параметров вычислений
 
@@ -62,7 +62,7 @@ ms.locfileid: "84787526"
 
 ## <a name="regional-availability"></a>Доступность по регионам
 
-Azure позволяет предоставлять службы в нужном масштабе, чтобы получать доступ к своим клиентам и партнерам в _любом месте_. Ключевым фактором при планировании развертывания облака является определение того, какой регион Azure будет размещать ресурсы рабочей нагрузки.
+Azure позволяет предоставлять службы в нужном масштабе, чтобы получать доступ к своим клиентам и партнерам в **любом месте**. Ключевым фактором при планировании развертывания облака является определение того, какой регион Azure будет размещать ресурсы рабочей нагрузки.
 
 Некоторые функции вычислений, такие как Служба приложений Azure, обычно доступны в большинстве регионов Azure. Но некоторые службы вычислений поддерживаются только в определенных регионах. Некоторые типы виртуальных машин и связанные с ними типы хранилищ имеют ограниченную региональную доступность. Прежде чем выбирать регионы, в которые будут развернуты ресурсы, рекомендуем ознакомиться со [страницей регионов](https://azure.microsoft.com/global-infrastructure/services/?regions=all&products=azure-vmware-cloudsimple,cloud-services,batch,container-instances,app-service,service-fabric,functions,kubernetes-service,virtual-machine-scale-sets,virtual-machines) , чтобы проверить актуальность сведений о доступности в регионе.
 

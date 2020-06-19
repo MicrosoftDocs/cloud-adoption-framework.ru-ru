@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 7ba81874caf48d7220d206feede39aee2e0c77a2
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 339de4106b9e31576b4f6986ac1f766972b8f0de
+ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84785962"
+ms.lasthandoff: 06/18/2020
+ms.locfileid: "84993131"
 ---
 # <a name="resource-access-management-in-azure"></a>Управление доступом к ресурсам в Azure
 
@@ -30,7 +30,7 @@ ms.locfileid: "84785962"
 
 ## <a name="what-is-an-azure-resource-group"></a>Что такое группа ресурсов Azure?
 
-Каждый ресурс в Azure должен принадлежать [группе ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/overview#resource-groups). Группа ресурсов — это просто логическая конструкция, которая группирует несколько ресурсов вместе, чтобы ими можно было управлять как единой сущностью _на основе жизненного цикла и безопасности_. Например, ресурсы с аналогичным жизненным циклом, например ресурсы [n-уровневых приложений](https://docs.microsoft.com/azure/architecture/guide/architecture-styles/n-tier), можно создавать или удалять как группу. Другими словами, все, что порождено вместе, управляется вместе и является более устаревшим, объединяется в группе ресурсов.
+Каждый ресурс в Azure должен принадлежать [группе ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/overview#resource-groups). Группа ресурсов — это просто логическая конструкция, которая группирует несколько ресурсов вместе, чтобы ими можно было управлять как единой сущностью **на основе жизненного цикла и безопасности**. Например, ресурсы с аналогичным жизненным циклом, например ресурсы [n-уровневых приложений](https://docs.microsoft.com/azure/architecture/guide/architecture-styles/n-tier), можно создавать или удалять как группу. Другими словами, все, что порождено вместе, управляется вместе и является более устаревшим, объединяется в группе ресурсов.
 
 ![Схема группы ресурсов, содержащей ресурс ](../../_images/govern/design/governance-1-10.png)
  _рис. 2. Группа ресурсов содержит ресурс._
