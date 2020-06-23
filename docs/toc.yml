@@ -99,6 +99,8 @@ items:
             href: strategy/global-markets.md
           - name: Определение стратегии безопасности
             href: strategy/define-security-strategy.md
+          - name: Определение стратегии мониторинга
+            href: strategy/monitoring-strategy.md
       - name: 'Навыки, связанные со стратегией'
         href: strategy/suggested-skills.md
   - name: План
