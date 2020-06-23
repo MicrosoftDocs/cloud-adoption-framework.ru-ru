@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 9e0ed1d2e8c7358c0dcb5c90bb2ed33670fbc63f
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: b80acbe78ad8d4ad1cc50346db5a16ba20dbb38a
+ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83401046"
+ms.lasthandoff: 06/15/2020
+ms.locfileid: "84787883"
 ---
 # <a name="assess-workloads-and-refine-plans"></a>Оценка рабочих нагрузок и уточнение планов
 
@@ -79,7 +79,7 @@ ms.locfileid: "83401046"
 
 Чтобы использовать визуализацию зависимостей, скачайте и установите агенты на каждом локальном компьютере, который нужно проанализировать.
 
-- [Агент Microsoft Monitoring Agent (MMA)](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows) нужно установить на каждом компьютере.
+- [Microsoft Monitoring Agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows) нужно установить на каждом компьютере.
 - [Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows) нужно установить на каждом компьютере.
 - Кроме того, если у вас есть компьютеры без подключения к Интернету, скачайте и установите на них шлюз Log Analytics.
 

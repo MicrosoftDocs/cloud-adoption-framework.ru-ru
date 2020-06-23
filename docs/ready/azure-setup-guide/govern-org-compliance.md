@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: a44dcdf49d2dad17236f4f1dc009758acf4230fc
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.openlocfilehash: 9465a5889f70fa95f8570cd7ffd746b40462fa6e
+ms.sourcegitcommit: 568037e0d2996e4644c11eb61f96362a402759ec
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83621628"
+ms.lasthandoff: 06/16/2020
+ms.locfileid: "84800016"
 ---
 <!-- cSpell:ignore tvuylsteke >
 
@@ -54,7 +54,9 @@ ms.locfileid: "83621628"
 
 ::: zone target="docs"
 
-1. Выберите [Схемы: начало работы](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted).
+<!-- docsTest:ignore "Next : Artifacts" "Blueprints: Get started" "Blueprints: Blueprint definitions" -->
+
+1. Выберите [Схемы: Get started](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted) (Схемы: начало работы).
 1. В разделе **Создание схемы** выберите **Создать**.
 1. Отфильтруйте список схем, чтобы выбрать соответствующую схему.
 1. Укажите **имя схемы** и выберите соответствующий **источник определения**.
