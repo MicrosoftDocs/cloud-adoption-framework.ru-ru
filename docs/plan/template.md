@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: cb0b963b68fbad8d883e7cbbfd107cc774136ad0
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: c25279222a0a1dbd9531ffe6e941e1ffc1046051
+ms.sourcegitcommit: b94dab2545384e44650136b17dc9f708ccdc3c7d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83401086"
+ms.lasthandoff: 06/22/2020
+ms.locfileid: "85195102"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
 
@@ -39,6 +39,8 @@ Azure DevOps — это набор облачных средств для кли
 После развертывания проекта плана можно использовать Microsoft Excel для его изменения. Гораздо проще создавать новые рабочие нагрузки или ресурсы в плане с помощью Microsoft Excel, чем использование возможностей браузера Azure DevOps.
 
 Сведения о подготовке рабочей станции к групповому редактированию см. в разделе [Добавление или изменение рабочих элементов с помощью Microsoft Excel](https://docs.microsoft.com/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
+
+Некоторые пользователи могут захотеть использовать Project для мониторинга своих задач, создания невыполненной работы и назначения ресурсов. Ниже приведены инструкции по [подключению проекта к Azure DevOps](https://docs.microsoft.com/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project?view=tfs-2018).
 
 ## <a name="use-the-cloud-adoption-plan"></a>Использование плана внедрения в облако
 
