@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 2d15a5f70430a86da18195c58326dd9b573198c6
-ms.sourcegitcommit: b94dab2545384e44650136b17dc9f708ccdc3c7d
+ms.openlocfilehash: 392e1e9625f631a76cd7584d4cc31485bcea8f0a
+ms.sourcegitcommit: 7c16b2857b00520bec3c4f6e9844ceac33970846
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "85195119"
+ms.lasthandoff: 07/01/2020
+ms.locfileid: "85766784"
 ---
 <!-- cSpell:ignore interdomain VMSS -->
 
@@ -58,7 +58,7 @@ ms.locfileid: "85195119"
 
 6. Создайте назначения политик Azure в следующей таблице для целевых зон.
 
-| Имя                  | Описание                                                                                   |
+| name                  | Описание                                                                                   |
 |-----------------------|-----------------------------------------------------------------------------------------------|
 | [Deny-Публицендпоинтс](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policySetDefinitions-Deny-PublicEndpoints.parameters.json)  | Запрещает создание служб с общедоступными конечными точками во всех целевых зонах.                    |
 | [Развертывание виртуальной машины и резервное копирование](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-VM-Backup.parameters.json)      | Обеспечивает настройку и развертывание резервной копии на всех виртуальных машинах в целевых зонах.                |
@@ -90,7 +90,8 @@ ms.locfileid: "85195119"
 9. Используемых Настройте Global Reach ExpressRoute для подключения к локальным контроллерам домена (ХКС), если в Azure с помощью ExpressRoute подключено несколько локальных расположений. Следуйте инструкциям в разделе [Настройка ExpressRoute Global REACH](https://docs.microsoft.com/azure/expressroute/expressroute-howto-set-global-reach).
 
 В следующем списке приведены назначения политик Azure, используемые при реализации сетевых ресурсов для развертывания корпоративного уровня.
-| Имя                     | Описание                                                                            |
+
+| name                     | Описание                                                                            |
 |--------------------------|----------------------------------------------------------------------------------------|
 | [Deploy-Фиреваллполици](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-FirewallPolicy.parameters.json)  | Создает политику брандмауэра. |
 | [Deploy-Вхуб](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-vHUB.parameters.json)        | Эта политика развертывает виртуальный концентратор, брандмауэр Azure, шлюзы (VPN/ExpressRoute) и настраивает маршрут по умолчанию для подключенных виртуальных сетей к брандмауэру Azure. |
@@ -114,7 +115,7 @@ ms.locfileid: "85195119"
 
 Следующие политики следует использовать для принудительного применения состояния соответствия для всей Организации.
 
-| Имя                       | Описание                                                        |
+| name                       | Описание                                                        |
 |----------------------------|--------------------------------------------------------------------|
 | [Allowed-Ресаурцелокатион](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Allowed-ResourceLocation.parameters.json)   | Указывает разрешенный регион, в котором можно развернуть ресаурцен       |
 | [Allowed-RGLocation](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Allowed-RGLocation.parameters.json)         | Указывает разрешенный регион, в котором можно развертывать группы ресурсов |
@@ -138,7 +139,7 @@ ms.locfileid: "85195119"
 
 В следующем списке перечислены политики, которые можно использовать при реализации ресурсов удостоверений для развертывания корпоративного уровня.
 
-| Имя                         | Описание                                                               |
+| name                         | Описание                                                               |
 |------------------------------|---------------------------------------------------------------------------|
 | [датапротектионсекуритицентер](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-DataProtectionSecurityCenter.parameters.json) | ASC Protection, автоматически создаваемая центром безопасности Azure         |
 | [Развертывание-виртуальная сеть — удостоверение](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-vNet.parameters.json)         | Развертывает виртуальную сеть в подписке Identity для размещения, например DC.     |
@@ -155,7 +156,7 @@ ms.locfileid: "85195119"
 
 5. Если вы решили создать ресурсы управления платформой с помощью политики Azure, назначьте политики, перечисленные в таблице ниже, в подписку управления. При этом политика Azure гарантирует, что ресурс в приведенном ниже списке будет создан на основе предоставленных параметров.
 
-| Имя                   | Описание                                                                            |
+| name                   | Описание                                                                            |
 |------------------------|----------------------------------------------------------------------------------------|
 | [Deploy-LA-config](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-LA-Config.parameters.json)       | Настройка рабочей области Log Analytics                                           |
 | [Развертывание-log-Analytics](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-Log-Analytics.parameters.json)   | Развертывает рабочую область Log Analytics |
@@ -173,7 +174,7 @@ ms.locfileid: "85195119"
 
 4. Используемых Настройка шифрования через частный пиринг ExpressRoute.
 
-| Имя                     | Описание                                                                            |
+| name                     | Описание                                                                            |
 |--------------------------|----------------------------------------------------------------------------------------|
 | [Deploy-Вхуб](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-vHUB.parameters.json)        | Эта политика развертывает виртуальный концентратор, брандмауэр Azure, шлюзы (VPN и ExpressRoute) и настраивает маршрут по умолчанию для подключенных виртуальных сетей к брандмауэру Azure. |
 
