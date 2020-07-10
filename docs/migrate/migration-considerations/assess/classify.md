@@ -1,18 +1,18 @@
 ---
 title: Классификация рабочей нагрузки перед миграцией
-description: Классификация рабочих нагрузок во время оценки предмиграции.
+description: Классификация рабочих нагрузок во время оценки перед миграцией.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 03/03/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 0708c394cca50c64813b7eea04a1239586c825af
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 6a446bc43ca458f65b7b293468e60b7a8dc11097
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80527716"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194210"
 ---
 # <a name="workload-classification-before-migration"></a>Классификация рабочей нагрузки перед миграцией
 
@@ -44,7 +44,7 @@ ms.locfileid: "80527716"
 - Любая критическая степень влияния может иметь требования к проектированию подписки, иерархиям групп управления или зонам размещения.
 - Требования к важности документов, которые могут включать определенные отчеты о трафике или использовании, финансовые аналитики и другие средства.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После правильной классификации рабочих нагрузок гораздо проще [согласовать бизнес-приоритеты](./business-priorities.md).
 

@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 418da8d010ab0abd1a6221da77e9feeae5007f1d
-ms.sourcegitcommit: 4bbd5f6444d033ef1f38dc6f3bad7b914a82f68f
+ms.openlocfilehash: 7315046a8ddb1d314c11a7a2ef17ea636270e73d
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86128512"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86193649"
 ---
 <!-- cSpell:ignore VMUUID kusto -->
 
@@ -50,7 +50,7 @@ ms.locfileid: "86128512"
 
 Чтобы назначить политики, описанные в предыдущем разделе, выполните следующие действия.
 
-1. В портал Azure перейдите в раздел назначения **политики Azure**  >  **Assignments**  >  **назначение инициативы**.
+1. В портал Azure перейдите к разделу **Policy**  >  **назначения**политик  >  **назначение инициативы**.
 
     ![Снимок экрана: интерфейс политики портала](./media/onboarding-at-scale1.png)
 
@@ -68,7 +68,7 @@ ms.locfileid: "86128512"
 
 6. Установите флажок **управляемое расположение удостоверений** . Если эта политика относится к типу [`DeployIfNotExists`](https://docs.microsoft.com/azure/governance/policy/concepts/effects#deployifnotexists) , для развертывания политики потребуется управляемое удостоверение. На портале учетная запись будет создана, как указано в выбранном флажке.
 
-7. Выберите **назначить**.
+7. Выберите **Назначить**.
 
 После завершения работы мастера назначение политики будет развернуто в среде. Чтобы политика вступила в силу, может потребоваться до 30 минут. Чтобы протестировать его, создайте новые виртуальные машины через 30 минут и проверьте, включена ли Microsoft Monitoring Agent на виртуальной машине по умолчанию.
 

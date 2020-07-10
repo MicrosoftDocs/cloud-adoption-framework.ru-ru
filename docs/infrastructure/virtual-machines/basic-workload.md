@@ -7,12 +7,12 @@ ms.date: 12/31/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 0b4f0738e93d08be4f61183272b459eb7856aad1
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: 92c0d9deb038e1c89d3db5ca5bfc72cace2d2ff9
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83862217"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86193734"
 ---
 # <a name="deploy-a-basic-workload-in-azure"></a>Развертывание основной рабочей нагрузки в Azure
 
@@ -35,7 +35,7 @@ _Базовая рабочая нагрузка_ обычно определяе
 
 ## <a name="basic-web-application-paas"></a>Базовое веб-приложение (PaaS)
 
-Если вы выбрали базовое веб-приложение, ознакомьтесь с одним из 5-минутных руководств из [документации по веб-приложениям](https://docs.microsoft.com/azure/app-service) и выполните приведенные в нем шаги.
+Для базового веб-приложения выберите один из 5-минутных кратких руководств в [документации по службе приложений Azure](https://docs.microsoft.com/azure/app-service) и выполните действия.
 
 > [!NOTE]
 > В некоторых руководствах по началу работы группа ресурсов развертывается по умолчанию. В этом случае нет необходимости специально создавать группу ресурсов. В противном случае разверните веб-приложение в группу ресурсов, созданную с использованием шагом в одном из руководств по началу работы.

@@ -7,12 +7,12 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 72dc18bc354e1a3f4a95a2a0c55373ee90f978f4
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 19fc139021f891eafd9c0ac8034a1f57d9f6f7d0
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84786865"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86191218"
 ---
 # <a name="understand-business-risk-during-cloud-migration"></a>Понимание бизнес-рисков во время миграции в облако
 

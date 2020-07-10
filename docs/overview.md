@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: homepage
-ms.openlocfilehash: d65bffde98974ce9326a33884257ecc9e681fe50
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 576c6d1fecc908011edeb447595e025819439cc7
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787696"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194027"
 ---
 # <a name="what-is-the-microsoft-cloud-adoption-framework-for-azure"></a>Что такое платформа внедрения Microsoft Cloud для Azure?
 
@@ -42,9 +42,9 @@ ms.locfileid: "84787696"
 
 Каждая описанная выше методика является частью широкого жизненного цикла внедрения в облако. Инфраструктура внедрения облачных технологий — это полноценная Инфраструктура жизненного цикла, поддерживающая клиентов на всех этапах внедрения, предоставляя методологии в качестве конкретных подходов к переработке распространенных блокировок, как показано ниже.
 
-::: image type="content" source="./_images/caf-overview-new.svg" alt-text="Overview of the Cloud Adoption Framework" :::
+![Обзор инфраструктуры внедрения в облако](./_images/caf-overview-new.png)
 
-## <a name="intent"></a>Блокировка с намерением
+## <a name="intent"></a>Намерение
 
 Облако коренным образом меняет процессы закупки, использования и защиты технологических ресурсов на предприятиях. Традиционно системы любого уровня — от инфраструктуры до программного обеспечения — находились в собственности предприятий и под их управлением. Переход в облако позволяет предприятиям подготавливать и потреблять ресурсы только по мере необходимости. Облако обеспечивает невероятную гибкость при выборе проекта, но предприятиям нужна проверенная и согласованная методология по внедрению облачных технологий. Microsoft Cloud Adoption Framework для Azure решает именно эту задачу, помогая принимать решения в процессе внедрения облачных решений.
 

@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 843604f4c7aa9f8e032ffe879cdb8fc0d9b0ff48
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 9c5dc6a16fb6e24b498921f0e21c29d45545f8d6
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85076956"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194771"
 ---
 # <a name="contribution-guide"></a>Рекомендации по публикации
 
@@ -96,7 +96,7 @@ ms.locfileid: "85076956"
     }],
 ```
 
-Доступен [универсальный шаблон с многоресурсной](https://raw.githubusercontent.com/uday31in/AzOps/master/src/template.json) версией, который позволяет гарантировать, что исправления ошибок включены в последнюю версию API.
+Доступен [универсальный шаблон с многоресурсной](https://github.com/uday31in/AzOps/blob/main/template/template.json) версией, который позволяет гарантировать, что исправления ошибок включены в последнюю версию API.
 
 - Template.parameters.jsна
 
@@ -152,7 +152,7 @@ Get-AzResource -ResourceId '/providers/Microsoft.Management/managementGroups/con
 
 - Не отправляйте запрос на включение внесенных изменений с шаблоном и файлом параметров для развертывания ресурсов (например, хранилища ключей) или создания собственной иерархии групп управления за пределами описанных в сквозной зоне.
 
-Пример
+Пример.
 
 ```json
 {
@@ -216,7 +216,7 @@ Get-AzPolicyAlias -ListAvailable
 
 При использовании Azure CLI выполните следующее:
 
-```cli
+```bash
 # List all available providers
 
 az provider list --query [*].namespace

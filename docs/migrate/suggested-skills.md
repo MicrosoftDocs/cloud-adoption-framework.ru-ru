@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4e3c9b7e924f1285389430ea9aae93cdecffea89
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: fdc852b97916d0055c1193be384b3c6e44599182
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222017"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194329"
 ---
 <!-- cSpell:ignore Getting Started -->
 
@@ -39,7 +39,7 @@ ms.locfileid: "83222017"
 Во время процесса оценки архитекторы будут проектировать решения для каждой рабочей нагрузки. Следующие ресурсы по обеспечению квалификации помогают подготовить архитекторы для этих задач:
 
 - [Основы для облачной архитектуры](https://www.pluralsight.com/courses/cloud-architecture-foundations): Pluralsight курс, помогающий спроектировать правильные решения для базовых решений.
-- [Microsoft Azure архитектура — начало работы](https://www.pluralsight.com/courses/azure-architecture-getting-started). Pluralsight курс, который позволяет архитекторам получить базовые знания об архитектуре Azure.
+- [Архитектура Microsoft Azure: Начало работы](https://www.pluralsight.com/courses/azure-architecture-getting-started): Pluralsight курс, который позволяет архитекторам получить базовые знания об архитектуре Azure.
 - [Проектирование миграций для Microsoft Azure](https://www.pluralsight.com/courses/microsoft-azure-migrations-designing): курс Pluralsight, помогающий архитекторам спроектировать решение для перехода.
 
 ## <a name="migrate-skilling-resources"></a>Ресурсы для формирования навыков миграции

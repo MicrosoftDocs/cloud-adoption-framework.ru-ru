@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: caa4349293df5387c4ba62aa265499d4140d3f9f
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: e8c464f7985dde96b3a2c09823c47266c104f58e
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85076469"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86191813"
 ---
 # <a name="get-started-manage-cloud-costs"></a>Начало работы: Управление затратами на облачные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "85076469"
 
   - Применяйте [Общие рекомендации](../govern/cost-management/best-practices.md) , чтобы сократить размер и затраты и отключить неиспользуемые компьютеры.
   - [Используйте преимущества гибридного использования](../govern/cost-management/best-practices.md#best-practice-take-advantage-of-azure-hybrid-benefit) , чтобы снизить затраты на лицензирование.
-  - Выровняйте [зарезервированные экземпляры](../govern/cost-management/best-practices.md#best-practice-use-reserved-vm-instances) , чтобы снизить затраты на ресурсы.
+  - Выровняйте [зарезервированные экземпляры](../govern/cost-management/best-practices.md#best-practice-use-azure-reserved-vm-instances) , чтобы снизить затраты на ресурсы.
   - [Отслеживайте использование ресурсов](../govern/cost-management/best-practices.md#best-practice-monitor-resource-utilization) , чтобы снизить влияние на производительность ресурсов.
   - [Сократите затраты на непроизводство](../govern/cost-management/best-practices.md#best-practice-reduce-nonproduction-costs) с помощью политик, чтобы управлять средами, которые не являются продукцией.
   - Применяйте [рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).

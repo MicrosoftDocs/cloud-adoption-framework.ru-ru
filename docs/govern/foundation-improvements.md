@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 456e9105cd4d8425681664bc9cbcb74d54f7f58f
-ms.sourcegitcommit: 5d6a7610e556f7b8ca69960ba76a3adfa9203ded
+ms.openlocfilehash: 9e06a96c7e7397680e26b326f02a055013ec29ee
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/14/2020
-ms.locfileid: "83400578"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86191796"
 ---
 # <a name="improve-your-initial-cloud-governance-foundation"></a>Улучшите начальное облако по управлению Cloud Foundation
 
@@ -26,14 +26,14 @@ ms.locfileid: "83400578"
 > [!IMPORTANT]
 > Организация ресурсов может повлиять на применение этих рекомендаций. Важно начать с рекомендаций, которые лучше согласованы с первоначальной облачной средой управления, реализованной на предыдущем шаге.
 
-| Риск/потребность | Стандартный выпуск Enterprise | Сложное предприятие |
+| Риск/потребность | Стандартное предприятие | Сложное предприятие |
 |---|---|---|
 | Конфиденциальные данные в облаке | [Оптимизация аспектов](./guides/standard/security-baseline-improvement.md) | [Оптимизация аспектов](./guides/complex/security-baseline-improvement.md) |
 | Критически важные приложения в облаке | [Оптимизация аспектов](./guides/standard/resource-consistency-improvement.md) | [Оптимизация аспектов](./guides/complex/resource-consistency-improvement.md) |
 | Управление затратами на облако | [Оптимизация аспектов](./guides/standard/cost-management-improvement.md) | [Оптимизация аспектов](./guides/complex/cost-management-improvement.md) |
 | Многооблачная среда | [Оптимизация аспектов](./guides/standard/multicloud-improvement.md) | [Оптимизация аспектов](./guides/complex/multicloud-improvement.md) |
-| Комплексное или устаревшее управление удостоверениями | Н/Д | [Оптимизация аспектов](./guides/complex/identity-baseline-improvement.md) |
-| Использование нескольких уровней управления | Н/Д | [Оптимизация аспектов](./guides/complex/multiple-layers-of-governance.md) |
+| Комплексное или устаревшее управление удостоверениями | н/д | [Оптимизация аспектов](./guides/complex/identity-baseline-improvement.md) |
+| Использование нескольких уровней управления | н/д | [Оптимизация аспектов](./guides/complex/multiple-layers-of-governance.md) |
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

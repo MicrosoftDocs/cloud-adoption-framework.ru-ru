@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 9e54205060604e24974d853e666962130b756ada
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 85b24ecd5045554181cd88aa9671ab8f85fcad25
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814925"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86193751"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 
@@ -48,14 +48,14 @@ ms.locfileid: "83814925"
 - [База данных Azure для MariaDB](https://docs.microsoft.com/azure/mariadb)
 - [Масштабирование базы данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql/concepts-hyperscale-nodes)
 - [Azure Data Lake](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction)
-- [Azure Database Migration Service](https://docs.microsoft.com/azure/dms)
+- [Миграция баз данных Azure](https://docs.microsoft.com/azure/dms)
 - [База данных SQL Azure с Управляемый экземпляр Azure SQL или без нее](https://docs.microsoft.com/azure/sql-database)
 - [Фабрика данных Azure](https://docs.microsoft.com/azure/data-factory).
 - [Azure Stream Analytics](https://docs.microsoft.com/azure/stream-analytics)
 - [SQL Server Integration Services](https://docs.microsoft.com/sql/integration-services)
 - [Azure Stack](https://docs.microsoft.com/azure-stack)
 - [SQL Server Stretch Database](https://docs.microsoft.com/sql/sql-server/stretch-database)
-- [Microsoft Azure StorSimple](https://docs.microsoft.com/azure/storsimple)
+- [StorSimple Azure](https://docs.microsoft.com/azure/storsimple)
 - [Файлы Azure](https://docs.microsoft.com/azure/storage/files)
 - [Синхронизация файлов Azure](https://docs.microsoft.com/azure/storage/files/storage-sync-files-planning)
 - [PolyBase](https://docs.microsoft.com/sql/relational-databases/polybase)

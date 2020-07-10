@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6672d86f215360f1024b233f62a48eb390b52a52
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 65f28f92e731eac11a337ab9b191b7d0bc09101b
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84785180"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86193071"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -31,11 +31,11 @@ ms.locfileid: "84785180"
 - Общие сведения о [интерфейсе командной строки Azure (CLI)](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](https://docs.microsoft.com/powershell/azure/?view=azps-3.6.1). Предложения LinkedIn в рамках [обучающего курса обучение средствам управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), семинарам, охватывающим Azure CLI и языки программирования PowerShell:
 
   - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
-  - [Getting started with Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell) (Приступая к работе с Azure PowerShell)
+  - [Начало работы с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
 
 - Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](https://docs.microsoft.com/learn/paths/implement-resource-mgmt-security).
 
-- Общие сведения о [мониторинге Microsoft Azure ресурсы и рабочие нагрузки](https://app.pluralsight.com/library/courses/microsoft-azure-resources-workloads-monitoring-update/table-of-contents) позволяют узнать, как использовать средства мониторинга Microsoft Azure для мониторинга сетевых ресурсов Azure, а также локальных ресурсов.
+- [Мониторинг Microsoft Azure ресурсов и рабочих нагрузок](https://app.pluralsight.com/library/courses/microsoft-azure-resources-workloads-monitoring-update/table-of-contents) поможет вам узнать, как использовать средства мониторинга Azure для мониторинга сетевых ресурсов Azure, а также ресурсов, размещенных локально.
 
 ## <a name="infrastructure-monitoring"></a>Мониторинг инфраструктуры
 
@@ -81,7 +81,7 @@ ms.locfileid: "84785180"
 
 - [Центр Microsoft IT Pro для карьеры](https://www.microsoft.com/itpro): служит бесплатным онлайн-ресурсом для соответствия пути вашей облачной карьеры. Узнайте, что эксперты из отрасли предлагают для вашей облачной роли и какие навыки там можно получить. Выполните учебный курс в удобном для вас темпе для развития наиболее необходимых навыков, чтобы оставаться ценным и востребованным сотрудником.
 
-Ваши знания Azure заслуживают официального признания. [Воспользуйтесь нашими сертификационными программами и сдайте экзамены по Microsoft Azure]( https://www.microsoft.com/learning/certification-overview.aspx).
+Превратите свое знание Azure в официальное распознавание с помощью [учебных курсов и экзаменов по сертификации Azure](https://www.microsoft.com/learning/certification-overview.aspx).
 
 ## <a name="azure-devops-and-project-management"></a>Управление DevOps и проектом Azure
 
@@ -105,6 +105,6 @@ ms.locfileid: "84785180"
 
 Ознакомьтесь со следующими сведениями, чтобы ознакомиться с обновлениями, внесенными в самый популярный [технический документ ITSM Framework версии 4 и облачных вычислений](https://www.axelos.com/case-studies-and-white-papers/itil-4-and-the-cloud), который посвящен присоединению существующих руководств по ITIL с рекомендациями от DevOps, Agile и экономичного. Также рассмотрим [эталонную архитектуру IT4IT](https://www.opengroup.org/it4it) , которая предоставляет альтернативную схему для преобразования ее с помощью независимой от процесса платформы.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Чтобы найти дополнительные схемы обучения, перейдите к [каталогу Microsoft Learn](https://docs.microsoft.com/learn/browse). Используйте фильтр ролей для согласования путей обучения со своей ролью.

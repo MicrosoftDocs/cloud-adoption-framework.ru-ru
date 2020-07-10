@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: f94807057be3beb1985979fe75f4ec0032952c05
-ms.sourcegitcommit: 4bbd5f6444d033ef1f38dc6f3bad7b914a82f68f
+ms.openlocfilehash: 1764c949d48ee2a68a13e2cff251a6949f9933ef
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86128485"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194754"
 ---
 # <a name="caf-enterprise-scale-design-guidelines"></a>КАФ рекомендации по проектированию корпоративного масштаба
 
@@ -28,7 +28,7 @@ ms.locfileid: "86128485"
 
 Влияние решений, принятых в этих критических областях, будет реверберате в архитектуре корпоративного масштаба и повлиять на другие решения. Вы должны ознакомиться с восемью областями, приведенными ниже, чтобы лучше понять последствия охватываемых решений, что впоследствии может привести к компромиссам в связанных областях.
 
-1. [Клиенты регистрации и Azure Active Directory предприятия](./enterprise-enrollment-and-azure-ad-tenants.md)
+1. [Клиенты регистрации и Azure Active Directory для соглашения Enterprise (EA)](./enterprise-enrollment-and-azure-ad-tenants.md)
 2. [Управление удостоверениями и доступом](./identity-and-access-management.md)
 3. [Организация групп управления и подписок](./management-group-and-subscription-organization.md)
 4. [Топология сети и возможности подключения](./network-topology-and-connectivity.md)

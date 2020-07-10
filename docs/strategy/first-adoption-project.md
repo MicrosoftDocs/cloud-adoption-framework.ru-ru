@@ -7,12 +7,12 @@ ms.date: 5/19/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: cbb80dacdb34cc4ab11cf2d3435a0e8d4ff86e73
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 35df4edd8437cea20f0bc397be901443c21015a5
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84784993"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194652"
 ---
 # <a name="first-cloud-adoption-project"></a>Первый проект внедрения облачных технологий
 
@@ -51,6 +51,8 @@ ms.locfileid: "84784993"
 - **Мотивации миграции:** Когда миграция является основной мотивацией, разумно начать с миграции некритической рабочей нагрузки. [Руководство по установке Azure](../ready/azure-setup-guide/index.md) и [руководство по миграции Azure](../migrate/azure-migration-guide/index.md) могут предоставить руководство по переносу первой рабочей нагрузки.
 
 - **Мотивация инноваций:** Когда инновации являются основным стимулом, создание целевой среды разработки и тестирования может быть отличным первым проектом.
+
+<!-- docsTest:ignore "data migration services" -->
 
 К дополнительным примерам первых проектов внедрения относятся:
 

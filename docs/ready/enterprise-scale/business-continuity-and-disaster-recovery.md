@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 10b1604dad1c441d02364f8b6cfc2a0221290820
-ms.sourcegitcommit: 4bbd5f6444d033ef1f38dc6f3bad7b914a82f68f
+ms.openlocfilehash: 5e397ed17e9596933629c3d6375546df1e0d9a31
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86128492"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194788"
 ---
 # <a name="caf-enterprise-scale-business-continuity-and-disaster-recovery"></a>КАФ предприятия — масштабирование непрерывности бизнес-процессов и аварийное восстановление
 
@@ -42,7 +42,7 @@ ms.locfileid: "86128492"
 
 - Последовательные резервные копии для приложений и данных.
 
-  - Моментальные снимки виртуальных машин и использование Microsoft Azure Backup и хранилищ служб восстановления.
+  - Моментальные снимки виртуальных машин и использование Azure Backup и хранилищ служб восстановления.
 
   - Подписка ограничивает количество хранилищ служб восстановления и размер каждого хранилища.
 

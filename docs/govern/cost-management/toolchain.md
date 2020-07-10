@@ -8,22 +8,22 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a440cd0b73fc55e97fa6dc957ab08e39c9dbca1e
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: 2433e5bc74b059911575165df39f6ce3a1d1f8d8
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83862353"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86193887"
 ---
 # <a name="cost-management-tools-in-azure"></a>Средства управления затратами в Azure
 
-[Дисциплина управления затратами](./index.md) — это одна из [пяти специализаций в управлении облаком](../governance-disciplines.md). Эта дисциплина сосредоточена на способах составления планов облачных расходов, распределения облачных бюджетов, мониторинга и реализации облачных бюджетов, выявления дорогостоящих аномалий и корректировки плана управления облаком, когда фактические расходы не совпадают.
+[Дисциплина управления затратами](./index.md) — это одна из [пяти специализаций в управлении облаком](../governance-disciplines.md). Эта дисциплина сосредоточена на способах создания планов облачных затрат, распределения облачных бюджетов, мониторинга и применения бюджетов облака, обнаружения дорогостоящих аномалий и настройки плана управления облаком при неправильном согласовании фактических затрат.
 
 Ниже приведен список собственных средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
 <!-- TODO: Content packs are deprecated. -->
 
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)  | [Пакет содержимого Azure EA](https://docs.microsoft.com/power-bi/service-connect-to-azure-enterprise)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) |
+| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)  | [Пакет содержимого Azure EA](https://docs.microsoft.com/power-bi/service-connect-to-azure-enterprise)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) |
 |---------|---------|---------|---------|---------|
 | Соглашение Enterprise требуется?     | Нет         | Нет         | Да         | Нет         |
 | Управление бюджетом     | Нет         | Да         | Нет         | Да         |
@@ -34,4 +34,4 @@ ms.locfileid: "83862353"
 | Принудительное применение метаданных учета для ресурсов    | Нет         | Нет         | Нет         | Да         |
 | Отслеживание и выявление тенденций     | Да          | Да        | Да         | Нет         |
 | Обнаружение аномалий в затратах     | Нет         | Да        | Да         | Нет        |
-| Социализация отклонений     | Нет        | Да        | Да        | нет        |
+| Социализация отклонений     | Нет        | Да        | Да        | Нет        |

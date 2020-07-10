@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 837aac743dbcd2aca297bd89a50d789bd8c0fd59
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: cb087faaa776110cc7b395f924446df944b33182
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755380"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194244"
 ---
 # <a name="function-of-cloud-security-policy-and-standards"></a>Функции политики и стандартов Cloud Security
 
@@ -29,7 +29,7 @@ ms.locfileid: "83755380"
 - Оценка архитектуры текущего состояния и то, что технически возможно для проектирования, реализации и применения
 - Культура и региональные параметры Организации
 - Лучшие отраслевые методики
-- Ответственность за обеспечение безопасности, назначенную соответствующим заинтересованным лицам, которые могут учитывать другие риски и результаты бизнеса.
+- Ответственность за обеспечение безопасности, назначенную соответствующим заинтересованным сторонам бизнеса, которые могут учитывать другие риски и результаты бизнеса.
 
 **Стандарты безопасности** определяют процессы и правила для поддержки выполнения политики безопасности.
 

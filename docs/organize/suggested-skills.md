@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: b396bef511aad0e715f8d4391f26882357da5378
-ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
+ms.openlocfilehash: d3f772ec4bec79b3f9473d2a0ee6b2a2035f145b
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "84993384"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194176"
 ---
-# <a name="building-technical-skills"></a>Развитие технических навыков
+# <a name="build-technical-skills"></a>Развитие технических навыков
 
 Организация и готовность к эксплуатации (техническая) могут потребовать новых навыков для технических и нетехнических участников. Приведенные ниже сведения помогут вашей организации создать необходимые навыки.
 
@@ -55,7 +55,7 @@ ms.locfileid: "84993384"
 
 ### <a name="typical-mappings-of-cloud-it-roles"></a>Типичные сопоставления облачных ИТ-ролей
 
-Корпорация Майкрософт и ее партнеры предлагают варианты, позволяющие всем аудиторам разрабатывать свои навыки использования служб Microsoft Azure.
+Корпорация Майкрософт и ее партнеры предлагают варианты, позволяющие всем аудиторам разрабатывать свои навыки использования служб Azure.
 
 - [Центр ИТ-специалистов Microsoft IT Pro](https://www.microsoft.com/itpro)— бесплатный интерактивный ресурс, помогающий сопоставлять ваши облачные карьерные пути. Узнайте от экспертов отрасли о вашей облачной роли и необходимых навыках. Выполните учебный учебный курс в удобном для вас темпе, чтобы создать навыки, которые должны быть актуальными.
 

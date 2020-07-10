@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: csu
-ms.openlocfilehash: 3dc8dd5566b34629064cbe446571be1d74b80d90
-ms.sourcegitcommit: 4bbd5f6444d033ef1f38dc6f3bad7b914a82f68f
+ms.openlocfilehash: ce253be58fbd4e5a9ce7a394eb69c131a1948d75
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86128365"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194805"
 ---
 <!-- cSpell:ignore CAF -->
 
@@ -68,7 +68,7 @@ ms.locfileid: "86128365"
 
 ## <a name="high-level-architecture"></a>Высокоуровневая архитектура
 
-![Архитектура КАФной зоны корпоративного уровня в масштабах предприятия ](./media/ns-arch.png)
+[ ![ Архитектура кафной зоны корпоративного уровня в масштабах предприятия](./media/ns-arch.png)](./media/ns-arch.png#lightbox) 
  _: КАФ архитектура корпоративного уровня._
 
 _Скачайте [файл Visio](https://github.com/microsoft/CloudAdoptionFramework/blob/master/ready/enterprise-scale-architecture.vsdx), который содержит схему этой архитектуры._
