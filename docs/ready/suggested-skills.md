@@ -7,12 +7,12 @@ ms.date: 05/19/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 118b8af3ed191be6b203413fc2a5399f6aa6a04d
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 0e89b1f19770e9a0f4225704287593447dc63305
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83221677"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86195162"
 ---
 # <a name="skills-readiness-path-during-the-ready-phase-of-a-migration-journey"></a>Путь подготовки навыков на этапе готовности к миграции
 
@@ -32,7 +32,7 @@ ms.locfileid: "83221677"
 - [Создание учетной записи Azure](https://docs.microsoft.com/learn/modules/create-an-azure-account). первый шаг в работе с Azure — создание учетной записи. Ваша учетная запись содержит подготовленные вами службы Azure и обрабатывает личные параметры, такие как удостоверение, выставление счетов и предпочтения.
 - [Портал Azure](https://docs.microsoft.com/learn/modules/tour-azure-portal): обзор функций и служб портал Azure и Настройка портала.
 - [Введение в Azure](https://docs.microsoft.com/learn/modules/welcome-to-azure). Начните работу с Azure, создав и настроив первую виртуальную машину в облаке.
-- [Общие сведения о безопасности в Azure](https://docs.microsoft.com/learn/modules/intro-to-security-in-azure). обсуждайте основные понятия, связанные с защитой инфраструктуры и данных при работе в облаке. Узнайте, каковы ваши обязанности и обязанности Azure.
+- [Общие сведения о безопасности в Azure](https://docs.microsoft.com/learn/modules/intro-to-security-in-azure). обсуждайте основные понятия, связанные с защитой инфраструктуры и данных при работе в облаке. Поймите свои обязанности и узнайте, что Azure делает для вас.
 - [Управление ресурсами в Azure](https://docs.microsoft.com/learn/paths/manage-resources-in-azure). Узнайте, как работать с командной строкой Azure и веб-порталом для создания, управления и контроля облачных ресурсов.
 - [Создание](https://docs.microsoft.com/learn/modules/create-windows-virtual-machine-in-azure)виртуальной машины. Создайте виртуальную машину с помощью портал Azure.
 - [Сеть Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-networking). Узнайте о некоторых принципах работы с сетью Azure и о том, как сеть Azure помогает повысить устойчивость и сократить задержку.

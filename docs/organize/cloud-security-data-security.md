@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: c387b6e190e08259d8270f39a0f5626838394dfa
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 6a0090cee1237753748d1351109a0826168ed5e3
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755481"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194873"
 ---
 # <a name="function-of-cloud-data-security"></a>Функции Cloud Data Security
 
@@ -31,7 +31,7 @@ ms.locfileid: "83755481"
 Безопасность данных обычно взаимодействует со следующими ролями в Организации:
 
 - Основные бизнес-руководители или их представители
-- Группы управления записями
+- Группы по управлению записями
 - Группы по политике и стандартам
 - Группы обеспечения конфиденциальности
 - Архитектура и операции ИТ
@@ -42,4 +42,4 @@ ms.locfileid: "83755481"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Ознакомьтесь с функциями [инфраструктуры и безопасности конечных точек](./cloud-security-infrastructure-endpoint.md) (CoE).
+Ознакомьтесь с функциями [облачной инфраструктуры и безопасности конечных точек](./cloud-security-infrastructure-endpoint.md).

@@ -7,13 +7,15 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 41393cab0775dedd634be966a5677d6839cb1c14
-ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
+ms.openlocfilehash: 774d910786a5458244298228669126410a78afd8
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "84994209"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194975"
 ---
+<!-- docsTest:ignore "global reach" -->
+
 # <a name="examples-of-global-reach-outcomes"></a>Примеры глобальных результатов REACH
 
 Как обсуждалось в [результатах бизнеса](./index.md), некоторые потенциальные результаты бизнеса могут служить основой для любого обмена данными с бизнесом. Эта статья посвящена общей бизнес-мере: Reach. Понимание стратегии глобализации компании поможет лучше сформулировать результаты бизнеса, которые являются целью межорганизационного преобразования.

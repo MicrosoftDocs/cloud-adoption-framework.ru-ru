@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ce653ab8c37eb4e034647cb8022adaf391f1949f
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: c118a09f2d233ebc2123c3b66128291bf06e14a3
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815350"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194448"
 ---
 # <a name="deploy-workloads"></a>Развертывание рабочих нагрузок
 
@@ -22,7 +22,7 @@ ms.locfileid: "83815350"
 
 Целью миграции является перенос одной рабочей нагрузки в облако.
 
-## <a name="definition-of-_done_"></a>Определение _готовности_
+## <a name="definition-of-done"></a>Определение готовности
 
 Этап миграции будет считаться завершенным, когда рабочая нагрузка размещена в облаке и готова для тестирования, включая все зависимые ресурсы для правильного функционирования этой рабочей нагрузки. В процессе оптимизации рабочая нагрузка подготавливается для использования в рабочей среде.
 

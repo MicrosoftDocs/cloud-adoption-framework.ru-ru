@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f5bcde9c0eab879eea9c49a7ab46338a141cb1cb
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 027dd52f4a7cbb4535eca5a9b338296864f2bc25
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83217019"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194907"
 ---
 # <a name="assess-workloads-and-validate-assumptions-before-migration"></a>Оценка рабочих нагрузок и проверка допущений перед миграцией
 
@@ -26,7 +26,7 @@ ms.locfileid: "83217019"
 
 Оценка кандидата для миграции, оценка рабочей нагрузки, связанных с ней ресурсов и зависимостей перед началом миграции.
 
-## <a name="definition-of-_done_"></a>Определение _готовности_
+## <a name="definition-of-done"></a>Определение готовности
 
 Этот процесс считается завершенным, когда об одном кандидате для миграции известны следующие данные:
 

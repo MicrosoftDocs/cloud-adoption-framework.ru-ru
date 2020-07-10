@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: dac89280547cf219ad604d7c6dce609979100520
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 9d888a8323506d0c7150f2d948f0d5b4c6de340f
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85075877"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86190637"
 ---
 <!-- cSpell:ignore catalogsearch northamerica jsmith contactalias catsearchowners businessprocess businessimpact revenueimpact -->
 
@@ -77,11 +77,11 @@ ms.locfileid: "85075877"
 
 | Тип тега | Примеры | Описание |
 |-----|-----|-----|
-| Функциональные | app&nbsp;=&nbsp;catalogsearch1 <br> tier&nbsp;=&nbsp;web <br> webserver&nbsp;=&nbsp;apache <br> env&nbsp;=&nbsp;prod <br> env&nbsp;=&nbsp;staging <br> env&nbsp;=&nbsp;dev | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик. |
-| Классификация | confidentiality&nbsp;=&nbsp;private <br> SLA&nbsp;=&nbsp;24hours | Классификация ресурсов по методам использования и применимым к ресурсам политикам. |
-| Учет | department&nbsp;=&nbsp;finance <br> program&nbsp;=&nbsp;business-initiative <br> region&nbsp;=&nbsp;northamerica | Позволяет сопоставить ресурс с определенным группами внутри организации для выставления счетов. |
-| Партнерство | owner&nbsp;=&nbsp;jsmith <br> contactalias&nbsp;=&nbsp;catsearchowners <br> stakeholders&nbsp;=&nbsp;user1;user2;user3 | Предоставляет сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него. |
-| Назначение | businessprocess&nbsp;=&nbsp;support <br> businessimpact&nbsp;=&nbsp;moderate <br> revenueimpact&nbsp;=&nbsp;high | Сопоставляет ресурсы с бизнес-функциями для поддержки решений об инвестициях. |
+| Функциональные | `app` = `catalogsearch1` <br> `tier` = `web` <br> `webserver` = `apache` <br> `env` = `prod` <br> `env` = `staging` <br> `env` = `dev` | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик. |
+| Классификация | `confidentiality` = `private` <br> `SLA` = `24hours` | Классификация ресурсов по методам использования и применимым к ресурсам политикам. |
+| Учет | `department` = `finance` <br> `program` = `business-initiative` <br> `region` = `northamerica` | Позволяет сопоставить ресурс с определенным группами внутри организации для выставления счетов. |
+| Партнерство | `owner` = `jsmith` <br> `contactalias` = `catsearchowners` <br> `stakeholders` = `user1;user2;user3` | Предоставляет сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него. |
+| Назначение | `businessprocess` = `support` <br> `businessimpact` = `moderate` <br> `revenueimpact` = `high` | Сопоставляет ресурсы с бизнес-функциями для поддержки решений об инвестициях. |
 
 <!-- docsTest:enable -->
 <!-- markdownlint-enable MD033 -->

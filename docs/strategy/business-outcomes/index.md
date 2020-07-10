@@ -7,12 +7,12 @@ ms.date: 03/27/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: d298be02fcb27b0f7165d36c045455decc3a8908
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 48cbb33ed40286f1201f85b67d75809e487b83d4
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84788138"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86195009"
 ---
 # <a name="what-business-outcomes-are-associated-with-transformation-journeys"></a>Какие бизнес-результаты связаны с процессами преобразования?
 
@@ -48,6 +48,8 @@ ms.locfileid: "84788138"
 В современной динамичной бизнес-среде скорость играет важнейшую роль. Способность оперативно реагировать на рыночные изменения и влиять на них является основным показателем гибкости бизнеса.
 
 См. [примеры показателей гибкости](./agility-outcomes.md).
+
+<!-- docsTest:ignore "global reach" -->
 
 ### <a name="reach-outcomes"></a>Показатели охвата
 

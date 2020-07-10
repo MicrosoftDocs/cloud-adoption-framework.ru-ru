@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 1ab9dc80830c40754cbd68dbd4f39242f3204676
-ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
+ms.openlocfilehash: 010af9c5f3988c3a4cef05a1d9e3284e1d550675
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "84994139"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86194363"
 ---
 # <a name="prerequisites-for-migration"></a>Предварительные требования для миграции
 
@@ -29,7 +29,7 @@ ms.locfileid: "84994139"
 - [Начало работы. Ускорение миграции](../../../get-started/migrate.md)
 - [Почему мы переходим к облаку?](../../../strategy/motivations.md)
 
-## <a name="definition-of-_done_"></a>Определение _готовности_
+## <a name="definition-of-done"></a>Определение готовности
 
 Предварительные требования считаются выполненными, если справедливы следующие условия:
 
