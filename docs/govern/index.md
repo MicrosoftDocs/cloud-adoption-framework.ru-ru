@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: cd9454d33e15a862a68ba299cc10036fdb0c8ac9
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 65a3686a402681d76b5d91665eb00cb8bdd6e5c3
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83754441"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233704"
 ---
 # <a name="governance-in-the-microsoft-cloud-adoption-framework-for-azure"></a>Управление в Microsoft Cloud Adoption Framework для Azure
 
@@ -25,10 +25,10 @@ ms.locfileid: "83754441"
 
 | | |
 |---|---|
-| <br> ![1](../_Images/icons/1.png) | <br> [Методика.](./methodology.md) Освойте базовые понятия методологии управления облаком в Cloud Adoption Framework. Это даст вам общее представление о целевом состоянии. |
-| <br> ![2](../_Images/icons/2.png) | <br> [Тест производительности.](./benchmark.md) Оцените текущее и будущее состояние для определения способов использования платформы. |
-| <br> ![3](../_Images/icons/3.png) | <br> [Общие сведения о системе управления.](./initial-foundation.md) Приступите к работе, используя небольшой и легко реализуемый набор средств управления. Эта основа системы управления называется минимально жизнеспособным продуктом (MVP).                                |
-| <br> ![4](../_Images/icons/4.png) | <br> [Улучшение исходных базовых аспектов системы управления.](./foundation-improvements.md) По мере приближения к целевому состоянию при реализации плана внедрения облачных технологий поэтапно добавляйте элементы управления, чтобы устранить реальные риски. |
+| <br> ![1](../_images/icons/1.png) | <br> [Методика.](./methodology.md) Освойте базовые понятия методологии управления облаком в Cloud Adoption Framework. Это даст вам общее представление о целевом состоянии. |
+| <br> ![2](../_images/icons/2.png) | <br> [Тест производительности.](./benchmark.md) Оцените текущее и будущее состояние для определения способов использования платформы. |
+| <br> ![3](../_images/icons/3.png) | <br> [Общие сведения о системе управления.](./initial-foundation.md) Приступите к работе, используя небольшой и легко реализуемый набор средств управления. Эта основа системы управления называется минимально жизнеспособным продуктом (MVP).                                |
+| <br> ![4](../_images/icons/4.png) | <br> [Улучшение исходных базовых аспектов системы управления.](./foundation-improvements.md) По мере приближения к целевому состоянию при реализации плана внедрения облачных технологий поэтапно добавляйте элементы управления, чтобы устранить реальные риски. |
 
 ## <a name="objective-of-this-content"></a>Предназначение этого содержимого
 
