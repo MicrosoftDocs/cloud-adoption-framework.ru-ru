@@ -1,18 +1,18 @@
 ---
 title: Приступая к работе. Создание облачного центра
 description: Это краткое справочное по позволяет команде Cloud Center (Ккое) оценить область, конечные результаты и возможности, необходимые для успешного внедрения в облако.
-author: JanetCThomas
-ms.author: janet
+author: alexbuckgit
+ms.author: abuck
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: ebccc9b47cc12b0b54b9a7aec1c88d2a7e733816
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 9219724008228f9843d5c1790b72d679579b18f7
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83814314"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233642"
 ---
 <!-- cSpell:ignore deprioritize -->
 

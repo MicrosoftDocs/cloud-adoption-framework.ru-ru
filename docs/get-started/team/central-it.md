@@ -1,18 +1,18 @@
 ---
 title: 'Начало работы: Выровняйте центральную ИТ-группу'
 description: Это поможет Центральной ИТ-отделу понять область, конечные результаты и возможности, необходимые для успешного внедрения в облако.
-author: JanetCThomas
-ms.author: janet
+author: alexbuckgit
+ms.author: abuck
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: eee0bd9cb59b3deaf7aa87c0758dcd70c1cb51c8
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 54cc5a5d2438ddd0350cf3873c391d489f8df2e2
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85076217"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233908"
 ---
 # <a name="get-started-align-a-central-it-team"></a>Начало работы: Выровняйте центральную ИТ-группу
 
@@ -40,7 +40,7 @@ ms.locfileid: "85076217"
 
 ### <a name="strategic-tasks"></a>Стратегические задачи
 
-- Эксперт
+- Обзор.
   - Бизнес-результаты
   - Финансовые модели.
   - Мотивации для внедрения в облако.

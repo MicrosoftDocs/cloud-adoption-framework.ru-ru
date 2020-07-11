@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 1129098d5a99defd309c4a252991e31be623808f
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: ff5b2dba1cdb95cdcc007ba5cea52b86a902584d
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85075861"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233330"
 ---
 # <a name="get-started-build-a-cloud-governance-team"></a>Приступая к работе. Создание группы по управлению облаком
 
@@ -27,7 +27,7 @@ ms.locfileid: "85075861"
 **Результатам**
 
 - Определите, нужна ли вам группа по управлению облаком.
-- Задокументируйте решение и ответственных лиц в [шаблоне RACI (ответственный, учетный, просматривается и обучится)](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) на `Org Alignment` листе.
+- Выровняйте обязанности между командами, разработав межкомандную матрицу, которая определяет _ответственных, осведомленных, проконсультируйтесь и информированные (RACI)_ стороны. Задокументируйте решение и ответственных лиц, используя [шаблон RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) на `Org Alignment` листе.
 
 **Рекомендации по поддержке готовности к завершению.**
 

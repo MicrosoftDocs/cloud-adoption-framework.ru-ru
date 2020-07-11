@@ -1,18 +1,18 @@
 ---
 title: 'Начало работы: создание группы облачной платформы'
 description: Это поможет команде облачной платформы понять область, конечные результаты и предоставляемые ими возможности.
-author: JanetCThomas
-ms.author: janet
+author: alexbuckgit
+ms.author: abuck
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 28abe413c521bdb4915548fbdbafc8a0be4fc532
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 98fcaa9902b3572135856bfcd955c197a677b487
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85075656"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233211"
 ---
 # <a name="get-started-build-a-cloud-platform-team"></a>Начало работы: создание группы облачной платформы
 
@@ -26,7 +26,7 @@ ms.locfileid: "85075656"
 - [Microsoft Azure архитектура](https://www.pluralsight.com/courses/cloud-architecture-foundations)— Pluralsightный курс для архитекторов-заземлений в архитектуре Azure.
 - [Сетевые службы Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-networking). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
 
-Проверьте следующее:
+Ознакомьтесь со следующими сведениями:
 
 - [Бизнес-результаты](../../strategy/business-outcomes/index.md)
 - [Финансовые модели](../../strategy/financial-models.md)

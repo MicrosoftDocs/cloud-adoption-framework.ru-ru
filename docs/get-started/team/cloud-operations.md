@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 08090044ab0d97f8bdcf5258b0df0cbcb4c54bcd
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 27d633b20419b49e32ba1296318e67098d9a7ba9
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85075777"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233363"
 ---
 # <a name="get-started-build-a-cloud-operations-team"></a>Начало работы: создание группы облачных операций
 
@@ -29,7 +29,7 @@ ms.locfileid: "85075777"
 **Результатам**
 
 - Определите, нужна ли вам группа облачных операций.
-- Задокументируйте решение и ответственных лиц в [шаблоне RACI (ответственный, учетный, просматривается и обучится)](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) на `Org Alignment` листе.
+- Выровняйте обязанности между командами, разработав межкомандную матрицу, которая определяет _ответственных, осведомленных, проконсультируйтесь и информированные (RACI)_ стороны. Задокументируйте решение и ответственных лиц в [шаблоне RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) на `Org Alignment` листе.
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -197,7 +197,7 @@ ms.locfileid: "85075777"
 
 Как внедрение и масштабирование операций, важно определить и автоматизировать рекомендации по управлению, расширяющие существующие ИТ-требования. Формирование группы в облаке (Ккое) является важным шагом к масштабированию внедрения облака, облачных операций и действий по управлению облаком.
 
-См. также:
+Дополнительные сведения:
 
 - [Функции Cloud Center of Excellence](../../organize/cloud-center-of-excellence.md)
 - [Антишаблоны Организации: приемники и фиефдомс](../../organize/fiefdoms-silos.md)

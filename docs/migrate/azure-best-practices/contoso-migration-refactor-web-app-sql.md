@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: a3b3acd34131a9974703619fdea7bb55c3d9be6e
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: d56c39085124c821f7989389cda9aea7e4673141
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86192340"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86234775"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc smarthotel SHWEB SHWCF -->
 
@@ -62,7 +62,7 @@ ms.locfileid: "86192340"
   - База данных SQL Azure — это служба управляемой реляционной базы данных. Она обеспечивает прогнозируемую производительность на нескольких уровнях обслуживания с почти нулевым администрированием. Среди преимуществ: динамическая масштабируемость без простоя, встроенная интеллектуальная оптимизация, глобальная масштабируемость и доступность.
   - Компания Contoso может использовать упрощенный Помощник по миграции данных (DMA) для оценки локальной базы данных в Azure SQL.
   - Contoso может использовать Azure Database Migration Service для переноса локальной базы данных в SQL Azure.
-  - Software Assurance позволит Contoso приобрести Базу данных SQL по сниженной цене, воспользовавшись предложением "Преимущество гибридного использования Azure" для SQL Server. Это может обеспечить экономию до 30 %.
+  - Software Assurance позволит Contoso приобрести Базу данных SQL по сниженной цене, воспользовавшись предложением "Преимущество гибридного использования Azure" для SQL Server. Это может обеспечить экономию до 30%.
   - База данных SQL предоставляет такие функции безопасности, как Always Encrypted, динамическое Маскирование данных, безопасность на уровне строк и обнаружение угроз SQL.
 - Для веб-уровня приложения компания Contoso решила использовать службу приложений Azure. Эта служба PaaS позволяет развернуть приложение, используя лишь несколько изменений конфигурации. Contoso хочет использовать Visual Studio для внесения изменений и развертывания двух веб-приложений. Одно для веб-сайта, а другое для службы приложения WCF.
 - Для удовлетворения требований к DevOps конвейеру компания Contoso выбрала использование Azure DevOps для управления исходным кодом (SCM) с помощью git репозиториев. Автоматические сборки и выпуски будут использоваться для компиляции кода и развертывания его в Службе приложений Azure.
@@ -93,8 +93,8 @@ Contoso оценивает предлагаемый дизайн, составл
 | --- | --- | --- |
 | [Помощник по миграции данных (DMA)](https://docs.microsoft.com/sql/dma/dma-overview?view=ssdt-18vs2017) | DMA используется специалистами Contoso для оценки и выявления проблем совместимости, которые могут повлиять на функциональность базы данных в Azure. Помощник оценивает соотношение характеристик между источниками и целями SQL и предоставляет рекомендации по улучшению производительности и надежности. | Это средство можно загрузить бесплатно. |
 | [Миграция баз данных Azure](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
-| [База данных SQL Azure](https://docs.microsoft.com/azure/azure-sql/database/sql-database-paas-overview) | Интеллектуальная полностью управляемая реляционная служба облачной базы данных. | Стоимость зависит от функций, пропускной способности и размера. [Подробнее](https://azure.microsoft.com/pricing/details/sql-database/managed). |
-| [Служба приложений Azure](https://docs.microsoft.com/azure/app-service/overview) | Создание мощных облачных приложений с помощью полностью управляемой платформы | Стоимость зависит от размера, расположения и длительности использования. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows). |
+| [База данных SQL Azure](https://docs.microsoft.com/azure/azure-sql/database/sql-database-paas-overview) | Интеллектуальная полностью управляемая реляционная служба облачной базы данных. | Стоимость зависит от функций, пропускной способности и размера. [Подробнее.](https://azure.microsoft.com/pricing/details/sql-database/managed) |
+| [Служба приложений Azure](https://docs.microsoft.com/azure/app-service/overview) | Создание мощных облачных приложений с помощью полностью управляемой платформы | Стоимость зависит от размера, расположения и длительности использования. [Подробнее.](https://azure.microsoft.com/pricing/details/app-service/windows) |
 | [Azure DevOps](https://docs.microsoft.com/azure/azure-portal/tutorial-azureportal-devops) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер начинается с репозитория Git для управления кодом приложения, системы сборки для создания пакетов и других артефактов сборки, а также системы управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде. |
 
 ## <a name="prerequisites"></a>Предварительные требования
@@ -103,7 +103,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 | Требования | Сведения |
 | --- | --- |
-| **Подписка Azure.** | Компания Contoso уже создала подписки (это описывается в одной из предыдущих статей этой серии). Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника. |
+| **Подписка Azure.** | Компания Contoso уже создала подписки (это описывается в одной из предыдущих статей этой серии). Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника. |
 | **Инфраструктура Azure** | [Узнайте, как](./contoso-migration-infrastructure.md) компания Contoso настраивает инфраструктуру Azure. |
 
 ## <a name="scenario-steps"></a>Шаги выполнения сценария
@@ -268,7 +268,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 9. Они задают имя конвейера выпуска `ContosoSmartHotel360Refactor` и указывают имя веб-приложения WCF ( `SHWCF-EUS2` ) для имени **этапа** .
 
-    ![Environment](./media/contoso-migration-refactor-web-app-sql/pipeline9.png)
+    ![Среда](./media/contoso-migration-refactor-web-app-sql/pipeline9.png)
 
 10. В разделе этапов они выбирают **1 задание, 1 задача**, чтобы настроить развертывание службы приложения WCF.
 
@@ -280,7 +280,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 12. В конвейере > **артефакты**выберите **+ Добавить артефакт**, а затем выберите для построения с помощью `ContosoSmarthotel360Refactor` конвейера.
 
-     ![Построение](./media/contoso-migration-refactor-web-app-sql/pipeline12.png)
+     ![Сборка](./media/contoso-migration-refactor-web-app-sql/pipeline12.png)
 
 13. Они проверяют, что артефакт включен, чтобы включить триггер непрерывного развертывания.
 
@@ -343,14 +343,14 @@ Contoso оценивает предлагаемый дизайн, составл
 
 ### <a name="security"></a>Безопасность
 
-- Компания Contoso должна обеспечить `SmartHotel-Registration` безопасность новой базы данных. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview).
+- Компания Contoso должна обеспечить `SmartHotel-Registration` безопасность новой базы данных. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview)
 - В частности, компании Contoso нужно обновить веб-приложения для использования SSL с сертификатами.
 
 ### <a name="backups"></a>Резервные копии
 
-- Contoso следует рассмотреть требования резервного копирования для базы данных SQL Azure. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
+- Contoso следует рассмотреть требования резервного копирования для базы данных SQL Azure. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups)
 - Contoso также потребуются дополнительные сведения об управлении резервным копированием и восстановлением Базы данных SQL. См. [дополнительные сведения](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) об автоматическом резервном копировании.
-- Компании Contoso нужно рассмотреть реализацию групп отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview).
+- Компании Contoso нужно рассмотреть реализацию групп отработки отказа для обеспечения отказоустойчивости в регионе для базы данных. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview)
 - Компания Contoso должна рассмотреть возможность развертывания веб-приложения в основном регионе ( `East US 2` ) и в регионе дополнительного региона ( `Central US` ) для обеспечения устойчивости. Компания Contoso может настроить диспетчер трафика, чтобы обеспечить отработку отказа во время региональных сбоев.
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат

@@ -7,12 +7,12 @@ ms.date: 03/03/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6a446bc43ca458f65b7b293468e60b7a8dc11097
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 6ea44ec9861e92b6fda60be99c1b2aab0b413b47
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194210"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86235064"
 ---
 # <a name="workload-classification-before-migration"></a>Классификация рабочей нагрузки перед миграцией
 

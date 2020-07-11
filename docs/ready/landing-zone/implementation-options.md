@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 02f7a5c991a09557f2608bb70cbb3972ee667ad8
-ms.sourcegitcommit: 4bbd5f6444d033ef1f38dc6f3bad7b914a82f68f
+ms.openlocfilehash: ea137df62336139abf7a6a90b47f33ee710854be
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/08/2020
-ms.locfileid: "86128029"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86235234"
 ---
 # <a name="landing-zone-implementation-options"></a>Параметры реализации зоны размещения
 
@@ -32,10 +32,8 @@ ms.locfileid: "86128029"
 
 Ниже приведены некоторые варианты реализации зон размещения и переменные, которые могут поспособствовать принятию решения.
 
-<!-- docsTest:ignore "CAF Terraform" -->
-
 | Параметр реализации | Описание | Скорость развертывания | Более глубокие принципы разработки | Инструкции по развертыванию |
-|---|---|---|---|---|---|---|---|
+|---|---|---|---|---|
 | [Схема зоны размещения для миграции в соответствии с CAF](./migrate-landing-zone.md) | Развертывает базовую основу для переноса ресурсов с низким риском. | Запустить мелкий | [Принципы проектирования](./migrate-landing-zone.md#design-principles) | [Развертывание](./migrate-landing-zone.md) |
 | [Схема CAF Foundation](./foundation-blueprint.md) | Добавляет минимальные инструменты, необходимые для разработки стратегии управления. | Запустить мелкий | [Принципы проектирования](./foundation-blueprint.md#design-principles) | [Развертывание](./foundation-blueprint.md) |
 | [Целевая зона CAF корпоративного уровня](./enterprise-scale.md) | Развертывает готовую к использованию платформу Enterprise Foundation со всеми необходимыми общими службами для поддержки полноценного ИТ-портфеля. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) |

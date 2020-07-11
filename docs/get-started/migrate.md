@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: d328511742fe63d540e51025f636d56070857abd
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 2e20b63bed8ef337f89546049632dd2c8babf539
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86193904"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233551"
 ---
 # <a name="get-started-accelerate-migration"></a>Начало работы. Ускорение миграции
 
@@ -31,7 +31,7 @@ ms.locfileid: "86193904"
 
 Если ваш сценарий миграции нетипичен, вы можете получить персонализированную оценку готовности к переносу вашей организации с помощью [оценки средства стратегического переноса и подготовки (Smart)](https://docs.microsoft.com/assessments/?id=strategic-migration-assessment). Используйте его для указания рекомендаций, которые лучше удовлетворяют текущим потребностям.
 
-## <a name="get-started"></a>Начало работы
+## <a name="get-started"></a>Приступая к работе
 
 Технические усилия и процесс, необходимые для миграции рабочих нагрузок, относительно просты. Очень важно выполнить процесс миграции эффективно. Уровень готовности к миграции еще больше влияет на временные шкалы и успешное завершение общей миграции.
 

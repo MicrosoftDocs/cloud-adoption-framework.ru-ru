@@ -1,18 +1,18 @@
 ---
 title: Обзор примеров переноса приложений для Azure
-description: Содержит обзор примеров переноса приложений, входящих в состав раздела "Миграция" положений Cloud Adoption Framework.
+description: Содержит общие сведения о примерах миграции приложений, входящих в состав методологии миграции в облачной инфраструктуре внедрения.
 author: deltadan
 ms.author: abuck
 ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 799f95cdbc17bc5e9d7f41860294232af594231f
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 7f6789a390d38b902ec8b7d64ac20b51557f86ca
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86192591"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233568"
 ---
 # <a name="overview-of-application-migration-examples-for-azure"></a>Обзор примеров переноса приложений для Azure
 
@@ -76,21 +76,21 @@ Azure распознает, что даже со всеми преимущест
 
 | Статья | Сведения |
 | --- | --- |
-| [Миграция баз данных с открытым исходным кодом в Azure](./contoso-migration-oss-db-to-azure.md) | В этой статье показано, как вымышленная компания Contoso оценивает, планирует и переносит свои различные локальные базы данных с открытым исходным кодом в Azure. |
+| [Перенос баз данных с открытым исходным кодом в Azure](./contoso-migration-oss-db-to-azure.md) | В этой статье показано, как вымышленная компания Contoso оценивает, планирует и переносит свои различные локальные базы данных с открытым исходным кодом в Azure. |
 | [Перенос MySQL в Azure](./contoso-migration-mysql-to-azure.md) | В этой статье показано, как вымышленная компания Contoso планирует и перенеса свою локальную платформу базы данных MySQL с открытым исходным кодом в Azure. |
 | [Миграция PostgreSQL в Azure](./contoso-migration-postgresql-to-azure.md) | В этой статье показано, как вымышленная компания Contoso планирует и перенеса свою локальную платформу базы данных PostgreSQL с открытым исходным кодом в Azure. |
 | [Миграция MariaDB в Azure](./contoso-migration-mariadb-to-azure.md) | В этой статье показано, как вымышленная компания Contoso планирует и перенеса свою локальную платформу базы данных MariaDB с открытым исходным кодом в Azure. |
 | [Повторное размещение приложения Linux на виртуальных машинах Azure и в базе данных Azure для MySQL](./contoso-migration-rehost-linux-vm-mysql.md) | В этой статье приведен пример переноса приложения, размещенного в Linux, на виртуальные машины Azure с помощью службы "миграция Azure". Она переносит базу данных приложения в базу данных Azure для MySQL с помощью [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview). |
 | [Повторное размещение приложения Linux на виртуальных машинах Azure](./contoso-migration-rehost-linux-vm.md) | В этом примере показано, как выполнить перенос приложения на основе Linux с помощью миграции на виртуальные машины Azure при помощи службы "миграция Azure". |
 
-### <a name="devtest"></a>для разработки и тестирования;
+### <a name="devtest-workloads"></a>Для рабочих нагрузок разработки и тестирования
 
 | Статья | Сведения |
 | --- | --- |
 | [Перенос сред разработки и тестирования в Azure IaaS](./contoso-migration-devtest-to-iaas.md) | В этой статье показано, как Contoso перемещает среду разработки и тестирования для двух приложений, работающих на виртуальных машинах VMware, путем перехода на виртуальные машины Azure. |
 | [Переход на Azure DevTest Labs](./contoso-migration-devtest-to-labs.md) | В этой статье описывается, как компания Contoso перемещает рабочие нагрузки для разработки и тестирования в Azure с помощью DevTest Labs. |
 
-### <a name="aspnet-php-web-apps"></a>ASP.NET, веб-приложения PHP
+### <a name="aspnet-and-php-web-apps"></a>Веб-приложения ASP.NET и PHP
 
 | Статья | Сведения |
 | --- | --- |
@@ -98,7 +98,7 @@ Azure распознает, что даже со всеми преимущест
 | [Рефакторинг приложения Windows с помощью службы приложений Azure и Управляемый экземпляр SQL](./contoso-migration-refactor-web-app-sql-managed-instance.md) | В этом примере показано, как перенести локальное приложение на основе Windows в веб-приложение Azure и перенести базу данных приложения в Управляемый экземпляр Azure SQL с помощью [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview). |
 | [Рефакторинг приложения Linux в нескольких регионах с помощью службы приложений Azure, диспетчера трафика и базы данных Azure для MySQL](./contoso-migration-refactor-linux-app-service-mysql.md) | В этом примере показано, как перенести локальное приложение на основе Linux в веб-приложение Azure в нескольких регионах Azure, а также с помощью интеграции диспетчера трафика Azure с GitHub для непрерывной доставки. База данных приложения переносится в экземпляр базы данных Azure для MySQL. |
 | [Перестроение приложения в Azure](./contoso-migration-rebuild.md) | В этой статье приведен пример перестроения локального приложения с помощью ряда возможностей Azure и управляемых служб, включая службу приложений Azure, AKS, функции Azure, Cognitive Services и Azure Cosmos DB. |
-| [Рефакторинг Team Foundation Server Azure DevOps Services](./contoso-migration-tfs-vsts.md) | В этой статье показан пример переноса локального развертывание Team Foundation Server в Azure DevOps Services в Azure. |
+| [Рефакторинг Team Foundation Server для Azure DevOps Services](./contoso-migration-tfs-vsts.md) | В этой статье показан пример переноса локального развертывание Team Foundation Server в Azure DevOps Services в Azure. |
 
 ### <a name="sap"></a>SAP
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 0f5735a9b61f2ab59ff129ef37b3ee1e90a4c40d
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: a23b0355fab1f921935f109ce77c0fd79d49cda5
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86198708"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86233619"
 ---
 <!-- cSpell:ignore mysqldump InnoDB binlog Navicat -->
 
@@ -119,7 +119,7 @@ Contoso потребуется настроить подключение шлю�
 - Убедитесь, что выполнены все необходимые условия для миграции.
 
   - Источник сервера базы данных MySQL должен соответствовать версии, поддерживаемой базой данных Azure для MySQL. База данных Azure для MySQL поддерживает выпуск MySQL Community, подсистему хранилища InnoDB и миграцию на исходном и целевом компьютерах с одинаковыми версиями.
-  - Включение двоичного входа в систему `my.ini` (Windows) или `my.cnf` (UNIX). В противном случае в мастере миграции произойдет следующая ошибка: `error in binary logging. Variable binlog_row_image has value 'minimal'. Please change it to 'full'. For more information, see https://go.microsoft.com/fwlink/?linkid=873009` .
+  - Включение двоичного входа в систему `my.ini` (Windows) или `my.cnf` (UNIX). В противном случае в мастере миграции произойдет следующая ошибка: `Error in binary logging. Variable binlog_row_image has value 'minimal'. Please change it to 'full'. For more information, see https://go.microsoft.com/fwlink/?linkid=873009` .
   - Пользователь должен иметь `ReplicationAdmin` роль.
   - Перенесите схемы базы данных без внешних ключей и триггеров.
 

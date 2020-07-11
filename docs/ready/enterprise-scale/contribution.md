@@ -1,18 +1,18 @@
 ---
 title: Рекомендации по публикации
 description: Рекомендации по публикации.
-author: BrianBlanchard
-ms.author: brblanch
+author: alexbuckgit
+ms.author: abuck
 ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 9c5dc6a16fb6e24b498921f0e21c29d45545f8d6
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: cc9676ec0e35cbb75b1884524d8c23b87c174460
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194771"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86235115"
 ---
 # <a name="contribution-guide"></a>Рекомендации по публикации
 
@@ -152,7 +152,7 @@ Get-AzResource -ResourceId '/providers/Microsoft.Management/managementGroups/con
 
 - Не отправляйте запрос на включение внесенных изменений с шаблоном и файлом параметров для развертывания ресурсов (например, хранилища ключей) или создания собственной иерархии групп управления за пределами описанных в сквозной зоне.
 
-Пример.
+Пример:
 
 ```json
 {
