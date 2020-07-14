@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: f7196c8348c7559cec2c5544cb7a4bb0223778f6
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: a726d8eeeb572ce64cf905c3b40932c58ffd1b92
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85076663"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86191932"
 ---
 # <a name="subscription-decision-guide"></a>Руководство по выбору модели подписки
 
@@ -34,7 +34,7 @@ ms.locfileid: "85076663"
 Принимать окончательное решение о модели подписок следует с учетом требований к [согласованности ресурсов](../resource-consistency/index.md).
 
 > [!NOTE]
-> Соглашения Azure Enterprise (EA) позволяют определить другую иерархию для выставления счетов в организации. Эта иерархия отличается от иерархии групп управления, которая ориентирована на реализацию модели наследования для быстрого применения подходящих политик и средств управления доступом к ресурсам.
+> Соглашение Azure Enterprise (EA) позволяет определить другую иерархию для выставления счетов в организации. Эта иерархия отличается от иерархии групп управления, которая ориентирована на реализацию модели наследования для быстрого применения подходящих политик и средств управления доступом к ресурсам.
 
 ## <a name="subscription-design-strategies"></a>Стратегии проектирования подписок
 

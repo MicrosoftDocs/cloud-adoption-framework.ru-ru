@@ -1,4 +1,4 @@
-# docsTest:ignore "NET Core" "Cloud Operating Model" "Virtual Datacenter" Framework
+# docsTest:ignore "NET Core" "Cloud Operating Model" "Virtual Datacenter" Framework app
 items:
   - name: Cloud Adoption Framework для Azure
     href: index.yml
@@ -355,14 +355,86 @@ items:
                 items:
                   - name: Повторное размещение приложения Windows на виртуальных машинах Azure
                     href: migrate/azure-best-practices/contoso-migration-rehost-vm.md
-              - name: Рабочие нагрузки Linux
+              - name: Рабочие нагрузки SQL Server
                 items:
+                  - name: Перенос баз данных SQL Server в Azure
+                    href: migrate/azure-best-practices/contoso-migration-sql-server-db-to-azure.md
+                  - name: Повторное размещение приложения на виртуальных машинах Azure и в Управляемом экземпляре Azure SQL
+                    href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md
+                  - name: Повторное размещение приложения на виртуальных машинах Azure и в группе доступности AlwaysOn SQL Server
+                    href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-ag.md
+              - name: Linux и базы данных с открытым кодом
+                items:
+                  - name: Перенос баз данных с открытым кодом в Azure
+                    href: migrate/azure-best-practices/contoso-migration-oss-db-to-azure.md
+                  - name: Миграция из MySQL в Azure
+                    href: migrate/azure-best-practices/contoso-migration-mysql-to-azure.md
+                  - name: Миграция из PostgreSQL в Azure
+                    href: migrate/azure-best-practices/contoso-migration-postgresql-to-azure.md
+                  - name: Миграция из MariaDB в Azure
+                    href: migrate/azure-best-practices/contoso-migration-mariadb-to-azure.md
                   - name: Повторное размещение приложения Linux на виртуальных машинах Azure
                     href: migrate/azure-best-practices/contoso-migration-rehost-linux-vm.md
                   - name: Повторное размещение локального приложения Linux на виртуальных машинах Azure и в Базе данных Azure для MySQL
                     href: migrate/azure-best-practices/contoso-migration-rehost-linux-vm-mysql.md
-                  - name: Рефакторинг приложения Linux в Службе приложений Azure и Базе данных Azure для MySQL
+              - name: Рабочие нагрузки разработки и тестирования
+                items:
+                  - name: Перенос сред разработки и тестирования в Azure IaaS
+                    href: migrate/azure-best-practices/contoso-migration-devtest-to-iaas.md
+                  - name: Миграция в Azure DevTest Labs
+                    href: migrate/azure-best-practices/contoso-migration-devtest-to-labs.md
+              - name: Веб-приложения ASP.NET и PHP
+                items:
+                  - name: Рефакторинг приложения Windows в Службе приложений и Базе данных SQL Azure
+                    href: migrate/azure-best-practices/contoso-migration-refactor-web-app-sql.md
+                  - name: Рефакторинг приложения Windows в Службе приложений и Управляемом экземпляре SQL
+                    href: migrate/azure-best-practices/contoso-migration-refactor-web-app-sql-managed-instance.md
+                  - name: Рефакторинг приложения Linux в Службе приложений и MySQL
                     href: migrate/azure-best-practices/contoso-migration-refactor-linux-app-service-mysql.md
+                  - name: Перестроение приложения в Azure
+                    href: migrate/azure-best-practices/contoso-migration-rebuild.md
+                  - name: Рефакторинг Team Foundation Server в Azure DevOps Services
+                    href: migrate/azure-best-practices/contoso-migration-tfs-vsts.md
+              - name: Приложения Java
+                items:
+                  - name: Общие сведения о переносе
+                    href: 'https://docs.microsoft.com/azure/java/migration-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Переход из Spring в Службу приложений Azure
+                    href: 'https://docs.microsoft.com/azure/java/migrate-java-se-to-java-se-app-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Перенос Tomcat в Службу приложений Azure
+                    href: 'https://docs.microsoft.com/azure/java/migrate-tomcat-to-tomcat-app-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Перенос Tomcat в контейнеры в AKS
+                    href: 'https://docs.microsoft.com/azure/java/migrate-tomcat-to-containers-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Переход из WebLogic в Виртуальные машины Azure
+                    href: 'https://docs.microsoft.com/azure/java/migrate-weblogic-to-virtual-machines?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Переход с WildFly на WildFly в AKS
+                    href: 'https://docs.microsoft.com/azure/java/migrate-wildfly-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Переход с WebLogic на WildFly в AKS
+                    href: 'https://docs.microsoft.com/azure/java/migrate-weblogic-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Переход с WebSphere на WildFly в AKS
+                    href: 'https://docs.microsoft.com/azure/java/migrate-websphere-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                  - name: Переход с JBoss EAP на WildFly в AKS
+                    href: 'https://docs.microsoft.com/azure/java/migrate-jboss-eap-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+              - name: SAP
+                items:
+                  - name: Руководство по миграции SAP
+                    href: 'https://azure.microsoft.com/resources/sap-on-azure-implementation-guide'
+                  - name: Перенос приложений SAP в Azure
+                    href: 'https://azure.microsoft.com/resources/migrating-sap-applications-to-azure'
+                  - name: Методики миграции для SAP в Azure
+                    href: 'https://azure.microsoft.com/resources/migration-methodologies-for-sap-on-azure'
+              - name: Специализированные рабочие нагрузки
+                items:
+                  - name: Перемещение локальной инфраструктуры VMware в Azure
+                    href: migrate/azure-best-practices/contoso-migration-vmware-to-azure.md
+                  - name: Azure NetApp Files
+                    href: 'https://azure.microsoft.com/services/netapp'
+                  - name: Oracle в Azure
+                    href: 'https://azure.microsoft.com/solutions/oracle'
+                  - name: Cray в Azure
+                    href: 'https://azure.microsoft.com/solutions/high-performance-computing/cray'
+                  - name: VDI
+                    href: migrate/azure-best-practices/contoso-migration-rds-to-wvd.md
               - name: Узлы VMware
                 items:
                   - name: Рекомендации по повторному размещению VMware
@@ -419,42 +491,6 @@ items:
                         href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-zerto?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Настройка частного облака CloudSimple в качестве сайта аварийного восстановления с помощью VMware SRM
                         href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-site-recovery-manager?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-              - name: Приложения ASP.NET
-                items:
-                  - name: Рефакторинг приложения в Службе приложений Azure и Базе данных SQL Azure
-                    href: migrate/azure-best-practices/contoso-migration-refactor-web-app-sql.md
-                  - name: Рефакторинг приложения в Службу приложений Azure и Управляемый экземпляр SQL Azure
-                    href: migrate/azure-best-practices/contoso-migration-refactor-web-app-sql-managed-instance.md
-                  - name: Перестроение приложения в Службе приложений Azure
-                    href: migrate/azure-best-practices/contoso-migration-rebuild.md
-                  - name: Рефакторинг Team Foundation Server в Azure DevOps Services
-                    href: migrate/azure-best-practices/contoso-migration-tfs-vsts.md
-              - name: Приложения Java
-                items:
-                  - name: Общие сведения о переносе
-                    href: 'https://docs.microsoft.com/azure/java/migration-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                  - name: Переход из Spring в Службу приложений Azure
-                    href: 'https://docs.microsoft.com/azure/java/migrate-java-se-to-java-se-app-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                  - name: Перенос Tomcat в Службу приложений Azure
-                    href: 'https://docs.microsoft.com/azure/java/migrate-tomcat-to-tomcat-app-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                  - name: Перенос Tomcat в контейнеры в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-tomcat-to-containers-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                  - name: Переход из WebLogic в Виртуальные машины Azure
-                    href: 'https://docs.microsoft.com/azure/java/migrate-weblogic-to-virtual-machines?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                  - name: Переход с WildFly на WildFly в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-wildfly-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                  - name: Переход с WebLogic на WildFly в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-weblogic-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                  - name: Переход с WebSphere на WildFly в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-websphere-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-                  - name: Переход с JBoss EAP на WildFly в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-jboss-eap-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-              - name: "SQL\_Server"
-                items:
-                  - name: Повторное размещение приложения на виртуальных машинах Azure и в Управляемом экземпляре Azure SQL
-                    href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md
-                  - name: Повторное размещение приложения на виртуальных машинах Azure и в группе доступности AlwaysOn SQL Server
-                    href: migrate/azure-best-practices/contoso-migration-rehost-vm-sql-ag.md
               - name: Платформы данных
                 items:
                   - name: Обзор

@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 010af9c5f3988c3a4cef05a1d9e3284e1d550675
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 321ce198cf4e2ad4486719e1702266540313277a
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194363"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86235387"
 ---
 # <a name="prerequisites-for-migration"></a>Предварительные требования для миграции
 
@@ -24,7 +24,7 @@ ms.locfileid: "86194363"
 
 ## <a name="review-business-drivers"></a>Оценка бизнес-факторов
 
-Прежде чем начинать миграцию в облако, изучите рекомендации по [планированию](../../../strategy/index.md) и [готовности](../../../ready/index.md) в Cloud Adoption Framework, чтобы правильно подготовить организацию к процессам внедрения облака и миграции. В частности, изучите бизнес-требования и предполагаемые результаты, которые определяют потребность в миграции.
+Прежде чем начинать миграцию в облако, изучите [методику планирования](../../../plan/index.md) и [методику подготовки](../../../ready/index.md) в Cloud Adoption Framework, чтобы правильно подготовить свою организацию к внедрению облака и миграции. В частности, изучите бизнес-требования и предполагаемые результаты, которые определяют потребность в миграции.
 
 - [Начало работы. Ускорение миграции](../../../get-started/migrate.md)
 - [Почему мы переходим к облаку?](../../../strategy/motivations.md)

@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: c118a09f2d233ebc2123c3b66128291bf06e14a3
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: b4ae03f1bba5da8f39d67f4bdcf1b5f36ae213ad
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194448"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86234928"
 ---
 # <a name="deploy-workloads"></a>Развертывание рабочих нагрузок
 
@@ -44,7 +44,7 @@ _Определение готовности_ может отличаться в
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Получив общее представление о процессе миграции, вы готовы [выбрать модель распространения](./promotion-models.md).
+Получив общее представление о процессе миграции, вы готовы [выбрать модель повышения уровня](./promotion-models.md).
 
 > [!div class="nextstepaction"]
 > [Выбор модели распространения](./promotion-models.md)
