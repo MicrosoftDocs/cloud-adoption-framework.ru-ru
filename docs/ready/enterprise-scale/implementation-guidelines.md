@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 53763005953c65c8a009fd8b4bbc1a4ada96769a
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: 5fee6cc6eefb8529209172d40d6fc3aa73ef8bc3
+ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86235081"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86373175"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
@@ -145,7 +145,7 @@ ms.locfileid: "86235081"
 
 | Имя                         | Описание                                                               |
 |------------------------------|---------------------------------------------------------------------------|
-| [`DataProtectionSecurityCenter`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-DataProtectionSecurityCenter.parameters.json) | Защита данных автоматически создается центром безопасности Azure. |
+| [`DataProtectionSecurityCenter`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState) | Защита данных автоматически создается центром безопасности Azure. |
 | [`Deploy-VNet-Identity`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560/contoso/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-vNet.parameters.json) | Развертывает виртуальную сеть в подписке по удостоверениям для размещения (например, DC). |
 
 ### <a name="platform-management-and-monitoring"></a>Управление платформой и мониторинг
