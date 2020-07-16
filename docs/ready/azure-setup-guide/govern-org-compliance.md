@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 9465a5889f70fa95f8570cd7ffd746b40462fa6e
-ms.sourcegitcommit: 568037e0d2996e4644c11eb61f96362a402759ec
+ms.openlocfilehash: 3725963273a870cb753f3c939fbf69f5f8dc36b6
+ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84800016"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86373090"
 ---
 <!-- cSpell:ignore tvuylsteke >
 
@@ -24,7 +24,7 @@ ms.locfileid: "84800016"
 
 При создании корпоративной политики и планировании стратегий управления вы можете использовать средства и службы, такие как Политика Azure, Azure Blueprints и Центр безопасности Azure, для применения и автоматизации решений по управлению вашей организацией. Прежде чем приступить к планированию управления, [используйте средство тестирования производительности системы управления](https://cafbaseline.com). Они помогут выделить потенциальные промахи в подходе к облачному управлению в вашей организации. Дополнительные сведения о разработке процессов управления см. в статье о [методике управления](../../govern/index.md).
 
-# <a name="azure-blueprints"></a>[Azure Blueprints](#tab/AzureBlueprints)
+## <a name="azure-blueprints"></a>[Azure Blueprints](#tab/AzureBlueprints)
 
 Служба Azure Blueprints позволяет облачным архитекторам и центральным ИТ-группам определять воспроизводимый набор ресурсов Azure, который реализует стандарты, шаблоны и требования организации и полностью соответствует им. С помощью Azure Blueprints группы разработчиков могут быстро создавать и настраивать новые среды в соответствии с требованиями организации и с использованием ряда встроенных компонентов, таких как сети, для ускорения разработки и поставки.
 
@@ -35,7 +35,7 @@ ms.locfileid: "84800016"
 - Шаблоны Azure Resource Manager.
 - Группы ресурсов.
 
-## <a name="create-a-blueprint"></a>Создание схемы
+### <a name="create-a-blueprint"></a>Создание схемы
 
 Чтобы создать схему, сделайте следующее:
 
@@ -65,7 +65,7 @@ ms.locfileid: "84800016"
 
 ::: zone-end
 
-## <a name="publish-a-blueprint"></a>Публикация схемы
+### <a name="publish-a-blueprint"></a>Публикация схемы
 
 Чтобы опубликовать артефакты схемы в подписке, сделайте следующее:
 
@@ -91,7 +91,7 @@ ms.locfileid: "84800016"
 
 ::: zone target="docs"
 
-## <a name="learn-more"></a>Дополнительные сведения
+### <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
@@ -101,7 +101,7 @@ ms.locfileid: "84800016"
 
 ::: zone-end
 
-# <a name="azure-policy"></a>[Политика Azure](#tab/AzurePolicy)
+## <a name="azure-policy"></a>[Политика Azure](#tab/AzurePolicy)
 
 "Политика Azure" — это служба, которая используется для создания и назначения политик, а также управления ими. Эти политики применяют к ресурсам правила, чтобы ресурсы соответствовали корпоративным стандартам и соглашениям об уровне обслуживания. Политика Azure проверяет ресурсы и определяет те из них, которые не соответствуют установленным политикам. Например, можно настроить политику, которая разрешает использовать в среде только определенные размеры виртуальных машин. Если вы внедрили эту политику, она оценивает существующие виртуальные машины, запущенные в вашей среде, а также все новые виртуальные машины, которые вы развертываете. В результате оценки политики генерируются события соответствия, которые можно использовать для мониторинга и отчетов.
 
@@ -114,7 +114,7 @@ ms.locfileid: "84800016"
 
 ::: zone target="chromeless"
 
-## <a name="action"></a>Действие
+### <a name="action"></a>Действие
 
 Назначение встроенной политики для группы управления, подписки или группы ресурсов.
 
@@ -124,14 +124,14 @@ ms.locfileid: "84800016"
 
 ::: zone target="docs"
 
-## <a name="apply-a-policy"></a>Применение политики
+### <a name="apply-a-policy"></a>Применение политики
 
 Чтобы применить политику к группе ресурсов, сделайте следующее:
 
 1. Перейдите в раздел [Политика Azure](https://portal.azure.com/#blade/Microsoft_Azure_Policy/PolicyMenuBlade/GettingStarted).
 1. Щелкните **Assign a policy** (Назначить политику).
 
-## <a name="learn-more"></a>Дополнительные сведения
+### <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
@@ -140,7 +140,7 @@ ms.locfileid: "84800016"
 
 ::: zone-end
 
-# <a name="azure-security-center"></a>[Центр безопасности Azure](#tab/AzureSecurityCenter)
+## <a name="azure-security-center"></a>[Центр безопасности Azure](#tab/AzureSecurityCenter)
 
 Центр безопасности Azure играет важную роль в стратегии управления. Он позволяет управлять всеми вопросами безопасности, потому что он:
 
@@ -158,7 +158,7 @@ ms.locfileid: "84800016"
 
 Чтобы ознакомиться с Центром безопасности Azure, перейдите на [портал Azure](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/SecurityMenuBlade/0).
 
-## <a name="learn-more"></a>Дополнительные сведения
+### <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения см. на следующих ресурсах:
 
@@ -171,7 +171,7 @@ ms.locfileid: "84800016"
 
 ::: zone target="chromeless"
 
-## <a name="action"></a>Действие
+### <a name="action"></a>Действие
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Security/SecurityMenuBlade/SecurityMenuBlade/0]" submitText="Explore Azure Security Center" :::
 

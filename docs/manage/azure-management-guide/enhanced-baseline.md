@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 0086b76c93a6a1491b7715ca568a43bdc40c1ab0
-ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
+ms.openlocfilehash: 3cf2d02139061841d188271c61011b2439ae14db
+ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "84992869"
+ms.lasthandoff: 07/10/2020
+ms.locfileid: "86234027"
 ---
 <!-- cSpell:ignore ITSMC -->
 
@@ -35,7 +35,7 @@ ms.locfileid: "84992869"
 - **Операции рабочих нагрузок.**
   - Большие инвестиции на каждую операцию рабочей нагрузки.
   - Максимальная степень устойчивости.
-  - Рекомендуется приблизительно для 20 % рабочих нагрузок, которые обеспечивают ценность бизнеса.
+  - Рекомендуется приблизительно для 20 % рабочих нагрузок, которые обеспечивают рентабельность.
   - Обычно зарезервировано для обеспечения критически важных рабочих нагрузок.
 - **Операции платформы.**
   - Инвестиции в операции распределяются по нескольким рабочим нагрузкам.

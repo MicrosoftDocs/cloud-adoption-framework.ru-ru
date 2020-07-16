@@ -9,24 +9,14 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: db526c15a4e33f9531a404c8c257d9c6b5b90261
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 257c02ae6ac6fcb878386ca64897ec44352b68ad
+ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222323"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86373328"
 ---
-::: zone target="docs"
-
-# <a name="azure-innovation-guide-prepare-for-customer-feedback"></a>Руководство по инновациям Azure. Подготовка к сбору отзывов клиентов
-
-::: zone-end
-
-::: zone target="chromeless"
-
 # <a name="prepare-for-customer-feedback"></a>Подготовка к сбору отзывов клиентов
-
-::: zone-end
 
 Внедрение, вовлечение и удержание пользователей вместе — залог успешной инновации. Почему?
 
@@ -88,7 +78,7 @@ Application Insights — это инструмент отслеживания, 
 
 1. Щелкните **Службы управления API**.
 2. Выберите нужный API из списка.
-3. В разделе **Мониторинг** выберите **Параметры диагностики**.
+3. В разделе **Мониторинг** выберите элемент **Параметры диагностики**.
 
 Чтобы просмотреть количественные данные об API, выполните следующие действия:
 
@@ -124,7 +114,7 @@ Application Insights — это инструмент отслеживания, 
 
 ### <a name="action"></a>Действие
 
-Для Azure Boards и Azure Pipelines нужен портал, отдельный от GitHub и Azure. Приступайте к работе с [Azure DevOps Services](https://azure.microsoft.com/services/devops).
+Для Azure Boards и Azure Pipelines нужен портал, отдельный от GitHub и Azure. Приступайте к работе с [Azure DevOps Services](https://docs.microsoft.com/azure/devops/user-guide/what-is-azure-devops?view=azure-devops).
 
 ::: zone-end
 

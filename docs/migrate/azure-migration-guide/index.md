@@ -9,14 +9,14 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 794f500b50a4376cc52861a61dbc70a8a9197114
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: 22da52f3cdec09d3337c320875076c579bb5bb61
+ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86233721"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86373158"
 ---
-# <a name="azure-migration-guide-before-you-start"></a>Руководство по миграции Azure: Перед началом работы
+# <a name="azure-migration-guide-overview"></a>Обзор руководств по миграции Azure
 
 [Методика миграции Cloud Adoption Framework](../index.md) предоставляет читателям инструкции по итеративному переносу одной рабочей нагрузки или небольшого набора рабочих нагрузок в каждом выпуске. В ходе каждой итерации необходимо выполнить оценку, миграцию, оптимизацию и повышения уровня, чтобы подготовить рабочие нагрузки к выполнению в рабочей среде. Эти независимые от облака инструкции можно использовать при миграции в среду любого поставщика облачных служб.
 

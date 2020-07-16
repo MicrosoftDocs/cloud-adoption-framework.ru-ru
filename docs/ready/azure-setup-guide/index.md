@@ -9,27 +9,21 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: b634f09d11cccf6b1c75fc53441dde79106dadb5
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: c17aa1a2f12a7949792229665aa73884deb63ac8
+ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83756385"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86373362"
 ---
 <!-- cSpell:ignore timleyden -->
 
-::: zone target="docs"
+# <a name="azure-setup-guide-overview"></a>Обзор руководства по установке Azure
 
-# <a name="azure-setup-guide-before-you-start"></a>Руководство по настройке Azure. Перед началом работы
+::: zone target="docs"
 
 > [!NOTE]
 > Это руководство включает рекомендации по подготовке к работе в соответствии с Cloud Adoption Framework. Оно также доступно в Центре кратких руководств Azure. Ссылки см. в разделе с советами ниже.
-
-::: zone-end
-
-::: zone target="chromeless"
-
-# <a name="before-you-start"></a>Перед началом работы
 
 ::: zone-end
 

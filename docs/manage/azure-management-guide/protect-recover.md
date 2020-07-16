@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 67145b6c5da9c7da740771acfea38ba97e6f8a9c
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: c25329eae0a7b416b9bcd11eab6599e2e28781fc
+ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83217461"
+ms.lasthandoff: 07/09/2020
+ms.locfileid: "86190708"
 ---
 <!-- cSpell:ignore siterecovery -->
 
@@ -53,8 +53,8 @@ _Защита и восстановление_ — это третья и ок�
 1. Выберите имеющееся или создайте новое хранилище Служб восстановления Azure.
 1. Выберите **Create (or edit) a new policy** (Создать (или изменить) новую политику).
 1. Настройте расписание и период хранения.
-1. Нажмите кнопку **ОК**.
-1. Выберите **Включить резервное копирование**.
+1. Щелкните **ОК**.
+1. Выберите элемент **Включить резервное копирование**.
 
 ::: zone target="chromeless"
 

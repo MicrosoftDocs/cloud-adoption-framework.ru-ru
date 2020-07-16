@@ -157,7 +157,7 @@ items:
         href: ready/index.md
       - name: Руководство по настройке Azure
         items:
-          - name: Перед началом работы
+          - name: Обзор руководства по установке
             href: ready/azure-setup-guide/index.md
           - name: Упорядочение ресурсов
             href: ready/azure-setup-guide/organize-resources.md
@@ -335,7 +335,7 @@ items:
             href: migrate/index.md
           - name: Руководство по миграции в Azure
             items:
-              - name: Перед началом работы
+              - name: Обзор руководств по миграции
                 href: migrate/azure-migration-guide/index.md
               - name: Оценка рабочих нагрузок
                 href: migrate/azure-migration-guide/assess.md
@@ -345,7 +345,7 @@ items:
                 href: migrate/azure-migration-guide/optimize-and-transform.md
               - name: Механизмы контроля затрат на миграцию
                 href: migrate/azure-migration-guide/manage-costs.md
-              - name: Получение помощи
+              - name: Получение справки
                 href: migrate/azure-migration-guide/assistance.md
           - name: Сценарии миграции
             items:
@@ -707,17 +707,17 @@ items:
             href: innovate/index.md
           - name: Руководство по инновациям Azure
             items:
-              - name: Перед началом работы
+              - name: Обзор руководств по инновациям
                 href: innovate/innovation-guide/index.md
               - name: Подготовка к сбору отзывов клиентов
                 href: innovate/innovation-guide/adoption.md
               - name: Упрощение доступа к данным
                 href: innovate/innovation-guide/data.md
-              - name: Привлечение клиентов с помощью приложений
+              - name: Привлечение клиентов через приложения
                 href: innovate/innovation-guide/apps.md
               - name: Поддержка внедрения
                 href: innovate/innovation-guide/ci-cd.md
-              - name: Взаимодействие с устройствами
+              - name: Организация взаимодействия с устройствами
                 href: innovate/innovation-guide/devices.md
               - name: Прогнозирование и влияние
                 href: innovate/innovation-guide/predict.md

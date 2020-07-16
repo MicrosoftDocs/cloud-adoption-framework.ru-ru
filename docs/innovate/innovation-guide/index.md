@@ -9,25 +9,19 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 59111ad2bac9cf3b4fca2053a7d4b56d88c0cb89
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 7ae8fa0dd1de1544eb50b55995e1bf9368369319
+ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86190997"
+ms.lasthandoff: 07/14/2020
+ms.locfileid: "86373225"
 ---
-::: zone target="docs"
+# <a name="azure-innovation-guide-overview"></a>Обзор руководств по инновациям Azure
 
-# <a name="azure-innovation-guide-before-you-start"></a>Руководство по инновациям Azure. Перед началом работы
+::: zone target="docs"
 
 > [!NOTE]
 > Это руководство поможет приступить к внедрению инноваций в Cloud Adoption Framework. С ним также можно ознакомиться в [центре быстрого запуска Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade).
-
-::: zone-end
-
-::: zone target="chromeless"
-
-# <a name="before-you-start"></a>Перед началом работы
 
 ::: zone-end
 
