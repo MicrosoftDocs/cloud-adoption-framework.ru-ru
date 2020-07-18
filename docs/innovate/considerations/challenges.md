@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 4ad936390af2d1c869c424381b2f235ffb611a1c
-ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
+ms.openlocfilehash: dc11bbcedbfa346c0bc08d46d88da101a6a34e67
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "84993882"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86449393"
 ---
 # <a name="common-blockers-and-challenges-to-innovation"></a>Распространенные блокировки и задачи для инноваций
 
@@ -58,7 +58,7 @@ Inventionные задачи на сегодняшний день отличаю
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-В зависимости от знаний, полученных в соответствии с показателем "сборка-мера-изучение модели и роста", теперь вы готовы к [разработке цифровых инвентионс](./invention.md) в [методологии внедрения инноваций](./index.md).
+Зная, что вы получили знания о модели "сборка-мера-обучение" и способе роста, вы готовы к [разработке цифровых инвентионс](./invention.md) в [методологии внедрения инноваций](./index.md).
 
 > [!div class="nextstepaction"]
 > [Развитие разработки цифровых технологий](./invention.md)

@@ -1,24 +1,24 @@
 ---
 title: Средства инноваций для привлечения приложений через приложения
-description: Узнайте о средствах Azure для ускорения разработки приложений, соответствующих методологии инноваций в облачной инфраструктуре внедрения.
+description: Узнайте о средствах Azure для ускорения разработки приложений, которые выйдут по методологии внедрения облачных технологий.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: fe217a1fb6379522d8afccc9640bdd32409eb1cd
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: b92edee6919eebc9371e2f018e0bd2422634ca74
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219824"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86449852"
 ---
-# <a name="tools-to-engage-via-apps-in-azure"></a>Средства для взаимодействия через приложения в Azure
+# <a name="tools-to-engage-via-applications-in-azure"></a>Средства для взаимодействия через приложения в Azure
 
 Как описано в разделе [участие в приложениях](../considerations/apps.md), приложения могут быть важным аспектом решения MVP. Приложения часто требуются для тестирования гипотезы. Эта статья поможет вам изучить средства, предоставляемые Azure для ускорения разработки этих приложений.
 
-![Подход к облачной инфраструктуре внедрения для привлечения приложений](../../_images/innovate/engage-via-apps.png)
+![Подход к облачной инфраструктуре внедрения в приложениях](../../_images/innovate/engage-via-apps.png)
 
 ## <a name="alignment-to-the-methodology"></a>Согласование с методикой
 
@@ -42,8 +42,8 @@ ms.locfileid: "83219824"
 - Служба Azure Kubernetes (AKS)
 - Служба "Миграция Azure"
 - Azure Stack
-- PowerApps.
-- Microsoft Flow
+- Power Apps
+- Power Automate
 - Power BI
 
 ## <a name="get-started"></a>Начало работы

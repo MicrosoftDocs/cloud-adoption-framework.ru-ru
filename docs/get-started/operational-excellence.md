@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 948a4b9dc03fd7353112f52e605d515819bc6ceb
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 6372e7cb8d90cb7a13c55f04dd2ac0714d06c681
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85076478"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450515"
 ---
 # <a name="get-started-deliver-operational-excellence-during-digital-transformation"></a>Начало работы. доставьтесь в эксплуатацию во время цифрового преобразования
 
@@ -71,7 +71,7 @@ ms.locfileid: "85076478"
 **Рекомендации по поддержке готовности к завершению.**
 
 - [Сбор данных инвентаризации](../digital-estate/inventory.md): Создайте источник для анализа цифрового пространства перед внедрением.
-- [Рекомендации](../plan/contoso-migration-assessment.md)по использованию службы "миграция Azure" для сбора данных инвентаризации.
+- [Рекомендации. Служба "миграция Azure](../plan/contoso-migration-assessment.md)": Используйте службу "миграция Azure" для сбора данных инвентаризации.
 - [Инкрементное обоснование](../digital-estate/rationalize.md#incremental-rationalization). во время инкрементного рационализации количественный анализ определяет облачные кандидаты для целей бюджетирования.
 - [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службу "Управление затратами Azure" для согласования моделей затрат и прогнозов путем [создания бюджетов](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 - [Создание плана внедрения в облако](../plan/plan-intro.md#build-your-cloud-adoption-plan). Создайте план с рабочей нагрузкой, активами и сведениями о временной шкале.

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 215653ba60e548061abe68c42fb8c88541414ecf
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 8eab8688ee5afdc37ed4f740f4ebdc2215d4abb6
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86191320"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450226"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-security-baseline-discipline"></a>Руководство по управлению для сложных предприятий: улучшение специализации в плане безопасности
 
@@ -121,7 +121,7 @@ ms.locfileid: "86191320"
     4. Примените схему `corporate-it-subscription-blueprint` к каждому региональному экземпляру.
     5. Это позволит настроить центральный узел для каждого подразделения в каждом регионе. Примечание. дальнейшее снижение затрат может быть достигнуто, но совместное использование центров между подразделениями в каждом регионе.
 6. Интеграция объектов групповой политики (GPO) с использованием Desired State Configuration (DSC).
-    1. Преобразование объекта групповой политики в DSC &mdash; . [проект Microsoft Baseline Management](https://github.com/microsoft/baselinemanagement) в GitHub может ускорить эти усилия. Не забудьте сохранить DSC в репозитории параллельно с шаблонами диспетчер ресурсов.
+    1. Преобразование объекта групповой политики в DSC. [Проект Microsoft Baseline Management](https://github.com/microsoft/baselinemanagement) в GitHub может ускорить эти усилия. Не забудьте сохранить DSC в репозитории параллельно с шаблонами диспетчер ресурсов.
     2. Разверните конфигурацию состояния службы автоматизации Azure для всех экземпляров корпоративной подписки на ИТ. Службу автоматизации Azure можно использовать для применения DSC на виртуальных машинах, развернутых в подписках в пределах группы управления.
     3. Текущий план предназначен для включения настраиваемых политик гостевой конфигурации. После выпуска этой функции использовать службу автоматизации Azure в рамках этих рекомендаций больше не потребуется.
 

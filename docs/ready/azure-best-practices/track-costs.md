@@ -7,12 +7,12 @@ ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: d838b2bf1e05152fc9273746b264d8f2da3b77e5
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 7338b9e3f6d0ea4e2532e74ed650804406b2d7e5
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194635"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450872"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Отслеживание затрат по всем бизнес-единицам, средам или проектам
 
@@ -128,7 +128,7 @@ _Расстановка тегов_ — это простой способ кл
 - [Оптимизация затрат на основе рекомендаций](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
 - [Использование оповещения о затратах для отслеживания потребления и расходов](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending)
 
-<--Докстест: "затраты на AWS и использование"-->
+<!-- docsTest: "AWS Cost and Usage" -->
 
 ### <a name="use-azure-cost-management-and-billing-to-govern-aws-costs"></a>Использование службы "Управление затратами Azure" и выставления счетов для управления AWS затратами
 

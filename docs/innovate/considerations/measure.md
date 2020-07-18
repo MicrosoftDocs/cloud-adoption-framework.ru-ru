@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: bb7399f6c937ed433d4d8610a15153c10f01659c
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 65b53af30b1e6496714e54e7f114e2f34ebf6641
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222510"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86449172"
 ---
 # <a name="measure-for-customer-impact"></a>Оценка влияния на клиента
 
@@ -69,13 +69,13 @@ ms.locfileid: "83222510"
 
 Эти типы группирования позволяют проверять метрики обучения в различных перекрестных разделах клиентов, которые выбирают вам в ходе ваших инноваций. Все последующие метрики должны быть производными от определяемого пользователем группирования.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере накопления метрик обучения группа может начать [изучать клиентов](./learn.md).
 
 > [!div class="nextstepaction"]
 > [Совместное обучение с клиентами](./learn.md)
 
-<!-- cSpell:ignore Ries -->
+<!-- cSpell:ignore Eric Ries -->
 
 Некоторые из концепций в этой статье посвящены темам, впервые описанным в руководстве по [экономичному запуску](http://theleanstartup.com/book), написанному при помощи функции RIES.

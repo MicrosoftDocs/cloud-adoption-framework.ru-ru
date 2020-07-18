@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 356373e71bc12c7927debdb64f036f8774809860
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: ec8464187a493badf6eff07b26d7ba0c2c24b10d
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83220232"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450243"
 ---
 # <a name="deployment-acceleration-tools-in-azure"></a>Средства ускорения развертывания в Azure
 
@@ -23,26 +23,26 @@ ms.locfileid: "83220232"
 
 Ниже приведен список средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-|  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Группы управления Azure](https://docs.microsoft.com/azure/governance/management-groups) | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Граф ресурсов Azure](https://docs.microsoft.com/azure/governance/resource-graph/overview) | [Azure Cost Management](https://docs.microsoft.com/azure/cost-management) |
+|  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Группы управления Azure](https://docs.microsoft.com/azure/governance/management-groups) | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) | [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints/overview) | [Граф ресурсов Azure](https://docs.microsoft.com/azure/governance/resource-graph/overview) | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management) |
 |---------|---------|---------|---------|---------|---------|---------|
 | Реализация корпоративных политик     | Да | Нет  | Нет  | Нет | Нет | Нет |
-| Применение политик в подписках     | Обязательный | Да  | Нет  | Нет | Нет | Нет |
+| Применение политик в подписках     | Обязательно | Да  | Нет  | Нет | Нет | Нет |
 | Развертывание определенных ресурсов     | Нет | Нет  | Да  | Нет | Нет | Нет |
-| Создание полностью соответствующих сред      | Обязательный | Обязательный  | Обязательный  | Да | Нет | Нет |
+| Создание полностью соответствующих сред      | Обязательно | Обязательно  | Обязательно  | Да | Нет | Нет |
 | Политики аудита      | Да | Нет  | Нет  | Нет | Нет | Нет |
 | Запрос к ресурсам Azure      | Нет | Нет  | Нет  | Нет | Да | Нет |
 | Отчет о стоимости ресурсов      | Нет | Нет  | Нет  | Нет | Нет | Да |
 
 Ниже приведены дополнительные средства, которые могут потребоваться для выполнения конкретных задач ускорения развертывания. Часто эти средства используются за пределами группы управления, но по-прежнему считаются аспектом дисциплины ускорения развертывания.
 
-|  | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Azure DevOps](https://docs.microsoft.com/azure/devops) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
+|  | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Azure DevOps](https://docs.microsoft.com/azure/devops) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|
 | Развертывание вручную (один ресурс)     | Да | Да  | Нет  | Не эффективное | Нет | Да |
 | Развертывание вручную (полная среда)     | Не эффективное | Да | Нет  | Не эффективное | Нет | Да |
 | Автоматическое развертывание (полная среда)     | Нет  | Да  | Нет  | Да  | Нет | Да |
-| Обновление конфигурации одного ресурса     | Да | Да | Не эффективное | Не эффективное | Нет | Да — во время репликации |
-| Обновление конфигурации полной среды     | Не эффективное | Да | Да | Да  | Нет | Да — во время репликации |
-| Управление схемой конфигурации     | Не эффективное | Не эффективное | Да  | Да  | Нет | Да — во время репликации |
+| Обновление конфигурации одного ресурса     | Да | Да | Не эффективное | Не эффективное | Нет | Да, во время репликации |
+| Обновление конфигурации полной среды     | Не эффективное | Да | Да | Да  | Нет | Да, во время репликации |
+| Управление схемой конфигурации     | Не эффективное | Не эффективное | Да  | Да  | Нет | Да, во время репликации |
 | Создание автоматического конвейера для развертывания кода и настройки ресурсов (DevOps)     | Нет | Нет | Нет | Да | Нет | Нет |
 
 Помимо собственных средств Azure, упомянутых выше, клиенты часто используют сторонние средства для упрощения ускорения развертывания и DevOps развертываний.

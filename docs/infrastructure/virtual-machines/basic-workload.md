@@ -7,12 +7,12 @@ ms.date: 12/31/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 92c0d9deb038e1c89d3db5ca5bfc72cace2d2ff9
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: da5a2de366d2bd2121a3ea12b480323cc1c84e74
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86193734"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450022"
 ---
 # <a name="deploy-a-basic-workload-in-azure"></a>Развертывание основной рабочей нагрузки в Azure
 
@@ -38,7 +38,7 @@ _Базовая рабочая нагрузка_ обычно определяе
 Для базового веб-приложения выберите один из 5-минутных кратких руководств в [документации по службе приложений Azure](https://docs.microsoft.com/azure/app-service) и выполните действия.
 
 > [!NOTE]
-> В некоторых руководствах по началу работы группа ресурсов развертывается по умолчанию. В этом случае нет необходимости специально создавать группу ресурсов. В противном случае разверните веб-приложение в группу ресурсов, созданную с использованием шагом в одном из руководств по началу работы.
+> Некоторые краткие руководства по умолчанию развертывают группу ресурсов. В этом случае нет необходимости специально создавать группу ресурсов. В противном случае разверните веб-приложение в группу ресурсов, созданную с использованием шагом в одном из руководств по началу работы.
 
 После развертывания простой рабочей нагрузки вы можете узнать больше о рекомендациях по развертыванию [базового веб-приложения](https://docs.microsoft.com/azure/architecture/reference-architectures/app-service-web-app/basic-web-app) в Azure.
 

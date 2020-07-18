@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d2246b71dea7397b724b69b429827ffd9b0801e5
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: af71b68e61eff8c8c6ce508f2d91a19fece06583
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194516"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450906"
 ---
 <!-- cSpell:ignore HDFS databox VHDX -->
 
@@ -22,7 +22,7 @@ ms.locfileid: "86194516"
 
 ## <a name="general-scope-expansion"></a>Расширение общей области
 
-Большая часть действий, необходимых для этого расширения области, будет осуществляться на этапе выполнения предварительных требований, оценки и процессов миграции.
+Большая часть этих усилий, необходимых для этого расширения области, будет происходить во время предварительных требований, оценки и миграции этапов миграции.
 
 ## <a name="suggested-prerequisites"></a>Рекомендуемые предварительные требования
 
@@ -53,11 +53,11 @@ ms.locfileid: "86194516"
 
 **Анализ смещений:** Каждый ресурс, который необходимо переносить в автономный режим, должен быть проанализирован для хранения и смещения конфигурации. Отклонение параметров хранилища — это количество изменений в базовом хранилище, происходящих с течением времени. Отклонение параметров конфигурации — это изменение в конфигурации ресурса с течением времени. С момента копирования хранилища до момента, когда ресурс перемещается в рабочую среду, любое отклонение параметров может быть потеряно. Если это отклонение должно быть отражено в перенесенном ресурсе, то нужно использовать синхронизацию локального ресурса и перенесенного ресурса. Это нужно пометить для рассмотрения во время выполнения миграции.
 
-## <a name="migrate-process-changes"></a>Изменения в процессе миграции
+## <a name="migration-process-changes"></a>Изменения процесса миграции
 
 При использовании механизмов автономной передачи [процессы репликации](../migration-considerations/migrate/replicate.md), скорее всего, не потребуются. Однако [процессы синхронизации](../migration-considerations/migrate/replicate.md) могут по-прежнему быть обязательными. Понимание результатов анализа смещений, выполненных во время процесса оценки, сообщит о задачах, необходимых во время миграции, если ресурс переносится в автономный режим.
 
-### <a name="suggested-action-during-the-migrate-process"></a>Предлагаемое действие во время процесса миграции
+### <a name="suggested-action-during-the-migration-process"></a>Предлагаемое действие в процессе миграции
 
 **Копировать хранилище:** Этот подход можно использовать для перемещения данных HDFS, резервных копий, архивов, файловых серверов или приложений. В существующем техническом руководстве объясняется, как использовать этот подход для перемещения данных из [хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков, использующих [протокол SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [restful](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest)или [службу копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) , для Data Box.
 

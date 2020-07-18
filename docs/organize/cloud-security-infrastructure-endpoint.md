@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 597dfc5537d7b8d136dde5bd2a199590ccb72ca2
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: bddab3d91ff2587de55e3a5821b8a369bf3dbbe7
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194312"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450617"
 ---
 # <a name="function-of-cloud-infrastructure-and-endpoint-security"></a>Функции облачной инфраструктуры и безопасности конечных точек
 

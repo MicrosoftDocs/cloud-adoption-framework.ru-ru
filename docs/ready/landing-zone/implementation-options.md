@@ -1,18 +1,18 @@
 ---
-title: Параметры развертывания начальной зоны
-description: Определите, какой вариант развертывания начальной зоны лучше соответствует вашим требованиям.
+title: Параметры реализации зоны размещения
+description: Определите, какой вариант реализации целевой зоны лучше соответствует вашим требованиям.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: ea137df62336139abf7a6a90b47f33ee710854be
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: ebe55917c3a7575752a416a3bc90d073f762255d
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86235234"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86448186"
 ---
 # <a name="landing-zone-implementation-options"></a>Параметры реализации зоны размещения
 
@@ -41,7 +41,7 @@ ms.locfileid: "86235234"
 
 В следующей таблице рассмотрены те же самые варианты реализации, что и в разных перспективах, а также рассматриваются дополнительные технические процессы.
 
-| Параметр реализации | Microsoft Translator Hub | Звездообразная | Технология развертывания | Инструкции по развертыванию |
+| Параметр реализации | Концентратор | Звездообразная | Технология развертывания | Инструкции по развертыванию |
 |---|---|---|---|---|
 | [Целевая зона CAF корпоративного уровня](./enterprise-scale.md) | Включено  | Включено | Шаблоны Azure Resource Manager, портал Azure, политика Azure и GitHub | [Развертывание](../enterprise-scale/implementation-guidelines.md) |
 | [Схема зоны размещения для миграции в соответствии с CAF](./migrate-landing-zone.md) | Требуется рефакторинг | Включено | Шаблоны Azure Resource Manager, портал Azure и проекты Azure | [Развертывание](./migrate-landing-zone.md) |

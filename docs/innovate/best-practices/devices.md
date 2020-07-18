@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 401acfb2a0689fe54d43c29a8ab32a8d6e218670
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 7ac8fe1ffb7318b3e705b4586de300cd1ee6a58f
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219773"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86449716"
 ---
 # <a name="tools-to-interact-with-devices-in-azure"></a>Средства для взаимодействия с устройствами в Azure
 
@@ -37,7 +37,7 @@ ms.locfileid: "83219773"
 
 | Категория | Инструменты |
 |---|---|
-| Мобильные возможности | <li> Служба приложений Azure <li> PowerApps. <li> Microsoft Flow <li> Intune |
+| Мобильные возможности | <li> Служба приложений Azure <li> Power Apps <li> Power Automate <li> Intune |
 | Смешанная реальность | <li> Unity <li> Пространственные привязки Azure <li> HoloLens |
 | Интегрированная реальность | <li> Центр Интернета вещей Azure <li> Azure Sphere <li> Azure Kinect DK |
 | Скорректированная реальность | <li> Облако IoT на устройстве <li> Azure Digital двойников + HoloLens |

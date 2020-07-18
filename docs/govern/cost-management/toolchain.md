@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 2433e5bc74b059911575165df39f6ce3a1d1f8d8
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 6355c5f5a80e915a3b2b82b99c06c388e9e0f8d2
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86193887"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450311"
 ---
 # <a name="cost-management-tools-in-azure"></a>Средства управления затратами в Azure
 
@@ -23,13 +23,13 @@ ms.locfileid: "86193887"
 
 <!-- TODO: Content packs are deprecated. -->
 
-| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)  | [Пакет содержимого Azure EA](https://docs.microsoft.com/power-bi/service-connect-to-azure-enterprise)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) |
+| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)  | [Пакет содержимого Azure EA](https://docs.microsoft.com/power-bi/service-connect-to-azure-enterprise)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) |
 |---------|---------|---------|---------|---------|
 | Соглашение Enterprise требуется?     | Нет         | Нет         | Да         | Нет         |
 | Управление бюджетом     | Нет         | Да         | Нет         | Да         |
 | Отслеживание затрат на отдельном ресурсе    | Да         | Да         | Да         | Нет         |
 | Отслеживание затрат на нескольких ресурсах    | Нет         | Да        | Да         | Нет         |
-| Контроль затрат на отдельном ресурсе     | Да (изменение размера вручную)         | Да         | Нет         | Да         |
+| Контроль затрат на отдельном ресурсе     | Да, вручную изменить размер         | Да         | Нет         | Да         |
 | Применение затрат для нескольких ресурсов    | Нет         | Да         | Нет         | Да         |
 | Принудительное применение метаданных учета для ресурсов    | Нет         | Нет         | Нет         | Да         |
 | Отслеживание и выявление тенденций     | Да          | Да        | Да         | Нет         |

@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: fc04c5fa27425ebdbaa82f5b98f8e526e4695f9a
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: 5da9fffe5d3367e32e5acc2d47accf2c6903c263
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86233279"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450974"
 ---
 <!-- cSpell:ignore Getting Started -->
 
@@ -24,7 +24,7 @@ ms.locfileid: "86233279"
 
 ## <a name="prerequisites-skilling-resources"></a>Ресурсы для формирования навыков
 
-Реализация процесса миграции методологий строится на навыках, полученных на этапе [планирования](../strategy/suggested-skills.md) и [готовности](../organize/suggested-skills.md) к переходу.
+Реализация методологии миграции основана на навыках, полученных на этапе [планирования](../strategy/suggested-skills.md) и [готовности](../organize/suggested-skills.md) к переходу.
 
 ## <a name="assess-skilling-resources"></a>Оценка ресурсов для формирования навыков
 
