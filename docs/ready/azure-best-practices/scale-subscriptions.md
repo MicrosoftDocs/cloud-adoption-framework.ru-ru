@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 465f1771232f8df7226773fb8055052a846cacca
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: ec2cac2978047a95ef2199933286ec98e2e6d63f
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80997960"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86479846"
 ---
 # <a name="create-additional-subscriptions-to-scale-your-azure-environment"></a>Создание дополнительных подписок для масштабирования среды Azure
 
@@ -57,7 +57,7 @@ ms.locfileid: "80997960"
 - По возможности [создавайте новые подписки программным способом](https://docs.microsoft.com/azure/azure-resource-manager/management/programmatically-create-subscription) с помощью субъекта-службы. Для создания подписок необходимо [предоставить разрешение субъекту-службе](https://docs.microsoft.com/azure/azure-resource-manager/grant-access-to-create-subscription) . Определите группу безопасности, которая может запрашивать новые подписки с помощью автоматического рабочего процесса.
 - Если вы являетесь клиентом Соглашения Enterprise (EA), обратитесь в службу поддержки Azure, чтобы заблокировать создание подписок, отличных от EA, для вашей организации.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Создание иерархии групп управления для [упорядочения подписок и ресурсов и управления ими](./organize-subscriptions.md).
 

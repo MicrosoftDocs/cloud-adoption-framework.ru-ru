@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: f7e60e97a38b38351e8f90ac90caf3925225ac68
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: ffdfd350247d2cb1c6ff3cd367fbaf12ab6585e3
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85075074"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86479639"
 ---
 # <a name="improve-landing-zone-operations"></a>Оптимизация операций с целевыми зонами
 
@@ -38,7 +38,8 @@ ms.locfileid: "85075074"
 
 <!-- cSpell:ignore caf -->
 
-![Управление методологией](../../_images/manage/caf-manage.png)
+![Управление методологией ](../../_images/manage/caf-manage.png)
+ _рис. 1. методология управления каф._
 
 1. [Создание базового плана управления](../../manage/azure-server-management/index.md). базовый уровень управления определяет основу для управления операциями. Рекомендации на первом шаге можно применить к любой целевой зоне, чтобы улучшить начальные операции.
 2. [Определение бизнес-обязательств](../../manage/considerations/business-alignment.md). понимание важности и влияния каждой рабочей нагрузки в целевой зоне приведет к определению "завершено" для любых текущих улучшений управления для любой целевой зоны. Этот процесс также определит требования к надежности, производительности и эксплуатации каждой рабочей нагрузки.
@@ -49,7 +50,8 @@ ms.locfileid: "85075074"
 
 Прежде чем приступить к улучшению безопасности, важно понять «определение завершенных» и все «условия приемки». Дополнительные сведения см. в статьях о [разработке целевых зон на основе тестирования](./test-driven-development.md) и [разработке на основе тестирования в Azure](./azure-test-driven-development.md).
 
-![Процесс разработки на основе тестирования для облачных целевых зон](../../_images/ready/test-driven-development-process.png)
+![Процесс разработки на основе тестирования для облачных целевых зон ](../../_images/ready/test-driven-development-process.png)
+ _рис. 2. процесс разработки на основе тестирования для облачных зон в облаке._
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

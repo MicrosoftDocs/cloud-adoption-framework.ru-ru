@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 19947168ae6f0e3e550056eace483e5d72cef14a
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 1ee767432546a0b3ed5ff1a3a6530eb00fa6506b
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450430"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86478316"
 ---
 <!-- docsTest:ignore ARO -->
 

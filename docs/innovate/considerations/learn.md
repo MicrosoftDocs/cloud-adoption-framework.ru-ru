@@ -7,15 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d92edf91a04fc99b65c5b9dc4e667664dde4a224
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 861340fa1477f20a0af0a9794903e8a41f95e771
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449189"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86478809"
 ---
-<!-- cSpell:ignore Satya Nadella Eric Ries -->
-
 # <a name="learn-with-customers"></a>Совместное обучение с клиентами
 
 Наши текущие клиенты представляют наш лучший ресурс для обучения. Соберитесь с нами, мы поможем нам [создать с помощью Customer сопереживание](./build.md) , чтобы найти лучшее решение для их нужд. Кроме того, они помогают создать решение с минимальными возможными продуктами (MVP), создавая метрики, из которых [измеряется воздействие на клиентов](./measure.md). В этой статье описывается, как изучать и от наших клиентов.

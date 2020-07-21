@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: ebe55917c3a7575752a416a3bc90d073f762255d
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 965f1a46bb3c44491528806cbc7af4a64d409039
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86448186"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86479421"
 ---
 # <a name="landing-zone-implementation-options"></a>Параметры реализации зоны размещения
 
@@ -36,14 +36,14 @@ ms.locfileid: "86448186"
 |---|---|---|---|---|
 | [Схема зоны размещения для миграции в соответствии с CAF](./migrate-landing-zone.md) | Развертывает базовую основу для переноса ресурсов с низким риском. | Запустить мелкий | [Принципы проектирования](./migrate-landing-zone.md#design-principles) | [Развертывание](./migrate-landing-zone.md) |
 | [Схема CAF Foundation](./foundation-blueprint.md) | Добавляет минимальные инструменты, необходимые для разработки стратегии управления. | Запустить мелкий | [Принципы проектирования](./foundation-blueprint.md#design-principles) | [Развертывание](./foundation-blueprint.md) |
-| [Целевая зона CAF корпоративного уровня](./enterprise-scale.md) | Развертывает готовую к использованию платформу Enterprise Foundation со всеми необходимыми общими службами для поддержки полноценного ИТ-портфеля. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) |
+| [Целевая зона CAF корпоративного уровня](../enterprise-scale/index.md) | Развертывает готовую к использованию платформу Enterprise Foundation со всеми необходимыми общими службами для поддержки полноценного ИТ-портфеля. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) |
 | [Модули КАФ terraform](./terraform-landing-zone.md) | Сторонний путь для многооблачных операционных моделей. Этот путь может ограничивать рабочие модели Azure — First. | Запустить мелкий | [Принципы проектирования](./terraform-landing-zone.md#design-decisions) | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
 
 В следующей таблице рассмотрены те же самые варианты реализации, что и в разных перспективах, а также рассматриваются дополнительные технические процессы.
 
 | Параметр реализации | Концентратор | Звездообразная | Технология развертывания | Инструкции по развертыванию |
 |---|---|---|---|---|
-| [Целевая зона CAF корпоративного уровня](./enterprise-scale.md) | Включено  | Включено | Шаблоны Azure Resource Manager, портал Azure, политика Azure и GitHub | [Развертывание](../enterprise-scale/implementation-guidelines.md) |
+| [Целевая зона CAF корпоративного уровня](../enterprise-scale/index.md) | Включено  | Включено | Шаблоны Azure Resource Manager, портал Azure, политика Azure и GitHub | [Развертывание](../enterprise-scale/implementation-guidelines.md) |
 | [Схема зоны размещения для миграции в соответствии с CAF](./migrate-landing-zone.md) | Требуется рефакторинг | Включено | Шаблоны Azure Resource Manager, портал Azure и проекты Azure | [Развертывание](./migrate-landing-zone.md) |
 | [Модули КАФ terraform](./terraform-landing-zone.md)  | Входит в модуль виртуального центра обработки данных | Включено | Terraform | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
 

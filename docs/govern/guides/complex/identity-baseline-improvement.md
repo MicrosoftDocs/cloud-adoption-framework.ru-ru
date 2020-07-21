@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 52131e3d5fd93eb48ee0cbc941f5cffe48375daf
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 659dad6ad975fc19272348c6b5c3f148ea9f527b
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86191558"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86478026"
 ---
 <!-- cSpell:ignore MPLS -->
 
@@ -77,7 +77,7 @@ ms.locfileid: "86191558"
 
 Ниже приведены новые рекомендации:
 
-- Схема **защищенной гибридной виртуальной сети:** Локальная сеть гибридной сети должна быть настроена на разрешение взаимодействия между следующим решением и локальными серверами Active Directory. Эта рекомендация требует, чтобы в границах сети периметра были включены доменные службы Active Directory.
+- Схема **защищенной гибридной виртуальной сети:** Локальная сеть гибридной сети должна быть настроена на разрешение взаимодействия между следующим решением и локальными серверами Active Directory. Эта рекомендация требует наличия сети периметра для включения домен Active Directory служб через границы сети.
 - **Шаблоны Azure Resource Manager:**
     1. Определите NSG для блокировки внешнего трафика и разрешите внутренний трафик.
     2. Развертывание двух Active Directory виртуальных машин в паре с балансировкой нагрузки на основе эталонного образа. При первой загрузке этот образ запускает сценарий PowerShell для присоединения к домену и регистрации в доменных службах. Дополнительные сведения см. в статье [Расширение доменных служб Active Directory в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/adds-extend-domain).

@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: b93a17abd45885a3e444cf5731be8aabdc6652f4
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 36394895c88aecf0307ec46415d04fd974168b42
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86448475"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86479166"
 ---
 <!-- cSpell:ignore arnaudlh arnaul Arnaud eastasia southeastasia vCPUs lalogs tfvars NetworkMonitoring ADAssessment ADReplication AgentHealthAssessment DnsAnalytics KeyVaultAnalytics -->
 
@@ -35,7 +35,7 @@ Azure предоставляет собственные службы для ра
 ![Базовая Целевая зона с использованием terraform ](../../_images/ready/foundations-terraform-landing-zone.png)
  _рис. 1. Базовая зона с использованием terraform._
 
-## <a name="capabilities"></a>Возможности
+## <a name="capabilities"></a>Характеристики
 
 Развернутые компоненты и их назначение включают следующее.
 
@@ -44,7 +44,7 @@ Azure предоставляет собственные службы для ра
 | Компонент | Несет |
 |---|---|
 | Группы ресурсов | Основные группы ресурсов, необходимые для фундамента |
-| Журнал активности | Аудит всех действий и архивации подписок: <li> Учетная запись хранения <li> центры событий Azure; |
+| Журнал активности | Аудит всех действий и архивации подписок: <li> Учетная запись хранения <li> Центры событий Azure |
 | ведет журнал диагностики. | Все журналы операций хранятся в течение определенного числа дней: <li> Учетная запись хранения <li> Центры событий |
 | Log Analytics | Хранит журналы операций. Развертывание общих решений для глубокой проверки приложений: <li> нетворкмониторинг <li> адассессмент <li> адрепликатион <li> аженсеалсассессмент <li> днсаналитикс <li> кэйваултаналитикс |
 | Центр безопасности Azure | Метрики санации безопасности и оповещения, отправленные по электронной почте и номеру телефона |
@@ -62,7 +62,7 @@ Azure предоставляет собственные службы для ра
 - **Ограничения подписки:** Эта деятельность по внедрению вряд ли будет превышать [лимиты подписки](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits). Два общих индикатора — это превышение 25 000 виртуальных машин или 10 000 виртуальных ЦП.
 - **Соответствие требованиям:** Для этой целевой зоны требования к соответствию сторонних производителей не требуются.
 - **Сложность архитектуры:** Сложность архитектуры не требует дополнительных производственных подписок.
-- **Общие службы:** В Azure нет существующих общих служб, для которых требуется, чтобы эта подписка рассматривалась как периферийная в основной и периферийной архитектурах.
+- **Общие службы:** Ни одна из существующих общих служб в Azure не требует, чтобы эта подписка рассматривалась как периферийная в центрально-лучевой архитектуре.
 
 Если эти предположения соответствуют текущей среде, этот проект может быть хорошим способом начать создание целевой зоны.
 
@@ -79,11 +79,11 @@ Azure предоставляет собственные службы для ра
 | Разработка подписки    | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Создание первоначальных подписок](../azure-best-practices/initial-subscriptions.md)                                                                                                                                                                                  |
 | Группы ресурсов        | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                           |
 | Группы управления      | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Организация подписок](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                     |
-| Данные                   | Н/Д                                                                                                                                                                                                                                                                      | [Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
-| Память                | Н/Д                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
+| Данные                   | Недоступно                                                                                                                                                                                                                                                                      | [Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview) |
+| Память                | Недоступно                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
 | Стандарты именования       | При создании среды также создается уникальный префикс. Для ресурсов, которым требуется глобально уникальное имя (например, учетные записи хранения), используйте этот префикс. Пользовательское имя добавляется с помощью случайного суффикса. Использование тегов обязательно, как описано в следующей таблице. | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                              |
-| управления затратами;        | Н/Д                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
-| Службы вычислений                | Н/Д                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
+| управления затратами;        | Недоступно                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
+| Службы вычислений                | Недоступно                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
 
 ### <a name="tagging-standards"></a>Стандарты тегов
 

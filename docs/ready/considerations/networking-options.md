@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 8314433ae406bbc97ddc8ef998cfeb5d8cf49d20
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 8c2312428c78691c1597e16083d11b493df90a41
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86195043"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86479574"
 ---
 <!-- cSpell:ignore paas NVAs VPNs -->
 
@@ -26,7 +26,8 @@ ms.locfileid: "86195043"
 
 Для каждого приложения или службы, которые вы будете развертывать в среде зоны размещения, используйте следующее дерево принятия решений в качестве отправной точки, чтобы определить сетевые инструменты или службы, которые нужно использовать.
 
-![Дерево принятия решений для служб в сети Azure](../../_images/ready/network-decision-tree.png)
+![Дерево решений для сетевых служб Azure ](../../_images/ready/network-decision-tree.png)
+ _. 1. Дерево принятия решений сетевой службы Azure._
 
 ### <a name="key-questions"></a>Основные вопросы
 

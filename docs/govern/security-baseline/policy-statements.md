@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: e3f2a6156d282e2db6fb8a7206251447f9e48f71
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 4521a164a0fa549f6789a93baf469d40a693b1d4
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219807"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86479081"
 ---
 # <a name="security-baseline-sample-policy-statements"></a>Примеры правил политик базовой системы безопасности
 
@@ -55,7 +55,7 @@ ms.locfileid: "83219807"
 
 **Инструкция политики:** К подсети, содержащей защищенные данные, можно получить прямой доступ через общедоступный Интернет или через центры обработки данных. Доступ к таким подсетям должен осуществляться через промежуточные подсети. Весь доступ к таким подсетям должен осуществляться через брандмауэр с функциями сканирования пакетов и блокировки.
 
-**Потенциальный вариант проектирования:** В Azure Обеспечьте безопасность общедоступных конечных точек, развернув [демилитаризованную точку между общедоступным Интернетом и облачной сетью](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Рассмотрите возможность развертывания, настройки и автоматизации [брандмауэра Azure](https://docs.microsoft.com/azure/firewall/overview).
+**Потенциальный вариант проектирования:** В Azure Обеспечьте безопасность общедоступных конечных точек, развернув [сеть периметра между общедоступным Интернетом и облачной сетью](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Рассмотрите возможность развертывания, настройки и автоматизации [брандмауэра Azure](https://docs.microsoft.com/azure/firewall/overview).
 
 ## <a name="ddos-protection"></a>Защита от атак DDoS
 

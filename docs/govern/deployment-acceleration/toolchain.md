@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ec8464187a493badf6eff07b26d7ba0c2c24b10d
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 9689944dc5c109143981cf59478f251d9cbfc06f
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450243"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86478231"
 ---
 # <a name="deployment-acceleration-tools-in-azure"></a>Средства ускорения развертывания в Azure
 
@@ -35,7 +35,7 @@ ms.locfileid: "86450243"
 
 Ниже приведены дополнительные средства, которые могут потребоваться для выполнения конкретных задач ускорения развертывания. Часто эти средства используются за пределами группы управления, но по-прежнему считаются аспектом дисциплины ускорения развертывания.
 
-|  | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Azure DevOps](https://docs.microsoft.com/azure/devops) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
+|  | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Azure DevOps](https://docs.microsoft.com/azure/devops/user-guide/what-is-azure-devops) | [Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview) | [Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|
 | Развертывание вручную (один ресурс)     | Да | Да  | Нет  | Не эффективное | Нет | Да |
 | Развертывание вручную (полная среда)     | Не эффективное | Да | Нет  | Не эффективное | Нет | Да |
