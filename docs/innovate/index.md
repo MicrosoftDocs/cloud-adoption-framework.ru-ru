@@ -7,12 +7,12 @@ ms.date: 05/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 760b97f268c9696ee73c9ae4e4c3b9b1475ffafa
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: fbe43c1769eed4b7ad0a032b7af11a0755d954cd
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83862200"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86449155"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Облачные инновации в Cloud Adoption Framework
 
@@ -43,8 +43,8 @@ ms.locfileid: "83862200"
 
 Вот несколько примеров схем обучения для конкретных ролей в Microsoft Learn, которые соответствуют методике внедрения инноваций в Cloud Adoption Framework.
 
-[Администрирование контейнеров в Azure.](https://docs.microsoft.com/learn/paths/administer-containers-in-azure) Служба "Экземпляры контейнеров Azure" (ACI) — это самый быстрый и самый простой способ запуска контейнеров в Azure. Из этой схемы обучения вы узнаете, как создавать контейнеры и управлять ими, а также как использовать ACI для обеспечения эластичного масштабирования для Kubernetes.
+[Администрирование контейнеров в Azure.](https://docs.microsoft.com/learn/paths/administer-containers-in-azure) Служба "Экземпляры контейнеров Azure" — это самый быстрый и самый простой способ запуска контейнеров в Azure. Из этой схемы обучения вы узнаете, как создавать контейнеры и управлять ими, а также как использовать Экземпляры контейнеров Azure для обеспечения эластичного масштабирования для Kubernetes.
 
 [Создание бессерверных приложений.](https://docs.microsoft.com/learn/paths/create-serverless-applications) Функции Azure позволяют создавать управляемые событиями системы вычислений по запросу, которые могут активироваться в результате различных внешних событий. Узнайте, как с помощью функций выполнять логику сервера и создавать бессерверные архитектуры.
 
-Дополнительные схемы обучения см. в [каталоге Learn](https://docs.microsoft.com/learn/browse). Используйте фильтр **ролей** для согласования путей обучения со своей ролью.
+Дополнительные схемы обучения см. в [каталоге Microsoft Learn](https://docs.microsoft.com/learn/browse). Используйте фильтр **ролей** для согласования путей обучения со своей ролью.

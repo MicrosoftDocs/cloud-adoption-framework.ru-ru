@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d46518dca8738efd1b1e22f8d276102e198fc6be
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: bc06bdb894fc4ac3f92eab87de86abad3dc2d026
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219688"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86449240"
 ---
 # <a name="innovation-in-the-digital-economy"></a>Инновации в сфере цифровой экономики
 
