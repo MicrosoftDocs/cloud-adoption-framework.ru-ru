@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: fbda37f60f3766062733e8dedfb0d8bd7969066f
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 6287cb0f1ea73032728c9394f2d1f74fcc81409a
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787458"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86479672"
 ---
 # <a name="expand-your-landing-zone"></a>Расширение целевой зоны
 
@@ -22,7 +22,8 @@ ms.locfileid: "84787458"
 
 Расширение целевой зоны — это подход с использованием кода для включения поддержки описанных ниже принципов в целевой зоне и реализации более широких возможностей в общей облачной среде.
 
-![Принципы общей архитектуры](../../_images/ready/shared-principles.png)
+![Общие принципы архитектуры](../../_images/ready/shared-principles.png)
+_Рис. 1. Общие принципы архитектуры._
 
 Эти же принципы архитектуры реализованы в [Помощнике по Azure](https://docs.microsoft.com/azure/advisor/advisor-overview) и [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/azure/architecture/framework), а также решениях в [Центре архитектуры Azure](https://docs.microsoft.com/azure/architecture).
 

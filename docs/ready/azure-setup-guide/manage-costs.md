@@ -1,5 +1,5 @@
 ---
-title: Управление затратами и выставлением счетов за использование ресурсов Azure
+title: Управление затратами и выставление счетов для ресурсов Azure
 description: Cloud Adoption Framework для Azure поможет интерпретировать счета и узнать, как настроить бюджеты и платежи за использование ресурсов Azure.
 author: dchimes
 ms.author: kfollis
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: e7d04e91c8ec5a97d302d47ed5c52e7d58e6aae5
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: b041a7cc996ac3606228f1231d2f4ecd9af51655
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86233143"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450736"
 ---
 <!-- cSpell:ignore dchimes -->
 
