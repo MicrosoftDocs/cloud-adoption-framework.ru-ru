@@ -133,7 +133,7 @@ items:
         items:
           - name: Обзор
             href: plan/plan-intro.md
-          - name: Предварительные требования
+          - name: предварительные требования
             href: plan/prerequisites.md
           - name: Развертывание шаблона в Azure DevOps
             href: plan/template.md
@@ -319,7 +319,7 @@ items:
                 href: 'https://docs.microsoft.com/azure/sql-database/sql-database-security-best-practice?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
               - name: Выбор варианта развертывания в SQL Azure
                 href: 'https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
-          - name: управления затратами;
+          - name: управления затратами
             items:
               - name: Отслеживание затрат
                 href: ready/azure-best-practices/track-costs.md
@@ -343,7 +343,7 @@ items:
             href: migrate/index.md
           - name: Руководство по миграции в Azure
             items:
-              - name: Обзор руководств по миграции
+              - name: Обзор руководства по миграции
                 href: migrate/azure-migration-guide/index.md
               - name: Оценка рабочих нагрузок
                 href: migrate/azure-migration-guide/assess.md
@@ -449,7 +449,7 @@ items:
                 items:
                   - name: Рекомендации по повторному размещению VMware
                     href: migrate/azure-best-practices/vmware-host.md
-                  - name: Предварительные требования
+                  - name: предварительные требования
                     items:
                       - name: Защита среды
                         href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/private-cloud-secure?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
@@ -553,7 +553,7 @@ items:
                         items:
                           - name: "Рефакторинг Cassandra в Azure Cosmos\_DB"
                             href: 'https://datamigration.microsoft.com/scenario/cassandra-to-cosmos'
-                      - name: Oracle;
+                      - name: Oracle
                         items:
                           - name: Рефакторинг Oracle в Базу данных SQL Azure
                             href: 'https://datamigration.microsoft.com/scenario/oracle-to-azuresqldb'
@@ -687,7 +687,7 @@ items:
             items:
               - name: Обзор
                 href: migrate/migration-considerations/index.md
-              - name: Предварительные требования
+              - name: предварительные требования
                 items:
                   - name: Обзор
                     href: migrate/migration-considerations/prerequisites/index.md
@@ -761,7 +761,7 @@ items:
             href: innovate/index.md
           - name: Руководство по инновациям Azure
             items:
-              - name: Обзор руководств по инновациям
+              - name: Обзор руководства по инновациям
                 href: innovate/innovation-guide/index.md
               - name: Подготовка к сбору отзывов клиентов
                 href: innovate/innovation-guide/adoption.md
@@ -1035,7 +1035,7 @@ items:
                         href: 'https://docs.microsoft.com/azure/Kinect-dk/build-first-app?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                   - name: Скорректированная реальность
                     items:
-                      - name: 'Azure Digital Twins + HoloLens: изменение виртуальной реальности'
+                      - name: 'Azure Digital Twins и HoloLens: корректировка виртуальной реальности'
                         href: 'https://azure.microsoft.com/resources/videos/build-2019-azure-digital-twins-hololens-powering-the-next-generation-of-iot/'
                       - name: Начало работы с Azure Digital Twins
                         href: 'https://docs.microsoft.com/azure/digital-twins/about-digital-twins?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
@@ -1057,14 +1057,14 @@ items:
                         href: 'https://docs.microsoft.com/azure/machine-learning/concept-azure-machine-learning-architecture?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Анализ данных с помощью машинного обучения Azure
                         href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-analyze-with-azure-machine-learning?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                      - name: Развертывание прогнозов
+                        href: 'https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                   - name: Приложения и агенты ИИ
                     items:
                       - name: Что такое приложения ИИ
                         href: innovate\best-practices\ai-applications.md
                       - name: Что такое агенты ИИ
                         href: innovate\best-practices\conversational-ai.md
-                      - name: Развертывание прогнозов
-                        href: 'https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                   - name: Интеллектуальный анализ знаний
                     items:
                       - name: Что такое Когнитивный поиск Azure
@@ -1187,7 +1187,7 @@ items:
         href: govern/governance-disciplines.md
       - name: Реализация аспектов управления облаком
         items:
-          - name: управления затратами;
+          - name: управления затратами
             items:
               - name: Обзор управления затратами
                 href: govern/cost-management/index.md
@@ -1471,7 +1471,7 @@ items:
             href: decision-guides/index.md
           - name: Подписки
             href: decision-guides/subscriptions/index.md
-          - name: Идентификация
+          - name: Удостоверение
             href: decision-guides/identity/index.md
           - name: Принудительное применение политики
             href: decision-guides/policy-enforcement/index.md
@@ -1497,7 +1497,7 @@ items:
                 href: decision-guides/software-defined-network/hub-spoke.md
           - name: Ведение журналов и создание отчетов
             href: decision-guides/logging-and-reporting/index.md
-          - name: Средства миграции
+          - name: Средства миграцииСредства миграции
             href: decision-guides/migrate-decision-guide/index.md
       - name: Дополнительные ресурсы
         items:
