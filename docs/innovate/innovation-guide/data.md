@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 98a772a2c20aba6689ec66593bd15571c74cec33
-ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
+ms.openlocfilehash: 0ac9256adda2b310592d69685a183b790790228a
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86373277"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86449019"
 ---
 # <a name="democratize-data"></a>Упрощение доступа к данным
 
@@ -46,7 +46,7 @@ ms.locfileid: "86373277"
 
 В организации можно использовать только один экземпляр службы "Каталог данных Azure". Если каталог для организации уже создан, добавить дополнительные каталоги будет невозможно.
 
-Чтобы создать экземпляр службы "Каталог данных Azure" для организации, выполните приведенные ниже действия.
+Чтобы создать каталог для организации, выполните следующие действия:
 
 1. Перейдите к **Каталогу данных Azure**.
 2. Нажмите кнопку **создания**.
@@ -67,12 +67,13 @@ ms.locfileid: "86373277"
 
 > [!div class="checklist"]
 >
-> - создать общий доступ к данным;
-> - добавить наборы данных в общий доступ к данным;
-> - включить расписание синхронизации для общего доступа к данным;
-> - добавить получателей для общего доступа к данным.
+> - Создайте общий ресурс данных.
+> - Добавьте наборы данных в общий ресурс данных.
+> - Включите расписание синхронизации для общего ресурса данных.
+> - Добавьте получателей для общего ресурса данных.
 
 ::: zone target="docs"
+
 **Откройте [документацию для службы Azure Data Share](https://docs.microsoft.com/azure/data-share)**
 
 ::: zone-end

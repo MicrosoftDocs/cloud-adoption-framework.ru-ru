@@ -1,6 +1,6 @@
 ---
-title: Управление доступом к среде Azure
-description: Узнайте, как настроить управление доступом к среде Azure с помощью управления доступом на основе ролей (RBAC).
+title: Управление доступом к среде Azure с помощью управления доступом на основе ролей
+description: Узнайте, как настроить управление доступом к среде Azure с помощью управления доступом на основе ролей.
 author: LijuKodicheraJayadevan
 ms.author: kfollis
 ms.date: 04/09/2019
@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 9d1684b7d8dbde2fc507fa41f99c22ebe42ea587
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 7b05c894d326a49703b92d71590f0217349bc7fe
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194618"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450923"
 ---
 <!-- cSpell:ignore LijuKodicheraJayadevan -->
 
@@ -27,6 +27,7 @@ RBAC обеспечивает детальное управление досту
 Когда вы разрабатываете стратегию управления доступом, предоставьте пользователям минимальные привилегии, необходимые для выполнения своих задач. На следующем изображении представлен рекомендуемый шаблон для назначения ролей:
 
 ![Схема ролей RBAC](./media/manage-access/role-examples.png)
+_Изображение 1. Роли RBAC._
 
 При разработке плана управления доступом рекомендуется провести консультации с сотрудниками вашей организации, которые отвечают за безопасность и соответствие требованиям, управление ИТ-ресурсами и структуру предприятия.
 
@@ -88,7 +89,7 @@ Cloud Adoption Framework предоставляет дополнительные
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Что такое управление доступом на основе ролей (RBAC)?](https://docs.microsoft.com/azure/role-based-access-control/overview)
+- [Что такое управление доступом на основе ролей в Azure (RBAC)?](https://docs.microsoft.com/azure/role-based-access-control/overview)
 - [Role-based access control](../considerations/roles.md) (Управление доступом на основе ролей)
 
 ::: zone-end

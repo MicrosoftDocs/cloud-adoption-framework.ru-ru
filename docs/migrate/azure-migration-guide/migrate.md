@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 6dc3ea82120c89181b6d4d2ecffaccb6d77e99f5
-ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
+ms.openlocfilehash: e398c486192f2f0606765fadf1079f7b62afe923
+ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86372900"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "86450804"
 ---
 <!-- cSpell:ignore Cloudamize agentless uncontained SSMA Carbonite Movere -->
 
@@ -130,7 +130,7 @@ Azure Database Migration Service — это полностью управляе
 1. Выберите элемент **+ Создать ресурс** и найдите **Azure Database Migration Service** в marketplace.
 1. Завершите работу мастера создания Migration Service и нажмите кнопку **Создать**.
 
-Теперь служба готова к переносу поддерживаемых баз данных-источников (например, SQL Server, MySQL, PostgreSQL или MongoDB).
+Теперь служба готова к переносу поддерживаемых баз данных-источников на целевые платформы, такие как SQL Server, MySQL, PostgreSQL или MongoDB.
 
 ::: zone target="chromeless"
 
@@ -270,7 +270,7 @@ Azure DevOps — это рекомендуемое средство для уп
 
 При переходе на облачные технологии предоставляется прекрасная возможность настроить организацию для использования DevOps и CI/CD. Даже если ваша организация только управляет инфраструктурой, так как вы начинаете управлять инфраструктурой как кодом и используете отраслевые шаблоны и методики для DevOps, то вы сможете начать повышать гибкость с помощью конвейеров CI/CD. Это позволит быстрее адаптироваться к сценариям изменения, роста, выпуска и даже восстановления.
 
-Azure DevOps предоставляет все необходимые функции и обеспечивает интеграцию с Azure, локальными средами и другими облаками. Дополнительные сведения см. в статье об [Azure DevOps Services](https://docs.microsoft.com/azure/devops/user-guide/what-is-azure-devops?view=azure-devops). Пошаговые инструкции см. в [кратком руководстве по CI/CD с помощью Azure DevOps](https://microsoft.github.io/PartsUnlimited/pandp/200.1x-PandP-CICDQuickstartwithVSTS.html).
+Azure DevOps предоставляет необходимые функции и обеспечивает интеграцию с Azure, локальными средами и другими облаками. Дополнительные сведения см. на странице [Azure DevOps](https://azure.microsoft.com/services/devops). Пошаговые инструкции для обучения см. в [кратком руководстве по CI/CD и Azure DevOps](https://microsoft.github.io/PartsUnlimited/pandp/200.1x-PandP-CICDQuickstartwithVSTS.html).
 
 ### <a name="suggested-skills"></a>Предлагаемые навыки
 

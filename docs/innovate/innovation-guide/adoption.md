@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 257c02ae6ac6fcb878386ca64897ec44352b68ad
-ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
+ms.openlocfilehash: 4830928bb0b7765ca05a11ceee7c859b2dc2608a
+ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86373328"
+ms.lasthandoff: 07/20/2020
+ms.locfileid: "86478639"
 ---
 # <a name="prepare-for-customer-feedback"></a>Подготовка к сбору отзывов клиентов
 
@@ -25,7 +25,7 @@ ms.locfileid: "86373328"
 - **количественное (обратная связь для тестирования):** означает действия, которые мы ожидаем увидеть;
 - **качественное (обратная связь клиентов):** сообщает о том, что эти метрики означают для клиента.
 
-Чтобы интегрировать циклы обратной связи, нужен общий репозиторий для решения. Централизованный репозиторий обеспечит возможность записывать все отзывы о проекте и реагировать на них. [GitHub](https://github.com) является хранилищем для программного обеспечения с открытым исходным кодом. Это также одна из наиболее часто используемых платформ для размещения репозитория исходного кода для коммерческих приложений. В статье по [созданию репозиториев GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml) содержатся сведения по началу работы с репозиторием.
+Чтобы интегрировать циклы обратной связи, нужен общий репозиторий для решения. Централизованный репозиторий обеспечит возможность записывать все отзывы о проекте и реагировать на них. [GitHub](https://github.com) является хранилищем для программного обеспечения с открытым исходным кодом. Кроме того, это одна из наиболее часто используемых платформ для размещения репозитория исходного кода для коммерческих приложений. В статье по [созданию репозиториев GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml) содержатся сведения по началу работы с репозиторием.
 
 Каждый из приведенных ниже инструментов в Azure интегрируется с проектами, размещенными в GitHub, или совместим с ними.
 
@@ -90,7 +90,7 @@ Application Insights — это инструмент отслеживания, 
 
 <!-- markdownlint-disable DOCSMD001 -->
 
-::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.ApiManagement%2FService]" submitText="Go to API Management services" :::
+::: form action="OpenBlade[#blade/HubsExtension/BrowseResourceBlade/resourceType/Microsoft.ApiManagement%2FService]" submitText="Go to API Management Services" :::
 
 <!-- markdownlint-enable DOCSMD001 -->
 
@@ -114,7 +114,7 @@ Application Insights — это инструмент отслеживания, 
 
 ### <a name="action"></a>Действие
 
-Для Azure Boards и Azure Pipelines нужен портал, отдельный от GitHub и Azure. Приступайте к работе с [Azure DevOps Services](https://docs.microsoft.com/azure/devops/user-guide/what-is-azure-devops?view=azure-devops).
+Для Azure Boards и Azure Pipelines нужен портал, отдельный от GitHub и Azure. Приступайте к работе с [Azure DevOps Services](https://docs.microsoft.com/azure/devops/user-guide/what-is-azure-devops).
 
 ::: zone-end
 
@@ -153,7 +153,7 @@ Application Insights — это инструмент отслеживания, 
 
 1. Щелкните **Службы приложений**.
 2. Выберите нужное приложение из списка.
-3. В разделе **Развертывание** выберите **Центр развертывания** в области служб приложений.
+3. В разделе **Развертывание** выберите элемент **Центр развертывания** в области **Службы приложений**.
 
 ::: zone target="chromeless"
 
@@ -176,4 +176,4 @@ Application Insights — это инструмент отслеживания, 
 Приступите к созданию своих конвейеров развертывания:
 
 - [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2) (Создание первого конвейера)
-- [Задачи выпуска GitHub](https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/github-release?view=azure-devops)
+- [Задачи `GitHub Release`](https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/github-release?view=azure-devops)
