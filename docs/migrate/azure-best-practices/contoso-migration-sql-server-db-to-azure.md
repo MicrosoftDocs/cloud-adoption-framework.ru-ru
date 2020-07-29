@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 44269a67e406abe6f67c2b5e233d4ea676f45163
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: e341378d4d363344a36cfabb3f9b5374262d9e6f
+ms.sourcegitcommit: 65e8d2fc3ef31f2bb11a50f7c7a2d1eb116a6632
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86198988"
+ms.lasthandoff: 07/28/2020
+ms.locfileid: "87254948"
 ---
 <!-- cSpell:ignore BACPAC FILESTREAM -->
 
@@ -50,14 +50,14 @@ ms.locfileid: "86198988"
 | **Производительность** | После миграции приложения в Azure должны иметь те же возможности производительности, что и приложения в локальной среде компании Contoso. Переход в облако не означает, что производительность приложения менее важна. |
 | **Совместимость** | Contoso необходимо понимать совместимость своих приложений и баз данных с Azure. Contoso также должен понимать возможности размещения Azure. |
 | **Источники данных** | Все базы данных будут перемещены в Azure без исключений. На основе анализа базы данных и приложений используемых функций SQL они будут перемещены в PaaS, IaaS или управляемые экземпляры. Все базы данных должны перемещаться. |
-| **Приложения** | Приложения должны быть перемещены в облако везде, где это возможно. Если они не могут переместиться, им будет разрешено подключаться к перенесенной базе данных через сеть Azure только через частные соединения. |
+| **Приложение** | Приложения должны быть перемещены в облако везде, где это возможно. Если они не могут переместиться, им будет разрешено подключаться к перенесенной базе данных через сеть Azure только через частные соединения. |
 | **Затраты** | Компании необходимо получить сведения не только о параметрах миграции, но и о стоимости инфраструктуры после перехода в облако. |
 | **Управление** | Группы управления ресурсами должны создаваться для различных отделов вместе с группами ресурсов для управления всеми переносимыми базами данных SQL. Все ресурсы должны быть помечены сведениями о отделе для требований к оплате. |
 | **Ограничения** | Изначально не все филиалы, которые запускают приложения, будут иметь прямую ссылку ExpressRoute на Azure, поэтому этим офисам потребуется подключиться через шлюзы виртуальной сети. |
 
 ## <a name="solution-design"></a>Архитектура решения
 
-Компания Contoso уже выполнила [оценку миграции](https://docs.microsoft.com/azure/cloud-adoption-framework/plan/contoso-migration-assessment) своего цифрового пространства с помощью функции " [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview) " с [сопоставление служб](https://docs.microsoft.com/azure/azure-monitor/insights/service-map) .
+Компания Contoso уже выполнила [оценку миграции](https://docs.microsoft.com/azure/cloud-adoption-framework/plan/contoso-migration-assessment) своего цифрового пространства с помощью службы " [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview)".
 
 Оценка дает несколько рабочих нагрузок, распределенных по нескольким отделам. Общий размер проекта миграции требует полного офиса управления проектами (PMO) для управления спецификой взаимодействия, ресурсами и планированием по расписанию.
 
@@ -100,7 +100,7 @@ Contoso оценивает предлагаемый дизайн, составл
 
 #### <a name="step-1-discovery"></a>Шаг 1. Обнаружение
 
-Компания Contoso использовала миграцию Azure с Сопоставление служб для выявления зависимостей в среде Contoso. Служба "миграция Azure" автоматически обнаружила компоненты приложений в системах Windows и Linux и сопоставила взаимодействие между службами. С помощью Сопоставление служб функции службы "миграция Azure" отображаются подключения между серверами Contoso, процессами, задержкой входящего и исходящего подключения, а также портами в архитектуре, подключенной по протоколу TCP. Contoso требовалось только для установки [Microsoft Monitoring Agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows) и агентов [зависимостей Майкрософт](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows) .
+Компания Contoso использовала службу "миграция Azure" для Организации зависимостей в среде Contoso. Служба "миграция Azure" автоматически обнаружила компоненты приложений в системах Windows и Linux и сопоставила взаимодействие между службами. Служба "миграция Azure" также выводит подключения между серверами Contoso, процессами, задержкой входящего и исходящего подключения, а также портами в архитектуре, подключенной по протоколу TCP.
 
 Contoso также добавил Помощник по миграции данных в проект службы "миграция Azure". Выбрав это средство, вы сможете оценивать базы данных для миграции в Azure.
 
@@ -150,7 +150,7 @@ DMA рекомендует повысить производительность
 
 При наличии информации компания Contoso использует следующие рекомендации, чтобы определить, какой метод миграции следует использовать для каждой базы данных.
 
-| целевого объекта | Использование базы данных | Сведения | Миграция по сети | Автономная миграция | Максимальный размер | Руководство по миграции |
+| Назначение | Использование базы данных | Сведения | Миграция по сети | Автономная миграция | Максимальный размер | Руководство по миграции |
 | --- | --- | --- | --- | ---| --- | --- |
 | База данных SQL Azure (PaaS) | SQL Server (только данные) | Эти базы данных просто используют основные таблицы, столбцы, хранимые процедуры и функции | [Помощник по миграции данных](https://docs.microsoft.com/sql/dma/dma-overview), [репликация транзакций](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](https://docs.microsoft.com/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](https://docs.microsoft.com/sql/tools/bcp-utility?view=sql-server-ver15) | 1 ТиБ | [Ссылка](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql) |
 | Управляемый экземпляр SQL Azure | SQL Server (дополнительные функции) | Эти базы данных используют триггеры и другие [сложные концепции](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker) , такие как пользовательские типы .NET, брокеры служб и т. д. | [Помощник по миграции данных](https://docs.microsoft.com/sql/dma/dma-overview), [репликация транзакций](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](https://docs.microsoft.com/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](https://docs.microsoft.com/sql/tools/bcp-utility?view=sql-server-ver15), [собственная Архивация и восстановление](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started-restore) | 2 Тиб-8 тиб | [Ссылка](https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online) |
@@ -193,7 +193,7 @@ Contoso определил окно архива для всех рабочих 
 
 #### <a name="security"></a>Безопасность
 
-- Компания Contoso должна обеспечить безопасность своих новых рабочих нагрузок базы данных Azure. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview).
+- Компания Contoso должна обеспечить безопасность своих новых рабочих нагрузок базы данных Azure. [Подробнее.](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview)
 - В частности, компания Contoso должна проверить конфигурацию брандмауэра и виртуальной сети.
 - Настройте [частную ссылку](https://docs.microsoft.com/azure/azure-sql/database/private-endpoint-overview) , чтобы весь трафик базы данных хранился в Azure и локальной сети.
 - Включите [Azure Advanced Threat protection](https://docs.microsoft.com/azure/azure-sql/database/threat-detection-overview) для базы данных SQL Azure.
