@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 1dc3abc11ba3163934a5c9b58c0ed496ec0dbfd8
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 0f022693cdf8191a1c4e978a4545bfc117ed055f
+ms.sourcegitcommit: 622a7c5f1b47c9ad0a1c1ed3caa98bad6cf9d9c2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450702"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "87115098"
 ---
 <!-- cSpell:ignore laraaleite profx fsubscriptions fresource -->
 
@@ -149,8 +149,8 @@ ms.locfileid: "86450702"
 
 | Сущность | Область | Длина | Регистр | Допустимые знаки | Рекомендуемый шаблон | Пример |
 | --- | --- | --- | --- | --- | --- | --- |
-| Группа ресурсов | Подписка | 1–90 | Без учета регистра | Буквы, цифры, символ подчеркивания, круглые скобки, дефис и точка (но не в конце имени) и символы Юникода | `<service short name>-<environment>-Rg` | `profx-prod-rg` |
-| Группа доступности | Группа ресурсов | От 1 до 80 | Без учета регистра | Буквы, цифры, символ подчеркивания и дефис | `<service-short-name>-<context>-As` | `profx-SQL-as` |
+| Группа ресурсов | Подписка | 1–90 | Без учета регистра | Буквы, цифры, символ подчеркивания, круглые скобки, дефис и точка (но не в конце имени) и символы Юникода | `<service short name>-<environment>-rg` | `profx-prod-rg` |
+| Группа доступности | Группа ресурсов | От 1 до 80 | Без учета регистра | Буквы, цифры, символ подчеркивания и дефис | `<service-short-name>-<context>-as` | `profx-SQL-as` |
 | Тег | Связанная сущность | 512 (имя), 256 (значение) | Без учета регистра | Буквенно-цифровой | `"Key" : "value"` | `"Department" : "Central IT"` |
 
 ## <a name="resource-tags"></a>[Теги ресурсов](#tab/ResourceTags)
