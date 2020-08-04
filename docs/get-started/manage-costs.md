@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: e8c464f7985dde96b3a2c09823c47266c104f58e
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 8243189c2db4c49d8d1f69e09c459e716130e46e
+ms.sourcegitcommit: abbc6283f9f63a71333e0129ecdd8ad291517776
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86191813"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87524006"
 ---
 # <a name="get-started-manage-cloud-costs"></a>Начало работы: Управление затратами на облачные ресурсы
 
@@ -27,6 +27,8 @@ ms.locfileid: "86191813"
 ## <a name="step-1-optimize-enterprise-costs"></a>Шаг 1. Оптимизация корпоративных затрат
 
 Группа управления облаком хорошо подготовлена к оценке и эффективному снижению или незапланированным затратам благодаря сочетанию производительности мониторинга, уменьшению размера ресурсов и безопасному прерыванию неиспользуемых ресурсов. Оптимизация корпоративных затрат начинается с общей команды, которая позволяет понять средства, процессы и зависимости, необходимые для разумного выполнения затрат на уровне среды.
+
+<!-- docsTest:ignore "your cost management policies" -->
 
 **Результатам**
 
@@ -57,7 +59,7 @@ ms.locfileid: "86191813"
 
 - Компромиссы на уровне рабочей нагрузки могут потребоваться для реализации эффективных изменений оптимизации затрат. [Microsoft Azure хорошо спроектированная платформа](https://docs.microsoft.com/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure хорошо спроектированная проверка](https://docs.microsoft.com/assessments/?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
 - Если вы не знакомы с Cloud управление, установите [политики управления, процессы и дисциплины](../govern/index.md) , используя управляемую методологию.
-- Если вы не знакомы с дисциплиной управления затратами, ознакомьтесь со [статьей улучшения управления затратами](../govern/guides/complex/cost-management-improvement.md), посвященные разделу [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
+- Если вы еще не знакомы с дисциплиной управления затратами, рассмотрите [статью улучшение управления затратами](../govern/guides/complex/cost-management-improvement.md)в области [реализации](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
 
 <!-- markdownlint-disable MD033 -->
 <br>

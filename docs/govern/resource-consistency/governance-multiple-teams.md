@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 96f93ad2d7a73984a69ca36235a58557eac0d1a9
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: cb8942b451c750190975108d2b880a3f4e251908
+ms.sourcegitcommit: abbc6283f9f63a71333e0129ecdd8ad291517776
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450498"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87524057"
 ---
 <!-- TODO: Rationalize name formats. -->
 
@@ -242,7 +242,7 @@ ms.locfileid: "86450498"
 > [!NOTE]
 > Дополнительные сведения о связи между учетными записями Azure и подписками см. в статье Общие сведения о [доступе к ресурсам в Azure](https://docs.microsoft.com/azure/role-based-access-control/rbac-and-directory-admin-roles) .
 
-Выполните следующие действия.
+Выполните указанные ниже действия:
 
 1. Если у вашей организации нет учетной записи Azure, создайте [ее](https://docs.microsoft.com/azure/active-directory/sign-up-organization). Пользователь, зарегистрировавший учетную запись Azure, становится ее администратором, поэтому руководство организации должно выбрать человека, который возьмет на себя эту роль. Он будет отвечать за:
     - Создание подписок.
@@ -261,7 +261,7 @@ ms.locfileid: "86450498"
     - Пользователь, который будет владельцем подписки для каждой подписки, связанной с каждой средой. (обратите внимание, что это необходимо, только если на **администратора служб** подписки не будут возложены функции по управлению доступом к ресурсам для каждой подписки или среды);
     - Пользователь, который будет **пользователем сетевых операций**.
     - Пользователи, являющиеся **владельцами рабочей нагрузки**.
-4. Администратор учетной записи Azure с помощью [портала управления учетными записями Azure](https://account.azure.com/subscriptions) создает следующие три подписки:
+4. Администратор учетной записи Azure [создает три подписки Azure](https://docs.microsoft.com/azure/cost-management-billing/manage/create-subscription):
     - Подписка для среды **общей инфраструктуры** .
     - Подписка для **рабочей** среды.
     - подписку для среды **разработки**.
@@ -277,8 +277,3 @@ ms.locfileid: "86450498"
 ## <a name="related-resources"></a>Связанные ресурсы
 
 [Встроенные роли управления доступом на основе ролей в Azure](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles)
-
-## <a name="next-steps"></a>Дальнейшие действия
-
-> [!div class="nextstepaction"]
-> [Сведения о развертывании базовой инфраструктуры](../../infrastructure/virtual-machines/basic-workload.md)

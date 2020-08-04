@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: adbfaceb51618d50e64e81e571038671533135c7
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: fef5e1ccd6ac928ccf870ffff2029d43aba78143
+ms.sourcegitcommit: abbc6283f9f63a71333e0129ecdd8ad291517776
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450141"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87524040"
 ---
 # <a name="governance-design-for-a-simple-workload"></a>Разработка системы управления для небольшой рабочей нагрузки
 
@@ -111,11 +111,6 @@ Azure доверяет аутентификацию пользователей �
 Наконец, создав подписку и связав с нею клиент Azure AD, вы можете [добавить в нее **владельца рабочей нагрузки** со встроенной ролью **владельца**](https://docs.microsoft.com/azure/billing/billing-add-change-azure-subscription-administrator#to-assign-a-user-as-an-administrator).
 
 ## <a name="next-steps"></a>Дальнейшие действия
-
-> [!div class="nextstepaction"]
-> [Развертывание основной рабочей нагрузки в Azure](../../infrastructure/virtual-machines/basic-workload.md)
-
-<!-- --->
 
 > [!div class="nextstepaction"]
 > [Предоставление доступа к ресурсам для нескольких команд](./governance-multiple-teams.md)

@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: fbb7455347584b9b86ad4dcf3f9d923ffaa669af
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 5c77156723fe1b5b54a775250bf368f886c4d101
+ms.sourcegitcommit: abbc6283f9f63a71333e0129ecdd8ad291517776
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479693"
+ms.lasthandoff: 08/03/2020
+ms.locfileid: "87523989"
 ---
 # <a name="azure-fundamental-concepts"></a>Основные понятия Azure
 
@@ -60,7 +60,7 @@ Azure определяет три типа ролей для администр�
 - Роли управление доступом на основе ролей в Azure (RBAC)
 - Роли администратора Azure Active Directory (Azure AD)
 
-Роль администратора учетной записи для подписки Azure назначается учетной записью электронной почты. Администратор учетной записи является полноправным владельцем подписки. Администратор учетной записи может управлять сведениями о подписке в [центре управления учетной записью Azure](https://account.azure.com/subscriptions).
+Роль администратора учетной записи для подписки Azure назначается учетной записью электронной почты. Администратор учетной записи является полноправным владельцем подписки. Администратор учетной записи может [управлять администраторами подписки](https://docs.microsoft.com/azure/cost-management-billing/manage/add-change-subscription-administrator) с помощью портал Azure.
 
 По умолчанию роль администратора службы для подписки учетной записи Azure назначается учетной записью электронной почты. Администратор служб имеет разрешения на доступ к подписке, эквивалентной роли владельца на основе RBAC. Администратор служб имеет полный доступ к порталу Azure. Администратор учетной записи может сменить администратора службы на другую учетную запись электронной почты.
 
@@ -87,7 +87,7 @@ Azure определяет три типа ролей для администр�
 - [Управление доступом к ресурсам в Azure](../../govern/resource-consistency/resource-access-management.md)
 - [Общие сведения об Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)
 - [Управление доступом на основе ролей (RBAC) для ресурсов Azure](https://docs.microsoft.com/azure/role-based-access-control/overview)
-- [Что такое Microsoft Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
+- [Что такое Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)
 - [Associate or add an Azure subscription to your Azure Active Directory tenant](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-how-subscriptions-associated-directory) (Связывание или добавление подписки Azure в клиент Azure Active Directory)
 - [Топологии для Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 - [Подписки, лицензии, учетные записи и клиенты для облачных предложений Майкрософт](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)
