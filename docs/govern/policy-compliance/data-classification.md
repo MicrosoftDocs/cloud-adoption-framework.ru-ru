@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 0696eb9b3720519fe26641322fa8b50caf020620
-ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
+ms.openlocfilehash: 781b45eac5f03333add896545e9a32f867473934
+ms.sourcegitcommit: 9662234674e663bc7d4bc134d303520cb146bd95
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "84994202"
+ms.lasthandoff: 08/04/2020
+ms.locfileid: "87560429"
 ---
 # <a name="what-is-data-classification"></a>Классификация данных
 
@@ -39,11 +39,17 @@ ms.locfileid: "84994202"
 
 Теги ресурсов — хороший подход к хранению метаданных, и эти теги можно использовать для применения сведений о классификации данных к развернутым ресурсам. Хотя Теги облачных ресурсов по классификации не являются заменой для процесса формальной классификации данных, он предоставляет ценное средство для управления ресурсами и применения политик. [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) — отличное решение, помогающее классифицировать сами данные, независимо от того, где они находятся (локально, в Azure или где-либо еще). Рассмотрите его как часть общей стратегии классификации.
 
-Дополнительные сведения о разметке ресурсов в Azure см. в статье [Использование тегов для Организации ресурсов Azure и иерархии управления](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
+## <a name="take-action"></a>Выполнить действие
+
+Выполните действия, определив и размечая ресурсы, используя определенную классификацию данных. 
+
+- [Выберите один из руководств по управлению действиями,](../guides/index.md) чтобы получить примеры применения тегов в портфеле.
+- Ознакомьтесь с статьей о [стандартах именования и маркировки](../../ready/azure-best-practices/naming-and-tagging.md#metadata-tags) , чтобы определить более полный стандарт тегов.
+- Дополнительные сведения о разметке ресурсов в Azure см. в статье [Использование тегов для Организации ресурсов Azure и иерархии управления](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Применяйте классификации данных во время выполнения одного из руководств по управлению.
+Продолжим обучение из этой серии статей, изучив статью Защита конфиденциальных данных. Следующая статья содержит полезные сведения, если вы работаете с данными, классифицированными как конфиденциальные или строго конфиденциальные.
 
 > [!div class="nextstepaction"]
-> [Выберите Руководство по управлению действиями](../guides/index.md)
+> [Защита конфиденциальных данных](https://docs.microsoft.com/azure/architecture/data-guide/scenarios/securing-data-solutions?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
