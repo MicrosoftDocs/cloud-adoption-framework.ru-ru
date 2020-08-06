@@ -133,7 +133,7 @@ items:
         items:
           - name: Обзор
             href: plan/plan-intro.md
-          - name: предварительные требования
+          - name: Предварительные требования
             href: plan/prerequisites.md
           - name: Развертывание шаблона в Azure DevOps
             href: plan/template.md
@@ -449,7 +449,7 @@ items:
                 items:
                   - name: Рекомендации по повторному размещению VMware
                     href: migrate/azure-best-practices/vmware-host.md
-                  - name: предварительные требования
+                  - name: Предварительные требования
                     items:
                       - name: Защита среды
                         href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/private-cloud-secure?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
@@ -553,7 +553,7 @@ items:
                         items:
                           - name: "Рефакторинг Cassandra в Azure Cosmos\_DB"
                             href: 'https://datamigration.microsoft.com/scenario/cassandra-to-cosmos'
-                      - name: Oracle
+                      - name: Oracle;
                         items:
                           - name: Рефакторинг Oracle в Базу данных SQL Azure
                             href: 'https://datamigration.microsoft.com/scenario/oracle-to-azuresqldb'
@@ -687,7 +687,7 @@ items:
             items:
               - name: Обзор
                 href: migrate/migration-considerations/index.md
-              - name: предварительные требования
+              - name: Предварительные требования
                 items:
                   - name: Обзор
                     href: migrate/migration-considerations/prerequisites/index.md
@@ -916,7 +916,7 @@ items:
                           - name: 'Проектирование и создание микрослужб, а также управление ими в Azure'
                             href: 'https://docs.microsoft.com/azure/architecture/guide/architecture-styles/microservices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                           - name: Эталонная архитектура для микрослужб в Службе Azure Kubernetes (AKS)
-                            href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/microservices/aks?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices'
                           - name: "Эталонная архитектура\_— пример бессерверных микрослужб"
                             href: 'https://docs.microsoft.com/samples/azure-samples/serverless-microservices-reference-architecture/serverless-microservices-reference-architecture/?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
                       - name: Контейнеры
@@ -1471,7 +1471,7 @@ items:
             href: decision-guides/index.md
           - name: Подписки
             href: decision-guides/subscriptions/index.md
-          - name: Удостоверение
+          - name: Идентификация
             href: decision-guides/identity/index.md
           - name: Принудительное применение политики
             href: decision-guides/policy-enforcement/index.md
