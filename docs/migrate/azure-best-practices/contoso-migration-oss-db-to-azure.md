@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: f259663be5e6572cfcdd0724daa62173769e4709
-ms.sourcegitcommit: 65e8d2fc3ef31f2bb11a50f7c7a2d1eb116a6632
+ms.openlocfilehash: 9169417f75434a176767fb20182a1bdd99a70bbf
+ms.sourcegitcommit: 452e09b543e7b84f943db5b02480ba2d18afd939
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/28/2020
-ms.locfileid: "87254999"
+ms.lasthandoff: 08/06/2020
+ms.locfileid: "87866202"
 ---
 # <a name="migrate-open-source-databases-to-azure"></a>Перенос баз данных с открытым кодом в Azure
 
@@ -92,7 +92,7 @@ ms.locfileid: "87254999"
 
 #### <a name="step-1-discovery"></a>Шаг 1. Обнаружение
 
-Компания Contoso использовала службу "миграция Azure" для Организации зависимостей в среде Contoso. Служба "миграция Azure" автоматически обнаружила компоненты приложений в системах Windows и Linux и сопоставила взаимодействие между службами. Компания "миграция Azure" выводит подключения между серверами Contoso, процессами, задержкой входящего и исходящего подключения, а также портами в архитектуре, подключенной по протоколу TCP. Contoso требовалось только для установки [Microsoft Monitoring Agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows) и [Microsoft dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows).
+Компания Contoso использовала службу "миграция Azure" для Организации зависимостей в среде Contoso. Служба "миграция Azure" автоматически обнаружила компоненты приложений в системах Windows и Linux и сопоставила взаимодействие между службами. Служба "миграция Azure" также выводит подключения между серверами Contoso, процессами, задержкой входящего и исходящего подключения, а также портами в архитектуре, подключенной по протоколу TCP. Contoso требовалось только для установки [Microsoft Monitoring Agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows) и [Microsoft dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows).
 
 Компания Contoso обнаружила более 300 экземпляров баз данных, которые необходимо перенести. Из этих экземпляров примерно 40% могут быть перемещены в службы на основе PaaS. Из оставшихся 60 процентов они должны быть перемещены на подход на основе IaaS с помощью виртуальной машины, на которой работает соответствующее программное обеспечение базы данных.
 
