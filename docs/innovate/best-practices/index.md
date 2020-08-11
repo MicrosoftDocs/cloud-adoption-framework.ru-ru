@@ -7,22 +7,22 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: e43e0010398fcb9d297d7246cb95a1d1c1a2246a
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 758180e4f8771dab5502636eab3da8d9f9e0847a
+ms.sourcegitcommit: d31a9043d1ae9283ed126bf118ca26d1d18d6948
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449683"
+ms.lasthandoff: 08/10/2020
+ms.locfileid: "88040671"
 ---
 # <a name="develop-digital-inventions-in-azure"></a>Разработка цифровых технологий в Azure
 
-Azure помогает ускорить все этапы разработки цифровых технологий. Этот раздел Cloud Adoption Framework посвящен [методике внедрения инноваций](../considerations/index.md). В этом разделе показано, как объединить службы Azure, чтобы создать цепочки инструментов для разработки цифровых технологий.
+Azure помогает ускорить все этапы разработки цифровых технологий. Этот раздел документации по Cloud Adoption Framework для Azure посвящен [методике внедрения инноваций](../considerations/index.md). В этом разделе показано, как объединить службы Azure, чтобы создать цепочки инструментов для разработки цифровых технологий.
 
 ## <a name="alignment-to-the-methodology"></a>Согласование с методикой
 
 Для разработки цифровых технологий и внедрения инноваций в Azure можно использовать разные комбинации облачных средств. В следующей серии статей описаны средства, которые помогают реализовать методику внедрения инноваций. На приведенной ниже схеме демонстрируется связь между разными средствами и типами инноваций.
 
-![Цепочка инструментов в Cloud Adoption Framework для внедрения инноваций](../../_images/innovate/innovate-toolchain.png)
+![Схема, на которой показана цепочка инструментов Cloud Adoption Framework для внедрения инноваций](../../_images/innovate/innovate-toolchain.png)
 
 ## <a name="toolchain"></a>Цепочка инструментов
 
