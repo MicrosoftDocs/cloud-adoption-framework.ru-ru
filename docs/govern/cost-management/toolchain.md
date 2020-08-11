@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 6355c5f5a80e915a3b2b82b99c06c388e9e0f8d2
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: e30cabbc88f257ec2fa516bd500b292852ee1b8c
+ms.sourcegitcommit: 99151759b9d7dfc4e8aab345750eeae82d18d547
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450311"
+ms.lasthandoff: 08/11/2020
+ms.locfileid: "88075800"
 ---
 # <a name="cost-management-tools-in-azure"></a>Средства управления затратами в Azure
 
@@ -23,9 +23,8 @@ ms.locfileid: "86450311"
 
 <!-- TODO: Content packs are deprecated. -->
 
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)  | [Пакет содержимого Azure EA](https://docs.microsoft.com/power-bi/service-connect-to-azure-enterprise)  | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) |
+| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами Azure](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview)  | [Соединитель Power BI Desktop](https://docs.microsoft.com/power-bi/connect-data/desktop-connect-azure-cost-management) | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) |
 |---------|---------|---------|---------|---------|
-| Соглашение Enterprise требуется?     | Нет         | Нет         | Да         | Нет         |
 | Управление бюджетом     | Нет         | Да         | Нет         | Да         |
 | Отслеживание затрат на отдельном ресурсе    | Да         | Да         | Да         | Нет         |
 | Отслеживание затрат на нескольких ресурсах    | Нет         | Да        | Да         | Нет         |
