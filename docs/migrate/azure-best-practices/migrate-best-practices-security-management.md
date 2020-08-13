@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 13673ee1ab0d1e66acc4d5bf14df4522e2d9882f
-ms.sourcegitcommit: 580a6f66a0d0f3f5b755c68d757a84b2351a432f
+ms.openlocfilehash: f3f31b529d3987226248e820ef8394ce3d0e6bf8
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87473239"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196765"
 ---
 <!-- cSpell:ignore FIPS SIEM majeure NSGs -->
 
@@ -226,7 +226,7 @@ Azure предоставляет ряд других средств защиты
 Случайное удаление группы ресурсов крайне нежелательно. Рекомендуется реализовать блокировку удаления, чтобы это не произошло.
 
   ![Снимок экрана блокировки удаления.](./media/migrate-best-practices-security-management/locks.png)
- 
+
   _Рис. 6. удаление блокировок._
 
 **Подробнее:**
@@ -545,7 +545,7 @@ Site Recovery реплицирует виртуальные машины из б
 - Сведения об [отслеживании изменений](https://docs.microsoft.com/azure/automation/automation-change-tracking).
 - Сведения о [возможностях службы автоматизации Azure](https://docs.microsoft.com/azure/automation/automation-intro).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Просмотрите другие рекомендации:
 

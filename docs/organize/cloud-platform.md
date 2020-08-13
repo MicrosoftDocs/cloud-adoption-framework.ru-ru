@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: d5aa6f9625f3841890669c3ee4c5d769bd4a9d84
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 0fdba195a8ea782909fa7d72da0084ed03a258a7
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755543"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196549"
 ---
 # <a name="cloud-platform-functions"></a>Функции облачной платформы
 
@@ -38,7 +38,7 @@ ms.locfileid: "83755543"
 - [Microsoft Azure архитектура](https://www.pluralsight.com/courses/cloud-architecture-foundations)— Pluralsightный курс для архитекторов-заземлений в архитектуре Azure.
 - [Сетевые службы Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-networking). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
 
-**Проверьте следующее:**
+**Ознакомьтесь со следующими сведениями:**
 
 - [Бизнес-результаты](../strategy/business-outcomes/index.md)
 - [Финансовые модели](../strategy/financial-models.md)
@@ -72,8 +72,8 @@ ms.locfileid: "83755543"
 - Создание и проверка развертывания архитектуры платформы.
 - Ознакомьтесь с планами выпуска для источников новых требований к платформе.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 По мере того, как облачная платформа станет более оптимальной, ее можно будет ускорить с помощью [функций облачной автоматизации](./cloud-automation.md) . Кроме того, он позволяет создавать лучшие решения и сокращать деловые и технические риски.
 
-Научитесь распределять обязанности групп, разрабатывая кросс-группную матрицу, определяющую ответственные, осведомленные, проученные и информированные (RACI) стороны. Скачайте и измените [шаблон электронной таблицы RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx).
+Научитесь распределять обязанности групп, разрабатывая кросс-группную матрицу, определяющую ответственные, осведомленные, проученные и информированные (RACI) стороны. Скачайте и измените [шаблон RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx).

@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/05/2020
-ms.openlocfilehash: 5b97c1efba9a0efc976404bea9680cf2baaa0d94
-ms.sourcegitcommit: 7ff5c7a12412b1af0090b8eebd25b024f7830a57
+ms.openlocfilehash: ee210d3c29ae085ee516a9798946f956dadf01da
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/01/2020
-ms.locfileid: "85814359"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196720"
 ---
 # <a name="cloud-strategy-functions"></a>Функции облачной стратегии.
 
@@ -23,7 +23,7 @@ ms.locfileid: "85814359"
 - Finance
 - Специализированное ПО
 - Управление персоналом
-- Операции
+- Operations
 - Корпоративная архитектура
 - ИТ – инфраструктура
 - Группы приложений
@@ -39,7 +39,7 @@ ms.locfileid: "85814359"
 - [Изучите бизнес-ценность Microsoft Azure](https://docs.microsoft.com/learn/paths/learn-business-value-of-azure).
 - [Узнайте, как облачная платформа внедрения](https://docs.microsoft.com/learn/modules/microsoft-cloud-adoption-framework-for-azure) может помочь в согласовании стратегии для бизнеса, людей и технологий.
 - Ознакомьтесь с процессом [стратегии внедрения в облако](../strategy/index.md) .
-- Скачайте [шаблон стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Скачайте [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 
 ## <a name="minimum-scope"></a>Минимальная область
 
@@ -89,8 +89,8 @@ ms.locfileid: "85814359"
 - На протяжении всего процесса внедрения выделять 1-2 часов каждый месяц для проверки хода выполнения и проверки приоритетов.
 - По мере необходимости может потребоваться дополнительное время от делегированных членов группы руководителя. Каждый член группы стратегий облака должен даете право делегата, который может выделять 5-10 часов в неделю для поддержки текущих вопросов определения приоритетов и составления отчетов о любых срочных нуждах.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Запуск [группы облачных стратегий](../get-started/team/cloud-strategy.md)
 - Выровняйте свою стратегию с помощью [облачных функций внедрения](./cloud-adoption.md) , создав [группу внедрения облака](../get-started/team/cloud-adoption.md) для работы с.
-- Используйте [шаблон электронной таблицы RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) для согласования обязанностей между командами.
+- Используйте [шаблон RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx) для согласования обязанностей между командами.
