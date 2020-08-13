@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 8243189c2db4c49d8d1f69e09c459e716130e46e
-ms.sourcegitcommit: abbc6283f9f63a71333e0129ecdd8ad291517776
+ms.openlocfilehash: b2e1b404389d9795787363fb9e88188979089f00
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87524006"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195956"
 ---
 # <a name="get-started-manage-cloud-costs"></a>Начало работы: Управление затратами на облачные ресурсы
 
@@ -78,7 +78,7 @@ ms.locfileid: "87524006"
 
 **Результатам**
 
-- Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 - Создайте свой первый бюджет с помощью службы "Управление затратами Azure".
 
 **Рекомендации по поддержке готовности к завершению.**

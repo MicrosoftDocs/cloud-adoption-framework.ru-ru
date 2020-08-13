@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 31c010e60c21890803b0897394ec63530ee34cd4
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: aac7c3407ef394770592dc2af14189a09366887e
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450447"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195862"
 ---
 # <a name="get-started-improve-reliability-with-the-right-controls"></a>Начало работы. повышение надежности с помощью правильных элементов управления
 
@@ -91,7 +91,7 @@ ms.locfileid: "86450447"
 
 **Результатам**
 
-- Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 - Убедитесь, что базовый план управления обеспечивает операционную поддержку, которая соответствует стратегическому направлению внедрения в облако.
 
 **Рекомендации по поддержке готовности к завершению.**
@@ -115,7 +115,7 @@ ms.locfileid: "86450447"
 
 **Результатам**
 
-- Обновите [шаблон стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) , чтобы отразить изменения, необходимые для достижения требуемой стратегии. Записанные изменения могут включать:
+- Обновите [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) , чтобы отразить изменения, необходимые для достижения требуемой стратегии. Записанные изменения могут включать:
 
   - Оценка существующего цифрового пространства.
   - План внедрения в облако, отражающий необходимые изменения и работу.

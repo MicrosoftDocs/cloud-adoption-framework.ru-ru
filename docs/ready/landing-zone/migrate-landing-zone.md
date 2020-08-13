@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 1b1821a40df2f221855642c168e3a7bf13c56492
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 828b61ae6064e4c3b00fb0248900fe8f8cbab59f
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479217"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88192891"
 ---
 # <a name="deploy-a-migration-landing-zone-in-azure"></a>Развертывание зоны размещения для миграции в Azure
 
@@ -20,16 +20,16 @@ ms.locfileid: "86479217"
 
 ## <a name="deploy-the-blueprint"></a>Развертывание схемы
 
-Прежде чем использовать чертеж КАФ Zone для целевой зоны в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения облачных технологий, можно развернуть схему [КАФ миграции](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone) с помощью [этапов развертывания][deploy-sample].
+Прежде чем использовать чертеж КАФ Zone для целевой зоны в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения облачных технологий, можно развернуть схему [КАФ миграции](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone) с помощью этапов развертывания.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы][deploy-sample]
+> [Развертывание образца схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy)
 
 ## <a name="design-principles"></a>Принципы проектирования
 
 Этот вариант реализации обеспечивает упрямого подход к общим областям проектирования, общим для всех целевых зон Azure. Дополнительные технические сведения см. в приведенных ниже допущениях и решениях.
 
-### <a name="deployment-options"></a>Варианты развертывания
+### <a name="deployment-options"></a>Параметры развертывания
 
 Этот вариант реализации развертывает минимальный подходящий продукт (MVP) для запуска миграции. По мере выполнения миграции клиент будет следовать модульному подходу, основанному на рефакторинге, для использования в параллельных руководствах, в котором используется управляемая [методика](../../govern/index.md) и [методология управления](../../manage/index.md) , чтобы обращаться к этим сложным темам параллельно с первоначальными усилиями по миграции.
 
@@ -95,7 +95,7 @@ ms.locfileid: "86479217"
 
 | Компонент                    | Решения                                                                                         | Альтернативные подходы                                                                                                                                                                                                                                                                |
 |------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Средства миграции              | Будет развернута Azure Site Recovery, и будет создан проект Миграции Azure.                | [Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)                                                                                                                                                                                               |
+| Средства миграцииСредства миграции              | Будет развернута Azure Site Recovery, и будет создан проект Миграции Azure.                | [Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)                                                                                                                                                                                               |
 | Ведение журналов и мониторинг       | Рабочая область оперативной аналитики и учетная запись хранения для диагностики будут подготовлены.                |                                                                                                                                                                                                                                                                                       |
 | Сеть                      | Виртуальная сеть будет создана с подсетями для шлюза, брандмауэра, поля перехода и целевой зоны.  | [Сетевые решения](../considerations/networking-options.md)                                                                                                                                                                                                                       |
 | Идентификация                     | Предполагается, что подписка уже связана с экземпляром Azure Active Directory. | [Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) |
@@ -104,27 +104,23 @@ ms.locfileid: "86479217"
 | Группы ресурсов              | Н/д — предназначено для одной рабочей подписки.                                              | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                                                 |
 | Группы управления            | Н/д — предназначено для одной рабочей подписки.                                              | [Организация подписок и управление ими](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                                |
 | Данные                         | Недоступно                                                                                               | [Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)                       |
-| Память                      | Недоступно                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
+| Служба хранилища                      | Недоступно                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
 | Стандарты именования и расстановки тегов | Недоступно                                                                                               | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                                                    |
-| управления затратами;              | Недоступно                                                                                               | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                                              |
-| Службы вычислений                      | Недоступно                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
+| Управление затратами              | Недоступно                                                                                               | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                                              |
+| Вычисления                      | Недоступно                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
 
 ## <a name="customize-or-deploy-a-landing-zone"></a>Настройка или развертывание целевой зоны
 
-См. Дополнительные сведения и загрузите образец схемы КАФ Migration Zone для развертывания или настройки из примеров из схемы [Azure][deploy-sample].
+Дополнительные сведения и Загрузка образца схемы КАФ миграции на главную зону для развертывания или настройки в примерах схемы Azure см. здесь.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы][deploy-sample]
+> [Развертывание образца схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy)
 
 Рекомендации по настройке, которые следует внести в эту схему или в итоговую целевую зону, см. в статье [сведения о целевой зоне](../considerations/index.md).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
-После развертывания первой целевой зоны вы можете [расширить целевую зону](../considerations/index.md) .
+После развертывания первой целевой зоны вы можете расширить целевую зону.
 
 > [!div class="nextstepaction"]
 > [Расширение целевой зоны](../considerations/index.md)
-
-<!-- links -->
-
-[Deploy-sample]: https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy

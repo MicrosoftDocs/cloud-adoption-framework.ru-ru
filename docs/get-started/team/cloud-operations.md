@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: ed6a3c8e0356b904a3114382b674aafbcc2f7dac
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 295266e74332649b992ad715c382122538cad5c5
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450413"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195798"
 ---
 # <a name="get-started-build-a-cloud-operations-team"></a>Начало работы: создание группы облачных операций
 
@@ -29,7 +29,7 @@ ms.locfileid: "86450413"
 **Результатам**
 
 - Определите, нужна ли вам группа облачных операций.
-- Выровняйте обязанности между командами, разработав межкомандную матрицу, которая определяет _ответственных, осведомленных, проконсультируйтесь и информированные (RACI)_ стороны. Задокументируйте решение и ответственных лиц в [шаблоне RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) на `Org Alignment` листе.
+- Выровняйте обязанности между командами, разработав межкомандную матрицу, которая определяет _ответственных, осведомленных, проконсультируйтесь и информированные (RACI)_ стороны. Задокументируйте решение и ответственных лиц в [шаблоне RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx) на `Org Alignment` листе.
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -54,8 +54,8 @@ ms.locfileid: "86450413"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- Чтобы понять мотивацию, метрики и стратегию группы, изучите [стратегию и шаблон плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) компании с членами группы по стратегии облака.
-- Чтобы понять временные шкалы и приоритеты, изучите [шаблон плана внедрения в облако](../../plan/template.md) с членами группы по внедрению в облако.
+- Чтобы понять мотивацию, метрики и стратегию группы, изучите [стратегию и шаблон плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) компании с членами группы по стратегии облака.
+- Чтобы понять временные шкалы и приоритеты, изучите [план внедрения в облаке](../../plan/template.md) компании с членами группы внедрения в облако.
 - Чтобы понять эксплуатационные требования и обязательства, которые Группа установила в бизнесе, Начните разработку [книги Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx).
 
 <!-- markdownlint-disable MD033 -->
@@ -63,7 +63,7 @@ ms.locfileid: "86450413"
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
 | --- | --- |
-| <li>  Группа по эксплуатации облака | <li> Группа по облачной стратегии <li> Группа по внедрению облака <li> Группа по системе управления облаком <li> Облачный центр для ИТ и специалистов по ИТ |
+| <li> Группа по эксплуатации облака | <li> Группа по облачной стратегии <li> Группа по внедрению облака <li> Группа по системе управления облаком <li> Облачный центр для ИТ и специалистов по ИТ |
 
 ## <a name="step-3-establish-a-cadence-with-other-teams"></a>Шаг 3. Создание ритмичности с помощью других команд
 
@@ -193,13 +193,13 @@ ms.locfileid: "86450413"
 | --- | --- |
 | <li> Группы внедрения в облако | <li> Группа по системе управления облаком <li> Группа по эксплуатации облака |
 
-## <a name="whats-next"></a>Дальнейшие действия
+## <a name="whats-next"></a>Что дальше?
 
 Как внедрение и масштабирование операций, важно определить и автоматизировать рекомендации по управлению, расширяющие существующие ИТ-требования. Формирование группы в облаке (Ккое) является важным шагом к масштабированию внедрения облака, облачных операций и действий по управлению облаком.
 
-Дополнительные сведения:
+См. также:
 
 - [Функции Cloud Center of Excellence](../../organize/cloud-center-of-excellence.md)
 - [Антишаблоны Организации: приемники и фиефдомс](../../organize/fiefdoms-silos.md)
 
-Выровняйте обязанности между командами, разработав межкомандную матрицу, определяющую RACI стороны. Скачайте и измените [шаблон электронной таблицы RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx).
+Выровняйте обязанности между командами, разработав межкомандную матрицу, определяющую RACI стороны. Скачайте и измените [шаблон RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx).

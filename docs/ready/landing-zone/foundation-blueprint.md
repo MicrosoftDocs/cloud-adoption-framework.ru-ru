@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: ea53df3a8d349299e08ecc0681b4dd24dc71336a
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 754f8a7bf3b72be2b1a6fc465d25bcd38cdda427
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86448220"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196221"
 ---
 <!-- docsTest:ignore "CAF Foundation blueprint" -->
 
@@ -22,16 +22,16 @@ ms.locfileid: "86448220"
 
 ## <a name="deploy-the-blueprint"></a>Развертывание схемы
 
-Прежде чем использовать чертеж КАФ Foundation в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения в облако, то [проект КАФ Foundation](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation) можно развернуть с помощью [шагов развертывания][deploy-sample].
+Прежде чем использовать чертеж КАФ Foundation в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения в облако, то [проект КАФ Foundation](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation) можно развернуть с помощью шагов развертывания.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы][deploy-sample]
+> [Развертывание образца схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation/deploy)
 
 ## <a name="design-principles"></a>Принципы проектирования
 
 Этот вариант реализации обеспечивает упрямого подход к общим областям проектирования, общим для всех целевых зон Azure. Дополнительные технические сведения см. в приведенных ниже допущениях и решениях.
 
-### <a name="deployment-options"></a>Варианты развертывания
+### <a name="deployment-options"></a>Параметры развертывания
 
 Этот вариант реализации развертывает MVP, чтобы служить основой для ваших дисциплин управления. Группа будет следовать основанному на рефакторингу подходу к более зрелым дисциплинам управления с помощью [управляемой методологии](../../govern/index.md).
 
@@ -95,18 +95,14 @@ ms.locfileid: "86448220"
 
 ## <a name="customize-or-deploy-this-blueprint"></a>Настроить или развернуть этот проект
 
-Дополнительные сведения и Загрузка образца схемы КАФ Foundation для развертывания или настройки из [примеров использования схемы Azure][deploy-sample].
+Узнайте больше и скачайте образец схемы КАФ Foundation для развертывания или настройки в примерах схемы Azure.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы][deploy-sample]
+> [Развертывание образца схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation/deploy)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
-После развертывания первой целевой зоны вы можете [расширить целевую зону](../considerations/index.md).
+После развертывания первой целевой зоны вы можете расширить целевую зону.
 
 > [!div class="nextstepaction"]
 > [Расширение целевой зоны](../considerations/index.md)
-
-<!-- links -->
-
-[Deploy-sample]: https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation/deploy

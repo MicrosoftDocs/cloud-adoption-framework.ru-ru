@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 6e317dc33372e32ed175c646426a52e2a93c939f
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 8fb3a630792c204ee9d1de5649f2d3b08e59ee16
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194924"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196218"
 ---
 # <a name="management-group-and-subscription-organization"></a>Организация групп управления и подписок
 
@@ -27,7 +27,7 @@ _Рис. 1. иерархия групп управления._
 **Рекомендации по проектированию:**
 
 - Группы управления можно использовать для объединения политик и назначений инициатив с помощью политики Azure.
-- Дерево группы управления может поддерживать до [шести уровней глубины](https://docs.microsoft.com/azure/governance/management-groups/overview#hierarchy-of-management-groups-and-subscriptions). Это ограничение не включает уровень корня или подписки.
+- Дерево группы управления может поддерживать до [шести уровней глубины](https://docs.microsoft.com/azure/governance/management-groups/overview#hierarchy-of-management-groups-and-subscriptions). Это ограничение не включает корневой уровень клиента или уровень подписки.
 
 **Рекомендации по проектированию:**
 

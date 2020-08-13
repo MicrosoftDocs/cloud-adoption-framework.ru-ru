@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 6372e7cb8d90cb7a13c55f04dd2ac0714d06c681
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 4c7cfc0afc88ea665dac3037f0c6f27889329c23
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450515"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195919"
 ---
 # <a name="get-started-deliver-operational-excellence-during-digital-transformation"></a>Начало работы. доставьтесь в эксплуатацию во время цифрового преобразования
 
@@ -38,7 +38,7 @@ ms.locfileid: "86450515"
 
 **Результатам**
 
-- Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 - Убедитесь, что метрики обучения хорошо понятны и включены в раздел "результаты бизнеса". Эти метрики помогут вам в обеспечении оперативной деятельности и отчетности.
 
 **Рекомендации по поддержке готовности к завершению.**
@@ -61,7 +61,7 @@ ms.locfileid: "86450515"
 
 **Результатам**
 
-- Обновите [шаблон стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) , чтобы отразить изменения, необходимые для достижения требуемой стратегии. Записанные изменения могут включать:
+- Обновите [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) , чтобы отразить изменения, необходимые для достижения требуемой стратегии. Записанные изменения могут включать:
 
   - Оценка существующего цифрового пространства.
   - План внедрения в облако, отражающий необходимые изменения и работу.

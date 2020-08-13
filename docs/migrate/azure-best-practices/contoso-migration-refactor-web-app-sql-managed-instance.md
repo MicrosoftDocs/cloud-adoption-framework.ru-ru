@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 16b0e1835f358eb4df98e06bb241f2ec0f7c5e8d
-ms.sourcegitcommit: 580a6f66a0d0f3f5b755c68d757a84b2351a432f
+ms.openlocfilehash: 7c77404c009f10d3198ab41d30ee3350c385d4f1
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87473120"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88193823"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM contosohost vcenter contosodc smarthotel SQLMI SHWCF SHWEB -->
 
@@ -29,7 +29,7 @@ ms.locfileid: "87473120"
 
 - **Устраните бизнес-рост**. Компания Contoso растет, и на локальных системах и в инфраструктуре возникает давление.
 - **Повышение эффективности**. Компании Contoso необходимо удалить ненужные процедуры и упростить процессы для разработчиков и пользователей. Бизнес нуждается в том, чтобы ИТ были быстрыми и чтобы не тратить время или деньги, обеспечивая более высокие требования клиентов.
-- **Повышение гибкости**.  ИТ-отдел компании Contoso должен проявлять большую гибкость в отношении потребностей бизнеса. Он должен иметь возможность реагировать быстрее, чем изменения в Marketplace, чтобы обеспечить успешную работу в глобальной экономике. Время реакции не должно быть таким образом или станет бизнес-блокировкой.
+- **Повышение гибкости**. ИТ-отдел компании Contoso должен проявлять большую гибкость в отношении потребностей бизнеса. Он должен иметь возможность реагировать быстрее, чем изменения в Marketplace, чтобы обеспечить успешную работу в глобальной экономике. Время реакции не должно быть таким образом или станет бизнес-блокировкой.
 - **Масштабирование**. По мере успешного роста бизнеса ИТ-отдел компании Contoso должен предоставлять системы, способные расти в том же темпе.
 - **Сократите затраты**. Компании Contoso требуется минимизировать затраты на лицензирование.
 
@@ -159,13 +159,13 @@ ms.locfileid: "87473120"
 1. Они задают пользовательские параметры DNS. Сначала укажите точку настройки DNS для контроллеров домена Azure contoso. Azure DNS является вторичной. Контроллеры домена Contoso Azure находятся в следующих расположениях.
 
     - Находится в подсети "Production-DC-EUS2" рабочей сети (VNET-Production-EUS2) в регионе "Восточная часть США 2".  
-    - `CONTOSODC3`Address`10.245.42.4`  
-    - `CONTOSODC4`Address`10.245.42.5`  
-    - Сопоставитель Azure DNS:`168.63.129.16`
+    - `CONTOSODC3` Address `10.245.42.4`  
+    - `CONTOSODC4` Address `10.245.42.5`  
+    - Сопоставитель Azure DNS: `168.63.129.16`
 
     ![Снимок экрана: список DNS-серверов сети.](./media/contoso-migration-rehost-vm-sql-managed-instance/mi-dns.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 - Ознакомьтесь с [обзором управляемый экземпляр SQL](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance).
 - Узнайте, как [создать виртуальную сеть для управляемого экземпляра SQL](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-configure-vnet-subnet).
@@ -197,7 +197,7 @@ ms.locfileid: "87473120"
 
     ![Снимок экрана: панель "Сопоставление подсети" для маршрутизации подсети таблицы.](./media/contoso-migration-rehost-vm-sql-managed-instance/mi-route-table-subnet.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 Узнайте, как [настроить маршруты для управляемого экземпляра](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started).
 
@@ -216,7 +216,7 @@ ms.locfileid: "87473120"
 
       ![Снимок экрана с новыми ресурсами в группе ресурсов ContosoRG.](./media/contoso-migration-rehost-vm-sql-managed-instance/mi-resources.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 Узнайте, как [подготавливать управляемый экземпляр](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started).
 

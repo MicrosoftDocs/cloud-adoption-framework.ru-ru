@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 5da9fffe5d3367e32e5acc2d47accf2c6903c263
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: b1013126c58baaf54c81e2b8566e754bcb1df75c
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450974"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88194771"
 ---
 <!-- cSpell:ignore Getting Started -->
 
@@ -46,7 +46,7 @@ ms.locfileid: "86450974"
 
 Следующее руководство поможет подготовить группу к действиям по миграции.
 
-- [Миграция в Azure](https://docs.microsoft.com/azure/site-recovery/migrate-tutorial-on-premises-azure): использование Azure Site Recovery для переноса виртуальных машин в Azure.
+- [Миграция в Azure](https://docs.microsoft.com/azure/site-recovery/migrate-tutorial-on-premises-azure): использование службы "миграция Azure" для переноса виртуальных машин в Azure.
 - Повторное [размещение рабочих нагрузок в Azure](https://www.pluralsight.com/courses/microsoft-azure-workloads-rehosting). Pluralsight курс, который научит посетителей, как повторно разместить рабочие нагрузки в Azure.
 - [Перенос физических и виртуальных серверов в Azure](https://www.pluralsight.com/courses/microsoft-azure-migrating-physical-virtual-servers): Pluralsight курс для миграции серверов в Azure.
 - [Импорт и экспорт данных в Azure](https://www.pluralsight.com/courses/microsoft-azure-import-export-data). Pluralsight курс по перемещению данных в Azure и обратно.
@@ -64,7 +64,7 @@ ms.locfileid: "86450974"
 
 - [Защита рабочих нагрузок и управление ими в Azure](./azure-best-practices/migrate-best-practices-security-management.md). рекомендации по обеспечению безопасности и управлению рабочими нагрузками в Azure.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Вернитесь к [контрольному списку рекомендаций по миграции](./azure-best-practices/index.md) , чтобы убедиться, что метод миграции полностью согласован.
 

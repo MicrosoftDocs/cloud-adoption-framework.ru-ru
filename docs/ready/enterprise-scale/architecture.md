@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: csu
-ms.openlocfilehash: 88f1272526ba16b345349a2447d5d17c9c253229
-ms.sourcegitcommit: 99151759b9d7dfc4e8aab345750eeae82d18d547
+ms.openlocfilehash: 697d1e8c57e2e4b7354b8730bbcf5e7653657000
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/11/2020
-ms.locfileid: "88075851"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88193203"
 ---
 <!-- cSpell:ignore CAF -->
 
@@ -73,9 +73,9 @@ _Рис. 1. Проектирование начальной зоны._
 
 _Рис. 2. Архитектура облачного развертывания инфраструктуры корпоративного внедрения в масштабах предприятия._
 
-Скачайте [PDF-файл](https://github.com/microsoft/CloudAdoptionFramework/blob/master/ready/enterprise-scale-architecture.pdf) , содержащий эту схему архитектуры.
+Скачайте [PDF-файл](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/enterprise-scale-architecture.pdf) , содержащий эту схему архитектуры.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Настройте реализацию этой архитектуры, используя рекомендации по проектированию инфраструктуры корпоративного внедрения в масштабах предприятия.
 

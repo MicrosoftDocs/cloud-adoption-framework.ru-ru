@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 5fc14f4ae460e3f2543754c2f99b5e278ea87815
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: a288d08a359f92feada98e76990f37a2e870c2e2
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450481"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195911"
 ---
 # <a name="get-started-ensure-consistent-performance-across-a-portfolio"></a>Начало работы. обеспечение согласованной производительности в портфеле
 
@@ -80,7 +80,7 @@ ms.locfileid: "86450481"
 
 **Результатам**
 
-- Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 - Убедитесь, что базовый план управления обеспечивает операционную поддержку, которая соответствует стратегическому направлению внедрения в облако.
 
 **Рекомендации по поддержке готовности к завершению.**
@@ -104,7 +104,7 @@ ms.locfileid: "86450481"
 
 **Результатам**
 
-- Обновите [стратегию и шаблон плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) , чтобы отразить изменения, активируемые анализом цифровых площадок.
+- Обновите [стратегию и шаблон плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) , чтобы отразить изменения, активируемые анализом цифровых площадок.
 - Обратитесь к группе облачных операций, чтобы четко определить критические и бизнес-последствия каждой рабочей нагрузки в плане принятия Ближнего и долгосрочного внедрения.
 - Поработайте с группой облачных операций, чтобы создать временную шкалу для готовности к эксплуатации.
 

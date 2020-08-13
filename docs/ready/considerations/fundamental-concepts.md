@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 5c77156723fe1b5b54a775250bf368f886c4d101
-ms.sourcegitcommit: abbc6283f9f63a71333e0129ecdd8ad291517776
+ms.openlocfilehash: 630e295459f38d09629b99a41baf9f13f51c2402
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87523989"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196252"
 ---
 # <a name="azure-fundamental-concepts"></a>Основные понятия Azure
 
@@ -92,9 +92,9 @@ Azure определяет три типа ролей для администр�
 - [Топологии для Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies)
 - [Подписки, лицензии, учетные записи и клиенты для облачных предложений Майкрософт](https://docs.microsoft.com/office365/enterprise/subscriptions-licenses-accounts-and-tenants-for-microsoft-cloud-offerings)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
-Теперь, когда вы принимаете фундаментальные концепции Azure, узнайте, как масштабировать [с несколькими подписками Azure](../azure-best-practices/scale-subscriptions.md).
+Теперь, когда вы принимаете фундаментальные концепции Azure, узнайте, как масштабировать с несколькими подписками Azure.
 
 > [!div class="nextstepaction"]
 > [Масштабирование с несколькими подписками Azure](../azure-best-practices/scale-subscriptions.md)

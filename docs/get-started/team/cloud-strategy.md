@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 5e9ac42087394f532e508e5d1be6a1119c3f8b9e
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 08c810810645e1985a8a0d9bdafeea890c28d446
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85075628"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195793"
 ---
 # <a name="get-started-build-a-cloud-strategy-team"></a>Начало работы. Создание группы стратегии облака
 
@@ -55,7 +55,7 @@ ms.locfileid: "85075628"
 
 ## <a name="what-if-i-dont-need-a-cloud-strategy-team"></a>Что делать, если мне не нужна группа по стратегии облака?
 
-Ознакомьтесь с [облачными функциями стратегии](../../organize/cloud-strategy.md) , необходимыми для реализации облачных потребностей. Не каждая организация требует, чтобы Специальная группа или виртуальная группа (v-Team) соответствовала своим стратегическим потребностям. В [шаблоне RACI (ответственное лицо, учетная запись, прошедшие Поиск и информирование)](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx)перечислите основные подотчетности стратегии и выясните человека в группе, который будет учитывать каждый из них. Если один человек примет все эти подотчетности, просто замените "облачная стратегия" именем этого лица в шаблоне RACI.
+Ознакомьтесь с [облачными функциями стратегии](../../organize/cloud-strategy.md) , необходимыми для реализации облачных потребностей. Не каждая организация требует, чтобы Специальная группа или виртуальная группа (v-Team) соответствовала своим стратегическим потребностям. В [шаблоне RACI (ответственное лицо, учетная запись, прошедшие Поиск и информирование)](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx)перечислите основные подотчетности стратегии и выясните человека в группе, который будет учитывать каждый из них. Если один человек примет все эти подотчетности, просто замените "облачная стратегия" именем этого лица в шаблоне RACI.
 
 ## <a name="step-2-establish-the-cloud-strategy-team"></a>Шаг 2. Создание группы облачных стратегий
 
@@ -71,7 +71,7 @@ ms.locfileid: "85075628"
 - Сведения о том, кто может подгоняться лучше, см. в разделе [облачные функции стратегии](../../organize/cloud-strategy.md).
 - Чтобы проверить выравнивание и пропускную способность для каждого потенциального участника, проверьте [минимальную область](../../organize/cloud-strategy.md#minimum-scope) и возможность [предоставления](../../organize/cloud-strategy.md#deliverable) этой возможности.
 - Чтобы создать правильную RACI диаграмму на основе текущих структур команды, просмотрите различные [примеры конфигурации RACI](../../organize/raci-alignment.md#strategic-alignment)или выберите одну из примеров на вкладке в нижней части шаблона RACI.
-- Задокументируйте результаты в [шаблоне RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) на `Org Alignment` листе.
+- Задокументируйте результаты в [шаблоне RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx) на `Org Alignment` листе.
 
 **Учетная запись пользователя или группы:**
 
@@ -107,7 +107,7 @@ ms.locfileid: "85075628"
 
 **Результатам**
 
-- Записывайте мотивации в [шаблоне стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Записывайте мотивации в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -136,7 +136,7 @@ ms.locfileid: "85075628"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- Записывайте результаты бизнеса в [шаблоне стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Записывайте результаты бизнеса в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 - [Результаты бизнеса](../../strategy/business-outcomes/index.md). Некоторые финансовые результаты, как правило, чувствительны к чрезвычайно затратам. Когда желаемые результаты сопоставляются с финансовыми метриками, можно прилагаться к практическим усилиям по специализации руководства по управлению затратами.
 - [Обучающие метрики](../../strategy/learning-metrics.md) помогают преодолеть разрыв между результатами бизнеса и усилиями по проведению технического внедрения.
 
@@ -195,4 +195,4 @@ ms.locfileid: "85075628"
 
 Выровняйте свою стратегию с помощью [облачных функций внедрения](../../organize/cloud-adoption.md) , работая с группой внедрения или лицами, ответственными за эти функции.
 
-Научитесь выдавать ответственность за команды, разрабатывая кросс-отделную матрицу, определяющую RACI стороны. Скачайте и измените [шаблон электронной таблицы RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx).
+Научитесь выдавать ответственность за команды, разрабатывая кросс-отделную матрицу, определяющую RACI стороны. Скачайте и измените [шаблон RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx).

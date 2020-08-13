@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e22a33e3de09c3e1dfb9f4adc8bfed023ea1b821
-ms.sourcegitcommit: 580a6f66a0d0f3f5b755c68d757a84b2351a432f
+ms.openlocfilehash: e2259c924fc861c0ec206f272bae2cfd7a813fa5
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87473137"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88193920"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc OSTICKETWEB OSTICKETMYSQL osTicket contosoosticket trafficmanager InnoDB binlog DBHOST DBUSER CNAME -->
 
@@ -87,7 +87,7 @@ ms.locfileid: "87473137"
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
 | [Служба приложений Azure](https://azure.microsoft.com/services/app-service) | Служба работает и масштабирует приложения, используя платформу Azure как службу (PaaS) для веб-сайтов. | Цены основываются на размере экземпляров и необходимых функциях. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows). |
-| [Azure Traffic Manager](https://azure.microsoft.com/services/traffic-manager) | Балансировщик нагрузки, использующий систему доменных имен (DNS) для направления пользователей в Azure или на внешние веб-сайты и службы. | Цены основываются на количестве принятых запросов DNS и количестве отслеживаемых конечных точек. | [Подробнее](https://azure.microsoft.com/pricing/details/traffic-manager). |
+| [Диспетчер трафика Azure](https://azure.microsoft.com/services/traffic-manager) | Балансировщик нагрузки, использующий систему доменных имен (DNS) для направления пользователей в Azure или на внешние веб-сайты и службы. | Цены основываются на количестве принятых запросов DNS и количестве отслеживаемых конечных точек. | [Подробнее](https://azure.microsoft.com/pricing/details/traffic-manager). |
 | [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
 | [База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL для сообщества для разработки и развертывания приложений. | Цены основаны на требованиях к вычислениям, хранению и резервному копированию. [Подробнее](https://azure.microsoft.com/pricing/details/mysql). |
 
@@ -134,7 +134,7 @@ ms.locfileid: "87473137"
 
     ![Снимок экрана: панель "веб-приложение" с ОС Linux, Центральная часть США и выбранный PHP 7,0.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app4.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 - Сведения о [веб-приложениях службы приложений Azure](https://docs.microsoft.com/azure/app-service/overview).
 - Сведения о [службе приложений Azure в Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-intro).
@@ -155,7 +155,7 @@ ms.locfileid: "87473137"
 
     ![Снимок экрана: область конечных точек для мониторинга конечных точек в диспетчере трафика.](./media/contoso-migration-refactor-linux-app-service-mysql/traffic-manager3.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 - Подробнее о [диспетчере трафика](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview).
 - Узнайте больше о [перенаправлении трафика к приоритетной конечной точке](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-priority-routing-method).
@@ -202,9 +202,9 @@ ms.locfileid: "87473137"
 - Они гарантируют соблюдение всех необходимых условий для миграции.
   - Источник сервера базы данных MySQL должен соответствовать версии, поддерживаемой базой данных Azure для MySQL. База данных Azure для MySQL поддерживает выпуск MySQL Community Edition, подсистему хранилища InnoDB и миграцию между исходными и целевыми версиями.  
   - Они позволяют выполнять двоичный вход в систему `my.ini` (Windows) или `my.cnf` (UNIX). В противном случае в мастере миграции произойдет следующая ошибка:  
-      
+
     "Ошибка в двоичном ведении журнала. Переменная binlog_row_image имеет значение "минимальный". Измените его на "Full". Дополнительные сведения см. в разделе `https://go.microsoft.com/fwlink/?linkid=873009` .
-    
+
   - Пользователь должен иметь `ReplicationAdmin` роль.  
   - Перенесите схемы базы данных без внешних ключей и триггеров.  
 - Они создают виртуальную частную сеть (VPN), которая подключается через ExpressRoute или VPN к локальной сети.  

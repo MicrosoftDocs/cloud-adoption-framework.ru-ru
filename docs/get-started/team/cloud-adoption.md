@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 6c138afdd5a60dafe21a523e608c714ba2b49070
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: a7b8e45f68f7fd98f65a48b9ecc3f4bfc4507cd8
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86233687"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195839"
 ---
 # <a name="get-started-build-a-cloud-adoption-team"></a>Начало работы. Создание группы внедрения в облако
 
@@ -51,7 +51,7 @@ ms.locfileid: "86233687"
 
 ## <a name="step-2-align-your-team-with-other-supporting-teams"></a>Шаг 2. Согласование команды с другими вспомогательными командами
 
-Если деятельность по внедрению в облаке вашей компании достаточно зрела для поддержки групп, вы можете найти список команд и экспертов в вашей компании в версии [шаблона RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx), включая управление облаком, облачные операции, облачный центр и другие аналогичные команды.
+Если деятельность по внедрению в облаке вашей компании достаточно зрела для поддержки групп, вы можете найти список команд и экспертов в вашей компании в версии [шаблона RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx), включая управление облаком, облачные операции, облачный центр и другие аналогичные команды.
 
 **Результатам**
 

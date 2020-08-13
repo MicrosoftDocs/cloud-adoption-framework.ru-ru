@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 2e20b63bed8ef337f89546049632dd2c8babf539
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: a36649404b3dccba71c834b6268f1de5574b71d5
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86233551"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195932"
 ---
 # <a name="get-started-accelerate-migration"></a>Начало работы. Ускорение миграции
 
@@ -31,7 +31,7 @@ ms.locfileid: "86233551"
 
 Если ваш сценарий миграции нетипичен, вы можете получить персонализированную оценку готовности к переносу вашей организации с помощью [оценки средства стратегического переноса и подготовки (Smart)](https://docs.microsoft.com/assessments/?id=strategic-migration-assessment). Используйте его для указания рекомендаций, которые лучше удовлетворяют текущим потребностям.
 
-## <a name="get-started"></a>Приступая к работе
+## <a name="get-started"></a>Начало работы
 
 Технические усилия и процесс, необходимые для миграции рабочих нагрузок, относительно просты. Очень важно выполнить процесс миграции эффективно. Уровень готовности к миграции еще больше влияет на временные шкалы и успешное завершение общей миграции.
 
@@ -46,7 +46,7 @@ ms.locfileid: "86233551"
 
 **Результатам**
 
-- Используйте [шаблон стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) для записи мотивации и желаемых результатов бизнеса.
+- Используйте [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) для записи мотивации и желаемых результатов бизнеса.
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -64,7 +64,7 @@ ms.locfileid: "86233551"
 **Результатам**
 
 - Устанавливайте условия и другие договорные соглашения, прежде чем приступить к поддержке партнеров.
-- Выявление утвержденных партнеров в [шаблоне стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Выявление утвержденных партнеров в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -85,7 +85,7 @@ ms.locfileid: "86233551"
 - Необработанные данные на существующем складе.
 - Количественный анализ существующих запасов для уточнения делового обоснования.
 - Качественный анализ первых 10 рабочих нагрузок.
-- Обновите Деловое обоснование в [шаблоне стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Обновите Деловое обоснование в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -102,7 +102,7 @@ ms.locfileid: "86233551"
 
 **Результатам**
 
-- Используйте [шаблон стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) для записи делового обоснования.
+- Используйте [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) для записи делового обоснования.
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -113,9 +113,9 @@ ms.locfileid: "86233551"
 
 ## <a name="step-5-create-a-migration-plan"></a>Шаг 5. Создание плана миграции
 
-Шаблон плана внедрения в облако обеспечивает ускоренный подход к разработке невыполненной работы проекта. Затем можно изменить невыполненную работу, чтобы отразить результаты обнаружения, рационализацию, необходимые навыки и контрактные отработки.
+План внедрения в облако обеспечивает ускоренный подход к разработке невыполненной работы проекта. Затем можно изменить невыполненную работу, чтобы отразить результаты обнаружения, рационализацию, необходимые навыки и контрактные отработки.
 
-- [Шаблон плана внедрения в облако](../plan/template.md). Разверните базовый шаблон.
+- [План внедрения в облако](../plan/template.md). Определите план внедрения в облако с помощью базового шаблона.
 - [Выравнивание рабочей нагрузки](../plan/workloads.md): определение рабочих нагрузок в невыполненной работе.
 - [Выравнивание усилий](../plan/assets.md). Выровняйте активы и рабочие нагрузки в невыполненной работе, чтобы четко определить усилия по приоритетным рабочим нагрузкам.
 - [Выравнивание людей и времени](../plan/iteration-paths.md): Создание итерации, скорости (время человека) и выпусков для перенесенных рабочих нагрузок.
@@ -144,7 +144,7 @@ ms.locfileid: "86233551"
 
 **Результатам**
 
-- Добавьте план готовности в [шаблон стратегии и плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- Добавьте план готовности в [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -250,7 +250,7 @@ ms.locfileid: "86233551"
 
 Действия, описанные в этом руководстве, помогут вашим командам ускорить процесс миграции за счет лучшего управления изменениями и выравнивания заинтересованных лиц. Следующие действия могут замедлять процесс. Эти шаги также удаляют общие блокировки и ускоряют реализацию ценности бизнеса.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Облачная инфраструктура внедрения — это решение жизненного цикла. Он поможет начать миграцию. Она также может помочь вам повысить зрелости команд, которые поддерживают усилия по миграции. Следующие команды могут использовать эти дальнейшие действия, чтобы продолжить выполнение своих действий. Эти параллельные процессы не являются линейными и не должны рассматриваться как блокирующие. Вместо этого каждый представляет собой поток параллельных значений, позволяющий достигнуть общей готовности к облаку вашей компании.
 

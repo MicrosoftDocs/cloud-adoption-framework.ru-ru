@@ -1,5 +1,5 @@
 ---
-title: Шаблон "дисциплина ускорения развертывания"
+title: Шаблон дисциплины "Ускорение развертывания"
 description: Этот шаблон используется в качестве отправной точки для документирования и обмена инструкциями политики для решения проблем с конфигурацией и развертыванием в облаке.
 author: alexbuckgit
 ms.author: abuck
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 3fa30216fdd46efcdb953f43b3d85edbe61517c7
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: b051af0328adfb5d0cbd8ef37e3a98b8a89ed7c6
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83220249"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195612"
 ---
 # <a name="deployment-acceleration-template"></a>Шаблон ускорения развертывания
 
@@ -24,9 +24,9 @@ ms.locfileid: "83220249"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии с вашими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Ускорение развертывания" в рамках стратегии управления облаком.
 
-[Скачайте шаблон "дисциплина ускорения развертывания"](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Deployment%20Acceleration%20Discipline%20Template.docx)
+[Скачайте шаблон "дисциплина ускорения развертывания"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/deployment-acceleration-discipline-template.docx)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

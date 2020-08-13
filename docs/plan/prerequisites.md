@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 413953f6da2eece12a54aa708fb4daa466d9959d
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: cfcc44f169beb177d9a2554ee28109d5235d9edc
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223411"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88194751"
 ---
 # <a name="prerequisites-for-an-effective-cloud-adoption-plan"></a>Необходимые условия для эффективного плана внедрения в облако
 
@@ -38,9 +38,9 @@ ms.locfileid: "83223411"
 
 Эти вопросы необходимы для точности плана внедрения в облако. Как минимум, для создания плана необходимо ответить на вопросы, связанные с обоснованием цифровых площадок. Для предоставления точных шкал времени также важны вопросы о организации и навыках.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
-[Развертывание шаблона плана внедрения в облако](./template.md) в Azure DevOps.
+Определите свой план внедрения в облако, развернув шаблон для Azure DevOps Services.
 
 > [!div class="nextstepaction"]
-> [Развертывание шаблона в Azure DevOps](./template.md)
+> [Определение плана внедрения в облако с помощью шаблона](./template.md)

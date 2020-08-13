@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: ff5b2dba1cdb95cdcc007ba5cea52b86a902584d
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: d2b8ba3cb20d93ad0ed4d5eb9ec6bf8fe6dbe0fb
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86233330"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195821"
 ---
 # <a name="get-started-build-a-cloud-governance-team"></a>Приступая к работе. Создание группы по управлению облаком
 
@@ -27,7 +27,7 @@ ms.locfileid: "86233330"
 **Результатам**
 
 - Определите, нужна ли вам группа по управлению облаком.
-- Выровняйте обязанности между командами, разработав межкомандную матрицу, которая определяет _ответственных, осведомленных, проконсультируйтесь и информированные (RACI)_ стороны. Задокументируйте решение и ответственных лиц, используя [шаблон RACI](https://archcenter.blob.core.windows.net/cdn/fusion/management/raci-template.xlsx) на `Org Alignment` листе.
+- Выровняйте обязанности между командами, разработав межкомандную матрицу, которая определяет _ответственных, осведомленных, проконсультируйтесь и информированные (RACI)_ стороны. Задокументируйте решение и ответственных лиц, используя [шаблон RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx) на `Org Alignment` листе.
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -53,8 +53,8 @@ ms.locfileid: "86233330"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- Изучите [стратегию и шаблон плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx) вашей компании с членами группы "облачная стратегия", чтобы понять мотивацию, метрики и стратегию.
-- Изучите [шаблон плана внедрения в облаке](../../plan/template.md) компании с членами группы внедрения в облако, чтобы понять временные шкалы и приоритеты.
+- Изучите [стратегию и шаблон плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) вашей компании с членами группы "облачная стратегия", чтобы понять мотивацию, метрики и стратегию.
+- Изучите план внедрения в Организации в [облаке](../../plan/template.md) с членами группы по внедрению в облако, чтобы понять временные сроки и приоритеты.
 - Изучите [книгу Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) Team, чтобы узнать о требованиях к эксплуатации и обязательствах, которые были установлены в бизнесе.
 
 <!-- markdownlint-disable MD033 -->

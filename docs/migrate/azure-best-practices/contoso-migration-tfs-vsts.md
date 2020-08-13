@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 7a9845d302289567d96c807e110520dc6cac497a
-ms.sourcegitcommit: 9662234674e663bc7d4bc134d303520cb146bd95
+ms.openlocfilehash: f754d13a1d532079cb305ce6bd263efbf7c10f9e
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "87560497"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88193763"
 ---
 <!-- cSpell:ignore contosodev contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring smarthotelcontainer identitymaplog CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME sqlpackage SSDT azuredevopsmigration validateonly ImportType -->
 
@@ -92,7 +92,7 @@ ms.locfileid: "87560497"
 
     ![Снимок экрана: панель "Создание учетной записи хранения".](./media/contoso-migration-tfs-vsts/storage1.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 - [Общие сведения о службе хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-introduction).
 - [Создание учетной записи хранения](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account).
@@ -132,7 +132,7 @@ ms.locfileid: "87560497"
 > [!NOTE]
 > Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее](https://docs.microsoft.com/azure/devops/reference/configure-features-after-upgrade?utm_source=ms&utm_medium=guide&utm_campaign=vstsdataimportguide&view=vsts).
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 Дополнительные сведения об [обновлении Team Foundation Server](https://docs.microsoft.com/azure/devops/server/upgrade/get-started).
 
@@ -222,17 +222,17 @@ ms.locfileid: "87560497"
 
 После завершения подготовки администраторы Contoso могут сосредоточиться на миграции. После выполнения миграции они переключаются с использования TFVC в Git для управления версиями.
 
-Прежде чем начать, администраторы запланируют время простоя с помощью команды разработчиков, чтобы они могли запланировать автономный сбор для миграции. 
+Прежде чем начать, администраторы запланируют время простоя с помощью команды разработчиков, чтобы они могли запланировать автономный сбор для миграции.
 
 Ниже приведен процесс миграции.
 
-1. **Отсоедините коллекцию**. Данные идентификации для коллекции размещаются в базе данных конфигурации для экземпляра Team Foundation Server, когда коллекция подключена и находится в сети. 
+1. **Отсоедините коллекцию**. Данные идентификации для коллекции размещаются в базе данных конфигурации для экземпляра Team Foundation Server, когда коллекция подключена и находится в сети.
 
-    Когда коллекция отсоединяется от Team Foundation Server экземпляра, создается копия этих данных удостоверений, которая затем упаковывается в коллекцию для передачи. Без этих данных не удается выполнить часть идентификатора импорта. 
+    Когда коллекция отсоединяется от Team Foundation Server экземпляра, создается копия этих данных удостоверений, которая затем упаковывается в коллекцию для передачи. Без этих данных не удается выполнить часть идентификатора импорта.
 
     Мы рекомендуем отсоединить коллекцию до завершения импорта, так как изменения, происходящие во время импорта, не могут быть импортированы.
 
-1. **Создайте резервную копию**. Следующим шагом является создание резервной копии, которую можно импортировать в Azure DevOps Services. Пакет компонентов приложения уровня данных (DACPAC) — это SQL Server функция, которая позволяет упаковывать изменения базы данных в один файл и затем развертываться в других экземплярах SQL. 
+1. **Создайте резервную копию**. Следующим шагом является создание резервной копии, которую можно импортировать в Azure DevOps Services. Пакет компонентов приложения уровня данных (DACPAC) — это SQL Server функция, которая позволяет упаковывать изменения базы данных в один файл и затем развертываться в других экземплярах SQL.
 
     Резервную копию можно также восстановить непосредственно в Azure DevOps Services и использовать в качестве метода упаковки для получения данных коллекции в облако. Contoso будет использовать это `sqlpackage.exe` средство для создания пакета DACPAC. Это средство включено в средства SQL Server Data Tools.
 
@@ -347,7 +347,7 @@ ms.locfileid: "87560497"
 Администраторы Contoso выполняют перенос сухой, чтобы убедиться, что все работает правильно.
 
 1. Они открывают командную строку, а затем заходят в `TfsMigrator` расположение ( `C:\TFSMigrator` ).
-1. Они хотят убедиться, что файл отформатирован правильно и ключ SAS работает. Они проверяют файл импорта, выполнив следующую команду: 
+1. Они хотят убедиться, что файл отформатирован правильно и ключ SAS работает. Они проверяют файл импорта, выполнив следующую команду:
 
     `TfsMigrator import /importFile:C:\TFSMigrator\import.json /validateonly`
 
@@ -477,7 +477,7 @@ ms.locfileid: "87560497"
 
     ![Снимок экрана, показывающий, что миграция на Azure DevOps Services завершена.](./media/contoso-migration-tfs-vsts/git6.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 Дополнительные сведения см. [в статье Импорт репозиториев из TFVC в Git](https://docs.microsoft.com/azure/devops/repos/git/import-from-TFVC?view=vsts).
 

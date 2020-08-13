@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 781b45eac5f03333add896545e9a32f867473934
-ms.sourcegitcommit: 9662234674e663bc7d4bc134d303520cb146bd95
+ms.openlocfilehash: e7884a4132480be3b3e85a78abda630886cc361a
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/04/2020
-ms.locfileid: "87560429"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195389"
 ---
 # <a name="what-is-data-classification"></a>Классификация данных
 
@@ -41,13 +41,13 @@ ms.locfileid: "87560429"
 
 ## <a name="take-action"></a>Выполнить действие
 
-Выполните действия, определив и размечая ресурсы, используя определенную классификацию данных. 
+Выполните действия, определив и размечая ресурсы, используя определенную классификацию данных.
 
 - [Выберите один из руководств по управлению действиями,](../guides/index.md) чтобы получить примеры применения тегов в портфеле.
 - Ознакомьтесь с статьей о [стандартах именования и маркировки](../../ready/azure-best-practices/naming-and-tagging.md#metadata-tags) , чтобы определить более полный стандарт тегов.
 - Дополнительные сведения о разметке ресурсов в Azure см. в статье [Использование тегов для Организации ресурсов Azure и иерархии управления](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Продолжим обучение из этой серии статей, изучив статью Защита конфиденциальных данных. Следующая статья содержит полезные сведения, если вы работаете с данными, классифицированными как конфиденциальные или строго конфиденциальные.
 

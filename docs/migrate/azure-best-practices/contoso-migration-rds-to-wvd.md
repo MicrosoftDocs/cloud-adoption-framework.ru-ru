@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 89f7d7986281a5e5a6409623905ebaaa6fe00fe1
-ms.sourcegitcommit: 26aee3c6f596bb8a9f1e16af93cdf94e41a61dee
+ms.openlocfilehash: 6ff17c33b79f58c1eab73407bd054fd06471b468
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87400536"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88193592"
 ---
 <!-- cSpell:ignore benstegink msiexec Logix Lakeside SysTrack Robocopy UPD UPDs -->
 
@@ -83,7 +83,7 @@ RDS развертывается в локальном центре обрабо
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Рассматриваемый вопрос | Сведения |
+| Рассматриваемый вопрос | Подробности |
 | --- | --- |
 | **Преимущества** | Многосеансовая среда Windows 10 Корпоративная. <br><br> На основе облака, разрешая доступ из любого места. <br><br> Воспользуйтесь другими службами Azure, такими как файлы Azure, в среде виртуальных рабочих столов Windows. <br><br> Оптимизировано для современных настольных систем Майкрософт. |
 | **Недостатки** | Чтобы полностью оптимизировать Azure, Contoso придется перестроить образы Windows 10, оптимизированные для многопользовательских сеансов. <br><br> Виртуальный рабочий стол Windows не поддерживает диски профилей пользователей, поэтому диски UPD необходимо перенести в контейнеры профилей Фслогикс. |
@@ -210,7 +210,7 @@ Contoso переместит виртуальные машины в виртуа
 
     > [!NOTE]
     > Компания Contoso не может создать новую виртуальную сеть на этом шаге. Перед достижением этого шага Contoso должен уже создать виртуальную сеть, имеющую доступ к Active Directory.
-    
+
    <!-- -->
 
     > [!NOTE]

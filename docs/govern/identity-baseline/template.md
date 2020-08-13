@@ -1,5 +1,5 @@
 ---
-title: Шаблон "дисциплина базовых показателей удостоверений"
+title: Шаблон дисциплины "Базовые средства идентификации"
 description: Используйте этот шаблон в качестве отправной точки для документирования и обмена инструкциями политики, которые управляют службами удостоверений в облаке.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9a3aa20bb2935d99623aab767a9b9194c4bd8def
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 589ba9877b8cbc29b81a529120911557d3a222f4
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83218566"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195582"
 ---
-# <a name="identity-baseline-discipline-template"></a>Шаблон "дисциплина базовых показателей удостоверений"
+# <a name="identity-baseline-discipline-template"></a>Шаблон дисциплины "Базовые средства идентификации"
 
 Перед внедрением изменений прежде всего нужно правильно сообщить о таком изменении. То же самое касается изменения рекомендаций системы управления. Приведенный ниже шаблон служит отправной точкой для документирования и обмена инструкциями политики, которые управляют службами удостоверений в облаке.
 
@@ -24,9 +24,9 @@ ms.locfileid: "83218566"
 > [!IMPORTANT]
 > Этот шаблон — это ограниченный пример. Перед обновлением этого шаблона в соответствии со своими требованиями следует ознакомиться с последующими этапами определения действующей дисциплины "Основные способы идентификации" в рамках стратегии управления облаком.
 
-[Скачивание шаблона "дисциплина базовых показателей удостоверений"](https://archcenter.blob.core.windows.net/cdn/fusion/governance/Identity%20Baseline%20Discipline%20Template.docx)
+[Скачивание шаблона "дисциплина базовых показателей удостоверений"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/identity-baseline-discipline-template.docx)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Формирование четких рекомендаций по управлению начинается с [понимания бизнес-рисков](./business-risks.md). Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

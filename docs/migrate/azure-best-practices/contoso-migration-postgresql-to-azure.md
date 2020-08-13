@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: b279577e4be2e841e0e2ae5700ec2833882cb56d
-ms.sourcegitcommit: 26aee3c6f596bb8a9f1e16af93cdf94e41a61dee
+ms.openlocfilehash: 077571eb6926d8ce09d6e94f6b946cfba1f12851
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87400502"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88193582"
 ---
 <!-- cSpell:ignore BYOK postgres psql dvdrental -->
 
@@ -74,7 +74,7 @@ PostgreSQL 9.6.7 работает на физическом компьютере
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Рассматриваемый вопрос | Сведения |
+| Рассматриваемый вопрос | Подробности |
 |--- | --- |
 | **Преимущества** | Все необходимые и используемые функции доступны в базе данных Azure для PostgreSQL. <br><br> |
 | **Недостатки** | Компании Contoso по-прежнему потребуется выполнить перенос вручную из основной версии PostgreSQL. |
@@ -162,9 +162,9 @@ Contoso потребуется оценить текущую базу данны
     - Добавьте записи, относящиеся к экземпляру Database Migration Service.
 1. Логическая репликация должна быть включена на исходном сервере путем изменения значений в `postgresql.conf` файле для каждого сервера.
     1. `wal_level` = `logical`
-    1. `max_replication_slots`= [по крайней мере максимальное число баз данных для миграции]
+    1. `max_replication_slots` = [по крайней мере максимальное число баз данных для миграции]
         - Например, если компания Contoso хочет перенести четыре базы данных, ей присваивается значение 4.
-    1. `max_wal_senders`= [число баз данных, выполняемых параллельно]
+    1. `max_wal_senders` = [число баз данных, выполняемых параллельно]
         - Рекомендуемое значение — 10.
 
 1. Миграция `User` должна иметь `REPLICATION` роль в базе данных источника.
@@ -215,7 +215,7 @@ Contoso потребуется оценить текущую базу данны
     ![Снимок экрана, на котором показано, как выбрать целевую информацию.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_target.png)
     _Рис. 7. Выбор целевой информации._
 
-1. Выберите базы данных для миграции. Схема для каждой базы данных должна быть перенесена ранее. Нажмите кнопку **Сохранить**.
+1. Выберите базы данных для миграции. Схема для каждой базы данных должна быть перенесена ранее. Затем нажмите кнопку **Save** (Сохранить).
 
     ![Снимок экрана, на котором показаны выборки баз данных.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_db.png)
     _Рис. 8. Выбор баз данных._
@@ -249,7 +249,7 @@ Contoso потребуется оценить текущую базу данны
 
       > [!NOTE]
       > Предыдущие Database Migration Service действия также можно выполнить с помощью [Azure CLI](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online).
-    
+
 1. Импортируйте схему базы данных (шаг 2):
 
       ```cmd

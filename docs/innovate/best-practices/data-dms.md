@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: a21b41583789d25f00d8dfb81ac1e9b8943af004
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 0b2ed7378b755fd35583401f8b8478ba6cbf800a
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449784"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195069"
 ---
 # <a name="collect-data-through-the-migration-and-modernization-of-existing-data-sources"></a>Получение данных с помощью миграции и модернизации существующих источников данных
 
@@ -46,7 +46,7 @@ ms.locfileid: "86449784"
 
 Мы рекомендуем выбрать приемлемое время простоя предприятия и протестировать автономную миграцию. Это необходимо для проверки соответствия времени восстановления допустимому простою. Если время восстановления неприемлемо, выполните оперативную миграцию.
 
-| Источник  | Назначение  | Инструмент  | Тип перемещения | Руководство |
+| Источник  | Назначение  | Средство  | Тип перемещения | Руководство |
 |---|---|---|---|---|
 | SQL Server | База данных SQL Azure | Database Migration Service | Автономная миграция | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql) |
 | SQL Server | База данных SQL Azure | Database Migration Service | Миграция по сети | [Руководство](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online) |

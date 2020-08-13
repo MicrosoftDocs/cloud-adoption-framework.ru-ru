@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8d1f6c4b5f0f672b9dd6b7fb9adc5b0fce4a54a6
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: 72f793383bd525b48f3f8ae30cd6e0d470ddba64
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86234826"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88193282"
 ---
 # <a name="understand-staging-activities-during-a-migration"></a>Общие сведения о действиях в рамках промежуточного хранения во время миграции
 
@@ -27,9 +27,9 @@ ms.locfileid: "86234826"
 - **Документация по конфигурации.** Любые изменения, внесенные в ресурс (во время исправления, репликации или промежуточного хранения), необходимо документировать для обеспечения готовности к работе.
 - **Документация по невыполненной работе.** Список невыполненной работы по миграции необходимо обновить, чтобы отразить рабочую нагрузку и ресурсы, размещенные в промежуточной среде.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
-После тестирования и документирования промежуточных ресурсов можно перейти к [действиям оптимизации](../optimize/index.md).
+После тестирования и документирования промежуточных ресурсов можно перейти к действиям оптимизации.
 
 > [!div class="nextstepaction"]
 > [Оптимизация перенесенных рабочих нагрузок](../optimize/index.md)

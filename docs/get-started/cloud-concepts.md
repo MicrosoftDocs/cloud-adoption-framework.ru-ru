@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 16d808b09b0631f95445288dcf856c8aca0a0965
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: bc7ddc729f6a53a8764c304f48238755392fd1b1
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83753013"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195996"
 ---
 # <a name="get-started-understand-and-document-foundational-alignment-decisions"></a>Начало работы: изучение и документирование решений по выравниванию в базовых принципах
 
@@ -89,7 +89,7 @@ Azure построен на основе набора [базовых конце
 **Рекомендации по поддержке готовности к завершению.**
 
 - Создайте [стандарт именования и создания тегов](../ready/azure-best-practices/naming-and-tagging.md).
-- Заполните [книгу соглашения об именовании и маркировке](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/CAF%20Readiness%20Naming%20and%20Tagging%20tracking%20template.xlsx) , чтобы отнести решения.
+- Заполните [шаблон отслеживания соглашений об именовании и маркировке](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/naming-and-tagging-conventions-tracking-template.xlsx) , чтобы отслеживать решения.
 - [Проверьте и обновите существующие теги в Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
 - [Применение политик тегов в Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-policies).
 
