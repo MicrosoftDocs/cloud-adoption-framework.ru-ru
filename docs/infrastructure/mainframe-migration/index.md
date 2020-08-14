@@ -7,12 +7,12 @@ ms.date: 12/27/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ef9ac0935b21a1294dc77e631223fc0e24dcef0d
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 888f31f26afcbe920fe088fb513ab2f0428d7d09
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86193768"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88195218"
 ---
 <!-- cSpell:ignore nanra njray dbspaces dbextents VSAM RACF LPARS ASSGN DLBL EXTENT LIBDEF EXEC IPLs -->
 
@@ -73,7 +73,7 @@ ms.locfileid: "86193768"
 
 - **Язык управления заданиями (JCL)** . Вы можете указать ресурсы, необходимые для обработки пакетных заданий. JCL передает эту информацию в z/OS через набор операторов управления заданиями. В базовый синтаксис JCL входят шесть типов инструкций: JOB, ASSGN, DLBL, EXTENT, LIBDEF и EXEC. Каждое задание может содержать несколько инструкций (шагов) EXEC, каждый из которых может включать несколько инструкций LIBDEF, ASSGN, DLBL и EXTENT.
 
-- **Начальная загрузка программы (IPL)** .  Это загрузка копии операционной системы с диска в физическую память процессора и запуск этой копии. IPL используется для восстановления после простоя. IPL выполняет ту же роль, что и загрузка операционной системы на виртуальных машинах Windows или Linux.
+- **Начальная загрузка программы (IPL)** . Это загрузка копии операционной системы с диска в физическую память процессора и запуск этой копии. IPL используется для восстановления после простоя. IPL выполняет ту же роль, что и загрузка операционной системы на виртуальных машинах Windows или Linux.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
