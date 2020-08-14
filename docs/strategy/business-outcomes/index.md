@@ -7,12 +7,12 @@ ms.date: 03/27/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 48cbb33ed40286f1201f85b67d75809e487b83d4
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 85fe35eb9cc70af231989aa6d05b7a70df3c594b
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86195009"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196261"
 ---
 # <a name="what-business-outcomes-are-associated-with-transformation-journeys"></a>Какие бизнес-результаты связаны с процессами преобразования?
 
@@ -20,7 +20,7 @@ ms.locfileid: "86195009"
 
 При любом переходе в облако обсуждение определенных бизнес-результатов обеспечивает прозрачность и укрепляет партнерские отношения между подразделениями. Структура бизнес-результатов — это простой шаблон, который помогает техническим специалистам документировать и согласовывать свою работу. С помощью этого шаблона можно собрать мнения об ожидаемых бизнес-результатах, на которые повлияет планируемый процесс преобразования, от различных заинтересованных лиц. Вы можете выбрать электронный формат шаблона или даже разместить его на доске для обсуждения с руководителями и другими заинтересованными лицами.
 
-Подробные сведения о бизнес-результатах и предлагаемом шаблоне см. в статье [Документирование бизнес-результатов](./business-outcome-template.md). Также вы можете скачать [шаблон структуры бизнес-результатов](https://archcenter.blob.core.windows.net/cdn/business-outcome-template.xlsx).
+Подробные сведения о бизнес-результатах и предлагаемом шаблоне см. в статье [Документирование бизнес-результатов](./business-outcome-template.md). Также вы можете скачать [шаблон структуры бизнес-результатов](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/strategy/business-outcome-template.xlsx).
 
 ## <a name="prepare-for-conversations-with-different-personas"></a>Подготовка к обсуждению с разными лицами
 
