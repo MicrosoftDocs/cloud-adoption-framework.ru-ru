@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 1947ed8ccadae4f2f2d289bc3c58e9206fbe533d
-ms.sourcegitcommit: 2794cab8eb925103ae22babc704d89f7f7d4f6f4
+ms.openlocfilehash: 4b890af71bdf73ecafc28db152c719d9913dbd1f
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/18/2020
-ms.locfileid: "84993690"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196089"
 ---
 # <a name="resource-consistency-decision-guide"></a>Руководство по принятию решений касательно согласованности ресурсов
 
@@ -78,7 +78,7 @@ ms.locfileid: "84993690"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Согласованность ресурсов — один из базовых компонентов инфраструктуры, решение о котором необходимо принять на этапе внедрения облачных решений. См. [общие сведения о принятии решений](../index.md), чтобы узнать об альтернативных шаблонах или моделях, используемых при принятии решений для других типов инфраструктуры.
+Согласованность ресурсов — один из базовых компонентов инфраструктуры, решение о котором необходимо принять на этапе внедрения облачных решений. См. обзор руководств по принятию решений об архитектуре, чтобы узнать об альтернативных шаблонах или моделях, используемых с другими типами инфраструктуры.
 
 > [!div class="nextstepaction"]
 > [Руководства по принятию решений об архитектуре](../index.md)

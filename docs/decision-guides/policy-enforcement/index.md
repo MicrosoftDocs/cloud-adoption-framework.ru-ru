@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4156b96dcebf1998a67dbefe9d5179dc8ba70529
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 75d89b4b626a8e31bdaf6c0022f4bc98dd4161d6
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83224346"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196102"
 ---
 # <a name="policy-enforcement-decision-guide"></a>Руководство по принудительному применению политик
 
@@ -66,7 +66,7 @@ ms.locfileid: "83224346"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Применение политики — один из базовых компонентов инфраструктуры, решение о котором необходимо принять на этапе внедрения облачных решений. См. [общие сведения о принятии решений](../index.md), чтобы узнать об альтернативных шаблонах или моделях, используемых при принятии решений для других типов инфраструктуры.
+Применение политики — один из базовых компонентов инфраструктуры, решение о котором необходимо принять на этапе внедрения облачных решений. См. обзор руководств по принятию решений об архитектуре, чтобы узнать об альтернативных шаблонах или моделях, используемых с другими типами инфраструктуры.
 
 > [!div class="nextstepaction"]
 > [Руководства по принятию решений об архитектуре](../index.md)

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 05498e7e1163f627b33f1a555aa3870e4bebd868
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: ccd87b73976cb87069bf05463f05a1e22e2caf75
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450719"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196125"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Руководство по принятию решений о ведении журналов и создании отчетов
 
@@ -123,7 +123,7 @@ ms.locfileid: "86450719"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Ведение журналов и отчетность — одна из базовых функций инфраструктуры, решение о которой необходимо принять на этапе внедрения облачных решений. См. [общие сведения о принятии решений](../index.md), чтобы узнать об альтернативных шаблонах или моделях, используемых при принятии решений для других типов инфраструктуры.
+Ведение журналов и отчетность — одна из базовых функций инфраструктуры, решение о которой необходимо принять на этапе внедрения облачных решений. См. обзор руководств по принятию решений об архитектуре, чтобы узнать об альтернативных шаблонах или моделях, используемых с другими типами инфраструктуры.
 
 > [!div class="nextstepaction"]
 > [Руководства по принятию решений об архитектуре](../index.md)

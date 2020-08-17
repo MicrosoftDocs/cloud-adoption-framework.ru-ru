@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: c9a4a7759388dcbd812e26a482c18a1e48de67eb
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: aa4f565bafeafa0eea09ca940a4ca90a9ff46eed
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85075930"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196183"
 ---
 <!-- cSpell:ignore Kerberos NTLM SAML -->
 
@@ -109,7 +109,7 @@ Azure AD поддерживает федерацию локальных доме
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Удостоверения — один из базовых компонентов инфраструктуры, решение о котором необходимо принять на этапе внедрения облачных решений. Сведения об альтернативных шаблонах или моделях, используемых при принятии решений для других типов инфраструктуры, см. [здесь](../index.md).
+Удостоверения — один из базовых компонентов инфраструктуры, решение о котором необходимо принять на этапе внедрения облачных решений. См. обзор руководств по принятию решений об архитектуре, чтобы узнать об альтернативных шаблонах или моделях, используемых с другими типами инфраструктуры.
 
 > [!div class="nextstepaction"]
-> [Руководства по принятию решений об архитектуре](../index.md)
+> [Обзор руководств по принятию решений об архитектуре](../index.md)

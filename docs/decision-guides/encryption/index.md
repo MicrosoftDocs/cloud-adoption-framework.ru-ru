@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: ca1a65d0c385a7fc57e66b4c3f41157363a8a392
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: b43c20579bceb855c77adb3b4e7919254fa50d5a
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86191915"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196138"
 ---
 <!-- cSpell:ignore BYOK -->
 
@@ -130,7 +130,7 @@ ms.locfileid: "86191915"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Шифрование — один из базовых компонентов инфраструктуры, архитектурное решение о котором необходимо принять на этапе внедрения облака. Сведения об альтернативных шаблонах или моделях, используемых при принятии решений для других типов инфраструктуры, см. [здесь](../index.md).
+Шифрование — один из базовых компонентов инфраструктуры, архитектурное решение о котором необходимо принять на этапе внедрения облака. См. обзор руководств по принятию решений об архитектуре, чтобы узнать об альтернативных шаблонах или моделях, используемых с другими типами инфраструктуры.
 
 > [!div class="nextstepaction"]
-> [Руководства по принятию решений об архитектуре](../index.md)
+> [Обзор руководств по принятию решений об архитектуре](../index.md)

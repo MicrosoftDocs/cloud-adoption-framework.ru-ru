@@ -7,12 +7,12 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 32a261bc94cc00fad8d44e0a7699b4bda27fbbee
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: e713fdc5e1fdd367115f7493519d9743ff4d73cd
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787171"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88196366"
 ---
 # <a name="develop-a-cloud-adoption-strategy"></a>Создание стратегии внедрения в облако
 
@@ -30,4 +30,4 @@ ms.locfileid: "84787171"
 | <br> ![3](../_images/icons/3.png) | <br> [Разработка бизнес-модели.](./cloud-migration-business-case.md) Создайте бизнес-план для подтверждения финансовой модели в соответствии с определенными целями и результатами.                                |
 | <br> ![4](../_images/icons/4.png) | <br> [Выбор подходящего первого проекта.](./first-adoption-project.md) Ваш первый проект внедрения облачных технологий поможет согласовать задачи и технические подходы. Эта статья поможет вам осмысленно выбрать свой первый проект. |
 
-Чтобы разработать стратегию внедрения облачных технологий и отслеживать результаты выполнения каждого упражнения, скачайте [шаблон плана внедрения облачных технологий](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+Чтобы разработать стратегию внедрения облачных технологий и отслеживать результаты выполнения каждого шага, используйте [шаблон с планом и стратегией](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).

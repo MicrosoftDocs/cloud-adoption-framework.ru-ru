@@ -7,12 +7,12 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 9b363ea7fc2febaccfd2df14596b025d52a943a2
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 0fab533dee7f5a256bb2a640611b647988f056ac
+ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787662"
+ms.lasthandoff: 08/13/2020
+ms.locfileid: "88194801"
 ---
 # <a name="develop-a-cloud-adoption-plan"></a>Создание плана внедрения в облако
 
@@ -29,4 +29,4 @@ ms.locfileid: "84787662"
 | <br> ![3](../_images/icons/3.png) | <br> [План подготовки навыков.](./adapt-roles-skills-processes.md) Создайте план приобретения отсутствующих навыков.                                |
 | <br> ![4](../_images/icons/4.png) | <br> [План внедрения облака.](./plan-intro.md) Создайте план внедрения в облако, чтобы контролировать изменения цифровых активов, навыков и организации.                        |
 
-Скачайте [шаблон плана и стратегии Cloud Adoption Framework](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx), чтобы отслеживать результаты выполнения каждого упражнения при разработке стратегии внедрения облачных технологий. Также изучите [пять принципов рационализации облака](../digital-estate/5-rs-of-rationalization.md), которые помогут вам в создании плана внедрения в облако.
+Скачайте [шаблон с планом и стратегией](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx), чтобы отслеживать результаты выполнения каждого упражнения при разработке стратегии внедрения облачных технологий. Также изучите [пять принципов рационализации облака](../digital-estate/5-rs-of-rationalization.md), которые помогут вам в создании плана внедрения в облако.
