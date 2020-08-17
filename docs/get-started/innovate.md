@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 4e2dbcc350e3ec0bf7ff700d4ef44601e60a2ead
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: dbbf1fffa7b93b2ef5e1aee60c8ee432b943c045
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195970"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279069"
 ---
 # <a name="get-started-accelerate-new-product-and-service-innovation-in-the-cloud"></a>Начало работы. ускорение новых нововведений продуктов и услуг в облаке
 
@@ -150,7 +150,7 @@ ms.locfileid: "88195970"
 
 **Результатам**
 
-- Выполните [проверку архитектуры Microsoft Azure](https://docs.microsoft.com/assessments/?id=azure-architecture-review) , чтобы оценить различные решения по архитектуре и эксплуатации.
+- Выполните [проверку архитектуры Microsoft Azure](/assessments/?id=azure-architecture-review) , чтобы оценить различные решения по архитектуре и эксплуатации.
 - Настройте [книгу Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) в соответствии с необходимыми дополнительными операциями.
 
 **Рекомендации по поддержке готовности к завершению.**
@@ -238,7 +238,7 @@ ms.locfileid: "88195970"
 
 Действия, описанные в этом руководстве, помогут вам и вашим командам создавать инновационные решения в облаке, которые создают ценность для бизнеса, управляются соответствующим образом и хорошо спроектированы.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Облачная инфраструктура внедрения — это решение жизненного цикла. Это поможет вам начать внедрение инноваций. Она поможет вашей организации приступить к инновациям инноваций и повысить зрелости групп, которые поддерживают инновации.
 

@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 33be59a80186795bf33ee4a22e3dc98534624090
-ms.sourcegitcommit: 26aee3c6f596bb8a9f1e16af93cdf94e41a61dee
+ms.openlocfilehash: b9ca2c1a89caa6f77d5b3eb8725d950a8d4b6584
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87400485"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88282792"
 ---
 # <a name="overview-of-application-migration-examples-for-azure"></a>Обзор примеров переноса приложений для Azure
 
@@ -78,7 +78,7 @@ Azure предоставляет доступ к комплексному наб
 | Статья | Сведения |
 | --- | --- |
 | [Перенос баз данных SQL Server в Azure](./contoso-migration-sql-server-db-to-azure.md) | В этой статье показано, как вымышленная компания Contoso оценивает, планирует и переносит свои различные локальные SQL Server базы данных в Azure. |
-| [Повторное размещение приложения на виртуальной машине Azure и Управляемый экземпляр SQL](./contoso-migration-rehost-vm-sql-managed-instance.md) | В этой статье приведен пример переноса с миграцией в Azure для локального приложения. Этот процесс включает перенос клиентской виртуальной машины приложения с помощью службы "миграция Azure" и базы данных приложения в SQL Управляемый экземпляр с помощью [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview). |
+| [Повторное размещение приложения на виртуальной машине Azure и Управляемый экземпляр SQL](./contoso-migration-rehost-vm-sql-managed-instance.md) | В этой статье приведен пример переноса с миграцией в Azure для локального приложения. Этот процесс включает перенос клиентской виртуальной машины приложения с помощью службы "миграция Azure" и базы данных приложения в SQL Управляемый экземпляр с помощью [Azure Database Migration Service](/azure/dms/dms-overview). |
 | [Повторное размещение приложения на виртуальных машинах Azure с помощью SQL Server группы доступности Always On](./contoso-migration-rehost-vm-sql-ag.md) | В этом примере показано, как перенести приложение и данные с помощью виртуальных машин, размещенных SQL Server Azure. Она использует миграцию Azure для переноса виртуальных машин приложений и Database Migration Service для переноса базы данных приложения в кластер SQL Server, защищенный группой доступности Always On. |
 
 ### <a name="linux-and-open-source-databases"></a>Linux и базы данных с открытым кодом
@@ -89,7 +89,7 @@ Azure предоставляет доступ к комплексному наб
 | [Миграция из MySQL в Azure](./contoso-migration-mysql-to-azure.md) | В этой статье показано, как вымышленная компания Contoso планирует и перенеса свою локальную платформу базы данных MySQL с открытым кодом в Azure. |
 | [Миграция из PostgreSQL в Azure](./contoso-migration-postgresql-to-azure.md) | В этой статье показано, как вымышленная компания Contoso планирует и перенеса свою локальную платформу базы данных PostgreSQL с открытым кодом в Azure. |
 | [Миграция из MariaDB в Azure](./contoso-migration-mariadb-to-azure.md) | В этой статье показано, как вымышленная компания Contoso планирует и перенеса свою локальную платформу базы данных MariaDB с открытым кодом в Azure. |
-| [Повторное размещение приложения Linux на виртуальных машинах Azure и в базе данных Azure для MySQL](./contoso-migration-rehost-linux-vm-mysql.md) | В этой статье приведен пример переноса приложения, размещенного в Linux, на виртуальные машины Azure с помощью службы "миграция Azure". База данных приложения переносится в базу данных Azure для MySQL с помощью [Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview). |
+| [Повторное размещение приложения Linux на виртуальных машинах Azure и в базе данных Azure для MySQL](./contoso-migration-rehost-linux-vm-mysql.md) | В этой статье приведен пример переноса приложения, размещенного в Linux, на виртуальные машины Azure с помощью службы "миграция Azure". База данных приложения переносится в базу данных Azure для MySQL с помощью [Database Migration Service](/azure/dms/dms-overview). |
 | [Повторное размещение приложения Linux на виртуальных машинах Azure](./contoso-migration-rehost-linux-vm.md) | В этом примере показано, как выполнить миграцию приложения на основе Linux на виртуальные машины Azure с помощью функции миграции Azure. |
 
 ### <a name="devtest-workloads"></a>Рабочие нагрузки разработки и тестирования
@@ -103,8 +103,8 @@ Azure предоставляет доступ к комплексному наб
 
 | Статья | Сведения |
 | --- | --- |
-| [Рефакторинг приложения Windows с помощью службы приложений и базы данных SQL](./contoso-migration-refactor-web-app-sql.md) | В этом примере показано, как перенести локальное приложение на основе Windows в веб-приложение Azure и перенести базу данных приложения в экземпляр SQL Server Azure с помощью [Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview). |
-| [Рефакторинг приложения Windows с помощью службы приложений и Управляемый экземпляр SQL](./contoso-migration-refactor-web-app-sql-managed-instance.md) | В этом примере показано, как перенести локальное приложение на основе Windows в веб-приложение Azure и перенести базу данных приложения в SQL Управляемый экземпляр с помощью [Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview). |
+| [Рефакторинг приложения Windows с помощью службы приложений и базы данных SQL](./contoso-migration-refactor-web-app-sql.md) | В этом примере показано, как перенести локальное приложение на основе Windows в веб-приложение Azure и перенести базу данных приложения в экземпляр SQL Server Azure с помощью [Database Migration Service](/azure/dms/dms-overview). |
+| [Рефакторинг приложения Windows с помощью службы приложений и Управляемый экземпляр SQL](./contoso-migration-refactor-web-app-sql-managed-instance.md) | В этом примере показано, как перенести локальное приложение на основе Windows в веб-приложение Azure и перенести базу данных приложения в SQL Управляемый экземпляр с помощью [Database Migration Service](/azure/dms/dms-overview). |
 | [Рефакторинг приложения Linux в нескольких регионах с помощью службы приложений, диспетчера трафика Azure и базы данных Azure для MySQL](./contoso-migration-refactor-linux-app-service-mysql.md) | В этом примере показано, как перенести локальное приложение на основе Linux в веб-приложение Azure в нескольких регионах Azure с помощью диспетчера трафика для интеграции с GitHub для непрерывной доставки. База данных приложения переносится в экземпляр базы данных Azure для MySQL. |
 | [Перестроение приложения в Azure](./contoso-migration-rebuild.md) | В этой статье приведен пример перестроения локального приложения с помощью ряда возможностей Azure и управляемых служб. К этим возможностям и службам относятся служба приложений, AKS, функции, Azure Cognitive Services и Azure Cosmos DB. |
 | [Рефакторинг Team Foundation Server для Azure DevOps Services](./contoso-migration-tfs-vsts.md) | В этой статье показан пример переноса локального развертывание Team Foundation Server в Azure DevOps Services в Azure. |

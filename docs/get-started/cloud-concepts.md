@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: bc7ddc729f6a53a8764c304f48238755392fd1b1
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: fd61b8ea142e042ba8653df484891ebc6a520caf
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195996"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278440"
 ---
 # <a name="get-started-understand-and-document-foundational-alignment-decisions"></a>Начало работы: изучение и документирование решений по выравниванию в базовых принципах
 
@@ -50,7 +50,7 @@ Azure построен на основе набора [базовых конце
 - [Основные понятия](../ready/considerations/fundamental-concepts.md) помогут вам понять основные темы Azure, прежде чем приступать к внедрению в облако.
 - [Книга Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) и подход к выравниванию бизнеса помогают понять рабочие нагрузки и активы, которые были перенесены в группу облачных операций.
 - [План внедрения в облако](../plan/plan-intro.md) предоставляет невыполненную работу рабочих нагрузок и ресурсов, которые приводятся для внедрения в облако.
-- [Анализ цифровых площадей](../digital-estate/approach.md) — это подход к документированию существующих рабочих нагрузок и ресурсов, которые приводятся для внедрения в облако. В Azure цифровое пространство лучше представить в виде средства, которое называется " [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-support-matrix)".
+- [Анализ цифровых площадей](../digital-estate/approach.md) — это подход к документированию существующих рабочих нагрузок и ресурсов, которые приводятся для внедрения в облако. В Azure цифровое пространство лучше представить в виде средства, которое называется " [Миграция Azure](/azure/migrate/migrate-support-matrix)".
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -90,8 +90,8 @@ Azure построен на основе набора [базовых конце
 
 - Создайте [стандарт именования и создания тегов](../ready/azure-best-practices/naming-and-tagging.md).
 - Заполните [шаблон отслеживания соглашений об именовании и маркировке](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/naming-and-tagging-conventions-tracking-template.xlsx) , чтобы отслеживать решения.
-- [Проверьте и обновите существующие теги в Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
-- [Применение политик тегов в Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-policies).
+- [Проверьте и обновите существующие теги в Azure](/azure/azure-resource-manager/management/tag-resources).
+- [Применение политик тегов в Azure](/azure/azure-resource-manager/management/tag-policies).
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -118,7 +118,7 @@ Azure построен на основе набора [базовых конце
 - Начните с [двух подписок по проекту](../ready/azure-best-practices/initial-subscriptions.md). Добавьте базовые модели подписки, чтобы учитывать распространенные корпоративные потребности, например общие службы или подписки песочницы.
 - [Управлять несколькими подписками](../ready/azure-best-practices/organize-subscriptions.md) , так как дополнительные подписки необходимы для поддержки плана внедрения в облако.
 - Установите [четкие границы на основе иерархии портфеля](../reference/fundamental-concepts/hierarchy-azure-tools.md#organizing-the-hierarchy-in-azure).
-- При необходимости [переместите группы ресурсов и активы между подписками](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription) , чтобы они соответствовали стратегии Организации.
+- При необходимости [переместите группы ресурсов и активы между подписками](/azure/azure-resource-manager/management/move-resource-group-and-subscription) , чтобы они соответствовали стратегии Организации.
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -149,7 +149,7 @@ Azure построен на основе набора [базовых конце
 | --- | --- |
 | <li> Группа по облачным стратегиям может учитывать соответствие виртуальным или выделенным организационным структурам, чтобы обеспечить успешность жизненного цикла внедрения в облако. | <li> Все, кто вовлечен в жизненный цикл внедрения в облако, должны быть знакомы с выравниванием людей и уровней ответственности. |
 
-## <a name="whats-next"></a>Что дальше?
+## <a name="whats-next"></a>Дальнейшие действия
 
 Постройте этот набор фундаментальных концепций с помощью серии руководств по началу работы в этом разделе инфраструктуры внедрения облаков.
 

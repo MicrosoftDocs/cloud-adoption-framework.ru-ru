@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 7c77404c009f10d3198ab41d30ee3350c385d4f1
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: f252c2d50d93e0a19094c17b4fce548c545b0395
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193823"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88282486"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM contosohost vcenter contosodc smarthotel SQLMI SHWCF SHWEB -->
 
@@ -31,7 +31,7 @@ ms.locfileid: "88193823"
 - **Повышение эффективности**. Компании Contoso необходимо удалить ненужные процедуры и упростить процессы для разработчиков и пользователей. Бизнес нуждается в том, чтобы ИТ были быстрыми и чтобы не тратить время или деньги, обеспечивая более высокие требования клиентов.
 - **Повышение гибкости**. ИТ-отдел компании Contoso должен проявлять большую гибкость в отношении потребностей бизнеса. Он должен иметь возможность реагировать быстрее, чем изменения в Marketplace, чтобы обеспечить успешную работу в глобальной экономике. Время реакции не должно быть таким образом или станет бизнес-блокировкой.
 - **Масштабирование**. По мере успешного роста бизнеса ИТ-отдел компании Contoso должен предоставлять системы, способные расти в том же темпе.
-- **Сократите затраты**. Компании Contoso требуется минимизировать затраты на лицензирование.
+- **Сокращение затрат**. Компании Contoso требуется минимизировать затраты на лицензирование.
 
 ## <a name="migration-goals"></a>Цели миграции
 
@@ -77,7 +77,7 @@ ms.locfileid: "88193823"
 
 Компания Contoso оценивает предлагаемую конструкцию, объединяя список «плюсы» и «минус», как показано в следующей таблице.
 
-| Рассматриваемый вопрос | Подробности |
+| Рассматриваемый вопрос | Сведения |
 | --- | --- |
 | **Преимущества** | Код приложения SmartHotel360 не требует изменений для миграции в Azure. <br><br> Компания Contoso может воспользоваться преимуществами своих инвестиций в Software Assurance, используя Преимущество гибридного использования Azure как для SQL Server, так и для Windows Server. <br><br> После переноса не потребуется поддерживать Windows Server 2008 R2. Дополнительные сведения см. в статье [Политика жизненного цикла Майкрософт](https://aka.ms/lifecycle). <br><br> Компания Contoso может настроить веб-уровень приложения с несколькими экземплярами, чтобы веб-уровень больше не был единой точкой отказа. <br><br> Исчезнет зависимость базы данных от устаревающей платформы SQL Server 2008 R2. <br><br> Управляемый экземпляр SQL соответствует техническим требованиям и целям компании Contoso. <br><br> Их управляемый экземпляр обеспечит совместимость с текущим развертыванием в 100% при их перемещении из SQL Server 2008 R2. <br><br> Компания Contoso может воспользоваться преимуществами своих инвестиций в Software Assurance и использовать Преимущество гибридного использования Azure для SQL Server и Windows Server. <br><br> Они могут повторно использовать Azure Database Migration Service для дальнейших миграций. <br><br> Их управляемый экземпляр имеет встроенную отказоустойчивость, которую Contoso не требуется настраивать. Это гарантия того, что уровень данных больше не является единой точкой отказа. |
 | **Недостатки** | Служба приложений Azure поддерживает только одно развертывание приложений для каждого веб-приложения. Это означает, что необходимо подготовить два веб-приложения: одно для веб-сайта, а другое — для службы WCF. <br><br> Для уровня данных SQL Управляемый экземпляр может быть не лучшим решением, если Contoso хочет настроить операционную систему или сервер базы данных или запускать сторонние приложения вместе с SQL Server. Использование SQL Server на виртуальной машине IaaS может обеспечить такую гибкость. |
@@ -97,10 +97,10 @@ ms.locfileid: "88193823"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Узнайте о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) и [ценах на Azure Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
-| [Управляемый экземпляр SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance) | SQL Управляемый экземпляр — это управляемая служба базы данных, которая представляет собой полностью управляемый экземпляр SQL Server в Azure. Он использует тот же код, что и последняя версия ядра СУБД SQL Server, и имеет новейшие функции, улучшения производительности и исправления системы безопасности. | При использовании управляемого экземпляра SQL, работающего в Azure, взимается плата в зависимости от емкости. Дополнительные сведения о [ценах на SQL управляемый экземпляр](https://azure.microsoft.com/pricing/details/sql-database/managed). |
-| [Служба приложений Azure](https://docs.microsoft.com/azure/app-service/overview) | Помогает создавать мощные облачные приложения, использующие полностью управляемую платформу. | Цены основываются на размере, расположении и продолжительности использования. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows). |
-| [Azure Pipelines](https://docs.microsoft.com/azure/devops/pipelines/get-started/what-is-azure-pipelines) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер начинается с репозитория Git для управления кодом приложения, системы сборки для создания пакетов и других артефактов сборки, а также системы управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде. |
+| [Azure Database Migration Service](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Узнайте о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) и [ценах на Azure Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
+| [Управляемый экземпляр SQL Azure](/azure/sql-database/sql-database-managed-instance) | SQL Управляемый экземпляр — это управляемая служба базы данных, которая представляет собой полностью управляемый экземпляр SQL Server в Azure. Он использует тот же код, что и последняя версия ядра СУБД SQL Server, и имеет новейшие функции, улучшения производительности и исправления системы безопасности. | При использовании управляемого экземпляра SQL, работающего в Azure, взимается плата в зависимости от емкости. Дополнительные сведения о [ценах на SQL управляемый экземпляр](https://azure.microsoft.com/pricing/details/sql-database/managed). |
+| [Служба приложений Azure](/azure/app-service/overview) | Помогает создавать мощные облачные приложения, использующие полностью управляемую платформу. | Цены основываются на размере, расположении и продолжительности использования. [Подробнее.](https://azure.microsoft.com/pricing/details/app-service/windows) |
+| [Azure Pipelines](/azure/devops/pipelines/get-started/what-is-azure-pipelines) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер начинается с репозитория Git для управления кодом приложения, системы сборки для создания пакетов и других артефактов сборки, а также системы управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде. |
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -132,10 +132,10 @@ ms.locfileid: "88193823"
 - После создания управляемого экземпляра компания Contoso не должна добавлять ресурсы в подсеть.
 - С подсетью не должна быть связана группа безопасности сети.
 - Подсеть должна иметь определяемую пользователем таблицу маршрутов. Единственный назначенный маршрут должен быть `0.0.0.0/0` Интернетом следующего прыжка.
-- Если для виртуальной сети указан необязательный настраиваемый DNS-сервер, виртуальный IP-адрес `168.63.129.16` для рекурсивных арбитров конфликтов в Azure должен быть добавлен в список. Узнайте, как [настроить пользовательский DNS для управляемого экземпляра SQL Azure](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-custom-dns).
+- Если для виртуальной сети указан необязательный настраиваемый DNS-сервер, виртуальный IP-адрес `168.63.129.16` для рекурсивных арбитров конфликтов в Azure должен быть добавлен в список. Узнайте, как [настроить пользовательский DNS для управляемого экземпляра SQL Azure](/azure/sql-database/sql-database-managed-instance-custom-dns).
 - С подсетью не должна быть связана конечная точка службы (служба хранилища или база данных SQL). Конечные точки службы должны быть отключены в виртуальной сети.
-- Для подсети необходимо как минимум 16 IP-адресов. Узнайте, как [изменить размер подсети управляемого экземпляра](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-configure-vnet-subnet).
-- В гибридной среде Contoso требуются пользовательские параметры DNS. Компания Contoso настроит параметры DNS для использования одного или нескольких серверов DNS Azure компании. Дополнительные сведения о [настройке DNS](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-custom-dns).
+- Для подсети необходимо как минимум 16 IP-адресов. Узнайте, как [изменить размер подсети управляемого экземпляра](/azure/sql-database/sql-database-managed-instance-configure-vnet-subnet).
+- В гибридной среде Contoso требуются пользовательские параметры DNS. Компания Contoso настроит параметры DNS для использования одного или нескольких серверов DNS Azure компании. Дополнительные сведения о [настройке DNS](/azure/sql-database/sql-database-managed-instance-custom-dns).
 
 ### <a name="set-up-a-virtual-network-for-the-managed-instance"></a>Настройка виртуальной сети в управляемом экземпляре
 
@@ -167,10 +167,10 @@ ms.locfileid: "88193823"
 
 **Требуется дополнительная помощь?**
 
-- Ознакомьтесь с [обзором управляемый экземпляр SQL](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance).
-- Узнайте, как [создать виртуальную сеть для управляемого экземпляра SQL](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-configure-vnet-subnet).
-- См. раздел [Создание, изменение и удаление пиринга в виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-manage-peering).
-- См. раздел [Включение доменных служб Azure Active Directory](https://docs.microsoft.com/azure/active-directory-domain-services/tutorial-create-instance).
+- Ознакомьтесь с [обзором управляемый экземпляр SQL](/azure/sql-database/sql-database-managed-instance).
+- Узнайте, как [создать виртуальную сеть для управляемого экземпляра SQL](/azure/sql-database/sql-database-managed-instance-configure-vnet-subnet).
+- См. раздел [Создание, изменение и удаление пиринга в виртуальной сети](/azure/virtual-network/virtual-network-manage-peering).
+- См. раздел [Включение доменных служб Azure Active Directory](/azure/active-directory-domain-services/tutorial-create-instance).
 
 ### <a name="set-up-routing"></a>Настройка маршрутизации
 
@@ -199,7 +199,7 @@ ms.locfileid: "88193823"
 
 **Требуется дополнительная помощь?**
 
-Узнайте, как [настроить маршруты для управляемого экземпляра](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started).
+Узнайте, как [настроить маршруты для управляемого экземпляра](/azure/sql-database/sql-database-managed-instance-get-started).
 
 ### <a name="create-a-managed-instance"></a>Создание управляемого экземпляра
 
@@ -218,11 +218,11 @@ ms.locfileid: "88193823"
 
 **Требуется дополнительная помощь?**
 
-Узнайте, как [подготавливать управляемый экземпляр](https://docs.microsoft.com/azure/sql-database/sql-database-managed-instance-get-started).
+Узнайте, как [подготавливать управляемый экземпляр](/azure/sql-database/sql-database-managed-instance-get-started).
 
 ## <a name="step-2-migrate-via-azure-database-migration-service"></a>Шаг 2. Миграция с помощью Azure Database Migration Service
 
-Администраторы Contoso переходят управляемый экземпляр с помощью Azure Database Migration Service, следуя инструкциям в [руководстве по пошаговому миграции](https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online). Они могут выполнять интерактивные, автономные и гибридные (предварительные) миграции.
+Администраторы Contoso переходят управляемый экземпляр с помощью Azure Database Migration Service, следуя инструкциям в [руководстве по пошаговому миграции](/azure/dms/tutorial-sql-server-azure-sql-online). Они могут выполнять интерактивные, автономные и гибридные (предварительные) миграции.
 
 Вкратце, администраторы Contoso выполняют следующие действия:
 
@@ -411,21 +411,21 @@ ms.locfileid: "88193823"
 
 ### <a name="security"></a>Безопасность
 
-- Компания Contoso помогает обеспечить безопасность новой `SmartHotel-Registration` базы данных. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-security-overview).
+- Компания Contoso помогает обеспечить безопасность новой `SmartHotel-Registration` базы данных. [Подробнее.](/azure/sql-database/sql-database-security-overview)
 - В частности, компания Contoso обновляет веб-приложения для использования SSL с сертификатами.
 
 ### <a name="backups"></a>Резервные копии
 
-- Группа Contoso просматривает требования к резервному копированию базы данных в Управляемый экземпляр Azure SQL. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups).
-- Они также изучит управление резервными копиями и восстановлением базы данных SQL. См. [дополнительные сведения](https://docs.microsoft.com/azure/sql-database/sql-database-automated-backups) об автоматическом резервном копировании.
-- Они считают реализацией групп отработки отказа для предоставления региональной отработки отказа для базы данных. [Подробнее](https://docs.microsoft.com/azure/sql-database/sql-database-geo-replication-overview).
+- Группа Contoso просматривает требования к резервному копированию базы данных в Управляемый экземпляр Azure SQL. [Подробнее.](/azure/sql-database/sql-database-automated-backups)
+- Они также изучит управление резервными копиями и восстановлением базы данных SQL. См. [дополнительные сведения](/azure/sql-database/sql-database-automated-backups) об автоматическом резервном копировании.
+- Они считают реализацией групп отработки отказа для предоставления региональной отработки отказа для базы данных. [Подробнее.](/azure/sql-database/sql-database-geo-replication-overview)
 - Рассмотрите возможность развертывания веб-приложения в основном регионе ( `East US 2` ) и в дополнительном регионе ( `Central US` ) для обеспечения устойчивости. Группа может настроить диспетчер трафика, чтобы обеспечить отработку отказа во время региональных сбоев.
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 
 - После развертывания всех ресурсов компания Contoso назначает Теги Azure на основе [планирования инфраструктуры](./contoso-migration-infrastructure.md#set-up-tagging).
 - Полное лицензирование входит в стоимость служб PaaS, которые использует Contoso. Эти затраты вычитаются из Соглашение Enterprise.
-- Contoso будет использовать службу [управления затратами Azure и выставления счетов](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview) , чтобы гарантировать, что они останутся в пределах бюджетов, установленных ИТ.
+- Contoso будет использовать службу [управления затратами Azure и выставления счетов](/azure/cost-management-billing/cost-management-billing-overview) , чтобы гарантировать, что они останутся в пределах бюджетов, установленных ИТ.
 
 ## <a name="conclusion"></a>Заключение
 

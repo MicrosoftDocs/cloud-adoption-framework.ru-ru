@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 51e0a253a7e66f70ec440dd7be969f324afb795c
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: d267f8739d9cfa532276aab5d08074ebf288cacd
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83217682"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279800"
 ---
 # <a name="security-baseline-tools-in-azure"></a>Средства основных способов защиты в Azure
 
@@ -21,7 +21,7 @@ ms.locfileid: "83217682"
 
 Следующий список средств Azure может помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal) и [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview)  | [Azure Key Vault](https://docs.microsoft.com/azure/key-vault);  | [Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) | [Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) | [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-intro) | [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) |
+| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal) и [Azure Resource Manager](/azure/azure-resource-manager/management/overview)  | [Azure Key Vault](/azure/key-vault);  | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) | [Политика Azure](/azure/governance/policy/overview) | [Центр безопасности Azure](/azure/security-center/security-center-intro) | [Azure Monitor](/azure/azure-monitor/overview) |
 |------------------------------------------------------------|---------------------------------|-----------------|----------|--------------|-----------------------|---------------|
 | Применение элементов управления доступом к ресурсам и процессам создания ресурсов   | Да                             | Нет              | Да      | Нет           | Нет                    | Нет            |
 | Защита виртуальных сетей Azure                                    | Да                             | Нет              | Нет       | Да          | Нет                    | Нет            |
@@ -35,8 +35,8 @@ ms.locfileid: "83217682"
 | Заблаговременное обнаружение уязвимостей                        | Нет                              | Нет              | Нет       | Нет           | Да                   | Нет            |
 | Настройка резервного копирования и аварийного восстановления данных                     | Да                             | Нет              | Нет       | Нет           | Нет                    | Нет            |
 
-Полный список средств безопасности и служб Azure см. в [этой статье](https://docs.microsoft.com/azure/security/fundamentals/services-technologies).
+Полный список средств безопасности и служб Azure см. в [этой статье](/azure/security/fundamentals/services-technologies).
 
-Клиенты обычно используют сторонние средства для реализации действий по специализации в плане безопасности. Дополнительные сведения см. в статье [Интеграция решений безопасности в центре безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-partner-integration).
+Клиенты обычно используют сторонние средства для реализации действий по специализации в плане безопасности. Дополнительные сведения см. в статье [Интеграция решений безопасности в центре безопасности Azure](/azure/security-center/security-center-partner-integration).
 
 В дополнение к средствам безопасности [Центр управления безопасностью Microsoft](https://www.microsoft.com/microsoft-365/business/compliance-solutions#office-KeyMessages-k3j63yo) содержит подробные инструкции, отчеты и связанную документацию, которые помогут вам выполнить оценку рисков как часть процесса планирования миграции.

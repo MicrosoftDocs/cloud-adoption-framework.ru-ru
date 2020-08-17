@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: b73d7243ec3db4b6f36066674b140adcb20b9219
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 545706c73183211da608bbdd1b67c51f799337a0
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86452304"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279681"
 ---
 # <a name="conversational-ai"></a>Искусственный AI
 
@@ -36,24 +36,24 @@ ms.locfileid: "86452304"
 - Bot Framework — это предложение с открытым исходным кодом, которое предоставляет пакет SDK (доступен на C#, JavaScript, Python и Java) для разработки, сборки и тестирования программы Bot. Он также предлагает бесплатный холст визуальной разработки в среде Bot Framework composer и средство тестирования в эмуляторе Bot Framework.
 - Служба Azure Bot — это выделенная служба в Azure, которая позволяет размещать или публиковать программу Bot в Azure и подключаться к популярным каналам.
 
-- [Сведения о службе Azure Bot и обзоре платформы Bot](https://docs.microsoft.com/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
-- [Принципы разработки ботов](https://docs.microsoft.com/azure/bot-service/bot-service-design-principles?view=azure-bot-service-4.0)
-- [Поиск последних версий пакета SDK и инструментов для платформы Bot](https://docs.microsoft.com/azure/bot-service/what-is-new?view=azure-bot-service-4.0)
+- [Сведения о службе Azure Bot и обзоре платформы Bot](/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
+- [Принципы разработки ботов](/azure/bot-service/bot-service-design-principles?view=azure-bot-service-4.0)
+- [Поиск последних версий пакета SDK и инструментов для платформы Bot](/azure/bot-service/what-is-new?view=azure-bot-service-4.0)
 
 Один из самых простых способов начать работу — использовать QnA Maker, часть Cognitive Services Azure, которая позволяет интеллектуально преобразовать документ или веб-сайт с часто задаваемыми вопросами в Q&в течение нескольких минут.
 
-- [Узнайте, как создать робот с помощью Q&возможности быстро с QnA Maker](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-add-qna?view=azure-bot-service-4.0&tabs=csharp)
+- [Узнайте, как создать робот с помощью Q&возможности быстро с QnA Maker](/azure/bot-service/bot-builder-tutorial-add-qna?tabs=csharp&view=azure-bot-service-4.0)
 - [Непосредственное тестирование службы QnA Maker](https://www.qnamaker.ai/)
 
 Загрузка и использование пакета SDK и инструментов Bot Framework для разработки с помощью Bot
 
-- [5-минутные краткие руководства по композитору платформы Bot](https://docs.microsoft.com/composer/)
-- [Сборка и тестирование программы-роботы с помощью пакета SDK для Bot Framework (C#, JavaScript, Python)](https://docs.microsoft.com/azure/bot-service/dotnet/bot-builder-dotnet-sdk-quickstart?view=azure-bot-service-4.0)
+- [5-минутные краткие руководства по композитору платформы Bot](/composer/)
+- [Сборка и тестирование программы-роботы с помощью пакета SDK для Bot Framework (C#, JavaScript, Python)](/azure/bot-service/dotnet/bot-builder-dotnet-sdk-quickstart?view=azure-bot-service-4.0)
 
 Узнайте, как добавить Cognitive Services, чтобы сделать робот еще более интеллектуальным.
 
 - [Руководство разработчика по созданию приложений искусственного интеллекта](https://www.oreilly.com/library/view/a-developers-guide/9781492080619/) (электронная книга)
-- [Дополнительные сведения о Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/)
+- [Дополнительные сведения о Cognitive Services](/azure/cognitive-services/)
 
 Узнайте, как создать собственный виртуальный помощник с помощью акселераторов решений Bot и выбрать общий набор навыков, таких как календарь, электронная почта, интересующая точка и задача.
 

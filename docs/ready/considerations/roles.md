@@ -9,59 +9,59 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 manager: BrianBlanchard
 ms.custom: virtual-network
-ms.openlocfilehash: e88785c98dcf9d5b20ce7d28682541d6c4f9b61e
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 7efc2d473a7aa50d9cad04d4bcac8bb8364271c5
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479557"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279273"
 ---
 # <a name="role-based-access-control"></a>Управление доступом на основе ролей
 
-Рекомендуется использовать права и привилегии доступа на основе групп. Работа с группами, а не с отдельными пользователями, облегчает поддержку политик доступа, обеспечивает согласованное управление доступом между группами, а также способствует сокращению количества ошибок конфигурации. Назначение и удаление пользователей в соответствующих группах позволяет обеспечить актуальность привилегий определенного пользователя. [Управление доступом на основе ролей](https://docs.microsoft.com/azure/role-based-access-control/overview) Azure помогает избирательно контролировать доступ к ресурсам c назначением определенных ролей пользователей.
+Рекомендуется использовать права и привилегии доступа на основе групп. Работа с группами, а не с отдельными пользователями, облегчает поддержку политик доступа, обеспечивает согласованное управление доступом между группами, а также способствует сокращению количества ошибок конфигурации. Назначение и удаление пользователей в соответствующих группах позволяет обеспечить актуальность привилегий определенного пользователя. [Управление доступом на основе ролей](/azure/role-based-access-control/overview) Azure помогает избирательно контролировать доступ к ресурсам c назначением определенных ролей пользователей.
 
-Общие сведения о рекомендуемых методиках RBAC как части стратегии идентификации и безопасности см. в разделе [Azure Identity Management and access control security best practices](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices#use-role-based-access-control) (Рекомендации по защите управления удостоверениями и доступом в Azure).
+Общие сведения о рекомендуемых методиках RBAC как части стратегии идентификации и безопасности см. в разделе [Azure Identity Management and access control security best practices](/azure/security/fundamentals/identity-management-best-practices#use-role-based-access-control) (Рекомендации по защите управления удостоверениями и доступом в Azure).
 
 ## <a name="overview-of-role-based-access-control"></a>Общие сведения об управлении доступом на основе ролей
 
-Используя [управление доступом на основе ролей](https://docs.microsoft.com/azure/role-based-access-control/overview), вы можете разделять обязанности в своей команде и предоставлять только требуемый уровень доступа для определенных пользователей, групп, субъектов-служб или управляемых удостоверений для выполнения своих заданий в Azure Active Directory (Azure AD). Вместо того чтобы предоставить всем неограниченный доступ к подписке или ресурсам Azure, можно ограничить разрешения для каждого набора ресурсов.
+Используя [управление доступом на основе ролей](/azure/role-based-access-control/overview), вы можете разделять обязанности в своей команде и предоставлять только требуемый уровень доступа для определенных пользователей, групп, субъектов-служб или управляемых удостоверений для выполнения своих заданий в Azure Active Directory (Azure AD). Вместо того чтобы предоставить всем неограниченный доступ к подписке или ресурсам Azure, можно ограничить разрешения для каждого набора ресурсов.
 
-В [определениях ролей RBAC](https://docs.microsoft.com/azure/role-based-access-control/role-definitions) перечислены операции, которые разрешены или запрещены для пользователей или групп, назначенных этой роли. [Область](https://docs.microsoft.com/azure/role-based-access-control/overview#scope) роли определяет, к каким ресурсам применяются эти указанные разрешения. Области могут быть указаны на нескольких уровнях: группа управления, подписка, группа ресурсов или ресурс. Структура областей строится на отношениях "родитель — потомок".
+В [определениях ролей RBAC](/azure/role-based-access-control/role-definitions) перечислены операции, которые разрешены или запрещены для пользователей или групп, назначенных этой роли. [Область](/azure/role-based-access-control/overview#scope) роли определяет, к каким ресурсам применяются эти указанные разрешения. Области могут быть указаны на нескольких уровнях: группа управления, подписка, группа ресурсов или ресурс. Структура областей строится на отношениях "родитель — потомок".
 
 ![Иерархия области RBAC](../../_images/azure-best-practices/rbac-scope.png)
 
-Подробные инструкции по назначению пользователей и групп для определенных ролей и назначению ролей для областей см. в статье [Manage access to Azure resources using RBAC and the Azure portal](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal) (Управление доступом к ресурсам Azure с помощью RBAC и портала Azure).
+Подробные инструкции по назначению пользователей и групп для определенных ролей и назначению ролей для областей см. в статье [Manage access to Azure resources using RBAC and the Azure portal](/azure/role-based-access-control/role-assignments-portal) (Управление доступом к ресурсам Azure с помощью RBAC и портала Azure).
 
 При планировании стратегии управления доступом используйте модель доступа с минимальными привилегиями, которая предоставляет пользователям только разрешения, необходимые для выполнения их работы. На следующей схеме представлен рекомендуемый шаблон для использования ролей RBAC с помощью этого подхода.
 
 ![Рекомендуемый шаблон для использования ролей RBAC](../../_images/azure-best-practices/rbac-least-privilege.png)
 
 > [!NOTE]
-> Чем более конкретные или подробные разрешения вы определяете, тем выше вероятность того, что элементы управления доступом станут сложными и ими будет труднее управлять. Это особенно актуально с ростом облачной инфраструктуры. Избегайте использования разрешений для конкретных ресурсов. Вместо этого используйте [группы управления](https://docs.microsoft.com/azure/governance/management-groups) для контроля доступа и [групп ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/overview#resource-groups) в масштабах предприятия для управления доступом в рамках подписок. Следует также избегать использования разрешений для конкретных пользователей. Вместо этого назначьте доступ к [группам в Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-manage-groups).
+> Чем более конкретные или подробные разрешения вы определяете, тем выше вероятность того, что элементы управления доступом станут сложными и ими будет труднее управлять. Это особенно актуально с ростом облачной инфраструктуры. Избегайте использования разрешений для конкретных ресурсов. Вместо этого используйте [группы управления](/azure/governance/management-groups) для контроля доступа и [групп ресурсов](/azure/azure-resource-manager/management/overview#resource-groups) в масштабах предприятия для управления доступом в рамках подписок. Следует также избегать использования разрешений для конкретных пользователей. Вместо этого назначьте доступ к [группам в Azure AD](/azure/active-directory/fundamentals/active-directory-manage-groups).
 
 ## <a name="use-built-in-rbac-roles"></a>Использование встроенных ролей RBAC
 
 Azure предоставляет множество встроенных определений ролей с тремя основными ролями для обеспечения доступа:
 
-- [Владелец](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#owner) может управлять всем, включая доступ к ресурсам.
-- [Участник](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#contributor) может управлять всем, кроме доступа к ресурсам.
-- [Читатель](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#reader) может просматривать все элементы, но не вносить изменения.
+- [Владелец](/azure/role-based-access-control/built-in-roles#owner) может управлять всем, включая доступ к ресурсам.
+- [Участник](/azure/role-based-access-control/built-in-roles#contributor) может управлять всем, кроме доступа к ресурсам.
+- [Читатель](/azure/role-based-access-control/built-in-roles#reader) может просматривать все элементы, но не вносить изменения.
 
 Начиная с этих основных уровней доступа, дополнительные встроенные роли предоставляют более подробные элементы управления для доступа к определенным типам ресурсов или функциям Azure. Например, вы можете управлять доступом к виртуальным машинам, используя приведенные ниже встроенные роли.
 
-- Роль [входа администратора виртуальной машины](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#virtual-machine-administrator-login) может просматривать виртуальные машины на портале и выполнять вход как `administrator` .
-- Роль " [участник виртуальных машин](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#virtual-machine-contributor) " может управлять виртуальными машинами, но не может получить к ним доступ или к виртуальной сети или учетной записи хранения, к которой они подключены.
-- Роль [входа пользователя виртуальной машины](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles#virtual-machine-user-login) может просматривать виртуальные машины на портале и выполнять вход от имени обычного пользователя.
+- Роль [входа администратора виртуальной машины](/azure/role-based-access-control/built-in-roles#virtual-machine-administrator-login) может просматривать виртуальные машины на портале и выполнять вход как `administrator` .
+- Роль " [участник виртуальных машин](/azure/role-based-access-control/built-in-roles#virtual-machine-contributor) " может управлять виртуальными машинами, но не может получить к ним доступ или к виртуальной сети или учетной записи хранения, к которой они подключены.
+- Роль [входа пользователя виртуальной машины](/azure/role-based-access-control/built-in-roles#virtual-machine-user-login) может просматривать виртуальные машины на портале и выполнять вход от имени обычного пользователя.
 
 Еще один пример использования встроенных ролей для управления доступом к определенным функциям см. в обсуждении управление доступом к функциям отслеживания затрат при [отслеживании затрат между бизнес-подразделениями, средами или проектами](../azure-best-practices/track-costs.md#provide-the-right-level-of-cost-access).
 
-Полный список доступных встроенных ролей см. в статье [Built-in roles for Azure resources](https://docs.microsoft.com/azure/role-based-access-control/built-in-roles) (Встроенные роли для ресурсов Azure).
+Полный список доступных встроенных ролей см. в статье [Built-in roles for Azure resources](/azure/role-based-access-control/built-in-roles) (Встроенные роли для ресурсов Azure).
 
 ## <a name="use-custom-roles"></a>Применение пользовательских ролей
 
 Хотя роли, встроенные в Azure, поддерживают разные сценарии управления доступом, они могут не соответствовать всем требованиям вашей организации или команды. Например, если у вас есть одна группа пользователей, отвечающая за управление виртуальными машинами и ресурсами Базы данных SQL Azure, вы можете создать настраиваемую роль для оптимизации управления необходимыми элементами управления доступом.
 
-Документация по Azure RBAC содержит инструкции по [созданию настраиваемых ролей](https://docs.microsoft.com/azure/role-based-access-control/custom-roles), а также подробные сведения о том, [как работают определения ролей](https://docs.microsoft.com/azure/role-based-access-control/role-definitions).
+Документация по Azure RBAC содержит инструкции по [созданию настраиваемых ролей](/azure/role-based-access-control/custom-roles), а также подробные сведения о том, [как работают определения ролей](/azure/role-based-access-control/role-definitions).
 
 ## <a name="separation-of-responsibilities-and-roles-for-large-organizations"></a>Разделение обязанностей и ролей для крупных организаций
 

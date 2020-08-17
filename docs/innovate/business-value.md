@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: f93b0a643a5751f4090a82a0688b1ed1073533e1
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: f3505a616839214969486b8ebe7596a1ae0565b9
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449478"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279256"
 ---
 # <a name="build-consensus-on-the-business-value-of-innovation"></a>Создавайте свои решения в соответствии с бизнес-преимуществами инноваций
 
@@ -67,9 +67,9 @@ ms.locfileid: "86449478"
 - **Возможность гипотезы:** Часто для различных заинтересованных лиц и групп разработчиков приходится иметь слишком много ожидаемых решений. Нереалистичные ожидания могут быть знаком, что гипотеза слишком неясный. Следуйте указаниям по [созданию сопереживаниеов клиентов](./considerations/build.md) для создания более четкой гипотезы.
 - **Возможность сборки:** Команды могут быть неправильно согласованы, так как они не противопоставлены способам решения потребности клиентов. Обычное соглашение означает, что команда [откладывается на преждевременный технический пик](./considerations/build.md#reduce-complexity-and-delay-technical-spikes). Чтобы группа была сосредоточена на клиенте, Начните первую итерацию и создайте небольшой минимальный подходящий продукт (MVP), чтобы устранить часть гипотезы. Дополнительные рекомендации по перемещению в группу «вперед» см. в разделе [Разработка цифровых инвентионс](./considerations/invention.md).
 - **Возможности обучения:** Любая команда может быть неправильно согласована, так как они нуждаются в глубоких технических требованиях и расширенных функциональных требованиях. Это может привести к появлению возможности обучения в гибких методологиях. Если язык и региональные параметры не готовы для гибких процессов, вы можете найти инновации и быстро приступить к работе с рынками. Учебные материалы по DevOps и гибким методикам см. в следующих статьях:
-  - [Развитие практик DevOps](https://docs.microsoft.com/learn/paths/evolve-your-devops-practices)
-  - [Создание приложений с использованием Azure DevOps](https://docs.microsoft.com/learn/paths/build-applications-with-azure-devops)
-  - [Развертывание приложений с Azure DevOps](https://docs.microsoft.com/learn/paths/deploy-applications-with-azure-devops)
+  - [Развитие практик DevOps](/learn/paths/evolve-your-devops-practices)
+  - [Создание приложений с использованием Azure DevOps](/learn/paths/build-applications-with-azure-devops)
+  - [Развертывание приложений с Azure DevOps](/learn/paths/deploy-applications-with-azure-devops)
 
 Следуя методологии и средствам управления невыполненной работой в каждом разделе этой статьи, можно создать выравнивание решений.
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b92f9593c0d35f4c73dc17733d1ae57dbbe599b4
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 5b0bd2b49bf0e8e6582458edaaf4a64e13456d2b
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83220266"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88280718"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Примеры правил политик ускорения развертывания
 
@@ -31,7 +31,7 @@ ms.locfileid: "83220266"
 
 **Инструкция политики:** Все активы, развернутые в облаке, следует развертывать с помощью шаблонов или скриптов автоматизации, когда это возможно.
 
-**Возможные варианты проектирования:** [Azure Resource Manager шаблоны](https://docs.microsoft.com/azure/azure-resource-manager/templates/overview) позволяют использовать инфраструктуру в качестве кода для развертывания ресурсов в Azure. [Terraform](https://docs.microsoft.com/azure/terraform/terraform-overview) также можно использовать как единое локальное и облачное средство развертывания.
+**Возможные варианты проектирования:** [Azure Resource Manager шаблоны](/azure/azure-resource-manager/templates/overview) позволяют использовать инфраструктуру в качестве кода для развертывания ресурсов в Azure. [Terraform](/azure/terraform/terraform-overview) также можно использовать как единое локальное и облачное средство развертывания.
 
 ## <a name="lack-of-visibility-into-system-issues"></a>Отсутствие видимости системных проблем
 
@@ -42,7 +42,7 @@ ms.locfileid: "83220266"
 - Ключевые показатели и меры диагностики будут определены для всех производственных систем и компонентов, а инструменты мониторинга и диагностики будут применяться к этим системам и регулярно контролироваться операционным персоналом.
 - При выполнении операций будут использоваться средства мониторинга и диагностики в непроизводственных средах, таких как промежуточное хранение и контроль качества, чтобы определить проблемы системы до их появления в рабочей среде.
 
-**Потенциальные варианты проектирования:** [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor), в том числе log Analytics и Application Insights, предоставляет средства для сбора и анализа данных телеметрии, помогающие понять, как выполняются приложения и заранее выявление проблем, влияющих на них, и ресурсов, от которых они зависят. Кроме того, [Журнал действий Azure](https://docs.microsoft.com/azure/azure-monitor/platform/activity-logs-overview) содержит все изменения, выполняемые на уровне платформы, и их следует отслеживать и проверять на наличие несоответствующих изменений.
+**Потенциальные варианты проектирования:** [Azure Monitor](/azure/azure-monitor), в том числе log Analytics и Application Insights, предоставляет средства для сбора и анализа данных телеметрии, помогающие понять, как выполняются приложения и заранее выявление проблем, влияющих на них, и ресурсов, от которых они зависят. Кроме того, [Журнал действий Azure](/azure/azure-monitor/platform/activity-logs-overview) содержит все изменения, выполняемые на уровне платформы, и их следует отслеживать и проверять на наличие несоответствующих изменений.
 
 ## <a name="configuration-security-reviews"></a>Проверки конфигурации системы безопасности
 

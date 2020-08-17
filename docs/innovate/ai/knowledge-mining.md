@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 494fcfd4ec411c517fbbb84399b9208b1f29eef1
-ms.sourcegitcommit: d31a9043d1ae9283ed126bf118ca26d1d18d6948
+ms.openlocfilehash: 91c18b9ed67d1b0cdcf21d9942bba2c0cf598344
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88040802"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279596"
 ---
 # <a name="knowledge-mining"></a>Интеллектуальный анализ знаний
 
@@ -41,11 +41,11 @@ Azure Когнитивный поиск — это управляемое обл
 
 - **Изучите дополнительные ресурсы:**
 
-  - [Обзор Когнитивный поиск Azure](https://docs.microsoft.com/azure/search/search-what-is-azure-search)
-  - [Встроенные профессиональные навыки для обработки текста и изображений во время индексирования](https://docs.microsoft.com/azure/search/cognitive-search-predefined-skills)
-  - [Ресурсы документации для обогащения данных с помощью ИИ в Когнитивном поиске Azure](https://docs.microsoft.com/azure/search/cognitive-search-resources-documentation)
-  - [Советы и рекомендации по проектированию для искусственного интеллекта](https://docs.microsoft.com/azure/search/cognitive-search-concept-troubleshooting)
-  - [Полнотекстовый поиск](https://docs.microsoft.com/azure/search/search-lucene-query-architecture)
+  - [Обзор Когнитивный поиск Azure](/azure/search/search-what-is-azure-search)
+  - [Встроенные профессиональные навыки для обработки текста и изображений во время индексирования](/azure/search/cognitive-search-predefined-skills)
+  - [Ресурсы документации для обогащения данных с помощью ИИ в Когнитивном поиске Azure](/azure/search/cognitive-search-resources-documentation)
+  - [Советы и рекомендации по проектированию для искусственного интеллекта](/azure/search/cognitive-search-concept-troubleshooting)
+  - [Полнотекстовый поиск](/azure/search/search-lucene-query-architecture)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

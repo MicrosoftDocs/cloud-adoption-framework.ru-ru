@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 077571eb6926d8ce09d6e94f6b946cfba1f12851
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 1a02fecbd670556bb5da0104163febf0c8b4b2e8
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193582"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88282503"
 ---
 <!-- cSpell:ignore BYOK postgres psql dvdrental -->
 
@@ -68,13 +68,13 @@ PostgreSQL 9.6.7 работает на физическом компьютере
 - Производительность обработки можно повысить, используя реплики чтения.
 - Поддержка переноса собственных ключей (BYOK) для шифрования данных.
 - Возможность предоставлять доступ к службе только для внутреннего сетевого трафика (без общего доступа) с помощью частной связи Azure.
-- [Пропускная способность и задержка](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways) от приложения к базе данных достаточно достаточны на основе выбранного шлюза (Azure ExpressRoute или VPN типа "сеть — сеть").
+- [Пропускная способность и задержка](/azure/vpn-gateway/vpn-gateway-about-vpngateways) от приложения к базе данных достаточно достаточны на основе выбранного шлюза (Azure ExpressRoute или VPN типа "сеть — сеть").
 
 ### <a name="solution-review"></a>Проверка решения
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Рассматриваемый вопрос | Подробности |
+| Рассматриваемый вопрос | Сведения |
 |--- | --- |
 | **Преимущества** | Все необходимые и используемые функции доступны в базе данных Azure для PostgreSQL. <br><br> |
 | **Недостатки** | Компании Contoso по-прежнему потребуется выполнить перенос вручную из основной версии PostgreSQL. |
@@ -97,7 +97,7 @@ _Рис. 1. Архитектура сценария._
 
 Корпорация Майкрософт нацелена на поддержку _n-2_ версий подсистемы PostgreSQL в базе данных Azure для PostgreSQL-Single Server. Версии будут соответствовать текущей основной версии в Azure (_n_) и двум предыдущим основным версиям (_-2_).
 
-Последние обновления поддерживаемых версий см. в разделе [Supported PostgreSQL Major Versions](https://docs.microsoft.com/azure/postgresql/concepts-supported-versions).
+Последние обновления поддерживаемых версий см. в разделе [Supported PostgreSQL Major Versions](/azure/postgresql/concepts-supported-versions).
 
 > [!NOTE]
 > Автоматическое обновление основной версии не поддерживается. Например, автоматическое обновление с PostgreSQL 9,5 до PostgreSQL 9,6 не предусмотрено. Чтобы выполнить обновление до следующей основной версии, выведите дамп базы данных и восстановите ее на сервере, созданном с использованием целевой версии подсистемы.
@@ -122,13 +122,13 @@ Contoso потребуется оценить текущую базу данны
 
 Компания Contoso может выполнять миграцию несколькими способами:
 
-- [Дамп и восстановление](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-dump-and-restore)
-- [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online)
-- [Импорт и экспорт](https://docs.microsoft.com/azure/postgresql/howto-migrate-using-export-and-import)
+- [Дамп и восстановление](/azure/postgresql/howto-migrate-using-dump-and-restore)
+- [Azure Database Migration Service](/azure/dms/tutorial-postgresql-azure-postgresql-online)
+- [Импорт и экспорт](/azure/postgresql/howto-migrate-using-export-and-import)
 
 Компания Contoso выбрала Azure Database Migration Service, чтобы позволить компании повторно использовать проект миграции при необходимости выполнять основные обновления. Поскольку одно действие Database Migration Service поддерживает только до четырех баз данных, Contoso настраивает несколько заданий, выполнив следующие действия.
 
-Чтобы подготовить, настройте виртуальную сеть для доступа к базе данных. Создайте подключение к виртуальной сети с помощью [VPN-шлюзов](https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways) различными способами.
+Чтобы подготовить, настройте виртуальную сеть для доступа к базе данных. Создайте подключение к виртуальной сети с помощью [VPN-шлюзов](/azure/vpn-gateway/vpn-gateway-about-vpngateways) различными способами.
 
 <!-- docsTest:ignore "Azure Database Migration Services" -->
 
@@ -142,7 +142,7 @@ Contoso потребуется оценить текущую базу данны
 1. Выберите ближайшее расположение для центра обработки данных Contoso или VPN-шлюза.
 1. Выберите **Azure** для режима обслуживания.
 1. Выберите ценовую категорию.
-1. Выберите **Review + create** (Просмотреть и создать).
+1. Выберите **Проверить и создать**.
 
     ![Снимок экрана с экраном "Создание службы миграции".](./media/contoso-migration-postgresql-to-azure/azure_migration_service_create.png)
     _Рис. 3. Проверка и создание._
@@ -248,7 +248,7 @@ Contoso потребуется оценить текущую базу данны
     _Рис. 13. Завершение прямую миграцию._
 
       > [!NOTE]
-      > Предыдущие Database Migration Service действия также можно выполнить с помощью [Azure CLI](https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online).
+      > Предыдущие Database Migration Service действия также можно выполнить с помощью [Azure CLI](/azure/dms/tutorial-postgresql-azure-postgresql-online).
 
 1. Импортируйте схему базы данных (шаг 2):
 
@@ -272,12 +272,12 @@ Contoso потребуется оценить текущую базу данны
 
 Компания Contoso должна:
 
-- Убедитесь, что новые базы данных Azure для экземпляра и баз данных PostgreSQL защищены. Дополнительные сведения см. [в статье безопасность в базе данных Azure для PostgreSQL-Single Server](https://docs.microsoft.com/azure/postgresql/concepts-security).
-- Проверьте [правила брандмауэра](https://docs.microsoft.com/azure/postgresql/concepts-firewall-rules) и конфигурации виртуальной сети, чтобы убедиться, что подключения ограничены только приложениями, которые им требуются.
-- Реализуйте [BYOK](https://docs.microsoft.com/azure/postgresql/concepts-data-encryption-postgresql) для шифрования данных.
-- Обновите все приложения, чтобы они [затребовали SSL](https://docs.microsoft.com/azure/postgresql/concepts-ssl-connection-security) -соединения с базами данных.
-- Настройте [частную ссылку](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-private-link) , чтобы весь трафик базы данных хранился в Azure и локальной сети.
-- Включите [Azure Advanced Threat protection (ATP)](https://docs.microsoft.com/azure/postgresql/concepts-data-access-and-security-threat-protection).
+- Убедитесь, что новые базы данных Azure для экземпляра и баз данных PostgreSQL защищены. Дополнительные сведения см. [в статье безопасность в базе данных Azure для PostgreSQL-Single Server](/azure/postgresql/concepts-security).
+- Проверьте [правила брандмауэра](/azure/postgresql/concepts-firewall-rules) и конфигурации виртуальной сети, чтобы убедиться, что подключения ограничены только приложениями, которые им требуются.
+- Реализуйте [BYOK](/azure/postgresql/concepts-data-encryption-postgresql) для шифрования данных.
+- Обновите все приложения, чтобы они [затребовали SSL](/azure/postgresql/concepts-ssl-connection-security) -соединения с базами данных.
+- Настройте [частную ссылку](/azure/postgresql/concepts-data-access-and-security-private-link) , чтобы весь трафик базы данных хранился в Azure и локальной сети.
+- Включите [Azure Advanced Threat protection (ATP)](/azure/postgresql/concepts-data-access-and-security-threat-protection).
 - Настройте Log Analytics для отслеживания и оповещения о записях безопасности и журналах, представляющих интерес.
 
 ### <a name="backups"></a>Резервные копии

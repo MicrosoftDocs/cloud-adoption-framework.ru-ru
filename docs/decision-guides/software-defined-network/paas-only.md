@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: e5351d14c6200056e4c5b43f622f655a23e79668
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 7578606551c67b540827f07a5edc21708ca787f1
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83753569"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278542"
 ---
 # <a name="software-defined-networking-paas-only"></a>Программно-определяемая сеть: только PaaS
 
 При реализации ресурса модели "платформа как услуга" (PaaS) в процессе развертывания автоматически создается принятая базовая сеть с ограниченным числом элементов управления, включая балансировку нагрузки, блокировку портов и подключения к другим службам PaaS.
 
-В Azure несколько типов ресурсов PaaS можно [развернуть в виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-for-azure-services) или [подключить к виртуальной сети](https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview), интегрируя эти ресурсы с помощью существующей инфраструктуры виртуальной сети. Другие службы, такие как [Среда службы приложений](https://docs.microsoft.com/azure/app-service/environment/intro), [Служба KUBERNETES Azure (AKS)](https://docs.microsoft.com/azure/aks/intro-kubernetes)и [Service Fabric](https://docs.microsoft.com/azure/service-fabric/service-fabric-overview) , должны быть развернуты в виртуальной сети. Во многих случаях сетевая архитектура PaaS, полагается исключительно на встроенные сетевые возможности по умолчанию, предоставляемые ресурсами PaaS, достаточно для удовлетворения требований к подключению и управлению трафиком рабочей нагрузки.
+В Azure несколько типов ресурсов PaaS можно [развернуть в виртуальной сети](/azure/virtual-network/virtual-network-for-azure-services) или [подключить к виртуальной сети](/azure/virtual-network/virtual-network-service-endpoints-overview), интегрируя эти ресурсы с помощью существующей инфраструктуры виртуальной сети. Другие службы, такие как [Среда службы приложений](/azure/app-service/environment/intro), [Служба KUBERNETES Azure (AKS)](/azure/aks/intro-kubernetes)и [Service Fabric](/azure/service-fabric/service-fabric-overview) , должны быть развернуты в виртуальной сети. Во многих случаях сетевая архитектура PaaS, полагается исключительно на встроенные сетевые возможности по умолчанию, предоставляемые ресурсами PaaS, достаточно для удовлетворения требований к подключению и управлению трафиком рабочей нагрузки.
 
 Если вы планируете использовать сетевую архитектуру PaaS, убедитесь, что соответствующие предположения удовлетворяют вашим требованиям.
 

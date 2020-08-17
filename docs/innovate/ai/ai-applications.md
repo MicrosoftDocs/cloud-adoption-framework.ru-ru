@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 9222f0cf5c61e0249e72675d3fe9eb46a0fe8f41
-ms.sourcegitcommit: abbc6283f9f63a71333e0129ecdd8ad291517776
+ms.openlocfilehash: 510efd5a17feaba4b3775563297c6a6bcde424fc
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/03/2020
-ms.locfileid: "87523955"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279664"
 ---
 # <a name="ai-applications-and-agents"></a>Приложения и агенты ИИ
 
@@ -41,7 +41,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 Чтобы приступить к работе, сначала ознакомьтесь с различными категориями и службами в Azure Cognitive Services. Посетите страницы продукта, чтобы получить дополнительные сведения и взаимодействовать с демонстрационными материалами для получения дополнительных сведений о доступных возможностях, таких как концепция, речь, язык и решение. Существует также электронная книга, в которой рассматриваются распространенные сценарии и способы создания первого приложения с Cognitive Services.
 
-- [Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/welcome)
+- [Cognitive Services](/azure/cognitive-services/welcome)
 - [Интерактивные демонстрации на страницах Product/Service](https://azure.microsoft.com/services/cognitive-services/)
 - [Создание интеллектуальных приложений с помощью API-интерфейсов для](https://azure.microsoft.com/resources/building-intelligent-apps-with-cognitive-apis/) распознавания (электронная книга)
 
@@ -51,17 +51,17 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 Вы также можете загрузить интеллектуальное киоск, чтобы поработать и получить демонстрацию этих служб.
 
-- [Документация по службам Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/)
+- [Документация по службам Cognitive Services](/azure/cognitive-services/)
 - [Создание интеллектуальных приложений с помощью API-интерфейсов для](https://azure.microsoft.com/resources/building-intelligent-apps-with-cognitive-apis/) распознавания (электронная книга)
 - [Установите интеллектуальное киоск, чтобы ознакомиться с возможностями Cognitive Services](https://github.com/Microsoft/Cognitive-Samples-IntelligentKiosk)
 
 Дополнительные сведения о поддержке контейнеров для Cognitive Services Azure.
 
-- [Container support in Azure Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-container-support?tabs=luis) (Поддержка контейнеров в Azure Cognitive Services)
+- [Container support in Azure Cognitive Services](/azure/cognitive-services/cognitive-services-container-support?tabs=luis) (Поддержка контейнеров в Azure Cognitive Services)
 
 Ознакомьтесь с эталонными архитектурами для решений искусственного интеллекта.
 
-- [ИИ и Машинное обучение](https://docs.microsoft.com/azure/architecture/browse/#ai--machine-learning)
+- [ИИ и Машинное обучение](/azure/architecture/browse/#ai--machine-learning)
 
 ## <a name="ai-agents"></a>Агенты ИИ
 
@@ -85,24 +85,24 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 - Bot Framework — это предложение с открытым исходным кодом, которое предоставляет пакет SDK (доступен на C#, JavaScript, Python и Java) для разработки, сборки и тестирования программы Bot. Он также предлагает бесплатный холст визуальной разработки в среде Bot Framework composer и средство тестирования в эмуляторе Bot Framework.
 - Служба Azure Bot — это выделенная служба в Azure, которая позволяет размещать или публиковать программу Bot в Azure и подключаться к популярным каналам.
 
-- [Сведения о службе Azure Bot и обзоре платформы Bot](https://docs.microsoft.com/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
-- [Принципы разработки ботов](https://docs.microsoft.com/azure/bot-service/bot-service-design-principles?view=azure-bot-service-4.0)
-- [Поиск последних версий пакета SDK и инструментов для платформы Bot](https://docs.microsoft.com/azure/bot-service/what-is-new?view=azure-bot-service-4.0)
+- [Сведения о службе Azure Bot и обзоре платформы Bot](/azure/bot-service/bot-service-overview-introduction?view=azure-bot-service-4.0)
+- [Принципы разработки ботов](/azure/bot-service/bot-service-design-principles?view=azure-bot-service-4.0)
+- [Поиск последних версий пакета SDK и инструментов для платформы Bot](/azure/bot-service/what-is-new?view=azure-bot-service-4.0)
 
 Один из самых простых способов начать работу — использовать QnA Maker, часть Cognitive Services Azure, которая позволяет интеллектуально преобразовать документ или веб-сайт с часто задаваемыми вопросами в Q&в течение нескольких минут.
 
-- [Узнайте, как создать робот с помощью Q&возможности быстро с QnA Maker](https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-add-qna?view=azure-bot-service-4.0&tabs=csharp)
+- [Узнайте, как создать робот с помощью Q&возможности быстро с QnA Maker](/azure/bot-service/bot-builder-tutorial-add-qna?tabs=csharp&view=azure-bot-service-4.0)
 - [Непосредственное тестирование службы QnA Maker](https://www.qnamaker.ai/)
 
 Загрузка и использование пакета SDK и инструментов Bot Framework для разработки с помощью Bot
 
-- [Краткое руководство по 5 минутам с помощью композитора платформы Bot](https://docs.microsoft.com/composer/)
-- [Сборка и тестирование программы-роботы с помощью пакета SDK для Bot Framework (C#, JavaScript, Python)](https://docs.microsoft.com/azure/bot-service/dotnet/bot-builder-dotnet-sdk-quickstart?view=azure-bot-service-4.0)
+- [Краткое руководство по 5 минутам с помощью композитора платформы Bot](/composer/)
+- [Сборка и тестирование программы-роботы с помощью пакета SDK для Bot Framework (C#, JavaScript, Python)](/azure/bot-service/dotnet/bot-builder-dotnet-sdk-quickstart?view=azure-bot-service-4.0)
 
 Узнайте, как добавить Cognitive Services, чтобы сделать робот еще более интеллектуальным.
 
 - [Руководство разработчика по созданию приложений искусственного интеллекта](https://www.oreilly.com/library/view/a-developers-guide/9781492080619/) (электронная книга)
-- Дополнительные сведения о [Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/)
+- Дополнительные сведения о [Cognitive Services](/azure/cognitive-services/)
 
 Узнайте, как создать собственный виртуальный помощник с помощью акселераторов решений Bot и выбрать общий набор навыков, таких как календарь, электронная почта, интересующая точка и задача.
 

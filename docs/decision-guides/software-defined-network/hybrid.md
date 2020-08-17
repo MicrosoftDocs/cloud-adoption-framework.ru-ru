@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4fc258b8213842e0cc3428146f83cb9e31bb39df
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: ba89c2e70b8ea603102bd5d68067001bcb99192d
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83214990"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278627"
 ---
 # <a name="software-defined-networking-hybrid-network"></a>Программно определяемая сеть: Гибридная сеть
 
 Архитектура гибридной облачной сети позволяет виртуальным сетям получать доступ к локальным ресурсам и службам и наоборот, используя выделенное подключение к глобальной сети, такое как ExpressRoute или другой способ подключения, для прямого подключения сетей.
 
-![Гибридная сеть](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/images/expressroute.png)
+![Гибридная сеть](/azure/architecture/reference-architectures/hybrid-networking/images/expressroute.png)
 
 Основываясь на архитектуре виртуальной сети в облаке, гибридная виртуальная сеть изолируется при первоначальном создании. При добавлении возможности подключения в локальную среду вы получаете доступ в локальную сеть и из нее, несмотря на то, что весь остальной входящий трафик, предназначенный для ресурсов в виртуальной сети, должен быть разрешен явным образом. Вы можете защитить соединение, используя виртуальные устройства-брандмауэры и правила маршрутизации для ограничения доступа, или указать, какие службы могут быть доступны между двумя сетями, используя встроенные функции облачной маршрутизации или развертывание сетевых виртуальных устройств (NVA) для управления трафиком.
 
@@ -45,4 +45,4 @@ ms.locfileid: "83214990"
 
 Дополнительные сведения о гибридных сетях в Azure см. в следующих статьях:
 
-- [Эталонная архитектура гибридной сети](https://docs.microsoft.com/azure/architecture/reference-architectures/hybrid-networking/expressroute). Гибридные виртуальные сети Azure используют канал ExpressRoute или VPN Azure для подключения виртуальной сети к существующим ИТ-ресурсам Организации, не размещенным в Azure. В этой статье рассматриваются варианты создания гибридной сети в Azure.
+- [Эталонная архитектура гибридной сети](/azure/architecture/reference-architectures/hybrid-networking/expressroute). Гибридные виртуальные сети Azure используют канал ExpressRoute или VPN Azure для подключения виртуальной сети к существующим ИТ-ресурсам Организации, не размещенным в Azure. В этой статье рассматриваются варианты создания гибридной сети в Azure.

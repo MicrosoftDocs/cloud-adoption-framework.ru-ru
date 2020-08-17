@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9f688988e62cf7783f76cf67d90fdc5b024e4fef
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 156022087cb190817571e5fa602bb73dbabd2364
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83218583"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88280463"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Примеры правил политики основных способов идентификации
 
@@ -31,7 +31,7 @@ ms.locfileid: "83218583"
 
 **Инструкция политики:** Все активы, развернутые в облаке, должны контролироваться с помощью удостоверений и ролей, утвержденных текущими политиками управления.
 
-**Возможные варианты проектирования:** [Azure Active Directory условный доступ](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) является механизмом управления доступом по умолчанию в Azure.
+**Возможные варианты проектирования:** [Azure Active Directory условный доступ](/azure/active-directory/conditional-access/overview) является механизмом управления доступом по умолчанию в Azure.
 
 ## <a name="overprovisioned-access"></a>Избыточно подготовленный доступ
 
@@ -42,7 +42,7 @@ ms.locfileid: "83218583"
 - Модель доступа с минимальными правами применяется к любым ресурсам, участвующим в критически важных приложениях или защищенных данных.
 - Разрешения с повышенными правами должны быть исключением, а все подобные исключения должны быть записаны в группу управления Cloud. Исключения будут регулярно проверяться.
 
-**Возможные варианты проектирования:** Ознакомьтесь с [рекомендациями по управлению удостоверениями в Azure](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices) , чтобы реализовать стратегию управления доступом на основе РОЛЕЙ (RBAC), которая предоставляет доступ в зависимости от [необходимости знать](https://wikipedia.org/wiki/Need_to_know) и [наименее принципы безопасности](https://wikipedia.org/wiki/Principle_of_least_privilege) .
+**Возможные варианты проектирования:** Ознакомьтесь с [рекомендациями по управлению удостоверениями в Azure](/azure/security/fundamentals/identity-management-best-practices) , чтобы реализовать стратегию управления доступом на основе РОЛЕЙ (RBAC), которая предоставляет доступ в зависимости от [необходимости знать](https://wikipedia.org/wiki/Need_to_know) и [наименее принципы безопасности](https://wikipedia.org/wiki/Principle_of_least_privilege) .
 
 ## <a name="lack-of-shared-management-accounts-between-on-premises-and-the-cloud"></a>Отсутствие общих учетных записей управления между локальной версией и облаком
 
@@ -58,7 +58,7 @@ ms.locfileid: "83218583"
 
 **Инструкция политики:** Все учетные записи необходимы для входа в защищенные ресурсы с помощью метода многофакторной проверки подлинности.
 
-**Возможные варианты проектирования:** Для Azure Active Directory реализуйте [многофакторную идентификацию Azure](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) в рамках процесса авторизации пользователя.
+**Возможные варианты проектирования:** Для Azure Active Directory реализуйте [многофакторную идентификацию Azure](/azure/active-directory/authentication/concept-mfa-howitworks) в рамках процесса авторизации пользователя.
 
 ## <a name="isolated-identity-providers"></a>Изолированные поставщики удостоверений
 
@@ -66,7 +66,7 @@ ms.locfileid: "83218583"
 
 **Инструкция политики:** При развертывании любых приложений, требующих проверки подлинности клиента, необходимо использовать утвержденный поставщик удостоверений, совместимый с основным поставщиком удостоверений для внутренних пользователей.
 
-**Возможные варианты проектирования:** Реализация [Федерации с Azure Active Directory](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-fed) между внутренними поставщиками удостоверений и клиентами или использование [Azure Active Directory B2B](https://docs.microsoft.com/azure/active-directory/b2b/what-is-b2b)
+**Возможные варианты проектирования:** Реализация [Федерации с Azure Active Directory](/azure/active-directory/hybrid/whatis-fed) между внутренними поставщиками удостоверений и клиентами или использование [Azure Active Directory B2B](/azure/active-directory/b2b/what-is-b2b)
 
 ## <a name="identity-reviews"></a>Проверки идентификации
 

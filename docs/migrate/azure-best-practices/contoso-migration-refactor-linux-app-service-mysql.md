@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e2259c924fc861c0ec206f272bae2cfd7a813fa5
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 8dfced93b6f4482c82ecb377a4a31c9bb3c19835
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193920"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88282622"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc OSTICKETWEB OSTICKETMYSQL osTicket contosoosticket trafficmanager InnoDB binlog DBHOST DBUSER CNAME -->
 
@@ -86,10 +86,10 @@ ms.locfileid: "88193920"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Служба приложений Azure](https://azure.microsoft.com/services/app-service) | Служба работает и масштабирует приложения, используя платформу Azure как службу (PaaS) для веб-сайтов. | Цены основываются на размере экземпляров и необходимых функциях. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows). |
-| [Диспетчер трафика Azure](https://azure.microsoft.com/services/traffic-manager) | Балансировщик нагрузки, использующий систему доменных имен (DNS) для направления пользователей в Azure или на внешние веб-сайты и службы. | Цены основываются на количестве принятых запросов DNS и количестве отслеживаемых конечных точек. | [Подробнее](https://azure.microsoft.com/pricing/details/traffic-manager). |
-| [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
-| [База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL для сообщества для разработки и развертывания приложений. | Цены основаны на требованиях к вычислениям, хранению и резервному копированию. [Подробнее](https://azure.microsoft.com/pricing/details/mysql). |
+| [Служба приложений Azure](https://azure.microsoft.com/services/app-service) | Служба работает и масштабирует приложения, используя платформу Azure как службу (PaaS) для веб-сайтов. | Цены основываются на размере экземпляров и необходимых функциях. [Подробнее.](https://azure.microsoft.com/pricing/details/app-service/windows) |
+| [Azure Traffic Manager](https://azure.microsoft.com/services/traffic-manager) | Балансировщик нагрузки, использующий систему доменных имен (DNS) для направления пользователей в Azure или на внешние веб-сайты и службы. | Цены основываются на количестве принятых запросов DNS и количестве отслеживаемых конечных точек. | [Подробнее](https://azure.microsoft.com/pricing/details/traffic-manager). |
+| [Azure Database Migration Service](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
+| [База данных Azure для MySQL](/azure/mysql) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL для сообщества для разработки и развертывания приложений. | Цены основаны на требованиях к вычислениям, хранению и резервному копированию. [Подробнее.](https://azure.microsoft.com/pricing/details/mysql) |
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -136,8 +136,8 @@ ms.locfileid: "88193920"
 
 **Требуется дополнительная помощь?**
 
-- Сведения о [веб-приложениях службы приложений Azure](https://docs.microsoft.com/azure/app-service/overview).
-- Сведения о [службе приложений Azure в Linux](https://docs.microsoft.com/azure/app-service/containers/app-service-linux-intro).
+- Сведения о [веб-приложениях службы приложений Azure](/azure/app-service/overview).
+- Сведения о [службе приложений Azure в Linux](/azure/app-service/containers/app-service-linux-intro).
 
 ## <a name="step-2-set-up-traffic-manager"></a>Шаг 2. Настройка диспетчера трафика
 
@@ -157,8 +157,8 @@ ms.locfileid: "88193920"
 
 **Требуется дополнительная помощь?**
 
-- Подробнее о [диспетчере трафика](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview).
-- Узнайте больше о [перенаправлении трафика к приоритетной конечной точке](https://docs.microsoft.com/azure/traffic-manager/traffic-manager-configure-priority-routing-method).
+- Подробнее о [диспетчере трафика](/azure/traffic-manager/traffic-manager-overview).
+- Узнайте больше о [перенаправлении трафика к приоритетной конечной точке](/azure/traffic-manager/traffic-manager-configure-priority-routing-method).
 
 ## <a name="step-3-provision-azure-database-for-mysql"></a>Шаг 3. Подготовка Базы данных Azure для MySQL
 
@@ -192,7 +192,7 @@ ms.locfileid: "88193920"
 
 ### <a name="step-4a-migrate-the-database-via-azure-database-migration-service"></a>Шаг 4A. Перенос базы данных с помощью Azure Database Migration Service
 
-Администраторы Contoso переходят базу данных с помощью Azure Database Migration Service, выполнив пошаговое [руководство по миграции](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online). Они могут выполнять миграцию через Интернет, автономный и гибридный (Предварительная версия) с помощью MySQL 5,6 или 5,7.
+Администраторы Contoso переходят базу данных с помощью Azure Database Migration Service, выполнив пошаговое [руководство по миграции](/azure/dms/tutorial-mysql-azure-mysql-online). Они могут выполнять миграцию через Интернет, автономный и гибридный (Предварительная версия) с помощью MySQL 5,6 или 5,7.
 
 > [!NOTE]
 > MySQL 8,0 поддерживается в базе данных Azure для MySQL, но средство Database Migration Service еще не поддерживает эту версию.
@@ -212,7 +212,7 @@ ms.locfileid: "88193920"
 - Они гарантируют, что Azure Database Migration Service может получить доступ к базе данных MySQL через виртуальную сеть. Это гарантирует, что все входящие порты будут разрешены из Azure в MySQL на уровне виртуальной сети, в сети VPN и на компьютере, на котором размещается MySQL.  
 - Они запускают средство Database Migration Service, а затем выполняют следующие действия.  
 
-  a. Создайте проект миграции на основе SKU Premium.
+  а. Создайте проект миграции на основе SKU Premium.
 
     ![Снимок экрана панели "Обзор" MySQL с сообщением о том, что служба миграции успешно создана.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-new-project.png)
 
@@ -230,7 +230,7 @@ ms.locfileid: "88193920"
 
     ![Снимок экрана: панель "сопоставьте с целевыми базами данных" мастера миграции.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-databases.png)
 
-  д. Настройка дополнительных параметров.
+  д) Настройка дополнительных параметров.
 
     ![Снимок экрана: панель "параметры миграции" мастера миграции.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-settings.png)
 
@@ -347,7 +347,7 @@ ms.locfileid: "88193920"
     ![Снимок экрана: панель "Параметры развертывания".](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app4.png)
 
 5. Они повторяют предыдущие шаги для дополнительного веб-приложения остиккет-Cu.
-6. После настройки сайт становится доступным через профиль диспетчера трафика. DNS-имя — это новое расположение приложения Остиккет. [Подробнее](https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record).
+6. После настройки сайт становится доступным через профиль диспетчера трафика. DNS-имя — это новое расположение приложения Остиккет. [Подробнее.](/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record)
 
     ![Снимок экрана: панель "профиль диспетчера трафика", отображающая DNS-имя.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app5.png)
 
@@ -390,14 +390,14 @@ ms.locfileid: "88193920"
 
 ### <a name="security"></a>Безопасность
 
-Группа безопасности Contoso рассматривает приложение, чтобы определить проблемы безопасности. Они указывают, что взаимодействие между приложением Остиккет и экземпляром базы данных MySQL не настроено для использования SSL. Все это позволяет обеспечить невозможность взлома трафика базы данных. [Подробнее](https://docs.microsoft.com/azure/mysql/howto-configure-ssl).
+Группа безопасности Contoso рассматривает приложение, чтобы определить проблемы безопасности. Они указывают, что взаимодействие между приложением Остиккет и экземпляром базы данных MySQL не настроено для использования SSL. Все это позволяет обеспечить невозможность взлома трафика базы данных. [Подробнее.](/azure/mysql/howto-configure-ssl)
 
 ### <a name="backups"></a>Резервные копии
 
 - Веб-приложения Остиккет не содержат данных о состоянии и, таким же, не нуждаются в резервном копировании.
-- Группе Contoso не требуется настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются резервные копии. Группа решила использовать геоизбыточность для базы данных, чтобы она была устойчивой и готовой к работе. Резервные копии можно использовать для восстановления сервера до точки во времени. [Подробнее](https://docs.microsoft.com/azure/mysql/concepts-backup).
+- Группе Contoso не требуется настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются резервные копии. Группа решила использовать геоизбыточность для базы данных, чтобы она была устойчивой и готовой к работе. Резервные копии можно использовать для восстановления сервера до точки во времени. [Подробнее.](/azure/mysql/concepts-backup)
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 
 - Проблемы с лицензированием развертывания PaaS отсутствуют.
-- Contoso будет использовать службу [управления затратами Azure и выставления счетов](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview) , чтобы гарантировать, что они останутся в пределах бюджетов, установленных ИТ.
+- Contoso будет использовать службу [управления затратами Azure и выставления счетов](/azure/cost-management-billing/cost-management-billing-overview) , чтобы гарантировать, что они останутся в пределах бюджетов, установленных ИТ.

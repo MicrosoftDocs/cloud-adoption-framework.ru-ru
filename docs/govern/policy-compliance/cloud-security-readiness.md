@@ -7,12 +7,12 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: aa579f628ccb6f0dfb28bfe23e782580330dd3c1
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: df34addeab64e8e3c7bb0a16143c0c272b9263fa
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84786846"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88280259"
 ---
 <!-- cSpell:ignore CISO -->
 
@@ -45,7 +45,7 @@ ms.locfileid: "84786846"
 - [Жизненный цикл разработки безопасности, внутренние аудиты](https://www.microsoft.com/sdl)
 - [Обязательное обучение безопасности, фоновые проверки](https://downloads.cloudsecurityalliance.org/star/self-assessment/StandardResponsetoRequestforInformationWindowsAzureSecurityPrivacy.docx)
 - [Выполнение тестов на проникновение, обнаружение вторжений и атак DDoS, аудит и ведение журнала](https://www.microsoft.com/security/business/operations)
-- [Современный центр обработки данных](https://www.microsoft.com/cloud-platform/global-datacenters), физическая безопасность, [безопасная сеть](https://docs.microsoft.com/azure/security/security-network-overview)
+- [Современный центр обработки данных](https://www.microsoft.com/cloud-platform/global-datacenters), физическая безопасность, [безопасная сеть](/azure/security/security-network-overview)
 - [Microsoft Azure Security Response in the Cloud](https://aka.ms/securityresponsepaper) (Реагирование на нарушения безопасности в облаке Microsoft Azure (PDF-документ))
 
 **Конфиденциальность и управление:**

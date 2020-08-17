@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 67b9fe7952523932fe712215b88a1c5dcdcbeb5a
-ms.sourcegitcommit: 264382fcb31ad0c6387c15a74127f288f8920995
+ms.openlocfilehash: 48b86613dc8fc6ca463e6effb765b1a6b8259c70
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87805464"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279188"
 ---
 # <a name="enable-customer-success-with-a-sound-operating-model-and-organizational-alignment"></a>Обеспечение успеха клиентов с помощью звуковой рабочей модели и выравнивания Организации
 
@@ -23,7 +23,7 @@ ms.locfileid: "87805464"
 По мере внедрения инноваций, соответствие между бизнес-и техническими командами имеет первостепенное значение для успеха вашего решения.
 
 - Для ИТ-заинтересованных лиц мы создали [Microsoft AI Business School](https://www.microsoft.com/ai/ai-business-school) для поддержки разработки бизнес-стратегии и предоставили примеры рекомендаций.
-- Для технических заинтересованных лиц доступны схемы [обучения Microsoft AI](https://docs.microsoft.com/learn/) , которые помогут вам создать новые навыки работы с искусственным интеллектом.
+- Для технических заинтересованных лиц доступны схемы [обучения Microsoft AI](/learn/) , которые помогут вам создать новые навыки работы с искусственным интеллектом.
 
 ## <a name="blockers"></a>Blockers
 
@@ -54,7 +54,7 @@ ms.locfileid: "87805464"
 
 Эти принципы являются общими для помощника по Azure, Microsoft Azure хорошо спроектированной инфраструктуры и решений в Центр архитектуры Azure.
 
-- [Помощник Azure](https://docs.microsoft.com/azure/advisor/advisor-overview) оценивает принципы отдельных ресурсов в решениях, рабочих нагрузках и полном портфеле.
-- [Центр архитектуры Azure](https://docs.microsoft.com/azure/architecture) применяет эти принципы для разработки и управления конкретными техническими решениями.
-- [Microsoft Azure хорошо спроектированная инфраструктура](https://docs.microsoft.com/azure/architecture/framework) помогает сбалансировать эти принципы в рабочей нагрузке для решения архитектурных решений.
+- [Помощник Azure](/azure/advisor/advisor-overview) оценивает принципы отдельных ресурсов в решениях, рабочих нагрузках и полном портфеле.
+- [Центр архитектуры Azure](/azure/architecture) применяет эти принципы для разработки и управления конкретными техническими решениями.
+- [Microsoft Azure хорошо спроектированная инфраструктура](/azure/architecture/framework) помогает сбалансировать эти принципы в рабочей нагрузке для решения архитектурных решений.
 - [Инфраструктура внедрения облачных](../index.yml) решений обеспечивает масштабирование принципов в портфеле для поддержки групп перехода через хорошо управляемую среду.

@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 65f28f92e731eac11a337ab9b191b7d0bc09101b
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: a3ea1f13db726fdc122e8a8acd07c8a15f8debca
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86193071"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88283353"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -22,18 +22,18 @@ ms.locfileid: "86193071"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов — инфраструктуру, приложение и анализ данных.  
 
-## <a name="fundamentals"></a>Основы
+## <a name="fundamentals"></a>Базовый
 
-- Общие сведения о [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
+- Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
-- Введение в [политику Azure](https://docs.microsoft.com/azure/governance/policy/overview) поможет вам узнать, как использовать политику Azure для создания и назначения политик, а также управления ими. Политика Azure позволяет развертывать и настраивать агенты Azure Monitor, включать мониторинг с помощью Azure Monitor для виртуальных машин и центра безопасности Azure, развертывать параметры диагностики, проверять параметры гостевой конфигурации и многое другое.
+- Введение в [политику Azure](/azure/governance/policy/overview) поможет вам узнать, как использовать политику Azure для создания и назначения политик, а также управления ими. Политика Azure позволяет развертывать и настраивать агенты Azure Monitor, включать мониторинг с помощью Azure Monitor для виртуальных машин и центра безопасности Azure, развертывать параметры диагностики, проверять параметры гостевой конфигурации и многое другое.
 
-- Общие сведения о [интерфейсе командной строки Azure (CLI)](https://docs.microsoft.com/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](https://docs.microsoft.com/powershell/azure/?view=azps-3.6.1). Предложения LinkedIn в рамках [обучающего курса обучение средствам управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), семинарам, охватывающим Azure CLI и языки программирования PowerShell:
+- Общие сведения о [интерфейсе командной строки Azure (CLI)](/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](/powershell/azure/?view=azps-3.6.1). Предложения LinkedIn в рамках [обучающего курса обучение средствам управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), семинарам, охватывающим Azure CLI и языки программирования PowerShell:
 
   - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
   - [Начало работы с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
 
-- Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](https://docs.microsoft.com/learn/paths/implement-resource-mgmt-security).
+- Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](/learn/paths/implement-resource-mgmt-security).
 
 - [Мониторинг Microsoft Azure ресурсов и рабочих нагрузок](https://app.pluralsight.com/library/courses/microsoft-azure-resources-workloads-monitoring-update/table-of-contents) поможет вам узнать, как использовать средства мониторинга Azure для мониторинга сетевых ресурсов Azure, а также ресурсов, размещенных локально.
 
@@ -49,11 +49,11 @@ ms.locfileid: "86193071"
 
 - [Мониторинг Microsoft Azure гибридных облачных сетей](https://www.pluralsight.com/courses/microsoft-azure-hybrid-cloud-networks-monitoring) — это расширенный курс, который поможет вам узнать, как использовать средства мониторинга Azure для визуализации, обслуживания и оптимизации виртуальных сетей Azure и подключений виртуальной частной сети для реализации гибридного облака.
 
-- С помощью [дуги Azure для серверов](https://docs.microsoft.com/azure/azure-arc/servers/overview)вы узнаете, как управлять компьютерами под управлением Windows и Linux, размещенными за пределами Azure, аналогично управлению собственными виртуальными машинами Azure.
+- С помощью [дуги Azure для серверов](/azure/azure-arc/servers/overview)вы узнаете, как управлять компьютерами под управлением Windows и Linux, размещенными за пределами Azure, аналогично управлению собственными виртуальными машинами Azure.
 
 ## <a name="application-monitoring"></a>Мониторинг приложений
 
-- Узнайте, как [Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview) помогает просматривать доступность и производительность приложений и служб вместе в одном месте. Pluralsight предлагает следующие курсы, которые помогут вам:
+- Узнайте, как [Azure Monitor](/azure/azure-monitor/overview) помогает просматривать доступность и производительность приложений и служб вместе в одном месте. Pluralsight предлагает следующие курсы, которые помогут вам:
 
   - [Microsoft Azure инженер DevOps: оптимизация механизмов обратной связи](https://www.pluralsight.com/courses/microsoft-azure-optimize-feedback-mechanisms) помогает подготовиться к использованию Azure Monitor, включая Application Insights, для мониторинга и оптимизации веб-приложений.
 
@@ -67,7 +67,7 @@ ms.locfileid: "86193071"
 
 ## <a name="data-analysis"></a>Анализ данных
 
-- Узнайте, как создавать [запросы журналов в Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-queries). Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение.
+- Узнайте, как создавать [запросы журналов в Azure Monitor](/azure/azure-monitor/log-query/get-started-queries). Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение.
 
 - [Язык запросов Kusto (ККЛ) с нуля](https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch) — это полный курс, включающий в себя подробные примеры, охватывающие широкий спектр вариантов использования и методов для анализа журналов в Azure Monitor журналов.
 
@@ -91,13 +91,13 @@ ms.locfileid: "86193071"
 
 Чтобы узнать больше, ознакомьтесь со следующими сведениями.
 
-- Приступая [к работе с Azure DevOps](https://docs.microsoft.com/learn/modules/get-started-with-devops).
+- Приступая [к работе с Azure DevOps](/learn/modules/get-started-with-devops).
 
-- [Узнайте о курсе "DevOps dojo white belt foundation"](https://docs.microsoft.com/learn/paths/devops-dojo-white-belt-foundation)
+- [Узнайте о курсе "DevOps dojo white belt foundation"](/learn/paths/devops-dojo-white-belt-foundation)
 
-- [Развитие практик DevOps](https://docs.microsoft.com/learn/paths/evolve-your-devops-practices)
+- [Развитие практик DevOps](/learn/paths/evolve-your-devops-practices)
 
-- [Автоматизация развертываний с помощью Azure DevOps](https://docs.microsoft.com/learn/paths/automate-deployments-azure-devops)
+- [Автоматизация развертываний с помощью Azure DevOps](/learn/paths/automate-deployments-azure-devops)
 
 ## <a name="other-considerations"></a>Другие вопросы
 
@@ -107,4 +107,4 @@ ms.locfileid: "86193071"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-Чтобы найти дополнительные схемы обучения, перейдите к [каталогу Microsoft Learn](https://docs.microsoft.com/learn/browse). Используйте фильтр ролей для согласования путей обучения со своей ролью.
+Дополнительные схемы обучения см. в [каталоге Microsoft Learn](/learn/browse). Используйте фильтр ролей для согласования путей обучения со своей ролью.

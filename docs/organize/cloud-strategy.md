@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/05/2020
-ms.openlocfilehash: ee210d3c29ae085ee516a9798946f956dadf01da
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 5595b95870a32de1d90e247fccc6dfb8de207221
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196720"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278457"
 ---
 # <a name="cloud-strategy-functions"></a>Функции облачной стратегии.
 
@@ -23,7 +23,7 @@ ms.locfileid: "88196720"
 - Finance
 - Специализированное ПО
 - Управление персоналом
-- Operations
+- Операции
 - Корпоративная архитектура
 - ИТ – инфраструктура
 - Группы приложений
@@ -36,8 +36,8 @@ ms.locfileid: "88196720"
 
 ## <a name="preparation"></a>Подготовка
 
-- [Изучите бизнес-ценность Microsoft Azure](https://docs.microsoft.com/learn/paths/learn-business-value-of-azure).
-- [Узнайте, как облачная платформа внедрения](https://docs.microsoft.com/learn/modules/microsoft-cloud-adoption-framework-for-azure) может помочь в согласовании стратегии для бизнеса, людей и технологий.
+- [Изучите бизнес-ценность Microsoft Azure](/learn/paths/learn-business-value-of-azure).
+- [Узнайте, как облачная платформа внедрения](/learn/modules/microsoft-cloud-adoption-framework-for-azure) может помочь в согласовании стратегии для бизнеса, людей и технологий.
 - Ознакомьтесь с процессом [стратегии внедрения в облако](../strategy/index.md) .
 - Скачайте [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 
@@ -89,7 +89,7 @@ ms.locfileid: "88196720"
 - На протяжении всего процесса внедрения выделять 1-2 часов каждый месяц для проверки хода выполнения и проверки приоритетов.
 - По мере необходимости может потребоваться дополнительное время от делегированных членов группы руководителя. Каждый член группы стратегий облака должен даете право делегата, который может выделять 5-10 часов в неделю для поддержки текущих вопросов определения приоритетов и составления отчетов о любых срочных нуждах.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Запуск [группы облачных стратегий](../get-started/team/cloud-strategy.md)
 - Выровняйте свою стратегию с помощью [облачных функций внедрения](./cloud-adoption.md) , создав [группу внедрения облака](../get-started/team/cloud-adoption.md) для работы с.

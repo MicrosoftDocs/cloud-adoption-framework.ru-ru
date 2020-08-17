@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: bb28cc9869500f26c2b981c8968a920bf5691ca6
-ms.sourcegitcommit: 580a6f66a0d0f3f5b755c68d757a84b2351a432f
+ms.openlocfilehash: 48406df39114381ed31308af4a25d1bdb754f1f8
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87473171"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88277607"
 ---
 # <a name="organize-and-manage-multiple-azure-subscriptions"></a>Организация нескольких подписок Azure и управление ими
 
@@ -66,9 +66,9 @@ Azure предоставляет четыре уровня области упр
 
 Ознакомьтесь со следующими ресурсами, чтобы узнать больше о Организации ресурсов Azure и управлении ими.
 
-- [Упорядочение ресурсов с помощью групп управления Azure](https://docs.microsoft.com/azure/governance/management-groups)
-- [Повышение прав доступа для управления всеми подписками Azure и группами управления](https://docs.microsoft.com/azure/role-based-access-control/elevate-access-global-admin)
-- [Перемещение ресурсов Azure в другую группу ресурсов или подписку](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription)
+- [Упорядочение ресурсов с помощью групп управления Azure](/azure/governance/management-groups)
+- [Повышение прав доступа для управления всеми подписками Azure и группами управления](/azure/role-based-access-control/elevate-access-global-admin)
+- [Перемещение ресурсов Azure в другую группу ресурсов или подписку](/azure/azure-resource-manager/management/move-resource-group-and-subscription)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -7,22 +7,22 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 1002391130afdc11a9617022be2802564b543c44
-ms.sourcegitcommit: d31a9043d1ae9283ed126bf118ca26d1d18d6948
+ms.openlocfilehash: 7dd7ce8c0618ce2965aee47b43858ceb122faefd
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88040785"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279528"
 ---
 <!-- cSpell:ignore scikit RLlib ONNX Jupyter -->
 
 # <a name="machine-learning"></a>Машинное обучение
 
-Azure предоставляет вам более широкие возможности машинного обучения. Быстро и легко создавайте, обучите и развертывайте модели машинного обучения с помощью Машинное обучение Azure. Машинное обучение можно использовать для любого типа машинного обучения: от классической до глубокой, защищенной и неконтролируемой. Если вы предпочитаете писать код Python или R или использовать такие параметры, как [конструктор](https://docs.microsoft.com/azure/machine-learning/tutorial-designer-automobile-price-train-score), вы можете создавать, обучать и отслеживанию высокоточных моделей машинного обучения и глубокого обучения в машинное обучение рабочей области.
+Azure предоставляет вам более широкие возможности машинного обучения. Быстро и легко создавайте, обучите и развертывайте модели машинного обучения с помощью Машинное обучение Azure. Машинное обучение можно использовать для любого типа машинного обучения: от классической до глубокой, защищенной и неконтролируемой. Если вы предпочитаете писать код Python или R или использовать такие параметры, как [конструктор](/azure/machine-learning/tutorial-designer-automobile-price-train-score), вы можете создавать, обучать и отслеживанию высокоточных моделей машинного обучения и глубокого обучения в машинное обучение рабочей области.
 
 Вы даже можете начать обучение на локальном компьютере, а затем масштабировать его в облако. Служба также взаимодействует с популярными средствами для глубокого обучения и подкреплением с открытым исходным кодом, такими как PyTorch, TensorFlow, scikit-Learning, Ray и Рллиб.
 
-Приступая к работе с [машинное обучение](https://docs.microsoft.com/azure/machine-learning/). Ознакомьтесь с руководством по [началу работы с первым экспериментом машинного обучения](https://docs.microsoft.com/azure/machine-learning/tutorial-1st-experiment-sdk-setup). Дополнительные сведения о формате модели с открытым исходным кодом и среде выполнения для машинного обучения см. в разделе [Среда выполнения ONNX](http://onnxruntime.ai).
+Приступая к работе с [машинное обучение](/azure/machine-learning/). Ознакомьтесь с руководством по [началу работы с первым экспериментом машинного обучения](/azure/machine-learning/tutorial-1st-experiment-sdk-setup). Дополнительные сведения о формате модели с открытым исходным кодом и среде выполнения для машинного обучения см. в разделе [Среда выполнения ONNX](http://onnxruntime.ai).
 
 Ниже приведены распространенные сценарии для решений машинного обучения.
 
@@ -37,17 +37,17 @@ Azure предоставляет вам более широкие возможн
 
 - Начните с **первого знакомства с машинное обучение**, а затем выберите, с каким опытом начать. Вы можете следовать инструкциям, чтобы использовать записную книжку Jupyter с Python, визуальный интерфейс перетаскивания или автоматизированное машинное обучение (Аутомл).
 
-  - [Обзор Машинное обучение](https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-ml)
-  - [Создание первого эксперимента машинного обучения с помощью Jupyter Notebook с помощью Python](https://docs.microsoft.com/azure/machine-learning/tutorial-1st-experiment-sdk-setup)
-  - [Визуальные эксперименты и перетаскивание](https://docs.microsoft.com/azure/machine-learning/tutorial-designer-automobile-price-train-score)
-  - [Использование пользовательского интерфейса Аутомл](https://docs.microsoft.com/azure/machine-learning/tutorial-first-experiment-automated-ml)
-  - [Настройка среды разработки](https://docs.microsoft.com/azure/machine-learning/how-to-configure-environment)
+  - [Обзор Машинное обучение](/azure/machine-learning/overview-what-is-azure-ml)
+  - [Создание первого эксперимента машинного обучения с помощью Jupyter Notebook с помощью Python](/azure/machine-learning/tutorial-1st-experiment-sdk-setup)
+  - [Визуальные эксперименты и перетаскивание](/azure/machine-learning/tutorial-designer-automobile-price-train-score)
+  - [Использование пользовательского интерфейса Аутомл](/azure/machine-learning/tutorial-first-experiment-automated-ml)
+  - [Настройка среды разработки](/azure/machine-learning/how-to-configure-environment)
 
 - **Поэкспериментируйте с более сложными руководствами** для прогнозирования расходов на такси, классификации образов и создания конвейера для пакетной оценки.
 
-  - [Использование Аутомл для прогнозирования расходов на такси](https://docs.microsoft.com/azure/machine-learning/tutorial-auto-train-models)
-  - [Классификация образов с помощью scikit — обучение](https://docs.microsoft.com/azure/machine-learning/tutorial-train-models-with-aml)
-  - [Создание конвейера Машинное обучение для пакетной оценки](https://docs.microsoft.com/azure/machine-learning/tutorial-pipeline-batch-scoring-classification)
+  - [Использование Аутомл для прогнозирования расходов на такси](/azure/machine-learning/tutorial-auto-train-models)
+  - [Классификация образов с помощью scikit — обучение](/azure/machine-learning/tutorial-train-models-with-aml)
+  - [Создание конвейера Машинное обучение для пакетной оценки](/azure/machine-learning/tutorial-pipeline-batch-scoring-classification)
 
 - Ознакомьтесь **с видеороликами** , чтобы получить дополнительные сведения о преимуществах машинное обучение, таких как создание моделей без кода, Млопс, среда выполнения ONNX, интерпретируемость модели и прозрачность, а также многое другое.
 
@@ -59,7 +59,7 @@ Azure предоставляет вам более широкие возможн
   - [Интерпретируемость и прозрачность модели](https://aka.ms/azuremlinterpret)
   - [Создание моделей с помощью R](https://aka.ms/Rmodels)
 
-- [Обзор эталонных архитектур для решений искусственного интеллекта](https://docs.microsoft.com/azure/architecture/browse/#ai--machine-learning)
+- [Обзор эталонных архитектур для решений искусственного интеллекта](/azure/architecture/browse/#ai--machine-learning)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

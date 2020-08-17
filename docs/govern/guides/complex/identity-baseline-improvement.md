@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 659dad6ad975fc19272348c6b5c3f148ea9f527b
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: baeb855cff2f0b46523c97db4b00d6e0199a75ca
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86478026"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88280599"
 ---
 <!-- cSpell:ignore MPLS -->
 
@@ -80,7 +80,7 @@ ms.locfileid: "86478026"
 - Схема **защищенной гибридной виртуальной сети:** Локальная сеть гибридной сети должна быть настроена на разрешение взаимодействия между следующим решением и локальными серверами Active Directory. Эта рекомендация требует наличия сети периметра для включения домен Active Directory служб через границы сети.
 - **Шаблоны Azure Resource Manager:**
     1. Определите NSG для блокировки внешнего трафика и разрешите внутренний трафик.
-    2. Развертывание двух Active Directory виртуальных машин в паре с балансировкой нагрузки на основе эталонного образа. При первой загрузке этот образ запускает сценарий PowerShell для присоединения к домену и регистрации в доменных службах. Дополнительные сведения см. в статье [Расширение доменных служб Active Directory в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/adds-extend-domain).
+    2. Развертывание двух Active Directory виртуальных машин в паре с балансировкой нагрузки на основе эталонного образа. При первой загрузке этот образ запускает сценарий PowerShell для присоединения к домену и регистрации в доменных службах. Дополнительные сведения см. в статье [Расширение доменных служб Active Directory в Azure](/azure/architecture/reference-architectures/identity/adds-extend-domain).
 - Политика Azure. Примените NSG ко всем ресурсам.
 - Схема Azure.
     1. Создайте схему Azure с именем `active-directory-virtual-machines`.

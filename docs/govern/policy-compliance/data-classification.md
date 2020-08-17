@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: e7884a4132480be3b3e85a78abda630886cc361a
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 11d1ffec967dea3f367e8ce023b93b95a7a086f4
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195389"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88280242"
 ---
 # <a name="what-is-data-classification"></a>Классификация данных
 
@@ -37,7 +37,7 @@ ms.locfileid: "88195389"
 
 ## <a name="tagging-data-classification-in-azure"></a>Добавление тегов к классификации данных в Azure
 
-Теги ресурсов — хороший подход к хранению метаданных, и эти теги можно использовать для применения сведений о классификации данных к развернутым ресурсам. Хотя Теги облачных ресурсов по классификации не являются заменой для процесса формальной классификации данных, он предоставляет ценное средство для управления ресурсами и применения политик. [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) — отличное решение, помогающее классифицировать сами данные, независимо от того, где они находятся (локально, в Azure или где-либо еще). Рассмотрите его как часть общей стратегии классификации.
+Теги ресурсов — хороший подход к хранению метаданных, и эти теги можно использовать для применения сведений о классификации данных к развернутым ресурсам. Хотя Теги облачных ресурсов по классификации не являются заменой для процесса формальной классификации данных, он предоставляет ценное средство для управления ресурсами и применения политик. [Azure Information Protection](/azure/information-protection/what-is-information-protection) — отличное решение, помогающее классифицировать сами данные, независимо от того, где они находятся (локально, в Azure или где-либо еще). Рассмотрите его как часть общей стратегии классификации.
 
 ## <a name="take-action"></a>Выполнить действие
 
@@ -45,11 +45,11 @@ ms.locfileid: "88195389"
 
 - [Выберите один из руководств по управлению действиями,](../guides/index.md) чтобы получить примеры применения тегов в портфеле.
 - Ознакомьтесь с статьей о [стандартах именования и маркировки](../../ready/azure-best-practices/naming-and-tagging.md#metadata-tags) , чтобы определить более полный стандарт тегов.
-- Дополнительные сведения о разметке ресурсов в Azure см. в статье [Использование тегов для Организации ресурсов Azure и иерархии управления](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
+- Дополнительные сведения о разметке ресурсов в Azure см. в статье [Использование тегов для Организации ресурсов Azure и иерархии управления](/azure/azure-resource-manager/management/tag-resources).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Продолжим обучение из этой серии статей, изучив статью Защита конфиденциальных данных. Следующая статья содержит полезные сведения, если вы работаете с данными, классифицированными как конфиденциальные или строго конфиденциальные.
 
 > [!div class="nextstepaction"]
-> [Защита конфиденциальных данных](https://docs.microsoft.com/azure/architecture/data-guide/scenarios/securing-data-solutions?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+> [Защита конфиденциальных данных](/azure/architecture/data-guide/scenarios/securing-data-solutions?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)

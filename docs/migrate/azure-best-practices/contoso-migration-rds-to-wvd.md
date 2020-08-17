@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 6ff17c33b79f58c1eab73407bd054fd06471b468
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 06fd84544698113696f3e823922f8acbe8efd3cd
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193592"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88282469"
 ---
 <!-- cSpell:ignore benstegink msiexec Logix Lakeside SysTrack Robocopy UPD UPDs -->
 
@@ -23,7 +23,7 @@ ms.locfileid: "88193592"
 
 | Варианты переноса | Результат |
 |--- | --- |
-| [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview) | Оценка и миграция локальных сред RDS. <br><br> Запуск рабочих нагрузок с помощью виртуального рабочего стола Azure Windows. <br><br> Управление виртуальными рабочими столами Windows с помощью интерфейса [управления виртуальными рабочими столами Windows](https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux). |
+| [Миграция Azure](/azure/migrate/migrate-services-overview) | Оценка и миграция локальных сред RDS. <br><br> Запуск рабочих нагрузок с помощью виртуального рабочего стола Azure Windows. <br><br> Управление виртуальными рабочими столами Windows с помощью интерфейса [управления виртуальными рабочими столами Windows](https://github.com/Azure/RDS-Templates/tree/master/wvd-templates/wvd-management-ux). |
 
 > [!NOTE]
 > В этой статье рассматривается использование виртуального рабочего стола Windows в Azure для перемещения локальной среды RDS в Azure.
@@ -83,7 +83,7 @@ RDS развертывается в локальном центре обрабо
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Рассматриваемый вопрос | Подробности |
+| Рассматриваемый вопрос | Сведения |
 | --- | --- |
 | **Преимущества** | Многосеансовая среда Windows 10 Корпоративная. <br><br> На основе облака, разрешая доступ из любого места. <br><br> Воспользуйтесь другими службами Azure, такими как файлы Azure, в среде виртуальных рабочих столов Windows. <br><br> Оптимизировано для современных настольных систем Майкрософт. |
 | **Недостатки** | Чтобы полностью оптимизировать Azure, Contoso придется перестроить образы Windows 10, оптимизированные для многопользовательских сеансов. <br><br> Виртуальный рабочий стол Windows не поддерживает диски профилей пользователей, поэтому диски UPD необходимо перенести в контейнеры профилей Фслогикс. |
@@ -117,12 +117,12 @@ Contoso переместит виртуальные машины в виртуа
 1. Убедитесь, что службы домена Active Directory или Azure Active Directory доменных служб синхронизированы с Azure Active Directory (Azure AD). Убедитесь, что служба домена доступна из подписки Azure и виртуальной сети для подключения, где будет развернут виртуальный рабочий стол Windows.
 
     > [!NOTE]
-    > Дополнительные сведения о [Azure AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-install-express) синхронизации Active Directory локальной среды с помощью Azure AD.
+    > Дополнительные сведения о [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-install-express) синхронизации Active Directory локальной среды с помощью Azure AD.
 
     <!-- -->
 
     > [!NOTE]
-    > Сведения о подготовке [Azure Active Directory доменных служб](https://docs.microsoft.com/azure/active-directory-domain-services/tutorial-create-instance) и синхронизации Azure AD с ним.
+    > Сведения о подготовке [Azure Active Directory доменных служб](/azure/active-directory-domain-services/tutorial-create-instance) и синхронизации Azure AD с ним.
 
 1. Создайте новый проект службы "миграция Azure".
 
@@ -295,16 +295,16 @@ Convert-RoamingProfile -ProfilePath "C:\Users\User1" -Target "\\Server\FSLogixPr
 
 Группа безопасности Contoso рассматривает виртуальные машины Azure, чтобы определить проблемы безопасности. Чтобы можно было управлять доступом, команда проверяет группы безопасности сети (NSG) для виртуальных машин. Группы безопасности сети используются, чтобы обеспечить доступ к нему только для трафика, разрешенного приложению. Группа также рассматривает защиту данных на диске с помощью шифрования дисков Azure и Azure Key Vault.
 
-Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
+Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](/azure/security/fundamentals/iaas).
 
 ## <a name="business-continuity-and-disaster-recovery"></a>Непрерывность бизнес-процессов и аварийное восстановление
 
-Для обеспечения непрерывности бизнес-процессов и аварийного восстановления (BCDR) Contoso создает резервные копии данных на виртуальных машинах, используя Azure Backup для защиты данных. Дополнительные сведения см. [в обзоре резервного копирования виртуальных машин Azure](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction).
+Для обеспечения непрерывности бизнес-процессов и аварийного восстановления (BCDR) Contoso создает резервные копии данных на виртуальных машинах, используя Azure Backup для защиты данных. Дополнительные сведения см. [в обзоре резервного копирования виртуальных машин Azure](/azure/backup/backup-azure-vms-introduction).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 
 - [Лицензии Microsoft 365](https://azure.microsoft.com/pricing/details/virtual-desktop/) используются для развертывания настольных систем.
-- Компания Contoso включит службу [управления затратами Azure и выставления счетов](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview) для помощи в мониторинге ресурсов Azure и управлении ими.
+- Компания Contoso включит службу [управления затратами Azure и выставления счетов](/azure/cost-management-billing/cost-management-billing-overview) для помощи в мониторинге ресурсов Azure и управлении ими.
 - Компания Contoso имеет существующую лицензию на виртуальные машины и использует преимущества Преимущество гибридного использования Azure для серверов приложений. Contoso преобразует имеющиеся виртуальные машины Azure, чтобы использовать льготные расценки.
 
 ## <a name="conclusion"></a>Заключение

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: a69c196d76db7f633acdfcf0aff6ad72a11872e5
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: b06907694bf8bb42ded96bd815a5fad5645ba919
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83215030"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278763"
 ---
 # <a name="software-defined-networking-cloud-native"></a>Программно-определяемая сеть: машинный код в облаке
 
@@ -40,5 +40,5 @@ ms.locfileid: "83215030"
 
 Дополнительные сведения о виртуальных сетях, машинных в облаке, в Azure см. в следующих статьях:
 
-- [Руководства по виртуальным сетям Azure](https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm). Недавно созданные виртуальные сети по умолчанию являются собственными облачными. Используйте эти руководства для планирования, проектирования и развертывания виртуальных сетей.
-- [Ограничения сети Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits#networking-limits). Каждая виртуальная сеть и подключенные ресурсы существуют в одной подписке. Эти ресурсы привязаны к ограничениям подписки.
+- [Руководства по виртуальным сетям Azure](/azure/virtual-network/virtual-network-vnet-plan-design-arm). Недавно созданные виртуальные сети по умолчанию являются собственными облачными. Используйте эти руководства для планирования, проектирования и развертывания виртуальных сетей.
+- [Ограничения сети Azure](/azure/azure-resource-manager/management/azure-subscription-service-limits#networking-limits). Каждая виртуальная сеть и подключенные ресурсы существуют в одной подписке. Эти ресурсы привязаны к ограничениям подписки.

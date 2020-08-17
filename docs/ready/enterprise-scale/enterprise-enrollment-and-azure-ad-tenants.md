@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 3e09a40f5f2066f6cbbf3c375784a27615395a4a
-ms.sourcegitcommit: d31a9043d1ae9283ed126bf118ca26d1d18d6948
+ms.openlocfilehash: 5dc97518826961e4cf3296e7cb7ce0ea8a2ff1e2
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88040564"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278227"
 ---
 # <a name="enterprise-agreement-enrollment-and-azure-active-directory-tenants"></a>Клиенты регистрации Соглашение Enterprise и Azure Active Directory
 
@@ -72,10 +72,10 @@ Azure AD также используется программным обеспе
 
 **Рекомендации по проектированию:**
 
-- Используйте простой единый вход Azure AD на основе выбранной [топологии планирования](https://docs.microsoft.com/azure/active-directory/hybrid/plan-connect-topologies).
-- Если у вашей организации нет инфраструктуры идентификации, начните с реализации развертывания удостоверения Azure-AD. Такое развертывание с [доменными службами Azure AD](https://docs.microsoft.com/azure/active-directory-domain-services) и [Microsoft Enterprise Mobility + Security](https://docs.microsoft.com/mem/intune/fundamentals/what-is-intune) обеспечивает комплексную защиту приложений SaaS, корпоративных приложений и устройств.
-- Многофакторная проверка подлинности обеспечивает еще один уровень безопасности и второе препятствие проверки подлинности. Применение [многофакторной проверки подлинности](https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks) и [политик условного доступа](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) для всех привилегированных учетных записей для повышения безопасности.
-- Планируйте и реализуйте учетные записи с [аварийным доступом](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access) и прозрачностью, чтобы предотвратить блокировку учетных записей на уровне клиента.
-- Используйте [Azure AD privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure) для управления удостоверениями и доступом.
+- Используйте простой единый вход Azure AD на основе выбранной [топологии планирования](/azure/active-directory/hybrid/plan-connect-topologies).
+- Если у вашей организации нет инфраструктуры идентификации, начните с реализации развертывания удостоверения Azure-AD. Такое развертывание с [доменными службами Azure AD](/azure/active-directory-domain-services) и [Microsoft Enterprise Mobility + Security](/mem/intune/fundamentals/what-is-intune) обеспечивает комплексную защиту приложений SaaS, корпоративных приложений и устройств.
+- Многофакторная проверка подлинности обеспечивает еще один уровень безопасности и второе препятствие проверки подлинности. Применение [многофакторной проверки подлинности](/azure/active-directory/authentication/concept-mfa-howitworks) и [политик условного доступа](/azure/active-directory/conditional-access/overview) для всех привилегированных учетных записей для повышения безопасности.
+- Планируйте и реализуйте учетные записи с [аварийным доступом](/azure/active-directory/users-groups-roles/directory-emergency-access) и прозрачностью, чтобы предотвратить блокировку учетных записей на уровне клиента.
+- Используйте [Azure AD privileged Identity Management](/azure/active-directory/privileged-identity-management/pim-configure) для управления удостоверениями и доступом.
 - Если разработка, тестирование и Рабочая среда будут изолированы от точки зрения удостоверения, разделите их на уровне клиента с помощью нескольких клиентов.
 - Избегайте создания нового клиента Azure AD, если не существует согласованное обоснование управления удостоверениями и доступом, и процессы уже установлены.
