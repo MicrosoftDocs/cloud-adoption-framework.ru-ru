@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: ce5dc9c63445420b63e515c7516a3278f70eb339
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 31c75eff258968a141f17ab8e58d5462b0679124
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195879"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88281177"
 ---
 <!-- cSpell:ignore CISO passwordless -->
 
@@ -48,28 +48,28 @@ ms.locfileid: "88195879"
 
 - **Техническая информация:** Устранение основных рисков и повышение видимости и контроля ресурсов за счет включения защиты паролем или многофакторной проверки подлинности для администраторов, а также разрешения на защиту от угроз для облачных ресурсов.
 
-  - [Антипарольная или многофакторная проверка подлинности для администраторов](https://docs.microsoft.com/azure/architecture/framework/security/critical-impact-accounts#passwordless-or-multi-factor-authentication-for-admins)
-  - [Операции безопасности](https://docs.microsoft.com/azure/architecture/framework/security/security-operations) и [Защита от угроз в центре безопасности Azure](https://docs.microsoft.com/azure/security-center/threat-protection)
+  - [Антипарольная или многофакторная проверка подлинности для администраторов](/azure/architecture/framework/security/critical-impact-accounts#passwordless-or-multi-factor-authentication-for-admins)
+  - [Операции безопасности](/azure/architecture/framework/security/security-operations) и [Защита от угроз в центре безопасности Azure](/azure/security-center/threat-protection)
 
 - **Процесс:** Разрешите решения по обеспечению безопасности и непрерывное улучшение, назначив роли безопасности и обязанности, а затем создав процесс реагирования на инциденты.
 
-  - [Очистите строки ответственности](https://docs.microsoft.com/azure/architecture/framework/security/governance#clear-lines-of-responsibility), [назначьте привилегии для управления средой](https://docs.microsoft.com/azure/architecture/framework/security/governance#assign-privileges-for-managing-the-environment)и эксплуатацию безопасность оценки <!-- TODO: Improve this and add link to AAF article -->
+  - [Очистите строки ответственности](/azure/architecture/framework/security/governance#clear-lines-of-responsibility), [назначьте привилегии для управления средой](/azure/architecture/framework/security/governance#assign-privileges-for-managing-the-environment)и эксплуатацию безопасность оценки <!-- TODO: Improve this and add link to AAF article -->
   - Роли и обязанности безопасности <!-- TODO: add link to bookmark -->
   - [Справочное руководство по реагированию на инциденты](https://aka.ms/irrg)
 
 - **Люди:** Предоставьте группам безопасности возможность обучения, средств и доступа, необходимых для успешного развертывания и эксплуатации во время перехода в облачную среду.
 
   - **Обучите все концепции** развития облачных и облачных средств безопасности:
-    - [Развитие среды угроз, ролей и цифровых стратегий](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#evolution-of-threat-environment-roles--digital-strategies-2004)
-    - [Преобразование безопасности, стратегий, средств и угроз](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#transformation-of-security-strategies-tools--threats-1513)
-  - **Обучение технических специалистов** по техническим деталям возможностей обеспечения безопасности в облаке для используемых платформ. Корпорация Майкрософт предоставляет обширную [документацию по безопасности Azure](https://docs.microsoft.com/azure/security).
+    - [Развитие среды угроз, ролей и цифровых стратегий](/security/compass/microsoft-security-compass-introduction#evolution-of-threat-environment-roles--digital-strategies-2004)
+    - [Преобразование безопасности, стратегий, средств и угроз](/security/compass/microsoft-security-compass-introduction#transformation-of-security-strategies-tools--threats-1513)
+  - **Обучение технических специалистов** по техническим деталям возможностей обеспечения безопасности в облаке для используемых платформ. Корпорация Майкрософт предоставляет обширную [документацию по безопасности Azure](/azure/security).
 
 - **Долгосрочные архитектурные решения:** Создайте долгосрочную основу с правильными решениями. Это сложно и дорого изменить позже.
 
-  - [Создавайте стратегию сегментации предприятия и выровняйте ее технические архитектуры (сегментация сети, сегментация удостоверений и т. д.).](https://docs.microsoft.com/azure/architecture/framework/security/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
-  - [Единый корпоративный каталог](https://docs.microsoft.com/azure/architecture/framework/security/identity#single-enterprise-directory)
-  - [Стратегия проверки подлинности для служб](https://docs.microsoft.com/azure/architecture/framework/security/applications-services#prefer-identity-authentication-over-keys)
-  - [Стратегия назначения разрешений](https://docs.microsoft.com/azure/architecture/framework/security/critical-impact-accounts#avoid-granular-and-custom-permissions)
+  - [Создавайте стратегию сегментации предприятия и выровняйте ее технические архитектуры (сегментация сети, сегментация удостоверений и т. д.).](/azure/architecture/framework/security/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
+  - [Единый корпоративный каталог](/azure/architecture/framework/security/identity#single-enterprise-directory)
+  - [Стратегия проверки подлинности для служб](/azure/architecture/framework/security/applications-services#prefer-identity-authentication-over-keys)
+  - [Стратегия назначения разрешений](/azure/architecture/framework/security/critical-impact-accounts#avoid-granular-and-custom-permissions)
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -124,9 +124,9 @@ ms.locfileid: "88195879"
 
 **Связанные ресурсы для дополнительного контекста:**
 
-- [Развитие среды угроз, ролей и цифровых стратегий](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#evolution-of-threat-environment-roles--digital-strategies-2004)
+- [Развитие среды угроз, ролей и цифровых стратегий](/security/compass/microsoft-security-compass-introduction#evolution-of-threat-environment-roles--digital-strategies-2004)
 
-- [Преобразование безопасности, стратегий, средств и угроз](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#transformation-of-security-strategies-tools--threats-1513)
+- [Преобразование безопасности, стратегий, средств и угроз](/security/compass/microsoft-security-compass-introduction#transformation-of-security-strategies-tools--threats-1513)
 
 - Рекомендации по стратегии для облачной инфраструктуры внедрения:
 
@@ -165,16 +165,16 @@ ms.locfileid: "88195879"
   
     Корпорация Майкрософт предоставляет эталонные архитектуры и технологические возможности, которые помогут вам в создании архитектуры и плана, в том числе:
 
-    - [Компоненты и эталонная модель Azure](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151) для ускорения планирования и проектирования ролей безопасности Azure.
+    - [Компоненты и эталонная модель Azure](/security/compass/microsoft-security-compass-introduction#azure-components-and-reference-model-2151) для ускорения планирования и проектирования ролей безопасности Azure.
 
       ![Модель администрирования Azure](../_images/security/azure-administration-model.png)
 
       ![Модель RBAC Azure](../_images/security/azure-rbac-model.png)
 
     - [Эталонная архитектура Microsoft кибербезопасности](https://aka.ms/mcra) для создания архитектуры кибербезопасности для гибридного предприятия, охватывающего локальные и облачные ресурсы.
-    - [Эталонная архитектура центра управления безопасностью (SoC)](https://docs.microsoft.com/security/compass/security-operations-videos-and-decks#part-1-introduction---soc-learnings-strategies-and-technical-integration-2430) для модернизировать обнаружения, реагирования и восстановления безопасности.
-    - [Архитектура эталонного доступа пользователей с нулевым доверием](https://docs.microsoft.com/security/ciso-workshop/ciso-workshop-module-3#part-5-zero-trust-user-access-reference-architecture-842) к архитектуре контроля доступа модернизировать для облачного создания.
-    - [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center) и [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security) для защиты облачных ресурсов.
+    - [Эталонная архитектура центра управления безопасностью (SoC)](/security/compass/security-operations-videos-and-decks#part-1-introduction---soc-learnings-strategies-and-technical-integration-2430) для модернизировать обнаружения, реагирования и восстановления безопасности.
+    - [Архитектура эталонного доступа пользователей с нулевым доверием](/security/ciso-workshop/ciso-workshop-module-3#part-5-zero-trust-user-access-reference-architecture-842) к архитектуре контроля доступа модернизировать для облачного создания.
+    - [Центр безопасности Azure](/azure/security-center) и [Microsoft Cloud App Security](/cloud-app-security) для защиты облачных ресурсов.
 
   - **План осведомленности о безопасности и образовательных плана**, поэтому у всех групп есть основные важные знания безопасности.
 
@@ -206,11 +206,11 @@ ms.locfileid: "88195879"
     - Зачем им нужно изучать навыки (и преимущества этого).
     - Как получить эти знания (и предоставить ресурсы, которые помогут им изучить).
   
-    Вы можете документировать план с помощью [шаблона стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx). Вы также можете использовать [интерактивное обучение Майкрософт по безопасности](https://docs.microsoft.com/security/compass/microsoft-security-compass-introduction) , чтобы упростить обучение членов группы.
+    Вы можете документировать план с помощью [шаблона стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx). Вы также можете использовать [интерактивное обучение Майкрософт по безопасности](/security/compass/microsoft-security-compass-introduction) , чтобы упростить обучение членов группы.
   - **Обеспечение осведомленности о безопасности** , чтобы помочь пользователям в подлинном соединении с их частью обеспечить безопасность Организации.
 
 - **Ознакомьтесь со сведениями и рекомендациями корпорации Майкрософт:** Корпорация Майкрософт опубликовала ценные сведения и перспективы, чтобы помочь вашей организации спланировать ее преобразование в облако и современные стратегии безопасности. Материал включает в себя записанные обучающие материалы, документацию и рекомендации по обеспечению безопасности и Рекомендуемые стандарты.
-  Технические рекомендации по созданию плана и архитектуры см. в [документации по безопасности Майкрософт](https://docs.microsoft.com/security).
+  Технические рекомендации по созданию плана и архитектуры см. в [документации по безопасности Майкрософт](/security).
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -227,7 +227,7 @@ ms.locfileid: "88195879"
 
 Гораздо проще начать работу в безопасном состоянии, чем впоследствии модифицировать безопасность в своей среде. Мы настоятельно рекомендуем начать с безопасной конфигурации, чтобы обеспечить миграцию рабочих нагрузок в защищенную среду, а также ее разработку и тестирование в.
 
-Во время реализации [зоны](https://docs.microsoft.com/azure/cloud-adoption-framework/ready/landing-zone) размещения многие решения могут повлиять на профили безопасности и риска. Группа Cloud Security должна проверить конфигурацию целевой зоны, чтобы убедиться, что она соответствует стандартам безопасности и требованиям в базовых показателях безопасности вашей организации.
+Во время реализации [зоны](..//ready/landing-zone/index.md) размещения многие решения могут повлиять на профили безопасности и риска. Группа Cloud Security должна проверить конфигурацию целевой зоны, чтобы убедиться, что она соответствует стандартам безопасности и требованиям в базовых показателях безопасности вашей организации.
 
 **Результатам**
 
@@ -238,16 +238,16 @@ ms.locfileid: "88195879"
 - **Разложение существующих требований и рекомендаций по облаку:** Начните с рекомендуемых рекомендаций, а затем адаптируйте его к уникальным требованиям безопасности. Мы сталкивались с проблемами при попытке применить существующие локальные политики и стандарты, так как они часто относятся к устаревшим технологиям или подходам к безопасности.
 
   Корпорация Майкрософт опубликовала руководство, помогающее создать базовые показатели безопасности:
-  - [Стандарты безопасности Azure для стратегии и архитектуры](https://docs.microsoft.com/security/compass/compass). рекомендации по стратегии и архитектуре для формирования уровня безопасности среды.
-  - [Показатели безопасности Azure](https://docs.microsoft.com/azure/security/benchmarks/introduction): конкретные рекомендации по конфигурации для защиты сред Azure.
-  - [Обучение базовому плану безопасности Azure](https://docs.microsoft.com/learn/modules/create-security-baselines).
+  - [Стандарты безопасности Azure для стратегии и архитектуры](/security/compass/compass). рекомендации по стратегии и архитектуре для формирования уровня безопасности среды.
+  - [Показатели безопасности Azure](/azure/security/benchmarks/introduction): конкретные рекомендации по конфигурации для защиты сред Azure.
+  - [Обучение базовому плану безопасности Azure](/learn/modules/create-security-baselines).
 
 - **Укажите снятие:** Меры защиты должны включать автоматический аудит и принудительное применение политик. Для этих новых сред группы должны стремиться проводить аудит и применять базовые показатели безопасности Организации. Эти усилия помогут сократить число непредвиденных сюрпризов в системе безопасности во время разработки рабочих нагрузок, а также непрерывную интеграцию и непрерывное развертывание (CI/CD) рабочих нагрузок.
 
   Корпорация Майкрософт предоставляет несколько собственных возможностей в Azure, чтобы сделать это:
-  - [Оценка](https://docs.microsoft.com/azure/security-center/secure-score-security-controls)безопасности. Используйте оценку оценки производительности Azure, чтобы отложить усилия и проекты в Организации.
-  - Схемы [Azure](https://docs.microsoft.com/azure/governance/blueprints/overview). облачные архитекторы и централизованные ИТ-группы могут определить повторяемый набор ресурсов Azure, который реализует и соответствует стандартам, шаблонам и требованиям Организации.
-  - [Политика Azure](https://docs.microsoft.com/azure/governance/policy). это основа возможностей видимости и контроля, используемых другими службами. Политика Azure интегрирована в [Azure Resource Manager](https://docs.microsoft.com/azure/azure-resource-manager), поэтому вы можете выполнять аудит изменений и принудительно применять политики в любом ресурсе в Azure до, во время или после создания.
+  - [Оценка](/azure/security-center/secure-score-security-controls)безопасности. Используйте оценку оценки производительности Azure, чтобы отложить усилия и проекты в Организации.
+  - Схемы [Azure](/azure/governance/blueprints/overview). облачные архитекторы и централизованные ИТ-группы могут определить повторяемый набор ресурсов Azure, который реализует и соответствует стандартам, шаблонам и требованиям Организации.
+  - [Политика Azure](/azure/governance/policy). это основа возможностей видимости и контроля, используемых другими службами. Политика Azure интегрирована в [Azure Resource Manager](/azure/azure-resource-manager), поэтому вы можете выполнять аудит изменений и принудительно применять политики в любом ресурсе в Azure до, во время или после создания.
 - [Усовершенствование операций размещения зоны](../ready/considerations/landing-zone-security.md). Используйте рекомендации по улучшению безопасности в целевой зоне.
 
 <!-- markdownlint-disable MD033 -->
@@ -275,7 +275,7 @@ ms.locfileid: "88195879"
 - Балансировка эксплуатационных рисков и угроз безопасности. Так как в этих средах могут размещаться рабочие системы, которые обеспечивают выполнение критически важных бизнес-процессов, может потребоваться добавочная реализация усовершенствований безопасности, чтобы избежать риска простоя.
 - Определение приоритетов при обнаружении и исправлении угроз безопасности с точки зрения важности бизнеса. Начните с рабочих нагрузок, которые имеют большое влияние на бизнес, если скомпрометированы и рабочие нагрузки имеют высокий риск.
 
-Дополнительные сведения см. в разделе [Обнаружение и классификация критически важных для бизнеса приложений](https://docs.microsoft.com/azure/architecture/framework/security/applications-services?toc=/security/compass/toc.json&bc=/security/compass/breadcrumb/toc.json#identify-and-classify-business-critical-applications).
+Дополнительные сведения см. в разделе [Обнаружение и классификация критически важных для бизнеса приложений](/azure/architecture/framework/security/applications-services?bc=%2fsecurity%2fcompass%2fbreadcrumb%2ftoc.json&toc=%2fsecurity%2fcompass%2ftoc.json#identify-and-classify-business-critical-applications).
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -292,13 +292,13 @@ ms.locfileid: "88195879"
 
 **Результатам**
 
-- Убедитесь, что базовые показатели безопасности Организации применяются ко всем соответствующим системам. Аудит аномалий с помощью [оценки безопасности](https://docs.microsoft.com/azure/security-center/secure-score-security-controls) или аналогичного механизма.
+- Убедитесь, что базовые показатели безопасности Организации применяются ко всем соответствующим системам. Аудит аномалий с помощью [оценки безопасности](/azure/security-center/secure-score-security-controls) или аналогичного механизма.
 - Документирование базовых политик безопасности, процессов и руководств по проектированию в [шаблоне «дисциплина безопасности](../govern/security-baseline/template.md)».
 
 **Рекомендации по поддержке готовности к завершению.**
 
 - Используйте те же базовые показатели безопасности и механизмы аудита, которые вы создали на [шаге 4](#step-4-secure-new-workloads) , в качестве технических компонентов мониторинга базовых показателей. Дополните эти базовые планы с помощью пользователей и элементов управления процессами, чтобы обеспечить согласованность.
-- Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соглашениям об именовании и разметке тегов](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](https://docs.microsoft.com/azure/governance/policy/tutorials/govern-tags)с особым выделением тегов для «чувствительности данных».
+- Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соглашениям об именовании и разметке тегов](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](/azure/governance/policy/tutorials/govern-tags)с особым выделением тегов для «чувствительности данных».
 - Если вы не знакомы с управлением облаком, установите [политики управления, процессы и дисциплины](../govern/index.md) с помощью управляемой методологии.
 
 <!-- markdownlint-disable MD033 -->
@@ -308,13 +308,13 @@ ms.locfileid: "88195879"
 | --- | --- |
 | <li> Группа по системе управления облаком | <li> Группа по облачной стратегии <li> Группа Cloud Security <li> Облачный центр для ИТ и специалистов по ИТ |
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Действия, описанные в этом руководстве, помогли вам реализовать стратегию, элементы управления, процессы, навыки и региональные параметры, необходимые для согласованного управления рисками безопасности на предприятии.
 По мере того как вы переходите к режиму работы Cloud Security, рассмотрим следующие шаги:
 
-- Ознакомьтесь с [документацией по безопасности Майкрософт](https://docs.microsoft.com/security). Он содержит техническое руководство, помогающее специалистам по безопасности создавать и улучшать стратегию кибербезопасности, архитектуру и приоритеты.
-- Ознакомьтесь со сведениями о безопасности в [встроенных средствах управления безопасностью для служб Azure](https://docs.microsoft.com/azure/security/fundamentals/security-controls).
-- Ознакомьтесь со средствами и службами безопасности Azure в [службах безопасности и технологиях, доступных в Azure](https://docs.microsoft.com/azure/security/azure-security-services-technologies).
+- Ознакомьтесь с [документацией по безопасности Майкрософт](/security). Он содержит техническое руководство, помогающее специалистам по безопасности создавать и улучшать стратегию кибербезопасности, архитектуру и приоритеты.
+- Ознакомьтесь со сведениями о безопасности в [встроенных средствах управления безопасностью для служб Azure](/azure/security/fundamentals/security-controls).
+- Ознакомьтесь со средствами и службами безопасности Azure в [службах безопасности и технологиях, доступных в Azure](/azure/security/azure-security-services-technologies).
 - Ознакомьтесь с [центром управления безопасностью Майкрософт](https://www.microsoft.com/trustcenter/guidance/risk-assessment). Он содержит обширные руководства, отчеты и сопутствующую документацию, которая поможет выполнить оценку рисков в рамках ваших нормативных требований.
-- Ознакомьтесь со сторонними инструментами, которые помогают удовлетворить ваши требования к безопасности. Дополнительные сведения см. [в статье интеграция решений безопасности в центре безопасности Azure](https://docs.microsoft.com/azure/security-center/security-center-partner-integration).
+- Ознакомьтесь со сторонними инструментами, которые помогают удовлетворить ваши требования к безопасности. Дополнительные сведения см. [в статье интеграция решений безопасности в центре безопасности Azure](/azure/security-center/security-center-partner-integration).

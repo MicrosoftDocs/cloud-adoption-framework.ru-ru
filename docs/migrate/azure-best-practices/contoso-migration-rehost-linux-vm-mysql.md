@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: a5bf1edc6d10d3a0f7f4b3e77fccfa85b6247f89
-ms.sourcegitcommit: 26aee3c6f596bb8a9f1e16af93cdf94e41a61dee
+ms.openlocfilehash: 001070e4bc578adf7401b0564499b974c6b893e0
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/29/2020
-ms.locfileid: "87400570"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88282248"
 ---
 <!-- cSpell:ignore givenscj OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc contosoosticket osticket InnoDB binlog systemctl NSGs -->
 
@@ -53,7 +53,7 @@ ms.locfileid: "87400570"
 - Поскольку компания Contoso выполняет миграцию рабочей нагрузки, ресурсы будут находиться в Рабочей группе ресурсов `ContosoRG` .
 - `OSTICKETWEB`Ресурс будет реплицирован в основной регион (Восточная часть США 2) и помещен в производственную сеть ( `VNET-PROD-EUS2` ):
   - Виртуальная машина веб-уровня будет находиться в интерфейсной подсети (`PROD-FE-EUS2`).
-- База данных приложения будет перенесена в базу данных Azure для MySQL с помощью [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview).
+- База данных приложения будет перенесена в базу данных Azure для MySQL с помощью [Azure Database Migration Service](/azure/dms/dms-overview).
 - После завершения миграции локальные виртуальные машины в центре обработки данных Contoso будут выведены из эксплуатации.
 
     ![Схема архитектуры сценария.](./media/contoso-migration-rehost-linux-vm-mysql/architecture.png)
@@ -81,9 +81,9 @@ ms.locfileid: "87400570"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Миграция Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | Служба " [Миграция Azure](https://azure.microsoft.com/pricing/details/azure-migrate) " доступна без дополнительной платы. Плата может взиматься в зависимости от средств (от первой стороны или ISV), которые вы решили использовать для оценки и миграции. |
-| [Azure Database Migration Service](https://docs.microsoft.com/azure/dms/dms-overview) | Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](https://docs.microsoft.com/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
-| [База данных Azure для MySQL](https://docs.microsoft.com/azure/mysql) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL, готовую для разработки и развертывания приложений. | Узнайте больше о [ценах](https://azure.microsoft.com/pricing/details/mysql) и параметрах масштабируемости базы данных Azure для MySQL. |
+| [Миграция Azure](/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | Служба " [Миграция Azure](https://azure.microsoft.com/pricing/details/azure-migrate) " доступна без дополнительной платы. Плата может взиматься в зависимости от средств (от первой стороны или ISV), которые вы решили использовать для оценки и миграции. |
+| [Azure Database Migration Service](/azure/dms/dms-overview) | Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
+| [База данных Azure для MySQL](/azure/mysql) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL, готовую для разработки и развертывания приложений. | Узнайте больше о [ценах](https://azure.microsoft.com/pricing/details/mysql) и параметрах масштабируемости базы данных Azure для MySQL. |
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -91,10 +91,10 @@ ms.locfileid: "87400570"
 
 | Требования | Сведения |
 | --- | --- |
-| **Подписка Azure.** | Компания Contoso уже создала подписки (это описывается в одной из предыдущих статей этой серии). Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку и вы не являетесь администратором, обратитесь к администратору, чтобы назначить вам разрешения владельца или участника. <br><br> Если требуются более детализированные разрешения, см. раздел [Управление доступом Azure Site Recovery с помощью управления доступом на основе ролей (RBAC)](https://docs.microsoft.com/azure/site-recovery/site-recovery-role-based-linked-access-control). |
+| **Подписка Azure.** | Компания Contoso уже создала подписки (это описывается в одной из предыдущих статей этой серии). Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку и вы не являетесь администратором, обратитесь к администратору, чтобы назначить вам разрешения владельца или участника. <br><br> Если требуются более детализированные разрешения, см. раздел [Управление доступом Azure Site Recovery с помощью управления доступом на основе ролей (RBAC)](/azure/site-recovery/site-recovery-role-based-linked-access-control). |
 | **Инфраструктура Azure** | Компания Contoso настраивает инфраструктуру Azure, как описано в статье [Развертывание инфраструктуры Azure для миграции в Contoso](./contoso-migration-infrastructure.md). |
 | **Локальные серверы** | Локальная vCenter Server должна работать под управлением версии 5,5, 6,0, 6,5 или 6,7. <br><br> Узел ESXi с версией 5,5, 6,0, 6,5 или 6,7. <br><br> Одна или несколько виртуальных машин VMware, которые выполняются на узле ESXi. |
-| **Локальные виртуальные машины** | [Ознакомьтесь со списком виртуальных машин Linux](https://docs.microsoft.com/azure/virtual-machines/linux/endorsed-distros), которые рекомендованы к использованию в Azure. |
+| **Локальные виртуальные машины** | [Ознакомьтесь со списком виртуальных машин Linux](/azure/virtual-machines/linux/endorsed-distros), которые рекомендованы к использованию в Azure. |
 
 ## <a name="scenario-steps"></a>Шаги выполнения сценария
 
@@ -145,9 +145,9 @@ ms.locfileid: "87400570"
 
 1. После настройки средства потребуется некоторое время, чтобы средство перечислило все виртуальные машины. После завершения процесса виртуальные машины заполняются в средстве миграции Azure в Azure.
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
-Узнайте, как настроить [средство миграции для Azure Migration](https://docs.microsoft.com/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
+Узнайте, как настроить [средство миграции для Azure Migration](/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
 
 ## <a name="step-2-prepare-on-premises-vmware-for-azure-migrate-server-migration"></a>Шаг 2. Подготовка локальной среды VMware для миграции Azure: миграция сервера
 
@@ -156,11 +156,11 @@ ms.locfileid: "87400570"
 - Чтобы получить доступ к виртуальным машинам Azure, перед миграцией включите SSH на локальной виртуальной машине Linux. Для Ubuntu этот шаг можно выполнить с помощью следующей команды: `sudo apt-get ssh install -y` .
 - После того как администраторы запускают миграцию, они могут проверить **диагностику загрузки** , чтобы просмотреть снимок экрана виртуальной машины.
 - Если она не работает, необходимо проверить, работает ли виртуальная машина, и ознакомиться с [рекомендациями по устранению неполадок](https://social.technet.microsoft.com/wiki/contents/articles/31666.troubleshooting-remote-desktop-connection-after-failover-using-asr.aspx).
-- Установите [Агент Linux для Azure](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-linux).
+- Установите [Агент Linux для Azure](/azure/virtual-machines/extensions/agent-linux).
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
-Узнайте, как [подготовить виртуальные машины для миграции](https://docs.microsoft.com/azure/migrate/prepare-for-migration).
+Узнайте, как [подготовить виртуальные машины для миграции](/azure/migrate/prepare-for-migration).
 
 ## <a name="step-3-replicate-vms"></a>Шаг 3. репликация виртуальных машин
 
@@ -193,7 +193,7 @@ ms.locfileid: "87400570"
 
     - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Выберите **Далее**.
 
-1. В разделе **Вычисления** просмотрите имя виртуальной машины, размер, тип диска ОС и группу доступности. Виртуальные машины должны соответствовать [требованиям Azure](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
+1. В разделе **Вычисления** просмотрите имя виртуальной машины, размер, тип диска ОС и группу доступности. Виртуальные машины должны соответствовать [требованиям Azure](/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
 
     - **Размер виртуальной машины:** Если вы используете рекомендации по оценке, раскрывающийся список размер виртуальной машины содержит рекомендуемый размер. В противном случае служба "миграция Azure" выбирает размер на основе ближайшей соответствия в подписке Azure. В качестве альтернативы выберите размер вручную в разделе **Размер виртуальной машины Azure**.
     - **Диск ОС:** Укажите диск операционной системы (загрузочный) для виртуальной машины. Диск ОС — это диск с загрузчиком операционной системы и установщиком.
@@ -278,7 +278,7 @@ ms.locfileid: "87400570"
 
 ### <a name="step-6a-migrate-the-database-via-database-migration-service"></a>Шаг 6a. Перенос базы данных с помощью Database Migration Service
 
-Администраторы Contoso переходят базу данных с помощью Database Migration Service, выполнив пошаговое [руководство по миграции](https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online). Они могут выполнять миграцию через Интернет, автономный и гибридный (Предварительная версия) с помощью MySQL 5,6 или 5,7.
+Администраторы Contoso переходят базу данных с помощью Database Migration Service, выполнив пошаговое [руководство по миграции](/azure/dms/tutorial-mysql-azure-mysql-online). Они могут выполнять миграцию через Интернет, автономный и гибридный (Предварительная версия) с помощью MySQL 5,6 или 5,7.
 
 > [!NOTE]
 > MySQL 8,0 поддерживается в базе данных Azure для MySQL, но средство Database Migration Service еще не поддерживает эту версию.
@@ -387,10 +387,10 @@ ms.locfileid: "87400570"
 
     ![Снимок экрана, на котором показано обновление записи DNS.](./media/contoso-migration-rehost-linux-vm-mysql/update-dns.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
-- Узнайте, как [выполнить тестовую миграцию](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#run-a-test-migration).
-- Узнайте, как [выполнить миграцию виртуальных машин в Azure](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#migrate-vms).
+- Узнайте, как [выполнить тестовую миграцию](/azure/migrate/tutorial-migrate-vmware#run-a-test-migration).
+- Узнайте, как [выполнить миграцию виртуальных машин в Azure](/azure/migrate/tutorial-migrate-vmware#migrate-vms).
 
 ## <a name="review-the-deployment"></a>Проверка развертывания
 
@@ -416,7 +416,7 @@ ms.locfileid: "87400570"
 - Они рассматривайте безопасность данных на дисках виртуальной машины с помощью шифрования дисков Azure и Azure Key Vault.
 - Поддержка SSL для обмена данными между экземпляром виртуальной машины и базой данных не настроена. Необходимо настроить протокол SSL, чтобы предотвратить взлом трафика базы данных.
 
-Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
+Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](/azure/security/fundamentals/iaas).
 
 <!-- docsTest:ignore "Quickstart: Set" -->
 
@@ -424,11 +424,11 @@ ms.locfileid: "87400570"
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление, специалисты компании Contoso выполняют указанные ниже действия.
 
-- **Обеспечьте безопасность данных.** Contoso создает резервную копию данных на виртуальной машине приложения с помощью [резервного копирования виртуальных машин Azure](https://docs.microsoft.com/azure/backup/backup-azure-vms-introduction). Компании не нужно настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются и сохраняются резервные копии. Компания Contoso выбрала геоизбыточность для базы данных, чтобы она была устойчивой и готовой к эксплуатации.
-- **Обеспечьте работоспособность приложений.** Contoso реплицирует виртуальные машины приложений в Azure в дополнительный регион с помощью Site Recovery. Дополнительные сведения см. [в разделе Краткое руководство. Настройка аварийного восстановления в дополнительном регионе Azure для виртуальной машины Azure](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
+- **Обеспечьте безопасность данных.** Contoso создает резервную копию данных на виртуальной машине приложения с помощью [резервного копирования виртуальных машин Azure](/azure/backup/backup-azure-vms-introduction). Компании не нужно настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются и сохраняются резервные копии. Компания Contoso выбрала геоизбыточность для базы данных, чтобы она была устойчивой и готовой к эксплуатации.
+- **Обеспечьте работоспособность приложений.** Contoso реплицирует виртуальные машины приложений в Azure в дополнительный регион с помощью Site Recovery. Дополнительные сведения см. [в разделе Краткое руководство. Настройка аварийного восстановления в дополнительном регионе Azure для виртуальной машины Azure](/azure/site-recovery/azure-to-azure-quickstart).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 
 - После развертывания ресурсов компания Contoso назначает Теги Azure в соответствии с определением в развертывании [инфраструктуры Azure](./contoso-migration-infrastructure.md#set-up-tagging) .
 - У Contoso нет проблем с лицензированием серверов Ubuntu.
-- Contoso будет использовать службу [управления затратами Azure и выставления счетов](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview) , чтобы гарантировать, что компания останется в бюджете, установленном ИТ – лидером.
+- Contoso будет использовать службу [управления затратами Azure и выставления счетов](/azure/cost-management-billing/cost-management-billing-overview) , чтобы гарантировать, что компания останется в бюджете, установленном ИТ – лидером.

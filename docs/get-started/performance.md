@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: a288d08a359f92feada98e76990f37a2e870c2e2
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: e7c832ddfa310d176d16bdc21e28e61e99c96c63
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195911"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88281279"
 ---
 # <a name="get-started-ensure-consistent-performance-across-a-portfolio"></a>Начало работы. обеспечение согласованной производительности в портфеле
 
@@ -63,7 +63,7 @@ ms.locfileid: "88195911"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соглашениям об именовании и разметке тегов](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](https://docs.microsoft.com/azure/governance/policy/tutorials/govern-tags)с особым выделением тегов для "критическость".
+- Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соглашениям об именовании и разметке тегов](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](/azure/governance/policy/tutorials/govern-tags)с особым выделением тегов для "критическость".
 - Если вы не знакомы с управлением облаком, установите [политики управления, процессы и дисциплины](../govern/index.md) с помощью управляемой методологии.
 - Если вы не знакомы с дисциплиной управления затратами, рассмотрите [статью об улучшениях управления затратами](../govern/guides/complex/cost-management-improvement.md)и сосредоточьтесь на разделе [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
 
@@ -113,7 +113,7 @@ ms.locfileid: "88195911"
 - [Сбор данных инвентаризации](../digital-estate/inventory.md). перед внедрением Создайте исходный код для анализа цифрового пространства.
 - [Рекомендации. Служба "миграция Azure](../plan/contoso-migration-assessment.md)": Используйте службу "миграция Azure" для сбора данных инвентаризации.
 - [Инкрементное обоснование](../digital-estate/rationalize.md#incremental-rationalization). во время инкрементного рационализации используйте количественный анализ для идентификации кандидатов облака для бюджетирования.
-- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службу "Управление затратами Azure" для согласования моделей затрат и прогнозов путем [создания бюджетов](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службу "Управление затратами Azure" для согласования моделей затрат и прогнозов путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 - [Создание плана внедрения в облако](../plan/plan-intro.md#build-your-cloud-adoption-plan). Создайте план с рабочей нагрузкой, активом и сведениями о временной шкале.
 
 <!-- markdownlint-disable MD033 -->

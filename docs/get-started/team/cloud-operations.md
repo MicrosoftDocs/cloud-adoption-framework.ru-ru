@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 295266e74332649b992ad715c382122538cad5c5
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: e640b09ae9e799accc9091056e4deead73336a7e
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195798"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88281160"
 ---
 # <a name="get-started-build-a-cloud-operations-team"></a>Начало работы: создание группы облачных операций
 
@@ -185,7 +185,7 @@ ms.locfileid: "88195798"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- Создайте процесс для [адаптации новых рабочих нагрузок и ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/custom-providers/concepts-resource-onboarding).
+- Создайте процесс для [адаптации новых рабочих нагрузок и ресурсов](/azure/azure-resource-manager/custom-providers/concepts-resource-onboarding).
 
 <!-- markdownlint-disable MD033 -->
 
@@ -193,7 +193,7 @@ ms.locfileid: "88195798"
 | --- | --- |
 | <li> Группы внедрения в облако | <li> Группа по системе управления облаком <li> Группа по эксплуатации облака |
 
-## <a name="whats-next"></a>Что дальше?
+## <a name="whats-next"></a>Дальнейшие действия
 
 Как внедрение и масштабирование операций, важно определить и автоматизировать рекомендации по управлению, расширяющие существующие ИТ-требования. Формирование группы в облаке (Ккое) является важным шагом к масштабированию внедрения облака, облачных операций и действий по управлению облаком.
 

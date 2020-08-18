@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: f24fa839ebbe0a1363fe3fab75c41cc34306e788
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 8cc183da370164085aa53caa8f20d5cf6b6cdcbe
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193449"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88281857"
 ---
 <!-- cSpell:ignore givenscj WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless -->
 
@@ -72,10 +72,10 @@ ms.locfileid: "88193449"
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Рассматриваемый вопрос | Подробности |
+| Рассматриваемый вопрос | Сведения |
 | --- | --- |
 | **Преимущества** | Виртуальные машины приложений будут перемещены в Azure без изменений, упрощая миграцию. <br><br> Поскольку компания Contoso использует подход с приближением и сдвигом для обеих виртуальных машин приложений, для базы данных приложения не требуются специальные средства настройки или миграции. <br><br> Компания Contoso может воспользоваться преимуществами инвестиций в Software Assurance с помощью Преимущество гибридного использования Azure. <br><br> Contoso будет хранить полный контроль над виртуальными машинами приложений в Azure. |
-| **Недостатки** | `WEBVM` и работают `SQLVM` под Windows Server 2008 R2. Azure поддерживает операционную систему для конкретных ролей. [Подробнее](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines). <br><br> Веб-уровни и уровень данных приложения остаются едиными точками отказа. <br><br> `SQLVM` работает на SQL Server 2008 R2. SQL Server 2008 R2 больше не находится в основной поддержке, но поддерживается для виртуальных машин Azure. [Подробнее](https://docs.microsoft.com/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support). <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure или база данных SQL Azure. |
+| **Недостатки** | `WEBVM` и работают `SQLVM` под Windows Server 2008 R2. Azure поддерживает операционную систему для конкретных ролей. [Подробнее.](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines) <br><br> Веб-уровни и уровень данных приложения остаются едиными точками отказа. <br><br> `SQLVM` работает на SQL Server 2008 R2. SQL Server 2008 R2 больше не находится в основной поддержке, но поддерживается для виртуальных машин Azure. [Подробнее.](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support) <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure или база данных SQL Azure. |
 
 ### <a name="migration-process"></a>Процесс миграции
 
@@ -92,7 +92,7 @@ ms.locfileid: "88193449"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Azure Migrate: Server Migration](https://docs.microsoft.com/azure/migrate/contoso-migration-rehost-vm) (Миграция Azure: миграция сервера). | Служба управляет переносом локальных приложений и рабочих нагрузок и Amazon Web Services (AWS)/гугле облачной платформы (обеспечить). | Во время репликации в Azure взимается плата за службу хранилища Azure. Виртуальные машины Azure создаются и оплачиваются, когда выполняется миграция и виртуальные машины работают в Azure. Дополнительные сведения о [расходах и ценах](https://azure.microsoft.com/pricing/details/azure-migrate).  |
+| [Azure Migrate: Server Migration](/azure/migrate/contoso-migration-rehost-vm) (Миграция Azure: миграция сервера). | Служба управляет переносом локальных приложений и рабочих нагрузок и Amazon Web Services (AWS)/гугле облачной платформы (обеспечить). | Во время репликации в Azure взимается плата за службу хранилища Azure. Виртуальные машины Azure создаются и оплачиваются, когда выполняется миграция и виртуальные машины работают в Azure. Дополнительные сведения о [расходах и ценах](https://azure.microsoft.com/pricing/details/azure-migrate).  |
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -100,7 +100,7 @@ Contoso и другие пользователи должны соответст
 
 | Требования | Сведения |
 | --- | --- |
-| **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку и вы не являетесь администратором, обратитесь к администратору, чтобы назначить вам разрешения владельца или участника. <br><br> Если вам требуются более детализированные разрешения, ознакомьтесь с [этой статьей](https://docs.microsoft.com/azure/site-recovery/site-recovery-role-based-linked-access-control). |
+| **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку и вы не являетесь администратором, обратитесь к администратору, чтобы назначить вам разрешения владельца или участника. <br><br> Если вам требуются более детализированные разрешения, ознакомьтесь с [этой статьей](/azure/site-recovery/site-recovery-role-based-linked-access-control). |
 | **Инфраструктура Azure** | [Узнайте, как](./contoso-migration-infrastructure.md) компания Contoso настраивает инфраструктуру Azure. <br><br> Дополнительные сведения о конкретных [предварительных требованиях](./contoso-migration-devtest-to-iaas.md#prerequisites) для службы "миграция Azure": миграция сервера. |
 | **Локальные серверы** | На локальных серверах vCenter Server должна быть установлена версия 5,5, 6,0, 6,5 или 6,7. <br><br> Узлы ESXi должны работать под управлением версии 5,5, 6,0, 6,5 или 6,7. <br><br> Одна или несколько виртуальных машин VMware должны работать на узле ESXi. |
 
@@ -153,7 +153,7 @@ Contoso и другие пользователи должны соответст
 
 **Требуется дополнительная помощь?**
 
-Узнайте, как настроить [средство миграции для Azure Migration](https://docs.microsoft.com/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
+Узнайте, как настроить [средство миграции для Azure Migration](/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
 
 ### <a name="prepare-on-premises-vms"></a>Подготовка локальных виртуальных машин
 
@@ -171,7 +171,7 @@ Contoso и другие пользователи должны соответст
     - Убедитесь, что протокол RDP или SSH разрешен в брандмауэре операционной системы.
     - Для Windows задайте для политики SAN операционной системы на локальной виртуальной машине значение **OnlineAll**.
 
-3. Установите [Агент Windows для Azure](https://docs.microsoft.com/azure/virtual-machines/extensions/agent-windows).
+3. Установите [Агент Windows для Azure](/azure/virtual-machines/extensions/agent-windows).
 
 Дополнительные рекомендации
 
@@ -180,7 +180,7 @@ Contoso и другие пользователи должны соответст
 
 **Требуется дополнительная помощь?**
 
-Узнайте, как [подготовить виртуальные машины для миграции](https://docs.microsoft.com/azure/migrate/prepare-for-migration).
+Узнайте, как [подготовить виртуальные машины для миграции](/azure/migrate/prepare-for-migration).
 
 ## <a name="step-2-replicate-the-on-premises-vms"></a>Шаг 2. репликация локальных виртуальных машин
 
@@ -214,7 +214,7 @@ Contoso и другие пользователи должны соответст
     - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Выберите **Далее**.
     - Выберите **Да** , если у вас есть компьютеры Windows Server, на которых распространяется действующая программа Software Assurance или подписки Windows Server, и вы хотите применить преимущества к компьютерам, которые вы будете переносить. Выберите **Далее**.
 
-8. В разделе **Вычисления** просмотрите имя виртуальной машины, размер, тип диска ОС и группу доступности. Виртуальные машины должны соответствовать [требованиям Azure](https://docs.microsoft.com/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
+8. В разделе **Вычисления** просмотрите имя виртуальной машины, размер, тип диска ОС и группу доступности. Виртуальные машины должны соответствовать [требованиям Azure](/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
 
     - **Размер виртуальной машины:** Если вы используете рекомендации по оценке, раскрывающийся список размер виртуальной машины будет содержать рекомендуемый размер. В противном случае служба "миграция Azure" выбирает размер на основе ближайшей соответствия в подписке Azure. В качестве альтернативы выберите размер вручную в разделе **Размер виртуальной машины Azure**.
     - **Диск ОС:** Укажите диск операционной системы (загрузочный) для виртуальной машины. На диске ОС имеется загрузчик и установщик операционной системы.
@@ -267,8 +267,8 @@ Contoso и другие пользователи должны соответст
 
 **Требуется дополнительная помощь?**
 
-- Узнайте, как [выполнить тестовую миграцию](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#run-a-test-migration).
-- Узнайте, как [выполнить миграцию виртуальных машин в Azure](https://docs.microsoft.com/azure/migrate/tutorial-migrate-vmware#migrate-vms).
+- Узнайте, как [выполнить тестовую миграцию](/azure/migrate/tutorial-migrate-vmware#run-a-test-migration).
+- Узнайте, как [выполнить миграцию виртуальных машин в Azure](/azure/migrate/tutorial-migrate-vmware#migrate-vms).
 
 ## <a name="clean-up-after-migration"></a>Очистка после миграции
 
@@ -291,20 +291,20 @@ Contoso и другие пользователи должны соответст
 
 Группа безопасности Contoso рассматривает виртуальные машины Azure, чтобы определить проблемы безопасности. Чтобы можно было управлять доступом, команда проверяет группы безопасности сети (NSG) для виртуальных машин. Группы безопасности сети используются, чтобы обеспечить доступ к нему только для трафика, разрешенного приложению. Группа также рассматривает защиту данных на диске с помощью шифрования дисков Azure и Key Vault.
 
-Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](https://docs.microsoft.com/azure/security/fundamentals/iaas).
+Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](/azure/security/fundamentals/iaas).
 
 ## <a name="business-continuity-and-disaster-recovery"></a>Непрерывность бизнес-процессов и аварийное восстановление
 
 Чтобы обеспечить непрерывность бизнес-процессов и аварийное восстановление, специалисты компании Contoso выполняют указанные ниже действия.
 
-- Обеспечьте безопасность данных. contoso [создает резервные копии данных на виртуальных машинах с помощью Azure Backup](https://docs.microsoft.com/azure/backup/backup-overview).
-- Обеспечьте работоспособность приложений: contoso [реплицирует виртуальные машины приложений в Azure в дополнительный регион с помощью Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart).
+- Обеспечьте безопасность данных. contoso [создает резервные копии данных на виртуальных машинах с помощью Azure Backup](/azure/backup/backup-overview).
+- Обеспечьте работоспособность приложений: contoso [реплицирует виртуальные машины приложений в Azure в дополнительный регион с помощью Azure Site Recovery](/azure/site-recovery/azure-to-azure-quickstart).
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 
 Компания Contoso имеет существующую лицензию на виртуальные машины и будет использовать преимущества Преимущество гибридного использования Azure. Contoso преобразует имеющиеся виртуальные машины Azure, чтобы использовать льготные расценки.
 
-Компания Contoso включит службу [управления затратами Azure и выставления счетов](https://docs.microsoft.com/azure/cost-management-billing/cost-management-billing-overview) для помощи в мониторинге ресурсов Azure и управлении ими.
+Компания Contoso включит службу [управления затратами Azure и выставления счетов](/azure/cost-management-billing/cost-management-billing-overview) для помощи в мониторинге ресурсов Azure и управлении ими.
 
 ## <a name="conclusion"></a>Заключение
 

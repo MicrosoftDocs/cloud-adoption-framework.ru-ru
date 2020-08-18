@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: c886494236a71d86241c9f8d94379389fb5b0654
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 12556ddab35df0ed98cc96594bcc3d94e59ad3d1
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479387"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278389"
 ---
 <!-- docsTest:disable TODO -->
 <!-- cSpell:ignore tracsman jonor rossort NVAs iptables WAFs DDOS ITSM LLAP anycast vwan -->
@@ -230,7 +230,7 @@ _Топология виртуальной глобальной сети Azure_ 
 - [Группы безопасности сети][NSG]. Группа безопасности сети — это список правил безопасности, которые действуют как фильтрация трафика в IP-источниках, назначения IP-адресов, протоколы, IP-адреса источника и порты назначения IP-адресов (также называемые кортежем уровня 4 5). Группа безопасности сети может быть применена к подсети, виртуальному сетевому адаптеру, связанному с виртуальной машиной Azure, или к обеим. Группы безопасности сети необходимы для реализации правильного управления потоком в концентраторе и в периферийных зонах. Уровень безопасности, обеспечиваемый группой безопасности сети, — это функция, с которой открываются порты, и для каких целей. Клиентам следует применять дополнительные фильтры для каждой виртуальной машины с брандмауэрами на основе узла, такими как iptables или брандмауэр Windows.
 - [DNS][DNS]. DNS обеспечивает разрешение имен для ресурсов в виртуальном центре обработки данных. Azure предоставляет службы DNS как для [общедоступного][DNS], так и для [частного][PrivateDNS] разрешения имен. Частные зоны обеспечивают разрешение имен внутри виртуальной сети и между виртуальными сетями. Частные зоны могут не только охватывать виртуальные сети в том ж регионе, но также сети в разных регионах и подписках. Для общедоступного разрешения Azure DNS предоставляет службу размещения для доменов DNS, которая в свою очередь предоставляет разрешение имен с помощью инфраструктуры Microsoft Azure. Размещая домены в Azure, вы можете управлять своими записями DNS с помощью тех же учетных данных, API и инструментов и оплачивать использование, как и другие службы Azure.
 - Управление [группой управления][MgmtGrp], [подпиской](../ready/azure-best-practices/scale-subscriptions.md)и [группой ресурсов][RGMgmt] . Подписка определяет естественную границу, чтобы создать несколько групп ресурсов в Azure. Это разделение может быть для функции, разделения ролей или выставления счетов. Ресурсы в подписке объединяются в логические контейнеры, называемые группами ресурсов. Группа ресурсов представляет логическую группу для Организации ресурсов в виртуальном центре обработки данных. Если в вашей организации оформлено много подписок, возможно, потребуется повысить эффективность управления доступом, политиками и соответствием требованиям для этих подписок. Группы управления Azure обеспечивают высокий уровень охвата подписок. Подписки группируются в контейнеры, известные как группы управления, и применяются к группам управления. Все подписки в группе управления автоматически наследуют условия, применяемые к группе управления. Чтобы просмотреть эти три функции в иерархическом представлении, см. раздел [организация ресурсов](../ready/azure-setup-guide/organize-resources.md) в облачной инфраструктуре внедрения.
-- [Управление доступом на основе ролей (RBAC)][RBAC]. RBAC может сопоставлять роли Организации и права доступа к определенным ресурсам Azure, позволяя ограничить пользователей только определенным набором действий. Если вы синхронизируете Azure Active Directory с локальной Active Directory, вы можете использовать те же группы Active Directory в Azure, которые используются в локальной среде. С помощью RBAC доступ предоставляется путем назначения соответствующей роли пользователям, группам и приложениям в определенной области. Областью назначения роли может быть подписка Azure, группа ресурсов или отдельный ресурс. RBAC разрешает наследование разрешений. Роли, назначенной в родительской области, предоставляется доступ также к содержащимся в ней дочерним элементам. С помощью RBAC вы можете распределить обязанности и предоставить пользователям доступ на уровне, который им необходим для выполнения поставленных задач. Например, один сотрудник может управлять виртуальными машинами в подписке, в то время как другой может управлять SQL Serverными базами данных в одной подписке.
+- [Управление доступом на основе ролей (RBAC).][RBAC] RBAC может сопоставлять роли Организации и права доступа к определенным ресурсам Azure, позволяя ограничить пользователей только определенным набором действий. Если вы синхронизируете Azure Active Directory с локальной Active Directory, вы можете использовать те же группы Active Directory в Azure, которые используются в локальной среде. С помощью RBAC доступ предоставляется путем назначения соответствующей роли пользователям, группам и приложениям в определенной области. Областью назначения роли может быть подписка Azure, группа ресурсов или отдельный ресурс. RBAC разрешает наследование разрешений. Роли, назначенной в родительской области, предоставляется доступ также к содержащимся в ней дочерним элементам. С помощью RBAC вы можете распределить обязанности и предоставить пользователям доступ на уровне, который им необходим для выполнения поставленных задач. Например, один сотрудник может управлять виртуальными машинами в подписке, в то время как другой может управлять SQL Serverными базами данных в одной подписке.
 
 #### <a name="component-type-perimeter-networks"></a>Тип компонента: сети периметра
 
@@ -408,27 +408,90 @@ Azure Monitor также позволяет создавать настраив�
 
 Как [диспетчер трафика Azure][azure-traffic-manager] , так и [Передняя дверца Azure][azure-front-door] периодически проверяют работоспособность службы прослушивания конечных точек в различных реализациях в постоянного тока и, если эти конечные точки завершаются сбоем, автоматически перенаправляются в ближайшее к ближайшему Диспетчер трафика использует измерения пользователей в режиме реального времени и DNS для направления пользователей к ближайшему (или следующему ближайшему к возникновению) сбою. Передняя дверца Azure — это обратный прокси-сервер с более чем 100 магистральными сайтами Майкрософт, который используется для направления пользователей на ближайшую конечную точку прослушивания.
 
-### <a name="summary"></a>Итоги
+### <a name="summary"></a>Сводка
 
 Подход виртуального центра обработки данных к миграции центра обработки Datacenter создает масштабируемую архитектуру, которая оптимизирует использование ресурсов Azure, снижает затраты и упрощает управление системой. Виртуальный центр обработки данных обычно основан на топологиях концентратора и периферийной сети (с использованием пиринга виртуальных сетей или виртуальных концентраторов глобальной сети). Общие общие службы, предоставляемые в концентраторе, и определенные приложения и рабочие нагрузки развертываются на периферийных ресурсах. Виртуальный центр обработки данных также соответствует структуре ролей компании, где различные подразделения, такие как Центральная ИТ, DevOps, а также все операции и обслуживание работают вместе при выполнении конкретных ролей. Виртуальный центр обработки данных поддерживает миграцию существующих локальных рабочих нагрузок в Azure, но также предоставляет множество преимуществ для развертываний в собственном облаке.
 
-## <a name="references"></a>Ссылки (на английском языке)
+## <a name="references"></a>Ссылки
 
 Дополнительные сведения о возможностях Azure, обсуждаемых в этом документе.
 
 <!-- markdownlint-disable MD033 -->
 
-| Сетевые функции | Балансировка нагрузки | Соединение |
-| --- | --- | --- |
-| [Виртуальные сети Azure][virtual-network] <br> [Группы безопасности сети][NSG] <br> [Конечные точки службы][ServiceEndpoints] <br> [Приватный канал][PrivateLink] <br> [Определяемые пользователем маршруты][UDR] <br> [Виртуальные сетевые модули][NVA] <br> [общедоступные IP-адреса][PIP] <br> [Azure DNS][DNS] | [Azure Front Door][azure-front-door] <br> [Azure Load Balancer (уровень 4)][ALB] <br> [Шлюз приложений (на уровне 7)][AppGW] <br> [Диспетчер трафика Azure][azure-traffic-manager] <br><br><br><br><br> | [Пиринг между виртуальными сетями][virtual-network-peering] <br> [Виртуальная частная сеть][VPN] <br> [Виртуальная глобальная сеть][virtual-wan] <br> [ExpressRoute][ExR] <br> [Непосредственный ExpressRoute][ExRD] <br><br><br><br><br> |
+:::row:::
+    :::column:::
+        **Сетевые компоненты** <br>
+        [Виртуальные сети Azure][virtual-network] <br>
+        [Группы безопасности сети][NSG] <br>
+        [Конечные точки службы][ServiceEndpoints] <br>
+        [Приватный канал][PrivateLink] <br>
+        [Определяемые пользователем маршруты][UDR] <br>
+        [Виртуальные сетевые модули][NVA] <br>
+        [общедоступные IP-адреса][PIP] <br>
+        [Azure DNS][DNS]
+    :::column-end:::
+    :::column:::
+        **Балансировка нагрузки** <br>
+        [Azure Front Door][azure-front-door] <br>
+        [Azure Load Balancer (уровень 4)][ALB] <br>
+        [Шлюз приложений (на уровне 7)][AppGW] <br>
+        [Azure Traffic Manager][azure-traffic-manager]
+    :::column-end:::
+    :::column:::
+        **Соединение** <br>
+        [Пиринг между виртуальными сетями][virtual-network-peering] <br>
+        [Виртуальная частная сеть][VPN] <br>
+        [Виртуальная глобальная сеть][virtual-wan] <br>
+        [ExpressRoute][ExR] <br>
+        [Непосредственный ExpressRoute][ExRD]
+    :::column-end:::
+:::row-end:::
 
-| Идентификация | Наблюдение | Рекомендации |
-| --- | --- | --- |
-| [Azure Active Directory][azure-ad] <br>[Многофакторная идентификация][multi-factor-authentication] <br> [Управление доступом на основе ролей][RBAC] <br> [Роли Azure AD по умолчанию][Roles] <br><br><br> | [Наблюдатель за сетями][NetWatch] <br> [Azure Monitor][MonitorOverview] <br> [Служба Log Analytics][LogAnalytics] <br> | [Группа управления][MgmtGrp] <br> [Управление подписками](../ready/azure-best-practices/scale-subscriptions.md) <br> [Управление группой ресурсов][RGMgmt] <br> [Ограничения подписки Azure][limits] <br><br><br> |
+:::row:::
+    :::column:::
+        **Удостоверение** <br>
+        [Azure Active Directory][azure-ad] <br>
+        [Многофакторная идентификация][multi-factor-authentication] <br>
+        [Управление доступом на основе ролей][RBAC] <br>
+        [Роли Azure AD по умолчанию][Roles]
+    :::column-end:::
+    :::column:::
+        **Мониторинг** <br>
+        [Наблюдатель за сетями][NetWatch] <br>
+        [Azure Monitor][MonitorOverview] <br>
+        [Служба Log Analytics][LogAnalytics]
+    :::column-end:::
+    :::column:::
+        **Рекомендации** <br>
+        [Группа управления][MgmtGrp] <br>
+        [Управление подписками](../ready/azure-best-practices/scale-subscriptions.md) <br>
+        [Управление группой ресурсов][RGMgmt] <br>
+        [Ограничения подписки Azure][limits]
+    :::column-end:::
+:::row-end:::
 
-| Безопасность | Прочие службы Azure | |
-|-|-|-|
-| [Брандмауэр Azure][AzFW] <br> [Диспетчер брандмауэра][AzFWMgr] <br> [WAF шлюза приложений][AppGWWAF] <br> [Передняя дверь WAF][AFDWAF] <br> [Защита от атак DDoS Azure][DDoS] <br> | [Служба хранилища Azure][Storage] <br> [Azure SQL][SQL] <br> [Веб-приложения Azure][WebApps] <br> [Azure Cosmos DB][cosmos-db] <br> [HDInsight][HDInsight] | [Центры событий][EventHubs] <br> [Служебная шина][ServiceBus] <br> [Azure IoT][IoT] <br> [Машинное обучение Azure][machine-learning] |
+:::row:::
+    :::column:::
+        **Безопасность** <br>
+        [Брандмауэр Azure][AzFW] <br>
+        [Диспетчер брандмауэра][AzFWMgr] <br>
+        [WAF шлюза приложений][AppGWWAF] <br>
+        [Передняя дверь WAF][AFDWAF] <br>
+        [Защита от атак DDoS Azure][DDoS]
+    :::column-end:::
+    :::column:::
+        **Другие службы Azure** <br>
+        [Хранилище Azure][Storage] <br>
+        [Azure SQL][SQL] <br>
+        [Веб-приложения Azure][WebApps] <br>
+        [Azure Cosmos DB][cosmos-db] <br>
+        [HDInsight][HDInsight] <br>
+        [Центры событий][EventHubs] <br>
+        [Служебная шина][ServiceBus] <br>
+        [Azure IoT][IoT] <br>
+        [Машинное обучение Azure][machine-learning]
+    :::column-end:::
+:::row-end:::
 
 <!-- markdownlint-enable MD033 -->
 
@@ -458,49 +521,49 @@ Azure Monitor также позволяет создавать настраив�
 
 <!-- links -->
 
-[limits]: https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits
-[Roles]: https://docs.microsoft.com/azure/role-based-access-control/built-in-roles
-[virtual-network]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview
-[NSG]: https://docs.microsoft.com/azure/virtual-network/security-overview
-[PrivateLink]: https://docs.microsoft.com/azure/private-link/private-link-overview
-[PrivateLinkSvc]: https://docs.microsoft.com/azure/private-link/private-link-service-overview
-[ServiceEndpoints]: https://docs.microsoft.com/azure/virtual-network/virtual-network-service-endpoints-overview
-[DNS]: https://docs.microsoft.com/azure/dns/dns-overview
-[PrivateDNS]: https://docs.microsoft.com/azure/dns/private-dns-overview
-[virtual-network-peering]: https://docs.microsoft.com/azure/virtual-network/virtual-network-peering-overview
-[UDR]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview
-[RBAC]: https://docs.microsoft.com/azure/role-based-access-control/overview
-[multi-factor-authentication]: https://docs.microsoft.com/azure/active-directory/authentication/concept-mfa-howitworks
-[azure-ad]: https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis
-[VPN]: https://docs.microsoft.com/azure/vpn-gateway/vpn-gateway-about-vpngateways
-[ExR]: https://docs.microsoft.com/azure/expressroute/expressroute-introduction
-[ExRD]: https://docs.microsoft.com/azure/expressroute/expressroute-erdirect-about
-[virtual-wan]: https://docs.microsoft.com/azure/virtual-wan/virtual-wan-about
-[NVA]: https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/nva-ha
-[AzFW]: https://docs.microsoft.com/azure/firewall/overview
-[AzFWMgr]: https://docs.microsoft.com/azure/firewall-manager/overview
-[MgmtGrp]: https://docs.microsoft.com/azure/governance/management-groups/overview
-[RGMgmt]: https://docs.microsoft.com/azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group
-[ALB]: https://docs.microsoft.com/azure/load-balancer/load-balancer-overview
-[DDoS]: https://docs.microsoft.com/azure/virtual-network/ddos-protection-overview
-[PIP]: https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address
-[azure-front-door]: https://docs.microsoft.com/azure/frontdoor/front-door-overview
-[AFDWAF]: https://docs.microsoft.com/azure/web-application-firewall/afds/afds-overview
-[AppGW]: https://docs.microsoft.com/azure/application-gateway/overview
-[AppGWWAF]: https://docs.microsoft.com/azure/web-application-firewall/ag/ag-overview
-[MonitorOverview]: https://docs.microsoft.com/azure/networking/networking-overview#monitor
-[AzureMonitor]: https://docs.microsoft.com/azure/azure-monitor/overview
-[Metrics]: https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-metrics
-[Logs]: https://docs.microsoft.com/azure/azure-monitor/platform/data-platform-logs
-[LogAnalytics]: https://docs.microsoft.com/azure/azure-monitor/log-query/get-started-portal
-[NetWatch]: https://docs.microsoft.com/azure/network-watcher/network-watcher-monitoring-overview
-[WebApps]: https://docs.microsoft.com/azure/app-service/
-[HDInsight]: https://docs.microsoft.com/azure/hdinsight/hdinsight-overview
-[EventHubs]: https://docs.microsoft.com/azure/event-hubs/event-hubs-about
-[ServiceBus]: https://docs.microsoft.com/azure/service-bus-messaging/service-bus-messaging-overview
-[azure-traffic-manager]: https://docs.microsoft.com/azure/traffic-manager/traffic-manager-overview
-[Storage]: https://docs.microsoft.com/azure/storage/common/storage-introduction
-[SQL]: https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview
-[cosmos-db]: https://docs.microsoft.com/azure/cosmos-db/introduction
-[IoT]: https://docs.microsoft.com/azure/iot-fundamentals/iot-introduction
-[machine-learning]: https://docs.microsoft.com/azure/machine-learning/overview-what-is-azure-ml
+[limits]: /azure/azure-resource-manager/management/azure-subscription-service-limits
+[Roles]: /azure/role-based-access-control/built-in-roles
+[virtual-network]: /azure/virtual-network/virtual-networks-overview
+[NSG]: /azure/virtual-network/security-overview
+[PrivateLink]: /azure/private-link/private-link-overview
+[PrivateLinkSvc]: /azure/private-link/private-link-service-overview
+[ServiceEndpoints]: /azure/virtual-network/virtual-network-service-endpoints-overview
+[DNS]: /azure/dns/dns-overview
+[PrivateDNS]: /azure/dns/private-dns-overview
+[virtual-network-peering]: /azure/virtual-network/virtual-network-peering-overview
+[UDR]: /azure/virtual-network/virtual-networks-udr-overview
+[RBAC]: /azure/role-based-access-control/overview
+[multi-factor-authentication]: /azure/active-directory/authentication/concept-mfa-howitworks
+[azure-ad]: /azure/active-directory/fundamentals/active-directory-whatis
+[VPN]: /azure/vpn-gateway/vpn-gateway-about-vpngateways
+[ExR]: /azure/expressroute/expressroute-introduction
+[ExRD]: /azure/expressroute/expressroute-erdirect-about
+[virtual-wan]: /azure/virtual-wan/virtual-wan-about
+[NVA]: /azure/architecture/reference-architectures/dmz/nva-ha
+[AzFW]: /azure/firewall/overview
+[AzFWMgr]: /azure/firewall-manager/overview
+[MgmtGrp]: /azure/governance/management-groups/overview
+[RGMgmt]: /azure/azure-resource-manager/management/manage-resource-groups-portal#what-is-a-resource-group
+[ALB]: /azure/load-balancer/load-balancer-overview
+[DDoS]: /azure/virtual-network/ddos-protection-overview
+[PIP]: /azure/virtual-network/virtual-network-public-ip-address
+[azure-front-door]: /azure/frontdoor/front-door-overview
+[AFDWAF]: /azure/web-application-firewall/afds/afds-overview
+[AppGW]: /azure/application-gateway/overview
+[AppGWWAF]: /azure/web-application-firewall/ag/ag-overview
+[MonitorOverview]: /azure/networking/networking-overview#monitor
+[AzureMonitor]: /azure/azure-monitor/overview
+[Metrics]: /azure/azure-monitor/platform/data-platform-metrics
+[Logs]: /azure/azure-monitor/platform/data-platform-logs
+[LogAnalytics]: /azure/azure-monitor/log-query/get-started-portal
+[NetWatch]: /azure/network-watcher/network-watcher-monitoring-overview
+[WebApps]: /azure/app-service/
+[HDInsight]: /azure/hdinsight/hdinsight-overview
+[EventHubs]: /azure/event-hubs/event-hubs-about
+[ServiceBus]: /azure/service-bus-messaging/service-bus-messaging-overview
+[azure-traffic-manager]: /azure/traffic-manager/traffic-manager-overview
+[Storage]: /azure/storage/common/storage-introduction
+[SQL]: /azure/sql-database/sql-database-technical-overview
+[cosmos-db]: /azure/cosmos-db/introduction
+[IoT]: /azure/iot-fundamentals/iot-introduction
+[machine-learning]: /azure/machine-learning/overview-what-is-azure-ml

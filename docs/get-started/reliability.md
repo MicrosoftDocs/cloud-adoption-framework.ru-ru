@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: aac7c3407ef394770592dc2af14189a09366887e
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 7363ae87a43eac60e1ee71f1e632c431994683f1
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195862"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88281245"
 ---
 # <a name="get-started-improve-reliability-with-the-right-controls"></a>Начало работы. повышение надежности с помощью правильных элементов управления
 
@@ -51,7 +51,7 @@ ms.locfileid: "88195862"
   - [Оперативное соответствие](../manage/considerations/operational-compliance.md). наибольшие проценты простоев обычно происходят из изменений в конфигурации ресурсов или при неудовлетворительных приемах обслуживания. Следуйте инструкциям [руководства по управлению сервером Azure](../manage/azure-server-management/index.md) , чтобы реализовать собственные средства для управления исправлениями и изменения конфигурации ресурсов.
   - [Защита и восстановление](../manage/considerations/protect.md): сбои неизбежны на любой платформе. В случае нарушения работы подготовьте [решения резервного копирования и восстановления](../manage/azure-management-guide/protect-recover.md) , чтобы минимизировать длительность.
 - [Дополнительные операции](../manage/design-principles.md). Используйте базовый план управления в качестве основы для ваших обсуждений по [Организации](../manage/considerations/business-alignment.md) . Он позволяет ясно обсуждать [критические](../manage/considerations/criticality.md)и [деловые последствия](../manage/considerations/impact.md)и [обязательства по эксплуатации](../manage/considerations/commitment.md). Деловое выравнивание помогает количественным и проверенным запросам на [Расширенные базовые показатели](../manage/azure-management-guide/enhanced-baseline.md), управление конкретными [технологическими платформами](../manage/azure-management-guide/workload-specialization.md)или [операции, связанные с рабочей нагрузкой](../manage/azure-management-guide/platform-specialization.md).
-- **Руководство по проверке архитектуры:** Для удовлетворения требований к операциям могут потребоваться изменения архитектуры на уровне рабочей нагрузки. [Microsoft Azure хорошо спроектированная платформа](https://docs.microsoft.com/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure хорошо спроектированная проверка](https://docs.microsoft.com/assessments?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
+- **Руководство по проверке архитектуры:** Для удовлетворения требований к операциям могут потребоваться изменения архитектуры на уровне рабочей нагрузки. [Microsoft Azure хорошо спроектированная платформа](/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure хорошо спроектированная проверка](/assessments?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -71,7 +71,7 @@ ms.locfileid: "88195862"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соответствующим соглашениям об именовании и маркировке](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](https://docs.microsoft.com/azure/governance/policy/tutorials/govern-tags)с особым акцентом на теги для обеспечения важности.
+- Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соответствующим соглашениям об именовании и маркировке](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](/azure/governance/policy/tutorials/govern-tags)с особым акцентом на теги для обеспечения важности.
 - Если вы не знакомы с управлением облаком, установите [политики управления, процессы и дисциплины](../govern/index.md) с помощью управляемой методологии.
 - Если вы не знакомы с дисциплиной управления затратами, следуйте указаниям в статье [улучшения управления затратами](../govern/guides/complex/cost-management-improvement.md) . Сосредоточьтесь на разделе [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
 
@@ -128,7 +128,7 @@ ms.locfileid: "88195862"
 - [Сбор данных инвентаризации](../digital-estate/inventory.md): Создайте источник для анализа цифрового пространства перед внедрением.
 - [Рекомендации. Служба "миграция Azure](../plan/contoso-migration-assessment.md)": Используйте службу "миграция Azure" для сбора данных инвентаризации.
 - [Инкрементное обоснование](../digital-estate/rationalize.md#incremental-rationalization). во время инкрементного рационализации количественный анализ может обозначать облачные кандидаты для целей бюджетирования.
-- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службу "Управление затратами Azure" для согласования моделей затрат и прогнозов путем [создания бюджетов](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службу "Управление затратами Azure" для согласования моделей затрат и прогнозов путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 - [Создание плана внедрения в облако](../plan/plan-intro.md#build-your-cloud-adoption-plan). Создайте план с рабочей нагрузкой, активами и сведениями о временной шкале.
 
 <!-- markdownlint-disable MD033 -->

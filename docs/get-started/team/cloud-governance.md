@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: d2b8ba3cb20d93ad0ed4d5eb9ec6bf8fe6dbe0fb
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: c46c7e82800a984450bd939259b91f77f1a2b130
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195821"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88281143"
 ---
 # <a name="get-started-build-a-cloud-governance-team"></a>Приступая к работе. Создание группы по управлению облаком
 
@@ -174,7 +174,7 @@ ms.locfileid: "88195821"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- Создайте процесс для [адаптации новых рабочих нагрузок и ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/custom-providers/concepts-resource-onboarding).
+- Создайте процесс для [адаптации новых рабочих нагрузок и ресурсов](/azure/azure-resource-manager/custom-providers/concepts-resource-onboarding).
 
 <!-- markdownlint-disable MD033 -->
 <br>
@@ -183,7 +183,7 @@ ms.locfileid: "88195821"
 | --- | --- |
 | <li> Группы внедрения в облако | <li> Группа по системе управления облаком <li> Группа по эксплуатации облака |
 
-## <a name="whats-next"></a>Что дальше?
+## <a name="whats-next"></a>Дальнейшие действия
 
 Все компании являются уникальными, и поэтому их потребности в управлении. Выберите уровень зрелости, соответствующий вашей организации, и используйте платформу внедрения облачных решений, чтобы ознакомиться с методиками, процессами и инструментами, которые помогут вам в этом.
 
