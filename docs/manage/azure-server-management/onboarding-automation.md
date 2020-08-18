@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: d7cd6222ec973177b1b7f2edeb2df451b17348a7
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 31524ca196245c1c1aab963167cf3af28ac190e4
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86193598"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284084"
 ---
 # <a name="automate-onboarding"></a>Автоматизация адаптации
 
@@ -22,7 +22,7 @@ ms.locfileid: "86193598"
 
 В примерах файлов показано, как использовать командлеты Azure PowerShell для автоматизации следующих задач:
 
-- Создайте [рабочую область log Analytics](https://docs.microsoft.com/azure/azure-monitor/platform/manage-access). (Или используйте существующую рабочую область, если она соответствует требованиям. Дополнительные сведения см. в разделе [планирование рабочей области](./prerequisites.md#log-analytics-workspace-and-automation-account-planning).
+- Создайте [рабочую область log Analytics](/azure/azure-monitor/platform/manage-access). (Или используйте существующую рабочую область, если она соответствует требованиям. Дополнительные сведения см. в разделе [планирование рабочей области](./prerequisites.md#log-analytics-workspace-and-automation-account-planning).
 
 - Создайте учетную запись службы автоматизации или используйте существующую учетную запись, которая соответствует требованиям. Дополнительные сведения см. в разделе [планирование рабочей области](./prerequisites.md#log-analytics-workspace-and-automation-account-planning).
 

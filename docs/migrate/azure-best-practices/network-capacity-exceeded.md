@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: bbc61656c54f4f73af55ca465206331cfa291a8b
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 85ac7ab8dccaf41e2abcdd66337252cb8f70b811
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196652"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284747"
 ---
 <!-- cSpell:ignore HDFS databox VHDX -->
 
@@ -32,7 +32,7 @@ ms.locfileid: "88196652"
 
 **Автономная перенос независимых хранилищ данных:** На следующей схеме показаны примеры передачи данных в сети и в автономном режиме с помощью Azure Data Box. Эти подходы можно использовать для доставки больших объемов данных в облако до миграции рабочей нагрузки. При переносе данных в автономном режиме данные из источника копируются в Azure Data Box, который физически передается в корпорацию Майкрософт для перемещения в учетную запись хранения Azure в виде файла или большого двоичного объекта. До других усилий по миграции можно использовать этот процесс для доставки данных, которые не привязаны напрямую к определенной рабочей нагрузке. Это сокращает объем данных, которые необходимо отгрузить по сети, и поддерживает завершение миграции в пределах ограничений сети.
 
-Этот подход можно использовать для перемещения данных из HDFS, резервных копий, архивов, файловых серверов и приложений. В существующем техническом руководстве объясняется, как использовать этот подход для перемещения данных [из хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [протокола SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [RESTful](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest)или [службы копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) для Data Box.
+Этот подход можно использовать для перемещения данных из HDFS, резервных копий, архивов, файловых серверов и приложений. В существующем техническом руководстве объясняется, как использовать этот подход для перемещения данных [из хранилища HDFS](/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [протокола SMB](/azure/databox/data-box-deploy-copy-data), [NFS](/azure/databox/data-box-deploy-copy-data-via-nfs), [RESTful](/azure/databox/data-box-deploy-copy-data-via-rest)или [службы копирования данных](/azure/databox/data-box-deploy-copy-data-via-copy-service) для Data Box.
 
 Существуют также сторонние решения партнеров, которые используют Azure Data Box для миграции. С помощью этих решений вы перемещаете большой объем данных при перемещении в автономный режим, но затем синхронизируйте его позже по сети.
 
@@ -63,13 +63,13 @@ ms.locfileid: "88196652"
 
 ### <a name="suggested-action-during-the-migration-process"></a>Предлагаемое действие в процессе миграции
 
-**Копировать хранилище:** Этот подход можно использовать для перемещения данных HDFS, резервных копий, архивов, файловых серверов или приложений. В существующем техническом руководстве объясняется, как использовать этот подход для перемещения данных [из хранилища HDFS](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [протокола SMB](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data), [NFS](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-nfs), [RESTful](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-rest)или [службы копирования данных](https://docs.microsoft.com/azure/databox/data-box-deploy-copy-data-via-copy-service) для Data Box.
+**Копировать хранилище:** Этот подход можно использовать для перемещения данных HDFS, резервных копий, архивов, файловых серверов или приложений. В существующем техническом руководстве объясняется, как использовать этот подход для перемещения данных [из хранилища HDFS](/azure/storage/blobs/data-lake-storage-migrate-on-premises-hdfs-cluster) или с дисков с помощью [протокола SMB](/azure/databox/data-box-deploy-copy-data), [NFS](/azure/databox/data-box-deploy-copy-data-via-nfs), [RESTful](/azure/databox/data-box-deploy-copy-data-via-rest)или [службы копирования данных](/azure/databox/data-box-deploy-copy-data-via-copy-service) для Data Box.
 
 Существуют также сторонние решения партнеров, которые используют Azure Data Box для миграции. С помощью этих решений вы перемещаете большой объем данных при перемещении в автономный режим, но затем синхронизируйте его позже по сети.
 
-**Доставка устройства:** После копирования данных можно [Отправить устройство в корпорацию Майкрософт](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up). После получения и импорта данных они доступны в учетной записи хранения Azure.
+**Доставка устройства:** После копирования данных можно [Отправить устройство в корпорацию Майкрософт](/azure/databox/data-box-deploy-picked-up). После получения и импорта данных они доступны в учетной записи хранения Azure.
 
-**Восстановите ресурс** . [Убедитесь, что данные](https://docs.microsoft.com/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure) доступны в учетной записи хранения. В этом случае данные можно использовать в качестве большого двоичного объекта или в службе файлов Azure. Если данные являются файлом VHD или VHDX, его можно преобразовать в управляемые диски. Затем эти управляемые диски можно использовать для создания экземпляра виртуальной машины, которая представляет собой реплику исходного локального ресурса.
+**Восстановите ресурс** . [Убедитесь, что данные](/azure/databox/data-box-deploy-picked-up#verify-data-upload-to-azure) доступны в учетной записи хранения. В этом случае данные можно использовать в качестве большого двоичного объекта или в службе файлов Azure. Если данные являются файлом VHD или VHDX, его можно преобразовать в управляемые диски. Затем эти управляемые диски можно использовать для создания экземпляра виртуальной машины, которая представляет собой реплику исходного локального ресурса.
 
 **Синхронизация:** Если синхронизация смещения является требованием для перенесенного ресурса, можно использовать одно из сторонних решений партнеров для синхронизации файлов до восстановления ресурса.
 
@@ -81,7 +81,7 @@ ms.locfileid: "88196652"
 
 Это изменение в области действия не влияет на безопасность и управление действиями.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Вернитесь к контрольному списку, чтобы убедиться, что метод миграции полностью согласован.
 

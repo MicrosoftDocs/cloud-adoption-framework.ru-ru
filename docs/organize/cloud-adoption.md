@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: c2f030d594a3bdb3ef195252187ae3c033c06e27
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: c0506a97775f6686fd5a247c49ca81eee546d999
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755811"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284798"
 ---
 # <a name="cloud-adoption-functions"></a>Функции внедрения облачных технологий
 
@@ -35,10 +35,10 @@ ms.locfileid: "83755811"
 
 ## <a name="preparation"></a>Подготовка
 
-- [Создание учетной записи Azure](https://docs.microsoft.com/learn/modules/create-an-azure-account). первый шаг в работе с Azure — создание учетной записи.
-- [Портал Azure](https://docs.microsoft.com/learn/modules/tour-azure-portal): обзор функций и служб портал Azure и Настройка портала.
-- [Введение в Azure](https://docs.microsoft.com/learn/modules/welcome-to-azure): Начало работы с Azure. Создайте и настройте первую виртуальную машину в облаке.
-- [Основы Azure](https://docs.microsoft.com/learn/paths/azure-for-the-data-engineer). Узнайте о концепциях облака, получите доступ к преимуществам, Сравните основные стратегии и Узнайте о различных службах, доступных в Azure.
+- [Создание учетной записи Azure](/learn/modules/create-an-azure-account). первый шаг в работе с Azure — создание учетной записи.
+- [Портал Azure](/learn/modules/tour-azure-portal): обзор функций и служб портал Azure и Настройка портала.
+- [Введение в Azure](/learn/modules/welcome-to-azure): Начало работы с Azure. Создайте и настройте первую виртуальную машину в облаке.
+- [Основы Azure](/learn/paths/azure-for-the-data-engineer). Узнайте о концепциях облака, получите доступ к преимуществам, Сравните основные стратегии и Узнайте о различных службах, доступных в Azure.
 - Ознакомьтесь с [методологией миграции](../migrate/index.md).
 
 ## <a name="minimum-scope"></a>Минимальная область

@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 10d5d7b477f3be60d81a58320387bdd9af5835cc
-ms.sourcegitcommit: 264382fcb31ad0c6387c15a74127f288f8920995
+ms.openlocfilehash: 92713f59e2b5c862bcad18310bbce254d4d70fcb
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/05/2020
-ms.locfileid: "87805432"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285036"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
@@ -81,17 +81,17 @@ ms.locfileid: "87805432"
 
 3. Развертывание и настройка зоны Частная зона DNS Azure.
 
-4. Подготавливайте каналы ExpressRoute с помощью частного пиринга Azure. Следуйте инструкциям в статье [Создание и изменение пиринга для канала ExpressRoute](https://docs.microsoft.com/azure/expressroute/expressroute-howto-routing-portal-resource-manager#private) .
+4. Подготавливайте каналы ExpressRoute с помощью частного пиринга Azure. Следуйте инструкциям в статье [Создание и изменение пиринга для канала ExpressRoute](/azure/expressroute/expressroute-howto-routing-portal-resource-manager#private) .
 
 5. Подключите локальные ХКС/DC к виртуальным концентраторам виртуальных глобальных сетей Azure через каналы ExpressRoute.
 
 6. Защитите трафик виртуальной сети между виртуальными концентраторами с помощью группы безопасности сети.
 
-7. Используемых Настройка шифрования через частный пиринг ExpressRoute. Следуйте инструкциям в разделе [Шифрование expressroute: IPSec через ExpressRoute для виртуальной глобальной сети](https://docs.microsoft.com/azure/virtual-wan/vpn-over-expressroute).
+7. Используемых Настройка шифрования через частный пиринг ExpressRoute. Следуйте инструкциям в разделе [Шифрование expressroute: IPSec через ExpressRoute для виртуальной глобальной сети](/azure/virtual-wan/vpn-over-expressroute).
 
-8. Используемых Подключите ветви к виртуальному концентратору через VPN. Следуйте инструкциям в статье [Создание подключения типа "сеть — сеть" с помощью виртуальной глобальной сети Azure](https://docs.microsoft.com/azure/virtual-wan/virtual-wan-site-to-site-portal).
+8. Используемых Подключите ветви к виртуальному концентратору через VPN. Следуйте инструкциям в статье [Создание подключения типа "сеть — сеть" с помощью виртуальной глобальной сети Azure](/azure/virtual-wan/virtual-wan-site-to-site-portal).
 
-9. Используемых Настройте Global Reach ExpressRoute для подключения к локальным контроллерам домена (ХКС), если в Azure с помощью ExpressRoute подключено несколько локальных расположений. Следуйте инструкциям в разделе [Настройка ExpressRoute Global REACH](https://docs.microsoft.com/azure/expressroute/expressroute-howto-set-global-reach).
+9. Используемых Настройте Global Reach ExpressRoute для подключения к локальным контроллерам домена (ХКС), если в Azure с помощью ExpressRoute подключено несколько локальных расположений. Следуйте инструкциям в разделе [Настройка ExpressRoute Global REACH](/azure/expressroute/expressroute-howto-set-global-reach).
 
 В следующем списке приведены назначения политик Azure, используемые при реализации сетевых ресурсов для развертывания корпоративного уровня.
 

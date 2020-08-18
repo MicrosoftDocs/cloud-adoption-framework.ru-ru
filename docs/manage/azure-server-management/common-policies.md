@@ -7,19 +7,19 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 492a1f58848c0889bc80d6e5b535019e785f5c34
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 9433874b74789b83f5a7b025aee259937303050a
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84785469"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284135"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 
-[Политика Azure](https://docs.microsoft.com/azure/governance/policy/overview) поможет вам применить управление к облачным ресурсам. Эта служба поможет вам создать снятие, обеспечивающую соответствие требованиям политики управления в масштабах всей Организации. Чтобы создать политики, используйте командлеты портал Azure или PowerShell. В этой статье приведены примеры командлетов PowerShell.
+[Политика Azure](/azure/governance/policy/overview) поможет вам применить управление к облачным ресурсам. Эта служба поможет вам создать снятие, обеспечивающую соответствие требованиям политики управления в масштабах всей Организации. Чтобы создать политики, используйте командлеты портал Azure или PowerShell. В этой статье приведены примеры командлетов PowerShell.
 
 > [!NOTE]
-> С помощью политики Azure политики принудительного применения ( `DeployIfNotExists` ) не развертываются автоматически на существующих виртуальных машинах. Для обеспечения соответствия виртуальных машин требуется исправление. Дополнительные сведения см. в статье [исправление несоответствующих ресурсов с помощью политики Azure](https://docs.microsoft.com/azure/governance/policy/how-to/remediate-resources).
+> С помощью политики Azure политики принудительного применения ( `DeployIfNotExists` ) не развертываются автоматически на существующих виртуальных машинах. Для обеспечения соответствия виртуальных машин требуется исправление. Дополнительные сведения см. в статье [исправление несоответствующих ресурсов с помощью политики Azure](/azure/governance/policy/how-to/remediate-resources).
 
 ## <a name="common-policy-examples"></a>Примеры общих политик
 
@@ -36,7 +36,7 @@ Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq 'BuiltIn')
   -and ($_.Properties.displayName -like '*location*') }
 ```
 
-В следующем сценарии показано, как назначить политику. Измените `$SubscriptionID` значение, указав подписку, которой вы хотите назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Измените `$SubscriptionID` значение, указав подписку, которой вы хотите назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
 
 ```powershell
 # Specify the value for $SubscriptionID.
@@ -75,7 +75,7 @@ Azure предлагает широкий спектр размеров вирт
 
 GUID политики — `2835b622-407b-4114-9198-6f7064cbe0dc` .
 
-В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение так, `$SubscriptionID` чтобы оно указывало на подписку, которой необходимо назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение так, `$SubscriptionID` чтобы оно указывало на подписку, которой необходимо назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
 
 ```powershell
 # Specify the value for $SubscriptionID.

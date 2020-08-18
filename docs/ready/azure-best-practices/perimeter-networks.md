@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: 4e97a1140d80a201489e86b5652a15b11b508e60
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 739c744fd1d3d605d597a929a78f811c74739220
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479880"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284849"
 ---
 <!-- cSpell:ignore tracsman jonor rossort NVAs WAFs -->
 
@@ -37,8 +37,8 @@ ms.locfileid: "86479880"
 > [!NOTE]
 > Эталонные архитектуры Azure содержат примеры шаблонов, которые можно использовать для реализации собственных сетей периметра:
 >
-> - [Реализация сети периметра между Azure и локальным центром обработки данных](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz)
-> - [Реализация сети периметра между Azure и Интернетом](https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+> - [Реализация сети периметра между Azure и локальным центром обработки данных](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz)
+> - [Реализация сети периметра между Azure и Интернетом](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
 
 Как правило, Центральная группа ИТ и группы безопасности несут ответственность за определение требований к работе с сетями периметра.
 
@@ -113,16 +113,16 @@ SKU WAF шлюза приложений Azure включает брандмау�
 
 <!-- links -->
 
-[Virtual-networks]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-overview
-[Network-security-groups]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-nsg
-[User-defined-routes]: https://docs.microsoft.com/azure/virtual-network/virtual-networks-udr-overview
-[Network-virtual-appliances]: https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/nva-ha
-[Azure-firewall]: https://docs.microsoft.com/azure/firewall/overview
-[Perimeter-network]: https://docs.microsoft.com/azure/best-practices-network-security
-[Alb]: https://docs.microsoft.com/azure/load-balancer/load-balancer-overview
-[DDoS]: https://docs.microsoft.com/azure/virtual-network/ddos-protection-overview
-[PIP]: https://docs.microsoft.com/azure/virtual-network/virtual-network-public-ip-address
-[Afd]: https://docs.microsoft.com/azure/frontdoor/front-door-overview
-[Afdwaf]: https://docs.microsoft.com/azure/frontdoor/waf-overview
-[Appgw]: https://docs.microsoft.com/azure/application-gateway/application-gateway-introduction
-[Appgwwaf]: https://docs.microsoft.com/azure/application-gateway/application-gateway-web-application-firewall-overview
+[Virtual-networks]: /azure/virtual-network/virtual-networks-overview
+[Network-security-groups]: /azure/virtual-network/virtual-networks-nsg
+[User-defined-routes]: /azure/virtual-network/virtual-networks-udr-overview
+[Network-virtual-appliances]: /azure/architecture/reference-architectures/dmz/nva-ha
+[Azure-firewall]: /azure/firewall/overview
+[Perimeter-network]: /azure/best-practices-network-security
+[Alb]: /azure/load-balancer/load-balancer-overview
+[DDoS]: /azure/virtual-network/ddos-protection-overview
+[PIP]: /azure/virtual-network/virtual-network-public-ip-address
+[Afd]: /azure/frontdoor/front-door-overview
+[Afdwaf]: /azure/frontdoor/waf-overview
+[Appgw]: /azure/application-gateway/application-gateway-introduction
+[Appgwwaf]: /azure/application-gateway/application-gateway-web-application-firewall-overview

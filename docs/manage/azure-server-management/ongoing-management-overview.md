@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: d006773b66bf9e41301c4d2e9b34018394594e28
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 281ca5333def961bf19df6c3703a381bb021ddc4
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80430538"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284050"
 ---
 # <a name="phase-3-ongoing-management-and-security"></a>Этап 3. постоянное управление и безопасность
 
@@ -28,9 +28,9 @@ ms.locfileid: "80430538"
 
 Центр безопасности Azure — это центральное место для управления безопасностью вашей среды. Вы увидите общую оценку и целевые рекомендации.
 
-Рекомендуется ознакомиться с рекомендациями, предоставляемыми этой службой, и реализовать их. Дополнительные сведения о дополнительных преимуществах центра безопасности Azure см. в статье [рекомендации центра безопасности Azure](https://docs.microsoft.com/azure/migrate/migrate-best-practices-security-management#best-practice-follow-azure-security-center-recommendations).
+Рекомендуется ознакомиться с рекомендациями, предоставляемыми этой службой, и реализовать их. Дополнительные сведения о дополнительных преимуществах центра безопасности Azure см. в статье [рекомендации центра безопасности Azure](/azure/migrate/migrate-best-practices-security-management#best-practice-follow-azure-security-center-recommendations).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [включить функцию гостевой настройки политики Azure](./guest-configuration-policy.md) .
 

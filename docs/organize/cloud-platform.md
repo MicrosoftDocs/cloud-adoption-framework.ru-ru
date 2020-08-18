@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 0fdba195a8ea782909fa7d72da0084ed03a258a7
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: c5dcf8c8a52e0706c104d9e16798e643e3adbbe9
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196549"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285155"
 ---
 # <a name="cloud-platform-functions"></a>Функции облачной платформы
 
@@ -36,7 +36,7 @@ ms.locfileid: "88196549"
 
 - [Основы для облачной архитектуры](https://www.pluralsight.com/courses/cloud-architecture-foundations): Pluralsight курс, помогающий спроектировать правильные решения для базовых решений.
 - [Microsoft Azure архитектура](https://www.pluralsight.com/courses/cloud-architecture-foundations)— Pluralsightный курс для архитекторов-заземлений в архитектуре Azure.
-- [Сетевые службы Azure](https://docs.microsoft.com/learn/modules/intro-to-azure-networking). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
+- [Сетевые службы Azure](/learn/modules/intro-to-azure-networking). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
 
 **Ознакомьтесь со следующими сведениями:**
 
@@ -72,7 +72,7 @@ ms.locfileid: "88196549"
 - Создание и проверка развертывания архитектуры платформы.
 - Ознакомьтесь с планами выпуска для источников новых требований к платформе.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере того, как облачная платформа станет более оптимальной, ее можно будет ускорить с помощью [функций облачной автоматизации](./cloud-automation.md) . Кроме того, он позволяет создавать лучшие решения и сокращать деловые и технические риски.
 

@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6cfa7478224185ca5be1535a50f7cdfe785617a7
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: 13b6f3bc46254cf1b7d69d11bd884347a9d8e619
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86235013"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284832"
 ---
 # <a name="evaluate-workload-readiness"></a>Оценка готовности рабочей нагрузки
 
@@ -26,16 +26,16 @@ ms.locfileid: "86235013"
 
 ## <a name="common-infrastructure-evaluation-activities"></a>Общие действия по оценке инфраструктуры
 
-- Требования к VMware. [Ознакомьтесь с требованиями к Azure Site Recovery для VMware](https://docs.microsoft.com/azure/site-recovery/vmware-physical-azure-support-matrix).
-- Требования к Hyper-V. [Ознакомьтесь с требованиями к Azure Site Recovery для Hyper-v](https://docs.microsoft.com/azure/site-recovery/hyper-v-azure-support-matrix).
+- Требования к VMware. [Ознакомьтесь с требованиями к Azure Site Recovery для VMware](/azure/site-recovery/vmware-physical-azure-support-matrix).
+- Требования к Hyper-V. [Ознакомьтесь с требованиями к Azure Site Recovery для Hyper-v](/azure/site-recovery/hyper-v-azure-support-matrix).
 
 Не забудьте задокументировать все несоответствия в конфигурации узлов, реплицируемых виртуальных машин, требованиях хранилища и конфигурации сети.
 
 ## <a name="common-database-evaluation-activities"></a>Общие действия по оценке базы данных
 
 - Задокументируйте целевые показатели точки восстановления (RPO) и целевое время восстановления (RTO) текущего развертывания базы данных. Они используются во время выполнения [действий архитектуры](./architect.md) , чтобы помочь в принятии решений.
-- Задокументируйте все требования к конфигурации высокого уровня доступности. Дополнительные сведения о требованиях к SQL Server см. в статье [SQL Server рекомендации по решениям высокого уровня доступности](https://docs.microsoft.com/sql/sql-server/failover-clusters/high-availability-solutions-sql-server).
-- Оцените совместимость PaaS. С [помощью руководств по миграции данных Azure](https://datamigration.microsoft.com) локальные базы данных сопоставляются с совместимыми решениями Azure PaaS, такими как [Azure Cosmos DB](https://docs.microsoft.com/azure/cosmos-db), база данных [SQL Azure](https://docs.microsoft.com/azure/sql-database) [для MySQL](https://docs.microsoft.com/azure/mysql), база [данных Azure для PostgreSQL](https://docs.microsoft.com/azure/postgresql)или [база данных Azure для MariaDB](https://docs.microsoft.com/azure/mariadb).
+- Задокументируйте все требования к конфигурации высокого уровня доступности. Дополнительные сведения о требованиях к SQL Server см. в статье [SQL Server рекомендации по решениям высокого уровня доступности](/sql/sql-server/failover-clusters/high-availability-solutions-sql-server).
+- Оцените совместимость PaaS. С [помощью руководств по миграции данных Azure](https://datamigration.microsoft.com) локальные базы данных сопоставляются с совместимыми решениями Azure PaaS, такими как [Azure Cosmos DB](/azure/cosmos-db), база данных [SQL Azure](/azure/sql-database) [для MySQL](/azure/mysql), база [данных Azure для PostgreSQL](/azure/postgresql)или [база данных Azure для MariaDB](/azure/mariadb).
 - Если миграция PaaS является вариантом без необходимости каких-либо исправлений для обеспечения совместимости, то следует обратиться к команде, ответственной за [действия, связанные с архитектурой](./architect.md). Миграция PaaS может значительно сократить время перемещения и снизить совокупную стоимость владения большинства облачных решений.
 - Если миграция PaaS является вариантом, но требуется исправление для обеспечения совместимости, обратитесь к командам, ответственным за [действия по архитектуре](./architect.md) и [действия по исправлению](../migrate/remediate.md). Во многих сценариях преимущества миграции PaaS для решений баз данных могут перевешивать увеличение времени исправления.
 - Задокументируйте размер и скорость изменения для каждой переносимой базы данных.

@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 65d1ac327bc5a36e1dca12ab121825751be3b53f
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 250af083504716c04fff161c46af22cac8446076
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83214248"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285206"
 ---
 # <a name="align-assets-to-prioritized-workloads"></a>Выровняйте ресурсы по приоритетным рабочим нагрузкам
 
@@ -39,7 +39,7 @@ ms.locfileid: "83214248"
 
 Служба "миграция Azure" предоставляет набор функций группирования, которые могут ускорить агрегирование приложений, виртуальных машин, источников данных и зависимостей. После того как рабочие нагрузки определены концептуально, их можно использовать в качестве базиса для группирования ресурсов на основе сопоставления зависимостей.
 
-В документации по службе "миграция Azure" содержатся рекомендации по [группировке компьютеров на основе зависимостей](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies).
+В документации по службе "миграция Azure" содержатся рекомендации по [группировке компьютеров на основе зависимостей](/azure/migrate/how-to-create-group-machine-dependencies).
 
 ## <a name="configuration-management-database"></a>База данных управления конфигурацией
 

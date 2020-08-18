@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 7eab50562d334fbe3f763472fccbc65f4ba4a4b0
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: dc998bcc4178815561a44b938dd79f56039d3a01
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86451059"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284628"
 ---
 # <a name="caf-enterprise-scale-business-continuity-and-disaster-recovery"></a>КАФ предприятия — масштабирование непрерывности бизнес-процессов и аварийное восстановление
 
@@ -82,7 +82,7 @@ ms.locfileid: "86451059"
 
   Избыточная Гибридная архитектура сети позволяет обеспечить непрерывное подключение между организациями в случае сбоя, влияющего на расположение поставщика в регионе Azure или пиринга.
 
-- Сведения о выборе местоположений для макетов аварийного восстановления вашей организации см. в документации по [парам региона Azure](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) .
+- Сведения о выборе местоположений для макетов аварийного восстановления вашей организации см. в документации по [парам региона Azure](/azure/best-practices-availability-paired-regions) .
 
 - Используйте парные регионы Azure при планировании непрерывности бизнес-процессов и аварийного восстановления.
 

@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 6d777a1c919e72c55d8c6202ef1c32f44d9444d9
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 5263e0f868d3dc94939a3df770678fe5a2e02664
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83219485"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88283982"
 ---
 <!-- cSpell:ignore jenhayes -->
 
@@ -27,7 +27,7 @@ ms.locfileid: "83219485"
 - Действуют определенные требования законодательства или соответствия.
 - Имеются приобретения других организаций (иногда временные, пока не будет определена стратегия для долгосрочной консолидации клиентов).
 
-Если требуется архитектура с несколькими клиентами, [Azure лигхсаусе](https://docs.microsoft.com/azure/lighthouse/overview) предоставляет способ централизации и упрощения операций управления. Подписки из нескольких клиентов можно подключить для [управления делегированными ресурсами Azure](https://docs.microsoft.com/azure/lighthouse/concepts/azure-delegated-resource-management). Этот параметр позволяет указанным пользователям в управляющем клиенте выполнять [функции управления между клиентами](https://docs.microsoft.com/azure/lighthouse/concepts/cross-tenant-management-experience) централизованным и масштабируемым способом.
+Если требуется архитектура с несколькими клиентами, [Azure лигхсаусе](/azure/lighthouse/overview) предоставляет способ централизации и упрощения операций управления. Подписки из нескольких клиентов можно подключить для [управления делегированными ресурсами Azure](/azure/lighthouse/concepts/azure-delegated-resource-management). Этот параметр позволяет указанным пользователям в управляющем клиенте выполнять [функции управления между клиентами](/azure/lighthouse/concepts/cross-tenant-management-experience) централизованным и масштабируемым способом.
 
 Например, предположим, что в Организации есть один клиент, `Tenant A` . Затем Организация получает два дополнительных клиента, и `Tenant B` `Tenant C` у вас есть бизнес-причины, требующие их поддержки в качестве отдельных клиентов.
 
@@ -35,4 +35,4 @@ ms.locfileid: "83219485"
 
 ![Пользователи в Tenant А управляют ресурсами в Tenant B и Tenant C](../_images/manage/enterprise-azure-lighthouse.jpg)
 
-Дополнительные сведения см. [в статье Azure лигхсаусе в корпоративных сценариях](https://docs.microsoft.com/azure/lighthouse/concepts/enterprise).
+Дополнительные сведения см. [в статье Azure лигхсаусе в корпоративных сценариях](/azure/lighthouse/concepts/enterprise).

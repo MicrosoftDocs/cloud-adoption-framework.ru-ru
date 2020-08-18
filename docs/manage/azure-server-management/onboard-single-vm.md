@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 38285bfe7ebc713d186e6e952b119637161d12ce
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.openlocfilehash: 4881db11ddb31d5feab2fc31227b44fce44f8ad3
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80426523"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284118"
 ---
 # <a name="enable-server-management-services-on-a-single-vm-for-evaluation"></a>Включение служб управления сервером на одной виртуальной машине для оценки
 
@@ -29,10 +29,10 @@ ms.locfileid: "80426523"
 
 Дополнительные сведения о том, как подключить эти решения к отдельным виртуальным машинам, см. в следующих статьях:
 
-- [Подключение решений Управление обновлениями, Отслеживание изменений и инвентаризации из виртуальной машины Azure](https://docs.microsoft.com/azure/automation/automation-onboard-solutions-from-vm)
-- [Подключение мониторинга Azure для виртуальных машин](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-single-vm)
+- [Подключение решений Управление обновлениями, Отслеживание изменений и инвентаризации из виртуальной машины Azure](/azure/automation/automation-onboard-solutions-from-vm)
+- [Подключение мониторинга Azure для виртуальных машин](/azure/azure-monitor/insights/vminsights-enable-single-vm)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как использовать политику Azure для подключения виртуальных машин Azure в нужном масштабе.
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: f746b00773dc4a9fd3a6dc0fe38a8a0e56d94fcc
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: e46120b3538e85ac210e7fb1e422db355f917586
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83222918"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285342"
 ---
 # <a name="build-a-business-justification-for-cloud-migration"></a>Создание коммерческого обоснования для миграции в облако
 
@@ -84,7 +84,7 @@ ms.locfileid: "83222918"
 - Некоторые поставщики облачных служб также предлагают экономичные Калькуляторы. Корпорация Майкрософт предоставляет [Калькулятор совокупной стоимости владения (TCO) Azure](https://azure.microsoft.com/pricing/tco/calculator).
 - Для получения более точных структур затрат рассмотрим упражнение по [планированию цифровых площадок](../digital-estate/index.md) .
 - Оцените затраты на миграцию.
-- Оцените затраты на любые ожидаемые обучающие мероприятия. [Microsoft Learn](https://docs.microsoft.com/learn) может помочь устранить эти расходы.
+- Оцените затраты на любые ожидаемые обучающие мероприятия. [Microsoft Learn](/learn) может помочь устранить эти расходы.
 - В некоторых компаниях время, потраченное существующими сотрудниками, может потребоваться включать в первоначальные затраты. Обратитесь к финансовому отделу за инструкциями.
 - Для проверки обсудите любые дополнительные затраты или накладные расходы с финансовым отделом.
 

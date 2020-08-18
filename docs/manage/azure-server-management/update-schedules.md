@@ -7,20 +7,20 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 359282dc962c72334bd390324fab0ca66f62a65c
-ms.sourcegitcommit: 6fef15cc3a8af725dc743e19f127513bc58dd257
+ms.openlocfilehash: 616686abdeffb08dbb25db0544042e66c1cf7e9e
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/27/2020
-ms.locfileid: "84023412"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88283965"
 ---
 # <a name="create-update-schedules"></a>Создание расписаний обновления
 
 Вы можете управлять расписаниями обновления с помощью портал Azure или новых модулей командлетов PowerShell.
 
-Сведения о создании расписания обновления с помощью портал Azure см. в разделе [Планирование развертывания обновлений](https://docs.microsoft.com/azure/automation/automation-tutorial-update-management#schedule-an-update-deployment).
+Сведения о создании расписания обновления с помощью портал Azure см. в разделе [Планирование развертывания обновлений](/azure/automation/automation-tutorial-update-management#schedule-an-update-deployment).
 
-`Az.Automation`Теперь модуль поддерживает настройку управления обновлениями с помощью Azure PowerShell. [Версия 1.7.0](https://www.powershellgallery.com/packages/Az/1.7.0) модуля добавляет поддержку командлета [New-азаутоматионупдатеманажементазурекуери](https://docs.microsoft.com/powershell/module/az.automation/new-azautomationupdatemanagementazurequery?view=azps-1.7.0) . Этот командлет позволяет использовать теги, расположение и сохраненные поисковые запросы для настройки расписаний обновлений для гибкой группы компьютеров.
+`Az.Automation`Теперь модуль поддерживает настройку управления обновлениями с помощью Azure PowerShell. [Версия 1.7.0](https://www.powershellgallery.com/packages/Az/1.7.0) модуля добавляет поддержку командлета [New-азаутоматионупдатеманажементазурекуери](/powershell/module/az.automation/new-azautomationupdatemanagementazurequery?view=azps-1.7.0) . Этот командлет позволяет использовать теги, расположение и сохраненные поисковые запросы для настройки расписаний обновлений для гибкой группы компьютеров.
 
 ## <a name="example-script"></a>Пример сценария
 
@@ -33,7 +33,7 @@ ms.locfileid: "84023412"
   - Имеет `Production` тег, которому присвоено значение `true` .
 - Применяет расписание обновления к запрашиваемым компьютерам и устанавливает интервал в два часа обновления.
 
-Перед запуском примера скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) . При запуске скрипта укажите следующие сведения.
+Перед запуском примера скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) . При запуске скрипта укажите следующие сведения.
 
 - Идентификатор целевой подписки
 - Целевая группа ресурсов

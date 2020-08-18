@@ -7,16 +7,16 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 938934e1a45d8f8abebede6cca8dcd9987cfb7e0
-ms.sourcegitcommit: bd9872320b71245d4e9a359823be685e0f4047c5
+ms.openlocfilehash: cadcb876243565240a60b229c4a1397f32f88b7c
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "83861469"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284101"
 ---
 # <a name="guest-configuration-policy"></a>Политика конфигурации гостя
 
-Для аудита параметров конфигурации на виртуальной машине можно использовать расширение [гостевой настройки](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration) политики Azure. В настоящее время Гостевая конфигурация поддерживается только на виртуальных машинах Azure.
+Для аудита параметров конфигурации на виртуальной машине можно использовать расширение [гостевой настройки](/azure/governance/policy/concepts/guest-configuration) политики Azure. В настоящее время Гостевая конфигурация поддерживается только на виртуальных машинах Azure.
 
 Чтобы найти список политик конфигурации гостей, выполните поиск по запросу "Конфигурация гостевой службы" на странице портала политики Azure. Или выполните этот командлет в окне PowerShell, чтобы найти список:
 
@@ -43,7 +43,7 @@ By default, we recommend that you enable the following policies:
 - Убедитесь, что параметры безопасности пароля на компьютерах Windows и Linux установлены правильно.
 - Убедитесь, что сертификаты не близки к истечению срока действия на виртуальных машинах Windows.
 
- Перед выполнением этого скрипта используйте командлет [Connect-азаккаунт](https://docs.microsoft.com/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) для входа. При запуске скрипта необходимо указать имя подписки, к которой будут применяться политики.
+ Перед выполнением этого скрипта используйте командлет [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) для входа. При запуске скрипта необходимо указать имя подписки, к которой будут применяться политики.
 
 ```powershell
 

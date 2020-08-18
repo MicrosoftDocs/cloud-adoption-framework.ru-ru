@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: dde224a78527c99e583c873ebfdc4c10f6fcf667
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: c67663248f7f074736fba5f02f826a4de8e7b6be
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196682"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284781"
 ---
 # <a name="multiple-datacenters"></a>Несколько центров обработки данных
 
@@ -36,7 +36,7 @@ ms.locfileid: "88196682"
 
 ### <a name="suggested-action-during-the-assess-process"></a>Предлагаемое действие во время процесса оценки
 
-**Оценка зависимостей между центрами обработки данных:** [Средства визуализации зависимостей в службе "миграция Azure](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization) " могут помочь выявить зависимости. Использование этого набора средств перед миграцией, как правило, является лучшим подходом. Но при работе с глобальной сложностью она станет необходимым шагом в процессе оценки. Благодаря [группированию зависимостей](https://docs.microsoft.com/azure/migrate/how-to-create-group-machine-dependencies) визуализация поможет определить IP-адреса и порты всех ресурсов, необходимых для поддержки рабочей нагрузки.
+**Оценка зависимостей между центрами обработки данных:** [Средства визуализации зависимостей в службе "миграция Azure](/azure/migrate/concepts-dependency-visualization) " могут помочь выявить зависимости. Использование этого набора средств перед миграцией, как правило, является лучшим подходом. Но при работе с глобальной сложностью она станет необходимым шагом в процессе оценки. Благодаря [группированию зависимостей](/azure/migrate/how-to-create-group-machine-dependencies) визуализация поможет определить IP-адреса и порты всех ресурсов, необходимых для поддержки рабочей нагрузки.
 
 > [!IMPORTANT]
 >
@@ -66,7 +66,7 @@ ms.locfileid: "88196682"
 
 С помощью этого расширения области вряд ли следует изменять защищенные процессы и управлять ими.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Вернитесь к контрольному списку, чтобы убедиться, что метод миграции полностью согласован.
 

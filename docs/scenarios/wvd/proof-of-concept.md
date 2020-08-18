@@ -7,12 +7,12 @@ ms.date: 07/01/2010
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e305e04723fc982419e1cf5625f0ad3c43610a21
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: e2d2c3279cd9f0dc868265adc436227aee25bf3c
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196380"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88284577"
 ---
 # <a name="windows-virtual-desktop-proof-of-concept"></a>Подтверждение концепции виртуальных рабочих столов Windows
 
@@ -21,11 +21,11 @@ ms.locfileid: "88196380"
 Следующий подход к процессу миграции упрощен, чтобы описать реализацию эксперимента.
 
 1. **Оценка**. команда развертывает пулы узлов с использованием размеров виртуальных машин по умолчанию. Данные оценки помогают команде вычислить ожидаемое число одновременных сеансов пользователей и количество виртуальных машин, необходимых для поддержки этих одновременных сеансов.
-2. **Развертывание**. команда [создает пул узлов](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-azure-marketplace) для настольных систем в составе пула с помощью образа из коллекции Windows 10 из Azure Marketplace и размера с шага 1 оценки.
-3. **Развертывание**. команда [создает группы приложений RemoteApp](https://docs.microsoft.com/azure/virtual-desktop/manage-app-groups#create-a-remoteapp-group) для рабочих нагрузок, которые уже были перенесены.
-4. **Развертывание**. команда [создает контейнер профиля фслогикс](https://docs.microsoft.com/azure/virtual-desktop/create-host-pools-user-profile) для хранения профилей пользователей.
+2. **Развертывание**. команда [создает пул узлов](/azure/virtual-desktop/create-host-pools-azure-marketplace) для настольных систем в составе пула с помощью образа из коллекции Windows 10 из Azure Marketplace и размера с шага 1 оценки.
+3. **Развертывание**. команда [создает группы приложений RemoteApp](/azure/virtual-desktop/manage-app-groups#create-a-remoteapp-group) для рабочих нагрузок, которые уже были перенесены.
+4. **Развертывание**. команда [создает контейнер профиля фслогикс](/azure/virtual-desktop/create-host-pools-user-profile) для хранения профилей пользователей.
 5. **Выпуск**. команда тестирует производительность и задержку групп приложений и развернутые настольные компьютеры для выборки пользователей.
-6. **Выпуск**. Группа посвящена своим конечным пользователям, чтобы научиться подключаться через [Настольный клиент Windows](https://docs.microsoft.com/azure/virtual-desktop/connect-windows-7-and-10), [веб-клиент](https://docs.microsoft.com/azure/virtual-desktop/connect-web), [клиент Android](https://docs.microsoft.com/azure/virtual-desktop/connect-android), [клиент macOS](https://docs.microsoft.com/azure/virtual-desktop/connect-macos)или [клиент iOS](https://docs.microsoft.com/azure/virtual-desktop/connect-ios).
+6. **Выпуск**. Группа посвящена своим конечным пользователям, чтобы научиться подключаться через [Настольный клиент Windows](/azure/virtual-desktop/connect-windows-7-and-10), [веб-клиент](/azure/virtual-desktop/connect-web), [клиент Android](/azure/virtual-desktop/connect-android), [клиент macOS](/azure/virtual-desktop/connect-macos)или [клиент iOS](/azure/virtual-desktop/connect-ios).
 
 ## <a name="assumptions"></a>Предположения
 
@@ -37,7 +37,7 @@ ms.locfileid: "88196380"
 * Все пользователи могут работать из общего пула настольных систем.
 * Все пользователи могут использовать &nbsp; многосеансовый образ Windows 10 Enterprise из Azure Marketplace.
 * Все профили пользователей будут перенесены в файлы Azure, Azure NetApp Files или службу хранилища на основе виртуальной машины для контейнеров профилей Фслогикс.
-* Все пользователи могут быть описаны обычным пользователем с плотностью шести пользователей на виртуальный центральный процессор (виртуальных ЦП) и 4 &nbsp; гигабайт (ГБ) ОЗУ в [соответствии с рекомендациями по размерам виртуальных машин](https://docs.microsoft.com/windows-server/remote/remote-desktop-services/virtual-machine-recs#multi-session-recommendations).
+* Все пользователи могут быть описаны обычным пользователем с плотностью шести пользователей на виртуальный центральный процессор (виртуальных ЦП) и 4 &nbsp; гигабайт (ГБ) ОЗУ в [соответствии с рекомендациями по размерам виртуальных машин](/windows-server/remote/remote-desktop-services/virtual-machine-recs#multi-session-recommendations).
 * Все рабочие нагрузки совместимы с &nbsp; несколькими сеансами Windows 10.
 * Задержка между виртуальными рабочими столами и группами приложений приемлема для использования в рабочей среде.
 
@@ -45,9 +45,9 @@ ms.locfileid: "88196380"
 > [!NOTE]
 > В этих примерах все используют службу файлов Azure в качестве службы хранилища для профилей пользователей.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-Рекомендации по конкретным элементам пути внедрения в облако см. в следующих статьях:
+Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 
 - [Оценка переноса или развертывания Виртуального рабочего стола Windows](./migrate-assess.md)
 - [Развертывание или перенос экземпляров Виртуального рабочего стола Windows](./migrate-deploy.md)
