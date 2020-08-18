@@ -7,12 +7,12 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: 741d0bcfda409b7e43ba3169d32a2973d35446cf
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 8ca0d2f5c46fe0d068342f59d32bfaed2942fc58
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196485"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285801"
 ---
 <!-- cSpell:ignore Terraform's -->
 
@@ -24,16 +24,16 @@ ms.locfileid: "88196485"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Средство отслеживания перехода в облако](https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
+| [Средство отслеживания перехода в облако](/assessments/?id=cloud-journey-tracker&mode=pre-assessment) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
 | [&nbsp;Шаблон стратегии и &nbsp; плана &nbsp;](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) | Документирование решений при выполнении стратегии и плана внедрения в облако. |
 
 ## <a name="plan"></a>План
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Средство отслеживания перехода в облако](https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
+| [Средство отслеживания перехода в облако](/assessments/?id=cloud-journey-tracker&mode=pre-assessment) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
 | [&nbsp;Шаблон стратегии и &nbsp; плана &nbsp;](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) | Документирование решений при выполнении стратегии и плана внедрения в облако. |
-| [Генератор планов внедрения в облако](../plan/template.md) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](https://docs.microsoft.com/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |
+| [Генератор планов внедрения в облако](../plan/template.md) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |
 
 ## <a name="ready"></a>Ready
 
@@ -63,7 +63,7 @@ ms.locfileid: "88196485"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Проверка с использованием платформы Microsoft Azure с продуманной архитектурой](https://docs.microsoft.com/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
+| [Проверка с использованием платформы Microsoft Azure с продуманной архитектурой](/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
 | [&nbsp; &nbsp; Исходный &nbsp; код рекомендаций](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/manage/Automation-Best-Practices) | Этот развертываемый исходный код дополняет и ускоряет внедрение рекомендаций для служб управления сервером Azure. Используйте этот исходный код, чтобы быстро включить управление операциями и установить базовый план операций. |
 | [Книга Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) | Документирование решений об управлении операциями в облаке и обеспечение взаимодействия с бизнесом для обеспечения соответствия требованиям соглашения об уровне обслуживания, инвестиций в устойчивость и распределении бюджета, связанных с операциями. |
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: f754d13a1d532079cb305ce6bd263efbf7c10f9e
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: a74148f4da936e1f44d1a887eb3ff1873db15e79
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193763"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88282401"
 ---
 <!-- cSpell:ignore contosodev contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring smarthotelcontainer identitymaplog CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME sqlpackage SSDT azuredevopsmigration validateonly ImportType -->
 
@@ -70,7 +70,7 @@ ms.locfileid: "88193763"
 
 | Требования | Сведения |
 | --- | --- |
-| **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника. <br><br> Если требуются более детализированные разрешения, см. раздел [Управление доступом Site Recovery с помощью управления доступом на основе ролей (RBAC)](https://docs.microsoft.com/azure/site-recovery/site-recovery-role-based-linked-access-control). |
+| **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника. <br><br> Если требуются более детализированные разрешения, см. раздел [Управление доступом Site Recovery с помощью управления доступом на основе ролей (RBAC)](/azure/site-recovery/site-recovery-role-based-linked-access-control). |
 | **Инфраструктура Azure** | Компания Contoso настроила свою инфраструктуру Azure, как описано в разделе [инфраструктура Azure для миграции](./contoso-migration-infrastructure.md). |
 | **Локальный экземпляр Team Foundation Server** | Локальный экземпляр должен либо запустить Team Foundation Server 2018 обновление 2, либо обновить до него в рамках этого процесса. |
 
@@ -94,8 +94,8 @@ ms.locfileid: "88193763"
 
 **Требуется дополнительная помощь?**
 
-- [Общие сведения о службе хранилища Azure](https://docs.microsoft.com/azure/storage/common/storage-introduction).
-- [Создание учетной записи хранения](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account).
+- [Общие сведения о службе хранилища Azure](/azure/storage/common/storage-introduction).
+- [Создание учетной записи хранения](/azure/storage/common/storage-create-storage-account).
 
 <!-- docsTest:ignore "Server Configuration Wizard" "Configure Features Wizard" "Detach Team Project Collection Wizard" -->
 
@@ -104,8 +104,8 @@ ms.locfileid: "88193763"
 Администраторы Contoso обновляют экземпляр Team Foundation Server до Team Foundation Server 2018 с обновлением 2. Прежде чем они начнут, они:
 
 - Загрузите [Team Foundation Server 2018 с обновлением 2](https://visualstudio.microsoft.com/downloads).
-- Проверьте [требования к оборудованию](https://docs.microsoft.com/azure/devops/server/requirements).
-- Ознакомьтесь с [заметками о выпуске](https://docs.microsoft.com/visualstudio/releasenotes/tfs2018-relnotes) и [обновлениями](https://docs.microsoft.com/azure/devops/server/upgrade/get-started#before-you-upgrade-to-tfs-2018).
+- Проверьте [требования к оборудованию](/azure/devops/server/requirements).
+- Ознакомьтесь с [заметками о выпуске](/visualstudio/releasenotes/tfs2018-relnotes) и [обновлениями](/azure/devops/server/upgrade/get-started#before-you-upgrade-to-tfs-2018).
 
 Они выполняют обновление следующим образом:
 
@@ -130,11 +130,11 @@ ms.locfileid: "88193763"
      ![Снимок экрана: область "Невыполненная работа по продукту" для проверки установки Team Foundation Server.](./media/contoso-migration-tfs-vsts/upgrade5.png)
 
 > [!NOTE]
-> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее](https://docs.microsoft.com/azure/devops/reference/configure-features-after-upgrade?utm_source=ms&utm_medium=guide&utm_campaign=vstsdataimportguide&view=vsts).
+> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее.](/azure/devops/reference/configure-features-after-upgrade?utm_campaign=vstsdataimportguide&utm_medium=guide&utm_source=ms&view=vsts)
 
 **Требуется дополнительная помощь?**
 
-Дополнительные сведения об [обновлении Team Foundation Server](https://docs.microsoft.com/azure/devops/server/upgrade/get-started).
+Дополнительные сведения об [обновлении Team Foundation Server](/azure/devops/server/upgrade/get-started).
 
 ## <a name="step-3-validate-the-team-foundation-server-collection"></a>Шаг 3. Проверка коллекции Team Foundation Server
 
@@ -479,13 +479,13 @@ ms.locfileid: "88193763"
 
 **Требуется дополнительная помощь?**
 
-Дополнительные сведения см. [в статье Импорт репозиториев из TFVC в Git](https://docs.microsoft.com/azure/devops/repos/git/import-from-TFVC?view=vsts).
+Дополнительные сведения см. [в статье Импорт репозиториев из TFVC в Git](/azure/devops/repos/git/import-from-TFVC?view=vsts).
 
 ## <a name="clean-up-after-migration"></a>Очистка после миграции
 
 После завершения миграции группе Contoso необходимо выполнить следующие действия:
 
-- Ознакомиться со сведениями о дополнительных операциях [после импорта](https://docs.microsoft.com/azure/devops/articles/migration-post-import?view=vsts).
+- Ознакомиться со сведениями о дополнительных операциях [после импорта](/azure/devops/articles/migration-post-import?view=vsts).
 - Либо удалите TFVC репозиториев, либо поместите их в режиме только для чтения. Не следует использовать основанные на коде базы кода, но на них можно ссылаться в журнале.
 
 ## <a name="post-migration-training"></a>Обучение после переноса данных

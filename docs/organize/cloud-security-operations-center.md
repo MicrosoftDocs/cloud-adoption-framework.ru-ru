@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: ffb7f04de4a9d4b8e6b3d379269dc60ca161113b
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 83e768102ba5e92c08a6e7ca7e8495681cc289f9
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194295"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285427"
 ---
 <!-- docsTest:ignore "Cyber Defense Operations Center" -->
 <!-- cSpell:ignore CISO MTTA MTTR SIEM NIST SOCs CDOC -->
@@ -39,10 +39,10 @@ ms.locfileid: "86194295"
 - **Управление инцидентами:** Дисциплина становится формальной для координации нетехнических элементов инцидентов с юридическими, взаимосвязями и другими группами.
 **Интеграция внутреннего контекста:** Чтобы помочь в определении приоритетов для действий SOC, таких как относительные показатели рисков учетных записей и устройств, чувствительность данных и приложений, а также ключевые границы изоляции безопасности для тесной защиты.
 
- Дополнительные сведения см. в следующих источниках.
+ Дополнительные сведения см. в разделе:
 
-- [Стратегии и &mdash; операции безопасности стандартов архитектуры](https://docs.microsoft.com/security/compass/security-operations-videos-and-decks)
-- [Модуль перспективы Workshop 4b: стратегия защиты от угроз](https://docs.microsoft.com/security/ciso-workshop/ciso-workshop-module-4b)
+- [Стратегии и &mdash; операции безопасности стандартов архитектуры](/security/compass/security-operations-videos-and-decks)
+- [Модуль перспективы Workshop 4b: стратегия защиты от угроз](/security/ciso-workshop/ciso-workshop-module-4b)
 - Блог кибератак оборон Operations Center (КДОК), часть [1](https://www.microsoft.com/security/blog/2019/02/21/lessons-learned-from-the-microsoft-soc-part-1-organization), [часть 2A](https://www.microsoft.com/security/blog/2019/04/23/lessons-learned-microsoft-soc-part-2-organizing-people), [часть 2b](https://www.microsoft.com/security/blog/2019/06/06/lessons-learned-from-the-microsoft-soc-part-2b-career-paths-and-readiness), [часть 3a](https://www.microsoft.com/security/blog/2019/10/07/ciso-series-lessons-learned-from-the-microsoft-soc-part-3a-choosing-soc-tools), [часть 3b](https://www.microsoft.com/security/blog/2019/12/23/ciso-series-lessons-learned-from-the-microsoft-soc-part-3b-a-day-in-the-life)
 - [Руководством по обработке инцидентов для компьютерной безопасности NIST](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)
 - [Рекомендации NIST по восстановлению событий кибербезопасности](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-184.pdf)

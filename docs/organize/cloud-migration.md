@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 2dcb88103fcbfe28516802570aba8197f4b510c6
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: e7da2a130e0176b599354ea2cbe0e10d0133e73b
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194856"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285512"
 ---
 # <a name="cloud-migration-functions"></a>Облачные функции миграции
 
@@ -22,10 +22,10 @@ ms.locfileid: "86194856"
 
 ## <a name="prerequisites"></a>Предварительные требования
 
-- [Создание учетной записи Azure](https://docs.microsoft.com/learn/modules/create-an-azure-account). первый шаг в работе с Azure — создание учетной записи.
-- [Портал Azure](https://docs.microsoft.com/learn/modules/tour-azure-portal): обзор функций и служб портал Azure и Настройка портала.
-- [Введение в Azure](https://docs.microsoft.com/learn/modules/welcome-to-azure): Начало работы с Azure. Создайте и настройте первую виртуальную машину в облаке.
-- [Основы Azure](https://docs.microsoft.com/learn/paths/azure-for-the-data-engineer). Узнайте о концепциях облака, получите доступ к преимуществам, Сравните основные стратегии и Узнайте о различных службах, доступных в Azure.
+- [Создание учетной записи Azure](/learn/modules/create-an-azure-account). первый шаг в работе с Azure — создание учетной записи.
+- [Портал Azure](/learn/modules/tour-azure-portal): обзор функций и служб портал Azure и Настройка портала.
+- [Введение в Azure](/learn/modules/welcome-to-azure): Начало работы с Azure. Создайте и настройте первую виртуальную машину в облаке.
+- [Основы Azure](/learn/paths/azure-for-the-data-engineer). Узнайте о концепциях облака, получите доступ к преимуществам, Сравните основные стратегии и Узнайте о различных службах, доступных в Azure.
 - Ознакомьтесь с [методологией миграции](../migrate/index.md).
 
 ## <a name="minimum-scope"></a>Минимальная область
@@ -77,7 +77,7 @@ ms.locfileid: "86194856"
 
 - [Централизованные обязанности ИТ для ИТ](../organize/central-it.md)
 
-## <a name="whats-next"></a>Что дальше?
+## <a name="whats-next"></a>Дальнейшие действия
 
 Внедрение отлично, но нерегулирующая внедрение может привести к непредвиденным результатам. Выровняйтесь с [группой управления облаком](./cloud-governance.md) , чтобы ускорить внедрение и лучшие решения, одновременно уменьшая деловые и технические риски.
 

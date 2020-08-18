@@ -7,12 +7,12 @@ ms.date: 07/01/2010
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 1102b13a9587ca0a2c7fa39774084dbba089079e
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: a7e795fbfe9f37f008ec55948c41c90a7ec4bbaf
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196325"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285733"
 ---
 # <a name="windows-virtual-desktop-azure-landing-zone-review"></a>Обзор целевой зоны Azure виртуальных рабочих столов Windows
 
@@ -30,11 +30,11 @@ ms.locfileid: "88196325"
 
 Любая целевая зона, которая разрабатывается группой с помощью рекомендаций в [методологии готовности](../../ready/index.md) , и которая может удовлетворять упомянутые выше специализированные требования, будет указываться в качестве целевой зоны для этой миграции.
 
-Чтобы разобраться в проектировании виртуальных рабочих столов Windows, ознакомьтесь с [требованиями к виртуальному](https://docs.microsoft.com/azure/virtual-desktop/overview#requirements)рабочему столу Windows.
+Чтобы разобраться в проектировании виртуальных рабочих столов Windows, ознакомьтесь с [требованиями к виртуальному](/azure/virtual-desktop/overview#requirements)рабочему столу Windows.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-Рекомендации по конкретным элементам пути внедрения в облако см. в следующих статьях:
+Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 
 - [Завершение концепции эксперимента с виртуальными рабочими столами Windows](./proof-of-concept.md)
 - [Оценка переноса или развертывания Виртуального рабочего стола Windows](./migrate-assess.md)

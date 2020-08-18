@@ -7,12 +7,12 @@ ms.date: 07/01/2010
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: fea97dbec42c9f31fc8518c011696a818a41730b
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: d312c2747a6c7f308d47e0b825ce06aaa62c6830
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196413"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285750"
 ---
 # <a name="windows-virtual-desktop-post-deployment"></a>Виртуальные рабочие столы Windows после развертывания
 
@@ -20,19 +20,19 @@ ms.locfileid: "88196413"
 
 - Протестируйте производительность и задержку групп приложений и развернутые настольные компьютеры для выборки пользователей.
 - Подключите конечных пользователей, чтобы обучить их, как подключиться через:
-  - [Настольный клиент Windows](https://docs.microsoft.com/azure/virtual-desktop/connect-windows-7-and-10)
-  - [Веб-клиент](https://docs.microsoft.com/azure/virtual-desktop/connect-web)
-  - [Клиент Android](https://docs.microsoft.com/azure/virtual-desktop/connect-android)
-  - [Клиент macOS](https://docs.microsoft.com/azure/virtual-desktop/connect-macos)
-  - [Клиент iOS](https://docs.microsoft.com/azure/virtual-desktop/connect-ios)
+  - [Настольный клиент Windows](/azure/virtual-desktop/connect-windows-7-and-10)
+  - [Веб-клиент](/azure/virtual-desktop/connect-web)
+  - [Клиент Android](/azure/virtual-desktop/connect-android)
+  - [Клиент macOS](/azure/virtual-desktop/connect-macos)
+  - [Клиент iOS](/azure/virtual-desktop/connect-ios)
 
 ## <a name="post-deployment"></a>После развертывания
 
-После завершения выпуска вы обычно добавляете [журналы и диагностику для лучшей работы с виртуальным рабочим столом Windows](https://docs.microsoft.com/azure/virtual-desktop/diagnostics-log-analytics#push-diagnostics-data-to-your-workspace). Кроме того, группы операций могут подключить узлы в составе пула и настольные виртуальные машины к [рекомендациям управления сервером Azure](../../manage/azure-server-management/index.md) для управления отчетами, исправлениями, а также конфигурациями аварийного восстановления и непрерывности бизнес-процессов.
+После завершения выпуска вы обычно добавляете [журналы и диагностику для лучшей работы с виртуальным рабочим столом Windows](/azure/virtual-desktop/diagnostics-log-analytics#push-diagnostics-data-to-your-workspace). Кроме того, группы операций могут подключить узлы в составе пула и настольные виртуальные машины к [рекомендациям управления сервером Azure](../../manage/azure-server-management/index.md) для управления отчетами, исправлениями, а также конфигурациями аварийного восстановления и непрерывности бизнес-процессов.
 
 Несмотря на то, что процесс выпуска выходит за рамки этого сценария миграции, этот процесс может привести к необходимости переноса дополнительных рабочих нагрузок в Azure во время последующих итераций миграции. Если вы не настроили Office 365 или Azure Active Directory, ваша группа по внедрению в облако может выбрать подключение к этим службам при выпуске сценариев рабочего стола. Для гибридной операционной модели группы эксплуатации могут также выбрать интеграцию Intune, System Center или других средств управления конфигурацией для улучшения операций, соответствия требованиям и безопасности.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После завершения миграции виртуальных рабочих столов Windows ваша команда по внедрению в облако может начать следующую миграцию для конкретного сценария. Кроме того, при наличии дополнительных рабочих столов для переноса можно повторно использовать эту серию статей, чтобы поработать со следующей миграцией или развертыванием виртуальных рабочих столов Windows.
 

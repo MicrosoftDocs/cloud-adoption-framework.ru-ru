@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: a0543327e50ad50e4e3ada792999bc057c53e499
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 9a61fc1580cc37be9954211b3617418e4db449d9
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479455"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285818"
 ---
 # <a name="caf-enterprise-scale-security-governance-and-compliance"></a>Управление безопасностью и соответствие требованиям в масштабах предприятия КАФ
 
@@ -22,11 +22,11 @@ ms.locfileid: "86479455"
 
 **Рекомендации по проектированию:**
 
-- Ограничения подписки и масштабирования, применяемые к Azure Key Vault: Key Vault имеет ограничения транзакций для ключей и секретов. Сведения о регулировании транзакций на хранилище в течение определенного периода см. в разделе ([ограничения Azure](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits)).
+- Ограничения подписки и масштабирования, применяемые к Azure Key Vault: Key Vault имеет ограничения транзакций для ключей и секретов. Сведения о регулировании транзакций на хранилище в течение определенного периода см. в разделе ([ограничения Azure](/azure/azure-resource-manager/management/azure-subscription-service-limits)).
 
-- Key Vault выполняет границу безопасности, так как разрешения на доступ к ключам, секретам и сертификатам находятся на уровне хранилища. Назначения политики доступа Key Vault предоставляют разрешения отдельно для ключей, секретов или сертификатов, но они не поддерживают детализированные разрешения уровня объектов, такие как конкретный ключ, секрет или сертификат ([Управление ключами](https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices)).
+- Key Vault выполняет границу безопасности, так как разрешения на доступ к ключам, секретам и сертификатам находятся на уровне хранилища. Назначения политики доступа Key Vault предоставляют разрешения отдельно для ключей, секретов или сертификатов, но они не поддерживают детализированные разрешения уровня объектов, такие как конкретный ключ, секрет или сертификат ([Управление ключами](/azure/security/fundamentals/data-encryption-best-practices)).
 
-- Вы можете изолировать секреты и общие секреты конкретного приложения и рабочей нагрузки в соответствии с соответствующими правами ([Control Access](https://docs.microsoft.com/azure/key-vault/general/best-practices)).
+- Вы можете изолировать секреты и общие секреты конкретного приложения и рабочей нагрузки в соответствии с соответствующими правами ([Control Access](/azure/key-vault/general/best-practices)).
 
 <!-- cSpell:ignore FIPS -->
 
@@ -34,21 +34,21 @@ ms.locfileid: "86479455"
 
 - Смена ключа и истечение срока действия секрета.
 
-  - Закупок и подписывание сертификатов с помощью Key Vault ([о сертификатах](https://docs.microsoft.com/azure/key-vault/certificates/about-certificates))
+  - Закупок и подписывание сертификатов с помощью Key Vault ([о сертификатах](/azure/key-vault/certificates/about-certificates))
   - Оповещения, уведомления и автоматическое продление срока действия сертификатов
 
 - Требования к аварийному восстановлению ключей, сертификатов и секретов.
 
-  Key Vault репликация службы и возможности отработки отказа: ([доступность и избыточность](https://docs.microsoft.com/azure/key-vault/general/disaster-recovery-guidance)).
+  Key Vault репликация службы и возможности отработки отказа: ([доступность и избыточность](/azure/key-vault/general/disaster-recovery-guidance)).
 
 - Контроль использования ключей, сертификатов и секретов.
 
-  Обнаружение несанкционированного доступа с помощью хранилища ключей или Azure Monitor Log Analytics рабочей области: ([мониторинг и оповещения](https://docs.microsoft.com/azure/key-vault/general/alert))
+  Обнаружение несанкционированного доступа с помощью хранилища ключей или Azure Monitor Log Analytics рабочей области: ([мониторинг и оповещения](/azure/key-vault/general/alert))
 
-- Делегированный Key Vault создание экземпляра и привилегированный доступ: ([безопасный доступ](https://docs.microsoft.com/azure/key-vault/general/secure-your-key-vault))
+- Делегированный Key Vault создание экземпляра и привилегированный доступ: ([безопасный доступ](/azure/key-vault/general/secure-your-key-vault))
 
 - Требования к использованию управляемых клиентом ключей для собственных механизмов шифрования, таких как шифрование службы хранилища Azure (SSE):
-  - [Ключи, управляемые клиентом](https://docs.microsoft.com/azure/storage/common/storage-encryption-keys-portal).
+  - [Ключи, управляемые клиентом](/azure/storage/common/storage-encryption-keys-portal).
   - Всего — шифрование диска для виртуальных машин.
   - Шифрование транзитных данных.
   - Шифрование неактивных данных.
@@ -91,7 +91,7 @@ ms.locfileid: "86479455"
 
 - Отчеты о соответствии и аудит для обеспечения непрерывности соответствия
 
-- Политика Azure имеет ограничения, такие как ограничение определений в любой заданной области: ([ограничения политики](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits))
+- Политика Azure имеет ограничения, такие как ограничение определений в любой заданной области: ([ограничения политики](/azure/azure-resource-manager/management/azure-subscription-service-limits))
 
 - Политики соответствия нормативным требованиям, такие как акт о переносе и обеспечении безопасности страхования работоспособности, стандарт PCI, стандарты защиты данных, субъекты-службы управления организацией (SOC) и критерии.
 

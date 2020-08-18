@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: dd4b132dea74c9b907cf59dc7e8f5e5c5b5fddfc
-ms.sourcegitcommit: 76edf563a08ff7dc81c3fc2dc6c8972ab3b4c55b
+ms.openlocfilehash: e17736d462653e16cc66daef268ff78ffd20f12e
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88237174"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285869"
 ---
 # <a name="deploy-workloads-to-azure-stack-hub"></a>Развертывание рабочих нагрузок в Azure Stack Hub
 
@@ -25,7 +25,7 @@ ms.locfileid: "88237174"
 
 Независимо от причины развертывания инфраструктуры как услуги (IaaS) развертывание в центр Azure Stack будет аналогично любому другому развертыванию IaaS. Пользователи часто считают IaaS только виртуальными машинами, но IaaS — это больше. При развертывании виртуальной машины в Azure или Azure Stack компьютер поставляется с программно-определяемой сетью, включая систему доменных имен, общедоступные IP-адреса, правила брандмауэра (также называемые группами безопасности сети) и многие другие возможности. При развертывании виртуальной машины также создаются диски для виртуальных машин в хранилище, определяемом программным обеспечением, с помощью хранилища BLOB-объектов Azure.
 
-Более подробные инструкции по развертыванию виртуальных машин на Azure Stack см. в разделе [Общие сведения о Azure Stack COMPUTE](https://docs.microsoft.com/azure-stack/user/azure-stack-compute-overview?view=azs-2002).
+Более подробные инструкции по развертыванию виртуальных машин на Azure Stack см. в разделе [Общие сведения о Azure Stack COMPUTE](/azure-stack/user/azure-stack-compute-overview?view=azs-2002).
 
 ## <a name="platform-as-a-service-deployment"></a>Платформа как развертывание службы
 
@@ -37,12 +37,12 @@ ms.locfileid: "88237174"
 
 После того как администратор центра Azure Stack правильно настроил ваш экземпляр стека, миграция может продолжаться, как и в случае с большинством других усилий по миграции Azure. С помощью Azure Stack команда может выполнять любой из следующих типов миграции:
 
-- [Ethereum блокчейн Network](https://docs.microsoft.com/azure-stack/user/azure-stack-ethereum?view=azs-2002)
-- [Обработчик AKS](https://docs.microsoft.com/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2002)
-- [Azure Cognitive Services](https://docs.microsoft.com/azure-stack/user/azure-stack-solution-template-cognitive-services?view=azs-2002)
-- [Веб-приложение C# ASP.NET](https://docs.microsoft.com/azure-stack/user/azure-stack-dev-start-howto-vm-dotnet?view=azs-2002)
-- [Виртуальная машина Linux](https://docs.microsoft.com/azure-stack/user/azure-stack-dev-start-howto-deploy-linux?view=azs-2002)
-- [Веб-приложение Java](https://docs.microsoft.com/azure-stack/user/azure-stack-dev-start-howto-vm-java?view=azs-2002)
+- [Ethereum блокчейн Network](/azure-stack/user/azure-stack-ethereum?view=azs-2002)
+- [Обработчик AKS](/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2002)
+- [Azure Cognitive Services](/azure-stack/user/azure-stack-solution-template-cognitive-services?view=azs-2002)
+- [Веб-приложение C# ASP.NET](/azure-stack/user/azure-stack-dev-start-howto-vm-dotnet?view=azs-2002)
+- [Виртуальная машина Linux](/azure-stack/user/azure-stack-dev-start-howto-deploy-linux?view=azs-2002)
+- [Веб-приложение Java](/azure-stack/user/azure-stack-dev-start-howto-vm-java?view=azs-2002)
 
 ## <a name="additional-considerations-during-migration"></a>Дополнительные рекомендации по миграции
 
@@ -53,9 +53,9 @@ ms.locfileid: "88237174"
 - [Шаблоны](https://github.com/Azure/AzureStack-QuickStart-Templates) быстрого запуска Azure Stack Репозиторий GitHub
 - [Шаблоны](https://github.com/Azure/Azure-QuickStart-Templates) быстрого запуска Azure Репозиторий GitHub
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-Рекомендации по конкретным элементам пути внедрения в облако см. в следующих статьях:
+Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 
 - [Система управления Azure Stack Hub](./govern.md)
 - [Управление Azure Stack Hub](./manage.md)

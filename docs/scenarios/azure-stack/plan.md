@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: d1336210469ca45ac2b60dd00a56f5697facd279
-ms.sourcegitcommit: 76edf563a08ff7dc81c3fc2dc6c8972ab3b4c55b
+ms.openlocfilehash: 63b5190f80868940d38114e3f5622b80ef3f5831
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88237191"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285852"
 ---
 # <a name="plan-your-azure-stack-hub-migration"></a>Планирование миграции центра Azure Stack
 
@@ -44,15 +44,15 @@ ms.locfileid: "88237191"
 Следующие ресурсы помогут вашей команде понять различия между Azure и центром Azure Stack.
 
 - [Azure Stack обзор и план](https://azure.microsoft.com/resources/videos/ignite-2018-azure-stack-overview-and-roadmap/)
-- [Планирование емкости для Azure Stack](https://docs.microsoft.com/azure/azure-stack/capacity-planning)
-- [Руководство. Интеграция центра обработки данных в Azure Stack Hub](https://docs.microsoft.com/azure-stack/operator/azure-stack-customer-journey)
-- [Функции Azure Stack виртуальных машин](https://docs.microsoft.com/azure-stack/user/azure-stack-vm-considerations?view=azs-1910)
+- [Планирование емкости для Azure Stack](/azure/azure-stack/capacity-planning)
+- [Руководство. Интеграция центра обработки данных в Azure Stack Hub](/azure-stack/operator/azure-stack-customer-journey)
+- [Функции Azure Stack виртуальных машин](/azure-stack/user/azure-stack-vm-considerations?view=azs-1910)
 
 Если вы понимаете наилучшую платформу для каждой рабочей нагрузки, вы можете интегрировать решения в [план внедрения облака](../../plan/template.md) , чтобы управлять миграцией общедоступных и частных облаков как единое согласованное.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-Рекомендации по конкретным элементам пути внедрения в облако см. в следующих статьях:
+Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 
 - [Подготовка облачной среды для миграции Azure Stack центра](./ready.md)
 - [Оценка рабочих нагрузок для использования Azure Stack Hub](./migrate-assess.md)

@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 740cd161f78fd8e4254786af65212c730af237b1
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: ba34620ca9c179724acf0d0a45660d97da29bfc2
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787645"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285631"
 ---
 # <a name="define-and-prioritize-workloads-for-a-cloud-adoption-plan"></a>Определение и определение приоритетов рабочих нагрузок для плана внедрения в облако
 
@@ -43,7 +43,7 @@ ms.locfileid: "84787645"
 
 В предыдущей статье, [план внедрения в облако и Azure DevOps](./template.md)вы создали план внедрения в облаке в Azure DevOps.
 
-Теперь рабочие нагрузки можно представить в списке мощностью 10 в плане внедрения в облако. Самый простой способ сделать это — воспользоваться массовым редактированием в Microsoft Excel. Сведения о подготовке рабочей станции к групповому редактированию см. в разделе [Добавление или изменение рабочих элементов с помощью Microsoft Excel](https://docs.microsoft.com/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
+Теперь рабочие нагрузки можно представить в списке мощностью 10 в плане внедрения в облако. Самый простой способ сделать это — воспользоваться массовым редактированием в Microsoft Excel. Сведения о подготовке рабочей станции к групповому редактированию см. в разделе [Добавление или изменение рабочих элементов с помощью Microsoft Excel](/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
 
 Шаг 5 в этой статье показывает, как выбрать **входной список**. Вместо этого выберите **список запросов**. Затем в раскрывающемся списке **выберите запрос** выберите запрос **шаблона рабочей нагрузки** . Этот запрос загружает все усилия, связанные с миграцией одной рабочей нагрузки в электронную таблицу.
 

@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 828b61ae6064e4c3b00fb0248900fe8f8cbab59f
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 97e49ae770edf5452d1aec7bb37f8c7ac209c0ef
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88192891"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285767"
 ---
 # <a name="deploy-a-migration-landing-zone-in-azure"></a>Развертывание зоны размещения для миграции в Azure
 
@@ -20,10 +20,10 @@ ms.locfileid: "88192891"
 
 ## <a name="deploy-the-blueprint"></a>Развертывание схемы
 
-Прежде чем использовать чертеж КАФ Zone для целевой зоны в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения облачных технологий, можно развернуть схему [КАФ миграции](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone) с помощью этапов развертывания.
+Прежде чем использовать чертеж КАФ Zone для целевой зоны в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения облачных технологий, можно развернуть схему [КАФ миграции](/azure/governance/blueprints/samples/caf-migrate-landing-zone) с помощью этапов развертывания.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy)
+> [Развертывание образца схемы](/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy)
 
 ## <a name="design-principles"></a>Принципы проектирования
 
@@ -41,17 +41,17 @@ ms.locfileid: "88192891"
 
 ### <a name="identity"></a>Идентификация
 
-В этом варианте реализации предполагается, что Целевая подписка уже связана с экземпляром Azure Active Directory в соответствии с [рекомендациями по управлению удостоверениями](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) .
+В этом варианте реализации предполагается, что Целевая подписка уже связана с экземпляром Azure Active Directory в соответствии с [рекомендациями по управлению удостоверениями](/azure/security/fundamentals/identity-management-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) .
 
 ### <a name="network-topology-and-connectivity"></a>Топология сети и возможности подключения
 
-Этот вариант реализации создает виртуальную сеть с подсетями для шлюза, брандмауэра, поля перехода и целевой зоны. В качестве следующей итерации команда должна следовать [руководству по сетевым решениям](../considerations/networking-options.md) , чтобы реализовать соответствующую форму подключения между подсетью шлюза и другими сетями в соответствии с [рекомендациями по безопасности сети](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+Этот вариант реализации создает виртуальную сеть с подсетями для шлюза, брандмауэра, поля перехода и целевой зоны. В качестве следующей итерации команда должна следовать [руководству по сетевым решениям](../considerations/networking-options.md) , чтобы реализовать соответствующую форму подключения между подсетью шлюза и другими сетями в соответствии с [рекомендациями по безопасности сети](/azure/security/fundamentals/network-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 
 ### <a name="resource-organization"></a>Организация ресурсов
 
 Этот вариант реализации создает одну целевую зону, в которой ресурсы будут упорядочены в рабочие нагрузки, определенные определенными группами ресурсов. Выбор минимального подхода к Организации ресурсов откладывает техническое решение Организации ресурсов, пока не будет четко определена облачная Рабочая модель группы.
 
-Этот подход основан на предположении, что усилия по внедрению в облако не будут превышать [лимиты подписки](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits). Этот вариант также предполагает ограниченную архитектурную сложность и требования к безопасности в этой целевой зоне.
+Этот подход основан на предположении, что усилия по внедрению в облако не будут превышать [лимиты подписки](/azure/azure-resource-manager/management/azure-subscription-service-limits). Этот вариант также предполагает ограниченную архитектурную сложность и требования к безопасности в этой целевой зоне.
 
 Если это изменится в рамках плана внедрения в облако, организация ресурсов может потребовать перефакторинга с помощью руководства в статье Управление [методологией](../../govern/index.md).
 
@@ -62,7 +62,7 @@ ms.locfileid: "88192891"
 Чтобы ускорить параллельную разработку дисциплин, ознакомьтесь с [управляемой методологией](../../govern/index.md) и рассмотрите возможность развертывания схемы [КАФ Foundation](./foundation-blueprint.md) в дополнение к чертежу зоны миграции каф.
 
 > [!WARNING]
-> По мере разработки дисциплин может потребоваться рефакторинг. Может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+> По мере разработки дисциплин может потребоваться рефакторинг. Может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](/azure/azure-resource-manager/management/move-resource-group-and-subscription?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 
 ### <a name="operations-baseline"></a>Базовый план операций
 
@@ -71,7 +71,7 @@ ms.locfileid: "88192891"
 Чтобы ускорить параллельную разработку базовых показателей операций, просмотрите [методологию управления](../../manage/index.md) и попробуйте развернуть [руководство по управлению сервером Azure](../../manage/azure-server-management/index.md).
 
 > [!WARNING]
-> При разработке базового плана операций может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+> При разработке базового плана операций может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](/azure/azure-resource-manager/management/move-resource-group-and-subscription?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 
 ### <a name="business-continuity-and-disaster-recovery-bcdr"></a>Непрерывность бизнес-процессов и аварийное восстановление (BCDR)
 
@@ -81,7 +81,7 @@ ms.locfileid: "88192891"
 
 В эту начальную целевую зону входят следующие допущения или ограничения. Если эти предположения совпадают с вашими ограничениями, вы можете использовать схему для создания первой зоны размещения. Схему также можно расширить, чтобы создать схему зоны размещения, которая соответствует вашим уникальным ограничениям.
 
-- **Ограничения подписки:** Эта деятельность по внедрению не должна превышать [пределы подписки](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits).
+- **Ограничения подписки:** Эта деятельность по внедрению не должна превышать [пределы подписки](/azure/azure-resource-manager/management/azure-subscription-service-limits).
 - **Соответствие требованиям:** В этой зоне не требуется никаких требований к соответствию сторонних разработчиков.
 - **Сложность архитектуры:** Сложность архитектуры не требует дополнительных производственных подписок.
 - **Общие службы:** Ни одна из существующих общих служб в Azure не требует, чтобы эта подписка рассматривалась как периферийная в центрально-лучевой архитектуре.
@@ -98,27 +98,27 @@ ms.locfileid: "88192891"
 | Средства миграцииСредства миграции              | Будет развернута Azure Site Recovery, и будет создан проект Миграции Azure.                | [Руководство по принятию решений о миграции](../../decision-guides/migrate-decision-guide/index.md)                                                                                                                                                                                               |
 | Ведение журналов и мониторинг       | Рабочая область оперативной аналитики и учетная запись хранения для диагностики будут подготовлены.                |                                                                                                                                                                                                                                                                                       |
 | Сеть                      | Виртуальная сеть будет создана с подсетями для шлюза, брандмауэра, поля перехода и целевой зоны.  | [Сетевые решения](../considerations/networking-options.md)                                                                                                                                                                                                                       |
-| Идентификация                     | Предполагается, что подписка уже связана с экземпляром Azure Active Directory. | [Рекомендации по управлению идентификаторами](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) |
+| Идентификация                     | Предполагается, что подписка уже связана с экземпляром Azure Active Directory. | [рекомендации по управлению удостоверениями](/azure/security/fundamentals/identity-management-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) |
 | Политика                       | В настоящее время эта схема предполагает, что никакие политики Azure не будут применяться.                        |                                                                                                                                                                                                                                                                                       |
 | Разработка подписки          | Н/д — предназначено для одной рабочей подписки.                                              | [Создание первоначальных подписок](../azure-best-practices/initial-subscriptions.md)                                                                                                                                                                                                      |
 | Группы ресурсов              | Н/д — предназначено для одной рабочей подписки.                                              | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                                                 |
 | Группы управления            | Н/д — предназначено для одной рабочей подписки.                                              | [Организация подписок и управление ими](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                                |
-| Данные                         | Недоступно                                                                                               | [Выберите правильный вариант SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview)                       |
-| Служба хранилища                      | Недоступно                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
+| Данные                         | Недоступно                                                                                               | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview)                       |
+| Память                      | Недоступно                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
 | Стандарты именования и расстановки тегов | Недоступно                                                                                               | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                                                    |
 | Управление затратами              | Недоступно                                                                                               | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                                              |
-| Вычисления                      | Недоступно                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
+| Службы вычислений                      | Недоступно                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
 
 ## <a name="customize-or-deploy-a-landing-zone"></a>Настройка или развертывание целевой зоны
 
 Дополнительные сведения и Загрузка образца схемы КАФ миграции на главную зону для развертывания или настройки в примерах схемы Azure см. здесь.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy)
+> [Развертывание образца схемы](/azure/governance/blueprints/samples/caf-migrate-landing-zone/deploy)
 
 Рекомендации по настройке, которые следует внести в эту схему или в итоговую целевую зону, см. в статье [сведения о целевой зоне](../considerations/index.md).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После развертывания первой целевой зоны вы можете расширить целевую зону.
 

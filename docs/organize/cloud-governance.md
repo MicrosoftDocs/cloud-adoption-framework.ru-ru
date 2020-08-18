@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: dfa8275bb96fc075e099b19c9c4b9b81d1714131
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: 9beb6f07dbc2a6dc701bfe5cc4e7ec64fe7ca94a
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755595"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285546"
 ---
 <!-- docsTest:ignore IS -->
 
@@ -40,7 +40,7 @@ ms.locfileid: "83755595"
 
 - Изучите [управляющую методологию](../govern/index.md).
 - Выполните [оценку производительности](../govern/benchmark.md)системы управления.
-- [Общие сведения о безопасности в Azure](https://docs.microsoft.com/learn/modules/intro-to-security-in-azure). Изучите основные понятия защиты инфраструктуры и данных в облаке. Узнайте, какие обязанности вы используете, а какие — в Azure.
+- [Общие сведения о безопасности в Azure](/learn/modules/intro-to-security-in-azure). Изучите основные понятия защиты инфраструктуры и данных в облаке. Узнайте, какие обязанности вы используете, а какие — в Azure.
 - Узнайте, как работать с несколькими группами для [управления затратами](../organize/cost-conscious-organization.md).
 
 ## <a name="minimum-scope"></a>Минимальная область

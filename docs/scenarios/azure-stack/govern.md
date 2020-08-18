@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: ba4746cb146e2c742a265591ca2c7aa5e4724af6
-ms.sourcegitcommit: 76edf563a08ff7dc81c3fc2dc6c8972ab3b4c55b
+ms.openlocfilehash: 400b71007dae1b39ae3c96d4a3394c1fd94f4267
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88237123"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285784"
 ---
 # <a name="govern-an-azure-instance-in-your-datacenter"></a>Управление экземпляром Azure в центре обработки данных
 
@@ -32,13 +32,13 @@ ms.locfileid: "88237123"
 
 Рекомендации по применению собственных средств управления в облаке для Azure Stack центральных средах см. в следующих статьях:
 
-- [Azure Resource Manager шаблоны и настройка требуемого состояния](https://docs.microsoft.com/azure-stack/user/azure-stack-arm-templates?view=azs-2002)
-- [PowerShell](https://docs.microsoft.com/azure-stack/user/azure-stack-powershell-overview?view=azs-2002)
-- [Политика Azure](https://docs.microsoft.com/azure-stack/user/azure-stack-policy-module?view=azs-2002)
-- [Управление доступом на основе ролей](https://docs.microsoft.com/azure-stack/user/azure-stack-manage-permissions?view=azs-2002)
+- [Azure Resource Manager шаблоны и настройка требуемого состояния](/azure-stack/user/azure-stack-arm-templates?view=azs-2002)
+- [PowerShell](/azure-stack/user/azure-stack-powershell-overview?view=azs-2002)
+- [Политика Azure](/azure-stack/user/azure-stack-policy-module?view=azs-2002)
+- [Управление доступом на основе ролей](/azure-stack/user/azure-stack-manage-permissions?view=azs-2002)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-Рекомендации по конкретным элементам пути внедрения в облако см. в следующих статьях:
+Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 
 - [Управление Azure Stack Hub](./manage.md)

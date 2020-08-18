@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 754f8a7bf3b72be2b1a6fc465d25bcd38cdda427
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 056d490a4022d2490735aa3248a1f2d558a561f5
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196221"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88285886"
 ---
 <!-- docsTest:ignore "CAF Foundation blueprint" -->
 
@@ -22,10 +22,10 @@ ms.locfileid: "88196221"
 
 ## <a name="deploy-the-blueprint"></a>Развертывание схемы
 
-Прежде чем использовать чертеж КАФ Foundation в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения в облако, то [проект КАФ Foundation](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation) можно развернуть с помощью шагов развертывания.
+Прежде чем использовать чертеж КАФ Foundation в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения в облако, то [проект КАФ Foundation](/azure/governance/blueprints/samples/caf-foundation) можно развернуть с помощью шагов развертывания.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation/deploy)
+> [Развертывание образца схемы](/azure/governance/blueprints/samples/caf-foundation/deploy)
 
 ## <a name="design-principles"></a>Принципы проектирования
 
@@ -41,11 +41,11 @@ ms.locfileid: "88196221"
 
 ### <a name="identity"></a>Идентификация
 
-В этом варианте реализации предполагается, что Целевая подписка уже связана с экземпляром Azure Active Directory в соответствии с [рекомендациями по управлению удостоверениями](https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+В этом варианте реализации предполагается, что Целевая подписка уже связана с экземпляром Azure Active Directory в соответствии с [рекомендациями по управлению удостоверениями](/azure/security/fundamentals/identity-management-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 
 ### <a name="network-topology-and-connectivity"></a>Топология сети и возможности подключения
 
-В этом варианте реализации предполагается, что в целевой зоне уже есть определенная топология сети в соответствии с [рекомендациями по безопасности сети](https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+В этом варианте реализации предполагается, что в целевой зоне уже есть определенная топология сети в соответствии с [рекомендациями по безопасности сети](/azure/security/fundamentals/network-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 
 ### <a name="resource-organization"></a>Организация ресурсов
 
@@ -69,7 +69,7 @@ ms.locfileid: "88196221"
 Чтобы ускорить параллельную разработку других дисциплин, ознакомьтесь с [управляемой методологией](../../govern/index.md). Чтобы продолжить совершенствующейся управления затратами, ознакомьтесь с [руководством по дисциплине управления затратами](../../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices).
 
 > [!WARNING]
-> По мере разработки дисциплин может потребоваться рефакторинг. Может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+> По мере разработки дисциплин может потребоваться рефакторинг. Может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](/azure/azure-resource-manager/management/move-resource-group-and-subscription?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 
 ### <a name="operations-baseline"></a>Базовый план операций
 
@@ -78,7 +78,7 @@ ms.locfileid: "88196221"
 Чтобы ускорить параллельную разработку базовых показателей операций, просмотрите [методологию управления](../../manage/index.md) и попробуйте развернуть [руководство по управлению сервером Azure](../../manage/azure-server-management/index.md).
 
 > [!WARNING]
-> При разработке базового плана операций может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+> При разработке базового плана операций может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](/azure/azure-resource-manager/management/move-resource-group-and-subscription?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
 
 ### <a name="business-continuity-and-disaster-recovery-bcdr"></a>Непрерывность бизнес-процессов и аварийное восстановление (BCDR)
 
@@ -98,9 +98,9 @@ ms.locfileid: "88196221"
 Узнайте больше и скачайте образец схемы КАФ Foundation для развертывания или настройки в примерах схемы Azure.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы](https://docs.microsoft.com/azure/governance/blueprints/samples/caf-foundation/deploy)
+> [Развертывание образца схемы](/azure/governance/blueprints/samples/caf-foundation/deploy)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После развертывания первой целевой зоны вы можете расширить целевую зону.
 
