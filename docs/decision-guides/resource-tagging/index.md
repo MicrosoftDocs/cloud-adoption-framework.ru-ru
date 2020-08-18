@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: b5f613fb79fc30fe9ea2a5c3e817ff54174f4ded
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 817cc502f00cf6b8afece839719626653618c451
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196041"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278848"
 ---
 <!-- cSpell:ignore catalogsearch northamerica jsmith contactalias catsearchowners businessprocess businessimpact revenueimpact -->
 
@@ -27,8 +27,8 @@ ms.locfileid: "88196041"
   - [Модели облачного учета](../../strategy/cloud-accounting.md)
   - [Вычисления рентабельности инвестиций](../../strategy/financial-models.md#return-on-investment)
   - [Отслеживание затрат](../../ready/azure-best-practices/track-costs.md)
-  - [Бюджеты](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
-  - [Оповещения](https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Бюджеты](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
+  - [Оповещения](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
   - [Отслеживание регулярных затрат и отчетность](../../govern/cost-management/compliance-processes.md)
   - [Оптимизация после реализации](../../govern/cost-management/discipline-improvement.md#operate-and-post-implementation)
   - [Тактика оптимизации затрат](../../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices)
@@ -55,7 +55,7 @@ ms.locfileid: "88196041"
 Стандартизированное соглашение об именовании служит основой для упорядочения ресурсов, размещенных в облаке. Правильно структурированная система именования позволяет быстро находить ресурсы для целей управления и учета. Если в других отделах вашей организации уже используется соглашение об именовании ИТ-систем, примите отдельное решение: будет ли соглашение об именовании для облака согласованным с уже имеющимися или новыми облачными стандартами.
 
 > [!NOTE]
-> К разным ресурсам Azure применяются различные [правила именования и ограничения](https://docs.microsoft.com/azure/azure-resource-manager/management/resource-name-rules). Соглашения об именовании должны соответствовать этим правилам.
+> К разным ресурсам Azure применяются различные [правила именования и ограничения](/azure/azure-resource-manager/management/resource-name-rules). Соглашения об именовании должны соответствовать этим правилам.
 
 ## <a name="resource-tagging-patterns"></a>Шаблоны присвоения тегов ресурсам
 
@@ -91,7 +91,7 @@ ms.locfileid: "88196041"
 Дополнительные сведения о присвоении имен и тегов в Azure см. в следующих статьях:
 
 - [Соглашения об именовании для ресурсов Azure.](../../ready/azure-best-practices/naming-and-tagging.md) Обратитесь к руководству по рекомендованным соглашениям об именовании для ресурсов Azure.
-- [Используйте теги для упорядочивания ресурсов Azure и создания иерархии управления.](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources) Вы можете применить в Azure теги на уровнях группы ресурсов или отдельного ресурса, что дает гибкость в подробном учете бухгалтерских отчетов на основе присвоенных тегов.
+- [Используйте теги для упорядочивания ресурсов Azure и создания иерархии управления.](/azure/azure-resource-manager/management/tag-resources) Вы можете применить в Azure теги на уровнях группы ресурсов или отдельного ресурса, что дает гибкость в подробном учете бухгалтерских отчетов на основе присвоенных тегов.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

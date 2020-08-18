@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: aa4f565bafeafa0eea09ca940a4ca90a9ff46eed
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 69a27bd28fb22f7c7a15490ac65d8dc7053b5f63
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196183"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278950"
 ---
 <!-- cSpell:ignore Kerberos NTLM SAML -->
 
@@ -63,7 +63,7 @@ Azure AD выполняет роль встроенной системой пл
 Для организаций с существующей инфраструктурой Active Directory синхронизация каталогов часто будет лучшим решением, позволяющим сохранить существующий механизм управления пользователями и доступом, одновременно предоставляя необходимые возможности IAM для управления облачными ресурсами. Этот процесс непрерывно реплицирует сведения о каталоге между Azure AD и локальными службами каталогов, позволяя пользователям использовать один набор учетных данных и обеспечивая согласованность удостоверений, ролей и разрешений в пределах организации.
 
 > [!NOTE]
-> Организации, которые выбрали Office 365, возможно, уже реализовали [синхронизацию каталогов](https://docs.microsoft.com/office365/enterprise/set-up-directory-synchronization) между своей локальной инфраструктурой Active Directory и Azure Active Directory.
+> Организации, которые выбрали Office 365, возможно, уже реализовали [синхронизацию каталогов](/office365/enterprise/set-up-directory-synchronization) между своей локальной инфраструктурой Active Directory и Azure Active Directory.
 
 **Некоторые моменты, связанные с синхронизацией каталогов**. Использование решения синхронизированной идентификации предполагает следующее:
 
@@ -93,19 +93,19 @@ Azure AD выполняет роль встроенной системой пл
 
 Федерация удостоверений устанавливает отношения доверия между несколькими системами управления удостоверениями, чтобы обеспечить общие возможности аутентификации и авторизации. Затем можно поддерживать возможности единого входа в нескольких доменах в организации или системах удостоверений, управляемых клиентами или бизнес-партнерами.
 
-Azure AD поддерживает федерацию локальных доменов Active Directory с помощью [служб федерации Active Directory (AD FS)](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-fed-whatis). Дополнительные сведения о том, как это можно реализовать в Azure, см. в статье [Расширение AD FS в Azure](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/adfs).
+Azure AD поддерживает федерацию локальных доменов Active Directory с помощью [служб федерации Active Directory (AD FS)](/azure/active-directory/hybrid/how-to-connect-fed-whatis). Дополнительные сведения о том, как это можно реализовать в Azure, см. в статье [Расширение AD FS в Azure](/azure/architecture/reference-architectures/identity/adfs).
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
 См. подробнее о службах идентификации в Azure:
 
-- **[Azure AD.](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)** Azure AD — это облачная служба идентификации. Она позволяет контролировать доступ к ресурсам Azure и управлять удостоверениями, регистрацией устройств, подготовкой пользователей, контролем доступа к приложениям и защитой данных.
-- **[Azure AD Connect.](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-hybrid-identity)** Средство Azure AD Connect позволяет подключать экземпляры Azure AD к существующим решениям по управлению удостоверениями, обеспечивая синхронизацию существующего каталога в облаке.
-- **[Управление доступом на основе ролей (RBAC).](https://docs.microsoft.com/azure/role-based-access-control/overview)** Azure AD предоставляет RBAC для эффективного и безопасного управления доступом к ресурсам в плоскости управления. Задания и обязанности организованы в роли, которые назначены пользователям. RBAC позволяет управлять доступом к ресурсу, а также действиями, которые пользователь может выполнять с этим ресурсом.
-- **[Azure AD Privileged Identity Management (PIM).](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)** PIM уменьшает продолжительность действия привилегий доступа к ресурсам и повышает видимость их использования с помощью отчетов и оповещений. Это достигается путем предоставления пользователям привилегий только в определенное время (JIT) либо путем назначения привилегий на короткий период, по истечении которого они автоматически отзываются.
-- **[Интеграция локальных доменов Active Directory с Azure Active Directory.](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/azure-ad)** Эта эталонная архитектура предоставляет пример синхронизации каталогов между локальными доменами Active Directory и Azure AD.
-- **[Расширение доменных служб Active Directory (AD DS) в Azure.](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/adds-extend-domain)** В этой эталонной архитектуре приведен пример развертывания серверов AD DS, чтобы расширить доменные службы до облачных ресурсов.
-- **[Расширение служб федерации Active Directory (AD FS) в Azure.](https://docs.microsoft.com/azure/architecture/reference-architectures/identity/adfs)** Эта эталонная архитектура настраивает службы федерации Active Directory (AD FS) для выполнения федеративной аутентификации и авторизации в каталоге Azure AD.
+- **[Azure AD.](/azure/active-directory/fundamentals/active-directory-whatis)** Azure AD — это облачная служба идентификации. Она позволяет контролировать доступ к ресурсам Azure и управлять удостоверениями, регистрацией устройств, подготовкой пользователей, контролем доступа к приложениям и защитой данных.
+- **[Azure AD Connect.](/azure/active-directory/hybrid/whatis-hybrid-identity)** Средство Azure AD Connect позволяет подключать экземпляры Azure AD к существующим решениям по управлению удостоверениями, обеспечивая синхронизацию существующего каталога в облаке.
+- **[Управление доступом на основе ролей (RBAC).](/azure/role-based-access-control/overview)** Azure AD предоставляет RBAC для эффективного и безопасного управления доступом к ресурсам в плоскости управления. Задания и обязанности организованы в роли, которые назначены пользователям. RBAC позволяет управлять доступом к ресурсу, а также действиями, которые пользователь может выполнять с этим ресурсом.
+- **[Azure AD Privileged Identity Management (PIM).](/azure/active-directory/privileged-identity-management/pim-configure)** PIM уменьшает продолжительность действия привилегий доступа к ресурсам и повышает видимость их использования с помощью отчетов и оповещений. Это достигается путем предоставления пользователям привилегий только в определенное время (JIT) либо путем назначения привилегий на короткий период, по истечении которого они автоматически отзываются.
+- **[Интеграция локальных доменов Active Directory с Azure Active Directory.](/azure/architecture/reference-architectures/identity/azure-ad)** Эта эталонная архитектура предоставляет пример синхронизации каталогов между локальными доменами Active Directory и Azure AD.
+- **[Расширение доменных служб Active Directory (AD DS) в Azure.](/azure/architecture/reference-architectures/identity/adds-extend-domain)** В этой эталонной архитектуре приведен пример развертывания серверов AD DS, чтобы расширить доменные службы до облачных ресурсов.
+- **[Расширение служб федерации Active Directory (AD FS) в Azure.](/azure/architecture/reference-architectures/identity/adfs)** Эта эталонная архитектура настраивает службы федерации Active Directory (AD FS) для выполнения федеративной аутентификации и авторизации в каталоге Azure AD.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

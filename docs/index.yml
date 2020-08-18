@@ -12,12 +12,12 @@ metadata:
   author: JanetCThomas
   ms.author: janet
   ms.date: 05/15/2020
-  ms.openlocfilehash: b6774a9cee6c154a73dd8a33a33c1da338b21f68
-  ms.sourcegitcommit: e21c0f8a5179eaa3358f041f01a80e220feffdd6
-  ms.translationtype: 
+  ms.openlocfilehash: d65281dd02e597745a3864d04d9ec106e8692012
+  ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+  ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 07/06/2020
-  ms.locfileid: "86014281"
+  ms.lasthandoff: 08/17/2020
+  ms.locfileid: "88280004"
 highlightedContent:
   items:
   - title: Начните переход к облаку
@@ -139,25 +139,25 @@ tools:
   items:
   - title: Microsoft Cloud Adoption Framework для Azure
     imageSrc: ./_images/learn-caf-logo.png
-    url: https://docs.microsoft.com/learn/modules/microsoft-cloud-adoption-framework-for-azure/index
+    url: /learn/modules/microsoft-cloud-adoption-framework-for-azure/index
   - title: Основные понятия Azure
     imageSrc: ./_images/learn-azure-fundamentals-logo.png
-    url: https://docs.microsoft.com/learn/paths/azure-fundamentals
+    url: /learn/paths/azure-fundamentals
   - title: Изучение ценности Azure для бизнеса
     imageSrc: ./_images/learn-business-value-of-azure-logo.png
-    url: https://docs.microsoft.com/learn/paths/learn-business-value-of-azure
+    url: /learn/paths/learn-business-value-of-azure
 conceptualContent:
   title: Оценки
   summary: Оценки помогают спланировать переход к облаку. Используйте их для выявления различий между текущим и требуемым состояниями. Мы предоставим персонализированные проверенные рекомендации, которые помогут вам достичь требуемого состояния.
   items:
   - title: Средство отслеживания перехода в облако
     links:
-    - url: https://docs.microsoft.com/assessments/?mode=pre-assessment&id=cloud-journey-tracker
+    - url: /assessments/?id=cloud-journey-tracker&mode=pre-assessment
       itemType: get-started
       text: Определите путь перехода к облаку с учетом потребностей своего бизнеса.
   - title: Средство стратегической оценки и подготовки к миграции (SMART)
     links:
-    - url: https://docs.microsoft.com/assessments/?mode=pre-assessment&id=Strategic-Migration-Assessment
+    - url: /assessments/?id=Strategic-Migration-Assessment&mode=pre-assessment
       itemType: get-started
       text: Откройте для себя возможности перехода к облаку, улучшайте процессы и повышайте результативность бизнеса.
   - title: Тест производительности системы управления
@@ -167,7 +167,7 @@ conceptualContent:
       text: Определите расхождения между текущим состоянием и бизнес-приоритетами, а также получите доступ к ресурсам, которые позволят устранить эти расхождения.
   - title: Общие сведения о Microsoft Azure Well-Architected
     links:
-    - url: https://docs.microsoft.com/assessments/?mode=pre-assessment&id=azure-architecture-review
+    - url: /assessments/?id=azure-architecture-review&mode=pre-assessment
       itemType: architecture
       text: Узнайте, как расширить возможности базовых операций для приоритетных рабочих нагрузок.
 additionalContent:
@@ -184,4 +184,4 @@ additionalContent:
     - title: Найти партнера
       summary: Найти партнера, который поможет приступить к работе
       url: https://aka.ms/adopt/findapartner
-  footer: Узнайте о преимуществах Cloud Adoption Framework для вашего бизнеса. [https://aka.ms/adopt](https://azure.microsoft.com/cloud-adoption-framework)
+  footer: See why the Cloud Adoption Framework is right for your business. [https://aka.ms/adopt](https://azure.microsoft.com/cloud-adoption-framework)

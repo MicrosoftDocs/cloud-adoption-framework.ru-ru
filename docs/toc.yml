@@ -254,17 +254,17 @@ items:
                   - name: Обзор
                     href: ready/considerations/landing-zone-security.md
                   - name: Подключение подписки к Центру безопасности Azure
-                    href: 'https://docs.microsoft.com/azure/security-center/security-center-get-started?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security-center/security-center-get-started?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Подключение к Azure Sentinel
-                    href: 'https://docs.microsoft.com/azure/sentinel/quickstart-onboard?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/sentinel/quickstart-onboard?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Реализация архитектуры защищенной гибридной сети в Azure
-                    href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/architecture/reference-architectures/dmz/secure-vnet-dmz?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по защите управления удостоверениями и доступом в Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/identity-management-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по защите сетей Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/network-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по защите операций в Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/operational-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/operational-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: Теория "инфраструктуры как кода"
             items:
               - name: Рефакторинг целевых зон
@@ -288,15 +288,15 @@ items:
               - name: Именование и присвоение тегов
                 href: ready/azure-best-practices/naming-and-tagging.md
               - name: Перемещение ресурсов
-                href: 'https://docs.microsoft.com/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/azure-resource-manager/management/move-resource-group-and-subscription?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: Сеть
             items:
               - name: Безопасность границ сети
                 href: reference/networking-vdc.md
               - name: Планирование виртуальных сетей
-                href: 'https://docs.microsoft.com/azure/virtual-network/virtual-network-vnet-plan-design-arm?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/virtual-network/virtual-network-vnet-plan-design-arm?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Рекомендации по обеспечению сетевой безопасности
-                href: 'https://docs.microsoft.com/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/security/fundamentals/network-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Сети периметра
                 href: ready/azure-best-practices/perimeter-networks.md
               - name: Звездообразная топология сети
@@ -304,35 +304,35 @@ items:
           - name: Идентификаторы и управление доступом
             items:
               - name: Рекомендации по управлению идентификаторами
-                href: 'https://docs.microsoft.com/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/security/fundamentals/identity-management-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Обеспечение безопасности привилегированного доступа
-                href: 'https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-admin-roles-secure?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/active-directory/users-groups-roles/directory-admin-roles-secure?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Выбор метода проверки подлинности
-                href: 'https://docs.microsoft.com/azure/active-directory/hybrid/choose-ad-authn?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/active-directory/hybrid/choose-ad-authn?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: Память
             items:
               - name: Руководство по обеспечению безопасности службы хранилища
-                href: 'https://docs.microsoft.com/azure/storage/blobs/security-recommendations?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/storage/blobs/security-recommendations?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: Базы данных
             items:
               - name: Рекомендации по обеспечению безопасности базы данных
-                href: 'https://docs.microsoft.com/azure/sql-database/sql-database-security-best-practice?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/sql-database/sql-database-security-best-practice?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Выбор варианта развертывания в SQL Azure
-                href: 'https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/sql-database/sql-database-paas-vs-sql-server-iaas?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: управления затратами
             items:
               - name: Отслеживание затрат
                 href: ready/azure-best-practices/track-costs.md
               - name: Оптимизация инвестиций в облако
-                href: 'https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/cost-management-billing/costs/cost-mgt-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Создание бюджетов и управление ими
-                href: 'https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Экспорт данных о затратах
-                href: 'https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-export-acm-data?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/cost-management-billing/costs/tutorial-export-acm-data?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Рекомендации по оптимизации затрат
-                href: 'https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Отслеживание использования и расходов
-                href: 'https://docs.microsoft.com/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: 'Навыки, связанные с готовыми и целевыми зонами'
             href: ready/suggested-skills.md
   - name: Внедрение
@@ -408,23 +408,23 @@ items:
               - name: Приложения Java
                 items:
                   - name: Общие сведения о переносе
-                    href: 'https://docs.microsoft.com/azure/java/migration-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migration-overview?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Переход из Spring в Службу приложений Azure
-                    href: 'https://docs.microsoft.com/azure/java/migrate-java-se-to-java-se-app-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migrate-java-se-to-java-se-app-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Перенос Tomcat в Службу приложений Azure
-                    href: 'https://docs.microsoft.com/azure/java/migrate-tomcat-to-tomcat-app-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migrate-tomcat-to-tomcat-app-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Перенос Tomcat в контейнеры в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-tomcat-to-containers-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migrate-tomcat-to-containers-on-azure-kubernetes-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Переход из WebLogic в Виртуальные машины Azure
-                    href: 'https://docs.microsoft.com/azure/java/migrate-weblogic-to-virtual-machines?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migrate-weblogic-to-virtual-machines?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Переход с WildFly на WildFly в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-wildfly-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migrate-wildfly-to-wildfly-on-azure-kubernetes-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Переход с WebLogic на WildFly в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-weblogic-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migrate-weblogic-to-wildfly-on-azure-kubernetes-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Переход с WebSphere на WildFly в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-websphere-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migrate-websphere-to-wildfly-on-azure-kubernetes-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Переход с JBoss EAP на WildFly в AKS
-                    href: 'https://docs.microsoft.com/azure/java/migrate-jboss-eap-to-wildfly-on-azure-kubernetes-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/java/migrate-jboss-eap-to-wildfly-on-azure-kubernetes-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: SAP
                 items:
                   - name: Руководство по миграции SAP
@@ -452,55 +452,55 @@ items:
                   - name: Предварительные требования
                     items:
                       - name: Защита среды
-                        href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/private-cloud-secure?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/vmware-cloudsimple/private-cloud-secure?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Управление частным облаком
                         items:
                           - name: Эскалация привилегий CloudSimple
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/escalate-privileges?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/escalate-privileges?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Настройка рабочих нагрузок DNS и DHCP
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/dns-dhcp-setup?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/dns-dhcp-setup?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: "Перенос рабочих нагрузок с помощью растянутых сетей уровня\_2"
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/migration-layer-2-vpn?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/migration-layer-2-vpn?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Сети для частного облака
                         items:
                           - name: Локальное сетевое подключение с помощью VPN
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/set-up-vpn?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/set-up-vpn?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Локальное сетевое подключение с помощью ExpressRoute
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/on-premises-connection?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/on-premises-connection?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Виртуальное сетевое подключение Azure с помощью ExpressRoute
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/azure-expressroute-connection?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/azure-expressroute-connection?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Настройка DNS для разрешения имен
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/on-premises-dns-setup?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/on-premises-dns-setup?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Платформа VMware
                         items:
                           - name: Модель разрешений частного облака CloudSimple
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/learn-private-cloud-permissions?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/learn-private-cloud-permissions?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Источники удостоверений vCenter
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/set-vcenter-identity?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/set-vcenter-identity?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Использование Шлюза приложений Azure с виртуальными машинами VMware
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/azure-application-gateway?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/azure-application-gateway?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Сервер vCenter как конечная точка автоматизации vRealize
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/configure-server-vrealize-automation-endpoint?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/configure-server-vrealize-automation-endpoint?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Обеспечение высокой доступности приложения в VMware в Azure
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/ensuring-high-availability?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/ensuring-high-availability?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Выбор решения для балансировки нагрузки
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/load-balancers?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/load-balancers?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Интеграция основных компонентов Azure
                         items:
                           - name: "Azure\_AD как поставщик удостоверений для vCenter"
-                            href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/azure-ad?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/vmware-cloudsimple/azure-ad?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Параметры повторного размещения и аварийного восстановления
                     items:
                       - name: 'Повторное размещение виртуальных машин, на которых выполняется рабочая нагрузка, в частном облаке vCenter'
-                        href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/migrate-workloads?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/vmware-cloudsimple/migrate-workloads?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Повторное размещение данных с помощью Azure Data Box
-                        href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/migration-using-azure-data-box?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/vmware-cloudsimple/migration-using-azure-data-box?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: 'Резервное копирование виртуальных машин, на которых выполняется рабочая нагрузка'
-                        href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/backup-workloads-veeam?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/vmware-cloudsimple/backup-workloads-veeam?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Настройка частного облака CloudSimple в качестве сайта аварийного восстановления с помощью Zerto
-                        href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-zerto?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/vmware-cloudsimple/disaster-recovery-zerto?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Настройка частного облака CloudSimple в качестве сайта аварийного восстановления с помощью VMware SRM
-                        href: 'https://docs.microsoft.com/azure/vmware-cloudsimple/disaster-recovery-site-recovery-manager?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/vmware-cloudsimple/disaster-recovery-site-recovery-manager?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Виртуальный рабочий стол Windows
                 items:
                   - name: Обзор
@@ -576,31 +576,31 @@ items:
                   - name: Руководства по Azure Database Migration Service (DMS)
                     items:
                       - name: Общие сведения о службе Azure Database Migration Service
-                        href: 'https://docs.microsoft.com/azure/dms/dms-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/dms-overview?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Миграция из SQL Server в Базу данных SQL Azure в автономном режиме
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-azure-sql?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-sql-server-to-azure-sql?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Миграция из SQL Server в Базу данных SQL Azure в подключенном режиме
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-sql-server-azure-sql-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-sql-server-azure-sql-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: "Миграция SQL\_Server в Управляемый экземпляр SQL Azure в автономном режиме"
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-sql-server-to-managed-instance?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-sql-server-to-managed-instance?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: "Миграция SQL\_Server в Управляемый экземпляр SQL Azure в подключенном режиме"
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-sql-server-managed-instance-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-sql-server-managed-instance-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Миграция SQL Server Amazon RDS в Базу данных SQL Azure или Управляемый экземпляр SQL Azure в подключенном режиме
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Миграция из MySQL в Базу данных Azure для MySQL в подключенном режиме
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-mysql-azure-mysql-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-mysql-azure-mysql-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Миграция из Amazon RDS MySQL в Базу данных Azure для MySQL в подключенном режиме
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-rds-mysql-server-azure-db-for-mysql-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-rds-mysql-server-azure-db-for-mysql-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Миграция из PostgreSQL в Базу данных Azure для PostgreSQL в подключенном режиме
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-postgresql-azure-postgresql-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-postgresql-azure-postgresql-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Миграция из Amazon RDS PostgreSQL в Базу данных Azure для PostgreSQL в подключенном режиме
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-rds-postgresql-server-azure-db-for-postgresql-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-rds-postgresql-server-azure-db-for-postgresql-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: "Миграция MongoDB в API Azure Cosmos\_DB для MongoDB в автономном режиме"
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-mongodb-cosmos-db?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: "Миграция MongoDB в API Azure Cosmos\_DB для MongoDB в подключенном режиме"
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-mongodb-cosmos-db-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-mongodb-cosmos-db-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Миграция Oracle в Базу данных Azure для PostgreSQL через Интернет
-                        href: 'https://docs.microsoft.com/azure/dms/tutorial-oracle-azure-postgresql-online?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/dms/tutorial-oracle-azure-postgresql-online?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Azure Stack
                 items:
                   - name: Обзор
@@ -640,25 +640,25 @@ items:
                   - name: Защита рабочих нагрузок и управление ими после переноса
                     href: migrate/azure-best-practices/migrate-best-practices-security-management.md
                   - name: Рекомендации по обеспечению безопасности базы данных Azure
-                    href: 'https://docs.microsoft.com/azure/sql-database/sql-database-security-best-practice?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/sql-database/sql-database-security-best-practice?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по защите и шифрованию данных в Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/data-encryption-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по использованию Azure PaaS
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-deployments?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/paas-deployments?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по безопасности Azure Service Fabric
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/service-fabric-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/service-fabric-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по обеспечению безопасности виртуальных машин Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/iaas?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/iaas?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по обеспечению безопасности Интернета вещей
-                    href: 'https://docs.microsoft.com/azure/iot-fundamentals/iot-security-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/iot-fundamentals/iot-security-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Защита баз данных PaaS в Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-sql?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/paas-applications-using-sql?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Защита мобильных приложений и веб-приложений PaaS с помощью службы приложений Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-app-services?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/paas-applications-using-app-services?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Защита мобильных приложений и веб-приложений PaaS с помощью службы хранилища Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/paas-applications-using-storage?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/paas-applications-using-storage?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по безопасности для рабочих нагрузок IaaS в Azure
-                    href: 'https://docs.microsoft.com/azure/security/fundamentals/iaas?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                    href: /azure/security/fundamentals/iaas?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: Рекомендации
             items:
               - name: Обзор
@@ -808,53 +808,53 @@ items:
                   - name: Совместное использование данных со специалистами
                     items:
                       - name: Быстрое создание аналитических данных
-                        href: 'https://docs.microsoft.com/power-bi/service-insights?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-bi/service-insights?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Совместное использование данных с сотрудниками и партнерами
-                        href: 'https://docs.microsoft.com/power-bi/service-share-dashboards?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-bi/service-share-dashboards?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Внедрение отчетов на веб-сайте или портале
-                        href: 'https://docs.microsoft.com/power-bi/service-embed-secure?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-bi/service-embed-secure?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: "Создание рабочих областей в Power\_BI"
-                        href: 'https://docs.microsoft.com/power-bi/service-create-the-new-workspaces?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-bi/service-create-the-new-workspaces?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Управление данными
                     items:
                       - name: Классификация данных
                         href: govern/policy-compliance/data-classification.md
                       - name: Защита данных
-                        href: 'https://docs.microsoft.com/azure/architecture/data-guide/scenarios/securing-data-solutions?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/architecture/data-guide/scenarios/securing-data-solutions?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Добавление заметок к данным с помощью Каталога данных
-                        href: 'https://docs.microsoft.com/azure/data-catalog/data-catalog-how-to-annotate?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/data-catalog/data-catalog-how-to-annotate?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Документирование источников данных с помощью Каталога данных
-                        href: 'https://docs.microsoft.com/azure/data-catalog/data-catalog-how-to-documentation?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/data-catalog/data-catalog-how-to-documentation?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Централизация данных
                     items:
                       - name: Создание пула SQL Azure Synapse Analytics и отправка запросов к нему
-                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/create-data-warehouse-portal?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/synapse-analytics/sql-data-warehouse/create-data-warehouse-portal?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Рекомендации по загрузке данных для их хранения
-                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/guidance-for-loading-data?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/synapse-analytics/sql-data-warehouse/guidance-for-loading-data?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: "Визуализация данных хранилища с помощью Power\_BI"
-                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-visualize-with-power-bi?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-visualize-with-power-bi?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Эталонная архитектура для корпоративной бизнес-аналитики с использованием Azure Synapse Analytics
-                        href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/data/enterprise-bi-synapse?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/architecture/reference-architectures/data/enterprise-bi-synapse?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Управление большими данными предприятия с помощью Azure Data Lake Storage
-                        href: 'https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-introduction?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/storage/blobs/data-lake-storage-introduction?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Что такое озеро данных
-                        href: 'https://docs.microsoft.com/azure/architecture/data-guide/scenarios/data-lake?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/architecture/data-guide/scenarios/data-lake?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Сбор данных
                     items:
                       - name: 'Перенос локальных данных в Azure с платформ SQL, Oracle или NoSQL'
                         href: innovate/best-practices/data-dms.md
                       - name: Интеграция облачных источников данных с хранилищем данных аналитики SQL
-                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-integrate?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-overview-integrate?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Загрузка локальных данных в Azure Synapse Analytics
-                        href: 'https://docs.microsoft.com/sql/integration-services/load-data-to-sql-data-warehouse?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /sql/integration-services/load-data-to-sql-data-warehouse?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Интеграция данных Фабрики данных Azure в OLAP
-                        href: 'https://docs.microsoft.com/azure/architecture/data-guide/scenarios/hybrid-on-premises-and-cloud?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/architecture/data-guide/scenarios/hybrid-on-premises-and-cloud?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Использование Azure Stream Analytics с Azure Synapse Analytics
-                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-integrate-azure-stream-analytics?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-integrate-azure-stream-analytics?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Эталонная архитектура для приема данных и анализа новых веб-каналов
-                        href: 'https://docs.microsoft.com/azure/architecture/example-scenario/ai/newsfeed-ingestion?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/architecture/example-scenario/ai/newsfeed-ingestion?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Загрузка данных в пул SQL Azure Synapse Analytics
-                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/load-data-wideworldimportersdw?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/synapse-analytics/sql-data-warehouse/load-data-wideworldimportersdw?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Привлечение клиентов с помощью приложений
                 items:
                   - name: Обзор
@@ -862,51 +862,51 @@ items:
                   - name: Разработчики-любители
                     items:
                       - name: Общие сведения о PowerApps
-                        href: 'https://docs.microsoft.com/powerapps/powerapps-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /powerapps/powerapps-overview?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Создание приложений в PowerApps
-                        href: 'https://docs.microsoft.com/powerapps/maker?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /powerapps/maker?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Создание первого рабочего процесса с помощью Power Automate
-                        href: 'https://docs.microsoft.com/power-automate/getting-started?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-automate/getting-started?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: "Использование AI\_Builder"
-                        href: 'https://docs.microsoft.com/powerapps/use-ai-builder?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /powerapps/use-ai-builder?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: 'Соответствие требованиям и конфиденциальность данных для решений, созданных разработчиками-любителями'
-                        href: 'https://docs.microsoft.com/power-platform/admin/wp-compliance-data-privacy?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-platform/admin/wp-compliance-data-privacy?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: 'Политики защиты от потери данных для решений, созданных разработчиками-любителями'
-                        href: 'https://docs.microsoft.com/power-platform/admin/wp-data-loss-prevention?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-platform/admin/wp-data-loss-prevention?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Интеллектуальные возможности
                     items:
                       - name: Современные веб-приложения
                         items:
                           - name: Эталонные решения для веб-приложений
-                            href: 'https://docs.microsoft.com/azure/architecture/solution-ideas/articles/scalable-ecommerce-web-app?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/architecture/solution-ideas/articles/scalable-ecommerce-web-app?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Создание приложения .NET Core с использованием Базы данных SQL Azure
-                            href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Создание приложения .NET с использованием Базы данных SQL Azure
-                            href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Создание приложения PHP с использованием MySQL
-                            href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-php-mysql?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/app-service/app-service-web-tutorial-php-mysql?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Создание приложения Node.js с использованием MongoDB
-                            href: 'https://docs.microsoft.com/azure/app-service/app-service-web-tutorial-nodejs-mongodb-app?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/app-service/app-service-web-tutorial-nodejs-mongodb-app?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Внедрение аналитики
                         items:
                           - name: Использование Компьютерного зрения в Visual Studio
-                            href: 'https://docs.microsoft.com/azure/cognitive-services/computer-vision/home?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/cognitive-services/computer-vision/home?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Перевод текста в реальном времени
-                            href: 'https://docs.microsoft.com/azure/cognitive-services/translator/quickstart-translate?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/cognitive-services/translator/quickstart-translate?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Анализ тональности с помощью LUIS
-                            href: 'https://docs.microsoft.com/azure/cognitive-services/luis/tutorial-publish-settings?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/cognitive-services/luis/tutorial-publish-settings?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Распознавание речи с микрофона
-                            href: 'https://docs.microsoft.com/azure/cognitive-services/speech-service/quickstarts/speech-to-text-from-microphone?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/cognitive-services/speech-service/quickstarts/speech-to-text-from-microphone?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Поиск в Интернете Bing
-                            href: 'https://docs.microsoft.com/azure/cognitive-services/bing-web-search/tutorial-bing-web-search-single-page-app?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/cognitive-services/bing-web-search/tutorial-bing-web-search-single-page-app?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Визуальный поиск на основе изображений
-                            href: 'https://docs.microsoft.com/azure/cognitive-services/bing-visual-search/tutorial-visual-search-image-upload?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/cognitive-services/bing-visual-search/tutorial-visual-search-image-upload?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Чат-боты
                         items:
                           - name: Создание и развертывание простого бота
-                            href: 'https://docs.microsoft.com/azure/bot-service/bot-builder-tutorial-basic-deploy?view=azure-bot-service-4.0&tabs=csharp&toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/bot-service/bot-builder-tutorial-basic-deploy?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&tabs=csharp&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json&view=azure-bot-service-4.0
                           - name: 'Схема обучения: создание ботов с помощью службы-бота Azure'
-                            href: 'https://docs.microsoft.com/learn/paths/create-bots-with-the-azure-bot-service'
+                            href: /learn/paths/create-bots-with-the-azure-bot-service
                           - name: Примеры ботов Azure на сайте GitHub
                             href: 'https://github.com/Microsoft/botframework-sdk'
                   - name: Полностью облачные приложения
@@ -914,37 +914,37 @@ items:
                       - name: Архитектура микрослужб
                         items:
                           - name: 'Проектирование и создание микрослужб, а также управление ими в Azure'
-                            href: 'https://docs.microsoft.com/azure/architecture/guide/architecture-styles/microservices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/architecture/guide/architecture-styles/microservices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Эталонная архитектура для микрослужб в Службе Azure Kubernetes (AKS)
-                            href: 'https://docs.microsoft.com/azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices'
+                            href: /azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices
                           - name: "Эталонная архитектура\_— пример бессерверных микрослужб"
-                            href: 'https://docs.microsoft.com/samples/azure-samples/serverless-microservices-reference-architecture/serverless-microservices-reference-architecture/?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /samples/azure-samples/serverless-microservices-reference-architecture/serverless-microservices-reference-architecture/?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Контейнеры
                         items:
                           - name: Что такое Kubernetes?
                             href: 'https://azure.microsoft.com/topic/what-is-kubernetes/'
                           - name: Подготовка приложения для Службы Azure Kubernetes (AKS)
-                            href: 'https://docs.microsoft.com/azure/aks/tutorial-kubernetes-prepare-app?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/aks/tutorial-kubernetes-prepare-app?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Создание кластера Azure Red Hat OpenShift
-                            href: 'https://docs.microsoft.com/azure/openshift/tutorial-create-cluster?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/openshift/tutorial-create-cluster?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Микрослужбы Spring Boot
                         items:
                           - name: Запуск приложения Azure Spring Cloud
-                            href: 'https://docs.microsoft.com/azure/spring-cloud/spring-cloud-quickstart-launch-app-portal?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/spring-cloud/spring-cloud-quickstart-launch-app-portal?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Распределенная трассировка с помощью Azure Spring Cloud
-                            href: 'https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-distributed-tracing?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/spring-cloud/spring-cloud-tutorial-distributed-tracing?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: "Привязывание Azure Cosmos\_DB к приложению Azure Spring Cloud"
-                            href: 'https://docs.microsoft.com/azure/spring-cloud/spring-cloud-tutorial-bind-cosmos?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/spring-cloud/spring-cloud-tutorial-bind-cosmos?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: 'Приложения, управляемые событиями'
                         items:
                           - name: Схема обучения по созданию бессерверных приложений
-                            href: 'https://docs.microsoft.com/learn/paths/create-serverless-applications'
+                            href: /learn/paths/create-serverless-applications
                           - name: Руководство разработчиков Функций Azure
-                            href: 'https://docs.microsoft.com/azure/azure-functions/functions-reference?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/azure-functions/functions-reference?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Руководство по бессерверным вычислениям в Azure
                             href: 'https://azure.microsoft.com/resources/azure-serverless-computing-cookbook'
                           - name: Общие сведения о Функциях Azure
-                            href: 'https://docs.microsoft.com/azure/azure-functions/functions-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /azure/azure-functions/functions-overview?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Поддержка внедрения
                 items:
                   - name: Обзор
@@ -954,13 +954,13 @@ items:
                       - name: "Начало работы с общим репозиторием\_— GitHub и Git"
                         href: 'https://guides.github.com/introduction/git-handbook'
                       - name: Начало работы с общим журналом невыполненной работы
-                        href: 'https://docs.microsoft.com/azure/devops/boards/backlogs/backlogs-boards-plans?view=azure-devops&toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/devops/boards/backlogs/backlogs-boards-plans?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json&view=azure-devops
                       - name: Синхронизация PowerApps с Azure DevOps
-                        href: 'https://docs.microsoft.com/powerapps/developer/common-data-service/build-tools-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /powerapps/developer/common-data-service/build-tools-overview?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Циклы обратной связи
                     items:
                       - name: Управление обратной связью с помощью Azure DevOps
-                        href: 'https://docs.microsoft.com/azure/devops/project/feedback?view=azure-devops&/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/devops/project/feedback?bc=%2fazure%2fcloud-adoption-framework%2ftoc.json&view=azure-devops
                   - name: Непрерывная интеграция
                     items:
                       - name: Непрерывная интеграция с использованием Azure Pipelines и GitHub
@@ -970,7 +970,7 @@ items:
                   - name: Надежное тестирование
                     items:
                       - name: Управление планами тестирования и их отслеживание
-                        href: 'https://docs.microsoft.com/azure/devops/test/track-test-status?view=azure-devops&toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/devops/test/track-test-status?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json&view=azure-devops
                   - name: Развертывание решения
                     items:
                       - name: Непрерывное развертывание с использованием Azure Pipelines и GitHub
@@ -978,17 +978,17 @@ items:
                   - name: Интегрированные метрики
                     items:
                       - name: Мониторинг приложений ASP.NET
-                        href: 'https://docs.microsoft.com/azure/azure-monitor/learn/quick-monitor-portal?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/azure-monitor/learn/quick-monitor-portal?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Мониторинг веб-приложений ASP.NET Core
-                        href: 'https://docs.microsoft.com/azure/azure-monitor/learn/dotnetcore-quick-start?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/azure-monitor/learn/dotnetcore-quick-start?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Мониторинг приложений Node.js
-                        href: 'https://docs.microsoft.com/azure/azure-monitor/learn/nodejs-quick-start?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/azure-monitor/learn/nodejs-quick-start?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Мониторинг мобильных приложений
-                        href: 'https://docs.microsoft.com/azure/azure-monitor/learn/mobile-center-quickstart?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/azure-monitor/learn/mobile-center-quickstart?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Мониторинг веб-приложений
-                        href: 'https://docs.microsoft.com/azure/azure-monitor/app/website-monitoring?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/azure-monitor/app/website-monitoring?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: 'Мониторинг виртуальных машин, на которых размещены традиционные приложения'
-                        href: 'https://docs.microsoft.com/azure/azure-monitor/learn/quick-collect-azurevm?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/azure-monitor/learn/quick-collect-azurevm?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Взаимодействие с устройствами
                 items:
                   - name: Обзор
@@ -996,55 +996,55 @@ items:
                   - name: Интерфейс мобильных приложений
                     items:
                       - name: Расширение традиционного приложения для обработки утверждений с помощью веб-интерфейсов и мобильных интерфейсов
-                        href: 'https://docs.microsoft.com/azure/architecture/solution-ideas/articles/adding-a-modern-web-and-mobile-frontend-to-a-legacy-claims-processing-application'
+                        href: /azure/architecture/solution-ideas/articles/adding-a-modern-web-and-mobile-frontend-to-a-legacy-claims-processing-application
                       - name: Оптимизация отчетов для совместного использования данных в мобильном приложении
-                        href: 'https://docs.microsoft.com/power-bi/desktop-create-phone-report?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-bi/desktop-create-phone-report?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Добавление в приложение на основе холста PowerApps возможностей работы на мобильных устройствах
-                        href: 'https://docs.microsoft.com/powerapps/user/run-app-client?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /powerapps/user/run-app-client?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Включение в Power Automate поддержки мобильных приложений
-                        href: 'https://docs.microsoft.com/power-automate/create-mobile-task-flow?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /power-automate/create-mobile-task-flow?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Безопасная работа на мобильных устройствах
                         items:
                           - name: 'Защита мобильных отчетов с помощью распознавания лиц, касаний или секретных кодов'
-                            href: 'https://docs.microsoft.com/power-bi/consumer/mobile/mobile-native-secure-access?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /power-bi/consumer/mobile/mobile-native-secure-access?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Защита потоков мобильных задач с помощью Intune
-                            href: 'https://docs.microsoft.com/power-automate/intune-support?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /power-automate/intune-support?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Защита данных в службах Common Data Service
-                            href: 'https://docs.microsoft.com/power-platform/admin/wp-security?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                            href: /power-platform/admin/wp-security?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Смешанная реальность
                     items:
                       - name: Разработка возможностей смешанной реальности с помощью Unity
-                        href: 'https://docs.microsoft.com/windows/mixed-reality/unity-development-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /windows/mixed-reality/unity-development-overview?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Краткие руководства по добавлению Пространственных привязок Azure в решение смешанной реальности
-                        href: 'https://docs.microsoft.com/azure/spatial-anchors/?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/spatial-anchors/?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Интегрированная реальность и Интернет вещей
                     items:
                       - name: "Визуализация данных датчиков с помощью Интернета вещей Azure в Power\_BI"
-                        href: 'https://docs.microsoft.com/azure/iot-hub/iot-hub-live-data-visualization-in-power-bi?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/iot-hub/iot-hub-live-data-visualization-in-power-bi?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Визуализация данных датчиков с помощью Центра Интернета вещей Azure в веб-решении
-                        href: 'https://docs.microsoft.com/azure/iot-hub/iot-hub-live-data-visualization-in-web-apps?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/iot-hub/iot-hub-live-data-visualization-in-web-apps?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Защита решения Интернета вещей
-                        href: 'https://docs.microsoft.com/azure/iot-fundamentals/iot-security-architecture?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/iot-fundamentals/iot-security-architecture?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Начало работы с Azure Sphere
                         href: 'https://azure.microsoft.com/services/azure-sphere/get-started/'
                       - name: Создание развертывания в Azure Sphere
-                        href: 'https://docs.microsoft.com/azure-sphere/deployment/create-a-deployment?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure-sphere/deployment/create-a-deployment?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Начало работы с Azure Kinect DK
-                        href: 'https://docs.microsoft.com/azure/Kinect-dk/about-azure-kinect-dk?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/Kinect-dk/about-azure-kinect-dk?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Создание первого приложения Azure Kinect DK
-                        href: 'https://docs.microsoft.com/azure/Kinect-dk/build-first-app?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/Kinect-dk/build-first-app?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Скорректированная реальность
                     items:
                       - name: 'Azure Digital Twins и HoloLens: корректировка виртуальной реальности'
                         href: 'https://azure.microsoft.com/resources/videos/build-2019-azure-digital-twins-hololens-powering-the-next-generation-of-iot/'
                       - name: Начало работы с Azure Digital Twins
-                        href: 'https://docs.microsoft.com/azure/digital-twins/about-digital-twins?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/digital-twins/about-digital-twins?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Мониторинг зданий с помощью Azure Digital Twins
-                        href: 'https://docs.microsoft.com/azure/digital-twins/tutorial-facilities-setup?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/digital-twins/tutorial-facilities-setup?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Руководство по передаче данных из облака на устройство на платформе Интернета вещей Azure
-                        href: 'https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-c2d-guidance?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/iot-hub/iot-hub-devguide-c2d-guidance?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Настройка Интернета вещей Azure для передачи данных из облака на устройство
-                        href: 'https://docs.microsoft.com/azure/iot-hub/iot-hub-devguide-c2d-guidance?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/iot-hub/iot-hub-devguide-c2d-guidance?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Инновации с использованием ИИ
                 items:
                   - name: Обзор
@@ -1054,11 +1054,11 @@ items:
                       - name: Что такое Машинное обучение
                         href: innovate\best-practices\machine-learning.md
                       - name: Рабочий процесс Машинного обучения Azure
-                        href: 'https://docs.microsoft.com/azure/machine-learning/concept-azure-machine-learning-architecture?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/machine-learning/concept-azure-machine-learning-architecture?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Анализ данных с помощью машинного обучения Azure
-                        href: 'https://docs.microsoft.com/azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-analyze-with-azure-machine-learning?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-analyze-with-azure-machine-learning?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Развертывание прогнозов
-                        href: 'https://docs.microsoft.com/azure/machine-learning/how-to-deploy-and-where?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                        href: /azure/machine-learning/how-to-deploy-and-where?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Приложения и агенты ИИ
                     items:
                       - name: Что такое приложения ИИ
@@ -1366,13 +1366,13 @@ items:
           - name: Повышение надежности платформы или рабочей нагрузки
             items:
               - name: Контрольный список для обеспечения надежности служб Azure
-                href: 'https://docs.microsoft.com/azure/architecture/checklist/resiliency-per-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/architecture/checklist/resiliency-per-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Анализ режима сбоя
-                href: 'https://docs.microsoft.com/azure/architecture/resiliency/failure-mode-analysis?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/architecture/resiliency/failure-mode-analysis?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Восстановление после прерывания работы служб во всем регионе
-                href: 'https://docs.microsoft.com/azure/architecture/resiliency/recovery-loss-azure-region?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/architecture/resiliency/recovery-loss-azure-region?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Восстановление данных после повреждения или случайного удаления
-                href: 'https://docs.microsoft.com/azure/architecture/framework/resiliency/data-management?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+                href: /azure/architecture/framework/resiliency/data-management?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
       - name: Рекомендации по управлению
         items:
           - name: Обзор
@@ -1502,15 +1502,15 @@ items:
       - name: Дополнительные ресурсы
         items:
           - name: Использование Центра архитектуры Azure с архитектурой решения
-            href: 'https://docs.microsoft.com/azure/architecture'
+            href: /azure/architecture
           - name: Применение Microsoft Azure Well-Architected Framework при проектировании архитектуры рабочих нагрузок
-            href: 'https://docs.microsoft.com/azure/architecture/framework'
+            href: /azure/architecture/framework
           - name: Документация по реализации продукта
-            href: 'https://docs.microsoft.com'
+            href: null
           - name: Обучение для развития навыков
-            href: 'https://docs.microsoft.com/learn'
+            href: /learn
           - name: Оценки для персонализации руководства
-            href: 'https://docs.microsoft.com/assessments'
+            href: /assessments
       - name: Архивные ресурсы
         items:
           - name: Операционная модель облака

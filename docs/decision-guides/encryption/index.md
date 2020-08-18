@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: b43c20579bceb855c77adb3b4e7919254fa50d5a
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: f7d3add62dd4127f0a74537f57e75051b5fd72dd
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196138"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88279035"
 ---
 <!-- cSpell:ignore BYOK -->
 
@@ -123,9 +123,9 @@ ms.locfileid: "88196138"
 
 Дополнительные сведения о шифровании и управлении ключами на платформе Azure см. в следующих статьях:
 
-- **[Общие сведения о шифровании в Azure.](https://docs.microsoft.com/azure/security/fundamentals/encryption-overview)** Подробное описание того, как Azure использует шифрование для защиты неактивных данных и передаваемых данных.
-- **[Azure Key Vault.](https://docs.microsoft.com/azure/key-vault/general/overview)** Azure Key Vault является основной системой управления ключами Azure, которая позволяет хранить в Azure криптографические ключи, секреты и сертификаты, а также управлять ими.
-- **[Рекомендации по защите и шифрованию данных в Azure.](https://docs.microsoft.com/azure/security/fundamentals/data-encryption-best-practices)** Здесь приводятся рекомендации по защите и шифрованию данных в Azure.
+- **[Общие сведения о шифровании в Azure.](/azure/security/fundamentals/encryption-overview)** Подробное описание того, как Azure использует шифрование для защиты неактивных данных и передаваемых данных.
+- **[Azure Key Vault.](/azure/key-vault/general/overview)** Azure Key Vault является основной системой управления ключами Azure, которая позволяет хранить в Azure криптографические ключи, секреты и сертификаты, а также управлять ими.
+- **[Рекомендации по защите и шифрованию данных в Azure.](/azure/security/fundamentals/data-encryption-best-practices)** Здесь приводятся рекомендации по защите и шифрованию данных в Azure.
 - **[Конфиденциальные вычисления в Azure.](https://azure.microsoft.com/solutions/confidential-compute)** Инициатива конфиденциальных вычислений Azure предоставляет средства и технологии для создания сред доверенного выполнения и других механизмов шифрования, позволяющих защищать используемые данные.
 
 ## <a name="next-steps"></a>Дальнейшие действия

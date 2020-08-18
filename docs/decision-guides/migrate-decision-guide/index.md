@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
-ms.openlocfilehash: a9d3cb085de5e35d8e4db85f67390d670d816410
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 566d1e586b2d110d2d2ae75ab2c04496876d6963
+ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84786166"
+ms.lasthandoff: 08/17/2020
+ms.locfileid: "88278911"
 ---
 # <a name="migration-tools-decision-guide"></a>Руководство по принятию решений о миграции
 
@@ -39,7 +39,7 @@ ms.locfileid: "84786166"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-- **[Общие сведения об облаке. Обзор вычислительных служб в Azure](https://docs.microsoft.com/azure/architecture/guide/technology-choices/compute-decision-tree).** Содержит сведения о возможностях вычислительных служб IaaS и PaaS в Azure.
-- **[Общие сведения об облаке. Выбор подходящего хранилища данных](https://docs.microsoft.com/azure/architecture/guide/technology-choices/data-store-overview).** Описывает варианты хранилищ данных PaaS на платформе Azure.
+- **[Общие сведения об облаке. Обзор вычислительных служб в Azure](/azure/architecture/guide/technology-choices/compute-decision-tree).** Содержит сведения о возможностях вычислительных служб IaaS и PaaS в Azure.
+- **[Общие сведения об облаке. Выбор подходящего хранилища данных](/azure/architecture/guide/technology-choices/data-store-overview).** Описывает варианты хранилищ данных PaaS на платформе Azure.
 - **[Рекомендации по миграции. Потребности, связанные с данными, превышают пропускную способность сети в процессе миграции](../../migrate/azure-best-practices/network-capacity-exceeded.md).** Описывает альтернативные механизмы переноса данных для сценариев, в которых такой перенос затруднен ограничениями пропускной способности сети.
-- **[База данных SQL. Выбор оптимального варианта SQL Server в Azure](https://docs.microsoft.com/azure/sql-database/sql-database-paas-vs-sql-server-iaas#business-motivations-for-choosing-databases-managed-instances-or-sql-virtual-machines).** Описание вариантов и бизнес-обоснований для выбора между размещением рабочих нагрузок SQL Server в среде на основе управляемой инфраструктуры (IaaS) или управляемой службы (PaaS).
+- **[База данных SQL. Выбор оптимального варианта SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas#business-motivations-for-choosing-databases-managed-instances-or-sql-virtual-machines).** Описание вариантов и бизнес-обоснований для выбора между размещением рабочих нагрузок SQL Server в среде на основе управляемой инфраструктуры (IaaS) или управляемой службы (PaaS).
