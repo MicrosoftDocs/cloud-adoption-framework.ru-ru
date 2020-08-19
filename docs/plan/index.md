@@ -7,12 +7,12 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: eca81105ca5f05367e692a7941b64970911b11a8
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 759ac124bed7bab6ed8bca6efff3278efbc0759d
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88281466"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574352"
 ---
 # <a name="develop-a-cloud-adoption-plan"></a>Создание плана внедрения в облако
 
@@ -20,11 +20,11 @@ ms.locfileid: "88281466"
 
 Следующие задачи помогут вам определить стратегию использования существующих технологий. Этот подход предполагает приоритизацию задач. Затем вам нужно согласовать план с показателями и целями, определенными стратегией внедрения в облако.
 
-<!-- markdownlint-disable MD033 -->
-
-1. [Цифровые активы.](../digital-estate/rationalize.md) Оцените свои цифровые активы с учетом определенных целей и желаемых бизнес-результатов.
-2. [Первоначальное согласование процессов.](./initial-org-alignment.md) Создайте план первоначального согласования процессов в соответствии с планом внедрения.
-3. [План подготовки навыков.](./adapt-roles-skills-processes.md) Создайте план приобретения отсутствующих навыков.
-4. [План внедрения облака.](./plan-intro.md) Создайте план внедрения в облако, чтобы контролировать изменения цифровых активов, навыков и организации.
+|  |  |
+|--|--|
+| <br> ![1](../_images/icons/1.png) | <br> [Цифровые активы.](../digital-estate/rationalize.md) Оцените свои цифровые активы с учетом определенных целей и желаемых бизнес-результатов. |
+| <br> ![2](../_images/icons/2.png) | <br> [Первоначальное согласование процессов.](./initial-org-alignment.md) Создайте план первоначального согласования процессов в соответствии с планом внедрения. |
+| <br> ![3](../_images/icons/3.png) | <br> [План подготовки навыков.](./adapt-roles-skills-processes.md) Создайте план приобретения отсутствующих навыков. |
+| <br> ![4](../_images/icons/4.png) | <br> [План внедрения облака.](./plan-intro.md) Создайте план внедрения в облако, чтобы контролировать изменения цифровых активов, навыков и организации. |
 
 Скачайте [шаблон с планом и стратегией](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx), чтобы отслеживать результаты выполнения каждого упражнения при разработке стратегии внедрения облачных технологий. Также изучите [пять принципов рационализации облака](../digital-estate/5-rs-of-rationalization.md), которые помогут вам в создании плана внедрения в облако.

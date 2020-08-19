@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: c749237029542e8757af75b9a83aaba8cd917055
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 6887955f64b7e878f578219f584a028df6bea8c5
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88279630"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88568657"
 ---
 <!-- docsTest:ignore InterpretML FairLearn -->
 
@@ -25,8 +25,6 @@ ms.locfileid: "88279630"
 ## <a name="get-started"></a>Начало работы
 
 Для подготовки к этому этапу внедрения облачных технологий используйте следующие упражнения.
-
-<!-- markdownlint-disable MD033 -->
 
 - [Разработка и развертывание модели Машинного обучения, а также управление ею.](https://azure.microsoft.com/overview/ai-platform/dev-resources/) Изучите шаблоны и методики создания собственных моделей машинного обучения, включая MLOps, автоматизированное машинное обучение (AutoML) и средства ответственного использования ML, такие как InterpretML и FairLearn.
 - [Добавление в приложения ориентированных на предметную область моделей ИИ.](https://www.oreilly.com/library/view/building-intelligent-apps/9781492058632/) Получите рекомендации по добавлению в приложения возможностей ИИ с использованием Cognitive Services. А также узнайте о ключевых сценариях, в которых полезны эти службы.

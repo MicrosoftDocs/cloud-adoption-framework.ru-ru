@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 509752771c50dce66a5826ee4e93a11f01550e60
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 46cc58d9f347987624d0cf3ebb1f9cf02740e87c
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285274"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88575253"
 ---
 <!-- cSpell:ignore migrateable -->
 
@@ -77,7 +77,7 @@ ms.locfileid: "88285274"
 Прежде чем продолжить, определите следующие допущения и поделитесь ими с командой по облачной стратегии и командой по внедрению в облако:
 
 - Бизнес-результаты
-- Роли, документированные и уточненные для _оценки_, _миграции_, _оптимизации_и защиты процессов миграции _и управления ими_ .
+- Роли, документированные и уточненные для *оценки*, *миграции*, *оптимизации*и защиты процессов миграции *и управления ими* .
 - Определение готово, документировано и уточнено отдельно для этих процессов миграции.
 - Тип трудозатрат.
 - Масштаб трудозатрат.

@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: dd3d7ccb2dab6baf0093e9ada857b4ccb74dd19a
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 2eb09879a7bbe42b50ed8194b568a01db32fc0d1
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285138"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88566895"
 ---
 # <a name="cloud-adoption-framework-migration-model"></a>Модель миграции Cloud Adoption Framework
 
