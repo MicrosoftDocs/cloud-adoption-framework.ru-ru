@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: b041a7cc996ac3606228f1231d2f4ecd9af51655
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 41abba9cadeca1951f6316e49a0d2d58c6ef6569
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450736"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574522"
 ---
 <!-- cSpell:ignore dchimes -->
 
@@ -68,7 +68,7 @@ ms.locfileid: "86450736"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Документация по выставлению счетов и управлению затратами в Azure](https://docs.microsoft.com/azure/billing)
+- [Документация по выставлению счетов и управлению затратами в Azure](/azure/billing)
 - [Role-based business units, environments, or projects](../azure-best-practices/track-costs.md) (Отслеживание затрат по бизнес-подразделениям, средам или проектам)
 - [Role-based дисциплина "Управление затратами"](../../govern/cost-management/index.md)
 

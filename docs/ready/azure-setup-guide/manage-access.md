@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 7b05c894d326a49703b92d71590f0217349bc7fe
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 9a72c63e6398b849c3cdb37e2ecafa8a07f35668
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450923"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574539"
 ---
 <!-- cSpell:ignore LijuKodicheraJayadevan -->
 
@@ -89,7 +89,7 @@ Cloud Adoption Framework предоставляет дополнительные
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Что такое управление доступом на основе ролей в Azure (RBAC)?](https://docs.microsoft.com/azure/role-based-access-control/overview)
+- [Что такое управление доступом на основе ролей в Azure (RBAC)?](/azure/role-based-access-control/overview)
 - [Role-based access control](../considerations/roles.md) (Управление доступом на основе ролей)
 
 ::: zone-end

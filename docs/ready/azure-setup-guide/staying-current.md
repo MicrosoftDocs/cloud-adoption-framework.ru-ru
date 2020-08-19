@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: a97faee54c05f22c35dd674f74aa38d02456f526
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 0c1dd56f5d7c5216693b726de9cb6fbf15a59b8f
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450685"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574471"
 ---
 <!-- docsTest:ignore "Azure Info Hub" "Azure Charts" "Azure Weekly" -->
 <!-- cSpell:ignore jelledruyts andym endjin AzAdvertizer -->
@@ -31,10 +31,10 @@ ms.locfileid: "86450685"
 
 Следующие ресурсы помогут вам поддерживать актуальность в Azure:
 
-- **Работоспособность служб Azure.** Оповещения [Работоспособности служб](https://docs.microsoft.com/azure/service-health/service-health-overview) обеспечивают своевременное получение уведомлений о текущих проблемах служб, плановом обслуживании и рекомендации по поддержанию работоспособности. Эти оповещения также содержат сведения о функциях Azure, для которых запланировано прекращение поддержки.
+- **Работоспособность служб Azure.** Оповещения [Работоспособности служб](/azure/service-health/service-health-overview) обеспечивают своевременное получение уведомлений о текущих проблемах служб, плановом обслуживании и рекомендации по поддержанию работоспособности. Эти оповещения также содержат сведения о функциях Azure, для которых запланировано прекращение поддержки.
 - **Обновления Azure.** Просматривайте страницу [Обновления Azure](https://azure.microsoft.com/updates) на предмет объявлений и новостей о продукте. Объявления содержат краткое описание со ссылкой на дополнительные сведения, благодаря чему за обновлениями легко следить. Подпишитесь на [обновления Azure на веб-канале RSS](https://azurecomcdn.azureedge.net/updates/feed).
 - **Блог Azure.** В [блоге Azure](https://azure.microsoft.com/blog) сообщается о самых важных объявлениях для платформы Azure. Подпишитесь на этот блог, чтобы оставаться в курсе критически важных сведений. Подпишитесь на [блог Azure на веб-канале RSS](https://azurecomcdn.azureedge.net/blog/feed).
-- **Блоги служб.**   Для многих отдельных служб Azure ведутся блоги, на которые вы можете подписаться, если пользуетесь этими службами. Найдите нужные вам, выполнив поиск в Интернете.
+- **Блоги служб.** Для многих отдельных служб Azure ведутся блоги, на которые вы можете подписаться, если пользуетесь этими службами. Найдите нужные вам, выполнив поиск в Интернете.
 - **Информационный центр Azure.** Неофициальный ресурс [Информационный центр Azure](https://azureinfohub.azurewebsites.net) объединяет большинство из перечисленных здесь ресурсов. Переходите по ссылкам для нужных служб, чтобы получить подробные сведения и прочитать блоги этих служб. Подпишитесь на [информационный центр Azure на веб-канале RSS](https://azureinfohub.azurewebsites.net/Feed?serviceTitle=Azure). \*
 
 <!-- markdownlint-disable MD025 -->

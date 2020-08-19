@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 0aaa503df3394faa51ec24eeec054ae7ffaac4a8
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 6e83c1deceed6e6c49e197d88d60ea641b00b1c5
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86450770"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88575236"
 ---
 <!-- cSpell:ignore tvuylsteke >
 
@@ -95,9 +95,9 @@ ms.locfileid: "86450770"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints)
+- [Azure Blueprints](/azure/governance/blueprints)
 - [Role-based по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
-- [Примеры схем на основе стандартов](https://docs.microsoft.com/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
+- [Примеры схем на основе стандартов](/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
 
 ::: zone-end
 
@@ -135,7 +135,7 @@ ms.locfileid: "86450770"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Политика Azure](https://docs.microsoft.com/azure/governance/policy)
+- [Политика Azure](/azure/governance/policy)
 - [Role-based по принудительному применению политик](../../decision-guides/policy-enforcement/index.md)
 
 ::: zone-end
@@ -162,8 +162,8 @@ ms.locfileid: "86450770"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Центр безопасности Azure](https://docs.microsoft.com/azure/security-center)
-- [JIT-доступ к виртуальной машине](https://docs.microsoft.com/azure/security-center/security-center-just-in-time#how-does-just-in-time-access-work)
+- [Центр безопасности Azure](/azure/security-center)
+- [JIT-доступ к виртуальной машине](/azure/security-center/security-center-just-in-time#how-does-just-in-time-access-work)
 - [Ценовые категории Центра безопасности](https://azure.microsoft.com/pricing/details/security-center)
 - [Role-based дисциплины "Базовые средства безопасности"](../../govern/security-baseline/index.md)
 
