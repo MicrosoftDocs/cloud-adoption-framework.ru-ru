@@ -7,12 +7,12 @@ ms.date: 03/20/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 9b4774ed2d9cd2946f07929d1167cd7a4bfaf30d
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 8da625c6805c31dc2c07c2d31815851ca7e8b3a7
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88284339"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88572295"
 ---
 <!-- cSpell:ignore asabbour sabbour autoscaler Istio Linkerd -->
 
@@ -30,9 +30,7 @@ ms.locfileid: "88284339"
 > - Как вы будете структурировать папку проекта для поддержки разработки приложений Kubernetes?
 > - Определены ли требования к состоянию, конфигурации и хранению приложения?
 
-<!-- markdownlint-disable MD033 -->
-
-<! docsTest:ignore "AAD Pod Identity -->
+<!-- docsTest:ignore "AAD Pod Identity -->
 
 > [!div class="tdCol2BreakAll"]
 >
@@ -61,11 +59,11 @@ ms.locfileid: "88284339"
 >
 > | Контрольный список  | Ресурсы                                                                                                     |
 > |------------------------------------------------------------------|-----------------------------------------------------------------|
-> | **Настройка проверки готовности и текущих проверок работоспособности.** Kubernetes использует проверки готовности и динамичности, чтобы выяснить, когда приложение готово к получению трафика и когда его необходимо перезапустить. Не определяя такие проверки, Kubernetes не сможет определить, работает ли приложение.   | [Актуальность и проверки готовности](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes) |
-> | **Настройка ведения журналов, мониторинга приложений и предупреждений.** Мониторинг контейнеров крайне важен, особенно если вы управляете рабочим кластером в нужном масштабе с несколькими приложениями. Рекомендуемый метод ведения журнала для контейнерных приложений — это запись в потоки стандартных выходных данных (stdout) и стандартных ошибок (stderr).   | [Вход в Kubernetes](https://kubernetes.io/docs/concepts/cluster-administration/logging) <br> [Приступая к работе с мониторингом и оповещениями для Kubernetes (видео)](https://www.youtube.com/watch?v=W7aN_z-cyUw&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=16) <br> [Azure Monitor для контейнеров](/azure/azure-monitor/insights/container-insights-overview) <br> [Enable and review Kubernetes master node logs in Azure Kubernetes Service (AKS)](/azure/aks/view-master-logs) (Включение и просмотр журналов главного узла Kubernetes в Службе Azure Kubernetes (AKS)) <br> [Просмотр журналов Kubernetes, событий и метрик Pod в режиме реального времени](/azure/azure-monitor/insights/container-insights-livedata-overview) |
-> | **Определите требования к ресурсам для приложения.** Основным способом управления ресурсами вычислений в кластере Kubernetes является использование запросов и ограничений Pod. Эти запросы и ограничения сообщают планировщику Kubernetes, какие ресурсы вычислений должен назначить Pod.     | [Определение &nbsp; &nbsp; &nbsp; запросов &nbsp; и ограничений ресурсов &nbsp; Pod](/azure/aks/developer-best-practices-resource-management) |
-> | **Настройте требования к масштабированию приложений.** Kubernetes поддерживает горизонтальное автомасштабирование pod для изменения числа pod в развертывании в зависимости от использования ЦП или других выбранных метрик. Чтобы использовать Автомасштабирование, все контейнеры в модулях Pod должны иметь определенные запросы ЦП и ограничения.    | [Настройка горизонтального автомасштабирования Pod](/azure/aks/tutorial-kubernetes-scale#autoscale-pods) |
-> | **Развертывание приложений с помощью автоматизированного конвейера и DevOps.** Полная автоматизация всех шагов между фиксацией кода и развертыванием в рабочей среде позволяет группам сосредоточиться на построении кода и устранять издержки и потенциальную ошибку человека в ручных повседневных шагах. Развертывание нового кода происходит быстрее и менее рискованно, что способствует повышению гибкости команд, повышение производительности и более уверенности в работе кода.    | [Развитие практик DevOps](/learn/paths/evolve-your-devops-practices) <br> [Настройка конвейера сборки Kubernetes (видео)](https://www.youtube.com/watch?v=5irsAdKoEBU&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=6) <br> [Центр развертывания для службы Kubernetes Azure](/azure/aks/deployment-center-launcher) <br> [Действия GitHub для развертывания в службе Kubernetes Azure](/azure/aks/kubernetes-action) <br> [НЕПРЕРЫВная интеграция и развертывание в службу Kubernetes Azure с помощью Jenkins](/azure/aks/jenkins-continuous-deployment) |
+> | **Настройка проверки готовности и текущих проверок работоспособности.** Kubernetes использует проверки готовности и динамичности, чтобы выяснить, когда приложение готово к получению трафика и когда его необходимо перезапустить. Не определяя такие проверки, Kubernetes не сможет определить, работает ли приложение. | [Актуальность и проверки готовности](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes) |
+> | **Настройка ведения журналов, мониторинга приложений и предупреждений.** Мониторинг контейнеров крайне важен, особенно если вы управляете рабочим кластером в нужном масштабе с несколькими приложениями. Рекомендуемый метод ведения журнала для контейнерных приложений — это запись в потоки стандартных выходных данных (stdout) и стандартных ошибок (stderr). | [Вход в Kubernetes](https://kubernetes.io/docs/concepts/cluster-administration/logging) <br> [Приступая к работе с мониторингом и оповещениями для Kubernetes (видео)](https://www.youtube.com/watch?v=W7aN_z-cyUw&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=16) <br> [Azure Monitor для контейнеров](/azure/azure-monitor/insights/container-insights-overview) <br> [Enable and review Kubernetes master node logs in Azure Kubernetes Service (AKS)](/azure/aks/view-master-logs) (Включение и просмотр журналов главного узла Kubernetes в Службе Azure Kubernetes (AKS)) <br> [Просмотр журналов Kubernetes, событий и метрик Pod в режиме реального времени](/azure/azure-monitor/insights/container-insights-livedata-overview) |
+> | **Определите требования к ресурсам для приложения.** Основным способом управления ресурсами вычислений в кластере Kubernetes является использование запросов и ограничений Pod. Эти запросы и ограничения сообщают планировщику Kubernetes, какие ресурсы вычислений должен назначить Pod. | [Определение &nbsp; &nbsp; &nbsp; запросов &nbsp; и ограничений ресурсов &nbsp; Pod](/azure/aks/developer-best-practices-resource-management) |
+> | **Настройте требования к масштабированию приложений.** Kubernetes поддерживает горизонтальное автомасштабирование pod для изменения числа pod в развертывании в зависимости от использования ЦП или других выбранных метрик. Чтобы использовать Автомасштабирование, все контейнеры в модулях Pod должны иметь определенные запросы ЦП и ограничения. | [Настройка горизонтального автомасштабирования Pod](/azure/aks/tutorial-kubernetes-scale#autoscale-pods) |
+> | **Развертывание приложений с помощью автоматизированного конвейера и DevOps.** Полная автоматизация всех шагов между фиксацией кода и развертыванием в рабочей среде позволяет группам сосредоточиться на построении кода и устранять издержки и потенциальную ошибку человека в ручных повседневных шагах. Развертывание нового кода происходит быстрее и менее рискованно, что способствует повышению гибкости команд, повышение производительности и более уверенности в работе кода. | [Развитие практик DevOps](/learn/paths/evolve-your-devops-practices) <br> [Настройка конвейера сборки Kubernetes (видео)](https://www.youtube.com/watch?v=5irsAdKoEBU&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=6) <br> [Центр развертывания для службы Kubernetes Azure](/azure/aks/deployment-center-launcher) <br> [Действия GitHub для развертывания в службе Kubernetes Azure](/azure/aks/kubernetes-action) <br> [НЕПРЕРЫВная интеграция и развертывание в службу Kubernetes Azure с помощью Jenkins](/azure/aks/jenkins-continuous-deployment) |
 
 ## <a name="optimize-and-scale"></a>Оптимизация и масштабирование
 

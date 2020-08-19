@@ -1,5 +1,5 @@
 ---
-title: 'Руководство по мониторингу облака: предупреждения'
+title: Мониторинг и оповещения в облаке
 description: Узнайте, как определить, когда использовать Azure Monitor или System Center Operations Manager в Microsoft Azure, можно с помощью инфраструктуры внедрения в облако для Azure.
 author: MGoedtel
 ms.author: magoedte
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 services: azure-monitor
-ms.openlocfilehash: 4ebd16c47d66ae8ebaecb4b09d01c57c49156c8c
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: b0f631a91523117e8acfa4a95ba446a5f87d493a
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88283455"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88571156"
 ---
 <!-- cSpell:ignore kusto multiresource multisignal -->
 

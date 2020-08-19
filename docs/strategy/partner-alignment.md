@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 8471236b0d6989f7a0f78e69ef0472b35b5c923f
-ms.sourcegitcommit: bd815dee6d60812979d3700ee676411eb0281071
+ms.openlocfilehash: d0822a927afc5d316b97d227b5a2a9afec60e224
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/12/2020
-ms.locfileid: "88142997"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88566685"
 ---
 <!-- cSpell:ignore MSPs -->
 
@@ -77,9 +77,13 @@ ms.locfileid: "88142997"
 [Программа миграции Azure (amp)](https://azure.microsoft.com/migration/migration-program) предоставляет набор технических навыков, пошаговые инструкции, бесплатные средства миграции и потенциальные предложения для снижения затрат на перенос.
 Программа использует FastTrack for Azure и поставщики решений Azure для повышения успеха клиентов во время миграции.
 
-Просмотрите это короткое видео, чтобы получить представление о том, как программа миграции Azure может помочь вам. 
+Просмотрите это короткое видео, чтобы получить представление о том, как программа миграции Azure может помочь вам.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4D1vH]
+<!-- markdownlint-disable MD034 -->
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4D1vH]
+
+<!-- markdownlint-enable MD034 -->
 
 ### <a name="azure-support"></a>Поддержка Azure
 

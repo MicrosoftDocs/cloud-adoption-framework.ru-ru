@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 68bfe3b1acfb6a48fdda7e4d9583adcadac29893
-ms.sourcegitcommit: 070e6a60f05519705828fcc9c5770c3f9f986de5
+ms.openlocfilehash: 5486c3247acf44e3326e1eb2e8551ee3dd5e5edd
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/24/2020
-ms.locfileid: "83815214"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88571632"
 ---
 # <a name="business-criticality-in-cloud-management"></a>Критические бизнес-задача в управлении облаком
 

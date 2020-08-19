@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: e7da2a130e0176b599354ea2cbe0e10d0133e73b
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 710c9d844ab9e3e3bfd7287dc26d61160be3e161
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285512"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88570119"
 ---
 # <a name="cloud-migration-functions"></a>Облачные функции миграции
 
@@ -77,7 +77,7 @@ ms.locfileid: "88285512"
 
 - [Централизованные обязанности ИТ для ИТ](../organize/central-it.md)
 
-## <a name="whats-next"></a>Дальнейшие действия
+## <a name="whats-next"></a>Что дальше?
 
 Внедрение отлично, но нерегулирующая внедрение может привести к непредвиденным результатам. Выровняйтесь с [группой управления облаком](./cloud-governance.md) , чтобы ускорить внедрение и лучшие решения, одновременно уменьшая деловые и технические риски.
 

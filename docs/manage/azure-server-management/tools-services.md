@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: d0e3437774a83c4f1a0a4d1377d9ebd626fcd3a9
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 37fbe933ce03a4d0ad600033aaff522a279cd005
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88283999"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88571819"
 ---
 # <a name="azure-server-management-tools-and-services"></a>Средства и службы управления сервером Azure
 

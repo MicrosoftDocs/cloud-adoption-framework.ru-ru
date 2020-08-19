@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 961cfcb0101cdb332cfc164c61dd76307bd338cd
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 39c19414011a55a5583a215332c699ee4d3f3b16
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88281313"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88569337"
 ---
 # <a name="get-started-deliver-operational-excellence-during-digital-transformation"></a>Начало работы. доставьтесь в эксплуатацию во время цифрового преобразования
 

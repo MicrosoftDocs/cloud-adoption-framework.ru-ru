@@ -7,12 +7,12 @@ ms.date: 12/26/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d892cf6a23155262d5b3dfabfb19cdeb3088994b
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: acd549f4ccfce0ce8ff115817e6aed1f2c12b938
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88279766"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88568929"
 ---
 <!-- cSpell:ignore njray nanra Attunity Codit DRDA ISAM ISQL LPARS VSAM ODBC JDBC GDGs REXX TIP dbextents Raincode Tmax -->
 
@@ -66,7 +66,7 @@ ms.locfileid: "88279766"
 
 Для запуска диспетчера транзакций и пакетных заданий, использующих JCL, в Azure используется среда эмуляции. На уровне данных DB2 заменяется [Базой данных SQL Azure](/azure/sql-database/sql-database-technical-overview). Кроме того, можно использовать Microsoft SQL Server, DB2 LUW или Oracle Database. Эмулятор поддерживает IMS, VSAM и SEQ. Средства управления системой на мэйнфрейме заменены службами Azure и программным обеспечением от других поставщиков, которые работают на виртуальных машинах.
 
-Как правило, функции обработки экрана и форм для ввода данных реализуются с помощью веб-серверов, которые можно комбинировать с API баз данных, такими как ADO, ODBC и JDBC, для транзакций и доступа к данным. Полный перечень IaaS-компонентов Azure зависит от операционной системы, которую вы предпочитаете использовать. Например:
+Как правило, функции обработки экрана и форм для ввода данных реализуются с помощью веб-серверов, которые можно комбинировать с API баз данных, такими как ADO, ODBC и JDBC, для транзакций и доступа к данным. Полный перечень IaaS-компонентов Azure зависит от операционной системы, которую вы предпочитаете использовать. Пример:
 
 - Виртуальные машины на основе Windows: Internet Information Server (IIS) и ASP.NET для обработки экрана и бизнес-логики. Для доступа к данным и транзакций используйте стандарт ADO.NET.
 

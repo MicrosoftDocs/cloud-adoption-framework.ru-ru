@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 9433874b74789b83f5a7b025aee259937303050a
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 9e4829581a642a3fab13d461c98e423a5f777f2b
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88284135"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88567450"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 

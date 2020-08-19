@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 5887f4d01598235fe83ac5bed1c8cca3355afb16
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 082f8cfcd3cb8d0e01a49bf5a1da32b77c4050fd
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88284475"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88568181"
 ---
 # <a name="predict-and-influence"></a>Прогнозирование и влияние
 

@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 48b86613dc8fc6ca463e6effb765b1a6b8259c70
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 61f1f1959e9a3e0d934e56498dd13462391d0a49
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88279188"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88569592"
 ---
 # <a name="enable-customer-success-with-a-sound-operating-model-and-organizational-alignment"></a>Обеспечение успеха клиентов с помощью звуковой рабочей модели и выравнивания Организации
 
@@ -55,6 +55,6 @@ ms.locfileid: "88279188"
 Эти принципы являются общими для помощника по Azure, Microsoft Azure хорошо спроектированной инфраструктуры и решений в Центр архитектуры Azure.
 
 - [Помощник Azure](/azure/advisor/advisor-overview) оценивает принципы отдельных ресурсов в решениях, рабочих нагрузках и полном портфеле.
-- [Центр архитектуры Azure](/azure/architecture) применяет эти принципы для разработки и управления конкретными техническими решениями.
-- [Microsoft Azure хорошо спроектированная инфраструктура](/azure/architecture/framework) помогает сбалансировать эти принципы в рабочей нагрузке для решения архитектурных решений.
+- [Центр архитектуры Azure](/azure/architecture/) применяет эти принципы для разработки и управления конкретными техническими решениями.
+- [Microsoft Azure хорошо спроектированная инфраструктура](/azure/architecture/framework/) помогает сбалансировать эти принципы в рабочей нагрузке для решения архитектурных решений.
 - [Инфраструктура внедрения облачных](../index.yml) решений обеспечивает масштабирование принципов в портфеле для поддержки групп перехода через хорошо управляемую среду.

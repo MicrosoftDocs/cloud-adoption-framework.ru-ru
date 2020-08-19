@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 63f32e2bc2f58561f851ba4ff7c8481b18aecd9a
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 94a4fd17a9c9307afb40b35f033c44ff6102b091
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88283710"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88571530"
 ---
 # <a name="workload-operations-in-cloud-management"></a>Операции рабочей нагрузки в управлении облаком
 

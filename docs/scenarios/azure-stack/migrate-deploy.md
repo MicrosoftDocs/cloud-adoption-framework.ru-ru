@@ -7,19 +7,20 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e17736d462653e16cc66daef268ff78ffd20f12e
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 86c1d4b7eaea3c7de15dfd4417a6bcc21d956ea8
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285869"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88569643"
 ---
 # <a name="deploy-workloads-to-azure-stack-hub"></a>Развертывание рабочих нагрузок в Azure Stack Hub
 
 Используя Azure Stack, ваша организация может запустить собственный экземпляр Azure в своем центре обработки данных. Организации включают Azure Stack в свою облачную стратегию, так как они помогают им в обработке ситуаций, когда общедоступное облако не будет работать. Ниже перечислены три наиболее распространенные причины использования Azure Stack.
-* Плохое сетевое подключение к общедоступному облаку.
-* Нормативные или договорные требования.
-* Серверные системы, которые не могут быть доступны в Интернете.
+
+- Плохое сетевое подключение к общедоступному облаку.
+- Нормативные или договорные требования.
+- Серверные системы, которые не могут быть доступны в Интернете.
 
 ## <a name="infrastructure-as-a-service-deployment"></a>Инфраструктура как развертывание службы
 
@@ -36,6 +37,8 @@ ms.locfileid: "88285869"
 ## <a name="deploy-workloads"></a>Развертывание рабочих нагрузок
 
 После того как администратор центра Azure Stack правильно настроил ваш экземпляр стека, миграция может продолжаться, как и в случае с большинством других усилий по миграции Azure. С помощью Azure Stack команда может выполнять любой из следующих типов миграции:
+
+<!-- cSpell:ignore howto -->
 
 - [Ethereum блокчейн Network](/azure-stack/user/azure-stack-ethereum?view=azs-2002)
 - [Обработчик AKS](/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2002)
