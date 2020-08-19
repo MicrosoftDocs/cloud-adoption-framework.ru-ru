@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 1a02fecbd670556bb5da0104163febf0c8b4b2e8
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 4b3923936052cce1ae973f779bc53ac35a1ba0c1
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88282503"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88567297"
 ---
 <!-- cSpell:ignore BYOK postgres psql dvdrental -->
 

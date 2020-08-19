@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 2c1a28802364df93a726df5dda65e77d72259d0c
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: a8826b82e9ec3aa503e79e0aa5345a3a494a2bef
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88284152"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88567552"
 ---
 <!-- cSpell:ignore HKEY kusto -->
 

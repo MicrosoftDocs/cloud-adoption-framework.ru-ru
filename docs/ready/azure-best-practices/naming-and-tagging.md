@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit
-ms.openlocfilehash: 4f040d9efec48840770e2e490bfd6ab5e1939785
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 57d0ea8b033a3a043d9243f1b9ecbcae5e9b9391
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88284866"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88569881"
 ---
 <!-- docsTest:disable -->
 <!-- cSpell:ignore westeurope usgovia accountlookup messagequery -->
@@ -173,14 +173,14 @@ Azure определяет [правила именования и ограни�
 | Кластер HDInsight       | Storm      |
 | HDInsight — кластер служб ML | MLS        |
 | центр Интернета вещей                         | IOT        |
-| Power BI Embedded               | PBI        |
+| Power BI Embedded               | PBI        |
 
 ### <a name="integration"></a>Интеграция
 
 | Тип ресурса        | Префикс имени |
 |-------------------|-------------|
 | приложениях логики.        | часть      |
-| Служебная шина       | sb-         |
+| Cлужебная шина       | sb-         |
 | Очередь служебной шины | sbq-        |
 | Раздел служебной шины | SBT        |
 
@@ -315,12 +315,12 @@ Azure определяет [правила именования и ограни�
 | HDInsight — кластер Hadoop  | Глобальный         | Hadoop\<App Name\>-\<Environment\> | <li> Hadoop-Navigator-произв. <li> Hadoop-излучение-dev |
 | HDInsight — кластер Spark   | Глобальный         | Spark\<App Name\>-\<Environment\>  | <li> Spark-Navigator-произв. <li> Spark-излучение-dev  |
 | центр Интернета вещей                     | Глобальный         | IOT\<App Name\>-\<Environment\>    | <li> IOT-Navigator-произв. <li> IOT-излучение-dev |
-| Power BI Embedded           | Глобальный         | PBI\<App Name\>\<Environment\>     | <li> PBI-Navigator-произв. <li> PBI-излучение-dev |
+| Power BI Embedded           | Глобальный         | PBI\<App Name\>\<Environment\>     | <li> PBI-Navigator-произв. <li> PBI-излучение-dev |
 
 ### <a name="example-names-integration"></a>Примеры имен: интеграция
 
 | Тип ресурса        | Область       | Формат                                                     | Примеры                                                      |
 |-------------------|-------------|------------------------------------------------------------|---------------------------------------------------------------|
-| Служебная шина       | Глобальный      | SB- \<App Name\> - \<Environment\> . [ {servicebus.windows.net}] | <li> sb-navigator-prod <li> sb-emissions-dev |
-| Очередь служебной шины | Служебная шина | sbq-\<query descriptor\>                                   | <li> sbq-messagequery |
-| Раздел служебной шины | Служебная шина | SBT\<query descriptor\>                                   | <li> SBT — мессажекуери |
+| Cлужебная шина       | Глобальный      | SB- \<App Name\> - \<Environment\> . [ {servicebus.windows.net}] | <li> sb-navigator-prod <li> sb-emissions-dev |
+| Очередь служебной шины | Cлужебная шина | sbq-\<query descriptor\>                                   | <li> sbq-messagequery |
+| Раздел служебной шины | Cлужебная шина | SBT\<query descriptor\>                                   | <li> SBT — мессажекуери |

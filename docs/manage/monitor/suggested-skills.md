@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a3ea1f13db726fdc122e8a8acd07c8a15f8debca
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 2dc370df56042894903da00b14c9a37f06d17e1c
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88283353"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88571020"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -22,7 +22,7 @@ ms.locfileid: "88283353"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов — инфраструктуру, приложение и анализ данных.  
 
-## <a name="fundamentals"></a>Базовый
+## <a name="fundamentals"></a>Основы
 
 - Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 

@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: a106fb64990d886424e46c67e2ef711c65cea6f7
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 0c3df76de11883153d128fe419825a8800bc8d57
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285478"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88566753"
 ---
 <!-- cSpell:ignore paas NVAs VPNs -->
 

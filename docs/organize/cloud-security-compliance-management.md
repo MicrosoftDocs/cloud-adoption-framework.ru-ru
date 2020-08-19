@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: e776123b810b0c1ca4316ad6392ac584029779d6
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: c2ace7de07c6c203e090a079375d9e02420eab9c
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285087"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88569966"
 ---
 # <a name="cloud-security-compliance-management-functions"></a>Функции управления соответствием Cloud Security
 

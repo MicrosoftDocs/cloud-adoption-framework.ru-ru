@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 48406df39114381ed31308af4a25d1bdb754f1f8
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 237dfb1dc054362b94f626b226727cee89f30537
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88277607"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88569898"
 ---
 # <a name="organize-and-manage-multiple-azure-subscriptions"></a>Организация нескольких подписок Azure и управление ими
 

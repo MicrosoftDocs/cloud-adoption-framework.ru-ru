@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 48ab5e4393fb641dd425c92defadeffba4411cf8
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 5762688ddd367e6f01e7276d9d9079aaf27f56da
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285495"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88569983"
 ---
 # <a name="cloud-operations-functions"></a>Функции облачных операций
 
@@ -28,10 +28,13 @@ ms.locfileid: "88285495"
 - Группы операций бизнес-приложений
 - Команды DevOps
 
+> [!IMPORTANT]
+> Сотрудники или группы, которые могут подлежит учетной записи для облачных операций, обычно отвечают за внесение реактивных изменений в конфигурацию во время исправления. Они также, скорее всего, будут отвечать за упреждающие изменения конфигурации, чтобы минимизировать эксплуатационные перерывы. В зависимости от облачной рабочей модели эти изменения могут доставляться с помощью инфраструктуры как кода, Azure Pipelines или прямой настройки на портале. Так как Группа эксплуатации, скорее всего, обладает повышенными разрешениями, крайне важно, чтобы те, кто заполнит эту роль, использовали следующие рекомендации по [управлению удостоверениями и доступом](/azure/security/benchmarks/security-control-identity-access-control) для снижения непреднамеренного доступа или изменения в рабочей среде.
+
 ## <a name="preparation"></a>Подготовка
 
-- [Управление ресурсами в Azure](/learn/paths/manage-resources-in-azure). Узнайте, как работать с Azure CLI и веб-порталом для создания, управления и контроля облачных ресурсов.
-- [Сетевые службы Azure](/learn/modules/intro-to-azure-networking). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
+- [Управление ресурсами в Azure](/learn/paths/manage-resources-in-azure/). Узнайте, как работать с Azure CLI и веб-порталом для создания, управления и контроля облачных ресурсов.
+- [Сетевые службы Azure](/learn/modules/intro-to-azure-networking/). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
 
 Ознакомьтесь со следующими сведениями:
 

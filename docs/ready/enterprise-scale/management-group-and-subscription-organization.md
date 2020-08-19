@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: bbd645b5dca778da547540d73e1cdfd293e34012
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 2d1da6f53890fd872e12fcc69e1dbc9c157c0950
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285682"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88566770"
 ---
 # <a name="management-group-and-subscription-organization"></a>Организация групп управления и подписок
 

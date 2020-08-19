@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 1575847070b3e250ff925f24c3da12e03dffdbf5
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 4cc1aeed8df6c546722ac70977e08f6619f41f21
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88283013"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88570748"
 ---
 <!-- TODO: Verify GraphDBMS term -->
 <!-- cSpell:ignore ColumnStore GraphDBMS mysqldump Navicat phpMyAdmin -->

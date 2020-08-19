@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 80dc6fbedd160d5d05c36442268feeac4147e1e0
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 29ae946d7ed18e84733e805d6d08dab3ea45bbd0
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88284815"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88569779"
 ---
 # <a name="create-additional-subscriptions-to-scale-your-azure-environment"></a>Создание дополнительных подписок для масштабирования среды Azure
 
@@ -38,8 +38,8 @@ ms.locfileid: "88284815"
 
 - Инновации
 - Миграция
-- Стоимость
-- Операции
+- Cost
+- Operations
 - Безопасность
 - Система управления
 
