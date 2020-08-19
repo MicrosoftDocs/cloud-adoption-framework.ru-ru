@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 73b49894ae375e5c5995e33057d29b48a61e57e2
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: d8674f04199a108dce424b81329697c3a25bfc03
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86190759"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88567790"
 ---
 # <a name="platform-specialization-for-cloud-management"></a>Специализация платформы для управления облаком
 
@@ -61,7 +61,7 @@ ms.locfileid: "86190759"
 
 Улучшение проектирования системы — это самый эффективный подход к улучшению операций любой распространенной платформы. Благодаря улучшениям структуры системы стабильность может повыситься, а количество прерывания бизнес-процессов может снизиться. Структура отдельных систем выходит за пределы представления среды, рассматриваемого в рамках Cloud Adoption Framework для Azure.
 
-Дополнением к этой платформе служит [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/azure/architecture/framework). Здесь представлены основные принципы повышения качества платформы или конкретной рабочей нагрузки. Решение ориентировано на улучшение в пяти базовых аспектах эффективности архитектуры:
+Дополнением к этой платформе служит [Microsoft Azure Well-Architected Framework](/azure/architecture/framework). Здесь представлены основные принципы повышения качества платформы или конкретной рабочей нагрузки. Решение ориентировано на улучшение в пяти базовых аспектах эффективности архитектуры:
 
 - **Оптимизация затрат:** Управляйте затратами, чтобы повысить рентабельность.
 - **Эффективность операционных процессов.** Придерживайтесь рабочих процессов, обеспечивающих функционирование системы в рабочей среде.
@@ -73,7 +73,7 @@ ms.locfileid: "86190759"
 
 В следующем разделе (**Автоматическое исправление**) рассматриваются способы устранения технического долга, которые невозможно или не нужно устранять.
 
-Ознакомьтесь с дополнительными сведениями о [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/azure/architecture/framework) для улучшения проектирования систем.
+Ознакомьтесь с дополнительными сведениями о [Microsoft Azure Well-Architected Framework](/azure/architecture/framework) для улучшения проектирования систем.
 
 По мере улучшения структуры системы вернитесь к этой статье, чтобы найти новые возможности для улучшения и масштабирования этих улучшений в среде.
 
@@ -92,7 +92,7 @@ ms.locfileid: "86190759"
 
 Если разрешение технического долга не является желаемым подходом, следующим шагом является автоматическое исправление. Наиболее распространенный подход к автоматическому исправлению — использование службы автоматизации Azure и Azure Monitor для обнаружения тенденций и обеспечения автоматического исправления.
 
-Рекомендации по автоматическому исправлению см. в статье [Use an alert to trigger an Azure Automation runbook](https://docs.microsoft.com/azure/automation/automation-create-alert-triggered-runbook) (Использование оповещения для активации runbook службы автоматизации Azure).
+Рекомендации по автоматическому исправлению см. в статье [Use an alert to trigger an Azure Automation runbook](/azure/automation/automation-create-alert-triggered-runbook) (Использование оповещения для активации runbook службы автоматизации Azure).
 
 ::: zone target="docs"
 
@@ -111,7 +111,7 @@ ms.locfileid: "86190759"
 
 Чтобы максимально повысить внедрение и снизить затраты на обслуживание любой оптимизированной платформы, необходимо добавить эту платформу в каталог служб в Azure. Каждое приложение в каталоге можно развернуть для внутреннего использования с помощью каталога служб или как предложение Marketplace для внешних потребителей.
 
-Инструкции по публикации в каталоге служб см. в [этой серии статей](https://docs.microsoft.com/azure/managed-applications/publish-service-catalog-app).
+Инструкции по публикации в каталоге служб см. в [этой серии статей](/azure/managed-applications/publish-service-catalog-app).
 
 ### <a name="deploy-applications-from-the-service-catalog"></a>Развертывание приложений из каталога служб
 
@@ -159,6 +159,6 @@ ms.locfileid: "86190759"
 
 Контейнеры и SQL Server являются двумя самыми распространенными централизованно управляемыми платформами. Эти статьи помогут вам приступить к сбору данных непрерывных улучшений.
 
-- [Azure Monitor for containers overview](https://docs.microsoft.com/azure/azure-monitor/insights/container-insights-overview) (Обзор Azure Monitor для контейнеров)
-- [Monitor Azure SQL Database using Azure SQL Analytics (Preview)](https://docs.microsoft.com/azure/azure-monitor/insights/azure-sql) (Мониторинг Базы данных SQL Azure с помощью решения "Аналитика SQL Azure" (предварительная версия))
-- [Optimize your SQL environment with the SQL Server Health Check solution in Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/insights/sql-assessment) (Оптимизация среды SQL с помощью решения "Проверка работоспособности SQL Server" в Azure Monitor)
+- [Azure Monitor for containers overview](/azure/azure-monitor/insights/container-insights-overview) (Обзор Azure Monitor для контейнеров)
+- [Monitor Azure SQL Database using Azure SQL Analytics (Preview)](/azure/azure-monitor/insights/azure-sql) (Мониторинг Базы данных SQL Azure с помощью решения "Аналитика SQL Azure" (предварительная версия))
+- [Optimize your SQL environment with the SQL Server Health Check solution in Azure Monitor](/azure/azure-monitor/insights/sql-assessment) (Оптимизация среды SQL с помощью решения "Проверка работоспособности SQL Server" в Azure Monitor)

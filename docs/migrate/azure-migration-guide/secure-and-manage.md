@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 7e8542a45cd9fa9517d4ddf9ed5789f8173a9897
-ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
+ms.openlocfilehash: 2dbe690b10e21c06d348bf3196077fa812a043c9
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86373211"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88570272"
 ---
 <!-- markdownlint-disable MD024 MD025 DOCSMD001 -->
 
@@ -42,7 +42,7 @@ ms.locfileid: "86373211"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Общие сведения об Azure Monitor](https://docs.microsoft.com/azure/azure-monitor/overview).
+- [Общие сведения об Azure Monitor](/azure/azure-monitor/overview).
 
 ::: zone-end
 
@@ -73,7 +73,7 @@ ms.locfileid: "86373211"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-Дополнительные сведения см. в статье [Документация по службе "Работоспособность служб Azure"](https://docs.microsoft.com/azure/service-health).
+Дополнительные сведения см. в статье [Документация по службе "Работоспособность служб Azure"](/azure/service-health).
 
 ::: zone-end
 
@@ -96,7 +96,7 @@ ms.locfileid: "86373211"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-[Обзор](https://docs.microsoft.com/azure/advisor/advisor-overview).
+[Обзор](/azure/advisor/advisor-overview).
 
 ::: zone-end
 
@@ -119,7 +119,7 @@ ms.locfileid: "86373211"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-[Обзор](https://docs.microsoft.com/azure/security-center/security-center-intro)
+[Обзор](/azure/security-center/security-center-intro)
 
 ::: zone-end
 
@@ -145,7 +145,7 @@ Azure Backup — это служба на платформе Azure, исполь
 
 ::: zone target="docs"
 
-[Обзор](https://docs.microsoft.com/azure/backup/backup-overview)
+[Обзор](/azure/backup/backup-overview)
 
 ::: zone-end
 
@@ -195,7 +195,7 @@ Azure Backup — это служба на платформе Azure, исполь
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Обзор Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview)
-- [Репликация виртуальной машины Azure в другой регион](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
+- [Обзор Azure Site Recovery](/azure/site-recovery/site-recovery-overview)
+- [Репликация виртуальной машины Azure в другой регион](/azure/site-recovery/azure-to-azure-quickstart)
 
 ::: zone-end

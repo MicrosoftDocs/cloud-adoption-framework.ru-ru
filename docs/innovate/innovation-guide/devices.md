@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: c739459e26f83bf5e41f89bb22750632bc7e4afe
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: aba505bea5b8bafc8a8d49a04c2a0086363d9cc4
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449002"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88567875"
 ---
 <!-- cSpell:ignore umarmohamedusman umarm Moovit -->
 
@@ -27,12 +27,12 @@ ms.locfileid: "86449002"
 > [!div class="checklist"]
 >
 > - Промышленные ресурсы
-> - [Microsoft HoloLens 2](https://docs.microsoft.com/hololens)
-> - [Azure Sphere](https://docs.microsoft.com/azure-sphere/product-overview/what-is-azure-sphere)
-> - [Azure Kinect DK](https://docs.microsoft.com/azure/kinect-dk/about-azure-kinect-dk)
+> - [Microsoft HoloLens 2](/hololens)
+> - [Azure Sphere](/azure-sphere/product-overview/what-is-azure-sphere)
+> - [Azure Kinect DK](/azure/kinect-dk/about-azure-kinect-dk)
 > - Дроны
-> - [SQL Azure для пограничных вычислений](https://docs.microsoft.com/azure/azure-sql-edge/overview)
-> - [IoT Plug and Play](https://docs.microsoft.com/azure/iot-pnp/overview-iot-plug-and-play)
+> - [SQL Azure для пограничных вычислений](/azure/azure-sql-edge/overview)
+> - [IoT Plug and Play](/azure/iot-pnp/overview-iot-plug-and-play)
 
 <!-- markdownlint-disable MD025 -->
 
@@ -53,8 +53,8 @@ ms.locfileid: "86449002"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Центр Интернета вещей Azure](https://docs.microsoft.com/azure/iot-hub)
-- [Служба подготовки устройств (DPS) к добавлению в Центр Интернета вещей](https://docs.microsoft.com/azure/iot-dps)
+- [Центр Интернета вещей Azure](/azure/iot-hub)
+- [Служба подготовки устройств (DPS) к добавлению в Центр Интернета вещей](/azure/iot-dps)
 
 ::: zone-end
 
@@ -106,7 +106,7 @@ ms.locfileid: "86449002"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Azure Digital Twins](https://docs.microsoft.com/azure/digital-twins/about-digital-twins)
+- [Azure Digital Twins](/azure/digital-twins/about-digital-twins)
 
 ::: zone-end
 
@@ -145,7 +145,7 @@ ms.locfileid: "86449002"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Azure Maps](https://docs.microsoft.com/azure/azure-maps)
+- [Azure Maps](/azure/azure-maps)
 
 ::: zone-end
 
@@ -182,7 +182,7 @@ ms.locfileid: "86449002"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Пространственные привязки Azure.](https://docs.microsoft.com/azure/spatial-anchors/overview)
+- [Пространственные привязки Azure.](/azure/spatial-anchors/overview)
 
 ::: zone-end
 
@@ -213,8 +213,8 @@ ms.locfileid: "86449002"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Удаленная отрисовка Azure](https://docs.microsoft.com/azure/remote-rendering/overview/about)
-- [Рендеринг с помощью Azure](https://docs.microsoft.com/azure/batch/batch-rendering-service)
+- [Удаленная отрисовка Azure](/azure/remote-rendering/overview/about)
+- [Рендеринг с помощью Azure](/azure/batch/batch-rendering-service)
 
 ::: zone-end
 

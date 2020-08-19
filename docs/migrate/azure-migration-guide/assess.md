@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 0a3288c992c09ebd4da7285225da7b295b1cc626
-ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
+ms.openlocfilehash: 15c0b4f654607e2e150d547c52edd56e95c5fe89
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86373056"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88570510"
 ---
 # <a name="assess-workloads-and-refine-plans"></a>Оценка рабочих нагрузок и уточнение планов
 
@@ -63,8 +63,8 @@ ms.locfileid: "86373056"
 
 #### <a name="learn-more"></a>Дополнительные сведения
 
-- [Общие сведения о Миграции Azure](https://docs.microsoft.com/azure/migrate/migrate-services-overview)
-- [Перенос физических и виртуализированных серверов в Azure.](https://docs.microsoft.com/azure/migrate/tutorial-migrate-physical-virtual-machines)
+- [Общие сведения о Миграции Azure](/azure/migrate/migrate-services-overview)
+- [Перенос физических и виртуализированных серверов в Azure.](/azure/migrate/tutorial-migrate-physical-virtual-machines)
 - [Миграция Azure на портале Azure](https://portal.azure.com/#blade/Microsoft_Azure_Migrate/AmhResourceMenuBlade/overview)
 
 ::: zone-end
@@ -73,22 +73,22 @@ ms.locfileid: "86373056"
 
 Служба схемы услуги автоматически обнаруживает компоненты приложений в системах Windows и Linux и сопоставляет взаимодействие между службами. Схема услуги позволяет рассматривать серверы как взаимосвязанные системы, предоставляющие важные услуги. Сопоставление служб отображает сведения о подключениях между серверами, процессами, задержками во входящих и выходящих подключениях и портами в любой подключенной по протоколу TCP архитектуре без дополнительной настройки. Пользователям требуется только установить агент.
 
-Служба "Миграция Azure" и использует решение "Сопоставление служб" для расширения возможностей создания отчетов и зависимостей в среде. Полные сведения об этой интеграции приведены в статье о [визуализации зависимостей](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization). Если вы работаете со службой "Миграция Azure", дополнительные действия по настройке и использованию Сопоставления служб не требуются. Дальнейшие инструкции приводятся в справочных целях, если вы захотите использовать Сопоставление служб для других целей или проектов.
+Служба "Миграция Azure" и использует решение "Сопоставление служб" для расширения возможностей создания отчетов и зависимостей в среде. Полные сведения об этой интеграции приведены в статье о [визуализации зависимостей](/azure/migrate/concepts-dependency-visualization). Если вы работаете со службой "Миграция Azure", дополнительные действия по настройке и использованию Сопоставления служб не требуются. Дальнейшие инструкции приводятся в справочных целях, если вы захотите использовать Сопоставление служб для других целей или проектов.
 
 #### <a name="enable-dependency-visualization-using-service-map"></a>Включение визуализации зависимостей с помощью Сопоставления служб
 
 Чтобы использовать визуализацию зависимостей, скачайте и установите агенты на каждом локальном компьютере, который нужно проанализировать.
 
-- [Microsoft Monitoring Agent](https://docs.microsoft.com/azure/log-analytics/log-analytics-agent-windows) нужно установить на каждом компьютере.
-- [Microsoft Dependency Agent](https://docs.microsoft.com/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows) нужно установить на каждом компьютере.
+- [Microsoft Monitoring Agent](/azure/log-analytics/log-analytics-agent-windows) нужно установить на каждом компьютере.
+- [Microsoft Dependency Agent](/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows) нужно установить на каждом компьютере.
 - Кроме того, если у вас есть компьютеры без подключения к Интернету, скачайте и установите на них шлюз Log Analytics.
 
 <!-- markdownlint-disable MD024 -->
 
 #### <a name="learn-more"></a>Дополнительные сведения
 
-- [Использование решения "Сопоставление служб" в Azure](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)
-- [Миграция Azure и Сопоставление служб: Визуализация зависимостей](https://docs.microsoft.com/azure/migrate/concepts-dependency-visualization)
+- [Использование решения "Сопоставление служб" в Azure](/azure/azure-monitor/insights/service-map)
+- [Миграция Azure и Сопоставление служб: Визуализация зависимостей](/azure/migrate/concepts-dependency-visualization)
 
 ## <a name="challenge-assumptions"></a>[Проверка предположений](#tab/Challenge-Assumptions)
 
@@ -102,7 +102,7 @@ ms.locfileid: "86373056"
 
 Для успешной [инкрементной рационализации](../../digital-estate/rationalize.md#incremental-rationalization) требуется выполнить два взвешенных шага. Для выполнения обоих шагов требуются данные и информация о среде. При этом каждый подход учитывает время и степень детализации, требуемые для успешного выполнения миграции.
 
-- [Планирование выпуска по методу "сила десяти".](../../digital-estate/rationalize.md#release-planning) Во время первоначальной рационализации и планирования выпуска для оценки следует использовать только один из [пяти принципов рационализации](../../digital-estate/5-rs-of-rationalization.md). Выполняйте оценку и планирование на основе одного варианта рационализации, который наилучшим образом соответствует общим ожиданиям, определенным в [стратегии и шаблоне плана](https://archcenter.blob.core.windows.net/cdn/fusion/readiness/Microsoft-Cloud-Adoption-Framework-Strategy-and-Plan-Template.docx).
+- [Планирование выпуска по методу "сила десяти".](../../digital-estate/rationalize.md#release-planning) Во время первоначальной рационализации и планирования выпуска для оценки следует использовать только один из [пяти принципов рационализации](../../digital-estate/5-rs-of-rationalization.md). Выполняйте оценку и планирование на основе одного варианта рационализации, который наилучшим образом соответствует общим ожиданиям, определенным в [стратегии и шаблоне плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 
 - **Подробная оценка каждой рабочей нагрузки.** Предположения, связанные с планированием по методу "сила десяти", вполне приемлемы для создания плана. Но эти же предположения могут вызвать серьезные проблемы, если они не оцениваются до миграции.
 

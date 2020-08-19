@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: cc3d8ddfc599a33e28874774e92915b964aa4e3c
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 9323dbd07f5de6ab4ed525b6f3a54db921ac0f7d
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86190878"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88572040"
 ---
 <!-- cSpell:ignore WSUS getting started -->
 
@@ -53,7 +53,7 @@ _Соответствие операций нормативным требова
 - гибридные рабочие роли Runbook службы автоматизации Azure;
 - службы Центра обновления Майкрософт или Windows Server Update Services (WSUS) для компьютеров с Windows.
 
-Дополнительные сведения см. в статье [Update Management solution in Azure](https://docs.microsoft.com/azure/automation/automation-update-management) (Решение для управления обновлениями в Azure).
+Дополнительные сведения см. в статье [Update Management solution in Azure](/azure/automation/automation-update-management) (Решение для управления обновлениями в Azure).
 
 > [!WARNING]
 > Прежде чем использовать решение "Управление обновлениями", необходимо подключить виртуальные машины или всю подписку к Log Analytics и службе автоматизации Azure.
@@ -126,8 +126,8 @@ _Соответствие операций нормативным требова
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Политика Azure](https://docs.microsoft.com/azure/azure-policy)
-- [Политика Azure: гостевая конфигурация](https://docs.microsoft.com/azure/governance/policy/concepts/guest-configuration)
+- [Политика Azure](/azure/azure-policy)
+- [Политика Azure: гостевая конфигурация](/azure/governance/policy/concepts/guest-configuration)
 - [Role-based по принудительному применению политик](../../decision-guides/policy-enforcement/index.md)
 
 ## <a name="azure-blueprints"></a>Azure Blueprints
@@ -214,8 +214,8 @@ _Соответствие операций нормативным требова
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Azure Blueprints](https://docs.microsoft.com/azure/governance/blueprints)
+- [Azure Blueprints](/azure/governance/blueprints)
 - [Role-based по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
-- [Примеры схем на основе стандартов](https://docs.microsoft.com/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
+- [Примеры схем на основе стандартов](/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
 
 ::: zone-end

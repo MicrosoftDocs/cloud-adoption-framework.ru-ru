@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 74c304969760e5bc52e318aa33401af12704d55d
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 24fcb5842f6151ac6beba8820391078bd64d3050
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86190742"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88567535"
 ---
 # <a name="workload-specialization-for-cloud-management"></a>Специализация рабочей нагрузки для управления облаком
 
@@ -60,7 +60,7 @@ ms.locfileid: "86190742"
 1. Выберите **+ Добавить**, чтобы создать ресурс Application Insights для мониторинга интерактивного веб-приложения.
 1. Следуйте инструкциям на экране.
 
-Инструкции по настройке приложения для мониторинга см. в [центре Azure Monitor Application Insights](https://docs.microsoft.com/azure/azure-monitor/azure-monitor-app-hub).
+Инструкции по настройке приложения для мониторинга см. в [центре Azure Monitor Application Insights](/azure/azure-monitor/azure-monitor-app-hub).
 
 ::: zone target="chromeless"
 

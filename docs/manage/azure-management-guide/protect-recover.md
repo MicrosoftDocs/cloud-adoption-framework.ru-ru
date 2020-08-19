@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: c25329eae0a7b416b9bcd11eab6599e2e28781fc
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: fdedf440bc947a2877cca6854b4745dd8482e493
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86190708"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88567756"
 ---
 <!-- cSpell:ignore siterecovery -->
 
@@ -64,7 +64,7 @@ _Защита и восстановление_ — это третья и ок�
 
 ::: zone target="docs"
 
-[Обзор](https://docs.microsoft.com/azure/backup/backup-overview)
+[Обзор](/azure/backup/backup-overview)
 
 ## <a name="azure-site-recovery"></a>Azure Site Recovery
 
@@ -116,5 +116,5 @@ Site Recovery реплицирует виртуальные машины и ра
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Обзор Azure Site Recovery](https://docs.microsoft.com/azure/site-recovery/site-recovery-overview)
-- [Репликация виртуальной машины Azure в другой регион](https://docs.microsoft.com/azure/site-recovery/azure-to-azure-quickstart)
+- [Обзор Azure Site Recovery](/azure/site-recovery/site-recovery-overview)
+- [Репликация виртуальной машины Azure в другой регион](/azure/site-recovery/azure-to-azure-quickstart)

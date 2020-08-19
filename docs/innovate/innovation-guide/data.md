@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 0ac9256adda2b310592d69685a183b790790228a
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: be3f5c774d91bf0e6e45a068311b35d35f328ba5
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449019"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88567892"
 ---
 # <a name="democratize-data"></a>Упрощение доступа к данным
 
@@ -36,7 +36,7 @@ ms.locfileid: "86449019"
 
 ::: zone target="docs"
 
-**Откройте [документацию для службы "Каталог данных Azure"](https://docs.microsoft.com/azure/data-catalog)**
+**Откройте [документацию для службы "Каталог данных Azure"](/azure/data-catalog)**
 
 ::: zone-end
 
@@ -74,7 +74,7 @@ ms.locfileid: "86449019"
 
 ::: zone target="docs"
 
-**Откройте [документацию для службы Azure Data Share](https://docs.microsoft.com/azure/data-share)**
+**Откройте [документацию для службы Azure Data Share](/azure/data-share)**
 
 ::: zone-end
 
@@ -112,7 +112,7 @@ ms.locfileid: "86449019"
 
 ::: zone target="docs"
 
-**Откройте [обзор службы "Аналитика временных рядов Azure"](https://docs.microsoft.com/azure/time-series-insights/time-series-insights-update-overview)**
+**Откройте [обзор службы "Аналитика временных рядов Azure"](/azure/time-series-insights/time-series-insights-update-overview)**
 
 ::: zone-end
 

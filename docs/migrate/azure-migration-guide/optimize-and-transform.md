@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: f011bae35204c2acff3f8b9b48df61f9528499a3
-ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
+ms.openlocfilehash: 29bb9f2e21049c00ae125a92d84f168f4261e88a
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86372954"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88570306"
 ---
 <!-- markdownlint-disable MD025 DOCSMD001 -->
 
@@ -62,13 +62,13 @@ ms.locfileid: "86372954"
 
 ::: zone target="docs"
 
-- [Управление резервированиями для ресурсов Azure](https://docs.microsoft.com/azure/billing/billing-manage-reserved-vm-instance)
-- [Изменение размера виртуальной машины Windows](https://docs.microsoft.com/azure/virtual-machines/windows/resize-vm)
-- [Изменение размера виртуальной машины Linux с помощью интерфейса командной строки Azure](https://docs.microsoft.com/azure/virtual-machines/linux/change-vm-size)
+- [Управление резервированиями для ресурсов Azure](/azure/billing/billing-manage-reserved-vm-instance)
+- [Изменение размера виртуальной машины Windows](/azure/virtual-machines/windows/resize-vm)
+- [Изменение размера виртуальной машины Linux с помощью интерфейса командной строки Azure](/azure/virtual-machines/linux/change-vm-size)
 
 Партнеры могут использовать Центр партнеров для просмотра сведений об использовании.
 
-- [Размеры виртуальных машин Azure для максимального использования резервирования](https://docs.microsoft.com/partner-center/azure-usage)
+- [Размеры виртуальных машин Azure для максимального использования резервирования](/partner-center/azure-usage)
 
 ::: zone-end
 
@@ -128,8 +128,8 @@ ms.locfileid: "86372954"
 
 ::: zone target="docs"
 
-- [Руководство. Рекомендации по оптимизации затрат](https://docs.microsoft.com/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
-- [Предотвращение непредвиденных расходов с помощью функции выставления счетов и управления затратами в Azure](https://docs.microsoft.com/azure/billing/billing-getting-started)
-- [Изучение и анализ затрат с помощью функции анализа затрат](https://docs.microsoft.com/azure/cost-management/quick-acm-cost-analysis)
+- [Руководство. Рекомендации по оптимизации затрат](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
+- [Предотвращение непредвиденных расходов с помощью функции выставления счетов и управления затратами в Azure](/azure/billing/billing-getting-started)
+- [Изучение и анализ затрат с помощью функции анализа затрат](/azure/cost-management/quick-acm-cost-analysis)
 
 ::: zone-end

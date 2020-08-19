@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 0f022693cdf8191a1c4e978a4545bfc117ed055f
-ms.sourcegitcommit: 622a7c5f1b47c9ad0a1c1ed3caa98bad6cf9d9c2
+ms.openlocfilehash: e623658907c4f6e97574e1e8c0012933a6233e8f
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/23/2020
-ms.locfileid: "87115098"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88572907"
 ---
 <!-- cSpell:ignore laraaleite profx fsubscriptions fresource -->
 
@@ -66,7 +66,7 @@ ms.locfileid: "87115098"
 2. Выберите **Добавить**.
 
 > [!NOTE]
-> Подписки также можно создавать программными средствами. См. дополнительные сведения в разделе [Создание подписок Azure программными средствами](https://docs.microsoft.com/azure/azure-resource-manager/management/programmatically-create-subscription?tabs=azure-powershell).
+> Подписки также можно создавать программными средствами. См. дополнительные сведения в разделе [Создание подписок Azure программными средствами](/azure/azure-resource-manager/management/programmatically-create-subscription?tabs=azure-powershell).
 
 #### <a name="create-a-resource-group"></a>Создание группы ресурсов
 
@@ -86,9 +86,9 @@ ms.locfileid: "87115098"
 - [Создание исходных подписок](../azure-best-practices/initial-subscriptions.md)
 - [Создание дополнительных подписок Azure для масштабирования среды Azure](../azure-best-practices/scale-subscriptions.md)
 - [Организация и администрирование подписок Azure](../azure-best-practices/organize-subscriptions.md)
-- [Упорядочение ресурсов с помощью групп управления Azure](https://docs.microsoft.com/azure/azure-resource-manager/management-groups-overview)
+- [Упорядочение ресурсов с помощью групп управления Azure](/azure/azure-resource-manager/management-groups-overview)
 - [Resource access management in Azure](../../govern/resource-consistency/resource-access-management.md) (Управление доступом к ресурсам в Azure)
-- [Подписка Azure, границы, квоты и ограничения службы](https://docs.microsoft.com/azure/azure-resource-manager/management/azure-subscription-service-limits)
+- [Подписка Azure, границы, квоты и ограничения службы](/azure/azure-resource-manager/management/azure-subscription-service-limits)
 
 ::: zone-end
 
@@ -136,7 +136,7 @@ ms.locfileid: "87115098"
 
 Операционная часть должна гарантировать, что имена содержат информацию, необходимую для ИТ-команд. Используйте сведения, определяющие рабочую нагрузку, приложение, среду, важность и другую информацию, полезную для управления ресурсами.
 
-Разные типы ресурсов имеют разные [правила именования и ограничения](https://docs.microsoft.com/azure/azure-resource-manager/management/resource-name-rules). Дополнительные сведения и рекомендации по поддержке операций предприятий по внедрению облачных технологий можно найти в [руководстве по именованию и расстановке тегов](../azure-best-practices/naming-and-tagging.md) для Cloud Adoption Framework.
+Разные типы ресурсов имеют разные [правила именования и ограничения](/azure/azure-resource-manager/management/resource-name-rules). Дополнительные сведения и рекомендации по поддержке операций предприятий по внедрению облачных технологий можно найти в [руководстве по именованию и расстановке тегов](../azure-best-practices/naming-and-tagging.md) для Cloud Adoption Framework.
 
 В следующей таблице приведены шаблоны именования для нескольких примеров типов ресурсов Azure.
 
@@ -182,7 +182,7 @@ ms.locfileid: "87115098"
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-Дополнительные сведения см. в статье об [организации ресурсов Azure с помощью тегов](https://docs.microsoft.com/azure/azure-resource-manager/management/tag-resources).
+Дополнительные сведения см. в статье об [организации ресурсов Azure с помощью тегов](/azure/azure-resource-manager/management/tag-resources).
 
 ::: zone-end
 

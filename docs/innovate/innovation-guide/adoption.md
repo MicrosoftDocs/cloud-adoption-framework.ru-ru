@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 4830928bb0b7765ca05a11ceee7c859b2dc2608a
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 8d8e25dfaa7f39eb2c647fbe3a8a7c0f1d3d1fcd
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86478639"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88568130"
 ---
 # <a name="prepare-for-customer-feedback"></a>Подготовка к сбору отзывов клиентов
 
@@ -25,7 +25,7 @@ ms.locfileid: "86478639"
 - **количественное (обратная связь для тестирования):** означает действия, которые мы ожидаем увидеть;
 - **качественное (обратная связь клиентов):** сообщает о том, что эти метрики означают для клиента.
 
-Чтобы интегрировать циклы обратной связи, нужен общий репозиторий для решения. Централизованный репозиторий обеспечит возможность записывать все отзывы о проекте и реагировать на них. [GitHub](https://github.com) является хранилищем для программного обеспечения с открытым исходным кодом. Кроме того, это одна из наиболее часто используемых платформ для размещения репозитория исходного кода для коммерческих приложений. В статье по [созданию репозиториев GitHub](https://docs.microsoft.com/azure/devops/pipelines/repos/github?view=azure-devops&tabs=yaml) содержатся сведения по началу работы с репозиторием.
+Чтобы интегрировать циклы обратной связи, нужен общий репозиторий для решения. Централизованный репозиторий обеспечит возможность записывать все отзывы о проекте и реагировать на них. [GitHub](https://github.com) является хранилищем для программного обеспечения с открытым исходным кодом. Кроме того, это одна из наиболее часто используемых платформ для размещения репозитория исходного кода для коммерческих приложений. В статье по [созданию репозиториев GitHub](/azure/devops/pipelines/repos/github?tabs=yaml&view=azure-devops) содержатся сведения по началу работы с репозиторием.
 
 Каждый из приведенных ниже инструментов в Azure интегрируется с проектами, размещенными в GitHub, или совместим с ними.
 
@@ -60,9 +60,9 @@ Application Insights — это инструмент отслеживания, 
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Запуск мониторинга веб-приложения ASP.NET](https://docs.microsoft.com/azure/azure-monitor/learn/quick-monitor-portal)
-- [Начало работы с Azure Monitor Application Insights](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-users)
-- [Создание настраиваемых панелей мониторинга ключевых показателей эффективности с помощью Azure Application Insights](https://docs.microsoft.com/azure/azure-monitor/learn/tutorial-app-dashboards)
+- [Запуск мониторинга веб-приложения ASP.NET](/azure/azure-monitor/learn/quick-monitor-portal)
+- [Начало работы с Azure Monitor Application Insights](/azure/azure-monitor/learn/tutorial-users)
+- [Создание настраиваемых панелей мониторинга ключевых показателей эффективности с помощью Azure Application Insights](/azure/azure-monitor/learn/tutorial-app-dashboards)
 
 ## <a name="quantitative-feedback-for-apis"></a>[Количественная обратная связь для интерфейсов API](#tab/Quantitative-APIs)
 
@@ -104,7 +104,7 @@ Application Insights — это инструмент отслеживания, 
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-- [Сбор отзывов об API-интерфейсах при помощи Azure Monitor](https://docs.microsoft.com/azure/api-management/api-management-howto-use-azure-monitor)
+- [Сбор отзывов об API-интерфейсах при помощи Azure Monitor](/azure/api-management/api-management-howto-use-azure-monitor)
 
 ## <a name="qualitative-feedback"></a>[Качественная обратная связь](#tab/Qualitative)
 
@@ -114,7 +114,7 @@ Application Insights — это инструмент отслеживания, 
 
 ### <a name="action"></a>Действие
 
-Для Azure Boards и Azure Pipelines нужен портал, отдельный от GitHub и Azure. Приступайте к работе с [Azure DevOps Services](https://docs.microsoft.com/azure/devops/user-guide/what-is-azure-devops).
+Для Azure Boards и Azure Pipelines нужен портал, отдельный от GitHub и Azure. Приступайте к работе с [Azure DevOps Services](/azure/devops/user-guide/what-is-azure-devops).
 
 ::: zone-end
 
@@ -140,8 +140,8 @@ Application Insights — это инструмент отслеживания, 
 
 Эти статьи помогут вам централизовать и контролировать отзывы, используя Azure Boards вместе с GitHub.
 
-- [Сведения о начале работы с Azure Boards](https://docs.microsoft.com/azure/devops/boards/get-started/?view=azure-devops)
-- [Сведения об использовании Azure Boards и GitHub](https://docs.microsoft.com/azure/devops/boards/github?view=azure-devops)
+- [Сведения о начале работы с Azure Boards](/azure/devops/boards/get-started/?view=azure-devops)
+- [Сведения об использовании Azure Boards и GitHub](/azure/devops/boards/github?view=azure-devops)
 
 ## <a name="close-the-loop-with-pipelines"></a>[Закрытие цикла с помощью конвейеров](#tab/pipelines)
 
@@ -175,5 +175,5 @@ Application Insights — это инструмент отслеживания, 
 
 Приступите к созданию своих конвейеров развертывания:
 
-- [Create your first pipeline](https://docs.microsoft.com/azure/devops/pipelines/create-first-pipeline?view=azure-devops&tabs=tfs-2018-2) (Создание первого конвейера)
-- [Задачи `GitHub Release`](https://docs.microsoft.com/azure/devops/pipelines/tasks/utility/github-release?view=azure-devops)
+- [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline?tabs=tfs-2018-2&view=azure-devops) (Создание первого конвейера)
+- [Задачи `GitHub Release`](/azure/devops/pipelines/tasks/utility/github-release?view=azure-devops)
