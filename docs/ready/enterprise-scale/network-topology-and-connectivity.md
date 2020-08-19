@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: a718dec7e9c620671f6e262d7f51250b0d90da90
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 5e5988e2a75c5cc83f7145abb91feb3492bbe4dd
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285920"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88575185"
 ---
 <!-- cSpell:ignore autoregistration BGPs MACsec MPLS MSEE onprem privatelink VPNs -->
 
@@ -243,7 +243,7 @@ _Рис. 4. Традиционная топология сети Azure._
   _Рис. 5. топология сети hub-and-лучевой._
 
 - Используйте топологию нескольких виртуальных сетей, подключенных с несколькими каналами ExpressRoute, если выполняется одно из следующих условий.
- 
+
   - Требуется высокий уровень изоляции.
   - Для конкретных подразделений требуется выделенная пропускная способность ExpressRoute.
   - Достигнуто максимальное число подключений на шлюз ExpressRoute (до четырех).

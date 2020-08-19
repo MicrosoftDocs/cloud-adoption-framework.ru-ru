@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: fd61b8ea142e042ba8653df484891ebc6a520caf
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 619dd5197bcea95d83b27c166e0f4238abd1a988
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88278440"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88573944"
 ---
 # <a name="get-started-understand-and-document-foundational-alignment-decisions"></a>Начало работы: изучение и документирование решений по выравниванию в базовых принципах
 
@@ -149,7 +149,7 @@ Azure построен на основе набора [базовых конце
 | --- | --- |
 | <li> Группа по облачным стратегиям может учитывать соответствие виртуальным или выделенным организационным структурам, чтобы обеспечить успешность жизненного цикла внедрения в облако. | <li> Все, кто вовлечен в жизненный цикл внедрения в облако, должны быть знакомы с выравниванием людей и уровней ответственности. |
 
-## <a name="whats-next"></a>Дальнейшие действия
+## <a name="whats-next"></a>Что дальше?
 
 Постройте этот набор фундаментальных концепций с помощью серии руководств по началу работы в этом разделе инфраструктуры внедрения облаков.
 

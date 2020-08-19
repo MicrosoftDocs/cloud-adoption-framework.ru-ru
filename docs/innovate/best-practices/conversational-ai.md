@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: b05f2ebcabf4ecd73f7c0e0ac5e7cd5c79e40e87
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 277d208ccdb2dda3e25994893f07c542cb3e87bf
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88279477"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88573179"
 ---
 <!-- cSpell:ignore Twilio -->
 
@@ -60,7 +60,7 @@ ms.locfileid: "88279477"
 
 В рамках службы Azure Bot и Bot Framework мы предлагаем дополнительные компоненты, которые можно использовать для расширения функциональных возможностей программы-робота.
 
-| Функция | Описание | Ссылка |
+| Компонент | Описание | Ссылка |
 | --- | --- | --- |
 | Добавление возможности обработки естественного языка | Попросите робота понять естественный язык, понять орфографические ошибки, использовать речь и распознать намерение пользователя. | Использование [LUIS](/azure/bot-service/bot-builder-howto-v4-luis?view=azure-bot-service-4.0) |
 | Ответы на вопросы | Добавьте базу знаний, чтобы ответить на вопросы, которые пользователи запрашивают более естественным образом. | Использование [QnA Maker](/azure/bot-service/bot-builder-howto-qna?view=azure-bot-service-4.0) |

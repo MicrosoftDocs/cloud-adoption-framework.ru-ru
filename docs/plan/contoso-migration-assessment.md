@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 30a22ea0de5dbc2e68b62a587c18d877dc221b3b
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 24557e154d5c30dd3755a4c8b7c0b8d82040883c
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285393"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574488"
 ---
 <!-- docsTest:disable TODO -->
 

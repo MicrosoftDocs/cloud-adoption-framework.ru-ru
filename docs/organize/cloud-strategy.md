@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/05/2020
-ms.openlocfilehash: 5595b95870a32de1d90e247fccc6dfb8de207221
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: a776c93023eb0b3f5ca9c8ad4fc26d3723b8997d
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88278457"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574624"
 ---
 # <a name="cloud-strategy-functions"></a>Функции облачной стратегии.
 
@@ -23,7 +23,7 @@ ms.locfileid: "88278457"
 - Finance
 - Специализированное ПО
 - Управление персоналом
-- Операции
+- Operations
 - Корпоративная архитектура
 - ИТ – инфраструктура
 - Группы приложений

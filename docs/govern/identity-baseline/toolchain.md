@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f45fc5a7431aee37ce401659c766847570bb3a96
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 4f1e4d10efa8e45ea552037f55d6775b72e831b2
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88280429"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88573315"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Средства основных способов идентификации в Azure
 
@@ -59,7 +59,7 @@ ms.locfileid: "88280429"
 | --- | --- | --- | --- |
 | Где происходит аутентификация? | В облаке | В облаке после безопасного обмена данными проверки пароля с локальным агентом аутентификации | В локальной среде |
 | Каковы требования к локальному серверу, помимо системы подготовки: Azure AD Connect? | None | Один сервер для каждого дополнительного агента аутентификации | Не менее двух серверов AD FS <br><br> Два или более серверов WAP в сети периметра |
-| Каковы требования к локальному Интернету и сети за пределами системы подготовки? | Нет | [Исходящий доступ в Интернет](/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности | [Входящий доступ в Интернет](/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре <br><br> Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра <br><br> Балансировка сетевой нагрузки |
+| Каковы требования к локальному Интернету и сети за пределами системы подготовки? | None | [Исходящий доступ в Интернет](/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности | [Входящий доступ в Интернет](/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре <br><br> Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра <br><br> Балансировка сетевой нагрузки |
 | Существует ли требование к SSL-сертификату? | Нет | Нет | Да |
 | Имеется ли решение для мониторинга работоспособности? | Не требуется | Состояние агента, предоставляемое [Центром администрирования Azure Active Directory](/azure/active-directory/hybrid/tshoot-connect-pass-through-authentication#general-issues) | [Azure AD Connect Health](/azure/active-directory/hybrid/how-to-connect-health-adfs) |
 | Пользователи получают единый вход в облачные ресурсы с присоединенных к домену устройств в корпоративной сети? | Да, с [простым единым входом](/azure/active-directory/hybrid/how-to-connect-sso) | Да, с [простым единым входом](/azure/active-directory/hybrid/how-to-connect-sso) | Да |

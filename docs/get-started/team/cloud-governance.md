@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: c46c7e82800a984450bd939259b91f77f1a2b130
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 9c611e196b9bf5777181b99ef184759eb4d56bb6
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88281143"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88573876"
 ---
 # <a name="get-started-build-a-cloud-governance-team"></a>Приступая к работе. Создание группы по управлению облаком
 
@@ -27,7 +27,7 @@ ms.locfileid: "88281143"
 **Результатам**
 
 - Определите, нужна ли вам группа по управлению облаком.
-- Выровняйте обязанности между командами, разработав межкомандную матрицу, которая определяет _ответственных, осведомленных, проконсультируйтесь и информированные (RACI)_ стороны. Задокументируйте решение и ответственных лиц, используя [шаблон RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx) на `Org Alignment` листе.
+- Выровняйте обязанности между командами, разработав межкомандную матрицу, которая определяет *ответственных, осведомленных, проконсультируйтесь и информированные (RACI)* стороны. Задокументируйте решение и ответственных лиц, используя [шаблон RACI](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/organize/raci-template.xlsx) на `Org Alignment` листе.
 
 **Рекомендации по поддержке готовности к завершению.**
 
@@ -183,7 +183,7 @@ ms.locfileid: "88281143"
 | --- | --- |
 | <li> Группы внедрения в облако | <li> Группа по системе управления облаком <li> Группа по эксплуатации облака |
 
-## <a name="whats-next"></a>Дальнейшие действия
+## <a name="whats-next"></a>Что дальше?
 
 Все компании являются уникальными, и поэтому их потребности в управлении. Выберите уровень зрелости, соответствующий вашей организации, и используйте платформу внедрения облачных решений, чтобы ознакомиться с методиками, процессами и инструментами, которые помогут вам в этом.
 

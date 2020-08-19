@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: 12556ddab35df0ed98cc96594bcc3d94e59ad3d1
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 7cf77a1d6b8335d11a7e4c116ecb5463d5aee312
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88278389"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88575134"
 ---
 <!-- docsTest:disable TODO -->
 <!-- cSpell:ignore tracsman jonor rossort NVAs iptables WAFs DDOS ITSM LLAP anycast vwan -->

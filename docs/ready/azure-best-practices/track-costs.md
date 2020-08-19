@@ -7,12 +7,12 @@ ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 9984b34920e6f0b90e1bc93378e303d27b8231ad
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 2e8d9c1c888b7b30322f8ddcce444968e73eefc9
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285172"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574590"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Отслеживание затрат по всем бизнес-единицам, средам или проектам
 

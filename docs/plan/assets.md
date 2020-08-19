@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 250af083504716c04fff161c46af22cac8446076
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: d494bad6c5a64972ba317411ca2fcc4ab92ef857
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285206"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574573"
 ---
 # <a name="align-assets-to-prioritized-workloads"></a>Выровняйте ресурсы по приоритетным рабочим нагрузкам
 

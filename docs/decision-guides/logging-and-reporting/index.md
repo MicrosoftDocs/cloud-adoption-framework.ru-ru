@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 728531a3d46cc2f3a7d3d94f63cbf71b83b103cd
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: afd3b0ae34827a2b4d191a402a2a8a95d8ce4c10
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88278933"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574165"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Руководство по принятию решений о ведении журналов и создании отчетов
 
@@ -110,6 +110,7 @@ ms.locfileid: "88278933"
 ### <a name="multicloud"></a>Многооблачная среда
 
 Интеграция возможностей ведения журналов и создания отчетов на платформе с несколькими облаками может быть достаточно сложной. Службы, предлагаемые различными платформами, часто не сопоставимы напрямую, и возможности ведения журналов и телеметрии, предоставляемые этими службами, также различаются.
+
 Чтобы поддерживать ведение журналов в нескольких облаках, часто требуется использовать службы шлюза для преобразования данных журналов в общий формат перед их отправкой в гибридное решение ведения журналов.
 
 ## <a name="learn-more"></a>Дополнительные сведения

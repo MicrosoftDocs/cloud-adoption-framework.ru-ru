@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: ba34620ca9c179724acf0d0a45660d97da29bfc2
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 8a163d17a0c50d8482f3e311a4ae240f071b36c9
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285631"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574318"
 ---
 # <a name="define-and-prioritize-workloads-for-a-cloud-adoption-plan"></a>Определение и определение приоритетов рабочих нагрузок для плана внедрения в облако
 

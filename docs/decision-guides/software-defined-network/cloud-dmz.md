@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 4af99f95431b90014caf9124acc2df17b7ba0c50
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: a0fe1ea741c05c7ef072980a23a21e6153802c2a
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88278780"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574063"
 ---
 # <a name="software-defined-networking-cloud-dmz"></a>Программно определяемые сети: облачная сеть периметра
 

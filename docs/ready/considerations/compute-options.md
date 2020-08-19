@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 3b078ebf8ffee9ce8b3be1bdc7b2db1bfde1823f
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 4c1b598eb8e027947a218ef558c1827878fa5f68
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88278049"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574250"
 ---
 # <a name="review-your-compute-options"></a>Проверка параметров вычислений
 

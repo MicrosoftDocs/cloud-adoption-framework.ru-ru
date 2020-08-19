@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 9b0535bd751d2c644dfb8ff0be7db4c0d8a55ed0
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 47a6503b369bc5d575f68358101c2bd04c7fa9c8
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285461"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88575117"
 ---
 <!-- cSpell:ignore arnaudlh arnaul Arnaud eastasia southeastasia vCPUs lalogs tfvars NetworkMonitoring ADAssessment ADReplication AgentHealthAssessment DnsAnalytics KeyVaultAnalytics -->
 
@@ -35,7 +35,7 @@ Azure предоставляет собственные службы для ра
 ![Базовая Целевая зона с использованием terraform ](../../_images/ready/foundations-terraform-landing-zone.png)
  _рис. 1. Базовая зона с использованием terraform._
 
-## <a name="capabilities"></a>Возможности
+## <a name="capabilities"></a>Характеристики
 
 Развернутые компоненты и их назначение включают следующее.
 
@@ -80,10 +80,10 @@ Azure предоставляет собственные службы для ра
 | Группы ресурсов        | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                           |
 | Группы управления      | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Организация подписок](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                     |
 | Данные                   | Недоступно                                                                                                                                                                                                                                                                      | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview) |
-| Служба хранилища                | Недоступно                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
+| Память                | Недоступно                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
 | Стандарты именования       | При создании среды также создается уникальный префикс. Для ресурсов, которым требуется глобально уникальное имя (например, учетные записи хранения), используйте этот префикс. Пользовательское имя добавляется с помощью случайного суффикса. Использование тегов обязательно, как описано в следующей таблице. | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                              |
 | Управление затратами        | Недоступно                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
-| Вычисления                | Недоступно                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
+| Службы вычислений                | Недоступно                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
 
 ### <a name="tagging-standards"></a>Стандарты тегов
 

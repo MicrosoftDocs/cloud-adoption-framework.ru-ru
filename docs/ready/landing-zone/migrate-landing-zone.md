@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 97e49ae770edf5452d1aec7bb37f8c7ac209c0ef
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: c85aec77b5d2e264ba6bc06fcce135125f82573e
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285767"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574369"
 ---
 # <a name="deploy-a-migration-landing-zone-in-azure"></a>Развертывание зоны размещения для миграции в Azure
 
@@ -104,10 +104,10 @@ ms.locfileid: "88285767"
 | Группы ресурсов              | Н/д — предназначено для одной рабочей подписки.                                              | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                                                 |
 | Группы управления            | Н/д — предназначено для одной рабочей подписки.                                              | [Организация подписок и управление ими](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                                |
 | Данные                         | Недоступно                                                                                               | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview)                       |
-| Служба хранилища                      | Недоступно                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
+| Память                      | Недоступно                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
 | Стандарты именования и расстановки тегов | Недоступно                                                                                               | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                                                    |
 | Управление затратами              | Недоступно                                                                                               | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                                              |
-| Вычисления                      | Недоступно                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
+| Службы вычислений                      | Недоступно                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
 
 ## <a name="customize-or-deploy-a-landing-zone"></a>Настройка или развертывание целевой зоны
 

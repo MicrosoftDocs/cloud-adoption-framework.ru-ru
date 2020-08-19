@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 31805ee8bbc75dcdef50f0c5ae1aeb578c2f5fce
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: a5eec2f4e4b14253bba435e1acf873d38127975d
+ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285359"
+ms.lasthandoff: 08/18/2020
+ms.locfileid: "88574437"
 ---
 <!-- cSpell:ignore HDFS databox Avere HANA ACLs NetApp Isilon DFSR Cloudera -->
 
