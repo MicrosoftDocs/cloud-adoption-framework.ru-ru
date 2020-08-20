@@ -23,8 +23,6 @@ items:
             href: reference/fundamental-concepts/hosting-hierarchy.md
           - name: Поддержка иерархии Azure
             href: reference/fundamental-concepts/hierarchy-azure-tools.md
-          - name: Терминология рабочей модели
-            href: operating-model/terms.md
       - name: Ускорение миграции
         href: get-started/migrate.md
       - name: Создание новых продуктов и услуг
@@ -179,6 +177,16 @@ items:
             href: ready/azure-setup-guide/monitoring-reporting.md
           - name: Последние новости об Azure
             href: ready/azure-setup-guide/staying-current.md
+      - name: Операционная модель
+        items:
+          - name: Обзор
+            href: operating-model/index.md
+          - name: Определение операционной модели
+            href: operating-model/define.md
+          - name: Сравнение распространенных облачных операционных моделей
+            href: operating-model/compare.md
+          - name: 'Распространенные термины, связанные с операционной моделью'
+            href: operating-model/terms.md
       - name: Целевые зоны Azure
         items:
           - name: Что такое целевая зона?
@@ -880,7 +888,7 @@ items:
                           - name: Эталонные решения для веб-приложений
                             href: /azure/architecture/solution-ideas/articles/scalable-ecommerce-web-app?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Создание приложения .NET Core с использованием Базы данных SQL Azure
-                            href: /azure/app-service/app-service-web-tutorial-dotnetcore-sqldb?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
+                            href: /azure/app-service/app-service-web-tutorial-dotnet-sqldatabase
                           - name: Создание приложения .NET с использованием Базы данных SQL Azure
                             href: /azure/app-service/app-service-web-tutorial-dotnet-sqldatabase?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                           - name: Создание приложения PHP с использованием MySQL

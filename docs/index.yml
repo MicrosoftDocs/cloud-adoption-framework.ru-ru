@@ -12,12 +12,12 @@ metadata:
   author: JanetCThomas
   ms.author: janet
   ms.date: 05/15/2020
-  ms.openlocfilehash: d65281dd02e597745a3864d04d9ec106e8692012
-  ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+  ms.openlocfilehash: 72fd313f921069eeaeee6cbaa36f6446d33f84e4
+  ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 08/17/2020
-  ms.locfileid: "88280004"
+  ms.lasthandoff: 08/18/2020
+  ms.locfileid: "88569095"
 highlightedContent:
   items:
   - title: Начните переход к облаку
@@ -37,7 +37,7 @@ productDirectory:
   summary: В этом руководстве описаны разные этапы жизненного цикла внедрения облачных технологий, чтобы вы могли получить нужные рекомендации в нужное время.
   items:
   - title: Начало работы
-    imageSrc: https://docs.microsoft.com/media/common/i_road-map.svg
+    imageSrc: ./_images/caf-get-started.png
     links:
     - url: ./get-started/cloud-concepts.md
       text: Документирование базовых решений
@@ -74,10 +74,10 @@ productDirectory:
     links:
     - url: ./ready/azure-setup-guide/index.md
       text: Руководство по настройке Azure
+    - url: ./operating-model/index.md
+      text: Согласование операционной модели
     - url: ./ready/landing-zone/index.md
       text: Целевые зоны Azure
-    - url: ./ready/considerations/index.md
-      text: Расширение целевой зоны
     - url: ./ready/azure-best-practices/index.md
       text: Рекомендации по обеспечению готовности к работе в Azure
   - title: Миграция
@@ -125,7 +125,7 @@ productDirectory:
     - url: ./manage/design-principles.md
       text: Оценка принципов проектирования
   - title: Организация
-    imageSrc: https://docs.microsoft.com/media/common/i_configure-teams.svg
+    imageSrc: ./_images/caf-organize.png
     links:
     - url: ./organize/index.md
       text: Соответствие структуре организации
@@ -184,4 +184,4 @@ additionalContent:
     - title: Найти партнера
       summary: Найти партнера, который поможет приступить к работе
       url: https://aka.ms/adopt/findapartner
-  footer: See why the Cloud Adoption Framework is right for your business. [https://aka.ms/adopt](https://azure.microsoft.com/cloud-adoption-framework)
+  footer: Узнайте о преимуществах Cloud Adoption Framework для вашего бизнеса. [https://aka.ms/adopt](https://azure.microsoft.com/cloud-adoption-framework)
