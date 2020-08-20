@@ -7,18 +7,18 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 52518647e6d1a32c9c41a6a9dfe72a15d276624c
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.openlocfilehash: 3770f7ac19b48ade74b1d32ca08e7a9b9496a301
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449223"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88662291"
 ---
 # <a name="develop-digital-inventions"></a>Развитие разработки цифровых технологий
 
 Как описано в статье [инновации в сфере цифрового энергоэкономичия](./index.md), инновации требуют баланса между Invention и внедрением. Отзывы клиентов и партнерство необходимы для внедрения. Дисциплины, описанные в следующем разделе, определяют ряд подходов к разработке цифровых инвентионс, сохраняя при этом рекомендации по внедрению и заказчику сопереживание. Каждая из дисциплин кратко описана вместе с более глубокими ссылками на каждый процесс.
 
-![Методология внедрения облачных решений в Cloud Framework](../../_images/innovate/innovate-methodology.png)
+![Внедрение методологии внедрения облачной инфраструктуры](../../_images/innovate/innovate-methodology.png)
 
 ## <a name="summary-of-each-discipline-of-digital-invention"></a>Сводка по каждой дисциплине цифровых Invention
 

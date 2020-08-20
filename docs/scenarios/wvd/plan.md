@@ -7,18 +7,18 @@ ms.date: 07/01/2010
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d3da947c4b9c22501b21e2cd96f7ca9647f7c205
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: f2c609be969dc39a61a00ccccab6b897110a731f
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196399"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88662402"
 ---
 # <a name="windows-virtual-desktop-planning"></a>Планирование виртуальных рабочих столов Windows
 
 Виртуальные рабочие столы и сценарии развертывания Windows следуют той же методологии миграции, что и другие усилия по переносу. Такой согласованный подход позволяет фабрикам миграции или существующим группам миграции приносить процесс с небольшим изменением на нетехнические требования.
 
-![Схема методологии миграции инфраструктуры внедрения в облако.](../../_images/migrate/methodology.png)
+![Перенесите методологию облачной инфраструктуры внедрения.](../../_images/migrate/methodology.png)
 
 ## <a name="plan-your-migration"></a>Планирование миграции
 
@@ -26,9 +26,9 @@ ms.locfileid: "88196399"
 
 Сведения о создании плана см. в статье [шаблон DevOps плана внедрения облака](../../plan/template.md) для существующего журнала ожидания миграции в Azure DevOps. Используйте шаблон, чтобы создать подробный план действий.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-Рекомендации по конкретным элементам пути внедрения в облако см. в следующих статьях:
+Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 
 - [Проверка среды или начальных зон Azure](./ready.md)
 - [Завершение концепции эксперимента с виртуальными рабочими столами Windows](./proof-of-concept.md)

@@ -7,13 +7,14 @@ ms.date: 07/21/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 998a9a5069190e710723d637b22392a03701969e
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 4d29e1512578cc3312a0f4eda32629368fb5927d
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195707"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88661968"
 ---
+<!-- cSpell:ignore MSPs -->
 <!-- markdownlint-disable MD024 -->
 
 # <a name="whats-new-in-the-microsoft-cloud-adoption-framework-for-azure"></a>Новые возможности платформы внедрения Microsoft Cloud для Azure
@@ -78,7 +79,7 @@ ms.locfileid: "88195707"
 | [Рекомендации по проектированию корпоративного масштаба](../ready/enterprise-scale/design-guidelines.md) | Оцените рекомендации корпоративного масштаба для выполнения общих областей проектирования основных зон Azure. |
 | [Рекомендации по реализации](../ready/enterprise-scale/implementation-guidelines.md) | Ознакомьтесь с действиями, необходимыми для реализации корпоративного масштаба перед развертыванием. |
 
-Партнеры являются важным аспектом успешного внедрения в облако. В рамках руководства по облачной инфраструктуре внедрения мы добавили ссылки для демонстрации важных партнеров по ролям и того, как клиенты могут лучше привлекать партнеров. Список проверенных партнеров КАФ см. в разделе [предложения партнеров, предоставляемые](https://aka.ms/adopt/partneroffers) [специалистами по экспертам Azure](https://www.microsoft.com/solution-providers/search?cacheId=9c2fed4f-f9e2-42fb-8966-4c565f08f11e), или [Опытные специалисты](https://www.microsoft.com/azure/partners/advspec).
+Партнеры являются важным аспектом успешного внедрения в облако. В рамках руководства по облачной инфраструктуре внедрения мы добавили ссылки для демонстрации важной роли, которую играют партнеры, и о том, как клиенты могут лучше привлекать партнеров. Список проверенных партнеров КАФ см. в разделе [предложения партнеров, предоставляемые](https://aka.ms/adopt/partneroffers) [специалистами по разработке Azure (MSP)](https://www.microsoft.com/azure/partners/azureexpertmsp?filters=all)или [Опытные специалисты для опытных специалистов](https://www.microsoft.com/azure/partners/advspec)по каф.
 
 ## <a name="may-15-2020"></a>15 мая 2020 г.
 

@@ -1,18 +1,18 @@
 ---
 title: Рефакторинг целевых зон
-description: Процесс рефакторинга целевых зон.
+description: Сведения о процессе рефакторинга целевых зон.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 5a00526d5dcac1e7da49e9d0a8af1a6468e0026c
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 7f4982669209f52f597411c036ad4d669afcb98f
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196755"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88661866"
 ---
 # <a name="refactor-landing-zones"></a>Рефакторинг целевых зон
 
@@ -110,7 +110,7 @@ ms.locfileid: "88196755"
 
 Каждый из подразделов [расширения целевой зоны](../considerations/index.md) сопоставляется с одним из дополнений, описанных в приведенном выше рисунке. Помимо этих основных расширений, более глубокие методологии (например, управление ими) этой платформы будут способствовать избегать основных изменений в основной зоне для реализации долгосрочных дисциплин.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Чтобы приступить к процессу рефакторинга, начните работу с помощью начальных [зон Azure](./index.md).
 

@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: b609163e6e6239cc0b346842358ab83799630b02
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: eb9c57c8ddc91821eb6dcde48279cd08fbd5c3db
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573859"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88661951"
 ---
 # <a name="get-started-build-a-cloud-operations-team"></a>Начало работы: создание группы облачных операций
 
@@ -87,7 +87,7 @@ ms.locfileid: "88573859"
 
 ## <a name="step-4-review-the-methodology"></a>Шаг 4. Проверка методологии
 
-Чтобы получить представление об управлении эксплуатацией в будущем и рабочем подходе для достижения этой концепции, ознакомьтесь с методологией управления в Cloud Management Framework.
+Чтобы получить представление об управлении эксплуатацией в будущем и рабочем подходе для достижения этой концепции, ознакомьтесь с методологией управления облачной инфраструктурой внедрения.
 
 **Результатам**
 
@@ -95,7 +95,7 @@ ms.locfileid: "88573859"
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- Ознакомьтесь с [методологией управления в облачной инфраструктуре внедрения](../../manage/index.md).
+- Ознакомьтесь с [методологией управления облачной инфраструктурой внедрения](../../manage/index.md).
 
 **Подгруппа для учетных записей:**
 

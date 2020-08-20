@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 9c611e196b9bf5777181b99ef184759eb4d56bb6
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 346b4feabfbb7fefd8632ac4b3f5f81473815843
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573876"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88662002"
 ---
 # <a name="get-started-build-a-cloud-governance-team"></a>Приступая к работе. Создание группы по управлению облаком
 
@@ -86,7 +86,7 @@ ms.locfileid: "88573876"
 
 ## <a name="step-4-review-the-methodology"></a>Шаг 4. Проверка методологии
 
-Чтобы повысить управляемость и работать с этим представлением в будущем, ознакомьтесь со статьей управление методологией в облачной инфраструктуре внедрения.
+Чтобы повысить управляемость и работать с этим представлением в будущем, ознакомьтесь со статьей управление методологией облачной инфраструктуры внедрения.
 
 **Результатам**
 

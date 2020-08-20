@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 9e06a96c7e7397680e26b326f02a055013ec29ee
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 2b8de6fb4979621b70857a3cfd3dc0cec9e9f7f7
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86191796"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88661985"
 ---
 # <a name="improve-your-initial-cloud-governance-foundation"></a>Улучшите начальное облако по управлению Cloud Foundation
 
@@ -37,7 +37,7 @@ ms.locfileid: "86191796"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Помимо применения рекомендаций, управление методологией в облачной инфраструктуре внедрения можно настроить в соответствии с уникальными бизнес-ограничениями. После соблюдения соответствующих рекомендаций [оцените корпоративную политику, чтобы понять дополнительные требования к настройке](./corporate-policy.md).
+Помимо применения рекомендаций, управление методологией облачной инфраструктуры внедрения можно настроить в соответствии с уникальными бизнес-ограничениями. После соблюдения соответствующих рекомендаций [оцените корпоративную политику, чтобы понять дополнительные требования к настройке](./corporate-policy.md).
 
 > [!div class="nextstepaction"]
 > [Оценка корпоративной политики](./corporate-policy.md)

@@ -3,16 +3,16 @@ title: Параметры реализации зоны размещения
 description: Определите, какой вариант реализации целевой зоны лучше соответствует вашим требованиям.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 06/15/2020
+ms.date: 07/07/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: fada3a1485c470e04562365fe4f0a038c121708c
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 6a5aad81f1ea855434160c2bc8aefd313fca7335
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88569660"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88662206"
 ---
 # <a name="landing-zone-implementation-options"></a>Параметры реализации зоны размещения
 
@@ -34,12 +34,13 @@ ms.locfileid: "88569660"
 
 | Параметр реализации | Описание | Скорость развертывания | Более глубокие принципы разработки | Инструкции по развертыванию |
 |---|---|---|---|---|
-| [Схема целевой зоны миграции инфраструктуры внедрения в облако](./migrate-landing-zone.md) | Развертывает базовую основу для переноса ресурсов с низким риском. | Запустить мелкий | [Принципы проектирования](./migrate-landing-zone.md#design-principles) | [Развертывание](./migrate-landing-zone.md) |
-| [Схема облачного внедрения инфраструктуры Foundation](./foundation-blueprint.md) | Добавляет минимальные инструменты, необходимые для разработки стратегии управления. | Запустить мелкий | [Принципы проектирования](./foundation-blueprint.md#design-principles) | [Развертывание](./foundation-blueprint.md) |
-| [Инфраструктура внедрения в облаке корпоративный масштаб корпоративного уровня](../enterprise-scale/index.md) | Развертывает готовую к использованию платформу Enterprise Foundation со всеми необходимыми общими службами для поддержки полноценного ИТ-портфеля. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) |
-| [Модули terraform облачной инфраструктуры внедрения](./terraform-landing-zone.md) | Сторонний путь для многооблачных операционных моделей. Этот путь может ограничивать рабочие модели Azure — First. | Запустить мелкий | [Принципы проектирования](./terraform-landing-zone.md#design-decisions) | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
+| [Схема зоны размещения для миграции в соответствии с CAF](./migrate-landing-zone.md) | Развертывает базовую основу для переноса ресурсов с низким риском. | Запустить мелкий | [Принципы проектирования](./migrate-landing-zone.md#design-principles) | [Развертывание](./migrate-landing-zone.md) |
+| [Схема CAF Foundation](./foundation-blueprint.md) | Добавляет минимальные инструменты, необходимые для разработки стратегии управления. | Запустить мелкий | [Принципы проектирования](./foundation-blueprint.md#design-principles) | [Развертывание](./foundation-blueprint.md) |
+| [Целевая зона CAF корпоративного уровня](../enterprise-scale/index.md) | Развертывает готовую к использованию платформу Enterprise Foundation со всеми необходимыми общими службами для поддержки полноценного ИТ-портфеля. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) |
+| [Модули КАФ terraform](./terraform-landing-zone.md) | Сторонний путь для многооблачных операционных моделей. Этот путь может ограничивать рабочие модели Azure — First. | Запустить мелкий | [Принципы проектирования](./terraform-landing-zone.md#design-decisions) | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
+| [Целевые зоны партнеров](./partner-landing-zone.md) | Партнеры, предоставляющие предложения, согласованные с методологией готовности инфраструктуры внедрения облачных решений, могут предоставить собственные параметры реализации. | Переменная | [Принципы проектирования](./partner-landing-zone.md) | [Найти партнера](https://www.microsoft.com/azure/partners/adopt?filters=ready) |
 
-В следующей таблице рассмотрены те же самые варианты реализации, что и в разных перспективах, а также рассматриваются дополнительные технические процессы.
+В приведенной ниже таблице рассматриваются некоторые из этих вариантов реализации с некоторой другой точки зрения, которые помогут вам в решении технических процессов принятия решений.
 
 | Параметр реализации | Концентратор | Звездообразная | Технология развертывания | Инструкции по развертыванию |
 |---|---|---|---|---|
