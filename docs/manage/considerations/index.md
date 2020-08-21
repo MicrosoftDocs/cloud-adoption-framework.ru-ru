@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: fe1e6edb7f0c5480a4ae20e639471218ae9805e0
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 73eb996730322522309e3410ca1f1a807cd7722f
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223972"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88662257"
 ---
 # <a name="it-management-and-operations-in-the-cloud"></a>Управление ИТ-ресурсами и операции в облаке
 

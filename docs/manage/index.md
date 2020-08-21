@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: cf4cc33734b33e0b0c71ca33973bb81397f1f8f2
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 08b75f151806d3d03441845a4acb53e17d3a748d
+ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88571428"
+ms.lasthandoff: 08/20/2020
+ms.locfileid: "88662104"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Управление облаком в соответствии с Cloud Adoption Framework
 

@@ -272,7 +272,9 @@ items:
                   - name: Рекомендации по защите сетей Azure
                     href: /azure/security/fundamentals/network-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                   - name: Рекомендации по защите операций в Azure
-                    href: /azure/security/fundamentals/operational-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
+                    href: 'https://docs.microsoft.com/azure/security/fundamentals/operational-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json'
+          - name: Целевые зоны партнеров
+            href: ready/landing-zone/partner-landing-zone.md
           - name: Теория "инфраструктуры как кода"
             items:
               - name: Рефакторинг целевых зон
