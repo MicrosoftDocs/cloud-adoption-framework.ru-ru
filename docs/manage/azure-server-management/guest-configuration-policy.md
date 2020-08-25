@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: d18a716ff7935c3759e4703994273f5a75f372f2
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 63e50e0cec7066d92474362cec249a0536b002a6
+ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88567178"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88848114"
 ---
 # <a name="guest-configuration-policy"></a>Политика конфигурации гостя
 
@@ -26,15 +26,6 @@ Get-AzPolicySetDefinition | where-object {$_.Properties.metadata.category -eq "G
 
 > [!NOTE]
 > Функциональность гостевой настройки регулярно обновляется для поддержки дополнительных наборов политик. Периодически проверяйте наличие новых поддерживаемых политик и оцените, будут ли они полезны.
-
-<!-- TODOBACKLOG: Update these links when available. 
-
-By default, we recommend that you enable the following policies:
-
-- **Preview:** Audit to verify that password-security settings are correct on Linux and Windows machines.
-- Audit to verify that certificates are not nearing expiration on Windows VMs.
-
--->
 
 ## <a name="deployment"></a>Развертывание
 

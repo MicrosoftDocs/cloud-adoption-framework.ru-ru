@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 5eeb8bb94ff0de3c1d684bdfd7523657678f9d4b
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: c178c8814238829ef3904917e47c7990170f0bb1
+ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88572074"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88848216"
 ---
 <!-- cSpell:ignore VMUUID kusto -->
 
@@ -37,11 +37,6 @@ ms.locfileid: "88572074"
 Для всех решений по управлению, обсуждаемых в [средствах управления и службах Azure](./tools-services.md) , требуется, чтобы агент log Analytics был установлен на виртуальных машинах Azure и локальных серверах. Вы можете подключить виртуальные машины Azure в нужном масштабе с помощью политики Azure. Назначьте политику, чтобы убедиться, что агент установлен на виртуальных машинах Azure и подключен к нужной рабочей области Log Analytics.
 
 В политике Azure есть [Встроенная инициатива политики](/azure/governance/policy/concepts/definition-structure#initiatives) , которая включает в себя log Analytics агент и [Microsoft Dependency Agent](/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), необходимые Azure Monitor для виртуальных машин.
-
-<!-- TODOBACKLOG: Add these when available.
-**Preview:** Enable Azure Monitor for virtual machine scale sets.
-**Preview:** Enable Azure Monitor for VMs.
- -->
 
 > [!NOTE]
 > Дополнительные сведения о различных агентах для мониторинга Azure см. [в статье Обзор агентов мониторинга Azure](/azure/azure-monitor/platform/agents-overview).

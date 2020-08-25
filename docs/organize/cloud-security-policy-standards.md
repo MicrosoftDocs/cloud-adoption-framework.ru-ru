@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: cb087faaa776110cc7b395f924446df944b33182
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: c9a141575b8978eb5f16b51b7c5139801bb0fb66
+ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194244"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88848301"
 ---
 # <a name="function-of-cloud-security-policy-and-standards"></a>Функции политики и стандартов Cloud Security
 
@@ -45,7 +45,7 @@ ms.locfileid: "86194244"
 - Безопасное использование модели DevOps и включение облачных приложений, API-интерфейсов и служб в разработку
 - Использование элементов управления периметра удостоверений для дополнения или замены элементов управления периметром сети
 - Определение стратегии сегментации перед переносом рабочих нагрузок на платформу IaaS
-- Добавление тегов и классификация конфиденциальных ресурсов
+- Добавление тегов и классификация чувствительности активов
 - Определение процесса оценки и обеспечения правильности настройки и защиты ресурсов
 
 ## <a name="team-composition-and-key-relationships"></a>Компоновка команды и основные связи
