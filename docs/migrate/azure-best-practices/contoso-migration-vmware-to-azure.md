@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 1cf17ea35f313c400b5a08cd91dd0b968da9ece1
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 3472f1695f8f5405842e2d35ff86265bfbfefec1
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574879"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88877319"
 ---
-<!-- docsTest:ignore "Bulk Migration" "Cold Migration" -->
+<!-- docsTest:casing "HCX Bulk Migration" "HCX Cold Migration" -->
 
 # <a name="move-on-premises-vmware-infrastructure-to-azure"></a>Перемещение локальной инфраструктуры VMware в Azure
 
@@ -194,7 +194,7 @@ Contoso потребуется спланировать схему IP-адрес
 
 Дополнительные сведения см. в [статье Установка хккс для решения VMware для Azure](/azure/azure-vmware/hybrid-cloud-extension-installation).
 
-<!-- docsTest:ignore L2 -->
+<!-- docsTest:casing L2 -->
 
 #### <a name="install-and-configure-vmware-hcx-for-the-public-cloud"></a>Установка и настройка VMware ХККС для общедоступного облака
 

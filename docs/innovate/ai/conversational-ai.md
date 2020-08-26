@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 47d69db490f22f5c6513f5b6e26b559026b33728
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 835092c436f442dd9126009aee64ab54424f3e79
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568691"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878713"
 ---
 # <a name="conversational-ai"></a>Искусственный AI
 
@@ -53,12 +53,12 @@ ms.locfileid: "88568691"
 Узнайте, как добавить Cognitive Services, чтобы сделать робот еще более интеллектуальным.
 
 - [Руководство разработчика по созданию приложений искусственного интеллекта](https://www.oreilly.com/library/view/a-developers-guide/9781492080619/) (электронная книга)
-- [Дополнительные сведения о Cognitive Services](/azure/cognitive-services/)
+- Дополнительные сведения о [Cognitive Services](/azure/cognitive-services/)
 
 Узнайте, как создать собственный виртуальный помощник с помощью акселераторов решений Bot и выбрать общий набор навыков, таких как календарь, электронная почта, интересующая точка и задача.
 
 - [Решение виртуального помощника для платформы Bot](https://microsoft.github.io/botframework-solutions/index)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 [Интеллектуальный анализ знаний](./knowledge-mining.md)

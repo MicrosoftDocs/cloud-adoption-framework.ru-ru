@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: b36bdae38b7814618cd8cf68c8b279ed2d84d990
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: e1ce476ead23470b9300594d9195b310f4aa8b01
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88575015"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878016"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc AOAG SQLAOG SQLAOGAVSET contosoadmin contosocloudwitness MSSQLSERVER BEPOOL contosovmsacc SHAOG NSGs inetpub iisreset -->
 
@@ -197,7 +197,7 @@ ms.locfileid: "88575015"
 
     ![Снимок экрана, на котором показан ключ доступа.](./media/contoso-migration-rehost-vm-sql-ag/access-key.png)
 
-<!-- docsTest:ignore "Failover Cluster feature -->
+<!-- docsTest:casing "Failover Cluster feature" -->
 
 ### <a name="add-sql-server-vms-to-contoso-domain"></a>Добавление виртуальных машин SQL Server в домене Contoso
 
@@ -218,7 +218,7 @@ ms.locfileid: "88575015"
 
      ![Снимок экрана, на котором показаны кластеры.](./media/contoso-migration-rehost-vm-sql-ag/create-cluster2.png)
 
-<!--docsTest:ignore "Failover Cluster Manager" -->
+<!--docsTest:casing "Failover Cluster Manager" -->
 
 ### <a name="configure-the-cloud-witness"></a>Настройка облака-свидетеля.
 

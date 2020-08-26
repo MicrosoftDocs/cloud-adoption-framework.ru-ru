@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 3853ee855f2cbfee3047264cf962797657dea119
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: c0bc7159c076f251387ed747321c4f3dd7046e86
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568912"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878866"
 ---
 # <a name="security-baseline-sample-policy-statements"></a>Примеры правил политик базовой системы безопасности
 
@@ -55,7 +55,7 @@ ms.locfileid: "88568912"
 
 **Инструкция политики:** К подсети, содержащей защищенные данные, можно получить прямой доступ через общедоступный Интернет или через центры обработки данных. Доступ к таким подсетям должен осуществляться через промежуточные подсети. Весь доступ к таким подсетям должен осуществляться через брандмауэр с функциями сканирования пакетов и блокировки.
 
-**Потенциальный вариант проектирования:** В Azure Обеспечьте безопасность общедоступных конечных точек, развернув [сеть периметра между общедоступным Интернетом и облачной сетью](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json). Рассмотрите возможность развертывания, настройки и автоматизации [брандмауэра Azure](/azure/firewall/overview).
+**Потенциальный вариант проектирования:** В Azure Обеспечьте безопасность общедоступных конечных точек, развернув [сеть периметра между общедоступным Интернетом и облачной сетью](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Рассмотрите возможность развертывания, настройки и автоматизации [брандмауэра Azure](/azure/firewall/overview).
 
 ## <a name="ddos-protection"></a>Защита от атак DDoS
 
@@ -89,7 +89,7 @@ ms.locfileid: "88568912"
 
 **Потенциальный вариант проектирования:** Создайте регулярное собрание по проверке безопасности, которое включает в себя соответствующие члены группы управления и ИТ-специалистов. Изучите существующие данные и метрики безопасности, чтобы установить зазоры в текущей политике и базовых средствах безопасности, а также обновить политику, чтобы устранить все новые риски. Используйте [помощник Azure](/azure/advisor/advisor-overview) и [Центр безопасности Azure](/azure/security-center/security-center-intro) для получения ценных сведений о новых угрозах, относящихся к вашим развертываниям.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Используйте примеры, приведенные в этой статье, в качестве отправной точки для разработки политик по конкретным рискам безопасности, соответствующих вашим планам внедрения облачных систем.
 

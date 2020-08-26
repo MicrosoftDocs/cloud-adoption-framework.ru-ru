@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 0123c55b2866701482a85427c1f9cadb56ef4fa5
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 97f36a7d97eb27e831591703a5cb07b6240d30ce
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574845"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88877489"
 ---
-<!-- docsTest:ignore ARO POC Y/N None/Some/Severe Rehost/Refactor/Rearchitect/Rebuild -->
+<!-- docsTest:casing Hanu Scalr ARO POC Y/N None/Some/Severe Rehost/Refactor/Rearchitect/Rebuild -->
 
 <!-- cSpell:ignore VHDs autosnooze unsnooze Hanu Scalr -->
 
@@ -51,7 +51,7 @@ ms.locfileid: "88574845"
 
 Компания Contoso запланировала и настроила [инфраструктуру Azure](./contoso-migration-infrastructure.md) и предприняла другие сочетания экспериментов (проверка концепции), как описано в предыдущей таблице. Теперь все готово для созданию полной миграции в Azure в масштабе. Вот что компании Contoso необходимо перенести.
 
-| Элемент | Громкость | Сведения |
+| Элемент | Том | Сведения |
 | --- | --- | --- |
 | Рабочие нагрузки | Приложения > 3 000 | <li> Приложения запускаются на виртуальных машинах. <li> К платформам приложений относятся Windows, SQL Server и [лампа](https://wikipedia.org/wiki/LAMP_(software_bundle)). |
 | Базы данных | Примерно 8 500 баз данных | К базам данных относятся SQL Server, MySQL и PostgreSQL. |
@@ -332,7 +332,7 @@ Contoso будет использовать преимущества работ�
 
 [Дополнительные сведения](https://azure.microsoft.com/services/security-center) о центре безопасности.
 
-### <a name="monitoring"></a>Наблюдение
+### <a name="monitoring"></a>Мониторинг
 
 Компания Contoso должна оценить работоспособность и производительность только что перенесенных приложений, инфраструктуры и данных, которые теперь работают в Azure. Contoso будет использовать встроенные средства мониторинга облака Azure, такие как Azure Monitor, Рабочая область Log Analytics и Application Insights.
 

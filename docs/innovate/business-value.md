@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: d224665627105bc1e6e4870c71cce76a831db370
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 712da48bc19fa7db436b3e6fbd29fc549633ec69
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568331"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878543"
 ---
 # <a name="build-consensus-on-the-business-value-of-innovation"></a>Создавайте свои решения в соответствии с бизнес-преимуществами инноваций
 
@@ -43,7 +43,7 @@ ms.locfileid: "88568331"
 
 Если какая-либо из команд не отвечает на все четыре вопроса в течение 30 минут, то выравнивание и рекомендации в следующих разделах могут оказать значительное влияние на эти усилия и другие. Обратите особое внимание на каждый из следующих разделов.
 
-<!-- docsTest:ignore "Strategy, Plan, Ready, and Adopt" -->
+<!-- docsTest:casing "Strategy, Plan, Ready, and Adopt" -->
 
 ## <a name="address-the-big-picture-first"></a>Сначала устраните общую картину
 
@@ -73,7 +73,7 @@ ms.locfileid: "88568331"
 
 Следуя методологии и средствам управления невыполненной работой в каждом разделе этой статьи, можно создать выравнивание решений.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 После того как вы выделили выгодное предложение для бизнеса и получили сообщение, вы готовы приступить к созданию решения.
 

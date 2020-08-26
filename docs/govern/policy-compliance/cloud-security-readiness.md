@@ -7,15 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 31d24872c3ed2f13d7c4bada472fb5a0b194e86c
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: fe5bcc293d5d3e555c03e954487e3cc7e4c395de
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573264"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88879920"
 ---
-<!-- cSpell:ignore CISO -->
-
 # <a name="ciso-cloud-readiness-guide"></a>Руководство по подготовке руководителя по информационной безопасности к работе с облаком
 
 Руководство Майкрософт, как и облачная платформа внедрения, не предназначено для определения или указания уникальных ограничений безопасности тысяч предприятий, поддерживаемых этой документацией. При переходе в облако роль начальника информационной безопасности или главного офиса информационной безопасности (перспективы) не перемещается облачными технологиями. Наоборот, руководитель и отдел по информационной безопасности становятся еще более влиятельными и интегрированными в работу организации. В этом учебнике предполагается, что читатель знаком с перспективы процессами и модернизировать эти процессы для включения преобразования в облако.
@@ -38,7 +36,7 @@ ms.locfileid: "88573264"
 
 Знания об облачной инфраструктуре очень важны для подхода к [проверке политики](./cloud-policy-review.md) с установкой на повышение профессиональной компетенции. Следующие ресурсы помогут CISO лучше распознавать состояние безопасности платформы Microsoft Azure.
 
-<!-- docsTest:ignore "Security Response in the Cloud" -->
+<!-- docutune:casing "Security Response in the Cloud" -->
 
 **Ресурсы по платформе безопасности:**
 
@@ -56,7 +54,7 @@ ms.locfileid: "88573264"
 - [Реагирование на запросы правоохранительных органов](https://www.microsoft.com/trust-center/privacy)
 - [Строгие стандарты конфиденциальности](https://www.microsoft.com/trust-center/privacy)
 
-<!-- docsTest:ignore "Cloud Services Due Diligence Checklist" -->
+<!-- docutune:casing "Cloud Services Due Diligence Checklist" -->
 
 **Имевшее**
 
@@ -72,7 +70,7 @@ ms.locfileid: "88573264"
 - [Кто в корпорации Майкрософт имеет доступ к вашим данным и на каких условиях](https://www.microsoft.com/trust-center/privacy/data-access)
 - [Обзор сертификации для служб Azure, концентратора прозрачности](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Первым шагом для выполнения действий в любой стратегии управления является [Проверка политики](./cloud-policy-review.md). [Политика и соответствие требованиям](./index.md) могут быть полезными при проверке политики.
 

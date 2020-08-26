@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: e7da84f927955228b4ef9fb28fb66aa54324fa8f
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 862786173dead6832c44b5b8ecb8ba4a2b4ff4da
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574930"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88877761"
 ---
-<!-- cSpell:ignore givenscj OSTICKETWEB OSTICKETMYSQL OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc osTicket binlog systemctl NSGs distros -->
+<!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc osTicket binlog systemctl NSGs distros -->
 
 # <a name="rehost-an-on-premises-linux-application-to-azure-vms"></a>Повторное размещение локального приложения Linux на виртуальных машинах Azure
 
@@ -176,8 +176,8 @@ ms.locfileid: "88574930"
 
 7. Для параметра **Преимущество гибридного использования Azure**
 
-    - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Выберите **Далее**.
-    - Выберите **Да** , если у вас есть компьютеры Windows Server, на которых распространяется действующая программа Software Assurance или подписки Windows Server, и вы хотите применить преимущества к компьютерам, которые вы будете переносить. Выберите **Далее**.
+    - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Затем щелкните **Далее**.
+    - Выберите **Да** , если у вас есть компьютеры Windows Server, на которых распространяется действующая программа Software Assurance или подписки Windows Server, и вы хотите применить преимущества к компьютерам, которые вы будете переносить. Затем щелкните **Далее**.
 
 8. В разделе **Вычисления** просмотрите имя виртуальной машины, размер, тип диска ОС и группу доступности. Виртуальные машины должны соответствовать [требованиям Azure](/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
 
@@ -185,7 +185,7 @@ ms.locfileid: "88574930"
     - **Диск ОС:** Укажите диск операционной системы (загрузочный) для виртуальной машины. Диск ОС — это диск с загрузчиком операционной системы и установщиком.
     - **Группа доступности:** Если после миграции виртуальная машина должна находиться в группе доступности Azure, укажите набор. Группа должна находиться в целевой группе ресурсов, которую вы указываете для миграции.
 
-9. В поле **диски**укажите, следует ли реплицировать диски виртуальной машины в Azure. Выберите тип диска (стандартный SSD/HDD или управляемые диски уровня "Премиум") в Azure. Выберите **Далее**.
+9. В поле **диски**укажите, следует ли реплицировать диски виртуальной машины в Azure. Выберите тип диска (стандартный SSD/HDD или управляемые диски уровня "Премиум") в Azure. Затем щелкните **Далее**.
     - Диски можно исключить из репликации.
     - Если вы исключите диски, они не будут присутствовать на виртуальной машине Azure после миграции.
 
@@ -289,8 +289,6 @@ ms.locfileid: "88574930"
 - Группа также рассматривает защиту данных на дисках виртуальной машины с помощью шифрования дисков Azure и Azure Key Vault.
 
 Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](/azure/security/fundamentals/iaas).
-
-<!-- docsTest:ignore "Quickstart: Set" -->
 
 ### <a name="business-continuity-and-disaster-recovery"></a>Непрерывность бизнес-процессов и аварийное восстановление
 

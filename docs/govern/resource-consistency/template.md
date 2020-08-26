@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4e7d0642f2b3ae669e5a8a63893249308a3d67db
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: bc59bc9f4b26caa546e4d627b5e56512a176ff77
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195320"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88879172"
 ---
 # <a name="resource-consistency-discipline-template"></a>Шаблон дисциплины "Согласованность ресурсов"
 

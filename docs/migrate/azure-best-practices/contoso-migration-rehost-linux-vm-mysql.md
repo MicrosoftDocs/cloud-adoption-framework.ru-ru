@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 86feba84b8bec522d887c788f4942492ffa8dce8
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 45c728b60d5aac4caf47927e0c6fa99c242a979d
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88567348"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878067"
 ---
-<!-- cSpell:ignore givenscj OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc contosoosticket osticket InnoDB binlog systemctl NSGs -->
+<!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc contosoosticket osticket InnoDB binlog systemctl NSGs -->
 
 # <a name="rehost-an-on-premises-linux-application-to-azure-vms-and-azure-database-for-mysql"></a>Повторное размещение локального приложения Linux на виртуальных машинах Azure и базе данных Azure для MySQL
 
@@ -191,7 +191,7 @@ ms.locfileid: "88567348"
 
 1. Для параметра **Преимущество гибридного использования Azure**
 
-    - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Выберите **Далее**.
+    - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Затем щелкните **Далее**.
 
 1. В разделе **Вычисления** просмотрите имя виртуальной машины, размер, тип диска ОС и группу доступности. Виртуальные машины должны соответствовать [требованиям Azure](/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
 
@@ -417,8 +417,6 @@ ms.locfileid: "88567348"
 - Поддержка SSL для обмена данными между экземпляром виртуальной машины и базой данных не настроена. Необходимо настроить протокол SSL, чтобы предотвратить взлом трафика базы данных.
 
 Дополнительные сведения см. в статье рекомендации [по обеспечению безопасности для рабочих нагрузок IaaS в Azure](/azure/security/fundamentals/iaas).
-
-<!-- docsTest:ignore "Quickstart: Set" -->
 
 ### <a name="business-continuity-and-disaster-recovery"></a>Непрерывность бизнес-процессов и аварийное восстановление
 

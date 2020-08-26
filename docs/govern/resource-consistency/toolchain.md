@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 55ffac53041f961757909ec80b7118d2e2118f2a
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 55238bee14d03883e94c87612f8819f92d981d01
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568997"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88879138"
 ---
 # <a name="resource-consistency-tools-in-azure"></a>Средства согласованности ресурсов в Azure
 
 [Согласованность ресурсов](./index.md) является одной из [пяти дисциплин управления облаком](../governance-disciplines.md). Эта дисциплина направлена на создание политик, связанных с оперативным управлением рабочей средой, приложением или рабочей нагрузкой. В рамках пяти дисциплин управления облачными ресурсами дисциплина согласованности ресурсов включает наблюдение за приложениями, рабочей нагрузкой и производительностью активов. Она также включает задачи, необходимые для удовлетворения требований масштабирования, устранения нарушений соглашения о производительности и упреждающего предотвращения нарушений соглашения о производительности за счет автоматического исправления.
 
-<!-- docsTest:ignore "conditional access to resources" -->
+<!-- docutune:casing "conditional access to resources" -->
 
 Ниже приведен список средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
@@ -63,6 +63,6 @@ ms.locfileid: "88568997"
 > [!NOTE]
 > Организации также используют сторонние средства DevOps для отслеживания рабочих нагрузок и ресурсов. Дополнительные сведения см. в разделе [Интеграция средства DevOps](https://azure.microsoft.com/products/devops-tool-integrations).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Узнайте, как создавать, назначать [определения политик](/azure/governance/policy) и управлять ими в Azure.

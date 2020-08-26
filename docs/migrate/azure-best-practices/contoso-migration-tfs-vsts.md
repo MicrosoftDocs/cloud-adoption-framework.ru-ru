@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 6b3540a46e4f031056bffddb029d6723f14d0e93
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: de13c3f9ba198b7a54737bf9bd37d2affef4261b
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88575219"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878203"
 ---
 <!-- cSpell:ignore contosodev contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring smarthotelcontainer identitymaplog CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME sqlpackage SSDT azuredevopsmigration validateonly ImportType -->
 
@@ -97,7 +97,7 @@ ms.locfileid: "88575219"
 - [Общие сведения о службе хранилища Azure](/azure/storage/common/storage-introduction).
 - [Создание учетной записи хранения](/azure/storage/common/storage-create-storage-account).
 
-<!-- docsTest:ignore "Server Configuration Wizard" "Configure Features Wizard" "Detach Team Project Collection Wizard" -->
+<!-- docsTest:casing "Server Configuration Wizard" "Configure Features Wizard" "Detach Team Project Collection Wizard" -->
 
 ## <a name="step-2-upgrade-team-foundation-server"></a>Шаг 2. Обновление Team Foundation Server
 
@@ -201,7 +201,7 @@ ms.locfileid: "88575219"
 
 1. Теперь администраторы могут видеть, что файл *IdentityMapLog.csv* и *import.js* в файле были созданы в новой папке.
 
-    ![Подготовка.](./media/contoso-migration-tfs-vsts/prep4.png)
+    ![Подготовка](./media/contoso-migration-tfs-vsts/prep4.png)
 
 1. `import.json`Файл содержит параметры импорта. Он содержит такие сведения, как имя нужной организации и сведения об учетной записи хранения. Большинство полей заполнены автоматически. Для некоторых полей требуется ввод данных пользователем. Администраторы открывают файл и добавляют имя создаваемой Azure DevOps Services организации `contosodevmigration` . С таким именем URL-адрес contoso Azure DevOps Services будет иметь значение `contosodevmigration.visualstudio.com` .
 
@@ -241,7 +241,7 @@ ms.locfileid: "88575219"
 1. **Выполните импорт с помощью пробного выполнения**. Импорт с помощью пробного выполнения помогает им протестировать миграцию коллекции. В прогонах сухой действует ограниченный срок жизни, поэтому они удаляются до запуска рабочей миграции. Их данные автоматически удаляются через заданный период времени. Обратите внимание, что уведомляет Contoso о том, что в сообщении об успешном завершении процесса, отправленном после завершения импорта, содержится сообщение о том, что закончится его удаление. Команда берет Примечание и планируется соответствующим образом.
 1. **Завершите рабочую миграцию**. При завершении миграции с сухой заработкой администратор Contoso выполняет окончательную миграцию, обновляя `import.json` файл, а затем снова выполняя импорт.
 
-<!-- docsTest:ignore "Team Foundation Server Administration Console" -->
+<!-- docsTest:casing "Team Foundation Server Administration Console" -->
 
 ### <a name="detach-the-collection"></a>Отключение коллекции
 

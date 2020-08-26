@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 719bd1ada85fb67b29ba0dc3f93b4dbf7a243a8c
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 0593b15558665d7b500d6505fd3d5e5ff4bbea42
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573230"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88879835"
 ---
 # <a name="what-is-data-classification"></a>Классификация данных
 
@@ -47,9 +47,9 @@ ms.locfileid: "88573230"
 - Ознакомьтесь с статьей о [стандартах именования и маркировки](../../ready/azure-best-practices/naming-and-tagging.md#metadata-tags) , чтобы определить более полный стандарт тегов.
 - Дополнительные сведения о разметке ресурсов в Azure см. в статье [Использование тегов для Организации ресурсов Azure и иерархии управления](/azure/azure-resource-manager/management/tag-resources).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Продолжим обучение из этой серии статей, изучив статью Защита конфиденциальных данных. Следующая статья содержит полезные сведения, если вы работаете с данными, классифицированными как конфиденциальные или строго конфиденциальные.
 
 > [!div class="nextstepaction"]
-> [Защита конфиденциальных данных](/azure/architecture/data-guide/scenarios/securing-data-solutions?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
+> [Защита конфиденциальных данных](/azure/architecture/data-guide/scenarios/securing-data-solutions?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)

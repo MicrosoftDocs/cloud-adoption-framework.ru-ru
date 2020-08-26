@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 5f6ba299ad4eddd9a299aac151ad85ed31ac7a0f
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 904fd950a7d19f33d7589cc0ccff69e56026660b
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568385"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878526"
 ---
 <!-- cSpell:ignore scikit RLlib Jupyter MLflow Kubeflow -->
 
@@ -35,7 +35,7 @@ ms.locfileid: "88568385"
 - Платформы с открытым кодом, например Python, PyTorch, TensorFlow, scikit-learn и многие другие.
 - [Подкреплением обучение](/azure/machine-learning/how-to-use-reinforcement-learning) с помощью Ray рллиб.
 
-Вы даже можете использовать [млфлов для мониторинга метрик и развертывания моделей](/azure/machine-learning/how-to-use-mlflow) или [Kubeflow](https://www.kubeflow.org/docs/azure/) для создания сквозных конвейеров рабочих процессов.
+Вы даже можете использовать [млфлов для мониторинга метрик и развертывания моделей](/azure/machine-learning/how-to-use-mlflow) или [kubeflow](https://www.kubeflow.org/docs/azure/) для создания сквозных конвейеров рабочих процессов.
 
 ## <a name="build-machine-learning-models-in-python-or-r"></a>Создание моделей машинного обучения на языке Python или R
 
@@ -99,7 +99,7 @@ ms.locfileid: "88568385"
 
 ## <a name="integration-with-other-services"></a>Интеграция с другими службами
 
-Машинное обучение Azure работает с другими службами на платформе Azure, а также интегрируется со средствами на основе открытого кода, такими как Git и MLFlow.
+Машинное обучение Azure работает с другими службами на платформе Azure, а также интегрируется с инструментами с открытым кодом, такими как Git и Млфлов.
 
 - Целевые объекты вычислений, такие как Служба Azure Kubernetes, Экземпляры контейнеров Azure, Azure Databricks, Azure Data Lake Analytics и Azure HDInsight. Дополнительные сведения о целевых объектах вычислений см. в [этой статье](/azure/machine-learning/concept-compute-target).
 - Сетка событий Azure. Дополнительную информацию см. в статье [Consume Azure Machine Learning events (Preview)](/azure/machine-learning/how-to-use-event-grid) (Использование событий Машинного обучения Azure (предварительная версия)).
@@ -108,11 +108,11 @@ ms.locfileid: "88568385"
 - Виртуальная сеть Azure. Дополнительные сведения см. в статье [Secure Azure ML experimentation and inference jobs within an Azure Virtual Network](/azure/machine-learning/how-to-enable-virtual-network) (Защита заданий экспериментирования и вывода Машинного обучения Azure в виртуальной сети Azure).
 - Azure Pipelines. Дополнительные сведения см. в статье [Train and deploy machine learning models](/azure/devops/pipelines/targets/azure-machine-learning?tabs=yaml&view=azure-devops) (Обучение и развертывание моделей машинного обучения).
 - Журналы репозитория Git. Дополнительные сведения см. в статье [Git integration for Azure Machine Learning](/azure/machine-learning/concept-train-model-git-integration) (Интеграция с Git для Машинного обучения Azure).
-- MLflow Дополнительные сведения см. [в разделе млфлов to Track метрики and Deploying Models](/azure/machine-learning/how-to-use-mlflow).
+- Млфлов. Дополнительные сведения см. [в разделе млфлов to Track метрики and Deploying Models](/azure/machine-learning/how-to-use-mlflow).
 - Kubeflow. Дополнительные сведения см. в разделе [Сборка сквозных конвейеров рабочих процессов](https://www.kubeflow.org/docs/azure/).
 - Безопасная связь. Учетную запись хранения Azure, целевые объекты вычислений и другие ресурсы можно безопасно использовать в виртуальной сети для обучения моделей и выполнения их вывода. Дополнительные сведения см. в статье [Secure Azure ML experimentation and inference jobs within an Azure Virtual Network](/azure/machine-learning/how-to-enable-virtual-network) (Защита заданий экспериментирования и вывода Машинного обучения Azure в виртуальной сети Azure).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Ознакомьтесь с техническими документацией по машинному обучению и электронной книгой по [машинное обучение Studio](https://azure.microsoft.com/resources/whitepapers/search/?service=machine-learning-studio) и [машинное обучение Service](https://azure.microsoft.com/resources/whitepapers/search/?service=machine-learning-service).
 - Ознакомьтесь с [архитектурой ии и машинное обучение](/azure/architecture/browse/).

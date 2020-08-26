@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: governance
-ms.openlocfilehash: a5e907d3eda6f1c9d5a9a8be1cac860a07617bc0
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 42e1e6ef830aa0f5bdc9eadf6346f2a360c19e53
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83221575"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88877064"
 ---
 # <a name="create-a-financial-model-for-cloud-transformation"></a>Создание финансовой модели для перехода на облачные технологии
 
@@ -104,7 +104,7 @@ ms.locfileid: "83221575"
 
 Если цикл обновления утвержден и включен в бюджет, преобразование в облако может помочь устранить эту стоимость. Если цикл обновления планируется, но еще не утвержден, то преобразование в облако может избежать капитальных расходов. Оба сокращения будут добавлены к разности затрат.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Дополнительные сведения о моделях [облачного учета](./cloud-accounting.md) .
 

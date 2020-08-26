@@ -7,15 +7,13 @@ ms.date: 09/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 8dbfd5324957b7175afc81801873eef8bf5242cf
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: fce6da886e8b4336a1c9d61a8ed2e4455ac6200b
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88571836"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88877812"
 ---
-<!-- cSpell:ignore jenhayes -->
-
 # <a name="centralize-management-operations"></a>Централизация операций управления
 
 Для большинства организаций использование одного клиента Azure Active Directory (Azure AD) для всех пользователей упрощает операции управления и сокращает расходы на обслуживание. Это связано с тем, что все задачи управления могут быть назначены пользователями, группами пользователей или субъектами-службами в пределах этого клиента.

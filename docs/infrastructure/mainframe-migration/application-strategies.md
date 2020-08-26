@@ -7,14 +7,15 @@ ms.date: 12/26/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: acd549f4ccfce0ce8ff115817e6aed1f2c12b938
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 1312ad4cac826084613ae41a8e2e61471efb876f
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568929"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878832"
 ---
-<!-- cSpell:ignore njray nanra Attunity Codit DRDA ISAM ISQL LPARS VSAM ODBC JDBC GDGs REXX TIP dbextents Raincode Tmax -->
+<!-- docutune:casing GDGs -->
+<!-- cSpell:ignore Attunity Codit DRDA ISAM ISQL LPARS VSAM ODBC JDBC GDGs REXX dbextents Raincode Tmax -->
 
 # <a name="mainframe-application-migration"></a>Перенос приложений с мейнфреймов
 
@@ -66,7 +67,7 @@ ms.locfileid: "88568929"
 
 Для запуска диспетчера транзакций и пакетных заданий, использующих JCL, в Azure используется среда эмуляции. На уровне данных DB2 заменяется [Базой данных SQL Azure](/azure/sql-database/sql-database-technical-overview). Кроме того, можно использовать Microsoft SQL Server, DB2 LUW или Oracle Database. Эмулятор поддерживает IMS, VSAM и SEQ. Средства управления системой на мэйнфрейме заменены службами Azure и программным обеспечением от других поставщиков, которые работают на виртуальных машинах.
 
-Как правило, функции обработки экрана и форм для ввода данных реализуются с помощью веб-серверов, которые можно комбинировать с API баз данных, такими как ADO, ODBC и JDBC, для транзакций и доступа к данным. Полный перечень IaaS-компонентов Azure зависит от операционной системы, которую вы предпочитаете использовать. Пример:
+Как правило, функции обработки экрана и форм для ввода данных реализуются с помощью веб-серверов, которые можно комбинировать с API баз данных, такими как ADO, ODBC и JDBC, для транзакций и доступа к данным. Полный перечень IaaS-компонентов Azure зависит от операционной системы, которую вы предпочитаете использовать. Например:
 
 - Виртуальные машины на основе Windows: Internet Information Server (IIS) и ASP.NET для обработки экрана и бизнес-логики. Для доступа к данным и транзакций используйте стандарт ADO.NET.
 
@@ -78,7 +79,7 @@ ms.locfileid: "88568929"
 
 Чтобы оптимизировать производительность пакетных операций с помощью Azure, учитывайте возможности [вычислительных ресурсов](/azure/virtual-machines/windows/overview), [хранилища](/azure/storage/blobs/storage-blobs-introduction), [сети](https://azure.microsoft.com/blog/maximize-your-vm-s-performance-with-accelerated-networking-now-generally-available-for-both-windows-and-linux) и [мониторинга](/azure/azure-monitor/overview), как описано ниже.
 
-### <a name="compute"></a>Службы вычислений
+### <a name="compute"></a>Вычисления
 
 Используйте следующую команду:
 
@@ -90,7 +91,7 @@ ms.locfileid: "88568929"
 
 - Параллельную обработку. Azure легко масштабируется для параллельной обработки, обеспечивая большую вычислительную мощность для выполнения пакетных операций.
 
-### <a name="storage"></a>Память
+### <a name="storage"></a>Хранилище
 
 Используйте следующую команду:
 
@@ -104,7 +105,7 @@ ms.locfileid: "88568929"
 
 - Используйте [ускоренную сеть Azure](/azure/virtual-network/create-vm-accelerated-networking-powershell), чтобы минимизировать задержку.
 
-### <a name="monitoring"></a>Наблюдение
+### <a name="monitoring"></a>Мониторинг
 
 - Использование средств мониторинга, [Azure Monitor](/azure/azure-monitor/overview), [Application Insights](/azure/application-insights/app-insights-overview)и журналов Azure позволяет администраторам наблюдать за производительностью пакетных запусков и устранять узкие места.
 
@@ -176,9 +177,9 @@ ms.locfileid: "88568929"
 
 Azure предоставляет проверенную, высокодоступную и масштабируемую инфраструктуру для систем, которые сейчас работают на мейнфреймах. Некоторые рабочие нагрузки можно перенести без особых трудностей. Другие рабочие нагрузки, зависящие от программного обеспечения устаревших систем, такие как CICS и IMS, можно со временем перенести в Azure с помощью решений партнеров. Какой бы из вариантов вы не выбрали, корпорация Майкрософт и ее партнеры готовы помочь вам оптимизировать решение для Azure, сохранив функциональные возможности программного обеспечения системы мейнфрейма.
 
-<!-- docsTest:ignore "IBM DB2 pureScale" -->
+<!-- docsTest:casing "IBM DB2 pureScale" -->
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 
 Дополнительные сведения см. в следующих ресурсах:
 

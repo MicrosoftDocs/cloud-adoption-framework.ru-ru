@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: eb051191f156bd8a4c7a9453449b6591b8838921
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: e8c79abc6b3e6af2eb3653fda4fd7891457e9a41
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195263"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878883"
 ---
 # <a name="risk-tolerance-metrics-and-indicators-in-the-security-baseline-discipline"></a>Метрики и индикаторы отказоустойчивости рисков в плане основы безопасности
 
