@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: cef47631cc3fba0b6645476f5b91b330ea8c89ef
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: cbf0a58c8d7cd89937d7a49c692ab5bd633c1fc8
+ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574182"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88847791"
 ---
 <!-- cSpell:ignore Kerberos NTLM SAML -->
 
@@ -63,7 +63,7 @@ Azure AD выполняет роль встроенной системой пл
 Для организаций с существующей инфраструктурой Active Directory синхронизация каталогов часто будет лучшим решением, позволяющим сохранить существующий механизм управления пользователями и доступом, одновременно предоставляя необходимые возможности IAM для управления облачными ресурсами. Этот процесс непрерывно реплицирует сведения о каталоге между Azure AD и локальными службами каталогов, позволяя пользователям использовать один набор учетных данных и обеспечивая согласованность удостоверений, ролей и разрешений в пределах организации.
 
 > [!NOTE]
-> Организации, которые выбрали Office 365, возможно, уже реализовали [синхронизацию каталогов](/office365/enterprise/set-up-directory-synchronization) между своей локальной инфраструктурой Active Directory и Azure Active Directory.
+> Организации, которые выбрали Microsoft 365, возможно, уже реализовали [синхронизацию каталогов](/office365/enterprise/set-up-directory-synchronization) между своей локальной инфраструктурой Active Directory и Azure Active Directory.
 
 **Некоторые моменты, связанные с синхронизацией каталогов**. Использование решения синхронизированной идентификации предполагает следующее:
 
