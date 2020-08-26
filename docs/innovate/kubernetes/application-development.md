@@ -7,14 +7,14 @@ ms.date: 03/20/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 8da625c6805c31dc2c07c2d31815851ca7e8b3a7
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: ea215de1bb9c41536c5bf666d20b6f1b41bb5871
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88572295"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88882861"
 ---
-<!-- cSpell:ignore asabbour sabbour autoscaler Istio Linkerd -->
+<!-- cSpell:ignore autoscaler Istio Linkerd -->
 
 # <a name="application-development-and-deployment"></a>Разработка и развертывание приложений
 
@@ -30,7 +30,7 @@ ms.locfileid: "88572295"
 > - Как вы будете структурировать папку проекта для поддержки разработки приложений Kubernetes?
 > - Определены ли требования к состоянию, конфигурации и хранению приложения?
 
-<!-- docsTest:ignore "AAD Pod Identity -->
+<!-- docsTest:casing "AAD Pod Identity -->
 
 > [!div class="tdCol2BreakAll"]
 >
@@ -74,12 +74,12 @@ ms.locfileid: "88572295"
 > - Существуют ли перекрестные задачи приложения, абстрактные от вашего приложения?
 > - Вы можете поддерживать надежность системы и приложений, а также выполнять итерацию по новым возможностям и версиям?
 
-<!-- docsTest:ignore Consul -->
+<!-- docsTest:casing Consul -->
 
 > [!div class="tdCol2BreakAll"]
 >
 > | Контрольный список  | Ресурсы                                                                                                     |
 > |------------------------------------------------------------------|-----------------------------------------------------------------|
 > | **Развертывание шлюза API.** Шлюз API выступает в качестве точки входа в микрослужбы, отделяет клиентов от микрослужб, добавляет дополнительный уровень безопасности и сокращает сложность микрослужб за счет устранения проблем, связанных с обработкой перекрестных задач.     | [Использование службы управления API Azure с микрослужбами, развернутыми в службе Kubernetes Azure](/azure/api-management/api-management-kubernetes) |
-> | **Развертывание сетки службы.** Сетка служб предоставляет такие возможности, как управление трафиком, устойчивость, политика, безопасность, надежный идентификатор и наблюдаемость рабочих нагрузок. Приложение отделено от этих операционных возможностей, и сетка служб перемещает их из уровня приложения и на уровень инфраструктуры.     | [Как &nbsp; &nbsp; работают сети служб &nbsp; &nbsp; в &nbsp; Kubernetes &nbsp; (видео)](https://www.youtube.com/watch?v=izVWk7rYqWI&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=15&t=0s) <br> [Дополнительные сведения о сети служб](/azure/aks/servicemesh-about) <br> [Использование Istio со службой Kubernetes Azure](/azure/aks/servicemesh-istio-about) <br> [Использование Linkerd со службой Kubernetes Azure](/azure/aks/servicemesh-linkerd-about) <br> [Использование Consul со службой Kubernetes Azure](/azure/aks/servicemesh-consul-about) |
+> | **Развертывание сетки службы.** Сетка служб предоставляет такие возможности, как управление трафиком, устойчивость, политика, безопасность, надежный идентификатор и наблюдаемость рабочих нагрузок. Приложение отделено от этих операционных возможностей, и сетка служб перемещает их из уровня приложения и на уровень инфраструктуры. | [Как &nbsp; &nbsp; работают сети служб &nbsp; &nbsp; в &nbsp; Kubernetes &nbsp; (видео)](https://www.youtube.com/watch?v=izVWk7rYqWI&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=15&t=0s) <br> [Дополнительные сведения о сетчатых службах](/azure/aks/servicemesh-about) <br> [Использование Istio со службой Kubernetes Azure](/azure/aks/servicemesh-istio-about) <br> [Использование Linkerd со службой Kubernetes Azure](/azure/aks/servicemesh-linkerd-about) <br> [Использование Consul со службой Kubernetes Azure](/azure/aks/servicemesh-consul-about) |
 > | **Реализуйте рекомендации по проектированию надежности сайта (выполняются).** Технология обеспечения надежности сайта (выполняются) — это проверенный подход к обеспечению важной надежности системы и приложений при итерации по скорости, требуемой Marketplace.   | [Введение в проектирование надежности сайта (выполняются)](/learn/modules/intro-to-site-reliability-engineering) <br> [DevOps в Майкрософт: потоковая передача игр выполняются](https://azure.microsoft.com/resources/devops-at-microsoft-game-streaming-sre) |

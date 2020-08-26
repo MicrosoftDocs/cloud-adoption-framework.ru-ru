@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: bf54d25069aa96d6b9b92c50a9beeccefbb1de3c
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 9e331bc698467926e496b6a1e8c29e7fb0caf097
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568708"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88882640"
 ---
 # <a name="ai-applications-and-agents"></a>Приложения и агенты ИИ
 
@@ -47,7 +47,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 Выберите службу, которую вы хотите использовать для представления, языка, речи, принятия решений или поиска в Интернете. Каждая категория на этой странице предлагает набор кратких руководств по запуску, руководства, практические руководства, нужно ли использовать REST API или пакеты SDK.
 
-<!-- docsTest:ignore "Intelligent Kiosk" -->
+<!-- docsTest:casing "Intelligent Kiosk" -->
 
 Вы также можете загрузить интеллектуальное киоск, чтобы поработать и получить демонстрацию этих служб.
 
@@ -108,7 +108,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 - [Решение виртуального помощника для платформы Bot](https://microsoft.github.io/botframework-solutions/index)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Изучите другие категории решений искусственного интеллекта:
 

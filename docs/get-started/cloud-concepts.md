@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 619dd5197bcea95d83b27c166e0f4238abd1a988
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 52024c5befeab2e2c10debdbcb766354ca3a1308
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573944"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88881229"
 ---
 # <a name="get-started-understand-and-document-foundational-alignment-decisions"></a>Начало работы: изучение и документирование решений по выравниванию в базовых принципах
 
@@ -52,7 +52,6 @@ Azure построен на основе набора [базовых конце
 - [План внедрения в облако](../plan/plan-intro.md) предоставляет невыполненную работу рабочих нагрузок и ресурсов, которые приводятся для внедрения в облако.
 - [Анализ цифровых площадей](../digital-estate/approach.md) — это подход к документированию существующих рабочих нагрузок и ресурсов, которые приводятся для внедрения в облако. В Azure цифровое пространство лучше представить в виде средства, которое называется " [Миграция Azure](/azure/migrate/migrate-support-matrix)".
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -71,7 +70,6 @@ Azure построен на основе набора [базовых конце
 
 - Изучите уровни [иерархии портфеля](../reference/fundamental-concepts/hosting-hierarchy.md) для выравнивания фундаментальных терминов.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -93,7 +91,6 @@ Azure построен на основе набора [базовых конце
 - [Проверьте и обновите существующие теги в Azure](/azure/azure-resource-manager/management/tag-resources).
 - [Применение политик тегов в Azure](/azure/azure-resource-manager/management/tag-policies).
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -120,7 +117,6 @@ Azure построен на основе набора [базовых конце
 - Установите [четкие границы на основе иерархии портфеля](../reference/fundamental-concepts/hierarchy-azure-tools.md#organizing-the-hierarchy-in-azure).
 - При необходимости [переместите группы ресурсов и активы между подписками](/azure/azure-resource-manager/management/move-resource-group-and-subscription) , чтобы они соответствовали стратегии Организации.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -135,14 +131,11 @@ Azure построен на основе набора [базовых конце
 
 - Следуйте руководствам по началу работы для выравнивания Организации на основе этих концепций.
 
-<!-- docsTest:ignore "Get started: Align your organization" -->
-
 **Рекомендации по поддержке готовности к завершению.**
 
 - Используйте предыдущие шаги в качестве руководства по оценке [иерархии портфеля](../reference/fundamental-concepts/hosting-hierarchy.md#hierarchy-accountability-and-guidance). Определите, какие возможности может потребоваться доставлять выделенным организациям или виртуальным группам.
 - Используйте команду ["начать работу". Выровняйте свою организацию](./org-alignment.md) , чтобы применить руководство по защите иерархии портфеля на диаграмме RACI (ответственное лицо, учетная запись, проконсультироваться и информированность).
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |

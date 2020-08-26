@@ -1,6 +1,6 @@
 ---
 title: Пять аспектов управления облаком
-description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать об управлении затратами, ускорении развертывания, базовом удостоверении, согласованности ресурсов и базовом плане безопасности.
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать об управлении затратами, ускорении развертывания, базовом удостоверении, согласованности ресурсов и базовых показателях безопасности.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,21 +8,20 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ed31972eef3f0f4311ac8c4c112f4d287ae060c9
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 15da317061924f0c631877a7a7a0430d8e336038
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573672"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88881150"
 ---
 # <a name="the-five-disciplines-of-cloud-governance"></a>Пять аспектов управления облаком
 
-<!-- docsTest:ignore "Disciplines of Cloud Governance" "Cost Management" "Deployment Acceleration" "Identity Baseline" "Resource Consistency" "Security Baseline" -->
-<!-- markdownlint-disable MD033 -->
+<!-- docutune:casing "Disciplines of Cloud Governance" "Cost Management" "Deployment Acceleration" "Identity Baseline" "Resource Consistency" "Security Baseline" -->
 
 |  |  |
 |--|--|
-| Любое изменение бизнес-процессов или технологических платформ создает риск. Группы управления облаком, члены которых иногда называются Cloud хранителей, являются решениями для устранения этих рисков и обеспечения минимального перерыва для внедрения или внедрения инноваций. <br><br> Модель управления инфраструктурой внедрения в облаке помогает принимать решения независимо от выбранной облачной платформы, сосредоточенной на [разработке корпоративной политики](./corporate-policy.md) и [пяти дисциплинах управления облаком](#disciplines-of-cloud-governance). [Практические руководства по проектированию](./guides/index.md) демонстрируют эту модель с помощью служб Azure. Узнайте о дисциплинах в модели управления облачной инфраструктуры внедрения. | <br><br> [![Схема модели управления для инфраструктуры внедрения в облако: Корпоративная политика и дисциплина управления](../_images/operational-transformation-govern-thumbnail.png)](../_images/operational-transformation-govern-large.png#lightbox) <br> _Рис. 1. визуальная политика Организации и пять дисциплин управления облаком._ |
+| Любое изменение бизнес-процессов или технологических платформ создает риск. Группы управления облаком, члены которых иногда называются Cloud хранителей, являются решениями для устранения этих рисков и обеспечения минимального перерыва для внедрения или внедрения инноваций. <br><br> Модель управления инфраструктурой внедрения в облаке помогает принимать решения независимо от выбранной облачной платформы, сосредоточенной на [разработке корпоративной политики](./corporate-policy.md) и [пяти дисциплинах управления облаком](#disciplines-of-cloud-governance). [Практические руководства по проектированию](./guides/index.md) демонстрируют эту модель с помощью служб Azure. Узнайте о дисциплинах в модели управления облачной инфраструктуры внедрения. | <br><br> [![Схема модели управления для инфраструктуры внедрения в облако: Корпоративная политика и дисциплина управления](../_images/operational-transformation-govern-thumbnail.png)](../_images/operational-transformation-govern-large.png#lightbox) <br> *Рис. 1. визуальная политика Организации и пять дисциплин управления облаком.* |
 
 ## <a name="disciplines-of-cloud-governance"></a>Дисциплины управления облаком
 

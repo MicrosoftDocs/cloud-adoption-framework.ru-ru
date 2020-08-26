@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: d5b4f0638c5d21dc6bd973c650699130ba30d241
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: fba3a8a7bcc9de98f9ea41e3468e5acf9ca4dc3c
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568368"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88883116"
 ---
-<!-- docsTest:ignore "Enable .NET" SmartHotel360 SmartHotel360-Backend Pet.Checker contoso-datacenter git aks PetCheckerFunction -->
+<!-- docsTest:casing "Enable .NET" SmartHotel360 SmartHotel360-Backend Pet.Checker contoso-datacenter git aks PetCheckerFunction -->
 
-<!-- cSpell:ignore givenscj SQLVM WEBVM contosohost vcenter contosodc smarthotel contososmarthotel smarthotelcontoso smarthotelpetchecker petchecker smarthotelakseus smarthotelacreus smarthotelpets kubectl contosodevops visualstudio azuredeploy cloudapp smarthotelsettingsurl appsettings -->
+<!-- cSpell:ignore SQLVM WEBVM contosohost vcenter contosodc smarthotel contososmarthotel smarthotelcontoso smarthotelpetchecker petchecker smarthotelakseus smarthotelacreus smarthotelpets kubectl contosodevops visualstudio azuredeploy cloudapp smarthotelsettingsurl appsettings -->
 
 # <a name="rebuild-an-on-premises-application-in-azure"></a>Перестроение локального приложения в Azure
 
@@ -107,7 +107,7 @@ ms.locfileid: "88568368"
 
 | Требования | Сведения |
 | --- | --- |
-| Подписка Azure. | <li> Подписки, созданные Contoso в более ранней статье. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <li> Если вы создаете бесплатную учетную запись, вы являетесь администратором подписки и можете выполнять все действия. <li> Если вы используете существующую подписку и вы не являетесь администратором, вам нужно обратиться к администратору, чтобы назначить вам разрешения владельца или участника. |
+| Подписка Azure | <li> Подписки, созданные Contoso в более ранней статье. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <li> Если вы создаете бесплатную учетную запись, вы являетесь администратором подписки и можете выполнять все действия. <li> Если вы используете существующую подписку и вы не являетесь администратором, вам нужно обратиться к администратору, чтобы назначить вам разрешения владельца или участника. |
 | Инфраструктура Azure | <li> Узнайте [, как Contoso настраивает инфраструктуру Azure](./contoso-migration-infrastructure.md). |
 | Предварительные требования для разработчика | Contoso необходимы следующие средства на рабочей станции разработчика: <li> [Visual Studio Community 2017 версии 15,5](https://visualstudio.microsoft.com) <li> Рабочая нагрузка .NET, включена <li> [Git](https://git-scm.com); <li> [Azure PowerShell](https://azure.microsoft.com/downloads) <li> [CLI Azure.](/cli/azure/install-azure-cli?view=azure-cli-latest) <li> [DOCKER Community Edition (Windows 10) или DOCKER Enterprise Edition (Windows Server)](https://docs.docker.com/docker-for-windows/install), настроено для использования контейнеров Windows |
 
@@ -704,7 +704,7 @@ Microsoft Learn — это новый подход к изучению. Гот�
 
 Ниже приведены два примера настроенных путей обучения на Microsoft Learn, которые соответствуют приложению Contoso SmartHotel360 в Azure.
 
-<!--docsTest:ignore "Azure Cognitive Vision Services" -->
+<!--docsTest:casing "with the Azure Cognitive Vision Services" -->
 
 - **[Развертывание веб-сайта в Azure с помощью службы приложений Azure](/learn/paths/deploy-a-website-with-azure-app-service)**. Создав веб-приложения в Azure, вы можете легко публиковать свой веб-сайт и управлять им без необходимости работать с базовыми серверами, хранилищами или сетевыми ресурсами. Вместо этого вы можете сосредоточиться на функциях веб-сайта и полагаться на надежную платформу Azure, чтобы обеспечить безопасный доступ к сайту.
 

@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: e5fd5e1a0ef81e9d6c32fdc13959ced387ee3166
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 5a9d266e6836540fdfc7e971fd1fde19c6219230
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88571292"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88882453"
 ---
-<!-- cSpell:ignore vcenter -->
-
 # <a name="migrate-a-devtest-environment-to-azure-devtest-labs"></a>Перенос среды разработки и тестирования в Azure DevTest Labs
 
 В этой статье показано, как вымышленная компания Contoso переносит свою среду разработки и тестирования в Azure DevTest Labs.

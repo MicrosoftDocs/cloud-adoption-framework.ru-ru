@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 39b9d4781b5caabed5524577be9819e4544ec665
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: a7fb9e0887cb5cd60ba48783b152d20f0213ba71
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88567161"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88882045"
 ---
 <!-- cSpell:ignore mysqldump InnoDB binlog Navicat -->
 
@@ -59,7 +59,7 @@ ms.locfileid: "88567161"
 ### <a name="database-considerations"></a>Рекомендации по базе данных
 
 <!-- TODO: Verify GraphDBMS term -->
-<!-- docsTest:ignore ColumnStore GraphDBMS -->
+<!-- docsTest:casing ColumnStore "Graph DBMS" -->
 
 В рамках процесса разработки решения компания Contoso проверила возможности в Azure для размещения данных MySQL. Следующие рекомендации помогли компании принять решение об использовании Azure.
 
@@ -68,7 +68,7 @@ ms.locfileid: "88567161"
 - Служба "база данных Azure для MySQL" имеет необходимые сертификаты соответствия требованиям и конфиденциальности, которые должны соответствовать компании Contoso для аудиторов.
 - Производительность отчетов и обработки приложений будет улучшена с помощью считывания реплик.
 - Возможность предоставлять доступ к службе только внутреннему сетевому трафику (без общего доступа) с помощью [частной связи Azure](/azure/mysql/concepts-data-access-security-private-link).
-- Компания Contoso решила не переходить на базу данных Azure для MySQL, так как в будущем она ищет потенциально использование MariaDB ColumnStore и модели базы данных Графдбмс.
+- Компания Contoso решила не переходить на базу данных Azure для MySQL, так как в будущем она ищет потенциально использование модели базы данных MariaDB ColumnStore и Graph СУБД.
 - Помимо функций MySQL компания Contoso является сторонникомом проектов с открытым исходным кодом и решили не использовать MySQL.
 - [Пропускная способность и задержка](/azure/vpn-gateway/vpn-gateway-about-vpngateways) от приложения к базе данных достаточно достаточны на основе выбранного шлюза (Azure ExpressRoute или VPN типа "сеть — сеть").
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 0f24b44be27111461e2374d12b8bdc75ca0aabb2
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 11ec84ecf3cebed0f70cc23898984d7e362e1dc9
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573621"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88881093"
 ---
 # <a name="deployment-acceleration-tools-in-azure"></a>Средства ускорения развертывания в Azure
 
@@ -23,7 +23,7 @@ ms.locfileid: "88573621"
 
 Ниже приведен список средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-|  | [Политика Azure](/azure/governance/policy/overview) | [Группы управления Azure](/azure/governance/management-groups) | [Azure Resource Manager](/azure/azure-resource-manager/management/overview) | [Azure Blueprints](/azure/governance/blueprints/overview) | [Граф ресурсов Azure](/azure/governance/resource-graph/overview) | [Управление затратами Azure](/azure/cost-management) |
+|  | [Политика Azure](/azure/governance/policy/overview) | [Группы управления Azure](/azure/governance/management-groups) | [Azure Resource Manager](/azure/azure-resource-manager/management/overview) | [Azure Blueprints](/azure/governance/blueprints/overview) | [Azure Resource Graph](/azure/governance/resource-graph/overview) | [Служба "Управление затратами Azure" и функция выставления счетов](/azure/cost-management) |
 |---------|---------|---------|---------|---------|---------|---------|
 | **Реализация корпоративных политик**     | Да | Нет  | Нет  | Нет | Нет | Нет |
 | **Применение политик в подписках**     | Обязательно | Да  | Нет  | Нет | Нет | Нет |

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: a35e1f6e98b61c1fcce6196861c6ebe0ac069179
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 7767822fdfa50b4be8c1148b36b983ef3b3eedbd
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195636"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88883677"
 ---
 # <a name="cost-management-discipline-template"></a>Шаблон дисциплины "Управление затратами"
 

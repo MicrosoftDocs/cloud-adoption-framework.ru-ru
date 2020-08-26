@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 4b3923936052cce1ae973f779bc53ac35a1ba0c1
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 35fdbcf69fc4e86f4f785bd871082b974b1f6203
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88567297"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88882147"
 ---
-<!-- cSpell:ignore BYOK postgres psql dvdrental -->
+<!-- cSpell:ignore BYOK postgres psql dvdrental vpngateways -->
 
 # <a name="migrate-postgresql-databases-to-microsoft-azure"></a>Миграция баз данных PostgreSQL в Microsoft Azure
 
@@ -39,7 +39,7 @@ ms.locfileid: "88567297"
 | --- | --- |
 | **Обновления** | Компания Contoso хочет убедиться, что в ней установлены последние исправления, если они доступны, но компании не требуется управлять этими обновлениями. |
 | **Интеграции** | Contoso хочет интегрировать данные в базу данных с конвейерами данных и AI для машинного обучения. |
-| **Архивация и восстановление** | Компания Contoso ищет возможность восстановления на момент времени, если обновления данных завершаются сбоем или по какой-либо причине повреждены. |
+| **Резервное копирование и восстановление** | Компания Contoso ищет возможность восстановления на момент времени, если обновления данных завершаются сбоем или по какой-либо причине повреждены. |
 | **Azure** | Компания Contoso хочет отслеживать систему и запускать оповещения на основе производительности и безопасности. |
 | **Производительность** | В некоторых случаях компания Contoso будет иметь параллельные конвейеры обработки данных в разных географических регионах и должна считывать данные из этих регионов. |
 
@@ -130,24 +130,22 @@ Contoso потребуется оценить текущую базу данны
 
 Чтобы подготовить, настройте виртуальную сеть для доступа к базе данных. Создайте подключение к виртуальной сети с помощью [VPN-шлюзов](/azure/vpn-gateway/vpn-gateway-about-vpngateways) различными способами.
 
-<!-- docsTest:ignore "Azure Database Migration Services" -->
-
 ### <a name="create-an-azure-database-migration-service-instance"></a>Создание экземпляра Azure Database Migration Service
 
 1. В [портал Azure](https://portal.azure.com)выберите **Добавить ресурс**.
-1. Выполните поиск по запросу **Azure Database Migration Service**и выберите его.
+1. Выполните поиск по запросу **службы миграции баз данных Azure**и выберите их.
 1. Щелкните **+ Добавить**.
 1. Выберите подписку и группу ресурсов для службы.
 1. Введите имя для экземпляра.
 1. Выберите ближайшее расположение для центра обработки данных Contoso или VPN-шлюза.
 1. Выберите **Azure** для режима обслуживания.
 1. Выберите ценовую категорию.
-1. Выберите **Проверить и создать**.
+1. Выберите **Review + create** (Просмотреть и создать).
 
     ![Снимок экрана с экраном "Создание службы миграции".](./media/contoso-migration-postgresql-to-azure/azure_migration_service_create.png)
     _Рис. 3. Проверка и создание._
 
-1. Нажмите кнопку **создания**.
+1. Нажмите кнопку **Создать**.
 
 ### <a name="create-an-azure-database-for-postgresql-instance"></a>Создание экземпляра Базы данных Azure для PostgreSQL
 

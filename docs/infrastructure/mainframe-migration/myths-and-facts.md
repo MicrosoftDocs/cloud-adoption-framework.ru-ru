@@ -7,14 +7,14 @@ ms.date: 12/27/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e07879cfe8b40f9b0482d804aa6073c7ad79f3e0
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: bc0091055e48cf231aa73eba25895f8d9e785efc
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83217614"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88882706"
 ---
-<!-- cSpell:ignore njray nanra chargebacks IPLs -->
+<!-- cSpell:ignore chargebacks IPLs -->
 
 # <a name="mainframe-myths-and-facts"></a>Мифы и факты о мейнфрейме
 
@@ -44,7 +44,7 @@ ms.locfileid: "83217614"
 
 По сравнению с этим Платформа Azure предлагает альтернативную платформу, способную предоставлять эквивалентные функции и функции мэйнфрейма, а также значительно снизить затраты. Кроме того, Общая стоимость владения облачной моделью затрат на основе подписок гораздо дешевле, чем на мэйнфреймах.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 > [!div class="nextstepaction"]
 > [Включение коммутатора с мэйнфреймов в Azure](./migration-strategies.md)

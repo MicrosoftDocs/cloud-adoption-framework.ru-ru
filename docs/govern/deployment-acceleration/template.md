@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: b051af0328adfb5d0cbd8ef37e3a98b8a89ed7c6
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 170f091205a3d971431aac77d95f5e44ccf026eb
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195612"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88883371"
 ---
 # <a name="deployment-acceleration-template"></a>Шаблон ускорения развертывания
 

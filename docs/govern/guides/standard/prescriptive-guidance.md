@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: db398eeb461e4fa069af54be4b45e9d75effab3b
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 44aa46e91059f461a761f56ea3f69dbfcf3383bd
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84786999"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88882844"
 ---
 # <a name="standard-enterprise-governance-guide-best-practices-explained"></a>Стандартное руководство по корпоративному управлению: рекомендации
 
@@ -25,7 +25,7 @@ ms.locfileid: "84786999"
 
 Быстрое внедрение системы управления и корпоративной политики возможно благодаря нескольким простым принципам и инструментам управления в облаке. Это первые три дисциплины для подхода в любом процессе управления. Каждое дисциплина будет рассмотрено далее в этой статье.
 
-<!--docsTest:ignore "Identity Baseline, Security Baseline, and Deployment Acceleration disciplines" -->
+<!-- docutune:casing "Identity Baseline, Security Baseline, and Deployment Acceleration disciplines" -->
 
 Чтобы установить начальную точку, в этой статье обсуждаются высокоуровневые стратегии, лежащие в основе планов идентификации, базовых показателей безопасности и ускорения развертывания, которые необходимы для создания специалиста MVP по управлению, который будет служить основой для всех внедрений.
 
@@ -115,7 +115,7 @@ ms.locfileid: "84786999"
 - [Программно определяемые сетевые шаблоны](../../../decision-guides/software-defined-network/index.md)
 - [Шаблоны разработки подписок](../../../decision-guides/subscriptions/index.md)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 После того как это руководство будет реализовано, каждая команда внедрения облачной среды может продолжить работу, имея прочную базу системы управления. В то же время Группа управления облаком будет работать, чтобы постоянно обновлять корпоративные политики и дисциплины управления.
 

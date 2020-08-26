@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: c541aa8c13602376de17ffa9b9811ab4e59003f0
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 9b925aa9680fbfe7eb1d506ff29d9af31f67b480
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787016"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88880464"
 ---
 # <a name="standard-enterprise-governance-guide-initial-corporate-policy-behind-the-governance-strategy"></a>Стандартное руководство по корпоративному управлению: первоначальная Корпоративная политика для стратегии управления
 
@@ -24,7 +24,7 @@ ms.locfileid: "84787016"
 
 ## <a name="cloud-governance-team"></a>Группа по системе управления облаком
 
-В этом руководства группа по управлению облаком состоит из двух системных администраторов, которые знают необходимость в управлении. В течение следующих нескольких месяцев они наследуют задание по очистке облачного присутствия компании и получают название _Cloud хранителей_. В последующих итерациях этот заголовок, скорее всего, изменится.
+В этом руководства группа по управлению облаком состоит из двух системных администраторов, которые знают необходимость в управлении. В течение следующих нескольких месяцев они наследуют задание по очистке облачного присутствия компании и получают название *Cloud хранителей*. В последующих итерациях этот заголовок, скорее всего, изменится.
 
 [!INCLUDE [business-risk](../../../../includes/business-risks.md)]
 
@@ -38,7 +38,7 @@ ms.locfileid: "84787016"
 
 [!INCLUDE [policy-statements](../../../../includes/policy-statements.md)]
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Эта корпоративная политика подготавливает группу управления облаком для реализации MVP по управлению, которая будет основой для внедрения. Следующим шагом является реализация MVP.
 

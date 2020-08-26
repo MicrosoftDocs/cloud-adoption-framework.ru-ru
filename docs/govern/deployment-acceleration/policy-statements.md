@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1f50e011e0d7a4884f7cb6202895acd4acdeb5f8
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 4f944b38c26ebb74514d1866d1404b63a9ccb739
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573655"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88883405"
 ---
 # <a name="deployment-acceleration-sample-policy-statements"></a>Примеры правил политик ускорения развертывания
 
@@ -52,7 +52,7 @@ ms.locfileid: "88573655"
 
 **Возможные варианты проектирования:** Установите ежемесячное собрание по проверке безопасности, включающее участников группы управления и ИТ-сотрудников, ответственных за облачные приложения и ресурсы. Проверьте существующие данные и метрики безопасности, чтобы установить зазоры в текущей политике и средствах ускорения развертывания и обновить политику, чтобы устранить все новые риски.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Используйте примеры, приведенные в этой статье, в качестве отправной точки для разработки политик по конкретным бизнес-рискам, соответствующих вашим планам внедрения облачных систем.
 
