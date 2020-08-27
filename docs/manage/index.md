@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 08b75f151806d3d03441845a4acb53e17d3a748d
-ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
+ms.openlocfilehash: 8867c16325b936b847355aba1ace2a99306bf173
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88662104"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88877744"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Управление облаком в соответствии с Cloud Adoption Framework
 
@@ -30,8 +30,6 @@ ms.locfileid: "88662104"
 | <br> ![4](../_images/icons/4.png) | <br> [Расширенные принципы эксплуатации и проектирования.](./design-principles.md) Для платформ и рабочих нагрузок, требующих более высокого уровня бизнес-обязательств, может потребоваться более тщательная проверка архитектуры, обеспечивающая устойчивость и надежность. |
 
 Описанные выше действия позволяют создавать практические подходы для реализации методологии управления в соответствии с Cloud Adoption Framework.
-
-<!-- cSpell:ignore CAF -->
 
 ![Методология управления в соответствии с Cloud Adoption Framework](../_images/manage/caf-manage.png)
 

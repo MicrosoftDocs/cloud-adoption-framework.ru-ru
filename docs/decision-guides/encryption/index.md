@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: cc7810de1100d9ab4f33973d8993824cc95beb43
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: a6e8a7c5b4929c590a4e33784b9ff1f297ec31d0
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574148"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88881858"
 ---
-<!-- cSpell:ignore BYOK -->
-
 # <a name="encryption-decision-guide"></a>Руководство по принятию решений о шифровании
 
 Шифрование данных защищает их от несанкционированного доступа. Правильно реализованная политика шифрования обеспечивает дополнительные уровни безопасности для облачных рабочих нагрузок, а также защиту от злоумышленников и других неавторизованных пользователей как внутри, так вне организации и ее сетей.

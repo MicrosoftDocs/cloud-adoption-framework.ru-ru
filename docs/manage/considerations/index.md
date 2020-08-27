@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 73eb996730322522309e3410ca1f1a807cd7722f
-ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
+ms.openlocfilehash: 1e074be8f68a091c7a044358c3e5504dc74b3239
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88662257"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88877795"
 ---
 # <a name="it-management-and-operations-in-the-cloud"></a>Управление ИТ-ресурсами и операции в облаке
 
@@ -27,8 +27,6 @@ ms.locfileid: "88662257"
 ## <a name="cloud-management"></a>Управление облаком
 
 Предыдущая операционная модель использования ИТ-ресурсов была актуальной на протяжении более чем 20 лет. Но теперь эта модель устарела и считается менее привлекательной по сравнению с альтернативными вариантами на основе облачных решений. При переходе в облако команды, занимающиеся управлением ИТ-ресурсами, могут изменить свое отношение к этой модели, чтобы повысить рентабельность. В этой серии статей описана современная модель управления ИТ-ресурсами.
-
-<!-- cSpell:ignore caf -->
 
 ![Методология управления в соответствии с Cloud Adoption Framework](../../_images/manage/caf-manage.png)
 

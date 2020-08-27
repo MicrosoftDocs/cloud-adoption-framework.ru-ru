@@ -7,14 +7,16 @@ ms.date: 12/27/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 888f31f26afcbe920fe088fb513ab2f0428d7d09
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 393d91ee283646537a1a2aea59dbe0455a3ac6c6
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88195218"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884578"
 ---
-<!-- cSpell:ignore nanra njray dbspaces dbextents VSAM RACF LPARS ASSGN DLBL EXTENT LIBDEF EXEC IPLs -->
+<!-- docsTest:casing "BMC Control-M" ASSGN DLBL EXTENT LIBDEF EXEC -->
+<!-- docsTest:ignore JOB -->
+<!-- cSpell:ignore dbspaces dbextents ASSGN DLBL EXTENT LIBDEF EXEC IPLs VSAM RACF LPARs -->
 
 # <a name="mainframe-migration-overview"></a>Обзор миграции мейнфреймов
 
@@ -65,9 +67,6 @@ ms.locfileid: "88195218"
 Ниже описаны типичные сценарии использования мейнфреймов.
 
 - **В сети**. Выполняются такие рабочие нагрузки, как обработка транзакций, управление базами данных и подключения. Для них часто применяются соединители IBM DB2, CICS и z/OS.
-
-<!-- docsTest:ignore "BMC Control-M" -->
-<!-- cSpell:ignore JOB ASSGN DLBL EXTENT LIBDEF EXEC -->
 
 - **Пакетная обработка**. Задания выполняются без участия пользователя, обычно по регулярному расписанию, например каждое утро по рабочим дням. Пакетные задания могут выполняться в системах на базе Windows или Linux с помощью эмулятора JCL, такого как Micro Focus Enterprise Server или BMC Control-M.
 

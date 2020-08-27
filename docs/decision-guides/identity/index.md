@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: cbf0a58c8d7cd89937d7a49c692ab5bd633c1fc8
-ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
+ms.openlocfilehash: c6f8bd83e9d58e2ed8df3339329c7d41c1ca35b8
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88847791"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88881875"
 ---
-<!-- cSpell:ignore Kerberos NTLM SAML -->
-
 # <a name="identity-decision-guide"></a>Руководство по принятию решений о системе идентификации
 
 В любой среде, будь то локальной, гибридной или облачной, ИТ-персоналу необходимо контролировать, какие администраторы, пользователи и группы имеют доступ к ресурсам. Службы управления идентификацией и доступом (IAM) позволяют контролировать управление доступом в облаке.

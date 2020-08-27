@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: edeb9aa24b57741bb81d834384b8b5d3a01083da
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: a95a843d86f793e264604806a40270993fddcc01
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574097"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88881637"
 ---
 # <a name="resource-consistency-decision-guide"></a>Руководство по принятию решений касательно согласованности ресурсов
 

@@ -108,7 +108,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 - [Решение виртуального помощника для платформы Bot](https://microsoft.github.io/botframework-solutions/index)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Изучите другие категории решений искусственного интеллекта:
 

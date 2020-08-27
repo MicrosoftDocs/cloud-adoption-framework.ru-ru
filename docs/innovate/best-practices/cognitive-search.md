@@ -68,7 +68,7 @@ ms.locfileid: "88884544"
 
 После заполнения индекса можно [выдавать поисковые запросы](/azure/search/search-query-overview) к конечной точке службы с помощью простых HTTP-запросов с [интерфейсами API](/rest/api/searchservice/search-documents) или [пакетом SDK для .NET](/dotnet/api/microsoft.azure.search.idocumentsoperations?view=azure-dotnet). Пошаговое [Создание первого приложения поиска](/azure/search/tutorial-csharp-create-first-app) для создания и расширения веб-страницы, собирающей ввод пользователя и обрабатывающего результаты. Можно также использовать [POST для интерактивных вызовов RESTful](/azure/search/search-get-started-postman) или встроенный [обозреватель поиска](/azure/search/search-explorer) в портал Azure для запроса существующего индекса.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Дополнительные сведения об [Azure когнитивный Поиск](/azure/search/).
 - Обзор [архитектур искусственного интеллекта](/azure/architecture/browse/).

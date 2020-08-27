@@ -7,14 +7,14 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 6887955f64b7e878f578219f584a028df6bea8c5
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 958307bacf6da16c8b8213e4ade533dc0a301248
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568657"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88878645"
 ---
-<!-- docsTest:ignore InterpretML FairLearn -->
+<!-- docsTest:casing InterpretML FairLearn -->
 
 # <a name="ai-in-the-cloud-adoption-framework"></a>ИИ на платформе Cloud Adoption Framework
 

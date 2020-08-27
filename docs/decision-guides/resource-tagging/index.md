@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 0dfc5ce90a6955e36477a51a286bc3c37b01687a
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 8318e2a6633221b6b94408f997b78bbca58b9595
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574080"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884595"
 ---
-<!-- cSpell:ignore catalogsearch northamerica jsmith contactalias catsearchowners businessprocess businessimpact revenueimpact -->
-
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 
 Упорядочение облачных ресурсов — это важнейшая задача для ИТ-специалистов, выполняющих любые развертывания, кроме самых простых. С помощью стандартов именования и маркировки вы сможете упорядочить ресурсы и реализовать следующие задачи:
@@ -27,8 +25,8 @@ ms.locfileid: "88574080"
   - [Модели облачного учета](../../strategy/cloud-accounting.md)
   - [Вычисления рентабельности инвестиций](../../strategy/financial-models.md#return-on-investment)
   - [Отслеживание затрат](../../ready/azure-best-practices/track-costs.md)
-  - [Бюджеты](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
-  - [Оповещения](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
+  - [Бюджеты](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Оповещения](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
   - [Отслеживание регулярных затрат и отчетность](../../govern/cost-management/compliance-processes.md)
   - [Оптимизация после реализации](../../govern/cost-management/discipline-improvement.md#operate-and-post-implementation)
   - [Тактика оптимизации затрат](../../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices)
@@ -72,19 +70,15 @@ ms.locfileid: "88574080"
 
 Ниже перечислены несколько распространенных шаблонов присвоения тегов, которые могут служить примером применения тегов для упорядочения облачных ресурсов. Эти шаблоны не являются взаимоисключающими и могут применяться параллельно друг с другом, позволяя организовать активы несколькими способами с учетом потребностей вашей компании.
 
-<!-- markdownlint-disable MD033 -->
-<!-- docsTest:disable -->
+<!-- cSpell:ignore catalogsearch northamerica jsmith contactalias catsearchowners businessprocess businessimpact revenueimpact -->
 
 | Тип тега | Примеры | Описание |
-|-----|-----|-----|
+|--|--|--|
 | Функциональные | `app` = `catalogsearch1` <br> `tier` = `web` <br> `webserver` = `apache` <br> `env` = `prod` <br> `env` = `staging` <br> `env` = `dev` | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик. |
 | Классификация | `confidentiality` = `private` <br> `SLA` = `24hours` | Классификация ресурсов по методам использования и применимым к ресурсам политикам. |
 | Учет | `department` = `finance` <br> `program` = `business-initiative` <br> `region` = `northamerica` | Позволяет сопоставить ресурс с определенным группами внутри организации для выставления счетов. |
 | Партнерство | `owner` = `jsmith` <br> `contactalias` = `catsearchowners` <br> `stakeholders` = `user1;user2;user3` | Предоставляет сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него. |
 | Назначение | `businessprocess` = `support` <br> `businessimpact` = `moderate` <br> `revenueimpact` = `high` | Сопоставляет ресурсы с бизнес-функциями для поддержки решений об инвестициях. |
-
-<!-- docsTest:enable -->
-<!-- markdownlint-enable MD033 -->
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
