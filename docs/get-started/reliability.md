@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 385bfcaefd7fcb5dab78e9dd80478a0fe2c7d644
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 448e98d06a79f9683996a8db946bf52b0c8e8cdd
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88569269"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884238"
 ---
 # <a name="get-started-improve-reliability-with-the-right-controls"></a>Начало работы. повышение надежности с помощью правильных элементов управления
 
@@ -53,7 +53,6 @@ ms.locfileid: "88569269"
 - [Дополнительные операции](../manage/design-principles.md). Используйте базовый план управления в качестве основы для ваших обсуждений по [Организации](../manage/considerations/business-alignment.md) . Он позволяет ясно обсуждать [критические](../manage/considerations/criticality.md)и [деловые последствия](../manage/considerations/impact.md)и [обязательства по эксплуатации](../manage/considerations/commitment.md). Деловое выравнивание помогает количественным и проверенным запросам на [Расширенные базовые показатели](../manage/azure-management-guide/enhanced-baseline.md), управление конкретными [технологическими платформами](../manage/azure-management-guide/workload-specialization.md)или [операции, связанные с рабочей нагрузкой](../manage/azure-management-guide/platform-specialization.md).
 - **Руководство по проверке архитектуры:** Для удовлетворения требований к операциям могут потребоваться изменения архитектуры на уровне рабочей нагрузки. [Microsoft Azure хорошо спроектированная платформа](/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure хорошо спроектированная проверка](/assessments?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -73,12 +72,11 @@ ms.locfileid: "88569269"
 
 - Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соответствующим соглашениям об именовании и маркировке](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](/azure/governance/policy/tutorials/govern-tags)с особым акцентом на теги для обеспечения важности.
 - Если вы не знакомы с управлением облаком, установите [политики управления, процессы и дисциплины](../govern/index.md) с помощью управляемой методологии.
-- Если вы не знакомы с дисциплиной управления затратами, следуйте указаниям в статье [улучшения управления затратами](../govern/guides/complex/cost-management-improvement.md) . Сосредоточьтесь на разделе [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
+- Если вы не знакомы с дисциплиной управления затратами, следуйте указаниям в статье [улучшение управления затратами на специализацию](../govern/guides/complex/cost-management-improvement.md) . Сосредоточьтесь на разделе [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
 
 > [!NOTE]
 > **Действия по запуску отношений надежности с другими командами:** Различные решения в рамках жизненного цикла внедрения в облако могут оказать прямое воздействие на надежность. Следующие шаги описывают партнерство и вспомогательные действия, необходимые для обеспечения согласованной надежности в портфеле ИТ.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -100,7 +98,6 @@ ms.locfileid: "88569269"
 - [Результаты бизнеса](../strategy/business-outcomes/index.md). Некоторые финансовые результаты, как правило, чувствительны к чрезвычайно затратам. Когда желаемые результаты сопоставляются с финансовыми метриками, следует заранее привкладываться в специализацию руководства по управлению затратами.
 - [Коммерческое обоснование](../strategy/cloud-migration-business-case.md). Деловое обоснование служит обобщенным представлением общего финансового плана для внедрения в облако. Это может быть хорошим источником для первоначальных усилий по бюджетированию.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -128,10 +125,9 @@ ms.locfileid: "88569269"
 - [Сбор данных инвентаризации](../digital-estate/inventory.md): Создайте источник для анализа цифрового пространства перед внедрением.
 - [Рекомендации. Служба "миграция Azure](../plan/contoso-migration-assessment.md)": Используйте службу "миграция Azure" для сбора данных инвентаризации.
 - [Инкрементное обоснование](../digital-estate/rationalize.md#incremental-rationalization). во время инкрементного рационализации количественный анализ может обозначать облачные кандидаты для целей бюджетирования.
-- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службу "Управление затратами Azure" для согласования моделей затрат и прогнозов путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
+- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службы управления затратами Azure и выставления счетов, чтобы вычислять затраты и прогнозные модели путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 - [Создание плана внедрения в облако](../plan/plan-intro.md#build-your-cloud-adoption-plan). Создайте план с рабочей нагрузкой, активами и сведениями о временной шкале.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -151,7 +147,6 @@ ms.locfileid: "88569269"
 
 - [Улучшение операций размещения зоны](../ready/considerations/landing-zone-operations.md). рекомендации по улучшению операций в рамках определенной целевой зоны.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -174,7 +169,6 @@ ms.locfileid: "88569269"
 - [Контрольный список перед продвижением](../migrate/migration-considerations/optimize/ready.md)
 - [Контрольный список рабочей версии](../migrate/migration-considerations/optimize/promote.md)
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |

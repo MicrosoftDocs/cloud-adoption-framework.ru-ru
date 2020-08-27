@@ -7,14 +7,14 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 0c3df76de11883153d128fe419825a8800bc8d57
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: a42f2b52d53ece4677efc240baaa9185a76614c2
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88566753"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884697"
 ---
-<!-- cSpell:ignore paas NVAs VPNs -->
+<!-- cSpell:ignore NVAs VPNs -->
 
 # <a name="review-your-network-options"></a>Проверьте параметры сети
 
@@ -42,14 +42,12 @@ ms.locfileid: "88566753"
   - [Сетевые устройства](https://azure.microsoft.com/solutions/network-appliances)
   - [Azure Front Door](/azure/frontdoor/front-door-overview)
   - [Шлюз приложений Azure](/azure/application-gateway)
-  - [Azure Traffic Manager](/azure/traffic-manager/traffic-manager-overview)
+  - [Диспетчер трафика Azure](/azure/traffic-manager/traffic-manager-overview)
 - **Потребуется ли поддержка настраиваемого управления DNS?** [Azure DNS](/azure/dns/dns-overview) — это служба размещения для доменов DNS. Azure DNS обеспечивает разрешение имен с помощью инфраструктуры Azure. Если для ваших рабочих нагрузок требует разрешение имен, которое выходит за рамки возможностей, предоставленных Azure DNS, может понадобиться развернуть дополнительные решения. Если для ваших рабочих нагрузок также требуются службы Active Directory, рекомендуем использовать [Доменные службы Azure Active Directory](/azure/active-directory-domain-services/overview), чтобы расширить возможности Azure DNS. Чтобы получить дополнительные возможности, вы также можете [развертывать настаиваемые виртуальные машины IaaS](/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances) для поддержки своих требований.
 
 ## <a name="common-networking-scenarios"></a>Распространенные сетевые сценарии
 
 Сетевые решения Azure предусматривают множество продуктов и услуг, предоставляющих различные сетевые возможности. В рамках процесса проектирования сети вы можете сравнить требования рабочей нагрузки с сетевыми сценариями в таблице ниже, чтобы определить инструменты или службы Azure, которые можно использовать для предоставления этих сетевых возможностей.
-
-<!-- markdownlint-disable MD033 -->
 
 | Сценарий | Сетевой продукт или служба |
 | --- | --- |
@@ -60,14 +58,12 @@ ms.locfileid: "88566753"
 | Мне нужно обеспечить сверхбыстрые DNS-ответы и сверхвысокую доступность для всех потребностей домена. | [Azure DNS](/azure/dns) |
 | Мне нужно ускорить доставку содержимого, передаваемого по каналам с высокой пропускной способностью, — от приложений и сохраненного содержимого до потокового видео — клиентам со всего мира. | [Сеть доставки содержимого (CDN) Azure](/azure/cdn) |
 | Мне нужно защитить приложения Azure от DDoS-атак. | [Защита от атак DDoS Azure](/azure/virtual-network/ddos-protection-overview) |
-| Мне нужно оптимально распределять трафик между службами в регионах Azure по всему миру, обеспечивая при этом высокую доступность и быстроту отклика. | [Azure Traffic Manager](/azure/traffic-manager) <br><br> [Azure Front Door](/azure/frontdoor) |
+| Мне нужно оптимально распределять трафик между службами в регионах Azure по всему миру, обеспечивая при этом высокую доступность и быстроту отклика. | [Диспетчер трафика Azure](/azure/traffic-manager) <br><br> [Azure Front Door](/azure/frontdoor) |
 | Мне нужна возможность добавления частных сетевых подключений для доступа к облачным службам Майкрософт из корпоративных сетей, как если бы они находились в моем центре обработки данных. | [Azure ExpressRoute](/azure/expressroute) |
 | Мне нужно отслеживать и диагностировать условия на уровне сетевого сценария. | [Наблюдатель за сетями Azure](/azure/network-watcher) |
 | Мне нужны возможности собственного брандмауэра со встроенной высокой доступностью, неограниченной масштабируемостью облака и отсутствием обслуживания. | [Брандмауэр Azure](/azure/firewall/overview) |
 | Мне нужно безопасно подключить бизнес-офисы, розничные отделения и сайты. | [Виртуальная глобальная сеть Azure (WAN)](/azure/virtual-wan) |
 | Мне нужна масштабируемая точка доставки с повышенным уровнем безопасности для глобальных веб-приложений на базе микрослужб. | [Azure Front Door](/azure/frontdoor) |
-
-<!-- markdownlint-enable MD033 -->
 
 ## <a name="choose-a-networking-architecture"></a>Выбор сетевой архитектуры
 
@@ -85,7 +81,7 @@ ms.locfileid: "88566753"
 | Имеется множество филиалов, которым необходимо подключаться друг к другу и к Azure.                                                                                                                                                                                                                                                                                         | [Виртуальная глобальная сеть Azure (WAN)](/azure/virtual-wan/virtual-wan-about) |
 
 <!-- TODO: Refactor VDC content below. -->
-<!-- docsTest:ignore "Azure Virtual Datacenter" -->
+<!-- docsTest:casing "Azure Virtual Datacenter" -->
 
 ### <a name="azure-virtual-datacenter"></a>Виртуальный центр обработки данных Azure
 

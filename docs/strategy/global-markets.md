@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 8546e1a86c39f286e30a2a476242a626b85c69a0
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.openlocfilehash: 7fe9f32320348cae396e1b671b33066408cc300a
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787271"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884748"
 ---
 # <a name="how-will-global-market-decisions-affect-the-transformation-journey"></a>Как глобальные решения на рынке влияют на путешествие с преобразованием?
 
@@ -38,7 +38,7 @@ ms.locfileid: "84787271"
 
 Важно понимать закономерности использования внешних пользователей, таких как клиенты или партнеры. Подобно шаблонам использования сотрудников, шаблоны использования внешних пользователей могут негативно повлиять на производительность облачных развертываний. Если большая или критически важная база пользователей находится в иностранной стране, то в общую структуру решения можно включить глобальную стратегию развертывания.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Узнайте о [навыках, необходимых на этапе стратегии](./suggested-skills.md) в пути внедрения в облако.
 

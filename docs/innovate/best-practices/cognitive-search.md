@@ -7,16 +7,17 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: a7aff09f017bea41591028eee06f8936359388a4
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: a5221713e9e6125aa134e958b2baca2e99dcadec
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568504"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884544"
 ---
 <!-- cSpell:ignore Lucene -->
 
-<!-- docsTest:ignore "Azure Search" "JFK Files" -->
+<!-- docsTest:casing "JFK Files" -->
+<!-- docsTest:ignore "Azure Search" -->
 
 # <a name="what-is-azure-cognitive-search"></a>Что собой представляет Когнитивный поиск Azure?
 
@@ -65,9 +66,9 @@ ms.locfileid: "88568504"
 
 ### <a name="step-4-search"></a>Шаг 4. Поиск
 
-После заполнения индекса можно [выдавать поисковые запросы](/azure/search/search-query-overview) к конечной точке службы с помощью простых HTTP-запросов с [интерфейсами API](/rest/api/searchservice/Search-Documents) или [пакетом SDK для .NET](/dotnet/api/microsoft.azure.search.idocumentsoperations?view=azure-dotnet). Пошаговое [Создание первого приложения поиска](/azure/search/tutorial-csharp-create-first-app) для создания и расширения веб-страницы, собирающей ввод пользователя и обрабатывающего результаты. Можно также использовать [POST для интерактивных вызовов RESTful](/azure/search/search-get-started-postman) или встроенный [обозреватель поиска](/azure/search/search-explorer) в портал Azure для запроса существующего индекса.
+После заполнения индекса можно [выдавать поисковые запросы](/azure/search/search-query-overview) к конечной точке службы с помощью простых HTTP-запросов с [интерфейсами API](/rest/api/searchservice/search-documents) или [пакетом SDK для .NET](/dotnet/api/microsoft.azure.search.idocumentsoperations?view=azure-dotnet). Пошаговое [Создание первого приложения поиска](/azure/search/tutorial-csharp-create-first-app) для создания и расширения веб-страницы, собирающей ввод пользователя и обрабатывающего результаты. Можно также использовать [POST для интерактивных вызовов RESTful](/azure/search/search-get-started-postman) или встроенный [обозреватель поиска](/azure/search/search-explorer) в портал Azure для запроса существующего индекса.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Дополнительные сведения об [Azure когнитивный Поиск](/azure/search/).
 - Обзор [архитектур искусственного интеллекта](/azure/architecture/browse/).

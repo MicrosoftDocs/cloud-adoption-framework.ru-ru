@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: csu
-ms.openlocfilehash: 697d1e8c57e2e4b7354b8730bbcf5e7653657000
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 7338c715015b838df95ffdfdc0f9368e70f083c2
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193203"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885190"
 ---
-<!-- cSpell:ignore CAF -->
-
 # <a name="cloud-adoption-framework-enterprise-scale-landing-zone-architecture"></a>Инфраструктура внедрения облачных технологий корпоративного уровня в масштабах предприятия
 
 Масштаб предприятия — это архитектурный подход и эталонная реализация, которая обеспечивает эффективную разработку и эксплуатацию целевых зон в Azure в масштабе. Этот подход соответствует плану Azure и инфраструктуре внедрения облаков для Azure.

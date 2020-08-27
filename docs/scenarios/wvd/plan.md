@@ -7,12 +7,12 @@ ms.date: 07/01/2010
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f2c609be969dc39a61a00ccccab6b897110a731f
-ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
+ms.openlocfilehash: 7579d85d81989162d396120291831f12023dc4de
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88662402"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885326"
 ---
 # <a name="windows-virtual-desktop-planning"></a>Планирование виртуальных рабочих столов Windows
 
@@ -26,7 +26,7 @@ ms.locfileid: "88662402"
 
 Сведения о создании плана см. в статье [шаблон DevOps плана внедрения облака](../../plan/template.md) для существующего журнала ожидания миграции в Azure DevOps. Используйте шаблон, чтобы создать подробный план действий.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 

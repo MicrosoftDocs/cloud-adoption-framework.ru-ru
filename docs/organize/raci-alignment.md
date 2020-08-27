@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 8f62f44bf872d35c08e7cabeee823d46a6bc34fe
-ms.sourcegitcommit: 917188fa930cadddb03f9e9bbcdd7b630e4ee33e
+ms.openlocfilehash: 263ce9684164c97f903825080946be90999e0a4c
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/17/2020
-ms.locfileid: "88285257"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884884"
 ---
-<!-- cSpell:ignore ccoe -->
-
 # <a name="align-responsibilities-across-teams"></a>Выровняйте обязанности по командам
 
 Научитесь распределять обязанности групп, разрабатывая кросс-группную матрицу, определяющую _ответственные, осведомленные, проученные и информированные (RACI)_ стороны. В этой статье приведен пример матрицы RACI для организационных структур, описанных в разделе [Создание структур команды](./organization-structures.md).
@@ -98,7 +96,7 @@ ms.locfileid: "88285257"
 |                          |                                       |                                       |                                       |                                           |                                                                                   |                                                                               |                                                                               |                                                                                   |
 | Соответствующая возможность облака | [Внедрение в облако](./cloud-adoption.md) | [Облачная стратегия](./cloud-strategy.md) | [Облачная стратегия](./cloud-strategy.md) | [Операции в облаке](./cloud-operations.md) | [Ккое](./cloud-center-of-excellence.md) и [управление облаком](./cloud-governance.md) | [Ккое](./cloud-center-of-excellence.md) и [облачная платформа](./cloud-platform.md) | [Ккое](./cloud-center-of-excellence.md) и [облачная платформа](./cloud-platform.md) | [Ккое](./cloud-center-of-excellence.md) и [облачная Автоматизация](./cloud-automation.md) |
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Чтобы отвести решения о структуре Организации со временем, скачайте и измените шаблон RACI. Скопируйте и измените наиболее тесно согласованный пример из матриц RACI в этой статье.
 

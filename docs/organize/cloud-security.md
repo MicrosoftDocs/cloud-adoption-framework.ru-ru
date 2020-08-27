@@ -7,15 +7,13 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 58fa0ac8b3c522318472f4adbe4ae8d28d2f8636
-ms.sourcegitcommit: d1d4e2bae24bb1e2ffd81e26e4e65540f26fa400
+ms.openlocfilehash: 1b33489f16990d7b2677e1cb128c9c2dcce0c6aa
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/16/2020
-ms.locfileid: "84813294"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885717"
 ---
-<!-- cSpell:ignore MarkSimos -->
-
 # <a name="cloud-security-functions"></a>Функции облачной безопасности
 
 Эта статья содержит сводку организационных функций, необходимых для управления угрозами информационной безопасности на предприятии. Эти организационные функции совместно формируют человеческий участок общей кибербезопасности системы. Каждая функция может выполняться одним или несколькими людьми, и каждый пользователь может выполнять одну или несколько функций в зависимости от различных факторов, таких как культура, бюджет и доступные ресурсы.
@@ -36,7 +34,7 @@ ms.locfileid: "84813294"
 - [Управление соответствием требованиям безопасности](./cloud-security-compliance-management.md)
 - [Безопасность людей](./cloud-security-people.md)
 - [Безопасность приложений и DevSecOps](./cloud-security-application-security-devsecops.md)
-- [Безопасность данных](./cloud-security-data-security.md)
+- [Защита данных](./cloud-security-data-security.md)
 - [Безопасность инфраструктуры и конечных точек](./cloud-security-infrastructure-endpoint.md)
 - [Удостоверения и ключи](./cloud-security-identity-keys.md)
 - [Анализ угроз](./cloud-security-threat-intelligence.md)

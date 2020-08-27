@@ -7,15 +7,15 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 280281d28677b787e4d3dba1946f642d6df72d2b
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 8bbc1126e8f86aed11121e857fe7372559b4ba68
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196155"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884612"
 ---
 <!-- cSpell:ignore Personalizer -->
-<!-- docsTest:ignore "global reach" -->
+<!-- docutune:ignore "global reach" -->
 
 # <a name="examples-of-global-reach-outcomes"></a>Примеры глобальных результатов REACH
 

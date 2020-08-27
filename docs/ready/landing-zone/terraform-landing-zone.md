@@ -7,14 +7,14 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 47a6503b369bc5d575f68358101c2bd04c7fa9c8
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 25bb59e5f79609536a7a1a6711c94c5ff25fdbd5
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88575117"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884799"
 ---
-<!-- cSpell:ignore arnaudlh arnaul Arnaud eastasia southeastasia vCPUs lalogs tfvars NetworkMonitoring ADAssessment ADReplication AgentHealthAssessment DnsAnalytics KeyVaultAnalytics -->
+<!-- cSpell:ignore eastasia southeastasia vCPUs lalogs tfvars NetworkMonitoring ADAssessment ADReplication AgentHealthAssessment DnsAnalytics KeyVaultAnalytics -->
 
 # <a name="use-terraform-to-build-your-landing-zones"></a>Использование terraform для создания целевых зон
 
@@ -35,21 +35,17 @@ Azure предоставляет собственные службы для ра
 ![Базовая Целевая зона с использованием terraform ](../../_images/ready/foundations-terraform-landing-zone.png)
  _рис. 1. Базовая зона с использованием terraform._
 
-## <a name="capabilities"></a>Характеристики
+## <a name="capabilities"></a>Возможности
 
 Развернутые компоненты и их назначение включают следующее.
-
-<!-- markdownlint-disable MD033 -->
 
 | Компонент | Несет |
 |---|---|
 | Группы ресурсов | Основные группы ресурсов, необходимые для фундамента |
 | Журнал активности | Аудит всех действий и архивации подписок: <li> Учетная запись хранения <li> Центры событий Azure |
 | ведет журнал диагностики. | Все журналы операций хранятся в течение определенного числа дней: <li> Учетная запись хранения <li> Центры событий |
-| Log Analytics | Хранит журналы операций. Развертывание общих решений для глубокой проверки приложений: <li> нетворкмониторинг <li> адассессмент <li> адрепликатион <li> аженсеалсассессмент <li> днсаналитикс <li> кэйваултаналитикс |
+| Анализ журналов | Хранит журналы операций. Развертывание общих решений для глубокой проверки приложений: <li> нетворкмониторинг <li> адассессмент <li> адрепликатион <li> аженсеалсассессмент <li> днсаналитикс <li> кэйваултаналитикс |
 | Центр безопасности Azure | Метрики санации безопасности и оповещения, отправленные по электронной почте и номеру телефона |
-
-<!-- markdownlint-enable MD033 -->
 
 ## <a name="use-this-blueprint"></a>Использование этой схемы
 
@@ -74,16 +70,16 @@ Azure предоставляет собственные службы для ра
 |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Ведение журналов и мониторинг | Используется рабочая область Log Analytics Azure Monitor. Учетная запись хранения диагностики и концентратор событий подготовлены.                                                                                                                                                        |                                                                                                                                                                                                                                                                 |
 | Сеть                | Н/д — сеть реализована в другой целевой зоне.                                                                                                                                                                                                                    | [Сетевые решения](../considerations/networking-options.md)                                                                                                                                                                                                 |
-| Идентификация               | Предполагается, что подписка уже связана с экземпляром Azure Active Directory.                                                                                                                                                                        | [Рекомендации по управлению идентификаторами](/azure/security/fundamentals/identity-management-best-practices)                                                                                                                               |
+| Удостоверение               | Предполагается, что подписка уже связана с экземпляром Azure Active Directory.                                                                                                                                                                        | [Рекомендации по управлению идентификаторами](/azure/security/fundamentals/identity-management-best-practices)                                                                                                                               |
 | Политика                 | В настоящее время эта Целевая зона предполагает, что политики Azure не применяются.                                                                                                                                                                                            |                                                                                                                                                                                                                                                                 |
 | Разработка подписки    | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Создание первоначальных подписок](../azure-best-practices/initial-subscriptions.md)                                                                                                                                                                                  |
 | Группы ресурсов        | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                           |
 | Группы управления      | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Организация подписок](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                     |
-| Данные                   | Недоступно                                                                                                                                                                                                                                                                      | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview) |
-| Память                | Недоступно                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
+| Данные                   | н/д                                                                                                                                                                                                                                                                      | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview) |
+| Хранилище                | н/д                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
 | Стандарты именования       | При создании среды также создается уникальный префикс. Для ресурсов, которым требуется глобально уникальное имя (например, учетные записи хранения), используйте этот префикс. Пользовательское имя добавляется с помощью случайного суффикса. Использование тегов обязательно, как описано в следующей таблице. | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                              |
-| Управление затратами        | Недоступно                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
-| Службы вычислений                | Недоступно                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
+| управления затратами        | н/д                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
+| Вычисления                | н/д                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
 
 ### <a name="tagging-standards"></a>Стандарты тегов
 
@@ -202,7 +198,7 @@ security_center = {
 
 После проверки конфигурации можно развернуть конфигурацию, как при развертывании среды terraform. Рекомендуется использовать Rover, который представляет собой контейнер DOCKER, позволяющий развертывать Windows, Linux или macOS. Вы можете приступить к работе с [зонами](https://github.com/azure/caf-terraform-landingzones).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Базовая зона базовой зоны размещает фундамент для сложной среды в составной манере. Этот выпуск предоставляет набор простых возможностей, которые можно расширить, добавив другие модули в схему или разслойировать дополнительные основные зоны поверх нее.
 

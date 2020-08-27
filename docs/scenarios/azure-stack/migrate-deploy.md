@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 86c1d4b7eaea3c7de15dfd4417a6bcc21d956ea8
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 9b1cf8600bd0160f02de9bfd4532c189008b5322
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88569643"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885445"
 ---
 # <a name="deploy-workloads-to-azure-stack-hub"></a>Развертывание рабочих нагрузок в Azure Stack Hub
 
@@ -38,8 +38,6 @@ ms.locfileid: "88569643"
 
 После того как администратор центра Azure Stack правильно настроил ваш экземпляр стека, миграция может продолжаться, как и в случае с большинством других усилий по миграции Azure. С помощью Azure Stack команда может выполнять любой из следующих типов миграции:
 
-<!-- cSpell:ignore howto -->
-
 - [Ethereum блокчейн Network](/azure-stack/user/azure-stack-ethereum?view=azs-2002)
 - [Обработчик AKS](/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2002)
 - [Azure Cognitive Services](/azure-stack/user/azure-stack-solution-template-cognitive-services?view=azs-2002)
@@ -56,7 +54,7 @@ ms.locfileid: "88569643"
 - [Шаблоны](https://github.com/Azure/AzureStack-QuickStart-Templates) быстрого запуска Azure Stack Репозиторий GitHub
 - [Шаблоны](https://github.com/Azure/Azure-QuickStart-Templates) быстрого запуска Azure Репозиторий GitHub
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 

@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 1e5105a9296ec3059c979bb0a7adc3b46aa99998
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 3eee0e1b6b7e2ceb64f180fe97984e4c39a8ea7a
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479931"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884867"
 ---
 # <a name="create-your-initial-azure-subscriptions"></a>Создание первоначальных подписок Azure
 
@@ -28,7 +28,7 @@ ms.locfileid: "86479931"
 ![Начальная модель подписки, показывающая ключи рядом с полями "производство" и "непроизводство" ](../../_images/ready/initial-subscription-model.png)
  _рис. 1. модель начальной подписки с ключами рядом с полями "производство" и "непроизводство"._
 
-<!-- docsTest:ignore Dev/Test -->
+<!-- docsTest:casing Dev/Test -->
 
 Этот подход имеет множество преимуществ:
 
@@ -53,7 +53,7 @@ ms.locfileid: "86479931"
 ![Начальная модель подписки, показывающая ключи рядом с полями "Рабочий" и "Общие службы" ](../../_images/ready/initial-subscription-model-with-shared-services.png)
  _рис. 3. модель подписки с общими службами._
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Ознакомьтесь с причинами, по которым может потребоваться [создать дополнительные подписки Azure](./scale-subscriptions.md) в соответствии с вашими требованиями.
 

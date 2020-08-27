@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: site-recovery
-ms.openlocfilehash: 24557e154d5c30dd3755a4c8b7c0b8d82040883c
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 4459455e4ccf255325176df57784dd29d90ab031
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574488"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884952"
 ---
 <!-- docsTest:disable TODO -->
 
-<!-- cSpell:ignore WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL CONTOSODC contosohost vcenter prereqs ctypes ctypeslib smarthotelapp -->
+<!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL CONTOSODC contosohost vcenter prereqs ctypes ctypeslib smarthotelapp -->
 
 # <a name="assess-on-premises-workloads-for-migration-to-azure"></a>Оценка локальных рабочих нагрузок для переноса в Azure
 
@@ -529,6 +529,6 @@ ms.locfileid: "88574488"
 
 В этом сценарии компания Contoso оценивает свою базу данных приложений SmartHotel360 с помощью средства Помощник по миграции данных. Она оценивает локальные виртуальные машины приложения с помощью службы "Миграция Azure". Специалисты компании Contoso просматривают оценки, чтобы убедиться, что локальные ресурсы готовы к миграции в Azure.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Компания Contoso оценила эту рабочую нагрузку в качестве потенциального кандидата для переноса, теперь она может начать подготовку своей локальной инфраструктуры и инфраструктуры Azure к миграции. Пример того, как компания Contoso выполняет эти процессы, приведен в статье [Развертывание инфраструктуры Azure](../migrate/azure-best-practices/contoso-migration-infrastructure.md), указанной в разделе рекомендаций по переносу согласно положениям Cloud Adoption Framework.

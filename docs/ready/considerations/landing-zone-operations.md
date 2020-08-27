@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 3cfd48a0a8dabb9b37004c2f15c23a8ae79aa6e9
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 15271c7e74881f671715d832eb4f07e63de23063
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88575168"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884833"
 ---
 # <a name="improve-landing-zone-operations"></a>Оптимизация операций с целевыми зонами
 
@@ -36,8 +36,6 @@ ms.locfileid: "88575168"
 
 [Методология управления](../../manage/index.md) предоставляет общие рекомендации по созданию емкости для управления операциями, описанной в разделе [Управление методологией](../../manage/index.md). Мы будем использовать базовую структуру этой методологии и следующие шаги из этой методологии, чтобы улучшить операции размещения и операции в каждой целевой зоне.
 
-<!-- cSpell:ignore caf -->
-
 ![Управление методологией ](../../_images/manage/caf-manage.png)
  _рис. 1. методология управления каф._
 
@@ -53,7 +51,7 @@ ms.locfileid: "88575168"
 ![Процесс разработки на основе тестирования для облачных целевых зон ](../../_images/ready/test-driven-development-process.png)
  _рис. 2. процесс разработки на основе тестирования для облачных зон в облаке._
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Узнайте, как [улучшить управление главной зоной](./landing-zone-governance.md) для поддержки внедрения в масштабе.
 

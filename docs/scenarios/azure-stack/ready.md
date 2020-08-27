@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 38e66e353b0757ca34d9b0b61639ce36739d5f05
-ms.sourcegitcommit: 76edf563a08ff7dc81c3fc2dc6c8972ab3b4c55b
+ms.openlocfilehash: 5bd33e4e61dbef039b8d993606596fb707d66085
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/14/2020
-ms.locfileid: "88237208"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885394"
 ---
 # <a name="ready-your-cloud-environment-for-azure-stack-hub-migration"></a>Подготовка облачной среды для миграции Azure Stack центра
 
@@ -20,7 +20,7 @@ ms.locfileid: "88237208"
 
 Оцените зависимости инфраструктуры, которые необходимо устранить первыми:
 
-- Идентификация
+- Удостоверение
 - Соединение
 - Безопасность
 - Encryption
@@ -43,7 +43,7 @@ ms.locfileid: "88237208"
 
 ## <a name="next-steps"></a>Дальнейшие шаги
 
-Рекомендации по конкретным элементам пути внедрения в облако см. в следующих статьях:
+Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 
 - [Оценка рабочих нагрузок для использования Azure Stack Hub](./migrate-assess.md)
 - [Развертывание рабочих нагрузок в Azure Stack Hub](./migrate-deploy.md)

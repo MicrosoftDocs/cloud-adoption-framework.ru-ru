@@ -7,16 +7,16 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a689de5ddf48ff095a59d362571c75791cf10eff
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: 58b10b2f800e7292f3f107a3fc307cb971c5809b
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86235302"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884629"
 ---
 <!-- cSpell:ignore Eason -->
 
-<!-- docsTest:ignore "Eason Matrix" -->
+<!-- docsTest:casing "Eason Matrix" -->
 
 # <a name="business-change-plan"></a>Изменение бизнес-плана
 
@@ -60,7 +60,7 @@ ms.locfileid: "86235302"
 
 В разных компаниях свой план бизнес-изменений. Цель этих вопросов — помочь бизнесу охотнее следовать изменениям, связанным с каждым выпуском. Если рассматривать каждый выпуск не как технологическое изменение, которое нужно принять, а как план бизнес-изменений, бизнес-результаты могут стать более достижимыми.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 После документирования и планирования бизнес-изменений можно начать [бизнес-тестирование](./business-test.md).
 

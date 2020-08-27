@@ -9,15 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: reference
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: 0a605d987715aee0b12c846472a6fddd1060087c
-ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
+ms.openlocfilehash: fed40e3b4d6c5c2aeeb63f70dcd41733e48b519e
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88662478"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885683"
 ---
 <!-- docsTest:disable TODO -->
-<!-- cSpell:ignore tracsman jonor rossort NVAs iptables WAFs DDOS ITSM LLAP anycast vwan -->
+<!-- cSpell:ignore iptables DDOS ITSM LLAP anycast vwan -->
 
 # <a name="the-virtual-datacenter-a-network-perspective"></a>Виртуальный центр обработки данных: перспектива сети
 
@@ -416,8 +416,6 @@ Azure Monitor также позволяет создавать настраив�
 
 Дополнительные сведения о возможностях Azure, обсуждаемых в этом документе.
 
-<!-- markdownlint-disable MD033 -->
-
 :::row:::
     :::column:::
         **Сетевые компоненты** <br>
@@ -435,7 +433,7 @@ Azure Monitor также позволяет создавать настраив�
         [Azure Front Door][azure-front-door] <br>
         [Azure Load Balancer (уровень 4)][ALB] <br>
         [Шлюз приложений (на уровне 7)][AppGW] <br>
-        [Azure Traffic Manager][azure-traffic-manager]
+        [Диспетчер трафика Azure][azure-traffic-manager]
     :::column-end:::
     :::column:::
         **Соединение** <br>
@@ -449,7 +447,7 @@ Azure Monitor также позволяет создавать настраив�
 
 :::row:::
     :::column:::
-        **Удостоверение** <br>
+        **Идентификация** <br>
         [Azure Active Directory][azure-ad] <br>
         [Многофакторная идентификация][multi-factor-authentication] <br>
         [Управление доступом на основе ролей][RBAC] <br>
@@ -493,9 +491,7 @@ Azure Monitor также позволяет создавать настраив�
     :::column-end:::
 :::row-end:::
 
-<!-- markdownlint-enable MD033 -->
-
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 - Узнайте больше о [пиринга виртуальных сетей][virtual-network-peering], основной технологии топологий ступицы и звезды.
 - Реализуйте [Azure Active Directory][azure-ad] , чтобы использовать [Управление доступом на основе ролей][RBAC].

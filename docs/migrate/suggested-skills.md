@@ -7,15 +7,13 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 188719f2edf173d3d03ee81cdb62f582db1140b7
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 635fed255982b7e25fcf8755380ab4a10de9d8e4
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88572992"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885870"
 ---
-<!-- cSpell:ignore Getting Started -->
-
 # <a name="skills-readiness-for-cloud-migration"></a>Подготовка навыков для миграции в облако
 
 В ходе миграции в облако, скорее всего, сотрудникам, а также некоторым партнерам по интеграции именно Systems или управляемым службам потребуется разработать новые навыки, которые будут эффективными во время миграции.
@@ -64,7 +62,7 @@ ms.locfileid: "88572992"
 
 - [Защита рабочих нагрузок и управление ими в Azure](./azure-best-practices/migrate-best-practices-security-management.md). рекомендации по обеспечению безопасности и управлению рабочими нагрузками в Azure.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Вернитесь к [контрольному списку рекомендаций по миграции](./azure-best-practices/index.md) , чтобы убедиться, что метод миграции полностью согласован.
 

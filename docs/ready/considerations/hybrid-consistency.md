@@ -7,12 +7,12 @@ ms.date: 12/27/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 9d0817b209dd8916fcef01e40ab5c429fdb8a531
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: a5132e89cf9d20fb6cdbff1533737073ab190c3d
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479710"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885989"
 ---
 <!-- cSpell:ignore ISVs Bitnami Yourhosting Revera Avanade Pulsant PricewaterhouseCoopers Pointnext -->
 
@@ -64,7 +64,7 @@ Azure Stack предлагается в двух вариантах развер
 
 Вы можете ускорить Azure Stack инициативы с помощью комплексной экосистемы Azure:
 
-<!-- docsTest:ignore "EMC Services" "Infront Consulting Group" "HPE Pointnext" -->
+<!-- docsTest:casing "EMC Services" "Infront Consulting Group" "HPE Pointnext" -->
 <!-- cSpell:ignore ISVs Bitnami DXC EMC Infront Yourhosting Revera Avanade Pulsant PWC PricewaterhouseCoopers -->
 
 - Azure гарантирует, что большинство приложений и служб, сертифицированных для Azure, будут работать на Azure Stack. Несколько независимых поставщиков программного обеспечения расширяют свои решения для Azure Stack. К этим поставщикам программного обеспечения относятся BitNami, Docker, KEMP Technologies, обнаруженное сводное облако, Red Hat Enterprise Linux и SuSE Linux.

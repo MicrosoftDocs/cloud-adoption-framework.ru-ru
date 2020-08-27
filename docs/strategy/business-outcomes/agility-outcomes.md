@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 1df64e7777e045f0e52871ac04b243e4c3b3902d
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: adf762a9c813b68905f0930670111a949565d55a
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88194524"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885241"
 ---
 # <a name="examples-of-agility-outcomes"></a>Примеры результатов гибкости
 
@@ -34,7 +34,7 @@ ms.locfileid: "88194524"
 
 - **Пример 2:** Компания по логистике обнаружила неприкосновенный сегмент рынка, но для записи этой доли рынка требуется новая версия приложения Флагманское. Их более крупные конкуренты производят одно и то же обнаружение. Благодаря выполнению усилий, связанных с облачными приложениями, компания применяет зацикленности клиентов и подход к разработке на основе DevOps, чтобы дольше использовать старые конкуренты на *x* месяцев. Это переход на маркетинговый вход, защищенный клиентской базой.
 
-<!-- docsTest:ignore "Jamey Shiels" "Vice President of Digital Experience" "Aurora Health Care" -->
+<!-- docutune:ignore "Jamey Shiels" "Vice President of Digital Experience" "Aurora Health Care" -->
 
 ### <a name="aurora-health-care"></a>Aurora здравоохранения
 

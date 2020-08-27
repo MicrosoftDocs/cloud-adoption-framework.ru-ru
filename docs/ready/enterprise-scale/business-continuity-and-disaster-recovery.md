@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 93975a3064f6d7056bcbe09aad17c60d9fa2cc06
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: ab1ab07b056599ba920afc4491adc0e6e030676c
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88572788"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885106"
 ---
 # <a name="enterprise-scale-business-continuity-and-disaster-recovery"></a>Непрерывность бизнес-процессов и аварийное восстановление в масштабах предприятия
 
@@ -95,4 +95,3 @@ ms.locfileid: "88572788"
 - Избегайте использования перекрывающихся диапазонов IP-адресов для рабочих узлов и сайтов аварийного восстановления.
 
   По возможности планируйте непрерывность бизнес-процессов и архитектуру сети аварийного восстановления, которая обеспечивает одновременную связь со всеми сайтами. Сети аварийного восстановления, использующие те же междоменные блоки маршрутизации, как и рабочие сети, нуждаются в процессе отработки отказа сети, что может усложнить и отложить отработку отказа приложения в случае сбоя.
-

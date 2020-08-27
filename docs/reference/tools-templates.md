@@ -7,15 +7,13 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: 1f759debd007ffdf03cee1802a564a8b11927964
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 6e3cbf834111b1ce6e68354070e8266a3d1f0d9a
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88575083"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885564"
 ---
-<!-- cSpell:ignore Terraform's -->
-
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
 Инфраструктура внедрения в облако включает средства, помогающие быстро реализовать технические изменения. Используйте эти средства, шаблоны и оценки для ускорения внедрения в облако. Следующие ресурсы могут помочь при каждом этапе внедрения. Некоторые средства и шаблоны можно использовать на нескольких этапах.

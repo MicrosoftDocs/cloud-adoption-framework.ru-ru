@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 64e1ae5cbe6f6ed31575614551f1dafc3275f1a0
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 1890956d6672be0c6d91fa41e784dd491e5b8f28
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88572669"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885411"
 ---
 # <a name="plan-your-azure-stack-hub-migration"></a>Планирование миграции центра Azure Stack
 
@@ -50,7 +50,7 @@ ms.locfileid: "88572669"
 
 Если вы понимаете наилучшую платформу для каждой рабочей нагрузки, вы можете интегрировать решения в [план внедрения облака](../../plan/template.md) , чтобы управлять миграцией общедоступных и частных облаков как единое согласованное.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 

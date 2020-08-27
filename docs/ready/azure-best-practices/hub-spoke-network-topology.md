@@ -9,15 +9,13 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: 81d00bb2076c936b06b6ac7a00ef19d0b0d43565
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 2fa4f8651be0d4ee29c8bac4fcfb95326e4201c2
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574760"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884731"
 ---
-<!-- cSpell:ignore tracsman jonor rossort NVAs -->
-
 # <a name="hub-and-spoke-network-topology"></a>Звездообразная топология сети
 
 _HUB и лучевой_ — это модель сети для эффективного управления общими требованиями к взаимодействию или безопасности. Она также позволяет избежать ограничений подписки Azure. В этой модели уделяется особое внимание следующим вопросам.

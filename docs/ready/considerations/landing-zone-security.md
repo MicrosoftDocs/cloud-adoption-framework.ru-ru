@@ -7,15 +7,13 @@ ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 4c3def16dacdcc24459547e5acfe4f4d81cc73a5
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: d28f849d4d264af36db8ffaf1b4c72cadc6677c0
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88566872"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885666"
 ---
-<!-- cSpell:ignore SIEM -->
-
 # <a name="improve-landing-zone-security"></a>Повышение безопасности целевых зон
 
 Если рабочей нагрузке или зонам размещения, на которых размещена эта система, требуется доступ к любым конфиденциальным данным или важным системам, важно защитить данные и ресурсы. Повышение безопасности узловой зоны основано на [подходе к разработке на основе тестирования для размещения зон](./test-driven-development.md) путем расширения или рефакторинга целевой зоны для учета повышенных требований к безопасности.
@@ -39,7 +37,7 @@ ms.locfileid: "88566872"
 
 ![Процесс разработки на основе тестирования для облачных целевых зон](../../_images/ready/test-driven-development-process.png)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Узнайте, как [улучшить операции размещения зоны](./landing-zone-operations.md) для поддержки важных приложений.
 

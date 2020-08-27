@@ -7,15 +7,13 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 911a0b020ad00b042cfe2caea4d96c74451be032
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 9ad7787dd44314e0c83b55d5d799a111de021f6c
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88566838"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885071"
 ---
-<!-- cSpell:ignore HDFS -->
-
 # <a name="review-your-data-options"></a>Проверка параметров данных
 
 При подготовке среды зоны размещения для внедрения в облако необходимо определить требования к данным для размещения рабочих нагрузок. Продукты и службы баз данных Azure поддерживают различные сценарии и возможности хранения данных. То, как вы настраиваете среду зоны размещения для поддержки требований к данным, зависит от требований к системе управления рабочей нагрузкой, а также технических и бизнес-требований.

@@ -3,16 +3,16 @@ title: Приступая к работе. Создание группы по у
 description: Создание области, конечных результатов и возможностей группы управления для подготовки к успешному управлению облаком.
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: 346b4feabfbb7fefd8632ac4b3f5f81473815843
-ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
+ms.openlocfilehash: 1df9bf9b6352f3aee42154aa5f1271fd0fb5be4d
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88662002"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884187"
 ---
 # <a name="get-started-build-a-cloud-governance-team"></a>Приступая к работе. Создание группы по управлению облаком
 
@@ -34,7 +34,6 @@ ms.locfileid: "88662002"
 - [Функции управления облаком](../../organize/cloud-governance.md) могут быть уже распределены между несколькими пользователями или группами. Команда, которая проходит по названию "группа по управлению облаком", не важна, но необходимые возможности должны быть предоставлены с учетом субъекта или группы.
 - Если долгосрочная стратегия внедрения в облако компании может быть доставлена из одной целевой зоны в одной облачной среде, объем операций управления и эксплуатации может быть достаточно мал для доставки одним человеком или одной группой. Эта группа вряд ли будет называться Cloud управление, так как она обслуживает множество функций, помимо Cloud управление. Даже для этой группы это руководство по началу работы может помочь в обеспечении этой важной функции управления.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -57,7 +56,6 @@ ms.locfileid: "88662002"
 - Изучите план внедрения в Организации в [облаке](../../plan/template.md) с членами группы по внедрению в облако, чтобы понять временные сроки и приоритеты.
 - Изучите [книгу Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) Team, чтобы узнать о требованиях к эксплуатации и обязательствах, которые были установлены в бизнесе.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -77,7 +75,6 @@ ms.locfileid: "88662002"
 
 - Дополнительные сведения о ритмичности для собраний см. в статье [управление облаком](../../organize/cloud-governance.md#deliverable).
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -176,7 +173,6 @@ ms.locfileid: "88662002"
 
 - Создайте процесс для [адаптации новых рабочих нагрузок и ресурсов](/azure/azure-resource-manager/custom-providers/concepts-resource-onboarding).
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |

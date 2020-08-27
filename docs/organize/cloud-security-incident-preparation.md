@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 312b24a8b20eeda6fb28ca9f126067da1ace4786
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.openlocfilehash: a078a89a512a790d2325f32a4e00d0e2fc8587f9
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755448"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885751"
 ---
 # <a name="function-of-cloud-security-incident-preparation"></a>Функция подготовки инцидентов Cloud Security
 
@@ -29,7 +29,7 @@ ms.locfileid: "83755448"
 - **Технические специалисты** по исследованию и исправлению инцидентов.
 - **Интеграция непрерывности бизнес-** функций с организационными функциями, которые представляют собой собственные планы непрерывного управления, аварийного восстановления и обеспечения бесперебойности бизнес-процессов.
 
-<!-- docsTest:ignore "Incident Response Reference Guide (IRRG) " -->
+<!-- docsTest:casing "Incident Response Reference Guide (IRRG)" -->
 <!-- cSpell:ignore IRRG -->
 
 Корпорация Майкрософт опубликовала полученные уроки и рекомендации в [справочном руководстве по реагированию на инциденты (иррг)](https://aka.ms/IRRG).

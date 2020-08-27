@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: e5407f2f78942d22c5fa07b277f600d5440ddc04
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 04cfd35b56fb345474d3d4dd5f554f5bb3eb6f5c
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83214027"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884714"
 ---
 # <a name="timelines-in-a-cloud-adoption-plan"></a>Временные шкалы в плане внедрения в облако
 
@@ -30,6 +30,6 @@ ms.locfileid: "83214027"
 
 ## <a name="delivery-plans-in-azure-devops"></a>Планы доставки в Azure DevOps
 
-<!-- docsTest:ignore "Microsoft Delivery Plans" -->
+<!-- docsTest:casing "Microsoft Delivery Plans" -->
 
 Если вы используете Azure DevOps для управления планом внедрения в облако, рассмотрите возможность использования [расширения планов поставок Майкрософт](https://marketplace.visualstudio.com/items?itemname=ms.vss-plans). Это расширение может быстро создать визуальное представление временной шкалы на основе назначений итерации и выпуска.

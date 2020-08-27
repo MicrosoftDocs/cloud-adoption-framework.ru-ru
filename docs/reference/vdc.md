@@ -7,15 +7,14 @@ ms.date: 06/16/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 42fa4a2b00144996492d75583f83845cb8e501de
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 2d44f61951f2eab93329419074f1434063cba2cd
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85077134"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885547"
 ---
 <!-- docsTest:ignore "Azure Virtual Datacenter" -->
-<!-- cSpell:ignore tracsman jonor -->
 
 # <a name="azure-virtual-datacenter"></a>Виртуальный центр обработки данных Azure
 
@@ -23,9 +22,5 @@ ms.locfileid: "85077134"
 
 Следующие рекомендации служат важной частью основы [методологии готовности](../ready/index.md) и [управляемой методологии](../govern/index.md) в облачной инфраструктуре внедрения. Для поддержки клиентов, выполняющих эту переход, следующие ресурсы архивируются и обслуживаются в отдельном репозитории GitHub.
 
-<!-- markdownlint-disable MD033 -->
-
 - [Виртуальный центр обработки данных Azure](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter.pdf). в этой электронной книге показано, как развертывать корпоративные рабочие нагрузки на облачную платформу Azure с учетом существующих политик безопасности и сети.
 - [Руководство по использованию виртуального центра обработки данных Azure](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf). в этом техническом документе обсуждается процесс, с помощью которого специалисты по ИТ и лица, принимающие решения, могут использовать для обнаружения и планирования миграции приложений и серверов в Azure с применением подхода сдвига и перемещения, одновременно сокращая любые дополнительные затраты на разработку и оптимизируя облачные варианты размещения.
-
-<!-- markdownlint-enable MD033 -->

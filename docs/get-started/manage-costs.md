@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 7957cfedee535739b8d785a374e5133827b08968
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: c6351e1e6de0db3247b584d914ea3b5c5e842e68
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88569473"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884340"
 ---
 # <a name="get-started-manage-cloud-costs"></a>Начало работы: Управление затратами на облачные ресурсы
 
@@ -22,17 +22,15 @@ ms.locfileid: "88569473"
 
 Управление является основой оптимизации затрат в любом крупном предприятии. В следующем разделе приведены рекомендации по оптимизации затрат в контексте управления. Последующие шаги помогают каждой команде выполнять действия, которые нацелены на ее роль в оптимизации затрат. Вместе эти шаги помогут вашей организации начать работу в направлении оптимизации стоимости.
 
-![Начало работы с управлением затратами на предприятии](../_images/get-started/cost-map.png)
+![Начало работы с оптимизацией затрат](../_images/get-started/cost-map.png)
 
 ## <a name="step-1-optimize-enterprise-costs"></a>Шаг 1. Оптимизация корпоративных затрат
 
 Группа управления облаком хорошо подготовлена к оценке и эффективному снижению или незапланированным затратам благодаря сочетанию производительности мониторинга, уменьшению размера ресурсов и безопасному прерыванию неиспользуемых ресурсов. Оптимизация корпоративных затрат начинается с общей команды, которая позволяет понять средства, процессы и зависимости, необходимые для разумного выполнения затрат на уровне среды.
 
-<!-- docsTest:ignore "your cost management policies" -->
-
 **Результатам**
 
-- Реализуйте изменения в управлении затратами на уровне предприятия.
+- Реализуйте разумные изменения в политиках управления затратами на предприятии.
 - Задокументируйте политики управления затратами, процессы и руководства по проектированию в [шаблоне дисциплины управления затратами](../govern/cost-management/template.md).
 
 Эти конечные результаты являются результатом выполнения нескольких повторяющихся задач:
@@ -48,20 +46,19 @@ ms.locfileid: "88569473"
 **Рекомендации по поддержке готовности к завершению.**
 
 - Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соглашениям об именовании и разметке тегов](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](/azure/governance/policy/tutorials/govern-tags) с особым выделением тегов для "центра затрат" и "технического владельца".
-- На регулярной основе изучите и примените рекомендации по [управлению затратами](../govern/cost-management/best-practices.md) для анализа и улучшения по всему предприятию. Ниже приведены некоторые из наиболее впечатляющих методов управления:
+- На регулярной основе ознакомьтесь с рекомендациями по [специализации в области управления затратами](../govern/cost-management/best-practices.md) , чтобы подать рекомендации по анализу и усовершенствованиям в масштабах предприятия. Ниже приведены важные рекомендации по управлению.
 
-  - Применяйте [Общие рекомендации](../govern/cost-management/best-practices.md) , чтобы сократить размер и затраты и отключить неиспользуемые компьютеры.
-  - [Используйте преимущества гибридного использования](../govern/cost-management/best-practices.md#best-practice-take-advantage-of-azure-hybrid-benefit) , чтобы снизить затраты на лицензирование.
+  - [Общие рекомендации](../govern/cost-management/best-practices.md) по снижению размера и затратам и прекращению работы неиспользуемых компьютеров.
+  - Применение [преимуществ гибридного использования](../govern/cost-management/best-practices.md#best-practice-take-advantage-of-azure-hybrid-benefit) для сокращения затрат на лицензирование.
   - Выровняйте [зарезервированные экземпляры](../govern/cost-management/best-practices.md#best-practice-use-azure-reserved-vm-instances) , чтобы снизить затраты на ресурсы.
-  - [Отслеживайте использование ресурсов](../govern/cost-management/best-practices.md#best-practice-monitor-resource-utilization) , чтобы снизить влияние на производительность ресурсов.
-  - [Сократите затраты на непроизводство](../govern/cost-management/best-practices.md#best-practice-reduce-nonproduction-costs) с помощью политик, чтобы управлять средами, которые не являются продукцией.
-  - Применяйте [рекомендации по оптимизации затрат](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
+  - [Мониторинг использования ресурсов](../govern/cost-management/best-practices.md#best-practice-monitor-resource-utilization) для снижения влияния на производительность ресурсов.
+  - [Снижение затрат на непродуктивность](../govern/cost-management/best-practices.md#best-practice-reduce-nonproduction-costs) благодаря политикам, регулирующим непроизводственные среды.
+  - Действия с [рекомендациями по оптимизации затрат](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 
 - Компромиссы на уровне рабочей нагрузки могут потребоваться для реализации эффективных изменений оптимизации затрат. [Microsoft Azure хорошо спроектированная платформа](/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure хорошо спроектированная проверка](/assessments/?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
 - Если вы не знакомы с Cloud управление, установите [политики управления, процессы и дисциплины](../govern/index.md) , используя управляемую методологию.
 - Если вы еще не знакомы с дисциплиной управления затратами, рассмотрите [статью улучшение управления затратами](../govern/guides/complex/cost-management-improvement.md)в области [реализации](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -79,15 +76,14 @@ ms.locfileid: "88569473"
 **Результатам**
 
 - Записывайте мотивации, результаты и деловое обоснование в [шаблоне стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
-- Создайте свой первый бюджет с помощью службы "Управление затратами Azure".
+- Создайте свой первый бюджет с помощью службы "Управление затратами Azure" и "выставление счетов".
 
 **Рекомендации по поддержке готовности к завершению.**
 
-- [Изучите мотивацию](../strategy/motivations.md). Критические бизнес-события и некоторые причины миграции обычно учитывают стоимость, увеличивая важность управления затратами для всех последующих усилий. Другие посторонние усилия, связанные с инновациями или ростом благодаря переносу, могут сосредоточиться на большей части прибыли. Понимание причин, которые помогут понять, насколько высока стоимость управления приоритетами.
+- [Изучите мотивацию](../strategy/motivations.md). Критические бизнес-события и некоторые причины миграции обычно учитывают стоимость, увеличивая важность управления затратами для всех последующих усилий. Другие посторонние усилия, связанные с инновациями или ростом благодаря переносу, могут сосредоточиться на большей части прибыли. Понимание мотиваций поможет решить, насколько высокий приоритет для управления затратами.
 - [Результаты бизнеса](../strategy/business-outcomes/index.md). Некоторые финансовые результаты, как правило, учитывают затраты. Когда желаемые результаты сопоставляются с финансовыми метриками, следует заранее вкладываться в управление затратами.
 - [Деловое обоснование](../strategy/cloud-migration-business-case.md). Деловое обоснование служит обобщенным представлением финансового плана для внедрения в облако. Это хороший источник для первоначальных усилий по бюджетированию.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -108,10 +104,9 @@ ms.locfileid: "88569473"
 - [Сбор данных инвентаризации](../digital-estate/inventory.md). Создайте источник данных для анализа цифрового пространства перед внедрением.
 - [Рекомендации: служба "миграция Azure"](../plan/contoso-migration-assessment.md). Используйте службу "миграция Azure" для сбора данных инвентаризации.
 - [Инкрементное обоснование](../digital-estate/rationalize.md#incremental-rationalization). Во время добавочного согласования и количественного анализа выявление кандидатов облака для целей бюджетирования.
-- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службу "Управление затратами Azure" для согласования моделей затрат и прогнозов путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
-- [Создайте план внедрения в облако](../plan/plan-intro.md#build-your-cloud-adoption-plan). Создайте план с рабочей нагрузкой, активами и сведениями о временной шкале. Этот план обеспечивает базу для расходов с течением времени (или прогнозирования затрат). _Затраты с течением времени_ — это первоначальный базовый план для всех операций анализа оптимизации в рамках дисциплины управления затратами.
+- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службы управления затратами Azure и выставления счетов, чтобы вычислять затраты и прогнозные модели путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+- [Создайте план внедрения в облако](../plan/plan-intro.md#build-your-cloud-adoption-plan). Создайте план с рабочей нагрузкой, активами и сведениями о временной шкале. Этот план обеспечивает базу для расходов с течением времени (или прогнозирования затрат). *Затраты с течением времени* — это первоначальный базовый план для всех операций анализа оптимизации в рамках дисциплины управления затратами.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -130,12 +125,11 @@ ms.locfileid: "88569473"
 **Рекомендации по поддержке готовности к завершению.**
 
 - [Следите за затратами](../ready/azure-best-practices/track-costs.md#provide-the-right-level-of-cost-access). Создайте иерархию среды с четкой управляемостью, предоставьте доступ к нужному уровню затрат и используйте дополнительные ресурсы управления затратами в каждой целевой зоне.
-- [Оптимизируйте инвестиции в облако](/azure/cost-management-billing/costs/cost-mgt-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json). Ознакомьтесь с рекомендациями по оптимизации инвестиций.
-- [Создание бюджетов и управление ими.](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Ознакомьтесь с рекомендациями по созданию бюджетов и управлению ими.
-- [Оптимизируйте затраты от рекомендаций](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json). Ознакомьтесь с рекомендациями по использованию рекомендаций, которые помогут оптимизировать затраты.
-- [Мониторинг использования и расходов](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json). Ознакомьтесь с рекомендациями по мониторингу использования и затрат в целевой зоне.
+- [Оптимизируйте инвестиции в облако](/azure/cost-management-billing/costs/cost-mgt-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Ознакомьтесь с рекомендациями по оптимизации инвестиций.
+- [Создание бюджетов и управление ими.](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Ознакомьтесь с рекомендациями по созданию бюджетов и управлению ими.
+- [Оптимизируйте затраты от рекомендаций](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Ознакомьтесь с рекомендациями по использованию рекомендаций, которые помогут оптимизировать затраты.
+- [Мониторинг использования и расходов](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Ознакомьтесь с рекомендациями по мониторингу использования и затрат в целевой зоне.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -162,7 +156,6 @@ ms.locfileid: "88569473"
 - [Миграция](../migrate/migration-considerations/migrate/index.md) содержит одно предложение процесса о ресурсах устранения. С помощью этого предложения можно оптимизировать настроенное состояние в пользу оптимизированного решения.
 - [Повышение уровня](../migrate/migration-considerations/optimize/index.md) сосредоточено на тестировании, изменении размера, проверке и освобождении перенесенных ресурсов, а также списании устаревших ресурсов. Это первая пустая точка, в которой прогнозы и бюджеты можно тестировать в соответствии с фактической производительностью и конфигурацией.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -182,7 +175,6 @@ ms.locfileid: "88569473"
 - Используйте [Microsoft Azure хорошо спроектированную проверку](/assessments/?id=azure-architecture-review) , чтобы понять баланс решений по архитектуре.
 - Изучите [хорошо спроектированную платформу Microsoft Azure](/azure/architecture/framework) , чтобы получить более подробные рекомендации по оптимизации затрат во время внедрения инноваций.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
@@ -201,7 +193,6 @@ ms.locfileid: "88569473"
 
 - [Создайте бизнес-выравнивание](../manage/considerations/business-alignment.md) , чтобы получить ясность в отношении критичности и аппетит для инвестиций в устойчивость.
 
-<!-- markdownlint-disable MD033 -->
 <br>
 
 | Команда, подучетная запись | Ответственные и вспомогательные команды |
