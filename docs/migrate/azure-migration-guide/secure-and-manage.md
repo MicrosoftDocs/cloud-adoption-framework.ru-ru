@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 2dbe690b10e21c06d348bf3196077fa812a043c9
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: afde995e27d37114727fafa540f0f1232c49e8b3
+ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88570272"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88848131"
 ---
 <!-- markdownlint-disable MD024 MD025 DOCSMD001 -->
 
@@ -151,7 +151,7 @@ Azure Backup — это служба на платформе Azure, исполь
 
 ## <a name="azure-site-recovery"></a>[Azure Site Recovery](#tab/siteRecovery)
 
-Ранее в этом руководстве было рассмотрено, как можно использовать Azure Site Recovery для выполнения миграции. Но после завершения миграции эта служба также образует критически важный компонент в стратегии аварийного восстановления.
+После завершения миграции Azure Site Recovery также создает критически важный компонент в рамках стратегии аварийного восстановления.
 
 Служба Azure Site Recovery позволяет реплицировать виртуальные машины и рабочие нагрузки, размещенные в основном регионе Azure, в их копии, размещенные в дополнительном регионе. При возникновении сбоя в основном регионе можно выполнить отработку отказа на копию, работающую в дополнительном регионе, и продолжить работу со своими приложениями и службами. После устранения сбоя и восстановления работоспособности основной копии виртуальной машины можно восстановить ее размещение.
 

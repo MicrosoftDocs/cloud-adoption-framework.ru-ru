@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 0f4e8cc17d094efc490a16ea3f740435b97a20fe
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 5a874c26835b17e2aa30a2230af3afe79dfd6628
+ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568096"
+ms.lasthandoff: 08/25/2020
+ms.locfileid: "88848148"
 ---
 <!-- cSpell:ignore billyclaymyersmsft wimyers functionapp -->
 
@@ -199,7 +199,7 @@ ms.locfileid: "88568096"
 
 ### <a name="serverless-solutions-azure-logic-apps"></a>Бессерверные решения: Azure Logic Apps
 
-Интегрируйте данные и приложения вместо написания сложного связующего кода между разнородными системами. Визуально создавайте бессерверные рабочие процессы с помощью Azure Logic Apps и используйте собственные API-интерфейсы, бессерверные функции или готовые соединители программного обеспечения как услуги (SaaS), включая Salesforce, Microsoft Office 365 и Dropbox.
+Интегрируйте данные и приложения вместо написания сложного связующего кода между разнородными системами. Создавайте бессерверные рабочие процессы с помощью таких визуальных средств, как Azure Logic Apps, и используйте собственные API, бессерверные функции или готовые соединители программного обеспечения как услуги (SaaS), включая Salesforce, Microsoft 365 и Dropbox.
 
 #### <a name="action"></a>Действие
 
