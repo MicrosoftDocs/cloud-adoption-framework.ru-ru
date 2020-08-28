@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 229ce28994c241d2631d5271577a566ceb0b7ed6
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 37f77ab319cb68d2295ba9b2ef12b27726015f02
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573757"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88883830"
 ---
 # <a name="cost-management-discipline-overview"></a>Обзор дисциплины "Управление затратами"
 
@@ -39,7 +39,7 @@ ms.locfileid: "88573757"
 |--|--|
 | <br> ![Значок шаблона](../../_images/govern/process-template.png) | <br> [Шаблон дисциплины "Управление затратами".](./template.md) Скачайте шаблон для документирования дисциплины "Управление затратами". |
 | <br> ![Значок рисков](../../_images/govern/process-risks.png) | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Управление затратами". |
-| <br> ![Значок метрик](../../_images/govern/process-metrics.png) | <br> [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, настало ли время для инвестиций в дисциплину "Управление затратами". |
+| <br> ![Значок метрик](../../_images/govern/process-metrics.png) | <br> [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Управление затратами". |
 | <br> ![Значок соблюдения](../../_images/govern/process-enforce.png) | <br> [Процессы, обеспечивающие соблюдение политик.](./compliance-processes.md) Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Управление затратами". |
 | <br> ![Значок зрелости](../../_images/govern/process-maturity.png) | <br> [Зрелость.](./discipline-improvement.md) Согласование степени зрелости управления облаком с этапами внедрения облачных технологий. |
 | <br> ![Значок цепочки инструментов](../../_images/govern/process-toolchain.png) | <br> [Цепочка инструментов.](./toolchain.md) Службы Azure, которые можно использовать для поддержки дисциплины "Управление затратами". |

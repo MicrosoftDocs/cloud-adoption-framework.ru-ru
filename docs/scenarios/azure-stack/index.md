@@ -7,12 +7,12 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 9684ad72587b1132632a53d15385e2f396311536
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 0e6732c79fc08b22765f67907f8ee8fec9659616
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88575032"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885513"
 ---
 # <a name="azure-stack-a-strategic-option-for-running-azure-in-your-datacenter"></a>Azure Stack — стратегический вариант запуска Azure в центре обработки данных
 
@@ -38,7 +38,7 @@ Azure Stack Hub предоставляет альтернативный подх
 
 - Azure обеспечивает почти неограниченную емкость. Система Azure Stack Hub работает на физическом оборудовании в вашем центре обработки данных, что приводит к ограничениям емкости.
 - Версии API и механизмы проверки подлинности в Azure и Azure Stack Hub могут немного отличаться.
-- Отличия Azure Stack Hub связаны с тем, _кто_ именно работает с облаком, что влияет на уровень операций рабочей нагрузки.
+- Отличия Azure Stack Hub связаны с тем, *кто* именно работает с облаком, что влияет на уровень операций рабочей нагрузки.
 - Необходимо учитывать, с какой частью службы Azure Stack Hub работает оператор Azure Stack Hub, так как от этого зависит то, какую службу вызывает клиент (PaaS или SaaS).
 
 Другие отличия будут рассматриваться в других статьях по Azure Stack Hub на различных этапах жизненного цикла внедрения облачных технологий.

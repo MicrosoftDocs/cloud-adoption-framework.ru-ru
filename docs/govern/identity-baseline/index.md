@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: c5cc6e24c6e32f1bcc8289f8c5a23d542f7fff94
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: c3e6c28313353b38a160fc2881b11b07bd567376
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573519"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88880260"
 ---
 # <a name="identity-baseline-discipline-overview"></a>Общие сведения о дисциплине базовой системы идентификации
 
@@ -41,7 +41,7 @@ ms.locfileid: "88573519"
 |--|--|
 | <br> ![Значок шаблона](../../_images/govern/process-template.png)   | <br> [Шаблон дисциплины "Базовые средства идентификации".](./template.md) Скачайте шаблон для документирования дисциплины "Базовые средства идентификации". |
 | <br> ![Значок рисков](../../_images/govern/process-risks.png)         | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Базовая система идентификации". |
-| <br> ![Значок метрик](../../_images/govern/process-metrics.png)     | <br> [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, настало ли время для инвестиций в дисциплину "Базовая система идентификации". |
+| <br> ![Значок метрик](../../_images/govern/process-metrics.png)     | <br> [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Основные способы идентификации". |
 | <br> ![Значок соблюдения](../../_images/govern/process-enforce.png)   | <br> [Процессы, обеспечивающие соблюдение политик.](./compliance-processes.md) Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Базовая система идентификации". |
 | <br> ![Значок зрелости](../../_images/govern/process-maturity.png)   | <br> [Зрелость.](./discipline-improvement.md) Согласование степени зрелости управления облаком с этапами внедрения облачных технологий. |
 | <br> ![Значок цепочки инструментов](../../_images/govern/process-toolchain.png) | <br> [Цепочка инструментов.](./toolchain.md) Службы Azure, которые можно использовать для поддержки дисциплины "Базовая система идентификации". |

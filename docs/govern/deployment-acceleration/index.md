@@ -1,6 +1,6 @@
 ---
 title: Общие сведения о дисциплине "Ускорение развертывания"
-description: Используйте Cloud Adoption Framework для Azure, чтобы понять, как связаны между собой ускорение развертывания и система управления облаком.
+description: Используйте Cloud Adoption Framework для Azure, чтобы понять, как связаны между собой дисциплина "Ускорение развертывания" и система управления облаком.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d7fa7682a5671e4d7ebd865fc36b45a17cfe05f7
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: d255fd0b4b7727ea72ee7219673fb91632f03568
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573740"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88883541"
 ---
 # <a name="deployment-acceleration-discipline-overview"></a>Общие сведения о дисциплине "Ускорение развертывания"
 
@@ -41,7 +41,7 @@ ms.locfileid: "88573740"
 |--|--|
 | <br> ![Значок шаблона](../../_images/govern/process-template.png) | <br> [Шаблон дисциплины "Ускорение развертывания".](./template.md) Скачайте шаблон для документирования дисциплины "Ускорение развертывания". |
 | <br> ![Значок рисков](../../_images/govern/process-risks.png) | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Ускорение развертывания".|
-| <br> ![Значок метрик](../../_images/govern/process-metrics.png) | <br> [Индикаторы и метрики.](./metrics-tolerance.md) Индикаторы, которые помогут понять, настало ли время для инвестиций в дисциплину "Ускорение развертывания". |
+| <br> ![Значок метрик](../../_images/govern/process-metrics.png) | <br> [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Ускорение развертывания". |
 | <br> ![Значок соблюдения](../../_images/govern/process-enforce.png) | <br> [Процессы, обеспечивающие соблюдение политик.](./compliance-processes.md) Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Ускорение развертывания". |
 | <br> ![Значок зрелости](../../_images/govern/process-maturity.png) | <br> [Зрелость.](./discipline-improvement.md) Согласование степени зрелости управления облаком с этапами внедрения облачных технологий.|
 | <br> ![Значок цепочки инструментов](../../_images/govern/process-toolchain.png) | <br> [Цепочка инструментов.](./toolchain.md) Службы Azure, которые могут быть использованы для поддержки дисциплины "Ускорение развертывания". |
@@ -52,5 +52,3 @@ ms.locfileid: "88573740"
 
 > [!div class="nextstepaction"]
 > [Описание бизнес-рисков](./business-risks.md)
-
-<!-- markdownlint-enable MD033 -->
