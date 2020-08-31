@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 340e779abb1864a5644a96c9d1a4611b3a40415b
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: b3c32b6d6afa9b640dd379230865728fbd53c925
+ms.sourcegitcommit: af521583b98153f7157895b7ba9de71183d437b0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88571989"
+ms.lasthandoff: 08/31/2020
+ms.locfileid: "89176486"
 ---
 # <a name="automate-onboarding"></a>Автоматизация адаптации
 
@@ -31,6 +31,8 @@ ms.locfileid: "88571989"
 - Включите Управление обновлениями, а также Отслеживание изменений и инвентаризацию для рабочей области.
 
 - Подключение виртуальных машин Azure с помощью политики Azure. Политика устанавливает агент Log Analytics и Microsoft Dependency Agent на виртуальных машинах Azure.
+
+- Автоматическое включение службы архивации Azure для виртуальных машин с помощью [политики Azure](https://docs.microsoft.com/azure/backup/backup-azure-auto-enable-backup)
 
 - Подключите локальные серверы, установив на них агент Log Analytics.
 
