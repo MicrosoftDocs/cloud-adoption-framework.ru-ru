@@ -9,25 +9,21 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-new, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 0c1dd56f5d7c5216693b726de9cb6fbf15a59b8f
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 8af5a34e368d6ffe0774e7437e2fc62e21fa3453
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574471"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885904"
 ---
-<!-- docsTest:ignore "Azure Info Hub" "Azure Charts" "Azure Weekly" -->
-<!-- cSpell:ignore jelledruyts andym endjin AzAdvertizer -->
+<!-- docsTest:casing AzAdvertizer "Azure Info Hub" "Azure Charts" "Azure Weekly" -->
+<!-- cSpell:ignore endjin AzAdvertizer -->
 
 # <a name="stay-current-with-azure"></a>Последние новости об Azure
 
 Облачные платформы, такие как Azure, меняются быстрее, чем того ожидают организации. Эта скорость изменения означает, что организациям приходится адаптировать людей и процессы к новому ритму. Если вы отвечаете за поддержание актуальности процессов организации в соответствии с этими изменениями, то иногда может быть непросто. Перечисленные в этом разделе ресурсы помогут вам поддерживать актуальность процессов.
 
-<!-- markdownlint-disable MD025 -->
-
 ## <a name="top-resources"></a>[Основные ресурсы](#tab/TopResources)
-
-<!-- markdownlint-enable MD025 -->
 
 Следующие ресурсы помогут вам поддерживать актуальность в Azure:
 
@@ -37,11 +33,7 @@ ms.locfileid: "88574471"
 - **Блоги служб.** Для многих отдельных служб Azure ведутся блоги, на которые вы можете подписаться, если пользуетесь этими службами. Найдите нужные вам, выполнив поиск в Интернете.
 - **Информационный центр Azure.** Неофициальный ресурс [Информационный центр Azure](https://azureinfohub.azurewebsites.net) объединяет большинство из перечисленных здесь ресурсов. Переходите по ссылкам для нужных служб, чтобы получить подробные сведения и прочитать блоги этих служб. Подпишитесь на [информационный центр Azure на веб-канале RSS](https://azureinfohub.azurewebsites.net/Feed?serviceTitle=Azure). \*
 
-<!-- markdownlint-disable MD025 -->
-
 ## <a name="additional-resources"></a>[Дополнительные ресурсы](#tab/AdditionalResources)
-
-<!-- markdownlint-enable MD025 -->
 
 Более подробное содержимое, которое поможет поддерживать актуальность процессов и данных в Azure можно найти в следующих ресурсах:
 

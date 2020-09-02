@@ -9,15 +9,13 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 5e6034308a11a8347c3b5126756c6a87d3fe98c0
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 7af9971a74c33ae6994e3fde3d3496c2f2698499
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88570459"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885020"
 ---
-<!-- cSpell:ignore bandersmsft -->
-
 # <a name="migration-focused-cost-control-mechanisms"></a>Механизмы контроля затрат на миграцию
 
 Переход в облако связан с рядом изменений, касающихся того, как мы работаем, независимо от нашей роли в группе по технологиям. Затраты — отличный пример этих изменений. В прошлом затраты на ресурсы ИТ (инфраструктуру, приложения и данные) утверждались только с руководителями финансового одела и отдела ИТ. Облако предоставляет каждому участнику инфраструктуры ИТ возможность принимать решения и делать так, как лучше для пользователей. Тем не менее, принятие таких решений возлагает ответственность за разумность затрат.
@@ -34,7 +32,7 @@ ms.locfileid: "88570459"
 
 Для выполнения процессов, описанных в этой статье, также может потребоваться сотрудничество с руководителями отделов ИТ, финансовых отделов или владельцами бизнес-приложений.
 
-<!-- markdownlint-disable MD024 MD025 -->
+<!-- markdownlint-disable MD024 -->
 
 ## <a name="estimate-vm-costs-prior-to-migration"></a>[Оценка затрат на виртуальные машины перед миграцией](#tab/EstimateVMCosts)
 

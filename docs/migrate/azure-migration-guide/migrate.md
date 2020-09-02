@@ -9,20 +9,18 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 5c8ea1dd6f6ad7d3824264b58bbef87b174d727a
-ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
+ms.openlocfilehash: 7363c62aa5bd6ed13fcd5db8fca92ed51ecf18f9
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88848199"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88885037"
 ---
 <!-- cSpell:ignore Cloudamize agentless uncontained SSMA Carbonite Movere -->
 
 # <a name="deploy-workloads-and-assets-infrastructure-apps-and-data"></a>Развертывание рабочих нагрузок и ресурсов (инфраструктуры, приложений и данных)
 
 На этом этапе перехода вы используете результаты этапа оценки, чтобы инициировать миграцию среды. Это руководство поможет вам найти соответствующие инструменты для достижения состояния готовности. Вы изучите встроенные и сторонние инструменты, а также инструменты для управления проектами.
-
-<!-- markdownlint-disable MD025 -->
 
 ## <a name="native-migration-tools"></a>[Собственные инструменты миграции](#tab/Tools)
 
@@ -160,8 +158,6 @@ Database Experimentation Assistant использует следующие де�
 Дополнительные сведения см. в разделе:
 
 - [Средство переноса данных Azure Cosmos DB](/azure/cosmos-db/import-data)
-
-<!-- markdownlint-disable MD025 -->
 
 ## <a name="third-party-migration-tools"></a>[Инструменты миграции сторонних производителей](#tab/third-party-tools)
 

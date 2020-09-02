@@ -23,34 +23,40 @@ items:
             href: reference/fundamental-concepts/hosting-hierarchy.md
           - name: Поддержка иерархии Azure
             href: reference/fundamental-concepts/hierarchy-azure-tools.md
-      - name: Ускорение миграции
-        href: get-started/migrate.md
-      - name: Создание новых продуктов и услуг
-        href: get-started/innovate.md
-      - name: Устранение ограничений проекта и конфигурации среды
-        href: get-started/design-and-configuration.md
-      - name: Обеспечение успеха клиентов
-        href: get-started/enable.md
-      - name: Обеспечение максимальной эффективности операционных процессов
-        href: get-started/operational-excellence.md
-      - name: Управление затратами на облако
-        href: get-started/manage-costs.md
-      - name: Защита корпоративной среды
-        href: get-started/security.md
-      - name: Повышенная надежность
-        href: get-started/reliability.md
-      - name: Обеспечение стабильной производительности
-        href: get-started/performance.md
-      - name: Согласование процессов в организации
-        href: get-started/org-alignment.md
-      - name: Формирование команды по вопросам облачной стратегии
-        href: get-started/team/cloud-strategy.md
-      - name: Формирование команды по внедрению облачных технологий
-        href: get-started/team/cloud-adoption.md
-      - name: Формирование команды по управлению облачными решениями
-        href: get-started/team/cloud-governance.md
-      - name: Формирование команды по облачным операциям
-        href: get-started/team/cloud-operations.md
+      - name: Ускоренное внедрение
+        items:
+          - name: Ускорение миграции
+            href: get-started/migrate.md
+          - name: Создание новых продуктов и услуг
+            href: get-started/innovate.md
+          - name: Устранение ограничений проекта и конфигурации среды
+            href: get-started/design-and-configuration.md
+      - name: Улучшение возможностей управления
+        items:
+          - name: Обеспечение успеха клиентов
+            href: get-started/enable.md
+          - name: Обеспечение максимальной эффективности операционных процессов
+            href: get-started/operational-excellence.md
+          - name: Управление затратами на облако
+            href: get-started/manage-costs.md
+          - name: Защита корпоративной среды
+            href: get-started/security.md
+          - name: Повышенная надежность
+            href: get-started/reliability.md
+          - name: Обеспечение стабильной производительности
+            href: get-started/performance.md
+      - name: Подготовка команд
+        items:
+          - name: Согласование процессов в организации
+            href: get-started/org-alignment.md
+          - name: Формирование команды по вопросам облачной стратегии
+            href: get-started/team/cloud-strategy.md
+          - name: Формирование команды по внедрению облачных технологий
+            href: get-started/team/cloud-adoption.md
+          - name: Формирование команды по управлению облачными решениями
+            href: get-started/team/cloud-governance.md
+          - name: Формирование команды по облачным операциям
+            href: get-started/team/cloud-operations.md
   - name: Стратегия
     items:
       - name: Обзор
