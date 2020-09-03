@@ -7,12 +7,12 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: 6e3cbf834111b1ce6e68354070e8266a3d1f0d9a
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 01e95d7d2b8126903b4fe0bd8bbdbaa34f6fd5c6
+ms.sourcegitcommit: 78fa714f964225cd5fc7a762e83fafe9b3f9dea1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885564"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89427813"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -56,6 +56,8 @@ ms.locfileid: "88885564"
 | [Шаблон "дисциплина базовых показателей удостоверений"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/identity-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации, чтобы сосредоточиться на требованиях к идентификации. |
 | [Шаблон дисциплины согласованности ресурсов](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/resource-consistency-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на согласованности ресурсов. |
 | [Шаблон по специализации в плане безопасности](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/security-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на базовых показателях безопасности. |
+| [Управление Azure Визуализер — Азговвиз](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) | Азговвиз — это сценарий PowerShell, который перебирает иерархию групп управления клиентами Azure до уровня подписки. Он захватывает наиболее релевантные возможности управления Azure, такие как политика Azure, RBAC и схемы. Из собранных Азговвиз данных обеспечивает видимость на карте иерархии, создает сводку клиента и создает детализированную аналитику области для Группы управления и подписок. |
+
 
 ## <a name="manage"></a>Управление
 

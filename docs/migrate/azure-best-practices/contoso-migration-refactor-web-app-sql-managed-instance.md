@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 services: azure-migrate
-ms.openlocfilehash: 9fef7d751818a897e94225a88e6cecb6dcb36a1c
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 3d95604d9b12a5452853550a655a6c42034d8f23
+ms.sourcegitcommit: 78fa714f964225cd5fc7a762e83fafe9b3f9dea1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882470"
+ms.lasthandoff: 09/03/2020
+ms.locfileid: "89427864"
 ---
 <!-- cSpell:ignore contosohost vcenter contosodc smarthotel SQLMI SHWCF SHWEB -->
 
@@ -97,7 +97,8 @@ ms.locfileid: "88882470"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Azure Database Migration Service](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Узнайте о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) и [ценах на Azure Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
+| [Помощник по миграции службы приложений Azure](/learn/paths/migrate-dotnet-apps-azure/) | Бесплатный и простой путь, позволяющий легко переносить веб-приложения .NET из локальной среды в облако с минимальными изменениями кода. | Это загружаемое средство бесплатно. |
+| [Миграция баз данных Azure](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Узнайте о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) и [ценах на Azure Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
 | [Управляемый экземпляр SQL Azure](/azure/sql-database/sql-database-managed-instance) | SQL Управляемый экземпляр — это управляемая служба базы данных, которая представляет собой полностью управляемый экземпляр SQL Server в Azure. Он использует тот же код, что и последняя версия ядра СУБД SQL Server, и имеет новейшие функции, улучшения производительности и исправления системы безопасности. | При использовании управляемого экземпляра SQL, работающего в Azure, взимается плата в зависимости от емкости. Дополнительные сведения о [ценах на SQL управляемый экземпляр](https://azure.microsoft.com/pricing/details/sql-database/managed). |
 | [Служба приложений Azure](/azure/app-service/overview) | Помогает создавать мощные облачные приложения, использующие полностью управляемую платформу. | Цены основываются на размере, расположении и продолжительности использования. [Подробнее.](https://azure.microsoft.com/pricing/details/app-service/windows) |
 | [Azure Pipelines](/azure/devops/pipelines/get-started/what-is-azure-pipelines) | Предоставляет конвейер непрерывной интеграции и непрерывного развертывания (CI/CD) для разработки приложений. Конвейер начинается с репозитория Git для управления кодом приложения, системы сборки для создания пакетов и других артефактов сборки, а также системы управления выпусками для развертывания изменений в средах разработки, тестирования и рабочей среде. |
@@ -117,14 +118,24 @@ ms.locfileid: "88882470"
 
 > [!div class="checklist"]
 >
-> - **Шаг 1. Настройка управляемого экземпляра SQL**. Компании Contoso необходим существующий управляемый экземпляр, в который будет перенесена локальная база данных SQL Server.
-> - **Шаг 2. Миграция с помощью Azure Database Migration Service**. Компания Contoso переносит базу данных приложений с помощью Azure Database Migration Service.
-> - **Шаг 3. предоставление веб-приложений**. Специалисты компании Contoso выполняют подготовку двух веб-приложений.
+> - **Шаг 1. Оценка и миграция веб-приложений.**.. Contoso использует средство [Помощник по миграции службы приложений Azure](https://azure.microsoft.com/migration/web-applications/) для выполнения проверок совместимости перед миграцией и переноса своих веб-приложений в службу приложений Azure.
+> - **Шаг 2. Настройка управляемого экземпляра SQL**. Компании Contoso необходим существующий управляемый экземпляр, в который будет перенесена локальная база данных SQL Server.
+> - **Шаг 3. Миграция с помощью Azure Database Migration Service**. Компания Contoso переносит базу данных приложений с помощью Azure Database Migration Service.
 > - **Шаг 4. Настройка Azure DevOps**. Специалисты компании Contoso создают новый проект Azure DevOps и импортируют репозитории Git.
 > - **Шаг 5. Настройка строк подключения**. Contoso настраивает строки подключения таким образом, чтобы веб-приложение веб-уровня, веб-приложение службы WCF и управляемый экземпляр SQL могли обмениваться данными.
 > - **Шаг 6. Настройка конвейеров сборки и выпуска в Azure DevOps**. В качестве последнего шага компания Contoso настраивает конвейеры сборки и выпуска в Azure DevOps для создания приложения. Затем команда развертывает конвейеры в два отдельных веб-приложения.
 
-## <a name="step-1-set-up-a-sql-managed-instance"></a>Шаг 1. Настройка управляемого экземпляра SQL
+## <a name="step-1-assess-and-migrate-the-web-apps"></a>Шаг 1. Оценка и миграция веб-приложений
+
+Администраторы Contoso оценивают и переносят свое веб-приложение с помощью средства [Помощник по миграции службы приложений Azure](https://azure.microsoft.com/migration/web-applications/) . В ходе этого процесса они используют [путь обучения Майкрософт](/learn/paths/migrate-dotnet-apps-azure/) в качестве рекомендации. Вкратце, администраторы выполняют следующие действия:
+
+- Они используют средство [оценки миграции службы приложений](https://appmigration.microsoft.com/assessment/) Azure для оценки зависимостей между веб-приложениями и для определения наличия несовместимостей между локальными веб-приложениями и поддерживаемыми службами приложений Azure.
+
+- Они загружают службу приложений Azure Помощник по миграции и входят в свою учетную запись Azure.
+
+- Они выбирают подписку, группу ресурсов и доменное имя веб-сайта.
+
+## <a name="step-2-set-up-a-sql-managed-instance"></a>Шаг 2. Настройка управляемого экземпляра SQL
 
 Чтобы настроить управляемый экземпляр SQL Azure, Contoso требуется подсеть, которая соответствует следующим требованиям:
 
@@ -220,7 +231,7 @@ ms.locfileid: "88882470"
 
 Узнайте, как [подготавливать управляемый экземпляр](/azure/sql-database/sql-database-managed-instance-get-started).
 
-## <a name="step-2-migrate-via-azure-database-migration-service"></a>Шаг 2. Миграция с помощью Azure Database Migration Service
+## <a name="step-3-migrate-via-azure-database-migration-service"></a>Шаг 3. Миграция с помощью Azure Database Migration Service
 
 Администраторы Contoso переходят управляемый экземпляр с помощью Azure Database Migration Service, следуя инструкциям в [руководстве по пошаговому миграции](/azure/dms/tutorial-sql-server-azure-sql-online). Они могут выполнять интерактивные, автономные и гибридные (предварительные) миграции.
 
@@ -237,24 +248,6 @@ ms.locfileid: "88882470"
   - Запустите репликацию.
   - Устраните возможные ошибки.
   - Выполните окончательный прямую миграцию.
-
-## <a name="step-3-provision-web-apps"></a>Шаг 3. предоставление веб-приложений
-
-Сейчас, когда база данных уже перенесена, администраторы Contoso могут подготовить два веб-приложения.
-
-1. В портал Azure они выбирают **веб-приложение**.
-
-    ![Снимок экрана: ссылка "веб-приложение".](./media/contoso-migration-refactor-web-app-sql-managed-instance/web-app1.png)
-
-1. Они предоставляют имя для веб-приложения, **швеб-EUS2**, запускает его в Windows и размещают в группе рабочих ресурсов **ContosoRG** . Специалисты компании создают веб-приложение и план службы приложений Azure.
-
-    ![Снимок экрана: область "веб-приложение" для создания первого веб-приложения.](./media/contoso-migration-refactor-web-app-sql-managed-instance/web-app2.png)
-
-1. После подготовки веб-приложения администратор повторяет процесс создания веб-приложения для службы WCF ( `SHWCF-EUS2` ).
-
-    ![Снимок экрана: область "веб-приложение" для создания второго веб-приложения.](./media/contoso-migration-refactor-web-app-sql-managed-instance/web-app3.png)
-
-1. Администраторы переходят к адресам приложений, чтобы убедиться, что веб-приложения успешно созданы.
 
 ## <a name="step-4-set-up-azure-devops"></a>Шаг 4. Настройка Azure DevOps
 
