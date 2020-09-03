@@ -9,15 +9,13 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 41abba9cadeca1951f6316e49a0d2d58c6ef6569
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 230d5d4927033fe93650b19c152b8db3ab4b70f8
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574522"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884408"
 ---
-<!-- cSpell:ignore dchimes -->
-
 # <a name="manage-costs-and-billing-for-your-azure-resources"></a>Управление затратами и выставление счетов для ресурсов Azure
 
 Управление затратами — это процесс эффективного планирования и контроля затрат, связанных с вашим бизнесом. Обычно задачи по управлению затратами выполняют финансовый отдел, руководство или разработчики приложений. Служба "Управление затратами Azure" и функция выставления счетов помогают организациям планировать затраты. Она также позволяет эффективно анализировать затраты и принимать меры для оптимизации расходов на облако.
@@ -68,7 +66,7 @@ ms.locfileid: "88574522"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Документация по выставлению счетов и управлению затратами в Azure](/azure/billing)
+- [Документация по службе "Управление затратами и выставление счетов Azure"](/azure/billing)
 - [Role-based business units, environments, or projects](../azure-best-practices/track-costs.md) (Отслеживание затрат по бизнес-подразделениям, средам или проектам)
 - [Role-based дисциплина "Управление затратами"](../../govern/cost-management/index.md)
 

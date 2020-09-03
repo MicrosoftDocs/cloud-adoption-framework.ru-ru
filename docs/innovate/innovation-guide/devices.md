@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: aba505bea5b8bafc8a8d49a04c2a0086363d9cc4
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: b0536b627d9039f348f1c069bb1ae5ed4e4e74a6
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88567875"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88882997"
 ---
 <!-- cSpell:ignore umarmohamedusman umarm Moovit -->
 
@@ -34,11 +34,7 @@ ms.locfileid: "88567875"
 > - [SQL Azure для пограничных вычислений](/azure/azure-sql-edge/overview)
 > - [IoT Plug and Play](/azure/iot-pnp/overview-iot-plug-and-play)
 
-<!-- markdownlint-disable MD025 -->
-
 ## <a name="global-scale-iot-service"></a>[Служба Интернета вещей глобального масштаба](#tab/IoTHub)
-
-<!-- markdownlint-enable MD025 -->
 
 Архитектурные решения, которые осуществляют двунаправленную связь с устройствами Интернета вещей в масштабе миллиардов. Благодаря готовым данным телеметрии, отправляемым с устройства в облако, вы можете узнать состояние своих устройств и определить маршруты сообщений для других служб Azure с помощью конфигурации. Используя сообщения из облака на устройство, вы можете надежно пересылать команды и уведомления для подключенных устройств и отслеживать доставку сообщений с помощью уведомлений о получении. Кроме того, вы автоматизируете повторную отправку сообщений с устройств, чтобы обеспечить надлежащую работу при прерывистом подключении.
 
@@ -92,8 +88,6 @@ ms.locfileid: "88567875"
 
 ::: zone-end
 
-<!-- markdownlint-disable MD025 -->
-
 ## <a name="azure-digital-twins"></a>[Azure Digital Twins](#tab/DigitalTwins)
 
 Разрабатывайте многоразовые высокомасштабируемые пространственно-ориентированные интерфейсы, которые связывают потоковые данные в цифровом и реальном мире. Повысьте уровень взаимодействия с клиентами, используя комплексные модели физических сред. Создавайте пространственные интеллектуальные графы для моделирования связей и взаимодействий между людьми, расположениями и устройствами. Запрашивайте данные непосредственно из физического пространства, а не разрозненных датчиков.
@@ -128,8 +122,6 @@ ms.locfileid: "88567875"
 <!-- markdownlint-enable DOCSMD001 -->
 
 ::: zone-end
-
-<!-- markdownlint-disable MD025 -->
 
 ## <a name="location-intelligence"></a>[Аналитика расположения](#tab/AzureMaps)
 

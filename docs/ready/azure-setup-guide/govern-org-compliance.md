@@ -9,17 +9,13 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 6e83c1deceed6e6c49e197d88d60ea641b00b1c5
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: d6b4e20d484bb055beaf6998e9aca6f97437217c
+ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88575236"
+ms.lasthandoff: 08/26/2020
+ms.locfileid: "88884476"
 ---
-<!-- cSpell:ignore tvuylsteke >
-
-<!-- markdownlint-disable MD024 MD025 -->
-
 # <a name="governance-security-and-compliance-in-azure"></a>Система управления, безопасность и соответствие требованиям в Azure
 
 При создании корпоративной политики и планировании стратегий управления вы можете использовать средства и службы, такие как Политика Azure, Azure Blueprints и Центр безопасности Azure, для применения и автоматизации решений по управлению вашей организацией. Прежде чем приступить к планированию управления, [используйте средство тестирования производительности системы управления](https://cafbaseline.com). Они помогут выделить потенциальные промахи в подходе к облачному управлению в вашей организации. Дополнительные сведения о разработке процессов управления см. в статье о [методике управления](../../govern/index.md).
@@ -54,9 +50,7 @@ ms.locfileid: "88575236"
 
 ::: zone target="docs"
 
-<!-- docsTest:ignore "Next : Artifacts" "Blueprints: Get started" "Blueprints: Blueprint definitions" -->
-
-1. Выберите [Схемы: Get started](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted) (Схемы: начало работы).
+1. На портале Azure перейдите к разделу [Схемы: Get started](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/GetStarted) (Схемы: начало работы).
 1. В разделе **Создание схемы** выберите **Создать**.
 1. Отфильтруйте список схем, чтобы выбрать соответствующую схему.
 1. Укажите **имя схемы** и выберите соответствующий **источник определения**.
@@ -82,7 +76,7 @@ ms.locfileid: "88575236"
 
 ::: zone target="docs"
 
-1. Выберите [Схемы: Определения схем](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
+1. На портале Azure перейдите к разделу [Схемы: Определения схем](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
 1. Выберите определение схемы, созданное ранее.
 1. Проверьте определение схемы и щелкните **Опубликовать схему**.
 1. Укажите **версию** (например, _1.0_) и все **заметки об изменениях**, а затем выберите **Опубликовать**.
