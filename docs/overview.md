@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: homepage
-ms.openlocfilehash: 59c4e0b28d36167f34e538d28f5944cb4002b342
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: ffa91cb9b608db3cf92d72d2bc3b857344197f9d
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885734"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510487"
 ---
 # <a name="what-is-the-microsoft-cloud-adoption-framework-for-azure"></a>Что такое платформа внедрения Microsoft Cloud для Azure?
 
@@ -29,8 +29,8 @@ ms.locfileid: "88885734"
 
 Инфраструктура внедрения облачных решений объединяет лучшие решения по внедрению облачных технологий от сотрудников Майкрософт, партнеров и клиентов. Он предоставляет набор средств, руководств и руководства, которые помогают соформировать технологические и бизнес-стратегии для принятия желаемых результатов бизнеса в ходе усилий по внедрению. Это руководство соответствует следующим этапам жизненного цикла внедрения в облако, предоставляя вам удобный доступ к нужным рекомендациям в нужное время.
 
-|  |  |  |  |  |
-|--|--|--|--|--|
+| <span title="Значок">&nbsp;</span> | <span title="Nописание">&nbsp;</span> | <span title="Значок">&nbsp;</span> | <span title="Nописание">&nbsp;</span> |
+|--|--|--|--|
 | <br> ![Значок стратегии](./_images/icons/strategy.png) | <br> [Стратегия](./strategy/index.md). &nbsp; Определите &nbsp; деловое &nbsp; обоснование &nbsp; и ожидаемые результаты внедрения. | <br> ![Значок плана](./_images/icons/plan.png) | <br> [Планирование](./plan/index.md): &nbsp; согласование &nbsp; &nbsp; планов принятия &nbsp; с действием с результатами бизнеса. |
 | <br> ![Значок "Готово"](./_images/icons/ready.png)       | <br> [Готово](./ready/index.md): Подготовьте облачную среду к запланированным изменениям. | <br> ![Значок переноса](./_images/icons/adopt.png) | <br> [Миграция](./migrate/index.md): миграция и модернизировать существующих рабочих нагрузок. |
 | <br> ![Значок инноваций](./_images/icons/innovate.png) | <br> [Инновации](./innovate/index.md): Разработка новых облачных или гибридных решений. | <br> ![Управляющий значок](./_images/icons/govern.png) | <br> Управление [: Управление](./govern/index.md)средой и рабочими нагрузками. |

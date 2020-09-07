@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: operating-model
-ms.openlocfilehash: 137a19423a5dd780abc552feb2a68ef11d8a11d5
-ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
+ms.openlocfilehash: aac174a109954c04fa192e4d2d62926433d95dfc
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88662274"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510589"
 ---
 # <a name="compare-common-cloud-operating-models"></a>Сравнение распространенных облачных операционных моделей
 
@@ -34,12 +34,12 @@ ms.locfileid: "88662274"
 
 |  | Децентрализованные операции (OPS) | Централизованные операции (OPS) | Корпоративные операции (OPS) | Распределенные операции (OPS) |
 |--|--|--|--|--|
-| **Стратегический приоритет** | Инновации | Control | демократизатион | Интеграция |
+| **Стратегический приоритет** | Инновации | Элемент | демократизатион | Интеграция |
 | **Область портфеля** | Рабочая нагрузка | Целевая зона | Облачная платформа | Полное портфолио |
 | **Среда рабочей нагрузки** | Высокая сложность | Низкая сложность | Средняя сложность | Средняя или переменная сложность |
-| **Целевая зона** | н/д | Высокая сложность | От средней до низкой сложности | Низкая сложность |
-| **Основные служебные программы** | н/д | Н/д или низкая поддержка | Централизованная и дополнительная поддержка | Большинство поддерживаемых |
-| **Cloud Foundation** | Недоступно | Недоступно | Гибридные, Специальные и региональные фонды | Распределенные и синхронизированные |
+| **Целевая зона** | Н/Д | Высокая сложность | От средней до низкой сложности | Низкая сложность |
+| **Основные служебные программы** | Н/Д | Н/д или низкая поддержка | Централизованная и дополнительная поддержка | Большинство поддерживаемых |
+| **Cloud Foundation** | Н/Д | Н/Д | Гибридные, Специальные и региональные фонды | Распределенные и синхронизированные |
 
 - **Стратегические приоритеты или [мотивации](../strategy/motivations.md).** каждая операционная модель может предоставлять типичные [стратегические мотивации для внедрения в облако](../strategy/motivations.md). Однако некоторые операционные модели упрощают реализацию определенных причин.
 
@@ -54,11 +54,11 @@ ms.locfileid: "88662274"
 
 ||Децентрализованные Ops |Централизованные Ops  |Корпоративные операции          |Распределенные Ops|
 |---------              |---------      |---------    |---------          |---------|
-|Соответствие бизнес-целям|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Стратегия центрального облака](../organize/cloud-strategy.md)|[ккое](../organize/cloud-center-of-excellence.md)|Переменная — [формирование обширной группы стратегий облака?](../get-started/team/cloud-strategy.md)|
-|[Операции в облаке](../organize/cloud-operations.md)|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Центральный ИТ-отдел](../organize/central-it.md)|[ккое](../organize/cloud-center-of-excellence.md)|На основе анализа портфеля — см. сведения о [корпоративном выравнивании](../manage/considerations/business-alignment.md) и [бизнес-обязательствах](../manage/considerations/commitment.md)|
-|[Система управления облаком](../organize/cloud-governance.md)|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Центральный ИТ-отдел](../organize/central-it.md)|[ккое](../organize/cloud-center-of-excellence.md)|[Использование нескольких уровней управления](../govern/guides/complex/multiple-layers-of-governance.md)|
-|[Безопасность в облаке](../organize/cloud-security.md)|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Центр обеспечения безопасности (SOC)](../organize/cloud-security-operations-center.md)|[Ккое](../organize/cloud-center-of-excellence.md)  +  [SoC](../organize/cloud-security-operations-center.md)|Смешанная — см. раздел [Определение стратегии безопасности](../strategy/define-security-strategy.md) .|
-|[Облачная Автоматизация и DevOps](../organize/cloud-automation.md)|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Центральная ИТ](../organize/central-it.md) или N/A|[ккое](../organize/cloud-center-of-excellence.md)|На основе анализа портфеля — см. сведения о [корпоративном выравнивании](../manage/considerations/business-alignment.md) и [бизнес-обязательствах](../manage/considerations/commitment.md)|
+|**Соответствие бизнес-целям**|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Стратегия центрального облака](../organize/cloud-strategy.md)|[ккое](../organize/cloud-center-of-excellence.md)|Переменная — [формирование обширной группы стратегий облака?](../get-started/team/cloud-strategy.md)|
+|**[Операции в облаке](../organize/cloud-operations.md)**|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Центральный ИТ-отдел](../organize/central-it.md)|[ккое](../organize/cloud-center-of-excellence.md)|На основе анализа портфеля — см. сведения о [корпоративном выравнивании](../manage/considerations/business-alignment.md) и [бизнес-обязательствах](../manage/considerations/commitment.md)|
+|**[Система управления облаком](../organize/cloud-governance.md)**|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Центральный ИТ-отдел](../organize/central-it.md)|[ккое](../organize/cloud-center-of-excellence.md)|[Использование нескольких уровней управления](../govern/guides/complex/multiple-layers-of-governance.md)|
+|**[Безопасность в облаке](../organize/cloud-security.md)**|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Центр обеспечения безопасности (SOC)](../organize/cloud-security-operations-center.md)|[Ккое](../organize/cloud-center-of-excellence.md)  +  [SoC](../organize/cloud-security-operations-center.md)|Смешанная — см. раздел [Определение стратегии безопасности](../strategy/define-security-strategy.md) .|
+|**[Облачная Автоматизация и DevOps](../organize/cloud-automation.md)**|[Группа рабочей нагрузки](../organize/cloud-adoption.md)|[Центральная ИТ](../organize/central-it.md) или N/A|[ккое](../organize/cloud-center-of-excellence.md)|На основе анализа портфеля — см. сведения о [корпоративном выравнивании](../manage/considerations/business-alignment.md) и [бизнес-обязательствах](../manage/considerations/commitment.md)|
 
 ### <a name="accelerate-operating-model-implementation-in-azure"></a>Ускорение реализации рабочей модели в Azure
 
