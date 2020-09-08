@@ -7,12 +7,12 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 84ec7f75ca3d6a1ab38fd82db6725a7d9aae4e97
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 4a0e0a00a644d1034593752bafe453ecbba07815
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885887"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510572"
 ---
 # <a name="develop-a-cloud-adoption-strategy"></a>Создание стратегии внедрения в облако
 
@@ -20,7 +20,7 @@ ms.locfileid: "88885887"
 
 Следующие задачи помогут вам задокументировать бизнес-стратегию. Этот подход поможет преобразовать ваши действия по внедрению облачных технологий, для которых поставлены конкретные бизнес-цели, в действенную многофункциональную модель. Затем вы сможете сопоставить стратегию перехода в облако с возможностями конкретного облака и бизнес-стратегиями для достижения требуемого состояния преобразования.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![1](../_images/icons/1.png) | <br> [Определение и документирование целей.](./motivations.md) Определите с ключевыми заинтересованными лицами и руководителями цели внедрения в облако. |
 | <br> ![2](../_images/icons/2.png) | <br> [Структура бизнес-результатов.](./business-outcomes/index.md) Определите с ключевыми заинтересованными лицами и руководителями желаемые бизнес-результаты. |

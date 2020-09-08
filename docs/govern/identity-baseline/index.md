@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: c3e6c28313353b38a160fc2881b11b07bd567376
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: fcd73b815150e32b2d7077ad12b1c45807d26491
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88880260"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510317"
 ---
 # <a name="identity-baseline-discipline-overview"></a>Общие сведения о дисциплине базовой системы идентификации
 
@@ -37,7 +37,7 @@ ms.locfileid: "88880260"
 
 В следующих пунктах показаны примеры и потенциальные варианты, которые следует учитывать при разработке дисциплины "Базовые средства идентификации". Используйте каждый пункт как отправную точку при принятии решений с участием команды по управлению облачными решениями и соответствующими бизнес-представителями, а также с ИТ-отделами вашей организации. Так вы сможете определить политики и способы управления рисками, связанными с идентификацией.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![Значок шаблона](../../_images/govern/process-template.png)   | <br> [Шаблон дисциплины "Базовые средства идентификации".](./template.md) Скачайте шаблон для документирования дисциплины "Базовые средства идентификации". |
 | <br> ![Значок рисков](../../_images/govern/process-risks.png)         | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Базовая система идентификации". |

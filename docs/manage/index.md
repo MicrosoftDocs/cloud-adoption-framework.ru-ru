@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 8867c16325b936b847355aba1ace2a99306bf173
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: be3c9b3781ac252e965a394e9fb35b2e91fca592
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88877744"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510504"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Управление облаком в соответствии с Cloud Adoption Framework
 
@@ -22,7 +22,7 @@ ms.locfileid: "88877744"
 
 Для подготовки к этому этапу внедрения облачных технологий на платформе предусмотрены следующие упражнения.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![1](../_images/icons/1.png) | <br> [Определение базового плана управления.](./azure-management-guide/index.md) Определите категории важности, инструменты управления облаком и процессы, необходимые для выполнения минимальных обязательств по управлению операциями. |
 | <br> ![2](../_images/icons/2.png) | <br> [Определение бизнес-обязательств.](./considerations/business-alignment.md) Задокументируйте поддерживаемые рабочие нагрузки, чтобы определить операционные обязательства в соответствии с бизнес-целями и согласовать инвестиции в решения по управлению облаком для каждой рабочей нагрузки. |

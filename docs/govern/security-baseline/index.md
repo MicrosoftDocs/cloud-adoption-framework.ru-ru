@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 17b40a610bae3cd8af6b35dd8f95797c720b473f
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: d9267c51eb0237e92ed838979090926c82e69971
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879104"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510385"
 ---
 # <a name="security-baseline-discipline-overview"></a>Общие сведения об основных способах защиты
 
@@ -37,7 +37,7 @@ ms.locfileid: "88879104"
 
 В следующих пунктах показаны примеры и потенциальные варианты, которые следует учитывать при разработке дисциплины "Основные способы защиты". Используйте каждый пункт как отправную точку при принятии решений с участием команды по управлению облачными решениями и соответствующими бизнес-представителями, а также с ИТ-отделами вашей организации и отделами по обеспечению безопасности. Так вы сможете определить политики и способы управления рисками, связанными с безопасностью.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![Значок шаблона](../../_images/govern/process-template.png) | <br> [Шаблон дисциплины "Основные способы защиты".](./template.md) Скачайте шаблон для документирования дисциплины "Основные способы защиты". |
 | <br> ![Значок рисков](../../_images/govern/process-risks.png) | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Основные способы защиты". |

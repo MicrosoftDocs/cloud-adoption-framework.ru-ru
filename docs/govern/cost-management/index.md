@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 37f77ab319cb68d2295ba9b2ef12b27726015f02
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 6395e0e5347c0069dd25dc1755000bc823e9f189
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88883830"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510453"
 ---
 # <a name="cost-management-discipline-overview"></a>Обзор дисциплины "Управление затратами"
 
@@ -35,7 +35,7 @@ ms.locfileid: "88883830"
 
 Следующие шаги помогут вам определить политики системы управления для контроля затрат в вашей среде.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![Значок шаблона](../../_images/govern/process-template.png) | <br> [Шаблон дисциплины "Управление затратами".](./template.md) Скачайте шаблон для документирования дисциплины "Управление затратами". |
 | <br> ![Значок рисков](../../_images/govern/process-risks.png) | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Управление затратами". |

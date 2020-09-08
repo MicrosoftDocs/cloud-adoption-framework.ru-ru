@@ -7,12 +7,12 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 759ac124bed7bab6ed8bca6efff3278efbc0759d
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 74cee491548c833924ce3439b86757dc203fd0a6
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574352"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510470"
 ---
 # <a name="develop-a-cloud-adoption-plan"></a>Создание плана внедрения в облако
 
@@ -20,7 +20,7 @@ ms.locfileid: "88574352"
 
 Следующие задачи помогут вам определить стратегию использования существующих технологий. Этот подход предполагает приоритизацию задач. Затем вам нужно согласовать план с показателями и целями, определенными стратегией внедрения в облако.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![1](../_images/icons/1.png) | <br> [Цифровые активы.](../digital-estate/rationalize.md) Оцените свои цифровые активы с учетом определенных целей и желаемых бизнес-результатов. |
 | <br> ![2](../_images/icons/2.png) | <br> [Первоначальное согласование процессов.](./initial-org-alignment.md) Создайте план первоначального согласования процессов в соответствии с планом внедрения. |

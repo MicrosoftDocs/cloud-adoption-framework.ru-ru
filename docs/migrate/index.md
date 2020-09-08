@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: seo-azure-migrate
-ms.openlocfilehash: e84bba82e088c1326ecabf420866fe3ed3240660
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 56052fb7f9e4837d821637e5b7525521a7737bdb
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885972"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510351"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
@@ -22,7 +22,7 @@ ms.locfileid: "88885972"
 
 Для подготовки к этому этапу внедрения облачных технологий мы рекомендуем следующее:
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![1](../_images/icons/1.png) | <br> [Перенос первой рабочей нагрузки.](./azure-migration-guide/index.md) Ознакомьтесь с собственными средствами Azure и подходом к миграции, описанными в руководстве по миграции Azure. |
 | <br> ![2](../_images/icons/2.png) | <br> [Сценарии миграции.](./azure-best-practices/index.md) Реализуйте альтернативные сценарии миграции с использованием дополнительных средств и подходов. |

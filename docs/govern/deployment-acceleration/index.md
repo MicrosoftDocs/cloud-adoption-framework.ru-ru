@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d255fd0b4b7727ea72ee7219673fb91632f03568
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 1bc95e74444485a86989c38133943c7cbd7201cc
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88883541"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510402"
 ---
 # <a name="deployment-acceleration-discipline-overview"></a>Общие сведения о дисциплине "Ускорение развертывания"
 
@@ -37,7 +37,7 @@ ms.locfileid: "88883541"
 
 Следующие шаги помогут определить политики системы управления для контроля развертывания и настройки ресурсов в вашей облачной среде.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![Значок шаблона](../../_images/govern/process-template.png) | <br> [Шаблон дисциплины "Ускорение развертывания".](./template.md) Скачайте шаблон для документирования дисциплины "Ускорение развертывания". |
 | <br> ![Значок рисков](../../_images/govern/process-risks.png) | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Ускорение развертывания".|

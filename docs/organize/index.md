@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 6b942705282204adaa9cdb7949091341392a121a
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: c6f0c69b37f2f1409d0812701cb089092ae8af2d
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884918"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510538"
 ---
 # <a name="manage-organizational-alignment"></a>Управление бизнес-согласованием
 
@@ -21,7 +21,7 @@ ms.locfileid: "88884918"
 
 Ниже описана последовательность задач, которые вам нужно выполнить, чтобы создать зону размещения для внедрения в облако.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![1](../_images/icons/1.png) | <br> [Тип организационной структуры.](#structure-type) Определите тип организационной структуры, который наилучшим образом подходит для вашей операционной модели. |
 | <br> ![2](../_images/icons/2.png) | <br> [Функции облака.](#understand-required-cloud-functions) Определите функциональные возможности облачных служб, реализация которых в организации необходима для внедрения и использования облачных технологий. |

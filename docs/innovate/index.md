@@ -7,12 +7,12 @@ ms.date: 05/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 4c037670f19a8a448f3a8632929bca5f81e92d2b
-ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
+ms.openlocfilehash: ecb15716089ac4e94bc671e99442170f4f8b184f
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88662376"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510521"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Облачные инновации в Cloud Adoption Framework
 
@@ -22,7 +22,7 @@ ms.locfileid: "88662376"
 
 Для подготовки к этому этапу внедрения облачных технологий на платформе предусмотрены следующие упражнения.
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![1](../_images/icons/1.png) | <br> [Согласование действий по повышению рентабельности.](./business-value.md) Прежде чем принимать технические решения, определите, как инновации могут способствовать повышению рентабельности. Согласуйте действия по повышению рентабельности со своей стратегией перехода в облако. При использовании этой пошаговой методики рентабельность зависит от предполагаемых потребностей клиентов. |
 | <br> ![2](../_images/icons/2.png) | <br> [Руководство по инновациям Azure.](./innovation-guide/index.md) Azure предлагает облачные средства, которые ускоряют развертывание инновационных решений. Вы можете использовать разные сочетания средств с учетом своих задач. Мы рекомендуем создать минимально жизнеспособный продукт (MVP) с использованием базовых средств. |

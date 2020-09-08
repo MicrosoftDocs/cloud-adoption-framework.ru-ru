@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: ba59b5e67a9cd7a64b116852190a1428503174ee
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 4affc50cbe431b8bff780e81487f9d3611e9ecd8
+ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879478"
+ms.lasthandoff: 09/07/2020
+ms.locfileid: "89510419"
 ---
 # <a name="resource-consistency-discipline-overview"></a>Общие сведения о дисциплине "Согласованность ресурсов"
 
@@ -37,7 +37,7 @@ ms.locfileid: "88879478"
 
 В следующих пунктах показаны примеры и возможные варианты, которые следует учитывать при разработке дисциплины "Согласованность ресурсов". Используйте каждый пункт как отправную точку при принятии решений с участием команды по управлению облачными решениями и соответствующими бизнес-представителями, а также с ИТ-отделами вашей организации. Так вы сможете определить политики и процессы управления рисками, связанными с дисциплиной "Согласованность ресурсов".
 
-|  |  |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![Значок шаблона](../../_images/govern/process-template.png) | <br> [Шаблон дисциплины "Согласованность ресурсов".](./template.md) Скачайте шаблон для документирования дисциплины "Согласованность ресурсов". |
 | <br> ![Значок рисков](../../_images/govern/process-risks.png) | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Согласованность ресурсов". |
