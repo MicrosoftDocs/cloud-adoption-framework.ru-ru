@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 74d072210721212881ed7c9e8b17bcc2ce38573a
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.openlocfilehash: 113ecc375bfe76ed1772aca2f24b8fe37d5f8f17
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223394"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89605262"
 ---
 # <a name="review-rationalization-decisions"></a>Просмотр решений о рационализации
 
