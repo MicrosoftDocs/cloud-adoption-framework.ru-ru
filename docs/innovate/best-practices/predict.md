@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: c900c19f6d2472ca9166ed8ab856e25f9e328eee
-ms.sourcegitcommit: d31a9043d1ae9283ed126bf118ca26d1d18d6948
+ms.openlocfilehash: 34c23f025cb12564338c2c00a5926c27a54c3a5e
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88040615"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89604504"
 ---
 # <a name="use-innovation-tools-to-predict-and-influence"></a>Использование средств внедрения инноваций для прогнозирования и влияния
 
@@ -29,4 +29,4 @@ ms.locfileid: "88040615"
 В оглавлении в левой части этой страницы показано множество статей. Эти статьи помогут вам приступить к работе с каждой из областей решения.
 
 > [!NOTE]
-> Некоторые ссылки могут покинуть облачную платформу внедрения для Azure, чтобы вы могли выйти за рамки этой платформы.
+> Некоторые ссылки могут покинуть облачную инфраструктуру внедрения, которая поможет вам выйти за рамки этой платформы.

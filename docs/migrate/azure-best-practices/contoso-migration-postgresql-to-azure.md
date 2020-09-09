@@ -1,5 +1,5 @@
 ---
-title: Миграция баз данных PostgreSQL в Microsoft Azure
+title: Миграция баз данных PostgreSQL в Azure
 description: Узнайте, как компания Contoso перенеса свои локальные базы данных PostgreSQL в Azure.
 author: deltadan
 ms.author: abuck
@@ -7,17 +7,16 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: azure-migrate
-ms.openlocfilehash: 35fdbcf69fc4e86f4f785bd871082b974b1f6203
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 9f9dfee1aca21acbbf0f840b79d61501ad90c73a
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882147"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89603872"
 ---
 <!-- cSpell:ignore BYOK postgres psql dvdrental vpngateways -->
 
-# <a name="migrate-postgresql-databases-to-microsoft-azure"></a>Миграция баз данных PostgreSQL в Microsoft Azure
+# <a name="migrate-postgresql-databases-to-azure"></a>Миграция баз данных PostgreSQL в Azure
 
 В этой статье показано, как вымышленная компания Contoso планирует и перенеса свою локальную платформу базы данных PostgreSQL с открытым кодом в Azure.
 
@@ -123,7 +122,7 @@ Contoso потребуется оценить текущую базу данны
 Компания Contoso может выполнять миграцию несколькими способами:
 
 - [Дамп и восстановление](/azure/postgresql/howto-migrate-using-dump-and-restore)
-- [Azure Database Migration Service](/azure/dms/tutorial-postgresql-azure-postgresql-online)
+- [Миграция баз данных Azure](/azure/dms/tutorial-postgresql-azure-postgresql-online)
 - [Импорт и экспорт](/azure/postgresql/howto-migrate-using-export-and-import)
 
 Компания Contoso выбрала Azure Database Migration Service, чтобы позволить компании повторно использовать проект миграции при необходимости выполнять основные обновления. Поскольку одно действие Database Migration Service поддерживает только до четырех баз данных, Contoso настраивает несколько заданий, выполнив следующие действия.
@@ -145,7 +144,7 @@ Contoso потребуется оценить текущую базу данны
     ![Снимок экрана с экраном "Создание службы миграции".](./media/contoso-migration-postgresql-to-azure/azure_migration_service_create.png)
     _Рис. 3. Проверка и создание._
 
-1. Нажмите кнопку **Создать**.
+1. Нажмите кнопку **создания**.
 
 ### <a name="create-an-azure-database-for-postgresql-instance"></a>Создание экземпляра Базы данных Azure для PostgreSQL
 

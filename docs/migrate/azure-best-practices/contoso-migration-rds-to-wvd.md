@@ -7,15 +7,15 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: azure-migrate
-ms.openlocfilehash: da555c34bec26cbfb6e3edf5ac078568a8ba0ccd
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 6c4259f112c74d6f5fb7c24a0ca409e25ff68268
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882164"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89602664"
 ---
-<!-- cSpell:ignore msiexec Logix Lakeside SysTrack Robocopy UPD UPDs -->
+<!-- docutune:casing Lakeside SysTrack -->
+<!-- cSpell:ignore msiexec Logix Robocopy UPDs -->
 
 # <a name="move-on-premises-remote-desktop-services-to-azure-windows-virtual-desktop-scenario"></a>Перенос локального службы удаленных рабочих столов в сценарий виртуальных рабочих столов Windows в Azure
 
@@ -210,11 +210,9 @@ Contoso переместит виртуальные машины в виртуа
 
     > [!NOTE]
     > Компания Contoso не может создать новую виртуальную сеть на этом шаге. Перед достижением этого шага Contoso должен уже создать виртуальную сеть, имеющую доступ к Active Directory.
-
-   <!-- -->
-
+    <!-- -->
     > [!NOTE]
-    > Contoso не может использовать учетную запись пользователя, требующую многофакторную проверку подлинности на этом шаге. Если Contoso планирует использовать многофакторную проверку подлинности для своих пользователей, для этой цели потребуется создать субъект-службу.
+    > Contoso не может использовать учетную запись пользователя, на этом этапе требуется многофакторная проверка подлинности. Если Contoso планирует использовать многофакторную проверку подлинности для своих пользователей, для этой цели потребуется создать субъект-службу.
 
 1. Contoso выполняет еще одну проверку параметров виртуальных рабочих столов Windows и создает новую среду виртуальных машин Windows для виртуальных рабочих столов в составе пула.
 

@@ -1,6 +1,6 @@
 ---
 title: Пять аспектов управления облаком
-description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать об управлении затратами, ускорении развертывания, базовом удостоверении, согласованности ресурсов и базовых показателях безопасности.
+description: Используйте платформу внедрения облаков для Azure, чтобы узнать об управлении затратами, базовом плане безопасности, базовом удостоверении, согласованности ресурсов и дисциплинах ускорения развертывания.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/17/2019
@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 176d9bfac74890d80dd5a36d4a3b6fc51863e027
-ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
+ms.openlocfilehash: daf25b3027d0eb5becff23c96fa9bd2f6f30476d
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89510436"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89605008"
 ---
 # <a name="the-five-disciplines-of-cloud-governance"></a>Пять аспектов управления облаком
 
-<!-- docutune:casing "Disciplines of Cloud Governance" "Cost Management" "Deployment Acceleration" "Identity Baseline" "Resource Consistency" "Security Baseline" -->
+<!-- docutune:casing "Disciplines of Cloud Governance" "Cost Management" "Security Baseline" "Identity Baseline" "Resource Consistency" "Deployment Acceleration" -->
 
 :::row:::
     :::column:::
@@ -32,7 +32,7 @@ ms.locfileid: "89510436"
 
 С любой облачной платформой существуют распространенные дисциплины управления, которые помогают сообщать о политиках и выровняйте цепочек инструментов. Эти дисциплины помогут принять решения о правильном уровне автоматизации и применении корпоративной политики для облачных платформ.
 
-| <span title="Значок">&nbsp;</span> | <span title="Nописание">&nbsp;</span> |
+| <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
 | <br> ![Управление затратами](../_images/govern/cost-management.png) | <br> [Управление затратами](./cost-management/index.md). стоимость — это основная проблема для облачных пользователей. Разработайте политику контроля затрат для всех облачных платформ. |
 | <br> ![Основные способы защиты](../_images/govern/security-baseline.png) | <br> [Базовый уровень безопасности](./security-baseline/index.md). безопасность — это сложная тема, уникальная для каждой компании. После установки требований безопасности политики управления облаком и принудительное применение применяют эти требования в конфигурациях сети, данных и ресурсов.|

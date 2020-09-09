@@ -7,13 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: azure-migrate
-ms.openlocfilehash: 80b34b343ca3ee43bbf8fc8eab6d9972fcddda39
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 9d9a50cb9b42ff20fde8dea8b1a935da7ea12d07
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88877540"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89602427"
 ---
 <!-- cSpell:ignore WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless -->
 
@@ -75,7 +74,7 @@ ms.locfileid: "88877540"
 | Рассматриваемый вопрос | Сведения |
 | --- | --- |
 | **Преимущества** | Виртуальные машины приложений будут перемещены в Azure без изменений, упрощая миграцию. <br><br> Поскольку компания Contoso использует подход с приближением и сдвигом для обеих виртуальных машин приложений, для базы данных приложения не требуются специальные средства настройки или миграции. <br><br> Компания Contoso может воспользоваться преимуществами инвестиций в Software Assurance с помощью Преимущество гибридного использования Azure. <br><br> Contoso будет хранить полный контроль над виртуальными машинами приложений в Azure. |
-| **Недостатки** | `WEBVM` и работают `SQLVM` под Windows Server 2008 R2. Azure поддерживает операционную систему для конкретных ролей. [Подробнее.](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines) <br><br> Веб-уровни и уровень данных приложения остаются едиными точками отказа. <br><br> `SQLVM` работает на SQL Server 2008 R2. SQL Server 2008 R2 больше не находится в основной поддержке, но поддерживается для виртуальных машин Azure. [Подробнее.](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support) <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure или база данных SQL Azure. |
+| **Недостатки** | `WEBVM` и работают `SQLVM` под Windows Server 2008 R2. Azure поддерживает операционную систему для конкретных ролей. [Подробнее](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines). <br><br> Веб-уровни и уровень данных приложения остаются едиными точками отказа. <br><br> `SQLVM` работает на SQL Server 2008 R2. SQL Server 2008 R2 больше не находится в основной поддержке, но поддерживается для виртуальных машин Azure. [Подробнее](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support). <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure или база данных SQL Azure. |
 
 ### <a name="migration-process"></a>Процесс миграции
 

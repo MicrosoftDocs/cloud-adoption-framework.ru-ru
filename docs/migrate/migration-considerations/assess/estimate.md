@@ -7,12 +7,12 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8a76d0bec6958bbed8abac2f0defe50a8233a480
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 37f7186e1d74dc9e3995bffbe775bb2111156f2a
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88570238"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89603638"
 ---
 # <a name="estimate-cloud-costs"></a>Оценка затрат на облако
 
@@ -36,7 +36,7 @@ ms.locfileid: "88570238"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-После оценки затрат можно приступить к процессу миграции. Однако сначала целесообразно ознакомиться с [вариантами партнерства и поддержки](./partnership-options.md).
+После оценки затрат можно приступить к процессу миграции. Однако сначала целесообразно ознакомиться с вариантами партнерства и поддержки.
 
 > [!div class="nextstepaction"]
-> [Общие сведения о вариантах партнерства](./partnership-options.md)
+> [Общие сведения о вариантах партнерства и поддержки](./partnership-options.md)

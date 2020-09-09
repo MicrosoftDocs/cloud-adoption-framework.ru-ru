@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 3eee0e1b6b7e2ceb64f180fe97984e4c39a8ea7a
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 35e6806fe93607e4797bdcd20302fec09032778e
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884867"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89605192"
 ---
 # <a name="create-your-initial-azure-subscriptions"></a>Создание первоначальных подписок Azure
 
@@ -23,12 +23,10 @@ ms.locfileid: "88884867"
 Начните с создания двух подписок:
 
 - Создайте одну подписку Azure, которая будет содержать рабочие нагрузки.
-- Создайте вторую подписку, которая будет использоваться в качестве бесплатной среды (разработки и тестирования), используя предложение по разработке [и тестированию Azure](https://azure.microsoft.com/pricing/dev-test) для более низкой цены.
+- Создайте вторую подписку, которая будет использоваться в качестве непродуктивной среды, используя предложение по разработке [и тестированию Azure](https://azure.microsoft.com/pricing/dev-test) для снижения цен.
 
 ![Начальная модель подписки, показывающая ключи рядом с полями "производство" и "непроизводство" ](../../_images/ready/initial-subscription-model.png)
  _рис. 1. модель начальной подписки с ключами рядом с полями "производство" и "непроизводство"._
-
-<!-- docsTest:casing Dev/Test -->
 
 Этот подход имеет множество преимуществ:
 
@@ -53,7 +51,7 @@ ms.locfileid: "88884867"
 ![Начальная модель подписки, показывающая ключи рядом с полями "Рабочий" и "Общие службы" ](../../_images/ready/initial-subscription-model-with-shared-services.png)
  _рис. 3. модель подписки с общими службами._
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Ознакомьтесь с причинами, по которым может потребоваться [создать дополнительные подписки Azure](./scale-subscriptions.md) в соответствии с вашими требованиями.
 

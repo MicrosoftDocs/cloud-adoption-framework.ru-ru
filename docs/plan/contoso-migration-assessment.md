@@ -7,16 +7,13 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: site-recovery
-ms.openlocfilehash: 4459455e4ccf255325176df57784dd29d90ab031
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 9e52a468b2a032c70bace6a89e8aa963e6a629de
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884952"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89605324"
 ---
-<!-- docsTest:disable TODO -->
-
 <!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL CONTOSODC contosohost vcenter prereqs ctypes ctypeslib smarthotelapp -->
 
 # <a name="assess-on-premises-workloads-for-migration-to-azure"></a>Оценка локальных рабочих нагрузок для переноса в Azure
@@ -29,7 +26,7 @@ ms.locfileid: "88884952"
 
 Чтобы начать работу и лучше понять суть используемых технологий, компания Contoso оценивает два локальных приложения, приведенные в следующей таблице. Она оценивает сценарии миграции при перемещении и рефакторинге приложений для миграции. Узнайте больше о повторном размещении и рефакторинге, ознакомившись с [обзором примеров миграции](../migrate/azure-best-practices/contoso-migration-overview.md).
 
-| Имя приложения. | Платформа | Уровни приложения | Сведения |
+| Имя приложения | Платформа | Уровни приложения | Сведения |
 | --- | --- | --- | --- |
 | **SmartHotel360** <br><br> (управляет требованиями к путешествиям в компании Contoso) | Работает на системе Windows с помощью базы данных SQL Server | Двухуровневое приложение. Интерфейсный веб-сайт ASP.NET работает на одной виртуальной машине ( `WEBVM` ), а SQL Server выполняется на другой виртуальной машине ( `SQLVM` ). | Виртуальные машины работают на VMware ESXi узле, управляемом vCenter Server. <br><br> Пример приложения можно загрузить в репозитории [GitHub](https://github.com/Microsoft/SmartHotel360). |
 | **остиккет** <br><br> (Приложение службы поддержки компании Contoso) | Выполняется в стеке [лампы](https://wikipedia.org/wiki/LAMP_(software_bundle)) . | Двухуровневое приложение. Клиентский веб-сайт PHP работает на одной виртуальной машине ( `OSTICKETWEB` ), а база данных MySQL работает на другой виртуальной машине ( `OSTICKETMYSQL` ). | Приложение используется приложениями служб клиента для отслеживания проблем у внутренних сотрудников и внешних клиентов. <br><br> Пример можно загрузить в репозитории [GitHub](https://github.com/osTicket/osTicket). |
@@ -281,7 +278,7 @@ ms.locfileid: "88884952"
 
     `C:\> CertUtil -HashFile <file_location> [Hashing Algorithm]`
 
-    **Пример**.
+    **Пример.**
 
     `C:\> CertUtil -HashFile C:\AzureMigrate\AzureMigrate.ova SHA256`
 
@@ -529,6 +526,6 @@ ms.locfileid: "88884952"
 
 В этом сценарии компания Contoso оценивает свою базу данных приложений SmartHotel360 с помощью средства Помощник по миграции данных. Она оценивает локальные виртуальные машины приложения с помощью службы "Миграция Azure". Специалисты компании Contoso просматривают оценки, чтобы убедиться, что локальные ресурсы готовы к миграции в Azure.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Компания Contoso оценила эту рабочую нагрузку в качестве потенциального кандидата для переноса, теперь она может начать подготовку своей локальной инфраструктуры и инфраструктуры Azure к миграции. Пример того, как компания Contoso выполняет эти процессы, приведен в статье [Развертывание инфраструктуры Azure](../migrate/azure-best-practices/contoso-migration-infrastructure.md), указанной в разделе рекомендаций по переносу согласно положениям Cloud Adoption Framework.

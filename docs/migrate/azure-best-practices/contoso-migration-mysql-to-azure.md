@@ -7,13 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: azure-migrate
-ms.openlocfilehash: a7fb9e0887cb5cd60ba48783b152d20f0213ba71
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 79bc8027a035d38b9a9048a0aaba15f9cb66d3e0
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882045"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89603734"
 ---
 <!-- cSpell:ignore mysqldump InnoDB binlog Navicat -->
 

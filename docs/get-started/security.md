@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 96b962019314b54a60841d20e0a0b147424244ee
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: b46c3e7247cbfcae5de8b60ad77f0e727250ac52
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884255"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89603120"
 ---
 # <a name="get-started-implement-security-across-the-enterprise-environment"></a>Начало работы. Реализация безопасности в среде предприятия
 
@@ -149,7 +149,7 @@ ms.locfileid: "88884255"
 
 **Результатам**
 
-- **План безопасности:** План безопасности должен быть частью основной документации по планированию для облака. Это может быть документ, в котором используется [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx), подробный набор слайдов или файл проекта. Или может быть сочетанием этих форматов в зависимости от размера, культуры и стандартных методов организации.
+- **План безопасности:** План безопасности должен быть частью основной документации по планированию для облака. Это может быть документ, в котором используется [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx), подробный набор слайдов или файл проекта. Или может быть сочетанием этих форматов, в зависимости от размера, культуры и стандартов Организации.
 
   План безопасности должен включать все следующие элементы:
 
@@ -305,7 +305,7 @@ ms.locfileid: "88884255"
 | --- | --- |
 | <li> Группа по системе управления облаком | <li> Группа по облачной стратегии <li> Группа Cloud Security <li> Облачный центр для ИТ и специалистов по ИТ |
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Действия, описанные в этом руководстве, помогли вам реализовать стратегию, элементы управления, процессы, навыки и региональные параметры, необходимые для согласованного управления рисками безопасности на предприятии.
 

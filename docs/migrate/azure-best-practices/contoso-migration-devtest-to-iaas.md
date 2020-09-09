@@ -7,13 +7,12 @@ ms.date: 07/1/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: azure-migrate
-ms.openlocfilehash: 3dcb63b9b5f80fd36450630629023ad0972a76df
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 12ca20e3800dec81b5a2279a23fe848edeaafd57
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882300"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89605092"
 ---
 <!-- docsTest:casing SmartHotel360 -->
 <!-- cSpell:ignore vcenter contosohost contosodc NSGs agentless osTicket WEBVMDEV SQLVMDEV OSTICKETWEBDEV OSTICKETMYSQLDEV -->

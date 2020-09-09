@@ -7,13 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: azure-migrate
-ms.openlocfilehash: e1ce476ead23470b9300594d9195b310f4aa8b01
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: c633fe36e4817ad92501085b8309acf945397bc3
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88878016"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89602560"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc AOAG SQLAOG SQLAOGAVSET contosoadmin contosocloudwitness MSSQLSERVER BEPOOL contosovmsacc SHAOG NSGs inetpub iisreset -->
 
@@ -92,7 +91,7 @@ ms.locfileid: "88878016"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Azure Database Migration Service](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Узнайте о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) и [ценах на Azure Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
+| [Миграция баз данных Azure](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Узнайте о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) и [ценах на Azure Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
 | [Миграция Azure](/azure/migrate/migrate-overview) | Contoso использует службу "миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | За использование службы "Миграция Azure" не нужно дополнительно платить. На них могут взиматься платежи в зависимости от средств (от поставщика первого или независимого программного обеспечения), которые они решили использовать для оценки и миграции. Дополнительные сведения о [ценах на миграцию Azure](https://azure.microsoft.com/pricing/details/azure-migrate). |
 
 ## <a name="migration-process"></a>Процесс миграции

@@ -7,13 +7,12 @@ ms.date: 7/1/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: site-recovery
-ms.openlocfilehash: fba3a8a7bcc9de98f9ea41e3468e5acf9ca4dc3c
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 145848387af44abb12c5cc39c76073aca1a285a6
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88883116"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89605339"
 ---
 <!-- docsTest:casing "Enable .NET" SmartHotel360 SmartHotel360-Backend Pet.Checker contoso-datacenter git aks PetCheckerFunction -->
 
@@ -96,10 +95,10 @@ ms.locfileid: "88883116"
 
 | Служба | Описание | Стоимость |
 |---|---|---|
-| [AKS](/sql/dma/dma-overview?view=ssdt-18vs2017) | Упрощает развертывание, администрирование и использование Kubernetes. Предоставляет полностью управляемую службу оркестрации контейнеров Kubernetes. | AKS — это бесплатная служба. Платите только за виртуальные машины, связанные хранилища и сетевые ресурсы, которые потребляются. [Подробнее.](https://azure.microsoft.com/pricing/details/kubernetes-service) |
-| [Функции Azure](https://azure.microsoft.com/services/functions) | Ускорьте процесс разработки с помощью управляемых событиями и независимыми от сервера вычислительных средств. Выполняйте масштабирование по необходимости. | Платите только за использованные ресурсы. Плата по плану начисляется в зависимости от потребления ресурсов и числа выполнений в секунду. [Подробнее.](https://azure.microsoft.com/pricing/details/functions) |
-| [Реестр контейнеров Azure](https://azure.microsoft.com/services/container-registry) | Хранит образы для всех типов развертываний контейнеров. | Стоимость зависит от функций, хранилища и продолжительности использования. [Подробнее.](https://azure.microsoft.com/pricing/details/container-registry) |
-| [Служба приложений Azure](https://azure.microsoft.com/services/app-service/containers) | Быстро создавайте, развертывайте и масштабируюте приложения корпоративного уровня, мобильные и API, которые работают на любой платформе. | Счета за планы службы приложений выставляются за секунду. [Подробнее.](https://azure.microsoft.com/pricing/details/app-service/windows) |
+| [AKS](/sql/dma/dma-overview?view=ssdt-18vs2017) | Упрощает развертывание, администрирование и использование Kubernetes. Предоставляет полностью управляемую службу оркестрации контейнеров Kubernetes. | AKS — это бесплатная служба. Платите только за виртуальные машины, связанные хранилища и сетевые ресурсы, которые потребляются. [Подробнее](https://azure.microsoft.com/pricing/details/kubernetes-service). |
+| [Функции Azure](https://azure.microsoft.com/services/functions) | Ускорьте процесс разработки с помощью управляемых событиями и независимыми от сервера вычислительных средств. Выполняйте масштабирование по необходимости. | Платите только за использованные ресурсы. Плата по плану начисляется в зависимости от потребления ресурсов и числа выполнений в секунду. [Подробнее](https://azure.microsoft.com/pricing/details/functions). |
+| [Реестр контейнеров Azure](https://azure.microsoft.com/services/container-registry) | Хранит образы для всех типов развертываний контейнеров. | Стоимость зависит от функций, хранилища и продолжительности использования. [Подробнее](https://azure.microsoft.com/pricing/details/container-registry). |
+| [Служба приложений Azure](https://azure.microsoft.com/services/app-service/containers) | Быстро создавайте, развертывайте и масштабируюте приложения корпоративного уровня, мобильные и API, которые работают на любой платформе. | Счета за планы службы приложений выставляются за секунду. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows). |
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -107,7 +106,7 @@ ms.locfileid: "88883116"
 
 | Требования | Сведения |
 | --- | --- |
-| Подписка Azure | <li> Подписки, созданные Contoso в более ранней статье. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <li> Если вы создаете бесплатную учетную запись, вы являетесь администратором подписки и можете выполнять все действия. <li> Если вы используете существующую подписку и вы не являетесь администратором, вам нужно обратиться к администратору, чтобы назначить вам разрешения владельца или участника. |
+| Подписка Azure. | <li> Подписки, созданные Contoso в более ранней статье. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <li> Если вы создаете бесплатную учетную запись, вы являетесь администратором подписки и можете выполнять все действия. <li> Если вы используете существующую подписку и вы не являетесь администратором, вам нужно обратиться к администратору, чтобы назначить вам разрешения владельца или участника. |
 | Инфраструктура Azure | <li> Узнайте [, как Contoso настраивает инфраструктуру Azure](./contoso-migration-infrastructure.md). |
 | Предварительные требования для разработчика | Contoso необходимы следующие средства на рабочей станции разработчика: <li> [Visual Studio Community 2017 версии 15,5](https://visualstudio.microsoft.com) <li> Рабочая нагрузка .NET, включена <li> [Git](https://git-scm.com); <li> [Azure PowerShell](https://azure.microsoft.com/downloads) <li> [CLI Azure.](/cli/azure/install-azure-cli?view=azure-cli-latest) <li> [DOCKER Community Edition (Windows 10) или DOCKER Enterprise Edition (Windows Server)](https://docs.docker.com/docker-for-windows/install), настроено для использования контейнеров Windows |
 

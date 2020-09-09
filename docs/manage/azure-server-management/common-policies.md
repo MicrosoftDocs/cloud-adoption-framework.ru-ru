@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 9e4829581a642a3fab13d461c98e423a5f777f2b
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 0b82f70aa7d7e2e0e9553f586b66a6dd8673b1c5
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88567450"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89604081"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 
@@ -71,7 +71,7 @@ Azure предлагает широкий спектр размеров вирт
 
 ### <a name="deploy-antimalware"></a>Развертывание антивредоносной программы
 
-С помощью этой политики можно развернуть расширение Microsoft _IaaSAntimalware_ с конфигурацией по умолчанию для виртуальных машин, не защищенных с помощью антивредоносной программы.
+С помощью этой политики можно развернуть расширение антивредоносной программы Майкрософт с конфигурацией по умолчанию для виртуальных машин, не защищенных с помощью антивредоносной программы.
 
 GUID политики — `2835b622-407b-4114-9198-6f7064cbe0dc` .
 

@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: overview
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 5dca866a7d948caa59bba7981fc3569f7a10f47d
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.openlocfilehash: 7a939f9c6df449421685e8eb38c81cf2c57006b4
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86479537"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89603915"
 ---
 # <a name="test-driven-development-tdd-for-landing-zones"></a>Разработка на основе тестирования (TDD) для целевых зон
 
@@ -71,7 +71,7 @@ ms.locfileid: "86479537"
 - [Расширение операций](../../govern/guides/complex/resource-consistency-improvement.md#incremental-improvement-of-the-policy-statements). пример корпоративных политик, управляющих требованиями ("определение завершенности"), для удовлетворения основных требований к управлению операциями.
 - [Раскрытие затрат](../../govern/guides/complex/cost-management-improvement.md#changes-to-the-policy-statements). пример корпоративных политик, управляющих требованиями ("определение завершенности"), для удовлетворения требований к управлению затратами.
 
-Приведенные выше примеры представляют собой базовые примеры, помогающие в разработке "определения готовых зон". Дополнительные примеры политик доступны в рамках каждой [дисциплины управления облаком](../../govern/governance-disciplines.md).
+Приведенные выше примеры представляют собой базовые примеры, помогающие в разработке "определения готовых зон". Для каждой из [пяти дисциплин управления облаком](../../govern/governance-disciplines.md)доступны дополнительные примеры политик.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -7,13 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: azure-migrate
-ms.openlocfilehash: 25457c039c6542f1d1767839cfb7a04195c347a0
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: da6c543bf16434bf0228df3a1bcac163ef1fe4ab
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88877982"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89602591"
 ---
 <!-- cSpell:ignore WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless SQLMI iisreset -->
 
@@ -105,7 +104,7 @@ Contoso перенесет веб-уровень и уровни данных с
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Azure Database Migration Service](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Узнайте о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) и [ценах на Azure Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
+| [Миграция баз данных Azure](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Узнайте о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) и [ценах на Azure Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
 | [Управляемый экземпляр SQL Azure](/azure/sql-database/sql-database-managed-instance) | SQL Управляемый экземпляр — это управляемая служба базы данных, которая представляет собой полностью управляемый экземпляр SQL Server в облаке Azure. Он использует тот же код, что и последняя версия SQL Server ядро СУБД и содержит новейшие функции, улучшения производительности и исправления безопасности. | При использовании управляемого экземпляра SQL, работающего в Azure, взимается плата в зависимости от емкости. Дополнительные сведения о [ценах на SQL управляемый экземпляр](https://azure.microsoft.com/pricing/details/sql-database/managed). |
 | [Миграция Azure](/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | За использование службы "Миграция Azure" не нужно дополнительно платить. На них могут взиматься платежи в зависимости от средств (от поставщика первого или независимого программного обеспечения), которые они решили использовать для оценки и миграции. Дополнительные сведения о [ценах на миграцию Azure](https://azure.microsoft.com/pricing/details/azure-migrate). |
 

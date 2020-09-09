@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: c6351e1e6de0db3247b584d914ea3b5c5e842e68
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 54d35e4b895961eb290de9ab151fa1332bb0bc8d
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884340"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89603335"
 ---
 # <a name="get-started-manage-cloud-costs"></a>Начало работы: Управление затратами на облачные ресурсы
 
@@ -201,4 +201,4 @@ ms.locfileid: "88884340"
 
 ## <a name="value-statement"></a>Оператор значения
 
-Следуя этим инструкциям, можно [создать организацию, сооснованную затратам](../organize/cost-conscious-organization.md). Оптимизация затрат проще в реализации, когда организация использует совместное владение, а совместное использование участников с нужными командами выполняется в нужное время.
+Выполните следующие действия, чтобы [создать организацию, сооснованную затратам](../organize/cost-conscious-organization.md). Упростите оптимизацию стоимости, используя совместное владение и обеспечивая совместную работу с нужными командами в нужное время.

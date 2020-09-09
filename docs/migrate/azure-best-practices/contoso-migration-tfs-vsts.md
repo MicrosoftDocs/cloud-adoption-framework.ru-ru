@@ -7,13 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: site-recovery
-ms.openlocfilehash: de13c3f9ba198b7a54737bf9bd37d2affef4261b
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 6cd92a5a089507fde1d770308f93d9547452389e
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88878203"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89602988"
 ---
 <!-- cSpell:ignore contosodev contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring smarthotelcontainer identitymaplog CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME sqlpackage SSDT azuredevopsmigration validateonly ImportType -->
 
@@ -130,7 +129,7 @@ ms.locfileid: "88878203"
      ![Снимок экрана: область "Невыполненная работа по продукту" для проверки установки Team Foundation Server.](./media/contoso-migration-tfs-vsts/upgrade5.png)
 
 > [!NOTE]
-> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее.](/azure/devops/reference/configure-features-after-upgrade?utm_campaign=vstsdataimportguide&utm_medium=guide&utm_source=ms&view=vsts)
+> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее](/azure/devops/reference/configure-features-after-upgrade?utm_campaign=vstsdataimportguide&utm_medium=guide&utm_source=ms&view=vsts).
 
 **Требуется дополнительная помощь?**
 

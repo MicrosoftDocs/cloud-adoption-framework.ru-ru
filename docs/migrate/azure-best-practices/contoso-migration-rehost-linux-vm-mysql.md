@@ -7,13 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-services: azure-migrate
-ms.openlocfilehash: 45c728b60d5aac4caf47927e0c6fa99c242a979d
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: db5e966a778ca9ba78a0b664e2968efda3dd3f57
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88878067"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89602938"
 ---
 <!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc contosoosticket osticket InnoDB binlog systemctl NSGs -->
 
@@ -82,7 +81,7 @@ ms.locfileid: "88878067"
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
 | [Миграция Azure](/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | Служба " [Миграция Azure](https://azure.microsoft.com/pricing/details/azure-migrate) " доступна без дополнительной платы. Плата может взиматься в зависимости от средств (от первой стороны или ISV), которые вы решили использовать для оценки и миграции. |
-| [Azure Database Migration Service](/azure/dms/dms-overview) | Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
+| [Миграция баз данных Azure](/azure/dms/dms-overview) | Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
 | [База данных Azure для MySQL](/azure/mysql) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL, готовую для разработки и развертывания приложений. | Узнайте больше о [ценах](https://azure.microsoft.com/pricing/details/mysql) и параметрах масштабируемости базы данных Azure для MySQL. |
 
 ## <a name="prerequisites"></a>Предварительные требования

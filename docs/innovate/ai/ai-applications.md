@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 9e331bc698467926e496b6a1e8c29e7fb0caf097
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: c6c6f2ebfca8337ba4f6aaa0218b763bf8b11398
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882640"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89604655"
 ---
 # <a name="ai-applications-and-agents"></a>Приложения и агенты ИИ
 
@@ -47,7 +47,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 Выберите службу, которую вы хотите использовать для представления, языка, речи, принятия решений или поиска в Интернете. Каждая категория на этой странице предлагает набор кратких руководств по запуску, руководства, практические руководства, нужно ли использовать REST API или пакеты SDK.
 
-<!-- docsTest:casing "Intelligent Kiosk" -->
+<!-- docutune:casing "Intelligent Kiosk" -->
 
 Вы также можете загрузить интеллектуальное киоск, чтобы поработать и получить демонстрацию этих служб.
 

@@ -7,14 +7,14 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 1cdf730339c30f681fc1dc39cad85fcd9c8a909f
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: f268e1a91f70b3cfb114e8769ef6cea66077eee3
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884527"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89604560"
 ---
-<!-- docsTest:casing "natural language understanding" -->
+<!-- docutune:casing "natural language understanding" -->
 <!-- cSpell:ignore Twilio -->
 
 # <a name="what-are-ai-agents"></a>Что такое агенты искусственного интеллекта?
@@ -109,7 +109,7 @@ ms.locfileid: "88884527"
 
    Сведения о способах интеграции программы Bot в веб-сайт см. [в статье встраивание робота в веб-](/azure/bot-service/bot-service-design-pattern-embed-web-site?view=azure-bot-service-4.0)сайт.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Ознакомьтесь с техническими материалами по машинному обучению и электронной книгой о [службе Azure Bot](https://azure.microsoft.com/resources/whitepapers/search/?service=bot-service).
 - Ознакомьтесь с [архитектурой ии и машинное обучение](/azure/architecture/browse/).

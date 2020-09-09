@@ -7,12 +7,12 @@ ms.date: 03/20/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: ea215de1bb9c41536c5bf666d20b6f1b41bb5871
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 5ebf8106cee793e674070e88c8c4f36e77858079
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882861"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89604238"
 ---
 <!-- cSpell:ignore autoscaler Istio Linkerd -->
 
@@ -30,7 +30,7 @@ ms.locfileid: "88882861"
 > - Как вы будете структурировать папку проекта для поддержки разработки приложений Kubernetes?
 > - Определены ли требования к состоянию, конфигурации и хранению приложения?
 
-<!-- docsTest:casing "AAD Pod Identity -->
+<!-- docutune:casing "AAD Pod Identity" -->
 
 > [!div class="tdCol2BreakAll"]
 >
@@ -41,7 +41,7 @@ ms.locfileid: "88882861"
 > | **Ознакомьтесь с общими сценариями Kubernetes.** Kubernetes часто рассматривается как платформа для доставки микрослужб, но она становится намного более широкой платформой. Просмотрите это видео, чтобы узнать о стандартных сценариях Kubernetes, таких как пакетная аналитика и рабочий процесс.    | [Распространенные &nbsp; сценарии &nbsp; &nbsp; использования &nbsp; Kubernetes &nbsp; (видео)](https://www.youtube.com/watch?v=zd8vYhrFXp4&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=7) |
 > | **Подготовьте приложение к Kubernetes.** Подготовьте структуру файловой системы приложения для Kubernetes и упорядочите ее для еженедельных или ежедневных выпусков. Узнайте, как процесс развертывания Kubernetes обеспечивает надежное обновление без простоя. | [Проектирование и макет проекта для успешных приложений Kubernetes (веб-семинар)](https://info.microsoft.com/ww-OnDemandRegistration-successful-kubernetes-applications-webinar.html) <br> [Как работают развертывания Kubernetes (видео)](https://www.youtube.com/watch?v=mNK14yXIZF4&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=3) <br> [Пройдите по AKS семинару](https://aka.ms/learn/aksworkshop) |
 > | **Управление хранилищем приложений.** Изучите требования к производительности и методы доступа для модулей Pod, чтобы предоставить соответствующие варианты хранения. Также следует продумать методы резервного копирования и протестировать процессы восстановления для подключенного хранилища. | [Основные сведения о приложениях с отслеживанием состояния в Kubernetes (видео)](https://www.youtube.com/watch?v=GieXzb91I40&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=9) <br> [Состояние и данные в приложениях Docker](/dotnet/architecture/microservices/architect-microservice-container-applications/docker-application-state-data) <br> [Варианты хранения в службе Kubernetes Azure](/azure/aks/operator-best-practices-storage) |
-> | **Управление секретами приложения.** Не храните учетные данные в коде приложения. хранилище ключей должно использоваться для хранения и извлечения ключей и учетных данных.  | [Как работает управление Kubernetes и конфигурацией (видео)](https://www.youtube.com/watch?v=vRcQOZLnKUk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=11) <br> [Общие сведения об управлении секретами в Kubernetes (видео)](https://www.youtube.com/watch?v=KmhM33j5WYk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=10) <br> [Использование Azure Key Vault с Kubernetes](https://github.com/azure/kubernetes-keyvault-flexvol) <br> [Использование удостоверения Pod Azure AD для проверки подлинности и доступа к ресурсам Azure](https://github.com/azure/aad-pod-identity) |
+> | **Управление секретами приложения.** Не храните учетные данные в коде приложения. Хранилище ключей должно использоваться для хранения и извлечения ключей и учетных данных.  | [Как работает управление Kubernetes и конфигурацией (видео)](https://www.youtube.com/watch?v=vRcQOZLnKUk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=11) <br> [Общие сведения об управлении секретами в Kubernetes (видео)](https://www.youtube.com/watch?v=KmhM33j5WYk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=10) <br> [Использование Azure Key Vault с Kubernetes](https://github.com/azure/kubernetes-keyvault-flexvol) <br> [Использование удостоверения Pod Azure AD для проверки подлинности и доступа к ресурсам Azure](https://github.com/azure/aad-pod-identity) |
 
 ## <a name="deploy-to-production-and-apply-best-practices"></a>Развертывание в рабочей среде и применение рекомендаций
 
@@ -74,7 +74,7 @@ ms.locfileid: "88882861"
 > - Существуют ли перекрестные задачи приложения, абстрактные от вашего приложения?
 > - Вы можете поддерживать надежность системы и приложений, а также выполнять итерацию по новым возможностям и версиям?
 
-<!-- docsTest:casing Consul -->
+<!-- docutune:casing Consul -->
 
 > [!div class="tdCol2BreakAll"]
 >
