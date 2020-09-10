@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 963e38ac80d67c1319486bc9cc7e15d9417806a7
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 0bf289a8c5c4bfc91fe8858c7da8045fd28ce3be
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88880991"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89604946"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Руководство по организации системы управления для сложных предприятий
 
