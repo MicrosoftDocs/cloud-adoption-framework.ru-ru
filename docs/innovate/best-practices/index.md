@@ -7,16 +7,16 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 01410f4ae4728681bb8d349e5f87ec8d1442e3ba
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 655b7f3445af7a4d65aa759648c5acae854cd4cf
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88878560"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89604548"
 ---
 # <a name="develop-digital-inventions-in-azure"></a>Разработка цифровых технологий в Azure
 
-Azure помогает ускорить все этапы разработки цифровых технологий. Этот раздел документации по Cloud Adoption Framework для Azure посвящен [методике внедрения инноваций](../considerations/index.md). В этом разделе показано, как объединить службы Azure, чтобы создать цепочки инструментов для разработки цифровых технологий.
+Azure помогает ускорить все этапы разработки цифровых технологий. Этот раздел Cloud Adoption Framework посвящен [методике внедрения инноваций](../considerations/index.md). В этом разделе показано, как объединить службы Azure, чтобы создать цепочки инструментов для разработки цифровых технологий.
 
 ## <a name="alignment-to-the-methodology"></a>Согласование с методикой
 
