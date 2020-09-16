@@ -7,12 +7,12 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: 01e95d7d2b8126903b4fe0bd8bbdbaa34f6fd5c6
-ms.sourcegitcommit: 78fa714f964225cd5fc7a762e83fafe9b3f9dea1
+ms.openlocfilehash: f622b69ecbba6d85775dd707fa3d837d63661a45
+ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/03/2020
-ms.locfileid: "89427813"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "90681256"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -37,10 +37,10 @@ ms.locfileid: "89427813"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Контрольный список готовности](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/ready/readiness-checklist.docx) | Этот контрольный список используется для подготовки среды к внедрению, включая подготовку первой целевой зоны миграции, персонализацию схемы и ее расширение. |
-| [шаблон отслеживания соглашений об именовании и маркировке тегов](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/naming-and-tagging-conventions-tracking-template.xlsx) | Документирование решений о стандартах именования и маркировки для обеспечения согласованности и сокращения времени адаптации. |
-| [&nbsp;Проект КАФ Foundation &nbsp;](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone-governance) | Используйте упрощенную реализацию первоначальной системы управления, чтобы обеспечить практический опыт работы с инструментами управления в Azure. |
-| [Схема КАФ миграции на главную зону](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone) | Подготавливайте и подготавливайте рабочие нагрузки узла, перенесенные из локальной среды в Azure. Дополнительные сведения об этом проекте см. [в статье развертывание целевой зоны миграции](../ready/landing-zone/migrate-landing-zone.md). |
+| [&nbsp;Контрольный список готовности](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/ready/readiness-checklist.docx) | Этот контрольный список используется для подготовки среды к внедрению, включая подготовку первой целевой зоны миграции, персонализацию схемы и ее расширение. |
+| [Шаблон отслеживания соглашений об именовании и маркировке тегов](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/naming-and-tagging-conventions-tracking-template.xlsx) | Документирование решений о стандартах именования и маркировки для обеспечения согласованности и сокращения времени адаптации. |
+| [Схема CAF Foundation](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone-governance) | Используйте упрощенную реализацию первоначальной системы управления, чтобы обеспечить практический опыт работы с инструментами управления в Azure. |
+| [Схема зоны размещения для миграции в соответствии с CAF](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone) | Подготавливайте и подготавливайте рабочие нагрузки узла, перенесенные из локальной среды в Azure. Дополнительные сведения об этом проекте см. [в статье развертывание целевой зоны миграции](../ready/landing-zone/migrate-landing-zone.md). |
 | [Модули terraform](../ready/landing-zone/terraform-landing-zone.md) | База кода с открытым исходным кодом для terraform версии зон КАФ. |
 | [Реестр terraform](https://registry.terraform.io/search?q=aztfmod) | Веб-сайт реестра terraform с фильтрацией для перечисления всех модулей инфраструктуры внедрения в облаке, необходимых для создания целевой зоны с помощью terraform. |
 
@@ -49,15 +49,20 @@ ms.locfileid: "89427813"
 | Ресурс | Описание |
 |----------|-------------|
 | [Оценка производительности управления](https://cafbaseline.com) | Определите расхождения между текущим состоянием и бизнес-приоритетами, а также получите доступ к ресурсам, которые позволят устранить эти расхождения. |
-| [&nbsp;Проект КАФ Foundation &nbsp;](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone-governance) | Упрощенная реализация начального руководства для предоставления практических опыта работы с инструментами управления в Azure. |
-| [Шаблон дисциплины управления](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/governance-discipline-template.docx) | Определите базовый набор процессов управления, используемый для реализации каждой дисциплины управления. |
+| [Схема CAF Foundation](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone-governance) | Упрощенная реализация начального руководства для предоставления практических опыта работы с инструментами управления в Azure. |
+| [&nbsp;Шаблон дисциплины управления &nbsp;](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/governance-discipline-template.docx) | Определите базовый набор процессов управления, используемый для реализации каждой дисциплины управления. |
 | [Шаблон дисциплины "Управление затратами"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/cost-management-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации с целью сосредоточиться на управлении затратами. |
 | [Шаблон "дисциплина ускорения развертывания"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/deployment-acceleration-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации с помощью ускорения развертывания. |
 | [Шаблон "дисциплина базовых показателей удостоверений"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/identity-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации, чтобы сосредоточиться на требованиях к идентификации. |
 | [Шаблон дисциплины согласованности ресурсов](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/resource-consistency-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на согласованности ресурсов. |
 | [Шаблон по специализации в плане безопасности](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/security-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на базовых показателях безопасности. |
-| [Управление Azure Визуализер — Азговвиз](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) | Азговвиз — это сценарий PowerShell, который перебирает иерархию групп управления клиентами Azure до уровня подписки. Он захватывает наиболее релевантные возможности управления Azure, такие как политика Azure, RBAC и схемы. Из собранных Азговвиз данных обеспечивает видимость на карте иерархии, создает сводку клиента и создает детализированную аналитику области для Группы управления и подписок. |
+| [Визуализатор управления Azure (Азговвиз)](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) | Азговвиз — это сценарий PowerShell, который перебирает иерархию групп управления клиента Azure до уровня подписки. Она собирает данные из наиболее актуальных возможностей управления Azure, таких как политика Azure, управление доступом на основе ролей (RBAC), и проекты Azure. Из собранных данных Азговвиз предоставляет сведения о карте иерархии, создает сводку клиента и создает детализированную аналитику области для групп управления и подписок. |
 
+## <a name="migrate"></a>Миграция
+
+| Ресурс | Описание |
+|----------|-------------|
+| [Контрольный список обнаружения миграции центра обработки данных](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/migrate/datacenter-migration-discovery-checklist.docx) | Изучите этот контрольный список, чтобы узнать о рабочих нагрузках, серверах и других ресурсах в центре обработки данных. Используйте эти сведения для планирования миграции.
 
 ## <a name="manage"></a>Управление
 

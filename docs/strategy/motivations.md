@@ -7,12 +7,12 @@ ms.date: 5/19/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: d9cddbe2c43339428235d580004ba5ffd232074e
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: f76231e6ecbe657d07eedaa7eb6a8b803af8fbc5
+ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89602121"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "90681324"
 ---
 # <a name="motivations-why-are-we-moving-to-the-cloud"></a>Причины: почему мы переходим в облако?
 

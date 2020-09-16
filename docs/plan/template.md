@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 178217ef4cb3e4dc744a1c6d297ad4c8a993bcd5
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 8c5dd7d7e1b40172c6dc996bc865d72ac532f50c
+ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88572924"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "90681406"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
 
@@ -60,7 +60,7 @@ Azure DevOps — это набор облачных средств для кли
 
 ## <a name="align-the-cloud-adoption-plan"></a>Выровняйте план внедрения в облако
 
-Обзорные страницы этапов стратегии и планирования жизненного цикла внедрения облака каждый ссылаются на [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx). Этот шаблон организует решения и точки данных, которые выключают шаблон для плана внедрения в облако с конкретными планами для внедрения. Если вы еще не сделали этого, вам может потребоваться выполнить упражнения, связанные с [стратегией](../strategy/index.md) и [планированием](../plan/index.md) , до согласования нового проекта.
+Обзорные страницы для методологии стратегии и методологии плана каждый ссылаются на [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx). Этот шаблон организует решения и точки данных, которые выключают шаблон для плана внедрения в облако с конкретными планами для внедрения. Рассмотрение выполнения упражнений в [методологии стратегии](../strategy/index.md) и [методологии плана](../plan/index.md) до согласования нового проекта.
 
 Следующие статьи поддерживают выравнивание плана внедрения в облако.
 

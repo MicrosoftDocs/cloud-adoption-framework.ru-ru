@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: c806816f8d85e71f1b310dab0e89013e9946bc03
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: bac5bf2884cac8d884a019894a414ff8f863ede6
+ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89603304"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "90680987"
 ---
 # <a name="get-started-accelerate-migration"></a>Начало работы. Ускорение миграции
 
@@ -239,7 +239,7 @@ ms.locfileid: "89603304"
 
 ## <a name="value-statement"></a>Оператор значения
 
-Эти шаги помогают командам ускорить выполнение миграции за счет лучшего управления изменениями и выравнивания заинтересованных лиц. Эти действия могут замедлять процесс. Эти действия также позволяют быстрее удалить общие блокировки и реализовать преимущества для бизнеса.
+Эти шаги помогают командам ускорить выполнение миграции за счет лучшего управления изменениями и выравнивания заинтересованных лиц. Эти действия также позволяют быстрее удалить общие блокировки и реализовать преимущества для бизнеса.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

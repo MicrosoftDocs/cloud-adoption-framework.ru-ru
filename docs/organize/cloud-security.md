@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 1b33489f16990d7b2677e1cb128c9c2dcce0c6aa
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 7c24e03b2727e31a673675ba62fc76a90c117e03
+ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885717"
+ms.lasthandoff: 09/16/2020
+ms.locfileid: "90681275"
 ---
 # <a name="cloud-security-functions"></a>Функции облачной безопасности
 
@@ -29,14 +29,14 @@ ms.locfileid: "88885717"
 В каждой из следующих статей содержатся сведения о каждой функции. В каждой статье приводятся сводные сведения о задачах, способах развития функции из-за изменений в среде угроз или облачных технологиях, а также о связях и зависимостях, которые важны для достижения успеха.
 
 - [Политика и стандарты](./cloud-security-policy-standards.md)
-- [Центр обеспечения безопасности (SOC)](./cloud-security-operations-center.md)
+- [Операции безопасности](./cloud-security-operations-center.md)
 - [Архитектура безопасности](./cloud-security-architecture.md)
 - [Управление соответствием требованиям безопасности](./cloud-security-compliance-management.md)
 - [Безопасность людей](./cloud-security-people.md)
 - [Безопасность приложений и DevSecOps](./cloud-security-application-security-devsecops.md)
 - [Защита данных](./cloud-security-data-security.md)
 - [Безопасность инфраструктуры и конечных точек](./cloud-security-infrastructure-endpoint.md)
-- [Удостоверения и ключи](./cloud-security-identity-keys.md)
+- [Управление удостоверениями и ключами](./cloud-security-identity-keys.md)
 - [Анализ угроз](./cloud-security-threat-intelligence.md)
 - [Управление состоянием](./cloud-security-posture-management.md)
 - [Подготовка инцидентов](./cloud-security-incident-preparation.md)
