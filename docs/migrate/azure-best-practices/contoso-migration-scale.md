@@ -7,14 +7,14 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: a98e8a11e45aff862a59f04bedbb204042035f56
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 2bb9a42a911e1a635c3b0c1e6d1b1585feb8cc5b
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89602330"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775247"
 ---
-<!-- docsTest:casing Hanu Scalr ARO POC Y/N None/Some/Severe Rehost/Refactor/Rearchitect/Rebuild -->
+<!-- docutune:casing Hanu Scalr ARO POC Y/N None/Some/Severe Rehost/Refactor/Rearchitect/Rebuild -->
 
 <!-- cSpell:ignore VHDs autosnooze unsnooze Hanu Scalr -->
 
@@ -50,7 +50,7 @@ ms.locfileid: "89602330"
 
 Компания Contoso запланировала и настроила [инфраструктуру Azure](./contoso-migration-infrastructure.md) и предприняла другие сочетания экспериментов (проверка концепции), как описано в предыдущей таблице. Теперь все готово для созданию полной миграции в Azure в масштабе. Вот что компании Contoso необходимо перенести.
 
-| Item | Том | Сведения |
+| Элемент | Том | Сведения |
 | --- | --- | --- |
 | Рабочие нагрузки | Приложения > 3 000 | <li> Приложения запускаются на виртуальных машинах. <li> К платформам приложений относятся Windows, SQL Server и [лампа](https://wikipedia.org/wiki/LAMP_(software_bundle)). |
 | Базы данных | Примерно 8 500 баз данных | К базам данных относятся SQL Server, MySQL и PostgreSQL. |

@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 0df83ebf912a171a95572df3b6be554c9db544b0
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 6b790b9c8f99fb3f2a7bf55757792d019b3dfdb3
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88881994"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775366"
 ---
 # <a name="overview-of-application-migration-examples-for-azure"></a>Обзор примеров переноса приложений для Azure
 
@@ -140,7 +140,7 @@ Azure предоставляет доступ к комплексному наб
 
 ### <a name="demo-applications"></a>Демонстрационные приложения
 
-<!-- docsTest:casing SmartHotel360 osTicket -->
+<!-- docutune:casing SmartHotel360 osTicket -->
 
 В примерах статей, приведенных в этом разделе, используются два демонстрационных приложения: SmartHotel360 и Остиккет.
 
