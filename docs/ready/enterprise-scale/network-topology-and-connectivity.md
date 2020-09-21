@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: c2c9437efc465f500d7e9eb8a7f435309be5628b
-ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
+ms.openlocfilehash: 9592e0007e2d9d6be5ad675573184b193bd1b9f9
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "90681383"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90776386"
 ---
 <!-- cSpell:ignore autoregistration BGPs MACsec MPLS MSEE onprem privatelink VPNs -->
 
@@ -524,7 +524,7 @@ _Рис. 8. потоки шифрования._
 
 **Рекомендации по проектированию:**
 
-<!-- docsTest:ignore TAP -->
+<!-- docutune:ignore TAP -->
 
 - [Точка доступа к терминалу виртуальной сети Azure (TAP)](/azure/virtual-network/virtual-network-tap-overview) находится на этапе предварительной версии. Обратитесь к `azurevnettap@microsoft.com` сведениям о доступности.
 

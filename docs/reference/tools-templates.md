@@ -7,12 +7,12 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: f622b69ecbba6d85775dd707fa3d837d63661a45
-ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
+ms.openlocfilehash: 5fadef56e97fa51450e6f6b80aca0ab84038b020
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "90681256"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90776029"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -52,11 +52,11 @@ ms.locfileid: "90681256"
 | [Схема CAF Foundation](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone-governance) | Упрощенная реализация начального руководства для предоставления практических опыта работы с инструментами управления в Azure. |
 | [&nbsp;Шаблон дисциплины управления &nbsp;](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/governance-discipline-template.docx) | Определите базовый набор процессов управления, используемый для реализации каждой дисциплины управления. |
 | [Шаблон дисциплины "Управление затратами"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/cost-management-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации с целью сосредоточиться на управлении затратами. |
-| [Шаблон "дисциплина ускорения развертывания"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/deployment-acceleration-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации с помощью ускорения развертывания. |
-| [Шаблон "дисциплина базовых показателей удостоверений"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/identity-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации, чтобы сосредоточиться на требованиях к идентификации. |
-| [Шаблон дисциплины согласованности ресурсов](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/resource-consistency-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на согласованности ресурсов. |
-| [Шаблон по специализации в плане безопасности](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/security-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на базовых показателях безопасности. |
-| [Визуализатор управления Azure (Азговвиз)](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) | Азговвиз — это сценарий PowerShell, который перебирает иерархию групп управления клиента Azure до уровня подписки. Она собирает данные из наиболее актуальных возможностей управления Azure, таких как политика Azure, управление доступом на основе ролей (RBAC), и проекты Azure. Из собранных данных Азговвиз предоставляет сведения о карте иерархии, создает сводку клиента и создает детализированную аналитику области для групп управления и подписок. |
+| [Шаблон дисциплины "Ускорение развертывания"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/deployment-acceleration-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации с помощью ускорения развертывания. |
+| [Шаблон дисциплины "Базовые средства идентификации"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/identity-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации, чтобы сосредоточиться на требованиях к идентификации. |
+| [Шаблон дисциплины "Согласованность ресурсов"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/resource-consistency-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на согласованности ресурсов. |
+| [Шаблон дисциплины "Основные способы защиты"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/security-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на базовых показателях безопасности. |
+| [Визуализатор управления Azure](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) | Визуализатор управления Azure — это сценарий PowerShell, который выполняет итерацию по иерархии группы управлению клиента Azure до уровня подписки. Она собирает данные из наиболее актуальных возможностей управления Azure, таких как политика Azure, управление доступом на основе ролей (RBAC), и проекты Azure. На основе собранных данных визуализатор показывает карту иерархии, создает сводку клиента и создает детализированную аналитику области для групп управления и подписок. |
 
 ## <a name="migrate"></a>Миграция
 
@@ -68,7 +68,7 @@ ms.locfileid: "90681256"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Проверка с использованием платформы Microsoft Azure с продуманной архитектурой](/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
+| [Общие сведения о Microsoft Azure Well-Architected](/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
 | [&nbsp; &nbsp; Исходный &nbsp; код рекомендаций](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/manage/Automation-Best-Practices) | Этот развертываемый исходный код дополняет и ускоряет внедрение рекомендаций для служб управления сервером Azure. Используйте этот исходный код, чтобы быстро включить управление операциями и установить базовый план операций. |
 | [Книга Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) | Документирование решений об управлении операциями в облаке и обеспечение взаимодействия с бизнесом для обеспечения соответствия требованиям соглашения об уровне обслуживания, инвестиций в устойчивость и распределении бюджета, связанных с операциями. |
 

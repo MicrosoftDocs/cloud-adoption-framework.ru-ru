@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: seo-azure-migrate
-ms.openlocfilehash: 56052fb7f9e4837d821637e5b7525521a7737bdb
-ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
+ms.openlocfilehash: 5c4762e71a88f06520081ba9bcb4b382e7e1bd74
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89510351"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90776063"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
@@ -31,7 +31,7 @@ ms.locfileid: "89510351"
 
 Методика миграции и приведенные выше инструкции основаны на следующих предположениях:
 
-<!-- docsTest:casing "Plan, Ready, and Adopt methodologies" -->
+<!-- docutune:casing "Plan, Ready, and Adopt methodologies" -->
 
 - Методология, управляющая спринтами миграции, основана на волнах или выпусках миграции, которые определяются с помощью методик планирования, подготовки и внедрения. В рамках каждого спринта миграции пакет рабочих нагрузок переносится в облако.
 - Перед переносом рабочих нагрузок определена, настроена и развернута как минимум одна [целевая зона](../ready/index.md), чтобы обеспечить соответствие потребностям краткосрочного плана внедрения.

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: governance
-ms.openlocfilehash: 01e9be8d8dde337dd732933b42b61f881bc2c474
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: e35ec6e6db843e352f05dc6904cd1245ea5bd822
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89603766"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90774228"
 ---
 # <a name="cloud-rationalization"></a>Рационализация облака
 

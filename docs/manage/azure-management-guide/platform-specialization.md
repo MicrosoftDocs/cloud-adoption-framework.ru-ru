@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: d8674f04199a108dce424b81329697c3a25bfc03
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: bb9c39784714dfab8233598d5180d5b770b9402c
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88567790"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89604200"
 ---
 # <a name="platform-specialization-for-cloud-management"></a>Специализация платформы для управления облаком
 
@@ -59,7 +59,7 @@ ms.locfileid: "88567790"
 
 ::: zone-end
 
-Улучшение проектирования системы — это самый эффективный подход к улучшению операций любой распространенной платформы. Благодаря улучшениям структуры системы стабильность может повыситься, а количество прерывания бизнес-процессов может снизиться. Структура отдельных систем выходит за пределы представления среды, рассматриваемого в рамках Cloud Adoption Framework для Azure.
+Улучшение проектирования системы — это самый эффективный подход к улучшению операций любой распространенной платформы. Благодаря улучшениям структуры системы стабильность может повыситься, а количество прерывания бизнес-процессов может снизиться. Структура отдельных систем выходит за рамки представления среды, рассматриваемого в рамках Cloud Adoption Framework.
 
 Дополнением к этой платформе служит [Microsoft Azure Well-Architected Framework](/azure/architecture/framework). Здесь представлены основные принципы повышения качества платформы или конкретной рабочей нагрузки. Решение ориентировано на улучшение в пяти базовых аспектах эффективности архитектуры:
 

@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: e276ce6c1fd03afadb757f68471684df48f6d310
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 7ef09f13acdcc29e3314e2684a307efba788120c
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89603182"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775604"
 ---
 # <a name="get-started-improve-reliability-with-the-right-controls"></a>Начало работы. повышение надежности с помощью правильных элементов управления
 
@@ -125,7 +125,7 @@ ms.locfileid: "89603182"
 - [Сбор данных инвентаризации](../digital-estate/inventory.md): Создайте источник для анализа цифрового пространства перед внедрением.
 - [Рекомендации. Служба "миграция Azure](../plan/contoso-migration-assessment.md)": Используйте службу "миграция Azure" для сбора данных инвентаризации.
 - [Инкрементное обоснование](../digital-estate/rationalize.md#incremental-rationalization). во время инкрементного рационализации количественный анализ может обозначать облачные кандидаты для целей бюджетирования.
-- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службы управления затратами Azure и выставления счетов, чтобы вычислять затраты и прогнозные модели путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте управление затратами Azure + выставление счетов, чтобы выстроить затраты и прогнозные модели, [создав бюджеты](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 - [Создание плана внедрения в облако](../plan/plan-intro.md#build-your-cloud-adoption-plan). Создайте план с рабочей нагрузкой, активами и сведениями о временной шкале.
 
 <br>

@@ -7,12 +7,12 @@ ms.date: 08/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 4330efe1602869e9feef8ccc7120276b17eb5373
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: a8f3afe5e08e415fc4fb08e1036dd559a66747ba
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89602915"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775587"
 ---
 <!-- docutune:casing "internal Microsoft teams" OneMigrate -->
 <!-- cSpell:ignore MSPs Teradata Netezza Exadata mlops -->
@@ -205,7 +205,7 @@ ms.locfileid: "89602915"
 | [Целевая зона миграции КАФ](../ready/landing-zone/migrate-landing-zone.md) | Отделить определение схемы от выбора первой целевой зоны. |
 | [Модули КАФ terraform](../ready/landing-zone/terraform-landing-zone.md) | Перемещен в раздел "Главная зона" методологии готовности для повышения terraform в диалоге "Целевая зона". |
 
-**Обновления методологии миграции:**
+**Миграция обновлений методологии:**
 
 | Статья | Описание |
 |--|--|
@@ -217,4 +217,4 @@ ms.locfileid: "89602915"
 | [Обзор оценки](../migrate/migration-considerations/assess/index.md) | Обновлено, чтобы продемонстрировать, что оценка на этом этапе посвящена оценке технического соответствия конкретной рабочей нагрузки и связанных ресурсов. |
 | [Контрольный список планирования](../migrate/migration-considerations/prerequisites/planning-checklist.md) | Обновлено, чтобы уточнить важность операций при планировании миграции, чтобы обеспечить хорошо управляемую рабочую нагрузку после миграции. |
 
-<!-- docsTest:ignoreNextStep -->
+<!-- docutune:ignoreNextStep -->

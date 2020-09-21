@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 28c7005a7208301e89a0a4d27c9ee1bb0d84af1e
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: f1b17ea9480f81b4b5fef32b4db7491e161e18a8
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885121"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775740"
 ---
 <!-- cSpell:ignore HDFS databox Avere HANA ACLs NetApp Isilon DFSR Cloudera -->
 
@@ -49,7 +49,7 @@ Azure предлагает несколько продуктов и служб �
 
 ### <a name="block-storage-scenarios"></a>Сценарии блокировки хранилища
 
-<!-- docsTest:ignore M-series -->
+<!-- docutune:ignore M-series -->
 
 | Сценарий | Предлагаемые службы Azure | Рекомендации по предлагаемым службам |
 |---|---|---|

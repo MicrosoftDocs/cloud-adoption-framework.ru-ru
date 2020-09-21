@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 87edd4c65ff3dd79dd6e0fc778b9c6b9419b5ba9
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 25467593af277cf5955fc9656e23f9d01fa8926b
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88572754"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90776437"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
@@ -22,7 +22,7 @@ ms.locfileid: "88572754"
 
 Чтобы реализовать архитектуру корпоративного уровня, необходимо учесть следующие категории действий.
 
-<!-- docsTest:disable -->
+<!-- docutune:disable -->
 
 1. **Что должно быть верно для архитектуры корпоративного масштабирования:** Охватывает действия, которые должны выполняться администраторами Azure и Azure Active Directory (Azure AD) для установки начальной конфигурации. Эти действия помещаются последовательно и обычно являются одноразовыми действиями.
 
@@ -30,7 +30,7 @@ ms.locfileid: "88572754"
 
 3. **Разверните новую целевую зону (файл > новая > Главная зона):** Это повторяющиеся действия, необходимые для создания новой целевой зоны.
 
-<!-- docsTest:enable -->
+<!-- docutune:enable -->
 
 Чтобы эксплуатацию в масштабе, эти действия должны следовать принципам "инфраструктура как код" (IaC) и должны быть автоматизированы с помощью конвейеров развертывания.
 
@@ -185,11 +185,11 @@ ms.locfileid: "88572754"
 |--------------------------|----------------------------------------------------------------------------------------|
 | [`Deploy-VHub`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-vHUB.parameters.json) | Эта политика развертывает виртуальный концентратор, брандмауэр Azure и шлюзы (VPN/ExpressRoute). Он также настраивает маршрут по умолчанию для подключенных виртуальных сетей к брандмауэру Azure. |
 
-<!-- docsTest:disable -->
+<!-- docutune:disable -->
 
 ## <a name="file--new--landing-zone-for-applications-and-workloads"></a>Файл > новая > Главная зона для приложений и рабочих нагрузок
 
-<!-- docsTest:enable -->
+<!-- docutune:enable -->
 
 1. Создайте подписку и переместите ее в `Landing Zones` область группы управления.
 

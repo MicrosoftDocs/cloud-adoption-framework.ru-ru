@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6c4259f112c74d6f5fb7c24a0ca409e25ff68268
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 30340f9dfcacfb3aafe2dfeee5cbad21b6f75110
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89602664"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775842"
 ---
 <!-- docutune:casing Lakeside SysTrack -->
 <!-- cSpell:ignore msiexec Logix Robocopy UPDs -->
@@ -223,7 +223,7 @@ Contoso переместит виртуальные машины в виртуа
 
 Так как виртуальный рабочий стол Windows не поддерживает диски профилей пользователей (диски UPD), Contoso необходимо преобразовать все диски UPD в Фслогикс через [модуль PowerShell фслогиксмигратион](https://aka.ms/FSLogixMigrationPreviewModule).
 
-<!-- docsTest:casing FSLogixMigration -->
+<!-- docutune:casing FSLogixMigration -->
 
 После того как Contoso импортирует модуль Фслогиксмигратион, он выполняет следующие командлеты PowerShell для миграции из диски UPD в Фслогикс.
 

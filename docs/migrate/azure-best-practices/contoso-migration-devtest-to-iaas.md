@@ -7,14 +7,14 @@ ms.date: 07/1/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 12ca20e3800dec81b5a2279a23fe848edeaafd57
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 7dd81b5d1fed63d0c77d7eeaf8ec9c1edffcfe08
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89605092"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775978"
 ---
-<!-- docsTest:casing SmartHotel360 -->
+<!-- docutune:casing SmartHotel360 -->
 <!-- cSpell:ignore vcenter contosohost contosodc NSGs agentless osTicket WEBVMDEV SQLVMDEV OSTICKETWEBDEV OSTICKETMYSQLDEV -->
 
 # <a name="rehost-an-on-premises-devtest-environment-on-azure-virtual-machines-via-azure-migrate"></a>Повторное размещение локальной среды разработки и тестирования на виртуальных машинах Azure с помощью службы "миграция Azure"

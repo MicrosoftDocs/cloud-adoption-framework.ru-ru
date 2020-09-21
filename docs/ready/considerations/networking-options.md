@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: a42f2b52d53ece4677efc240baaa9185a76614c2
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 0ebab543a39440190d530b6e7e68b441e49ff017
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884697"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90776182"
 ---
 <!-- cSpell:ignore NVAs VPNs -->
 
@@ -76,12 +76,12 @@ ms.locfileid: "88884697"
 | Все рабочие нагрузки, размещенные в Azure, развернутые в целевой зоне, полностью основаны на PaaS, не нуждаются в виртуальной сети и не являются частью усилий по внедрению облака, которые включают ресурсы IaaS.                                                                                                                                                          | ["Только PaaS"](../../decision-guides/software-defined-network/paas-only.md)            |
 | Рабочие нагрузки, размещенные в Azure, развернут ресурсы на основе IaaS, как виртуальные машины, или потребуют наличия виртуальной сети, но не подключения к локальной среде.                                                                                                                                                                            | [Облачная среда](../../decision-guides/software-defined-network/cloud-native.md)      |
 | Рабочие нагрузки, размещенные в Azure, требуют ограниченного доступа к локальным ресурсам, но облачные подключения следует считать ненадежными.                                                                                                                                                                                                                             | [Сеть периметра в облаке](../../decision-guides/software-defined-network/cloud-dmz.md)            |
-| Рабочие нагрузки, размещенные в Azure, требуют ограниченного доступа к локальным ресурсам, и вы планируете внедрить современные политики безопасности и безопасное подключение между облачной и локальной средами.                                                                                                                                                           | [Гибридный](../../decision-guides/software-defined-network/hybrid.md)                  |
+| Рабочие нагрузки, размещенные в Azure, требуют ограниченного доступа к локальным ресурсам, и вы планируете внедрить современные политики безопасности и безопасное подключение между облачной и локальной средами.                                                                                                                                                           | [Гибридная](../../decision-guides/software-defined-network/hybrid.md)                  |
 | Необходимо развернуть и управлять большим количеством виртуальных машин и рабочих нагрузок, потенциально превышающих [ограничения подписки Azure](/azure/azure-resource-manager/management/azure-subscription-service-limits), совместно использовать службы между подписками или использовать более сегментированную структуру для разделения ролей, приложений или разрешений. | [Звездообразная модель](../../decision-guides/software-defined-network/hub-spoke.md)        |
 | Имеется множество филиалов, которым необходимо подключаться друг к другу и к Azure.                                                                                                                                                                                                                                                                                         | [Виртуальная глобальная сеть Azure (WAN)](/azure/virtual-wan/virtual-wan-about) |
 
 <!-- TODO: Refactor VDC content below. -->
-<!-- docsTest:casing "Azure Virtual Datacenter" -->
+<!-- docutune:casing "Azure Virtual Datacenter" -->
 
 ### <a name="azure-virtual-datacenter"></a>Виртуальный центр обработки данных Azure
 

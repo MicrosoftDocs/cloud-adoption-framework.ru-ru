@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: bf5a02b6996c5ff71d4c12041142655223c5cce8
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: ebd9decfb10f4ff0917d1c7020569a2f63777018
+ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884969"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "89605063"
 ---
 <!-- markdownlint-disable DOCSMD001 -->
 
@@ -129,7 +129,7 @@ ms.locfileid: "88884969"
 ::: zone target="docs"
 
 - [Руководство. Рекомендации по оптимизации затрат](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
-- [Предотвращение непредвиденных расходов с помощью функции выставления счетов и управления затратами в Azure](/azure/billing/billing-getting-started)
+- [Предотвращение непредвиденных расходов с помощью службы "Управление затратами и выставление счетов Azure"](/azure/billing/billing-getting-started)
 - [Изучение и анализ затрат с помощью функции анализа затрат](/azure/cost-management/quick-acm-cost-analysis)
 
 ::: zone-end

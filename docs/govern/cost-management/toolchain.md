@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 1e0654a74eeb9d4b53c05fdbce8ee0314828ba3a
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: bc1f69d425bac78544c8542a4e1adf1e7357e700
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88883660"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775468"
 ---
 # <a name="cost-management-tools-in-azure"></a>Средства управления затратами в Azure
 
@@ -21,16 +21,14 @@ ms.locfileid: "88883660"
 
 Ниже приведен список собственных средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-<!-- TODO: Content packs are deprecated. -->
-
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Служба "Управление затратами Azure" и функция выставления счетов](/azure/cost-management-billing/cost-management-billing-overview)  | [соединитель Power BI Desktop](/power-bi/connect-data/desktop-connect-azure-cost-management). | [Политика Azure](/azure/governance/policy/overview) |
+| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Управление затратами и выставление счетов Azure](/azure/cost-management-billing/cost-management-billing-overview)  | [соединитель Power BI Desktop](/power-bi/connect-data/desktop-connect-azure-cost-management). | [Политика Azure](/azure/governance/policy/overview) |
 |---------|---------|---------|---------|---------|
-| Управление бюджетом     | Нет         | Да         | Нет         | Да         |
-| Отслеживание затрат на отдельном ресурсе    | Да         | Да         | Да         | Нет         |
-| Отслеживание затрат на нескольких ресурсах    | Нет         | Да        | Да         | Нет         |
-| Контроль затрат на отдельном ресурсе     | Да, вручную изменить размер         | Да         | Нет         | Да         |
-| Применение затрат для нескольких ресурсов    | Нет         | Да         | Нет         | Да         |
-| Принудительное применение метаданных учета для ресурсов    | Нет         | Нет         | Нет         | Да         |
-| Отслеживание и выявление тенденций     | Да          | Да        | Да         | Нет         |
-| Обнаружение аномалий в затратах     | Нет         | Да        | Да         | Нет        |
-| Социализация отклонений     | Нет        | Да        | Да        | Нет        |
+| Управление бюджетом     | нет         | Да         | нет         | Да         |
+| Отслеживание затрат на отдельном ресурсе    | Да         | Да         | Да         | нет         |
+| Отслеживание затрат на нескольких ресурсах    | нет         | Да        | Да         | нет         |
+| Контроль затрат на отдельном ресурсе     | Да, вручную изменить размер         | Да         | нет         | Да         |
+| Применение затрат для нескольких ресурсов    | нет         | Да         | нет         | Да         |
+| Принудительное применение метаданных учета для ресурсов    | нет         | нет         | нет         | Да         |
+| Отслеживание и выявление тенденций     | Да          | Да        | Да         | нет         |
+| Обнаружение аномалий в затратах     | нет         | Да        | Да         | нет        |
+| Социализация отклонений     | нет        | Да        | Да        | нет        |

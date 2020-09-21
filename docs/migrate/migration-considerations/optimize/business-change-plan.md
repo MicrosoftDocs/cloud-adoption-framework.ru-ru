@@ -7,16 +7,16 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 58b10b2f800e7292f3f107a3fc307cb971c5809b
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 76edfc3f78c5f1a42306d761a82ea82f30dcf015
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884629"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90774380"
 ---
 <!-- cSpell:ignore Eason -->
 
-<!-- docsTest:casing "Eason Matrix" -->
+<!-- docutune:casing "Eason Matrix" -->
 
 # <a name="business-change-plan"></a>Изменение бизнес-плана
 
@@ -60,7 +60,7 @@ ms.locfileid: "88884629"
 
 В разных компаниях свой план бизнес-изменений. Цель этих вопросов — помочь бизнесу охотнее следовать изменениям, связанным с каждым выпуском. Если рассматривать каждый выпуск не как технологическое изменение, которое нужно принять, а как план бизнес-изменений, бизнес-результаты могут стать более достижимыми.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После документирования и планирования бизнес-изменений можно начать [бизнес-тестирование](./business-test.md).
 
@@ -69,8 +69,8 @@ ms.locfileid: "88884629"
 
 ## <a name="references"></a>Ссылки
 
-<!-- docsTest:disable -->
+<!-- docutune:disable -->
 
 - Еасон, K. (1988) _информационные технологии и организационные изменения_, Нью-Йорк: Кузнецова и Фрэнсис.
 
-<!-- docsTest:enable -->
+<!-- docutune:enable -->

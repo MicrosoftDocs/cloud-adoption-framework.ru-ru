@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: f0031c5e239dc7d11760eee3a36597fa86c0db66
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 1b2cbbcbb56a66daa67be455d8b7df2f7222c831
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88883694"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775519"
 ---
 # <a name="cost-management-sample-policy-statements"></a>Примеры правил политики управления затратами
 
@@ -39,7 +39,7 @@ ms.locfileid: "88883694"
 
 **Инструкция политики:** Любое облачное развертывание должно быть распределено в единицу выставления счетов с утвержденным бюджетом и механизмом для бюджетных ограничений.
 
-**Параметры проектирования:** В Azure бюджет можно контролировать с помощью службы [управления затратами Azure и выставления счетов](/azure/cost-management/manage-budgets).
+**Параметры проектирования:** В Azure бюджет можно контролировать с помощью службы " [Управление затратами Azure" и "выставление счетов](/azure/cost-management/manage-budgets)".
 
 ## <a name="underutilization"></a>Недостаточно эффективное использование
 
@@ -74,7 +74,7 @@ ms.locfileid: "88883694"
 - В Azure есть [аналитические функции Azure Monitor](/azure/azure-monitor/insights/vminsights-performance), которые помогут в анализе использования системы.
 - Также существует несколько методов группировки и маркировки ресурсов с учетом их ролей. Совместно с группой управления следует выбрать для Azure [модель согласованности ресурсов](../../decision-guides/resource-consistency/index.md) и применить ее ко всем ресурсам.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Используйте примеры, приведенные в этой статье, в качестве отправной точки для разработки политик по конкретным бизнес-рискам, соответствующих вашим планам внедрения облачных систем.
 

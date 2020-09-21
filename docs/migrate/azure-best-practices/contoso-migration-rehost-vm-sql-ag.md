@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: c633fe36e4817ad92501085b8309acf945397bc3
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 952462547953c1ade7e426d6369f941484185162
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89602560"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90776148"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc AOAG SQLAOG SQLAOGAVSET contosoadmin contosocloudwitness MSSQLSERVER BEPOOL contosovmsacc SHAOG NSGs inetpub iisreset -->
 
@@ -196,7 +196,7 @@ ms.locfileid: "89602560"
 
     ![Снимок экрана, на котором показан ключ доступа.](./media/contoso-migration-rehost-vm-sql-ag/access-key.png)
 
-<!-- docsTest:casing "Failover Cluster feature" -->
+<!-- docutune:casing "Failover Cluster feature" -->
 
 ### <a name="add-sql-server-vms-to-contoso-domain"></a>Добавление виртуальных машин SQL Server в домене Contoso
 

@@ -7,12 +7,12 @@ ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 5bfabc441eb3669ed2f2681c66f48db77c1c0077
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: f8f7cc11e89be655f736bbc50865c8e46caab48b
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884510"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90776522"
 ---
 # <a name="track-costs-across-business-units-environments-or-projects"></a>Отслеживание затрат по всем бизнес-единицам, средам или проектам
 
@@ -71,7 +71,7 @@ _Расстановка тегов_ — это простой способ кл
 
 ### <a name="roles"></a>Роли
 
-<!-- docsTest:casing Owner Contributor Reader "Cost Management Contributor" "Cost Management Reader" -->
+<!-- docutune:casing Owner Contributor Reader "Cost Management Contributor" "Cost Management Reader" -->
 
 Служба "Управление затратами Azure" и выставление счетов поддерживают следующие встроенные роли для каждой области:
 
@@ -126,7 +126,7 @@ _Расстановка тегов_ — это простой способ кл
 - [Оптимизация затрат на основе рекомендаций](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
 - [Использование оповещения о затратах для отслеживания потребления и расходов](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending)
 
-<!-- docsTest: "AWS Cost and Usage" -->
+<!-- docutune: "AWS Cost and Usage" -->
 
 ### <a name="use-azure-cost-management-and-billing-to-govern-aws-costs"></a>Использование службы "Управление затратами Azure" и выставления счетов для управления AWS затратами
 

@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 54d35e4b895961eb290de9ab151fa1332bb0bc8d
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: bb1c7ff3de8fae692decd61c0f939ddd21239163
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89603335"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90775689"
 ---
 # <a name="get-started-manage-cloud-costs"></a>Начало работы: Управление затратами на облачные ресурсы
 
@@ -104,7 +104,7 @@ ms.locfileid: "89603335"
 - [Сбор данных инвентаризации](../digital-estate/inventory.md). Создайте источник данных для анализа цифрового пространства перед внедрением.
 - [Рекомендации: служба "миграция Azure"](../plan/contoso-migration-assessment.md). Используйте службу "миграция Azure" для сбора данных инвентаризации.
 - [Инкрементное обоснование](../digital-estate/rationalize.md#incremental-rationalization). Во время добавочного согласования и количественного анализа выявление кандидатов облака для целей бюджетирования.
-- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службы управления затратами Azure и выставления счетов, чтобы вычислять затраты и прогнозные модели путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
+- [Выровняйте модели затрат и модели прогнозирования](../digital-estate/calculate.md). Используйте службу управления затратами Azure + выставление счетов для согласования затрат и прогнозных моделей путем [создания бюджетов](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 - [Создайте план внедрения в облако](../plan/plan-intro.md#build-your-cloud-adoption-plan). Создайте план с рабочей нагрузкой, активами и сведениями о временной шкале. Этот план обеспечивает базу для расходов с течением времени (или прогнозирования затрат). *Затраты с течением времени* — это первоначальный базовый план для всех операций анализа оптимизации в рамках дисциплины управления затратами.
 
 <br>

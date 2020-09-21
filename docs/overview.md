@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: homepage
-ms.openlocfilehash: c9e6966eff17c475ff64b4272dd9baf9f08bc0fe
-ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
+ms.openlocfilehash: d0f6c6348a7204d7991fb2be1a739addf4afe137
+ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "90681427"
+ms.lasthandoff: 09/18/2020
+ms.locfileid: "90776131"
 ---
 # <a name="what-is-the-microsoft-cloud-adoption-framework-for-azure"></a>Что такое платформа внедрения Microsoft Cloud для Azure?
 
@@ -62,7 +62,7 @@ ms.locfileid: "90681427"
 
 Если ваша организация является новой в Azure, начните с [изучения и документирования решений по выравниванию основных принципов](./get-started/cloud-concepts.md). Если цифровое преобразование предприятия включает облако, понимание этих фундаментальных концепций поможет вам на каждом этапе процесса.
 
-<!-- docsTest:ignoreNextStep -->
+<!-- docutune:ignoreNextStep -->
 
 > [!div class="nextstepaction"]
 > [Начало работы](./get-started/index.md)
