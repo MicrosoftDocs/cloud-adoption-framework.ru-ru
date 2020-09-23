@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: a82428e522e263a7e4610ed1b202a8bada19456e
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: 3df2987e8580b283766b672f2377c3388923fe21
+ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90775672"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91108249"
 ---
 # <a name="get-started-accelerate-migration"></a>Начало работы. Ускорение миграции
 
@@ -205,7 +205,8 @@ ms.locfileid: "90775672"
 
 - Развертывание первоначальной системы управления.
 - Выполните контрольный тест для управления, чтобы спланировать будущие улучшения.
-- Риск временной шкалы. политики улучшения и реализация системы управления могут добавить одну до четырех недель на дисциплину.
+- Риск временной шкалы:
+  - Улучшенные политики и реализация управления могут добавить одну до четырех недель на дисциплину.
 
 <br>
 

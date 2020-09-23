@@ -1,18 +1,18 @@
 ---
 title: Целевые зоны Azure для экземпляров виртуальных рабочих столов Windows
-description: Используйте платформу внедрения облаков для Azure, чтобы изучить рекомендации по переносу виртуальных рабочих столов, чтобы сократить сложность и стандартизировать процесс миграции.
+description: Используйте платформу внедрения облачных решений Azure для подготовки среды к миграции виртуальных рабочих столов с помощью рекомендаций, которые снижают сложность и стандартизацию процесса миграции.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 07/01/2010
+ms.date: 07/17/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4d554fa61572e26e880b437154d504a17b727772
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: f7aeba65ddd357ea7a65c6e902d7403f0c403a20
+ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885275"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91108296"
 ---
 # <a name="windows-virtual-desktop-azure-landing-zone-review"></a>Обзор целевой зоны Azure виртуальных рабочих столов Windows
 
@@ -32,7 +32,7 @@ ms.locfileid: "88885275"
 
 Чтобы разобраться в проектировании виртуальных рабочих столов Windows, ознакомьтесь с [требованиями к виртуальному](/azure/virtual-desktop/overview#requirements)рабочему столу Windows.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 

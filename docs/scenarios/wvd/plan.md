@@ -1,18 +1,18 @@
 ---
 title: Планирование виртуальных рабочих столов Windows
-description: Используйте платформу внедрения в облаке для Azure, чтобы узнать о рекомендациях по переносу виртуальных рабочих столов Windows, чтобы сократить сложность и стандартизацию процесса миграции.
+description: Используйте платформу облачного внедрения для Azure, чтобы спланировать миграцию виртуальных рабочих столов Windows с помощью рекомендаций, которые снижают сложность и стандартизацию процесса миграции.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 07/01/2010
+ms.date: 07/17/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7579d85d81989162d396120291831f12023dc4de
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 9a5611ede4a0fea9ef1623a2c2e3d456afa2b963
+ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885326"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91108360"
 ---
 # <a name="windows-virtual-desktop-planning"></a>Планирование виртуальных рабочих столов Windows
 
@@ -26,7 +26,7 @@ ms.locfileid: "88885326"
 
 Сведения о создании плана см. в статье [шаблон DevOps плана внедрения облака](../../plan/template.md) для существующего журнала ожидания миграции в Azure DevOps. Используйте шаблон, чтобы создать подробный план действий.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Рекомендации по конкретным элементам процесса внедрения облачных технологий см. в следующих статьях:
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 5d2bfab7d5a7cea52d249d0bd2ed386e0dbcdae4
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 1df1e0ae58572beac799f43304018672c9231c47
+ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604928"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91108148"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-identity-baseline-discipline"></a>Руководство по управлению для сложных предприятий: повышение дисциплины базовых показателей удостоверений
 
@@ -69,7 +69,7 @@ ms.locfileid: "89604928"
 - Необходимо установить высокоскоростное частное подключение между поставщиком облачных услуг и поставщиком Telco компании, подключив поставщик облачных служб к глобальной сети центров обработки данных.
 - Пока необходимые требования безопасности не определены, общедоступный входящий трафик не может получить доступ к ресурсам компании, размещенным в облаке. Все порты заблокированы для всех источников за пределами глобальной сети.
 
-## <a name="incremental-improvement-of-the-best-practices"></a>Добавочное улучшение рекомендаций
+## <a name="incremental-improvement-of-best-practices"></a>Добавочное улучшение рекомендаций
 
 Проект MVP по управлению изменяется для включения новых политик Azure и реализации Active Directory на виртуальной машине. Совокупно эти изменения проекта позволяют внедрить новые положения корпоративной политики.
 
@@ -80,7 +80,7 @@ ms.locfileid: "89604928"
     1. Определите NSG для блокировки внешнего трафика и разрешите внутренний трафик.
     2. Развертывание двух Active Directory виртуальных машин в паре с балансировкой нагрузки на основе эталонного образа. При первой загрузке этот образ запускает сценарий PowerShell для присоединения к домену и регистрации в доменных службах. Дополнительные сведения см. в статье [Расширение доменных служб Active Directory в Azure](/azure/architecture/reference-architectures/identity/adds-extend-domain).
 - Политика Azure. Примените NSG ко всем ресурсам.
-- Схема Azure.
+- Проекты Azure:
     1. Создайте схему Azure с именем `active-directory-virtual-machines`.
     2. Добавьте в проект каждый шаблон Active Directory и политики.
     3. Опубликуйте схему в любую применимую группу управления.

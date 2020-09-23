@@ -1,18 +1,18 @@
 ---
 title: Развертывание виртуального рабочего стола Windows в Azure
-description: Используйте платформу внедрения облаков для Azure, чтобы изучить рекомендации по переносу виртуальных рабочих столов Windows, чтобы сократить сложность и стандартизировать процесс миграции.
+description: Используйте платформу внедрения облачных решений Azure для развертывания виртуальных рабочих столов Windows с помощью рекомендаций, которые снижают сложность и стандартизацию процесса миграции.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 07/01/2010
+ms.date: 07/17/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b84533bb565e43a0ddb52930f33eba21f35c8ed9
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 99f7bc2f33e3aa5eec08ca0d5b9cca5f85e55063
+ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885360"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91108395"
 ---
 <!-- cSpell:ignore NTFS Logix -->
 
@@ -74,6 +74,6 @@ ms.locfileid: "88885360"
 
 После того как все рекомендации будут учитываться в рабочей области для миграции или развертывания виртуальных рабочих столов Windows, процесс может начаться. После итеративной ритмичности группа внедрения будет развертывать пулы узлов, приложения и профили пользователей. После завершения этого этапа можно начать [тестирование и подключение пользователей](./migrate-release.md) после развертывания.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Выпуск развертывания Виртуального рабочего стола Windows в рабочей среде](./migrate-release.md)

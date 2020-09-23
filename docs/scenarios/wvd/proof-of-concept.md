@@ -1,18 +1,18 @@
 ---
 title: Подтверждение концепции виртуальных рабочих столов Windows
-description: Используйте платформу внедрения облаков для Azure, чтобы изучить рекомендации по переносу виртуальных рабочих столов Windows, чтобы сократить сложность и стандартизировать процесс миграции.
+description: Используйте платформу внедрения в облаке, чтобы узнать о рекомендациях по завершению и тестированию эксперимента виртуальных рабочих столов Windows.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 07/01/2010
+ms.date: 07/17/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b17c1703bd50f49e747a690ff9379a687a5543cf
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 4b88bd7d9954b332b3881e06afc95ab8406bbe6b
+ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89605047"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91108287"
 ---
 <!-- cSpell:ignore FSLogix onboards remoteapp macos -->
 
