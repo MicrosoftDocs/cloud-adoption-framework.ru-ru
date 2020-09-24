@@ -335,7 +335,7 @@ items:
                 href: /azure/sql-database/sql-database-security-best-practice?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
               - name: Выбор варианта развертывания в SQL Azure
                 href: /azure/sql-database/sql-database-paas-vs-sql-server-iaas?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
-          - name: управления затратами
+          - name: управления затратами;
             items:
               - name: Отслеживание затрат
                 href: ready/azure-best-practices/track-costs.md
@@ -1203,7 +1203,7 @@ items:
         href: govern/governance-disciplines.md
       - name: Реализация аспектов управления облаком
         items:
-          - name: управления затратами
+          - name: управления затратами;
             items:
               - name: Обзор управления затратами
                 href: govern/cost-management/index.md
@@ -1531,6 +1531,8 @@ items:
         items:
           - name: Операционная модель облака
             href: reference/cloud-operating-model.md
+          - name: Рекомендации по обеспечению безопасности в Azure
+            href: ./security/security-top-10.md
           - name: Шаблон Azure для предприятий
             href: reference/azure-scaffold.md
           - name: Виртуальный центр обработки данных
