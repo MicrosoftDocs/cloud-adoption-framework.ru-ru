@@ -7,16 +7,18 @@ ms.date: 09/18/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 2b3b29551d734c8c3e4d2cacc6fec0929a022258
-ms.sourcegitcommit: 8d3a8e7211ceb94ba351914a622f293f72286039
+ms.openlocfilehash: 46fe6f695b4b3e38c28e0860a15153a02a24a16a
+ms.sourcegitcommit: 899fcd5314ce2748e98c69e27c7f2e318ab27ac5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/22/2020
-ms.locfileid: "91002921"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91206234"
 ---
 # <a name="azure-security-best-practices"></a>Рекомендации по обеспечению безопасности в Azure
 
 Это лучшие рекомендации по обеспечению безопасности в Azure, которые корпорация Майкрософт рекомендует на основе уроков, полученных от клиентов, и наших сред.
+
+Вы можете просмотреть видеоролик, посвященный этим рекомендациям, в техническом [сообществе Майкрософт](https://techcommunity.microsoft.com/t5/video-hub/top-10-best-practices-for-azure-security/m-p/1698837).
 
 ## <a name="1-people-educate-teams-about-the-cloud-security-journey"></a>1. люди. обучить группы о пути безопасности в облаке
 

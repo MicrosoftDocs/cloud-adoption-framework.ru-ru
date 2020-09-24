@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 1c9a2faf35a2137e5dd04c23a8cb49c6dd02f5b5
-ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
+ms.openlocfilehash: 4e5521c2f3b699584d7785a80e3c92b3db24e347
+ms.sourcegitcommit: 899fcd5314ce2748e98c69e27c7f2e318ab27ac5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "90680994"
+ms.lasthandoff: 09/24/2020
+ms.locfileid: "91206217"
 ---
 # <a name="get-started-implement-security-across-the-enterprise-environment"></a>Начало работы. Реализация безопасности в среде предприятия
 
@@ -38,44 +38,33 @@ ms.locfileid: "90680994"
 
 ## <a name="step-1-establish-essential-security-practices"></a>Шаг 1. Установка необходимых методов безопасности
 
-Безопасность в облаке начинается с использованием звуковых методов. Если вы уже работаете в облаке или планируете переход на будущее, важно быстро установить важные методы обеспечения безопасности.
+Безопасность в облаке начинается с применения наиболее важных методов обеспечения безопасности к элементам системы пользователей, процессам и технологиям. Кроме того, некоторые архитектурные решения основаны и очень сложно изменить позже, поэтому их следует применять тщательно. 
 
-Кроме соблюдения каких либо явных требований к соответствию нормативным требованиям, мы рекомендуем выполнить следующие действия, чтобы устранить основные проблемы безопасности, которые сталкиваются с большинством организаций при переходе в облако.
+Если вы уже работаете в облаке или планируете переход на будущее, мы рекомендуем следовать этим 11 основным методикам обеспечения безопасности (в дополнение к соблюдению любых явных нормативных требований).
 
-**Конечные результаты и сопутствующие рекомендации:**
+**Пользователи**
 
-- **Техническая информация:** Устранение основных рисков и повышение видимости и контроля ресурсов за счет включения защиты паролем или многофакторной проверки подлинности для администраторов, а также разрешения на защиту от угроз для облачных ресурсов.
+1. [Обучение групп о пути безопасности в облаке](../security/security-top-10.md#1-people-educate-teams-about-the-cloud-security-journey)
+2. [Обучение команд в облачной технологии безопасности](../security/security-top-10.md#2-people-educate-teams-on-cloud-security-technology) 
 
-  - [Антипарольная или многофакторная проверка подлинности для администраторов](/azure/architecture/framework/security/critical-impact-accounts#passwordless-or-multi-factor-authentication-for-admins)
-  - [Операции безопасности](/azure/architecture/framework/security/security-operations) и [Защита от угроз в центре безопасности Azure](/azure/security-center/threat-protection)
+**Процесс**
 
-- **Процесс:** Разрешите решения по обеспечению безопасности и непрерывное улучшение, назначив роли безопасности и обязанности, а затем создав процесс реагирования на инциденты.
+3. [Назначьте ответственность за принятие решений по безопасности в облаке](../security/security-top-10.md#3-process-assign-accountability-for-cloud-security-decisions)
+4. [Обновление процессов реагирования на инциденты (IR) для облака](../security/security-top-10.md#4-process-update-incident-response-ir-processes-for-cloud)
+5. [Создание управления уровнями безопасности](../security/security-top-10.md#5-process-establish-security-posture-management)
 
-  - [Очистите строки ответственности](/azure/architecture/framework/security/governance#clear-lines-of-responsibility), [назначьте привилегии для управления средой](/azure/architecture/framework/security/governance#assign-privileges-for-managing-the-environment)и эксплуатацию безопасность оценки <!-- TODO: Improve this and add link to AAF article -->
-  - Роли и обязанности безопасности <!-- TODO: add link to bookmark -->
-  - [Справочное руководство по реагированию на инциденты](https://aka.ms/irrg)
+**Компьютеров**
 
-- **Люди:** Предоставьте группам безопасности возможность обучения, средств и доступа, необходимых для успешного развертывания и эксплуатации во время перехода в облачную среду.
+6. [Требовать безпарольную или многофакторную проверку подлинности (MFA)](../security/security-top-10.md#6-technology-require-passwordless-or-multi-factor-authentication-mfa)
+7. [Интеграция собственного брандмауэра и сетевой безопасности](../security/security-top-10.md#7-technology-integrate-native-firewall-and-network-security)
+8. [Интегрировать встроенное обнаружение угроз](../security/security-top-10.md#8-technology-integrate-native-threat-detection)
 
-  - **Обучите все концепции** развития облачных и облачных средств безопасности:
-    - [Развитие среды угроз, ролей и цифровых стратегий](/security/compass/microsoft-security-compass-introduction#evolution-of-threat-environment-roles--digital-strategies-2004)
-    - [Преобразование безопасности, стратегий, средств и угроз](/security/compass/microsoft-security-compass-introduction#transformation-of-security-strategies-tools--threats-1513)
-  - **Обучение технических специалистов** по техническим деталям возможностей обеспечения безопасности в облаке для используемых платформ. Корпорация Майкрософт предоставляет обширную [документацию по безопасности Azure](/azure/security).
+**Решения для базовых архитектур:**
 
-- **Долгосрочные архитектурные решения:** Создайте долгосрочную основу с правильными решениями. Это сложно и дорого изменить позже.
+9. [Стандартизация для одного каталога и удостоверения](../security/security-top-10.md#9-architecture-standardize-on-a-single-directory-and-identity)
+10. [Использование управления доступом на основе удостоверений (вместо ключей)](../security/security-top-10.md#10-architecture-use-identity-based-access-control-instead-of-keys)
+11. [Создание единой унифицированной стратегии безопасности](../security/security-top-10.md#11-architecture-establish-a-single-unified-security-strategy)
 
-  - [Создавайте стратегию сегментации предприятия и выровняйте ее технические архитектуры (сегментация сети, сегментация удостоверений и т. д.).](/azure/architecture/framework/security/network-security-containment#align-network-segmentation-with-enterprise-segmentation-strategy)
-  - [Единый корпоративный каталог](/azure/architecture/framework/security/design-identity#use-a-single-enterprise-directory)
-  - [Стратегия проверки подлинности для служб](/azure/architecture/framework/security/applications-services#prefer-identity-authentication-over-keys)
-  - [Стратегия назначения разрешений](/azure/architecture/framework/security/critical-impact-accounts#avoid-granular-and-custom-permissions)
-
-<br>
-
-| Команда, подучетная запись | Ответственные и вспомогательные команды |
-| --- | --- |
-| <li> Группа Cloud Security <br><br><br> | <li> Группа по облачной стратегии <li> Группа по внедрению облака <li> Облачный центр для ИТ и специалистов по ИТ |
-
-В ходе этого начального шага группы управления должны также начать координацию создания базовых показателей безопасности, которые можно отслеживать, контролировать и применять в разных средах. Дополнительные рекомендации по созданию этого раздела обсуждаются далее в шаге 4.
 
 > [!NOTE]
 > Каждая организация должна определять собственные минимальные стандарты. Степень риска и последующая погрешность этого риска могут сильно различаться в зависимости от отрасли, культуры и других факторов. Например, банк может не допускать потенциального ущерба от его репутации даже при незначительной атаке на тестовую систему. Некоторые организации будут рады принять такой же риск, если он ускоряет цифровое преобразование на три – шесть месяцев.
