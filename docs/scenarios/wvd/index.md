@@ -1,18 +1,18 @@
 ---
 title: Перенос или развертывание экземпляров Виртуального рабочего стола Windows в Azure
-description: Перенесите или разверните экземпляры Виртуального рабочего стола Windows в Azure.
+description: Воспользуйтесь рекомендациями Cloud Adoption Framework для переноса или развертывания экземпляров Виртуального рабочего стола Windows в Azure.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 07/01/2010
+ms.date: 07/17/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 9e07aa60e6201735905160f533115552f61c4d1a
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: abd2bc9e7c201938f13cc7bdc1210ced4eb4637c
+ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885428"
+ms.lasthandoff: 09/23/2020
+ms.locfileid: "91108444"
 ---
 # <a name="migrate-or-deploy-windows-virtual-desktop-instances-to-azure"></a>Перенос или развертывание экземпляров Виртуального рабочего стола Windows в Azure
 
