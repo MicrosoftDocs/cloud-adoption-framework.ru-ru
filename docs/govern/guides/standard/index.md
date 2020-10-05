@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 0b7f0baee83afa1e0765a7855b44d9da1c17eec8
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: dd8b8e0c900b9e7332b4ecd25b163b25f9019e6d
+ms.sourcegitcommit: 670dd77efe02ed20275732248e0fa2aae2196805
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604831"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91620742"
 ---
 # <a name="standard-enterprise-governance-guide"></a>Руководство по организации системы управления для стандартных предприятий
 
@@ -65,7 +65,7 @@ ms.locfileid: "89604831"
 
 В MVP устанавливаются рекомендации и средства дисциплины [ускорения развертывания](../../deployment-acceleration/index.md), которые позволяют быстро применять корпоративную политику. В частности MVP использует Azure Blueprints, Политику Azure и группы управления Azure для применения нескольких основных корпоративных политик, как определено в описании этой вымышленной компании. Эти корпоративные политики применяются с использованием шаблонов Resource Manager и политик Azure для определения основных минимальных показателей идентификации и безопасности.
 
-![Пример минимально жизнеспособного продукта для системы управления инкрементальной модели](../../../_images/govern/governance-mvp.png)
+![Схема с примером минимально жизнеспособного продукта для системы управления инкрементальной модели.](../../../_images/govern/governance-mvp.png)
 
 ## <a name="incremental-improvement-of-governance-practices"></a>Поэтапное улучшение методик управления
 
@@ -75,7 +75,7 @@ ms.locfileid: "89604831"
 - "Базовые средства безопасности" по мере развертывания защищенных данных.
 - "Согласованность ресурсов" по мере поддержки критически важных рабочих нагрузок отделом ИТ-операций.
 
-![Пример минимально жизнеспособного продукта для системы управления инкрементальной модели](../../../_images/govern/governance-improvement.png)
+![Схема с примером поэтапного улучшения методик управления.](../../../_images/govern/governance-improvement.png)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -7,12 +7,12 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 4a0e0a00a644d1034593752bafe453ecbba07815
-ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
+ms.openlocfilehash: 2f00f46c7b3ccf0c716d01353e5ffa61437c7188
+ms.sourcegitcommit: 670dd77efe02ed20275732248e0fa2aae2196805
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89510572"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91621405"
 ---
 # <a name="develop-a-cloud-adoption-strategy"></a>Создание стратегии внедрения в облако
 
@@ -22,9 +22,9 @@ ms.locfileid: "89510572"
 
 | <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
-| <br> ![1](../_images/icons/1.png) | <br> [Определение и документирование целей.](./motivations.md) Определите с ключевыми заинтересованными лицами и руководителями цели внедрения в облако. |
-| <br> ![2](../_images/icons/2.png) | <br> [Структура бизнес-результатов.](./business-outcomes/index.md) Определите с ключевыми заинтересованными лицами и руководителями желаемые бизнес-результаты. |
-| <br> ![3](../_images/icons/3.png) | <br> [Разработка бизнес-модели.](./cloud-migration-business-case.md) Создайте бизнес-план для подтверждения финансовой модели в соответствии с определенными целями и результатами. |
-| <br> ![4](../_images/icons/4.png) | <br> [Выбор подходящего первого проекта.](./first-adoption-project.md) Ваш первый проект внедрения облачных технологий поможет согласовать задачи и технические подходы. Эта статья поможет вам осмысленно выбрать свой первый проект. |
+| <br> :::image type="icon" source="../_images/icons/1.png"::: | <br> [Определение и документирование целей.](./motivations.md) Определите с ключевыми заинтересованными лицами и руководителями цели внедрения в облако. |
+| <br> :::image type="icon" source="../_images/icons/2.png"::: | <br> [Структура бизнес-результатов.](./business-outcomes/index.md) Определите с ключевыми заинтересованными лицами и руководителями желаемые бизнес-результаты. |
+| <br> :::image type="icon" source="../_images/icons/3.png"::: | <br> [Разработка бизнес-модели.](./cloud-migration-business-case.md) Создайте бизнес-план для подтверждения финансовой модели в соответствии с определенными целями и результатами. |
+| <br> :::image type="icon" source="../_images/icons/4.png"::: | <br> [Выбор подходящего первого проекта.](./first-adoption-project.md) Ваш первый проект внедрения облачных технологий поможет согласовать задачи и технические подходы. Эта статья поможет вам осмысленно выбрать свой первый проект. |
 
 Чтобы разработать стратегию внедрения облачных технологий и отслеживать результаты выполнения каждого шага, используйте [шаблон с планом и стратегией](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).

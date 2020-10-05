@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: c6f0c69b37f2f1409d0812701cb089092ae8af2d
-ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
+ms.openlocfilehash: 4cceead66e21442458f277b7ac0debbd2742ddfd
+ms.sourcegitcommit: 670dd77efe02ed20275732248e0fa2aae2196805
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89510538"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91621541"
 ---
 # <a name="manage-organizational-alignment"></a>Управление бизнес-согласованием
 
@@ -23,10 +23,10 @@ ms.locfileid: "89510538"
 
 | <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
-| <br> ![1](../_images/icons/1.png) | <br> [Тип организационной структуры.](#structure-type) Определите тип организационной структуры, который наилучшим образом подходит для вашей операционной модели. |
-| <br> ![2](../_images/icons/2.png) | <br> [Функции облака.](#understand-required-cloud-functions) Определите функциональные возможности облачных служб, реализация которых в организации необходима для внедрения и использования облачных технологий. |
-| <br> ![3](../_images/icons/3.png) | <br> [Структура сформированных команд.](./organization-structures.md) Определите команды, которые могут предоставлять различные облачные функции. |
-| <br> ![4](../_images/icons/4.png) | <br> [Матрица RACI.](./raci-alignment.md) Важным аспектом любой операционной модели является четкое определение ролей. Воспользуйтесь матрицей RACI, чтобы разделить между командами сферы ответственности, а также распределить полномочия и роли, обеспечивающие функционирование облачной операционной модели. |
+| <br> :::image type="icon" source="../_images/icons/1.png"::: | <br> [Тип организационной структуры.](#structure-type) Определите тип организационной структуры, который наилучшим образом подходит для вашей операционной модели. |
+| <br> :::image type="icon" source="../_images/icons/2.png"::: | <br> [Функции облака.](#understand-required-cloud-functions) Определите функциональные возможности облачных служб, реализация которых в организации необходима для внедрения и использования облачных технологий. |
+| <br> :::image type="icon" source="../_images/icons/3.png"::: | <br> [Структура сформированных команд.](./organization-structures.md) Определите команды, которые могут предоставлять различные облачные функции. |
+| <br> :::image type="icon" source="../_images/icons/4.png"::: | <br> [Матрица RACI.](./raci-alignment.md) Важным аспектом любой операционной модели является четкое определение ролей. Воспользуйтесь матрицей RACI, чтобы разделить между командами сферы ответственности, а также распределить полномочия и роли, обеспечивающие функционирование облачной операционной модели. |
 
 ## <a name="structure-type"></a>Тип организационной структуры
 

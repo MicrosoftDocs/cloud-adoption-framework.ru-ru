@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: seo-azure-migrate
-ms.openlocfilehash: 5c4762e71a88f06520081ba9bcb4b382e7e1bd74
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: 21fd1e6f0803ee8be10ec8dc928bb95120e3bb03
+ms.sourcegitcommit: 670dd77efe02ed20275732248e0fa2aae2196805
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90776063"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91621422"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
@@ -24,10 +24,10 @@ ms.locfileid: "90776063"
 
 | <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
-| <br> ![1](../_images/icons/1.png) | <br> [Перенос первой рабочей нагрузки.](./azure-migration-guide/index.md) Ознакомьтесь с собственными средствами Azure и подходом к миграции, описанными в руководстве по миграции Azure. |
-| <br> ![2](../_images/icons/2.png) | <br> [Сценарии миграции.](./azure-best-practices/index.md) Реализуйте альтернативные сценарии миграции с использованием дополнительных средств и подходов. |
-| <br> ![3](../_images/icons/3.png) | <br> [Рекомендация](./azure-best-practices/index.md). Обеспечьте соответствие распространенным потребностям при миграции, применив согласованные рекомендации. |
-| <br> ![4](../_images/icons/4.png) | <br> [Улучшение процессов.](./migration-considerations/index.md) Миграция — это интенсивный процесс. По мере его выполнения используйте программы улучшения процесса для оценки и отладки различных аспектов миграции. |
+| <br> :::image type="icon" source="../_images/icons/1.png"::: | <br> [Перенос первой рабочей нагрузки.](./azure-migration-guide/index.md) Ознакомьтесь с собственными средствами Azure и подходом к миграции, описанными в руководстве по миграции Azure. |
+| <br> :::image type="icon" source="../_images/icons/2.png"::: | <br> [Сценарии миграции.](./azure-best-practices/index.md) Реализуйте альтернативные сценарии миграции с использованием дополнительных средств и подходов. |
+| <br> :::image type="icon" source="../_images/icons/3.png"::: | <br> [Рекомендация](./azure-best-practices/index.md). Обеспечьте соответствие распространенным потребностям при миграции, применив согласованные рекомендации. |
+| <br> :::image type="icon" source="../_images/icons/4.png"::: | <br> [Улучшение процессов.](./migration-considerations/index.md) Миграция — это интенсивный процесс. По мере его выполнения используйте программы улучшения процесса для оценки и отладки различных аспектов миграции. |
 
 Методика миграции и приведенные выше инструкции основаны на следующих предположениях:
 

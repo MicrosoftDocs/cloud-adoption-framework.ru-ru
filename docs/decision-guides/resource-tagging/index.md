@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 8318e2a6633221b6b94408f997b78bbca58b9595
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: f9ca594839cbd1e5d5ff641c81b083d30cd4481b
+ms.sourcegitcommit: 670dd77efe02ed20275732248e0fa2aae2196805
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884595"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91620844"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 
@@ -29,7 +29,7 @@ ms.locfileid: "88884595"
   - [Оповещения](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
   - [Отслеживание регулярных затрат и отчетность](../../govern/cost-management/compliance-processes.md)
   - [Оптимизация после реализации](../../govern/cost-management/discipline-improvement.md#operate-and-post-implementation)
-  - [Тактика оптимизации затрат](../../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices)
+  - [Тактика оптимизации затрат](../../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-best-practices)
 - **Управление операциями.** Возможность визуального контроля для команды по управлению операциями в контексте бизнес-обязательств и соглашений об уровне обслуживания имеет большое значение для выполняемых операций. Чтобы обеспечить хорошую управляемость, необходимо использовать теги, определяющие [важность задач](../../manage/considerations/criticality.md).
 - **Безопасность.** Классификация данных и влияние на безопасность — это важная точка данных для команды при возникновении брешей или других проблем с безопасностью. Чтобы обеспечить безопасное функционирование, необходимо использовать теги, определяющие [классификацию данных](../../govern/policy-compliance/data-classification.md).
 - **Соответствие нормативным требованиям.** Поддержание согласованности между ресурсами помогает выявлять отклонения от утвержденных политик. В этом руководстве по [управлению](../../govern/guides/complex/prescriptive-guidance.md#resource-tagging) показано, как один из описанных ниже шаблонов используется при развертывании решений для управления. Аналогичные шаблоны можно использовать для проверки соответствия нормативным требованиям с помощью тегов.

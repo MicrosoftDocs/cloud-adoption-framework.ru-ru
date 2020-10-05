@@ -7,12 +7,12 @@ ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 08386cc2dfbfffb73e93a97ceec8f0a075d00066
-ms.sourcegitcommit: 26bde9cb5de37383bdfbd682b3676fbcc584081c
+ms.openlocfilehash: 66f0ac172208453cd9c668ab36aa8c828b48269b
+ms.sourcegitcommit: 670dd77efe02ed20275732248e0fa2aae2196805
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/07/2020
-ms.locfileid: "89510555"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91621371"
 ---
 # <a name="ensure-the-environment-is-prepared-for-the-cloud-adoption-plan"></a>Подготовка среды к реализации плана по внедрению в облако
 
@@ -22,9 +22,9 @@ ms.locfileid: "89510555"
 
 | <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
-| <br> ![1](../_images/icons/1.png) | <br> [Руководство по настройке Azure.](./azure-setup-guide/index.md) Ознакомьтесь с руководством по настройке Azure, чтобы узнать о средствах и подходах, используемых при создании зоны размещения. |
-| <br> ![2](../_images/icons/2.png) | <br> [Целевые зоны Azure](./landing-zone/index.md): Выберите наиболее подходящий вариант целевой зоны, чтобы определить начальную точку на основе кода для вашей среды. |
-| <br> ![3](../_images/icons/3.png) | <br> [Расширение целевой зоны.](./considerations/index.md) Выполните требования к платформе для плана внедрения в облако, развернув первую целевую зону. |
-| <br> ![4](../_images/icons/4.png) | <br> [Рекомендация](./azure-best-practices/index.md). Измените зону размещения в соответствии с рекомендациями, чтобы создать правильную конфигурацию для существующих и будущих целевых зон. |
+| <br> :::image type="icon" source="../_images/icons/1.png"::: | <br> [Руководство по настройке Azure.](./azure-setup-guide/index.md) Ознакомьтесь с руководством по настройке Azure, чтобы узнать о средствах и подходах, используемых при создании зоны размещения. |
+| <br> :::image type="icon" source="../_images/icons/2.png"::: | <br> [Целевые зоны Azure](./landing-zone/index.md): Выберите наиболее подходящий вариант целевой зоны, чтобы определить начальную точку на основе кода для вашей среды. |
+| <br> :::image type="icon" source="../_images/icons/3.png"::: | <br> [Расширение целевой зоны.](./considerations/index.md) Выполните требования к платформе для плана внедрения в облако, развернув первую целевую зону. |
+| <br> :::image type="icon" source="../_images/icons/4.png"::: | <br> [Рекомендация](./azure-best-practices/index.md). Измените зону размещения в соответствии с рекомендациями, чтобы создать правильную конфигурацию для существующих и будущих целевых зон. |
 
 При подготовке к внедрению в облако, как минимум, просмотрите [руководство по настройке Azure](./azure-setup-guide/index.md).

@@ -7,12 +7,12 @@ ms.date: 07/21/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: caa399f50742978f20cca49fc8a8fc9f3f10b425
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: cb923e88d1bcbea21c3e38ecba7d9eda7999eff6
+ms.sourcegitcommit: 670dd77efe02ed20275732248e0fa2aae2196805
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885462"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "91621490"
 ---
 <!-- docutune:ignore "One Migration" -->
 <!-- cSpell:ignore HANA -->
@@ -25,7 +25,7 @@ ms.locfileid: "88885462"
 
 На схеме и в таблице ниже представлено несколько сценариев в рамках единой методологии итеративной миграции для переноса и модернизации решений.
 
-![Модель миграции Cloud Adoption Framework](../_images/migrate/one-migrate.png)
+![Схема модели миграции Cloud Adoption Framework, на которой показаны необходимые ресурсы: виртуальные машины, приложения, данные и гибридные ресурсы.](../_images/migrate/one-migrate.png)
 
 | | | | |
 |---------|---------|---------|---------|
@@ -39,7 +39,7 @@ ms.locfileid: "88885462"
 
 В каждом из представленных выше сценариев миграции при перемещении в облако существующих рабочих нагрузок применяется один и тот же основной процесс.
 
-![Модель миграции Cloud Adoption Framework](../_images/migrate/methodology.png)
+![Схема модели миграции Cloud Adoption Framework, на которой показаны волны миграции и действия по миграции.](../_images/migrate/methodology.png)
 
 В каждом сценарии вы будете структурировать циклы миграции для определения выпусков нескольких рабочих нагрузок. Установив план внедрения облачных технологий и целевые зоны Azure с помощью этого плана и готовых методологий, вы сможете сформировать структуру циклов миграции.
 
