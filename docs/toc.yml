@@ -133,6 +133,12 @@ items:
             href: digital-estate/calculate.md
       - name: Первоначальная проверка соответствия организации
         href: plan/initial-org-alignment.md
+      - name: План подготовки навыков
+        items:
+          - name: Создание плана подготовки
+            href: plan/adapt-roles-skills-processes.md
+          - name: Сопоставление ролей и навыков
+            href: plan/suggested-skills.md
       - name: План внедрения в облако
         items:
           - name: Обзор
@@ -151,12 +157,6 @@ items:
             href: plan/iteration-paths.md
           - name: Оценка временных шкал
             href: plan/timelines.md
-      - name: План подготовки навыков
-        items:
-          - name: Создание плана подготовки
-            href: plan/adapt-roles-skills-processes.md
-          - name: Сопоставление ролей и навыков
-            href: plan/suggested-skills.md
       - name: Рекомендации
         items:
           - name: Оценка цифрового пространства в Azure
@@ -1481,6 +1481,8 @@ items:
     items:
       - name: Средства и шаблоны
         href: reference/tools-templates.md
+      - name: Рекомендации по обеспечению безопасности в Azure
+        href: ./security/security-top-10.md
       - name: Руководства по принятию решений
         items:
           - name: Обзор
@@ -1531,8 +1533,6 @@ items:
         items:
           - name: Операционная модель облака
             href: reference/cloud-operating-model.md
-          - name: Рекомендации по обеспечению безопасности в Azure
-            href: ./security/security-top-10.md
           - name: Шаблон Azure для предприятий
             href: reference/azure-scaffold.md
           - name: Виртуальный центр обработки данных
