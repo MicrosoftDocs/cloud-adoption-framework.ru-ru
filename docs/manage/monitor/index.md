@@ -3,16 +3,16 @@ title: Руководство по облачному мониторингу
 description: Узнайте об Azure Monitor и System Center Operations Manager и ознакомьтесь с рекомендуемой стратегией мониторинга для каждой модели облачного развертывания.
 author: MGoedtel
 ms.author: magoedte
-ms.date: 07/31/2019
+ms.date: 10/05/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 48d813c75b695462f2af8434d7b41079b7c03905
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: a1f474f1146afe21508571c402a0da91ac256062
+ms.sourcegitcommit: 81246e185cee53fed591c4bafd56cde7d58e26f4
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89602715"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91898171"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Руководство по облачному мониторингу: Введение
 
@@ -55,12 +55,13 @@ ms.locfileid: "89602715"
 
 Ряд программных продуктов и служб позволяют выполнять мониторинг различных ресурсов, размещенных в Azure, корпоративной сети или у других поставщиков облачных служб, а также управлять ими. К ним относятся:
 
-- System Center Operations Manager
-- Azure Monitor (включает службы Log Analytics и Application Insights)
-- Политика Azure и Azure Blueprints
-- Служба автоматизации Azure
-- Azure Logic Apps
-- Центры событий Azure
+- [System Center Operations Manager](/system-center/scom/welcome)
+- [Azure Monitor](/azure-monitor/overview) (включая Log Analytics и Application Insights)
+- [Политика Azure](/governance/policy/overview) и [Azure Blueprints](/governance/blueprints/overview)
+- [Azure Arc](/azure-arc/overview)
+- [Служба автоматизации Azure](/automation/automation-intro)
+- [Azure Logic Apps](/logic-apps/logic-apps-overview)
+- [Центры событий Azure](/event-hubs/event-hubs-about)
 
 Первая версия этого руководства охватывает наши текущие платформы мониторинга: Azure Monitor и System Center Operations Manager. В ней также описана рекомендуемая стратегия мониторинга каждой из моделей облачного развертывания. Кроме того, в руководство входит первый набор рекомендаций по мониторингу, начиная со сбора данных и предупреждений.
 
