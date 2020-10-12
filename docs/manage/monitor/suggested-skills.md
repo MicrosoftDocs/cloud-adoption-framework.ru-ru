@@ -7,12 +7,12 @@ ms.date: 08/26/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 85f3104f20f969e83f960e8ba3125b0ee56ed41e
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 2dda4bc3feaf207e2aca63b008f40beabc223bec
+ms.sourcegitcommit: 81246e185cee53fed591c4bafd56cde7d58e26f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88877557"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91898120"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -22,7 +22,7 @@ ms.locfileid: "88877557"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов — инфраструктуру, приложение и анализ данных.  
 
-## <a name="fundamentals"></a>Основные сведения
+## <a name="fundamentals"></a>Основы
 
 - Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
@@ -61,7 +61,7 @@ ms.locfileid: "88877557"
 
   - [Microsoft Azure инженер DevOps: оптимизация механизмов обратной связи](https://www.pluralsight.com/courses/microsoft-azure-optimize-feedback-mechanisms) помогает подготовиться к использованию Azure Monitor, включая Application Insights, для мониторинга и оптимизации веб-приложений.
 
-  - [Запись и Просмотр времени загрузки страниц в веб-приложении Azure](https://docs.microsoft.com/learn/modules/capture-page-load-times-application-insights/). Приступайте к работе с этим курсом по использованию Azure Monitor Application Insights для комплексного мониторинга компонентов приложений, работающих в Azure.
+  - [Запись и Просмотр времени загрузки страниц в веб-приложении Azure](/learn/modules/capture-page-load-times-application-insights/). Приступайте к работе с этим курсом по использованию Azure Monitor Application Insights для комплексного мониторинга компонентов приложений, работающих в Azure.
   
   - [Microsoft Azure мониторинга базы данных сборник тренировочных заданий](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) поможет вам узнать, как реализовать и использовать мониторинг базы данных SQL Azure, хранилища данных SQL azure и Azure Cosmos DB.
 
@@ -71,7 +71,7 @@ ms.locfileid: "88877557"
 
 ## <a name="data-analysis"></a>Анализ данных
 
-- Узнайте, как создавать [запросы журналов в Azure Monitor](https://docs.microsoft.com/learn/modules/analyze-infrastructure-with-azure-monitor-logs/). Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение.
+- Узнайте, как создавать [запросы журналов в Azure Monitor](/learn/modules/analyze-infrastructure-with-azure-monitor-logs/). Язык запросов Kusto — это основной ресурс для написания запросов журналов Azure Monitor для изучения и анализа данных журнала между собранными данными из Azure и зависимостями приложений с гибридными ресурсами, включая активное приложение.
 
 - [Язык запросов Kusto (ККЛ) с нуля](https://www.pluralsight.com/courses/kusto-query-language-kql-from-scratch) — это полный курс, включающий в себя подробные примеры, охватывающие широкий спектр вариантов использования и методов для анализа журналов в Azure Monitor журналов.
 

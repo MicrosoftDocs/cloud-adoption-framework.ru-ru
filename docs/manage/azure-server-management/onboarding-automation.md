@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: b3c32b6d6afa9b640dd379230865728fbd53c925
-ms.sourcegitcommit: af521583b98153f7157895b7ba9de71183d437b0
+ms.openlocfilehash: 7f479d4262e276162d2e55fdb8405f77cfc40bf1
+ms.sourcegitcommit: 81246e185cee53fed591c4bafd56cde7d58e26f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/31/2020
-ms.locfileid: "89176486"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91898210"
 ---
 # <a name="automate-onboarding"></a>Автоматизация адаптации
 
@@ -32,7 +32,7 @@ ms.locfileid: "89176486"
 
 - Подключение виртуальных машин Azure с помощью политики Azure. Политика устанавливает агент Log Analytics и Microsoft Dependency Agent на виртуальных машинах Azure.
 
-- Автоматическое включение службы архивации Azure для виртуальных машин с помощью [политики Azure](https://docs.microsoft.com/azure/backup/backup-azure-auto-enable-backup)
+- Автоматическое включение службы архивации Azure для виртуальных машин с помощью [политики Azure](/azure/backup/backup-azure-auto-enable-backup)
 
 - Подключите локальные серверы, установив на них агент Log Analytics.
 
@@ -53,7 +53,7 @@ ms.locfileid: "89176486"
 .\New-AMSDeployment.ps1 -SubscriptionName '{Subscription Name}' -WorkspaceName '{Workspace Name}' -WorkspaceLocation '{Azure Location}' -AutomationAccountName {Account Name} -AutomationAccountLocation {Account Location}
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Узнайте, как настроить базовые оповещения для уведомления команды о событиях и проблемах управления ключами.
 

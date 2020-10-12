@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: de3a0ef01cf3e0144a348318cbf562c60149cebb
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 5b67a8a4d268a254e41549114d861bc205121b48
+ms.sourcegitcommit: 81246e185cee53fed591c4bafd56cde7d58e26f4
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884850"
+ms.lasthandoff: 10/09/2020
+ms.locfileid: "91898290"
 ---
 # <a name="build-technical-skills"></a>Развитие технических навыков
 
@@ -25,7 +25,7 @@ ms.locfileid: "88884850"
 
 - [Выровняйте свою организацию](../get-started/org-alignment.md): Узнайте о подходах к установке правильных организационных структур.
 - [Упражнения по выравниванию Организации](./index.md): получите общие сведения о выравнивании и структурах команды, которые помогут удовлетворить конкретные цели.
-- [Создание групп](../get-started/help.md#establish-teams). Узнайте, как устанавливать команды в Организации, которые отвечают за предоставление облачных функций.
+- [Создание групп](../get-started/index.md#establish-teams). Узнайте, как устанавливать команды в Организации, которые отвечают за предоставление облачных функций.
 - [Разбейте список команд и фиефдомс](./fiefdoms-silos.md): Узнайте о двух распространенных антишаблонах Организации и способах, с помощью которых группы могут эффективно сотрудничать.
 
 ## <a name="environmental-technical-readiness-learning-paths"></a>Схемы обучения по подготовке среды (технические)
