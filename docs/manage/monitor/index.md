@@ -7,12 +7,12 @@ ms.date: 10/05/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: a1f474f1146afe21508571c402a0da91ac256062
-ms.sourcegitcommit: 81246e185cee53fed591c4bafd56cde7d58e26f4
+ms.openlocfilehash: 1c59389754f8c109158ca8ac6aca54fe8cd92a1a
+ms.sourcegitcommit: d81a822575820115d9814b0fc6c05ae33e535825
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91898171"
+ms.lasthandoff: 10/14/2020
+ms.locfileid: "92058773"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Руководство по облачному мониторингу: Введение
 
@@ -56,12 +56,12 @@ ms.locfileid: "91898171"
 Ряд программных продуктов и служб позволяют выполнять мониторинг различных ресурсов, размещенных в Azure, корпоративной сети или у других поставщиков облачных служб, а также управлять ими. К ним относятся:
 
 - [System Center Operations Manager](/system-center/scom/welcome)
-- [Azure Monitor](/azure-monitor/overview) (включая Log Analytics и Application Insights)
-- [Политика Azure](/governance/policy/overview) и [Azure Blueprints](/governance/blueprints/overview)
-- [Azure Arc](/azure-arc/overview)
-- [Служба автоматизации Azure](/automation/automation-intro)
-- [Azure Logic Apps](/logic-apps/logic-apps-overview)
-- [Центры событий Azure](/event-hubs/event-hubs-about)
+- [Azure Monitor](/azure/azure-monitor/overview) (включая Log Analytics и Application Insights)
+- [Политика Azure](/azure/governance/policy/overview) и [Azure Blueprints](/azure/governance/blueprints/overview)
+- [Azure Arc](/azure/azure-arc/)
+- [Служба автоматизации Azure](/azure/automation/automation-intro)
+- [Azure Logic Apps](/azure/logic-apps/logic-apps-overview)
+- [Центры событий Azure](/azure/event-hubs/event-hubs-about)
 
 Первая версия этого руководства охватывает наши текущие платформы мониторинга: Azure Monitor и System Center Operations Manager. В ней также описана рекомендуемая стратегия мониторинга каждой из моделей облачного развертывания. Кроме того, в руководство входит первый набор рекомендаций по мониторингу, начиная со сбора данных и предупреждений.
 
