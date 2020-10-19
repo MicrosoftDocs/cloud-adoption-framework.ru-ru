@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 25467593af277cf5955fc9656e23f9d01fa8926b
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: e93f231d0b5749edc6216cf0338fd66931410673
+ms.sourcegitcommit: 523d3b21cab320294f54b661abf85874af9f5e9a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90776437"
+ms.lasthandoff: 10/19/2020
+ms.locfileid: "92178969"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
@@ -69,6 +69,22 @@ ms.locfileid: "90776437"
   | [`Deny-PublicEndpoints`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policySetDefinitions-Deny-PublicEndpoints.parameters.json) | Запрещает создание служб с общедоступными конечными точками во всех целевых зонах. |
   | [`Deploy-VM-Backup`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/Landing%20Zones%20(landingzones)/.AzState/Microsoft.Authorization_policyAssignments-Deploy-VM-Backup.parameters.json) | Обеспечивает настройку и развертывание резервной копии на всех виртуальных машинах в целевых зонах. |
   | [`Deploy-VNet`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-vNet.parameters.json) | Гарантирует, что на всех целевых зонах развернута виртуальная сеть, и что она является одноранговым по отношению к региональному виртуальному концентратору. |
+
+#### <a name="sandbox-governance-guidance"></a>Руководство по управлению песочницей
+
+Как описано в [области проектирования группы управления и критической организации подписки](./management-group-and-subscription-organization.md), подписки, помещенные в иерархию группы управления "песочницы", должны иметь менее ограниченный подход к политикам. Поскольку эти подписки должны использоваться пользователями в рамках бизнеса для экспериментов и внедрения в продукты и службы Azure, которые могут быть еще не разрешены в иерархии начальных зон, проверьте, могут ли их идеи и концепции работать. перед переходом в формальную среду разработки.
+
+Однако для этих подписок в иерархии групп управления "песочницы" по-прежнему требуется применить некоторые снятие, чтобы гарантировать их правильное использование. Например, для инноваций, триаллинг новые службы, продукты и функции Azure и идеатион проверку. 
+
+**Поэтому рекомендуется:**
+
+1. Создайте назначения политик Azure в следующей таблице в области группы управления "песочницы":
+
+  | Имя                  |     Описание                                                                                     | Заметки о назначении |
+  |-----------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+  | [`Deny-VNET-Peering-Cross-Subscription`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyDefinitions-Deny-VNET-Peering-Cross-Subscription.parameters.json) | Предотвращает создание соединений пиринга виртуальной сети с другими виртуальных сетей за пределами подписки. | Убедитесь, что эта политика назначена только для уровня области иерархии группы управления "песочница". |
+  | [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json)           | Ресурсы, которые запрещено создавать в подписках "песочницы". Это предотвратит создание ресурсов гибридного подключения. *например, VPN/ExpressRoute/виртуалван* | При назначении этой политики выберите следующие ресурсы для запрета создания: VPN-шлюзов:, `microsoft.network/vpngateways` шлюзов P2S: `microsoft.network/p2svpngateways` , виртуальных глобальных сетей: `microsoft.network/virtualwans` , ВИРТУАЛЬНЫХ концентраторов глобальной сети: `microsoft.network/virtualhubs` , каналов expressroute: `microsoft.network/expressroutecircuits` , шлюзов expressroute: `microsoft.network/expressroutegateways` , портов Expressroute: `microsoft.network/expressrouteports` , перекрестных подключений expressroute `microsoft.network/expressroutecrossconnections` и шлюзов локальной сети: `microsoft.network/localnetworkgateways` . | 
+  | [`Deploy-Budget-Sandbox`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-Budget-Sandbox.parameters.json) | Обеспечивает наличие бюджета для каждой подписки "песочницы" с включенными оповещениями по электронной почте. Бюджет будет называться: `default-sandbox-budget` в каждой подписке. | Если во время назначения политики параметры не изменяются по умолчанию, `default-sandbox-budget` будет создан бюджет () с предельным значением в 1000 валюте и отправлено оповещение по электронной почте владельцам и участникам подписки (на основе назначения РОЛЕЙ RBAC) на 90% и 100% от порога бюджета. |
 
 ### <a name="global-networking-and-connectivity"></a>Глобальные сетевые подключения и подключение
 
