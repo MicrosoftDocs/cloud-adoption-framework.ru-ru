@@ -7,14 +7,14 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d907e2234338fa2f00776c2d9df7a58e78986393
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.openlocfilehash: 86a9c5e6af016ea6cc907a3f08b372c780e8bc31
+ms.sourcegitcommit: c1d6c1c777475f92a3f8be6def84f1779648a55c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193984"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "92334839"
 ---
-<!-- cSpell:ignore Netezza Teradata Exadata Giga GigaOM MPP -->
+<!-- cSpell:ignore Giga -->
 
 # <a name="azure-synapse-analytics-solutions"></a>Решения Azure синапсе Analytics
 
@@ -26,7 +26,7 @@ ms.locfileid: "88193984"
 
 Azure синапсе Analytics обеспечивает лучшую производительность реляционной базы данных с помощью таких методов, как обработка с массовым параллелизмом и автоматическое кэширование в памяти. Результаты этого подхода можно просмотреть в независимых тестах производительности, таких как один Недавно выполненный [гигаом](https://gigaom.com), который сравнивает синапсе Azure с другими популярными предложениями облачного хранилища данных.
 
-Организации, уже перенесенные в синапсе Analytics, сталкивались с множеством преимуществ, в том числе:
+Организации, которые уже перенесены в Azure синапсе Analytics, сталкивались с множеством преимуществ, в том числе:
 
 - Повышение производительности и цены на производительность.
 - Повышение гибкости и сокращение времени до значения.

@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 635fed255982b7e25fcf8755380ab4a10de9d8e4
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 0595d0ce6573d9dabed538aa39999ed6803e5842
+ms.sourcegitcommit: c1d6c1c777475f92a3f8be6def84f1779648a55c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885870"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "92334890"
 ---
 # <a name="skills-readiness-for-cloud-migration"></a>Подготовка навыков для миграции в облако
 
@@ -31,8 +31,8 @@ ms.locfileid: "88885870"
 - [Балансировка портфеля](../strategy/balance-the-portfolio.md): Обеспечьте баланс и правильное выделение инвестиций в портфеле приложений.
 - [Формирование делового обоснования](../strategy/cloud-migration-business-case.md): создание и понимание делового обоснования, влияющего на усилия по миграции в облако.
 - [Рационализировать в](../digital-estate/rationalize.md)цифровом ресурсе: рационализировать активы.
-- [Оценка портфеля приложений](/learn/modules/app-and-infra-migration-and-modernization): критерии принятия решений о переходах и вариантах внедрения инноваций в портфеле приложений.
-- [Оценка и планирование Microsoft Azure миграции](https://www.pluralsight.com/courses/microsoft-azure-migration-assessing-planning). Pluralsight курс, помогающий оценить локальные рабочие нагрузки.
+- [Оценка портфеля приложений](/learn/modules/app-and-infra-migration-and-modernization/): критерии принятия решений о переходах и вариантах внедрения инноваций в портфеле приложений.
+- [Оценка и планирование Microsoft Azure миграции](https://www.pluralsight.com/courses/microsoft-azure-migration-assessing-planning-update). Pluralsight курс, помогающий оценить локальные рабочие нагрузки.
 
 Во время процесса оценки архитекторы будут проектировать решения для каждой рабочей нагрузки. Следующие ресурсы по обеспечению квалификации помогают подготовить архитекторы для этих задач:
 

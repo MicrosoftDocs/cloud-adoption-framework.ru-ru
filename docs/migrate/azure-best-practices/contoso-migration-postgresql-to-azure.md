@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 9f9dfee1aca21acbbf0f840b79d61501ad90c73a
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 6dca1ce7cbd13630207ba04a8298769263145e67
+ms.sourcegitcommit: c1d6c1c777475f92a3f8be6def84f1779648a55c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89603872"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "92334652"
 ---
 <!-- cSpell:ignore BYOK postgres psql dvdrental vpngateways -->
 
@@ -48,7 +48,7 @@ ms.locfileid: "89603872"
 
 ### <a name="current-environment"></a>Текущая среда
 
-PostgreSQL 9.6.7 работает на физическом компьютере Linux ( `sql-pg-01.contoso.com` ) в центре обработки данных Contoso. Компания Contoso уже имеет подписку Azure с шлюзом виртуальной сети "сеть — сеть" в локальную сеть центра обработки данных.
+PostgreSQL 9.6.7 работает на физическом компьютере Linux ( `sql-pg-01.contoso.com` ) в центре обработки данных Contoso. Компания Contoso уже имеет подписку Azure с VPN-шлюзом типа "сеть — сеть" в локальную сеть центра обработки данных.
 
 ### <a name="proposed-solution"></a>Предлагаемое решение
 
@@ -129,6 +129,8 @@ Contoso потребуется оценить текущую базу данны
 
 Чтобы подготовить, настройте виртуальную сеть для доступа к базе данных. Создайте подключение к виртуальной сети с помощью [VPN-шлюзов](/azure/vpn-gateway/vpn-gateway-about-vpngateways) различными способами.
 
+<!-- docutune:ignore "Azure Database Migration Services" -->
+
 ### <a name="create-an-azure-database-migration-service-instance"></a>Создание экземпляра Azure Database Migration Service
 
 1. В [портал Azure](https://portal.azure.com)выберите **Добавить ресурс**.
@@ -139,7 +141,7 @@ Contoso потребуется оценить текущую базу данны
 1. Выберите ближайшее расположение для центра обработки данных Contoso или VPN-шлюза.
 1. Выберите **Azure** для режима обслуживания.
 1. Выберите ценовую категорию.
-1. Выберите **Review + create** (Просмотреть и создать).
+1. Выберите **Проверить и создать**.
 
     ![Снимок экрана с экраном "Создание службы миграции".](./media/contoso-migration-postgresql-to-azure/azure_migration_service_create.png)
     _Рис. 3. Проверка и создание._
@@ -187,7 +189,7 @@ Contoso потребуется оценить текущую базу данны
 
 1. В портал Azure Contoso переходит к своему Database Migration Service ресурсу.
 1. Если служба не запущена, выберите **запустить службу**.
-1. Выберите **Новый проект миграции**.
+1. Щелкните элемент **Новый проект миграции**.
 
     ![Снимок экрана, на котором показан выделенный параметр "новый проект миграции".](./media/contoso-migration-postgresql-to-azure/azure_migration_service_new_project.png)
 
@@ -269,7 +271,7 @@ Contoso потребуется оценить текущую базу данны
 
 Компания Contoso должна:
 
-- Убедитесь, что новые базы данных Azure для экземпляра и баз данных PostgreSQL защищены. Дополнительные сведения см. [в статье безопасность в базе данных Azure для PostgreSQL-Single Server](/azure/postgresql/concepts-security).
+- Убедитесь, что новый экземпляр базы данных Azure для PostgreSQL и базы данных защищены. Дополнительные сведения см. [в статье безопасность в базе данных Azure для PostgreSQL-Single Server](/azure/postgresql/concepts-security).
 - Проверьте [правила брандмауэра](/azure/postgresql/concepts-firewall-rules) и конфигурации виртуальной сети, чтобы убедиться, что подключения ограничены только приложениями, которые им требуются.
 - Реализуйте [BYOK](/azure/postgresql/concepts-data-encryption-postgresql) для шифрования данных.
 - Обновите все приложения, чтобы они [затребовали SSL](/azure/postgresql/concepts-ssl-connection-security) -соединения с базами данных.
