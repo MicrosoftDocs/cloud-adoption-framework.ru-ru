@@ -7,18 +7,22 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 1bdd089962bcf42972e2e4fe23433746af5a5a68
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 38f935eadb6c870744d7a30f60219920fac28da6
+ms.sourcegitcommit: c1d6c1c777475f92a3f8be6def84f1779648a55c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574386"
+ms.lasthandoff: 10/21/2020
+ms.locfileid: "92334907"
 ---
 <!-- cSpell:ignore multisubscription -->
 
 # <a name="what-is-an-azure-landing-zone"></a>Что такое целевая зона Azure?
 
 Целевые зоны Azure являются результатом развития многопользовательской среды Azure с подписками, которая обеспечивает масштабирование, безопасность, систему управления, сетевые подключения и идентификацию. Целевые зоны Azure позволяют выполнять перенос приложений и разработку новых решений в масштабах предприятия в Azure. Эти зоны учитывают все ресурсы платформы, необходимые для поддержки портфеля приложений клиента, и не делают различий между инфраструктурой как услугой и платформой как услугой.
+
+<!-- markdownlint-disable MD034 -->
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4xdvm]
 
 ## <a name="scalable-and-modular"></a>Масштабируемость и модульность
 
