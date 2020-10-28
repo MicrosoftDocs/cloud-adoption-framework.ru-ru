@@ -633,6 +633,8 @@ items:
                     href: scenarios/azure-stack/migrate-deploy.md
                   - name: Управление
                     href: scenarios/azure-stack/govern.md
+                  - name: Управление
+                    href: scenarios/azure-stack/manage.md
               - name: Решения аналитики
                 items:
                   - name: Обзор
