@@ -4,15 +4,15 @@ description: Улучшение безопасности зоны размеще
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/15/2020
-ms.topic: overview
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: d28f849d4d264af36db8ffaf1b4c72cadc6677c0
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: f2cd1f500b248f4568e572eac4ea82cce11af285
+ms.sourcegitcommit: 6aa14b15efc9bd351b75f8a3d7ebbac3d575275b
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885666"
+ms.lasthandoff: 10/27/2020
+ms.locfileid: "92689985"
 ---
 # <a name="improve-landing-zone-security"></a>Повышение безопасности целевых зон
 
@@ -29,7 +29,7 @@ ms.locfileid: "88885666"
 - [Управление удостоверениями и доступом](/azure/security/fundamentals/identity-management-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json). ряд рекомендаций по реализации удостоверений и доступа для защиты целевой зоны в Azure.
 - [Рекомендации по сетевой безопасности](/azure/security/fundamentals/network-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json). предоставляет дополнительные рекомендации по обеспечению безопасности сети.
 - [Операционная безопасность](/azure/security/fundamentals/operational-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) предоставляет рекомендации по повышению эксплуатационной безопасности в Azure.
-- [Основы безопасности](../../govern/guides/complex/security-baseline-improvement.md#incremental-improvement-of-the-best-practices): пример разработки базовых показателей безопасности, основанных на управлении, для соблюдения требований безопасности.
+- [Основы безопасности](../../govern/guides/complex/security-baseline-improvement.md#incremental-improvement-of-best-practices): пример разработки базовых показателей безопасности, основанных на управлении, для соблюдения требований безопасности.
 
 ## <a name="test-driven-development-cycle"></a>Цикл разработки на основе тестирования
 
@@ -37,7 +37,7 @@ ms.locfileid: "88885666"
 
 ![Процесс разработки на основе тестирования для облачных целевых зон](../../_images/ready/test-driven-development-process.png)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [улучшить операции размещения зоны](./landing-zone-operations.md) для поддержки важных приложений.
 
