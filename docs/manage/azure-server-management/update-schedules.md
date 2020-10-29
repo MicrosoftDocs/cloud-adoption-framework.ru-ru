@@ -7,18 +7,18 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c418233559d93b59a468caa24fe43984184898ec
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: ea11a54dcf3fe9d60dea4fd980f82b608bed3a0a
+ms.sourcegitcommit: 826f2a3f0353bb711917e99d9a17f6198fb41ada
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574947"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "93024459"
 ---
 # <a name="create-update-schedules"></a>Создание расписаний обновления
 
 Вы можете управлять расписаниями обновления с помощью портал Azure или новых модулей командлетов PowerShell.
 
-Сведения о создании расписания обновления с помощью портал Azure см. в разделе [Планирование развертывания обновлений](/azure/automation/automation-tutorial-update-management#schedule-an-update-deployment).
+Сведения о создании расписания обновления с помощью портал Azure см. в разделе [Планирование развертывания обновлений](/azure/automation/update-management/deploy-updates#schedule-an-update-deployment).
 
 `Az.Automation`Теперь модуль поддерживает настройку управления обновлениями с помощью Azure PowerShell. [Версия 1.7.0](https://www.powershellgallery.com/packages/Az/1.7.0) модуля добавляет поддержку командлета [New-азаутоматионупдатеманажементазурекуери](/powershell/module/az.automation/new-azautomationupdatemanagementazurequery?view=azps-1.7.0) . Этот командлет позволяет использовать теги, расположение и сохраненные поисковые запросы для настройки расписаний обновлений для гибкой группы компьютеров.
 

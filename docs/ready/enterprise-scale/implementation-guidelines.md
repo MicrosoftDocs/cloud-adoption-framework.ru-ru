@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: e93f231d0b5749edc6216cf0338fd66931410673
-ms.sourcegitcommit: 523d3b21cab320294f54b661abf85874af9f5e9a
+ms.openlocfilehash: 078ac0e661b946d9fb493dff0b1d2ee087777726
+ms.sourcegitcommit: 826f2a3f0353bb711917e99d9a17f6198fb41ada
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/19/2020
-ms.locfileid: "92178969"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "93024612"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
@@ -82,9 +82,9 @@ ms.locfileid: "92178969"
 
   | Имя                  |     Описание                                                                                     | Заметки о назначении |
   |-----------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-  | [`Deny-VNET-Peering-Cross-Subscription`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyDefinitions-Deny-VNET-Peering-Cross-Subscription.parameters.json) | Предотвращает создание соединений пиринга виртуальной сети с другими виртуальных сетей за пределами подписки. | Убедитесь, что эта политика назначена только для уровня области иерархии группы управления "песочница". |
+  | [`Deny-VNET-Peering-Cross-Subscription`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState) | Предотвращает создание соединений пиринга виртуальной сети с другими виртуальных сетей за пределами подписки. | Убедитесь, что эта политика назначена только для уровня области иерархии группы управления "песочница". |
   | [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json)           | Ресурсы, которые запрещено создавать в подписках "песочницы". Это предотвратит создание ресурсов гибридного подключения. *например, VPN/ExpressRoute/виртуалван* | При назначении этой политики выберите следующие ресурсы для запрета создания: VPN-шлюзов:, `microsoft.network/vpngateways` шлюзов P2S: `microsoft.network/p2svpngateways` , виртуальных глобальных сетей: `microsoft.network/virtualwans` , ВИРТУАЛЬНЫХ концентраторов глобальной сети: `microsoft.network/virtualhubs` , каналов expressroute: `microsoft.network/expressroutecircuits` , шлюзов expressroute: `microsoft.network/expressroutegateways` , портов Expressroute: `microsoft.network/expressrouteports` , перекрестных подключений expressroute `microsoft.network/expressroutecrossconnections` и шлюзов локальной сети: `microsoft.network/localnetworkgateways` . | 
-  | [`Deploy-Budget-Sandbox`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyDefinitions-Deploy-Budget-Sandbox.parameters.json) | Обеспечивает наличие бюджета для каждой подписки "песочницы" с включенными оповещениями по электронной почте. Бюджет будет называться: `default-sandbox-budget` в каждой подписке. | Если во время назначения политики параметры не изменяются по умолчанию, `default-sandbox-budget` будет создан бюджет () с предельным значением в 1000 валюте и отправлено оповещение по электронной почте владельцам и участникам подписки (на основе назначения РОЛЕЙ RBAC) на 90% и 100% от порога бюджета. |
+  | [`Deploy-Budget-Sandbox`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState) | Обеспечивает наличие бюджета для каждой подписки "песочницы" с включенными оповещениями по электронной почте. Бюджет будет называться: `default-sandbox-budget` в каждой подписке. | Если во время назначения политики параметры не изменяются по умолчанию, `default-sandbox-budget` будет создан бюджет () с предельным значением в 1000 валюте и отправлено оповещение по электронной почте владельцам и участникам подписки (на основе назначения РОЛЕЙ RBAC) на 90% и 100% от порога бюджета. |
 
 ### <a name="global-networking-and-connectivity"></a>Глобальные сетевые подключения и подключение
 
