@@ -131,6 +131,8 @@ items:
             href: digital-estate/rationalize.md
           - name: Сопоставление моделей затрат для прогнозирования расходов
             href: digital-estate/calculate.md
+          - name: Оценка бизнес-результатов с помощью AppDynamics
+            href: digital-estate/app-dynamics.md
       - name: Первоначальная проверка соответствия организации
         href: plan/initial-org-alignment.md
       - name: План подготовки навыков
