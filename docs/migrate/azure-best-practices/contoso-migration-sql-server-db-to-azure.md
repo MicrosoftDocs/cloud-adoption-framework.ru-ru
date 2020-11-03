@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 071e6d8f33ea299dac78136f71f5bbce7badb95d
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: fc9be8cfc1f51e35e0eb2dbb7270c818276c7767
+ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90775230"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93283253"
 ---
 <!-- cSpell:ignore BACPAC FILESTREAM -->
 
@@ -66,7 +66,7 @@ ms.locfileid: "90775230"
 
 Contoso оценивает предлагаемый дизайн, составляя список плюсов и минусов.
 
-| Рассматриваемый вопрос | Сведения |
+| Оценка | Сведения |
 | --- | --- |
 | **Преимущества** | Azure предоставит единую область прозрачности для рабочих нагрузок базы данных. <br><br> Расходы будут отслеживаться с помощью службы управления затратами Azure и выставления счетов. <br><br> Оплата за подразделение обеспечивает простую выплату за API-интерфейсы выставления счетов Azure. <br><br> Обслуживание сервера и программного обеспечения будет сокращено до сред, основанных на IaaS. |
 | **Недостатки** | Из-за требований виртуальных машин на основе IaaS по-прежнему необходимо управлять программным обеспечением на этих компьютерах. |
@@ -141,7 +141,7 @@ DMA рекомендует повысить производительность
 Если DMA не удалось выполнить в источнике данных, были выполнены следующие рекомендации по миграции базы данных.
 
 > [!NOTE]
-> В рамках фазы оценки Contoso обнаружил различные базы данных с открытым исходным кодом. По отдельности, они следуют [этому руководству](./contoso-migration-oss-db-to-azure.md) по планированию миграции.
+> В рамках фазы оценки Contoso обнаружил различные базы данных с открытым исходным кодом. По отдельности, они [переходят базы данных с открытым исходным кодом в Azure](./contoso-migration-oss-db-to-azure.md) для планирования миграции.
 
 <!-- docutune:casing "custom .NET" -->
 
@@ -152,7 +152,7 @@ DMA рекомендует повысить производительность
 | целевого объекта | Использование базы данных | Сведения | Миграция по сети | Автономная миграция | Максимальный размер | Руководство по миграции |
 | --- | --- | --- | --- | ---| --- | --- |
 | База данных SQL Azure (PaaS) | SQL Server (только данные) | Эти базы данных просто используют основные таблицы, столбцы, хранимые процедуры и функции | [Помощник по миграции данных](/sql/dma/dma-overview), [репликация транзакций](/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](/sql/tools/bcp-utility?view=sql-server-ver15) | 1 ТиБ | [Ссылка](/azure/dms/tutorial-sql-server-to-azure-sql) |
-| Управляемый экземпляр SQL Azure | SQL Server (дополнительные функции) | Эти базы данных используют триггеры и другие [сложные концепции](/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker) , такие как пользовательские типы .NET, брокеры служб и т. д. | [Помощник по миграции данных](/sql/dma/dma-overview), [репликация транзакций](/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](/sql/tools/bcp-utility?view=sql-server-ver15), [собственная Архивация и восстановление](/azure/sql-database/sql-database-managed-instance-get-started-restore) | 2 Тиб-8 тиб | [Ссылка](/azure/dms/tutorial-sql-server-managed-instance-online) |
+| Управляемый экземпляр SQL Azure. | SQL Server (дополнительные функции) | Эти базы данных используют триггеры и другие [сложные концепции](/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker) , такие как пользовательские типы .NET, брокеры служб и т. д. | [Помощник по миграции данных](/sql/dma/dma-overview), [репликация транзакций](/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](/sql/tools/bcp-utility?view=sql-server-ver15), [собственная Архивация и восстановление](/azure/sql-database/sql-database-managed-instance-get-started-restore) | 2 Тиб-8 тиб | [Ссылка](/azure/dms/tutorial-sql-server-managed-instance-online) |
 | SQL Server на виртуальных машинах Azure (IaaS) | SQL Server (интеграция со сторонними разработчиками) | SQL Server должны иметь [неподдерживаемые функции SQL управляемый экземпляр](/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker) (брокеры служб с несколькими экземплярами, поставщики служб шифрования, буферный пул, уровни совместимости ниже 100, зеркальное отображение базы данных, FILESTREAM, polybase, все, что требует доступа к файловым ресурсам, внешним сценариям, расширенным хранимым процедурам и другим) или программному обеспечению сторонних разработчиков для поддержки действий базы данных. | [репликация транзакций](/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](/sql/tools/bcp-utility?view=sql-server-ver15), [репликация моментальных снимков](/azure/sql-database/sql-database-managed-instance-transactional-replication), [собственная Архивация и восстановление](/azure/sql-database/sql-database-managed-instance-get-started-restore), преобразование физического компьютера в виртуальную машину | 4 гиб-64 тиб | [Ссылка](/azure/virtual-machines/windows/sql/virtual-machines-windows-migrate-sql) |
 
 Из-за большого количества баз данных компания Contoso создала проект управления проектами (PMO) для наблюдения за каждым экземпляром миграции баз данных. [Ответственность и обязанности](../..//migrate/migration-considerations/assess/index.md) были назначены каждой группе бизнеса и приложений.
@@ -192,7 +192,7 @@ Contoso определил окно архива для всех рабочих 
 
 #### <a name="security"></a>Безопасность
 
-- Компания Contoso должна обеспечить безопасность своих новых рабочих нагрузок базы данных Azure. [Подробнее](/azure/sql-database/sql-database-security-overview).
+- Компания Contoso должна обеспечить безопасность своих новых рабочих нагрузок базы данных Azure. [Подробнее.](/azure/sql-database/sql-database-security-overview)
 - В частности, компания Contoso должна проверить конфигурацию брандмауэра и виртуальной сети.
 - Настройте [частную ссылку](/azure/azure-sql/database/private-endpoint-overview) , чтобы весь трафик базы данных хранился в Azure и локальной сети.
 - Включите [Azure Advanced Threat protection](/azure/azure-sql/database/threat-detection-overview) для базы данных SQL Azure.

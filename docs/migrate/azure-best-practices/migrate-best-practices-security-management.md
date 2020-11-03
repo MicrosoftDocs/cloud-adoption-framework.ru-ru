@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 91892078c457bc701f35f050b458b94fb6498be8
-ms.sourcegitcommit: 826f2a3f0353bb711917e99d9a17f6198fb41ada
+ms.openlocfilehash: 42bb7e66f9b9c997babf3f0e40fcf8145cd849f7
+ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "93024646"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93283427"
 ---
 <!-- cSpell:ignore FIPS SIEM majeure NSGs -->
 
@@ -164,8 +164,8 @@ Azure предоставляет следующие решения:
 
 **Подробнее:**
 
-- [Сведения](/azure/role-based-access-control/overview) о RBAC.
-- [Научитесь](/azure/role-based-access-control/role-assignments-portal) управлять доступом с помощью RBAC и портал Azure.
+- Сведения об [управлении доступом на основе ролей Azure (RBAC)](/azure/role-based-access-control/overview).
+- Узнайте, как управлять доступом через [RBAC и портал Azure](/azure/role-based-access-control/role-assignments-portal).
 - Сведения о [пользовательских ролях](/azure/role-based-access-control/custom-roles).
 
 ## <a name="best-practice-review-audit-and-security-logs"></a>Рекомендации: проверка журналов аудита и безопасности
@@ -378,7 +378,7 @@ Azure Backup создает точки восстановления данных
 - Сведения о [хранилище BLOB-объектов Azure](/azure/storage/blobs/storage-blobs-introduction).
 - Узнайте, как [создать моментальный снимок BLOB-объекта](/azure/storage/blobs/storage-blob-snapshots).
 - [Ознакомьтесь с примером сценария](https://azure.microsoft.com/blog/microsoft-azure-block-blob-storage-backup) резервного копирования хранилища BLOB-объектов.
-- [Сведения](/azure/storage/blobs/storage-blob-soft-delete) об обратимом удалении.
+- Прочитайте об [обратимом удалении больших двоичных объектов](/azure/storage/blobs/storage-blob-soft-delete).
 - [Что делать в случае простоя службы хранилища Azure](/azure/storage/common/storage-disaster-recovery-guidance)
 
 #### <a name="third-party-backup"></a>Сторонние решения для резервного копирования
@@ -456,7 +456,7 @@ Site Recovery реплицирует виртуальные машины из б
 **Подробнее:**
 
 - Сведения о [сборе и использовании данных журнала](/azure/azure-monitor/platform/platform-logs-overview).
-- [Сведения о поддерживаемых возможностях](/azure/azure-monitor/platform/diagnostic-logs-schema) для ведения журналов диагностики.
+- Узнайте, что поддерживается для [ведения журнала диагностики](/azure/azure-monitor/platform/diagnostic-logs-schema).
 
 ## <a name="best-practice-set-up-alerts-and-playbooks"></a>Рекомендации: Настройка оповещений и модули PlayBook
 

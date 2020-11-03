@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: 4809b00f7cd195646619d5ace8d7924a78e0b625
-ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
+ms.openlocfilehash: fb16286bdab9bedc4d9f14670060ebbe5c19ac0f
+ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91107843"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93282944"
 ---
 # <a name="standard-enterprise-governance-guide-improve-the-security-baseline-discipline"></a>Стандартное руководство по корпоративному управлению. повышение специализации в плане безопасности
 
@@ -125,7 +125,7 @@ ms.locfileid: "91107843"
     - Убедитесь, что заданы правильные параметры безопасности на компьютерах Linux и Windows.
   - Аудит и обеспечение того, что хранилища служб восстановления Azure существуют в подписке.
 - Настройка брандмауэра:
-  - Определите конфигурацию Брандмауэра Azure, которая удовлетворяет обязательным требованиям к безопасности. Кроме того, можно найти совместимое устройство стороннего производителя, совместимое с Azure.
+  - Определите конфигурацию Брандмауэра Azure, которая удовлетворяет обязательным требованиям к безопасности. Кроме того, можно найти совместимое устройство стороннего производителя, совместимое с Azure. В производительности Azure содержатся дополнительные сведения о [стратегии сетевой безопасности](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-governance-strategy#gs-5-define-network-security-strategy) и [конфигурации брандмауэра для поддержки стратегии безопасности](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-network-security#ns-4-protect-applications-and-services-from-external-network-attacks).
   - Создайте шаблон Resource Manager, чтобы развернуть брандмауэр с необходимыми конфигурациями.
 - Проекты Azure:
   - Создайте схему с именем `protected-data`.

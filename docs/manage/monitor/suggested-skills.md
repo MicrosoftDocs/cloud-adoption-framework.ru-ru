@@ -7,12 +7,12 @@ ms.date: 08/26/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 2dda4bc3feaf207e2aca63b008f40beabc223bec
-ms.sourcegitcommit: 81246e185cee53fed591c4bafd56cde7d58e26f4
+ms.openlocfilehash: 9575e666e8aafa2ab20de87a5086249d39ac9299
+ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91898120"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "93283314"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -22,13 +22,13 @@ ms.locfileid: "91898120"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов — инфраструктуру, приложение и анализ данных.  
 
-## <a name="fundamentals"></a>Основы
+## <a name="fundamentals"></a>Базовый
 
 - Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
 - Введение в [политику Azure](/azure/governance/policy/overview) поможет вам узнать, как использовать политику Azure для создания и назначения политик, а также управления ими. Политика Azure позволяет развертывать и настраивать агенты Azure Monitor, включать мониторинг с помощью Azure Monitor для виртуальных машин и центра безопасности Azure, развертывать параметры диагностики, проверять параметры гостевой конфигурации и многое другое.
 
-- Общие сведения о [интерфейсе командной строки Azure (CLI)](/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](/powershell/azure/?view=azps-3.6.1). Предложения LinkedIn в рамках [обучающего курса обучение средствам управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), семинарам, охватывающим Azure CLI и языки программирования PowerShell:
+- Общие сведения о [интерфейсе командной строки Azure (CLI)](/cli/azure/get-started-with-azure-cli?view=azure-cli-latest), который представляет собой возможности командной строки для управления ресурсами Azure на разных платформах. Также ознакомьтесь с введением в [Azure PowerShell](/powershell/azure/?view=azps-3.6.1). В рамках обучающего курса [обучения средства управления Azure](https://www.linkedin.com/learning/learning-azure-management-tools), LinkedIn предлагают сеансы, охватывающие Azure CLI и языки программирования PowerShell:
 
   - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
   - [Начало работы с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
@@ -109,6 +109,6 @@ ms.locfileid: "91898120"
 
 Ознакомьтесь со следующими сведениями, чтобы ознакомиться с обновлениями, внесенными в самый популярный [технический документ ITSM Framework версии 4 и облачных вычислений](https://www.axelos.com/case-studies-and-white-papers/itil-4-and-the-cloud), который посвящен присоединению существующих руководств по ITIL с рекомендациями от DevOps, Agile и экономичного. Также рассмотрим [эталонную архитектуру IT4IT](https://www.opengroup.org/it4it) , которая предоставляет альтернативную схему для преобразования ее с помощью независимой от процесса платформы.
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 
 Дополнительные схемы обучения см. в [каталоге Microsoft Learn](/learn/browse). Используйте фильтр ролей для согласования путей обучения со своей ролью.
