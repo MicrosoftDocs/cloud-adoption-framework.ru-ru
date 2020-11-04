@@ -9,18 +9,18 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 96d3c5280152a9baee6b327b46262c0ebaf5b69c
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 2064586262b4a0023b21fa63115245d24f346cf1
+ms.sourcegitcommit: 826f2a3f0353bb711917e99d9a17f6198fb41ada
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882623"
+ms.lasthandoff: 10/29/2020
+ms.locfileid: "93024510"
 ---
 <!-- cSpell:ignore WSUS -->
 
 # <a name="operational-compliance-in-azure"></a>Соответствие операций нормативным требованиям в Azure
 
-_Соответствие операций нормативным требованиям_ — это вторая дисциплина в любом базовом плане управления облаком.
+_Соответствие операций нормативным требованиям_  — это вторая дисциплина в любом базовом плане управления облаком.
 
 ![Базовый план управления облаком](../../_images/manage/management-baseline.png)
 
@@ -53,7 +53,7 @@ _Соответствие операций нормативным требова
 - гибридные рабочие роли Runbook службы автоматизации Azure;
 - службы Центра обновления Майкрософт или Windows Server Update Services (WSUS) для компьютеров с Windows.
 
-Дополнительные сведения см. в статье [Update Management solution in Azure](/azure/automation/automation-update-management) (Решение для управления обновлениями в Azure).
+Дополнительные сведения см. в статье [Update Management solution in Azure](/azure/automation/update-management/overview) (Решение для управления обновлениями в Azure).
 
 > [!WARNING]
 > Прежде чем использовать решение "Управление обновлениями", необходимо подключить виртуальные машины или всю подписку к Log Analytics и службе автоматизации Azure.
@@ -72,7 +72,7 @@ _Соответствие операций нормативным требова
 1. Щелкните [Служба автоматизации Azure](https://portal.azure.com/#blade/HubsExtension/BrowseResource/resourceType/Microsoft.Automation%2FAutomationAccounts).
 1. Выберите **Учетные записи автоматизации** и одну из перечисленных учетных записей.
 1. Перейдите в раздел **Управление конфигурацией**.
-1. Возможности **инвентаризации**, **управления изменениями** и **настройки состояния** могут использоваться для управления состоянием управляемых виртуальных машин и соответствием их операций нормативным требованиям.
+1. Возможности **инвентаризации** , **управления изменениями** и **настройки состояния** могут использоваться для управления состоянием управляемых виртуальных машин и соответствием их операций нормативным требованиям.
 
 ::: zone target="chromeless"
 
