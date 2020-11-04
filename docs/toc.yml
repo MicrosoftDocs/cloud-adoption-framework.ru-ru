@@ -1530,7 +1530,7 @@ items:
           - name: Применение Microsoft Azure Well-Architected Framework при проектировании архитектуры рабочих нагрузок
             href: /azure/architecture/framework
           - name: Документация по реализации продукта
-            href: null
+            href: /
           - name: Обучение для развития навыков
             href: /learn
           - name: Оценки для персонализации руководства
