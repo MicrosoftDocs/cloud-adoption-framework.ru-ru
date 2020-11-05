@@ -81,10 +81,14 @@ items:
             href: strategy/business-outcomes/engagement-outcomes.md
           - name: Показатели производительности
             href: strategy/business-outcomes/performance-outcomes.md
+          - name: 'Результаты, связанные с устойчивостью'
+            href: strategy/business-outcomes/sustainability.md
           - name: Шаблон бизнес-результатов
             href: strategy/business-outcomes/business-outcome-template.md
           - name: Согласование действий с метриками обучения
             href: strategy/learning-metrics.md
+          - name: Цели и ключевые показатели
+            href: strategy/business-outcomes/okr.md
       - name: Коммерческое обоснование
         items:
           - name: Составление бизнес-обоснования
