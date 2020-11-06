@@ -7,12 +7,12 @@ ms.date: 03/20/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 5ebf8106cee793e674070e88c8c4f36e77858079
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 78ee8c9daae963c12b3c88e499e21b38e01142bb
+ms.sourcegitcommit: 8bd82ade858bf8095672842bd6469deae7616bbf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604238"
+ms.lasthandoff: 11/06/2020
+ms.locfileid: "94333606"
 ---
 <!-- cSpell:ignore autoscaler Istio Linkerd -->
 
@@ -39,7 +39,7 @@ ms.locfileid: "89604238"
 > | **Подготовьте среду разработки.** Настройте среду с помощью средств, необходимых для создания контейнеров и настройки рабочего процесса разработки. | [Работа с DOCKER в Visual Studio Code](https://code.visualstudio.com/docs/azure/docker) <br> [Работа с Kubernetes в Visual Studio Code](https://code.visualstudio.com/docs/azure/kubernetes) <br> [Введение в Azure Dev Spaces](/azure/dev-spaces/about) |
 > | **Контейнеризовать приложение.** Ознакомьтесь с комплексными возможностями разработки Kubernetes, включая формирование шаблонов приложений, рабочие процессы внутреннего цикла, платформы управления приложениями, конвейеры CI/CD, объединение журналов, мониторинг и метрики приложений. | [Контейнеризовать приложения с помощью DOCKER и Kubernetes (электронная книга)](https://azure.microsoft.com/resources/containerize-your-apps-with-docker-and-kubernetes) <br> [Комплексный опыт разработки Kubernetes в Azure (веб-семинар)](https://info.microsoft.com/AU-AzureApp-WBNR-FY20-11Nov-12-ContainerizeYourApplicationswithKubernetesonAzure-SRDEM10557_LP02OnDemandRegistration-ForminBody.html) |
 > | **Ознакомьтесь с общими сценариями Kubernetes.** Kubernetes часто рассматривается как платформа для доставки микрослужб, но она становится намного более широкой платформой. Просмотрите это видео, чтобы узнать о стандартных сценариях Kubernetes, таких как пакетная аналитика и рабочий процесс.    | [Распространенные &nbsp; сценарии &nbsp; &nbsp; использования &nbsp; Kubernetes &nbsp; (видео)](https://www.youtube.com/watch?v=zd8vYhrFXp4&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=7) |
-> | **Подготовьте приложение к Kubernetes.** Подготовьте структуру файловой системы приложения для Kubernetes и упорядочите ее для еженедельных или ежедневных выпусков. Узнайте, как процесс развертывания Kubernetes обеспечивает надежное обновление без простоя. | [Проектирование и макет проекта для успешных приложений Kubernetes (веб-семинар)](https://info.microsoft.com/ww-OnDemandRegistration-successful-kubernetes-applications-webinar.html) <br> [Как работают развертывания Kubernetes (видео)](https://www.youtube.com/watch?v=mNK14yXIZF4&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=3) <br> [Пройдите по AKS семинару](https://aka.ms/learn/aksworkshop) |
+> | **Подготовьте приложение к Kubernetes.** Подготовьте структуру файловой системы приложения для Kubernetes и упорядочите ее для еженедельных или ежедневных выпусков. Узнайте, как процесс развертывания Kubernetes обеспечивает надежное обновление без простоя. | [Проектирование и макет проекта для успешных приложений Kubernetes (веб-семинар)](https://info.microsoft.com/ww-OnDemandRegistration-successful-kubernetes-applications-webinar.html) <br> [Как работают развертывания Kubernetes (видео)](https://www.youtube.com/watch?v=mNK14yXIZF4&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=3) <br> [Пройдите по AKS семинару](/learn/modules/aks-workshop/) |
 > | **Управление хранилищем приложений.** Изучите требования к производительности и методы доступа для модулей Pod, чтобы предоставить соответствующие варианты хранения. Также следует продумать методы резервного копирования и протестировать процессы восстановления для подключенного хранилища. | [Основные сведения о приложениях с отслеживанием состояния в Kubernetes (видео)](https://www.youtube.com/watch?v=GieXzb91I40&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=9) <br> [Состояние и данные в приложениях Docker](/dotnet/architecture/microservices/architect-microservice-container-applications/docker-application-state-data) <br> [Варианты хранения в службе Kubernetes Azure](/azure/aks/operator-best-practices-storage) |
 > | **Управление секретами приложения.** Не храните учетные данные в коде приложения. Хранилище ключей должно использоваться для хранения и извлечения ключей и учетных данных.  | [Как работает управление Kubernetes и конфигурацией (видео)](https://www.youtube.com/watch?v=vRcQOZLnKUk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=11) <br> [Общие сведения об управлении секретами в Kubernetes (видео)](https://www.youtube.com/watch?v=KmhM33j5WYk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=10) <br> [Использование Azure Key Vault с Kubernetes](https://github.com/azure/kubernetes-keyvault-flexvol) <br> [Использование удостоверения Pod Azure AD для проверки подлинности и доступа к ресурсам Azure](https://github.com/azure/aad-pod-identity) |
 
