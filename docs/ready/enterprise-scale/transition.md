@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: csu
-ms.openlocfilehash: 543a119bb6f89db76bf1fb68197721a3efe5b0fc
-ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
+ms.openlocfilehash: ded26770595abe0d416f55923f59a70a8568bff7
+ms.sourcegitcommit: 8e5b670151cc8da0934037e23a1ef1609c6b2cc2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93283032"
+ms.lasthandoff: 11/09/2020
+ms.locfileid: "94378891"
 ---
 # <a name="transition-existing-azure-environments-to-enterprise-scale"></a>Переход с существующих сред Azure на Enterprise-Scale
 
@@ -34,7 +34,7 @@ ms.locfileid: "93283032"
 
 ## <a name="subscription-move"></a>Перемещение подписки
 
-Типичные варианты использования для перемещения подписок — это, в первую очередь, 1) Организация подписок на группы управления и 2) передача подписок на новый клиент Azure Active Directory. Мы рассмотрим перемещение подписок на группы управления в этом разделе, так как переход на новый клиент в основном предназначен для [передачи владения выставлением счетов](https://docs.microsoft.com/azure/cost-management-billing/manage/billing-subscription-transfer).
+Распространенными вариантами использования перемещения подписок является организация подписок в группы управления или передача подписок в новый клиент Azure Active Directory. Перемещение подписки на корпоративный масштаб ориентировано на перемещение подписок в группы управления. Перемещение подписки на новый клиент в основном предназначено для [передачи владения выставлением счетов](https://docs.microsoft.com/azure/cost-management-billing/manage/billing-subscription-transfer). 
 
 ### <a name="rbac-requirements"></a>Требования RBAC
 
