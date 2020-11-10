@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: csu
-ms.openlocfilehash: c23bfed62f42e5f6a6d811f0c962d1ace846665b
-ms.sourcegitcommit: c8979feb0efeb54dcef7a0b5e4084ae37016020a
+ms.openlocfilehash: 276556467a2741cfb12d2c79049c33b31e5a421f
+ms.sourcegitcommit: 2c949c44008161e50b91ffd3f01f6bf32da2d4d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "93066606"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94432709"
 ---
 # <a name="cloud-adoption-framework-enterprise-scale-landing-zone-architecture"></a>Инфраструктура внедрения облачных технологий корпоративного уровня в масштабах предприятия
 
@@ -41,11 +41,11 @@ _Рис. 1. Проектирование начальной зоны._
 
 [![На этой схеме показана архитектура облачных зон корпоративного уровня в инфраструктуре внедрения, основанная на топологии сети виртуальной глобальной сети Azure.](./media/ns-arch-inline.png)](./media/ns-arch-expanded.png#lightbox)
 
-_Рис. 2. Архитектура облачного развертывания инфраструктуры корпоративного внедрения на основе топологии сети виртуальной глобальной сети Azure._
+_Рис. 2. Архитектура облачного развертывания инфраструктуры корпоративного внедрения на основе топологии сети виртуальной глобальной сети Azure. Обратите внимание, что подписка на подключение использует центр ВВАН._
 
 [![Схема, показывающая архитектуру целевой зоны корпоративного уровня в инфраструктуре внедрения облачных технологий.](./media/ns-arch-cust-inline.png)](./media/ns-arch-cust-expanded.png#lightbox)
 
-_Рис. 3. Архитектура облачной инфраструктуры внедрения в масштабах предприятия на основе традиционной топологии сетей Azure._
+_Рис. 3. Архитектура облачной инфраструктуры внедрения в масштабах предприятия на основе традиционной топологии сетей Azure. Обратите внимание, что в подписке на подключение используется виртуальная сеть концентратора._
 
 Скачайте PDF-файлы, содержащие схемы архитектуры Enterprise-Scale на основе топологии [ВИРТУАЛЬНОЙ глобальной](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/enterprise-scale-architecture.pdf) сети или традиционной топологии сети Azure на основе архитектуры " [звезда](https://github.com/microsoft/CloudAdoptionFramework/raw/master/ready/enterprise-scale-architecture-cust.pdf) ".
 

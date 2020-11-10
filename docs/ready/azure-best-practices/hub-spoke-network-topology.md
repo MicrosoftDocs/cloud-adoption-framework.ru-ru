@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: 9aa123f458258a8fbb666345006661332701f12d
-ms.sourcegitcommit: 014fe718162573f02d41bdc151a7302f02ca777b
+ms.openlocfilehash: 06e01a4356fec567641829f797be01702b7d509b
+ms.sourcegitcommit: 2c949c44008161e50b91ffd3f01f6bf32da2d4d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/21/2020
-ms.locfileid: "90832898"
+ms.lasthandoff: 11/10/2020
+ms.locfileid: "94432692"
 ---
 # <a name="hub-and-spoke-network-topology"></a>Звездообразная топология сети
 
@@ -30,9 +30,9 @@ _HUB и лучевой_ — это модель сети для эффектив
 > На сайте эталонные архитектуры Azure содержатся примеры шаблонов, которые можно использовать в качестве базиса для реализации собственных сетей HUB и периферийных серверов.
 >
 > - [Реализация топологии концентратора и периферийной сети в Azure](/azure/architecture/reference-architectures/hybrid-networking/hub-spoke)
-> - [Реализация топологии сети HUB и периферийных серверов с помощью общих служб в Azure](/azure/architecture/reference-architectures/hybrid-networking/shared-services)
+> - [Реализация топологии сети HUB и периферийных серверов с помощью общих служб в Azure](/azure/architecture/reference-architectures/hybrid-networking/#hub-spoke-network-topology)
 
-## <a name="overview"></a>Overview
+## <a name="overview"></a>Обзор
 
 ![Пример топологии сети концентратора и звезды](../../_images/azure-best-practices/network-hub-spoke-high-level.png)  
 _Рис. 1. Пример топологии сети концентратора и периферийной зоны._
