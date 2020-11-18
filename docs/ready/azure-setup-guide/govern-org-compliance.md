@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: d6b4e20d484bb055beaf6998e9aca6f97437217c
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: ab3b3e0d4012113e2b132c8df1e0bfe89758252d
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884476"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94711700"
 ---
 # <a name="governance-security-and-compliance-in-azure"></a>Система управления, безопасность и соответствие требованиям в Azure
 
