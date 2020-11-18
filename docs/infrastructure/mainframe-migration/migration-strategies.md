@@ -7,12 +7,12 @@ ms.date: 12/26/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 609bbc646858368ee22b0a0aba00850dd659a00e
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 11c95d186383db736f87010db821e3fd0e2340a7
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712618"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94881033"
 ---
 <!-- docutune:casing "Table 4" "Parallel Sysplex" CF Assembler "Demystifying Mainframe-to-Azure Migration" "ROSCOE Programming Facility" "RPF" "CA Librarian" CA-Panvalet -->
 <!-- cSpell:ignore vCPUs Proliant Sysplex IPLs DASDs LPARs ISPF Panvalet -->
@@ -35,7 +35,7 @@ ms.locfileid: "94712618"
 
 Точное сопоставление MIPS с виртуальными ЦП в Azure зависит от типа виртуальных процессоров и характера выполняемой рабочей нагрузки. Тесты производительности дают неплохую основу для оценки количества и типа необходимых виртуальных ЦП. Последний тест производительности HPE Зреф содержит следующие оценки.
 
-- 288 MIPS на одно ядро Intel, выполняемое на серверах HP Proliant для онлайн-заданий (CICS).
+- 288 MIPS на базе Intel, работающей на серверах HPE ProLiant для сетевых заданий (CICS).
 
 - 170 MIPS на одно ядро Intel для пакетных заданий COBOL.
 

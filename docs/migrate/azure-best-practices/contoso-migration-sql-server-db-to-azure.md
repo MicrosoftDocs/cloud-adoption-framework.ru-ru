@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: fc9be8cfc1f51e35e0eb2dbb7270c818276c7767
-ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
+ms.openlocfilehash: 733216e9e8a4bca165c1bc73a1fd1870ecba8d3a
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93283253"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94879232"
 ---
 <!-- cSpell:ignore BACPAC FILESTREAM -->
 
@@ -49,7 +49,7 @@ ms.locfileid: "93283253"
 | **Производительность** | После миграции приложения в Azure должны иметь те же возможности производительности, что и приложения в локальной среде компании Contoso. Переход в облако не означает, что производительность приложения менее важна. |
 | **Совместимость** | Contoso необходимо понимать совместимость своих приложений и баз данных с Azure. Contoso также должен понимать возможности размещения Azure. |
 | **Источники данных** | Все базы данных будут перемещены в Azure без исключений. На основе анализа базы данных и приложений используемых функций SQL они будут перемещены в PaaS, IaaS или управляемые экземпляры. Все базы данных должны перемещаться. |
-| **Приложение** | Приложения должны быть перемещены в облако везде, где это возможно. Если они не могут переместиться, им будет разрешено подключаться к перенесенной базе данных через сеть Azure только через частные соединения. |
+| **Приложения** | Приложения должны быть перемещены в облако везде, где это возможно. Если они не могут переместиться, им будет разрешено подключаться к перенесенной базе данных через сеть Azure только через частные соединения. |
 | **Затраты** | Компании необходимо получить сведения не только о параметрах миграции, но и о стоимости инфраструктуры после перехода в облако. |
 | **Управление** | Группы управления ресурсами должны создаваться для различных отделов вместе с группами ресурсов для управления всеми переносимыми базами данных SQL. Все ресурсы должны быть помечены сведениями о отделе для требований к оплате. |
 | **Ограничения** | Изначально не все филиалы, которые запускают приложения, будут иметь прямую ссылку ExpressRoute на Azure, поэтому этим офисам потребуется подключиться через шлюзы виртуальной сети. |
@@ -149,10 +149,10 @@ DMA рекомендует повысить производительность
 
 При наличии информации компания Contoso использует следующие рекомендации, чтобы определить, какой метод миграции следует использовать для каждой базы данных.
 
-| целевого объекта | Использование базы данных | Сведения | Миграция по сети | Автономная миграция | Максимальный размер | Руководство по миграции |
+| Назначение | Использование базы данных | Сведения | Миграция по сети | Автономная миграция | Максимальный размер | Руководство по миграции |
 | --- | --- | --- | --- | ---| --- | --- |
 | База данных SQL Azure (PaaS) | SQL Server (только данные) | Эти базы данных просто используют основные таблицы, столбцы, хранимые процедуры и функции | [Помощник по миграции данных](/sql/dma/dma-overview), [репликация транзакций](/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](/sql/tools/bcp-utility?view=sql-server-ver15) | 1 ТиБ | [Ссылка](/azure/dms/tutorial-sql-server-to-azure-sql) |
-| Управляемый экземпляр SQL Azure. | SQL Server (дополнительные функции) | Эти базы данных используют триггеры и другие [сложные концепции](/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker) , такие как пользовательские типы .NET, брокеры служб и т. д. | [Помощник по миграции данных](/sql/dma/dma-overview), [репликация транзакций](/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](/sql/tools/bcp-utility?view=sql-server-ver15), [собственная Архивация и восстановление](/azure/sql-database/sql-database-managed-instance-get-started-restore) | 2 Тиб-8 тиб | [Ссылка](/azure/dms/tutorial-sql-server-managed-instance-online) |
+| Управляемый экземпляр SQL Azure | SQL Server (дополнительные функции) | Эти базы данных используют триггеры и другие [сложные концепции](/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker) , такие как пользовательские типы .NET, брокеры служб и т. д. | [Помощник по миграции данных](/sql/dma/dma-overview), [репликация транзакций](/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](/sql/tools/bcp-utility?view=sql-server-ver15), [собственная Архивация и восстановление](/azure/sql-database/sql-database-managed-instance-get-started-restore) | 2 Тиб-8 тиб | [Ссылка](/azure/dms/tutorial-sql-server-managed-instance-online) |
 | SQL Server на виртуальных машинах Azure (IaaS) | SQL Server (интеграция со сторонними разработчиками) | SQL Server должны иметь [неподдерживаемые функции SQL управляемый экземпляр](/azure/sql-database/sql-database-managed-instance-transact-sql-information#service-broker) (брокеры служб с несколькими экземплярами, поставщики служб шифрования, буферный пул, уровни совместимости ниже 100, зеркальное отображение базы данных, FILESTREAM, polybase, все, что требует доступа к файловым ресурсам, внешним сценариям, расширенным хранимым процедурам и другим) или программному обеспечению сторонних разработчиков для поддержки действий базы данных. | [репликация транзакций](/azure/sql-database/sql-database-managed-instance-transactional-replication) | [BACPAC](/sql/relational-databases/data-tier-applications/import-a-bacpac-file-to-create-a-new-user-database), [bcp](/sql/tools/bcp-utility?view=sql-server-ver15), [репликация моментальных снимков](/azure/sql-database/sql-database-managed-instance-transactional-replication), [собственная Архивация и восстановление](/azure/sql-database/sql-database-managed-instance-get-started-restore), преобразование физического компьютера в виртуальную машину | 4 гиб-64 тиб | [Ссылка](/azure/virtual-machines/windows/sql/virtual-machines-windows-migrate-sql) |
 
 Из-за большого количества баз данных компания Contoso создала проект управления проектами (PMO) для наблюдения за каждым экземпляром миграции баз данных. [Ответственность и обязанности](../..//migrate/migration-considerations/assess/index.md) были назначены каждой группе бизнеса и приложений.
@@ -192,7 +192,7 @@ Contoso определил окно архива для всех рабочих 
 
 #### <a name="security"></a>Безопасность
 
-- Компания Contoso должна обеспечить безопасность своих новых рабочих нагрузок базы данных Azure. [Подробнее.](/azure/sql-database/sql-database-security-overview)
+- Компания Contoso должна обеспечить безопасность своих новых рабочих нагрузок базы данных Azure. [Подробнее](/azure/sql-database/sql-database-security-overview).
 - В частности, компания Contoso должна проверить конфигурацию брандмауэра и виртуальной сети.
 - Настройте [частную ссылку](/azure/azure-sql/database/private-endpoint-overview) , чтобы весь трафик базы данных хранился в Azure и локальной сети.
 - Включите [Azure Advanced Threat protection](/azure/azure-sql/database/threat-detection-overview) для базы данных SQL Azure.
@@ -212,4 +212,5 @@ Contoso определил окно архива для всех рабочих 
 
 ## <a name="conclusion"></a>Заключение
 
-В этой статье компания Contoso оценивает, планирует и переносит свои рабочие нагрузки Microsoft SQL Server в Azure.
+В этой статье компания Contoso оценивает, планирует и переносит свои рабочие нагрузки Microsoft SQL Server в Azure.  
+Проект Azure DevOps был разработан для использования в пути переноса SQL. Проект соответствует инфраструктуре внедрения облачных технологий. Проект выполнит все необходимые ключевые решения. [щелкните здесь](https://azuredevopsdemogenerator.azurewebsites.net/?name=sqlmigration) , чтобы перейти к проекту Azure DevOps. 

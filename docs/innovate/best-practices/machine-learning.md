@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: fd31fa49a623f3eccec460f2d6f04dedfc86f9ac
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 3a0edf01c1474f7f3fa7d75ca2edb94ebbf401a5
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712023"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94880948"
 ---
 <!-- cSpell:ignore scikit RLlib Jupyter MLflow Kubeflow -->
 
@@ -56,7 +56,7 @@ ms.locfileid: "94712023"
 
 ## <a name="mlops-deploy-and-lifecycle-management"></a>Млопс: развертывание и управление жизненным циклом
 
-Машинное обучение операции (Млопс) основаны на [DevOps](https://azure.microsoft.com/overview/what-is-devops/) принципов и методиках, повышающих эффективность рабочих процессов. Например, непрерывная интеграция, Доставка и развертывание. Млопс применяет эти принципы к процессу машинного обучения с целью:
+Операции машинного обучения (Млопс) основываются на принципах и методиках [DevOps](https://azure.microsoft.com/overview/what-is-devops/) , повышающих эффективность рабочих процессов. Например, непрерывная интеграция, Доставка и развертывание. Млопс применяет эти принципы к процессу машинного обучения с целью:
 
 - Более быстрая эксперимент и разработка моделей
 - Более быстрое развертывание моделей в рабочей среде

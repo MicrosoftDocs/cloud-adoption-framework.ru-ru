@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: ff95510b54d8c82036f7cae5ec5f70809489672d
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 836d917401f8676727f5db593c0d2f67284e3bcd
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713570"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94879950"
 ---
 # <a name="management-leveling-across-cloud-management-disciplines"></a>Управление выравниванием по всем дисциплинам управления облаком
 

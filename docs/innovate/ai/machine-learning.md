@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 3fb28e0f68a5eddaff094a3f16640689cad48769
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 7a68e6b5fef2ec189d9b0825ab7ac9608a0ea136
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88568555"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94880982"
 ---
 <!-- cSpell:ignore scikit RLlib ONNX Jupyter -->
 
@@ -49,7 +49,7 @@ Azure предоставляет вам более широкие возможн
   - [Классификация образов с помощью scikit — обучение](/azure/machine-learning/tutorial-train-models-with-aml)
   - [Создание конвейера Машинное обучение для пакетной оценки](/azure/machine-learning/tutorial-pipeline-batch-scoring-classification)
 
-- Ознакомьтесь **с видеороликами** , чтобы получить дополнительные сведения о преимуществах машинное обучение, таких как создание моделей без кода, Млопс, среда выполнения ONNX, интерпретируемость модели и прозрачность, а также многое другое.
+- Ознакомьтесь **с видеороликами** , чтобы получить дополнительные сведения о преимуществах машинное обучение, таких как создание моделей без кода, операции машинного обучения (млопс), среда выполнения ONNX, возможность интерпретации и прозрачность модели, а также многое другое.
 
   - [Новые возможности Машинное обучение](https://channel9.msdn.com/Shows/AI-Show/Allup-Azure-ML)
   - [Использование Аутомл для построения моделей](https://aka.ms/automlvideo)
@@ -61,7 +61,7 @@ Azure предоставляет вам более широкие возможн
 
 - [Обзор эталонных архитектур для решений искусственного интеллекта](/azure/architecture/browse/#ai--machine-learning)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Изучите другие категории решений искусственного интеллекта:
 

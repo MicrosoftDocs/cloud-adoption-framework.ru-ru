@@ -1,5 +1,5 @@
 ---
-title: Политика конфигурации гостя
+title: Расширение гостевой настройки политики Azure
 description: Используйте облачную платформу внедрения для Azure, чтобы узнать, как использовать расширение гостевой конфигурации политики Azure для аудита параметров конфигурации на виртуальной машине Azure.
 author: BrianBlanchard
 ms.author: brblanch
@@ -7,18 +7,18 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 63e50e0cec7066d92474362cec249a0536b002a6
-ms.sourcegitcommit: 8b5fdb68127c24133429b4288f6bf9004a1d1253
+ms.openlocfilehash: fa9fde30b2c2a015f090523a7cc92b3337afd47a
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/25/2020
-ms.locfileid: "88848114"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94880489"
 ---
-# <a name="guest-configuration-policy"></a>Политика конфигурации гостя
+# <a name="azure-policy-guest-configuration-extension"></a>Расширение гостевой настройки политики Azure
 
-Для аудита параметров конфигурации на виртуальной машине можно использовать расширение [гостевой настройки](/azure/governance/policy/concepts/guest-configuration) политики Azure. В настоящее время Гостевая конфигурация поддерживается только на виртуальных машинах Azure.
+Для аудита параметров конфигурации на виртуальной машине можно использовать [расширение гостевой настройки политики Azure](/azure/governance/policy/concepts/guest-configuration) . В настоящее время Гостевая конфигурация поддерживается только на виртуальных машинах Azure.
 
-Чтобы найти список политик конфигурации гостей, выполните поиск по запросу "Конфигурация гостевой службы" на странице портала политики Azure. Или выполните этот командлет в окне PowerShell, чтобы найти список:
+Чтобы найти список политик конфигурации гостей, выполните поиск **конфигурации гостя** на странице портала политики Azure или выполните этот командлет в окне PowerShell, чтобы найти список:
 
 ```powershell
 Get-AzPolicySetDefinition | where-object {$_.Properties.metadata.category -eq "Guest Configuration"}
@@ -57,7 +57,7 @@ Get-AzPolicySetDefinition | where-object {$_.Properties.metadata.category -eq "G
 
 ```
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как [включить отслеживание изменений и предупреждения](./enable-tracking-alerting.md) для критически важных изменений файлов, служб, программ и реестра.
 

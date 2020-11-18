@@ -7,12 +7,12 @@ ms.date: 04/14/2020
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.topic: article
-ms.openlocfilehash: 5fadef56e97fa51450e6f6b80aca0ab84038b020
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: 975a848cbc2afe9ded2d0dea56b69717f796c5d3
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90776029"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94879180"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -32,6 +32,8 @@ ms.locfileid: "90776029"
 | [Средство отслеживания перехода в облако](/assessments/?id=cloud-journey-tracker&mode=pre-assessment) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
 | [&nbsp;Шаблон стратегии и &nbsp; плана &nbsp;](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) | Документирование решений при выполнении стратегии и плана внедрения в облако. |
 | [Генератор планов внедрения в облако](../plan/template.md) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |
+| [Использование шаблона ADO, готового к использованию в плане стратегий](https://azuredevopsdemogenerator.azurewebsites.net/?name=strategyplan) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |  
+
 
 ## <a name="ready"></a>Ready
 
@@ -63,12 +65,13 @@ ms.locfileid: "90776029"
 | Ресурс | Описание |
 |----------|-------------|
 | [Контрольный список обнаружения миграции центра обработки данных](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/migrate/datacenter-migration-discovery-checklist.docx) | Изучите этот контрольный список, чтобы узнать о рабочих нагрузках, серверах и других ресурсах в центре обработки данных. Используйте эти сведения для планирования миграции.
+| [Шаблоны миграции](https://aka.ms/adopt/plan/generator) | В генераторе DevOps Azure мы создали ряд шаблонов, которые можно использовать для упрощения проектов. Шаблоны были созданы для [развертываний](https://azuredevopsdemogenerator.azurewebsites.net/?name=cafaks) [ВВД](https://azuredevopsdemogenerator.azurewebsites.net/?name=wvdmigration), [миграции сервера](https://azuredevopsdemogenerator.azurewebsites.net/?name=servermigration), [переноса SQL](https://azuredevopsdemogenerator.azurewebsites.net/?name=sqlmigration) и AKS.
 
 ## <a name="manage"></a>Управление
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Общие сведения о Microsoft Azure Well-Architected](/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
+| [Проверка с использованием платформы Microsoft Azure с продуманной архитектурой](/assessments/?id=azure-architecture-review) | Эта оперативная оценка поможет определить архитектуру рабочей нагрузки и параметры операций. |
 | [&nbsp; &nbsp; Исходный &nbsp; код рекомендаций](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/manage/Automation-Best-Practices) | Этот развертываемый исходный код дополняет и ускоряет внедрение рекомендаций для служб управления сервером Azure. Используйте этот исходный код, чтобы быстро включить управление операциями и установить базовый план операций. |
 | [Книга Operations Management](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/manage/opsmanagementworkbook.xlsx) | Документирование решений об управлении операциями в облаке и обеспечение взаимодействия с бизнесом для обеспечения соответствия требованиям соглашения об уровне обслуживания, инвестиций в устойчивость и распределении бюджета, связанных с операциями. |
 

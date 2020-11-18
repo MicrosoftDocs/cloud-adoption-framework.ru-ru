@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: csu
-ms.openlocfilehash: 44276ffabbae39cd5a75c0ea2de501aefd0c42f0
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 65f84c5b5cdd512a2a3c5f639d853d7cf11b2d93
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713060"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94879010"
 ---
 # <a name="cloud-adoption-framework-enterprise-scale-landing-zone-architecture"></a>Инфраструктура внедрения облачных технологий корпоративного уровня в масштабах предприятия
 
@@ -47,7 +47,7 @@ _Рис. 2. Архитектура облачного развертывания
 
 _Рис. 3. Архитектура облачной инфраструктуры внедрения в масштабах предприятия на основе традиционной топологии сетей Azure. Обратите внимание, что в подписке на подключение используется виртуальная сеть концентратора._
 
-Скачайте PDF-файлы, содержащие схемы архитектуры Enterprise-Scale на основе топологии [ВИРТУАЛЬНОЙ глобальной](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/enterprise-scale-architecture.pdf) сети или традиционной топологии сети Azure на основе архитектуры " [звезда](https://github.com/microsoft/CloudAdoptionFramework/raw/master/ready/enterprise-scale-architecture-cust.pdf) ".
+Скачайте файлы PDF или Visio, содержащие схемы архитектуры Enterprise-Scale на основе топологии сети [виртуальной глобальной сети (PDF)](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/enterprise-scale-architecture.pdf) или традиционной топологии сети Azure, основанной на архитектуре [основной и резервной (PDF)](https://github.com/microsoft/CloudAdoptionFramework/raw/master/ready/enterprise-scale-architecture-cust.pdf) . Файл Visio, содержащий как виртуальную глобальную сеть, так и схему с архитектурой "звезда" и "звезда", можно скачать в виде [схемы Visio (vsdx)](https://github.com/microsoft/CloudAdoptionFramework/raw/master/ready/enterprise-scale-architecture.vsdx).
 
 На рисунках 2 и 3 имеются ссылки на Enterprise-Scale критические области проектирования, которые обозначены буквами A и I:
 

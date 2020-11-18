@@ -7,12 +7,12 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 2404a99fcc1dc46700b92026bc4eef8bc146a2a8
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 2a512e745150c5bb5af258bed38ba6aee1da4f9e
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88572448"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94880999"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 
@@ -48,7 +48,7 @@ ms.locfileid: "88572448"
 - [База данных Azure для MariaDB](/azure/mariadb)
 - [Масштабирование базы данных Azure для PostgreSQL](/azure/postgresql/concepts-hyperscale-nodes)
 - [Хранилище озера данных Azure](/azure/storage/blobs/data-lake-storage-introduction)
-- [Azure Database Migration Service](/azure/dms)
+- [Миграция баз данных Azure](/azure/dms)
 - [База данных SQL Azure с Управляемый экземпляр Azure SQL или без нее](/azure/sql-database)
 - [Фабрика данных Azure](/azure/data-factory).
 - [Azure Stream Analytics](/azure/stream-analytics)
@@ -57,7 +57,7 @@ ms.locfileid: "88572448"
 - [SQL Server Stretch Database](/sql/sql-server/stretch-database)
 - [StorSimple Azure](/azure/storsimple)
 - [Файлы Azure](/azure/storage/files)
-- [Служба синхронизации файлов Azure](/azure/storage/files/storage-sync-files-planning)
+- [Синхронизация файлов Azure](/azure/storage/files/storage-sync-files-planning)
 - [PolyBase](/sql/relational-databases/polybase)
 
 Так как Invention приближается к внедрению в масштабе, для каждого решения требуется уточнение и техническая дата_вступл_в_силу. Как и в этом случае, скорее всего, потребуется больше этих служб. Используйте оглавление в левой части этой страницы для руководства по средствам Azure, относящиеся к процессу тестирования гипотезы.
