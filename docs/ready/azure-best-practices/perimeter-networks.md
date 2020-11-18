@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 manager: rossort
 ms.custom: virtual-network
-ms.openlocfilehash: e57bcae8f5b7b779544d6000e1fe299bf70eb4d7
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: ae5506d6d09289b2c41cd5ece887b2ec5692c267
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90776539"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712856"
 ---
 # <a name="perimeter-networks"></a>Сети периметра
 
@@ -36,7 +36,7 @@ ms.locfileid: "90776539"
 > Эталонные архитектуры Azure содержат примеры шаблонов, которые можно использовать для реализации собственных сетей периметра:
 >
 > - [Реализация сети периметра между Azure и локальным центром обработки данных](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz)
-> - [Реализация сети периметра между Azure и Интернетом](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
+> - [Реализация сети периметра между Azure и Интернетом](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
 
 Как правило, Центральная группа ИТ и группы безопасности несут ответственность за определение требований к работе с сетями периметра.
 

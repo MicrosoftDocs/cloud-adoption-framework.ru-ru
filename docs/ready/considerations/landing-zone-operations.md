@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 80b172f5c81ec5ee9dfe60d7a5a4845341a96c40
-ms.sourcegitcommit: 6aa14b15efc9bd351b75f8a3d7ebbac3d575275b
+ms.openlocfilehash: 572e14e1b5fb06662e37eeb16566f69cb0372a55
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92690029"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94713893"
 ---
 # <a name="improve-landing-zone-operations"></a>Оптимизация операций с целевыми зонами
 
@@ -27,10 +27,10 @@ ms.locfileid: "92690029"
 - [Централизованное управление операциями управления](../../manage/centralize-operations.md). Используйте Azure лигхсаусе для централизации управления операциями в нескольких клиентах Azure.
 - [Создание проверки](../../manage/operational-fitness-review.md)готовности к работе: Проверка среды на предмет пригодности к эксплуатации.
 - Рекомендации по операциям для конкретной рабочей нагрузки:
-  - [Контрольный список для обеспечения устойчивости](/azure/architecture/checklist/resiliency-per-service?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
-  - [Анализ режима сбоя](/azure/architecture/resiliency/failure-mode-analysis?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
-  - [Восстановление после прерывания работы служб во всем регионе](/azure/architecture/resiliency/recovery-loss-azure-region?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
-  - [Восстановление данных после повреждения или случайного удаления](/azure/architecture/framework/resiliency/data-management?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json)
+  - [Контрольный список для обеспечения устойчивости](/azure/architecture/checklist/resiliency-per-service?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Анализ режима сбоя](/azure/architecture/resiliency/failure-mode-analysis?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Восстановление после прерывания работы служб во всем регионе](/azure/architecture/resiliency/recovery-loss-azure-region?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+  - [Восстановление данных после повреждения или случайного удаления](/azure/architecture/framework/resiliency/data-management?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
 
 ## <a name="four-steps-to-improve-operations-beyond-a-single-landing-zone"></a>Четыре шага для улучшения операций за пределами одной целевой зоны
 
@@ -51,7 +51,7 @@ ms.locfileid: "92690029"
 ![Процесс разработки на основе тестирования для облачных целевых зон ](../../_images/ready/test-driven-development-process.png)
  _рис. 2. процесс разработки на основе тестирования для облачных зон в облаке._
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте, как [улучшить управление главной зоной](./landing-zone-governance.md) для поддержки внедрения в масштабе.
 

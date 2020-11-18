@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: c914d971b97e72d1b5e303fdec7a0df17351b423
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 9235a7039ea7c95cd330481700898915e42dc3bb
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574420"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94713655"
 ---
 # <a name="platform-automation-and-devops"></a>Автоматизация платформы и DevOps
 
@@ -68,7 +68,7 @@ _Рис. 1. Автоматизация платформы и DevOps._
 
   - Управление сетью (целостное).
 
-- **Аппдевопс**. Разрешить владельцам приложений создавать ресурсы приложения и управлять ими с помощью модели DevOps. В следующем списке представлена рекомендуемая роль DevOps для групп приложений.
+- **Аппдевопс.** Разрешить владельцам приложений создавать ресурсы приложения и управлять ими с помощью модели DevOps. В следующем списке представлена рекомендуемая роль DevOps для групп приложений.
 
   - Миграция или преобразование приложения.
 

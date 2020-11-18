@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 42bb7e66f9b9c997babf3f0e40fcf8145cd849f7
-ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
+ms.openlocfilehash: 2e020b1284fedf8ea6fdf45d46ab2d14fa8ea49d
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93283427"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712720"
 ---
 <!-- cSpell:ignore FIPS SIEM majeure NSGs -->
 
@@ -215,7 +215,6 @@ Azure предоставляет ряд других средств защиты
 При синхронизации локальной Active Directory с Azure AD с помощью Azure AD Connect рекомендуется сопоставлять имена групп безопасности в локальной среде с именами групп ресурсов в Azure.
 
   ![Снимок экрана: именование группы ресурсов.](./media/migrate-best-practices-security-management/naming.png)
-  
   _Рис. 5. Именование группы ресурсов._
 
 **Подробнее:**
@@ -227,7 +226,6 @@ Azure предоставляет ряд других средств защиты
 Случайное удаление группы ресурсов крайне нежелательно. Рекомендуется реализовать блокировку удаления, чтобы это не произошло.
 
   ![Снимок экрана блокировки удаления.](./media/migrate-best-practices-security-management/locks.png)
-
   _Рис. 6. удаление блокировок._
 
 **Подробнее:**
@@ -546,7 +544,7 @@ Site Recovery реплицирует виртуальные машины из б
 - Сведения об [отслеживании изменений](/azure/automation/automation-change-tracking).
 - Сведения о [возможностях службы автоматизации Azure](/azure/automation/automation-intro).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Просмотрите другие рекомендации:
 

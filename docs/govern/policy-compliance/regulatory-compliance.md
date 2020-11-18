@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: d6f5aa596b1012732669224a03472c40e07d347d
-ms.sourcegitcommit: 8bd82ade858bf8095672842bd6469deae7616bbf
+ms.openlocfilehash: 7cb649e28f0449e5f06ae14277eb137fad4f6135
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "94333582"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712754"
 ---
 # <a name="introduction-to-regulatory-compliance"></a>Общие сведения о соответствии нормативным требованиям
 
@@ -64,7 +64,7 @@ ms.locfileid: "94333582"
 - **Отчеты об аудите:** Включает разделы для отчетов FedRAMP, GRC оценки, ISO, PCI DSS и SOC.
 - **Ресурсы по защите данных:** Включает руководства по соответствию, часто задаваемые вопросы и технические документы, а также разделы по тестированию и оценке системы безопасности.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Следующие шаги
 
 Узнайте больше о готовности к безопасности в облаке.
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: 5b67a8a4d268a254e41549114d861bc205121b48
-ms.sourcegitcommit: 81246e185cee53fed591c4bafd56cde7d58e26f4
+ms.openlocfilehash: 693afd1c149890e4552a0eec27ce21b29acd189e
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/09/2020
-ms.locfileid: "91898290"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712244"
 ---
 # <a name="build-technical-skills"></a>Развитие технических навыков
 
@@ -75,6 +75,6 @@ Microsoft Learn — это новый подход к изучению. Гот�
 
 - [Разработчики](/learn/browse/?roles=developer&term=infrastructure) могут использовать ресурсы Microsoft Learn, чтобы помочь в выполнении действий по архитектуре, управлению, модернизации.
 
-## <a name="learn-more"></a>Дополнительные сведения
+## <a name="learn-more"></a>Подробнее
 
 Для просмотра дополнительных схем обучения перейдите к [каталогу Microsoft Learn](/learn/browse). Используйте фильтр ролей для согласования путей обучения с вашей ролью.

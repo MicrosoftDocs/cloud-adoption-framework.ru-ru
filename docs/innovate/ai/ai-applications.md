@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 48dd54d684a9c2e7af5781a98aabcef53ae8ed0b
-ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
+ms.openlocfilehash: 78232fa1927667a94e8473b540228e348122549e
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93283151"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712550"
 ---
 # <a name="ai-applications-and-agents"></a>Приложения и агенты ИИ
 
@@ -24,7 +24,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 Типичные сценарии для приложений AI включают:
 
-- Анализ тональности
+- Анализ мнений
 - Обнаружение объектов
 - Перевод
 - Персонализация
@@ -108,7 +108,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 - [Решение виртуального помощника для платформы Bot](https://microsoft.github.io/botframework-solutions/index)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Изучите другие категории решений искусственного интеллекта:
 

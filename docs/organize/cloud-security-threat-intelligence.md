@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: b23385287ac592f019e917ca67f685d4a824100b
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: bab307f1a9476de3f53710c3798d77365cc2c3dc
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194261"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712227"
 ---
 # <a name="function-of-cloud-threat-intelligence"></a>Функция анализа угроз в облаке
 
@@ -39,6 +39,6 @@ ms.locfileid: "86194261"
 - Архитектура и операции ИТ
 - Группы управления рисками
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Изучите функцию [управления](./cloud-security-posture-management.md)уровнями безопасности в облаке.

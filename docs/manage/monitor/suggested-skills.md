@@ -7,12 +7,12 @@ ms.date: 08/26/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: ab6b3c853f02154ea38a1c0a4a7d642ea7e8eb75
-ms.sourcegitcommit: 8bd82ade858bf8095672842bd6469deae7616bbf
+ms.openlocfilehash: 2040be11d1c64e002ee304e8638ced855d7973e5
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/06/2020
-ms.locfileid: "94333649"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94713502"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -20,9 +20,9 @@ ms.locfileid: "94333649"
 
 На этапе планирования процесса миграции цель состоит в разработке планов, необходимых для пошагового внедрения. Эти планы также должны включать в себя способ работы с этими рабочими нагрузками перед их переходом или выпуском в рабочую среду, а не впоследствии. ИТ-заинтересованные лица предполагают наличие ценных услуг и предполагают их без перерывов в работе. Сотрудники отдела ИТ понимают, что им нужно изучить новые навыки и адаптировать их, чтобы они были готовы к уверенному использованию интегрированных служб Azure для эффективного мониторинга ресурсов в Azure и гибридных средах.
 
-Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов — инфраструктуру, приложение и анализ данных.  
+Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов: инфраструктуру, приложение и анализ данных.
 
-## <a name="fundamentals"></a>Базовый
+## <a name="fundamentals"></a>Основы
 
 - Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
@@ -62,7 +62,7 @@ ms.locfileid: "94333649"
   - [Microsoft Azure инженер DevOps: оптимизация механизмов обратной связи](https://www.pluralsight.com/courses/microsoft-azure-optimize-feedback-mechanisms) помогает подготовиться к использованию Azure Monitor, включая Application Insights, для мониторинга и оптимизации веб-приложений.
 
   - [Запись и Просмотр времени загрузки страниц в веб-приложении Azure](/learn/modules/capture-page-load-times-application-insights/). Приступайте к работе с этим курсом по использованию Azure Monitor Application Insights для комплексного мониторинга компонентов приложений, работающих в Azure.
-  
+
   - [Microsoft Azure мониторинга базы данных сборник тренировочных заданий](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) поможет вам узнать, как реализовать и использовать мониторинг базы данных SQL Azure, хранилища данных SQL azure и Azure Cosmos DB.
 
   - [Инструментирование приложений с помощью Azure Monitor Application Insights](https://app.pluralsight.com/library/courses/microsoft-azure-application-insights-web-application-instrument) является подробным курсом, посвященным использованию пакета SDK Application Insights для сбора данных телеметрии и событий из приложения с помощью угловых и Node.js компонентов.

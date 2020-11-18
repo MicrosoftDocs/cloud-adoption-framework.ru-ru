@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 90ef5b895e8ac6f9674de3b4c15edf238d789a4b
-ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
+ms.openlocfilehash: fd31fa49a623f3eccec460f2d6f04dedfc86f9ac
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93283015"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712023"
 ---
 <!-- cSpell:ignore scikit RLlib Jupyter MLflow Kubeflow -->
 
@@ -99,7 +99,7 @@ ms.locfileid: "93283015"
 
 ## <a name="integration-with-other-services"></a>Интеграция с другими службами
 
-Машинное обучение Azure работает с другими службами на платформе Azure, а также интегрируется с инструментами с открытым кодом, такими как Git и Млфлов.
+Машинное обучение Azure работает с другими службами на платформе Azure, а также интегрируется с такими средствами с открытым кодом, как Git и Млфлов.
 
 - Целевые объекты вычислений, такие как Служба Azure Kubernetes, Экземпляры контейнеров Azure, Azure Databricks, Azure Data Lake Analytics и Azure HDInsight. Дополнительные сведения о целевых объектах вычислений см. в [этой статье](/azure/machine-learning/concept-compute-target).
 - Сетка событий Azure. Дополнительную информацию см. в статье [Consume Azure Machine Learning events (Preview)](/azure/machine-learning/how-to-use-event-grid) (Использование событий Машинного обучения Azure (предварительная версия)).
@@ -112,7 +112,7 @@ ms.locfileid: "93283015"
 - Kubeflow. Дополнительные сведения см. в разделе [Сборка сквозных конвейеров рабочих процессов](https://www.kubeflow.org/docs/azure/).
 - Безопасная связь. Учетную запись хранения Azure, целевые объекты вычислений и другие ресурсы можно безопасно использовать в виртуальной сети для обучения моделей и выполнения их вывода. Дополнительные сведения см. в статье [Secure Azure ML experimentation and inference jobs within an Azure Virtual Network](/azure/machine-learning/how-to-enable-virtual-network) (Защита заданий экспериментирования и вывода Машинного обучения Azure в виртуальной сети Azure).
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 - Ознакомьтесь с техническими документацией по машинному обучению и электронной книгой по [машинное обучение Studio](https://azure.microsoft.com/resources/whitepapers/search/?service=machine-learning-studio) и [машинное обучение Service](https://azure.microsoft.com/resources/whitepapers/search/?service=machine-learning-service).
 - Ознакомьтесь с [архитектурой ии и машинное обучение](/azure/architecture/browse/).

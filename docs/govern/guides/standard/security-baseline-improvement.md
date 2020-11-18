@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: governance
-ms.openlocfilehash: fb16286bdab9bedc4d9f14670060ebbe5c19ac0f
-ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
+ms.openlocfilehash: eb9b071490580123a7358d2215907ab4c106d7a3
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93282944"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712814"
 ---
 # <a name="standard-enterprise-governance-guide-improve-the-security-baseline-discipline"></a>Стандартное руководство по корпоративному управлению. повышение специализации в плане безопасности
 
@@ -125,7 +125,7 @@ ms.locfileid: "93282944"
     - Убедитесь, что заданы правильные параметры безопасности на компьютерах Linux и Windows.
   - Аудит и обеспечение того, что хранилища служб восстановления Azure существуют в подписке.
 - Настройка брандмауэра:
-  - Определите конфигурацию Брандмауэра Azure, которая удовлетворяет обязательным требованиям к безопасности. Кроме того, можно найти совместимое устройство стороннего производителя, совместимое с Azure. В производительности Azure содержатся дополнительные сведения о [стратегии сетевой безопасности](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-governance-strategy#gs-5-define-network-security-strategy) и [конфигурации брандмауэра для поддержки стратегии безопасности](https://docs.microsoft.com/azure/security/benchmarks/security-controls-v2-network-security#ns-4-protect-applications-and-services-from-external-network-attacks).
+  - Определите конфигурацию Брандмауэра Azure, которая удовлетворяет обязательным требованиям к безопасности. Кроме того, можно найти совместимое устройство стороннего производителя, совместимое с Azure. В производительности Azure содержатся дополнительные сведения о [стратегии сетевой безопасности](/azure/security/benchmarks/security-controls-v2-governance-strategy#gs-5-define-network-security-strategy) и [конфигурации брандмауэра для поддержки стратегии безопасности](/azure/security/benchmarks/security-controls-v2-network-security#ns-4-protect-applications-and-services-from-external-network-attacks).
   - Создайте шаблон Resource Manager, чтобы развернуть брандмауэр с необходимыми конфигурациями.
 - Проекты Azure:
   - Создайте схему с именем `protected-data`.
@@ -138,7 +138,7 @@ ms.locfileid: "93282944"
 
 Добавление описанных выше процессов и изменений в MVP по управлению поможет устранить многие риски, связанные с системой управления безопасностью. В совокупности они предоставляют инструменты для мониторинга сетей, идентификации и безопасности, необходимые для защиты данных.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 По мере того как внедрение в облако продолжится и доставляет дополнительную ценность для бизнеса, риски и потребности в управлении облаком также меняются. Для вымышленной компании в этом пошаговом окне необходимо поддерживать критически важные рабочие нагрузки. На этом этапе требуются элементы управления согласованностью ресурсов.
 

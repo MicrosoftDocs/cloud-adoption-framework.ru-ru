@@ -7,12 +7,12 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 078ac0e661b946d9fb493dff0b1d2ee087777726
-ms.sourcegitcommit: 826f2a3f0353bb711917e99d9a17f6198fb41ada
+ms.openlocfilehash: cb053e2a62bb1451b2044291f6851fc20d4e1333
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "93024612"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94713672"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
@@ -74,7 +74,7 @@ ms.locfileid: "93024612"
 
 Как описано в [области проектирования группы управления и критической организации подписки](./management-group-and-subscription-organization.md), подписки, помещенные в иерархию группы управления "песочницы", должны иметь менее ограниченный подход к политикам. Поскольку эти подписки должны использоваться пользователями в рамках бизнеса для экспериментов и внедрения в продукты и службы Azure, которые могут быть еще не разрешены в иерархии начальных зон, проверьте, могут ли их идеи и концепции работать. перед переходом в формальную среду разработки.
 
-Однако для этих подписок в иерархии групп управления "песочницы" по-прежнему требуется применить некоторые снятие, чтобы гарантировать их правильное использование. Например, для инноваций, триаллинг новые службы, продукты и функции Azure и идеатион проверку. 
+Однако эти подписки в иерархии групп управления "песочницы" по-прежнему нуждаются в снятие, чтобы обеспечить их правильное использование, например для инноваций, экспериментов с новыми службами и функциями Azure и проверки идеатион.
 
 **Поэтому рекомендуется:**
 
@@ -83,7 +83,7 @@ ms.locfileid: "93024612"
   | Имя                  |     Описание                                                                                     | Заметки о назначении |
   |-----------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
   | [`Deny-VNET-Peering-Cross-Subscription`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState) | Предотвращает создание соединений пиринга виртуальной сети с другими виртуальных сетей за пределами подписки. | Убедитесь, что эта политика назначена только для уровня области иерархии группы управления "песочница". |
-  | [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json)           | Ресурсы, которые запрещено создавать в подписках "песочницы". Это предотвратит создание ресурсов гибридного подключения. *например, VPN/ExpressRoute/виртуалван* | При назначении этой политики выберите следующие ресурсы для запрета создания: VPN-шлюзов:, `microsoft.network/vpngateways` шлюзов P2S: `microsoft.network/p2svpngateways` , виртуальных глобальных сетей: `microsoft.network/virtualwans` , ВИРТУАЛЬНЫХ концентраторов глобальной сети: `microsoft.network/virtualhubs` , каналов expressroute: `microsoft.network/expressroutecircuits` , шлюзов expressroute: `microsoft.network/expressroutegateways` , портов Expressroute: `microsoft.network/expressrouteports` , перекрестных подключений expressroute `microsoft.network/expressroutecrossconnections` и шлюзов локальной сети: `microsoft.network/localnetworkgateways` . | 
+  | [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json)           | Ресурсы, которые запрещено создавать в подписках "песочницы". Это предотвратит создание ресурсов гибридного подключения. *например, VPN/ExpressRoute/виртуалван* | При назначении этой политики выберите следующие ресурсы для запрета создания: VPN-шлюзов:, `microsoft.network/vpngateways` шлюзов P2S: `microsoft.network/p2svpngateways` , виртуальных глобальных сетей: `microsoft.network/virtualwans` , ВИРТУАЛЬНЫХ концентраторов глобальной сети: `microsoft.network/virtualhubs` , каналов expressroute: `microsoft.network/expressroutecircuits` , шлюзов expressroute: `microsoft.network/expressroutegateways` , портов Expressroute: `microsoft.network/expressrouteports` , перекрестных подключений expressroute `microsoft.network/expressroutecrossconnections` и шлюзов локальной сети: `microsoft.network/localnetworkgateways` . |
   | [`Deploy-Budget-Sandbox`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)/.AzState) | Обеспечивает наличие бюджета для каждой подписки "песочницы" с включенными оповещениями по электронной почте. Бюджет будет называться: `default-sandbox-budget` в каждой подписке. | Если во время назначения политики параметры не изменяются по умолчанию, `default-sandbox-budget` будет создан бюджет () с предельным значением в 1000 валюте и отправлено оповещение по электронной почте владельцам и участникам подписки (на основе назначения РОЛЕЙ RBAC) на 90% и 100% от порога бюджета. |
 
 ### <a name="global-networking-and-connectivity"></a>Глобальные сетевые подключения и подключение

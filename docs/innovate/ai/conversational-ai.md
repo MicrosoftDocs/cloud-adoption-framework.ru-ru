@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 70d8c90bdc9f013b4e08c7b7e33207b07d49b4dd
-ms.sourcegitcommit: fbfd66dab002b549d3e9cbf1b7efa0099d0b7700
+ms.openlocfilehash: a908cdaa72ff857f0e1743100710e83434bcda55
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "93283100"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712584"
 ---
 # <a name="conversational-ai"></a>Диалоговый ИИ
 
@@ -59,6 +59,6 @@ ms.locfileid: "93283100"
 
 - [Решение виртуального помощника для платформы Bot](https://microsoft.github.io/botframework-solutions/index)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 [Интеллектуальный анализ знаний](./knowledge-mining.md)

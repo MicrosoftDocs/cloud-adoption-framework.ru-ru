@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 46ed8211a9206c7eed07760a0452ed97df2e5901
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: bb8d2a7d77bb4ad6cc8ab0f3a391e7aeaa1a4fdd
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90776318"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94713876"
 ---
 <!-- docutune:ignore "CAF Foundation blueprint" -->
 
@@ -25,7 +25,7 @@ ms.locfileid: "90776318"
 Прежде чем использовать чертеж КАФ Foundation в облачной инфраструктуре внедрения, ознакомьтесь со следующими принципами разработки, допущениями, решениями и рекомендациями по реализации. Если это руководство соответствует требуемому плану внедрения в облако, то [проект КАФ Foundation](/azure/governance/blueprints/samples/caf-foundation) можно развернуть с помощью шагов развертывания.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы](/azure/governance/blueprints/samples/caf-foundation/deploy)
+> [Развертывание примера схемы](/azure/governance/blueprints/samples/caf-foundation/deploy)
 
 ## <a name="design-principles"></a>Принципы проектирования
 
@@ -35,17 +35,17 @@ ms.locfileid: "90776318"
 
 Этот вариант реализации развертывает MVP, чтобы служить основой для ваших дисциплин управления. Группа будет следовать основанному на рефакторингу подходу к более зрелым дисциплинам управления с помощью [управляемой методологии](../../govern/index.md).
 
-### <a name="enterprise-enrollment"></a>Регистрация на предприятии
+### <a name="enterprise-enrollment"></a>Регистрация организации
 
 Этот вариант реализации не принимает встроенную точку на корпоративную регистрацию. Этот подход предназначен для клиентов независимо от договорных соглашений с корпорацией Майкрософт или партнерами Майкрософт. Перед развертыванием этого варианта реализации предполагается, что клиент уже создал целевую подписку.
 
 ### <a name="identity"></a>Идентификация
 
-В этом варианте реализации предполагается, что Целевая подписка уже связана с экземпляром Azure Active Directory в соответствии с [рекомендациями по управлению удостоверениями](/azure/security/fundamentals/identity-management-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
+В этом варианте реализации предполагается, что Целевая подписка уже связана с экземпляром Azure Active Directory в соответствии с [рекомендациями по управлению удостоверениями](/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 
 ### <a name="network-topology-and-connectivity"></a>Топология сети и возможности подключения
 
-В этом варианте реализации предполагается, что в целевой зоне уже есть определенная топология сети в соответствии с [рекомендациями по безопасности сети](/azure/security/fundamentals/network-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
+В этом варианте реализации предполагается, что в целевой зоне уже есть определенная топология сети в соответствии с [рекомендациями по безопасности сети](/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 
 ### <a name="resource-organization"></a>Организация ресурсов
 
@@ -62,23 +62,23 @@ ms.locfileid: "90776318"
 
 Чтобы помочь в этом сравнении, когда группы работают дальше вместе с внедрением в облаке, ознакомьтесь с разделом Управление шаблонов [руководства Руководство по руководству](../../govern/guides/complex/prescriptive-guidance.md#application-of-governance-defined-patterns) . В этом разделе в нормативных руководствах демонстрируется набор шаблонов на основе определенного описания и операционной модели. В этом руководстве также содержатся ссылки на другие шаблоны, которые следует учитывать.
 
-### <a name="governance-disciplines"></a>Дисциплины управления
+### <a name="governance-disciplines"></a>Система управления
 
 В этой реализации демонстрируется один из подходов к зрелости управления затратами в отношении управляемой методологии. В частности, здесь показано, как можно использовать политику Azure для создания списка разрешенных номеров SKU. Ограничение типов и размеров ресурсов, которые могут быть развернуты в целевой зоне, снижает риск снижения затрат.
 
-Чтобы ускорить параллельную разработку других дисциплин, ознакомьтесь с [управляемой методологией](../../govern/index.md). Чтобы продолжить совершенствующейся управления затратами, ознакомьтесь с [руководством по дисциплине управления затратами](../../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices).
+Чтобы ускорить параллельную разработку других дисциплин, ознакомьтесь с [управляемой методологией](../../govern/index.md). Чтобы продолжить совершенствующейся управления затратами, ознакомьтесь с [руководством по дисциплине управления затратами](../../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-best-practices).
 
 > [!WARNING]
-> По мере разработки дисциплин может потребоваться рефакторинг. Может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](/azure/azure-resource-manager/management/move-resource-group-and-subscription?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
+> По мере разработки дисциплин может потребоваться рефакторинг. Может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 
-### <a name="operations-baseline"></a>Базовый план операций
+### <a name="operations-baseline"></a>Базовые показатели операций
 
 Этот вариант реализации не реализует никаких аспектов базовых показателей операций. В отсутствие определенного базового плана операций эта Целевая зона не должна использоваться для критически важных рабочих нагрузок или конфиденциальных данных. Предполагается, что эта Целевая зона используется для ограниченного рабочего развертывания, чтобы начать обучение, итерацию и разработку всей операционной модели параллельно с этими усилиями на раннем этапе миграции.
 
 Чтобы ускорить параллельную разработку базовых показателей операций, просмотрите [методологию управления](../../manage/index.md) и попробуйте развернуть [руководство по управлению сервером Azure](../../manage/azure-server-management/index.md).
 
 > [!WARNING]
-> При разработке базового плана операций может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](/azure/azure-resource-manager/management/move-resource-group-and-subscription?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json).
+> При разработке базового плана операций может потребоваться рефакторинг. В частности, ресурсы позже потребуется [переместить в новую подписку или группу ресурсов](/azure/azure-resource-manager/management/move-resource-group-and-subscription?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json).
 
 ### <a name="business-continuity-and-disaster-recovery-bcdr"></a>Непрерывность бизнес-процессов и аварийное восстановление (BCDR)
 
@@ -98,9 +98,9 @@ ms.locfileid: "90776318"
 Узнайте больше и скачайте образец схемы КАФ Foundation для развертывания или настройки в примерах схемы Azure.
 
 > [!div class="nextstepaction"]
-> [Развертывание образца схемы](/azure/governance/blueprints/samples/caf-foundation/deploy)
+> [Развертывание примера схемы](/azure/governance/blueprints/samples/caf-foundation/deploy)
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 После развертывания первой целевой зоны вы можете расширить целевую зону.
 

@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 04b34a0914ec0be193c670be005af269d0aa2d14
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: c8006f3b83fa4dd07f25c49b02294084c435d13a
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90775723"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94713791"
 ---
 # <a name="get-started-understand-and-document-foundational-alignment-decisions"></a>Начало работы: изучение и документирование решений по выравниванию в базовых принципах
 
@@ -25,7 +25,7 @@ ms.locfileid: "90775723"
 
 При работе с этим руководством запишите наши основные решения, используя [первоначальный шаблон решения](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/references/initial-decisions-checklist.docx). Этот шаблон поможет быстро подключить участников группы, которые участвуют в жизненном цикле внедрения облака, и объяснить, как настроена облачная среда и почему.
 
-Если у вас уже есть среда, работающая в Azure, [Визуализатор управления Azure](https://github.com/microsoft/CloudAdoptionFramework/tree/master/govern/AzureGovernanceVisualizer) поможет вам ускорить работу с документацией. Получите представление о политиках, управлении доступом на основе ролей (RBAC), схемах Azure, подписках и многом другое. Из собранных данных средство предоставляет сведения о карте иерархии, создает сводку клиента и создает детализированную аналитику для групп управления и подписок. 
+Если у вас уже есть среда, работающая в Azure, [Визуализатор управления Azure](https://github.com/microsoft/CloudAdoptionFramework/tree/master/govern/AzureGovernanceVisualizer) поможет вам ускорить работу с документацией. Получите представление о политиках, управлении доступом на основе ролей (RBAC), схемах Azure, подписках и многом другое. Из собранных данных средство предоставляет сведения о карте иерархии, создает сводку клиента и создает детализированную аналитику для групп управления и подписок.
 
 ## <a name="step-1-understand-how-azure-works"></a>Шаг 1. понимание принципов работы Azure
 

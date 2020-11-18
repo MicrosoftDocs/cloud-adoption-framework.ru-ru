@@ -7,12 +7,12 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: c3c9ab2d1177a023e3a7bed569cad317d5dc117a
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 474795bae8a185915ad1b3983ea0d1cf28c99e89
+ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574556"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "94712040"
 ---
 # <a name="best-practices-for-azure-readiness"></a>Рекомендации по обеспечению готовности к работе в Azure
 
@@ -34,8 +34,8 @@ ms.locfileid: "88574556"
 Подготовьте сетевую инфраструктуру облака для использования рабочих нагрузок.
 
 - [Решения по выбору сетей.](../considerations/networking-options.md) Выберите сетевые службы, средства и архитектуру с учетом требований к корпоративной рабочей нагрузке, системе управления и подключению.
-- [Планирование виртуальной сети.](/azure/virtual-network/virtual-network-vnet-plan-design-arm?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Спланируйте виртуальные сети с учетом требований к изоляции, подключению и расположению.
-- [Рекомендации по защите сети.](/azure/security/fundamentals/network-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Ознакомьтесь с рекомендациями по устранению общих проблем с защитой сети с помощью встроенных возможностей Azure.
+- [Планирование виртуальной сети.](/azure/virtual-network/virtual-network-vnet-plan-design-arm?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Спланируйте виртуальные сети с учетом требований к изоляции, подключению и расположению.
+- [Рекомендации по защите сети.](/azure/security/fundamentals/network-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Ознакомьтесь с рекомендациями по устранению общих проблем с защитой сети с помощью встроенных возможностей Azure.
 - [Сети периметра.](./perimeter-networks.md) Включите безопасное подключение между облачными сетями и локальными или физическими сетями центра обработки данных, а также двухсторонний обмен данными с Интернетом.
 - [Звездообразная топология сети](./hub-spoke-network-topology.md). Эффективно управляйте общими требованиями к обмену данными или безопасности для сложных рабочих нагрузок и устраняйте возможные ограничения, связанные с использованием подписок.
 
@@ -43,26 +43,26 @@ ms.locfileid: "88574556"
 
 Проектируйте инфраструктуру управления удостоверениями и доступом, чтобы оптимизировать работу систем управления и безопасности для рабочих нагрузок.
 
-- [Рекомендации по защите управления удостоверениями и доступом в Azure.](/azure/security/fundamentals/identity-management-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Ознакомьтесь с рекомендациями по управлению удостоверениями и доступом с помощью встроенных возможностей Azure.
+- [Рекомендации по защите управления удостоверениями и доступом в Azure.](/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Ознакомьтесь с рекомендациями по управлению удостоверениями и доступом с помощью встроенных возможностей Azure.
 - [Рекомендации по управлению доступом на основе ролей.](../considerations/roles.md) Включите избирательное управление доступом и управление доступом на основе групп для ресурсов, связанных с ролями пользователей.
-- [Защита привилегированного доступа для гибридных и облачных развертываний в Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-admin-roles-secure?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Убедитесь, что корпоративные учетные записи административного доступа и привилегированные учетные записи защищены в пределах облачной и локальной сред.
+- [Защита привилегированного доступа для гибридных и облачных развертываний в Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-admin-roles-secure?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Убедитесь, что корпоративные учетные записи административного доступа и привилегированные учетные записи защищены в пределах облачной и локальной сред.
 
 ## <a name="storage"></a>Память
 
 - [Рекомендации по выбору службы хранилища Azure.](../considerations/storage-options.md) Выберите оптимальное решение службы хранилища Azure в соответствии с вашими сценариями использования.
-- [Руководство по защите службы хранилища Azure.](/azure/storage/blobs/security-recommendations?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Узнайте о функциях системы безопасности службы хранилища Azure.
+- [Руководство по защите службы хранилища Azure.](/azure/storage/blobs/security-recommendations?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Узнайте о функциях системы безопасности службы хранилища Azure.
 
 ## <a name="databases"></a>Базы данных
 
-- [Выбор оптимального варианта SQL Server в Azure.](/azure/sql-database/sql-database-paas-vs-sql-server-iaas?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Выберите решение PaaS или IaaS, которое наилучшим образом подходит для ваших рабочих нагрузок SQL Server.
-- [Рекомендации по защите базы данных.](/azure/security/azure-database-security-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Ознакомьтесь с рекомендациями по защите базы данных в Azure.
+- [Выбор оптимального варианта SQL Server в Azure.](/azure/sql-database/sql-database-paas-vs-sql-server-iaas?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Выберите решение PaaS или IaaS, которое наилучшим образом подходит для ваших рабочих нагрузок SQL Server.
+- [Рекомендации по защите базы данных.](/azure/security/azure-database-security-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Ознакомьтесь с рекомендациями по защите базы данных в Azure.
 - [Выбор подходящего хранилища данных](/azure/architecture/guide/technology-choices/data-store-overview). Выберите хранилище данных в соответствии со своими требованиями. В базах данных SQL и NoSQL доступны сотни вариантов реализации. Хранилища данных обычно различают по методам структурирования данных и типам поддерживаемых операций. В этой статье описаны некоторые распространенные модели хранилища.
 
 ## <a name="cost-management"></a>управления затратами;
 
 - [Отслеживание затрат в бизнес-подразделениях, средах и проектах.](./track-costs.md) Ознакомьтесь с рекомендациями по созданию оптимальных механизмов отслеживания затрат.
-- [Оптимизация инвестиций в облако с помощью Управления затратами и выставления счетов Azure.](/azure/cost-management-billing/costs/cost-mgt-best-practices?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Реализуйте стратегию по управлению затратами и узнайте об инструментах для решения сопутствующих задач.
-- [Создание бюджетов и управление ими.](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Узнайте, как создавать бюджеты и управлять ими с помощью Управления затратами и выставления счетов Azure.
-- [Экспорт данных о затратах.](/azure/cost-management-billing/costs/tutorial-export-acm-data?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Узнайте, как экспортировать данные о затратах с помощью Управления затратами и выставления счетов Azure.
-- [Оптимизация затрат на основе рекомендаций.](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Узнайте, как определять малоиспользуемые ресурсы и сокращать затраты с помощью Управления затратами и выставления счетов Azure, а также Помощника по Azure.
-- [Использование оповещений о затратах для мониторинга потребления и расходов.](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) Узнайте, как использовать оповещения Управления затратами и выставления счетов Azure для отслеживания потребления и расходов в Azure.
+- [Оптимизация инвестиций в облако с помощью Управления затратами и выставления счетов Azure.](/azure/cost-management-billing/costs/cost-mgt-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Реализуйте стратегию по управлению затратами и узнайте об инструментах для решения сопутствующих задач.
+- [Создание бюджетов и управление ими.](/azure/cost-management-billing/costs/tutorial-acm-create-budgets?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Узнайте, как создавать бюджеты и управлять ими с помощью Управления затратами и выставления счетов Azure.
+- [Экспорт данных о затратах.](/azure/cost-management-billing/costs/tutorial-export-acm-data?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Узнайте, как экспортировать данные о затратах с помощью Управления затратами и выставления счетов Azure.
+- [Оптимизация затрат на основе рекомендаций.](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Узнайте, как определять малоиспользуемые ресурсы и сокращать затраты с помощью Управления затратами и выставления счетов Azure, а также Помощника по Azure.
+- [Использование оповещений о затратах для мониторинга потребления и расходов.](/azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Узнайте, как использовать оповещения Управления затратами и выставления счетов Azure для отслеживания потребления и расходов в Azure.
