@@ -411,6 +411,24 @@ items:
                     href: migrate/azure-best-practices/contoso-migration-rehost-linux-vm.md
                   - name: Повторное размещение локального приложения Linux на виртуальных машинах Azure и в Базе данных Azure для MySQL
                     href: migrate/azure-best-practices/contoso-migration-rehost-linux-vm-mysql.md
+              - name: Платформы с открытым кодом
+                items:
+                  - name: Перенос Moodle
+                    items:
+                      - name: Обзор
+                        href: scenarios/lamp/moodle/index.md
+                      - name: Предварительные требования
+                        href: scenarios/lamp/moodle/migration-pre.md
+                      - name: Архитектура и шаблон
+                        href: scenarios/lamp/moodle/migration-arch.md
+                      - name: Описание ресурса
+                        href: scenarios/lamp/moodle/migration-resources.md
+                      - name: Этапы миграции
+                        href: scenarios/lamp/moodle/migration-start.md
+                      - name: Конфигурация инфраструктуры Azure
+                        href: scenarios/lamp/moodle/azure-infra-config.md
+                      - name: Действия после миграции
+                        href: scenarios/lamp/moodle/migration-post.md
               - name: Рабочие нагрузки разработки и тестирования
                 items:
                   - name: Перенос сред разработки и тестирования в Azure IaaS
