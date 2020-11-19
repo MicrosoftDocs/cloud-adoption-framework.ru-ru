@@ -1109,7 +1109,7 @@ items:
                     href: innovate/best-practices/predict.md
                   - name: Машинное обучение
                     items:
-                      - name: Что такое Машинное обучение
+                      - name: Что такое машинное обучение?
                         href: innovate\best-practices\machine-learning.md
                       - name: Рабочий процесс Машинного обучения Azure
                         href: /azure/machine-learning/concept-azure-machine-learning-architecture?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
@@ -1125,7 +1125,7 @@ items:
                         href: innovate\best-practices\conversational-ai.md
                   - name: Интеллектуальный анализ знаний
                     items:
-                      - name: Что такое Когнитивный поиск Azure
+                      - name: Что такое когнитивный поиск Azure?
                         href: innovate\best-practices\cognitive-search.md
           - name: Улучшение процессов
             items:
