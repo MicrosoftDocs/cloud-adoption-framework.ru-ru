@@ -7,12 +7,12 @@ ms.date: 10/05/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 1c59389754f8c109158ca8ac6aca54fe8cd92a1a
-ms.sourcegitcommit: d81a822575820115d9814b0fc6c05ae33e535825
+ms.openlocfilehash: 8163ef4e1b857281ae853e7b7d3de9db745e858e
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/14/2020
-ms.locfileid: "92058773"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94879384"
 ---
 # <a name="cloud-monitoring-guide-introduction"></a>Руководство по облачному мониторингу: Введение
 
@@ -36,7 +36,7 @@ ms.locfileid: "92058773"
 
 Это не практическое руководство по использованию или настройке отдельных служб и решений Azure, но при необходимости или доступности здесь будут представлены ссылки на такие источники. Прочтя его, вы узнаете, как успешно выполнить рабочую нагрузку с помощью рекомендуемых приемов и шаблонов.
 
-Если вы не знакомы с Azure Monitor и System Center Operations Manager, хотите получить более полное представление о том, что делает эти решения уникальными, а также сравнить их, ознакомьтесь с [обзором наших платформ мониторинга](./platform-overview.md).
+Если вы не работали с Azure Monitor и System Center Operations Manager и хотите получить более полное представление о том, что делает эти решения уникальными и чем они отличаются, см. [обзор наших платформ мониторинга](./platform-overview.md).
 
 ## <a name="audience"></a>Аудитория
 

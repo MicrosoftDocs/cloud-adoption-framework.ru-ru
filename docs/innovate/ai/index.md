@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: b138145f7cc513d3d039438a5a4318c19c30d7b4
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 75e2e1cd11f41f44cdb2327f3ce9022c0e642888
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604629"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94881016"
 ---
 <!-- docutune:casing InterpretML FairLearn -->
 
@@ -26,7 +26,7 @@ ms.locfileid: "89604629"
 
 Для подготовки к этому этапу внедрения облачных технологий используйте следующие упражнения.
 
-- [Разработка и развертывание модели Машинного обучения, а также управление ею.](https://azure.microsoft.com/overview/ai-platform/dev-resources/) Изучите шаблоны и методики создания собственных моделей машинного обучения, включая MLOps, автоматизированное машинное обучение (AutoML) и средства ответственного использования ML, такие как InterpretML и FairLearn.
+- [Разработка и развертывание модели Машинного обучения, а также управление ею.](https://azure.microsoft.com/overview/ai-platform/dev-resources/) Изучите шаблоны и методики создания собственных моделей машинного обучения, включая операции машинного обучения (MLOps), автоматизированное машинное обучение (AutoML) и средства ответственного использования ML, такие как InterpretML и FairLearn.
 - [Добавление в приложения ориентированных на предметную область моделей ИИ.](https://www.oreilly.com/library/view/building-intelligent-apps/9781492058632/) Получите рекомендации по добавлению в приложения возможностей ИИ с использованием Cognitive Services. А также узнайте о ключевых сценариях, в которых полезны эти службы.
 - [Создание собственного решения ИИ для общения.](https://www.oreilly.com/library/view/a-developers-guide/9781492080619/) Узнайте, как создать собственный виртуальный помощник — приложение ИИ, которое может понимать язык и речь, воспринимать большие объемы информации и интеллектуально отвечать на запросы.
 - [Создание решений для интеллектуального анализа знаний на основе ИИ.](https://azure.microsoft.com/resources/a-developers-guide-to-building-ai-driven-knowledge-mining-solutions/) Узнайте, как использовать интеллектуальный анализ данных для извлечения структурированных данных из неструктурированного содержимого, и обеспечьте получение практических полезных сведений на основе данных своей организации.
