@@ -1,6 +1,6 @@
 ---
 title: Общие сведения о функциях Центральной ИТ-группы
-description: Изучите функции центральной ИТ, включая источник, область, конечные результаты и риски.
+description: Изучите функцию Центральной ИТ-группы, включая источник, область, конечные результаты и риски.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 05/15/2020
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: d83840a99d0a772ae449b5ae345cbdcb077a94a6
-ms.sourcegitcommit: 9b183014c7a6faffac0a1b48fdd321d9bbe640be
+ms.openlocfilehash: 5581d543c2bd48575b1c73bc50d5f8272ebd5926
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/19/2020
-ms.locfileid: "85074756"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94995675"
 ---
 # <a name="central-it-team-functions"></a>Централизованные ИТ команды ИТ
 
@@ -48,7 +48,7 @@ ms.locfileid: "85074756"
 
 ### <a name="strategic-tasks"></a>Стратегические задачи
 
-- Эксперт
+- Обзор.
   - [Результаты бизнеса](../strategy/business-outcomes/index.md).
   - [Финансовые модели](../strategy/financial-models.md).
   - [Мотивации для внедрения в облако](../strategy/motivations.md).
@@ -115,7 +115,7 @@ ms.locfileid: "85074756"
 
 - По мере того, как ИТ-группа поработает с облачными возможностями, следующий этап погашения обычно является слабой присоединением облачных операций. Доступность собственных средств управления операциями в облаке и снижение эксплуатационных расходов на решения PaaS, как правило, приводят к бизнес-группам (или, точнее, DevOpsным командам в организации), предполагая ответственность за облачные операции.
 
-См. также:
+Дополнительные сведения:
 
 - [Создание группы облачных операций](../get-started/team/cloud-operations.md)
 - [Функции облачных операций](./cloud-operations.md)

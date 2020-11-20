@@ -7,12 +7,12 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: dd16185c53aaa678f885508e47ef897118a5d7f3
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 1aeb06a9e103365ad5cbcfd9e23055fa47f00eb7
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89605186"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94994791"
 ---
 <!-- cSpell:ignore eastasia southeastasia vCPUs lalogs tfvars NetworkMonitoring ADAssessment ADReplication AgentHealthAssessment DnsAnalytics KeyVaultAnalytics -->
 
@@ -34,6 +34,8 @@ Azure предоставляет собственные службы для ра
 
 ![Базовая Целевая зона с использованием terraform ](../../_images/ready/foundations-terraform-landing-zone.png)
  _рис. 1. Базовая зона с использованием terraform._
+
+<!-- docutune:casing NetworkMonitoring AdAssessment AdReplication AgentHealthAssessment DnsAnalytics KeyVaultAnalytics -->
 
 ## <a name="capabilities"></a>Характеристики
 
@@ -78,7 +80,7 @@ Azure предоставляет собственные службы для ра
 | Данные                   | Н/Д                                                                                                                                                                                                                                                                      | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview) |
 | Память                | Н/Д                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
 | Стандарты именования       | При создании среды также создается уникальный префикс. Для ресурсов, которым требуется глобально уникальное имя (например, учетные записи хранения), используйте этот префикс. Пользовательское имя добавляется с помощью случайного суффикса. Использование тегов обязательно, как описано в следующей таблице. | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                              |
-| управления затратами        | Н/Д                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
+| управления затратами;        | Н/Д                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
 | Службы вычислений                | Н/Д                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
 
 ### <a name="tagging-standards"></a>Стандарты тегов
@@ -149,7 +151,7 @@ tags_hub = {
 }
 ```
 
-Затем мы указываем имя Log Analytics и набор решений для анализа развертывания. Здесь мы сохранили мониторинг сети, Active Directory оценку и репликацию, аналитику DNS и аналитику Key Vault.
+Затем мы указываем имя Log Analytics и набор решений для анализа развертывания. Здесь мы сохранили мониторинг сети, Active Directory оценку и репликацию, Аналитика DNS и аналитику Key Vault.
 
 ```hcl
 

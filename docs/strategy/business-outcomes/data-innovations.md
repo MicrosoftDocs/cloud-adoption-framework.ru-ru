@@ -7,12 +7,12 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 1f7c4c88aa2daf333bbed336e00b428375553129
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: 3a12bf2ff26ff28ff7c561badba702bdc064e23d
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90774159"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94996950"
 ---
 # <a name="data-innovations"></a>Инновации в данных
 

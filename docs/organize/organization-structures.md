@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: organize
-ms.openlocfilehash: a370a4aa58c176ccb1dc58a777a10f2f91ca7370
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 31aeba36eaedef0956aacd21647c518afc1b6222
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884935"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94995488"
 ---
 # <a name="mature-team-structures"></a>Развитые структуры команды
 
@@ -40,7 +40,7 @@ ms.locfileid: "88884935"
 5. [Оперативное выравнивание](#operational-alignment)
 6. [Cloud Center (Ккое)](#cloud-center-of-excellence)
 
-Большинство компаний начинают с малой, чем *Группа внедрения в облако*. Но рекомендуется создать организационную структуру, которая более похожа на структуру [лучших рекомендаций MVP](#best-practice-minimum-viable-product-mvp) .
+Большинство компаний начинают с малой, чем _Группа внедрения в облако_. Но рекомендуется создать организационную структуру, которая более похожа на структуру [лучших рекомендаций MVP](#best-practice-minimum-viable-product-mvp) .
 
 ## <a name="cloud-adoption-team-only"></a>Только группа внедрения в облако
 

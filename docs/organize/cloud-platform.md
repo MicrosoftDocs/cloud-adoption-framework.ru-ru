@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: f6fafc8ed679ae068fd24d0897d4983dad06ae97
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: b6853bc98a2211496fba3bade2f04012e29ae78f
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88570000"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94995607"
 ---
 # <a name="cloud-platform-functions"></a>Функции облачной платформы
 

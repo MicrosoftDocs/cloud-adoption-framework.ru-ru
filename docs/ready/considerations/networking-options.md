@@ -7,12 +7,12 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 6895f8a68b76c378bec14b49896dec8bd0320ca8
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: eb7c57457ed49ff31cca71127fb1f27bde2046a0
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713825"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94995046"
 ---
 <!-- cSpell:ignore NVAs VPNs -->
 
@@ -42,7 +42,7 @@ ms.locfileid: "94713825"
   - [Сетевые устройства](https://azure.microsoft.com/solutions/network-appliances)
   - [Azure Front Door](/azure/frontdoor/front-door-overview)
   - [Шлюз приложений Azure](/azure/application-gateway)
-  - [Диспетчер трафика Azure](/azure/traffic-manager/traffic-manager-overview)
+  - [Azure Traffic Manager](/azure/traffic-manager/traffic-manager-overview)
 - **Потребуется ли поддержка настраиваемого управления DNS?** [Azure DNS](/azure/dns/dns-overview) — это служба размещения для доменов DNS. Azure DNS обеспечивает разрешение имен с помощью инфраструктуры Azure. Если для ваших рабочих нагрузок требует разрешение имен, которое выходит за рамки возможностей, предоставленных Azure DNS, может понадобиться развернуть дополнительные решения. Если для ваших рабочих нагрузок также требуются службы Active Directory, рекомендуем использовать [Доменные службы Azure Active Directory](/azure/active-directory-domain-services/overview), чтобы расширить возможности Azure DNS. Чтобы получить дополнительные возможности, вы также можете [развертывать настаиваемые виртуальные машины IaaS](/azure/virtual-network/virtual-networks-name-resolution-for-vms-and-role-instances) для поддержки своих требований.
 
 ## <a name="common-networking-scenarios"></a>Распространенные сетевые сценарии
@@ -58,7 +58,7 @@ ms.locfileid: "94713825"
 | Мне нужно обеспечить сверхбыстрые DNS-ответы и сверхвысокую доступность для всех потребностей домена. | [Azure DNS](/azure/dns) |
 | Мне нужно ускорить доставку содержимого, передаваемого по каналам с высокой пропускной способностью, — от приложений и сохраненного содержимого до потокового видео — клиентам со всего мира. | [Сеть доставки содержимого (CDN) Azure](/azure/cdn) |
 | Мне нужно защитить приложения Azure от DDoS-атак. | [Защита от атак DDoS Azure](/azure/virtual-network/ddos-protection-overview) |
-| Мне нужно оптимально распределять трафик между службами в регионах Azure по всему миру, обеспечивая при этом высокую доступность и быстроту отклика. | [Диспетчер трафика Azure](/azure/traffic-manager) <br><br> [Azure Front Door](/azure/frontdoor) |
+| Мне нужно оптимально распределять трафик между службами в регионах Azure по всему миру, обеспечивая при этом высокую доступность и быстроту отклика. | [Azure Traffic Manager](/azure/traffic-manager) <br><br> [Azure Front Door](/azure/frontdoor) |
 | Мне нужна возможность добавления частных сетевых подключений для доступа к облачным службам Майкрософт из корпоративных сетей, как если бы они находились в моем центре обработки данных. | [Azure ExpressRoute](/azure/expressroute) |
 | Мне нужно отслеживать и диагностировать условия на уровне сетевого сценария. | [Наблюдатель за сетями Azure](/azure/network-watcher) |
 | Мне нужны возможности собственного брандмауэра со встроенной высокой доступностью, неограниченной масштабируемостью облака и отсутствием обслуживания. | [Брандмауэр Azure](/azure/firewall/overview) |

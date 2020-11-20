@@ -7,14 +7,14 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 373e9b9d6a64e43beb44860507db4b877e165651
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: 2d654227b90ecfb08c9b0451e59de32128e0061d
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90776369"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94995505"
 ---
-<!-- docutune:casing "Cyber Defense Operations Center" -->
+<!-- docutune:casing CDOC "Cyber Defense Operations Center" -->
 <!-- cSpell:ignore CISO MTTA MTTR SIEM NIST SOCs CDOC -->
 
 # <a name="cloud-soc-functions"></a>Облачные функции SOC

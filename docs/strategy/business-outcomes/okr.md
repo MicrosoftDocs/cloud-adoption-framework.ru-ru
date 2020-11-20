@@ -7,14 +7,14 @@ ms.date: 10/21/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 92e193bd14969ad45cb717f22a5ffd10a5dca661
-ms.sourcegitcommit: 03f2c9cffc25690dcc5f8215f894e898d0f4ad0e
+ms.openlocfilehash: c40ffd25ef19d25ee1436090b0053e0f02257359
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93352103"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94996899"
 ---
-<!--docutune:casing WorkBoard -->
+<!-- docutune:casing WorkBoard -->
 
 # <a name="measure-business-outcomes-using-objectives-and-key-results-okrs"></a>Оценка результатов бизнеса с помощью целей и ключевых результатов (Окрс)
 
@@ -102,7 +102,7 @@ _Рис. 1. Окрс увеличение выравнивания и отчет
 
 **Шаг 5. Улучшение:** Продолжайте совершенствовать, переключайтесь и передумаете, как подключиться дальше по всей Организации. Окрс в электронных таблицах может быть полезным, но Организация может получить больше преимуществ от всех сотрудников, участвующих в удовлетворении целей, и получать ценные сведения из соответствующих данных.
 
-Чтобы приступить к работе, обратитесь в [воркбоард](https://appsource.microsoft.com/en-us/marketplace/co-sell/SOL-31525-NGJ?debug=true%2F%3FignoreAutoSignIn%3Dtrue&tab=Overview) .
+Чтобы приступить к работе, обратитесь в [воркбоард](https://appsource.microsoft.com/en-us/marketplace/co-sell/SOL-31525-NGJ) .
 
 > [!div class="nextstepaction"]
 > [Выровняйте усилия по обучению метрик](../learning-metrics.md)

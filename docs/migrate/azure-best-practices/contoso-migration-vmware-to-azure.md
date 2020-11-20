@@ -7,12 +7,12 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f68fe3adc1807926ab97ebbcf0b47f5eab960f8f
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 4c2e35b3401d4a4eaeb534befee9e33c4b1a83df
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713300"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94996424"
 ---
 <!-- docutune:casing "HCX Bulk Migration" "HCX Cold Migration" -->
 
@@ -155,7 +155,7 @@ Contoso потребуется спланировать схему IP-адрес
 
     ![Снимок экрана портал Azure панели для создания частного облака решения Azure VMware.](./media/contoso-migration-vmware-to-azure/create-private-cloud.png)
 
-1. Команда проверяет, завершено ли развертывание частного облака решения VMware Azure, перейдя к группе ресурсов и выбрав ресурс частного облака. Состояние отображается как " *успех*".
+1. Команда проверяет, завершено ли развертывание частного облака решения VMware Azure, перейдя к группе ресурсов и выбрав ресурс частного облака. Состояние отображается как " **успех**".
 
     ![Снимок экрана со страницей частного облака Contoso Azure VMware, показывающая, что развертывание прошло успешно.](./media/contoso-migration-vmware-to-azure/validate-deployment.png)
 
@@ -168,7 +168,7 @@ Contoso потребуется спланировать схему IP-адрес
 1. Группа Contoso сначала создает виртуальную сеть с подсетью шлюза.
 
     > [!IMPORTANT]
-    > Группа должна использовать адресное пространство, которое *не* пересекается с адресным пространством, которое использовалось при создании частного облака.
+    > Группа должна использовать адресное пространство, которое _не_ пересекается с адресным пространством, которое использовалось при создании частного облака.
 
 1. Группа создает VPN-шлюз ExpressRoute, выберет правильный номер SKU, а затем нажмите кнопку Обзор и **Создание**.
 

@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 6a0090cee1237753748d1351109a0826168ed5e3
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.openlocfilehash: 7be2796c2c8033b92e47578eed30611f596df094
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194873"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94995573"
 ---
 # <a name="function-of-cloud-data-security"></a>Функции Cloud Data Security
 
@@ -24,7 +24,7 @@ ms.locfileid: "86194873"
 
 - **Растянутость данных:** Конфиденциальные данные создаются и хранятся практически в неограниченном спектре устройств и облачных служб, в которых люди творчески работают.
 - **Новая модель:** Облако позволяет новым моделям "телефон дома для ключа" дополнять и заменять классические модели защиты от потери данных (DLP), "перехватывать их с конца".
-- **Нормативам** , таким как общие требования к защите данных (GDPR), требуется, чтобы организации тесно отправили частные данные и как приложения используют их.
+- Такие **нормативы** , как общий регламент по защите данных (GDPR), требуют, чтобы организации тесно отправили частные данные и как приложения используют их.
 
 ## <a name="team-composition-and-key-relationships"></a>Компоновка команды и основные связи
 

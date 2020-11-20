@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 05/15/2020
-ms.openlocfilehash: 710c9d844ab9e3e3bfd7287dc26d61160be3e161
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: e4b5a3d16c1515e123146c46c199134222795a11
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88570119"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94995624"
 ---
 # <a name="cloud-migration-functions"></a>Облачные функции миграции
 

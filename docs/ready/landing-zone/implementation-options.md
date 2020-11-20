@@ -7,12 +7,12 @@ ms.date: 07/07/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 14cd74e53a0b007c59b26abe4044111ee2add7d5
-ms.sourcegitcommit: 1b28a7c6e966c6e0b69304ebb4b11d218c1891e5
+ms.openlocfilehash: 980d714bc5394161dd064032fae4b3fa6ea579d6
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "92253384"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94997120"
 ---
 # <a name="landing-zone-implementation-options"></a>Параметры реализации зоны размещения
 
@@ -36,19 +36,19 @@ ms.locfileid: "92253384"
 |---|---|---|---|---|
 | [Схема зоны размещения для миграции в соответствии с CAF](./migrate-landing-zone.md) | Развертывает базовую основу для переноса ресурсов с низким риском. | Запустить мелкий | [Принципы проектирования](./migrate-landing-zone.md#design-principles) | [Развертывание](./migrate-landing-zone.md) |
 | [Схема CAF Foundation](./foundation-blueprint.md) | Добавляет минимальные инструменты, необходимые для разработки стратегии управления. | Запустить мелкий | [Принципы проектирования](./foundation-blueprint.md#design-principles) | [Развертывание](./foundation-blueprint.md) |
-| [КАФ Главная зона корпоративного уровня (гибридное подключение с Вван)](../enterprise-scale/index.md) | Развертывает готовую к работе платформу Platform Foundation со всеми необходимыми общими службами для поддержки полного портфеля ИТ-среды, включая гибридное подключение (ВВАН). | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) |
-| [КАФ Корпоративная зона корпоративного уровня (гибридное подключение с концентратором & периферийной)](../enterprise-scale/index.md) | Развертывает готовую к использованию платформу Platform Foundation со всеми необходимыми общими службами для поддержки полноценного ИТ-портфеля, включая гибридное подключение (Hub & периферийной). | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/adventureworks/README.md) |
+| [КАФ Целевая зона корпоративного уровня (гибридное подключение с виртуальной глобальной сетью)](../enterprise-scale/index.md) | Развертывает готовую к использованию платформу Platform Foundation со всеми необходимыми общими службами для поддержки полного портфеля ИТ-среды, включая гибридное подключение (виртуальная сеть WAN). | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) |
+| [КАФ зона корпоративного уровня (гибридное подключение с помощью концентратора и периферийных серверов)](../enterprise-scale/index.md) | Развертывает готовую к использованию платформу Platform Foundation со всеми необходимыми общими службами для поддержки полноценного портфеля ИТ-среды, включая гибридное подключение (HUB и периферийные). | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/adventureworks/README.md) |
 | [Целевая зона CAF корпоративного уровня](../enterprise-scale/index.md) | Развертывает готовую к работе платформу Platform Foundation со всеми необходимыми общими службами для поддержки полного портфеля ИТ-среды, когда подключение может быть добавлено позже по мере необходимости. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/wingtip/README.md) |
 | [Модули CAF Terraform](./terraform-landing-zone.md) | Сторонний путь для многооблачных операционных моделей. Этот путь может ограничивать операционные модели на основе Azure. | Запустить мелкий | [Принципы проектирования](./terraform-landing-zone.md#design-decisions) | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
-| [Целевые зоны партнеров](./partner-landing-zone.md) | Партнеры, предоставляющие предложения, согласованные с методологией готовности инфраструктуры внедрения облачных решений, могут предоставить собственные параметры реализации. | Переменная | [Принципы проектирования](./partner-landing-zone.md) | [Поиск партнера](https://www.microsoft.com/azure/partners/adopt?filters=ready) |
+| [Целевые зоны партнеров](./partner-landing-zone.md) | Партнеры, предоставляющие предложения, согласованные с методологией готовности инфраструктуры внедрения облачных решений, могут предоставить собственные параметры реализации. | Переменная | [Принципы проектирования](./partner-landing-zone.md) | [Найти партнера](https://www.microsoft.com/azure/partners/adopt?filters=ready) |
 
 В приведенной ниже таблице рассматриваются некоторые из этих вариантов реализации с некоторой другой точки зрения, которые помогут вам в решении технических процессов принятия решений.
 
 | Параметр реализации | Концентратор | Звездообразная | Технология развертывания | Инструкции по развертыванию |
 |---|---|---|---|---|
 | [Инфраструктура внедрения в облаке корпоративный масштаб корпоративного уровня](../enterprise-scale/index.md) | Включено  | Включено | Шаблоны Azure Resource Manager, портал Azure, политика Azure и GitHub | [Развертывание](../enterprise-scale/implementation-guidelines.md) |
-| [Схема целевой зоны миграции инфраструктуры внедрения в облако](./migrate-landing-zone.md) | Требуется рефакторинг | Включено | Шаблоны Azure Resource Manager, портал Azure и проекты Azure | [Развертывание](./migrate-landing-zone.md) |
-| [Модули terraform облачной инфраструктуры внедрения](./terraform-landing-zone.md)  | Входит в модуль виртуального центра обработки данных | Включено | Terraform | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
+| [Схема зоны размещения для миграции в соответствии с CAF](./migrate-landing-zone.md) | Требуется рефакторинг | Включено | Шаблоны Azure Resource Manager, портал Azure и проекты Azure | [Развертывание](./migrate-landing-zone.md) |
+| [Модули CAF Terraform](./terraform-landing-zone.md)  | Входит в модуль виртуального центра обработки данных | Включено | Terraform | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

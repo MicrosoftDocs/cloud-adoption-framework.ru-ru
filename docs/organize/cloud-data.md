@@ -7,12 +7,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.topic: conceptual
 ms.date: 07/14/2020
-ms.openlocfilehash: 1ded8b088d866bcb8d00f14dbe6286266313f63e
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: a0231d05fdb05a89499f253fa4564faf286ca1ef
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712329"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94995658"
 ---
 # <a name="cloud-data-functions"></a>Облачные функции обработки данных
 

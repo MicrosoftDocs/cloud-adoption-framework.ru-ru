@@ -7,15 +7,14 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 76edfc3f78c5f1a42306d761a82ea82f30dcf015
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.openlocfilehash: abc4971315dc590d267265755538d21e1acff7bf
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90774380"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94996661"
 ---
 <!-- cSpell:ignore Eason -->
-
 <!-- docutune:casing "Eason Matrix" -->
 
 # <a name="business-change-plan"></a>Изменение бизнес-плана

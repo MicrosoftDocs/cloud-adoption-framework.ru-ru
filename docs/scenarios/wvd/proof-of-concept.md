@@ -7,12 +7,12 @@ ms.date: 07/17/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4b88bd7d9954b332b3881e06afc95ab8406bbe6b
-ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
+ms.openlocfilehash: d43eafcc0ce5a0d85488c38e31b79c48d74de613
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91108287"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94997001"
 ---
 <!-- cSpell:ignore FSLogix onboards remoteapp macos -->
 
@@ -40,7 +40,7 @@ ms.locfileid: "91108287"
 - Все пользователи могут использовать &nbsp; многосеансовый образ Windows 10 Enterprise из Azure Marketplace.
 - Все профили пользователей будут перенесены в файлы Azure, Azure NetApp Files или службу хранилища на основе виртуальной машины для контейнеров профилей Фслогикс.
 - Все пользователи могут быть описаны обычным пользователем с плотностью шести пользователей на виртуальный центральный процессор (виртуальных ЦП) и 4 &nbsp; гигабайт (ГБ) ОЗУ в [соответствии с рекомендациями по размерам виртуальных машин](/windows-server/remote/remote-desktop-services/virtual-machine-recs#multi-session-recommendations).
-- Все рабочие нагрузки совместимы с &nbsp; несколькими сеансами Windows 10.
+- Все рабочие нагрузки совместимы с &nbsp; многосеансовой поддержкой Windows 10 Корпоративная.
 - Задержка между виртуальными рабочими столами и группами приложений приемлема для использования в рабочей среде.
 
 Чтобы рассчитать стоимость сценария виртуальных рабочих столов Windows на основе справочника по конфигурации для подтверждения концепции, Группа использует калькулятор цен для [восточной части США](https://azure.com/e/448606254c9a44f88798892bb8e0ef3c), [Западной Европы](https://azure.com/e/61a376d5f5a641e8ac31d1884ade9e55)или [Юго-Восточной Азии](https://azure.com/e/7cf555068922461587d0aa99a476f926).

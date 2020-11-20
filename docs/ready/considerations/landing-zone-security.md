@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 2aa6cd6c81dfa7f4d6719851622c75ab462031f4
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 8640ea8c6e9e346502382c329f506ab5b933b609
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713842"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94997239"
 ---
 # <a name="improve-landing-zone-security"></a>Повышение безопасности целевых зон
 
@@ -20,7 +20,7 @@ ms.locfileid: "94713842"
 
 ## <a name="landing-zone-security-best-practices"></a>Рекомендации по обеспечению безопасности зоны размещения
 
-В следующем списке эталонных архитектур и рекомендаций приведены примеры способов улучшения безопасности размещения.
+В следующем списке эталонных архитектур и рекомендаций приведены примеры способов улучшения безопасности зоны размещения.
 
 - [Центр безопасности Azure](/azure/security-center/security-center-get-started?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json): подключение подписки к центру безопасности.
 - [Azure Sentinel](/azure/sentinel/quickstart-onboard?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json). Подключите метку Azure, чтобы предоставить решение для **управления событиями сведений о безопасности (SIEM)** и **автоматизированного реагирования на системы безопасности (взлетел)** .
@@ -37,7 +37,7 @@ ms.locfileid: "94713842"
 
 ![Процесс разработки на основе тестирования для облачных целевых зон](../../_images/ready/test-driven-development-process.png)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [улучшить операции размещения зоны](./landing-zone-operations.md) для поддержки важных приложений.
 

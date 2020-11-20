@@ -7,12 +7,12 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: e22f93f7a375431684002904ade30982ab460b23
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 2f5c389180909031b002f836d83489411ac13b1e
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713774"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94994468"
 ---
 <!-- docutune:casing IR -->
 
@@ -54,7 +54,7 @@ ms.locfileid: "94713774"
 **Процесс**
 
 3. [Назначьте ответственность за принятие решений по безопасности в облаке](../security/security-top-10.md#3-process-assign-accountability-for-cloud-security-decisions)
-4. [Обновление процессов реагирования на инциденты (IR) для облака](../security/security-top-10.md#4-process-update-incident-response-ir-processes-for-cloud)
+4. [Обновление процессов реагирования на инциденты для облака](../security/security-top-10.md#4-process-update-incident-response-processes-for-cloud)
 5. [Создание управления уровнями безопасности](../security/security-top-10.md#5-process-establish-security-posture-management)
 
 **Компьютеров**
@@ -299,7 +299,7 @@ ms.locfileid: "94713774"
 | --- | --- |
 | <li> Группа по системе управления облаком | <li> Группа по облачной стратегии <li> Группа Cloud Security <li> Облачный центр для ИТ и специалистов по ИТ |
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Действия, описанные в этом руководстве, помогли вам реализовать стратегию, элементы управления, процессы, навыки и региональные параметры, необходимые для согласованного управления рисками безопасности на предприятии.
 
