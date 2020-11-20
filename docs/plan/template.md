@@ -7,12 +7,12 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 8c5dd7d7e1b40172c6dc996bc865d72ac532f50c
-ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
+ms.openlocfilehash: 0a4329dbb8c13e4778f791e5055d15d9783d2554
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/16/2020
-ms.locfileid: "90681406"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94997426"
 ---
 # <a name="cloud-adoption-plan-and-azure-devops"></a>План внедрения в облако и Azure DevOps
 
@@ -40,7 +40,7 @@ Azure DevOps — это набор облачных средств для кли
 
 Сведения о подготовке рабочей станции к групповому редактированию см. в разделе [Добавление или изменение рабочих элементов с помощью Microsoft Excel](/azure/devops/boards/backlogs/office/bulk-add-modify-work-items-excel?view=azure-devops).
 
-Некоторые пользователи могут захотеть использовать Project для мониторинга своих задач, создания невыполненной работы и назначения ресурсов. Ниже приведены инструкции по [подключению проекта к Azure DevOps](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project?view=tfs-2018).
+Некоторым пользователям может потребоваться использовать Microsoft Project для трассировки своих задач, создания невыполненной работы и назначения ресурсов. Ниже приведены инструкции по [подключению Microsoft Project к Azure DevOps](/azure/devops/boards/backlogs/office/create-your-backlog-tasks-using-project?view=tfs-2018).
 
 ## <a name="use-the-cloud-adoption-plan"></a>Использование плана внедрения в облако
 
