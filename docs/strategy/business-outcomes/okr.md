@@ -7,12 +7,13 @@ ms.date: 10/21/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: c40ffd25ef19d25ee1436090b0053e0f02257359
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank
+ms.openlocfilehash: 0be8841fb83d2c00fb10a86bb103880ee59b7e7a
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996899"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95447206"
 ---
 <!-- docutune:casing WorkBoard -->
 
@@ -88,7 +89,7 @@ _Рис. 1. Окрс увеличение выравнивания и отчет
 1. Увеличение ставок закрытия для отделов продаж на 5 процентов
 1. Сокращение времени на закрытие сделок на 8 процентов
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Пять шагов помогут вашей организации двигаться вперед с Окрс:
 

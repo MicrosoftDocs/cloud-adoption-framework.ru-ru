@@ -7,12 +7,13 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: bfbc6924d36a4e4b77a7a23902db18826b2a811b
-ms.sourcegitcommit: 5b537035b96ae2b6879a1ea7fd46ceb64626851d
+ms.custom: think-tank
+ms.openlocfilehash: b09e5ca4d5bbe6e2080cc90f5c017858b0fe5fce
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89275354"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95447308"
 ---
 # <a name="enterprise-scale-business-continuity-and-disaster-recovery"></a>Непрерывность бизнес-процессов и аварийное восстановление в масштабах предприятия
 

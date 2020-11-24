@@ -7,12 +7,13 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: a908cdaa72ff857f0e1743100710e83434bcda55
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: think-tank
+ms.openlocfilehash: bfa2d419b2f58eb44c173e55fcb14ec117774b16
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712584"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95446748"
 ---
 # <a name="conversational-ai"></a>Диалоговый ИИ
 

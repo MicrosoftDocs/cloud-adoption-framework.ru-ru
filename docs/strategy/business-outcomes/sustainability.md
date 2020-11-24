@@ -7,12 +7,13 @@ ms.date: 10/21/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 9ac5e6fb4feee132de095c00897397ab0b4140ef
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank
+ms.openlocfilehash: 1e1a9ba6b40baab411c8ddb0d88711c86fb31be3
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94994264"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95447169"
 ---
 <!-- docutune:casing AGL WSP -->
 <!-- cSpell:ignore AGL Bee'ah WSP -->
@@ -44,7 +45,7 @@ ms.locfileid: "94994264"
 
 В этих пользовательских историях показано, как приоритизация и решения на окружающую среду могут помочь организациям в создании новых бизнес-возможностей.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Преднамеренный подход помогает организациям перемещаться по пути устойчивости. Эти четыре шага могут повлиять на результаты вашей компании:
 

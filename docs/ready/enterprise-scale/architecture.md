@@ -7,13 +7,13 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.custom: csu
-ms.openlocfilehash: 46ed186beee5f03e5635c603775ed4b5c7fa28c6
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: csu, think-tank
+ms.openlocfilehash: a86439fe71235542a9e5b8f9ce66a364db5004a7
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995097"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95447342"
 ---
 # <a name="cloud-adoption-framework-enterprise-scale-landing-zone-architecture"></a>Инфраструктура внедрения облачных технологий корпоративного уровня в масштабах предприятия
 
@@ -65,7 +65,7 @@ _Рис. 3. Архитектура облачной инфраструктуры
 
 ![Буква I ](./media/i.png) [платформы Automation и DevOps](platform-automation-and-devops.md). Комплексное DevOpsное взаимодействие с надежными методиками жизненного цикла разработки программного обеспечения должно быть спроектировано, построено и развернуто, чтобы обеспечить надежную, повторяемую и постоянную доставку артефактов с инфраструктурой как кодом. Такие артефакты должны разрабатываться, тестироваться и развертываться с помощью выделенных конвейеров интеграции, выпуска и развертывания с надежной системой управления версиями и трассировкой.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Настройте реализацию этой архитектуры, используя рекомендации по проектированию инфраструктуры корпоративного внедрения в масштабах предприятия.
 

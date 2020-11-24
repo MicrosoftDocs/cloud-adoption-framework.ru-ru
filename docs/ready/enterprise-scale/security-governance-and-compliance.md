@@ -7,12 +7,13 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 9efaabd1044c3752a373bb3829f7c7257aff9690
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank
+ms.openlocfilehash: d05426ff488c726c6f152eb9a8fe6e5e5d1dfbe4
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94994774"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95447123"
 ---
 <!-- cSpell:ignore FIPS SIEM majeure NSGs -->
 <!-- docutune:casing "FIPS 140-2 Level" "Patch and update management" "SOC2 Trust Service Principles and Criteria" -->
@@ -245,7 +246,7 @@ ms.locfileid: "94994774"
 |                              |                                                                       | Выполняется ли шифрование резервных копий с ключами, управляемыми корпорацией Майкрософт, или управляемыми клиентом ключами?                                                                                             |
 |                              | Аварийное восстановление                                                     | Как служба может использоваться в регионально избыточном виде?                                                                                 |
 |                              |                                                                       | Что такое достижимое целевое время восстановления и Целевая точка восстановления?                                                                                                          |
-|                              | SKU                                                                   | Какие номера SKU доступны? И как они отличаются?                                                                                             |
+|                              | Номер SKU                                                                   | Какие номера SKU доступны? И как они отличаются?                                                                                             |
 |                              |                                                                       | Существуют ли функции, связанные с безопасностью SKU уровня "Премиум"?                                                                                  |
 |                              | Управление емкостью                                                   | Как отслеживается емкость?                                                                                                                   |
 |                              |                                                                       | Какова единица горизонтального масштабирования?                                                                                                        |

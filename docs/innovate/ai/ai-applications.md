@@ -7,12 +7,13 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 78232fa1927667a94e8473b540228e348122549e
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: think-tank
+ms.openlocfilehash: a222333c16e29656b3ffb25b0b33a7973b6a29b5
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712550"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95447003"
 ---
 # <a name="ai-applications-and-agents"></a>Приложения и агенты ИИ
 

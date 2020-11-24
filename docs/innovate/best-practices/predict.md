@@ -7,12 +7,13 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 34c23f025cb12564338c2c00a5926c27a54c3a5e
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: think-tank
+ms.openlocfilehash: a8fae313da2a94c56cee2dbf0768422417317a1f
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604504"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95446816"
 ---
 # <a name="use-innovation-tools-to-predict-and-influence"></a>Использование средств внедрения инноваций для прогнозирования и влияния
 

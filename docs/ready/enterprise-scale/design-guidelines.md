@@ -7,12 +7,13 @@ ms.date: 06/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: c3a093d92777f41783cd47478f2a72dc3fa0c2ad
-ms.sourcegitcommit: d31a9043d1ae9283ed126bf118ca26d1d18d6948
+ms.custom: think-tank
+ms.openlocfilehash: e6703dd1eca75a0e08c8c464bfb09bfb659e3640
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/10/2020
-ms.locfileid: "88040887"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95447376"
 ---
 # <a name="cloud-adoption-framework-enterprise-scale-design-guidelines"></a>Рекомендации по проектированию инфраструктуры корпоративного внедрения в масштабах предприятия
 

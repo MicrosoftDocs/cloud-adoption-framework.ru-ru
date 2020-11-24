@@ -1,5 +1,5 @@
 ---
-title: Что собой представляет Когнитивный поиск Azure?
+title: Что такое когнитивный поиск Azure?
 description: Служба Azure Когнитивный поиск, ранее называлась поиском Azure, позволяет применять процессы AI во время индексирования.
 author: v-hanki
 ms.author: janet
@@ -7,19 +7,20 @@ ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 5af45a28a2047d05fa48ca76bbc7468816cfd610
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: think-tank
+ms.openlocfilehash: 88799ab1cadd5274b778f6eef6886b9bdff1778c
+ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604600"
+ms.lasthandoff: 11/23/2020
+ms.locfileid: "95446850"
 ---
 <!-- cSpell:ignore Lucene -->
 
 <!-- docutune:casing "JFK Files" -->
 <!-- docutune:ignore "Azure Search" -->
 
-# <a name="what-is-azure-cognitive-search"></a>Что собой представляет Когнитивный поиск Azure?
+# <a name="what-is-azure-cognitive-search"></a>Что такое когнитивный поиск Azure?
 
 Служба Azure Когнитивный поиск, ранее известная как поиск Azure, — это управляемое облачное решение, которое предоставляет разработчикам API-интерфейсы и средства для добавления расширенных возможностей поиска по закрытому, разнородному содержимому в Интернет, мобильных и корпоративных приложениях. Код или средство вызывает прием данных (индексирование) для создания и загрузки индекса. При необходимости можно добавить когнитивные навыки для применения процессов ИИ во время индексирования. Это позволяет добавлять новые сведения и структуры, которые полезны для поиска и других сценариев.
 
@@ -68,7 +69,7 @@ ms.locfileid: "89604600"
 
 После заполнения индекса можно [выдавать поисковые запросы](/azure/search/search-query-overview) к конечной точке службы с помощью простых HTTP-запросов с [интерфейсами API](/rest/api/searchservice/search-documents) или [пакетом SDK для .NET](/dotnet/api/microsoft.azure.search.idocumentsoperations?view=azure-dotnet). Пошаговое [Создание первого приложения поиска](/azure/search/tutorial-csharp-create-first-app) для создания и расширения веб-страницы, собирающей ввод пользователя и обрабатывающего результаты. Можно также использовать [POST для интерактивных вызовов RESTful](/azure/search/search-get-started-postman) или встроенный [обозреватель поиска](/azure/search/search-explorer) в портал Azure для запроса существующего индекса.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 - Дополнительные сведения об [Azure когнитивный Поиск](/azure/search/).
 - Обзор [архитектур искусственного интеллекта](/azure/architecture/browse/).
