@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 22da52f3cdec09d3337c320875076c579bb5bb61
-ms.sourcegitcommit: 08d6d5bda45814745fc181b0a07bcb8c415bf342
+ms.openlocfilehash: e3f90d704d89bb7d3693738a62515809a234c199
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/14/2020
-ms.locfileid: "86373158"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94996015"
 ---
 # <a name="azure-migration-guide-overview"></a>Обзор руководств по миграции Azure
 
@@ -54,6 +54,8 @@ ms.locfileid: "86373158"
 - В миграции участвует небольшое количество серверов.
 - Вы можете легко определить правила сопоставления зависимостей для переносимых компонентов.
 - Для вашей отрасли применяются минимальные нормативные требования, связанные с миграцией.
+
+<!-- docutune:casing "our Microsoft teams" -->
 
 Если хоть одно из этих условий не соответствует вашему сценарию, см. [рекомендации по миграции в облако](../azure-best-practices/index.md). Мы рекомендуем также обратиться к специалистам корпорации Майкрософт или нашим партнерам за помощью, если вам требуется выполнить более сложную миграцию. Клиенты, взаимодействующие с корпорацией Майкрософт или сертифицированными партнерами, более успешно справляются с такими сценариями. Дополнительные сведения о получении поддержки предоставлены в этом руководстве.
 

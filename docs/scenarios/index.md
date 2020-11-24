@@ -7,19 +7,19 @@ ms.date: 07/21/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: cb923e88d1bcbea21c3e38ecba7d9eda7999eff6
-ms.sourcegitcommit: 670dd77efe02ed20275732248e0fa2aae2196805
+ms.openlocfilehash: 35c87f668a78435f3da3e8212fa829c503dd1c92
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "91621490"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94997069"
 ---
 <!-- docutune:ignore "One Migration" -->
 <!-- cSpell:ignore HANA -->
 
 # <a name="the-one-migration-approach-to-migrating-the-it-portfolio"></a>Универсальная миграция для переноса ИТ-портфеля
 
-Как Azure, так и служба "Миграция Azure" хорошо известны как платформы для размещения технологий Майкрософт. Но вы, возможно, не знаете о том, что Azure поддерживает миграцию, связанную не только с Windows и SQL Server. Сценарии *универсальной миграции*, описываемые в методологии миграции, предусматривают использование одного и того же набора согласованных правил и процессов для переноса технологий Майкрософт и сторонних производителей.
+Как Azure, так и служба "Миграция Azure" хорошо известны как платформы для размещения технологий Майкрософт. Но вы, возможно, не знаете о том, что Azure поддерживает миграцию, связанную не только с Windows и SQL Server. Сценарии _универсальной миграции_, описываемые в методологии миграции, предусматривают использование одного и того же набора согласованных правил и процессов для переноса технологий Майкрософт и сторонних производителей.
 
 ## <a name="migration-scenarios"></a>Сценарии миграции
 
@@ -31,11 +31,11 @@ ms.locfileid: "91621490"
 |---------|---------|---------|---------|
 | **Виртуальные машины** | [Виртуальные машины](../migrate/azure-best-practices/contoso-migration-rehost-vm.md) | [Серверы Linux](../migrate/azure-best-practices/contoso-migration-rehost-linux-vm.md) | [Виртуальные рабочие столы](./wvd/index.md) |
 | **Приложения** | [ASP.NET](../migrate/azure-best-practices/contoso-migration-refactor-web-app-sql.md) | [Java](/azure/java/migration-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) | [PHP](../migrate/azure-best-practices/contoso-migration-refactor-linux-app-service-mysql.md) |
-| **Data** | [SQL Server](../migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md) | [Базы данных с открытым исходным кодом](../migrate/azure-best-practices/sql-migration.md) | [Аналитика](../migrate/azure-best-practices/analytics/analytics-solutions-overview.md) |
+| **Data** | [SQL Server](../migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md) | [Базы данных с открытым кодом](../migrate/azure-best-practices/sql-migration.md) | [Аналитика](../migrate/azure-best-practices/analytics/analytics-solutions-overview.md) |
 | **Гибридный** | [Azure Stack](./azure-stack/index.md) | [VMware](../migrate/azure-best-practices/vmware-host.md) | |
 | **Дополнительные сценарии** | [Безопасные рабочие нагрузки](../migrate/azure-best-practices/migrate-best-practices-security-management.md) | [Мейнфреймы](../infrastructure/mainframe-migration/index.md) | NetApp и SAP HANA |
 
-## <a name="migration-methodology"></a>Методология миграции
+## <a name="migrate-methodology"></a>Методика миграции
 
 В каждом из представленных выше сценариев миграции при перемещении в облако существующих рабочих нагрузок применяется один и тот же основной процесс.
 
