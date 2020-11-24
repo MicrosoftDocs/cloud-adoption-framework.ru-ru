@@ -1,45 +1,57 @@
 ---
-title: Запуск Moodle миграции вручную
-description: Узнайте, как начать Moodle миграцию вручную.
+title: Действия по миграции Moodle вручную
+description: Выполните следующие действия, чтобы импортировать Архив локального резервного копирования Moodle в ресурсы Azure и настроить приложение Moodle.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/06/2020
+ms.date: 11/23/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 2fbaf59de2effb689d160aa22a41c51ed291b98e
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 95c030bfb0d87a960d7ac158c82cc09a8bed5d95
+ms.sourcegitcommit: 1d7b16eb710bed397280fb8f862912c78f2254ee
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94714681"
+ms.lasthandoff: 11/24/2020
+ms.locfileid: "95812241"
 ---
-# <a name="how-to-start-a-manual-moodle-migration"></a>Запуск Moodle миграции вручную
+# <a name="moodle-manual-migration-steps"></a>Действия по миграции Moodle вручную
 
-Чтобы начать миграцию Moodle, войдите в [Azure](https://portal.azure.com/) после завершения развертывания. Перейдите к созданной группе ресурсов и найдите все созданные ресурсы. На следующем рисунке показано, как будут создаваться ресурсы:
+В этой статье описаны действия по импорту локального архива Moodle в базу данных Azure для MySQL, а также настройке приложения Azure Moodle.
 
-[Обзор ресурсов](./images/resource-creation-overview.png)
+Перед началом этого процесса обязательно выполните все действия, описанные в следующих статьях:
+- [Подготовка к Moodle миграции](migration-pre.md)
+- [Архитектура и шаблоны миграции Moodle](migration-arch.md)
+- [Создание шлюза виртуальной сети и подключение к виртуальным машинам](vpn-gateway.md)
 
-## <a name="controller-virtual-machine"></a>Виртуальная машина контроллера
+После завершения развертывания шаблона Azure Resource Manager (ARM) Войдите в [портал Azure](https://portal.azure.com/), перейдите к группе ресурсов, созданному шаблоном, и просмотрите все созданные ресурсы инфраструктуры. Созданные ресурсы будут выглядеть примерно так, как показано на следующем рисунке, в зависимости от используемого шаблона ARM.
 
-- Для входа на компьютер контроллера используйте бесплатный эмулятор терминала с открытым исходным кодом или средство последовательной консоли.
-- Скопируйте общедоступный IP-адрес виртуальной машины контроллера, который будет использоваться в качестве имени узла.
-- Разверните узел **SSH** на панели навигации, выберите **Проверка подлинности** и найдите файл ключа SSH из раздела Развертывание инфраструктуры Azure с помощью шаблона Azure Resource Manager.
-- Щелкните **Open**(Открыть). Вам будет предложено ввести имя пользователя. Введите **azureadmin**, так как он жестко запрограммирован в шаблоне.
+![Снимок экрана, показывающий ресурсы инфраструктуры, созданные в группе ресурсов миграции Moodle.](images/resource-creation-overview.png)
 
-[Страница выводимого имени входа.](./images/putty-login.png)
+## <a name="copy-the-moodle-archive"></a>Копирование архива Moodle
 
-[Критерии выводимых ключей.](./images/putty-key-criteria.png)
+Скопируйте архив резервной копии Moodle из хранилища BLOB-объектов Azure в виртуальную машину контроллера (ВМ).
 
-- Найдите и выберите ключ SSH, а затем нажмите кнопку Открыть.
+### <a name="sign-in-to-the-controller-virtual-machine"></a>Вход в виртуальную машину контроллера
 
-Просмотрите [Общие вопросы и ответы об устранении неполадок](https://documentation.help/PuTTY/faq.html) , чтобы узнать больше о выводимых сведениях.
+1. Используйте бесплатный, эмулятор терминала с открытым исходным кодом или средство последовательной консоли [, например, для входа на](https://www.putty.org/) виртуальную машину контроллера (ВМ).
+   
+1. В поле **Конфигурация** выводимых данных введите общедоступный IP-адрес виртуальной машины контроллера в качестве **имени узла**.
+   
+1. В области навигации слева разверните узел **SSH**.
+   
+   ![Снимок экрана со страницей конфигурации выводимых данных.](images/putty-configuration.png)
+   
+1. Выберите **Проверка подлинности** и найдите файл ключа SSH, который использовался для развертывания инфраструктуры Azure с помощью шаблона ARM.
+   
+1. Щелкните **Open**(Открыть). В поле имя пользователя введите **azureadmin**, так как оно жестко запрограммировано в шаблоне.
+   
+   ![Снимок экрана с параметрами проверки подлинности SSH на странице "Конфигурация".](images/putty-ssh-key.png)
+   
+Дополнительные сведения о выводимых данных см. в разделе Общие вопросы и [ответы об устранении неполадок](https://documentation.help/PuTTY/faq.html).
 
-После входа выполните следующий набор команд для миграции.
+### <a name="download-and-install-azcopy-on-the-controller-vm"></a>Скачайте и установите AzCopy на виртуальной машине контроллера.
 
-## <a name="download-and-install-azcopy"></a>Скачивание и установка AzCopy
-
-Выполните следующие команды для установки AzCopy:
+После входа в виртуальную машину контроллера выполните следующие команды, чтобы установить AzCopy:
 
   ```bash
   sudo -s
@@ -49,205 +61,246 @@ ms.locfileid: "94714681"
   sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
   ```
 
-## <a name="copy-the-backup"></a>Копирование резервной копии
+### <a name="copy-the-archive-to-the-controller-vm"></a>Копирование архива на виртуальную машину контроллера
 
-Чтобы скопировать архив резервной копии в экземпляр виртуальной машины контроллера из развертывания Azure Resource Manager:
-
-- Скачайте сжатый файл резервной копии (Storage. tar. gz) из хранилища BLOB-объектов на виртуальную машину контроллера в расположении/Хоме/азуреадмин/.
-
-  ```bash
-  sudo -s
-  cd /home/azureadmin/
-  azcopy copy `https://storageaccount.blob.core.windows.net/container/BlobDirectoryName<SASToken>` `/home/azureadmin/`
-  ```
-
-  Пример: `azcopy copy 'https://onpremisesstorage.blob.core.windows.net/migration/storage.tar.gz?sv=2019-12-12&ss=' /home/azureadmin/storage.tar.gz`
-
-- Извлеките сжатое содержимое в каталог.
-
-  ```bash
-  d /home/azureadmin
-  ar -zxvf storage.tar.gz
-  ```
-
-## <a name="how-to-migrate-and-configure-a-moodle-application"></a>Как перенести и настроить приложение Moodle
-
-Перед миграцией создайте резервную копию текущей конфигурации. Каталог резервного копирования извлекается как `storage/at/home/azureadmin` . Этот каталог хранения содержит каталоги Moodle, мудледата и конфигурации и файл резервной копии базы данных. Они будут скопированы в нужные расположения.
-
-- Создайте каталог резервного копирования.
-
-  ```bash
-  cd /home/azureadmin/
-  mkdir -p backup
-  mkdir -p backup/moodle
-  mkdir -p backup/moodle/html
-  ```
-
-- Создайте резервную копию каталогов Moodle и мудледата.
-
-  ```bash
-  mv /moodle/html/moodle /home/azureadmin/backup/moodle/html/moodle
-  mv /moodle/moodledata /home/azureadmin/backup/moodle/moodledata
-  ```
-
-- Скопируйте локальные каталоги Moodle и мудледата в общее расположение ( `/moodle` ).
-
-  ```bash
-  cp -rf /home/azureadmin/storage/moodle /moodle/html/
-  cp -rf /home/azureadmin/storage/moodledata /moodle/moodledata
-  ```
-
-- Импортируйте базу данных Moodle в Azure. Экземпляры базы данных Azure для MySQL защищены брандмауэром. По умолчанию все подключения к серверу и базам данных на сервере отклоняются. Прежде чем подключиться к базе данных Azure для MySQL в первый раз, настройте брандмауэр, добавив IP-адрес или диапазон IP-адресов общедоступного клиентского компьютера.
-
-  ```bash
-  az mysql server firewall-rule create --resource-group myresourcegroup --server mydemoserver --name AllowMyIP --start-ip-address 192.168.0.1 --end-ip-address 192.168.0.1
-  ```
-
-- Выберите новый сервер MySQL, а затем — **Безопасность подключения**.
-
-![Выберите * * безопасность подключения * *.](./images/database-connection-security.png)
-
-- Вы можете добавить IP-адрес или настроить правила брандмауэра здесь. После создания правил нажмите кнопку **сохранить** .
-
-Теперь можно подключиться к серверу с помощью программы командной строки MySQL или средства MySQL Workbench. Чтобы получить сведения о подключении, скопируйте **имя сервера** и **имя входа администратора сервера** на странице **ресурсов сервера MySQL** . Для этого можно нажать кнопку Копировать рядом с каждым полем.
-
-![Настройка нового подключения.](images/database-connection.png)
-
-Например, если имя сервера — `mydemoserver.mysql.database.azure.com` , а имя для входа администратора сервера — `myadmin@mydemoserver` .
-
-- Перед импортом базы данных убедитесь, что сведения о базе данных Azure для сервера MySQL готовы.
-- Перейдите к портал Azure и перейдите к созданной группе ресурсов.
-- Выберите ресурс сервера базы данных Azure для MySQL.
-- На панели Обзор найдите сведения о сервере базы данных Azure для MySQL, такие как имя сервера, имя для входа администратора сервера.
-- Сбросьте пароль, нажав кнопку Сбросить пароль в верхней части страницы.
-
-Используйте следующие сведения о сервере базы данных для следующих команд:
-
-- Импортируйте локальную базу данных в базу данных Azure для MySQL.
-
-- Создайте базу данных для импорта локальной базы данных.
-
-  ```bash
-  mysql -h $server_name -u $server_admin_login_name -p$admin_password -e "CREATE DATABASE $moodledbname CHARACTER SET utf8;"
-  ```
-
-- Назначение прав доступа к базе данных.
-
-  ```bash
-  mysql -h $server_name -u $server_admin_login_name -p$admin_password -e "GRANT ALL ON $moodledbname.* TO `$server_admin_login_name` IDENTIFIED BY `$admin_password`;"
-  ```
-
-- Импортируйте базу данных.
-
-  ```bash
-  mysql -h $server_name -u $server_admin_login_name -p$admin_password $moodledbname < /home/azureadmin/storage/database.sql
-  ```
-
-- Обновите сведения о базе данных в файле конфигурации Moodle (/мудле/конфиг.ФП).
-
-Обновление параметров в файле config. php. Обязательно сохраните DNS-имя для этой задачи:
-
-- Перейдите к портал Azure и найдите группу ресурсов.
-
-- Выберите **общедоступный IP-адрес Load Balancer** и получите DNS-имя на панели " **Обзор** ":
-
-  дбхост, dbname, дбусер, дбпасс, root и wwwroot
-
-  ```bash
-  cd /moodle/html/moodle/
-  nano config.php
-
-- Update the database details, and save the file.
-
-  For example:
-
-  - $CFG->dbhost    = `localhost`;                - Change `localhost` to the server name.
-  - $CFG->dbname    = `moodle`;                   - Change `moodle` to the newly created database name.
-  - $CFG->dbuser    = `root`;                     - Change `root` to the server admin login name.
-  - $CFG->dbpass    = `password`;                 - Change `password` to the server admin login password.
-  - $CFG->wwwroot   = `https://on-premises.com`;  - Change `on-premises` to the DNS name.
-  - $CFG->dataroot  = `/var/moodledata`;          - Change the path to `/moodle/moodledata`.
-
-The on-premises `dataroot` directory can be stored at any location. After making the changes, save the file. Press `CTRL+O` to save and `CTRL+X` to exit.
-
-Configure directory permissions.
-
-- Set 755 and www-data owner:group permissions to the Moodle directory.
-
-  ```bash
-  sudo chmod 755 /moodle/html/moodle sudo chown -R www-data:www-data /moodle/html/moodle
+1. Выполните следующие команды, чтобы скачать сжатый `storage.tar.gz` файл резервной копии из хранилища BLOB-объектов Azure в каталог виртуальных машин контроллера `/home/azureadmin/` :
+   
+   ```bash
+   sudo -s
+   cd /home/azureadmin/
+   azcopy copy 'https://<storageaccount>.blob.core.windows.net/container/BlobDirectoryName<SAStoken>' '/home/azureadmin/'
+   ```
+   
+   Замените учетную запись хранения и значения токенов SAS. Пример:
+   
+   `azcopy copy 'https://onpremisesstorage.blob.core.windows.net/migration/storage.tar.gz?sv=2019-12-12&ss=' /home/azureadmin/storage.tar.gz`
+   
+1. Извлеките сжатый файл в каталог.
+   
+   ```bash
+   d /home/azureadmin
+   ar -zxvf storage.tar.gz
    ```
 
-- Установите разрешения 770 и www-data owner: Group в каталог мудледата.
+### <a name="back-up-the-current-configuration"></a>Создание резервной копии текущей конфигурации
 
+Перед миграцией создайте резервную копию текущей конфигурации. Каталог резервного копирования извлекается `storage` по адресу `home/azureadmin` . Этот `storage` Каталог содержит `moodle` `moodledata` каталоги конфигурации, и, а также файл резервной копии базы данных, который копируется в нужные расположения.
+
+1. Создайте каталог резервного копирования:
+   
+   ```bash
+   cd /home/azureadmin/
+   mkdir -p backup
+   mkdir -p backup/moodle
+   mkdir -p backup/moodle/html
+   ```
+   
+1. Создайте резервные копии `moodle` `moodledata` каталогов и.
+   
+   ```bash
+   mv /moodle/html/moodle /home/azureadmin/backup/moodle/html/moodle
+   mv /moodle/moodledata /home/azureadmin/backup/moodle/moodledata
+   ```
+   
+1. Скопируйте `moodle` каталоги и `moodledata` в общую папку `/moodle` .
+   
+   ```bash
+   cp -rf /home/azureadmin/storage/moodle /moodle/html/
+   cp -rf /home/azureadmin/storage/moodledata /moodle/moodledata
+   ```
+
+## <a name="import-the-moodle-database-to-azure"></a>Импорт базы данных Moodle в Azure
+
+Подключитесь к базе данных Azure для сервера MySQL и импортируйте Архив локальной базы данных Moodle в базу данных Azure для MySQL.
+
+### <a name="connect-to-the-mysql-server"></a>Подключение к серверу MySQL
+
+Экземпляры базы данных Azure для MySQL защищены брандмауэром. По умолчанию все соединения с сервером и базами данных, расположенными на сервере, отклоняются. Прежде чем подключиться к базе данных Azure для MySQL в первый раз, настройте брандмауэр для разрешения доступа к общедоступному IP-адресу или диапазону IP-адресов виртуальной машины контроллера.
+
+Брандмауэр можно настроить с помощью командной строки Azure (Azure CLI) или портал Azure.
+
+Выполните следующую команду Azure CLI, заменив собственные значения заполнителей:
+
+```azurecli
+az mysql server firewall-rule create --resource-group <myresourcegroup> --server <mydemoserver> --name <AllowMyIP> --start-ip-address <192.168.0.1> --end-ip-address <192.168.0.1>
+```
+
+На портал Azure выберите сервер базы данных Azure для MySQL из развернутых ресурсов инфраструктуры Moodle. На левой панели навигации на странице сервера выберите **Безопасность подключения**.
+
+Вы можете добавить разрешенные IP-адреса и настроить правила брандмауэра. После создания правил нажмите кнопку **сохранить** .
+
+![Снимок экрана: панель "безопасность подключения" для сервера базы данных Azure для MySQL.](images/database-connection-security.png)
+
+Теперь вы можете подключиться к серверу MySQL с помощью программы командной строки [MySQL](https://dev.mysql.com/doc/refman/8.0/en/mysql.html) или [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/).
+
+![Снимок экрана: Установка нового подключения в MySQL Workbench.](images/database-connection.png)
+
+Чтобы получить сведения о подключении, перейдите на страницу **обзора** сервера MySQL в портал Azure. Используйте значки копирования рядом с каждым полем, чтобы скопировать **имя сервера** и **имя входа администратора сервера**.
+
+Например, имя сервера может быть `mydemoserver.mysql.database.azure.com` , а имя входа администратора сервера — `myadmin@mydemoserver` .
+
+Вам также потребуется пароль. Если необходимо сбросить пароль, в строке меню выберите **Сброс пароля** .
+
+Используйте сведения о сервере базы данных в следующих разделах.
+
+### <a name="import-the-moodle-database-to-azure-database-for-mysql"></a>Импорт базы данных Moodle в базу данных Azure для MySQL
+
+1. Создайте базу данных MySQL для импорта локальной базы данных в:
+   
+   ```bash
+   mysql -h $server_name -u $server_admin_login_name -p$admin_password -e "CREATE DATABASE $moodledbname CHARACTER SET utf8;"
+   ```
+   
+1. Назначьте правильные разрешения для базы данных:
+   
+   ```bash
+   mysql -h $server_name -u $server_admin_login_name -p$admin_password -e "GRANT ALL ON $moodledbname.* TO '$server_admin_login_name' IDENTIFIED BY '$admin_password';"
+   ```
+   
+1. Импортируйте базу данных:
+   
+   ```bash
+   mysql -h $server_name -u $server_admin_login_name -p$admin_password $moodledbname < /home/azureadmin/storage/database.sql
+   ```
+
+## <a name="update-configurations"></a>Обновить конфигурации
+
+После импорта архива локальной базы данных Moodle в базу данных Azure для MySQL при необходимости обновите следующие конфигурации на виртуальной машине контроллера:
+
+- Обновите файл конфигурации Moodle.
+- Настройте разрешения для каталога.
+- Настройка веб-серверов PHP и nginx.
+- Обновите DNS-имя и другие переменные.
+- Установите все отсутствующие расширения PHP.
+- Перезапустите, а затем закройте веб-серверы.
+- Скопируйте файлы конфигурации в общую папку для копирования в масштабируемые наборы виртуальных машин.
+
+### <a name="update-the-moodle-config-file"></a>Обновление файла конфигурации Moodle
+
+Обновите параметры сведений о базе данных в файле конфигурации Moodle `/moodle/config.php` .
+
+Чтобы получить DNS-имя для этой задачи, сделайте следующее:
+
+1. В портал Azure выберите **Load Balancer общедоступный IP-адрес** из развернутых ресурсов инфраструктуры Moodle.
+   
+1. На странице **Обзор** щелкните значок копирования рядом с **DNS-именем**.
+   
+Чтобы обновить `config.php` файл, выполните следующие действия.
+
+1. Введите следующие команды для редактирования `config.php` в `nano` редакторе:
+   
+   ```bash
+   cd /moodle/html/moodle/
+   nano config.php
+   ```
+   
+1. Обновите сведения о базе данных в файле, используя значения, скопированные из портал Azure:
+   
+   ```php
+   $CFG->dbhost    = 'localhost';                // Change 'localhost' to the server name.
+   $CFG->dbname    = 'moodle';                   // Change 'moodle' to the newly created database name.
+   $CFG->dbuser    = 'root';                     // Change 'root' to the server admin login name.
+   $CFG->dbpass    = 'password';                 // Change 'password' to the server admin login password.
+   $CFG->wwwroot   = 'https://on-premises.com';  // Change 'on-premises' to the DNS name.
+   $CFG->dataroot  = '/var/moodledata';          // Change the path to '/moodle/moodledata'.
+   ```
+   
+1. После внесения изменений нажмите клавиши CTRL + O, чтобы сохранить файл, и CTRL + X, чтобы выйти из редактора.
+
+Локальный каталог можно сохранить `dataroot` в любом расположении.
+
+### <a name="configure-directory-permissions"></a>Настройка разрешений для каталога
+
+- Назначьте в каталог разрешения 755 и www-data owner: Group `moodle` .
+  
+  ```bash
+  sudo chmod 755 /moodle/html/moodle sudo chown -R www-data:www-data /moodle/html/moodle
+  ```
+  
+- Назначьте в каталог разрешения 770 и www-data owner: Group `moodledata` .
+  
   ```bash
   sudo chmod 770 /moodle/moodledata sudo chown -R www-data:www-data /moodle/moodledata
   ```
+  
+### <a name="update-web-config-files"></a>Обновление файлов веб-конфигурации
 
-- Обновите файл nginx CONF.
+Создайте резервную копию и обновите `conf` файл nginx:
 
-  ```bash
-  sudo mv /etc/nginx/sites-enabled/*.conf /home/azureadmin/backup/
-  cd /home/azureadmin/storage/configuration/
-  sudo cp -rf nginx/sites-enabled/*.conf /etc/nginx/sites-enabled/
-  ```
+```bash
+sudo mv /etc/nginx/sites-enabled/*.conf /home/azureadmin/backup/
+cd /home/azureadmin/storage/configuration/
+sudo cp -rf nginx/sites-enabled/*.conf /etc/nginx/sites-enabled/
+```
 
-- Обновите файл конфигурации PHP.
+Создайте резервную копию и обновите `www.conf` файл PHP:
 
-  ```bash
-  _PHPVER=`/usr/bin/php -r "echo PHP_VERSION;" | /usr/bin/cut -c 1,2,3`
-  echo $_PHPVER
-  sudo mv /etc/php/$_PHPVER/fpm/pool.d/www.conf /home/azureadmin/backup/www.conf
-  sudo cp -rf /home/azureadmin/storage/configuration/php/$_PHPVER/fpm/pool.d/www.conf /etc/php/$_PHPVER/fpm/pool.d/
-  ```
+```bash
+_PHPVER='/usr/bin/php -r "echo PHP_VERSION;" | /usr/bin/cut -c 1,2,3'
+echo $_PHPVER
+sudo mv /etc/php/$_PHPVER/fpm/pool.d/www.conf /home/azureadmin/backup/www.conf
+sudo cp -rf /home/azureadmin/storage/configuration/php/$_PHPVER/fpm/pool.d/www.conf /etc/php/$_PHPVER/fpm/pool.d/
+```
 
-- Установите отсутствующие расширения PHP. Шаблоны Azure Resource Manager устанавливают следующие расширения PHP: FPM, CLI, мкрипт, ZIP, груша, mbstring, dev,, SOAP, JSON, Redis, бкмас, GD, MySQL, ксмлрпк, Intl, XML и bz2. Чтобы получить список расширений PHP, установленных в локальной среде, выполните следующую команду:
+### <a name="update-nginx-configuration-variables"></a>Обновление переменных конфигурации nginx
 
-  ```bash
-  php -m
-  ```
+Обновите DNS-имя облака Azure, чтобы оно было DNS-именем локального приложения Moodle.
 
-- Если в локальной среде есть дополнительные расширения PHP, отсутствующие в виртуальной машине контроллера, их можно установить вручную.
+1. Откройте файл конфигурации nginx:
+   
+   ```bash
+   nano /etc/nginx/sites-enabled/*.conf
+   ```
+   
+1. При развертывании шаблона ARM для сервера nginx устанавливается порт 81. Обновите `SERVER_PORT` файл в файле до 81, если он не равен 81.
+   
+1. Обновите `server_name` . Например, для `server_name on-premises.com` обновите `on-premises.com` с помощью DNS-имени. В большинстве случаев DNS-имя не изменяется при миграции.
+   
+1. Обновите `root` расположение каталога HTML. Например, измените `root /var/www/html/moodle;` на `root /moodle/html/moodle;`.
+   
+   Локальный корневой каталог может находиться в любом расположении.
+   
+1. После внесения изменений нажмите клавиши CTRL + O, чтобы сохранить файл и CTRL + X для выхода.
 
-  ```bash
-  sudo apt-get install -y php-<extensionName>
-  ```
+### <a name="install-any-missing-php-extensions"></a>Установка отсутствующих расширений PHP
 
-- Обновите DNS-имя и расположение корневого каталога. Обновите DNS-имя облака Azure с помощью локального DNS-имени. Эта команда открывает файл конфигурации:
+Шаблоны развертывания ARM устанавливают следующие расширения PHP: FPM, CLI, парные, ZIP, груши, mbstring, dev, мкрипт, SOAP, JSON, Redis, бкмас, GD, MySQL, ксмлрпк, Intl, XML и bz2. Если локальное приложение Moodle имеет какие-либо расширения PHP, которые отсутствуют на виртуальной машине контроллера, их можно установить вручную.
 
-  ```bash
-  nano /etc/nginx/sites-enabled/*.conf
-  ```
+Чтобы получить список расширений PHP в локальном приложении, выполните:
 
-- Azure Resource Manager развертывании шаблона задаст сервер nginx через порт 81. Обновите порт сервера до 81, если он не равен 81.
+```bash
+php -m
+```
 
-- Обновите имя сервера. Например, если server_name on-premises.com, обновите on-premises.com, указав DNS-имя. В большинстве случаев DNS может остаться в процессе миграции.
+Чтобы установить недостающие расширения, выполните команду:
 
-- Обновите расположение корневого каталога HTML. Например, если необходимо `root /var/www/html/moodle;` , обновите его до `root /moodle/html/moodle;` .
+```bash
+sudo apt-get install -y php-<extension>
+```
 
-- Локальный корневой каталог может находиться в любом расположении.
+### <a name="restart-and-stop-the-web-servers"></a>Перезапуск и завершение веб-серверов
 
-- После внесения изменений нажмите, `CTRL+O` чтобы сохранить файл и `CTRL+X` выйти.
+1. Перезапустите веб-серверы.
+   
+   ```bash
+   sudo systemctl restart nginx
+   sudo systemctl restart php$_PHPVER-fpm
+   ```
+   
+1. Останавливает веб-серверы.
+   
+   ```bash
+   sudo systemctl stop nginx
+   sudo systemctl stop php$_PHPVER-fpm
+   ```
 
-- Перезапустите веб-серверы.
+Когда запрос достигает Azure Load Balancer, он перенаправляется к экземплярам масштабируемого набора виртуальных машин, а не к виртуальной машине контроллера.
 
-  ```bash
-  sudo systemctl restart nginx
-  sudo systemctl restart php$_PHPVER-fpm  
-  ```
+### <a name="copy-configuration-files"></a>Копировать файлы конфигурации
 
-- Останавливает веб-серверы. Когда запрос достигает Azure Load Balancer, он будет перенаправлен на экземпляры масштабируемого набора виртуальных машин, но не на виртуальную машину контроллера.
+Скопируйте файлы конфигурации PHP и веб-сервера в общее расположение для последующего копирования в экземпляры масштабируемых наборов виртуальных машин.
 
-  ```bash
-  sudo systemctl stop nginx
-  sudo systemctl stop php$_PHPVER-fpm  
-  ```
-
-## <a name="how-to-copy-configuration-files"></a>Копирование файлов конфигурации
-
-Скопируйте файлы конфигурации PHP и веб-сервера в общее расположение. Файлы конфигурации можно копировать в экземпляры масштабируемых наборов виртуальных машин из общего расположения.
-
-Чтобы создать каталог для конфигурации в общем расположении, выполните следующие действия.
+Чтобы создать каталог для файлов конфигурации в общем расположении, выполните:
 
 ```bash
 mkdir -p /moodle/config
@@ -255,13 +308,13 @@ mkdir -p /moodle/config/php
 mkdir -p /moodle/config/nginx
 ```
 
-Чтобы скопировать файлы конфигурации PHP и веб-сервера в каталог конфигурации, выполните следующие действия.
+Чтобы скопировать файлы конфигурации PHP и веб-сервера в общий каталог, выполните команду:
 
 ```bash
 cp /etc/nginx/sites-enabled/* /moodle/config/nginx
 cp /etc/php/$_PHPVER/fpm/pool.d/www.conf /moodle/config/php
 ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
-Перейдите к статье о [том, как настроить экземпляр контроллера Moodle и рабочие узлы (конфигурация инфраструктуры Azure)](./azure-infra-config.md) , чтобы получить сведения о дальнейших действиях в процессе миграции Moodle.
+Продолжайте [настраивать экземпляр контроллера Moodle и рабочие узлы](azure-infra-config.md) для следующих шагов в процессе миграции Moodle.
