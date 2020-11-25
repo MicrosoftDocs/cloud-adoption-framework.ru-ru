@@ -1,258 +1,296 @@
 ---
 title: Подготовка к Moodle миграции
-description: Узнайте, как подготовиться к Moodle миграции.
+description: Узнайте, как подготовиться к Moodle миграции. См. раздел Резервное копирование файлов Moodle и создание ресурсов, необходимых для миграции.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 11/06/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 71990470e04f68f78b0bfffc2b1d837c7f0f29ad
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: 0524a761cb1fadb4f41f9c189ccab67a69c61295
+ms.sourcegitcommit: bd6104aaa0e0145dcb0f577107d2792bc5b48790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94714786"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96038552"
 ---
 # <a name="how-to-prepare-for-a-moodle-migration"></a>Подготовка к Moodle миграции
 
-## <a name="pre-migration-tasks"></a>Задачи, выполняемые перед миграцией
-
-Экспорт данных из локальной среды в Azure включает следующие задачи.
-
-- Установите Azure CLI.
-- Создание подписки.
-- Создайте группу ресурсов.
-- Создайте учетную запись хранения.
-- Резервное копирование локальных данных.
-- Скачайте и установите AzCopy.
-- Скопируйте архивные файлы в большой двоичный объект Azure.
+Перед миграцией приложения Moodle из локальной среды в Azure необходимо экспортировать данные. В этом руководстве описываются шаги процесса экспорта.
 
 ## <a name="install-the-azure-cli"></a>Установка Azure CLI
 
-- Установите Azure CLI на узле в локальной инфраструктуре для всех задач, связанных с Azure.
+Выполните следующие действия, чтобы настроить Azure CLI в локальной среде.
 
-  ```bash
+1. На узле, который можно использовать для задач Azure, введите следующую команду, чтобы установить Azure CLI:
+
+   ```bash
    curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-  ```
+   ```
 
-- Войдите в свою учетную запись Azure.
+1. В Azure CLI введите следующую команду, чтобы войти в учетную запись Azure:
 
-  ```bash
-  az login
-  ```
+   ```bash
+   az login -u <username> -p <password>
+   ```
 
-- Команда AZ login: Azure CLI, скорее всего, запустит экземпляр или вкладку в веб-браузере по умолчанию и предложит войти в Azure с помощью учетная запись Майкрософт. Если запуск обозревателя не происходит, откройте новую страницу в [https://aka.ms/devicelogin](https://aka.ms/devicelogin) и введите код авторизации, отображаемый в терминале.
-
-- Чтобы использовать командную строку, введите следующую команду:
-
-  ```bash
-  az login -u <username> -p <password>
-  ```
+1. Если Azure CLI открывает окно или вкладку браузера, войдите в Azure с помощью учетная запись Майкрософт. Если окно браузера не открывается, перейдите к [https://aka.ms/devicelogin](https://aka.ms/devicelogin) и введите код авторизации, отображаемый в терминале.
 
 ## <a name="create-a-subscription"></a>Создание подписки
 
-Пропустите этот шаг, если у вас есть подписка. Если у вас нет подписки, вы можете [создать ее в портал Azure](https://ms.portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade) или выбрать подписку с [оплатой по мере](https://azure.microsoft.com/offers/ms-azr-0003p/) использования.
+Пропустите этот шаг, если у вас уже есть подписка Azure.
 
-- Чтобы создать подписку с портал Azure, перейдите к разделу **подписки** в разделе " **Домашняя страница** ".
+Если у вас нет подписки Azure, вы можете [создать ее бесплатно](https://azure.microsoft.com/free/). Можно также настроить [подписку с оплатой по мере](https://azure.microsoft.com/offers/ms-azr-0003p/)использования или создать подписку в Azure.
 
-  ![Подписки Azure.](./images/subscriptions.png)
+- Чтобы использовать портал Azure для создания подписки, откройте [подписки](https://ms.portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade), выберите **Добавить** и введите необходимые сведения.
 
-- Эта команда задает подписку:
+  ![Снимок экрана со страницей "подписки" в портал Azure.](./images/azure-subscriptions-page.png)
 
-  ```bash
-  az account set --subscription "Subscription Name"
+- Чтобы использовать Azure CLI для создания подписки, введите следующую команду:
 
-  Example: az account set --subscription "ComputePM LibrarySub"
+  ```azurecli
+  az account set --subscription '<subscription name>'
   ```
+
+  Например, введите:
+
+  `az account set --subscription 'ComputePM LibrarySub'`
 
 ## <a name="create-a-resource-group"></a>Создание группы ресурсов
 
-После настройки подписки необходимо создать группу ресурсов. Один из вариантов — использовать портал Azure, чтобы создать его. Перейдите к разделу **Домашняя страница** , найдите **группу ресурсов**, выберите ее, заполните обязательные поля и выберите **создать**.
+После настройки подписки создайте группу ресурсов в Azure. Для создания группы можно использовать портал Azure или CLI.
 
-![Группы ресурсов. Создайте группу ресурсов.](./images/resource-group.png)
+- Чтобы использовать портал Azure, выполните следующие действия.
 
-Кроме того, можно использовать Azure CLI для создания группы ресурсов.
+  1. Откройте [группы ресурсов](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceGroups)и выберите **Добавить**.
+  
+  1. Введите имя подписки, имя группы ресурсов и регион. Список доступных регионов см. [в статье местонахождение данных в Azure](https://azure.microsoft.com/global-infrastructure/data-residency/) . Запишите имя введенной группы ресурсов, чтобы это имя можно было использовать в последующих шагах.
+  
+  1. Выберите **Review + create** (Просмотреть и создать).
 
-- Укажите то же расположение по умолчанию из предыдущих шагов.
+  ![Снимок экрана: страница "Создание группы ресурсов" в полях "портал Azure", "Подписка", "Группа ресурсов" и "Проверка + создать".](./images/resource-group.png)
 
-  ```bash
-  az group create -l location -n name -s Subscription_NAME_OR_ID
+- Чтобы использовать Azure CLI для создания группы ресурсов, введите следующую команду:
+
+  ```azurecli
+  az group create -l <region> -n <resource group name> -s '<subscription name>'
   ```
 
-- Обновите снимок экрана и имя подписки с помощью образца тестовой учетной записи.
+  Например, введите:
 
-  Пример: `az group create -l eastus -n manual_migration -s ComputePM LibrarySub`
+  `az group create -l eastus -n manual_migration -s 'ComputePM LibrarySub'`
 
-- На предыдущем шаге группа ресурсов создается как "manual_migration". Используйте одну и ту же группу ресурсов в дальнейших шагах.
-
-Дополнительные сведения см. в обзоре [расположения в Azure](https://azure.microsoft.com/global-infrastructure/data-residency/) .
+  Значение, предоставленное с помощью `-l` параметра, указывает расположение по умолчанию. Используйте то же расположение, которое использовалось на предыдущих шагах. Запишите имя создаваемой группы ресурсов и используйте это имя в последующих шагах.
 
 ## <a name="create-a-storage-account"></a>Создание учетной записи хранения
 
-Следующим шагом является [Создание учетной записи хранения](https://ms.portal.azure.com/#create/Microsoft.StorageAccount) в созданной группе ресурсов. Учетные записи хранения можно создавать с помощью портал Azure или Azure CLI.
+Затем создайте учетную запись хранения в только что созданной группе ресурсов. Эта учетная запись хранения будет использоваться для резервного копирования локальных данных Moodle.
 
-- Чтобы создать портал, перейдите к нему, найдите учетную запись хранения и нажмите кнопку **Добавить** . После заполнения обязательных полей выберите **создать**.
+Для создания учетной записи хранения можно либо использовать портал Azure, либо Azure CLI.
 
-  ![Создание учетной записи хранения.](./images/create-storage-account.png)
+- Чтобы использовать портал Azure, выполните следующие действия.
 
-- Кроме того, можно использовать Azure CLI:
+  1. Откройте [создать учетную запись хранения](https://ms.portal.azure.com/#create/Microsoft.StorageAccount).
 
-  ```bash
-  az storage account create -n storageAccountName -g resourceGroupName --sku Standard_LRS --kind BlobStorage -l location
+  1. Введите следующие сведения:
+
+     - Имя вашей подписки
+     - Имя только что созданной группы ресурсов
+     - Имя учетной записи хранения
+     - Ваш регион
+   
+  1. В качестве **типа учетной записи** введите **блобстораже**.
+  
+  1. Для **репликации** введите **геоизбыточное хранилище с доступом для чтения (RA-GRS)**.
+
+  1. Выберите **Review + create** (Просмотреть и создать).
+
+  ![Снимок экрана со страницей создания учетной записи хранения в портал Azure с несколькими полями ввода и кнопкой "Проверка и создание".](./images/create-storage-account.png)
+
+- Чтобы использовать Azure CLI для создания учетной записи хранения, введите следующую команду:
+
+  ```azurecli
+  az storage account create -n <storage account name> -g <resource group name> --sku <storage account SKU> --kind <storage account type> -l <region>
   ```
 
-  Пример: `az storage account create -n onpremisesstorage -g manual_migration --sku Standard_LRS --kind BlobStorage -l eastus`
+  Например, введите:
 
-- В предыдущей команде `--kind` указывает тип учетной записи хранения. После `onpremisesstorage` создания учетной записи она становится назначением для локальной резервной копии.
+  `az storage account create -n onpremisesstorage -g manual_migration --sku Standard_LRS --kind BlobStorage -l eastus`
+
+  `--kind`Параметр указывает тип учетной записи хранения.
 
 ## <a name="back-up-on-premises-data"></a>Резервное копирование локальных данных
 
-- Перед резервным копированием локальных данных Включите **режим обслуживания** для сайта Moodle. Выполните следующую команду из локальной виртуальной машины:
+Перед резервным копированием локальных данных Moodle включите **режим обслуживания** на веб-сайте Moodle, выполнив следующие действия.
 
-  ```bash
-  sudo /usr/bin/php admin/cli/maintenance.php --enable
-  ```
+1. На локальной виртуальной машине введите следующую команду:
 
-- Выполните следующую команду, чтобы проверить состояние сайта Moodle:
+   ```bash
+   sudo /usr/bin/php admin/cli/maintenance.php --enable
+   ```
 
-  ```bash
-  sudo /usr/bin/php admin/cli/maintenance.php
-  ```
+2. Введите следующую команду, чтобы проверить состояние веб-сайта Moodle:
 
-- При резервном копировании локальных файлов, конфигураций и баз данных Moodle и мудледата можно создать резервную копию в одном каталоге. Следующая схема обобщает следующее:
+   ```bash
+   sudo /usr/bin/php admin/cli/maintenance.php
+   ```
 
-  ![Структура каталога резервного копирования Moodle.](./images/directory-structure.png)
+При резервном копировании локальных файлов, конфигураций и баз данных Moodle и мудледата можно создать резервную копию в одном каталоге. Эта идея представлена на следующей схеме:
 
-- Чтобы скопировать все данные, создайте пустой каталог хранилища в любом нужном месте:
+![Схема, показывающая структуру каталога хранилища резервных копий Moodle.](./images/directory-structure.png)
+
+### <a name="create-a-storage-directory"></a>Создание каталога хранилища
+
+Перед копированием данных создайте пустой каталог хранилища в любом нужном месте. Например, если расположение — `/home/azureadmin` , введите следующие команды:
 
   ```bash
   sudo -s
-  ```
-
-  Например, расположением является `/home/azureadmin` .
-
-  ```bash
   cd /home/azureadmin
   mkdir storage
   ```
 
-### <a name="back-up-moodle-and-moodledata"></a>Резервное копирование Moodle и мудледата
+### <a name="back-up-moodle-directories"></a>Резервное копирование каталогов Moodle
 
-- Каталог Moodle состоит из содержимого HTML сайта. Мудледата содержит данные сайта Moodle.
+В локальной среде `moodle` Каталог содержит содержимое HTML веб-сайта. `moodledata`Каталог содержит данные веб-сайта Moodle.
 
-- Команды для копирования Moodle и мудледата:
+Введите эти команды, чтобы скопировать файлы из `moodle` `moodledata` каталогов и в каталог хранилища:
 
   ```bash
   cp -R /var/www/html/moodle /home/azureadmin/storage/
   cp -R /var/moodledata /home/azureadmin/storage/
   ```
 
-### <a name="backup-php-and-web-server-configurations"></a>Резервное копирование PHP и конфигурации веб-сервера
+### <a name="back-up-php-and-web-server-configurations"></a>Резервное копирование конфигураций PHP и веб-сервера
 
-- Скопируйте файлы конфигурации PHP, например,, `php-fpm.conf` `php.ini` и, `pool.d` `conf.d` в `phpconfig` каталог `configuration` в каталоге.
+Чтобы создать резервную копию файлов конфигурации, выполните следующие действия.
 
-- Скопируйте конфигурации нгникс, например `nginx.conf` и, `sites-enabled/dns.conf` в `nginxconfig` каталог в `configuration` каталоге.
+1. Введите эти команды, чтобы создать новый каталог в каталоге хранилища:
 
-  ```bash
-  cd /home/azureadmin/storage mkdir configuration
-  ```
+   ```bash
+   cd /home/azureadmin/storage
+   mkdir configuration
+   ```
 
-- Ниже приведены команды для копирования конфигураций nginx и PHP.
+2. Введите следующие команды, чтобы скопировать файлы конфигурации PHP и nginx:
 
-  ```bash
-  cp -R /etc/nginx /home/azureadmin/storage/configuration/nginx
-  cp -R /etc/php /home/azureadmin/storage/configuration/php
-  ```
+   ```bash
+   cp -R /etc/php /home/azureadmin/storage/configuration/
+   cp -R /etc/nginx /home/azureadmin/storage/configuration/
+   ```
 
-### <a name="create-a-backup-of-the-database"></a>Создание резервной копии базы данных
+   В `php` каталоге хранятся файлы конфигурации PHP, такие как `php-fpm.conf` , `php.ini` , `pool.d` и `conf.d` . В `nginx` каталоге хранятся конфигурации нгникс, такие как `nginx.conf` и `sites-enabled/dns.conf` .
 
-- Если у вас уже установлен MySQL-Client, пропустите этот шаг, чтобы установить его. Если у вас нет MySQL-Client, установите его сейчас:
+### <a name="back-up-the-database"></a>Резервное копирование базы данных
 
-  ```bash
-  sudo -s
-  ```
+Выполните следующие действия, чтобы создать резервную копию базы данных.
 
-- Выполните следующую команду, чтобы проверить, установлен ли MySQL-Client:
+1. Введите следующие команды, чтобы проверить, установлен ли MySQL-Client:
 
-  ```bash
-  mysql -V
-  ```
+   ```bash
+   sudo -s
+   mysql -V
+   ```
 
-- Если MySQL-Client не установлен, выполните следующую команду:
+2. Если MySQL-Client установлен, пропустите этот шаг. В противном случае введите следующую команду, чтобы установить MySQL-Client:
 
-  ```bash
-  sudo apt-get install mysql-client
-  ```
+   ```bash
+   sudo apt-get install mysql-client
+   ```
 
-- Эта команда позволит вам создать резервную копию базы данных:
+3. Введите эту команду, чтобы создать резервную копию базы данных:
 
-  ```bash
-  mysqldump -h dbServerName -u dbUserId -pdbPassword dbName > /home/azureadmin/storage/database.sql
-  ```
+   ```bash
+   mysqldump -h <database server name> -u <database user ID> -p<database password> <database name> > /home/azureadmin/storage/database.sql
+   ```
 
-- Замените Дбсервернаме, Дбусерид, Дбпассворд и dbName на сведения о локальной базе данных.
+   Для `<database server name>` , `<database user ID>` , `<database password>` и `<database name>` используйте значения, используемые локальной базой данных.
 
-- Создайте архивный `storage.tar.gz` файл каталога резервных копий:
+### <a name="create-an-archive"></a>Создание архива
 
-  ```bash
-  cd /home/azureadmin/ tar -zcvf storage.tar.gz storage
-  ```
+Введите эту команду, чтобы создать файл архива `storage.tar.gz` для каталога резервного копирования:
+
+```bash
+cd /home/azureadmin/ tar -zcvf storage.tar.gz storage
+```
 
 ## <a name="download-and-install-azcopy"></a>Скачивание и установка AzCopy
 
-Выполните следующие команды для установки AzCopy:
+Введите следующие команды для установки AzCopy:
+
+```bash
+sudo -s
+wget https://aka.ms/downloadazcopy-v10-linux
+tar -xvf downloadazcopy-v10-linux
+sudo rm /usr/bin/azcopy
+sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
+```
+
+## <a name="copy-archived-files-to-azure-blob-storage"></a>Копирование архивных файлов в хранилище BLOB-объектов Azure
+
+Выполните следующие действия, чтобы использовать AzCopy для копирования архивных локальных файлов в хранилище BLOB-объектов Azure.
+
+### <a name="generate-a-security-token"></a>Создание маркера безопасности
+
+Чтобы создать маркер подписанного URL-адрес (SAS) для AzCopy, выполните следующие действия.
+
+1. В портал Azure перейдите на страницу созданной ранее учетной записи хранения.
+
+1. На панели слева выберите **подпись общего доступа**.
+
+   ![Снимок экрана страницы портал Azure учетной записи хранения с подписью общего доступа, выделенной на левой панели.](./images/new-storage-account-page.png)
+
+1. В разделе **Разрешенные типы ресурсов** выберите **контейнер**.
+
+1. В поле **Дата и время начала и окончания** введите время начала и окончания для маркера SAS.
+
+1. Выберите действие **Создать SAS и строку подключения**.
+
+   ![Снимок экрана портал Azure показывающей страницу подписанного URL-доступа для учетной записи хранения.](./images/shared-access-signature-page.png)
+
+1. Создайте копию маркера SAS, который будет использоваться на последующих шагах.
+
+### <a name="create-a-container"></a>Создание контейнера
+
+Создайте контейнер в учетной записи хранения. Для этого шага можно либо использовать Azure CLI, либо портал Azure.
+
+- Чтобы использовать Azure CLI, введите следующую команду:
 
   ```bash
-  sudo -s
-  wget https://aka.ms/downloadazcopy-v10-linux
-  tar -xvf downloadazcopy-v10-linux
-  sudo rm /usr/bin/azcopy
-  sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
+  az storage container create --account-name <storage account name> --name <container name> --auth-mode login
   ```
 
-## <a name="copy-archived-files-to-azure-blob"></a>Копирование архивных файлов в большой двоичный объект Azure
+  Например, введите:
 
-Используйте AzCopy для копирования архивных локальных файлов в большой двоичный объект Azure.
+  `az storage container create --account-name onpremisesstorage --name migration --auth-mode login`
 
-- Чтобы использовать AzCopy, сначала создайте маркер SAS. Перейдите к созданному **ресурсу учетной записи хранения** и перейдите к **подписанному общему доступу** на панели слева.
+  При использовании `--auth-mode` параметра со значением `login` Azure использует ваши учетные данные для проверки подлинности, а затем создает контейнер.
 
-  ![Пример учетной записи хранения.](./images/storage-account-created.png)
+- Чтобы использовать портал Azure для создания контейнера, выполните следующие действия.
 
-- Выберите **контейнер** и флажки и задайте дату начала и окончания срока действия маркера SAS. Выберите действие **Создать SAS и строку подключения**.
+  1. На портале перейдите на страницу созданной ранее учетной записи хранения.
 
-  ![Создание маркера SAS.](images/SAS-token-generation.png)
+  1. Выберите **контейнер**, а затем щелкните **Добавить**.
 
-- Скопируйте и сохраните маркер SAS для будущего использования.
+  1. Введите имя для контейнера и нажмите кнопку **создать**.
 
-- Команда для создания контейнера в учетной записи хранения:
+     ![Снимок экрана диалогового окна в портал Azure для создания нового контейнера с полем имени и кнопкой "создать".](./images/new-container.png)
 
-  ```bash
-  az storage container create --account-name <storageAccountName> --name <containerName> --auth-mode login
-  ```
+### <a name="copy-the-archive-file-to-azure-blob-storage"></a>Копирование файла архива в хранилище BLOB-объектов Azure
 
-  Пример: `az storage container create --account-name onpremisesstorage --name migration --auth-mode login`
+Введите эту команду, чтобы скопировать файл архива в контейнер, созданный в хранилище BLOB-объектов:
 
-  `--auth-mode login` означает режим проверки подлинности при входе. После входа в систему контейнер будет создан.
+```bash
+sudo azcopy copy /home/azureadmin/storage.tar.gz 'https://<storage account name>.blob.core.windows.net/<container name>/<SAS token>'
+```
 
-- Контейнер также можно создать с помощью портал Azure. Перейдите к той же созданной учетной записи хранения, выберите контейнер, а затем нажмите кнопку **Добавить** .
+Например, введите:
 
-- После ввода имени обязательного контейнера нажмите кнопку **создать** .
+`azcopy copy /home/azureadmin/storage.tar.gz 'https://onpremisesstorage.blob.core.windows.net/migration/?sv=2019-12-12&ss='`
 
-  ![Новый контейнер.](images/new-container.png)
+Теперь ваша учетная запись хранилища BLOB-объектов должна содержать копию архива.
 
-- Команда для копирования файла архива в учетную запись BLOB-объекта Azure:
+![Снимок экрана страницы в портал Azure, показывающей учетные записи хранения BLOB-объектов. Отображается сжатый ZIP-файл каталога хранилища.](./images/archive-in-blob-storage.png)
 
-  ```bash
-  sudo azcopy copy /home/azureadmin/storage.tar.gz 'https://<storageAccountName>.blob.core.windows.net/<containerName>/<SAStoken>'
-  ```
+## <a name="next-steps"></a>Дальнейшие действия
 
-  Пример: `azcopy copy /home/azureadmin/storage.tar.gz 'https://onpremisesstorage.blob.core.windows.net/migration/?sv=2019-12-12&ss='`
-
-  ![Архив в большом двоичном объекте Azure.](images/archive-in-blob.png)
-
-- Теперь в учетной записи BLOB-объектов Azure должна быть копия архива.
-
-## <a name="next-steps"></a>Следующие шаги
-
-Продолжайте [Moodle задачи миграции, архитектуру и шаблон](./migration-arch.md) для получения дополнительных сведений о процессе миграции Moodle.
+Продолжайте [Moodle архитектуру и шаблоны миграции](./migration-arch.md).

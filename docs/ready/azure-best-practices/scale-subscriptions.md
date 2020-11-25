@@ -7,12 +7,12 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 29ae946d7ed18e84733e805d6d08dab3ea45bbd0
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: 5599c735c9dbb5acd876ea020435a11d72565ca4
+ms.sourcegitcommit: bd6104aaa0e0145dcb0f577107d2792bc5b48790
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88569779"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "96038607"
 ---
 # <a name="create-additional-subscriptions-to-scale-your-azure-environment"></a>Создание дополнительных подписок для масштабирования среды Azure
 
@@ -38,8 +38,8 @@ ms.locfileid: "88569779"
 
 - Инновации
 - Миграция
-- Cost
-- Operations
+- Стоимость
+- Операции
 - Безопасность
 - Система управления
 
@@ -54,7 +54,7 @@ ms.locfileid: "88569779"
 - Выясните, кто отвечает за создание новых подписок.
 - Решите, какие типы ресурсов доступны в подписке по умолчанию.
 - Определите, как должны выглядеть все стандартные подписки. Соображения включают в себя доступ RBAC, политики, теги и ресурсы инфраструктуры.
-- По возможности [создавайте новые подписки программным способом](/azure/azure-resource-manager/management/programmatically-create-subscription) с помощью субъекта-службы. Для создания подписок необходимо [предоставить разрешение субъекту-службе](/azure/azure-resource-manager/grant-access-to-create-subscription) . Определите группу безопасности, которая может запрашивать новые подписки с помощью автоматического рабочего процесса.
+- По возможности [создавайте новые подписки программным способом](/azure/cost-management-billing/manage/programmatically-create-subscription-preview) с помощью субъекта-службы. Для создания подписок необходимо [предоставить разрешение субъекту-службе](/azure/azure-resource-manager/grant-access-to-create-subscription) . Определите группу безопасности, которая может запрашивать новые подписки с помощью автоматического рабочего процесса.
 - Если вы являетесь клиентом Соглашения Enterprise (EA), обратитесь в службу поддержки Azure, чтобы заблокировать создание подписок, отличных от EA, для вашей организации.
 
 ## <a name="next-steps"></a>Дальнейшие действия
