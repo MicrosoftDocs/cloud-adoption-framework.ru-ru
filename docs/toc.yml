@@ -416,7 +416,7 @@ items:
                   - name: Перенос Moodle
                     items:
                       - name: Обзор
-                        href: scenarios/lamp/moodle/index.md
+                        href: scenarios/lamp/moodle/migration-overview.md
                       - name: Предварительные требования
                         href: scenarios/lamp/moodle/migration-pre.md
                       - name: Архитектура и шаблон
