@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 5fe9338002a8a1223ad64b81f884d70de9191161
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 2e7e13ee2fe02d0f720d5992a8d9d2881d0a28e4
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604296"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94880795"
 ---
 <!-- cSpell:ignore ONNX -->
 
@@ -39,7 +39,7 @@ ms.locfileid: "89604296"
 
 Azure предоставляет расширенные возможности машинного обучения. Создавайте, обучайте и развертывайте модели машинного обучения в облаке и на пограничных устройствах, используя Машинное обучение Azure. Ускорьте разработку моделей с помощью автоматизированного машинного обучения. Вы не ограничены в выборе средств и платформ.
 
-См. статьи [Что такое служба "Машинное обучение Microsoft Azure"?](/azure/machine-learning/overview-what-is-azure-ml) и [Руководство. Начало работы по созданию эксперимента Машинного обучения с помощью пакета SDK для Python](/azure/machine-learning/tutorial-1st-experiment-sdk-setup). Дополнительные сведения о формате модели с открытым кодом и среде выполнения для машинного обучения см. в документации по [ONNX Runtime](http://onnxruntime.ai).
+См. статьи [Что такое служба "Машинное обучение Microsoft Azure"?](/azure/machine-learning/overview-what-is-azure-ml) и [Руководство. Начало работы по созданию эксперимента Машинного обучения с помощью пакета SDK для Python](/azure/machine-learning/tutorial-1st-experiment-sdk-setup). Дополнительные сведения о формате модели с открытым кодом и среде выполнения для машинного обучения см. в документации по [среде выполнения ONNX](http://onnxruntime.ai).
 
 <!-- markdownlint-disable MD024 -->
 

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 82a6071b7c181acb7717333fcaaf97dcff174326
-ms.sourcegitcommit: 12fa4597633ca8e04efbae7d0bd7526d3581618e
+ms.openlocfilehash: 05a4ede5be2a69854da68071602571ae0367bad0
+ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/20/2020
-ms.locfileid: "88662444"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "94996678"
 ---
 <!-- cSpell:ignore MSPs -->
 
@@ -26,7 +26,7 @@ ms.locfileid: "88662444"
 
 ### <a name="microsoft-support"></a>Служба технической поддержки Майкрософт
 
-Корпорация Майкрософт предлагает план поддержки Basic для всех клиентов Azure. Предоставляется круглосуточный доступ к поддержке по выставлению счетов и подпискам, средства самообслуживания в Интернете, документация, технические документы и форумы поддержки.
+Корпорация Майкрософт предлагает план поддержки Basic для всех клиентов Azure. Вам предоставляется круглосуточный доступ к поддержке по выставлению счетов и подпискам, средства самообслуживания в Интернете, документация, технические документы и форумы поддержки.
 
 Если вам нужна помощь службы поддержки Майкрософт при использовании Azure, выполните следующие действия, чтобы отправить запрос на поддержку.
 

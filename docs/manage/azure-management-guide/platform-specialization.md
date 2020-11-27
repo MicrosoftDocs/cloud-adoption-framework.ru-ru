@@ -9,13 +9,15 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: bb9c39784714dfab8233598d5180d5b770b9402c
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.openlocfilehash: 2b575e6a6606f5d0a32695e2deb3b4f833ca6466
+ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604200"
+ms.lasthandoff: 11/18/2020
+ms.locfileid: "94880642"
 ---
+<!-- docutune:casing "SQL Server Health Check" -->
+
 # <a name="platform-specialization-for-cloud-management"></a>Специализация платформы для управления облаком
 
 Подобно расширенному базовому плану управления, специализация платформы является расширением стандартного базового плана управления. Ниже представлено изображение и список способов расширения базового плана управления. Эта статья посвящена вариантам специализации платформы.
