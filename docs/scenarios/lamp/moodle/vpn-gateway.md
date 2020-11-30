@@ -3,16 +3,16 @@ title: Создание шлюза виртуальной сети и подкл
 description: Создайте шлюз виртуальной сети, сертификаты и VPN, а затем подключитесь к экземплярам масштабируемых наборов виртуальных машин с помощью SSH, используя частный IP-адрес и пароль.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/23/2020
+ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 0f30f40a1204c52657868d56e22726b2ab23b4d2
-ms.sourcegitcommit: bd6104aaa0e0145dcb0f577107d2792bc5b48790
+ms.openlocfilehash: db82bc164af0cc6b34235d307bbcb36db2f53939
+ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96038359"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96327922"
 ---
 # <a name="create-a-virtual-network-gateway-and-connect-to-vms"></a>Создание шлюза виртуальной сети и подключение к виртуальным машинам
 
@@ -170,7 +170,7 @@ az network vnet-gateway create -g <moodle resource group> -n <new virtual networ
    sudo ssh <username>@<private IP address>
    ```
    
-   Например, `sudo ssh azureadmin@102.xx.xx.xx`
+   например `sudo ssh azureadmin@102.xx.xx.xx`
    
 1. В командной строке введите пароль.
 

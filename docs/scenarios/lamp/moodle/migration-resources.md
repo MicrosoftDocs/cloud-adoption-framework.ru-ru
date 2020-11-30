@@ -1,20 +1,20 @@
 ---
-title: Материалы по миграции Moodle
+title: Ресурсы для переноса Moodle
 description: Сведения о ресурсах, которые создает Moodle миграцию в Azure. К примерам относятся виртуальная сеть Azure, группа безопасности сети и подсеть.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/06/2020
+ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: cffcac0ca8b06608971637ed75aac1ba9cb3eff3
-ms.sourcegitcommit: 1d7b16eb710bed397280fb8f862912c78f2254ee
+ms.openlocfilehash: b42253b69dfaca4ca411e2de20b2527d58cb81ff
+ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95812164"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96327837"
 ---
-# <a name="moodle-migration-resources"></a>Материалы по миграции Moodle
+# <a name="moodle-migration-resources"></a>Ресурсы для переноса Moodle
 
 При использовании шаблона Azure Resource Manager (ARM) для миграции Moodle, развертывание создает ресурсы в Azure. В рамках этого процесса развертывания дополнительные развертывания автоматически выполняются через дочерние шаблоны. В следующих разделах описываются эти развертывания и созданные ими ресурсы.
 

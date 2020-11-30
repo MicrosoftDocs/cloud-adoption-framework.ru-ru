@@ -3,16 +3,16 @@ title: Обзор миграции Moodle вручную
 description: Ознакомьтесь с предварительными требованиями и общими действиями для ручного переноса Moodle из локальной среды в Azure.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/17/2020
+ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 3c08eb7786834fbe773168e9d420217a1706b32a
-ms.sourcegitcommit: 1d7b16eb710bed397280fb8f862912c78f2254ee
+ms.openlocfilehash: e3d34cfec94f42873ab109a4ab9cbdc4f3acfc8b
+ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/24/2020
-ms.locfileid: "95820078"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96327803"
 ---
 # <a name="overview-of-moodle-manual-migration"></a>Обзор миграции Moodle вручную
 

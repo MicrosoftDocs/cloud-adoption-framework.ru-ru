@@ -3,16 +3,16 @@ title: Дальнейшие действия после Moodle миграции
 description: Узнайте, как выполнить Moodle миграцию. См. статью Обновление путей к журналам, перезагрузка серверов и выполнение других действий, необходимых для завершения миграции.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/06/2020
+ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 7a358dbb8f05bcfd9625c7a8afdcba1f7b7890b1
-ms.sourcegitcommit: bd6104aaa0e0145dcb0f577107d2792bc5b48790
+ms.openlocfilehash: 4691a170d9eba47e9e4c0f581801d3561b8b93c8
+ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "96038414"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "96327786"
 ---
 # <a name="how-to-follow-up-after-a-moodle-migration"></a>Дальнейшие действия после Moodle миграции
 
