@@ -878,7 +878,7 @@ items:
                   - name: Управление данными
                     items:
                       - name: Классификация данных
-                        href: govern/policy-compliance/data-classification.md
+                        href: innovate/best-practices/data-classification.md
                       - name: Защита данных
                         href: /azure/architecture/data-guide/scenarios/securing-data-solutions?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
                       - name: Добавление заметок к данным с помощью Каталога данных
