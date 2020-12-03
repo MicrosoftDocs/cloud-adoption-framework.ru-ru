@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: 6131e1c8673bb877c556efb3f6e3d9f293d6b770
-ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
+ms.openlocfilehash: 4f1285ec3b25af2246941e37fbb45a6aec9e7307
+ms.sourcegitcommit: 78d54d02a863eaf498260f406edc4af81fea7c93
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95446799"
+ms.lasthandoff: 12/03/2020
+ms.locfileid: "96557524"
 ---
 # <a name="knowledge-mining"></a>Интеллектуальный анализ знаний
 
@@ -35,7 +35,7 @@ Azure Когнитивный поиск — это управляемое обл
 
   - [Акселератор решений интеллектуального анализа знаний](https://github.com/Azure-Samples/azure-search-knowledge-mining)
   - [Семинар по интеллектуальному анализу знаний](https://github.com/Azure-Samples/azure-search-knowledge-mining/tree/master/workshops)
-  - [Загрузка базы знаний Boot Camp](https://azure.github.io/LearnAI-KnowledgeMiningBootcamp/)
+  - [Загрузка базы знаний Boot Camp](https://github.com/MicrosoftLearning/LearnAI-KnowledgeMiningBootcamp)
   - [Электронная книга интеллектуального анализа знаний](https://azure.microsoft.com/resources/a-developers-guide-to-building-ai-driven-knowledge-mining-solutions/)
 
 - **Использование Power Skills. Служба "** [Поиск Azure](https://github.com/Azure-Samples/azure-search-power-skills) " предоставляет полезные функции, которые могут быть развернуты в качестве пользовательских навыков для Azure когнитивный Поиск. Навыки можно использовать в качестве [шаблонов](https://github.com/Azure-Samples/azure-search-power-skills/blob/master/Template/HelloWorld/README.md) или отправных точек для собственных навыков. Они также могут быть развернуты и использованы в том случае, если они соответствуют вашим требованиям. Мы также приглашаем вас присоединиться к вашей собственной работе, отправив [запрос на вытягивание](https://github.com/Azure-Samples/azure-search-power-skills/compare).
@@ -48,7 +48,7 @@ Azure Когнитивный поиск — это управляемое обл
   - [Советы и рекомендации по проектированию для искусственного интеллекта](/azure/search/cognitive-search-concept-troubleshooting)
   - [Полнотекстовый поиск](/azure/search/search-lucene-query-architecture)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Изучите другие категории решений искусственного интеллекта:
 
