@@ -1,19 +1,19 @@
 ---
 title: 'Программно-определяемая сеть: только PaaS'
 description: Узнайте о преимуществах и ограничениях модели, основанной только на PaaS, в программно-определяемой сети в облаке.
-author: rotycenh
+author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 9a3dae9463e68740178a3303e191470cd3dd6ac5
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: b61f6e2c877442824891c947df6e1cebaaad202b
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88573978"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605665"
 ---
 # <a name="software-defined-networking-paas-only"></a>Программно-определяемая сеть: только PaaS
 

@@ -7,18 +7,18 @@ ms.date: 03/03/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6ea44ec9861e92b6fda60be99c1b2aab0b413b47
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.openlocfilehash: c24f745d8be027d5284ab6c0d982c75f9e7d1107
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86235064"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605852"
 ---
 # <a name="workload-classification-before-migration"></a>Классификация рабочей нагрузки перед миграцией
 
 Во время каждой итерации любого процесса миграции одна или несколько рабочих нагрузок будут перенесены и переведены в рабочую среду. До любого из этих действий по миграции важно классифицировать каждую рабочую нагрузку. Классификация помогает уточнить требования к управлению, безопасности, эксплуатации и управления данными.
 
-Следующие рекомендации основаны на рекомендуемых требованиях к маркировке, описанных в [статье стандарты именования и добавления тегов](../../../ready/azure-best-practices/naming-and-tagging.md#metadata-tags) , путем добавления важных [операций](../../../manage/considerations/criticality.md#criticality-scale) [и элементов](../../../govern/guides/complex/prescriptive-guidance.md#resource-tagging) управления.
+Следующие рекомендации основаны на рекомендуемых требованиях к маркировке, описанных в статье [Определение стратегии тегов](../../../ready/azure-best-practices/resource-tagging.md) путем добавления важных [операций](../../../manage/considerations/criticality.md#criticality-scale) [и элементов](../../../govern/guides/complex/prescriptive-guidance.md#resource-tagging) управления.
 
 В этой статье мы специально рекомендуем добавить важность и чувствительность данных к существующим стандартам тегов. Каждая из этих точек данных поможет другим группам понять, какие рабочие нагрузки могут потребовать дополнительного внимания или поддержки.
 

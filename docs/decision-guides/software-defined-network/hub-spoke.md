@@ -1,19 +1,19 @@
 ---
 title: 'Программно-определяемая сеть: Центральная и периферийная'
 description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать, как в центральных и периферийных сетях организована сетевая инфраструктура в несколько подключенных виртуальных сетей.
-author: rotycenh
+author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 9b564c5e73afe2968b928c78a3cc1dd4b9ea3028
-ms.sourcegitcommit: 2c949c44008161e50b91ffd3f01f6bf32da2d4d2
+ms.openlocfilehash: 83cd8eb9f67a5fc390132baae67a2fb239414a9d
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94432590"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605614"
 ---
 # <a name="software-defined-networking-hub-and-spoke"></a>Программно-определяемая сеть: Центральная и периферийная
 
@@ -48,7 +48,7 @@ ms.locfileid: "94432590"
 
 Архитектуры HUB и периферийных серверов обычно реализуются с помощью виртуальных сетей, развернутых в одном регионе Azure, чтобы максимально сокращать задержку между сетями. Крупным организациям с глобальным присутствием может потребоваться развернуть рабочие нагрузки в нескольких регионах для обеспечения доступности, аварийного восстановления или нормативных требований. Модель "звезда" может использовать [глобальный пиринг виртуальных сетей](/azure/virtual-network/virtual-network-peering-overview) Azure для расширения централизованного управления и общих служб в регионах и поддержки рабочих нагрузок, распределенных по всему миру.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Справочные архитектуры, в которых показано, как реализовать центральную и периферийную сети в Azure, см. в следующих статьях:
 

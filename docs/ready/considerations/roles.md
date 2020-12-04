@@ -1,7 +1,7 @@
 ---
 title: Рекомендуемое управление доступом на основе ролей
 description: Узнайте, как разделить обязанности в команде и предоставить управление доступом на основе ролей, чтобы пользователи и группы могли выполнять свои задания.
-author: rotycenh
+author: alexbuckgit
 ms.author: brblanch
 ms.date: 11/28/2018
 ms.topic: conceptual
@@ -9,14 +9,14 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 manager: BrianBlanchard
 ms.custom: virtual-network
-ms.openlocfilehash: 081d8ccc5cce83cb93e1043d0aef8b8bbff8433b
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.openlocfilehash: c28fabb1f8514c0eee3ac2a6b9c21535775c2787
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997222"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605308"
 ---
-# <a name="role-based-access-control"></a>Управление доступом на основе ролей
+# <a name="role-based-access-control"></a>управление доступом на основе ролей;
 
 Рекомендуется использовать права и привилегии доступа на основе групп. Работа с группами, а не с отдельными пользователями, облегчает поддержку политик доступа, обеспечивает согласованное управление доступом между группами, а также способствует сокращению количества ошибок конфигурации. Назначение и удаление пользователей в соответствующих группах позволяет обеспечить актуальность привилегий определенного пользователя. [Управление доступом на основе ролей](/azure/role-based-access-control/overview) Azure помогает избирательно контролировать доступ к ресурсам c назначением определенных ролей пользователей.
 

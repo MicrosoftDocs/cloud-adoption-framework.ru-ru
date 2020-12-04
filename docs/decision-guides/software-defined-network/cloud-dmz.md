@@ -1,19 +1,19 @@
 ---
 title: 'Программно определяемые сети: облачная сеть периметра'
 description: Узнайте о архитектуре сети ДЕМИЛИТАРИЗОВАНной зоны облака, которая обеспечивает ограниченный доступ между локальными и облачными сетями с помощью VPN.
-author: rotycenh
+author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: db4d90e01a5564374cbd715f4cd6b94967224495
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: e2e22fc5b77aec9e0d07bb84d514ea940b1723ba
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884391"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605648"
 ---
 # <a name="software-defined-networking-cloud-dmz"></a>Программно определяемые сети: облачная сеть периметра
 
@@ -39,7 +39,7 @@ ms.locfileid: "88884391"
 - Подключение локальных сетей к облачным усложняет требования безопасности. Несмотря на то, что подключения между облачными сетями и локальной средой защищены, вам все равно нужно обеспечить защиту облачных ресурсов. Все общедоступные IP-адреса, созданные для доступа к облачным рабочим нагрузкам, должны быть надежно защищены с помощью [общедоступной](/azure/architecture/reference-architectures/dmz/secure-vnet-dmz?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) сети периметра или [брандмауэра Azure](/azure/firewall/overview).
 - Архитектура сети периметра в облаке обычно используется в качестве первого шага, в то время как подключение дополнительно защищено, а политика безопасности согласована между локальными и облачными сетями, что позволяет более широко внедрять полномасштабную архитектуру гибридных сетей. Он также может применяться к изолированным развертываниям с конкретными требованиями к безопасности, удостоверениям и подключениям, предъявляемым подходом к облачной сети периметра.
 
-## <a name="learn-more"></a>Подробнее
+## <a name="learn-more"></a>Дополнительные сведения
 
 Дополнительные сведения о реализации ДЕМИЛИТАРИЗОВАНной зоны в Azure см. в следующих статьях:
 

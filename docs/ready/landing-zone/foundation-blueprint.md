@@ -7,12 +7,12 @@ ms.date: 09/27/2019
 ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: bb8d2a7d77bb4ad6cc8ab0f3a391e7aeaa1a4fdd
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.openlocfilehash: ca41e563d3a1be57d8d8e27b15179dfe7a37b6b8
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713876"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605835"
 ---
 <!-- docutune:ignore "CAF Foundation blueprint" -->
 
@@ -31,7 +31,7 @@ ms.locfileid: "94713876"
 
 Этот вариант реализации обеспечивает упрямого подход к общим областям проектирования, общим для всех целевых зон Azure. Дополнительные технические сведения см. в приведенных ниже допущениях и решениях.
 
-### <a name="deployment-options"></a>Параметры развертывания
+### <a name="deployment-options"></a>Варианты развертывания
 
 Этот вариант реализации развертывает MVP, чтобы служить основой для ваших дисциплин управления. Группа будет следовать основанному на рефакторингу подходу к более зрелым дисциплинам управления с помощью [управляемой методологии](../../govern/index.md).
 
@@ -58,7 +58,7 @@ ms.locfileid: "94713876"
 - [Первоначальные подписки Azure](../azure-best-practices/initial-subscriptions.md). на этом этапе масштабирования внедрения для вашей операционной модели требуется две, три или четыре подписки?
 - [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md): как масштабирование внедрения, какие критерии будут использоваться для масштабирования подписки?
 - [Упорядочение подписок](../azure-best-practices/organize-subscriptions.md): как вы организуете подписки при масштабировании?
-- [Стандарты тегов](../azure-best-practices/naming-and-tagging.md#metadata-tags): какие другие критерии должны быть постоянно захвачены в тегах для расширения проекта подписки?
+- [Стандарты тегов](../azure-best-practices/resource-tagging.md): какие другие критерии должны быть постоянно захвачены в тегах для расширения проекта подписки?
 
 Чтобы помочь в этом сравнении, когда группы работают дальше вместе с внедрением в облаке, ознакомьтесь с разделом Управление шаблонов [руководства Руководство по руководству](../../govern/guides/complex/prescriptive-guidance.md#application-of-governance-defined-patterns) . В этом разделе в нормативных руководствах демонстрируется набор шаблонов на основе определенного описания и операционной модели. В этом руководстве также содержатся ссылки на другие шаблоны, которые следует учитывать.
 
@@ -100,7 +100,7 @@ ms.locfileid: "94713876"
 > [!div class="nextstepaction"]
 > [Развертывание примера схемы](/azure/governance/blueprints/samples/caf-foundation/deploy)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После развертывания первой целевой зоны вы можете расширить целевую зону.
 

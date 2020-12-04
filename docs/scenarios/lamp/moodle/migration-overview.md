@@ -7,16 +7,16 @@ ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: e3d34cfec94f42873ab109a4ab9cbdc4f3acfc8b
-ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
+ms.openlocfilehash: 659c1a151bd1f6d908737c6be5ab0177f361b2f1
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96327803"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605427"
 ---
 # <a name="overview-of-moodle-manual-migration"></a>Обзор миграции Moodle вручную
 
-[Moodle](https://moodle.org/) — это бесплатная система управления обучением с открытым исходным кодом, написанная на PHP. В этом руководство объясняется, как перенести приложение Moodle из локальной среды в Azure. В этом руководстве описаны два разных подхода, которые используют портал Azure или интерфейс командной строки Azure (Azure CLI).
+[Moodle](https://moodle.org/) — это бесплатная система управления обучением с открытым исходным кодом, написанная на PHP. В этом руководство объясняется, как перенести развертывание Moodle из локальной среды в Azure. В этом руководстве описаны два разных подхода, которые используют портал Azure или интерфейс командной строки Azure (Azure CLI).
 
 ## <a name="prerequisites"></a>Предварительные требования
 

@@ -1,19 +1,19 @@
 ---
 title: 'Программно определяемая сеть: Гибридная сеть'
 description: Используйте платформу внедрения облаков для Azure, чтобы узнать, как гибридные сети могут подключать облачные виртуальные сети к локальным ресурсам.
-author: rotycenh
+author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 38f0a66e9a5aa1b9adf0a232e3cb37f27ae96459
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.openlocfilehash: d7d05824e471e173a10305636754a9ef948eb17f
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88574012"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605631"
 ---
 # <a name="software-defined-networking-hybrid-network"></a>Программно определяемая сеть: Гибридная сеть
 
