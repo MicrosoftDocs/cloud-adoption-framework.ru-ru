@@ -1,19 +1,19 @@
 ---
 title: Руководство по принятию решений о ведении журналов и создании отчетов
 description: Разработайте основную стратегию ведения журналов, создания отчетов и мониторинга, чтобы обеспечить соответствие вашей организации требованиям, предъявляемым к времени доступности, безопасности и соблюдению политик.
-author: rotycenh
+author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: 83487c086061cde929b318d44e4ad399d43ed8d6
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 354425583022ca5bea49d23da8768bb40212033c
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88881790"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605546"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Руководство по принятию решений о ведении журналов и создании отчетов
 

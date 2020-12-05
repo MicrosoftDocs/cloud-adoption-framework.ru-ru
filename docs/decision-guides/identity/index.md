@@ -1,19 +1,19 @@
 ---
 title: Руководство по принятию решений о системе идентификации
 description: Узнайте, как службы управления идентификацией и доступом (IAM) позволяют контролировать управление доступом в облаке.
-author: rotycenh
+author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: c6f8bd83e9d58e2ed8df3339329c7d41c1ca35b8
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: 95871126f39751bade70e81790ec9ae81519b661
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88881875"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605529"
 ---
 # <a name="identity-decision-guide"></a>Руководство по принятию решений о системе идентификации
 

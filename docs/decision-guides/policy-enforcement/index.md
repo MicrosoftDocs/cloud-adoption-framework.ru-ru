@@ -1,19 +1,19 @@
 ---
 title: Руководство по принудительному применению политик
 description: Используя Cloud Adoption Framework для Azure, узнайте о подписках с принудительным применением политик в качестве основного приоритета при миграции в Azure.
-author: rotycenh
+author: alexbuckgit
 ms.author: abuck
 ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: governance
-ms.openlocfilehash: e90acc824745f947972593ea97c59cf8c8c77a86
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.openlocfilehash: d283f5fd747f15065305d91fa7d7b822d46046a7
+ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88881654"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "96605325"
 ---
 # <a name="policy-enforcement-decision-guide"></a>Руководство по принудительному применению политик
 
