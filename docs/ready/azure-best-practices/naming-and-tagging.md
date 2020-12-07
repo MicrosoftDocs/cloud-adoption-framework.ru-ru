@@ -3,17 +3,17 @@ title: Разработка стратегии именования и марк�
 description: Ознакомьтесь с обзором стратегии именования и маркировки ресурсов для корпоративных облачных операций по внедрению.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/20/2020
+ms.date: 12/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit, internal
-ms.openlocfilehash: 2703d6480d37f0e566602f10a4d71eb58d47666d
-ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
+ms.openlocfilehash: f270e366cf180728ac52e8ad90dfa6e7cb1ab051
+ms.sourcegitcommit: 5df186dd1fe56852126bab3d18c7d8b7864c08ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96605801"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96772503"
 ---
 # <a name="develop-your-naming-and-tagging-strategy-for-azure-resources"></a>Разработка стратегии именования и маркировки для ресурсов Azure
 
@@ -23,7 +23,7 @@ ms.locfileid: "96605801"
 
 - [Определение соглашения об именовании](./resource-naming.md)
 - [Рекомендуемые сокращения для типов ресурсов Azure](./resource-abbreviations.md)
-- [Определение стратегии тегов](./resource-tagging.md)
+- [Определение стратегии добавления тегов](./resource-tagging.md)
 - [Руководство по именованию ресурсов и присвоению тегов](../../decision-guides/resource-tagging/index.md)
 
 > [!NOTE]

@@ -3,17 +3,17 @@ title: Рекомендуемые сокращения для типов рес�
 description: Ознакомьтесь с рекомендуемыми сокращениями, которые следует использовать для различных типов ресурсов Azure при именовании ресурсов и активов.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/20/2020
+ms.date: 12/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit, internal
-ms.openlocfilehash: dbdc224f227321d4c0c576e0ac3ae7c113b6926b
-ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
+ms.openlocfilehash: 1c93f83a1a5a7f55d13d8486e03c12a7954ddddd
+ms.sourcegitcommit: 5df186dd1fe56852126bab3d18c7d8b7864c08ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96611050"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96772469"
 ---
 # <a name="recommended-abbreviations-for-azure-resource-types"></a>Рекомендуемые сокращения для типов ресурсов Azure
 
@@ -149,7 +149,7 @@ ms.locfileid: "96611050"
 |--|--|
 | Учетная запись интеграции | `ia-` |
 | приложениях логики. | `logic-` |
-| Служебная шина | `sb-` |
+| Cлужебная шина | `sb-` |
 | Очередь служебной шины | `sbq-` |
 | Раздел служебной шины | `sbt-` |
 
@@ -178,4 +178,4 @@ ms.locfileid: "96611050"
 Ознакомьтесь с рекомендациями по маркировке ресурсов и активов Azure.
 
 > [!div class="nextstepaction"]
-> [Определение стратегии тегов](./resource-tagging.md)
+> [Определение стратегии добавления тегов](./resource-tagging.md)

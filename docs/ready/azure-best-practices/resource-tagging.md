@@ -1,21 +1,21 @@
 ---
-title: Определение стратегии тегов
+title: Определение стратегии добавления тегов
 description: Ознакомьтесь с рекомендациями по маркировке ресурсов и активов Azure.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/20/2020
+ms.date: 12/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit, internal
-ms.openlocfilehash: 702de6bd1548e20f39800fbc7201b1ecd2cf65cf
-ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
+ms.openlocfilehash: b59c0d163fb215ac77149f5c0dfedd32b8313f22
+ms.sourcegitcommit: 5df186dd1fe56852126bab3d18c7d8b7864c08ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96611055"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96772452"
 ---
-# <a name="define-your-tagging-strategy"></a>Определение стратегии тегов
+# <a name="define-your-tagging-strategy"></a>Определение стратегии добавления тегов
 
 При применении тегов метаданных к облачным ресурсам можно включить сведения о ресурсах, которые не удалось включить в имя ресурса. Эти сведения можно использовать для выполнения более сложной фильтрации и составления отчетов по ресурсам. Вы хотите, чтобы эти теги включали контекст о связанной рабочей нагрузке ресурса или приложении, операционных требованиях и сведениях о владельце. Эти сведения могут использоваться ИТ или бизнес-группами для поиска ресурсов или создания отчетов об использовании ресурсов и выставлении счетов.
 

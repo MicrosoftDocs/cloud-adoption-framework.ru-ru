@@ -3,17 +3,17 @@ title: Определение соглашения об именовании
 description: Сведения о том, как переименовывать ресурсы и активы Azure, а также ознакомиться с примерами имен ресурсов и активов в Azure.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 11/20/2020
+ms.date: 12/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: readiness, fasttrack-edit, internal
-ms.openlocfilehash: 805fd4c879be86b588fe999cf2644e66f65b10d5
-ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
+ms.openlocfilehash: 6c600d57ca14610e16747565a2a4536d31a4d150
+ms.sourcegitcommit: 5df186dd1fe56852126bab3d18c7d8b7864c08ce
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96611060"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "96772520"
 ---
 # <a name="define-your-naming-convention"></a>Определение соглашения об именовании
 
@@ -45,12 +45,12 @@ _Схема 2. уровни области для имен ресурсов Azur
 
 | Компонент именования | Описание |
 |--|--|--|
-| **Тип ресурса** | Сокращение, представляющее тип ресурса или актива Azure. Этот компонент является префиксом или суффиксом для имени. Дополнительные сведения см. в статье [Рекомендуемые сокращения для типов ресурсов Azure](./resource-abbreviations.md). Примеры: `rg`, `vm` |
+| **Тип ресурса** | Сокращение, представляющее тип ресурса или актива Azure. Этот компонент часто используется в качестве префикса или суффикса в имени. Дополнительные сведения см. в статье [Рекомендуемые сокращения для типов ресурсов Azure](./resource-abbreviations.md). Примеры: `rg`, `vm` |
 | **Подразделение** | Подразделение высшего уровня компании, которому принадлежит подписка или рабочая нагрузка, к которой принадлежит ресурс. В небольших организациях этот компонент может представлять собой единый корпоративный организационный элемент верхнего уровня. Примеры: `fin` , `mktg` , `product` , `it` , `corp` |
-| **Тип подписки** | Краткое описание назначения подписки, содержащей ресурс. Часто разбивается по типу среды развертывания или конкретным рабочим нагрузкам. Примеры: `prod` , `shared` , `client` |
 | **Название приложения или службы** | Имя приложения, рабочей нагрузки или службы, частью которой является ресурс. Примеры: `navigator` , `emissions` , `sharepoint` , `hadoop` |
+| **Тип подписки** | Краткое описание назначения подписки, содержащей ресурс. Часто разбивается по типу среды развертывания или конкретным рабочим нагрузкам. Примеры: `prod` , `shared` , `client` |
 | **&nbsp;Среда развертывания** | Этап жизненного цикла разработки для рабочей нагрузки, поддерживаемой ресурсом. Примеры: `prod` , `dev` , `qa` , `stage` , `test` |
-| **Регион** | Регион Azure, в котором развернут ресурс. Примеры: `westus` , `eastus2` , `westeurope` , `usgovia` |
+| **Регион** | Регион Azure, в котором развернут ресурс. Примеры: `westus` , `eastus2` , `westeu` , `usva` , `ustx` |
 
 ## <a name="example-names-for-common-azure-resource-types"></a>Примеры имен для общих типов ресурсов Azure
 
@@ -78,25 +78,25 @@ _Схема 2. уровни области для имен ресурсов Azur
 |--|--|--|
 | **группа управления;** | Бизнес-единица и/или <br> тип среды | _MG- \<business unit> [- \<environment type> ]_ <br><br> <li> `mg-mktg` <li> `mg-hr` <li> `mg-corp-prod` <li> `mg-fin-client` |
 | **Подписка** | Соглашение об учетной записи или предприятии | _\<business&nbsp;unit>-\<subscription&nbsp;type>-\<###>_ <br><br> <li> `mktg-prod-001` <li> `corp-shared-001` <li> `fin-client-001` |
-| **Группа ресурсов** | Подписка | _RG — \<app&nbsp;or&nbsp;service&nbsp;name> Тип подписки <&nbsp;> —\<###>_ <br><br> <li> `rg-mktgsharepoint-prod-001` <li> `rg-acctlookupsvc-share-001` <li> `rg-ad-dir-services-shared-001` |
+| **Группа ресурсов** | Подписка | _RG — \<app&nbsp;or&nbsp;service&nbsp;name> Тип подписки <&nbsp;> —\<###>_ <br><br> <li> `rg-mktgsharepoint-prod-001` <li> `rg-acctlookupsvc-shared-001` <li> `rg-ad-dir-services-shared-001` |
 | **Экземпляр службы управления API** | Глобальный | _apim\<app&nbsp;or&nbsp;service&nbsp;name>_ <br><br> `apim-navigator-prod` |
-| **Управляемое удостоверение** | Группа ресурсов | _удостоверения\<app&nbsp;or&nbsp;service&nbsp;name>_ <br><br> <li> `id-appcn-keda-prod-eus-001` |
+| **Управляемое удостоверение** | Группа ресурсов | _удостоверения\<app&nbsp;or&nbsp;service&nbsp;name>_ <br><br> <li> `id-appcn-keda-prod-eastus2-001` |
 
 ## <a name="example-names-networking"></a>Примеры имен: Сетевые подключения
 
 | Тип ресурса | Область | Формат и примеры |
 |--|--|--|
-| **Виртуальная сеть** | Группа ресурсов | _региональной\<subscription&nbsp;type>-\<region>\<###>_ <br><br> <li> `vnet-shared-eastus2-001` <li> `vnet-prod-westus-001` <li> `vnet-client-eastus2-001` |
-| **Подсеть** | Виртуальная сеть | _snet-\<subscription>-\<subregion>-\<###>_ <br><br> <li> `snet-shared-eastus2-001` <li> `snet-prod-westus-001` <li> `snet-client-eastus2-001` |
+| **Виртуальная сеть** | Группа ресурсов | _региональной\<subscription&nbsp;type>-\<region>-\<###>_ <br><br> <li> `vnet-shared-eastus2-001` <li> `vnet-prod-westus-001` <li> `vnet-client-eastus2-001` |
+| **Подсеть** | Виртуальная сеть | _snet-\<subscription>-\<region>-\<###>_ <br><br> <li> `snet-shared-eastus2-001` <li> `snet-prod-westus-001` <li> `snet-client-eastus2-001` |
 | **Сетевой интерфейс (NIC)** | Группа ресурсов | _Сетевая карта-< # # >-\<vm&nbsp;name>-\<subscription>-\<###>_ <br><br> <li> `nic-01-dc1-shared-001` <li> `nic-02-vmhadoop1-prod-001` <li> `nic-02-vmtest1-client-001` |
-| **Общедоступный IP-адрес** | Группа ресурсов | _показывает\<vm&nbsp;name&nbsp;or&nbsp;app&nbsp;name>-\<environment>-\<subregion>-\<###>_ <br><br> <li> `pip-dc1-shared-eastus2-001` <li> `pip-hadoop-prod-westus-001` |
-| **Подсистема балансировки нагрузки** | Группа ресурсов | _LB\<app&nbsp;name&nbsp;or&nbsp;role><environment>\<###>_ <br><br> <li> `lb-navigator-prod-001` <li> `lb-sharepoint-dev-001` |
+| **Общедоступный IP-адрес** | Группа ресурсов | _показывает\<vm&nbsp;name&nbsp;or&nbsp;app&nbsp;name>-\<environment>-\<region>-\<###>_ <br><br> <li> `pip-dc1-shared-eastus2-001` <li> `pip-hadoop-prod-westus-001` |
+| **Подсистема балансировки нагрузки** | Группа ресурсов | _LB\<app&nbsp;name&nbsp;or&nbsp;role>-<environment>-\<###>_ <br><br> <li> `lb-navigator-prod-001` <li> `lb-sharepoint-dev-001` |
 | **Группа безопасности сети (NSG)** | Подсеть или сетевая карта | _NSG\<policy&nbsp;name&nbsp;or&nbsp;app&nbsp;name>-\<###>_ <br><br> <li> `nsg-weballow-001` <li> `nsg-rdpallow-001` <li> `nsg-sqlallow-001` <li> `nsg-dnsblocked-001` |
 | **Шлюз локальной сети** | Виртуальный шлюз | _лгв —\<subscription&nbsp;type>-\<region>-\<###>_ <br><br> <li> `lgw-shared-eastus2-001` <li> `lgw-prod-westus-001` <li> `lgw-client-eastus2-001` |
 | **Шлюз виртуальной сети** | Виртуальная сеть | _ВГВ —\<subscription&nbsp;type>-\<region>-\<###>_ <br><br> <li> `vgw-shared-eastus2-001` <li> `vgw-prod-westus-001` <li> `vgw-client-eastus2-001` |
 | **Шлюз виртуальной сети** | Виртуальная сеть | _ВГВ —\<subscription&nbsp;type>-\<region>-\<###>_ <br><br> <li> `vgw-shared-eastus2-001` <li> `vgw-prod-westus-001` <li> `vgw-client-eastus2-001` |
-| **Подключение "сеть — сеть"** | Группа ресурсов | _CN- \<local&nbsp;gateway&nbsp;name> -to-\<virtual&nbsp;gateway&nbsp;name>_ <br><br> <li> `cn-lgw-shared-eastus2-001-to-vgw-shared-eastus2-001` <li> `cn-lgw-shared-eastus2-001-to-shared-westus-001` |
-| **VPN-подключение** | Группа ресурсов | _CN- \<subscription1> \<region1> -to-\<subscription2>\<region2>-_ <br><br> <li> `cn-shared-eastus2-to-shared-westus` <li> `cn-prod-eastus2-to-prod-westus` |
+| **Подключение "сеть — сеть"** | Группа ресурсов | _CN- \<local&nbsp;gateway&nbsp;name> -to-\<virtual&nbsp;gateway&nbsp;name>_ <br><br> <li> `cn-lgw-shared-eastus2-001-to-vgw-shared-eastus2-001` <li> `cn-lgw-shared-eastus2-001-to-vgw-shared-westus-001` |
+| **VPN-подключение** | Группа ресурсов | _CN- \<subscription1> - \<region1> -to-\<subscription2>-\<region2>-_ <br><br> <li> `cn-shared-eastus2-to-shared-westus` <li> `cn-prod-eastus2-to-prod-westus` |
 | **Таблица маршрутов** | Группа ресурсов | _направлены\<route&nbsp;table&nbsp;name>_ <br><br> <li> `route-navigator` <li> `route-sharepoint` |
 | **Метка DNS** | Глобальный | _\<DNS&nbsp;A&nbsp;record&nbsp;for&nbsp;VM>.\<region>. cloudapp.azure.com_ <br><br> <li> `dc1.westus.cloudapp.azure.com` <li> `web1.eastus2.cloudapp.azure.com` |
 
@@ -108,9 +108,9 @@ _Схема 2. уровни области для имен ресурсов Azur
 | **Учетная запись хранения виртуальных машин** | Глобальный | _stvm\<performance type>\<app name or prod name>\<region>\<###>_ <br><br> <li> `stvmstcoreeastus2001` <li> `stvmpmcoreeastus2001` <li> `stvmstplmeastus2001` <li> `stvmsthadoopeastus2001` |
 | **Веб-приложение** | Глобальный | _App- \<app name> - \<environment> - \<###> . azurewebsites.NET_ <br><br> <li> `app-navigator-prod-001.azurewebsites.net` <li> `app-accountlookup-dev-001.azurewebsites.net` |
 | **Приложение-функция** | Глобальный | _Func- \<app name> - \<environment> - \<###> . azurewebsites.NET_ <br><br> <li> `func-navigator-prod-001.azurewebsites.net` <li> `func-accountlookup-dev-001.azurewebsites.net` |
-| **Облачная служба** | Глобальный | _возможно \<app name> - \<environment> - \<###> , cloudapp.NET}_ <br><br> <li> `cld-navigator-prod-001.azurewebsites.net` <li> `cld-accountlookup-dev-001.azurewebsites.net` |
-| **Концентратор уведомлений** | Группа ресурсов | _NTF\<app name>-\<environment>_ <br><br> <li> `ntf-navigator-prod` <li> `ntf-emissions-dev` |
+| **облачная служба** | Глобальный | _возможно \<app name> - \<environment> - \<###> , cloudapp.NET}_ <br><br> <li> `cld-navigator-prod-001.azurewebsites.net` <li> `cld-accountlookup-dev-001.azurewebsites.net` |
 | **Пространство имен концентраторов уведомлений** | Глобальный | _нтфнс —\<app name>-\<environment>_ <br><br> <li> `ntfns-navigator-prod` <li> `ntfns-emissions-dev` |
+| **Концентратор уведомлений** | Пространство имен концентраторов уведомлений | _NTF\<app name>-\<environment>_ <br><br> <li> `ntf-navigator-prod` <li> `ntf-emissions-dev` |
 
 ## <a name="example-names-databases"></a>Примеры имен: базы данных
 
@@ -155,15 +155,15 @@ _Схема 2. уровни области для имен ресурсов Azur
 | **HDInsight — кластер Hadoop** | Глобальный | _Hadoop\<app name>-\<environment>_ <br><br> <li> `hadoop-navigator-prod` <li> `hadoop-emissions-dev` |
 | **HDInsight — кластер Spark** | Глобальный | _Spark\<app name>-\<environment>_ <br><br> <li> `spark-navigator-prod` <li> `spark-emissions-dev` |
 | **Центр Интернета вещей** | Глобальный | _IOT\<app name>-\<environment>_ <br><br> <li> `iot-navigator-prod` <li> `iot-emissions-dev` |
-| **Что такое Power BI Embedded в Azure?** | Глобальный | _PBI\<app Name>\<environment>_ <br><br> <li> `pbi-navigator-prod` <li> `pbi-emissions-dev` |
+| **Что такое Power BI Embedded в Azure?** | Глобальный | _PBI\<app name>-\<environment>_ <br><br> <li> `pbi-navigator-prod` <li> `pbi-emissions-dev` |
 
 ## <a name="example-names-integration"></a>Примеры имен: интеграция
 
 | Тип ресурса | Область | Формат и примеры|
 |--|--|--|
 | **Служебная шина** | Глобальный | _SB- \<app name> - \<environment> . servicebus.Windows.NET_ <br><br> <li> `sb-navigator-prod` <li> `sb-emissions-dev` |
-| **Очередь служебной шины** | Служебная шина | _sbq-\<query descriptor>_ <br><br> <li> `sbq-messagequery` |
-| **Раздел служебной шины** | Служебная шина | _SBT\<query descriptor>_ <br><br> <li> `sbt-messagequery` |
+| **Очередь служебной шины** | Cлужебная шина | _sbq-\<query descriptor>_ <br><br> <li> `sbq-messagequery` |
+| **Раздел служебной шины** | Cлужебная шина | _SBT\<query descriptor>_ <br><br> <li> `sbt-messagequery` |
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
