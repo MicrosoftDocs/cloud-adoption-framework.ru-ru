@@ -311,6 +311,12 @@ items:
                 href: ready/azure-best-practices/organize-subscriptions.md
               - name: Именование и присвоение тегов
                 href: ready/azure-best-practices/naming-and-tagging.md
+              - name: Определение соглашения об именовании
+                href: ready/azure-best-practices/resource-naming.md
+              - name: Сокращения для типов ресурсов
+                href: ready/azure-best-practices/resource-abbreviations.md
+              - name: Определение стратегии добавления тегов
+                href: ready/azure-best-practices/resource-tagging.md
               - name: Перемещение ресурсов
                 href: /azure/azure-resource-manager/management/move-resource-group-and-subscription?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: Сеть
