@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: dd10212e506550a641c01481983bc42703887f19
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.custom: internal
+ms.openlocfilehash: 84aff9b90a3c281be00801bfc94d4c58254aabde
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90774346"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013252"
 ---
 # <a name="how-to-use-the-business-outcome-template"></a>Использование шаблона результата бизнеса
 

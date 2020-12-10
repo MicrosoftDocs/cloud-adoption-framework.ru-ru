@@ -7,12 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: f841854558e297c61645c518d1d42cf415b3124b
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 624a73a649e85362355757574dc1d1391297948d
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997256"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013473"
 ---
 # <a name="improve-landing-zone-governance"></a>Оптимизация управления целевыми зонами
 

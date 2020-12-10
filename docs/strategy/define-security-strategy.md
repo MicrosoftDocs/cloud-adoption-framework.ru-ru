@@ -2,17 +2,18 @@
 title: Определение стратегии безопасности
 description: Используйте платформу внедрения облачных технологий для Azure, чтобы научиться создавать обоснование для миграции в облако.
 author: MarkSimos
-ms.author: mas
+ms.author: brblanch
 ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: e6a5665cb5b1cb2859b999e8e225a9052db72e2a
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank
+ms.openlocfilehash: 13f99181a2ddd096c540a4e5ce804de1ac47da67
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996933"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97012998"
 ---
 <!-- cSpell:ignore NIST CISO COVID -->
 

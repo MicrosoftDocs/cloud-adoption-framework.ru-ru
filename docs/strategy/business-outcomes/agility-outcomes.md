@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 183c2a8ef8df5f72c51820c7a8ac7d593805f866
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 43a25396d4d866489b61df04784023f10dfef34f
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94994400"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97012249"
 ---
 # <a name="examples-of-agility-outcomes"></a>Примеры результатов гибкости
 

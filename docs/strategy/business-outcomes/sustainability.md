@@ -2,18 +2,18 @@
 title: Результаты устойчивости и преимущества для бизнеса
 description: Узнайте, как инфраструктура внедрения в облаке и облачные вычисления могут помочь вам сократить выбросы выбросов, использовать ресурсы более эффективно и уменьшить объем окружающей среды.
 author: wayneme75
-ms.author: wayneme
+ms.author: brblanch
 ms.date: 10/21/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: think-tank
-ms.openlocfilehash: 1e1a9ba6b40baab411c8ddb0d88711c86fb31be3
-ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
+ms.openlocfilehash: 1ef8346bd63fe9d0f47dd1351f088f47e529bbaa
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95447169"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97012895"
 ---
 <!-- docutune:casing AGL WSP -->
 <!-- cSpell:ignore AGL Bee'ah WSP -->
@@ -45,7 +45,7 @@ ms.locfileid: "95447169"
 
 В этих пользовательских историях показано, как приоритизация и решения на окружающую среду могут помочь организациям в создании новых бизнес-возможностей.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Преднамеренный подход помогает организациям перемещаться по пути устойчивости. Эти четыре шага могут повлиять на результаты вашей компании:
 

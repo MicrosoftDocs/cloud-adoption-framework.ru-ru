@@ -7,12 +7,13 @@ ms.date: 05/15/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 5008cd58cc8c15291671a02b269891b6278d0470
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 1a3073ff71cc3dfee726249d7ec5dbcdb710abac
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997290"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013609"
 ---
 # <a name="review-your-data-options"></a>Проверка параметров данных
 

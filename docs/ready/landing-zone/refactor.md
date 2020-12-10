@@ -7,12 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 4369a61349622def7733101f59db166fd175d29c
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: cbcf8501788944a51f1dcae99f21e8dbad1dc931
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997103"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013439"
 ---
 # <a name="refactor-landing-zones"></a>Рефакторинг целевых зон
 

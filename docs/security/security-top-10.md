@@ -2,17 +2,18 @@
 title: Рекомендации по обеспечению безопасности в Azure
 description: Узнайте, что корпорация Майкрософт рекомендует в качестве лучших рекомендаций по обеспечению безопасности в Azure.
 author: JanetCThomas
-ms.author: mas
+ms.author: brblanch
 ms.date: 09/18/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.openlocfilehash: 7031a8feb3b034b394e7c437e58f5aca3189a23f
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 254975d16c19626881dcc872517b1af58a2998fd
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996984"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013286"
 ---
 # <a name="azure-security-best-practices"></a>Рекомендации по обеспечению безопасности в Azure
 
@@ -111,7 +112,7 @@ _Люди должны понимать, где они намерены._
 | Управление сетью | Выделение виртуальной сети и подсети корпоративного уровня  | _Существующая группа работы с сетью в [Центральной ИТ эксплуатации](../organize/central-it.md)_ |
 | Безопасность конечных точек сервера | Мониторинг и исправление безопасности сервера (установка исправлений, Настройка, безопасность конечной точки и т. д.)  | _Как правило, [централизованные ИТ](../organize/central-it.md) и группы [управления инфраструктурой и конечными](../organize/cloud-security-infrastructure-endpoint.md) группами могут совместно взаимодействовать_ |
 | Мониторинг и реагирование на инциденты | Изучите и исправьте инциденты безопасности в SIEM или исходной консоли (центр безопасности Azure, защита идентификации Azure AD и т. д.). | _Обычно группа " [операции безопасности](../organize/cloud-security-operations-center.md) "_ |
-| Управление политикой | Настройка направления для использования управления доступом на основе ролей (RBAC), центра безопасности Azure, стратегии защиты администратора и политики Azure для управления ресурсами Azure | _Обычно группы архитектуры безопасности [, связанные с политиками и стандартами,](../organize/cloud-security-policy-standards.md)  +  [Security Architecture](../organize/cloud-security-architecture.md) совместно_ |
+| Управление политикой | Настройка направления для использования управления доступом на основе ролей (RBAC), центра безопасности Azure, стратегии защиты администратора и политики Azure для управления ресурсами Azure | _Обычно группы архитектуры безопасности [, связанные с политиками и стандартами,](../organize/cloud-security-policy-standards.md)  +  [](../organize/cloud-security-architecture.md) совместно_ |
 | Безопасность и стандарты идентификации | Задать направление для каталогов Azure AD, использования PIM/PAM, MFA, конфигурации паролей и синхронизации, стандартов удостоверений приложений | _Обычно группы по [управлению удостоверениями, политикой управления ключами](../organize/cloud-security-identity-keys.md)  +  [и](../organize/cloud-security-policy-standards.md)  +  [архитектурой безопасности](../organize/cloud-security-architecture.md) стандартов совместно_  |
 
 > [!NOTE]

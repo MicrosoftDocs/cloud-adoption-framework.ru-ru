@@ -7,12 +7,13 @@ ms.date: 05/20/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 603b4351eb312fd95726ca2539c2bcbca4a64c9b
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: db862e0329769f4093e1cd71f302e31f2aad01af
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995131"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013524"
 ---
 # <a name="azure-fundamental-concepts"></a>Основные понятия Azure
 

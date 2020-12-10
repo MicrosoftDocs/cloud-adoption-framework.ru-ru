@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 3102bbef6c856dd5fdb7a814b74f03dc40b1363a
-ms.sourcegitcommit: c1d6c1c777475f92a3f8be6def84f1779648a55c
+ms.custom: think-tank
+ms.openlocfilehash: 6cd6c05e390275bf52f4b39dc3f2d901117cdb46
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92334720"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97014646"
 ---
 <!-- docutune:casing Lakeside SysTrack -->
 <!-- cSpell:ignore msiexec Logix Robocopy UPDs -->
@@ -83,7 +84,7 @@ RDS развертывается в локальном центре обрабо
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Рассматриваемый вопрос | Сведения |
+| Оценка | Подробнее |
 | --- | --- |
 | **Преимущества** | Многосеансовая среда Windows 10 Корпоративная. <br><br> На основе облака, разрешая доступ из любого места. <br><br> Воспользуйтесь другими службами Azure, такими как файлы Azure, в среде виртуальных рабочих столов Windows. <br><br> Оптимизировано для современных настольных систем Майкрософт. |
 | **Недостатки** | Чтобы полностью оптимизировать Azure, Contoso придется перестроить образы Windows 10, оптимизированные для многопользовательских сеансов. <br><br> Виртуальный рабочий стол Windows не поддерживает диски профилей пользователей, поэтому диски UPD необходимо перенести в контейнеры профилей Фслогикс. |
@@ -129,7 +130,7 @@ Contoso переместит виртуальные машины в виртуа
    ![Снимок экрана, на котором показано, как создать проект службы "миграция Azure". ](./media/contoso-migration-rds-to-wvd/new-azure-migrate.png)
     _Рис. 3. Создание нового проекта службы "миграция Azure"._
 
-1. Выберите параметр для оценки и миграции серверов, выберите **VDI**и добавьте средство.
+1. Выберите параметр для оценки и миграции серверов, выберите **VDI** и добавьте средство.
 
    ![Снимок экрана, показывающий цели миграции Azure в VDI.](./media/contoso-migration-rds-to-wvd/azure-migrate-goals-vdi.png)
 

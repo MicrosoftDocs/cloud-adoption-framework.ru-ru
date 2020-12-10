@@ -7,12 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 572e14e1b5fb06662e37eeb16566f69cb0372a55
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: internal
+ms.openlocfilehash: 663a0cff69da166445ce1eac52043943d6b00243
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713893"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013456"
 ---
 # <a name="improve-landing-zone-operations"></a>Оптимизация операций с целевыми зонами
 
@@ -51,7 +52,7 @@ ms.locfileid: "94713893"
 ![Процесс разработки на основе тестирования для облачных целевых зон ](../../_images/ready/test-driven-development-process.png)
  _рис. 2. процесс разработки на основе тестирования для облачных зон в облаке._
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как [улучшить управление главной зоной](./landing-zone-governance.md) для поддержки внедрения в масштабе.
 

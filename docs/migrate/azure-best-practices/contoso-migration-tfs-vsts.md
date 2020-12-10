@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: df88116b3e3041e68a183fa1586dede6e36ac63c
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: internal
+ms.openlocfilehash: 765b52e99fdac45002f1569f7b642b01a096e7db
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713519"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97014493"
 ---
 <!-- cSpell:ignore contosodev contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring smarthotelcontainer identitymaplog CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME sqlpackage SSDT azuredevopsmigration validateonly ImportType -->
 
@@ -36,7 +37,7 @@ ms.locfileid: "94713519"
 - Данные рабочих элементов и история за последний год должны быть перенесены.
 - Команда разработчиков не хочет создавать новые имена пользователей и пароли. Все текущие системные назначения должны быть сохранены.
 - Они хотят отказаться от Team Foundation Version Control (TFVC) в пользу Git для управления версиями.
-- Переход в Git будет переходом TIP, который импортирует только последнюю версию исходного кода. Переход будет происходить во время простоя, когда вся работа будет остановлена по мере сдвига базы кода. Команда понимает, что после перемещения будет доступна только текущая история главной ветви.
+- Переход в Git будет переходом TIP, который импортирует только последнюю версию исходного кода. Переход будет происходить во время простоя, когда вся работа будет остановлена по мере сдвига базы кода. Команда понимает, что после перемещения будет доступен только текущий основной журнал ветвей.
 - Группа заинтересована в изменении и хочет протестировать ее перед полным перемещением. Группа хочет хранить доступ к Team Foundation Server даже после перехода на Azure DevOps Services.
 - Группа имеет несколько коллекций и, чтобы лучше понять процесс, он хочет начать с одной из нескольких проектов.
 - Группа понимает, что Team Foundation Server коллекции являются связью "один к одному" с Azure DevOps Services организациями, поэтому у нее будет несколько URL-адресов. Но это соответствует текущей модели разделения для баз кода и проектов.
@@ -91,7 +92,7 @@ ms.locfileid: "94713519"
 
     ![Снимок экрана: панель "Создание учетной записи хранения".](./media/contoso-migration-tfs-vsts/storage1.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 - [Общие сведения о службе хранилища Azure](/azure/storage/common/storage-introduction).
 - [Создание учетной записи хранения](/azure/storage/common/storage-create-storage-account).
@@ -129,9 +130,9 @@ ms.locfileid: "94713519"
      ![Снимок экрана: область "Невыполненная работа по продукту" для проверки установки Team Foundation Server.](./media/contoso-migration-tfs-vsts/upgrade5.png)
 
 > [!NOTE]
-> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее](/azure/devops/reference/configure-features-after-upgrade?view=vsts).
+> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее.](/azure/devops/reference/configure-features-after-upgrade?view=vsts)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 Дополнительные сведения об [обновлении Team Foundation Server](/azure/devops/server/upgrade/get-started).
 
@@ -476,7 +477,7 @@ ms.locfileid: "94713519"
 
     ![Снимок экрана, показывающий, что миграция на Azure DevOps Services завершена.](./media/contoso-migration-tfs-vsts/git6.png)
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 Дополнительные сведения см. [в статье Импорт репозиториев из TFVC в Git](/azure/devops/repos/git/import-from-TFVC?view=vsts).
 

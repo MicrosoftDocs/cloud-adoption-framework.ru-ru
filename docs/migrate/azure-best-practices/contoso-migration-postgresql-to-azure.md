@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6dca1ce7cbd13630207ba04a8298769263145e67
-ms.sourcegitcommit: c1d6c1c777475f92a3f8be6def84f1779648a55c
+ms.custom: think-tank
+ms.openlocfilehash: 8e87f0ac16a4a5c942c20deb1bddecb090e88c58
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92334652"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97014748"
 ---
 <!-- cSpell:ignore BYOK postgres psql dvdrental vpngateways -->
 
@@ -73,7 +74,7 @@ PostgreSQL 9.6.7 работает на физическом компьютере
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Рассматриваемый вопрос | Сведения |
+| Оценка | Подробнее |
 |--- | --- |
 | **Преимущества** | Все необходимые и используемые функции доступны в базе данных Azure для PostgreSQL. <br><br> |
 | **Недостатки** | Компании Contoso по-прежнему потребуется выполнить перенос вручную из основной версии PostgreSQL. |
@@ -122,7 +123,7 @@ Contoso потребуется оценить текущую базу данны
 Компания Contoso может выполнять миграцию несколькими способами:
 
 - [Дамп и восстановление](/azure/postgresql/howto-migrate-using-dump-and-restore)
-- [Миграция баз данных Azure](/azure/dms/tutorial-postgresql-azure-postgresql-online)
+- [Azure Database Migration Service](/azure/dms/tutorial-postgresql-azure-postgresql-online)
 - [Импорт и экспорт](/azure/postgresql/howto-migrate-using-export-and-import)
 
 Компания Contoso выбрала Azure Database Migration Service, чтобы позволить компании повторно использовать проект миграции при необходимости выполнять основные обновления. Поскольку одно действие Database Migration Service поддерживает только до четырех баз данных, Contoso настраивает несколько заданий, выполнив следующие действия.
@@ -134,14 +135,14 @@ Contoso потребуется оценить текущую базу данны
 ### <a name="create-an-azure-database-migration-service-instance"></a>Создание экземпляра Azure Database Migration Service
 
 1. В [портал Azure](https://portal.azure.com)выберите **Добавить ресурс**.
-1. Выполните поиск по запросу **службы миграции баз данных Azure**и выберите их.
+1. Выполните поиск по запросу **службы миграции баз данных Azure** и выберите их.
 1. Щелкните **+ Добавить**.
 1. Выберите подписку и группу ресурсов для службы.
 1. Введите имя для экземпляра.
 1. Выберите ближайшее расположение для центра обработки данных Contoso или VPN-шлюза.
 1. Выберите **Azure** для режима обслуживания.
 1. Выберите ценовую категорию.
-1. Выберите **Проверить и создать**.
+1. Выберите **Review + create** (Просмотреть и создать).
 
     ![Снимок экрана с экраном "Создание службы миграции".](./media/contoso-migration-postgresql-to-azure/azure_migration_service_create.png)
     _Рис. 3. Проверка и создание._
@@ -214,7 +215,7 @@ Contoso потребуется оценить текущую базу данны
     ![Снимок экрана, на котором показано, как выбрать целевую информацию.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_target.png)
     _Рис. 7. Выбор целевой информации._
 
-1. Выберите базы данных для миграции. Схема для каждой базы данных должна быть перенесена ранее. Затем нажмите кнопку **Save** (Сохранить).
+1. Выберите базы данных для миграции. Схема для каждой базы данных должна быть перенесена ранее. Затем выберите **Сохранить**.
 
     ![Снимок экрана, на котором показаны выборки баз данных.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_db.png)
     _Рис. 8. Выбор баз данных._

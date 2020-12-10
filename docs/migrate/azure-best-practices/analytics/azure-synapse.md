@@ -1,18 +1,19 @@
 ---
 title: Высокий уровень доступности для аналитики Azure синапсе
-description: Используйте функции Azure синапсе Analytics для решения требований к высокой доступности и аварийному восстановлению.
+description: Узнайте, как использовать функции Azure синапсе Analytics для решения требований к высокой доступности и аварийному восстановлению.
 author: v-hanki
 ms.author: brblanch
 ms.date: 07/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 93b7a66a1c30ec4975a2cef092b54f56023eed0a
-ms.sourcegitcommit: 163e703d9cbf90b26d96087c836a9cbd94fc7e35
+ms.custom: think-tank
+ms.openlocfilehash: d63d656864b55ebabfef8913f021ed0d8d1435b1
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/07/2020
-ms.locfileid: "87963287"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97015309"
 ---
 # <a name="high-availability-for-azure-synapse-analytics"></a>Высокий уровень доступности для аналитики Azure синапсе
 

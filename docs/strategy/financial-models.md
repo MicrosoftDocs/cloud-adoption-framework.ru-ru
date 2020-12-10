@@ -7,13 +7,13 @@ ms.date: 12/10/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.custom: governance
-ms.openlocfilehash: 5280611c88caa3aa2ebb70f615eae8e7b5ff73e4
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: a56974c92f7368728db25a450c3ae2df49ac85fd
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94994451"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97012674"
 ---
 # <a name="create-a-financial-model-for-cloud-transformation"></a>Создание финансовой модели для перехода на облачные технологии
 

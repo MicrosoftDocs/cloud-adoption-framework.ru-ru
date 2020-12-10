@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 1275997c3ca3e2da4947dff20e063e18cd907e9f
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: think-tank
+ms.openlocfilehash: cfba0681dd1a07a787c24561d5ca23e0dbef5bc7
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94879452"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97014000"
 ---
 <!-- cSpell:ignore WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless -->
 
@@ -71,10 +72,10 @@ ms.locfileid: "94879452"
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Оценка | Сведения |
+| Оценка | Подробнее |
 | --- | --- |
 | **Преимущества** | Виртуальные машины приложений будут перемещены в Azure без изменений, упрощая миграцию. <br><br> Поскольку компания Contoso использует подход с приближением и сдвигом для обеих виртуальных машин приложений, для базы данных приложения не требуются специальные средства настройки или миграции. <br><br> Компания Contoso может воспользоваться преимуществами инвестиций в Software Assurance с помощью Преимущество гибридного использования Azure. <br><br> Contoso будет хранить полный контроль над виртуальными машинами приложений в Azure. |
-| **Недостатки** | `WEBVM` и работают `SQLVM` под Windows Server 2008 R2. Azure поддерживает операционную систему для конкретных ролей. [Подробнее](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines). <br><br> Веб-уровни и уровень данных приложения остаются едиными точками отказа. <br><br> `SQLVM` работает на SQL Server 2008 R2. SQL Server 2008 R2 больше не находится в основной поддержке, но поддерживается для виртуальных машин Azure. [Подробнее](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support). <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure или база данных SQL Azure. |
+| **Недостатки** | `WEBVM` и работают `SQLVM` под Windows Server 2008 R2. Azure поддерживает операционную систему для конкретных ролей. [Подробнее.](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines) <br><br> Веб-уровни и уровень данных приложения остаются едиными точками отказа. <br><br> `SQLVM` работает на SQL Server 2008 R2. SQL Server 2008 R2 больше не находится в основной поддержке, но поддерживается для виртуальных машин Azure. [Подробнее.](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support) <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure или база данных SQL Azure. |
 
 ### <a name="migration-process"></a>Процесс миграции
 
@@ -150,7 +151,7 @@ Contoso и другие пользователи должны соответст
 
 После завершения настройки для перечисления всех виртуальных машин средство займет некоторое время. Вы увидите, что они заполнят средство миграции Azure в Azure по завершении этого процесса.
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 Узнайте, как настроить [средство миграции для Azure Migration](/azure/migrate/migrate-services-overview#azure-migrate-server-migration-tool).
 
@@ -177,7 +178,7 @@ Contoso и другие пользователи должны соответст
 - Для Windows на виртуальной машине не должно быть ожидающих обновлений Windows при активации миграции. Если это так, администраторы не смогут войти в виртуальную машину до завершения обновления.
 - После миграции администраторы могут проверить **диагностику загрузки** , чтобы просмотреть снимок экрана виртуальной машины. Если это не поможет, убедитесь, что виртуальная машина запущена, и ознакомьтесь с [советами по устранению неполадок](https://social.technet.microsoft.com/wiki/contents/articles/31666.troubleshooting-remote-desktop-connection-after-failover-using-asr.aspx).
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 Узнайте, как [подготовить виртуальные машины для миграции](/azure/migrate/prepare-for-migration).
 
@@ -264,7 +265,7 @@ Contoso и другие пользователи должны соответст
 4. Запустится задание миграции виртуальной машины. Отслеживайте задание в уведомлениях Azure.
 5. После завершения работы вы можете просматривать виртуальную машину и управлять ею на странице **Виртуальные машины**.
 
-**Нужна дополнительная помощь?**
+**Требуется дополнительная помощь?**
 
 - Узнайте, как [выполнить тестовую миграцию](/azure/migrate/tutorial-migrate-vmware#run-a-test-migration).
 - Узнайте, как [выполнить миграцию виртуальных машин в Azure](/azure/migrate/tutorial-migrate-vmware#migrate-vms).
@@ -307,5 +308,4 @@ Contoso и другие пользователи должны соответст
 
 ## <a name="conclusion"></a>Заключение
 
-В этой статье компания Contoso повторно размещает приложение SmartHotel360 в Azure. Администраторы перенесли виртуальные машины приложений на виртуальные машины Azure с помощью средства миграции Azure: Server Migration Tool.
-Инструкции по выполнению аналогичного проекта в среде см. в шаблоне проекта Azure DevOps для [проекта "миграция сервера](https://azuredevopsdemogenerator.azurewebsites.net/?name=servermigration)". 
+В этой статье компания Contoso повторно размещает приложение SmartHotel360 в Azure. Администраторы перенесли виртуальные машины приложений на виртуальные машины Azure с помощью средства миграции Azure: Server Migration Tool. Инструкции по выполнению аналогичного проекта в среде см. в шаблоне проекта Azure DevOps для [проекта "миграция сервера](https://azuredevopsdemogenerator.azurewebsites.net/?name=servermigration)". 

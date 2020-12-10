@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8449ccec7252e35f0ed113c3d9c7cb29de792716
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: bb8b123e4b1414a63d58a23e9ca71e5723b39149
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996185"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013694"
 ---
 # <a name="governance-or-compliance-strategy"></a>Стратегия системы управления и соответствия
 

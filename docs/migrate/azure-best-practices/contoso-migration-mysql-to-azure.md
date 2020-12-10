@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 76e323de345cdb9d1c03edaedbbf72b5fa441da1
-ms.sourcegitcommit: c1d6c1c777475f92a3f8be6def84f1779648a55c
+ms.custom: think-tank
+ms.openlocfilehash: e0e2c099901a6c63f259877e57c5467e9e9cd220
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "92334669"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97015105"
 ---
 <!-- cSpell:ignore mysqldump InnoDB binlog Navicat -->
 
@@ -72,7 +73,7 @@ ms.locfileid: "92334669"
 
 Специалисты Contoso оценивают предлагаемый дизайн, составляя список плюсов и минусов.
 
-| Рассматриваемый вопрос | Сведения |
+| Оценка | Подробнее |
 | --- | --- |
 | **Преимущества** | Служба "база данных Azure для MySQL" предоставляет соглашение об уровне обслуживания с финансовыми гарантиями на 99,99% для обеспечения [высокого уровня доступности](/azure/mysql/concepts-high-availability). <br><br> Azure предлагает возможность увеличения или уменьшения масштаба в течение пиковых нагрузок в каждом квартале. Компания Contoso может сэкономить еще больше, приобретя [зарезервированную емкость](/azure/mysql/concept-reserved-pricing). <br><br> Azure предоставляет возможности восстановления на момент времени и геовосстановление для базы данных Azure для MySQL. <br><br> |
 | **Недостатки** | Компания Contoso ограничена версиями выпуска MySQL, которые поддерживаются в Azure, в настоящее время 10,2 и 10,3. <br><br> У базы данных Azure для MySQL есть некоторые [ограничения](/azure/mysql/concepts-limits), например масштабирование хранилища. |

@@ -7,12 +7,13 @@ ms.date: 03/04/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 3dcf0e180deabab8657e44d483e379318aa7f5f8
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 21c0881738e4e83ef7943cf99a13eac5b14f0fbd
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996967"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013218"
 ---
 # <a name="balance-the-portfolio"></a>Выравнивание портфеля
 

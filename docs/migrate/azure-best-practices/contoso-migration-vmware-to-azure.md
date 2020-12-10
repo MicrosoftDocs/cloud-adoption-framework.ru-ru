@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 4c2e35b3401d4a4eaeb534befee9e33c4b1a83df
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank
+ms.openlocfilehash: f41366beaef98e9f53082f43d4c45d662ffdb0ed
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996424"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013864"
 ---
 <!-- docutune:casing "HCX Bulk Migration" "HCX Cold Migration" -->
 
@@ -85,7 +86,7 @@ ms.locfileid: "94996424"
 
 Компания Contoso оценивает предлагаемую конструкцию, объединяя список «плюсы» и «минус», как показано в следующей таблице.
 
-| Оценка | Сведения |
+| Оценка | Подробнее |
 | --- | --- |
 | **Преимущества** | <li>Инфраструктура VMware без операционной системы с высокой производительностью. <li>Инфраструктура, полностью выделенная для Contoso и физически изолированная от инфраструктуры других клиентов. <li>Поскольку компания Contoso использует повторное размещение, использующее VMware, нет особой сложной настройки или миграции. <li>Компания Contoso может воспользоваться преимуществами инвестиций в Software Assurance, используя [преимущество гибридного использования Azure](https://azure.microsoft.com/pricing/hybrid-benefit/) и [Расширенные обновления безопасности](https://www.microsoft.com/cloud-platform/windows-server-2008) для устаревших платформ Windows и SQL. <li>Contoso будет хранить полный контроль над виртуальными машинами приложений в Azure. <br><br> |
 | **Недостатки** | <li>Contoso потребуется продолжить поддержку приложения в качестве виртуальных машин VMware, а не переместить их в управляемую службу, например в службу приложений Azure и базу данных SQL Azure. <li>Решение Azure VMware настраивается и оценивается на основе как минимум трех крупных узлов, а не отдельных виртуальных машин в Azure IaaS. Компании Contoso потребуется спланировать потребности в ресурсах, так как компания в настоящее время использует локальную среду, которая будет ограничивать ее от природы других служб в Azure по требованию. |

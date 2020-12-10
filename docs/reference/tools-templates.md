@@ -4,15 +4,16 @@ description: Найдите средства и шаблоны, доступны
 author: JanetCThomas
 ms.author: janet
 ms.date: 04/14/2020
+ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: reference
-ms.topic: article
-ms.openlocfilehash: 975a848cbc2afe9ded2d0dea56b69717f796c5d3
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal
+ms.openlocfilehash: 3cf80c711a207f19f00cd5e6d4ea37f36d92b721
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94879180"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97012317"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -32,10 +33,9 @@ ms.locfileid: "94879180"
 | [Средство отслеживания перехода в облако](/assessments/?id=cloud-journey-tracker&mode=pre-assessment) | Определите путь перехода к облаку с учетом потребностей своего бизнеса. |
 | [&nbsp;Шаблон стратегии и &nbsp; плана &nbsp;](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx) | Документирование решений при выполнении стратегии и плана внедрения в облако. |
 | [Генератор планов внедрения в облако](../plan/template.md) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |
-| [Использование шаблона ADO, готового к использованию в плане стратегий](https://azuredevopsdemogenerator.azurewebsites.net/?name=strategyplan) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |  
+| [Использование шаблона ADO, готового к использованию в плане стратегий](https://azuredevopsdemogenerator.azurewebsites.net/?name=strategyplan) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |
 
-
-## <a name="ready"></a>Ready
+## <a name="ready"></a>Готово
 
 | Ресурс | Описание |
 |----------|-------------|
