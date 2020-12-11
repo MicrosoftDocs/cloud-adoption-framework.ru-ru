@@ -7,13 +7,13 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: b06017819e84bf24d4e82f916baddf4949112f6d
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: cdbba0f9047a351af9240712f69e4886ea4750d6
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88880005"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020120"
 ---
 # <a name="establish-an-initial-cloud-governance-foundation"></a>Создание начального плана управления Cloud Foundation
 
@@ -32,7 +32,7 @@ ms.locfileid: "88880005"
 - [Руководство по управлению](./guides/standard/index.md). Руководство для большинства организаций на основе рекомендованной первоначальной модели с двумя подписками, предназначенной для развертываний в нескольких регионах, но не охватывающих общедоступные и независимыхные и правительственные облака.
 - [Руководство по организации системы управления для сложных предприятий](./guides/complex/index.md) Рекомендации для предприятий, которые управляются несколькими независимыми ИТ-подразделениями или которые охватывают общедоступные и национальные или правительственные облака.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После того как система управления уже установлена, примените подходящие рекомендации для улучшения решения и защиты от материальных рисков.
 

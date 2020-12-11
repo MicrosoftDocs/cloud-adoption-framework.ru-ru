@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 55238bee14d03883e94c87612f8819f92d981d01
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: b9f47d30ec02a3fe1bb45a734abc15a2c7a68242
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879138"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019287"
 ---
 # <a name="resource-consistency-tools-in-azure"></a>Средства согласованности ресурсов в Azure
 
@@ -23,7 +23,7 @@ ms.locfileid: "88879138"
 
 Ниже приведен список средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](/azure/azure-resource-manager/management/overview)  | [Azure Blueprints](/azure/governance/blueprints/overview) | [Служба автоматизации Azure](/azure/automation/automation-intro) | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](/azure/backup/backup-overview) | [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) |
+| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](/azure/azure-resource-manager/management/overview)  | [Azure Blueprints](/azure/governance/blueprints/overview) | [Служба автоматизации Azure](/azure/automation/automation-intro) | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](/azure/backup/backup-overview) | [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 | Развертывание ресурсов                             | Да | Да | Да | Да | Нет  | Нет | Нет |
 | Управление ресурсами                             | Да | Да | Да | Да | Нет  | Нет | Нет |
@@ -47,7 +47,7 @@ ms.locfileid: "88879138"
 
 Вместе с этими средствами и компонентами дисциплины "Согласованность ресурсов" необходимо отслеживать развернутые ресурсы на наличие проблем с производительностью и работоспособностью. [Azure Monitor](/azure/azure-monitor/overview) — это мониторинг и решение для создания отчетов по умолчанию в Azure. Azure Monitor предоставляет функции для мониторинга облачных ресурсов. В этом списке показано, какие функции предназначены для общих требований к мониторингу.
 
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal) | [Application Insights](/azure/application-insights/app-insights-overview) | [Служба Log Analytics](/azure/azure-monitor/log-query/log-query-overview) | [REST API Azure Monitor](/rest/api/monitor) |
+| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal) | [Application Insights](/azure/application-insights/app-insights-overview) | [Служба Log Analytics](/azure/azure-monitor/log-query/log-query-overview) | [REST API Azure Monitor](/rest/api/monitor) |
 |----------------------------------------------------|--------------|----------------------|---------------|------------------------|
 | Регистрация данных телеметрии для виртуальной машины                 | Нет           | Нет                   | Да           | Нет                     |
 | Регистрация данных телеметрии для виртуальной сети              | Нет           | Нет                   | Да           | Нет                     |
@@ -63,6 +63,6 @@ ms.locfileid: "88879138"
 > [!NOTE]
 > Организации также используют сторонние средства DevOps для отслеживания рабочих нагрузок и ресурсов. Дополнительные сведения см. в разделе [Интеграция средства DevOps](https://azure.microsoft.com/products/devops-tool-integrations).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как создавать, назначать [определения политик](/azure/governance/policy) и управлять ими в Azure.

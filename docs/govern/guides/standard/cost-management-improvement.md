@@ -1,19 +1,19 @@
 ---
 title: 'Стандартное корпоративное управление: улучшение дисциплины управления затратами'
-description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать о добавлении элементов управления затратами в минимальный приемлемый продукт (MVP).
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать о добавлении элементов управления затратами в простой минимальный (MVP) продукт.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 046507bea45c8a53d97d05ff9b566a3d1fb7c888
-ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
+ms.custom: internal
+ms.openlocfilehash: b7d2d5d142646d38b0ef6f69706dc25c485e734a
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91107950"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020840"
 ---
 # <a name="standard-enterprise-governance-guide-improve-the-cost-management-discipline"></a>Стандартное руководство по корпоративному управлению: улучшение дисциплины управления затратами
 

@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 2b352f24bfd2d38caa6b494d3952c02c9bbaf26b
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal
+ms.openlocfilehash: 72e27d6ac48a6cccc5c35805374f80de309d08b6
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94881101"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019695"
 ---
 # <a name="governance-design-for-a-simple-workload"></a>Разработка системы управления для небольшой рабочей нагрузки
 
@@ -110,7 +110,7 @@ Azure доверяет аутентификацию пользователей �
 
 Наконец, создав подписку и связав с нею клиент Azure AD, вы можете [добавить в нее **владельца рабочей нагрузки** со встроенной ролью **владельца**](/azure/billing/billing-add-change-azure-subscription-administrator#to-assign-a-user-as-an-administrator).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Предоставление доступа к ресурсам для нескольких команд](./governance-multiple-teams.md)

@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 93c5e61124a4045aef7bad6bca6838650288de22
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: dc2a86cbdac8b3acb8cc62eff197af93b79f75e6
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879444"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019406"
 ---
 # <a name="resource-access-management-in-azure"></a>Управление доступом к ресурсам в Azure
 
@@ -108,7 +108,7 @@ Azure Resource Manager требует, чтобы клиент указал ид
 
 Из этой статьи вы узнали об управлении доступом к ресурсам в Azure с помощью Azure Resource Manager.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Теперь, когда вы узнали об управлении доступом к ресурсам в Azure, узнайте о том, как разработать модель управления [для простой рабочей нагрузки](./governance-simple-workload.md) или [для нескольких команд](./governance-multiple-teams.md).
 

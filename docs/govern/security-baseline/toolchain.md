@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 024078aa9257c450e377ba7b0a766c381800fc58
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 3cb114a6cd0bf0d7ebf285c0689f4f02e17b88ae
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88878814"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018879"
 ---
 # <a name="security-baseline-tools-in-azure"></a>Средства основных способов защиты в Azure
 
@@ -21,7 +21,7 @@ ms.locfileid: "88878814"
 
 Следующий список средств Azure может помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal) и [Azure Resource Manager](/azure/azure-resource-manager/management/overview)  | [Azure Key Vault](/azure/key-vault);  | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) | [Политика Azure](/azure/governance/policy/overview) | [Центр безопасности Azure](/azure/security-center/security-center-intro) | [Azure Monitor](/azure/azure-monitor/overview) |
+| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal) и [Azure Resource Manager](/azure/azure-resource-manager/management/overview)  | [Azure Key Vault](/azure/key-vault);  | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) | [Политика Azure](/azure/governance/policy/overview) | [Центр безопасности Azure](/azure/security-center/security-center-intro) | [Azure Monitor](/azure/azure-monitor/overview) |
 |------------------------------------------------------------|---------------------------------|-----------------|----------|--------------|-----------------------|---------------|
 | Применение элементов управления доступом к ресурсам и процессам создания ресурсов   | Да                             | Нет              | Да      | Нет           | Нет                    | Нет            |
 | Защита виртуальных сетей Azure                                    | Да                             | Нет              | Нет       | Да          | Нет                    | Нет            |

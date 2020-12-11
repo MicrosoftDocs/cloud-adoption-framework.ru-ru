@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 8102fbe541a69da1b2e43dd73fd981d67e9e1688
-ms.sourcegitcommit: 2c949c44008161e50b91ffd3f01f6bf32da2d4d2
+ms.custom: internal
+ms.openlocfilehash: 572835ca2416ef50d4fbe9175a1eb34adf33188b
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/10/2020
-ms.locfileid: "94432624"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019236"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Базовая политика безопасности в облаке
 

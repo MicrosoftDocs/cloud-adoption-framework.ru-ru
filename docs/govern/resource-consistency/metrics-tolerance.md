@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 3667bff715ed7f91f4bdabda90e87aad15751a33
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 3a2ee55c4b006fed47a1219b343e963b0f6aeeac
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879359"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019458"
 ---
 # <a name="risk-tolerance-metrics-and-indicators-in-the-resource-consistency-discipline"></a>Метрики и индикаторы отказоустойчивости рисков в дисциплине согласованности ресурсов
 
@@ -67,7 +67,7 @@ ms.locfileid: "88879359"
 
 Точные метрики и триггеры, используемые для оценки допустимости рисков и уровня инвестиций в дисциплину согласованности ресурсов, будут относиться к конкретной организации, но приведенные выше примеры должны служить основой для обсуждения в группе управления Cloud.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Шаблон " [дисциплина согласованности ресурсов](./template.md) " используется для документирования метрик и индикаторов допуска, которые совпадают с текущим планом внедрения в облаке.
 

@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 1ab0d2c8657889a8f4ee16bd4dd9ca4f631b32c2
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.custom: internal
+ms.openlocfilehash: 7de0e6cc3394385f8b47750503ae2e5086fe6be0
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83754975"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97021480"
 ---
 # <a name="risk-tolerance-metrics-and-indicators-in-the-deployment-acceleration-discipline"></a>Метрики и индикаторы отказоустойчивости рисков в дисциплине ускорения развертывания
 

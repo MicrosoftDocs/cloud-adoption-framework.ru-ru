@@ -7,13 +7,13 @@ ms.date: 07/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.custom: organize
-ms.openlocfilehash: bf65d5705a3d09337bcc89e9988438ee1e3e63bb
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 88ea2f9b80c8ef0a93a142b35cc4e33dc43ba8ab
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879954"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020137"
 ---
 # <a name="govern-methodology-for-the-cloud"></a>Управление методологией для облака
 
@@ -60,7 +60,7 @@ ms.locfileid: "88879954"
 > [!NOTE]
 > Система управления не заменяет собой решения для таких ключевых направлений, как безопасность, сетевая инфраструктура, идентификация, финансы, DevOps и эксплуатация. Но описываемый процесс подразумевает взаимодействие с соответствующими специалистами, а также определенные взаимозависимости. Эти специалисты должны быть включены в команду по управлению облачными решениями для ускорения принятия решений и проведения соответствующих мероприятий.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте, как использовать средство оценки производительности для управления инфраструктурой внедрения в облаке, чтобы оценить свое путешествие и помочь определить пропуски в Организации в шести ключевых доменах, как определено в платформе.
 

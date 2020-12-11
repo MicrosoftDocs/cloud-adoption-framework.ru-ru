@@ -2,17 +2,18 @@
 title: Мифы и факты миграции мэйнфреймов
 description: Научитесь отличать мифы от реальности к мэйнфреймам и оцените рабочие нагрузки мэйнфреймов, наиболее подходящие для Azure.
 author: njray
-ms.author: v-nanra
+ms.author: brblanch
 ms.date: 12/27/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8ed2f71a7d397873446690f69167ae45cdf4b344
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: think-tank
+ms.openlocfilehash: db3949faf5f4cd954bbc2fd1fc7977a9ffa09172
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712567"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018743"
 ---
 <!-- cSpell:ignore chargebacks IPLs -->
 
@@ -44,7 +45,7 @@ ms.locfileid: "94712567"
 
 По сравнению с этим Платформа Azure предлагает альтернативную платформу, способную предоставлять эквивалентные функции и функции мэйнфрейма, а также значительно снизить затраты. Кроме того, Общая стоимость владения облачной моделью затрат на основе подписок гораздо дешевле, чем на мэйнфреймах.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 > [!div class="nextstepaction"]
 > [Включение коммутатора с мэйнфреймов в Azure](./migration-strategies.md)

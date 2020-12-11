@@ -2,17 +2,18 @@
 title: Стратегии миграции приложений мэйнфреймов
 description: Изучите такие стратегии, как повторное размещение, снятие с учета, перестроение или замена приложений для переноса из сред мэйнфрейма в Azure.
 author: njray
-ms.author: v-nanra
+ms.author: brblanch
 ms.date: 12/26/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 53587e37babffe0dc7e6c722643d4bafda646ff3
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: think-tank
+ms.openlocfilehash: 3f3b9f4ab6c35b62a35120e4fcc9ae9f8352253a
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94881050"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018896"
 ---
 <!-- docutune:casing GDGs "GT Software" "NTT Data" -->
 <!-- cSpell:ignore Attunity Codit DRDA ISAM ISQL LPARS VSAM ODBC JDBC GDGs REXX dbextents Raincode Tmax -->
@@ -67,7 +68,7 @@ ms.locfileid: "94881050"
 
 Для запуска диспетчера транзакций и пакетных заданий, использующих JCL, в Azure используется среда эмуляции. На уровне данных DB2 заменяется [Базой данных SQL Azure](/azure/sql-database/sql-database-technical-overview). Кроме того, можно использовать Microsoft SQL Server, DB2 LUW или Oracle Database. Эмулятор поддерживает IMS, VSAM и SEQ. Средства управления системой на мэйнфрейме заменены службами Azure и программным обеспечением от других поставщиков, которые работают на виртуальных машинах.
 
-Как правило, функции обработки экрана и форм для ввода данных реализуются с помощью веб-серверов, которые можно комбинировать с API баз данных, такими как ADO, ODBC и JDBC, для транзакций и доступа к данным. Полный перечень IaaS-компонентов Azure зависит от операционной системы, которую вы предпочитаете использовать. Пример:
+Как правило, функции обработки экрана и форм для ввода данных реализуются с помощью веб-серверов, которые можно комбинировать с API баз данных, такими как ADO, ODBC и JDBC, для транзакций и доступа к данным. Полный перечень IaaS-компонентов Azure зависит от операционной системы, которую вы предпочитаете использовать. Пример.
 
 - **Виртуальные машины на основе Windows:** Internet Information Server (IIS) вместе с ASP.NET для обработки экрана и бизнес-логики. Для доступа к данным и транзакций используйте стандарт ADO.NET.
 
@@ -91,7 +92,7 @@ ms.locfileid: "94881050"
 
 - Параллельную обработку. Azure легко масштабируется для параллельной обработки, обеспечивая большую вычислительную мощность для выполнения пакетных операций.
 
-### <a name="storage"></a>Память
+### <a name="storage"></a>Хранилище
 
 Используйте следующую команду:
 
@@ -105,7 +106,7 @@ ms.locfileid: "94881050"
 
 - Используйте [ускоренную сеть Azure](/azure/virtual-network/create-vm-accelerated-networking-powershell) для сокращения задержки.
 
-### <a name="monitoring"></a>Мониторинг
+### <a name="monitoring"></a>Наблюдение
 
 - Использование средств мониторинга, [Azure Monitor](/azure/azure-monitor/overview), [Application Insights](/azure/application-insights/app-insights-overview)и журналов Azure позволяет администраторам наблюдать за производительностью пакетных запусков и устранять узкие места.
 

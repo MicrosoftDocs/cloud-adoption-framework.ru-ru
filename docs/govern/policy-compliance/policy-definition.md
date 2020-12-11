@@ -7,12 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: dd869d0d7dc60337ab69f8b35778a90cc444e4bc
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: a148e80e11ee54d14e7741a01830717dfb57e745
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879784"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019916"
 ---
 # <a name="define-corporate-policy-for-cloud-governance"></a>Определение корпоративной политики для управления облаком
 
@@ -59,7 +60,7 @@ ms.locfileid: "88879784"
 
 Необходимость интегрирования политики облака с устаревшими ИТ-политиками в значительной степени зависит от зрелости процессов управления облаком и размера ваших облачных ресурсов. Более подробное обсуждение по работе с интеграцией политики во время преобразования облака см. в этой статье [о последовательном управлении и MVP политики](./index.md).
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Определив политики, создайте руководство по проектированию архитектуры, чтобы предоставить практические рекомендации ИТ-специалистам и разработчикам.
 

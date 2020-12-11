@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 5f4feaf4bbc9ffb78d58a86c42dcd28b4eb785c7
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.custom: internal
+ms.openlocfilehash: 2f289dd98e346e2b3aa0ce934b5fb1c0b2c4efce
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84785627"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019219"
 ---
 # <a name="motivations-and-business-risks-in-the-security-baseline-discipline"></a>Мотивация и бизнес-риски в плане безопасности по специализации
 

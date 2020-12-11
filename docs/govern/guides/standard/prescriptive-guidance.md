@@ -7,13 +7,13 @@ ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 986c2398b1bf0b00b88d853d8cec072287bd4010
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: internal
+ms.openlocfilehash: a71340b92f0290e94855030393118dcbd5d4e8dc
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604782"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020715"
 ---
 # <a name="standard-enterprise-governance-guide-best-practices-explained"></a>Стандартное руководство по корпоративному управлению: рекомендации
 
@@ -27,13 +27,13 @@ ms.locfileid: "89604782"
 
 Чтобы установить начальную точку, в этой статье обсуждаются высокоуровневые стратегии, лежащие в основе планов безопасности, базовых показателей и ускорения развертывания, которые необходимы для создания специалиста MVP по управлению, который будет служить основой для внедрения.
 
-![Пример минимально жизнеспособного продукта для системы управления инкрементальной модели](../../../_images/govern/governance-mvp.png)
+![Схема с примером минимально жизнеспособного продукта для системы управления инкрементальной модели.](../../../_images/govern/governance-mvp.png)
 
 ## <a name="implementation-process"></a>Процесс реализации
 
 Реализация MVP по управлению зависит от удостоверений, безопасности и сети. После разрешения зависимостей группа управления облаком будет решать несколько аспектов управления. Решения из группы по управлению облаком и из вспомогательных групп будут реализованы с помощью одного пакета средств обеспечения безопасности.
 
-![Пример минимально жизнеспособного продукта для системы управления инкрементальной модели](../../../_images/govern/governance-mvp-implementation-flow.png)
+![Схема, на которой показан процесс реализации MVP по управлению.](../../../_images/govern/governance-mvp-implementation-flow.png)
 
 Эту реализацию также можно описать с помощью простого контрольного списка:
 

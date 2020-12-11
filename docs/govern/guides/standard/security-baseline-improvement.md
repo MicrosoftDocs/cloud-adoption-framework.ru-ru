@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: eb9b071490580123a7358d2215907ab4c106d7a3
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: internal
+ms.openlocfilehash: 6014ee89b7aada82c3d8c398deaadf87b89d224b
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712814"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020579"
 ---
 # <a name="standard-enterprise-governance-guide-improve-the-security-baseline-discipline"></a>Стандартное руководство по корпоративному управлению. повышение специализации в плане безопасности
 
@@ -138,7 +138,7 @@ ms.locfileid: "94712814"
 
 Добавление описанных выше процессов и изменений в MVP по управлению поможет устранить многие риски, связанные с системой управления безопасностью. В совокупности они предоставляют инструменты для мониторинга сетей, идентификации и безопасности, необходимые для защиты данных.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 По мере того как внедрение в облако продолжится и доставляет дополнительную ценность для бизнеса, риски и потребности в управлении облаком также меняются. Для вымышленной компании в этом пошаговом окне необходимо поддерживать критически важные рабочие нагрузки. На этом этапе требуются элементы управления согласованностью ресурсов.
 

@@ -1,19 +1,19 @@
 ---
 title: 'Комплексное корпоративное управление: первоначальная Корпоративная политика'
-description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы определить начальное расположение системы управления, риски раннего этапа, начальные операторы политики и процессы раннего применения.
+description: Используйте инфраструктуру внедрения в облаке для Azure, чтобы определить начальное комплексное расположение управления, риски раннего этапа, начальные операторы политики и процессы раннего применения.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: cf811e2cb16b599027bbf965005f29877c85d703
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: internal
+ms.openlocfilehash: a3448401a6f26e5c425015fdcc33c7da05808a61
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604913"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97021225"
 ---
 # <a name="governance-guide-for-complex-enterprises-initial-corporate-policy-behind-the-governance-strategy"></a>Руководство по управлению для сложных предприятий: первоначальная Корпоративная политика, основанная на стратегии управления
 

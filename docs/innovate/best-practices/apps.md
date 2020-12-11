@@ -7,12 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: b92edee6919eebc9371e2f018e0bd2422634ca74
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.custom: internal
+ms.openlocfilehash: cc328ed78a7ad7f349f41fe3cbc67bc0c83e1506
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449852"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018760"
 ---
 # <a name="tools-to-engage-via-applications-in-azure"></a>Средства для взаимодействия через приложения в Azure
 

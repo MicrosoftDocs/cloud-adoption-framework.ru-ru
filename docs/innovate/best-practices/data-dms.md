@@ -7,12 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: f3d2663bdb3c057f5031eeacc79e2068c729cb89
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 01c742497359eef2d610fe5a8357f1262614d782
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88884493"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018573"
 ---
 # <a name="collect-data-through-the-migration-and-modernization-of-existing-data-sources"></a>Получение данных с помощью миграции и модернизации существующих источников данных
 
@@ -46,12 +47,12 @@ ms.locfileid: "88884493"
 
 Мы рекомендуем выбрать приемлемое время простоя предприятия и протестировать автономную миграцию. Это необходимо для проверки соответствия времени восстановления допустимому простою. Если время восстановления неприемлемо, выполните оперативную миграцию.
 
-| Источник | Назначение | Инструмент | Тип перемещения | Руководство |
+| Источник | Назначение | Средство | Тип перемещения | Руководство |
 |--|--|--|--|--|
 | SQL Server | База данных SQL Azure | Database Migration Service | Автономная миграция | [Руководство](/azure/dms/tutorial-sql-server-to-azure-sql) |
 | SQL Server | База данных SQL Azure | Database Migration Service | Миграция по сети | [Руководство](/azure/dms/tutorial-sql-server-azure-sql-online) |
-| SQL Server | Управляемый экземпляр базы данных SQL Azure | Database Migration Service | Автономная миграция | [Руководство](/azure/dms/tutorial-sql-server-to-managed-instance) |
-| SQL Server | Управляемый экземпляр базы данных SQL Azure | Database Migration Service | Миграция по сети | [Руководство](/azure/dms/tutorial-sql-server-managed-instance-online) |
+| SQL Server | Управляемый экземпляр SQL Azure | Database Migration Service | Автономная миграция | [Руководство](/azure/dms/tutorial-sql-server-to-managed-instance) |
+| SQL Server | Управляемый экземпляр SQL Azure | Database Migration Service | Миграция по сети | [Руководство](/azure/dms/tutorial-sql-server-managed-instance-online) |
 | SQL Server RDS | База данных SQL Azure или Azure SQL Управляемый экземпляр | Database Migration Service | Миграция по сети | [Руководство](/azure/dms/tutorial-rds-sql-server-azure-sql-and-managed-instance-online) |
 | MySQL | База данных Azure для MySQL | Database Migration Service | Миграция по сети | [Руководство](/azure/dms/tutorial-mysql-azure-mysql-online) |
 | PostgreSQL | База данных Azure для PostgreSQL | Database Migration Service | Миграция по сети | [Руководство](/azure/dms/tutorial-postgresql-azure-postgresql-online) |

@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 9f0786a6f8a9db8f6b3e1b98e0f85ed6fd41fd72
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 61bf6a17de600385795b3c7ac5913d1ebb4259e4
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88878800"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018947"
 ---
 # <a name="security-baseline-discipline-template"></a>Шаблон дисциплины "Основные способы защиты"
 
@@ -26,7 +26,7 @@ ms.locfileid: "88878800"
 
 [Загрузка шаблона по специализации в плане безопасности](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/security-baseline-discipline-template.docx)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Формирование четких рекомендаций по управлению начинается с понимания бизнес-рисков. Просмотрите статью о бизнес-риске и начните документировать бизнес-риски, которые согласовываются с текущим планом внедрения облака.
 

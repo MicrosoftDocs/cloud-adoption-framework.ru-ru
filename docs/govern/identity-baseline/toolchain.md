@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 757c4ee78b862bf913290d8e2d645b3e0972d427
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: internal
+ms.openlocfilehash: fc3cec59d43d9d1e526c854ac26a8a0fdadf4621
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713723"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020273"
 ---
 # <a name="identity-baseline-tools-in-azure"></a>Средства основных способов идентификации в Azure
 
@@ -58,8 +58,8 @@ ms.locfileid: "94713723"
 | --- | --- | --- | --- |
 | Где происходит аутентификация? | В облаке | В облаке после безопасного обмена данными проверки пароля с локальным агентом аутентификации | В локальной среде |
 | Каковы требования к локальному серверу, помимо системы подготовки: Azure AD Connect? | None | Один сервер для каждого дополнительного агента аутентификации | Не менее двух серверов AD FS <br><br> Два или более серверов WAP в сети периметра |
-| Каковы требования к локальному Интернету и сети за пределами системы подготовки? | Отсутствуют | [Исходящий доступ в Интернет](/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности | [Входящий доступ в Интернет](/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре <br><br> Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра <br><br> Балансировка сетевой нагрузки |
-| Существует ли требование к SSL-сертификату? | нет | нет | Да |
+| Каковы требования к локальному Интернету и сети за пределами системы подготовки? | Нет | [Исходящий доступ в Интернет](/azure/active-directory/hybrid/how-to-connect-pta-quick-start) с серверов, на которых выполняются агенты проверки подлинности | [Входящий доступ в Интернет](/windows-server/identity/ad-fs/overview/ad-fs-requirements) к серверам WAP в периметре <br><br> Входящий сетевой доступ к серверам AD FS с WAP-серверов в сети периметра <br><br> Балансировка сетевой нагрузки |
+| Существует ли требование к SSL-сертификату? | Нет | Нет | Да |
 | Имеется ли решение для мониторинга работоспособности? | Не требуется | Состояние агента, предоставляемое [Центром администрирования Azure Active Directory](/azure/active-directory/hybrid/tshoot-connect-pass-through-authentication#general-issues) | [Azure AD Connect Health](/azure/active-directory/hybrid/how-to-connect-health-adfs) |
 | Пользователи получают единый вход в облачные ресурсы с присоединенных к домену устройств в корпоративной сети? | Да, с [простым единым входом](/azure/active-directory/hybrid/how-to-connect-sso) | Да, с [простым единым входом](/azure/active-directory/hybrid/how-to-connect-sso) | Да |
 | Какие типы входа поддерживаются? | UserPrincipalName и пароль <br><br> Встроенная проверка подлинности Windows с помощью [простого единого входа](/azure/active-directory/hybrid/how-to-connect-sso) <br><br> [Альтернативный идентификатор входа](/azure/active-directory/hybrid/how-to-connect-install-custom) | UserPrincipalName и пароль <br><br> Встроенная проверка подлинности Windows с помощью [простого единого входа](/azure/active-directory/hybrid/how-to-connect-sso) <br><br> [Альтернативный идентификатор входа](/azure/active-directory/hybrid/how-to-connect-pta-faq) | UserPrincipalName и пароль <br><br> SamAccountName + Password <br><br> Встроенная проверка подлинности Windows <br><br> [Аутентификация с использованием сертификатов и смарт-карт](/windows-server/identity/ad-fs/operations/configure-user-certificate-authentication) <br><br> [Альтернативный идентификатор входа](/windows-server/identity/ad-fs/operations/configuring-alternate-login-id) |
@@ -74,7 +74,7 @@ ms.locfileid: "94713723"
 > [!NOTE]
 > Настраиваемые элементы управления в условном доступе Azure AD в настоящее время не поддерживают регистрацию устройств.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 <!-- TODO: The download button for this whitepaper returns 404. -->
 

@@ -7,13 +7,13 @@ ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 84df4aac039fdd0cde7c7c06fb72bd7cd918b39b
-ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
+ms.custom: internal
+ms.openlocfilehash: 2031d327b4cc33be9a3c200de2e83be8e4606510
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91108050"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020698"
 ---
 # <a name="standard-enterprise-governance-guide-the-narrative-behind-the-governance-strategy"></a>Стандартное руководство по корпоративному управлению: описание стратегии управления
 
@@ -43,7 +43,7 @@ ms.locfileid: "91108050"
 
 - ОН перешел в облако путем переноса всех учетных записей электронной почты конечных пользователей в Microsoft 365. Это произошло полгода назад. В облаке было развернуто еще несколько других ИТ-ресурсов.
 
-- Группы разработки приложений работают в рабочей мощности для разработки и тестирования, чтобы узнать о возможностях облака.
+- Команды разработки приложений, работающие в среде разработки и тестирования для изучения ориентированных на облако возможностей.
 
 - Команда бизнес-аналитики экспериментирует с большими данными в облаке и управляет ими на новых платформах.
 

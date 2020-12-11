@@ -1,19 +1,19 @@
 ---
 title: 'Комплексное корпоративное управление: улучшение дисциплины управления затратами'
-description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать о добавлении элементов управления затратами в минимальный приемлемый продукт (MVP).
+description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать о добавлении элементов управления затратами в сложный минимальный (MVP) продукт.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: a9845996146c9ed5e2d320f866cbddc19ef88e43
-ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
+ms.custom: internal
+ms.openlocfilehash: c16202cb85d4447a75aeabb621604cf883f20d4a
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91108163"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97021259"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-cost-management-discipline"></a>Руководство по управлению для сложных предприятий: улучшение дисциплины управления затратами
 
@@ -83,4 +83,4 @@ ms.locfileid: "91108163"
 Так как внедрение в облако растет и обеспечивает дополнительную ценность для бизнеса, риски и потребности в управлении облаком также изменятся. Для этой вымышленной компании следующий шаг заключается в использовании этих инвестиций в Управление несколькими облаками.
 
 > [!div class="nextstepaction"]
-> [Улучшение в облаке](./multicloud-improvement.md)
+> [Улучшение использования нескольких облаков](./multicloud-improvement.md)

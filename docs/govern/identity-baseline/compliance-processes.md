@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 52f6a6d23ea324b7a1764807e2f87bef68de4ee4
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 897d0052ab35ee7df1bbe6537cdbcc9710e3e22c
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88880209"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020426"
 ---
 # <a name="identity-baseline-policy-compliance-processes"></a>Процессы обеспечения соответствия политикам базовой системы идентификации
 
@@ -55,7 +55,7 @@ ms.locfileid: "88880209"
 - **Потерянные учетные данные пользователя:** Учетные записи с утечкой имени пользователя и пароля в Интернете будут отключены, пока удостоверение пользователя не будет проверено и сброшен пароль.
 - **Обнаружены недостаточные элементы управления доступом:** Все защищенные ресурсы, для которых ограничения доступа не соответствуют требованиям безопасности, будут заблокированы до тех пор, пока ресурс не будет включен в соответствие.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Шаблон " [дисциплина базовых показателей удостоверений](./template.md) " используется для документирования процессов и триггеров, которые совпадают с текущим планом внедрения в облаке.
 

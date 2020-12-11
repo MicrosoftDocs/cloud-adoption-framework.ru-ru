@@ -7,12 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: 0c9f6ff5b576a189d20bcb7819d4f9ee30c18dd8
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: fa20292f6c2d5993c4d934b1296054767c8d72ea
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879529"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019641"
 ---
 # <a name="evaluate-risk-tolerance"></a>Оценка допустимости риска
 
@@ -101,7 +102,7 @@ ms.locfileid: "88879529"
 
 Ответив на три набора вопросов выше, вы получите достаточно данных, чтобы определить начальную допустимость. Если риск и вероятность имеют низкую стоимость и затраты на исправление рисков высоки, Бизнес вряд ли будет вкладываться в исправление. Когда риск и вероятность имеют высокий приоритет, Бизнес, скорее всего, будет рассматривать инвестиции, если затраты не превышают потенциальные риски.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Подобный диалог поможет бизнес-отделам и ИТ-командам более эффективно определить допустимость рисков. Такие диалоги можно использовать при создании политик MVP и во время поэтапных проверок политики.
 

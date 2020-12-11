@@ -7,13 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 0228a6eb39e33853e7bcb94c04f95baac15f24c4
-ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
+ms.custom: internal
+ms.openlocfilehash: 1078c2d64fb2053f22e8a17602d174e14091a227
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91107973"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020953"
 ---
 # <a name="governance-guide-for-complex-enterprises-improve-the-resource-consistency-discipline"></a>Руководство по управлению для сложных предприятий: улучшение дисциплины согласованности ресурсов
 

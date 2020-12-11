@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 49ec30f5a623e3be0c06f4c019669bfd9d3e6006
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.custom: internal
+ms.openlocfilehash: b1081db4b7ea7d03a3a4585721eb95e1e946ccb7
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84786268"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020596"
 ---
 # <a name="motivations-and-business-risks-in-the-identity-baseline-discipline"></a>Мотивация и бизнес-риски в плане основы идентификации
 

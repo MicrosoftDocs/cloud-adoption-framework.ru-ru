@@ -7,12 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.openlocfilehash: fe5bcc293d5d3e555c03e954487e3cc7e4c395de
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 3f07432568ca8cbd1d2875034342517a874675e5
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88879920"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97019950"
 ---
 # <a name="ciso-cloud-readiness-guide"></a>Руководство по подготовке руководителя по информационной безопасности к работе с облаком
 
@@ -70,7 +71,7 @@ ms.locfileid: "88879920"
 - [Кто в корпорации Майкрософт имеет доступ к вашим данным и на каких условиях](https://www.microsoft.com/trust-center/privacy/data-access)
 - [Обзор сертификации для служб Azure, концентратора прозрачности](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Первым шагом для выполнения действий в любой стратегии управления является [Проверка политики](./cloud-policy-review.md). [Политика и соответствие требованиям](./index.md) могут быть полезными при проверке политики.
 

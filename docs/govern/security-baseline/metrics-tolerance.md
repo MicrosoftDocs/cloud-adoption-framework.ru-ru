@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: e8c79abc6b3e6af2eb3653fda4fd7891457e9a41
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 43a47b3024d7fc2fd5951344db7283e129d56033
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88878883"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018964"
 ---
 # <a name="risk-tolerance-metrics-and-indicators-in-the-security-baseline-discipline"></a>Метрики и индикаторы отказоустойчивости рисков в плане основы безопасности
 
@@ -56,7 +56,7 @@ ms.locfileid: "88878883"
 
 Точные метрики и триггеры, используемые для оценки допустимости рисков и уровня инвестиций в базовую дисциплину безопасности, будут относиться к конкретной организации, но приведенные выше примеры должны служить основой для обсуждения в вашей команде управления облаком.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Шаблон " [дисциплина в плане безопасности](./template.md) " используется для документирования метрик и индикаторов допуска, которые совпадают с текущим планом внедрения в облаке.
 
