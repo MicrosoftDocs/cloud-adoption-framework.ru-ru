@@ -7,12 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 72435c49c195c7972da348080136ab02ed2e5375
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: internal
+ms.openlocfilehash: dc0f644439fad82558dfe22501ff700f54709c46
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604442"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018420"
 ---
 # <a name="build-consensus-on-the-business-value-of-innovation"></a>Создавайте свои решения в соответствии с бизнес-преимуществами инноваций
 

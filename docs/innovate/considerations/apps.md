@@ -7,12 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: c3886327dcb809d28253ed978dde970b0fecb8af
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal
+ms.openlocfilehash: 20e59c014198d5260aad110b21c2eda82ad65369
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94880965"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018386"
 ---
 # <a name="engage-via-applications"></a>Привлечение через приложения
 
@@ -107,7 +108,7 @@ ms.locfileid: "94880965"
 
 В параллельном режиме Azure обеспечивает бессерверные параметры данных транзакций, которые также снижают затраты. [Каталог продуктов Azure](/azure) предоставляет параметры базы данных, которые размещают данные без необходимости в полной платформе данных.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В зависимости от гипотезы и решения принципы, описанные в этой статье, могут помочь в проектировании приложений, которые соответствуют определениям MVP и привлекать пользователей. Далее следует ознакомиться с принципами повышения эффективности [внедрения](./ci-cd.md), которые предлагают способы получения приложения и данных пользователям быстрее и эффективнее.
 

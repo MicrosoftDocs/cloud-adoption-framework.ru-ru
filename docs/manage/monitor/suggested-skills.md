@@ -2,17 +2,18 @@
 title: Готовность навыков мониторинга в облаке
 description: Готовность навыков мониторинга в облаке
 author: BrianBlanchard
-ms.author: magoedte
+ms.author: brblanch
 ms.date: 08/26/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 7d878cfa4e8fd9234c01fb4647a5b037857bfada
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal
+ms.openlocfilehash: e0d099cab106d950f4135b8a935a8cac8c24f46d
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94879197"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97015717"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -22,7 +23,7 @@ ms.locfileid: "94879197"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов: инфраструктуру, приложение и анализ данных.
 
-## <a name="fundamentals"></a>Базовый
+## <a name="fundamentals"></a>Основы
 
 - Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 

@@ -2,17 +2,18 @@
 title: Собирайте данные мониторинга в облаке
 description: Узнайте, как оценить работоспособность и доступность облачного решения, чтобы получить правильные данные мониторинга.
 author: MGoedtel
-ms.author: magoedte
+ms.author: brblanch
 ms.date: 06/26/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: a1f95222aac6d2b69cc7a2835d7eeaf12df575f4
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: think-tank
+ms.openlocfilehash: 85ff480d99bd816c4cf65292d623af5c96f23753
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89602761"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97015865"
 ---
 # <a name="cloud-monitoring-guide-collect-the-right-data"></a>Руководство по мониторингу облака: получение правильных данных
 

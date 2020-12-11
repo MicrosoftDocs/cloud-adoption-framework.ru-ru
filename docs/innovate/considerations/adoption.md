@@ -7,12 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 7223289dcb5ad5af5d66b9352d4b4df40064cb48
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.custom: internal
+ms.openlocfilehash: abe53662a6cf86423efbf4ddc7bb7ef17ecdf639
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86449563"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018454"
 ---
 # <a name="create-customer-partnerships-through-the-build-measure-learn-feedback-loop"></a>Создание партнерских отношений клиентов с помощью цикла "сборка-мера-обучение"
 

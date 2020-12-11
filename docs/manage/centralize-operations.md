@@ -2,17 +2,18 @@
 title: Централизация операций управления
 description: Узнайте, как централизовать операции управления с помощью одного клиента Azure Active Directory для всех пользователей. Централизованное управление упрощает операции управления и сокращает расходы на обслуживание.
 author: JnHs
-ms.author: jenhayes
+ms.author: brblanch
 ms.date: 09/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 6814fb5ecfb91068979226ebf0163ea6d54ec3eb
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: think-tank
+ms.openlocfilehash: f74049eecf2687184993f67b55c43e41cf914b62
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94880047"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97016614"
 ---
 # <a name="centralize-management-operations"></a>Централизация операций управления
 

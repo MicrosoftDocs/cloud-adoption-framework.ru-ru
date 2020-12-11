@@ -7,12 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 836d917401f8676727f5db593c0d2f67284e3bcd
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal
+ms.openlocfilehash: 7b5e38cf3226294faaa56fbf7bdf936ffe9e288b
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94879950"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97016482"
 ---
 # <a name="management-leveling-across-cloud-management-disciplines"></a>Управление выравниванием по всем дисциплинам управления облаком
 
@@ -48,7 +49,7 @@ ms.locfileid: "94879950"
 
 Уровень специализации платформы управления извлекает из процессов и средств, которые согласованы с дисциплинами операций платформы. Аналогичным образом, уровень специализации рабочей нагрузки управления извлекается из процессов и средств, которые согласованы с операциями рабочей нагрузки.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Следующий шаг к определению каждого уровня управления облачными средствами — это понимание [инвентаризации и видимости](./inventory.md).
 

@@ -7,12 +7,13 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 9e096fce40e00f66ce02bf2a98ff50f324f80b8b
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal
+ms.openlocfilehash: 1738bdda4147b3f129baab218d408706caa32a95
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94880200"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97016805"
 ---
 # <a name="set-up-basic-alerts"></a>Настройка базовых оповещений
 
@@ -49,7 +50,7 @@ Azure Monitor предлагает возможности [оповещений]
 
 В качестве примера пакет использует оборудование сервера HPE. Измените параметры в связанном файле конфигурации, чтобы они отражали оборудование изготовителя оборудования. Кроме того, в файл конфигурации можно добавить дополнительные счетчики производительности. Чтобы развернуть пакет, запустите `New-CoreAlerts.ps1` файл.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Сведения об операциях и механизмах обеспечения безопасности, которые поддерживают текущие операции.
 

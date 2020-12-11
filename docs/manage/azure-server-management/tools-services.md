@@ -7,22 +7,23 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: ee6f351f35914f326dc1864bd92114ef9edf917e
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal
+ms.openlocfilehash: 93b9c229bb45ff400e20ed97c5ce049ab412b430
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94880149"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97016771"
 ---
 # <a name="azure-server-management-tools-and-services"></a>Средства и службы управления сервером Azure
 
 Как описано в [обзоре](./index.md) этого руководства, набор служб управления сервером Azure охватывает следующие области:
 
 - Миграция
-- Безопасность
+- безопасность;
 - Защита
 - Монитор
-- Configure
+- Настройка
 - Управление
 
 В следующих разделах кратко описаны эти области управления и приведены ссылки на подробные сведения о главных службах Azure, которые их поддерживают.
@@ -31,7 +32,7 @@ ms.locfileid: "94880149"
 
 Службы миграции могут помочь в переносе рабочих нагрузок в Azure. Чтобы предоставить лучшие рекомендации, служба "миграция Azure" начинает с оценки производительности локального сервера и оценки пригодности для миграции. После того как служба "миграция Azure" завершит оценку, вы можете использовать [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) и [Azure Database Migration Service](/azure/dms/dms-overview) для переноса локальных компьютеров в Azure.
 
-## <a name="secure"></a>Безопасность
+## <a name="secure"></a>безопасность;
 
 [Центр безопасности Azure](/azure/security-center/security-center-intro) — это комплексное приложение для управления безопасностью. При подключении к центру безопасности можно быстро получить оценку безопасности и нормативных сведений о состоянии соответствия вашей среды. Инструкции по адаптации серверов к центру безопасности Azure см. в статье [Настройка служб управления Azure для подписки](./onboard-at-scale.md#azure-security-center).
 
@@ -61,7 +62,7 @@ ms.locfileid: "94880149"
 - [Log Analytics](/azure/azure-monitor/log-query/log-query-overview) — это функция Azure Monitor. Его роль является центральной для общей истории управления Azure. Он служит хранилищем данных для анализа журналов и многих других служб Azure. Она предлагает расширенный язык запросов и модуль аналитики, который предоставляет подробные сведения о работе приложений и ресурсов.
 - [Журнал действий Azure](/azure/azure-monitor/platform/activity-logs-overview) также является компонентом Azure Monitor. Он предоставляет подробные сведения о событиях уровня подписки, происходящих в Azure.
 
-## <a name="configure"></a>Configure
+## <a name="configure"></a>Настройка
 
 В эту категорию помещаются несколько служб. Они могут помочь:
 
@@ -92,14 +93,14 @@ ms.locfileid: "94880149"
 
 - [Azure Backup](https://azure.microsoft.com/pricing/details/backup)
 
-- [Azure Monitor](https://azure.microsoft.com/pricing/details/monitor)
+- [Azure Monitor](https://azure.microsoft.com/pricing/details/monitor);
 
 - [Центр безопасности Azure](https://azure.microsoft.com/pricing/details/security-center)
 
 - Служба [автоматизации Azure](https://azure.microsoft.com/pricing/details/automation), включая:
   - Настройка требуемого состояния (DSC)
   - Update Management solution (Решение для управления обновлениями)
-  - Решение для Отслеживание изменений и инвентаризации
+  - Решение "Отслеживание изменений и инвентаризация"
 
 - [Политика Azure](https://azure.microsoft.com/pricing/details/azure-policy)
 

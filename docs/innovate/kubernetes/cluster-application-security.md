@@ -2,17 +2,18 @@
 title: Безопасность кластеров и приложений
 description: Узнайте о Kubernetes в облачной инфраструктуре внедрения для обеспечения безопасности кластеров и приложений.
 author: sabbour
-ms.author: asabbour
+ms.author: brblanch
 ms.date: 03/20/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 04921b668f77e00b5e8172527ca57864b2fe9a51
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: think-tank
+ms.openlocfilehash: f924b15bad38e2165a5b72e9b781dc9658db4c38
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88877166"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97017553"
 ---
 <!-- cSpell:ignore kured -->
 

@@ -7,12 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: 861340fa1477f20a0af0a9794903e8a41f95e771
-ms.sourcegitcommit: 71a4f33546443d8c875265ac8fbaf3ab24ae8ab4
+ms.custom: internal
+ms.openlocfilehash: 3b54fbb343d1d4b195b9fd29f9f3edf15b59b360
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/20/2020
-ms.locfileid: "86478809"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018080"
 ---
 # <a name="learn-with-customers"></a>Совместное обучение с клиентами
 

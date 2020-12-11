@@ -7,12 +7,13 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.openlocfilehash: ade0514d0f7d0aec344f7542e94face9ac437e3a
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: a22e95e2a8c44dc6a08c6d0b5c147786244a981e
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88878679"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018556"
 ---
 # <a name="tools-to-interact-with-devices-in-azure"></a>Средства для взаимодействия с устройствами в Azure
 

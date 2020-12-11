@@ -7,12 +7,13 @@ ms.date: 05/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: c2abae951b90703a5b2f0da3cea0e3ed069375fe
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal
+ms.openlocfilehash: 46d5cc077730610bc6bb9bdb3785609880a77c64
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94880523"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97017145"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 
@@ -89,7 +90,7 @@ New-AzPolicyAssignment -Name "Deploy Antimalware" -DisplayName "Deploy default M
 
 ```
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Узнайте о других доступных средствах и службах управления сервером.
 
