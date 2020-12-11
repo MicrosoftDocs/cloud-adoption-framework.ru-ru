@@ -7,13 +7,13 @@ ms.date: 02/11/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
-ms.custom: governance
-ms.openlocfilehash: 83cd8eb9f67a5fc390132baae67a2fb239414a9d
-ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
+ms.custom: internal
+ms.openlocfilehash: 2b46896d28a7093b95e5aca42b61fae852635344
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96605614"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97023248"
 ---
 # <a name="software-defined-networking-hub-and-spoke"></a>Программно-определяемая сеть: Центральная и периферийная
 

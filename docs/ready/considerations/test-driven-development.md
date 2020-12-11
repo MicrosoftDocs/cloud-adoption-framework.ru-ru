@@ -7,12 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: e28124e8480d8b8a427ce69010f4d40278564a37
-ms.sourcegitcommit: 6aa14b15efc9bd351b75f8a3d7ebbac3d575275b
+ms.custom: internal
+ms.openlocfilehash: a7f43c5ec340d7cbf50b570406e27e715e90378a
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/27/2020
-ms.locfileid: "92690006"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97023945"
 ---
 # <a name="test-driven-development-tdd-for-landing-zones"></a>Разработка на основе тестирования (TDD) для целевых зон
 

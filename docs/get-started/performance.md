@@ -7,12 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 9870bf983bf7cbbfdac885c5b252c1565b9d8ce9
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.custom: internal
+ms.openlocfilehash: ebc6265566b9925d30df08d16d1214ee33595f58
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90775638"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97022432"
 ---
 # <a name="get-started-ensure-consistent-performance-across-a-portfolio"></a>Начало работы. обеспечение согласованной производительности в портфеле
 
@@ -39,7 +40,7 @@ ms.locfileid: "90775638"
 **Рекомендации по поддержке готовности к завершению.**
 
 - В статье об [улучшенном базовом плане управления](../manage/azure-management-guide/enhanced-baseline.md) приведены примеры использования таких средств, как служба автоматизации Azure, для добавления улучшений, связанных с производительностью. Такой подход может способствовать обеспечению единообразной производительности посредством базовых изменений размера и масштаба вспомогательных ресурсов.
-- [Операции, связанные с рабочей нагрузкой](../manage/azure-management-guide/platform-specialization.md) , используют Microsoft Azure хорошо спроектированную проверку, чтобы предоставить рекомендации по автоматизации для конкретной рабочей нагрузки. Этот подход к управлению производительностью особенно полезен, если данные рабочей нагрузки должны поработать с операционными операциями.
+- [Операции, связанные с рабочей нагрузкой](../manage/azure-management-guide/platform-specialization.md) , используют Microsoft Azure Well-Architected проверку, чтобы предоставить рекомендации по автоматизации для конкретной рабочей нагрузки. Этот подход к управлению производительностью особенно полезен, если данные рабочей нагрузки должны поработать с операционными операциями.
 - В предыдущем руководстве предполагается, что существующая реализация [базового плана управления](../manage/considerations/discipline.md) поддерживает полный портфель рабочих нагрузок.
 
 > [!NOTE]
@@ -64,7 +65,7 @@ ms.locfileid: "90775638"
 
 - Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соглашениям об именовании и разметке тегов](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](/azure/governance/policy/tutorials/govern-tags)с особым выделением тегов для "критическость".
 - Если вы не знакомы с управлением облаком, установите [политики управления, процессы и дисциплины](../govern/index.md) с помощью управляемой методологии.
-- Если вы не знакомы с специализацией в области управления затратами, рассмотрите [статью об улучшениях в области управления затратами](../govern/guides/complex/cost-management-improvement.md)и сосредоточьтесь на разделе [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
+- Если вы не знакомы с специализацией в области управления затратами, рассмотрите [статью об улучшениях в области управления затратами](../govern/guides/complex/cost-management-improvement.md)и сосредоточьтесь на разделе [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-best-practices) .
 
 <br>
 

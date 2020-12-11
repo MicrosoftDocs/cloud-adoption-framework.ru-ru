@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: bf0d36934e32c0ad502a178cbedbcff25cd45bf8
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.custom: internal
+ms.openlocfilehash: a99d577de42d44624c3c07d22cc859695b52ebc1
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88194961"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024880"
 ---
 # <a name="migration-backlog-review"></a>Обзор невыполненной работы по миграции
 
@@ -32,7 +33,7 @@ ms.locfileid: "88194961"
 
 В статье о [рационализации цифровых ресурсов](../../../digital-estate/rationalize.md) обсуждается эффект гибкости и экономии времени в результате рассмотрения основных предположений при оценке цифровых ресурсов. Чтобы полностью реализовать эти возможности, команде по внедрению в облако необходимо узнать о предположениях и причинах их формулировки. Эти знания позволяют команде по внедрению в облако оспаривать предположения.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Имея общее представление о невыполненной работе по цифровому разметке и миграции, Группа готова к переходу за пределы предварительных требований и начать оценивать рабочие нагрузки.
 

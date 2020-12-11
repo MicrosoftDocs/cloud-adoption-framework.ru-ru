@@ -3,16 +3,17 @@ title: Функция управления уровнями безопаснос
 description: Общие сведения о функции управления уровнями безопасности в облаке.
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: 96bb73571c0f876f90f2e3132cb8751232bae653
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 77ad129f12e859c0530aaedf351df0374f8b96ec
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996321"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024574"
 ---
 <!-- docsTest:casing TVM -->
 

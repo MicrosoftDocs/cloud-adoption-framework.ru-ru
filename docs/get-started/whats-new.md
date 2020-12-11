@@ -7,12 +7,13 @@ ms.date: 10/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 7c8dab21fbe934fef666035853178c0d83dd82cb
-ms.sourcegitcommit: d19b0fc9ef37bf1060fe7595cd2be1612a43ea4a
+ms.custom: internal
+ms.openlocfilehash: 1548ce843dfb1c8522dd000e9f44afddd6eb55dc
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2020
-ms.locfileid: "96605563"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97022092"
 ---
 <!-- docutune:casing "Getting Started module" "internal Microsoft teams" OneMigrate -->
 
@@ -28,7 +29,7 @@ ms.locfileid: "96605563"
 
 | Статья | Описание |
 |--|--|
-| [Разработка &nbsp; &nbsp; стратегии именования &nbsp; и &nbsp; маркировки &nbsp; для ресурсов Azure](../ready/azure-best-practices/naming-and-tagging.md) | Мы улучшили рекомендации по определению стратегии именования и маркировки. В дополнение к обзору мы разделили это руководство с несколькими статьями, в которых рассматриваются следующие темы: <br><br> <li> [Определение соглашения об именовании](../ready/azure-best-practices/resource-naming.md) <li> [Рекомендуемые сокращения для различных типов ресурсов Azure](../ready/azure-best-practices/resource-abbreviations.md) <li> [Определение стратегии тегов](../ready/azure-best-practices/resource-tagging.md) |
+| [Разработка &nbsp; &nbsp; стратегии именования &nbsp; и &nbsp; маркировки &nbsp; для ресурсов Azure](../ready/azure-best-practices/naming-and-tagging.md) | Мы улучшили рекомендации по определению стратегии именования и маркировки. В дополнение к обзору мы разделили это руководство с несколькими статьями, в которых рассматриваются следующие темы: <br><br> <li> [Определение соглашения об именовании](../ready/azure-best-practices/resource-naming.md) <li> [Рекомендуемые сокращения для различных типов ресурсов Azure](../ready/azure-best-practices/resource-abbreviations.md) <li> [Определение стратегии добавления тегов](../ready/azure-best-practices/resource-tagging.md) |
 | [Миграция развертывания Moodle в Azure](../scenarios/lamp/moodle/migration-overview.md) | Узнайте, как перенести развертывание Moodle системы управления обучением с открытым исходным кодом из локальной среды в Azure. Действия предназначены для использования портал Azure или Azure CLI развертывания. |
 
 ## <a name="october-2020"></a>Октябрь 2020 г.

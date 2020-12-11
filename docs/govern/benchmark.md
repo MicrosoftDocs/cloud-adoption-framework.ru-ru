@@ -7,13 +7,13 @@ ms.date: 08/27/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: daad757372250014556de53ddd6cfdacf66b0b7f
-ms.sourcegitcommit: 7660521b631ea092fb805df9c9d28ad3024287ff
+ms.custom: internal
+ms.openlocfilehash: 7988dab559e0099925dab7522bb4aae0f779a5ee
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/19/2020
-ms.locfileid: "83620344"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97022024"
 ---
 # <a name="assess-your-transformation-journey"></a>Оценка пути преобразования
 

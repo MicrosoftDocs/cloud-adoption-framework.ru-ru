@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 493a57feb711e6e3303d146c8e225afa78689f49
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: bcb40b4f698ba5b0aa0337303a1868e7b5561f16
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996627"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025084"
 ---
 # <a name="what-role-does-replication-play-in-the-migration-process"></a>Какую роль репликация играет в процессе миграции?
 

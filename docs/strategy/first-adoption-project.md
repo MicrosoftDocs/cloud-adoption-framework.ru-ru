@@ -7,12 +7,13 @@ ms.date: 5/19/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: ed9028167025c161f3a7eab8b3d73ad9c9887861
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 110afe2e3e67b42ba396871584dbfbde1962ccbb
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996848"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97023894"
 ---
 # <a name="first-cloud-adoption-project"></a>Первый проект внедрения облачных технологий
 

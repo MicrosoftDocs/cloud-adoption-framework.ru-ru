@@ -7,12 +7,13 @@ ms.date: 06/24/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 4797f40f4353367a99ef68800becf23127c0c203
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank
+ms.openlocfilehash: 7992b8aab26b5d00d7f9586b172f5ad0cb0f20e6
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997460"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024523"
 ---
 <!-- cSpell:ignore Informatica gzipped Attunity -->
 
@@ -22,7 +23,7 @@ ms.locfileid: "94997460"
 
 - Подготовка перед миграцией
 - Стратегия и выполнение миграции
-- Действия после миграции
+- После миграции
 
 Например, подготовка группы по переносу хранилища данных включает в себя навыки обучения и знакомства с технологиями. Он также включает в себя настройку лаборатории проверки концепции, понимание того, как вы будете управлять тестовыми и рабочими средами, обеспечивает достаточный зазор для переноса данных и рабочей системы за пределами корпоративного брандмауэра и настройку программного обеспечения миграции в центре обработки данных, чтобы обеспечить продолжение миграции.
 

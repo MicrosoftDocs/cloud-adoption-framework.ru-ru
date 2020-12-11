@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 8c31b25b7c5ce75ab1b4c1ed3b76e9a1dfcb7422
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.custom: internal
+ms.openlocfilehash: 4b06c3bf6187d3536af57b772980af76d0b443c3
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83215914"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024982"
 ---
 # <a name="prepare-a-migrated-application-for-production-promotion"></a>Подготовка перенесенного приложения к перемещению в рабочую среду
 

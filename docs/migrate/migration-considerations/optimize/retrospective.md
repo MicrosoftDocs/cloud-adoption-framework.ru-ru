@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 50a1f40a6594faa9cda9594ce87d2e91cdca0ad3
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.custom: internal
+ms.openlocfilehash: d9f4e459e89dff483a30df3e2440f8294f00acae
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86235132"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024965"
 ---
 # <a name="how-do-retrospectives-help-build-a-growth-mindset"></a>Как с помощью ретроспектив создать установку на повышение профессиональной компетенции?
 

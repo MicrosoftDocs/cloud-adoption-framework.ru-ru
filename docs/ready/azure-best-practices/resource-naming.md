@@ -7,13 +7,13 @@ ms.date: 12/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.custom: readiness, fasttrack-edit, internal
-ms.openlocfilehash: 6c600d57ca14610e16747565a2a4536d31a4d150
-ms.sourcegitcommit: 5df186dd1fe56852126bab3d18c7d8b7864c08ce
+ms.custom: internal, readiness, fasttrack-edit
+ms.openlocfilehash: 40c0754c9f5085a0735b74b893424428a63fcc3c
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96772520"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024404"
 ---
 # <a name="define-your-naming-convention"></a>Определение соглашения об именовании
 
@@ -129,7 +129,7 @@ _Схема 2. уровни области для имен ресурсов Azur
 
 | Тип ресурса | Область | Формат и примеры |
 |--|--|--|
-| **Учетная запись хранения (общее использование)** | Глобальный | _st\<storage name>\<###>_ <br><br> <li> `stnavigatordata001` <li> `stemissionsoutput001` |
+| **Учетная запись хранения (общее использование)** | Глобальный | _день\<storage name>\<###>_ <br><br> <li> `stnavigatordata001` <li> `stemissionsoutput001` |
 | **Учетная запись хранения (журналы диагностики)** | Глобальный | _стдиаг\<first 2 letters of subscription name and number>\<region>\<###>_ <br><br> <li> `stdiagsh001eastus2001` <li> `stdiagsh001westus001` |
 | **StorSimple Azure** | Глобальный | _ssimp\<app name>-\<environment>_ <br><br> <li> `ssimpnavigatorprod` <li> `ssimpemissionsdev` |
 | **Реестр контейнеров Azure** | Глобальный | _ACR\<app name>\<environment>\<###>_ <br><br> <li> `acrnavigatorprod001` |

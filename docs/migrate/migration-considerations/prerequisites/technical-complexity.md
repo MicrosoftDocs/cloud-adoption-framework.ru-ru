@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: b6ec6b88d68cbf57dd940abf3998bac5fcbafaa3
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: e11b824486c43d264da41a590d316b029a2a8c65
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995947"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024863"
 ---
 # <a name="prepare-for-technical-complexity-agile-change-management"></a>Подготовка к технической сложности: гибкое управление изменениями
 

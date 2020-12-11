@@ -7,12 +7,13 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 1696f4ee2f10ba9b7a9fa01865dd041181f9034a
-ms.sourcegitcommit: 60d8b863d431b5d7c005f2f14488620b6c4c49be
+ms.custom: internal
+ms.openlocfilehash: 65f00331e7358466b05f25ed8d48775d251c8aed
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/12/2020
-ms.locfileid: "83223462"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024489"
 ---
 # <a name="plan-for-cloud-adoption"></a>Планирование внедрения в облако
 

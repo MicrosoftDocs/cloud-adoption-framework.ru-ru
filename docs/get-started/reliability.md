@@ -7,12 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 7ef09f13acdcc29e3314e2684a307efba788120c
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.custom: internal
+ms.openlocfilehash: a42115e034e0f737e05feedad44cd5c0c777317f
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90775604"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97022347"
 ---
 # <a name="get-started-improve-reliability-with-the-right-controls"></a>Начало работы. повышение надежности с помощью правильных элементов управления
 
@@ -51,7 +52,7 @@ ms.locfileid: "90775604"
   - [Оперативное соответствие](../manage/considerations/operational-compliance.md). наибольшие проценты простоев обычно происходят из изменений в конфигурации ресурсов или при неудовлетворительных приемах обслуживания. Следуйте инструкциям [руководства по управлению сервером Azure](../manage/azure-server-management/index.md) , чтобы реализовать собственные средства для управления исправлениями и изменения конфигурации ресурсов.
   - [Защита и восстановление](../manage/considerations/protect.md): сбои неизбежны на любой платформе. В случае нарушения работы подготовьте [решения резервного копирования и восстановления](../manage/azure-management-guide/protect-recover.md) , чтобы минимизировать длительность.
 - [Дополнительные операции](../manage/design-principles.md). Используйте базовый план управления в качестве основы для ваших обсуждений по [Организации](../manage/considerations/business-alignment.md) . Он позволяет ясно обсуждать [критические](../manage/considerations/criticality.md)и [деловые последствия](../manage/considerations/impact.md)и [обязательства по эксплуатации](../manage/considerations/commitment.md). Деловое выравнивание помогает количественным и проверенным запросам на [Расширенные базовые показатели](../manage/azure-management-guide/enhanced-baseline.md), управление конкретными [технологическими платформами](../manage/azure-management-guide/workload-specialization.md)или [операции, связанные с рабочей нагрузкой](../manage/azure-management-guide/platform-specialization.md).
-- **Руководство по проверке архитектуры:** Для удовлетворения требований к операциям могут потребоваться изменения архитектуры на уровне рабочей нагрузки. [Microsoft Azure хорошо спроектированная платформа](/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure хорошо спроектированная проверка](/assessments?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
+- **Руководство по проверке архитектуры:** Для удовлетворения требований к операциям могут потребоваться изменения архитектуры на уровне рабочей нагрузки. [Microsoft Azure Well-Architected Framework](/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure Well-Architected](/assessments?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
 
 <br>
 
@@ -72,7 +73,7 @@ ms.locfileid: "90775604"
 
 - Убедитесь, что все рабочие нагрузки и ресурсы соответствуют [соответствующим соглашениям об именовании и маркировке](../ready/azure-best-practices/naming-and-tagging.md). [Применение соглашений о разметке с помощью политики Azure](/azure/governance/policy/tutorials/govern-tags)с особым акцентом на теги для обеспечения важности.
 - Если вы не знакомы с управлением облаком, установите [политики управления, процессы и дисциплины](../govern/index.md) с помощью управляемой методологии.
-- Если вы не знакомы с дисциплиной управления затратами, следуйте указаниям в статье [улучшение управления затратами на специализацию](../govern/guides/complex/cost-management-improvement.md) . Сосредоточьтесь на разделе [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-the-best-practices) .
+- Если вы не знакомы с дисциплиной управления затратами, следуйте указаниям в статье [улучшение управления затратами на специализацию](../govern/guides/complex/cost-management-improvement.md) . Сосредоточьтесь на разделе [Реализация](../govern/guides/complex/cost-management-improvement.md#incremental-improvement-of-best-practices) .
 
 > [!NOTE]
 > **Действия по запуску отношений надежности с другими командами:** Различные решения в рамках жизненного цикла внедрения в облако могут оказать прямое воздействие на надежность. Следующие шаги описывают партнерство и вспомогательные действия, необходимые для обеспечения согласованной надежности в портфеле ИТ.

@@ -1,19 +1,19 @@
 ---
 title: Определение облачной операционной модели
-description: Узнайте, как инфраструктура внедрения в облаке помогает определить операционную модель.
+description: Узнайте, как Cloud Adoption Framework помогает определить операционную модель.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 08/14/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.custom: operating-model
-ms.openlocfilehash: 0a92752d339cd59253ad47b10b8ae949090b5b0a
-ms.sourcegitcommit: 011525720bd9e2d9bcf03a76f371c4fc68092c45
+ms.custom: internal, operating-model
+ms.openlocfilehash: 7204b4ee6b1a3f86278295d198cde52caa71bcf8
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/18/2020
-ms.locfileid: "88575960"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024846"
 ---
 # <a name="define-your-cloud-operating-model"></a>Определение облачной операционной модели
 
@@ -58,4 +58,4 @@ ms.locfileid: "88575960"
 Прежде чем приступить к работе с любой из описанных выше методологий, воспользуйтесь следующей статьей, чтобы сравнить общие облачные рабочие модели и найти модель, которая точно соответствует вашим требованиям. Эта статья поможет установить наиболее практичную стартовую точку и набор упражнений, чтобы перейти к нужной рабочей модели на облачной платформе.
 
 > [!div class="nextstepaction"]
-> [Сравнение общих рабочих моделей в облаке](./compare.md)
+> [Сравнение распространенных облачных операционных моделей](./compare.md)

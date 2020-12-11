@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 3f3b67433f2b41337d66ab05265e45489c49e050
-ms.sourcegitcommit: 4e12d2417f646c72abf9fa7959faebc3abee99d8
+ms.custom: internal
+ms.openlocfilehash: 25d24bb300874d057200e4057d668bcbaa61c549
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/18/2020
-ms.locfileid: "90776335"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97023877"
 ---
 # <a name="how-can-we-align-efforts-to-meaningful-learning-metrics"></a>Как можно согласовать усилия с осмысленными показателями обучения?
 

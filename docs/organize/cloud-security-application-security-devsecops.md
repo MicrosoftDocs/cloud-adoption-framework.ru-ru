@@ -3,16 +3,17 @@ title: Общие сведения о безопасности приложен�
 description: Общие сведения о безопасности приложений и функциях Девсекопс.
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: f2abf5b8a8831243aa62a31946237a2a09267359
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.custom: internal
+ms.openlocfilehash: b713b0003e4530ba9fff08ef9f746c85e7c028d0
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86451076"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024727"
 ---
 # <a name="application-security-and-devsecops-functions"></a>Безопасность приложений и функции Девсекопс
 

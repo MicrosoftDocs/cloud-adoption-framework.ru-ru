@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 72f793383bd525b48f3f8ae30cd6e0d470ddba64
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.custom: internal
+ms.openlocfilehash: 13f2c81dab13aa0bebc00396b357213dc024fa85
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88193282"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025067"
 ---
 # <a name="understand-staging-activities-during-a-migration"></a>Общие сведения о действиях в рамках промежуточного хранения во время миграции
 
@@ -27,7 +28,7 @@ ms.locfileid: "88193282"
 - **Документация по конфигурации.** Любые изменения, внесенные в ресурс (во время исправления, репликации или промежуточного хранения), необходимо документировать для обеспечения готовности к работе.
 - **Документация по невыполненной работе.** Список невыполненной работы по миграции необходимо обновить, чтобы отразить рабочую нагрузку и ресурсы, размещенные в промежуточной среде.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После тестирования и документирования промежуточных ресурсов можно перейти к действиям оптимизации.
 

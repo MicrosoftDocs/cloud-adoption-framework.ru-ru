@@ -3,16 +3,17 @@ title: Функции облачной инфраструктуры и безо�
 description: Узнайте о функции облачной инфраструктуры и безопасности конечных точек.
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: b981d434e6874265511aec109afecab666c43e2a
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 437576b84ee6c96b0d6b3be74c55359f80a3d7ef
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996372"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024676"
 ---
 # <a name="function-of-cloud-infrastructure-and-endpoint-security"></a>Функции облачной инфраструктуры и безопасности конечных точек
 

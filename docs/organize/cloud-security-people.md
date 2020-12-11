@@ -3,16 +3,17 @@ title: Функции безопасности пользователей в о�
 description: Общие сведения о функциях безопасности в облаке.
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: 275be63f3b39d1236132b945fd9698482e33b18f
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.custom: internal
+ms.openlocfilehash: 50c51398899887be7e8d1364986a7cff923de139
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194278"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024625"
 ---
 # <a name="people-security-functions-in-the-cloud"></a>Функции безопасности пользователей в облаке
 

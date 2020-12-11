@@ -1,19 +1,19 @@
 ---
 title: Оценка бизнес-результатов с помощью AppDynamics
 description: Используйте AppDynamics, чтобы понять, как производительность приложения и взаимодействие с пользователем влияют на результаты бизнеса.
-author: BrianBlanchard
-ms.author: wayneme
+author: wayneme75
+ms.author: brblanch
 ms.date: 09/18/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: think-tank
-ms.openlocfilehash: 502dba2d970f46d8e929755a9c05be270724f501
-ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
+ms.openlocfilehash: 306375d0d399b078cd7257d88c8d74e04bf9ebd5
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95447104"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97023027"
 ---
 <!-- docutune:casing "Movie Tickets Online" -->
 
@@ -95,6 +95,6 @@ _Рис. 2. AppDynamicsная панель мониторинга влияния
 
 _Рис. 3. Сравнение AppDynamics миграции._
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 AppDynamics предоставляет организациям уникальную возможность измерять результаты бизнеса в рамках стратегии внедрения в облако. Посетите [AppDynamics](https://www.appdynamics.com/product/infrastructure-monitoring/cloud-monitoring/microsoft-azure) , чтобы узнать больше о AppDynamics с помощью Azure.

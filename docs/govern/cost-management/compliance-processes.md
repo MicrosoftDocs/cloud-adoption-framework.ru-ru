@@ -7,13 +7,13 @@ ms.date: 09/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: 3e1a6b1b562242c77e6c3e35b43eb2e464736673
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 0bc21e340218a9a29f162a4cfdfcc88f3bdf6fc3
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88883813"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97021939"
 ---
 # <a name="cost-management-policy-compliance-processes"></a>Процессы обеспечения соответствия политикам управления затратами
 
@@ -56,7 +56,7 @@ ms.locfileid: "88883813"
 - **Месячные отклонения бюджета:** Обсудите любые отклонения в месячных расходах, превышающие соотношение прогнозируемых и фактических значений в 20% с руководителем единицы выставления счетов. Запишите решение проблемы и изменения запланированного бюджета.
 - **Скорость внедрения:** Любое отклонение на уровне подписки, превышающее 20%, вызовет проверку с руководителем единицы выставления счетов. Запишите решение проблемы и изменения запланированного бюджета.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Используйте [шаблон дисциплины управления затратами](./template.md) для документирования процессов и триггеров, которые совпадают с текущим планом внедрения в облаке.
 

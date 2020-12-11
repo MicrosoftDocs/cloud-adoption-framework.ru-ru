@@ -7,13 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.custom: organize
-ms.openlocfilehash: 7afed36939d3d143934ad962aa87e3921535ed06
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: f8384acb0a37d08fd3b352f1a1690cdeecfa39d2
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996542"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024795"
 ---
 # <a name="cloud-adoption-functions"></a>Функции внедрения облачных технологий
 

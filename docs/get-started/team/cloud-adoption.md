@@ -7,12 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: 7a3e3eb6feec8fde3749e3204519f1859f19b280
-ms.sourcegitcommit: c2249056464d748a6ce15c82cb35a9f164d8f661
+ms.custom: internal
+ms.openlocfilehash: bb9bb3701f2f185fdc85e8c0f6863cd8852dc33f
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/23/2020
-ms.locfileid: "91108201"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97022313"
 ---
 # <a name="get-started-build-a-cloud-adoption-team"></a>Начало работы. Создание группы внедрения в облако
 

@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
-ms.openlocfilehash: c902bed3b665aac6ca41c5881a239a1efe6d2787
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: internal
+ms.openlocfilehash: fce5e1d0de6574df44194a3697eb76d07e6dfd23
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94713740"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97022653"
 ---
 # <a name="get-started-accelerate-new-product-and-service-innovation-in-the-cloud"></a>Начало работы. ускорение новых нововведений продуктов и услуг в облаке
 
@@ -228,7 +229,7 @@ ms.locfileid: "94713740"
 
 Действия, описанные в этом руководстве, помогут вам и вашим командам создавать инновационные решения в облаке, которые создают ценность для бизнеса, управляются соответствующим образом и хорошо спроектированы.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Облачная инфраструктура внедрения — это решение жизненного цикла. Это поможет вам начать внедрение инноваций. Она поможет вашей организации приступить к инновациям инноваций и повысить зрелости групп, которые поддерживают инновации.
 
