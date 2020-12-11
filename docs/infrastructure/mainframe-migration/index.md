@@ -2,17 +2,18 @@
 title: Обзор миграции мейнфреймов
 description: Переносите рабочие нагрузки, приложения и базы данных мейнфреймов на платформу Azure с проверенной высокодоступной масштабируемой инфраструктурой, в которой отсутствуют многие недостатки, присущие мейнфреймам.
 author: njray
-ms.author: v-nanra
+ms.author: brblanch
 ms.date: 12/27/2018
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: cf30852204f3ce6b5911787e79beb99a072b6ba3
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: think-tank
+ms.openlocfilehash: 266a6e417e651f81d6440b7d7fd0e6d517f7e166
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712601"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97018862"
 ---
 <!-- docutune:casing "BMC Control-M" ASSGN DLBL EXTENT LIBDEF EXEC TWS-OPC CA-SAR IMS/TM IMS/DC "IMS/Data Communications" "Micro Focus Server Enterprise Edition" VSE -->
 <!-- docutune:ignore JOB Natural SPOOL -->

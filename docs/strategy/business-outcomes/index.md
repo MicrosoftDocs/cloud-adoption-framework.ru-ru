@@ -7,12 +7,13 @@ ms.date: 10/28/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
-ms.openlocfilehash: 88cdc53fcc9fafc42c09a6cec7d509307c4fb73e
-ms.sourcegitcommit: 03f2c9cffc25690dcc5f8215f894e898d0f4ad0e
+ms.custom: internal
+ms.openlocfilehash: e175460e3e8464e10dacdd809e27e7ebb1647e8c
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/04/2020
-ms.locfileid: "93344046"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97013031"
 ---
 # <a name="what-business-outcomes-are-associated-with-transformation-journeys"></a>Какие бизнес-результаты связаны с процессами преобразования?
 

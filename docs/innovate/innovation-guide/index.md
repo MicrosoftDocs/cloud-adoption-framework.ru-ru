@@ -2,19 +2,19 @@
 title: Инновации в Azure. Перед началом работы
 description: Подготовьте свою среду для внедрения облачных инновационных решений с помощью функций Azure, которые помогут вам привлекать клиентов, создавать решения и осваивать новые технологии.
 author: matticusau
-ms.author: mlavery
+ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 521b3fd8f991ba1d5ff3900637dd10d865984735
-ms.sourcegitcommit: 9163a60a28ffce78ceb5dc8dc4fa1b83d7f56e6d
+ms.custom: think-tank, fasttrack-edit, AQC
+ms.openlocfilehash: c76181620d8d465c4244ccc043500f3b39983eb9
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/17/2020
-ms.locfileid: "86448951"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97017740"
 ---
 # <a name="azure-innovation-guide-overview"></a>Обзор руководств по инновациям Azure
 

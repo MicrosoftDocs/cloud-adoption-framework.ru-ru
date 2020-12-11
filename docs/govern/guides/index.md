@@ -7,13 +7,13 @@ ms.date: 09/05/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
-ms.custom: governance
-ms.openlocfilehash: a39440dff04e267a80fa085dfdf6c565d33762cb
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: internal
+ms.openlocfilehash: 3a854dd2b326fb9681cb62b06e80c2ba2467609d
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89604845"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97020919"
 ---
 # <a name="cloud-governance-guides"></a>Руководства по управлению облаком
 
