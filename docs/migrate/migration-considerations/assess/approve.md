@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 218b7ce544d74f46aa178d2e1315d7b5cb63d5a1
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.custom: internal
+ms.openlocfilehash: 91cb4c04b21cc0965e1fc2b679dae67ebda95855
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196710"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025968"
 ---
 <!-- cSpell:ignore ITIL -->
 
@@ -67,7 +68,7 @@ ms.locfileid: "88196710"
 
 По возможности технические изменения должны быть обнаружены и задокументированы в процессе оценки. Независимо от процессов утверждения команда по внедрению в облако должна привлекать утверждающих лиц на ранних этапах. Чем раньше начнется утверждение изменений, тем менее вероятно, что процесс утверждения помешает действиям по миграции.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Эти рекомендации должны упростить интеграцию правильной процедуры утверждения с низким уровнем рисков в задачи по миграции. После утверждения изменений рабочей нагрузки группа внедрения облаков готова к миграции рабочих нагрузок.
 

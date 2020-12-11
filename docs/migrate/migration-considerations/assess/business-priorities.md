@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 6f2bac40952af40376e57243c75c4dd6910d2bc1
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.custom: internal
+ms.openlocfilehash: 1b624e02181925b1e851b2b8c6be86794b4587ea
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84787849"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025305"
 ---
 # <a name="business-priorities-maintaining-alignment"></a>Бизнес-приоритеты: поддержание выравнивания
 

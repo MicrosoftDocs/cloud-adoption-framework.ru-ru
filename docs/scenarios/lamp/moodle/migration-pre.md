@@ -1,18 +1,19 @@
 ---
 title: Подготовка к Moodle миграции
 description: Узнайте, как подготовиться к Moodle миграции. См. раздел Резервное копирование файлов Moodle и создание ресурсов, необходимых для миграции.
-author: BrianBlanchard
+author: UmakanthOS
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: b0f2c719e73248d9b6ae2936cb5162a38aa2b8e8
-ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
+ms.custom: internal
+ms.openlocfilehash: eaed30fb982f10e51de85951a48b89a790549c3a
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96327888"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025628"
 ---
 # <a name="how-to-prepare-for-a-moodle-migration"></a>Подготовка к Moodle миграции
 
@@ -63,10 +64,10 @@ ms.locfileid: "96327888"
 - Чтобы использовать портал Azure, выполните следующие действия.
 
   1. Откройте [группы ресурсов](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceGroups)и выберите **Добавить**.
-  
+
   1. Введите имя подписки, имя группы ресурсов и регион. Список доступных регионов см. [в статье местонахождение данных в Azure](https://azure.microsoft.com/global-infrastructure/data-residency/) . Запишите имя введенной группы ресурсов, чтобы это имя можно было использовать в последующих шагах.
-  
-  1. Выберите **Проверить и создать**.
+
+  1. Выберите **Review + create** (Просмотреть и создать).
 
   ![Снимок экрана: страница "Создание группы ресурсов" в полях "портал Azure", "Подписка", "Группа ресурсов" и "Проверка + создать".](./images/resource-group.png)
 
@@ -98,12 +99,12 @@ ms.locfileid: "96327888"
      - Имя только что созданной группы ресурсов
      - Имя учетной записи хранения
      - Ваш регион
-   
+
   1. В качестве **типа учетной записи** введите **блобстораже**.
-  
+
   1. Для **репликации** введите **геоизбыточное хранилище с доступом для чтения (RA-GRS)**.
 
-  1. Выберите **Проверить и создать**.
+  1. Выберите **Review + create** (Просмотреть и создать).
 
   ![Снимок экрана со страницей создания учетной записи хранения в портал Azure с несколькими полями ввода и кнопкой "Проверка и создание".](./images/create-storage-account.png)
 

@@ -7,12 +7,13 @@ ms.date: 07/07/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 980d714bc5394161dd064032fae4b3fa6ea579d6
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: ce0f66a8c21a7c154bcdec4f54a3564ad733bc13
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997120"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026666"
 ---
 # <a name="landing-zone-implementation-options"></a>Параметры реализации зоны размещения
 

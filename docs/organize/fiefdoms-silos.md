@@ -7,13 +7,13 @@ ms.date: 09/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.custom: organize
-ms.openlocfilehash: 58167ace28964504758e9705c344b9af320146fb
-ms.sourcegitcommit: a7eb2f6c4465527cca2d479edbfc9d93d1e44bf1
+ms.custom: internal
+ms.openlocfilehash: dbbd0512d4c3b9b640f265937f1b94c5de47fdc1
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "94712261"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026359"
 ---
 # <a name="organizational-antipatterns-silos-and-fiefdoms"></a>Антишаблоны Организации: приемники и фиефдомс
 
@@ -133,7 +133,7 @@ ms.locfileid: "94712261"
 
 Для достижения необходимого изменения может потребоваться выравнивание с заинтересованными лицами, причинами бизнеса и бизнес-результатами. Партнерство с [группой облачных стратегий](./cloud-strategy.md), [облачным центром управления](./cloud-center-of-excellence.md)и группой по [управлению облаком](./cloud-governance.md) может предоставить точки данных, необходимые для дефенсибле позиции. При необходимости эти команды должны быть вовлечены в укрупнение группы, чтобы решить проблемы, которые не могут быть решены с помощью только ИТ-лидера.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Нарушение организационных шаблонов заключается в усилиях группы. Чтобы приступить к работе с этим руководством, ознакомьтесь с введением в организацию готовности Организации, чтобы найти правильные структуры и участники команды.
 

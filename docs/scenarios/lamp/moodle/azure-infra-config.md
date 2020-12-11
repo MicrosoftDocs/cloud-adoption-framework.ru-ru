@@ -1,18 +1,19 @@
 ---
 title: Настройка рабочих узлов Moodle
 description: Узнайте, как настроить масштабируемый набор виртуальных машин для Moodle. Узнайте, как получить доступ к масштабируемому набору из контроллера, используя частный IP-адрес.
-author: BrianBlanchard
+author: UmakanthOS
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 0ea1e7748f682efe419601e2df59599c2519ad4b
-ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
+ms.custom: internal
+ms.openlocfilehash: c0b3a01440b907dfd31eadda27d727d9a2afd587
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96327565"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025730"
 ---
 # <a name="how-to-set-up-moodle-worker-nodes"></a>Настройка рабочих узлов Moodle
 
@@ -67,6 +68,7 @@ mkdir -p backup/moodle
 ```
 
 ### <a name="configure-the-php-and-web-server"></a>Настройка PHP и веб-сервера
+
 Чтобы настроить PHP и веб-сервер, сделайте следующее:
 
 1. Задайте в качестве версии PHP переменную:

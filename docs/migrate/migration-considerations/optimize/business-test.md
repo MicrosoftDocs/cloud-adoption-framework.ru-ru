@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 15ab13f8d5797921e125c3b397b44213afcde249
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.custom: internal
+ms.openlocfilehash: ba4d3deb27dd5023b928b6371b029c417d7c4dd3
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80432371"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026614"
 ---
 # <a name="guidance-for-business-testing-uat-during-migration"></a>Руководство по бизнес-тестированию (UAT) во время миграции
 
@@ -49,7 +50,7 @@ ms.locfileid: "80432371"
 - Выявление имеющихся автоматических тестов, которые могут упростить тестирование опытными пользователями.
 - Для изменений, которые могут потребовать повторного развертывания или тестирования, изучите процессы тестирования, определите тестовые показатели и создайте автоматизацию для дальнейшего упрощения тестирования опытными пользователями.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 В сочетании с бизнес-тестированием [оптимизация перенесенных ресурсов](./optimize.md) может уточнить затраты и производительность рабочей нагрузки.
 

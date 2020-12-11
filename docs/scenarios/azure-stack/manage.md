@@ -7,12 +7,13 @@ ms.date: 05/19/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: bac23e8fbd32e77686015f0a6a7d75649b6273b9
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: internal
+ms.openlocfilehash: 63cd498b92141a6c9e8ee0dbefae4842ec223145
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88885496"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025815"
 ---
 # <a name="manage-workloads-that-run-on-azure-stack-hub"></a>Управление рабочими нагрузками, которые выполняются в концентраторе Azure Stack
 
@@ -35,7 +36,7 @@ ms.locfileid: "88885496"
 - [Управление гостевыми системами](https://azure.microsoft.com/blog/azure-stack-iaas-part-one/), включая расширения виртуальных машин, возможность выполнять пользовательский код, инвентаризацию программного обеспечения и отслеживание изменений.
 - [Непрерывность бизнес-процессов](https://azure.microsoft.com/blog/azure-stack-iaas-part-four/) посредством резервного копирования виртуальных машин и вариантов аварийного восстановления.
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Когда миграция центра Azure Stack достигнет рабочего состояния, можно начать следующую итерацию миграции с помощью центра Azure Stack или других сценариев миграции в общедоступном облаке Azure.
 

@@ -7,13 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.custom: organize
-ms.openlocfilehash: 5581d543c2bd48575b1c73bc50d5f8272ebd5926
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 37a603d8211573fa0136a279ab99a737933f5ded
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995675"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026563"
 ---
 # <a name="central-it-team-functions"></a>Централизованные ИТ команды ИТ
 
@@ -115,7 +115,7 @@ ms.locfileid: "94995675"
 
 - По мере того, как ИТ-группа поработает с облачными возможностями, следующий этап погашения обычно является слабой присоединением облачных операций. Доступность собственных средств управления операциями в облаке и снижение эксплуатационных расходов на решения PaaS, как правило, приводят к бизнес-группам (или, точнее, DevOpsным командам в организации), предполагая ответственность за облачные операции.
 
-Дополнительные сведения:
+См. также:
 
 - [Создание группы облачных операций](../get-started/team/cloud-operations.md)
 - [Функции облачных операций](./cloud-operations.md)

@@ -1,18 +1,19 @@
 ---
 title: Создание шлюза виртуальной сети и подключение к виртуальным машинам
 description: Создайте шлюз виртуальной сети, сертификаты и VPN, а затем подключитесь к экземплярам масштабируемых наборов виртуальных машин с помощью SSH, используя частный IP-адрес и пароль.
-author: BrianBlanchard
+author: UmakanthOS
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: db82bc164af0cc6b34235d307bbcb36db2f53939
-ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
+ms.custom: internal
+ms.openlocfilehash: 0853343e96436c257ae9c621942a2843d5323cd1
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96327922"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025679"
 ---
 # <a name="create-a-virtual-network-gateway-and-connect-to-vms"></a>Создание шлюза виртуальной сети и подключение к виртуальным машинам
 
@@ -25,17 +26,17 @@ ms.locfileid: "96327922"
 [На портале Azure](https://portal.azure.com)
 
 1. Найдите и выберите **шлюзы виртуальной сети**.
-   
+
 1. Выберите **создать шлюз виртуальной сети**.
-   
+
 1. На странице **Создание шлюза виртуальной сети** заполните следующие поля.
    - Выберите свою **подписку**.
    - Введите **имя** шлюза.
    - Выберите **виртуальную сеть** , развернутую с помощью шаблона Moodle Azure Resource Manager (ARM).
    - Введите **имя общедоступного IP-адреса**.
-   
+
 1. Оставьте остальные поля со значениями, заданные по умолчанию.
-   
+
 1. Выберите **Проверка + создать** и при прохождении проверки выберите **создать**.
 
 ![Снимок экрана, показывающий портал Azure создания шлюза виртуальной сети.](images/vpn-gateway.png)
@@ -74,10 +75,8 @@ az network vnet-gateway create -g <moodle resource group> -n <new virtual networ
 Экспортируйте сертификаты, чтобы установить их в системах.
 
 1. В меню Пуск Windows выберите пункт **выполнить** и введите **MMC**.
-   
-1. В левой области навигации консоли управления (MMC) в папке **Личные** выберите **Сертификаты**.
-   
-Найдите сертификаты **P2SRootCert** и **P2SChildCert** .
+
+1. В левой области навигации консоли управления (MMC) в папке **Личные** выберите **Сертификаты**. Найдите сертификаты **P2SRootCert** и **P2SChildCert** .
 
 Чтобы экспортировать корневой сертификат, выполните следующие действия.
 
@@ -130,32 +129,32 @@ az network vnet-gateway create -g <moodle resource group> -n <new virtual networ
 Чтобы настроить проверку подлинности с помощью пароля, на виртуальной машине контроллера выполните следующие действия.
 
 1. Откройте `sshd` файл конфигурации для редактирования:
-   
+
    ```bash
    sudo vi /etc/ssh/sshd_config
    ```
-   
+
 1. Обновите следующие параметры:
-   
+
    - Измените `PasswordAuthentication` с `no` на `yes` .
    - Найдите комментарий `UseLogin` , удалите `#` и измените значение на `yes` .
-   
+
 1. Нажмите клавишу ESC и введите, `:wq!` чтобы сохранить изменения.
-   
+
 1. Перезапустите `sshd` , выполнив следующую команду:
-   
+
    ```bash
    sudo systemctl restart sshd
    ```
-   
+
 1. Чтобы задать пароль, выполните следующую команду:
-   
+
    ```bash
    sudo passwd <username>
    ```
-   
-   Например, команда `sudo passwd azureadmin` задает пароль для пользователя `azureadmin` .
-   
+
+Например, команда `sudo passwd azureadmin` задает пароль для пользователя `azureadmin` .
+
 1. Введите пароль в приглашении и введите его снова.
 
 ## <a name="sign-in-to-vms-from-the-controller-vm"></a>Вход в виртуальные машины из виртуальной машины контроллера
@@ -163,15 +162,15 @@ az network vnet-gateway create -g <moodle resource group> -n <new virtual networ
 Войдите в виртуальные машины масштабируемого набора с частными IP-адресами через SSH.
 
 1. Войдите в виртуальную машину контроллера.
-   
+
 1. Выполните следующую команду, чтобы подключиться к частной виртуальной машине:
-   
+
    ```bash
    sudo ssh <username>@<private IP address>
    ```
-   
-   например `sudo ssh azureadmin@102.xx.xx.xx`
-   
+
+Пример: `sudo ssh azureadmin@102.xx.xx.xx`.
+
 1. В командной строке введите пароль.
 
 ## <a name="next-steps"></a>Дальнейшие действия

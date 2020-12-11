@@ -3,16 +3,17 @@ title: Облачные функции SOC
 description: Общие сведения о функциях центра Cloud Security Operations (SOC).
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: 2d654227b90ecfb08c9b0451e59de32128e0061d
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: eb7a2de76e94a5c0b0a36d28a15338d00807b536
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995505"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026410"
 ---
 <!-- docutune:casing CDOC "Cyber Defense Operations Center" -->
 <!-- cSpell:ignore CISO MTTA MTTR SIEM NIST SOCs CDOC -->

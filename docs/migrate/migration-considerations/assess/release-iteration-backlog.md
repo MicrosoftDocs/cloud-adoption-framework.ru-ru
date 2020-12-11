@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: d8b54ef557be065088ea853009b12ac436bb4f99
-ms.sourcegitcommit: 84d7bfd11329eb4c151c4c32be5bab6c91f376ed
+ms.custom: internal
+ms.openlocfilehash: ab0bcc521653498a2a0b2ac701db24a3df1b1868
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/10/2020
-ms.locfileid: "86234962"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025186"
 ---
 # <a name="manage-change-in-an-incremental-migration-effort"></a>Управление изменениями в процессе поэтапной миграции
 

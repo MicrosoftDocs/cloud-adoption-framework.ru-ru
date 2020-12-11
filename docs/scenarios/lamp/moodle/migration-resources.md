@@ -1,18 +1,19 @@
 ---
 title: Ресурсы для переноса Moodle
 description: Сведения о ресурсах, которые создает Moodle миграцию в Azure. К примерам относятся виртуальная сеть Azure, группа безопасности сети и подсеть.
-author: BrianBlanchard
+author: UmakanthOS
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: b42253b69dfaca4ca411e2de20b2527d58cb81ff
-ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
+ms.custom: internal
+ms.openlocfilehash: 6f52d10991db528da083120f60106c0a074a9540
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96327837"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025696"
 ---
 # <a name="moodle-migration-resources"></a>Ресурсы для переноса Moodle
 

@@ -1,18 +1,19 @@
 ---
 title: Дальнейшие действия после Moodle миграции
 description: Узнайте, как выполнить Moodle миграцию. См. статью Обновление путей к журналам, перезагрузка серверов и выполнение других действий, необходимых для завершения миграции.
-author: BrianBlanchard
+author: UmakanthOS
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 4691a170d9eba47e9e4c0f581801d3561b8b93c8
-ms.sourcegitcommit: 18f3ee8fcd8838f649cb25de1387b516aa23a5a0
+ms.custom: internal
+ms.openlocfilehash: 05ad1f31a2ac8e04abb7aa2942d0b564748f870b
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "96327786"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025713"
 ---
 # <a name="how-to-follow-up-after-a-moodle-migration"></a>Дальнейшие действия после Moodle миграции
 
@@ -53,7 +54,7 @@ ms.locfileid: "96327786"
 
 ### <a name="restart-servers"></a>Перезапустить серверы
 
-Введите следующие команды, чтобы перезапустить серверы nginx и PHP-FPM:
+Введите следующие команды, чтобы перезапустить `nginx` `php-fpm` серверы и:
 
 ```bash
 sudo systemctl restart nginx
@@ -111,7 +112,7 @@ sudo systemctl restart php<php version>-fpm
       /moodle/certs/nginx.key;
       ```
 
-    1. Нажмите клавиши CTRL + O, чтобы сохранить изменения, и CTRL + X, чтобы закрыть файл.
+   1. Нажмите клавиши CTRL + O, чтобы сохранить изменения, и CTRL + X, чтобы закрыть файл.
 
 ### <a name="update-the-local-html-copy"></a>Обновление локальной копии HTML
 
@@ -138,7 +139,6 @@ sudo systemctl restart php<php version>-fpm
 Выполните следующие действия на уровне поставщика услуг размещения, чтобы связать DNS-имя с Azure Load Balancerным IP:
 
 1. Введите следующую команду на виртуальной машине контроллера, чтобы отключить режим обслуживания на веб-сайте Moodle:
-
 
    ```bash
    sudo /usr/bin/php admin/cli/maintenance.php --disable
@@ -277,7 +277,7 @@ sudo chown -R /moodle/moodledata
 
 - Если веб-сервер поддерживает аргументы косой черты, включите их.
 
-- Если веб-сервер не поддерживает аргументы косой черты, отключите их в Moodle, сняв флажок **использовать аргументы косой черты** в окне **Администрирование**  >  **Site administration**  >  **сервер** администрирование  >  **http**. Это сообщение может появиться.
+- Если веб-сервер не поддерживает аргументы косой черты, отключите их в Moodle, сняв флажок **использовать аргументы косой черты** в окне **Администрирование**  >    >  **сервер** администрирование  >  **http**. Это сообщение может появиться.
 
   > [!WARNING]
   > Отключение аргументов косой черты приведет к тому, что пакеты SCORM не будут работать и отображаются предупреждения о аргументах косой черты!
@@ -291,6 +291,6 @@ sudo chown -R /moodle/moodledata
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- [Документация по Базе данных Azure для MySQL](https://docs.microsoft.com/azure/mysql/)
-- [Что такое масштабируемый набор виртуальных машин?](https://docs.microsoft.com/azure/virtual-machine-scale-sets/overview)
-- [Общие сведения об учетной записи хранения](https://docs.microsoft.com/azure/storage/common/storage-account-overview)
+- [Документация по Базе данных Azure для MySQL](/azure/mysql/)
+- [Что такое масштабируемый набор виртуальных машин?](/azure/virtual-machine-scale-sets/overview)
+- [Общие сведения об учетной записи хранения](/azure/storage/common/storage-account-overview)

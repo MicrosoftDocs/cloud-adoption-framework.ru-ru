@@ -7,12 +7,13 @@ ms.date: 07/17/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: f489c9230a26c149c7d44b9eb0ba0631a757c0ef
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 57bfdfa758d35a3e55119f975aa3953452b0a9f9
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997018"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025662"
 ---
 # <a name="windows-virtual-desktop-assessment"></a>Оценка виртуальных рабочих столов Windows
 
@@ -50,7 +51,7 @@ ms.locfileid: "94997018"
 | Пулы  | Пулы | Пулы | Выделенные (вопросы безопасности) |
 | Плотность | Светлое (6 &nbsp; пользователей/виртуальных ЦП) | Высокая (2 &nbsp; пользователя/виртуальных ЦП) | Выделенный (1 &nbsp; пользователь/виртуальных ЦП) |
 | Производительность | Низкий | Потребление большого объема памяти | Низкий |
-| Графический процессор | Н/Д | Обязательно | Н/Д |
+| Графический процессор | Недоступно | Обязательно | Недоступно |
 | Регион Azure | Северная Америка | Западная Европа | Северная Америка |
 | Число пользователей | 1000 | 50 | 20 |
 | Число сеансов | 200 | 50 | 10 |

@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 81e19ba4fd92aa6e3510593ef48aaa0b113a3a69
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: internal
+ms.openlocfilehash: 2efdd3c7d32c12120f9424d159acb7be27441a4f
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89602251"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025152"
 ---
 # <a name="promotion-models-single-step-staged-or-flight"></a>Модели продвижения: один этап, промежуточный или полет
 

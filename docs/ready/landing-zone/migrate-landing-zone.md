@@ -7,12 +7,13 @@ ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 0b4fff1154a9bae0525991ee5051677d22b08c8b
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 2bbaf3c56bdf82824c6577bd64e2cee93a9e2e0e
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997086"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026631"
 ---
 # <a name="deploy-a-migration-landing-zone-in-azure"></a>Развертывание зоны размещения для миграции в Azure
 
@@ -29,7 +30,7 @@ ms.locfileid: "94997086"
 
 Этот вариант реализации обеспечивает упрямого подход к общим областям проектирования, общим для всех целевых зон Azure. Дополнительные технические сведения см. в приведенных ниже допущениях и решениях.
 
-### <a name="deployment-options"></a>Параметры развертывания
+### <a name="deployment-options"></a>Варианты развертывания
 
 Этот вариант реализации развертывает минимальный подходящий продукт (MVP) для запуска миграции. По мере выполнения миграции клиент будет следовать модульному подходу, основанному на рефакторинге, для использования в параллельных руководствах, в котором используется управляемая [методика](../../govern/index.md) и [методология управления](../../manage/index.md) , чтобы обращаться к этим сложным темам параллельно с первоначальными усилиями по миграции.
 
@@ -103,11 +104,11 @@ ms.locfileid: "94997086"
 | Разработка подписки          | Н/д — предназначено для одной рабочей подписки.                                              | [Создание первоначальных подписок](../azure-best-practices/initial-subscriptions.md)                                                                                                                                                                                                      |
 | Группы ресурсов              | Н/д — предназначено для одной рабочей подписки.                                              | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                                                 |
 | Группы управления            | Н/д — предназначено для одной рабочей подписки.                                              | [Организация подписок и управление ими](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                                |
-| Данные                         | Н/Д                                                                                               | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview)                       |
-| Память                      | Н/Д                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
-| Стандарты именования и расстановки тегов | Н/Д                                                                                               | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                                                    |
-| управления затратами;              | Н/Д                                                                                               | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                                              |
-| Службы вычислений                      | Н/Д                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
+| Данные                         | Недоступно                                                                                               | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview)                       |
+| Хранилище                      | Недоступно                                                                                               | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                                        |
+| Стандарты именования и расстановки тегов | Недоступно                                                                                               | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                                                    |
+| управления затратами;              | Недоступно                                                                                               | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                                              |
+| Вычисления                      | Недоступно                                                                                               | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                                               |
 
 ## <a name="customize-or-deploy-a-landing-zone"></a>Настройка или развертывание целевой зоны
 

@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: e5211d263e2833b8cef41d3f8b3cc1d709b89d39
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.custom: internal
+ms.openlocfilehash: b394a4c610818811bf6b2ec764a60800e9074cb4
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80432905"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025322"
 ---
 # <a name="architect-workloads-prior-to-migration"></a>Проектирование рабочих нагрузок до миграции
 
@@ -46,7 +47,7 @@ ms.locfileid: "80432905"
 
 В каждом из этих сценариев альтернативная архитектура может быть наилучшим решением.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 После определения новой архитектуры [можно вычислить точные оценки затрат](./estimate.md).
 

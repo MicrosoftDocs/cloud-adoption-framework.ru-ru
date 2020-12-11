@@ -7,13 +7,13 @@ ms.date: 05/18/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.custom: organize
-ms.openlocfilehash: 31aeba36eaedef0956aacd21647c518afc1b6222
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 7178eede5459350b20c0d50a8b334948cb0737a5
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995488"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026427"
 ---
 # <a name="mature-team-structures"></a>Развитые структуры команды
 

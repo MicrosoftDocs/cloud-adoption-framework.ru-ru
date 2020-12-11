@@ -7,12 +7,13 @@ ms.date: 05/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: ae57f79aeb4976a2c6306728f354ab972f3b33e3
-ms.sourcegitcommit: d88c1cc3597a83ab075606d040ad659ac4b33324
+ms.custom: internal
+ms.openlocfilehash: dbd0326bf8e0436cab6072c3fd943d725b496f44
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "84788121"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025866"
 ---
 # <a name="how-do-azure-products-support-the-portfolio-hierarchy"></a>Как продукты Azure поддерживают иерархию портфеля?
 

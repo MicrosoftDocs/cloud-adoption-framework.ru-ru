@@ -3,16 +3,17 @@ title: Функции архитектуры Cloud Security
 description: Общие сведения о функциях архитектуры Cloud Security.
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: 66fe29103adc8314627edb16617b3b558d51fe69
-ms.sourcegitcommit: bcc73d194c6d00c16ae2e3c7fb2453ac7dbf2526
+ms.custom: internal
+ms.openlocfilehash: 5d7165376a100bca6a80b16e3f0ac2a5732b4d15
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/09/2020
-ms.locfileid: "86194890"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026478"
 ---
 # <a name="cloud-security-architecture-functions"></a>Функции архитектуры Cloud Security
 

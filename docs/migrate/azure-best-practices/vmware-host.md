@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 0b1226113a98db84796b44515822d77a76fe7f97
-ms.sourcegitcommit: 949b87bad28d32df84df190160089f01826f3a31
+ms.custom: internal
+ms.openlocfilehash: bc20cf513c2136027b6f0de1796d53cfc95273a5
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/13/2020
-ms.locfileid: "88196634"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025458"
 ---
 # <a name="vmware-host-migration-best-practices-for-azure"></a>Рекомендации по миграции узла VMware в Azure
 

@@ -3,16 +3,17 @@ title: Функции Cloud Data Security
 description: Изучите функции Cloud Data Security.
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: 7be2796c2c8033b92e47578eed30611f596df094
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 9a3fb0062db9b9570c2be5d1b1aff370c524933a
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995573"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026461"
 ---
 # <a name="function-of-cloud-data-security"></a>Функции Cloud Data Security
 

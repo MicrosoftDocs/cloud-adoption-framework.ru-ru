@@ -7,12 +7,13 @@ ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: abc4971315dc590d267265755538d21e1acff7bf
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: internal
+ms.openlocfilehash: 40c3b2cce9a5dfca3f2413856b3b8125d5b5a0c7
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996661"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025101"
 ---
 <!-- cSpell:ignore Eason -->
 <!-- docutune:casing "Eason Matrix" -->

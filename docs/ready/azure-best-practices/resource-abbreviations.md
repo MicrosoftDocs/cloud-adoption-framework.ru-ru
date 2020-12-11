@@ -7,13 +7,13 @@ ms.date: 12/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.custom: readiness, fasttrack-edit, internal
-ms.openlocfilehash: 1c93f83a1a5a7f55d13d8486e03c12a7954ddddd
-ms.sourcegitcommit: 5df186dd1fe56852126bab3d18c7d8b7864c08ce
+ms.custom: internal, readiness, fasttrack-edit
+ms.openlocfilehash: 8f171ea017e4a2501f255d0cb51a9de725d61e26
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/07/2020
-ms.locfileid: "96772469"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026155"
 ---
 # <a name="recommended-abbreviations-for-azure-resource-types"></a>Рекомендуемые сокращения для типов ресурсов Azure
 
@@ -24,7 +24,7 @@ ms.locfileid: "96772469"
 <!-- cSpell:ignore osdisk stvm arck ssimp -->
 <!-- cSpell:ignoreRegExp [a-z]+- -->
 
-## <a name="general"></a>Общие сведения
+## <a name="general"></a>Общее
 
 | Тип ресурса | Сокращение |
 |--|--|
@@ -95,11 +95,11 @@ ms.locfileid: "96772469"
 | База данных MySQL | `mysql-` |
 | База данных PostgreSQL | `psql-` |
 | Хранилище данных SQL Azure | `sqldw-` |
-| Azure Synapse Analytics | `syn-` |
+| Azure Synapse Analytics | `syn-` |
 | SQL Server Stretch Database | `sqlstrdb-` |
 | Управляемый экземпляр SQL | `sqlmi-` |
 
-## <a name="storage"></a>Память
+## <a name="storage"></a>Хранилище
 
 | Тип ресурса | Сокращение |
 |--|--|

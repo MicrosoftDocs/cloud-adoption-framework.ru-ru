@@ -7,12 +7,13 @@ ms.date: 07/01/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: f49d96af36176b08e4de93ab81439b4cd17d8fc2
-ms.sourcegitcommit: 7d3fc1e407cd18c4fc7c4964a77885907a9b85c0
+ms.custom: internal
+ms.openlocfilehash: 149162962ac8aa2e8871280bb90d7136bb3f8792
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80428124"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026274"
 ---
 # <a name="establish-iterations-and-release-plans"></a>Установка итераций и разработка планов выпусков
 
@@ -63,7 +64,7 @@ ms.locfileid: "80428124"
 
 Для клиентов, которые управляют планами внедрения в облако в Azure DevOps, предыдущие процессы отражаются путем назначения пути итерации каждой задаче и пользовательской истории. Мы также советуем добавлять теги каждой рабочей нагрузки в конкретный выпуск. Это автоматическое заполнение отчетов временной шкалы с помощью тегов и веб-канала назначения.
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 [Оцените временные шкалы](./timelines.md) для правильной связи ожидания.
 

@@ -3,16 +3,17 @@ title: Общие сведения о функциях облачной авто
 description: Общие сведения о функциях облачной автоматизации, включая источник функций, область и конечный результат.
 author: JanetCThomas
 ms.author: janet
+ms.date: 05/15/2020
+ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
-ms.topic: conceptual
-ms.date: 05/15/2020
-ms.openlocfilehash: b03798b4d014145e2fc1029bc3adb94d3dd3e02a
-ms.sourcegitcommit: 9a84c2dfa4c3859fd7d5b1e06bbb8549ff6967fa
+ms.custom: internal
+ms.openlocfilehash: 40bc1d3e8be2a2c6c0168f68b4aa664f64cc7632
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/21/2020
-ms.locfileid: "83755790"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026546"
 ---
 # <a name="cloud-automation-functions"></a>Функции облачной автоматизации
 

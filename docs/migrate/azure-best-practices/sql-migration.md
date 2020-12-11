@@ -7,12 +7,13 @@ ms.date: 07/01/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.openlocfilehash: 23aadfaf252cdeffcf0aebb336db28dec80c2ab8
-ms.sourcegitcommit: 580a6f66a0d0f3f5b755c68d757a84b2351a432f
+ms.custom: internal
+ms.openlocfilehash: ab066ce7c38f4e55b79aeb11de66e4e8e50aa012
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 07/31/2020
-ms.locfileid: "87473205"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025917"
 ---
 # <a name="sql-server-migration-best-practices-for-azure"></a>Рекомендации по миграции SQL Server для Azure
 
