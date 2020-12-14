@@ -1,20 +1,20 @@
 ---
-title: Руководство по настройке Azure. Перед началом работы
-description: Эффективная настройка Azure для организации с пошаговыми инструкциями.
+title: Обзор руководства по установке Azure
+description: Ознакомьтесь с обзором руководства по настройке Azure. Из этого руководства вы узнаете, как эффективно настроить Azure для своей организации с помощью пошаговых инструкций.
 author: timleyden
-ms.author: kfollis
+ms.author: brblanch
 ms.date: 07/15/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 4ebb8dc70a373d2dd458c074689bf201d4a05f60
-ms.sourcegitcommit: 5b537035b96ae2b6879a1ea7fd46ceb64626851d
+ms.custom: think-tank, fasttrack-edit, AQC, setup
+ms.openlocfilehash: 7b8fd3f67e06ed839892d4e6fadfc8f7073a3f3b
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/01/2020
-ms.locfileid: "89275595"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026087"
 ---
 # <a name="azure-setup-guide-overview"></a>Обзор руководства по установке Azure
 
