@@ -2,19 +2,19 @@
 title: Перенос активов
 description: Подготовьтесь к миграции в Azure, определив подходящие инструменты для использования, включая нативные инструменты, сторонние инструменты и инструменты управления проектами.
 author: matticusau
-ms.author: mlavery
+ms.author: brblanch
 ms.date: 09/02/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 63f9d6997f1ab8c554a89fd6927408fc2b76a7b1
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank, fasttrack-new, AQC
+ms.openlocfilehash: c6bf840e7cb10051ade264738ab09c42c9213fe4
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995964"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025373"
 ---
 # <a name="deploy-workloads-and-assets-infrastructure-apps-and-data"></a>Развертывание рабочих нагрузок и ресурсов (инфраструктуры, приложений и данных)
 
@@ -76,6 +76,7 @@ Azure Database Migration Service — это полностью управляе
 ::: zone-end
 
 <!-- docutune:casing "Create Migration Service wizard" -->
+
 После регистрации поставщика ресурсов можно создать экземпляр Azure Database Migration Service.
 
 1. Выберите элемент **+ Создать ресурс** и найдите **Azure Database Migration Service** в marketplace.

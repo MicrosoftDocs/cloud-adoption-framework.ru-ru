@@ -2,19 +2,19 @@
 title: Оценка каждой рабочей нагрузки и уточнение планов
 description: Cloud Adoption Framework для Azure поможет оценить готовность вашей среды к миграции и определить рекомендуемые методы.
 author: matticusau
-ms.author: mlavery
+ms.author: brblanch
 ms.date: 02/25/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: f8805746d1ae06978c179db076d0312fac89311c
-ms.sourcegitcommit: 8b82889dca0091f3cc64116f998a3a878943c6a1
+ms.custom: think-tank, fasttrack-new, AQC
+ms.openlocfilehash: 25a6564e9c52e507411fde54d02c27af8b948446
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "89605292"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025424"
 ---
 # <a name="assess-workloads-and-refine-plans"></a>Оценка рабочих нагрузок и уточнение планов
 

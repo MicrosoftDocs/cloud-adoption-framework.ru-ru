@@ -2,19 +2,19 @@
 title: Как получить помощь
 description: Узнайте, как получить помощь при миграции в Azure. Надлежащая поддержка поможет ускорить переход.
 author: matticusau
-ms.author: mlavery
+ms.author: brblanch
 ms.date: 04/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 05a4ede5be2a69854da68071602571ae0367bad0
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank, fasttrack-new, AQC
+ms.openlocfilehash: 858bd62de5d66cc6db4e3dd5fd2d893163716da8
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996678"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025407"
 ---
 <!-- cSpell:ignore MSPs -->
 

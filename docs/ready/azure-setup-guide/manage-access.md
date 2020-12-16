@@ -2,19 +2,19 @@
 title: Управление доступом к среде Azure с помощью управления доступом на основе ролей
 description: Узнайте, как настроить управление доступом к среде Azure с помощью управления доступом на основе ролей.
 author: LijuKodicheraJayadevan
-ms.author: kfollis
+ms.author: brblanch
 ms.date: 04/09/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: bf9414422e1ad9671fab21ea11c8e5744463dccd
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank, fasttrack-edit, AQC, setup
+ms.openlocfilehash: f60f68e56ac970b9bbb527061124afac5cd98e0e
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94995284"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97024302"
 ---
 # <a name="manage-access-to-your-azure-environment-with-role-based-access-control"></a>Управление доступом к среде Azure с помощью управления доступом на основе ролей
 

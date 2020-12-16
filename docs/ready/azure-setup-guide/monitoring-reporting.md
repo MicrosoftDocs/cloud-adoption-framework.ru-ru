@@ -2,19 +2,19 @@
 title: Мониторинг и создание отчетов в Azure
 description: Cloud Adoption Framework для Azure поможет узнать, как настроить мониторинг, а также создавать отчеты и оповещения для среды управления Azure.
 author: timleyden
-ms.author: tileyden
+ms.author: brblanch
 ms.date: 04/09/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.custom: fasttrack-edit, AQC, setup
 ms.localizationpriority: high
-ms.openlocfilehash: 056ad4ff6386634efd3022919f023533590d05d4
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank, fasttrack-edit, AQC, setup
+ms.openlocfilehash: c205ecde13f39a35cb5027ee4d855729a9b31493
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94997324"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97026019"
 ---
 # <a name="monitoring-and-reporting-in-azure"></a>Мониторинг и создание отчетов в Azure
 

@@ -2,19 +2,19 @@
 title: Механизмы контроля затрат на миграцию
 description: Cloud Adoption Framework для Azure поможет узнать, как настроить бюджеты и платежи, а также интерпретировать счета за использование ресурсов Azure.
 author: bandersmsft
-ms.author: banders
+ms.author: brblanch
 ms.date: 08/08/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
-ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 1625157c39a3a1cb158f4fae7cc849081a3b10fb
-ms.sourcegitcommit: 57b757759b676a22f13311640b8856557df36581
+ms.custom: think-tank, fasttrack-edit, AQC
+ms.openlocfilehash: fb7abb91ce8950b2b455044cc7135065e2c71098
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "94996695"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97025883"
 ---
 # <a name="migration-focused-cost-control-mechanisms"></a>Механизмы контроля затрат на миграцию
 
