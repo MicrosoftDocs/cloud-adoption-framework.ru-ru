@@ -691,6 +691,10 @@ items:
                     href: migrate/azure-best-practices/analytics/analytics-solutions-netezza.md
                   - name: Exadata
                     href: migrate/azure-best-practices/analytics/analytics-solutions-exadata.md
+              - name: Миграция для нескольких арендаторов
+                items:
+                  - name: Миграция в Azure Lighthouse для увеличения масштаба
+                    href: 'https://docs.microsoft.com/azure/lighthouse/how-to/migration-at-scale?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json'
               - name: Мейнфреймы
                 items:
                   - name: Обзор
