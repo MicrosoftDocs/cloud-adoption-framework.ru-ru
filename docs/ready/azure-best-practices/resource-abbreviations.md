@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal, readiness, fasttrack-edit
-ms.openlocfilehash: 8f171ea017e4a2501f255d0cb51a9de725d61e26
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: af3f214209911c5aad8f31f11cdb88c7886c3f51
+ms.sourcegitcommit: 17743480a4b1d0516d61f1045380597203ec1de0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026155"
+ms.lasthandoff: 12/15/2020
+ms.locfileid: "97521753"
 ---
 # <a name="recommended-abbreviations-for-azure-resource-types"></a>Рекомендуемые сокращения для типов ресурсов Azure
 
@@ -24,7 +24,7 @@ ms.locfileid: "97026155"
 <!-- cSpell:ignore osdisk stvm arck ssimp -->
 <!-- cSpell:ignoreRegExp [a-z]+- -->
 
-## <a name="general"></a>Общее
+## <a name="general"></a>Общие сведения
 
 | Тип ресурса | Сокращение |
 |--|--|
@@ -94,12 +94,12 @@ ms.locfileid: "97026155"
 | Кэш Azure для экземпляра Redis | `redis-` |
 | База данных MySQL | `mysql-` |
 | База данных PostgreSQL | `psql-` |
-| Хранилище данных SQL Azure | `sqldw-` |
-| Azure Synapse Analytics | `syn-` |
+| Хранилище данных SQL Azure | `sqldw-` |
+| Azure Synapse Analytics | `syn-` |
 | SQL Server Stretch Database | `sqlstrdb-` |
 | Управляемый экземпляр SQL | `sqlmi-` |
 
-## <a name="storage"></a>Хранилище
+## <a name="storage"></a>Память
 
 | Тип ресурса | Сокращение |
 |--|--|
@@ -149,7 +149,7 @@ ms.locfileid: "97026155"
 |--|--|
 | Учетная запись интеграции | `ia-` |
 | приложениях логики. | `logic-` |
-| Cлужебная шина | `sb-` |
+| Служебная шина | `sb-` |
 | Очередь служебной шины | `sbq-` |
 | Раздел служебной шины | `sbt-` |
 
@@ -159,6 +159,7 @@ ms.locfileid: "97026155"
 |--|--|
 | Учетная запись службы автоматизации | `aa-` |
 | Группа действий Azure Monitor | `ag-` |
+| Экземпляр Azure зрения | `pview-` |
 | Схема | `bp-` |
 | Назначение схемы | `bpa-` |
 | Хранилище ключей | `kv-` |
@@ -173,7 +174,7 @@ ms.locfileid: "97026155"
 | Экземпляр Database Migration Service | `dms-` |
 | Хранилище Служб восстановления | `rsv-` |
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Дальнейшие шаги
 
 Ознакомьтесь с рекомендациями по маркировке ресурсов и активов Azure.
 
