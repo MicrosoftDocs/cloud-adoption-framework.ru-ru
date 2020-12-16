@@ -2,19 +2,19 @@
 title: Инновации в Azure. Взаимодействие через устройства
 description: Узнайте, как Azure предоставляет платформу для создания впечатляющих и эффективных бизнес-решений с помощью подключенных интеллектуальных пограничных устройств.
 author: umarmohamedusman
-ms.author: umarm
+ms.author: brblanch
 ms.date: 10/10/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.custom: fasttrack-new, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: b0536b627d9039f348f1c069bb1ae5ed4e4e74a6
-ms.sourcegitcommit: 07d56209d56ee199dd148dbac59671cbb57880c0
+ms.custom: think-tank, fasttrack-new, AQC
+ms.openlocfilehash: bc0ebac1dd6dd0b0120dc4babd736ef691db7338
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/26/2020
-ms.locfileid: "88882997"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97017774"
 ---
 <!-- cSpell:ignore umarmohamedusman umarm Moovit -->
 

@@ -7,14 +7,14 @@ ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 24b31b27bf660229187caeea15881fe99722202a
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: internal, fasttrack-edit, AQC
+ms.openlocfilehash: f390dd74a04ac423a98c17a4a6e7cce4cfedecd7
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94880863"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97017859"
 ---
 # <a name="prepare-for-customer-feedback"></a>Подготовка к сбору отзывов клиентов
 

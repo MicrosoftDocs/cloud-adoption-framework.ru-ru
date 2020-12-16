@@ -2,19 +2,19 @@
 title: Инновации в Azure. Привлечение клиентов с помощью приложений
 description: Узнайте о службах Azure для модернизации существующих веб-приложений и приложений API, а также создания собственных облачных приложений.
 author: billyclaymyersmsft
-ms.author: wimyers
+ms.author: brblanch
 ms.date: 10/17/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.custom: fasttrack-edit, AQC
 ms.localizationpriority: high
-ms.openlocfilehash: 922a123fe13b268548e2b51ffcc9d42c05d9c64a
-ms.sourcegitcommit: 412b945b3492ff3667c74627524dad354f3a9b85
+ms.custom: think-tank, fasttrack-edit, AQC
+ms.openlocfilehash: fb47f30f0e5a04b5f45b5558827a278f1e9493fc
+ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/18/2020
-ms.locfileid: "94880846"
+ms.lasthandoff: 12/10/2020
+ms.locfileid: "97017825"
 ---
 # <a name="engage-customers-through-applications"></a>Привлечение клиентов с использованием приложений
 
