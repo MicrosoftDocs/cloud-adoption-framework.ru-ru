@@ -12,12 +12,12 @@ metadata:
   author: JanetCThomas
   ms.author: janet
   ms.date: 05/15/2020
-  ms.openlocfilehash: 6f0a2d9bc01bf4cc27b4d721ebd43741603d26e0
-  ms.sourcegitcommit: 4da8118cdac560b795d2d413974c85c49b3189fa
+  ms.openlocfilehash: 781d35675e981fbe57d63496f88bc2c42ae0ed3f
+  ms.sourcegitcommit: b210ef2a057d61554148b4c4b89485a4a5c9b25c
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 09/16/2020
-  ms.locfileid: "90681302"
+  ms.lasthandoff: 12/17/2020
+  ms.locfileid: "97646336"
 highlightedContent:
   items:
   - title: Начните переход к облаку
@@ -116,10 +116,10 @@ productDirectory:
   - title: Управление
     imageSrc: ./_images/caf-manage.png
     links:
-    - url: ./manage/azure-management-guide/index.md
-      text: Базовый план управления
     - url: ./manage/considerations/business-alignment.md
       text: Бизнес-обязательства
+    - url: ./manage/azure-management-guide/index.md
+      text: Базовый план управления
     - url: ./manage/best-practices.md
       text: Расширение базового плана
     - url: ./manage/design-principles.md

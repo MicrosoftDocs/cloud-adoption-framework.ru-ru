@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: be8e5e73d5522cae37e6d4c7551db86e4d6595a6
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 512d5574110ea46afc256504230ce669efb2de97
+ms.sourcegitcommit: b210ef2a057d61554148b4c4b89485a4a5c9b25c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016142"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "97646319"
 ---
 # <a name="cloud-management-in-the-cloud-adoption-framework"></a>Управление облаком в соответствии с Cloud Adoption Framework
 
@@ -25,8 +25,8 @@ ms.locfileid: "97016142"
 
 | <span title="Значок">&nbsp;</span> | <span title="Описание">&nbsp;</span> |
 |--|--|
-| <br> :::image type="icon" source="../_images/icons/1.png"::: | <br> [Определение базового плана управления.](./azure-management-guide/index.md) Определите категории важности, инструменты управления облаком и процессы, необходимые для выполнения минимальных обязательств по управлению операциями. |
-| <br> :::image type="icon" source="../_images/icons/2.png"::: | <br> [Определение бизнес-обязательств.](./considerations/business-alignment.md) Задокументируйте поддерживаемые рабочие нагрузки, чтобы определить операционные обязательства в соответствии с бизнес-целями и согласовать инвестиции в решения по управлению облаком для каждой рабочей нагрузки. |
+| <br> :::image type="icon" source="../_images/icons/1.png"::: | <br> [Определение бизнес-обязательств.](./considerations/business-alignment.md) Задокументируйте поддерживаемые рабочие нагрузки, чтобы определить операционные обязательства в соответствии с бизнес-целями и согласовать инвестиции в решения по управлению облаком для каждой рабочей нагрузки.  |
+| <br> :::image type="icon" source="../_images/icons/2.png"::: | <br> [Определение базового плана управления.](./azure-management-guide/index.md) Определите категории важности, инструменты управления облаком и процессы, необходимые для выполнения минимальных обязательств по управлению операциями. |
 | <br> :::image type="icon" source="../_images/icons/3.png"::: | <br> [Расширение базового плана управления.](./best-practices.md) Основываясь на бизнес-обязательствах и операционных решениях, используйте указанные здесь рекомендации по внедрению необходимых средств управления облачными решениями. |
 | <br> :::image type="icon" source="../_images/icons/4.png"::: | <br> [Расширенные принципы эксплуатации и проектирования.](./design-principles.md) Для платформ и рабочих нагрузок, требующих более высокого уровня бизнес-обязательств, может потребоваться более тщательная проверка архитектуры, обеспечивающая устойчивость и надежность. |
 
