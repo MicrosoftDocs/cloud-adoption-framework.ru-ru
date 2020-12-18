@@ -1,19 +1,18 @@
 ---
 title: Подготовка к Moodle миграции
 description: Узнайте, как подготовиться к Moodle миграции. См. раздел Резервное копирование файлов Moodle и создание ресурсов, необходимых для миграции.
-author: UmakanthOS
+author: BrianBlanchard
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.custom: internal
-ms.openlocfilehash: eaed30fb982f10e51de85951a48b89a790549c3a
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 4a4a3ce829263aaac9806f03ee7b743f0e225016
+ms.sourcegitcommit: 32e8e7a835a688eea602f2af1074aa926ab150c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025628"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97687711"
 ---
 # <a name="how-to-prepare-for-a-moodle-migration"></a>Подготовка к Moodle миграции
 
@@ -41,7 +40,7 @@ ms.locfileid: "97025628"
 
 Пропустите этот шаг, если у вас уже есть подписка Azure.
 
-Если у вас нет подписки Azure, вы можете [создать ее бесплатно](https://azure.microsoft.com/free/). Можно также настроить [подписку с оплатой по мере](https://azure.microsoft.com/offers/ms-azr-0003p/)использования или создать подписку в Azure.
+Если у вас нет подписки Azure, вы можете [создать ее бесплатно](https://azure.microsoft.com/free/). Можно также настроить [подписку с оплатой по мере](https://azure.microsoft.com/offers/ms-azr-0003p/)использования или создать подписку в портал Azure.
 
 - Чтобы использовать портал Azure для создания подписки, откройте [подписки](https://ms.portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade), выберите **Добавить** и введите необходимые сведения.
 
@@ -53,20 +52,20 @@ ms.locfileid: "97025628"
   az account set --subscription '<subscription name>'
   ```
 
-  Например, введите:
+ Пример команды:
 
   `az account set --subscription 'ComputePM LibrarySub'`
 
 ## <a name="create-a-resource-group"></a>Создание группы ресурсов
 
-После настройки подписки создайте группу ресурсов в Azure. Для создания группы можно использовать портал Azure или CLI.
+После настройки подписки Azure создайте группу ресурсов в Azure. Для создания группы ресурсов можно использовать портал Azure **или** Azure CLI.
 
 - Чтобы использовать портал Azure, выполните следующие действия.
 
   1. Откройте [группы ресурсов](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceGroups)и выберите **Добавить**.
-
+  
   1. Введите имя подписки, имя группы ресурсов и регион. Список доступных регионов см. [в статье местонахождение данных в Azure](https://azure.microsoft.com/global-infrastructure/data-residency/) . Запишите имя введенной группы ресурсов, чтобы это имя можно было использовать в последующих шагах.
-
+  
   1. Выберите **Review + create** (Просмотреть и создать).
 
   ![Снимок экрана: страница "Создание группы ресурсов" в полях "портал Azure", "Подписка", "Группа ресурсов" и "Проверка + создать".](./images/resource-group.png)
@@ -87,7 +86,7 @@ ms.locfileid: "97025628"
 
 Затем создайте учетную запись хранения в только что созданной группе ресурсов. Эта учетная запись хранения будет использоваться для резервного копирования локальных данных Moodle.
 
-Для создания учетной записи хранения можно либо использовать портал Azure, либо Azure CLI.
+Для создания учетной записи хранения можно либо использовать портал Azure, **либо** Azure CLI.
 
 - Чтобы использовать портал Azure, выполните следующие действия.
 
@@ -95,14 +94,14 @@ ms.locfileid: "97025628"
 
   1. Введите следующие сведения:
 
-     - Имя вашей подписки
+     - Имя подписки Azure.
      - Имя только что созданной группы ресурсов
      - Имя учетной записи хранения
      - Ваш регион
-
-  1. В качестве **типа учетной записи** введите **блобстораже**.
-
-  1. Для **репликации** введите **геоизбыточное хранилище с доступом для чтения (RA-GRS)**.
+   
+  1. В поле **тип учетной записи** выберите **блобстораже** из раскрывающегося списка.
+  
+  1. Для **репликации** выберите **геоизбыточное хранилище с доступом на чтение (RA-GRS)** из раскрывающегося списка.
 
   1. Выберите **Review + create** (Просмотреть и создать).
 
@@ -114,7 +113,7 @@ ms.locfileid: "97025628"
   az storage account create -n <storage account name> -g <resource group name> --sku <storage account SKU> --kind <storage account type> -l <region>
   ```
 
-  Например, введите:
+  Пример команды:
 
   `az storage account create -n onpremisesstorage -g manual_migration --sku Standard_LRS --kind BlobStorage -l eastus`
 
@@ -124,7 +123,7 @@ ms.locfileid: "97025628"
 
 Перед резервным копированием локальных данных Moodle включите **режим обслуживания** на веб-сайте Moodle, выполнив следующие действия.
 
-1. На локальной виртуальной машине введите следующую команду:
+1. В экземпляре Moodle в локальной среде введите следующую команду:
 
    ```bash
    sudo /usr/bin/php admin/cli/maintenance.php --enable
@@ -136,7 +135,7 @@ ms.locfileid: "97025628"
    sudo /usr/bin/php admin/cli/maintenance.php
    ```
 
-При резервном копировании локальных файлов, конфигураций и баз данных Moodle и мудледата можно создать резервную копию в одном каталоге. Эта идея представлена на следующей схеме:
+При резервном копировании локальных файлов, конфигураций и баз данных Moodle и мудледата рекомендуется создавать резервные копии этих ресурсов в одном каталоге. Эта идея представлена на следующей схеме:
 
 ![Схема, показывающая структуру каталога хранилища резервных копий Moodle.](./images/directory-structure.png)
 
@@ -260,7 +259,7 @@ sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
   az storage container create --account-name <storage account name> --name <container name> --auth-mode login
   ```
 
-  Например, введите:
+  Пример команды:
 
   `az storage container create --account-name onpremisesstorage --name migration --auth-mode login`
 
@@ -284,7 +283,7 @@ sudo cp ./azcopy_linux_amd64_*/azcopy /usr/bin/
 sudo azcopy copy /home/azureadmin/storage.tar.gz 'https://<storage account name>.blob.core.windows.net/<container name>/<SAS token>'
 ```
 
-Например, введите:
+Пример команды:
 
 `azcopy copy /home/azureadmin/storage.tar.gz 'https://onpremisesstorage.blob.core.windows.net/migration/?sv=2019-12-12&ss='`
 

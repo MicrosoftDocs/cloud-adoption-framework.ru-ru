@@ -1,19 +1,18 @@
 ---
 title: Дальнейшие действия после Moodle миграции
 description: Узнайте, как выполнить Moodle миграцию. См. статью Обновление путей к журналам, перезагрузка серверов и выполнение других действий, необходимых для завершения миграции.
-author: UmakanthOS
+author: BrianBlanchard
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.custom: internal
-ms.openlocfilehash: 05ad1f31a2ac8e04abb7aa2942d0b564748f870b
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 4975037dc30aa95bcb4bc58d69914970769e3183
+ms.sourcegitcommit: 32e8e7a835a688eea602f2af1074aa926ab150c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025713"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97687734"
 ---
 # <a name="how-to-follow-up-after-a-moodle-migration"></a>Дальнейшие действия после Moodle миграции
 
@@ -31,7 +30,7 @@ ms.locfileid: "97025713"
 
 ## <a name="controller-virtual-machine-scale-set"></a>Масштабируемый набор виртуальных машин контроллера
 
-Выполните следующие действия, чтобы завершить настройку масштабируемого набора виртуальных машин.
+Выполните следующие действия, чтобы завершить настройку масштабируемого набора виртуальных машин. Вам потребуется SSH-подключение к экземпляру масштабируемого набора виртуальных машин, используя частный IP адрес, как описано в разделе [доступ к масштабируемому набору виртуальных машин](azure-infra-config.md#access-the-virtual-machine-scale-set).
 
 ### <a name="update-log-paths"></a>Обновление путей к журналам
 
@@ -54,7 +53,7 @@ ms.locfileid: "97025713"
 
 ### <a name="restart-servers"></a>Перезапустить серверы
 
-Введите следующие команды, чтобы перезапустить `nginx` `php-fpm` серверы и:
+Введите следующие команды, чтобы перезапустить серверы nginx и PHP-FPM:
 
 ```bash
 sudo systemctl restart nginx
@@ -112,9 +111,9 @@ sudo systemctl restart php<php version>-fpm
       /moodle/certs/nginx.key;
       ```
 
-   1. Нажмите клавиши CTRL + O, чтобы сохранить изменения, и CTRL + X, чтобы закрыть файл.
+    1. Нажмите клавиши CTRL + O, чтобы сохранить изменения, и CTRL + X, чтобы закрыть файл.
 
-### <a name="update-the-local-html-copy"></a>Обновление локальной копии HTML
+### <a name="update-local-html-copy"></a>Обновить локальную копию HTML
 
 Локальная копия содержимого Moodle HTML-сайта `/moodle/html/moodle` создается в масштабируемом наборе виртуальных машин в этой папке: `/var/www/html/moodle` . Локальная копия обновляется только при изменении отметки времени. Введите эту команду в виртуальную машину контроллера, чтобы обновить отметку времени:
 
@@ -139,6 +138,7 @@ sudo systemctl restart php<php version>-fpm
 Выполните следующие действия на уровне поставщика услуг размещения, чтобы связать DNS-имя с Azure Load Balancerным IP:
 
 1. Введите следующую команду на виртуальной машине контроллера, чтобы отключить режим обслуживания на веб-сайте Moodle:
+
 
    ```bash
    sudo /usr/bin/php admin/cli/maintenance.php --disable

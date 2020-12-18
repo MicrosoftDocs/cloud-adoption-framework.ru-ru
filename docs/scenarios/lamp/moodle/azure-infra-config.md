@@ -1,19 +1,18 @@
 ---
 title: Настройка рабочих узлов Moodle
 description: Узнайте, как настроить масштабируемый набор виртуальных машин для Moodle. Узнайте, как получить доступ к масштабируемому набору из контроллера, используя частный IP-адрес.
-author: UmakanthOS
+author: BrianBlanchard
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.custom: internal
-ms.openlocfilehash: c0b3a01440b907dfd31eadda27d727d9a2afd587
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 902c7b93e88725ec7c37ddaac09f92db8287af49
+ms.sourcegitcommit: 32e8e7a835a688eea602f2af1074aa926ab150c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025730"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97687646"
 ---
 # <a name="how-to-set-up-moodle-worker-nodes"></a>Настройка рабочих узлов Moodle
 
@@ -26,12 +25,6 @@ ms.locfileid: "97025730"
 ### <a name="access-the-virtual-machine-scale-set"></a>Доступ к масштабируемому набору виртуальных машин
 
 Чтобы получить доступ к масштабируемому набору виртуальных машин, выполните следующие действия.
-
-1. Включите шлюз, чтобы подключить экземпляр масштабируемого набора виртуальных машин к частному IP-адресу.
-
-1. [Создайте шлюз виртуальной сети и подключитесь через частный IP-адрес](./vpn-gateway.md) , чтобы использовать шлюз для доступа к экземпляру масштабируемого набора виртуальных машин.
-
-1. Задайте для масштабируемого набора виртуальных машин значение с поддержкой пароля.
 
 1. Определите частный IP-адрес, используемый Azure для экземпляра масштабируемого набора виртуальных машин:
 
@@ -68,7 +61,6 @@ mkdir -p backup/moodle
 ```
 
 ### <a name="configure-the-php-and-web-server"></a>Настройка PHP и веб-сервера
-
 Чтобы настроить PHP и веб-сервер, сделайте следующее:
 
 1. Задайте в качестве версии PHP переменную:

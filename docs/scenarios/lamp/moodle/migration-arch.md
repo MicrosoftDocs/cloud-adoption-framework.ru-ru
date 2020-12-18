@@ -1,32 +1,31 @@
 ---
 title: Архитектура и шаблоны миграции Moodle
 description: Узнайте о шаблонах Azure Resource Manager (ARM) для развертывания инфраструктуры Moodle Azure, а также о том, как развертывать или редактировать их.
-author: UmakanthOS
+author: BrianBlanchard
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.custom: internal
-ms.openlocfilehash: d1a8403559780eabf11539ee87b81f5b22052d7e
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 4f2f943faa97651e7c860fd2e5286037c4a76fd7
+ms.sourcegitcommit: 32e8e7a835a688eea602f2af1074aa926ab150c3
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025798"
+ms.lasthandoff: 12/18/2020
+ms.locfileid: "97687771"
 ---
 # <a name="moodle-migration-architecture-and-templates"></a>Архитектура и шаблоны миграции Moodle
 
-Moodle миграция включает следующие задачи:
+Moodle миграция в Azure включает следующие задачи:
 
 1. Разверните инфраструктуру Azure с помощью шаблонов Azure Resource Manager (ARM).
 1. [Скачайте и установите AzCopy](migration-start.md#download-and-install-azcopy-on-the-controller-vm).
-1. [Скопируйте архив резервной копии Moodle в экземпляр виртуальной машины контроллера](migration-start.md#copy-the-archive-to-the-controller-vm) в развертывании Azure Resource Manager.
+1. [Скопируйте архив резервной копии Moodle в экземпляр виртуальной машины контроллера](migration-start.md#copy-the-moodle-archive-to-the-controller-vm) в развертывании Azure Resource Manager.
 1. [Перенесите приложение Moodle и конфигурацию](migration-start.md#import-the-moodle-database-to-azure).
 1. [Настройте экземпляр контроллера Moodle и рабочие узлы](azure-infra-config.md).
 1. [Настройте PHP и веб-сервер](azure-infra-config.md).
 
-В этой статье описываются варианты инфраструктуры Azure Moodle и способы развертывания ресурсов Azure с помощью выбора шаблонов ARM.
+В этой статье описываются варианты инфраструктуры Azure Moodle и способы развертывания ресурсов Azure с помощью шаблона ARM, который предоставляет возможности Azure.
 
 ## <a name="azure-infrastructure"></a>Инфраструктура Azure
 
@@ -40,20 +39,20 @@ Moodle миграция включает следующие задачи:
 
 В стандартном шаблоне развертывания используется один из четырех предопределенных размеров Moodle: минимальный, короткий-средний, крупный или максимальный.
 
-- Для **минимального развертывания** требуются только две виртуальные машины (ВМ), поэтому она работает с подпиской на бесплатную пробную версию Azure. В этом развертывании используется сетевая файловая система (NFS), MySQL и небольшой номер SKU веб-интерфейса виртуальной машины автомасштабирования с одним Виртуальное ядро. Этот шаблон имеет время быстрого развертывания в течение 30 минут.
-
+- Для *минимального развертывания* требуются только две виртуальные машины (ВМ), поэтому она работает с подпиской на бесплатную пробную версию Azure. В этом развертывании используется сетевая файловая система (NFS), MySQL и небольшой номер SKU веб-интерфейса виртуальной машины автомасштабирования с одним Виртуальное ядро. Этот шаблон имеет время быстрого развертывания в течение 30 минут.
+  
   [![, Запускающего шаблон ARM для развертывания минимального Moodle.](images/deploy-to-azure.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FMoodle%2Fmaster%2Fazuredeploy-minimal.json)
 
-- **Развертывание Small-to-MID** поддерживает до 1 000 параллельных пользователей. В этом развертывании используется NFS, без высокой доступности и MySQL в восьми виртуальных ядер. Это развертывание не включает такие параметры, как кэш Elasticsearch или Redis.
-
+- *Развертывание Small-to-MID* поддерживает до 1 000 параллельных пользователей. В этом развертывании используется NFS, без высокой доступности и MySQL в восьми виртуальных ядер. Это развертывание не включает такие параметры, как кэш Elasticsearch или Redis.
+  
   [![, Которая запускает шаблон ARM развертывания Small-to-MID Moodle.](images/deploy-to-azure.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FMoodle%2Fmaster%2Fazuredeploy-small2mid-noha.json)
 
-- **Большое развертывание с высоким уровнем доступности** поддерживает более 2 000 параллельных пользователей. В этом развертывании используются службы файлов Azure, MySQL с 16 виртуальных ядер и кэш Redis без других параметров, таких как Elasticsearch.
-
+- *Большое развертывание с высоким уровнем доступности* поддерживает более 2 000 параллельных пользователей. В этом развертывании используются службы файлов Azure, MySQL с 16 виртуальных ядер и кэшем Redis для Azure без других параметров, таких как Elasticsearch.
+  
   [![, Которая запускает шаблон многоуровневого развертывания с высоким уровнем доступности Moodle.](images/deploy-to-azure.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FMoodle%2Fmaster%2Fazuredeploy-large-ha.json)
 
-- **Максимальное** развертывание использует службы файлов Azure, MySQL с наивысшим номером SKU, кэш Redis, Elasticsearch на трех виртуальных машинах и крупные размеры хранилища для дисков данных и баз данных.
-
+- *Максимальное* развертывание использует службы файлов Azure, MySQL с наивысшим номером SKU, кэш Redis для Azure, Elasticsearch на трех виртуальных машинах и крупные размеры хранилища для дисков данных и баз данных.
+  
   [![, Которая запускает максимальный шаблон Moodle развертывания.](images/deploy-to-azure.png)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FAzure%2FMoodle%2Fmaster%2Fazuredeploy-maximal.json)
 
 ## <a name="deploy-the-template"></a>Развертывание шаблона
@@ -61,11 +60,11 @@ Moodle миграция включает следующие задачи:
 Развертывание одного из стандартных шаблонов ARM:
 
 1. В предыдущем разделе нажмите кнопку **развернуть в Azure** для нужного развертывания. Это действие переведет вас на портал Azure.
-
+   
 1. На странице **пользовательское развертывание** в портал Azure заполните поля обязательная **Подписка**, **Группа ресурсов**, **регион** и **открытый ключ SSH** . Сведения о том, как добавить ключ SSH, см. в разделе [Создание нового ключа SSH и добавление его в ssh-agent](https://docs.github.com/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
-
+   
    :::image type="content" source="images/custom-deployment.png" alt-text="Снимок экрана с экраном настраиваемого развертывания Azure для шаблона ARM для развертывания Moodle." border="false":::
-
+   
 1. Выберите **Review + create** (Просмотреть и создать).
 
 ### <a name="edit-the-template"></a>Изменение шаблона
@@ -79,18 +78,18 @@ Moodle миграция включает следующие задачи:
 Если локальные версии PHP и Moodle отличаются от предыдущих значений, обновите версии шаблонов, чтобы они совпадали, выполнив следующие действия.
 
 1. В портал Azure на странице **Настраиваемое развертывание** шаблона ARM выберите **изменить шаблон**.
-
+   
 1. В разделе " **ресурсы** " шаблона в разделе " **Параметры**" добавьте параметры для версий Moodle и PHP.
 
    ```json
    "phpVersion":       { "value": "7.2" },
    "moodleVersion":    { "value": "MOODLE_38_STABLE"}
    ```
-
-Например, для Moodle 3,9 `moodleVersion` значение должно быть `MOODLE_39_STABLE` .
-
+   
+   Например, для Moodle 3,9 `moodleVersion` значение должно быть `MOODLE_39_STABLE` .
+   
    :::image type="content" source="images/edit-template.png" alt-text="Снимок экрана, показывающий страницу изменения шаблона для шаблона ARM для развертывания Moodle." border="false":::
-
+   
 1. Щелкните **Сохранить**.
 
 ## <a name="next-steps"></a>Дальнейшие действия
