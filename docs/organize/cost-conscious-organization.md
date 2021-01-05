@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: ece24278ca31bffabaabcd930ca924390c6f39b1
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: a91294046e6a36f92929f4bc1afa2f7a365eb3d4
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024591"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713765"
 ---
 # <a name="build-a-cost-conscious-organization"></a>Создание Организации, ориентированной на стоимость
 
@@ -30,7 +30,7 @@ ms.locfileid: "97024591"
   - Правая область отчетов.
   - Правильная организация ресурсов (группы управления, группы ресурсов, подписки).
   - Снимите флажки для стратегий тегов.
-  - Правильные элементы управления доступом (RBAC).
+  - Правильные элементы управления доступом (Azure RBAC).
 
 - **Отчетность:** Уровень отчетности является таким же важным, как видимость. Отчетность начинается с очистки бюджета для усилий по внедрению. Бюджеты должны быть хорошо установлены, четко передаваться и основываться на реальных ожиданиях. Для отчетности требуется итеративный процесс и способ роста, позволяющий обеспечить правильный уровень отчетности.
 

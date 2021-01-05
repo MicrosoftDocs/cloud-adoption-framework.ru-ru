@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 8546db1193fa9746675e3fabcfde042671e2eb70
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 8d0b754ed37665b01fb3b9852b1af027c9c37beb
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025492"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713799"
 ---
 <!-- cSpell:ignore NTFS Logix -->
 
@@ -65,7 +65,7 @@ ms.locfileid: "97025492"
 
 [Для размещения профилей пользователей](/azure/virtual-desktop/create-file-share)можно также использовать службу файлов Azure. Для этого потребуется выполнить несколько дополнительных действий в области, в том числе:
 
-- **Для каждого экземпляра службы файлов Azure:** Настройте учетную запись хранения, тип диска и подключение Active Directory ([службы домен Active Directory (AD DS) также поддерживаются](/azure/virtual-desktop/create-profile-container-adds), назначьте доступ к управлению доступом на основе ролей для Active Directory группы пользователей, примените новые технологические разрешения файловой системы и получите ключ доступа к учетной записи хранения.
+- **Для каждого экземпляра службы файлов Azure:** Настройте учетную запись хранения, тип диска и подключение Active Directory ([службы домен Active Directory (AD DS) также поддерживаются](/azure/virtual-desktop/create-profile-container-adds), назначьте доступ к управлению доступом на основе ролей Azure для Active Directory группы пользователей, примените новые технологические разрешения файловой системы и получите ключ доступа к учетной записи хранения.
 - **На узел или на пользователя:** Настройте Фслогикс на виртуальных машинах узла сеансов.
 - **На пользователя:** Назначьте пользователей сеансу узла.
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 572835ca2416ef50d4fbe9175a1eb34adf33188b
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: c4db0589f250c88b77b21e994f35356ada877d3a
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97019236"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712524"
 ---
 # <a name="cloud-native-security-baseline-policy"></a>Базовая политика безопасности в облаке
 
@@ -40,7 +40,7 @@ ms.locfileid: "97019236"
 
 Пример собственной облачной политики для идентификации в облачных и локальных каталогах может включать следующие требования:
 
-- Санкционированный доступ к ресурсам с помощью управления доступом на основе ролей (RBAC), многофакторной идентификации и единого входа (SSO).
+- Санкционированный доступ к ресурсам с помощью управления доступом на основе ролей Azure (Azure RBAC), многофакторной идентификации и единого входа (SSO).
 - Быстрая защита удостоверений пользователей, вероятная компрометация.
 - JIT-доступ, достаточно достаточный уровень доступа для каждой задачи, чтобы ограничить раскрытие учетных данных администратора с повышенными привилегиями.
 - Расширенное удостоверение пользователя и доступ к политикам в нескольких средах с помощью Azure Active Directory.

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: fd260d898dbc5fa39e17b3ad245b6410101059a6
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 3036bdff7300db9a84cf48a033aa73715ca225ab
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97020324"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712779"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Примеры правил политики основных способов идентификации
 
@@ -42,15 +42,15 @@ ms.locfileid: "97020324"
 - Модель доступа с минимальными правами применяется к любым ресурсам, участвующим в критически важных приложениях или защищенных данных.
 - Разрешения с повышенными правами должны быть исключением, а все подобные исключения должны быть записаны в группу управления Cloud. Исключения будут регулярно проверяться.
 
-**Возможные варианты проектирования:** Ознакомьтесь с [рекомендациями по управлению удостоверениями в Azure](/azure/security/fundamentals/identity-management-best-practices) , чтобы реализовать стратегию управления доступом на основе РОЛЕЙ (RBAC), которая предоставляет доступ в зависимости от [необходимости знать](https://wikipedia.org/wiki/Need_to_know) и [наименее принципы безопасности](https://wikipedia.org/wiki/Principle_of_least_privilege) .
+**Возможные варианты проектирования:** Ознакомьтесь с [рекомендациями по управлению удостоверениями](/azure/security/fundamentals/identity-management-best-practices) Azure, чтобы реализовать стратегию управления доступом на основе ролей Azure (Azure RBAC), которая предоставляет доступ в зависимости от [необходимости знать](https://wikipedia.org/wiki/Need_to_know) и [наименее принципы безопасности](https://wikipedia.org/wiki/Principle_of_least_privilege) .
 
 ## <a name="lack-of-shared-management-accounts-between-on-premises-and-the-cloud"></a>Отсутствие общих учетных записей управления между локальной версией и облаком
 
 **Технический риск:** ИТ-специалисты и администраторы с учетными записями на локальном Active Directory могут не иметь достаточных прав доступа к облачным ресурсам, что может не позволить эффективно устранять проблемы в работе или безопасности.
 
-**Инструкция политики:** Все группы в локальной инфраструктуре Active Directory с повышенными привилегиями должны быть сопоставлены с утвержденной ролью RBAC.
+**Инструкция политики:** Все группы в локальной инфраструктуре Active Directory с повышенными привилегиями должны быть сопоставлены с утвержденной ролью Azure.
 
-**Возможные варианты проектирования:** Реализуйте гибридное решение для идентификации между облачными Azure Active Directory и локальными Active Directory и добавьте необходимые локальные группы в роли RBAC, необходимые для работы.
+**Возможные варианты проектирования:** Реализуйте гибридное решение для идентификации между облачными Azure Active Directory и локальными Active Directory и добавьте необходимые локальные группы в роли Azure, необходимые для работы.
 
 ## <a name="weak-authentication-mechanisms"></a>Слабые механизмы проверки подлинности
 

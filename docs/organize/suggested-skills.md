@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: 0e5c31de674499aceba07ad80d8b15c8b3f41c73
-ms.sourcegitcommit: 17743480a4b1d0516d61f1045380597203ec1de0
+ms.openlocfilehash: e2f3ac4659466061a6a8fa7ca67dc8c3d0672160
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97521778"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713731"
 ---
 # <a name="build-technical-skills"></a>Развитие технических навыков
 
@@ -40,7 +40,7 @@ ms.locfileid: "97521778"
 - [Создание виртуальной](/learn/modules/create-windows-virtual-machine-in-azure)машины. Используйте портал Azure, чтобы создать виртуальную машину.
 - [Сетевые службы Azure](/learn/modules/intro-to-azure-networking). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
 - [Варианты вычислений Azure](/learn/modules/intro-to-azure-compute): Ознакомьтесь со службами вычислений Azure.
-- [Защита ресурсов с помощью RBAC](/learn/modules/secure-azure-resources-with-rbac): использование управления доступом на основе РОЛЕЙ (RBAC) для защиты ресурсов.
+- [Защита ресурсов с помощью Azure RBAC](/learn/modules/secure-azure-resources-with-rbac). для защиты ресурсов используйте управление доступом на основе ролей Azure (Azure RBAC).
 - [Варианты службы хранилища Azure](/learn/modules/intro-to-data-in-azure). Узнайте о преимуществах хранилища данных Azure.
 
 На этапе готовности архитекторы должны проектировать решения, охватывающие все среды Azure. Следующие ресурсы могут быть подготовлены для следующих задач:

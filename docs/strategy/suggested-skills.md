@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: internal
-ms.openlocfilehash: f9afb3f71a05f57c735cd416ce47b56ba8551669
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: bd095d6474c5469fdc930b30a4a6d3ed0a901125
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97012810"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713019"
 ---
 # <a name="skills-readiness-path-during-the-plan-phase-of-a-migration-journey"></a>Путь готовности к навыкам на этапе планирования процесса миграции
 
@@ -63,7 +63,7 @@ ms.locfileid: "97012810"
 - [Создайте виртуальную машину](/learn/modules/create-windows-virtual-machine-in-azure). Создайте виртуальную машину с помощью портала Azure.
 - [Сети Azure](/learn/modules/intro-to-azure-networking). Узнайте об основах сетей Azure и о том, как сеть Azure помогает повысить устойчивость и сократить задержку.
 - [Параметры вычислений Azure](/learn/modules/intro-to-azure-compute). Сведения о службах вычислений Azure.
-- [Защита ресурсов с помощью RBAC](/learn/modules/secure-azure-resources-with-rbac). Используйте RBAC, чтобы защитить ресурсы.
+- [Защита ресурсов с помощью Azure RBAC](/learn/modules/secure-azure-resources-with-rbac). Используйте Azure RBAC для защиты ресурсов.
 - [Варианты хранения данных](/learn/modules/intro-to-data-in-azure). Узнайте о преимуществах хранилища данных Azure.
 
 ## <a name="organizational-skills"></a>Навыки организации

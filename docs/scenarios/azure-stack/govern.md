@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 4c61cab444c4452f6dc7ee3a9bed50ff743c956d
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 885278cb4ebf0faaf5686a16687bef7ccd7fe684
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025577"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713816"
 ---
 # <a name="govern-an-azure-instance-in-your-datacenter"></a>Управление экземпляром Azure в центре обработки данных
 
@@ -25,7 +25,7 @@ ms.locfileid: "97025577"
 
 В следующей серии блогов показано, как ваша организация может реализовать концепции управления облаком для центра Azure Stack:
 
-- [Службы Организации](https://azure.microsoft.com/blog/azure-stack-iaas-part-seven/) , такие как группы ресурсов, управление доступом на основе РОЛЕЙ (RBAC), аудит изменений, блокировки и теги.
+- [Службы Организации](https://azure.microsoft.com/blog/azure-stack-iaas-part-seven/) , такие как группы ресурсов, управление доступом на основе ролей Azure (Azure RBAC), аудит изменений, блокировки и теги.
 - [Службы безопасности](https://azure.microsoft.com/blog/azure-stack-iaas-part-four/), включая брандмауэры по умолчанию, ограничения, обновления ВМ и управление исправлениями, а также состояние вредоносных программ.
 - [DevOps параметры](https://azure.microsoft.com/blog/azure-stack-iaas-part-seven-2/), включая инфраструктуру как код, портал с PowerShell и интерфейсом командной строки, Azure Application Insights и интеграцию с Azure DevOps и Jenkins.
 
@@ -36,7 +36,7 @@ ms.locfileid: "97025577"
 - [Azure Resource Manager шаблоны и настройка требуемого состояния](/azure-stack/user/azure-stack-arm-templates?view=azs-2002)
 - [PowerShell](/azure-stack/user/azure-stack-powershell-overview?view=azs-2002)
 - [Политика Azure](/azure-stack/user/azure-stack-policy-module?view=azs-2002)
-- [Управление доступом на основе ролей](/azure-stack/user/azure-stack-manage-permissions?view=azs-2002)
+- [Управление доступом на основе ролей в Azure](/azure-stack/user/azure-stack-manage-permissions?view=azs-2002)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

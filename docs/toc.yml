@@ -263,7 +263,7 @@ items:
                     href: ready/considerations/storage-options.md
                   - name: Обзор вариантов данных
                     href: ready/considerations/data-options.md
-                  - name: Управление доступом на основе ролей
+                  - name: Управление доступом на основе ролей в Azure
                     href: ready/considerations/roles.md
                   - name: Создание согласованности гибридного облака
                     href: ready/considerations/hybrid-consistency.md
@@ -429,8 +429,6 @@ items:
                         href: scenarios/lamp/moodle/migration-arch.md
                       - name: Ресурсы для переноса Moodle
                         href: scenarios/lamp/moodle/migration-resources.md
-                      - name: Подключение к шлюзу виртуальной сети
-                        href: scenarios/lamp/moodle/vpn-gateway.md
                       - name: Этапы миграции
                         href: scenarios/lamp/moodle/migration-start.md
                       - name: Настройка рабочих узлов Moodle

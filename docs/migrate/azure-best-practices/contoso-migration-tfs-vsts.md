@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 765b52e99fdac45002f1569f7b642b01a096e7db
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 078c5500fddc61c4f4fef6aad61ac7fcc2803510
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97014493"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712930"
 ---
 <!-- cSpell:ignore contosodev contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring smarthotelcontainer identitymaplog CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME sqlpackage SSDT azuredevopsmigration validateonly ImportType -->
 
@@ -70,7 +70,7 @@ ms.locfileid: "97014493"
 
 | Требования | Сведения |
 | --- | --- |
-| **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника. <br><br> Если требуются более детализированные разрешения, см. раздел [Управление доступом Site Recovery с помощью управления доступом на основе ролей (RBAC)](/azure/site-recovery/site-recovery-role-based-linked-access-control). |
+| **Подписка Azure.** | Специалисты Contoso создали подписки ранее в этой серии статей. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку, в которой не являетесь администратором, администратор должен назначить вам права владельца или участника. <br><br> Если вам нужны более детализированные разрешения, см. статью [Управление доступом Site Recovery с помощью управления доступом на основе ролей Azure (Azure RBAC)](/azure/site-recovery/site-recovery-role-based-linked-access-control). |
 | **Инфраструктура Azure** | Компания Contoso настроила свою инфраструктуру Azure, как описано в разделе [инфраструктура Azure для миграции](./contoso-migration-infrastructure.md). |
 | **Локальный экземпляр Team Foundation Server** | Локальный экземпляр должен либо запустить Team Foundation Server 2018 обновление 2, либо обновить до него в рамках этого процесса. |
 
@@ -130,7 +130,7 @@ ms.locfileid: "97014493"
      ![Снимок экрана: область "Невыполненная работа по продукту" для проверки установки Team Foundation Server.](./media/contoso-migration-tfs-vsts/upgrade5.png)
 
 > [!NOTE]
-> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее.](/azure/devops/reference/configure-features-after-upgrade?view=vsts)
+> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее](/azure/devops/reference/configure-features-after-upgrade?view=vsts).
 
 **Требуется дополнительная помощь?**
 

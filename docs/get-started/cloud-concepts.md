@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal
-ms.openlocfilehash: 4fac7200ac37208eabf7f2c93c7a00a2c9cd6825
-ms.sourcegitcommit: b210ef2a057d61554148b4c4b89485a4a5c9b25c
+ms.openlocfilehash: 13bd784f2012010ff347f1a461b4ddb3cdc2fe1f
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "97646302"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712048"
 ---
 # <a name="get-started-understand-and-document-foundational-alignment-decisions"></a>Начало работы: изучение и документирование решений по выравниванию в базовых принципах
 
@@ -22,11 +22,11 @@ ms.locfileid: "97646302"
 > [!NOTE]
 > Выбор любой из следующих ссылок может привести к переходу на оглавление для платформы внедрения Microsoft Cloud для Azure. Поиск основных понятий, которые будут использоваться в дальнейшем, поможет команде разработчиков реализовать соответствующее руководство. Закладка этой страницы для возвращения к этому контрольному списку часто.
 
-## <a name="before-you-begin"></a>Перед началом работы
+## <a name="before-you-begin"></a>Перед началом
 
 При работе с этим руководством запишите наши основные решения, используя [первоначальный шаблон решения](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/references/initial-decisions-checklist.docx). Этот шаблон поможет быстро подключить участников группы, которые участвуют в жизненном цикле внедрения облака, и объяснить, как настроена облачная среда и почему.
 
-Если у вас уже есть среда, работающая в Azure, [Визуализатор управления Azure](https://github.com/microsoft/CloudAdoptionFramework/tree/master/govern/AzureGovernanceVisualizer) поможет вам ускорить работу с документацией. Получите представление о политиках, управлении доступом на основе ролей (RBAC), схемах Azure, подписках и многом другое. Из собранных данных средство предоставляет сведения о карте иерархии, создает сводку клиента и создает детализированную аналитику для групп управления и подписок.
+Если у вас уже есть среда, работающая в Azure, [Визуализатор управления Azure](https://github.com/microsoft/CloudAdoptionFramework/tree/master/govern/AzureGovernanceVisualizer) поможет вам ускорить работу с документацией. Получите представление о политиках, управлении доступом на основе ролей Azure (Azure RBAC), схемах Azure, подписках и многое другое. Из собранных данных средство предоставляет сведения о карте иерархии, создает сводку клиента и создает детализированную аналитику для групп управления и подписок.
 
 ## <a name="step-1-understand-how-azure-works"></a>Шаг 1. понимание принципов работы Azure
 

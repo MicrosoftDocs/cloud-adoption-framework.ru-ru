@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 965a021ba2c70a75ef056cc9099c851ce9bc8bf2
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: d8aa2e29baa730f6e47a2418477d5e7e146cb1b9
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97013337"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713850"
 ---
 # <a name="evaluate-a-microsoft-partners-azure-landing-zone"></a>Оценка целевой зоны Azure для партнера Майкрософт
 
@@ -71,7 +71,7 @@ ms.locfileid: "97013337"
 
 **Вопрос для партнера:** Какие из следующих вариантов управления удостоверениями поддерживает партнерское решение?
 
-- **Azure AD:** Рекомендуется использовать Azure AD и управление доступом на основе ролей для управления удостоверениями и доступом в Azure.
+- **Azure AD:** Рекомендуется использовать Azure AD и управление доступом на основе ролей Azure для управления удостоверениями и доступом в Azure.
 - **Active Directory:** Если необходимо, решение партнера предоставляет возможность развертывания Active Directory как инфраструктуры в качестве решения службы?
 - **Сторонний поставщик удостоверений:** Если в вашей компании используется стороннее решение для идентификации, определите, интегрируется ли и как Главная зона партнера Azure объединяется со сторонним решением.
 

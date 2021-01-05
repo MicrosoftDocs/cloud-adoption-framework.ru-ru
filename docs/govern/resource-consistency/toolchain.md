@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: b9f47d30ec02a3fe1bb45a734abc15a2c7a68242
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 5dce13da4babb6289d25d0c363715e6c9f59ea66
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97019287"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712643"
 ---
 # <a name="resource-consistency-tools-in-azure"></a>Средства согласованности ресурсов в Azure
 
@@ -23,7 +23,7 @@ ms.locfileid: "97019287"
 
 Ниже приведен список средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](/azure/azure-resource-manager/management/overview)  | [Azure Blueprints](/azure/governance/blueprints/overview) | [Служба автоматизации Azure](/azure/automation/automation-intro) | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](/azure/backup/backup-overview) | [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) |
+| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](/azure/azure-resource-manager/management/overview)  | [Azure Blueprints](/azure/governance/blueprints/overview) | [Служба автоматизации Azure](/azure/automation/automation-intro) | [Azure AD](/azure/active-directory/fundamentals/active-directory-whatis) | [Azure Backup](/azure/backup/backup-overview) | [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|---------|
 | Развертывание ресурсов                             | Да | Да | Да | Да | Нет  | Нет | Нет |
 | Управление ресурсами                             | Да | Да | Да | Да | Нет  | Нет | Нет |
@@ -32,7 +32,7 @@ ms.locfileid: "97019287"
 | Определение групп ресурсов                       | Да | Да | Да | Нет  | Нет  | Нет | Нет |
 | Управление владельцами рабочих нагрузок и учетной записи           | Да | Да | Да | Нет  | Нет  | Нет | Нет |
 | Управление условным доступом к ресурсам       | Да | Да | Да | Нет  | Нет  | Нет | Нет |
-| Настройка пользователей RBAC                         | Да | Нет  | Нет  | Нет  | Да | Нет | Нет |
+| Настройка пользователей Azure RBAC                   | Да | Нет  | Нет  | Нет  | Да | Нет | Нет |
 | Назначение ролей и разрешений ресурсам | Да | Да | Да | Нет  | Да | Нет | Нет |
 | Определение зависимостей между ресурсами        | Нет  | Да | Да | Нет  | Нет  | Нет | Нет |
 | Применение управления доступом                         | Да | Да | Да | Нет  | Да | Нет | Нет |
@@ -47,7 +47,7 @@ ms.locfileid: "97019287"
 
 Вместе с этими средствами и компонентами дисциплины "Согласованность ресурсов" необходимо отслеживать развернутые ресурсы на наличие проблем с производительностью и работоспособностью. [Azure Monitor](/azure/azure-monitor/overview) — это мониторинг и решение для создания отчетов по умолчанию в Azure. Azure Monitor предоставляет функции для мониторинга облачных ресурсов. В этом списке показано, какие функции предназначены для общих требований к мониторингу.
 
-| Средство | [Портал Azure](https://azure.microsoft.com/features/azure-portal) | [Application Insights](/azure/application-insights/app-insights-overview) | [Служба Log Analytics](/azure/azure-monitor/log-query/log-query-overview) | [REST API Azure Monitor](/rest/api/monitor) |
+| Инструмент | [Портал Azure](https://azure.microsoft.com/features/azure-portal) | [Application Insights](/azure/application-insights/app-insights-overview) | [Log Analytics](/azure/azure-monitor/log-query/log-query-overview) | [REST API Azure Monitor](/rest/api/monitor) |
 |----------------------------------------------------|--------------|----------------------|---------------|------------------------|
 | Регистрация данных телеметрии для виртуальной машины                 | Нет           | Нет                   | Да           | Нет                     |
 | Регистрация данных телеметрии для виртуальной сети              | Нет           | Нет                   | Да           | Нет                     |

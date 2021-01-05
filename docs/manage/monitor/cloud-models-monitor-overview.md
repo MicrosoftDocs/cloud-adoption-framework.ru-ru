@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank
-ms.openlocfilehash: 199bb384fcdd67c0f6099823daf6d7714aad4843
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 2de0e52a1dd6b4e503bdad4e2702ddd2a805011c
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97015904"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712490"
 ---
 <!-- docutune:casing "Squared Up" Savision APM -->
 <!-- cSpell:ignore Savision -->
@@ -167,7 +167,7 @@ Azure Monitor — это служба собственной платформы 
 
 - Определите стандарты и методы для включения мониторинга в гибридных и облачных ресурсах, базовый план мониторинга для каждого ресурса, пороговые значения оповещений и т. д.
 
-- Настройте управление доступом на основе ролей (RBAC), чтобы предоставить пользователям и группам доступ только к ресурсам, необходимым для мониторинга данных из ресурсов, которыми они управляют.
+- Настройте управление доступом на основе ролей Azure (Azure RBAC), чтобы предоставить пользователям и группам доступ только для мониторинга данных из ресурсов, которыми они управляют.
 
 - Включите автоматизацию и самообслуживание, чтобы каждая группа была создана, включена и настроена для мониторинга и настройки предупреждений по мере необходимости.
 

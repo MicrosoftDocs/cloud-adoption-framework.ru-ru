@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: a3d36d29614335bfa758679bbe72e5ed518186e5
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 20c539f824699f7533007c29d95f0bb87f551a4e
+ms.sourcegitcommit: 6ff3d529461fbf159bb219d3d869613e80a1f3c6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97023911"
+ms.lasthandoff: 12/22/2020
+ms.locfileid: "97736860"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
@@ -67,9 +67,9 @@ ms.locfileid: "97023911"
 
    | Имя | Описание |
    |--|--|
-   | [`Deny-PublicEndpoints`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policySetDefinitions-Deny-PublicEndpoints.parameters.json) | Запрещает создание служб с общедоступными конечными точками во всех целевых зонах. |
-   | [`Deploy-VM-Backup`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /Landing%20Zones%20 (ландингзонес)/. Азстате/Microsoft.Authorization_policyAssignments-Deploy-VM-Backup.parameters.json) | Обеспечивает настройку и развертывание резервной копии на всех виртуальных машинах в целевых зонах. |
-   | [`Deploy-VNet`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vNet.parameters.json) | Гарантирует, что на всех целевых зонах развернута виртуальная сеть, и что она является одноранговым по отношению к региональному виртуальному концентратору. |
+   | [`Deny-PublicEndpoints`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policySetDefinitions-Deny-PublicEndpoints.parameters.json) | Запрещает создание служб с общедоступными конечными точками во всех целевых зонах. |
+   | [`Deploy-VM-Backup`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /Landing%20Zones%20 (ландингзонес)/. Азстате/Microsoft.Authorization_policyAssignments-Deploy-VM-Backup.parameters.json) | Обеспечивает настройку и развертывание резервной копии на всех виртуальных машинах в целевых зонах. |
+   | [`Deploy-VNet`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vNet.parameters.json) | Гарантирует, что на всех целевых зонах развернута виртуальная сеть, и что она является одноранговым по отношению к региональному виртуальному концентратору. |
 
 #### <a name="sandbox-governance-guidance"></a>Руководство по управлению песочницей
 
@@ -83,9 +83,9 @@ ms.locfileid: "97023911"
 
   | Имя                  |     Описание                                                                                     | Заметки о назначении |
   |-----------------------|-----------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-  | [`Deny-VNET-Peering-Cross-Subscription`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате) | Предотвращает создание соединений пиринга виртуальной сети с другими виртуальных сетей за пределами подписки. | Убедитесь, что эта политика назначена только для уровня области иерархии группы управления "песочница". |
-  | [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json) | Ресурсы, которые запрещено создавать в подписках "песочницы". Это предотвратит создание ресурсов гибридного подключения. *например, VPN, ExpressRoute или виртуалван* | При назначении этой политики выберите следующие ресурсы для запрета создания: VPN-шлюзов:, `microsoft.network/vpngateways` шлюзов P2S: `microsoft.network/p2svpngateways` , виртуальных глобальных сетей: `microsoft.network/virtualwans` , ВИРТУАЛЬНЫХ концентраторов глобальной сети: `microsoft.network/virtualhubs` , каналов expressroute: `microsoft.network/expressroutecircuits` , шлюзов expressroute: `microsoft.network/expressroutegateways` , портов Expressroute: `microsoft.network/expressrouteports` , перекрестных подключений expressroute `microsoft.network/expressroutecrossconnections` и шлюзов локальной сети: `microsoft.network/localnetworkgateways` . |
-  | [`Deploy-Budget-Sandbox`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате) | Обеспечивает наличие бюджета для каждой подписки "песочницы" с включенными оповещениями по электронной почте. Бюджет будет называться: `default-sandbox-budget` в каждой подписке. | Если во время назначения политики параметры не изменяются по умолчанию, `default-sandbox-budget` будет создан бюджет () с предельным значением в 1000 валюте и отправлено оповещение по электронной почте владельцам и участникам подписки (на основе назначения РОЛЕЙ RBAC) на 90% и 100% от порога бюджета. |
+  | [`Deny-VNET-Peering-Cross-Subscription`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/) /. Азстате) | Предотвращает создание соединений пиринга виртуальной сети с другими виртуальных сетей за пределами подписки. | Убедитесь, что эта политика назначена только для уровня области иерархии группы управления "песочница". |
+  | [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json) | Ресурсы, которые запрещено создавать в подписках "песочницы". Это предотвратит создание ресурсов гибридного подключения. *например, VPN, ExpressRoute или виртуалван* | При назначении этой политики выберите следующие ресурсы для запрета создания: VPN-шлюзов:, `microsoft.network/vpngateways` шлюзов P2S: `microsoft.network/p2svpngateways` , виртуальных глобальных сетей: `microsoft.network/virtualwans` , ВИРТУАЛЬНЫХ концентраторов глобальной сети: `microsoft.network/virtualhubs` , каналов expressroute: `microsoft.network/expressroutecircuits` , шлюзов expressroute: `microsoft.network/expressroutegateways` , портов Expressroute: `microsoft.network/expressrouteports` , перекрестных подключений expressroute `microsoft.network/expressroutecrossconnections` и шлюзов локальной сети: `microsoft.network/localnetworkgateways` . |
+  | [`Deploy-Budget-Sandbox`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/) /. Азстате) | Обеспечивает наличие бюджета для каждой подписки "песочницы" с включенными оповещениями по электронной почте. Бюджет будет называться: `default-sandbox-budget` в каждой подписке. | Если во время назначения политики параметры не изменяются по умолчанию, `default-sandbox-budget` будет создан бюджет () с предельным значением в 1000 валюте и отправлено оповещение по электронной почте владельцам и участникам подписки (на основе назначения ролей Azure) на 90% и 100% от порога бюджета. |
 
 ### <a name="global-networking-and-connectivity"></a>Глобальные сетевые подключения и подключение
 
@@ -116,15 +116,15 @@ ms.locfileid: "97023911"
 
 | Имя                     | Описание                                                                            |
 |--------------------------|----------------------------------------------------------------------------------------|
-| [`Deploy-FirewallPolicy`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-FirewallPolicy.parameters.json) | Создает политику брандмауэра. |
-| [`Deploy-VHub`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vHUB.parameters.json) | Эта политика развертывает виртуальный концентратор, брандмауэр Azure и шлюзы VPN/ExpressRoute. Он также настраивает маршрут по умолчанию для подключенных виртуальных сетей к брандмауэру Azure. |
-| [`Deploy-VWAN`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vWAN.parameters.json) | Развертывает виртуальную глобальную сеть. |
+| [`Deploy-FirewallPolicy`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-FirewallPolicy.parameters.json) | Создает политику брандмауэра. |
+| [`Deploy-VHub`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vHUB.parameters.json) | Эта политика развертывает виртуальный концентратор, брандмауэр Azure и шлюзы VPN/ExpressRoute. Он также настраивает маршрут по умолчанию для подключенных виртуальных сетей к брандмауэру Azure. |
+| [`Deploy-VWAN`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vWAN.parameters.json) | Развертывает виртуальную глобальную сеть. |
 
 ### <a name="security-governance-and-compliance"></a>Безопасность, система управления и соответствие требованиям
 
 1. Определите и примените [платформу включения службы](./security-governance-and-compliance.md#service-enablement-framework) , чтобы обеспечить соответствие службам Azure требованиям к безопасности и управлению предприятием.
 
-2. Создание пользовательских определений управления доступом на основе ролей.
+2. Создание пользовательских определений ролей.
 
 3. Включение PIM Azure AD и обнаружение ресурсов Azure для упрощения PIM.
 
@@ -140,19 +140,19 @@ ms.locfileid: "97023911"
 
 | Имя                       | Описание                                                        |
 |----------------------------|--------------------------------------------------------------------|
-| [`Allowed-ResourceLocation`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyAssignments-Allowed-ResourceLocation.parameters.json)   | Указывает разрешенный регион, в котором можно развертывать ресурсы. |
-| [`Allowed-RGLocation`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyAssignments-Allowed-RGLocation.parameters.json)         | Указывает разрешенный регион, в котором можно развертывать группы ресурсов. |
-| [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json)           | Ресурсы, запрещенные для компании. |
-| [`Deny-AppGW-Without-WAF`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deny-AppGW-Without-WAF.parameters.json)     | Позволяет разворачивать шлюзы приложений с включенным брандмауэром веб-приложения Azure. |
-| [`Deny-IP-Forwarding`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyAssignments-Deny-IP-Forwarding.parameters.json)         | Запрещает IP-пересылку. |
-| [`Deny-RDP-From-Internet`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyAssignments-Deny-RDP-From-Internet.parameters.json)     | Запрещает RDP-подключения из Интернета. |
-| [`Deny-Subnet-Without-Nsg`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deny-Subnet-Without-Nsg.parameters.json)    | Запрещает создание подсети без NSG. |
-| [`Deploy-ASC-CE`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-ASC-CE.parameters.json)              | Настройка непрерывного экспорта центра безопасности Azure в рабочую область Log Analytics. |
-| [`Deploy-ASC-Monitoring`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyAssignments-Deploy-ASC-Monitoring.parameters.json)      | Включает наблюдение в центре безопасности. |
-| [`Deploy-ASC-Standard`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-ASC-Standard.parameters.json)        | Гарантирует, что для подписок включен стандартный центр безопасности. |
-| [`Deploy-Diag-ActivityLog`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Diagnostics-ActivityLog.parameters.json) | Включает журнал действий диагностики и пересылает Log Analytics. |
-| [`Deploy-Diag-LogAnalytics`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Log-Analytics.parameters.json) | |
-| [`Deploy-VM-Monitoring`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Diagnostics-VM.parameters.json) | Обеспечивает включение наблюдения за виртуальными машинами. |
+| [`Allowed-ResourceLocation`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Allowed-ResourceLocation.parameters.json)   | Указывает разрешенный регион, в котором можно развертывать ресурсы. |
+| [`Allowed-RGLocation`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Allowed-RGLocation.parameters.json)         | Указывает разрешенный регион, в котором можно развертывать группы ресурсов. |
+| [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json)           | Ресурсы, запрещенные для компании. |
+| [`Deny-AppGW-Without-WAF`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deny-AppGW-Without-WAF.parameters.json)     | Позволяет разворачивать шлюзы приложений с включенным брандмауэром веб-приложения Azure. |
+| [`Deny-IP-Forwarding`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Deny-IP-Forwarding.parameters.json)         | Запрещает IP-пересылку. |
+| [`Deny-RDP-From-Internet`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Deny-RDP-From-Internet.parameters.json)     | Запрещает RDP-подключения из Интернета. |
+| [`Deny-Subnet-Without-Nsg`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deny-Subnet-Without-Nsg.parameters.json)    | Запрещает создание подсети без NSG. |
+| [`Deploy-ASC-CE`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-ASC-CE.parameters.json)              | Настройка непрерывного экспорта центра безопасности Azure в рабочую область Log Analytics. |
+| [`Deploy-ASC-Monitoring`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Deploy-ASC-Monitoring.parameters.json)      | Включает наблюдение в центре безопасности. |
+| [`Deploy-ASC-Standard`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-ASC-Standard.parameters.json)        | Гарантирует, что для подписок включен стандартный центр безопасности. |
+| [`Deploy-Diag-ActivityLog`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Diagnostics-ActivityLog.parameters.json) | Включает журнал действий диагностики и пересылает Log Analytics. |
+| [`Deploy-Diag-LogAnalytics`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Log-Analytics.parameters.json) | |
+| [`Deploy-VM-Monitoring`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Diagnostics-VM.parameters.json) | Обеспечивает включение наблюдения за виртуальными машинами. |
 
 ### <a name="platform-identity"></a>Удостоверение платформы
 
@@ -164,8 +164,8 @@ ms.locfileid: "97023911"
 
 | Имя                         | Описание                                                               |
 |------------------------------|---------------------------------------------------------------------------|
-| [`DataProtectionSecurityCenter`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/) | Защита данных автоматически создается центром безопасности. |
-| [`Deploy-VNet-Identity`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vNet.parameters.json) | Развертывает виртуальную сеть в подписке по удостоверениям для размещения (например, контроллера домена). |
+| [`DataProtectionSecurityCenter`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/) | Защита данных автоматически создается центром безопасности. |
+| [`Deploy-VNet-Identity`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vNet.parameters.json) | Развертывает виртуальную сеть в подписке по удостоверениям для размещения (например, контроллера домена). |
 
 ### <a name="platform-management-and-monitoring"></a>Управление платформой и мониторинг
 
@@ -181,8 +181,8 @@ ms.locfileid: "97023911"
 
 | Имя                   | Описание                                                                            |
 |------------------------|----------------------------------------------------------------------------------------|
-| [`Deploy-LA-Config`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-LA-Config.parameters.json) | Настройка рабочей области Log Analytics. |
-| [`Deploy-Log-Analytics`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Log-Analytics.parameters.json) | Развертывает рабочую область Log Analytics. |
+| [`Deploy-LA-Config`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-LA-Config.parameters.json) | Настройка рабочей области Log Analytics. |
+| [`Deploy-Log-Analytics`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Log-Analytics.parameters.json) | Развертывает рабочую область Log Analytics. |
 
 ## <a name="file--new--region"></a>Файл > новый регион >
 
@@ -200,7 +200,7 @@ ms.locfileid: "97023911"
 
 | Имя                     | Описание                                                                            |
 |--------------------------|----------------------------------------------------------------------------------------|
-| [`Deploy-VHub`](https://github.com/Azure/Enterprise-Scale/blob/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)/contoso%20(contoso)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vHUB.parameters.json) | Эта политика развертывает виртуальный концентратор, брандмауэр Azure и шлюзы (VPN/ExpressRoute). Он также настраивает маршрут по умолчанию для подключенных виртуальных сетей к брандмауэру Azure. |
+| [`Deploy-VHub`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-vHUB.parameters.json) | Эта политика развертывает виртуальный концентратор, брандмауэр Azure и шлюзы (VPN/ExpressRoute). Он также настраивает маршрут по умолчанию для подключенных виртуальных сетей к брандмауэру Azure. |
 
 <!-- docutune:disable -->
 

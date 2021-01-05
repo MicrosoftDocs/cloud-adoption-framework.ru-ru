@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: e0d099cab106d950f4135b8a935a8cac8c24f46d
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: dc365b6498c94656fbda65d2693c724c5520f9b8
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97015717"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712269"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -23,9 +23,9 @@ ms.locfileid: "97015717"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов: инфраструктуру, приложение и анализ данных.
 
-## <a name="fundamentals"></a>Основы
+## <a name="fundamentals"></a>Основные сведения
 
-- Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей (RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
+- Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей Azure (Azure RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
 - Введение в [политику Azure](/azure/governance/policy/overview) поможет вам узнать, как использовать политику Azure для создания и назначения политик, а также управления ими. Политика Azure позволяет развертывать и настраивать агенты Azure Monitor, включать мониторинг с помощью Azure Monitor для виртуальных машин и центра безопасности Azure, развертывать параметры диагностики, проверять параметры гостевой конфигурации и многое другое.
 
@@ -34,7 +34,7 @@ ms.locfileid: "97015717"
   - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
   - [Начало работы с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
 
-- Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](/learn/paths/implement-resource-mgmt-security).
+- Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей Azure и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](/learn/paths/implement-resource-mgmt-security).
 
 - [Мониторинг Microsoft Azure ресурсов и рабочих нагрузок](https://www.pluralsight.com/courses/microsoft-azure-resources-workloads-monitoring-update) поможет вам узнать, как использовать средства мониторинга Azure для мониторинга сетевых ресурсов Azure, а также ресурсов, размещенных локально.
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: aae5e8b7fcd8b1c0cad29f795f494c4f0ccaac26
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: b7f40bd5a4eca62b3712c0a9b6073512edbdb374
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97020409"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712854"
 ---
 # <a name="identity-baseline-discipline-improvement"></a>Улучшения дисциплины "Базовая система идентификации"
 
@@ -103,7 +103,7 @@ _Рис. 1. этапы инкрементного подхода к управл
 - Рассмотрите потребность в любых хранилищах удостоверений: в приложений и в базах данных. Удостоверения, не предоставляемые надлежащим поставщиком удостоверений (основных или сторонних), могут представлять риск для приложения и пользователей.
 - Включите [условный доступ к локальным федеративным приложениям](/azure/active-directory/devices/overview).
 - Распространите удостоверения в глобальных регионах в нескольких центрах с синхронизацией между регионами.
-- Настройте федерацию централизованного управления доступом на основе ролей (RBAC).
+- Установите централизованную службу управления доступом на основе ролей Azure (Azure RBAC).
 
 ## <a name="operate-and-post-implementation"></a>Эксплуатация и действия после реализации
 

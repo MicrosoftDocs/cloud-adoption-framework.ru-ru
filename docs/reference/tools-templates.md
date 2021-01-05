@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.custom: internal
-ms.openlocfilehash: 3cf80c711a207f19f00cd5e6d4ea37f36d92b721
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: d256e830e2da3428d3e5177aab00439d3c1d426d
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97012317"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713833"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -35,7 +35,7 @@ ms.locfileid: "97012317"
 | [Генератор планов внедрения в облако](../plan/template.md) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |
 | [Использование шаблона ADO, готового к использованию в плане стратегий](https://azuredevopsdemogenerator.azurewebsites.net/?name=strategyplan) | Стандартизация процессов путем развертывания невыполненной работы в [Azure Boards](/azure/devops/boards/get-started/what-is-azure-boards) с помощью шаблона. |
 
-## <a name="ready"></a>Готово
+## <a name="ready"></a>Ready
 
 | Ресурс | Описание |
 |----------|-------------|
@@ -58,7 +58,7 @@ ms.locfileid: "97012317"
 | [Шаблон дисциплины "Базовые средства идентификации"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/identity-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации, чтобы сосредоточиться на требованиях к идентификации. |
 | [Шаблон дисциплины "Согласованность ресурсов"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/resource-consistency-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на согласованности ресурсов. |
 | [Шаблон дисциплины "Основные способы защиты"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/security-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на базовых показателях безопасности. |
-| [Визуализатор управления Azure](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) | Визуализатор управления Azure — это сценарий PowerShell, который выполняет итерацию по иерархии группы управлению клиента Azure до уровня подписки. Она собирает данные из наиболее актуальных возможностей управления Azure, таких как политика Azure, управление доступом на основе ролей (RBAC), и проекты Azure. На основе собранных данных визуализатор показывает карту иерархии, создает сводку клиента и создает детализированную аналитику области для групп управления и подписок. |
+| [Визуализатор управления Azure](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) | Визуализатор управления Azure — это сценарий PowerShell, который выполняет итерацию по иерархии группы управлению клиента Azure до уровня подписки. Она собирает данные из наиболее актуальных возможностей управления Azure, таких как политика Azure, управление доступом на основе ролей Azure (Azure RBAC) и проекты Azure. На основе собранных данных визуализатор показывает карту иерархии, создает сводку клиента и создает детализированную аналитику области для групп управления и подписок. |
 
 ## <a name="migrate"></a>Миграция
 
