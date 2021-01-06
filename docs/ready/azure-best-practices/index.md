@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: f8749091754f883b30ed81c104dcafb81538d17e
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 39e94b661964ab2ac22f485d09aad93331220b40
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024421"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713708"
 ---
 # <a name="best-practices-for-azure-readiness"></a>Рекомендации по обеспечению готовности к работе в Azure
 
@@ -45,7 +45,7 @@ ms.locfileid: "97024421"
 Проектируйте инфраструктуру управления удостоверениями и доступом, чтобы оптимизировать работу систем управления и безопасности для рабочих нагрузок.
 
 - [Рекомендации по защите управления удостоверениями и доступом в Azure.](/azure/security/fundamentals/identity-management-best-practices?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Ознакомьтесь с рекомендациями по управлению удостоверениями и доступом с помощью встроенных возможностей Azure.
-- [Рекомендации по управлению доступом на основе ролей.](../considerations/roles.md) Включите избирательное управление доступом и управление доступом на основе групп для ресурсов, связанных с ролями пользователей.
+- [Рекомендации по управлению доступом на основе ролей в Azure.](../considerations/roles.md) Включите избирательное управление доступом и управление доступом на основе групп для ресурсов, связанных с ролями пользователей.
 - [Защита привилегированного доступа для гибридных и облачных развертываний в Azure Active Directory.](/azure/active-directory/users-groups-roles/directory-admin-roles-secure?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) Убедитесь, что корпоративные учетные записи административного доступа и привилегированные учетные записи защищены в пределах облачной и локальной сред.
 
 ## <a name="storage"></a>Память

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: internal
-ms.openlocfilehash: 5f814fae4919fe23c624d52af5e35ef873bee111
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: e9fa4ef47cf7e98779a2e09bff8c6afbc6da7da2
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97023469"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97712116"
 ---
 # <a name="policy-enforcement-decision-guide"></a>Руководство по принудительному применению политик
 
@@ -36,7 +36,7 @@ ms.locfileid: "97023469"
 - [Шаблоны развертывания](../resource-consistency/index.md) могут предоставлять ресурсы со стандартизированной структурой и конфигурацией.
 - [Стандарты присвоения тегов и имен](../resource-tagging/index.md) могут помочь организовать операции и поддерживать требования к бухгалтерскому учету и бизнесу.
 - Управление трафиком и сетевые ограничения могут быть реализованы через [программно-определяемую сеть](../software-defined-network/index.md).
-- [Управление доступом на основе ролей](../identity/index.md) позволяет защитить и изолировать облачные ресурсы.
+- [Управление доступом на основе ролей Azure](../identity/index.md) позволяет защитить и изолировать облачные ресурсы.
 
 Начните планирование применения облачной политики, изучив, как применение стандартных шаблонов, описанных в этих руководствах, может помочь удовлетворить требования организации.
 
