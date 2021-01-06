@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal, readiness, fasttrack-edit
-ms.openlocfilehash: af3f214209911c5aad8f31f11cdb88c7886c3f51
-ms.sourcegitcommit: 17743480a4b1d0516d61f1045380597203ec1de0
+ms.openlocfilehash: 33aaf69ecb9712415ee862d3e8e8e4c77abd4d28
+ms.sourcegitcommit: 86d51757bd34b49ce3b061123a6aaa8c88d3b2cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97521753"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97909401"
 ---
 # <a name="recommended-abbreviations-for-azure-resource-types"></a>Рекомендуемые сокращения для типов ресурсов Azure
 
@@ -165,6 +165,7 @@ ms.locfileid: "97521753"
 | Хранилище ключей | `kv-` |
 | Рабочая область Log Analytics | `log-` |
 | Application Insights | `appi-` |
+| Azure Purview | `pvw-` |
 
 ## <a name="migration"></a>Миграция
 
@@ -174,7 +175,7 @@ ms.locfileid: "97521753"
 | Экземпляр Database Migration Service | `dms-` |
 | Хранилище Служб восстановления | `rsv-` |
 
-## <a name="next-steps"></a>Дальнейшие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Ознакомьтесь с рекомендациями по маркировке ресурсов и активов Azure.
 

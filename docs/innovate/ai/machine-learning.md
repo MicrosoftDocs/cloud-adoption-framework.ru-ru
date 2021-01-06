@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: 8b2cb606ded625dfcfecc5e8168f38d45ac01c2d
-ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
+ms.openlocfilehash: 8518fdb8702b92575069e22c8994e65ef862ea40
+ms.sourcegitcommit: 86d51757bd34b49ce3b061123a6aaa8c88d3b2cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95446731"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97909418"
 ---
 <!-- cSpell:ignore scikit RLlib ONNX Jupyter -->
 
@@ -36,10 +36,10 @@ Azure предоставляет вам более широкие возможн
 
 ## <a name="checklist"></a>Контрольный список
 
-- Начните с **первого знакомства с машинное обучение**, а затем выберите, с каким опытом начать. Вы можете следовать инструкциям, чтобы использовать записную книжку Jupyter с Python, визуальный интерфейс перетаскивания или автоматизированное машинное обучение (Аутомл).
+- Начните с **первого знакомства с машинное обучение**, а затем выберите, с каким опытом начать. Вы можете следовать инструкциям, чтобы использовать Jupyter Notebook с Python, визуальным интерфейсом перетаскивания или автоматическим машинным обучением (Аутомл).
 
   - [Обзор Машинное обучение](/azure/machine-learning/overview-what-is-azure-ml)
-  - [Создание первого эксперимента машинного обучения с помощью Jupyter Notebook с помощью Python](/azure/machine-learning/tutorial-1st-experiment-sdk-setup)
+  - [Создание первого эксперимента машинного обучения с помощью Jupyter Notebook с Python](/azure/machine-learning/tutorial-1st-experiment-sdk-setup)
   - [Визуальные эксперименты и перетаскивание](/azure/machine-learning/tutorial-designer-automobile-price-train-score)
   - [Использование пользовательского интерфейса Аутомл](/azure/machine-learning/tutorial-first-experiment-automated-ml)
   - [Настройка среды разработки](/azure/machine-learning/how-to-configure-environment)
@@ -62,7 +62,7 @@ Azure предоставляет вам более широкие возможн
 
 - [Обзор эталонных архитектур для решений искусственного интеллекта](/azure/architecture/browse/#ai--machine-learning)
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 Изучите другие категории решений искусственного интеллекта:
 

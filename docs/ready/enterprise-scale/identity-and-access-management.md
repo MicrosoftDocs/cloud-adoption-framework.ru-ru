@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: a9dad92595ab98024e19b0813ccb6829ae59ddef
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: f1d55875ca62dd78bc9840337f8ff5be49e1ae36
+ms.sourcegitcommit: 86d51757bd34b49ce3b061123a6aaa8c88d3b2cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97713525"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97909452"
 ---
 # <a name="identity-and-access-management"></a>управление удостоверениями и доступом;
 
@@ -64,7 +64,7 @@ _Рис. 1. Управление удостоверениями и доступ�
 | Роль | Использование | Действия | Нет действий |
 |---|---|---|---|
 | Владелец платформы Azure (например, роль "встроенный владелец");               | Управление жизненным циклом группы управления и подписки                                                           | `*`                                                                                                                                                                                                                  |                                                                                                                                                                                         |
-| Управление сетью (Нетопс)        | Глобальное управление подключением на уровне платформы: виртуальные сети, определяемые пользователем маршруты, группы безопасности сети, NVA, VPN, Azure ExpressRoute и др.            | `*/read`, `Microsoft.Authorization/*/write`, `Microsoft.Network/vpnGateways/*`, `Microsoft.Network/expressRouteCircuits/*`, `Microsoft.Network/routeTables/write`, `Microsoft.Network/vpnSites/*`                              |                                                                                                                                                                               |
+| Управление сетью (Нетопс)        | Глобальное управление подключением на уровне платформы: виртуальные сети, определяемые пользователем маршруты, группы безопасности сети, NVA, VPN, Azure ExpressRoute и др.            | `*/read`, `Microsoft.Network/vpnGateways/*`, `Microsoft.Network/expressRouteCircuits/*`, `Microsoft.Network/routeTables/write`, `Microsoft.Network/vpnSites/*`                              |                                                                                                                                                                               |
 | Операции безопасности (SecOps)       | Роль администратора безопасности с горизонтальным представлением всей области Azure и политики очистки Azure Key Vault | `*/read`, `*/register/action`, `Microsoft.KeyVault/locations/deletedVaults/purge/action`, `Microsoft.Insights/alertRules/*`, `Microsoft.Authorization/policyDefinitions/*`, `Microsoft.Authorization/policyAssignments/*`, `Microsoft.Authorization/policySetDefinitions/*`, `Microsoft.PolicyInsights/*`, `Microsoft.Security/*` |                                                                            |
 | Владелец подписки                 | Делегированная роль владельца подписки, полученная от роли владельца подписки                                       | `*`                                                                                                                                                                                                                  | `Microsoft.Authorization/*/write`, `Microsoft.Network/vpnGateways/*`, `Microsoft.Network/expressRouteCircuits/*`, `Microsoft.Network/routeTables/write`, `Microsoft.Network/vpnSites/*` |
 | Владельцы приложений (DevOps/Аппопс) | Роль участника, предоставленная группе приложений или операций на уровне группы ресурсов                                 | `*`                                                                                                                                                                                                                   | `Microsoft.Authorization/*/write`, `Microsoft.Network/publicIPAddresses/write`, `Microsoft.Network/virtualNetworks/write`, `Microsoft.KeyVault/locations/deletedVaults/purge/action`                                         |

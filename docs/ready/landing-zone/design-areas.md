@@ -1,6 +1,6 @@
 ---
-title: Области конструирования грамотно спроектированной целевой зоны
-description: Разработка областей с грамотно продуманной структурной зоной.
+title: Области проектирования для начальной зоны Azure
+description: Оцените набор стандартных факторов, которые используются для определения всех целевых зон Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 06/15/2020
@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 298d55794939233e3ee16c2d982c5ea6f70e97f2
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 29a7bd79511f1a7ae7722ef7746f18dac1c75918
+ms.sourcegitcommit: 86d51757bd34b49ce3b061123a6aaa8c88d3b2cc
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026648"
+ms.lasthandoff: 01/06/2021
+ms.locfileid: "97909384"
 ---
 <!-- TODO: Refactor terms: "design area", "well-architected" -->
 
-# <a name="design-areas-of-a-well-architected-landing-zone"></a>Области конструирования грамотно спроектированной целевой зоны
+# <a name="azure-landing-zone-design-areas"></a>Области проектирования для начальной зоны Azure
 
-Каждый вариант реализации целевой зоны Azure предоставляет подход к развертыванию и определенные принципы проектирования. Прежде чем выбрать вариант реализации, ознакомьтесь с этой статьей и изучите области проектирования, перечисленные в следующей таблице.
+Каждый вариант реализации целевой зоны Azure предоставляет подход к развертыванию и определенные принципы разработки. Прежде чем выбрать вариант реализации, ознакомьтесь с этой статьей и изучите области проектирования, перечисленные в следующей таблице.
 
 > [!NOTE]
 > Эти области проектирования описывают, что следует учесть перед развертыванием целевой зоны. Используйте его как простую ссылку. См. [параметры реализации зоны](./implementation-options.md) размещения для принципов разработки и действия по развертыванию.
