@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-new, AQC, setup
-ms.openlocfilehash: 8bbe9cd6f5283f24684b56e2198eb6b75eba7c38
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: a921919768187a18afeaf02ccd2dae5dbf11c0ee
+ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026002"
+ms.lasthandoff: 12/21/2020
+ms.locfileid: "97713646"
 ---
 <!-- docutune:casing AzAdvertizer "Azure Info Hub" "Azure Charts" "Azure Weekly" -->
 <!-- cSpell:ignore endjin AzAdvertizer -->
@@ -39,7 +39,7 @@ ms.locfileid: "97026002"
 
 - [Пятница с Azure.](https://channel9.msdn.com/shows/Azure-Friday) Еженедельные видеоролики с инженерами-разработчиками Azure. Они выполняют демонстрации, отвечают на вопросы и обмениваются полезными сведениями. Подпишитесь на [программу "Пятница с Azure" на веб-канале RSS](https://channel9.msdn.com/Shows/Azure-Friday/feed).
 - [Диаграммы Azure.](https://azurecharts.com) Эта визуализация показывает все обновления Azure, реализованные за последние шесть месяцев. Она содержит полезные диаграммы и служебные программы для отслеживания изменений в Azure. \*
-- [AzAdvertizer.](https://www.azadvertizer.net) Отслеживание выпусков и изменений в возможностях системы управления Azure, таких как Политика Azure, инициативы политик, псевдонимы политик и управление доступом на основе ролей (RBAC). \*
+- [AzAdvertizer.](https://www.azadvertizer.net) Отслеживание выпусков и изменений в возможностях системы управления Azure, таких как Политика Azure, инициативы политик, псевдонимы политик и управление доступом на основе ролей в Azure (Azure RBAC). \*
 - [Еженедельный бюллетень Azure](https://azureweekly.info)*
   - Этот бюллетень от [endjin.com](https://endjin.com) содержит сводку основных новостей недели о Microsoft Azure. Он также содержит интересное историческое содержимое. Подпишитесь на [еженедельную электронную рассылку Azure](https://azureweekly.info). \*
 
