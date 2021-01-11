@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank, csu
-ms.openlocfilehash: 4d4ca4be94afeae4e019da935726ca0708097c64
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: 2cc997cde2a35595f980f03703e09ac3710271f3
+ms.sourcegitcommit: 4e1b3dd61686712727a2b74203646cf679940e76
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97713358"
+ms.lasthandoff: 01/11/2021
+ms.locfileid: "98069395"
 ---
 # <a name="cloud-adoption-framework-enterprise-scale-landing-zone-architecture"></a>Инфраструктура внедрения облачных технологий корпоративного уровня в масштабах предприятия
 
@@ -49,7 +49,7 @@ _Рис. 3. Архитектура облачной инфраструктуры
 
 Скачайте файлы PDF или Visio, содержащие схемы архитектуры предприятия на основе топологии сети [виртуальной глобальной сети (PDF)](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/enterprise-scale-architecture.pdf) или традиционной топологии сети Azure, основанной на архитектуре [основной и резервной (PDF)](https://github.com/microsoft/CloudAdoptionFramework/raw/master/ready/enterprise-scale-architecture-cust.pdf) . Файл Visio, содержащий как виртуальную глобальную сеть, так и схему с архитектурой "звезда" и "звезда", можно скачать в виде [схемы Visio (VSDX)](https://github.com/microsoft/CloudAdoptionFramework/raw/master/ready/enterprise-scale-architecture.vsdx).
 
-На рисунках 2 и 3 имеются ссылки на ключевые области проектирования корпоративного уровня, которые обозначаются буквами a и I:
+На рисунках 2 и 3 имеются ссылки на ключевые области проектирования корпоративного уровня, которые обозначаются буквами A и I:
 
 ![Письмо A ](./media/a.png) [Соглашение Enterprise (EA) и клиенты Azure Active Directory](./enterprise-enrollment-and-azure-ad-tenants.md). Регистрация Соглашения Enterprise (EA) представляет собой коммерческие отношения между корпорацией Майкрософт и тем, как ваша организация использует Azure. Оно является основанием для выставления счетов по всем подпискам и влияет на администрирование ваших цифровых активов. Управление регистрацией EA осуществляется через портал Azure EA. Регистрация часто представляет собой иерархию организации, которая включает отделы, учетные записи и подписки. Клиент Azure AD предоставляет управление удостоверениями и доступом, что является важной частью обеспечения безопасности. Клиент Azure AD гарантирует, что прошедшие проверку подлинности и авторизованные пользователи смогут получить доступ только к тем ресурсам, для которых у них есть разрешения на доступ.
 
