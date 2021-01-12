@@ -1,18 +1,19 @@
 ---
 title: Архитектура и шаблоны миграции Moodle
 description: Узнайте о шаблонах Azure Resource Manager (ARM) для развертывания инфраструктуры Moodle Azure, а также о том, как развертывать или редактировать их.
-author: BrianBlanchard
+author: UmakanthOS
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 4f2f943faa97651e7c860fd2e5286037c4a76fd7
-ms.sourcegitcommit: 32e8e7a835a688eea602f2af1074aa926ab150c3
+ms.custom: think-tank
+ms.openlocfilehash: bff94f48705d5e080607d5f41017acf421e394ac
+ms.sourcegitcommit: 32a958d1dd2d688cb112e9d1be1706bd1e59c505
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97687771"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98123516"
 ---
 # <a name="moodle-migration-architecture-and-templates"></a>Архитектура и шаблоны миграции Moodle
 

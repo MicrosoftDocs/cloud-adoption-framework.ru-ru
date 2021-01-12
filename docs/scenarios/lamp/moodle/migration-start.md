@@ -1,18 +1,19 @@
 ---
 title: Действия по миграции Moodle вручную
 description: Выполните следующие действия, чтобы импортировать Архив локального резервного копирования Moodle в ресурсы Azure и настроить приложение Moodle.
-author: BrianBlanchard
+author: UmakanthOS
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 07c8853fa2e843d18c9ab818e19dc65ca93c0849
-ms.sourcegitcommit: 32e8e7a835a688eea602f2af1074aa926ab150c3
+ms.custom: think-tank
+ms.openlocfilehash: 729131cf4245dbda7c48e7067cf224fbff927c67
+ms.sourcegitcommit: 32a958d1dd2d688cb112e9d1be1706bd1e59c505
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97687683"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98123550"
 ---
 # <a name="moodle-manual-migration-steps"></a>Действия по миграции Moodle вручную
 
@@ -42,7 +43,7 @@ ms.locfileid: "97687683"
    
 1. Выберите **Проверка подлинности** и найдите файл ключа SSH, который использовался для развертывания инфраструктуры Azure с помощью шаблона ARM.
    
-1. Выберите **Открыть**. В поле имя пользователя введите **azureadmin**, так как оно жестко запрограммировано в шаблоне.
+1. Выберите **Open** (Открыть). В поле имя пользователя введите **azureadmin**, так как оно жестко запрограммировано в шаблоне.
    
    ![Снимок экрана с параметрами проверки подлинности SSH на странице "Конфигурация".](images/putty-ssh-key.png)
    
@@ -90,7 +91,7 @@ ms.locfileid: "97687683"
    azcopy copy "https://<storageaccount>.blob.core.windows.net/<container>/<BlobDirectoryName><SAStoken>" "/home/azureadmin/storage.tar.gz"
    ```
    
-   Замените учетную запись хранения и значения токенов SAS. Например:
+   Замените учетную запись хранения и значения токенов SAS. Пример:
    
    `azcopy copy "https://onpremisesstorage.blob.core.windows.net/migration/storage.tar.gz?sv=2019-12-12&ss=" "/home/azureadmin/storage.tar.gz"`
    

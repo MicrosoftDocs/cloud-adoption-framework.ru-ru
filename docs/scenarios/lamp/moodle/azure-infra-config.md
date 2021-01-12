@@ -1,18 +1,19 @@
 ---
 title: Настройка рабочих узлов Moodle
 description: Узнайте, как настроить масштабируемый набор виртуальных машин для Moodle. Узнайте, как получить доступ к масштабируемому набору из контроллера, используя частный IP-адрес.
-author: BrianBlanchard
+author: UmakanthOS
 ms.author: brblanch
 ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.openlocfilehash: 902c7b93e88725ec7c37ddaac09f92db8287af49
-ms.sourcegitcommit: 32e8e7a835a688eea602f2af1074aa926ab150c3
+ms.custom: think-tank
+ms.openlocfilehash: ef6af215d67a5e2c12792e6f54e4e74d915da381
+ms.sourcegitcommit: 32a958d1dd2d688cb112e9d1be1706bd1e59c505
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/18/2020
-ms.locfileid: "97687646"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98123431"
 ---
 # <a name="how-to-set-up-moodle-worker-nodes"></a>Настройка рабочих узлов Moodle
 

@@ -7,13 +7,13 @@ ms.date: 11/30/2020
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
-ms.custom: internal
-ms.openlocfilehash: 1e6ff81c76fc24c6868579268d6e1e05eb4354ec
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.custom: think-tank
+ms.openlocfilehash: 659c32793a036e1fa7c60a4d16f4d4f5ab771728
+ms.sourcegitcommit: 32a958d1dd2d688cb112e9d1be1706bd1e59c505
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025526"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "98123584"
 ---
 # <a name="overview-of-moodle-manual-migration"></a>Обзор миграции Moodle вручную
 
