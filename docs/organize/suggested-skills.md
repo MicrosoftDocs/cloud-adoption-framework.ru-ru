@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: e2f3ac4659466061a6a8fa7ca67dc8c3d0672160
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: e0ed0b0407b29ad04fa942231858203b0af4a923
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97713731"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98174579"
 ---
 # <a name="build-technical-skills"></a>Развитие технических навыков
 
@@ -43,7 +43,7 @@ ms.locfileid: "97713731"
 - [Защита ресурсов с помощью Azure RBAC](/learn/modules/secure-azure-resources-with-rbac). для защиты ресурсов используйте управление доступом на основе ролей Azure (Azure RBAC).
 - [Варианты службы хранилища Azure](/learn/modules/intro-to-data-in-azure). Узнайте о преимуществах хранилища данных Azure.
 
-На этапе готовности архитекторы должны проектировать решения, охватывающие все среды Azure. Следующие ресурсы могут быть подготовлены для следующих задач:
+На этапе готовности архитекторам приходится проектировать решения, охватывающие все среды Azure. Следующие ресурсы могут быть подготовлены для следующих задач:
 
 - [Основы для облачной архитектуры](https://www.pluralsight.com/courses/cloud-architecture-foundations): Pluralsight курс, помогающий спроектировать правильные решения для базовых решений.
 - [Microsoft Azure архитектура](https://www.pluralsight.com/courses/cloud-architecture-foundations)— Pluralsightный курс для архитекторов-заземлений в архитектуре Azure.

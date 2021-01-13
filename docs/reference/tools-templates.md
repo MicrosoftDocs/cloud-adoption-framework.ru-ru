@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.custom: internal
-ms.openlocfilehash: d256e830e2da3428d3e5177aab00439d3c1d426d
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: 3803165a69bfb0dd0d9b510cc0bdffbc21da31d2
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97713833"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98174001"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -66,6 +66,14 @@ ms.locfileid: "97713833"
 |----------|-------------|
 | [Контрольный список обнаружения миграции центра обработки данных](https://raw.githubusercontent.com/Microsoft/CloudAdoptionFramework/master/migrate/datacenter-migration-discovery-checklist.docx) | Изучите этот контрольный список, чтобы узнать о рабочих нагрузках, серверах и других ресурсах в центре обработки данных. Используйте эти сведения для планирования миграции.
 | [Шаблоны миграции](https://aka.ms/adopt/plan/generator) | В генераторе DevOps Azure мы создали ряд шаблонов, которые можно использовать для упрощения проектов. Шаблоны были созданы для [развертываний](https://azuredevopsdemogenerator.azurewebsites.net/?name=cafaks) [ВВД](https://azuredevopsdemogenerator.azurewebsites.net/?name=wvdmigration), [миграции сервера](https://azuredevopsdemogenerator.azurewebsites.net/?name=servermigration), [переноса SQL](https://azuredevopsdemogenerator.azurewebsites.net/?name=sqlmigration) и AKS.
+
+
+## <a name="innovate"></a>Инновации
+
+| Ресурс | Описание |
+|----------|-------------|
+| [Шаблоны развертывания](https://aka.ms/adopt/plan/generator) | Шаблон [интеллектуального анализа знаний](https://azuredevopsdemogenerator.azurewebsites.net/?name=kmine) предоставляет структурированный подход к обнаружению скрытых ценных сведений, содержащихся в структурированных и неструктурированных данных. .
+
 
 ## <a name="manage"></a>Управление
 

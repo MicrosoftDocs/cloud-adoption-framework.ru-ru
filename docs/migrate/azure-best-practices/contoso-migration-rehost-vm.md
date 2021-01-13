@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: cfba0681dd1a07a787c24561d5ca23e0dbef5bc7
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 6a05051287765528ea34774b4a5cbfb12e575639
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97014000"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98174409"
 ---
 <!-- cSpell:ignore WEBVM SQLVM OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc NSGs agentless -->
 
@@ -72,10 +72,10 @@ ms.locfileid: "97014000"
 
 Компания Contoso оценивает предлагаемую конструкцию, помещая вместе со списком достоинств и недостатков.
 
-| Оценка | Подробнее |
+| Оценка | Сведения |
 | --- | --- |
 | **Преимущества** | Виртуальные машины приложений будут перемещены в Azure без изменений, упрощая миграцию. <br><br> Поскольку компания Contoso использует подход с приближением и сдвигом для обеих виртуальных машин приложений, для базы данных приложения не требуются специальные средства настройки или миграции. <br><br> Компания Contoso может воспользоваться преимуществами инвестиций в Software Assurance с помощью Преимущество гибридного использования Azure. <br><br> Contoso будет хранить полный контроль над виртуальными машинами приложений в Azure. |
-| **Недостатки** | `WEBVM` и работают `SQLVM` под Windows Server 2008 R2. Azure поддерживает операционную систему для конкретных ролей. [Подробнее.](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines) <br><br> Веб-уровни и уровень данных приложения остаются едиными точками отказа. <br><br> `SQLVM` работает на SQL Server 2008 R2. SQL Server 2008 R2 больше не находится в основной поддержке, но поддерживается для виртуальных машин Azure. [Подробнее.](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support) <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure или база данных SQL Azure. |
+| **Недостатки** | `WEBVM` и работают `SQLVM` под Windows Server 2008 R2. Azure поддерживает операционную систему для конкретных ролей. [Подробнее](https://support.microsoft.com/help/2721672/microsoft-server-software-support-for-microsoft-azure-virtual-machines). <br><br> Веб-уровни и уровень данных приложения остаются едиными точками отказа. <br><br> `SQLVM` работает на SQL Server 2008 R2. SQL Server 2008 R2 больше не находится в основной поддержке, но поддерживается для виртуальных машин Azure. [Подробнее](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-2008-eos-extend-support). <br><br> Компания Contoso должна продолжить поддержку приложения на виртуальных машинах Azure, а не переходить к управляемой службе, такой как служба приложений Azure или база данных SQL Azure. |
 
 ### <a name="migration-process"></a>Процесс миграции
 
@@ -308,4 +308,5 @@ Contoso и другие пользователи должны соответст
 
 ## <a name="conclusion"></a>Заключение
 
-В этой статье компания Contoso повторно размещает приложение SmartHotel360 в Azure. Администраторы перенесли виртуальные машины приложений на виртуальные машины Azure с помощью средства миграции Azure: Server Migration Tool. Инструкции по выполнению аналогичного проекта в среде см. в шаблоне проекта Azure DevOps для [проекта "миграция сервера](https://azuredevopsdemogenerator.azurewebsites.net/?name=servermigration)". 
+В этой статье компания Contoso повторно размещает приложение SmartHotel360 в Azure. Администраторы перенесли виртуальные машины приложений на виртуальные машины Azure с помощью средства миграции Azure: Server Migration Tool.
+Вы также можете ознакомиться с проектами Azure DevOps, опубликованными в [генераторе DevOps](https://aka.ms/adopt/plan/generator). В генераторе Скачайте [проект миграции сервера](https://azuredevopsdemogenerator.azurewebsites.net/?name=servermigration) в разделе Навигация по инфраструктуре внедрения в облаке. 

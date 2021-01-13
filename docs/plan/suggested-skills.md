@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: internal
-ms.openlocfilehash: b66a9258eeab8ddf3be16d6b71d360a2da77cf93
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 77fe35a487858a240e7b3dc8879acd67e28afa8d
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026223"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98175123"
 ---
 # <a name="get-started-on-a-skills-readiness-path"></a>Приступая к работе с путем готовности навыков
 
@@ -37,7 +37,7 @@ ms.locfileid: "97026223"
   - **Управление:** Получите навыки, необходимые для управления облачной средой.
   - **[Монитор](../manage/monitor/suggested-skills.md):** Получите навыки, необходимые для мониторинга облачной среды.
 
-Каждый из предыдущих путей обучения использует возможности нескольких типов мультимедиа для максимального приобретения базы знаний.
+Каждый из предыдущих путей обучения использует возможности нескольких типов мультимедиа для максимального приобретения базы знаний. По мере развития учебных курсов вы сможете просмотреть, как ваши сотрудники и специалисты хотят получить сертификацию. Следующий ресурс поможет вам разобраться с путями сертификации, посвященными обзору сертификации, предлагаемым действиям и рекомендованному обучению, необходимым для сертификации. [Колода сертификатов Azure](https://aka.ms/azuretraincertdeck). 
 
 ## <a name="microsoft-learn"></a>Microsoft Learn
 

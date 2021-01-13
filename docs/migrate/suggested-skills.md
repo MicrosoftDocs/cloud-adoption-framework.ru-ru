@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 5dcd54f2db94ab52b72eb4bef344ed3d20c85aa3
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: e36fb243716808df82bf71a46135734f322ef805
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024829"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98175276"
 ---
 # <a name="skills-readiness-for-cloud-migration"></a>Подготовка навыков для миграции в облако
 
@@ -23,7 +23,7 @@ ms.locfileid: "97024829"
 
 ## <a name="prerequisites-skilling-resources"></a>Ресурсы для формирования навыков
 
-Реализация методологии миграции основана на навыках, полученных на этапе [планирования](../strategy/suggested-skills.md) и [готовности](../organize/suggested-skills.md) к переходу.
+Реализация методологии миграции основана на навыках, полученных при [планировании](../strategy/suggested-skills.md) , и [подготовке](../organize/suggested-skills.md) к миграции.
 
 ## <a name="assess-skilling-resources"></a>Оценка ресурсов для формирования навыков
 

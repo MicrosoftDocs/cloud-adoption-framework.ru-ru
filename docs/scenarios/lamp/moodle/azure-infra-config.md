@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: think-tank
-ms.openlocfilehash: ef6af215d67a5e2c12792e6f54e4e74d915da381
-ms.sourcegitcommit: 32a958d1dd2d688cb112e9d1be1706bd1e59c505
+ms.openlocfilehash: 744bdf4b3e348f522a90941102521d5ffe83ccd8
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98123431"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98175242"
 ---
 # <a name="how-to-set-up-moodle-worker-nodes"></a>Настройка рабочих узлов Moodle
 
@@ -62,6 +62,7 @@ mkdir -p backup/moodle
 ```
 
 ### <a name="configure-the-php-and-web-server"></a>Настройка PHP и веб-сервера
+
 Чтобы настроить PHP и веб-сервер, сделайте следующее:
 
 1. Задайте в качестве версии PHP переменную:
@@ -95,7 +96,26 @@ mkdir -p backup/moodle
    php -m
    ```
 
-1. Используйте шаблон Azure Resource Manager для установки следующих расширений PHP: FPM, CLI, мкрипт, ZIP, груши, mbstring, dev,, SOAP, JSON, Redis, бкмас, GD, MySQL, ксмлрпк, Intl, XML и bz2.
+1. Используйте шаблон Azure Resource Manager для установки следующих расширений PHP:
+
+    - `fpm`
+    - `cli`
+    - `curl`
+    - `zip`
+    - `pear`
+    - `mbstring`
+    - `dev`
+    - `mcrypt`
+    - `soap`
+    - `json`
+    - `redis`
+    - `bcmath`
+    - `gd`
+    - `mysql`
+    - `xmlrpc`
+    - `intl`
+    - `xml`
+    - `bz2`
 
 1. Если в локальном приложении Moodle есть дополнительные расширения PHP, которые отсутствуют на виртуальной машине контроллера, установите их вручную с помощью следующей команды:
 

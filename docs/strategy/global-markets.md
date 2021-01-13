@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: internal
-ms.openlocfilehash: d01e7333d6e5e85576287248073562fc2f2b181f
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 9e1483139aa0ff7bbcee8fbde897cfbe2e9e9b2a
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97012861"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98175072"
 ---
 # <a name="how-will-global-market-decisions-affect-the-transformation-journey"></a>Как глобальные решения на рынке влияют на путешествие с преобразованием?
 
@@ -41,7 +41,7 @@ ms.locfileid: "97012861"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Узнайте о [навыках, необходимых на этапе стратегии](./suggested-skills.md) в пути внедрения в облако.
+Узнайте о [навыках, необходимых на этапе стратегизинг](./suggested-skills.md) вашего пути внедрения в облако.
 
 > [!div class="nextstepaction"]
-> [Навыки, необходимые на этапе стратегии](./suggested-skills.md)
+> [Навыки, необходимые на этапе стратегизинг](./suggested-skills.md)

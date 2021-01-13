@@ -1,5 +1,5 @@
 ---
-title: Путь готовности к навыкам на этапе планирования процесса миграции
+title: Путь готовности навыков на этапе планирования процесса миграции
 description: Используйте платформу внедрения облачных технологий для Azure, чтобы узнать о пути готовности навыков на этапе планирования миграции.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: internal
-ms.openlocfilehash: bd095d6474c5469fdc930b30a4a6d3ed0a901125
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: d1c1242f57bc97f1cc934c78e5ca5604a7e5c6ae
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97713019"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98174953"
 ---
-# <a name="skills-readiness-path-during-the-plan-phase-of-a-migration-journey"></a>Путь готовности к навыкам на этапе планирования процесса миграции
+# <a name="skills-readiness-path-during-the-planning-phase-of-a-migration-journey"></a>Путь готовности навыков на этапе планирования процесса миграции
 
-На этапе планирования процесса миграции цель состоит в разработке планов, необходимых для реализации миграции. На этом этапе требуются некоторые важные навыки, в том числе:
+Цель на этапе планирования процесса миграции заключается в разработке планов, необходимых для реализации процесса миграции. На этом этапе требуются некоторые важные навыки, в том числе:
 
 - Установление концепции.
 - Создание делового обоснования.
@@ -75,7 +75,7 @@ ms.locfileid: "97713019"
 
 ## <a name="deeper-skills-exploration"></a>Углубленное изучение навыков
 
-Помимо этих первоначальных вариантов разработки навыков доступны различные варианты обучения.
+Для разработки навыков доступны различные параметры обучения, которые выходят за рамки исходных вариантов.
 
 ### <a name="typical-mappings-of-cloud-it-roles"></a>Типичные сопоставления облачных ИТ-ролей
 

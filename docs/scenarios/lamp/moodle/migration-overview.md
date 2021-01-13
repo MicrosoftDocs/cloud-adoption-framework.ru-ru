@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: think-tank
-ms.openlocfilehash: 659c32793a036e1fa7c60a4d16f4d4f5ab771728
-ms.sourcegitcommit: 32a958d1dd2d688cb112e9d1be1706bd1e59c505
+ms.openlocfilehash: 1893b6625ad6bf3614e0a444a9ae83055edf5cd2
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98123584"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98175191"
 ---
 # <a name="overview-of-moodle-manual-migration"></a>Обзор миграции Moodle вручную
 
@@ -25,7 +25,7 @@ ms.locfileid: "98123584"
 
 - Локальное программное обеспечение обновлено и исправлено до следующих версий:
   - Ubuntu 18.04 LTS
-  - Nginx 1.14.
+  - NGINX 1,14
   - Сервер базы данных MySQL 5.6, 5.7 или 8.0. В этом руководством используется база данных Azure для MySQL.
   - PHP 7.2, 7.3 или 7.4.
   - Moodle 3,8 или 3

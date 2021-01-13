@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 2595aa2cd9ee5865934e27946092e8cf22047a0f
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 1a493c8624d1cbcd4fbf9d4c9a4a6fb559b5d4c1
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025951"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98174817"
 ---
 <!-- cSpell:ignore HDFS databox VHDX -->
 
@@ -23,7 +23,7 @@ ms.locfileid: "97025951"
 
 ## <a name="general-scope-expansion"></a>Расширение общей области
 
-Большая часть усилий, необходимых для этого расширения области, происходит во время предварительных требований, оценки и миграции этапов миграции.
+Большая часть усилий, необходимых для этого расширения области, происходит на этапе планирования, оценки и миграции на этапы миграции.
 
 ## <a name="suggested-prerequisites"></a>Рекомендуемые предварительные требования
 

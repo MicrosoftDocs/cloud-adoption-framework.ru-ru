@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 281132c0668f6556520be15540c084376c05e8ae
-ms.sourcegitcommit: 17743480a4b1d0516d61f1045380597203ec1de0
+ms.openlocfilehash: 3c1daeaf7b772b12d82ccfe5d9a01b72816a80e9
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97521876"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98175174"
 ---
 <!-- docutune:casing "Enable .NET" SmartHotel360-Backend Pet.Checker "contoso-datacenter" PetCheckerFunction -->
 
@@ -111,7 +111,7 @@ ms.locfileid: "97521876"
 | --- | --- |
 | Подписка Azure | <li> Подписки, созданные Contoso в более ранней статье. Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <li> Если вы создаете бесплатную учетную запись, вы являетесь администратором подписки и можете выполнять все действия. <li> Если вы используете существующую подписку и вы не являетесь администратором, вам нужно обратиться к администратору, чтобы назначить вам разрешения владельца или участника. |
 | Инфраструктура Azure | <li> Узнайте [, как Contoso настраивает инфраструктуру Azure](./contoso-migration-infrastructure.md). |
-| Предварительные требования для разработчика | Contoso необходимы следующие средства на рабочей станции разработчика: <li> [Visual Studio Community 2017 версии 15,5](https://visualstudio.microsoft.com) <li> Рабочая нагрузка .NET, включена <li> [Git](https://git-scm.com); <li> [Azure PowerShell](https://azure.microsoft.com/downloads) <li> [CLI Azure.](/cli/azure/install-azure-cli?view=azure-cli-latest) <li> [DOCKER Community Edition (Windows 10) или DOCKER Enterprise Edition (Windows Server)](https://docs.docker.com/docker-for-windows/install), настроено для использования контейнеров Windows |
+| Предварительные требования для разработчика | Contoso необходимы следующие средства на рабочей станции разработчика: <li> [Visual Studio Community 2017 версии 15,5](https://visualstudio.microsoft.com) <li> Рабочая нагрузка .NET, включена <li> [Git](https://git-scm.com) <li> [Azure PowerShell](https://azure.microsoft.com/downloads) <li> [CLI Azure.](/cli/azure/install-azure-cli?view=azure-cli-latest) <li> [DOCKER Community Edition (Windows 10) или DOCKER Enterprise Edition (Windows Server)](https://docs.docker.com/docker-for-windows/install), настроено для использования контейнеров Windows |
 
 ## <a name="scenario-steps"></a>Шаги выполнения сценария
 
@@ -244,7 +244,7 @@ Contoso создает проект Azure DevOps, настраивает сбо�
 
     _Рис. 16. Настройка конвейера сборки._
 
-7. На **этапе 1** добавляется задача **Docker Compose**. Эта задача создает Docker Compose.
+7. На **шаге 1** они добавляют **DOCKER Composeную** задачу. Эта задача создает Docker Compose.
 
     ![Снимок экрана создания задачи Docker Compose в Azure DevOps.](./media/contoso-migration-rebuild/vsts6.png)
 

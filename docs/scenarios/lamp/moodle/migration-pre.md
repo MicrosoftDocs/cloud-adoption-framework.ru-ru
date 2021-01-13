@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: think-tank
-ms.openlocfilehash: 5b82b1c440a8a7bd311098906d3baf902bfd6327
-ms.sourcegitcommit: 32a958d1dd2d688cb112e9d1be1706bd1e59c505
+ms.openlocfilehash: c5d8319f1f181848e70d303c7315403a5b52f7c0
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98123618"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98175208"
 ---
 # <a name="how-to-prepare-for-a-moodle-migration"></a>Подготовка к Moodle миграции
 
@@ -43,7 +43,7 @@ ms.locfileid: "98123618"
 
 Если у вас нет подписки Azure, вы можете [создать ее бесплатно](https://azure.microsoft.com/free/). Можно также настроить [подписку с оплатой по мере](https://azure.microsoft.com/offers/ms-azr-0003p/)использования или создать подписку в портал Azure.
 
-- Чтобы использовать портал Azure для создания подписки, откройте [подписки](https://ms.portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade), выберите **Добавить** и введите необходимые сведения.
+- Чтобы использовать портал Azure для создания подписки, откройте [**подписки**](https://ms.portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade), выберите **Добавить** и введите необходимые сведения.
 
   ![Снимок экрана со страницей "подписки" в портал Azure.](./images/azure-subscriptions-page.png)
 
@@ -59,14 +59,14 @@ ms.locfileid: "98123618"
 
 ## <a name="create-a-resource-group"></a>Создание группы ресурсов
 
-После настройки подписки Azure создайте группу ресурсов в Azure. Для создания группы ресурсов можно использовать портал Azure **или** Azure CLI.
+После настройки подписки Azure создайте группу ресурсов в Azure, используя портал Azure или Azure CLI.
 
 - Чтобы использовать портал Azure, выполните следующие действия.
 
-  1. Откройте [группы ресурсов](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceGroups)и выберите **Добавить**.
-  
+  1. Откройте [**группы ресурсов**](https://ms.portal.azure.com/#blade/HubsExtension/BrowseResourceGroups)и выберите **Добавить**.
+
   1. Введите имя подписки, имя группы ресурсов и регион. Список доступных регионов см. [в статье местонахождение данных в Azure](https://azure.microsoft.com/global-infrastructure/data-residency/) . Запишите имя введенной группы ресурсов, чтобы это имя можно было использовать в последующих шагах.
-  
+
   1. Выберите **Review + create** (Просмотреть и создать).
 
   ![Снимок экрана: страница "Создание группы ресурсов" в полях "портал Azure", "Подписка", "Группа ресурсов" и "Проверка + создать".](./images/resource-group.png)
@@ -87,11 +87,11 @@ ms.locfileid: "98123618"
 
 Затем создайте учетную запись хранения в только что созданной группе ресурсов. Эта учетная запись хранения будет использоваться для резервного копирования локальных данных Moodle.
 
-Для создания учетной записи хранения можно либо использовать портал Azure, **либо** Azure CLI.
+Для создания учетной записи хранения можно использовать либо портал Azure, либо Azure CLI.
 
 - Чтобы использовать портал Azure, выполните следующие действия.
 
-  1. Откройте [создать учетную запись хранения](https://ms.portal.azure.com/#create/Microsoft.StorageAccount).
+  1. Перейдите к разделу [**Создание учетной записи хранения**](https://ms.portal.azure.com/#create/Microsoft.StorageAccount).
 
   1. Введите следующие сведения:
 
@@ -99,9 +99,9 @@ ms.locfileid: "98123618"
      - Имя только что созданной группы ресурсов
      - Имя учетной записи хранения
      - Ваш регион
-   
+
   1. В поле **тип учетной записи** выберите **блобстораже** из раскрывающегося списка.
-  
+
   1. Для **репликации** выберите **геоизбыточное хранилище с доступом на чтение (RA-GRS)** из раскрывающегося списка.
 
   1. Выберите **Review + create** (Просмотреть и создать).
@@ -136,7 +136,7 @@ ms.locfileid: "98123618"
    sudo /usr/bin/php admin/cli/maintenance.php
    ```
 
-При резервном копировании локальных файлов, конфигураций и баз данных Moodle и мудледата рекомендуется создавать резервные копии этих ресурсов в одном каталоге. Эта идея представлена на следующей схеме:
+Необходимо создать резервные копии локальных файлов Moodle и мудледата, а также конфигураций и баз данных в одном каталоге. Эта рекомендация представлена на следующей схеме:
 
 ![Схема, показывающая структуру каталога хранилища резервных копий Moodle.](./images/directory-structure.png)
 
@@ -172,7 +172,7 @@ ms.locfileid: "98123618"
    mkdir configuration
    ```
 
-2. Введите следующие команды, чтобы скопировать файлы конфигурации PHP и nginx:
+2. Введите следующие команды, чтобы скопировать файлы конфигурации PHP и NGINX:
 
    ```bash
    cp -R /etc/php /home/azureadmin/storage/configuration/
