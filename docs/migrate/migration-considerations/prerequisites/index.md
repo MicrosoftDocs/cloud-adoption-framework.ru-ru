@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: ce8eab394356b594349268c0717d8daf38043faf
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: a4ce8d96d650a971c90bcaa9b85a14502d094b25
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024914"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98174035"
 ---
 # <a name="prerequisites-for-migration"></a>Предварительные требования для миграции
 
@@ -45,7 +45,7 @@ ms.locfileid: "97024914"
 
 ## <a name="accountability-during-prerequisites"></a>Ответственность на период определения предварительных требований
 
-За готовность на этапе определения предварительных требований отвечают две команды:
+За готовность на этапе выполнения предварительных требований отвечают две команды:
 
 - **Команда по вопросам облачной стратегии**. Она отвечает за подбор и определение приоритетности для двух-трех рабочих нагрузок, которые будут лучшими кандидатами для миграции.
 - **Команда по внедрению облачных решений**. Она отвечает за проверку готовности технический среды и оценку возможности миграции для предложенных рабочих нагрузок.

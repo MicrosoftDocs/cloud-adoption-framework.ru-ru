@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal, seo-azure-migrate
-ms.openlocfilehash: 6909b8a1aa3d5eeb8b2f8595c81e01b2960b13ff
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: fa3fde433d7506d5a5bb88e5befaaa252d09f22a
+ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025356"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "98174749"
 ---
 # <a name="cloud-migration-in-the-cloud-adoption-framework"></a>Миграция в облако с помощью Cloud Adoption Framework
 
@@ -38,7 +38,7 @@ ms.locfileid: "97025356"
 
 ## <a name="migration-effort"></a>Процесс миграции
 
-В ходе миграции рабочих нагрузок выделяют три этапа (или фазы) для каждой рабочей нагрузки: оценка, развертывание и выпуск. В этом разделе документации Cloud Adoption Framework описано, как повысить рентабельность каждого этапа переноса рабочей нагрузки в рабочую среду.
+В ходе переноса рабочих нагрузок обычно выделяют три действия (или этапа) для каждой рабочей нагрузки: оценка, развертывание и выпуск. В этом разделе документации Cloud Adoption Framework описано, как повысить рентабельность каждого этапа переноса рабочей нагрузки в рабочую среду.
 
 Опытная команда по миграции может выполнить стандартную двухнедельную итерацию для 2–5 рабочих нагрузок с низким и средним уровнем сложности. Выполнение всех трех этапов миграции для одной сложной рабочей нагрузки (например, SAP) может занять несколько недель. Опыт и сложность — основные факторы, влияющие на график и скорость миграции.
 
