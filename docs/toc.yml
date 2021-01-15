@@ -115,6 +115,8 @@ items:
             href: strategy/monitoring-strategy.md
           - name: Ответственный подход к использованию ИИ
             href: strategy/responsible-ai.md
+          - name: Ускорение внедрения облачных технологий с помощью GitHub
+            href: scenarios/github-velocity/index.md
       - name: 'Навыки, связанные со стратегией'
         href: strategy/suggested-skills.md
   - name: План
