@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: 6729ff48934cd4e0471ff0ade338b3a10f94e6c4
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: 3d65538ed9fa3c45563bb99d85c93ade1e11f1a4
+ms.sourcegitcommit: 30837e99289338b0cc0f9efb2a5e07aca052e2e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97712745"
+ms.lasthandoff: 01/18/2021
+ms.locfileid: "98560754"
 ---
 <!-- cSpell:ignore untrust CIDR RRAS CONTOSODC SYSVOL ITIL NSGs ASGs -->
 
@@ -82,7 +82,7 @@ Contoso регистрируется в [Соглашение Enterprise](https:
 
 После оплаты Azure Contoso необходимо разобраться, как управлять подписками Azure. Поскольку компания Contoso имеет соглашение EA, ограничение на количество создаваемых подписок Azure не ограничено. Регистрация Соглашение Enterprise Azure определяет, как фигуры компании и используют службы Azure, и определяет основную структуру управления.
 
-В качестве первого шага компания Contoso определила структуру, известную как _Корпоративный механизм_ для регистрации. Компания Contoso использовала [руководство по формированию шаблонов Azure Enterprise](/azure/cloud-adoption-framework/reference/azure-scaffold) , чтобы помочь понять и спроектировать шаблон.
+В качестве первого шага компания Contoso определила структуру, известную как _Корпоративный механизм_ для регистрации. Компания Contoso использовала [руководство по формированию шаблонов Azure Enterprise](../../reference/azure-scaffold.md) , чтобы помочь понять и спроектировать шаблон.
 
 Сейчас компания Contoso решила использовать функциональный подход для управления подписками:
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: internal
-ms.openlocfilehash: 110afe2e3e67b42ba396871584dbfbde1962ccbb
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 2a67da3522de24120ad905f99a8ee80b6f882d73
+ms.sourcegitcommit: 30837e99289338b0cc0f9efb2a5e07aca052e2e8
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97023894"
+ms.lasthandoff: 01/18/2021
+ms.locfileid: "98560720"
 ---
 # <a name="first-cloud-adoption-project"></a>Первый проект внедрения облачных технологий
 
@@ -47,7 +47,7 @@ ms.locfileid: "97023894"
 
 Для поддержки указанных выше критериев в этом списке приведен пример первого проекта для каждой категории мотивации:
 
-- **Критические бизнес-события:** Когда основное мотивация является важным бизнес-событием, реализация такого средства, как [Azure Site Recovery](../migrate/azure-migration-guide/secure-and-manage.md#replicate-an-azure-vm-to-another-region-with-site-recovery-service) , может быть хорошим первым проектом. Во время миграции для быстрой миграции ресурсов центра обработки данных используется такое средство, как служба " [Миграция Azure](../migrate/azure-migration-guide/migrate.md#azure-migrate) ". Но во время первого проекта можно сначала использовать Azure Site Recovery в качестве средства аварийного восстановления. Сокращение зависимостей от ресурсов аварийного восстановления в центре обработки данных перед практическим планированием миграции.
+- **Критические бизнес-события:** Когда основное мотивация является важным бизнес-событием, реализация такого средства, как [Azure Site Recovery](../migrate/azure-migration-guide/migrate.md) , может быть хорошим первым проектом. Во время миграции для быстрой миграции ресурсов центра обработки данных используется такое средство, как служба " [Миграция Azure](../migrate/azure-migration-guide/migrate.md#azure-migrate) ". Но во время первого проекта можно сначала использовать Azure Site Recovery в качестве средства аварийного восстановления. Сокращение зависимостей от ресурсов аварийного восстановления в центре обработки данных перед практическим планированием миграции.
 
 - **Мотивации миграции:** Когда миграция является основной мотивацией, разумно начать с миграции некритической рабочей нагрузки. [Руководство по установке Azure](../ready/azure-setup-guide/index.md) и [руководство по миграции Azure](../migrate/azure-migration-guide/index.md) могут предоставить руководство по переносу первой рабочей нагрузки.
 
