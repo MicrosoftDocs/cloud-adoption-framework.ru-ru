@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: f13c4e4f8e4415c3873243b30f9a83fa3d71a0a0
-ms.sourcegitcommit: 17743480a4b1d0516d61f1045380597203ec1de0
+ms.openlocfilehash: bb5643f36ec3ae3b8b22ca41fd13d8cae6a658cf
+ms.sourcegitcommit: 30837e99289338b0cc0f9efb2a5e07aca052e2e8
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/15/2020
-ms.locfileid: "97521807"
+ms.lasthandoff: 01/18/2021
+ms.locfileid: "98560737"
 ---
 <!-- docutune:ignore "One Migration" -->
 <!-- cSpell:ignore HANA -->
@@ -35,7 +35,7 @@ ms.locfileid: "97521807"
 | **Data** | [SQL Server](../migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md) | [Базы данных с открытым кодом](../migrate/azure-best-practices/sql-migration.md) | [Аналитика](../migrate/azure-best-practices/analytics/analytics-solutions-overview.md) |
 | **Гибридный** | [Azure Stack](./azure-stack/index.md) | [VMware](../migrate/azure-best-practices/vmware-host.md) | |
 | **Технологические платформы** | SAP (классическая версия и HANA) | Kubernetes | [Мейнфреймы](../infrastructure/mainframe-migration/index.md) | 
-| **Дополнительные сценарии** | [Безопасные рабочие нагрузки](../migrate/azure-best-practices/migrate-best-practices-security-management.md) | [Среды для нескольких арендаторов](https://docs.microsoft.com/azure/lighthouse/how-to/migration-at-scale?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) | NetApp |
+| **Дополнительные сценарии** | [Безопасные рабочие нагрузки](../migrate/azure-best-practices/migrate-best-practices-security-management.md) | [Среды для нескольких арендаторов](/azure/lighthouse/how-to/migration-at-scale?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) | NetApp |
 
 ## <a name="migrate-methodology"></a>Методика миграции
 
