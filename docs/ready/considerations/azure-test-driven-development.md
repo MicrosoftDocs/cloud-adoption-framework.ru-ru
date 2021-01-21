@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 8529745bb200361247fbcff04f43e74c861379ee
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: ea86e455a3fb6bc52e5a6ee359cd84ae75df7b65
+ms.sourcegitcommit: 9f5b94ff2a57f17541c9bd706245ae23883ad22c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024234"
+ms.lasthandoff: 01/21/2021
+ms.locfileid: "98625775"
 ---
 # <a name="test-driven-development-for-landing-zones-in-azure"></a>Разработка на основе тестирования для целевых зон в Azure
 
@@ -21,8 +21,9 @@ ms.locfileid: "97024234"
 
 ## <a name="azure-tools-to-support-landing-zone-tdd-cycles"></a>Средства Azure для поддержки циклов TDD для целевой зоны
 
-![Средства разработки на основе тестирования в Azure ](../../_images/ready/azure-tdd-tools.png)
- _рис. 1. средства разработки на основе тестирования в Azure._
+![Средства разработки на основе тестирования в Azure](../../_images/ready/azure-tdd-tools.png)
+
+_Рис. 1. средства разработки на основе тестирования в Azure._
 
 Цепочки инструментов продуктов и служб собственного управления Azure можно легко интегрировать в разработку на основе тестирования для создания основных зон. Каждый из этих средств служит конкретной цели, что упрощает разработку, тестирование и развертывание целевой зоны с помощью циклов TDD.
 
@@ -49,7 +50,7 @@ ms.locfileid: "97024234"
 
 [Azure Resource Manager](/azure/azure-resource-manager/management/overview): Диспетчер ресурсов предоставляет единую платформу для функций сборки и развертывания. Эта платформа может развертывать целевые зоны на основе определений исходного кода.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Чтобы приступить к рефакторингу первой целевой зоны, оцените [основные соображения для основных зон](./basic-considerations.md).
 
