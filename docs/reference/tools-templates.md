@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.custom: internal
-ms.openlocfilehash: 3803165a69bfb0dd0d9b510cc0bdffbc21da31d2
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: bf6d4651c4cf145bd21a94c7ac87bd669b7d83cb
+ms.sourcegitcommit: b12b731b1cf22f9e80db108f79734bc4cf17895e
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98174001"
+ms.lasthandoff: 01/26/2021
+ms.locfileid: "98810792"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -43,7 +43,7 @@ ms.locfileid: "98174001"
 | [Шаблон отслеживания соглашений об именовании и маркировке тегов](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/ready/naming-and-tagging-conventions-tracking-template.xlsx) | Документирование решений о стандартах именования и маркировки для обеспечения согласованности и сокращения времени адаптации. |
 | [Схема CAF Foundation](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone-governance) | Используйте упрощенную реализацию первоначальной системы управления, чтобы обеспечить практический опыт работы с инструментами управления в Azure. |
 | [Схема зоны размещения для миграции в соответствии с CAF](https://github.com/Microsoft/CloudAdoptionFramework/tree/master/ready/migration-landing-zone) | Подготавливайте и подготавливайте рабочие нагрузки узла, перенесенные из локальной среды в Azure. Дополнительные сведения об этом проекте см. [в статье развертывание целевой зоны миграции](../ready/landing-zone/migrate-landing-zone.md). |
-| [Модули terraform](../ready/landing-zone/terraform-landing-zone.md) | База кода с открытым исходным кодом для terraform версии зон КАФ. |
+| [Модули Terraform](../ready/landing-zone/terraform-landing-zone.md) | База кода с открытым исходным кодом для terraform версии зон КАФ. |
 | [Реестр terraform](https://registry.terraform.io/search?q=aztfmod) | Веб-сайт реестра terraform с фильтрацией для перечисления всех модулей инфраструктуры внедрения в облаке, необходимых для создания целевой зоны с помощью terraform. |
 
 ## <a name="govern"></a>Управление
@@ -58,6 +58,7 @@ ms.locfileid: "98174001"
 | [Шаблон дисциплины "Базовые средства идентификации"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/identity-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить облачное управление в Организации, чтобы сосредоточиться на требованиях к идентификации. |
 | [Шаблон дисциплины "Согласованность ресурсов"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/resource-consistency-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на согласованности ресурсов. |
 | [Шаблон дисциплины "Основные способы защиты"](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/govern/security-baseline-discipline-template.docx) | Определите инструкции политики и руководство по проектированию, которые позволят вам развить управление облаком в Организации, чтобы сосредоточиться на базовых показателях безопасности. |
+| [Общие сведения о Тесте производительности системы безопасности Azure](https://docs.microsoft.com/azure/security/benchmarks/overview) | Тест производительности Azure Security (ASB) содержит рекомендации и рекомендации, помогающие повысить безопасность рабочих нагрузок, данных и служб в Azure. |
 | [Визуализатор управления Azure](https://github.com/JulianHayward/Azure-MG-Sub-Governance-Reporting) | Визуализатор управления Azure — это сценарий PowerShell, который выполняет итерацию по иерархии группы управлению клиента Azure до уровня подписки. Она собирает данные из наиболее актуальных возможностей управления Azure, таких как политика Azure, управление доступом на основе ролей Azure (Azure RBAC) и проекты Azure. На основе собранных данных визуализатор показывает карту иерархии, создает сводку клиента и создает детализированную аналитику области для групп управления и подписок. |
 
 ## <a name="migrate"></a>Миграция
