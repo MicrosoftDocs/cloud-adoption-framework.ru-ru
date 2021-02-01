@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal, readiness, fasttrack-edit
-ms.openlocfilehash: 33aaf69ecb9712415ee862d3e8e8e4c77abd4d28
-ms.sourcegitcommit: 86d51757bd34b49ce3b061123a6aaa8c88d3b2cc
+ms.openlocfilehash: 3f41f6dda926e4b51de5f8026983b9c383fd6403
+ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97909401"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "99226918"
 ---
 # <a name="recommended-abbreviations-for-azure-resource-types"></a>Рекомендуемые сокращения для типов ресурсов Azure
 
@@ -79,6 +79,7 @@ ms.locfileid: "97909401"
 | Среда службы приложений | `ase-` |
 | План службы приложений | `plan-` |
 | Веб-приложение | `app-` |
+| Статическое веб-приложение | `stapp` |
 | Приложение-функция | `func-` |
 | облачная служба | `cld-` |
 | Центры уведомлений | `ntf-` |
@@ -126,7 +127,10 @@ ms.locfileid: "97909401"
 | Фабрика данных Azure | `adf-` |
 | Учетная запись Data Lake Store | `dls` |
 | Учетная запись Data Lake Analytics | `dla` |
+| пространство имен Центров событий; | `evhns` |
 | концентратор событий; | `evh-` |
+| Домен сетки событий | `evgd-` |
+| Раздел "Сетка событий" | `evgt-` |
 | HDInsight — кластер Hadoop | `hadoop-` |
 | Кластер HDInsight — HBase | `hbase-` |
 | Кластер HDInsight — Kafka | `kafka-` |
@@ -165,7 +169,6 @@ ms.locfileid: "97909401"
 | Хранилище ключей | `kv-` |
 | Рабочая область Log Analytics | `log-` |
 | Application Insights | `appi-` |
-| Azure Purview | `pvw-` |
 
 ## <a name="migration"></a>Миграция
 

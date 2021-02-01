@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: think-tank
-ms.openlocfilehash: 677b8c4a582688599a868ae5af9b9f43d8b0cdca
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: de239a06690f4832cabdb88d277fda8f45c5b84f
+ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98175140"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "99227028"
 ---
 # <a name="moodle-migration-resources"></a>Ресурсы для переноса Moodle
 
@@ -73,4 +73,4 @@ ms.locfileid: "98175140"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Продолжайте [Moodle шаги миграции вручную](migration-start.md) для дальнейших действий в процессе миграции Moodle.
+Продолжайте [Moodle шаги миграции вручную](./migration-start.md) для дальнейших действий в процессе миграции Moodle.

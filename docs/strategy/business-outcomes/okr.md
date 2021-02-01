@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: think-tank
-ms.openlocfilehash: c9da763c77ace61575bee488f6dbdef6a813463d
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: def676cd47056ea7d3dd7a0ccb5f775023c6f62e
+ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97012334"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "99226973"
 ---
 <!-- docutune:casing WorkBoard -->
 
@@ -53,7 +53,7 @@ ms.locfileid: "97012334"
 
 Окрс помогает создавать выравнивание и отчетность в организациях.
 
-![Как Окрс увеличение выравнивания и отчетности в организациях, чтобы помочь им быстрее удовлетворить цели.](../../_images/strategy/OKR.jpg)
+![Как Окрс увеличение выравнивания и отчетности в организациях, чтобы помочь им быстрее удовлетворить цели.](../../_images/strategy/okr.jpg)
 
 _Рис. 1. Окрс увеличение выравнивания и отчетности в организациях, чтобы помочь им быстрее удовлетворить цели._
 

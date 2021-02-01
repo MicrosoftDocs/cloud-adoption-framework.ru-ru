@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: think-tank
-ms.openlocfilehash: 5cf783fc9ab303cac14f647a7d9b2493f5d51801
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: 6b47b937630097efa0201313447640de6ac97207
+ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98175004"
+ms.lasthandoff: 02/01/2021
+ms.locfileid: "99227104"
 ---
 # <a name="moodle-manual-migration-steps"></a>Действия по миграции Moodle вручную
 
@@ -21,16 +21,16 @@ ms.locfileid: "98175004"
 
 Перед началом этого процесса обязательно выполните все действия, описанные в следующих статьях:
 
-- [Подготовка к Moodle миграции](migration-pre.md)
-- [Архитектура и шаблоны миграции Moodle](migration-arch.md)
+- [Подготовка к Moodle миграции](./migration-pre.md)
+- [Архитектура и шаблоны миграции Moodle](./migration-arch.md)
 
 После завершения развертывания шаблона Azure Resource Manager (ARM) Войдите в [портал Azure](https://portal.azure.com/) и перейдите к группе ресурсов, созданной в рамках процесса развертывания. Ознакомьтесь со списком недавно созданных ресурсов инфраструктуры. Созданные ресурсы будут выглядеть примерно так, как показано на следующем рисунке, в зависимости от шаблона ARM, который использовался для развертывания.
 
-![Снимок экрана, показывающий ресурсы инфраструктуры, созданные в группе ресурсов миграции Moodle.](images/resource-creation-overview.png)
+![Снимок экрана, показывающий ресурсы инфраструктуры, созданные в группе ресурсов миграции Moodle.](./images/resource-creation-overview.png)
 
 ## <a name="copy-the-moodle-archive"></a>Копирование архива Moodle
 
-Первым шагом процесса миграции является копирование архива резервного копирования Moodle из хранилища BLOB-объектов Azure на виртуальную машину контроллера (ВМ) для развертывания Moodle. Это тот же архив, который вы создали при [создании архива](migration-pre.md#create-an-archive).
+Первым шагом процесса миграции является копирование архива резервного копирования Moodle из хранилища BLOB-объектов Azure на виртуальную машину контроллера (ВМ) для развертывания Moodle. Это тот же архив, который вы создали при [создании архива](./migration-pre.md#create-an-archive).
 
 ### <a name="sign-in-to-the-controller-virtual-machine"></a>Вход в виртуальную машину контроллера
 
@@ -40,13 +40,13 @@ ms.locfileid: "98175004"
 
 1. В области навигации слева разверните узел **SSH**.
 
-   ![Снимок экрана со страницей конфигурации выводимых данных.](images/putty-configuration.png)
+   ![Снимок экрана со страницей конфигурации выводимых данных.](./images/putty-configuration.png)
 
 1. Выберите **Проверка подлинности** и найдите файл ключа SSH, который использовался для развертывания инфраструктуры Azure с помощью шаблона ARM.
 
 1. Выберите **Open** (Открыть). В поле имя пользователя введите **azureadmin**, так как оно жестко запрограммировано в шаблоне.
 
-   ![Снимок экрана с параметрами проверки подлинности SSH на странице "Конфигурация".](images/putty-ssh-key.png)
+   ![Снимок экрана с параметрами проверки подлинности SSH на странице "Конфигурация".](./images/putty-ssh-key.png)
 
 Дополнительные сведения о выводимых данных см. в разделе Общие вопросы и [ответы об устранении неполадок](https://documentation.help/PuTTY/faq.html).
 
@@ -134,11 +134,11 @@ az mysql server firewall-rule create --resource-group <myresourcegroup> --server
 
 Вы можете добавить разрешенные IP-адреса и настроить правила брандмауэра. После создания правил нажмите кнопку **сохранить** .
 
-![Снимок экрана: панель "безопасность подключения" для сервера базы данных Azure для MySQL.](images/database-connection-security.png)
+![Снимок экрана: панель "безопасность подключения" для сервера базы данных Azure для MySQL.](./images/database-connection-security.png)
 
 Теперь вы можете подключиться к серверу MySQL с помощью [`mysql`](https://dev.mysql.com/doc/refman/8.0/en/mysql.html) программы командной строки или [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/).
 
-![Снимок экрана: Установка нового подключения в MySQL Workbench.](images/database-connection.png)
+![Снимок экрана: Установка нового подключения в MySQL Workbench.](./images/database-connection.png)
 
 Чтобы получить сведения о подключении, перейдите на страницу **обзора** сервера MySQL в портал Azure. Используйте значки копирования рядом с каждым полем, чтобы скопировать **имя сервера** и **имя входа администратора сервера**.
 
@@ -343,4 +343,4 @@ cp /etc/php/$_PHPVER/fpm/pool.d/www.conf /moodle/config/php
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Продолжайте [настраивать экземпляр контроллера Moodle и рабочие узлы](azure-infra-config.md) для следующих шагов в процессе миграции Moodle.
+Продолжайте [настраивать экземпляр контроллера Moodle и рабочие узлы](./azure-infra-config.md) для следующих шагов в процессе миграции Moodle.
