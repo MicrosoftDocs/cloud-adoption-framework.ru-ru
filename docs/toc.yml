@@ -1123,12 +1123,20 @@ items:
                     items:
                       - name: Что такое машинное обучение?
                         href: innovate\best-practices\machine-learning.md
-                      - name: Рабочий процесс Машинного обучения Azure
-                        href: /azure/machine-learning/concept-azure-machine-learning-architecture?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
-                      - name: Анализ данных с помощью машинного обучения Azure
-                        href: /azure/synapse-analytics/sql-data-warehouse/sql-data-warehouse-get-started-analyze-with-azure-machine-learning?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
-                      - name: Развертывание прогнозов
-                        href: /azure/machine-learning/how-to-deploy-and-where?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
+                      - name: Как получить операции машинного обучения
+                        href: innovate\best-practices\how-to-approach-mlops.md
+                      - name: Процесс операций машинного обучения
+                        href: innovate\best-practices\mlops-process.md
+                      - name: Безопасность машинного обучения
+                        href: innovate\best-practices\ml-security.md
+                      - name: Вывод и развертывание машинного обучения
+                        href: innovate\best-practices\ml-deployment-inference.md
+                      - name: Определение вычислительных экземпляров для модели
+                        href: innovate\best-practices\dev-train-comp-instances-for-ml.md
+                      - name: Настройка рабочих областей машинного обучения
+                        href: innovate\best-practices\set-up-ml-workspaces.md
+                      - name: Надежные средства ИИ и ответственный подход к их использованию
+                        href: innovate\best-practices\trusted-ai.md
                   - name: Приложения и агенты ИИ
                     items:
                       - name: Что такое приложения ИИ
