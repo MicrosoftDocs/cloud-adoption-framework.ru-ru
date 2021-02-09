@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal, readiness, fasttrack-edit
-ms.openlocfilehash: 3f41f6dda926e4b51de5f8026983b9c383fd6403
-ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
+ms.openlocfilehash: d1c8e2067c405fa26f18ffe2806ad013524a9852
+ms.sourcegitcommit: b1217b40301583286a3d05032dbfd7a8e6b83fd9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "99226918"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "99839074"
 ---
 # <a name="recommended-abbreviations-for-azure-resource-types"></a>Рекомендуемые сокращения для типов ресурсов Azure
 
@@ -95,7 +95,7 @@ ms.locfileid: "99226918"
 | Кэш Azure для экземпляра Redis | `redis-` |
 | База данных MySQL | `mysql-` |
 | База данных PostgreSQL | `psql-` |
-| Хранилище данных SQL Azure | `sqldw-` |
+| Хранилище данных SQL Azure | `sqldw-` |
 | Azure Synapse Analytics | `syn-` |
 | SQL Server Stretch Database | `sqlstrdb-` |
 | Управляемый экземпляр SQL | `sqlmi-` |
@@ -127,7 +127,7 @@ ms.locfileid: "99226918"
 | Фабрика данных Azure | `adf-` |
 | Учетная запись Data Lake Store | `dls` |
 | Учетная запись Data Lake Analytics | `dla` |
-| пространство имен Центров событий; | `evhns` |
+| пространство имен Центров событий; | `evhns-` |
 | концентратор событий; | `evh-` |
 | Домен сетки событий | `evgd-` |
 | Раздел "Сетка событий" | `evgt-` |
