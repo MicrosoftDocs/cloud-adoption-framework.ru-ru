@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: internal
-ms.openlocfilehash: d84d4da259db88bff110c1a6825252359d7ffcfd
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: d3b943a0a2c31ba0c0b03d6f482de472895c9a7e
+ms.sourcegitcommit: b1217b40301583286a3d05032dbfd7a8e6b83fd9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97022789"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "99838835"
 ---
 # <a name="rationalize-the-digital-estate"></a>Рациональное использование цифровых активов
 
@@ -37,7 +37,7 @@ ms.locfileid: "97022789"
 
 **Решение по обоснованиям:** В самых опытных командах рационализации качественные и количественные данные создают четкие решения. К сожалению, команды с большим опытом в области рационализации обходятся дорого, или на их обучение уходит много месяцев.
 
-## <a name="rationalization-at-enterprise-scale"></a>Рационализация в корпоративном масштабе
+## <a name="rationalization-at-enterprise-scale"></a>Рационализация в масштабах предприятия
 
 Если эта деятельность занимает много времени и не требует усилий на 50 виртуальных машин, представьте себе усилия по обеспечению бизнес-преобразования в среде с тысячами виртуальных машин и сотнями приложений. Количество человек, которым требуется вмешательство, может легко превысить 1 500 часов FTE и девять месяцев планирования.
 
