@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: d8aa2e29baa730f6e47a2418477d5e7e146cb1b9
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: c3999d47b4d85789d332a233cb4c9d8651ff3375
+ms.sourcegitcommit: b1217b40301583286a3d05032dbfd7a8e6b83fd9
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97713850"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "99839018"
 ---
 # <a name="evaluate-a-microsoft-partners-azure-landing-zone"></a>Оценка целевой зоны Azure для партнера Майкрософт
 
@@ -54,7 +54,7 @@ ms.locfileid: "97713850"
 
 Все целевые зоны Azure должны учитывать следующий набор общих областей проектирования. Мы будем называть эти области конструирования в качестве принципов разработки. Следующие разделы помогут проверить принципы разработки партнера, которые определяют реализацию целевой зоны Azure.
 
-### <a name="deployment-options"></a>Варианты развертывания
+### <a name="deployment-options"></a>Параметры развертывания
 
 Партнеры, которые предлагают решение "Целевая зона Azure", могут поддерживать один или несколько вариантов развертывания (или изменения и расширения целевой зоны) решения в клиенте Azure.
 
