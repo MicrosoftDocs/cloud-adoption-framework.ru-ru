@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: 92dcd037e5fc7699430a77af8b4c0bcae91b2312
-ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
+ms.openlocfilehash: 40e0f6b736e2c009ecf173ac105c65c68aadc84d
+ms.sourcegitcommit: b1217b40301583286a3d05032dbfd7a8e6b83fd9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95447325"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "99838889"
 ---
 # <a name="start-with-cloud-adoption-framework-enterprise-scale-landing-zones"></a>Начало работы с целевыми зонами Cloud Adoption Framework корпоративного уровня
 
@@ -25,7 +25,7 @@ ms.locfileid: "95447325"
 
 Архитектура корпоративного уровня предоставляет рекомендации, которые связаны с лучшими методиками Azure. В ней соблюдаются принципы проектирования в критически важных областях проектирования среды Azure вашей организации.
 
-## <a name="qualifiers-should-i-start-with-enterprise-scale"></a>Квалификаторы: следует ли начать с корпоративного уровня?
+## <a name="qualifiers-should-i-start-with-enterprise-scale"></a>Квалификаторы: следует ли начать с масштаба предприятия?
 
 Архитектура корпоративного уровня изначально является модульной. Она позволяет начать с базовых целевых зон для поддержки портфелей приложений, независимо от того, переносятся эти приложения или разрабатываются с нуля и развертываются в Azure. Архитектура может масштабироваться в соответствии с вашими бизнес-требованиями независимо от точки масштабирования.
 

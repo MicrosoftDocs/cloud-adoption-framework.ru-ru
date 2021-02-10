@@ -207,6 +207,8 @@ items:
             href: ready/landing-zone/index.md
           - name: Области проектирования
             href: ready/landing-zone/design-areas.md
+          - name: Выбор варианта целевой зоны
+            href: ready/landing-zone/choose-landing-zone-option.md
           - name: Варианты реализации
             href: ready/landing-zone/implementation-options.md
           - name: Начало работы в масштабе организации

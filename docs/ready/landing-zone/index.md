@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 58c32203c997e9a975f8dca1c4f5e62a69a35e63
-ms.sourcegitcommit: db4595764b8ec22629ea982f4511f0eab95dc6c8
+ms.openlocfilehash: 4a3e4b3a0d4eb5a302fca9778ae42cb4cceb6b13
+ms.sourcegitcommit: b1217b40301583286a3d05032dbfd7a8e6b83fd9
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97951979"
+ms.lasthandoff: 02/08/2021
+ms.locfileid: "99839003"
 ---
 <!-- cSpell:ignore multisubscription -->
 
