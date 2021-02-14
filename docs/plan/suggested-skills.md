@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: internal
-ms.openlocfilehash: 77fe35a487858a240e7b3dc8879acd67e28afa8d
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: cd2a5dbc347030fa4daa36e5efdc5244f37192a7
+ms.sourcegitcommit: 042fb295ef5623d45066ce38a389dd8d636cbc20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98175123"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100492363"
 ---
 # <a name="get-started-on-a-skills-readiness-path"></a>Приступая к работе с путем готовности навыков
 
@@ -53,4 +53,4 @@ Microsoft Learn — это новый подход к изучению. Гот�
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-Дополнительные схемы обучения см. в [каталоге Microsoft Learn](/learn/browse). Используйте фильтр ролей для согласования путей обучения с вашей ролью.
+Чтобы узнать больше о путях обучения, перейдите к [каталогу Microsoft Learn](/learn/browse). Используйте фильтр ролей для согласования путей обучения с вашей ролью.

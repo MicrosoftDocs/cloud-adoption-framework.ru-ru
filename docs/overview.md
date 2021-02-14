@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal, homepage
-ms.openlocfilehash: 76580f373adc5cd1a2edb10c8db4cbb2e3006700
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: eaee9ce834161df01b38bc759b393b54f523d794
+ms.sourcegitcommit: 042fb295ef5623d45066ce38a389dd8d636cbc20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024642"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100492737"
 ---
 # <a name="what-is-the-microsoft-cloud-adoption-framework-for-azure"></a>Что такое платформа внедрения Microsoft Cloud для Azure?
 
@@ -34,7 +34,7 @@ ms.locfileid: "97024642"
 | <br> ![Значок стратегии](./_images/icons/strategy.png) | <br> [Стратегия](./strategy/index.md). &nbsp; Определите &nbsp; деловое &nbsp; обоснование &nbsp; и ожидаемые результаты внедрения. | <br> ![Значок плана](./_images/icons/plan.png) | <br> [Планирование](./plan/index.md): &nbsp; согласование &nbsp; &nbsp; планов принятия &nbsp; с действием с результатами бизнеса. |
 | <br> ![Значок "Готово"](./_images/icons/ready.png)       | <br> [Готово](./ready/index.md): Подготовьте облачную среду к запланированным изменениям. | <br> ![Значок переноса](./_images/icons/adopt.png) | <br> [Миграция](./migrate/index.md): миграция и модернизировать существующих рабочих нагрузок. |
 | <br> ![Значок инноваций](./_images/icons/innovate.png) | <br> [Инновации](./innovate/index.md): Разработка новых облачных или гибридных решений. | <br> ![Управляющий значок](./_images/icons/govern.png) | <br> Управление [: Управление](./govern/index.md)средой и рабочими нагрузками. |
-| <br> ![Значок "Управление"](./_images/icons/manage.png)     | <br> [Управление](./manage/index.md): управление операциями для облачных и гибридных решений. | <br> ![Значок «упорядочить»](./_images/icons/organize.png) | <br> [Организация](./organize/index.md): управление средой и рабочими нагрузками. |
+| <br> ![Значок "Управление"](./_images/icons/manage.png)     | <br> [Управление](./manage/index.md): управление операциями для облачных и гибридных решений. | <br> ![Значок «упорядочить»](./_images/icons/organize.png) | <br> [Организация](./organize/index.md): Выровняйте команды и роли, поддерживающие деятельность по внедрению в Организации в облаке. |
 
 ## <a name="understand-the-lifecycle"></a>Основные сведения о жизненном цикле
 

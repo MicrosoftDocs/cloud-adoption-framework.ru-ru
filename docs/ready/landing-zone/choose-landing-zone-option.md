@@ -8,12 +8,12 @@ ms.topic: guide
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 57baebddb2dfc4c6209c54a75c7c017f86766fd2
-ms.sourcegitcommit: b1217b40301583286a3d05032dbfd7a8e6b83fd9
+ms.openlocfilehash: 5a4f5de75d3550db5446302eccb3d621cf8bc012
+ms.sourcegitcommit: 042fb295ef5623d45066ce38a389dd8d636cbc20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99971953"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100492278"
 ---
 # <a name="choose-the-landing-zone-for-your-organization"></a>Выбор целевой зоны для Организации
 
@@ -23,6 +23,10 @@ ms.locfileid: "99971953"
 
 - Как начать с малого и увеличить масштаб
 - Корпоративный масштаб
+
+Просмотрите следующее 15 минут, чтобы узнать больше о том, как выбрать параметры данных зоны Azure, которые лучше всего соответствуют вашим потребностям.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWwZeg]
 
 Вы также можете рассмотреть реализации сторонних производителей. У наших партнеров есть множество реализаций, доступных в службах. Дополнительные сведения см. [в статье Оценка целевой зоны Azure для партнера Майкрософт](/azure/cloud-adoption-framework/ready/landing-zone/partner-landing-zone).
 
@@ -301,7 +305,7 @@ ms.locfileid: "99971953"
 
 Для реализации корпоративного масштаба вы по-прежнему можете использовать рабочую нагрузку с низким риском в 3 – 10 дней, но более сложные рабочие нагрузки могут быть готовы в течение шести и восьми недель.
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 [Как начать с малого и увеличить масштаб](./migrate-landing-zone.md)
 

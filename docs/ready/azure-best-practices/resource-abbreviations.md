@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal, readiness, fasttrack-edit
-ms.openlocfilehash: d1c8e2067c405fa26f18ffe2806ad013524a9852
-ms.sourcegitcommit: b1217b40301583286a3d05032dbfd7a8e6b83fd9
+ms.openlocfilehash: bc0aae28551efd126e7dc0ff37978a63649cf717
+ms.sourcegitcommit: 042fb295ef5623d45066ce38a389dd8d636cbc20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99839074"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100492261"
 ---
 # <a name="recommended-abbreviations-for-azure-resource-types"></a>Рекомендуемые сокращения для типов ресурсов Azure
 
@@ -100,7 +100,7 @@ ms.locfileid: "99839074"
 | SQL Server Stretch Database | `sqlstrdb-` |
 | Управляемый экземпляр SQL | `sqlmi-` |
 
-## <a name="storage"></a>Память
+## <a name="storage"></a>Служба хранилища
 
 | Тип ресурса | Сокращение |
 |--|--|
@@ -146,6 +146,7 @@ ms.locfileid: "99839074"
 | Тип ресурса | Сокращение |
 |---|---|
 | Хранилище конфигураций приложений | `appcs-` |
+| Служба статических веб-приложений Azure | `stap-` |
 
 ## <a name="integration"></a>Интеграция
 
@@ -153,7 +154,7 @@ ms.locfileid: "99839074"
 |--|--|
 | Учетная запись интеграции | `ia-` |
 | приложениях логики. | `logic-` |
-| Служебная шина | `sb-` |
+| Служебная шина Azure | `sb-` |
 | Очередь служебной шины | `sbq-` |
 | Раздел служебной шины | `sbt-` |
 
@@ -178,7 +179,7 @@ ms.locfileid: "99839074"
 | Экземпляр Database Migration Service | `dms-` |
 | Хранилище Служб восстановления | `rsv-` |
 
-## <a name="next-steps"></a>Дальнейшие действия
+## <a name="next-steps"></a>Следующие шаги
 
 Ознакомьтесь с рекомендациями по маркировке ресурсов и активов Azure.
 

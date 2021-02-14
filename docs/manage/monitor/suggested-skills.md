@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: d9505b5b5d60793f0293cbaa56f115e5c685adfa
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: ce33a87fa98774e0fcd01079d6ebc0c8a5a7cbcd
+ms.sourcegitcommit: 042fb295ef5623d45066ce38a389dd8d636cbc20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98174205"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100492329"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -23,7 +23,7 @@ ms.locfileid: "98174205"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов: инфраструктуру, приложение и анализ данных.
 
-## <a name="fundamentals"></a>Базовый
+## <a name="fundamentals"></a>Основы
 
 - Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей Azure (Azure RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
@@ -84,11 +84,11 @@ ms.locfileid: "98174205"
 
 ### <a name="typical-mappings-of-cloud-it-roles"></a>Типичные сопоставления облачных ИТ-ролей
 
-Корпорация Майкрософт и партнеры предлагают различные образовательные программы для любой аудитории в целях развития навыков работы со службами Azure.
+Корпорация Майкрософт и ее партнеры предлагают различные варианты для всех аудиторий, позволяющих разрабатывать навыки работы со службами Azure.
 
-- [Центр Microsoft IT Pro для карьеры](https://www.microsoft.com/itpro): служит бесплатным онлайн-ресурсом для соответствия пути вашей облачной карьеры. Узнайте, что эксперты из отрасли предлагают для вашей облачной роли и какие навыки там можно получить. Выполните учебный курс в удобном для вас темпе для развития наиболее необходимых навыков, чтобы оставаться ценным и востребованным сотрудником.
+- [Map Roles and Skills (сопоставление ролей и навыков](/azure/cloud-adoption-framework/plan/suggested-skills)). ресурс для сопоставления пути вашей облачной карьеры. Узнайте о роли облака и рекомендуемых навыках. Выполните учебный учебный курс в удобном для вас темпе, чтобы придерживаться необходимых навыков.
 
-Превратите свое знание Azure в официальное распознавание с помощью [учебных курсов и экзаменов по сертификации Azure](https://www.microsoft.com/learning/certification-overview.aspx).
+- Изучите [обучающие курсы и экзамены по сертификации Azure](https://www.microsoft.com/learning/certification-overview.aspx) , чтобы получить официальное распознавание ваших знаний Azure.
 
 ## <a name="azure-devops-and-project-management"></a>Управление DevOps и проектом Azure
 
@@ -116,4 +116,4 @@ ms.locfileid: "98174205"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-Дополнительные схемы обучения см. в [каталоге Microsoft Learn](/learn/browse). Используйте фильтр ролей для согласования путей обучения с вашей ролью.
+Чтобы узнать больше о путях обучения, перейдите к [каталогу Microsoft Learn](/learn/browse). Используйте фильтр ролей для согласования путей обучения с вашей ролью.

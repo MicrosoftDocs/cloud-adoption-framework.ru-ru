@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 656588a187446214d2f62e0ae99ffdf5a9c889c1
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: 69ec8f991d98363be075e7421e3b8743a3b7b795
+ms.sourcegitcommit: 042fb295ef5623d45066ce38a389dd8d636cbc20
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98174970"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100492686"
 ---
 # <a name="skills-readiness-path-during-the-readiness-phase-of-a-migration-journey"></a>Путь готовности к навыкам на этапе готовности к переходу
 
@@ -53,13 +53,13 @@ ms.locfileid: "98174970"
 
 ### <a name="typical-mappings-of-cloud-it-roles"></a>Типичные сопоставления облачных ИТ-ролей
 
-Корпорация Майкрософт и партнеры предлагают различные образовательные программы для любой аудитории в целях развития навыков работы со службами Azure.
+Корпорация Майкрософт и ее партнеры предлагают различные варианты для всех аудиторий, позволяющих разрабатывать навыки работы со службами Azure.
 
-- [Центр Microsoft IT Pro для карьеры](https://www.microsoft.com/itpro): служит бесплатным онлайн-ресурсом для соответствия пути вашей облачной карьеры. Узнайте, что эксперты из отрасли предлагают для вашей облачной роли и какие навыки там можно получить. Выполните учебный курс в удобном для вас темпе для развития наиболее необходимых навыков, чтобы оставаться ценным и востребованным сотрудником.
+- [Map Roles and Skills (сопоставление ролей и навыков](/azure/cloud-adoption-framework/plan/suggested-skills)). ресурс для сопоставления пути вашей облачной карьеры. Узнайте о роли облака и рекомендуемых навыках. Выполните учебный учебный курс в удобном для вас темпе, чтобы придерживаться необходимых навыков.
 
-Ваши знания Azure заслуживают официального признания. [Воспользуйтесь нашими сертификационными программами и сдайте экзамены по Microsoft Azure](https://www.microsoft.com/learning/certification-overview.aspx).
+- Изучите [обучающие курсы и экзамены по сертификации Azure](https://www.microsoft.com/learning/certification-overview.aspx) , чтобы получить официальное распознавание ваших знаний Azure.
 
-## <a name="microsoft-learn"></a>Microsoft Learn
+### <a name="microsoft-learn"></a>Microsoft Learn
 
 Microsoft Learn — это новый подход к изучению. Готовность к работе с новыми навыками и обязанностями, связанными с внедрением облачных технологий, дается нелегко. Microsoft Learn предоставляет более результативный подход к практическим занятиям, которые помогают быстрее достичь целей. Получайте баллы, проходите уровни и достигайте более высоких результатов.
 
