@@ -1,27 +1,28 @@
 ---
 title: Что такое машинное обучение?
-description: Что такое машинное обучение?
+description: Что такое машинное обучение? Приступая к работе с машинным обучением Azure, МЛОПС и средствами развертывания машинного обучения.
 author: v-hanki
 ms.author: janet
-ms.date: 07/14/2020
+ms.date: 01/26/2021
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
-ms.custom: think-tank
-ms.openlocfilehash: 60c3acb0528e85f652b6c1513a77a991ab31496e
-ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
+ms.custom: think-tank, seo-caf-innovate
+keywords: что такое машинное обучение, машинное обучение Azure, средства машинного обучения, млопс, автоматизированное машинное обучение
+ms.openlocfilehash: 8726613bd5291a2f99a32db4b63d1ee832fd6667
+ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95446782"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "100525887"
 ---
 <!-- cSpell:ignore scikit RLlib Jupyter MLflow Kubeflow -->
 
 # <a name="what-is-machine-learning"></a>Что такое машинное обучение?
 
-Машинное обучение — это способ обработки и анализа данных, который позволяет компьютерам использовать имеющиеся данные для прогнозирования будущего поведения, исходов и трендов. Используя машинное обучение, компьютеры учатся, не будучи явно запрограммированными.
+Машинное обучение — это способ обработки и анализа данных, который позволяет компьютерам использовать имеющиеся данные для прогнозирования будущего поведения, исходов и трендов. Используя машинное обучение, компьютеры учатся, не будучи явно запрограммированными. Средства машинного обучения используют системы искусственного интеллекта (ии), которые предоставляют возможность определять закономерности и создавать связи с данными.
 
-Прогнозы или прогнозы из машинного обучения могут сделать приложения и устройства более интеллектуальными. Например, при покупках через Интернет машинное обучение помогает рекомендовать другие продукты, которые могут вам понравиться, на основе уже приобретенных вами товаров. При проведении кредитной карты через терминал машинное обучение сравнивает транзакцию с базой данных и позволяет обнаружить мошенничество. Когда робот-пылесос убирает комнату, машинное обучение позволяет определить, когда этот процесс окончен.
+Автоматизированные прогнозы машинного обучения или прогнозы могут сделать приложения и устройства более интеллектуальными. Например, при покупках через Интернет машинное обучение помогает рекомендовать другие продукты, которые могут вам понравиться, на основе уже приобретенных вами товаров. При проведении кредитной карты через терминал машинное обучение сравнивает транзакцию с базой данных и позволяет обнаружить мошенничество. Когда робот-пылесос убирает комнату, машинное обучение позволяет определить, когда этот процесс окончен.
 
 ## <a name="machine-learning-tools-to-fit-each-task"></a>Средства машинного обучения для любой задачи
 
@@ -40,7 +41,7 @@ ms.locfileid: "95446782"
 
 ## <a name="build-machine-learning-models-in-python-or-r"></a>Создание моделей машинного обучения на языке Python или R
 
-Начните обучение на локальном компьютере с помощью [пакета SDK для Python](/python/api/overview/azure/ml/?view=azure-ml-py) или [пакета SDK для R](https://azure.github.io/azureml-sdk-for-r/reference/index.html) для службы "Машинное обучение Microsoft Azure". Затем можно выполнить горизонтальное увеличение масштаба в облаке. Используя множество доступных [целевых объектов вычислений](/azure/machine-learning/how-to-set-up-training-targets), таких как машинное обучение Azure вычислений и [Azure Databricks](/azure/databricks/scenarios/what-is-azure-databricks), а также с [дополнительными службами настройки параметров](/azure/machine-learning/how-to-tune-hyperparameters), вы сможете быстрее создавать лучшие модели с помощью возможностей облака. Также с помощью пакета SDK можно [автоматизировать обучение и настройку модели](/azure/machine-learning/tutorial-auto-train-models).
+Начните обучение на локальном компьютере с помощью [пакета SDK для Python](/python/api/overview/azure/ml/?view=azure-ml-py&preserve-view=true) или [пакета SDK для R](https://azure.github.io/azureml-sdk-for-r/reference/index.html) для службы "Машинное обучение Microsoft Azure". Затем можно выполнить горизонтальное увеличение масштаба в облаке. Используя множество доступных [целевых объектов вычислений](/azure/machine-learning/how-to-set-up-training-targets), таких как машинное обучение Azure вычислений и [Azure Databricks](/azure/databricks/scenarios/what-is-azure-databricks), а также с [дополнительными службами настройки параметров](/azure/machine-learning/how-to-tune-hyperparameters), вы сможете быстрее создавать лучшие модели с помощью возможностей облака. Также с помощью пакета SDK можно [автоматизировать обучение и настройку модели](/azure/machine-learning/tutorial-auto-train-models).
 
 ## <a name="build-machine-learning-models-with-no-code-tools"></a>Создание моделей машинного обучения с помощью средств без кода
 
@@ -65,7 +66,7 @@ ms.locfileid: "95446782"
 
 Имея подходящую модель, вы легко сможете использовать ее в веб-службе, устройстве Интернета вещей или в Power BI. Дополнительные сведения см. в разделе [Развертывание моделей с помощью машинное обучение Azure](/azure/machine-learning/how-to-deploy-and-where).
 
-Затем можно управлять развернутыми моделями с помощью [пакета SDK для машинное обучение Azure для Python](/python/api/overview/azure/ml/?view=azure-ml-py), [машинное обучение Azure Studio](https://ml.azure.com/)или [CLI машинного обучения](/azure/machine-learning/reference-azure-machine-learning-cli).
+Затем можно управлять развернутыми моделями с помощью [пакета SDK для машинное обучение Azure для Python](/python/api/overview/azure/ml/?view=azure-ml-py&preserve-view=true), [машинное обучение Azure Studio](https://ml.azure.com/)или [CLI машинного обучения](/azure/machine-learning/reference-azure-machine-learning-cli).
 
 Эти модели можно использовать и возвращать прогнозы в [режиме реального времени](/azure/machine-learning/how-to-consume-web-service) или [асинхронно](/azure/machine-learning/how-to-use-parallel-run-step) на больших объемах данных.
 
@@ -107,13 +108,13 @@ ms.locfileid: "95446782"
 - Azure Monitor. Дополнительную информацию см. в статье [Monitoring Azure Machine Learning](/azure/machine-learning/monitor-azure-machine-learning) (Мониторинг Машинного обучения Azure).
 - Хранилища данных, такие как учетные записи хранения Azure, Azure Data Lake Storage, база данных SQL Azure, база данных Azure для PostgreSQL и открытые наборы данных Azure. Дополнительные сведения см. в статьях [доступ к данным в службах хранилища Azure](/azure/machine-learning/how-to-access-data) и [Создание наборов данных с помощью открытых наборов данных Azure](/azure/machine-learning/how-to-create-register-datasets#create-datasets-with-azure-open-datasets).
 - Виртуальная сеть Azure. Дополнительные сведения см. в статье [Secure Azure ML experimentation and inference jobs within an Azure Virtual Network](/azure/machine-learning/how-to-enable-virtual-network) (Защита заданий экспериментирования и вывода Машинного обучения Azure в виртуальной сети Azure).
-- Azure Pipelines. Дополнительные сведения см. в статье [Train and deploy machine learning models](/azure/devops/pipelines/targets/azure-machine-learning?tabs=yaml&view=azure-devops) (Обучение и развертывание моделей машинного обучения).
+- Azure Pipelines. Дополнительные сведения см. в статье [Train and deploy machine learning models](/azure/devops/pipelines/targets/azure-machine-learning?tabs=yaml&view=azure-devops&preserve-view=true) (Обучение и развертывание моделей машинного обучения).
 - Журналы репозитория Git. Дополнительные сведения см. в статье [Git integration for Azure Machine Learning](/azure/machine-learning/concept-train-model-git-integration) (Интеграция с Git для Машинного обучения Azure).
 - Млфлов. Дополнительные сведения см. [в разделе млфлов to Track метрики and Deploying Models](/azure/machine-learning/how-to-use-mlflow).
 - Kubeflow. Дополнительные сведения см. в разделе [Сборка сквозных конвейеров рабочих процессов](https://www.kubeflow.org/docs/azure/).
 - Безопасная связь. Учетную запись хранения Azure, целевые объекты вычислений и другие ресурсы можно безопасно использовать в виртуальной сети для обучения моделей и выполнения их вывода. Дополнительные сведения см. в статье [Secure Azure ML experimentation and inference jobs within an Azure Virtual Network](/azure/machine-learning/how-to-enable-virtual-network) (Защита заданий экспериментирования и вывода Машинного обучения Azure в виртуальной сети Azure).
 
-## <a name="next-steps"></a>Следующие шаги
+## <a name="next-steps"></a>Дальнейшие действия
 
 - Ознакомьтесь с техническими документацией по машинному обучению и электронной книгой по [машинное обучение Studio](https://azure.microsoft.com/resources/whitepapers/search/?service=machine-learning-studio) и [машинное обучение Service](https://azure.microsoft.com/resources/whitepapers/search/?service=machine-learning-service).
 - Ознакомьтесь с [архитектурой ии и машинное обучение](/azure/architecture/browse/).
