@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank
-ms.openlocfilehash: 49aafe3f20e238cb9322472168f465cd98843067
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 5dd750bcff3e2db84c709db2f4eaf853811d345a
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016023"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100631718"
 ---
 # <a name="machine-learning-operations-with-azure-machine-learning"></a>Операции машинного обучения с Машинное обучение Azure
 
@@ -53,7 +53,7 @@ ms.locfileid: "97016023"
 - Как и где [развертывать модели с помощью машинное обучение Azure](/azure/machine-learning/how-to-deploy-and-where)
 - Руководство. [развертывание модели классификации изображений в службе "экземпляры контейнеров Azure](/azure/machine-learning/tutorial-deploy-models-with-aml) "
 - [Репозиторий комплексных примеров Млопс](https://github.com/microsoft/MLOps)
-- [CI/CD моделей машинного обучения с Azure Pipelines](/azure/devops/pipelines/targets/azure-machine-learning?tabs=yaml&view=azure-devops)
+- [CI/CD моделей машинного обучения с Azure Pipelines](/azure/devops/pipelines/targets/azure-machine-learning)
 - Создание клиентов, [использующих развернутую модель](/azure/machine-learning/how-to-consume-web-service)
 - [Машинное обучение с поддержкой масштабирования](/azure/architecture/data-guide/big-data/machine-learning-at-scale)
 - [Эталонные архитектуры и рекомендации по Azure для искусственного интеллекта](https://github.com/microsoft/AI)

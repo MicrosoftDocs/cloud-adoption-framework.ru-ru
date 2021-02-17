@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: cbcf8501788944a51f1dcae99f21e8dbad1dc931
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 0ccf17d2b5abe76fd28c24b3317c2ff1f0e13510
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97013439"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100632500"
 ---
 # <a name="refactor-landing-zones"></a>Рефакторинг целевых зон
 
@@ -104,7 +104,7 @@ ms.locfileid: "97013439"
 
 ## <a name="meeting-long-term-requirements-while-refactoring"></a>Соблюдение долгосрочных требований и рефакторинг
 
-Раздел методологии готовности по расширению целевой зоны поможет приблизиться к выполнению долгосрочных требований. По мере продвижения группы по внедрению в облако с помощью плана внедрения см. статью [расширение целевой зоны](../considerations/index.md). в ней приведены рекомендации по принятию решений и реструктуризации в соответствии с растущими требованиями различных групп.
+Раздел методологии готовности по расширению целевой зоны поможет приблизиться к выполнению долгосрочных требований. По мере продвижения группы по внедрению в облако с помощью плана внедрения ознакомьтесь с разработкой [целевой зоны](../considerations/index.md) , которая поможет принять решения и выполнить рефакторинг в соответствии с растущими требованиями различных групп.
 
 ![Итерация параллельной целевой зоны ](../../_images/ready/refactor-methodologies.png)
  _, рис. 5. более глубокие методологии помогают в итерации параллельной целевой зоны._

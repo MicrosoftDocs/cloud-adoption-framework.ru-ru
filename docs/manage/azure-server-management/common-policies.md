@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 46d5cc077730610bc6bb9bdb3785609880a77c64
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 1859cd42cdfa5487dd2a14d766debf75739576e3
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017145"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100631956"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 
@@ -37,7 +37,7 @@ Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq 'BuiltIn')
   -and ($_.Properties.displayName -like '*location*') }
 ```
 
-В следующем сценарии показано, как назначить политику. Измените `$SubscriptionID` значение, указав подписку, которой вы хотите назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Измените `$SubscriptionID` значение, указав подписку, которой вы хотите назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount) .
 
 ```powershell
 # Specify the value for $SubscriptionID.
@@ -76,7 +76,7 @@ Azure предлагает широкий спектр размеров вирт
 
 GUID политики — `2835b622-407b-4114-9198-6f7064cbe0dc` .
 
-В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение так, `$SubscriptionID` чтобы оно указывало на подписку, которой необходимо назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) .
+В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение так, `$SubscriptionID` чтобы оно указывало на подписку, которой необходимо назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount) .
 
 ```powershell
 # Specify the value for $SubscriptionID.

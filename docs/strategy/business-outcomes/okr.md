@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: think-tank
-ms.openlocfilehash: def676cd47056ea7d3dd7a0ccb5f775023c6f62e
-ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
+ms.openlocfilehash: c38f725f7a2f7f138594d6167c0c823d04118166
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "99226973"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100632483"
 ---
 <!-- docutune:casing WorkBoard -->
 
@@ -103,7 +103,7 @@ _Рис. 1. Окрс увеличение выравнивания и отчет
 
 **Шаг 5. Улучшение:** Продолжайте совершенствовать, переключайтесь и передумаете, как подключиться дальше по всей Организации. Окрс в электронных таблицах может быть полезным, но Организация может получить больше преимуществ от всех сотрудников, участвующих в удовлетворении целей, и получать ценные сведения из соответствующих данных.
 
-Чтобы приступить к работе, обратитесь в [воркбоард](https://appsource.microsoft.com/en-us/marketplace/co-sell/SOL-31525-NGJ) .
+Чтобы приступить к работе, обратитесь в [воркбоард](https://appsource.microsoft.com/product/office/WA104381599) .
 
 > [!div class="nextstepaction"]
 > [Выровняйте усилия по обучению метрик](../learning-metrics.md)

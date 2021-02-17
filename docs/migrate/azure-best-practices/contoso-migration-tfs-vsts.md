@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 078c5500fddc61c4f4fef6aad61ac7fcc2803510
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: 0a679af5d8b7d73cc48accb4cb08932905bce763
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97712930"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100631752"
 ---
 <!-- cSpell:ignore contosodev contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring smarthotelcontainer identitymaplog CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME sqlpackage SSDT azuredevopsmigration validateonly ImportType -->
 
@@ -130,7 +130,7 @@ ms.locfileid: "97712930"
      ![Снимок экрана: область "Невыполненная работа по продукту" для проверки установки Team Foundation Server.](./media/contoso-migration-tfs-vsts/upgrade5.png)
 
 > [!NOTE]
-> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее](/azure/devops/reference/configure-features-after-upgrade?view=vsts).
+> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее](/azure/devops/reference/configure-features-after-upgrade?view=vsts&preserve-view=true).
 
 **Требуется дополнительная помощь?**
 
@@ -201,7 +201,7 @@ ms.locfileid: "97712930"
 
 1. Теперь администраторы могут видеть, что файл *IdentityMapLog.csv* и *import.js* в файле были созданы в новой папке.
 
-    ![Подготовка](./media/contoso-migration-tfs-vsts/prep4.png)
+    ![Подготовка.](./media/contoso-migration-tfs-vsts/prep4.png)
 
 1. `import.json`Файл содержит параметры импорта. Он содержит такие сведения, как имя нужной организации и сведения об учетной записи хранения. Большинство полей заполнены автоматически. Для некоторых полей требуется ввод данных пользователем. Администраторы открывают файл и добавляют имя создаваемой Azure DevOps Services организации `contosodevmigration` . С таким именем URL-адрес contoso Azure DevOps Services будет иметь значение `contosodevmigration.visualstudio.com` .
 
@@ -479,13 +479,13 @@ ms.locfileid: "97712930"
 
 **Требуется дополнительная помощь?**
 
-Дополнительные сведения см. [в статье Импорт репозиториев из TFVC в Git](/azure/devops/repos/git/import-from-TFVC?view=vsts).
+Дополнительные сведения см. [в статье Импорт репозиториев из TFVC в Git](/azure/devops/repos/git/import-from-TFVC?view=vsts&preserve-view=true).
 
 ## <a name="clean-up-after-migration"></a>Очистка после миграции
 
 После завершения миграции группе Contoso необходимо выполнить следующие действия:
 
-- Ознакомиться со сведениями о дополнительных операциях [после импорта](/azure/devops/articles/migration-post-import?view=vsts).
+- Ознакомиться со сведениями о дополнительных операциях [после импорта](/azure/devops/articles/migration-post-import?view=vsts&preserve-view=true).
 - Либо удалите TFVC репозиториев, либо поместите их в режиме только для чтения. Не следует использовать основанные на коде базы кода, но на них можно ссылаться в журнале.
 
 ## <a name="post-migration-training"></a>Обучение после переноса данных

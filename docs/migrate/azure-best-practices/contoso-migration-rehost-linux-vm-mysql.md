@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: a4f78228dad4ad2be191d7515824b1855ee9f690
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: b82eaf9e330e8f59e542d43ea07f3593afa1ffab
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97712677"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100631650"
 ---
 <!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc contosoosticket osticket InnoDB binlog systemctl NSGs -->
 
@@ -81,9 +81,9 @@ ms.locfileid: "97712677"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Миграция Azure](/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | Служба " [Миграция Azure](https://azure.microsoft.com/pricing/details/azure-migrate) " доступна без дополнительной платы. Плата может взиматься в зависимости от средств (от первой стороны или ISV), которые вы решили использовать для оценки и миграции. |
-| [Azure Database Migration Service](/azure/dms/dms-overview) | Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration). |
-| [База данных Azure для MySQL](/azure/mysql) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL, готовую для разработки и развертывания приложений. | Узнайте больше о [ценах](https://azure.microsoft.com/pricing/details/mysql) и параметрах масштабируемости базы данных Azure для MySQL. |
+| [Миграция Azure](/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | Служба " [Миграция Azure](https://azure.microsoft.com/pricing/details/azure-migrate/) " доступна без дополнительной платы. Плата может взиматься в зависимости от средств (от первой стороны или ISV), которые вы решили использовать для оценки и миграции. |
+| [Миграция баз данных Azure](/azure/dms/dms-overview) | Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration/). |
+| [База данных Azure для MySQL](/azure/mysql/) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL, готовую для разработки и развертывания приложений. | Узнайте больше о [ценах](https://azure.microsoft.com/pricing/details/mysql/server/) и параметрах масштабируемости базы данных Azure для MySQL. |
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -91,7 +91,7 @@ ms.locfileid: "97712677"
 
 | Требования | Сведения |
 | --- | --- |
-| **Подписка Azure.** | Компания Contoso уже создала подписки (это описывается в одной из предыдущих статей этой серии). Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку и вы не являетесь администратором, обратитесь к администратору, чтобы назначить вам разрешения владельца или участника. <br><br> Если вам нужны более детализированные разрешения, см. статью [Управление доступом Site Recovery с помощью управления доступом на основе ролей Azure (Azure RBAC)](/azure/site-recovery/site-recovery-role-based-linked-access-control). |
+| **Подписка Azure.** | Компания Contoso уже создала подписки (это описывается в одной из предыдущих статей этой серии). Если у вас еще нет подписки Azure, создайте [бесплатную учетную запись Azure](https://azure.microsoft.com/free/). <br><br> Если вы создаете бесплатную учетную запись, вы являетесь администратором своей подписки и можете выполнять любые действия. <br><br> Если вы используете существующую подписку и вы не являетесь администратором, обратитесь к администратору, чтобы назначить вам разрешения владельца или участника. <br><br> Если требуются более детализированные разрешения, см. раздел [Управление доступом Azure Site Recovery с помощью управления доступом на основе ролей (RBAC)](/azure/site-recovery/site-recovery-role-based-linked-access-control). |
 | **Инфраструктура Azure** | Компания Contoso настраивает инфраструктуру Azure, как описано в статье [Развертывание инфраструктуры Azure для миграции в Contoso](./contoso-migration-infrastructure.md). |
 | **Локальные серверы** | Локальная vCenter Server должна работать под управлением версии 5,5, 6,0, 6,5 или 6,7. <br><br> Узел ESXi с версией 5,5, 6,0, 6,5 или 6,7. <br><br> Одна или несколько виртуальных машин VMware, которые выполняются на узле ESXi. |
 | **Локальные виртуальные машины** | [Ознакомьтесь со списком виртуальных машин Linux](/azure/virtual-machines/linux/endorsed-distros), которые рекомендованы к использованию в Azure. |
@@ -129,11 +129,11 @@ ms.locfileid: "97712677"
 
        1. Настройте необходимые компоненты.
 
-          ![Снимок экрана, на котором показан экран настройки предварительных требований.](./media/contoso-migration-rehost-vm/migration-setup-prerequisites.png)
+          ![Снимок экрана: страница "Настройка предварительных требований" * *.](./media/contoso-migration-rehost-vm/migration-setup-prerequisites.png)
 
        1. Наведите указатель на инструмент на подписку Azure.
 
-          ![Снимок экрана, показывающий настройку подписки](./media/contoso-migration-rehost-vm/migration-register-azure.png)
+          ![Снимок экрана настройки подписки.](./media/contoso-migration-rehost-vm/migration-register-azure.png)
 
        1. Задайте учетные данные VMware vCenter.
 
@@ -287,7 +287,7 @@ ms.locfileid: "97712677"
 
 - Убедитесь, что выполнены все необходимые условия для миграции.
   - Источник базы данных MySQL Server должен соответствовать версии, поддерживаемой базой данных Azure для MySQL. База данных Azure для MySQL поддерживает выпуск MySQL Community Edition, подсистему хранилища InnoDB и миграцию в исходном и целевом версиях с теми же версиями.
-  - Включение двоичного входа в систему `my.ini` (Windows) или `my.cnf` (UNIX). Если этого не сделать, в мастере миграции будет вызвана следующая ошибка: "ошибка при ведении журнала в двоичном коде. Переменная binlog_row_image имеет значение "минимальный". Измените его на "Full". Дополнительные сведения см. на [веб-сайте MySQL](https://go.microsoft.com/fwlink/?linkid=873009`).
+  - Включение двоичного входа в систему `my.ini` (Windows) или `my.cnf` (UNIX). В противном случае в мастере миграции произойдет следующая ошибка. Дополнительные `Error in binary logging. Variable binlog_row_image has value 'minimal.' Please change it to 'full.'` сведения см. в [документации по MySQL](https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html).
   - Пользователь должен иметь `ReplicationAdmin` роль.
   - Перенесите схемы базы данных без внешних ключей и триггеров.
 - Создайте виртуальную сеть, которая подключается через Azure ExpressRoute или VPN-подключение к локальной сети.
@@ -347,7 +347,7 @@ ms.locfileid: "97712677"
 
 1. Экспортировать базу данных как `osticket` в локальный автономный файл.
 
-    ![Снимок экрана, на котором показан экран экспорта данных.](./media/contoso-migration-rehost-linux-vm-mysql/workbench2.png)
+    ![Снимок экрана: страница "экспорт данных" * *.](./media/contoso-migration-rehost-linux-vm-mysql/workbench2.png)
 
 1. После того как база данных будет создана локально, создайте подключение к экземпляру базы данных Azure для MySQL.
 

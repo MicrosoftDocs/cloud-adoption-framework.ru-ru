@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: 15f72f6899ba9ae3cf5a9bf9a804c7e0e1363d9c
-ms.sourcegitcommit: 32a958d1dd2d688cb112e9d1be1706bd1e59c505
+ms.openlocfilehash: dbbd458530d3507cf7247a3579bf5f41237e7e52
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "98123567"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100632568"
 ---
 <!-- docutune:casing "Azure VPN Gateway" L7 -->
 <!-- cSpell:ignore autoregistration BGPs MACsec MPLS MSEE onprem privatelink VPNs -->
@@ -508,7 +508,7 @@ _Рис. 8. потоки шифрования._
 
   - Используйте Partner NVA для установки туннелей IPsec через частный пиринг ExpressRoute.
   - Установите VPN-туннель через ExpressRoute с помощью пиринга Майкрософт.
-  - Оцените возможность настройки VPN-подключения типа "сеть — сеть" через частный пиринг ExpressRoute ([Предварительная версия](/azure/vpn-gateway/site-to-site-vpn-private-peering)).
+  - Оцените возможность [настройки VPN-подключения типа "сеть — сеть" через частный пиринг ExpressRoute (Предварительная версия)](/azure/vpn-gateway/site-to-site-vpn-private-peering).
 
 - Если трафик между регионами Azure должен быть зашифрован, используйте глобальную пиринг виртуальной сети для подключения виртуальных сетей между регионами.
 

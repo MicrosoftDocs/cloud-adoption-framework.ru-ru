@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: 6256de325aff36a6a9788722a2689cdf7af71657
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: 24b29df57baf21d6d0d96dd605bcec4ba1cafb1f
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97712440"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100631837"
 ---
 <!-- cSpell:ignore vcenter contosohost contosodc NSGs agentless WEBVMDEV SQLVMDEV OSTICKETWEBDEV OSTICKETMYSQLDEV -->
 
@@ -149,7 +149,7 @@ Contoso необходимо перенести виртуальные маши�
 
     1. В службе "миграция Azure" Скачайте. OVA образ и импортируйте его в VMware.
 
-       ![Снимок экрана с экраном для загрузки. Файл OVA.](./media/contoso-migration-devtest-to-iaas/migration-download-ova.png)
+       ![Снимок экрана загрузки. Файл OVA.](./media/contoso-migration-devtest-to-iaas/migration-download-ova.png)
 
        _Рис. 3. Загрузка. Файл OVA._
 

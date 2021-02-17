@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 1df49da24679b6dd241f4fc7e550411660afad60
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: c4d177b427724cd9c3eb7573e8a0efe62435a454
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016703"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100631871"
 ---
 # <a name="create-update-schedules"></a>Создание расписаний обновления
 
@@ -21,7 +21,7 @@ ms.locfileid: "97016703"
 
 Сведения о создании расписания обновления с помощью портал Azure см. в разделе [Планирование развертывания обновлений](/azure/automation/update-management/deploy-updates#schedule-an-update-deployment).
 
-`Az.Automation`Теперь модуль поддерживает настройку Управление обновлениями с помощью Azure PowerShell. [Версия 1.7.0](https://www.powershellgallery.com/packages/Az/1.7.0) модуля добавляет поддержку командлета [New-азаутоматионупдатеманажементазурекуери](/powershell/module/az.automation/new-azautomationupdatemanagementazurequery?view=azps-1.7.0) . Этот командлет позволяет использовать теги, расположение и сохраненные поисковые запросы для настройки расписаний обновлений для гибкой группы компьютеров.
+`Az.Automation`Теперь модуль поддерживает настройку Управление обновлениями с помощью Azure PowerShell. Командлет [New-азаутоматионупдатеманажементазурекуери](/powershell/module/az.automation/new-azautomationupdatemanagementazurequery) позволяет использовать теги, расположение и сохраненные поисковые запросы для настройки расписаний обновлений для гибкой группы компьютеров.
 
 ## <a name="example-script"></a>Пример сценария
 
@@ -34,7 +34,7 @@ ms.locfileid: "97016703"
   - Имеет `Production` тег, которому присвоено значение `true` .
 - Применяет расписание обновления к запрашиваемым компьютерам и устанавливает интервал в два часа обновления.
 
-Перед запуском примера скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount?view=azps-2.1.0) . При запуске скрипта укажите следующие сведения.
+Перед запуском примера скрипта необходимо выполнить вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount) . При запуске скрипта укажите следующие сведения.
 
 - Идентификатор целевой подписки
 - Целевая группа ресурсов

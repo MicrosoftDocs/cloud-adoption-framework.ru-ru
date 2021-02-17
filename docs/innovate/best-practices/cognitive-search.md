@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank, seo-caf-innovate
 keywords: Поиск с самопоиском, службы для распознавания и поиска в Azure, поиск в Azure
-ms.openlocfilehash: 715dd65e072e09fe8046908ccc0a4a660a2c4328
-ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
+ms.openlocfilehash: 9596b8bb0f0fec90b2c4704b5be49de95f7e2c70
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "100526057"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100632194"
 ---
 <!-- cSpell:ignore Lucene -->
 
@@ -70,9 +70,7 @@ ms.locfileid: "100526057"
 
 ### <a name="step-4-search"></a>Шаг 4. Поиск
 
-
-После заполнения индекса можно [выдавать поисковые запросы](/azure/search/search-query-overview) к конечной точке службы с помощью простых HTTP-запросов с [интерфейсами API](/rest/api/searchservice/search-documents) или [пакетом SDK для .NET](/dotnet/api/microsoft.azure.search.idocumentsoperations?view=azure-dotnet&preserve-view=true). Пошаговое [Создание первого приложения поиска](/azure/search/tutorial-csharp-create-first-app) для создания и расширения веб-страницы, собирающей ввод пользователя и обрабатывающего результаты. Можно также использовать [POST для интерактивных вызовов RESTful](/azure/search/search-get-started-postman) или встроенный [обозреватель поиска](/azure/search/search-explorer) в портал Azure для запроса существующего индекса.
-
+После заполнения индекса можно [выдавать поисковые запросы](/azure/search/search-query-overview) к конечной точке службы с помощью простых HTTP-запросов с [интерфейсами API](/rest/api/searchservice/search-documents) или [пакетом SDK для .NET](/dotnet/api/microsoft.azure.search.idocumentsoperations). Пошаговое [Создание первого приложения поиска](/azure/search/tutorial-csharp-create-first-app) для создания и расширения веб-страницы, собирающей ввод пользователя и обрабатывающего результаты. Можно также использовать [POST для интерактивных вызовов RESTful](/azure/search/search-get-started-postman) или встроенный [обозреватель поиска](/azure/search/search-explorer) в портал Azure для запроса существующего индекса.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

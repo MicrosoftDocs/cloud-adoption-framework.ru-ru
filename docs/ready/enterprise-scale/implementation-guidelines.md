@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: 20c539f824699f7533007c29d95f0bb87f551a4e
-ms.sourcegitcommit: 6ff3d529461fbf159bb219d3d869613e80a1f3c6
+ms.openlocfilehash: 0e760195cc2ea0afb00c472086a0ed7a6fe9b2f9
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/22/2020
-ms.locfileid: "97736860"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100632415"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
