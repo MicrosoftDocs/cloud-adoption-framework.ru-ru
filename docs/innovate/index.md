@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: internal
-ms.openlocfilehash: f5d293eb80be69cd809625cf3e246024a45ea341
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 171264fae5d3d90f944b0726bcf90a60ab973247
+ms.sourcegitcommit: 042fb295ef5623d45066ce38a389dd8d636cbc20
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017927"
+ms.lasthandoff: 02/14/2021
+ms.locfileid: "100492703"
 ---
 # <a name="cloud-innovation-in-the-cloud-adoption-framework"></a>Облачные инновации в Cloud Adoption Framework
 

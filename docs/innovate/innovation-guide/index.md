@@ -1,33 +1,34 @@
 ---
-title: Инновации в Azure. Перед началом работы
-description: Подготовьте свою среду для внедрения облачных инновационных решений с помощью функций Azure, которые помогут вам привлекать клиентов, создавать решения и осваивать новые технологии.
+title: Руководство по внедрению инновационных решений
+description: Перед началом работы ознакомьтесь с этим руководством по внедрению инновационных решений с использованием Cloud Adoption Framework. К вашим услугам облачные инновации, которые будут полезны при привлечении клиентов и внедрении облачных технологий.
 author: matticusau
 ms.author: brblanch
-ms.date: 10/17/2019
+ms.date: 01/27/2021
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.localizationpriority: high
-ms.custom: think-tank, fasttrack-edit, AQC
-ms.openlocfilehash: c76181620d8d465c4244ccc043500f3b39983eb9
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.custom: think-tank, fasttrack-edit, AQC, sep-caf-innovate
+keywords: Инновационные решения, Cloud Adoption Framework, решения для внедрения инноваций
+ms.openlocfilehash: 068205e9806664ca4156e64db96a0d4d2839bbd3
+ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017740"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "100525850"
 ---
-# <a name="azure-innovation-guide-overview"></a>Обзор руководств по инновациям Azure
+# <a name="azure-innovative-solutions-guide-overview"></a>Обзор инновационных решений Azure
 
 ::: zone target="docs"
 
 > [!NOTE]
-> Это руководство поможет приступить к внедрению инноваций в Cloud Adoption Framework. С ним также можно ознакомиться в [центре быстрого запуска Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade).
+> Это руководство по инновационным решениям поможет приступить к внедрению инноваций в Cloud Adoption Framework. С ним также можно ознакомиться в [центре быстрого запуска Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade).
 
 ::: zone-end
 
-Прежде чем начинать разработку инновационных решений с помощью служб Azure, необходимо подготовить среду, включая подготовку к управлению циклами обратной связи с клиентами. В этом руководстве описаны функции, которые помогут вам привлекать клиентов, создавать решения и внедрять инновации. Инструкции, рекомендации и ответы на вопросы, связанные с подготовкой к работе в облаке, см. в [разделе Cloud Adoption Framework, посвященном инновациям](../index.md).
+Прежде чем начинать разработку инновационных решений с помощью служб Azure, необходимо подготовить среду, включая подготовку к управлению циклами обратной связи с клиентами. В этом руководстве описаны функции, которые помогут вам привлекать клиентов, создавать инновационные решения и внедрять новые технологии. Инструкции, рекомендации и ответы на вопросы, связанные с подготовкой к работе в облаке, см. в [разделе Cloud Adoption Framework, посвященном инновациям](../index.md).
 
-Из этого руководства вы узнаете, как выполнить следующие задачи:
+Из этого руководства по внедрению инноваций вы узнаете, как выполнить следующие задачи:
 
 > [!div class="checklist"]
 >
