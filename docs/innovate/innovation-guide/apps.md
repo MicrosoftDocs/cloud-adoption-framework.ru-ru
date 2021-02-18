@@ -1,22 +1,25 @@
 ---
-title: Инновации в Azure. Привлечение клиентов с помощью приложений
-description: Узнайте о службах Azure для модернизации существующих веб-приложений и приложений API, а также создания собственных облачных приложений.
+title: Создание приложений и привлечение клиентов с помощью Служб приложений
+description: Создавайте облачные приложения и легко модернизируйте существующие веб-приложения и приложения API. Узнайте о Службе приложений Azure, Azure DevOps и Центре приложений Visual Studio.
 author: billyclaymyersmsft
 ms.author: brblanch
-ms.date: 10/17/2019
+ms.date: 01/27/2021
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.localizationpriority: high
-ms.custom: think-tank, fasttrack-edit, AQC
-ms.openlocfilehash: fb47f30f0e5a04b5f45b5558827a278f1e9493fc
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.custom: think-tank, fasttrack-edit, AQC, seo-caf-innovate
+keywords: Служба приложений Azure, Служба приложений, сборка приложений, облачное приложение, облачные приложения
+ms.openlocfilehash: 5bd48a4d659f4bdf47b2151fe4ec6d0ab2e366e4
+ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017825"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "100525955"
 ---
 # <a name="engage-customers-through-applications"></a>Привлечение клиентов с использованием приложений
+
+Создавайте облачные приложения, обеспечивая новый способ привлечения клиентов. Ориентированные на облако приложения разработаны с нуля и оптимизированы для работы в облаке. Облачные приложения основаны на архитектуре микрослужб. Они используют управляемые службы и гарантируют надежность и быстрый выход на рынок за счет непрерывной поставки.
 
 Инновации включают как модернизацию существующих приложений, размещенных в локальной среде, так и создание ориентированных на облако приложений с помощью контейнеров или бессерверных технологий. Azure предоставляет службы PaaS, такие как Служба приложений Azure, позволяющие легко модернизировать существующие приложения API и веб-приложения, написанные на .NET, .NET Core, Java, Node.js, Ruby, Python или PHP, для развертывания в Azure.
 
@@ -102,7 +105,7 @@ ms.locfileid: "97017825"
 
 ### <a name="visual-studio-app-center"></a>Центр приложений Visual Studio
 
-Так как мобильные приложения продолжают набирать популярность, одновременно растет потребность в платформе, которая может обеспечить автоматическое тестирование на реальных устройствах различных конфигураций. Центр приложений Visual Studio не только предоставляет пространство, где вы можете тестировать приложения в iOS, Android, Windows и macOS. Это еще и платформа мониторинга, на которой можно использовать Azure Application Insights для быстрого и простого анализа данных телеметрии. Дополнительные сведения см. в документации по [Центру приложений Visual Studio](/appcenter).
+Так как мобильные приложения продолжают набирать популярность, одновременно растет потребность в платформе, которая может обеспечить автоматическое тестирование на реальных устройствах различных конфигураций. Центр приложений Visual Studio не только предоставляет пространство, где вы можете тестировать облачные приложения в iOS, Android, Windows и macOS. Это еще и платформа мониторинга, которая позволяет использовать Azure Application Insights для быстрого и простого анализа данных телеметрии. Дополнительные сведения см. в документации по [Центру приложений Visual Studio](/appcenter).
 
 Центр приложений Visual Studio также предоставляет службу уведомлений, в которой с помощью одного вызова вы можете отправлять уведомления в приложение на разных платформах, не обращаясь к каждой службе уведомлений по отдельности. Дополнительные сведения см. в статье об использовании [push-уведомлений в Центре приложений Visual Studio](/appcenter/push).
 
@@ -111,9 +114,9 @@ ms.locfileid: "97017825"
 - [Обзор Службы приложений Azure](/azure/app-service/overview)
 - [Веб-приложение для контейнеров. с помощью Docker](/azure/app-service/containers/quickstart-docker)
 - [Общие сведения о Функциях Azure](/azure/azure-functions/functions-overview)
-- [Azure для разработчиков .NET и .NET Core](/dotnet/azure/?view=azure-dotnet)
+- [Azure для разработчиков .NET и .NET Core](/dotnet/azure/?view=azure-dotnet&preserve-view=true)
 - [Azure для разработчиков Python](/azure/python)
-- [Azure для разработчиков облачных решений Java](/azure/java/?view=azure-java-stable)
+- [Azure для разработчиков облачных решений Java](/azure/java/?view=azure-java-stable&preserve-view=true)
 - [Создание веб-приложения PHP в Azure](/azure/app-service/app-service-web-get-started-php)
 - [Документация по пакету SDK для JavaScript](/azure/javascript)
 - [Документация по пакету Azure SDK для Go](/azure/go)

@@ -1,20 +1,21 @@
 ---
-title: Инновации в Azure. Подготовка отзывов
+title: Количественные и качественные отзывы
 description: Узнайте, как использовать средства Azure для сбора количественных и качественных отзывов о веб-приложениях и API, размещенных в GitHub.
 author: BrianBlanchard
 ms.author: brblanch
-ms.date: 10/17/2019
+ms.date: 01/27/2021
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.localizationpriority: high
-ms.custom: internal, fasttrack-edit, AQC
-ms.openlocfilehash: f390dd74a04ac423a98c17a4a6e7cce4cfedecd7
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.custom: internal, fasttrack-edit, AQC, seo-caf-innovate
+keywords: Количественные данные, количественный отзыв, качественный отзыв, отзывы для тестирования, отзывы пользователей
+ms.openlocfilehash: 39ba4ba8d7a1137846cb54187140e847161b8448
+ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017859"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "100525938"
 ---
 # <a name="prepare-for-customer-feedback"></a>Подготовка к сбору отзывов клиентов
 
@@ -25,7 +26,9 @@ ms.locfileid: "97017859"
 - **количественное (обратная связь для тестирования):** означает действия, которые мы ожидаем увидеть;
 - **качественное (обратная связь клиентов):** сообщает о том, что эти метрики означают для клиента.
 
-Чтобы интегрировать циклы обратной связи, нужен общий репозиторий для решения. Централизованный репозиторий обеспечит возможность записывать все отзывы о проекте и реагировать на них. [GitHub](https://github.com) является хранилищем для ПО с открытым кодом. Кроме того, это одна из наиболее часто используемых платформ для размещения репозитория исходного кода для коммерческих приложений. В статье по [созданию репозиториев GitHub](/azure/devops/pipelines/repos/github?tabs=yaml&view=azure-devops) содержатся сведения по началу работы с репозиторием.
+Количественные данные основаны на числах. Для их получения используется поддающийся количественной оценке процесс измерения. Количественные отзывы позволяют получить количественное представление данных, что полезно при быстром сборе большого количества ответов от клиентов. Примерами количественных отзывов могут быть вопросы с несколькими вариантами ответов и числовые данные о вовлечении пользователей. Качественные отзывы позволяют получить более широкий спектр ответов для анализа впечатлений и мнений клиентов. Примером качественных отзывов будет анкетирование клиента с использованием открытых вопросов. Оба метода получения отзывов клиентов предоставляют ценную информацию, которая может улучшить продукты и услуги вашей компании.  
+
+Чтобы интегрировать циклы обратной связи, нужен общий репозиторий для решения. Централизованный репозиторий обеспечит возможность записывать все отзывы о проекте и реагировать на них. [GitHub](https://github.com) является хранилищем для ПО с открытым кодом. Кроме того, это одна из наиболее часто используемых платформ для размещения репозитория исходного кода для коммерческих приложений. В статье по [созданию репозиториев GitHub](/azure/devops/pipelines/repos/github?tabs=yaml&view=azure-devops&preserve-view=true) содержатся сведения по началу работы с репозиторием.
 
 Каждый из приведенных ниже инструментов в Azure интегрируется с проектами, размещенными в GitHub, или совместим с ними.
 
@@ -126,7 +129,7 @@ Application Insights — это инструмент отслеживания, 
 
 Чтобы создать проект DevOps, выполните следующие действия:
 
-1. Откройте раздел **Проекты Azure DevOps**.
+1. Откройте **Azure DevOps Projects**.
 2. Выберите команду **Создать проект DevOps**.
 3. Выберите **среду выполнения, платформу и службу**.
 
@@ -140,8 +143,8 @@ Application Insights — это инструмент отслеживания, 
 
 Эти статьи помогут вам централизовать и контролировать отзывы, используя Azure Boards вместе с GitHub.
 
-- [Сведения о начале работы с Azure Boards](/azure/devops/boards/get-started/?view=azure-devops)
-- [Сведения об использовании Azure Boards и GitHub](/azure/devops/boards/github?view=azure-devops)
+- [Сведения о начале работы с Azure Boards](/azure/devops/boards/get-started/?view=azure-devops&preserve-view=true)
+- [Сведения об использовании Azure Boards и GitHub](/azure/devops/boards/github?view=azure-devops&preserve-view=true)
 
 ## <a name="close-the-loop-with-pipelines"></a>[Закрытие цикла с помощью конвейеров](#tab/pipelines)
 
@@ -175,5 +178,5 @@ Application Insights — это инструмент отслеживания, 
 
 Приступите к созданию своих конвейеров развертывания:
 
-- [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline?tabs=tfs-2018-2&view=azure-devops) (Создание первого конвейера)
-- [Задачи `GitHub Release`](/azure/devops/pipelines/tasks/utility/github-release?view=azure-devops)
+- [Create your first pipeline](/azure/devops/pipelines/create-first-pipeline?tabs=tfs-2018-2&view=azure-devops&preserve-view=true) (Создание первого конвейера)
+- [Задачи `GitHub Release`](/azure/devops/pipelines/tasks/utility/github-release?view=azure-devops&preserve-view=true)
