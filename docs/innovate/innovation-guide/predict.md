@@ -1,6 +1,6 @@
 ---
-title: Инновации с использованием искусственного интеллекта, Машинное обучение и другое
-description: Узнайте о решениях Azure для прогнозирования потребностей клиентов и автоматизации бизнес-процессов. Используйте интеллектуальный анализ знаний, машинное обучение и искусственный интеллект для повышения качества обслуживания клиентов.
+title: Инновации в Azure. Инновации с использованием ИИ
+description: Узнайте о решениях Azure для прогнозирования потребностей клиентов, автоматизируйте бизнес-процессы, извлекайте информацию, которая скрыта в неструктурированных данных, а также реализуйте новые способы общения с клиентами для предоставления лучших возможностей.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 01/27/2021
@@ -10,12 +10,12 @@ ms.subservice: innovate
 ms.localizationpriority: high
 ms.custom: internal, fasttrack-edit, AQC, seo-caf-innovate
 keywords: Автоматизация бизнес-процессов, инновации с использованием искусственного интеллекта, машинное обучение, интеллектуальный анализ знаний
-ms.openlocfilehash: 4dc6905d10da1e9ec343fe793acafa06a9d6a57f
-ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
+ms.openlocfilehash: cc42a37a151c3f0c60fe58d3e1137093de7237f3
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "100525802"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100632058"
 ---
 <!-- cSpell:ignore ONNX -->
 

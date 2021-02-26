@@ -10,12 +10,12 @@ ms.subservice: innovate
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-edit, AQC, seo-caf-innovate
 keywords: Служба приложений Azure, Служба приложений, сборка приложений, облачное приложение, облачные приложения
-ms.openlocfilehash: 5bd48a4d659f4bdf47b2151fe4ec6d0ab2e366e4
-ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
+ms.openlocfilehash: e1fe2fb351fed0e092e2d669d2aa7c9384dce2e5
+ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "100525955"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "100632109"
 ---
 # <a name="engage-customers-through-applications"></a>Привлечение клиентов с использованием приложений
 
@@ -114,9 +114,9 @@ ms.locfileid: "100525955"
 - [Обзор Службы приложений Azure](/azure/app-service/overview)
 - [Веб-приложение для контейнеров. с помощью Docker](/azure/app-service/containers/quickstart-docker)
 - [Общие сведения о Функциях Azure](/azure/azure-functions/functions-overview)
-- [Azure для разработчиков .NET и .NET Core](/dotnet/azure/?view=azure-dotnet&preserve-view=true)
+- [Azure для разработчиков .NET и .NET Core](/dotnet/azure)
 - [Azure для разработчиков Python](/azure/python)
-- [Azure для разработчиков облачных решений Java](/azure/java/?view=azure-java-stable&preserve-view=true)
+- [Azure для разработчиков облачных решений Java](/azure/developer/java)
 - [Создание веб-приложения PHP в Azure](/azure/app-service/app-service-web-get-started-php)
 - [Документация по пакету SDK для JavaScript](/azure/javascript)
 - [Документация по пакету Azure SDK для Go](/azure/go)
