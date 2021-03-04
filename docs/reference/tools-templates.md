@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.custom: internal
-ms.openlocfilehash: 0a26becab0f8aab80a5e4cf9504e754362ca6091
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 3a121fe48499e12fa578c0a715d3dfb319ef6189
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101785773"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102116399"
 ---
 # <a name="tools-and-templates"></a>Средства и шаблоны
 
@@ -73,7 +73,7 @@ ms.locfileid: "101785773"
 
 | Ресурс | Описание |
 |----------|-------------|
-| [Шаблоны развертывания](https://aka.ms/adopt/plan/generator) | Шаблон [интеллектуального анализа знаний](https://azuredevopsdemogenerator.azurewebsites.net/?name=kmine) предоставляет структурированный подход к обнаружению скрытых ценных сведений, содержащихся в структурированных и неструктурированных данных. .
+| [Шаблоны развертывания](https://aka.ms/adopt/plan/generator) | Генератор DevOps для Azure содержит контрольные списки проектов, которые помогут вам создать [интеллектуальный анализ знаний](https://azuredevopsdemogenerator.azurewebsites.net/?name=kmine), [современное хранилище данных](https://azuredevopsdemogenerator.azurewebsites.net/?name=moddw) и отраслевые ускорители, такие как [Совет по розничной торговле](https://azuredevopsdemogenerator.azurewebsites.net/?name=moddw) с использованием искусственного интеллекта. Шаблоны предоставляют структурированный подход и контрольный список, которые следует выполнить. Каждый шаблон и рабочий элемент имеют ссылки на требуемое содержимое, активы и примеры кода, которые помогут приступить к работе.
 
 
 ## <a name="manage"></a>Управление
