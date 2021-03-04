@@ -7,12 +7,12 @@ ms.date: 03/01/2021
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
-ms.openlocfilehash: 90a99c1c7c817b6bb8e578515f1fae8b8d7ae341
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: e8c6d6074e075b6804038269dfb5f570dbe7488c
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101797251"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112880"
 ---
 # <a name="manage-modern-container-solutions-clusters"></a>Управление кластерами современных решений контейнеров
 
@@ -52,7 +52,7 @@ ms.locfileid: "101797251"
 
 ### <a name="inventory-and-visibility"></a>Инвентаризация и визуальный контроль
 
-Мониторинг контейнеров и кластеров AKS использует средства, панели мониторинга и оповещения, входящие в базовый план операций. Однако может потребоваться дополнительная настройка для получения данных из контейнеров в средства мониторинга операций, например [Azure Monitor для контейнеров](/azure/azure-monitor/containers/container-insights-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json toc=/azure/cloud-adoption-framework/toc.json). Ознакомьтесь с [обзором Azure Monitor для контейнеров](/azure/azure-monitor/containers/container-insights-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json toc=/azure/cloud-adoption-framework/toc.json) , чтобы собрать данные, необходимые для добавления контейнеров и операций платформы AKS в базовый план операций.
+Мониторинг контейнеров и кластеров AKS использует средства, панели мониторинга и оповещения, входящие в базовый план операций. Однако может потребоваться дополнительная настройка для получения данных из контейнеров в средства мониторинга операций, например [Azure Monitor для контейнеров](/azure/azure-monitor/containers/container-insights-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/toc.json). Ознакомьтесь с [обзором Azure Monitor для контейнеров](/azure/azure-monitor/containers/container-insights-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/toc.json) , чтобы собрать данные, необходимые для добавления контейнеров и операций платформы AKS в базовый план операций.
 
 После настройки Azure Monitor для сбора данных в контейнерах можно отслеживать следующие области в рамках процессов централизованного управления:
 

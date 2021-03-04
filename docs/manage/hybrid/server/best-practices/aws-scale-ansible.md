@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 58b8355659779ef4258dd9d2935e8b09d3d9559b
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: a6fb1c371a608be1906b42528c4c80beffda3500
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101797670"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112047"
 ---
 # <a name="use-ansible-to-scale-onboarding-amazon-web-services-amazon-elastic-compute-cloud-instances-to-azure-arc"></a>Использование Ansible для масштабирования Amazon Web Services Amazon эластичное вычисление облачных экземпляров в Azure Arc
 
-В этой статье приводятся рекомендации по использованию [Ansible](https://www.ansible.com/) для масштабирования экземпляров Amazon Web Services (AWS) Amazon эластичного облака (Amazon EC2) в дугу Azure.
+В этой статье приводятся рекомендации по использованию [Ansible](https://www.ansible.com/) для масштабирования экземпляров облачных вычислений Amazon Web Services (AWS) Amazon эластичного облака (EC2) в Azure ARC.
 
-В этом учебнике предполагается, что у вас есть базовое понимание Ansible. Предоставляется базовый Ansible сборник тренировочных заданий и конфигурация, которая использует [`amazon.aws.aws-ec2`](https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_ec2_inventory.html) подключаемый модуль для динамической загрузки данных инвентаризации EC2 Server.
+В этом учебнике предполагается, что у вас есть базовое понимание Ansible. Предоставляется базовый Ansible сборник тренировочных заданий и конфигурация, которая использует [`amazon.aws.aws_ec2`](https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_ec2_inventory.html) подключаемый модуль для динамической загрузки данных инвентаризации EC2 Server.
 
 Это руководством можно использовать, даже если у вас еще нет тестовой среды Ansible и он содержит план terraform, который создаст пример AWS EC2 Server Inventory, состоящий из четырех серверов Windows Server 2019 и четырех серверов Ubuntu с простой конфигурацией CentOS 7 Ansible Control Server.
 
@@ -54,15 +54,15 @@ ms.locfileid: "101797670"
       az login
       az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
       ```
-  
-      Пример.
-  
+
+      Пример:
+
       ```console
       az ad sp create-for-rbac -n "http://AzureArcAWS" --role contributor
       ```
-  
+
       Выходные данные должны выглядеть следующим образом:
-  
+
       ```json
       {
       "appId": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX",
@@ -72,10 +72,10 @@ ms.locfileid: "101797670"
       "tenant": "XXXXXXXXXXXXXXXXXXXXXXXXXXXX"
       }
       ```
-  
+
       > [!NOTE]
       > Мы настоятельно рекомендуем ограничить субъект-службу определенной [подпиской Azure и группой ресурсов](/cli/azure/ad/sp).
-  
+
 ## <a name="create-an-aws-identity"></a>Создание удостоверения AWS
 
 Чтобы terraform мог создавать ресурсы в AWS, необходимо создать новую AWS роль IAM с соответствующими разрешениями и настроить terraform для ее использования.
@@ -125,12 +125,12 @@ ms.locfileid: "101797670"
 
 2. План terraform создает ресурсы как в Microsoft Azure, так и в AWS. Затем он выполняет сценарий на виртуальной машине AWS EC2 для установки Ansible и всех необходимых артефактов. Для этого плана terraform требуются определенные сведения о средах AWS и Azure, к которым он обращается с использованием переменных среды. Измените [`scripts/vars.sh`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/scaled_deployment/ansible/terraform/scripts/vars.sh) и обновите каждую из переменных с помощью соответствующих значений.
 
-   - `TF-VAR-subscription-id` — Идентификатор подписки Azure;
-   - `TF-VAR-client-id` = Идентификатор приложения субъекта-службы Azure
-   - `TF-VAR-client-secret` — пароль субъекта-службы Azure.
-   - `TF-VAR-tenant-id` — Идентификатор клиента Azure.
-   - `AWS-ACCESS-KEY-ID` = AWS ключ доступа
-   - `AWS-SECRET-ACCESS-KEY` = AWS секретный ключ
+   - `TF_VAR_subscription_id` — Идентификатор подписки Azure;
+   - `TF_VAR_client_id` = Идентификатор приложения субъекта-службы Azure
+   - `TF_VAR_client_secret` — пароль субъекта-службы Azure.
+   - `TF_VAR_tenant_id` — Идентификатор клиента Azure.
+   - `AWS_ACCESS_KEY_ID` = AWS ключ доступа
+   - `AWS_SECRET_ACCESS_KEY` = AWS секретный ключ
 
 3. В оболочке перейдите в `azure_arc_servers_jumpstart/aws/scaled_deployment/ansible/terraform` Каталог клонированного репозитория.
 
@@ -140,7 +140,7 @@ ms.locfileid: "101797670"
     source ./scripts/vars.sh
     ```
 
-5. Убедитесь, что ключи SSH доступны в `~/.ssh` и с именами `id-rsa.pub` и `id-rsa` . Если вы вошли в руководством по SSH Keygen выше, чтобы создать ключ, он уже должен быть правильно настроен. В противном случае может потребоваться изменить, [`aws-infrastructure.tf`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/scaled_deployment/ansible/terraform/aws_infra.tf) чтобы использовать ключ с другим путем.
+5. Убедитесь, что ключи SSH доступны в `~/.ssh` и с именами `id_rsa.pub` и `id_rsa` . Если вы вошли в руководством по SSH Keygen выше, чтобы создать ключ, он уже должен быть правильно настроен. В противном случае может потребоваться изменить, [`aws_infra.tf`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/scaled_deployment/ansible/terraform/aws_infra.tf) чтобы использовать ключ с другим путем.
 
 6. Выполните `terraform init` команду, которая будет скачивать необходимые поставщики terraform.
 
@@ -156,19 +156,19 @@ ms.locfileid: "101797670"
 
 ### <a name="run-the-ansible-playbook-to-onboard-the-aws-ec2-instances-as-azure-arc-enabled-servers"></a>Запустите Ansible сборник тренировочных заданий, чтобы подключить экземпляры AWS EC2 в качестве серверов с поддержкой ARC в Azure.
 
-1. После завершения плана terraform отображает общедоступный IP-адрес сервера управления Ansible в выходной переменной с именем `ansible-ip` . Подключитесь к серверу Ansible по протоколу SSH, выполнив `ssh centos@xx.xx.xx.xx` , где `xx.xx.xx.xx` заменяется на IP-адрес сервера Ansible.
+1. После завершения плана terraform отображает общедоступный IP-адрес сервера управления Ansible в выходной переменной с именем `ansible_ip` . Подключитесь к серверу Ansible по протоколу SSH, выполнив `ssh centos@xx.xx.xx.xx` , где `xx.xx.xx.xx` заменяется на IP-адрес сервера Ansible.
 
     ![Снимок экрана ключа SSH, подключающегося к удаленному серверу с помощью Ansible.](./media/aws-scale-ansible/ansible-ssh.png)
 
 2. Перейдите в каталог `ansible` , выполнив `cd ansible` . Эта папка содержит пример конфигурации Ansible и сборник тренировочных заданий, которые будут использоваться для подключения серверов к службе "Дуга Azure".
 
-    ![Снимок экрана сценария оболочки со списком файла "".](./media/aws-scale-ansible/ansible-cfg.png)
+    ![Снимок экрана папки конфигурации "ansible".](./media/aws-scale-ansible/ansible-cfg.png)
 
-3. `aw-ec2`Подключаемому модулю Ansible требуются учетные данные AWS для динамического чтения данных инвентаризации сервера AWS. Мы будем экспортировать их как переменные среды. Выполните следующие команды, заменив значения для `AWS-ACCESS-KEY-ID` и на `AWS-SECRET-ACCESS-KEY` учетные данные AWS, которые были созданы ранее.
+3. `aw-ec2`Подключаемому модулю Ansible требуются учетные данные AWS для динамического чтения данных инвентаризации сервера AWS. Мы будем экспортировать их как переменные среды. Выполните следующие команды, заменив значения для `AWS_ACCESS_KEY_ID` и на `AWS_SECRET_ACCESS_KEY` учетные данные AWS, которые были созданы ранее.
 
     ```console
-    export AWS-ACCESS-KEY-ID="XXXXXXXXXXXXXXXXX"
-    export AWS-SECRET-ACCESS-KEY="XXXXXXXXXXXXXXX"
+    export AWS_ACCESS_KEY_ID="XXXXXXXXXXXXXXXXX"
+    export AWS_SECRET_ACCESS_KEY="XXXXXXXXXXXXXXX"
     ```
 
 4. Замените значения заполнителей для идентификатора клиента Azure и идентификатора подписки в [`group-vars/all.yml`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/scaled_deployment/ansible/terraform/ansible_config/group_vars/all.yml) файле соответствующими значениями для вашей среды.
@@ -178,14 +178,14 @@ ms.locfileid: "101797670"
 5. Запустите Ansible сборник тренировочных заданий, выполнив следующую команду, заменив идентификатор субъекта-службы Azure и секрет субъекта-службы.
 
     ```console
-    ansible-playbook arc-agent.yml -i ansible-plugins/inventory-uswest2-aws-ec2.yml --extra-vars '{"service-principal-id": "XXXXXXX-XXXXX-XXXXXXX", "service-principal-secret": "XXXXXXXXXXXXXXXXXXXXXXXX"}'
+    ansible-playbook arc_agent.yml -i ansible_plugins/inventory-uswest2-aws_ec2.yml --extra-vars '{"service_principal_id": "XXXXXXX-XXXXX-XXXXXXX", "service_principal_secret": "XXXXXXXXXXXXXXXXXXXXXXXX"}'
     ```
 
     Если выполнение сборник тренировочных заданий успешно, вы увидите результат, аналогичный приведенному ниже снимку экрана.
 
     ![Снимок экрана с Ansible сборник тренировочных заданий.](./media/aws-scale-ansible/ansible-playbook.png)
 
-6. Откройте портал Azure и перейдите к группе ресурсов Arc-AWS-Demo. Вы должны увидеть список серверов с поддержкой дуги Azure.
+6. Откройте портал Azure и перейдите к `arc-aws-demo` группе ресурсов. Вы должны увидеть список серверов с поддержкой дуги Azure.
 
     ![Снимок экрана портал Azure адаптации серверов с поддержкой дуги Azure.](./media/aws-scale-ansible/onboarding-servers.png)
 
@@ -202,24 +202,24 @@ ms.locfileid: "101797670"
 
 ### <a name="review-provided-ansible-configuration-and-playbook"></a>Ознакомьтесь с предоставленной конфигурацией Ansible и сборник тренировочных заданий
 
-1. Перейдите в `ansible-config` каталог и просмотрите указанную конфигурацию. Указанная конфигурация содержит базовый `ansible.cfg` файл. Этот файл включает [`amazon.aws.aws-ec2`](https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws-ec2-inventory.html) подключаемый модуль Ansible, который динамически загружает инвентаризацию сервера с помощью роли AWS IAM. Убедитесь, что используемая роль IAM имеет достаточные привилегии для доступа к инвентаризации, которую вы хотите подключить.
+1. Перейдите в `ansible_config` каталог и просмотрите указанную конфигурацию. Указанная конфигурация содержит базовый `ansible.cfg` файл. Этот файл включает [`amazon.aws.aws_ec2`](https://docs.ansible.com/ansible/latest/collections/amazon/aws/aws_ec2_inventory.html) подключаемый модуль Ansible, который динамически загружает инвентаризацию сервера с помощью роли AWS IAM. Убедитесь, что используемая роль IAM имеет достаточные привилегии для доступа к инвентаризации, которую вы хотите подключить.
 
     ![Снимок экрана, показывающий сведения о файле "ansible. cfg".](./media/aws-scale-ansible/ansible-cfg-details.png)
 
-2. Этот файл [`inventory-uswest2-aws-ec2.yml`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/scaled_deployment/ansible/terraform/ansible_config/ansible_plugins/inventory_uswest2_aws_ec2.yml) настраивает `aws-ec2` подключаемый модуль для извлечения запасов из `uswest2` региона и ресурсов группы по примененным тегам. При необходимости настройте этот файл для поддержки адаптации инвентаризации сервера, например для изменения региона или настройки групп или фильтров.
+2. Этот файл [`inventory-uswest2-aws_ec2.yml`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/scaled_deployment/ansible/terraform/ansible_config/ansible_plugins/inventory_uswest2_aws_ec2.yml) настраивает `aws_ec2` подключаемый модуль для извлечения запасов из `uswest2` региона и ресурсов группы по примененным тегам. При необходимости настройте этот файл для поддержки адаптации инвентаризации сервера, например для изменения региона или настройки групп или фильтров.
 
    Файлы в `./ansible-config/group-vars` должны быть изменены для предоставления учетных данных, которые будут использоваться для подключения различных групп узлов Ansible.
 
 3. После корректировки указанной конфигурации для поддержки среды запустите Ansible сборник тренировочных заданий, выполнив следующую команду, заменив идентификатор субъекта-службы Azure и секрет субъекта-службы.
 
     ```console
-    ansible-playbook arc-agent.yml -i ansible-plugins/inventory-uswest2-aws-ec2.yml --extra-vars '{"service-principal-id": "XXXXXXX-XXXXX-XXXXXXX", "service-principal-secret": "XXXXXXXXXXXXXXXXXXXXXXXX"}'
+    ansible-playbook arc_agent.yml -i ansible_plugins/inventory-uswest2-aws_ec2.yml --extra-vars '{"service_principal_id": "XXXXXXX-XXXXX-XXXXXXX", "service_principal_secret": "XXXXXXXXXXXXXXXXXXXXXXXX"}'
     ```
 
     Как и раньше, при успешном выполнении сборник тренировочных заданий вы увидите выходные данные, аналогичные следующему снимку экрана:
 
       ![Снимок экрана с Ansible сборник тренировочных заданий.](./media/aws-scale-ansible/ansible-playbook.png)
 
-    Как и ранее, откройте портал Azure и перейдите к группе ресурсов Arc-AWS-Demo. Вы должны увидеть список серверов с поддержкой дуги Azure.
+    Как и ранее, откройте портал Azure и перейдите к `arc-aws-demo` группе ресурсов. Вы должны увидеть список серверов с поддержкой дуги Azure.
 
     ![Снимок экрана портал Azure, показывающей серверы с поддержкой дуги Azure.](./media/aws-scale-ansible/onboarding-servers.png)

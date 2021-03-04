@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 7e4e3b728a4e2c14b14615f00f32ed9034e302a0
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 41615efbde7f7b4c32846e73c2493c2d4b47500f
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016890"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102113645"
 ---
 # <a name="phase-3-ongoing-management-and-security"></a>Этап 3. постоянное управление и безопасность
 
@@ -29,7 +29,7 @@ ms.locfileid: "97016890"
 
 Центр безопасности Azure — это центральное место для управления безопасностью вашей среды. Вы увидите общую оценку и целевые рекомендации.
 
-Рекомендуется ознакомиться с рекомендациями, предоставляемыми этой службой, и реализовать их. Дополнительные сведения о дополнительных преимуществах центра безопасности Azure см. в статье [рекомендации центра безопасности Azure](/azure/migrate/migrate-best-practices-security-management#best-practice-follow-azure-security-center-recommendations).
+Рекомендуется ознакомиться с рекомендациями, предоставляемыми этой службой, и реализовать их. Дополнительные сведения о дополнительных преимуществах центра безопасности Azure см. в статье [рекомендации центра безопасности Azure](../../migrate/azure-best-practices/migrate-best-practices-security-management.md#best-practice-follow-azure-security-center-recommendations).
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 5f0a56f08d219663046b746d3a3999360743aba4
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 367b08aa62b68120def9e9788129cbe21b483d6c
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101798078"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102111979"
 ---
 # <a name="deploy-a-local-ubuntu-server-hosted-with-vagrant-and-connect-it-to-azure-arc"></a>Развертывание локального сервера Ubuntu, размещенного на Vagrant, и его подключение к службе "Дуга Azure"
 
@@ -46,7 +46,7 @@ ms.locfileid: "101798078"
         - Если вы являетесь пользователем macOS, выполните команду `brew cask install vagrant`
         - Если вы являетесь пользователем Windows, вы можете использовать [шоколадный пакет](https://chocolatey.org/packages/vagrant) .
         - Если вы являетесь пользователем Linux, посмотрите [здесь](https://www.vagrantup.com/downloads)
-  
+
 4. Создайте субъект-службу Azure.
 
     Чтобы подключить виртуальную машину Vagrant к службе "Дуга Azure", требуется субъект-служба Azure, назначенная с ролью участника. Чтобы создать его, войдите в учетную запись Azure и выполните следующую команду. Эту команду также можно выполнить в [Azure Cloud Shell](https://shell.azure.com/).
@@ -56,7 +56,7 @@ ms.locfileid: "101798078"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor

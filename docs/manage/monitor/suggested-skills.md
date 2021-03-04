@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: f89da567e6869e77999eb55b9388fabf6f91daca
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 64c70208dc0030a221dd657a5ab83309734c78c5
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101788578"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102113968"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -23,7 +23,7 @@ ms.locfileid: "101788578"
 
 Для разработки необходимых навыков можно использовать следующие схемы обучения. Они организованы начиная с изучения основ, а затем делятся на три основных домена субъектов: инфраструктуру, приложение и анализ данных.
 
-## <a name="fundamentals"></a>Базовый
+## <a name="fundamentals"></a>Основные сведения
 
 - Общие сведения о [Azure Resource Manager](/azure/azure-resource-manager/management/overview) обсуждаются основные принципы управления и развертывания ресурсов Azure. ИТ-специалисты, управляющие мониторингом на предприятии, должны понимать области управления, управление доступом на основе ролей Azure (Azure RBAC), используя. Azure Resource Manager шаблоны и управление ресурсами с помощью Azure CLI и Azure PowerShell.
 
@@ -34,7 +34,7 @@ ms.locfileid: "101788578"
   - [Используйте Azure CLI](https://www.linkedin.com/learning/learning-azure-management-tools/use-the-azure-cli).
   - [Начало работы с Azure PowerShell](https://www.linkedin.com/learning/learning-azure-management-tools/understand-azure-powershell)
 
-- Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей Azure и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](/learn/paths/implement-resource-mgmt-security).
+- Узнайте, как защитить ресурсы с помощью политик, управления доступом на основе ролей Azure и других служб Azure, просмотрев [реализацию безопасности управления ресурсами в Azure](/learn/paths/implement-resource-mgmt-security/).
 
 - [Мониторинг Microsoft Azure ресурсов и рабочих нагрузок](https://www.pluralsight.com/courses/microsoft-azure-resources-workloads-monitoring-update) поможет вам узнать, как использовать средства мониторинга Azure для мониторинга сетевых ресурсов Azure, а также ресурсов, размещенных локально.
 
@@ -66,7 +66,7 @@ ms.locfileid: "101788578"
 
   - [Microsoft Azure мониторинга базы данных сборник тренировочных заданий](https://www.pluralsight.com/courses/microsoft-azure-database-playbook-monitoring) поможет вам узнать, как реализовать и использовать мониторинг базы данных SQL Azure, хранилища данных SQL azure и Azure Cosmos DB.
 
-  - [Инструментирование приложений с помощью Azure Monitor Application Insights](https://app.pluralsight.com/library/courses/microsoft-azure-application-insights-web-application-instrument) является подробным курсом, посвященным использованию пакета SDK Application Insights для сбора данных телеметрии и событий из приложения с помощью угловых и Node.js компонентов.
+  - [Инструментирование приложений с помощью Azure Monitor Application Insights](https://www.pluralsight.com/courses/microsoft-azure-application-insights-web-application-instrument) является подробным курсом, посвященным использованию пакета SDK Application Insights для сбора данных телеметрии и событий из приложения с помощью угловых и Node.js компонентов.
 
   - [Отладка и профилирование приложений](https://www.pluralsight.com/courses/devintersection-azureai-session-31) — это запись из сеанса конференции Майкрософт по использованию и интерпретации данных, предоставляемых Application Insights Azure Monitor отладчиком моментальных снимков и профилировщиком.
 
@@ -88,23 +88,23 @@ ms.locfileid: "101788578"
 
 - [Map Roles and Skills (сопоставление ролей и навыков](../../plan/suggested-skills.md)). ресурс для сопоставления пути вашей облачной карьеры. Узнайте о роли облака и рекомендуемых навыках. Выполните учебный учебный курс в удобном для вас темпе, чтобы придерживаться необходимых навыков.
 
-- Изучите [обучающие курсы и экзамены по сертификации Azure](https://www.microsoft.com/learning/certification-overview.aspx) , чтобы получить официальное распознавание ваших знаний Azure.
+- Изучите [обучающие курсы и экзамены по сертификации Azure](/learn/certifications/) , чтобы получить официальное распознавание ваших знаний Azure.
 
 ## <a name="azure-devops-and-project-management"></a>Управление DevOps и проектом Azure
 
 Гибридная облачная среда прерывает работу с неопределенными ролями, обязанностями и действиями. Организации должны перейти на современные методики управления службами, в том числе гибкие и DevOps методологии, чтобы лучше удовлетворить требования к преобразованию и оптимизации современных бизнес-процессов с оптимизацией и эффективным способом.
 
-В рамках миграции на облачную платформу мониторинга ИТ-группа, ответственная за управление мониторингом в Организации, должна включать в себя гибкие возможности обучения и участия в действиях DevOps. Это также _относится к разработке в DevOps_ , принимая требования и применяя их к гибким требованиям, чтобы обеспечить минимально приемлемые решения для мониторинга, которые последовательно обновляются и в соответствии с потребностями бизнеса. Чтобы система управления версиями управляла пакетами решений итеративного мониторинга и другими связанными материалами, подключите проект Azure DevOps Server к репозиторию GitHub Enterprise Server. Это обеспечивает связь между фиксациями и запросами на вытягивание в GitHub и рабочими элементами. Вы можете использовать GitHub Enterprise для разработки при интеграции и развертывании непрерывного мониторинга, используя Azure Boards для планирования и отслеживания работы.
+В рамках миграции на облачную платформу мониторинга ИТ-группа, ответственная за управление мониторингом в Организации, должна включать в себя гибкие возможности обучения и участия в действиях DevOps. Это также *относится к разработке в DevOps* , принимая требования и применяя их к гибким требованиям, чтобы обеспечить минимально приемлемые решения для мониторинга, которые последовательно обновляются и в соответствии с потребностями бизнеса. Чтобы система управления версиями управляла пакетами решений итеративного мониторинга и другими связанными материалами, подключите проект Azure DevOps Server к репозиторию GitHub Enterprise Server. Это обеспечивает связь между фиксациями и запросами на вытягивание в GitHub и рабочими элементами. Вы можете использовать GitHub Enterprise для разработки при интеграции и развертывании непрерывного мониторинга, используя Azure Boards для планирования и отслеживания работы.
 
 Чтобы узнать больше, ознакомьтесь со следующими сведениями.
 
-- Приступая [к работе с Azure DevOps](/learn/modules/get-started-with-devops).
+- Приступая [к работе с Azure DevOps](/learn/modules/get-started-with-devops/).
 
-- [Сведения о DevOps Dojo (Белая лента Foundation](/learn/paths/devops-dojo-white-belt-foundation)).
+- [Сведения о DevOps Dojo (Белая лента Foundation](/learn/paths/devops-dojo-white-belt-foundation/)).
 
-- [Развивайте свои DevOpsные методики](/learn/paths/evolve-your-devops-practices).
+- [Развивайте свои DevOpsные методики](/learn/paths/evolve-your-devops-practices/).
 
-- [Автоматизируйте развертывания с помощью Azure DevOps](/learn/paths/automate-deployments-azure-devops).
+- [Автоматизируйте развертывания с помощью Azure DevOps](/learn/paths/automate-deployments-azure-devops/).
 
 ## <a name="other-considerations"></a>Другие замечания
 
@@ -116,4 +116,4 @@ ms.locfileid: "101788578"
 
 ## <a name="learn-more"></a>Дополнительные сведения
 
-Дополнительные схемы обучения см. в [каталоге Microsoft Learn](/learn/browse). Используйте фильтр ролей для согласования путей обучения с вашей ролью.
+Дополнительные схемы обучения см. в [каталоге Microsoft Learn](/learn/browse/). Используйте фильтр ролей для согласования путей обучения с вашей ролью.

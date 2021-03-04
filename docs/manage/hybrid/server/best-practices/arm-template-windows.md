@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 0205f46467b336f78d89412250b4bf1d53a730b6
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: b4dd445fd3ac8e9dc9677ebcae0933cf4bf386e1
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101797678"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112132"
 ---
 # <a name="use-an-azure-resource-manager-template-to-deploy-and-connect-an-azure-virtual-machine-to-azure-arc"></a>Использование шаблона Azure Resource Manager для развертывания и подключения виртуальной машины Azure к службе "Дуга Azure"
 
@@ -51,7 +51,7 @@ ms.locfileid: "101797678"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor
@@ -84,9 +84,9 @@ ms.locfileid: "101797678"
 
     1. Задайте локальные переменные среды ОС.
 
-    2. Создайте локальный скрипт входа в ОС с именем *LogonScript.ps1*. Вот что делает этот сценарий:
+    2. Создайте локальный скрипт входа в ОС с именем `LogonScript.ps1` . Вот что делает этот сценарий:
 
-        - Создайте файл *логонскрипт. log* .
+        - Создайте `LogonScript.log` файл.
 
         - Останавливает и отключает службу гостевого агента Windows Azure.
 
@@ -96,7 +96,7 @@ ms.locfileid: "101797678"
 
     3. Отключите и запретите запуск диспетчер сервера Windows при запуске.
 
-4. Пользователь подключается по протоколу RDP к виртуальной машине Windows, которая начинает работать *LogonScript.ps1* и подключает виртуальную машину к службе "Дуга Azure".
+4. Пользователь подключается по протоколу RDP к виртуальной машине Windows, которая начинает работать `LogonScript.ps1` и подключает виртуальную машину к службе "Дуга Azure".
 
 ## <a name="deployment"></a>Развертывание
 
@@ -109,7 +109,7 @@ ms.locfileid: "101797678"
 3. Чтобы развернуть шаблон ARM, перейдите к папке локального клонированного [развертывания](https://github.com/microsoft/azure_arc/tree/main/azure_arc_servers_jumpstart/azure/windows/arm_template) и выполните следующую команду:
 
     ```console
-    az group create --name <Name of the Azure resource group> --location <Azure Region> --tags "Project=jumpstart-azure-arc-servers"
+    az group create --name <Name of the Azure resource group> --location <Azure Region> --tags "Project=jumpstart_azure_arc_servers"
     az deployment group create \
     --resource-group <Name of the Azure resource group> \
     --name <The name of this deployment> \
@@ -120,10 +120,10 @@ ms.locfileid: "101797678"
     > [!NOTE]
     > Убедитесь, что используется имя группы ресурсов Azure, совпадающее с именем, использованным в `azuredeploy.parameters.json` файле.
 
-    Пример.
+    Пример:
 
     ```console
-    az group create --name Arc-Servers-Win-Demo --location "East US" --tags "Project=jumpstart-azure-arc-servers"
+    az group create --name Arc-Servers-Win-Demo --location "East US" --tags "Project=jumpstart_azure_arc_servers"
     az deployment group create \
     --resource-group Arc-Servers-Win-Demo \
     --name arcwinsrvdemo \

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 99e146fe7d1a7218efc5de212c163ea87739d557
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 8658150b7c472a1eb67c6002f3b7181a9b2e2d11
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101799068"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114308"
 ---
 # <a name="use-a-terraform-plan-to-deploy-a-vmware-ubuntu-virtual-machine-and-connect-it-to-azure-arc"></a>Использование плана terraform для развертывания виртуальной машины Ubuntu в VMware и ее подключения к службе "Дуга Azure"
 
@@ -46,7 +46,7 @@ ms.locfileid: "101799068"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor
@@ -82,17 +82,17 @@ ms.locfileid: "101799068"
 
 2. План terraform создает ресурсы как в Microsoft Azure, так и в VMware vSphere. Затем он выполняет сценарий на виртуальной машине, чтобы установить агент ARC для Azure и все необходимые артефакты. Для этого скрипта требуются определенные сведения о VMware vSphere и средах Azure. Измените [`scripts/vars.sh`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/vmware/ubuntu/terraform/scripts/vars.sh) и обновите каждую из переменных с помощью соответствующих значений.
 
-    - `TF-VAR-subscription-id` — Идентификатор подписки Azure;
-    - `TF-VAR-client-id` = Имя субъекта-службы Azure
-    - `TF-VAR-client-secret`— Пароль субъекта-службы Azure.
-    - `TF-VAR-tenant-id` — Идентификатор клиента Azure.
-    - `TF-VAR-resourceGroup` = Имя группы ресурсов Azure
-    - `TF-VAR-location` = Регион Azure
-    - `TF-VAR-vsphere-user` = Имя пользователя администратора vCenter
-    - `TF-VAR-vsphere-password` = Пароль администратора vCenter
-    - `TF-VAR-vsphere-server` = vCenter Server FQDN/IP
-    - `TF-VAR-admin-user` = Имя пользователя администратора ОС
-    - `TF-VAR-admin-password` = Пароль администратора ОС
+    - `TF_VAR_subscription_id` — Идентификатор подписки Azure;
+    - `TF_VAR_client_id` = Имя субъекта-службы Azure
+    - `TF_VAR_client_secret`— Пароль субъекта-службы Azure.
+    - `TF_VAR_tenant_id` — Идентификатор клиента Azure.
+    - `TF_VAR_resourceGroup` = Имя группы ресурсов Azure
+    - `TF_VAR_location` = Регион Azure
+    - `TF_VAR_vsphere_user` = имя пользователя администратора vCenter
+    - `TF_VAR_vsphere_password` = пароль администратора vCenter
+    - `TF_VAR_vsphere_server` = vCenter Server FQDN/IP
+    - `TF_VAR_admin_user` = Имя пользователя администратора ОС
+    - `TF_VAR_admin_password` = Пароль администратора ОС
 
 3. В интерфейсе командной строки перейдите в `azure_arc_servers_jumpstart/vmware/ubuntu/terraform` Каталог клонированного репозитория.
 
@@ -100,9 +100,9 @@ ms.locfileid: "101799068"
 
     `source ./scripts/vars.sh`
 
-5. Помимо `TF-VAR` переменных среды, которые вы только что экспортировали, измените переменные terraform в в, [`terraform.tfvars`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/vmware/ubuntu/terraform/terraform.tfvars) чтобы они соответствовали вашей среде VMware vSphere.
+5. Помимо `TF_VAR` переменных среды, которые вы только что экспортировали, измените переменные terraform в в, [`terraform.tfvars`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/vmware/ubuntu/terraform/terraform.tfvars) чтобы они соответствовали вашей среде VMware vSphere.
 
-    ![Снимок экрана переменных среды TF-VAR](./media/vmware-terraform-ubuntu/variables.png)
+    ![Снимок экрана переменных среды "TF_VAR"](./media/vmware-terraform-ubuntu/variables.png)
 
 6. Выполните `terraform init` команду, которая загрузит поставщики terraform AzureRM, Local и vSphere.
 
@@ -126,7 +126,7 @@ ms.locfileid: "101799068"
 
   ![Снимок экрана удаляемого сервера с поддержкой дуги Azure.](./media/vmware-terraform-ubuntu/delete-server.png)
 
-  При удалении экземпляра вручную необходимо также удалить *Install-Azure-Arc-Agent.sh* , созданный планом terraform.
+  При удалении экземпляра вручную необходимо также удалить `install_arc_agent.sh` , который создается с помощью плана terraform.
 
 - Если вы хотите разорвать всю среду, используйте `terraform destroy --auto-approve` команду, как показано ниже.
 

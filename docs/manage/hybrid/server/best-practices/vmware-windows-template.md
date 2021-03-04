@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 16f495d830e4e6feeb20bd162be850d903c2e244
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 16a110dd380149aaa72cbb316cbb549eec12ef42
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101799443"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114274"
 ---
 # <a name="create-a-vmware-vsphere-template-for-windows-server-2019"></a>Создание шаблона VMware vSphere для Windows Server 2019
 
@@ -80,23 +80,23 @@ ms.locfileid: "101799443"
 
 1. Установите средства VMware и перезапустите систему.
 
-    ![Первый снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-1.png)
+    ![Первый снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-1.png)
 
-    ![Второй снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-2.png)
+    ![Второй снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-2.png)
 
-    ![Третий снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-3.png)
+    ![Третий снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-3.png)
 
-    ![Четвертый снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-4.png)
+    ![Четвертый снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-4.png)
 
-    ![Пятый снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-5.png)
+    ![Пятый снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-5.png)
 
-    ![Шестой снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-6.png)
+    ![Шестой снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-6.png)
 
-    ![Седьмой снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-7.png)
+    ![Седьмой снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-7.png)
 
-    ![Восьмой снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-8.png)
+    ![Восьмой снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-8.png)
 
-    ![Девятый снимок экрана установки средств Вмваре.](./media/vmware-template/windows-template-tools-9.png)
+    ![Девятый снимок экрана установки средств VMware.](./media/vmware-template/windows-template-tools-9.png)
 
 2. Выполнение обновлений Windows.
 
@@ -111,7 +111,7 @@ ms.locfileid: "101799443"
     - Отключение конфигурации усиленной безопасности Internet Explorer (ESC) (можно позднее настроить с помощью групповой политики или сценария PowerShell)
     - Включите удаленный рабочий стол.
     - В PowerShell установите [шоколад](https://chocolatey.org/install)
-  
+
       ```powershell
       Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
       ```

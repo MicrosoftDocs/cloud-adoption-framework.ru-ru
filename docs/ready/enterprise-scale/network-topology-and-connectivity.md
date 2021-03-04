@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 06aa20a707b816ea0bd004131747b0dcac1cb832
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 7fe77aaade7da6a4eabcc935c0d26678ac07deb4
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101788085"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112802"
 ---
 <!-- docutune:casing "Azure VPN Gateway" L7 -->
 <!-- cSpell:ignore autoregistration BGPs MACsec MPLS MSEE onprem privatelink VPNs -->
@@ -78,4 +78,4 @@ ms.locfileid: "101788085"
 
 ## <a name="connectivity-to-other-cloud-providers"></a>Подключение к другим поставщикам облачных служб
 
-[В этом разделе приводятся различные подходы к соединению для интеграции архитектуры целевой зоны Azure корпоративного уровня с другими поставщиками облачных служб](../azure-best-practices/connectivity-to-other-cloud-providers.md).
+[В этом разделе приводятся различные подходы к соединению для интеграции архитектуры целевой зоны Azure корпоративного уровня с другими поставщиками облачных служб](../azure-best-practices/connectivity-to-other-providers.md).

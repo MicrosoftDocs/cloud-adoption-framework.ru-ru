@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank
-ms.openlocfilehash: f74049eecf2687184993f67b55c43e41cf914b62
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 5b38888337aa8ff9b6e4ce9c6ca9581d62179f21
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016614"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102113696"
 ---
 # <a name="centralize-management-operations"></a>Централизация операций управления
 

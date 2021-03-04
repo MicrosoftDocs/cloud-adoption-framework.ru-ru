@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 270b73e5533f2da5808d68a45b700112892b6bb9
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: ea1ea4913b3adb406806696254bdec0d514341a9
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101798133"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112234"
 ---
 # <a name="use-a-terraform-plan-to-deploy-an-amazon-linux-2-instance-on-amazon-elastic-compute-cloud-and-connect-it-to-azure-arc"></a>Использование плана terraform для развертывания экземпляра Amazon Linux 2 в облачном вычислительном облаке Amazon и его подключения к службе "Дуга Azure"
 
-В этой статье приводятся рекомендации по использованию предоставленного плана [terraform](https://www.terraform.io/) для развертывания экземпляра Amazon Web Services (AWS) Amazon эластичного облака (Amazon EC2) для Linux 2 и его подключения в качестве ресурса сервера с поддержкой ARC в Azure.
+В этой статье приводятся рекомендации по использованию предоставленного плана [terraform](https://www.terraform.io/) для развертывания экземпляра Linux 2 Amazon Web Services (AWS) Amazon эластичного облака (EC2) и подключения его в качестве ресурса сервера с поддержкой дуги Azure.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -103,12 +103,12 @@ ms.locfileid: "101798133"
 
 2. План terraform создает ресурсы как в Microsoft Azure, так и в AWS. Затем он выполняет сценарий на виртуальной машине AWS EC2, чтобы установить агент ARC для Azure и все необходимые артефакты. Для этого скрипта требуются определенные сведения о средах AWS и Azure. Измените [`scripts/vars.sh`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/AL2/terraform/scripts/vars.sh) и обновите каждую из переменных с помощью соответствующих значений.
 
-    - `TF-VAR-subscription-id`— Идентификатор подписки Azure;
-    - `TF-VAR-client-id`= Идентификатор приложения субъекта-службы Azure
-    - `TF-VAR-client-secret` — пароль субъекта-службы Azure.
-    - `TF-VAR-tenant-id`— Идентификатор клиента Azure.
-    - `AWS-ACCESS-KEY-ID` = AWS ключ доступа
-    - `AWS-SECRET-ACCESS-KEY` = AWS секретный ключ
+    - `TF_VAR_subscription_id`— Идентификатор подписки Azure;
+    - `TF_VAR_client_id`= Идентификатор приложения субъекта-службы Azure
+    - `TF_VAR_client_secret` — пароль субъекта-службы Azure.
+    - `TF_VAR_tenant_id`— Идентификатор клиента Azure.
+    - `AWS_ACCESS_KEY_ID` = AWS ключ доступа
+    - `AWS_SECRET_ACCESS_KEY` = AWS секретный ключ
 
 3. В Azure CLI перейдите в `azure_arc_servers_jumpstart/aws/al2/terraform` Каталог клонированного репозитория.
 
@@ -118,7 +118,7 @@ ms.locfileid: "101798133"
     source ./scripts/vars.sh
     ```
 
-5. Убедитесь, что ключи SSH доступны в `~/.ssh` и с именами `id-rsa.pub` и `id-rsa` . Если вы прийдете к руководству по SSH-Keygen выше, чтобы создать ключ, это уже должно быть правильно настроено. В противном случае может потребоваться изменить, [`main.tf`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/AL2/terraform/main.tf) чтобы использовать ключ с другим путем.
+5. Убедитесь, что ключи SSH доступны в `~/.ssh` и с именами `id_rsa.pub` и `id_rsa` . Если вы прийдете к руководству по SSH-Keygen выше, чтобы создать ключ, это уже должно быть правильно настроено. В противном случае может потребоваться изменить, [`main.tf`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/AL2/terraform/main.tf) чтобы использовать ключ с другим путем.
 
 6. Выполните `terraform init` команду, которая загрузит поставщик terraform AzureRM.
 
@@ -154,12 +154,12 @@ ms.locfileid: "101798133"
 
 4. Экспортируйте все переменные среды в [`vars.sh`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/aws/AL2/terraform/scripts/vars.sh)
 
-    ![Снимок экрана переменных среды, экспортирующих с помощью "".](./media/aws-terraform-al2/al2-export-variables.png)
+    ![Снимок экрана экспортированных переменных среды в "var.sh".](./media/aws-terraform-al2/al2-export-variables.png)
 
 5. Выполните следующую команду:
 
     ```console
-    azcmagent connect --service-principal-id $TF-VAR-client-id --service-principal-secret $TF-VAR-client-secret --resource-group "Arc-Servers-Demo" --tenant-id $TF-VAR-tenant-id --location "westus2" --subscription-id $TF-VAR-subscription-id
+    azcmagent connect --service-principal-id $TF_VAR_client_id --service-principal-secret $TF_VAR_client_secret --resource-group "Arc-Servers-Demo" --tenant-id $TF_VAR_tenant_id --location "westus2" --subscription-id $TF_VAR_subscription_id
     ```
 
     ![Еще один снимок экрана команды "азкмажент Connect".](./media/aws-terraform-al2/al2-azcmagent-2.png)

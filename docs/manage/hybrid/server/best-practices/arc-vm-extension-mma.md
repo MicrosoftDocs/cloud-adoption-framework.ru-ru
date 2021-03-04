@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 21bb83e68f7e31862e0485853016a6a059c7fc20
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: c1555d43bfe245f307284b0702742c41f6030cbc
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101798178"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112184"
 ---
 # <a name="manage-extensions-and-use-an-azure-resource-manager-template-to-deploy-microsoft-monitoring-agent-to-azure-arc-linux-and-windows-servers"></a>Управление расширениями и использование шаблона Azure Resource Manager для развертывания Microsoft Monitoring Agent в Azure Arc на серверах Linux и Windows
 
@@ -35,7 +35,7 @@ ms.locfileid: "101798178"
 - [Vagrant Ubuntu](./local-vagrant-ubuntu.md)
 - [Окно Vagrant Windows](./local-vagrant-windows.md)
 
-Ознакомьтесь с [Azure Monitor поддерживаемой документацией ОС](/azure/azure-monitor/insights/vminsights-enable-overview#supported-operating-systems) и убедитесь, что виртуальные машины, которые будут использоваться для этого упражнения, поддерживаются. Для виртуальных машин Linux проверьте как дистрибутив Linux, так и ядро, чтобы убедиться в том, что используется поддерживаемая конфигурация.
+Ознакомьтесь с [Azure Monitor поддерживаемой документацией ОС](/azure/azure-monitor/vm/vminsights-enable-overview#supported-operating-systems) и убедитесь, что виртуальные машины, которые будут использоваться для этого упражнения, поддерживаются. Для виртуальных машин Linux проверьте как дистрибутив Linux, так и ядро, чтобы убедиться в том, что используется поддерживаемая конфигурация.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -62,7 +62,7 @@ ms.locfileid: "101798178"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor

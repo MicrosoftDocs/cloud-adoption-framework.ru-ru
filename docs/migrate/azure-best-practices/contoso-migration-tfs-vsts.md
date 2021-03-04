@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 4b2934eff75f77ddfc4aa4a6925b7b41e2d003c4
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 4543821d183169ff4932f62118915c71db2fe6fc
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101791927"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102113815"
 ---
 <!-- cSpell:ignore contosodev contosodevmigration contosomigration onmicrosoft visualstudio sourceconnectionstring smarthotelcontainer identitymaplog CONTOSOTFS DACPAC SQLDB SQLSERVERNAME INSTANCENAME sqlpackage SSDT azuredevopsmigration validateonly ImportType -->
 
@@ -130,7 +130,7 @@ ms.locfileid: "101791927"
      ![Снимок экрана с панелью "Невыполненная работа по продукту * *" для проверки установки Team Foundation Server.](./media/contoso-migration-tfs-vsts/upgrade5.png)
 
 > [!NOTE]
-> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее.](/previous-versions/azure/devops/reference/upgrade/configure-features-after-upgrade?view=azure-devops preserve-view=true viewFallbackFrom=vsts)
+> Некоторые Team Foundation Server обновления должны запустить мастер настройки компонентов после завершения обновления. [Подробнее.](/previous-versions/azure/devops/reference/upgrade/configure-features-after-upgrade?view=azure-devops&preserve-view=true&viewFallbackFrom=vsts)
 
 **Требуется дополнительная помощь?**
 
@@ -479,13 +479,13 @@ ms.locfileid: "101791927"
 
 **Требуется дополнительная помощь?**
 
-Дополнительные сведения см. [в статье Импорт репозиториев из TFVC в Git](/azure/devops/repos/git/import-from-tfvc?view=azure-devops preserve-view=true viewFallbackFrom=vsts).
+Дополнительные сведения см. [в статье Импорт репозиториев из TFVC в Git](/azure/devops/repos/git/import-from-tfvc?view=azure-devops&preserve-view=true&viewFallbackFrom=vsts).
 
 ## <a name="clean-up-after-migration"></a>Очистка после миграции
 
 После завершения миграции группе Contoso необходимо выполнить следующие действия:
 
-- Ознакомиться со сведениями о дополнительных операциях [после импорта](/azure/devops/migrate/migration-post-import?view=azure-devops preserve-view=true viewFallbackFrom=vsts).
+- Ознакомиться со сведениями о дополнительных операциях [после импорта](/azure/devops/migrate/migration-post-import?view=azure-devops&preserve-view=true&viewFallbackFrom=vsts).
 - Либо удалите TFVC репозиториев, либо поместите их в режиме только для чтения. Не следует использовать основанные на коде базы кода, но на них можно ссылаться в журнале.
 
 ## <a name="post-migration-training"></a>Обучение после переноса данных

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank
-ms.openlocfilehash: 5dd750bcff3e2db84c709db2f4eaf853811d345a
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: 97ccdbfe3fa430b39a10f9f1bc670fc935dfe403
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100631718"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114070"
 ---
 # <a name="machine-learning-operations-with-azure-machine-learning"></a>Операции машинного обучения с Машинное обучение Azure
 

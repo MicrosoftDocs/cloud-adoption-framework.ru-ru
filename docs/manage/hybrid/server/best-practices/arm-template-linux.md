@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 50fc9c721716bd7be378db247daf3df1319f7d75
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 55289cb5383c490b5e7cc8a24c5c4621257af3e3
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101798373"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112030"
 ---
 # <a name="use-an-azure-resource-manager-template-to-deploy-and-connect-an-ubuntu-virtual-machine-to-azure-arc"></a>Использование шаблона Azure Resource Manager для развертывания и подключения виртуальной машины Ubuntu к службе "Дуга Azure"
 
@@ -24,7 +24,7 @@ ms.locfileid: "101798373"
 В этом руководства вы сможете использовать и подключать виртуальные машины Azure к службе "Дуга" Azure **только в демонстрационных целях**. Вы сможете имитировать сервер, развернутый за пределами Azure, например локально или на других облачных платформах.
 
 > [!NOTE]
-> Не ожидается, что виртуальная машина Azure будет вычислена как сервер с поддержкой Arc Azure. **Приведенный ниже сценарий не поддерживается и должен использоваться только для демонстрационных и тестовых целей.**
+> Виртуальная машина Azure не должна быть проецирована как сервер с поддержкой Arc Azure. **Следующий сценарий не поддерживается и должен использоваться только в целях демонстрации и тестирования.**
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -51,7 +51,7 @@ ms.locfileid: "101798373"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor
@@ -84,7 +84,7 @@ ms.locfileid: "101798373"
 
     1. Задайте локальные переменные среды ОС.
 
-    2. Создайте `~/.bash-profile` файл, который будет инициализирован при первом входе пользователя для настройки среды. Вот что делает этот сценарий:
+    2. Создайте `~/.bash_profile` файл, который будет инициализирован при первом входе пользователя для настройки среды. Вот что делает этот сценарий:
 
         - Останавливает и отключает службу гостевого агента Azure для Linux.
 
@@ -92,9 +92,9 @@ ms.locfileid: "101798373"
 
         - Установите агент подключенного компьютера ARC в Azure.
 
-        - Удалите `~/.bash-profile` файл, чтобы он не запускался после первого входа в систему.
+        - Удалите `~/.bash_profile` файл, чтобы он не запускался после первого входа в систему.
 
-4. Пользователь будет подключаться к виртуальной машине Linux по протоколу SSH, которая начнет `~/.bash-profile` выполнение скрипта и будет подключать виртуальную машину к службе "Дуга Azure".
+4. Пользователь будет подключаться к виртуальной машине Linux по протоколу SSH, которая начнет `~/.bash_profile` выполнение скрипта и будет подключать виртуальную машину к службе "Дуга Azure".
 
     > [!NOTE]
     >  [`install_arc_agent.sh`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/azure/linux/arm_template/scripts/install_arc_agent.sh)Сценарий оболочки включает БРАНДМАУЭР ОС и настраивает новые правила для входящих и исходящих подключений. По умолчанию весь входящий и исходящий трафик будет разрешен, за исключением блокировки исходящего трафика Azure IMDS на `169.254.169.254` Удаленный адрес.
@@ -110,7 +110,7 @@ ms.locfileid: "101798373"
 3. Чтобы развернуть шаблон ARM, перейдите к папке локального клонированного [развертывания](https://github.com/microsoft/azure_arc/tree/main/azure_arc_servers_jumpstart/azure/linux/arm_template) и выполните следующую команду:
 
     ```console
-    az group create --name <Name of the Azure resource group> --location <Azure region> --tags "Project=jumpstart-azure-arc-servers"
+    az group create --name <Name of the Azure resource group> --location <Azure region> --tags "Project=jumpstart_azure_arc_servers"
     az deployment group create \
     --resource-group <Name of the Azure resource group> \
     --name <The name of this deployment> \
@@ -121,10 +121,10 @@ ms.locfileid: "101798373"
     > [!NOTE]
     > Обязательно используйте имя группы ресурсов Azure, совпадающее с именем, которое использовалось в `azuredeploy.parameters.json` файле.
 
-    Пример.
+    Пример:
 
     ```console
-    az group create --name Arc-Servers-Linux-Demo --location "westeurope" --tags "Project=jumpstart-azure-arc-servers"
+    az group create --name Arc-Servers-Linux-Demo --location "westeurope" --tags "Project=jumpstart_azure_arc_servers"
     az deployment group create \
     --resource-group Arc-Servers-Linux-Demo \
     --name arclinuxdemo \

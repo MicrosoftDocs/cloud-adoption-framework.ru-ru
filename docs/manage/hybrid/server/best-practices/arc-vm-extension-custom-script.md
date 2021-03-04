@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 0892e38abdde324bdb58595bdabc9136d55a20ee
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: b8ac9e7f9041fe94d0644e06e342a1a1f6978d8a
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101797419"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112013"
 ---
 # <a name="use-virtual-machine-extensions-and-an-azure-resource-manager-template-to-deploy-custom-scripts-to-azure-arc-linux-and-windows-servers"></a>Использование расширений виртуальной машины и шаблона Azure Resource Manager для развертывания настраиваемых скриптов в Azure Arc Linux и Windows Server
 
@@ -41,7 +41,7 @@ ms.locfileid: "101797419"
     git clone https://github.com/microsoft/azure_arc.git
     ```
 
-2. Как уже упоминалось, это руководства начинается в том месте, где вы уже развернули и подключили виртуальные машины или серверы в дугу Azure. На следующих снимках экрана есть сервер обеспечить, подключенный к службе "Дуга" Azure, который отображается как ресурс в Azure.
+2. Как упоминалось ранее, это руководства начинается в том месте, где вы уже развернули и подключили виртуальные машины или серверы в дугу Azure. На следующих снимках экрана показан сервер обеспечить, подключенный к службе "Дуга Azure" и видимый как ресурс в Azure.
 
     ![Снимок экрана группы ресурсов с сервера с поддержкой дуги Azure.](./media/arc-vm-extension-custom-script/resource-group.png)
 
@@ -58,7 +58,7 @@ ms.locfileid: "101797419"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor
@@ -109,13 +109,13 @@ ms.locfileid: "101797419"
     - Windows:
 
          ```powershell
-         powershell -ExecutionPolicy Unrestricted -File custom-script-windows.ps1
+         powershell -ExecutionPolicy Unrestricted -File custom_script_windows.ps1
          ```
 
     - Linux:
 
          ```bash
-         ./custom-script-linux.sh
+         ./custom_script_linux.sh
          ```
 
 4. Чтобы развернуть шаблон ARM для Linux или Windows, перейдите к [папке развертывания](https://github.com/microsoft/azure_arc/tree/main/azure_arc_servers_jumpstart/extensions/arm) и выполните следующую команду с шаблонами, соответствующими вашей операционной системе:
@@ -140,7 +140,7 @@ ms.locfileid: "101797419"
 
   ![Снимок экрана с обновленным ежедневным сообщением.](./media/arc-vm-extension-custom-script/daily-message.png)
 
-- Для виртуальной машины Windows используйте RDP для подключения к виртуальной машине и убедитесь, что установлено дополнительное программное обеспечение: Microsoft погранично, 7-Zip и Visual Studio Code.
+- Подключитесь к виртуальной машине Windows по протоколу RDP и убедитесь, что установлено дополнительное программное обеспечение: Microsoft погранично, 7-Zip и Visual Studio Code.
 
   ![Снимок экрана с установленным дополнительным программным обеспечением.](./media/arc-vm-extension-custom-script/additional-software.png)
 

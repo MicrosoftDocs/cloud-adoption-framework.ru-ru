@@ -7,12 +7,12 @@ ms.date: 03/01/2021
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
-ms.openlocfilehash: 695d46a7641ec300aaf7956537f2b8cd2a3363fa
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: d04811ba3f0aa034362cb1683d82074dfd5eb776
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101797510"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102111996"
 ---
 # <a name="network-topology-and-connectivity-for-azure-kubernetes-service-aks-enterprise-scale-scenario"></a>Топология сети и подключение для сценария корпоративного масштабирования службы Azure Kubernetes Service (AKS)
 
@@ -29,7 +29,7 @@ ms.locfileid: "101797510"
 - Виртуальные узлы можно использовать для быстрого масштабирования кластера, но существуют некоторые [Известные ограничения](/azure/aks/virtual-nodes-portal).
 - Кластеры AKS поддерживают номера SKU "базовый" и "Стандартный" Azure Load Balancer.
 - AKS Services можно предоставлять с помощью общедоступных или внутренних подсистем балансировки нагрузки. Внутренние подсистемы балансировки нагрузки можно настроить в той же подсети, что и узлы Kubernetes, или в выделенной подсети.
-- Политика Azure и [надстройка политики Azure для AKS](/azure/governance/policy/concepts/policy-for-kubernetes "Политика Azure для AKS") могут управлять и ограничивать объекты, созданные в кластере AKS, например, запрещая создание общедоступных IP-адресов в кластере.
+- Политика Azure и [надстройка политики Azure для AKS](/azure/governance/policy/concepts/policy-for-kubernetes) могут управлять и ограничивать объекты, созданные в кластере AKS, например, запрещая создание общедоступных IP-адресов в кластере.
 - AKS использует Кореднс для обеспечения разрешения имен для модулей Pod, выполняющихся в кластере.
   - Кореднс будет разрешать внутренние домены непосредственно в кластере.
   - Другие домены будут перенаправляться на DNS-серверы, настроенные в виртуальной сети Azure, которые будут либо распознавательм Azure DNS по умолчанию, либо пользовательскими DNS-серверами, настроенными на уровне виртуальной сети.

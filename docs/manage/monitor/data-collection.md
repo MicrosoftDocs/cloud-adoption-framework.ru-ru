@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank
-ms.openlocfilehash: 7bf30e89bd3560dac8f0a3a9e62f01143a1e7c5f
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: fc3021199c33e495d31134f65693a8459482bfc1
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98174290"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114002"
 ---
 # <a name="cloud-monitoring-guide-collect-the-right-data"></a>Руководство по мониторингу облака: получение правильных данных
 

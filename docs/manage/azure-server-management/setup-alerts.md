@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 1738bdda4147b3f129baab218d408706caa32a95
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 9508b43837944ebfeb2bb1c10b93ff8fb9fed36f
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016805"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102113679"
 ---
 # <a name="set-up-basic-alerts"></a>Настройка базовых оповещений
 
@@ -21,7 +21,7 @@ ms.locfileid: "97016805"
 
 ## <a name="azure-monitor-alerts"></a>Оповещения Azure Monitor
 
-Azure Monitor предлагает возможности [оповещений](/azure/azure-monitor/platform/alerts-overview) , уведомляющие вас, по электронной почте или через обмен сообщениями при возникновении проблем. Эти возможности основаны на общей платформе мониторинга данных, которая включает журналы и метрики, созданные вашими серверами и другими ресурсами. Используя общий набор средств в Azure Monitor, можно анализировать данные, Объединенные из нескольких ресурсов, и использовать их для активации предупреждений. Эти триггеры могут включать:
+Azure Monitor предлагает возможности [оповещений](/azure/azure-monitor/alerts/alerts-overview) , уведомляющие вас, по электронной почте или через обмен сообщениями при возникновении проблем. Эти возможности основаны на общей платформе мониторинга данных, которая включает журналы и метрики, созданные вашими серверами и другими ресурсами. Используя общий набор средств в Azure Monitor, можно анализировать данные, Объединенные из нескольких ресурсов, и использовать их для активации предупреждений. Эти триггеры могут включать:
 
 - Значения метрик.
 - Запросы поиска по журналам.
@@ -29,9 +29,9 @@ Azure Monitor предлагает возможности [оповещений]
 - Работоспособность базовой платформы Azure.
 - Проверяет доступность веб-сайта.
 
-Более подробное описание источников данных мониторинга, собираемых этой службой, см. в [списке источников данных Azure Monitor](/azure/azure-monitor/platform/data-sources) .
+Более подробное описание источников данных мониторинга, собираемых этой службой, см. в [списке источников данных Azure Monitor](/azure/azure-monitor/agents/data-sources) .
 
-Дополнительные сведения о создании оповещений и управлении ими с помощью портал Azure вручную см. в [документации по Azure Monitor](/azure/azure-monitor/platform/alerts-metric).
+Дополнительные сведения о создании оповещений и управлении ими с помощью портал Azure вручную см. в [документации по Azure Monitor](/azure/azure-monitor/alerts/alerts-metric).
 
 ## <a name="automated-deployment-of-recommended-alerts"></a>Автоматическое развертывание рекомендуемых оповещений
 
