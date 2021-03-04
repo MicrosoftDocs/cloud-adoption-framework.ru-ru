@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: internal
-ms.openlocfilehash: e2060b80b0065c27bc39f113598a60ffed51b067
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: faf92bd8ec5ee7562c814de84904dc00c96e4877
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97023537"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101793083"
 ---
 # <a name="logging-and-reporting-decision-guide"></a>Руководство по принятию решений о ведении журналов и создании отчетов
 
@@ -119,8 +119,8 @@ ms.locfileid: "97023537"
 
 - Унифицированную платформу для сбора телеметрии приложений, телеметрии узлов (например, виртуальных машин), метрик контейнеров, метрик платформы Azure и журналов событий.
 - Визуализацию, запросы, оповещения и аналитические инструменты. Это позволяет получать аналитические сведения о виртуальных машинах, гостевых операционных системах, виртуальных сетях и событиях приложений рабочей нагрузки.
-- [REST API](/azure/azure-monitor/platform/rest-api-walkthrough) для интеграции со внешними службами и автоматизации служб мониторинга и оповещения.
-- [Интеграцию](/azure/azure-monitor/platform/partners) со многими популярными сторонними поставщиками.
+- [REST API](/azure/azure-monitor/essentials/rest-api-walkthrough) для интеграции со внешними службами и автоматизации служб мониторинга и оповещения.
+- [Интеграцию](/azure/azure-monitor/partners) со многими популярными сторонними поставщиками.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal
-ms.openlocfilehash: a42115e034e0f737e05feedad44cd5c0c777317f
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: f20091fbd5c142c6f70024f6647c5977e7456349
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97022347"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792998"
 ---
 # <a name="get-started-improve-reliability-with-the-right-controls"></a>Начало работы. повышение надежности с помощью правильных элементов управления
 
@@ -52,7 +52,7 @@ ms.locfileid: "97022347"
   - [Оперативное соответствие](../manage/considerations/operational-compliance.md). наибольшие проценты простоев обычно происходят из изменений в конфигурации ресурсов или при неудовлетворительных приемах обслуживания. Следуйте инструкциям [руководства по управлению сервером Azure](../manage/azure-server-management/index.md) , чтобы реализовать собственные средства для управления исправлениями и изменения конфигурации ресурсов.
   - [Защита и восстановление](../manage/considerations/protect.md): сбои неизбежны на любой платформе. В случае нарушения работы подготовьте [решения резервного копирования и восстановления](../manage/azure-management-guide/protect-recover.md) , чтобы минимизировать длительность.
 - [Дополнительные операции](../manage/design-principles.md). Используйте базовый план управления в качестве основы для ваших обсуждений по [Организации](../manage/considerations/business-alignment.md) . Он позволяет ясно обсуждать [критические](../manage/considerations/criticality.md)и [деловые последствия](../manage/considerations/impact.md)и [обязательства по эксплуатации](../manage/considerations/commitment.md). Деловое выравнивание помогает количественным и проверенным запросам на [Расширенные базовые показатели](../manage/azure-management-guide/enhanced-baseline.md), управление конкретными [технологическими платформами](../manage/azure-management-guide/workload-specialization.md)или [операции, связанные с рабочей нагрузкой](../manage/azure-management-guide/platform-specialization.md).
-- **Руководство по проверке архитектуры:** Для удовлетворения требований к операциям могут потребоваться изменения архитектуры на уровне рабочей нагрузки. [Microsoft Azure Well-Architected Framework](/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure Well-Architected](/assessments?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
+- **Руководство по проверке архитектуры:** Для удовлетворения требований к операциям могут потребоваться изменения архитектуры на уровне рабочей нагрузки. [Microsoft Azure Well-Architected Framework](/azure/architecture/framework/cost/tradeoffs) и [Microsoft Azure Well-Architected](/assessments/?id=azure-architecture-review) может помочь в обсуждении этих бесед с техническим владельцем конкретной рабочей нагрузки.
 
 <br>
 

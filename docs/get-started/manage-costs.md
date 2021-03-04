@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal
-ms.openlocfilehash: ccc8f2d86a9e99544a1022e8864523e56f226d7f
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 89c3587961a2a887a02e67ea3de8e3d7ed7002a0
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97022619"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101793032"
 ---
 # <a name="get-started-manage-cloud-costs"></a>Начало работы: Управление затратами на облачные ресурсы
 
@@ -174,7 +174,7 @@ ms.locfileid: "97022619"
 **Рекомендации по поддержке готовности к завершению.**
 
 - Используйте [Microsoft Azure Well-Architected проверку](/assessments/?id=azure-architecture-review) , чтобы узнать о балансе решений архитектуры.
-- Ознакомьтесь с [Microsoft Azure Well-Architected Framework](/azure/architecture/framework) , чтобы получить более глубокое руководство по оптимизации затрат во время внедрения инноваций.
+- Ознакомьтесь с [Microsoft Azure Well-Architected Framework](/azure/architecture/framework/) , чтобы получить более глубокое руководство по оптимизации затрат во время внедрения инноваций.
 
 <br>
 

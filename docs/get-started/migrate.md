@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal
-ms.openlocfilehash: 30da56d95560a90adf862f56aaf723ffe534e106
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 6c295bdb93d35c4832233fa03f525a236af23c69
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97022568"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101793015"
 ---
 # <a name="get-started-accelerate-migration"></a>Начало работы. Ускорение миграции
 
