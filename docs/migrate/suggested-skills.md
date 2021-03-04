@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: e36fb243716808df82bf71a46135734f322ef805
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: 25c653624aa183cfd80e9460acf87ddb28602259
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98175276"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101789904"
 ---
 # <a name="skills-readiness-for-cloud-migration"></a>Подготовка навыков для миграции в облако
 

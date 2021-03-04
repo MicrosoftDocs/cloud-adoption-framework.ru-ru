@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: 10baaefc8b06b46b918beb4e08c27ecc188e6e90
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: 32942357902adfd51d9a32c51852ecdabf272742
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98174341"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101791111"
 ---
 # <a name="knowledge-mining"></a>Интеллектуальный анализ знаний
 
@@ -34,12 +34,12 @@ Azure Когнитивный поиск — это управляемое обл
 - **Начало работы:** Получите доступ к бесплатным наборам решений для интеллектуального анализа знаний, Camp загрузки и семинарам.
 
   - [Акселератор решений интеллектуального анализа знаний](https://github.com/Azure-Samples/azure-search-knowledge-mining)
-  - [Семинар по интеллектуальному анализу знаний](https://github.com/Azure-Samples/azure-search-knowledge-mining/tree/master/workshops)
+  - [Семинар по интеллектуальному анализу знаний](https://github.com/Azure-Samples/azure-search-knowledge-mining/tree/main/workshops)
   - [Загрузка базы знаний Boot Camp](https://github.com/MicrosoftLearning/LearnAI-KnowledgeMiningBootcamp)
   - [Электронная книга интеллектуального анализа знаний](https://azure.microsoft.com/resources/a-developers-guide-to-building-ai-driven-knowledge-mining-solutions/)
-  - [Проект DevOps Azure для интеллектуального анализа данных](https://azuredevopsdemogenerator.azurewebsites.net/?name=kmine). Войдите в систему Навигация по инфраструктуре внедрения в облаке, выберите интеллектуальный анализ базы знаний. 
+  - [Проект DevOps Azure для интеллектуального анализа данных](https://azuredevopsdemogenerator.azurewebsites.net/?name=kmine), вход, перейти в навигацию по инфраструктуре внедрения в облаке и выбрать **интеллектуальный анализ знаний**.
 
-- **Использование Power Skills. Служба "** [Поиск Azure](https://github.com/Azure-Samples/azure-search-power-skills) " предоставляет полезные функции, которые могут быть развернуты в качестве пользовательских навыков для Azure когнитивный Поиск. Навыки можно использовать в качестве [шаблонов](https://github.com/Azure-Samples/azure-search-power-skills/blob/master/Template/HelloWorld/README.md) или отправных точек для собственных навыков. Они также могут быть развернуты и использованы в том случае, если они соответствуют вашим требованиям. Мы также приглашаем вас присоединиться к вашей собственной работе, отправив [запрос на вытягивание](https://github.com/Azure-Samples/azure-search-power-skills/compare).
+- **Использование Power Skills. Служба "** [Поиск Azure](https://github.com/Azure-Samples/azure-search-power-skills) " предоставляет полезные функции, которые могут быть развернуты в качестве пользовательских навыков для Azure когнитивный Поиск. Навыки можно использовать в качестве [шаблонов](https://github.com/Azure-Samples/azure-search-power-skills/blob/main/Template/HelloWorld/README.md) или отправных точек для собственных навыков. Они также могут быть развернуты и использованы в том случае, если они соответствуют вашим требованиям. Мы также приглашаем вас присоединиться к вашей собственной работе, отправив [запрос на вытягивание](https://github.com/Azure-Samples/azure-search-power-skills/compare).
 
 - **Изучите дополнительные ресурсы:**
 

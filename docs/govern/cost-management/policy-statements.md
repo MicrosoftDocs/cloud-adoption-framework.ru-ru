@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 7a5f69d397096a78125e5e158cb894683e06c535
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 3a528339c88a5ec70381580fefdcd358d9b60c93
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97021752"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101789530"
 ---
 # <a name="cost-management-sample-policy-statements"></a>Примеры правил политики управления затратами
 
@@ -39,7 +39,7 @@ ms.locfileid: "97021752"
 
 **Инструкция политики:** Любое облачное развертывание должно быть распределено в единицу выставления счетов с утвержденным бюджетом и механизмом для бюджетных ограничений.
 
-**Параметры проектирования:** В Azure бюджет можно контролировать с помощью службы " [Управление затратами Azure" и "выставление счетов](/azure/cost-management/manage-budgets)".
+**Параметры проектирования:** В Azure бюджет можно контролировать с помощью службы " [Управление затратами Azure" и "выставление счетов](/azure/cost-management-billing/cloudyn/manage-budgets)".
 
 ## <a name="underutilization"></a>Недостаточно эффективное использование
 
@@ -49,7 +49,7 @@ ms.locfileid: "97021752"
 
 **Параметры проектирования:**
 
-- В Azure плановые и фактические расходы можно управлять с помощью службы [управления затратами Azure и выставления счетов](/azure/cost-management/quick-acm-cost-analysis).
+- В Azure плановые и фактические расходы можно управлять с помощью службы [управления затратами Azure и выставления счетов](/azure/cost-management-billing/costs/quick-acm-cost-analysis).
 - Существует несколько вариантов группировки ресурсов отделом выставления счетов. Совместно с командой управления следует выбрать для Azure [модель согласованности ресурсов](../../decision-guides/resource-consistency/index.md) и применить ее ко всем ресурсам.
 
 ## <a name="overprovisioned-assets"></a>Избыточная подготовка ресурсов
@@ -71,7 +71,7 @@ ms.locfileid: "97021752"
 
 **Параметры проектирования:**
 
-- В Azure есть [аналитические функции Azure Monitor](/azure/azure-monitor/insights/vminsights-performance), которые помогут в анализе использования системы.
+- В Azure есть [аналитические функции Azure Monitor](/azure/azure-monitor/vm/vminsights-performance), которые помогут в анализе использования системы.
 - Также существует несколько методов группировки и маркировки ресурсов с учетом их ролей. Совместно с группой управления следует выбрать для Azure [модель согласованности ресурсов](../../decision-guides/resource-consistency/index.md) и применить ее ко всем ресурсам.
 
 ## <a name="next-steps"></a>Дальнейшие действия

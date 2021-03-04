@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: bdde8c06916817e8c3f54f221eef8976f61d0413
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 348eb3c8a255ae419f7b98c9ba5218c58286793d
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017621"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101790193"
 ---
 <!-- cSpell:ignore autoscaler Istio Linkerd -->
 
@@ -42,7 +42,7 @@ ms.locfileid: "97017621"
 > | **Ознакомьтесь с общими сценариями Kubernetes.** Kubernetes часто рассматривается как платформа для доставки микрослужб, но она становится намного более широкой платформой. Просмотрите это видео, чтобы узнать о стандартных сценариях Kubernetes, таких как пакетная аналитика и рабочий процесс.    | [Распространенные &nbsp; сценарии &nbsp; &nbsp; использования &nbsp; Kubernetes &nbsp; (видео)](https://www.youtube.com/watch?v=zd8vYhrFXp4&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=7) |
 > | **Подготовьте приложение к Kubernetes.** Подготовьте структуру файловой системы приложения для Kubernetes и упорядочите ее для еженедельных или ежедневных выпусков. Узнайте, как процесс развертывания Kubernetes обеспечивает надежное обновление без простоя. | [Проектирование и макет проекта для успешных приложений Kubernetes (веб-семинар)](https://info.microsoft.com/ww-OnDemandRegistration-successful-kubernetes-applications-webinar.html) <br> [Как работают развертывания Kubernetes (видео)](https://www.youtube.com/watch?v=mNK14yXIZF4&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=3) <br> [Пройдите по AKS семинару](/learn/modules/aks-workshop/) |
 > | **Управление хранилищем приложений.** Изучите требования к производительности и методы доступа для модулей Pod, чтобы предоставить соответствующие варианты хранения. Также следует продумать методы резервного копирования и протестировать процессы восстановления для подключенного хранилища. | [Основные сведения о приложениях с отслеживанием состояния в Kubernetes (видео)](https://www.youtube.com/watch?v=GieXzb91I40&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=9) <br> [Состояние и данные в приложениях Docker](/dotnet/architecture/microservices/architect-microservice-container-applications/docker-application-state-data) <br> [Варианты хранения в службе Kubernetes Azure](/azure/aks/operator-best-practices-storage) |
-> | **Управление секретами приложения.** Не храните учетные данные в коде приложения. Хранилище ключей должно использоваться для хранения и извлечения ключей и учетных данных.  | [Как работает управление Kubernetes и конфигурацией (видео)](https://www.youtube.com/watch?v=vRcQOZLnKUk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=11) <br> [Общие сведения об управлении секретами в Kubernetes (видео)](https://www.youtube.com/watch?v=KmhM33j5WYk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=10) <br> [Использование Azure Key Vault с Kubernetes](https://github.com/azure/kubernetes-keyvault-flexvol) <br> [Использование удостоверения Pod Azure AD для проверки подлинности и доступа к ресурсам Azure](https://github.com/azure/aad-pod-identity) |
+> | **Управление секретами приложения.** Не храните учетные данные в коде приложения. Хранилище ключей должно использоваться для хранения и извлечения ключей и учетных данных. | [Как работает управление Kubernetes и конфигурацией (видео)](https://www.youtube.com/watch?v=vRcQOZLnKUk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=11) <br> [Общие сведения об управлении секретами в Kubernetes (видео)](https://www.youtube.com/watch?v=KmhM33j5WYk&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=10) <br> [Использование Azure Key Vault с Kubernetes](https://github.com/azure/kubernetes-keyvault-flexvol) <br> [Использование удостоверения Pod Azure AD для проверки подлинности и доступа к ресурсам Azure](https://github.com/azure/aad-pod-identity) |
 
 ## <a name="deploy-to-production-and-apply-best-practices"></a>Развертывание в рабочей среде и применение рекомендаций
 
@@ -58,8 +58,8 @@ ms.locfileid: "97017621"
 
 > [!div class="tdCol2BreakAll"]
 >
-> | Контрольный список  | Ресурсы                                                                                                     |
-> |------------------------------------------------------------------|-----------------------------------------------------------------|
+> | Контрольный список | Ресурсы |
+> |---|---|
 > | **Настройка проверки готовности и текущих проверок работоспособности.** Kubernetes использует проверки готовности и динамичности, чтобы выяснить, когда приложение готово к получению трафика и когда его необходимо перезапустить. Не определяя такие проверки, Kubernetes не сможет определить, работает ли приложение. | [Актуальность и проверки готовности](https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-startup-probes) |
 > | **Настройка ведения журналов, мониторинга приложений и предупреждений.** Мониторинг контейнеров крайне важен, особенно если вы управляете рабочим кластером в нужном масштабе с несколькими приложениями. Рекомендуемый метод ведения журнала для контейнерных приложений — это запись в потоки стандартных выходных данных (stdout) и стандартных ошибок (stderr). | [Вход в Kubernetes](https://kubernetes.io/docs/concepts/cluster-administration/logging) <br> [Приступая к работе с мониторингом и оповещениями для Kubernetes (видео)](https://www.youtube.com/watch?v=W7aN_z-cyUw&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=16) <br> [Azure Monitor для контейнеров](/azure/azure-monitor/insights/container-insights-overview) <br> [Enable and review Kubernetes master node logs in Azure Kubernetes Service (AKS)](/azure/aks/view-master-logs) (Включение и просмотр журналов главного узла Kubernetes в Службе Azure Kubernetes (AKS)) <br> [Просмотр журналов Kubernetes, событий и метрик Pod в режиме реального времени](/azure/azure-monitor/insights/container-insights-livedata-overview) |
 > | **Определите требования к ресурсам для приложения.** Основным способом управления ресурсами вычислений в кластере Kubernetes является использование запросов и ограничений Pod. Эти запросы и ограничения сообщают планировщику Kubernetes, какие ресурсы вычислений должен назначить Pod. | [Определение &nbsp; &nbsp; &nbsp; запросов &nbsp; и ограничений ресурсов &nbsp; Pod](/azure/aks/developer-best-practices-resource-management) |
@@ -79,8 +79,8 @@ ms.locfileid: "97017621"
 
 > [!div class="tdCol2BreakAll"]
 >
-> | Контрольный список  | Ресурсы                                                                                                     |
-> |------------------------------------------------------------------|-----------------------------------------------------------------|
-> | **Развертывание шлюза API.** Шлюз API выступает в качестве точки входа в микрослужбы, отделяет клиентов от микрослужб, добавляет дополнительный уровень безопасности и сокращает сложность микрослужб за счет устранения проблем, связанных с обработкой перекрестных задач.     | [Использование службы управления API Azure с микрослужбами, развернутыми в службе Kubernetes Azure](/azure/api-management/api-management-kubernetes) |
+> | Контрольный список | Ресурсы |
+> |---|---|
+> | **Развертывание шлюза API.** Шлюз API выступает в качестве точки входа в микрослужбы, отделяет клиентов от микрослужб, добавляет дополнительный уровень безопасности и сокращает сложность микрослужб за счет устранения проблем, связанных с обработкой перекрестных задач. | [Использование службы управления API Azure с микрослужбами, развернутыми в службе Kubernetes Azure](/azure/api-management/api-management-kubernetes) |
 > | **Развертывание сетки службы.** Сетка служб предоставляет такие возможности, как управление трафиком, устойчивость, политика, безопасность, надежный идентификатор и наблюдаемость рабочих нагрузок. Приложение отделено от этих операционных возможностей, и сетка служб перемещает их из уровня приложения и на уровень инфраструктуры. | [Как &nbsp; &nbsp; работают сети служб &nbsp; &nbsp; в &nbsp; Kubernetes &nbsp; (видео)](https://www.youtube.com/watch?v=izVWk7rYqWI&list=PLLasX02E8BPCrIhFrc_ZiINhbRkYMKdPT&index=15&t=0s) <br> [Дополнительные сведения о сетчатых службах](/azure/aks/servicemesh-about) <br> [Использование Istio со службой Kubernetes Azure](/azure/aks/servicemesh-istio-about) <br> [Использование Linkerd со службой Kubernetes Azure](/azure/aks/servicemesh-linkerd-about) <br> [Использование Consul со службой Kubernetes Azure](/azure/aks/servicemesh-consul-about) |
-> | **Реализуйте рекомендации по проектированию надежности сайта (выполняются).** Технология обеспечения надежности сайта (выполняются) — это проверенный подход к обеспечению важной надежности системы и приложений при итерации по скорости, требуемой Marketplace.   | [Введение в проектирование надежности сайта (выполняются)](/learn/modules/intro-to-site-reliability-engineering) <br> [DevOps в Майкрософт: потоковая передача игр выполняются](https://azure.microsoft.com/resources/devops-at-microsoft-game-streaming-sre) |
+> | **Реализуйте рекомендации по проектированию надежности сайта (выполняются).** Технология обеспечения надежности сайта (выполняются) — это проверенный подход к обеспечению важной надежности системы и приложений при итерации по скорости, требуемой Marketplace. | [Введение в проектирование надежности сайта (выполняются)](/learn/modules/intro-to-site-reliability-engineering) <br> [DevOps в Майкрософт: потоковая передача игр выполняются](https://azure.microsoft.com/resources/devops-at-microsoft-game-streaming-sre) |

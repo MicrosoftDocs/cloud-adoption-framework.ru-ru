@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: 8518fdb8702b92575069e22c8994e65ef862ea40
-ms.sourcegitcommit: 86d51757bd34b49ce3b061123a6aaa8c88d3b2cc
+ms.openlocfilehash: acbb9fd8744b720848ad5043cbd71080dba4c8fb
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97909418"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101791094"
 ---
 <!-- cSpell:ignore scikit RLlib ONNX Jupyter -->
 
@@ -23,7 +23,7 @@ Azure предоставляет вам более широкие возможн
 
 Вы даже можете начать обучение на локальном компьютере, а затем масштабировать его в облако. Служба также взаимодействует с популярными средствами для глубокого обучения и подкреплением с открытым исходным кодом, такими как PyTorch, TensorFlow, scikit-Learning, Ray и Рллиб.
 
-Приступая к работе с [машинное обучение](/azure/machine-learning/). Ознакомьтесь с руководством по [началу работы с первым экспериментом машинного обучения](/azure/machine-learning/tutorial-1st-experiment-sdk-setup). Дополнительные сведения о формате модели с открытым исходным кодом и среде выполнения для машинного обучения см. в разделе [Среда выполнения ONNX](http://onnxruntime.ai).
+Приступая к работе с [машинное обучение](/azure/machine-learning/). Ознакомьтесь с руководством по [началу работы с первым экспериментом машинного обучения](/azure/machine-learning/tutorial-1st-experiment-sdk-setup). Дополнительные сведения о формате модели с открытым исходным кодом и среде выполнения для машинного обучения см. в разделе [Среда выполнения ONNX](https://www.onnxruntime.ai/).
 
 Ниже приведены распространенные сценарии для решений машинного обучения.
 
@@ -36,10 +36,10 @@ Azure предоставляет вам более широкие возможн
 
 ## <a name="checklist"></a>Контрольный список
 
-- Начните с **первого знакомства с машинное обучение**, а затем выберите, с каким опытом начать. Вы можете следовать инструкциям, чтобы использовать Jupyter Notebook с Python, визуальным интерфейсом перетаскивания или автоматическим машинным обучением (Аутомл).
+- Начните с **первого знакомства с машинное обучение**, а затем выберите, с каким опытом начать. Вы можете следовать инструкциям, чтобы использовать записную книжку Jupyter с Python, визуальный интерфейс перетаскивания или автоматизированное машинное обучение (Аутомл).
 
   - [Обзор Машинное обучение](/azure/machine-learning/overview-what-is-azure-ml)
-  - [Создание первого эксперимента машинного обучения с помощью Jupyter Notebook с Python](/azure/machine-learning/tutorial-1st-experiment-sdk-setup)
+  - [Создание первого эксперимента машинного обучения с помощью Jupyter Notebook с помощью Python](/azure/machine-learning/tutorial-1st-experiment-sdk-setup)
   - [Визуальные эксперименты и перетаскивание](/azure/machine-learning/tutorial-designer-automobile-price-train-score)
   - [Использование пользовательского интерфейса Аутомл](/azure/machine-learning/tutorial-first-experiment-automated-ml)
   - [Настройка среды разработки](/azure/machine-learning/how-to-configure-environment)

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 438694b987a3c7f6a4074569e7f67b3b928d16cb
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: d26434ac17503e9183671ebe0897a77b08ecef22
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98175038"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101789921"
 ---
 # <a name="migration-backlog-review"></a>Обзор невыполненной работы по миграции
 

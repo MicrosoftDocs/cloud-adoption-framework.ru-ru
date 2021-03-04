@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: d0577bbcdbd637aa81a07bb956b0d782137121f3
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: d52eb8ada0d778a2f87991289f32cf4e267064d7
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97021395"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101791434"
 ---
 # <a name="deployment-acceleration-tools-in-azure"></a>Средства ускорения развертывания в Azure
 
@@ -23,19 +23,19 @@ ms.locfileid: "97021395"
 
 Ниже приведен список средств Azure, которые могут помочь в обработке политик и процессов, поддерживающих эту дисциплину.
 
-|  | [Политика Azure](/azure/governance/policy/overview) | [Группы управления Azure.](/azure/governance/management-groups) | [Azure Resource Manager](/azure/azure-resource-manager/management/overview) | [Azure Blueprints](/azure/governance/blueprints/overview) | [Azure Resource Graph](/azure/governance/resource-graph/overview) | [Управление затратами и выставление счетов Azure](/azure/cost-management) |
+|  | [Политика Azure](/azure/governance/policy/overview) | [Группы управления Azure.](/azure/governance/management-groups/) | [Azure Resource Manager](/azure/azure-resource-manager/management/overview) | [Azure Blueprints](/azure/governance/blueprints/overview) | [Azure Resource Graph](/azure/governance/resource-graph/overview) | [Управление затратами и выставление счетов Azure](/azure/cost-management-billing/) |
 |---------|---------|---------|---------|---------|---------|---------|
 | **Реализация корпоративных политик**     | Да | Нет  | Нет  | Нет | Нет | Нет |
 | **Применение политик в подписках**     | Обязательно | Да  | Нет  | Нет | Нет | Нет |
 | **Развертывание определенных ресурсов**     | Нет | Нет  | Да  | Нет | Нет | Нет |
-| **Создание полностью соответствующих сред**      | Обязательно | Обязательно  | Обязательно  | Да | Нет | Нет |
+| **Создание полностью соответствующих сред**      | Обязательно | Обязательно | Обязательно | Да | Нет | Нет |
 | **Политики аудита**      | Да | Нет  | Нет  | Нет | Нет | Нет |
 | **Запрос к ресурсам Azure**      | Нет | Нет  | Нет  | Нет | Да | Нет |
 | **Отчет о стоимости ресурсов**      | Нет | Нет  | Нет  | Нет | Нет | Да |
 
 Ниже приведены дополнительные средства, которые могут потребоваться для выполнения конкретных задач ускорения развертывания. Часто эти средства используются за пределами группы управления, но по-прежнему считаются аспектом дисциплины ускорения развертывания.
 
-|  | [Портал Azure](https://azure.microsoft.com/features/azure-portal)  | [Azure Resource Manager](/azure/azure-resource-manager/management/overview)  | [Политика Azure](/azure/governance/policy/overview) | [Azure DevOps](/azure/devops/user-guide/what-is-azure-devops) | [Azure Backup](/azure/backup/backup-overview) | [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) |
+|  | [Портал Azure](https://azure.microsoft.com/features/azure-portal/) | [Azure Resource Manager](/azure/azure-resource-manager/management/overview) | [Политика Azure](/azure/governance/policy/overview) | [Azure DevOps](/azure/devops/user-guide/what-is-azure-devops) | [Azure Backup](/azure/backup/backup-overview) | [Azure Site Recovery](/azure/site-recovery/site-recovery-overview) |
 |---------|---------|---------|---------|---------|---------|---------|
 | **Развертывание вручную (один ресурс)**     | Да | Да  | Нет  | Не эффективное | Нет | Да |
 | **Развертывание вручную (полная среда)**     | Не эффективное | Да | Нет  | Не эффективное | Нет | Да |

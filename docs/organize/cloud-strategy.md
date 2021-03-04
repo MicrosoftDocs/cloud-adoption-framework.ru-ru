@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: 1d9f3f82c928ce8855a54a72eabc131d8b6bc937
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 9c7d69ced18631d476523788014669d276d56d00
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026342"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101789751"
 ---
 # <a name="cloud-strategy-functions"></a>Функции облачной стратегии.
 
@@ -37,8 +37,8 @@ ms.locfileid: "97026342"
 
 ## <a name="preparation"></a>Подготовка
 
-- [Изучите бизнес-ценность Microsoft Azure](/learn/paths/learn-business-value-of-azure).
-- [Узнайте, как облачная платформа внедрения](/learn/modules/microsoft-cloud-adoption-framework-for-azure) может помочь в согласовании стратегии для бизнеса, людей и технологий.
+- [Изучите бизнес-ценность Microsoft Azure](/learn/paths/learn-business-value-of-azure/).
+- [Узнайте, как облачная платформа внедрения](/learn/modules/microsoft-cloud-adoption-framework-for-azure/) может помочь в согласовании стратегии для бизнеса, людей и технологий.
 - Ознакомьтесь с процессом [стратегии внедрения в облако](../strategy/index.md) .
 - Скачайте [шаблон стратегии и плана](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/plan/cloud-adoption-framework-strategy-and-plan-template.docx).
 

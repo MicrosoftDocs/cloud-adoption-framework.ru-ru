@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: internal
-ms.openlocfilehash: 8f7f2b5ec27d852bbe4adfffe79671446c898205
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 68545b97525eca19ddfb67179744458ea97ad594
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97018590"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792080"
 ---
 # <a name="tools-to-democratize-data-in-azure"></a>Средства для более демократичным данных в Azure
 
@@ -40,26 +40,26 @@ ms.locfileid: "97018590"
 
 В Azure следующие средства обычно используются для ускорения цифровых Invention на предыдущих этапах:
 
-- [Power BI](/power-bi)
-- [Каталог данных Azure](/azure/data-catalog)
-- [Azure Synapse Analytics](/azure/synapse-analytics)
-- [Azure Cosmos DB](/azure/cosmos-db)
-- [База данных Azure для PostgreSQL](/azure/postgresql)
-- [База данных Azure для MySQL](/azure/mysql)
-- [База данных Azure для MariaDB](/azure/mariadb)
+- [Power BI](/power-bi/)
+- [Каталог данных Azure](/azure/data-catalog/)
+- [Azure Synapse Analytics](/azure/synapse-analytics/)
+- [Azure Cosmos DB](/azure/cosmos-db/)
+- [База данных Azure для PostgreSQL](/azure/postgresql/)
+- [База данных Azure для MySQL](/azure/mysql/)
+- [База данных Azure для MariaDB](/azure/mariadb/)
 - [Масштабирование базы данных Azure для PostgreSQL](/azure/postgresql/concepts-hyperscale-nodes)
 - [Хранилище озера данных Azure](/azure/storage/blobs/data-lake-storage-introduction)
-- [Azure Database Migration Service](/azure/dms)
-- [База данных SQL Azure с Управляемый экземпляр Azure SQL или без нее](/azure/sql-database)
-- [Фабрика данных Azure](/azure/data-factory).
-- [Azure Stream Analytics](/azure/stream-analytics)
-- [SQL Server Integration Services](/sql/integration-services)
-- [Azure Stack](/azure-stack)
-- [SQL Server Stretch Database](/sql/sql-server/stretch-database)
-- [StorSimple Azure](/azure/storsimple)
-- [Файлы Azure](/azure/storage/files)
+- [Azure Database Migration Service](/azure/dms/)
+- [База данных SQL Azure с Управляемый экземпляр Azure SQL или без нее](/azure/azure-sql/)
+- [Фабрика данных Azure](/azure/data-factory/).
+- [Azure Stream Analytics](/azure/stream-analytics/)
+- [SQL Server Integration Services](/sql/integration-services/sql-server-integration-services)
+- [Azure Stack](/azure-stack/)
+- [SQL Server Stretch Database](/sql/sql-server/stretch-database/stretch-database)
+- [StorSimple Azure](/azure/storsimple/)
+- [Файлы Azure](/azure/storage/files/)
 - [Синхронизация файлов Azure](/azure/storage/files/storage-sync-files-planning)
-- [PolyBase](/sql/relational-databases/polybase)
+- [PolyBase](/sql/relational-databases/polybase/polybase-guide)
 
 Так как Invention приближается к внедрению в масштабе, для каждого решения требуется уточнение и техническая дата_вступл_в_силу. Как и в этом случае, скорее всего, потребуется больше этих служб. Используйте оглавление в левой части этой страницы для руководства по средствам Azure, относящиеся к процессу тестирования гипотезы.
 

@@ -8,20 +8,20 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 75961a8b57273c84449f5fa3c95b232859434a45
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: 259d3fbbbff40972e5bd9975be61474f88a01f09
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100631820"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101791961"
 ---
 <!-- cSpell:ignore WEBVM SQLVM contosohost vcenter contosodc OSTICKETWEB OSTICKETMYSQL osTicket contosoosticket trafficmanager InnoDB binlog DBHOST DBUSER CNAME -->
 
 # <a name="refactor-a-linux-application-by-using-azure-app-service-traffic-manager-and-azure-database-for-mysql"></a>Рефакторинг приложения Linux с помощью службы приложений Azure, диспетчера трафика и базы данных Azure для MySQL
 
-В этой статье показано, как вымышленная компания Contoso предоставляет многоуровневое приложение на [основе лампы](https://wikipedia.org/wiki/LAMP_(software_bundle)) , перенося его из локальной среды в Azure с помощью службы приложений Azure с интеграцией GitHub и базы данных Azure для MySQL.
+В этой статье показано, как вымышленная компания Contoso предоставляет многоуровневое приложение на [основе лампы](https://wikipedia.org/wiki/LAMP_software_bundle) , перенося его из локальной среды в Azure с помощью службы приложений Azure с интеграцией GitHub и базы данных Azure для MySQL.
 
-Остиккет, приложение службы поддержки, используемое в этом примере, предоставляется в виде открытого кода. Если вы хотите использовать его для тестирования, вы можете скачать его из [репозитория остиккет на сайте GitHub](https://github.com/osTicket/osTicket).
+Остиккет, приложение службы поддержки, используемое в этом примере, предоставляется в виде программного обеспечения с открытым кодом. Если вы хотите использовать его для тестирования, вы можете скачать его из [репозитория остиккет на сайте GitHub](https://github.com/osTicket/osTicket).
 
 ## <a name="business-drivers"></a>Бизнес-факторы
 
@@ -87,10 +87,10 @@ ms.locfileid: "100631820"
 
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
-| [Служба приложений Azure](https://azure.microsoft.com/services/app-service/) | Служба работает и масштабирует приложения, используя платформу Azure как службу (PaaS) для веб-сайтов. | Цены основываются на размере экземпляров и необходимых функциях. [Подробнее](https://azure.microsoft.com/pricing/details/app-service/windows/). |
-| [Azure Traffic Manager](https://azure.microsoft.com/services/traffic-manager/) | Балансировщик нагрузки, использующий систему доменных имен (DNS) для направления пользователей в Azure или на внешние веб-сайты и службы. | Цены основываются на количестве принятых запросов DNS и количестве отслеживаемых конечных точек. | [Подробнее](https://azure.microsoft.com/pricing/details/traffic-manager/). |
+| [Служба приложений Azure](https://azure.microsoft.com/services/app-service/) | Служба работает и масштабирует приложения, используя платформу Azure как службу (PaaS) для веб-сайтов. | Цены основываются на размере экземпляров и необходимых функциях. [Подробнее.](https://azure.microsoft.com/pricing/details/app-service/windows/) |
+| [Диспетчер трафика Azure](https://azure.microsoft.com/services/traffic-manager/) | Балансировщик нагрузки, использующий систему доменных имен (DNS) для направления пользователей в Azure или на внешние веб-сайты и службы. | Цены основываются на количестве принятых запросов DNS и количестве отслеживаемых конечных точек. | [Подробнее](https://azure.microsoft.com/pricing/details/traffic-manager/). |
 | [Azure Database Migration Service](/azure/dms/dms-overview) | Azure Database Migration Service обеспечивает простой перенос из нескольких источников базы данных на платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration/). |
-| [База данных Azure для MySQL](/azure/mysql/) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL для сообщества для разработки и развертывания приложений. | Цены основаны на требованиях к вычислениям, хранению и резервному копированию. [Подробнее](https://azure.microsoft.com/pricing/details/mysql/server/). |
+| [База данных Azure для MySQL](/azure/mysql/) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL для сообщества для разработки и развертывания приложений. | Цены основаны на требованиях к вычислениям, хранению и резервному копированию. [Подробнее.](https://azure.microsoft.com/pricing/details/mysql/server/) |
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -119,21 +119,22 @@ ms.locfileid: "100631820"
 Администраторы Contoso подготавливают два веб-приложения (по одному в каждом регионе) с помощью службы приложений Azure.
 
 1. Они создают ресурс веб-приложения ( `osticket-eus2` ) в основном регионе ( `East US 2` ) через Azure Marketplace.
+
 2. Они помещают ресурс в рабочую группу ресурсов `ContosoRG` .
 
-    ![Снимок экрана: область "веб-приложение" для создания веб-приложения в Linux.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app1.png)
+    ![Снимок экрана: область * * веб-приложение * * для создания веб-приложения в Linux.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app1.png)
 
-3. Они создают план службы приложений **app-—-EUS2** в основном регионе и используют стандартный размер.
+3. Они создают план службы приложений, `APP-SVP-EUS2` в основном регионе и используют стандартный размер.
 
-     ![Снимок экрана с панелью "новый план службы приложений" для создания плана службы приложений.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app2.png)
+     ![Снимок экрана: область * * новый план службы приложений * * для создания плана службы приложений.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app2.png)
 
 4. Специалисты компании выбирают операционную систему Linux со стеком времени выполнения PHP 7.0, который представляет собой контейнер Docker.
 
-    ![Снимок экрана: панель "веб-приложение" с ОС Linux, расположением для восточной части США 2 и выбранным PHP 7,0.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app3.png)
+    ![Снимок экрана: область * * веб-приложение * *, в ОС Linux, Восточная часть США 2 и выбранный PHP 7,0.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app3.png)
 
-5. Они создают второе веб-приложение **остиккет-Cu** и план службы приложений Azure для **Центральной территории США**.
+5. Они создают второе веб-приложение, `osticket-cus` и план службы приложений Azure для **Центральной территории США**.
 
-    ![Снимок экрана: панель "веб-приложение" с ОС Linux, Центральная часть США и выбранный PHP 7,0.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app4.png)
+    ![Снимок экрана: область * * веб-приложение * *, в ОС Linux, Центральная часть США и выбранный PHP 7,0.](./media/contoso-migration-refactor-linux-app-service-mysql/azure-app4.png)
 
 **Требуется дополнительная помощь?**
 
@@ -144,13 +145,13 @@ ms.locfileid: "100631820"
 
 Администраторы Contoso настраивают диспетчер трафика для направления входящих веб-запросов в веб-приложения, работающие на веб-уровне Остиккет.
 
-1. В Azure Marketplace они создают ресурс диспетчера трафика **osticket.trafficmanager.NET**. Они используют маршрутизацию приоритетов, чтобы **Восточная часть США 2** была первичным сайтом. Они размещают ресурс в существующей группе ресурсов инфраструктуры **контосоинфрарг**. Обратите внимание на то, что диспетчер трафика является глобальным и не привязан к определенному месту.
+1. В Azure Marketplace они создают ресурс диспетчера трафика `osticket.trafficmanager.net` . Они используют маршрутизацию приоритетов, чтобы **Восточная часть США 2** была первичным сайтом. Они помещают ресурс в существующую группу ресурсов инфраструктуры `ContosoInfraRG` . Обратите внимание на то, что диспетчер трафика является глобальным и не привязан к определенному месту.
 
-    ![Снимок экрана: панель "Создание профиля диспетчера трафика".](./media/contoso-migration-refactor-linux-app-service-mysql/traffic-manager1.png)
+    ![Снимок экрана: область * * создать профиль диспетчера трафика * *.](./media/contoso-migration-refactor-linux-app-service-mysql/traffic-manager1.png)
 
-2. Они настраивают диспетчер трафика с конечными точками. Они добавляют веб-приложение в восточной части США 2 в качестве первичного сайта, **остиккет-eus2** и веб-приложение в центральной части США в качестве вторичного сайта **остиккет-Cu**.
+2. Они настраивают диспетчер трафика с конечными точками. Они добавляют веб-приложение в восточной части США 2 в качестве первичного сайта, `osticket-eus2` и веб-приложение в центральном регионе США в качестве вторичного сайта `osticket-cus` .
 
-    ![Снимок экрана: область "Добавление конечной точки" в диспетчере трафика.](./media/contoso-migration-refactor-linux-app-service-mysql/traffic-manager2.png)
+    ![Снимок экрана: область "добавить конечную точку" * * в диспетчере трафика.](./media/contoso-migration-refactor-linux-app-service-mysql/traffic-manager2.png)
 
 3. После добавления конечных точек администраторы могут отслеживать их.
 
@@ -169,20 +170,21 @@ ms.locfileid: "100631820"
 
     ![Снимок экрана: ссылка на базу данных Azure для MySQL в портал Azure.](./media/contoso-migration-refactor-linux-app-service-mysql/mysql-1.png)
 
-2. Они добавляют имя **contosoosticket** для базы данных Azure. Они добавляют базу данных в рабочую группу ресурсов **ContosoRG** , а затем указывают для нее учетные данные.
+2. Они добавляют имя `contosoosticket` для базы данных Azure. Они добавляют базу данных в рабочую группу ресурсов `ContosoRG` , а затем указывают для нее учетные данные.
+
 3. В локальной среде используется база данных MySQL 5.7, поэтому для обеспечения совместимости выбрана именно эта версия. Для размера они выбирают значение по умолчанию, соответствующее требованиям компании для базы данных.
 
-    ![Снимок экрана: панель "MySQL Server" с выбранной версией 5,7.](./media/contoso-migration-refactor-linux-app-service-mysql/mysql-2.png)
+    ![Снимок экрана: панель * * MySQL Server * * с выбранной версией 5,7.](./media/contoso-migration-refactor-linux-app-service-mysql/mysql-2.png)
 
 4. Для **параметров избыточности резервных копий** они выбирают **геоизбыточное**. Этот параметр позволяет восстановить базу данных в дополнительном регионе (Центральная область США) при возникновении сбоя. Они могут настраивать этот параметр только при подготовке базы данных.
 
-    ![Снимок экрана: панель "параметры избыточности резервных копий" с выбранным параметром Geo-Redundant.](./media/contoso-migration-refactor-linux-app-service-mysql/db-redundancy.png)
+    ![Снимок экрана: панель "параметры избыточности резервных копий" * * с выбранным параметром Geo-Redundant.](./media/contoso-migration-refactor-linux-app-service-mysql/db-redundancy.png)
 
 5. Специалисты настраивают безопасность подключения. В базе данных они выбирают **Безопасность подключения** , а затем настраиваются правила брандмауэра, чтобы разрешить базе данных доступ к службам Azure.
 
 6. Они добавляют IP-адрес клиента локальной рабочей станции в начальный и конечный IP-адреса. Это позволяет веб-приложениям получать доступ к базе данных MySQL, а также к ее клиенту, который выполняет перенос.
 
-    ![Снимок экрана: панель "безопасность подключения", показывающая доступ к включенным службам Azure и выбранному IP-адресу клиента.](./media/contoso-migration-refactor-linux-app-service-mysql/mysql-3.png)
+    ![Снимок экрана: панель "безопасность подключения * *", в которой отображается доступ к службам Azure, включенным и выбран IP-адрес клиента.](./media/contoso-migration-refactor-linux-app-service-mysql/mysql-3.png)
 
 ## <a name="step-4-migrate-the-database"></a>Шаг 4. Миграция базы данных
 
@@ -201,8 +203,10 @@ ms.locfileid: "100631820"
 Вкратце, компания Contoso выполняет следующие действия:
 
 - Они гарантируют соблюдение всех необходимых условий для миграции.
-  - Источник сервера базы данных MySQL должен соответствовать версии, поддерживаемой базой данных Azure для MySQL. База данных Azure для MySQL поддерживает выпуск MySQL Community Edition, подсистему хранилища InnoDB и миграцию между исходными и целевыми версиями.  
-  - Они позволяют выполнять двоичный вход в систему `my.ini` (Windows) или `my.cnf` (UNIX). В противном случае в мастере миграции произойдет следующая ошибка. Дополнительные  `Error in binary logging. Variable binlog_row_image has value 'minimal'. Please change it to 'full'.` сведения см. в [документации по MySQL](https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html).
+
+  - Источник сервера базы данных MySQL должен соответствовать версии, поддерживаемой базой данных Azure для MySQL. База данных Azure для MySQL поддерживает выпуск MySQL Community Edition, подсистему хранилища InnoDB и миграцию между исходными и целевыми версиями.
+
+  - Они позволяют выполнять двоичный вход в систему `my.ini` (Windows) или `my.cnf` (UNIX). В противном случае в мастере миграции произойдет следующая ошибка. Дополнительные `Error in binary logging. Variable binlog_row_image has value 'minimal'. Please change it to 'full'.` сведения см. в [документации по MySQL](https://dev.mysql.com/doc/refman/5.7/en/replication-options-binary-log.html).
 
   - Пользователь должен иметь `ReplicationAdmin` роль.
 
@@ -216,65 +220,67 @@ ms.locfileid: "100631820"
 
 - Они запускают средство Database Migration Service, а затем выполняют следующие действия.
 
-  а. Создайте проект миграции на основе SKU Premium.
+  1. Создайте проект миграции на основе SKU Premium.
 
-    ![Снимок экрана панели "Обзор" MySQL с сообщением о том, что служба миграции успешно создана.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-new-project.png)
+     ![Снимок экрана панели "Обзор" MySQL с сообщением о том, что служба миграции успешно создана.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-new-project.png)
 
-    ![Снимок экрана: область "новый проект миграции" MySQL.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-new-project-02.png)
+     ![Снимок экрана: окно MySQL * * новый проект миграции * *.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-new-project-02.png)
 
-  b. Добавьте источник (локальная база данных).
+  2. Добавьте источник (локальная база данных).
 
-    ![Снимок экрана: панель "Добавление сведений об источнике" мастера миграции.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-source.png)
+     ![Снимок экрана: мастер миграции * * добавить сведения об источнике * *.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-source.png)
 
-  c. Выберите целевой объект.
+  3. Выберите целевой объект.
 
-    ![Снимок экрана: панель "сведения о целевом объекте" мастера миграции.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-target.png)
+     ![Снимок экрана: мастер миграции * * сведения о целевом объекте * *.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-target.png)
 
-  d. Выберите базы данных для миграции.
+  4. Выберите базы данных для миграции.
 
-    ![Снимок экрана: панель "сопоставьте с целевыми базами данных" мастера миграции.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-databases.png)
+     ![Снимок экрана: мастер миграции * * отобразить в области целевых баз данных * *.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-databases.png)
 
-  д) Настройка дополнительных параметров.
+  5. Настройка дополнительных параметров.
 
-    ![Снимок экрана: панель "параметры миграции" мастера миграции.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-settings.png)
+     ![Снимок экрана: мастер миграции * * параметры миграции * *.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-settings.png)
 
-  е) Запустите репликацию и устраните все ошибки.
+  6. Запустите репликацию и устраните все ошибки.
 
-    ![Снимок экрана: панель сведений о сервере.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-monitor.png)
+     ![Снимок экрана: панель сведений о сервере.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-monitor.png)
 
-  ж. Выполните окончательный прямую миграцию.
+  7. Выполните окончательный прямую миграцию.
 
-    ![Снимок экрана: область сведений о Остиккет.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-cutover.png)
+     ![Снимок экрана: область сведений о Остиккет.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-cutover.png)
 
-    ![Снимок экрана: область "завершение прямую миграцию".](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-cutover-complete.png)
+     ![Снимок экрана: область * * завершение прямую миграцию * *.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-cutover-complete.png)
 
-    ![Снимок экрана: таблица состояния действий миграции.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-cutover-complete-02.png)
+     ![Снимок экрана: таблица состояния действий миграции.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-cutover-complete-02.png)
 
-  h. Возобновите использование внешних ключей и триггеров.
+  8. Возобновите использование внешних ключей и триггеров.
 
-  i. Измените приложения для использования новой базы данных.
+  9. Измените приложения для использования новой базы данных.
 
-    ![Снимок экрана: таблица "действия миграции".](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-cutover-apps.png)
+     ![Снимок экрана с таблицей * * действия миграции * *.](./media/contoso-migration-refactor-linux-app-service-mysql/migration-dms-cutover-apps.png)
 
 ### <a name="step-4b-migrate-the-database-mysql-workbench"></a>Шаг 4b. Миграция базы данных (MySQL Workbench)
 
 1. Администраторы Contoso проверяют [Предварительные требования и загружают MySQL Workbench](https://dev.mysql.com/downloads/workbench/?utm_source=tuicool).
-2. Специалисты компании устанавливают MySQL Workbench для Windows в соответствии с [инструкциями по установке](https://dev.mysql.com/doc/workbench/en/wb-installing.html). Компьютер, на котором они устанавливают MySQL Workbench, должен быть доступен для виртуальной машины ОСТИККЕТМИСКЛ и в Azure через Интернет.
-3. Они создают в среде MySQL Workbench подключение MySQL к OSTICKETMYSQL.
+
+2. Специалисты компании устанавливают MySQL Workbench для Windows в соответствии с [инструкциями по установке](https://dev.mysql.com/doc/workbench/en/wb-installing.html). Компьютер, на котором они устанавливают MySQL Workbench, должен быть доступен для `osticketmysql` виртуальной машины и в Azure через Интернет.
+
+3. В MySQL Workbench они создают подключение MySQL к `osticketmysql` .
 
     ![Снимок экрана: панель сведений о подключении к MySQL Workbench.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench1.png)
 
 4. Они экспортируют базу данных `osticket` в локальный автономный файл.
 
-    ![Снимок экрана: панель "экспорт данных" MySQL Workbench.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench2.png)
+    ![Снимок экрана: область "экспорт данных" MySQL Workbench * *.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench2.png)
 
 5. После того как резервное копирование базы данных было выполнено локально, администраторы создают подключение к экземпляру базы данных Azure для MySQL.
 
-    ![Панель "Настройка нового подключения" MySQL Workbench.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench3.png)
+    ![Панель MySQL Workbench * * Настройка нового подключения * *.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench3.png)
 
 6. Теперь они могут импортировать (восстановить) базу данных в экземпляре базы данных Azure для MySQL из автономного файла. `osticket`Для экземпляра создается новая схема.
 
-    ![Снимок экрана: панель "Импорт данных" MySQL Workbench.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench4.png)
+    ![Снимок экрана: область "Импорт данных" MySQL Workbench * *.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench4.png)
 
 7. После восстановления данных администраторы могут запрашивать их с помощью MySQL Workbench. Данные отображаются в портал Azure.
 
@@ -284,7 +290,7 @@ ms.locfileid: "100631820"
 
 8. Администраторы обновляют сведения о базе данных в веб-приложениях. В экземпляре MySQL специалисты открывают **Строки подключения**.
 
-    ![Снимок экрана: ссылка "строки подключения" в экземпляре MySQL.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench7.png)
+    ![Снимок экрана: ссылка на строку подключения * * в экземпляре MySQL.](./media/contoso-migration-refactor-linux-app-service-mysql/workbench7.png)
 
 9. В списке строки подключения выберите параметры веб-приложения, а затем скопируйте их, щелкнув **щелкните, чтобы скопировать**.
 
@@ -306,7 +312,7 @@ ms.locfileid: "100631820"
 
     ![Снимок экрана со страницей репозитория GitHub с выделением кнопки ветвления.](./media/contoso-migration-refactor-linux-app-service-mysql/github1.png)
 
-2. После того как они развилкают репозиторий, они переходят в папку *include* , а затем найдите и выберите файл *Ост-конфиг. php* .
+2. После того как они развилкают репозиторий, он переходит в `include` папку и выбирает `ost-config.php` файл.
 
     ![Снимок экрана файла PHP в GitHub.](./media/contoso-migration-refactor-linux-app-service-mysql/github2.png)
 
@@ -320,59 +326,60 @@ ms.locfileid: "100631820"
 
 5. Они фиксируют изменения.
 
-    ![Снимок экрана с выделением кнопки "фиксация изменений" на панели "Изменить".](./media/contoso-migration-refactor-linux-app-service-mysql/github5.png)
+    ![Снимок экрана с выделением кнопки * * фиксация изменений * * на панели редактирования.](./media/contoso-migration-refactor-linux-app-service-mysql/github5.png)
 
-6. Для каждого веб-приложения (остиккет-eus2 и остиккет-Cu) в портал Azure они выбирают **Параметры приложения** на левой панели, а затем изменяют параметры.
+6. Для каждого веб-приложения ( `osticket-eus2` и `osticket-cus` ) в портал Azure они выбирают **Параметры приложения** на левой панели, а затем изменяют параметры.
 
-    ![Снимок экрана с выделением ссылки "Параметры приложения" в портал Azure.](./media/contoso-migration-refactor-linux-app-service-mysql/github6.png)
+    ![Снимок экрана с выделением ссылки * * параметры приложения * * в портал Azure.](./media/contoso-migration-refactor-linux-app-service-mysql/github6.png)
 
 7. Они вводят строку подключения с именем `osticket` и копируют строку из Блокнота в **область значений**. Они выбирают **MySQL** в раскрывающемся списке рядом со строкой и сохраняют параметры.
 
-    ![Снимок экрана: панель "строки подключения", в которой выделяется строка подключения Остиккет.](./media/contoso-migration-refactor-linux-app-service-mysql/github7.png)
+    ![Снимок экрана: панель "* * строки подключения * *", в которой выделяется строка подключения Остиккет.](./media/contoso-migration-refactor-linux-app-service-mysql/github7.png)
 
 ## <a name="step-6-configure-the-web-apps"></a>Шаг 6. Настройка веб-приложений
 
 На последнем этапе процесса миграции администраторы Contoso настраивают веб-приложения с веб-сайтами Остиккет.
 
-1. В основном веб-приложении остиккет-eus2 открывает **вариант развертывания** , а затем устанавливает источник в **GitHub**.
+1. В основном веб-приложении `osticket-eus2` они открывают **вариант развертывания** , а затем устанавливают источник в **GitHub**.
 
-    ![Снимок экрана: панель "вариант развертывания", в которой в качестве источника выбрано GitHub.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app1.png)
+    ![Снимок экрана: область * * вариант развертывания * *, в которой в качестве источника выбрано GitHub.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app1.png)
 
 2. Специалисты компании выбирают варианты развертывания.
 
-    ![Снимок экрана с подробными сведениями о параметре на панели "вариант развертывания".](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app2.png)
+    ![Снимок экрана с подробными сведениями о параметре на панели * * вариант развертывания * *.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app2.png)
 
-3. После установки параметров Конфигурация будет отображаться как *Ожидание* в портал Azure.
+3. После установки параметров Конфигурация будет отображаться как **Ожидание** в портал Azure.
 
-    ![Снимок экрана: панель "Параметры развертывания", показывающая состояние ожидания сайта.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app3.png)
+    ![Снимок экрана: панель "Параметры развертывания * *", показывающая состояние ожидания сайта.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app3.png)
 
-4. После обновления конфигурации и загрузки веб-приложения Остиккет из GitHub в контейнер DOCKER, в котором выполняется служба приложений Azure, сайт отображается как *Активный*.
+4. После обновления конфигурации и загрузки веб-приложения Остиккет из GitHub в контейнер DOCKER, в котором выполняется служба приложений Azure, сайт отображается как **Активный**.
 
-    ![Снимок экрана: панель "Параметры развертывания".](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app4.png)
+    ![Снимок экрана: панель "Параметры развертывания * *" * *.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app4.png)
 
-5. Они повторяют предыдущие шаги для дополнительного веб-приложения остиккет-Cu.
-6. После настройки сайт становится доступным через профиль диспетчера трафика. DNS-имя — это новое расположение приложения Остиккет. [Подробнее](/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record).
+5. Они повторяют предыдущие шаги для дополнительного веб-приложения, `osticket-cus` .
+6. После настройки сайт становится доступным через профиль диспетчера трафика. DNS-имя — это новое расположение приложения Остиккет. [Подробнее.](/azure/app-service/app-service-web-tutorial-custom-domain#map-a-cname-record)
 
     ![Снимок экрана: панель "профиль диспетчера трафика", отображающая DNS-имя.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app5.png)
 
-7. Contoso хочет использовать DNS-имя, которое легко запомнить. На **новой панели записи ресурсов** создаются псевдонимы, **CNAME** и полное доменное имя **osticket.contoso.com**, которое указывает на имя диспетчера трафика в DNS на контроллерах домена.
+7. Contoso хочет использовать DNS-имя, которое легко запомнить. На **новой панели записи ресурсов** создаются псевдоним, CNAME и полное доменное имя, `osticket.contoso.com` которое указывает на имя ДИСПЕТЧЕРА трафика в DNS на контроллерах домена.
 
-    ![Снимок экрана: панель "Новая запись ресурса", в которой отображается имя псевдонима и указатель на диспетчер трафика.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app6.png)
+    ![Снимок экрана: область * * новая запись ресурса * *, в которой отображается имя псевдонима и указатель на диспетчер трафика.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app6.png)
 
-8. Они настраивают веб-приложения остиккет-eus2 и остиккет-Cu, чтобы разрешить пользовательские имена узлов.
+8. Они настраивают `osticket-eus2` `osticket-cus` веб-приложения и, чтобы разрешить пользовательские имена узлов.
 
-    ![Снимок экрана: область "имя узла AD", выделяющая кнопку "проверить".](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app7.png)
+    ![Снимок экрана: область * * имя узла Active Directory * *, выделяющая кнопку проверки.](./media/contoso-migration-refactor-linux-app-service-mysql/configure-app7.png)
 
 ### <a name="set-up-autoscaling"></a>Настройка автомасштабирования
 
 Наконец, администраторы Contoso настроили автоматическое масштабирование для приложения. Автоматическое масштабирование гарантирует, что, как только агенты используют приложение, экземпляры приложения увеличиваются и уменьшаются в соответствии с потребностями бизнеса.
 
-1. В приложении App Service **— —-EUS2**, они открывают **единицу масштабирования**.
+1. В службе приложений `APP-SVP-EUS2` они открывают **единицу масштабирования**.
+
 2. Они настраивают новый параметр автомасштабирования с одним правилом, увеличивающим число экземпляров на единицу, если загрузка ЦП для текущего экземпляра превышает 70% в течение 10 минут.
 
     ![Снимок экрана со страницей параметров автомасштабирования для первого региона.](./media/contoso-migration-refactor-linux-app-service-mysql/autoscale1.png)
 
-3. Они настраивают один и тот же параметр для **app-—-Cu** , чтобы обеспечить применение того же поведения при отработки отказа приложения в дополнительный регион. Единственное отличие заключается в том, что для экземпляра по умолчанию устанавливается значение 1, поскольку это происходит только для отработки отказа.
+3. Они настраивают один и тот же параметр в, `APP-SVP-CUS` чтобы обеспечить применение того же поведения при отработки отказа приложения в дополнительный регион. Единственное отличие заключается в том, что для экземпляра по умолчанию устанавливается значение 1, поскольку это происходит только для отработки отказа.
 
    ![Снимок экрана со страницей параметров автомасштабирования для второго региона.](./media/contoso-migration-refactor-linux-app-service-mysql/autoscale2.png)
 
@@ -394,14 +401,14 @@ ms.locfileid: "100631820"
 
 ### <a name="security"></a>Безопасность
 
-Группа безопасности Contoso рассматривает приложение, чтобы определить проблемы безопасности. Они указывают, что взаимодействие между приложением Остиккет и экземпляром базы данных MySQL не настроено для использования SSL. Все это позволяет обеспечить невозможность взлома трафика базы данных. [Подробнее](/azure/mysql/howto-configure-ssl).
+Группа безопасности Contoso рассматривает приложение, чтобы определить проблемы безопасности. Они указывают, что взаимодействие между приложением Остиккет и экземпляром базы данных MySQL не настроено для использования SSL. Все это позволяет обеспечить невозможность взлома трафика базы данных. [Подробнее.](/azure/mysql/howto-configure-ssl)
 
 ### <a name="backups"></a>Резервные копии
 
 - Веб-приложения Остиккет не содержат данных о состоянии и, таким же, не нуждаются в резервном копировании.
-- Группе Contoso не требуется настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются резервные копии. Группа решила использовать геоизбыточность для базы данных, чтобы она была устойчивой и готовой к работе. Резервные копии можно использовать для восстановления сервера до точки во времени. [Подробнее](/azure/mysql/concepts-backup).
+- Группе Contoso не требуется настраивать резервное копирование для базы данных. В службе "База данных Azure для MySQL" для сервера автоматически создаются резервные копии. Группа решила использовать геоизбыточность для базы данных, чтобы она была устойчивой и готовой к работе. Резервные копии можно использовать для восстановления сервера до точки во времени. [Подробнее.](/azure/mysql/concepts-backup)
 
 ### <a name="licensing-and-cost-optimization"></a>Лицензирование и оптимизация затрат
 
 - Проблемы с лицензированием развертывания PaaS отсутствуют.
-- Contoso будет использовать службу [управления затратами Azure и выставления счетов](/azure/cost-management-billing/cost-management-billing-overview) , чтобы гарантировать, что они останутся в пределах бюджетов, установленных ИТ.
+- Contoso будет использовать службу [управления затратами Azure и выставления счетов](/azure/cost-management-billing/cost-management-billing-overview) , чтобы гарантировать, что они останутся в пределах бюджетов, установленных ИТ лидера.
