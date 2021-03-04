@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: f35c579c3816b61a0dff3650a6322a2807d8f721
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: ba0f6a8c3c05ddfc2c265c028f13dcdae04c224f
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100632449"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115702"
 ---
 # <a name="create-additional-subscriptions-to-scale-your-azure-environment"></a>Создание дополнительных подписок для масштабирования среды Azure
 
@@ -55,7 +55,7 @@ ms.locfileid: "100632449"
 - Выясните, кто отвечает за создание новых подписок.
 - Решите, какие типы ресурсов доступны в подписке по умолчанию.
 - Определите, как должны выглядеть все стандартные подписки. Рекомендации включают доступ к Azure RBAC, политики, теги и ресурсы инфраструктуры.
-- По возможности [создавайте новые подписки программным способом](/azure/cost-management-billing/manage/programmatically-create-subscription) с помощью субъекта-службы. Для создания подписок необходимо [предоставить разрешение субъекту-службе](/azure/azure-resource-manager/grant-access-to-create-subscription) . Определите группу безопасности, которая может запрашивать новые подписки с помощью автоматического рабочего процесса.
+- По возможности [создавайте новые подписки программным способом](/azure/cost-management-billing/manage/programmatically-create-subscription) с помощью субъекта-службы. Для создания подписок необходимо [предоставить разрешение субъекту-службе](/azure/cost-management-billing/manage/grant-access-to-create-subscription) . Определите группу безопасности, которая может запрашивать новые подписки с помощью автоматического рабочего процесса.
 - Если вы являетесь клиентом Соглашения Enterprise (EA), обратитесь в службу поддержки Azure, чтобы заблокировать создание подписок, отличных от EA, для вашей организации.
 
 ## <a name="next-steps"></a>Дальнейшие действия

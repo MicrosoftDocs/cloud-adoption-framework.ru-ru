@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-edit, AQC, setup
-ms.openlocfilehash: b02f5aaeb9c4815a972e514f2a2754fc27e06936
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: fe931ddc75260b7f518c1aa8feb4d25580931f57
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97713713"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115668"
 ---
 # <a name="azure-setup-guide-overview"></a>Обзор руководства по установке Azure
 

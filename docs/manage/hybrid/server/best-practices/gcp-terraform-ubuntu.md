@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: ba39a2e2b8bd9e226c8d81599de1920b9878b9e0
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: e1f004ca4572e6faa337730cb18004397e446ae3
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101799183"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114410"
 ---
 # <a name="use-a-terraform-plan-to-deploy-a-google-cloud-platform-ubuntu-instance-and-connect-it-to-azure-arc"></a>Использование плана terraform для развертывания экземпляра Google Cloud Platform Ubuntu и его подключения к службе "Дуга Azure"
 
@@ -48,7 +48,7 @@ ms.locfileid: "101799183"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcGCP" --role contributor
@@ -89,7 +89,7 @@ ms.locfileid: "101799183"
 
     ![Снимок экрана создания учетной записи службы в консоли обеспечить.](./media/gcp-ubuntu/ubuntu-svc-account.png)
 
-4. Наконец, убедитесь, что ключи SSH доступны в `~/.ssh` и с именами `id-rsa.pub` и `id-rsa` . Если вы прийдете к руководству по SSH-Keygen выше, чтобы создать ключ, это уже должно быть правильно настроено. В противном случае может потребоваться изменить, [`main.tf`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/gcp/ubuntu/terraform/main.tf) чтобы использовать ключ с другим путем.
+4. Наконец, убедитесь, что ключи SSH доступны в `~/.ssh` и с именами `id_rsa.pub` и `id_rsa` . Если вы прийдете к руководству по SSH-Keygen выше, чтобы создать ключ, это уже должно быть правильно настроено. В противном случае может потребоваться изменить, [`main.tf`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/gcp/ubuntu/terraform/main.tf) чтобы использовать ключ с другим путем.
 
 ## <a name="deployment"></a>Развертывание
 
@@ -99,12 +99,12 @@ ms.locfileid: "101799183"
 
 2. План terraform создает ресурсы как в Microsoft Azure, так и в Google Cloud Platform. Затем он выполняет сценарий на виртуальной машине обеспечить, чтобы установить агент Arc Azure и все необходимые артефакты. Для этого скрипта требуются определенные сведения о средах обеспечить и Azure. Измените [`scripts/vars.sh`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/gcp/ubuntu/terraform/scripts/vars.sh) и обновите каждую из переменных с помощью соответствующих значений.
 
-    - `TF-VAR-subscription-id`— Идентификатор подписки Azure;
-    - `TF-VAR-client-id` = Идентификатор приложения субъекта-службы Azure
-    - `TF-VAR-client-secret` — пароль субъекта-службы Azure.
-    - `TF-VAR-tenant-id` — Идентификатор клиента Azure.
-    - `TF-VAR-gcp-project-id` = ИДЕНТИФИКАТОР проекта обеспечить
-    - `TF-VAR-gcp-credentials-filename` = Имя файла JSON учетных данных обеспечить
+    - `TF_VAR_subscription_id`— Идентификатор подписки Azure;
+    - `TF_VAR_client_id` = Идентификатор приложения субъекта-службы Azure
+    - `TF_VAR_client_secret` — пароль субъекта-службы Azure.
+    - `TF_VAR_tenant_id` — Идентификатор клиента Azure.
+    - `TF_VAR_gcp_project_id` = ИДЕНТИФИКАТОР проекта обеспечить
+    - `TF_VAR_gcp_credentials_filename` = Имя файла JSON учетных данных обеспечить
 
 3. В интерфейсе командной строки перейдите в `azure_arc_servers_jumpstart/gcp/ubuntu/terraform` Каталог клонированного репозитория.
 
@@ -150,7 +150,8 @@ ms.locfileid: "101799183"
 
 5. Выполните следующую команду:
 
-    ```console azcmagent connect --service-principal-ID $tf-VAR-client-ID --service-principal-secret $tf-VAR-client-secret --resource-group "Azure Arc gcp-demo" --tenant-ID $tf-VAR-tenant-ID --location "westus2" --subscription-ID $tf-VAR-subscription-ID
+    ```console
+    azcmagent connect --service-principal-id $TF_VAR_client_id --service-principal-secret $TF_VAR_client_secret --resource-group "Azure Arc gcp-demo" --tenant-id $TF_VAR_tenant_id --location "westus2" --subscription-id $TF_VAR_subscription_id
     ```
 
     ![Снимок экрана команды "азкмажент Connect" успешно завершен.](./media/gcp-ubuntu/ubuntu-azcmagent.png)

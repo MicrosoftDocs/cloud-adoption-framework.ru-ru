@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank, virtual-network
-ms.openlocfilehash: 94a76c26b4848fd5bb8b3c45593e7f3365790098
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 755901d562b5a3b460bb7eefe5050fee90818d60
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101787320"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115770"
 ---
 # <a name="perimeter-networks"></a>Сети периметра
 
@@ -44,7 +44,7 @@ ms.locfileid: "101787320"
 
 На приведенной выше схеме показан пример [топологии сети концентратора и звезды](./hub-spoke-network-topology.md) , которая реализует принудительное применение двух периметров с доступом к Интернету и локальной сети. Оба периметра располагаются в концентраторе DMZ. В центре ДЕМИЛИТАРИЗОВАНной зоны сеть периметра может масштабироваться для поддержки множества бизнес-операций с помощью нескольких ферм WAF и экземпляров брандмауэра Azure, которые помогают защитить виртуальные сети периферийных серверов. Концентратор также обеспечивает подключение через VPN или Azure ExpressRoute при необходимости.
 
-## <a name="virtual-networks"></a>виртуальные сети;
+## <a name="virtual-networks"></a>Виртуальные сети
 
 Обычно сети периметра создаются с помощью [виртуальной сети][virtual-networks] с несколькими подсетями для размещения другого типа служб, выполняющих фильтрацию и анализ трафика в Интернет и обратно через NVA, WAF и экземпляры Шлюзов приложения Azure.
 
@@ -115,7 +115,7 @@ SKU WAF шлюза приложений Azure включает брандмау�
 [user-defined-routes]: /azure/virtual-network/virtual-networks-udr-overview
 [network-virtual-appliances]: /azure/architecture/reference-architectures/dmz/nva-ha
 [azure-firewall]: /azure/firewall/overview
-[perimeter-network]: ../../reference/networking-vdc
+[perimeter-network]: ../../reference/networking-vdc.md
 [alb]: /azure/load-balancer/load-balancer-overview
 [ddos]: /azure/ddos-protection/ddos-protection-overview
 [public-ip]: /azure/virtual-network/virtual-network-public-ip-address

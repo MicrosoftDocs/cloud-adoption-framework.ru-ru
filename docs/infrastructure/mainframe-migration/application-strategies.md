@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: 18812370c924a39536dcc6e74f5b7d2bb835e878
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 5234d5c634041cde0b03368c1175d778799ff307
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101789360"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115090"
 ---
 <!-- docutune:casing GDGs "GT Software" "NTT Data" -->
 <!-- cSpell:ignore Attunity Codit DRDA ISAM ISQL LPARS VSAM ODBC JDBC GDGs REXX dbextents Raincode Tmax -->
@@ -68,7 +68,7 @@ ms.locfileid: "101789360"
 
 Для запуска диспетчера транзакций и пакетных заданий, использующих JCL, в Azure используется среда эмуляции. На уровне данных DB2 заменяется [Базой данных SQL Azure](/azure/azure-sql/database/sql-database-paas-overview). Кроме того, можно использовать Microsoft SQL Server, DB2 LUW или Oracle Database. Эмулятор поддерживает IMS, VSAM и SEQ. Средства управления системой на мэйнфрейме заменены службами Azure и программным обеспечением от других поставщиков, которые работают на виртуальных машинах.
 
-Как правило, функции обработки экрана и форм для ввода данных реализуются с помощью веб-серверов, которые можно комбинировать с API баз данных, такими как ADO, ODBC и JDBC, для транзакций и доступа к данным. Полный перечень IaaS-компонентов Azure зависит от операционной системы, которую вы предпочитаете использовать. Пример.
+Как правило, функции обработки экрана и форм для ввода данных реализуются с помощью веб-серверов, которые можно комбинировать с API баз данных, такими как ADO, ODBC и JDBC, для транзакций и доступа к данным. Полный перечень IaaS-компонентов Azure зависит от операционной системы, которую вы предпочитаете использовать. Пример:
 
 - **Виртуальные машины под управлением Windows:** Internet Information Server (IIS) вместе с ASP.NET для обработки экрана и бизнес-логики. Для доступа к данным и транзакций используйте стандарт ADO.NET.
 

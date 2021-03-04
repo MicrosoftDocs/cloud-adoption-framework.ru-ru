@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: internal
-ms.openlocfilehash: 8a60f40671b87b728065daf72ef98535e24c26d7
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 527db15029a897f0c4d66b9b1a4aff28d3b60305
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026172"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102116008"
 ---
 # <a name="timelines-in-a-cloud-adoption-plan"></a>Временные шкалы в плане внедрения в облако
 

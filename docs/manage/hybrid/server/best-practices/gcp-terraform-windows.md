@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 33bfa7ef30dabe154c6547f83185160ddd0d3340
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 90ffa0737316616754fd8c8df0e530ea1539371a
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101797587"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114444"
 ---
 # <a name="use-a-terraform-plan-to-deploy-a-google-cloud-platform-windows-instance-and-connect-it-to-azure-arc"></a>Использование плана terraform для развертывания экземпляра Google Cloud Platform Windows и его подключения к службе "Дуга Azure"
 
@@ -54,7 +54,7 @@ ms.locfileid: "101797587"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcGCP" --role contributor
@@ -101,12 +101,12 @@ ms.locfileid: "101797587"
 
 2. План terraform создает ресурсы как в Microsoft Azure, так и в Google Cloud Platform. Затем он выполняет сценарий на виртуальной машине обеспечить, чтобы установить агент Arc Azure и все необходимые артефакты. Для этого скрипта требуются определенные сведения о средах обеспечить и Azure. Измените [`scripts/vars.sh`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/gcp/windows/terraform/scripts/vars.sh) и обновите каждую из переменных с помощью соответствующих значений.
 
-    - `TF-VAR-subscription-id` — Идентификатор подписки Azure;
-    - `TF-VAR-client-id` = Идентификатор приложения субъекта-службы Azure
-    - `TF-VAR-client-secret` — пароль субъекта-службы Azure.
-    - `TF-VAR-tenant-id` — Идентификатор клиента Azure.
-    - `TF-VAR-gcp-project-id` = ИДЕНТИФИКАТОР проекта обеспечить
-    - `TF-VAR-gcp-credentials-filename` = Имя файла JSON учетных данных обеспечить
+    - `TF_VAR_subscription_id` — Идентификатор подписки Azure;
+    - `TF_VAR_client_id` = Идентификатор приложения субъекта-службы Azure
+    - `TF_VAR_client_secret` — пароль субъекта-службы Azure.
+    - `TF_VAR_tenant_id` — Идентификатор клиента Azure.
+    - `TF_VAR_gcp_project_id` = ИДЕНТИФИКАТОР проекта обеспечить
+    - `TF_VAR_gcp_credentials_filename` = Имя файла JSON учетных данных обеспечить
 
 3. В интерфейсе командной строки перейдите в `azure_arc_servers_jumpstart/gcp/windows/terraform` Каталог клонированного репозитория.
 
@@ -138,7 +138,7 @@ ms.locfileid: "101797587"
 
 1. Перед выполнением `terraform apply` команды откройте [`main.tf`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/gcp/windows/terraform/main.tf) и закомментируйте `windows-startup-script-ps1 = local-file.install_arc_agent-ps1.content` строку и сохраните файл.
 
-    ![Снимок экрана с комментарием "" для отключения автоматической адаптации агента Arc Azure.](./media/gcp-windows/main-tf.png)
+    ![Снимок экрана с комментарием "main.tf" для отключения автоматической адаптации агента Azure ARC.](./media/gcp-windows/main-tf.png)
 
 2. Выполните команду `terraform apply --auto-approve` , как описано выше.
 
@@ -146,11 +146,11 @@ ms.locfileid: "101797587"
 
     ![Снимок экрана сервера в консоли обеспечить.](./media/gcp-windows/gcp-server.png)
 
-    ![Снимок экрана, показывающий, как сбросить пароль для Windows Server в обеспечить.](./media/gcp-windows/reset-password.png)
+    ![Снимок экрана, показывающий, как сбросить пароль для Windows Server в консоли обеспечить.](./media/gcp-windows/reset-password.png)
 
 4. Создайте пользователя и пароль для виртуальной машины, выбрав **задать пароль** и указав имя пользователя.
 
-    ![Снимок экрана, показывающий, как задать имя пользователя и пароль для Windows Server в обеспечить.](./media/gcp-windows/name-pword.png)
+    ![Снимок экрана, показывающий, как задать имя пользователя и пароль для Windows Server в консоли обеспечить.](./media/gcp-windows/name-pword.png)
 
 5. Подключитесь к виртуальной машине по ПРОТОКОЛу RDP, нажав кнопку RDP на странице виртуальной машины в консоли обеспечить и выполнив вход с использованием только что созданного имени пользователя и пароля.
 

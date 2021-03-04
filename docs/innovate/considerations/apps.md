@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: internal
-ms.openlocfilehash: f5ddb6c25b237dee2f6f0d09aef027aedfb1a8f7
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 1cb3e460efa4f49f2c2d0146835aed19aa7e4aba
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101790261"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115022"
 ---
 # <a name="engage-via-applications"></a>Привлечение через приложения
 
@@ -27,10 +27,10 @@ ms.locfileid: "101790261"
 
 Команды, которые более быстро и точно отвечают на Отзывы клиентов, изменения рынка, а также возможности инноваций, обычно приводят к своим рынкам инноваций. Первый принцип инновационных приложений представлен в [обзоре процесса роста](./learn.md#growth-mindset): "поделиться кодом". Со временем инновации появилось из фокуса культуры. Чтобы поддерживать инновации, требуются различные перспективы и вклады.
 
-Чтобы подготовиться к инновациям, вся разработка приложений должна начаться с общего репозитория кода. Наиболее распространенным средством управления репозиториями кода является [GitHub](https://guides.github.com), что позволяет быстро создать общий репозиторий кода. Кроме того, [Azure Repos](/azure/devops/repos/get-started/what-is-repos?view=azure-devops) — это набор средств управления версиями в Azure DevOps Services, которые можно использовать для управления кодом. Azure Repos предоставляет два типа управления версиями:
+Чтобы подготовиться к инновациям, вся разработка приложений должна начаться с общего репозитория кода. Наиболее распространенным средством управления репозиториями кода является [GitHub](https://guides.github.com), что позволяет быстро создать общий репозиторий кода. Кроме того, [Azure Repos](/azure/devops/repos/get-started/what-is-repos) — это набор средств управления версиями в Azure DevOps Services, которые можно использовать для управления кодом. Azure Repos предоставляет два типа управления версиями:
 
-- [Git](/azure/devops/repos/get-started/what-is-repos?view=azure-devops#git): распределенное управление версиями.
-- [Система управления версиями Team Foundation (TFVC)](/azure/devops/repos/get-started/what-is-repos?view=azure-devops#tfvc): централизованное управление версиями.
+- [Git](/azure/devops/repos/get-started/what-is-repos#git): распределенное управление версиями.
+- [Система управления версиями Team Foundation (TFVC)](/azure/devops/repos/get-started/what-is-repos#tfvc): централизованное управление версиями.
 
 ## <a name="citizen-developers"></a>Разработчики-любители
 

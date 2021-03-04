@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank, seo-caf-innovate
 keywords: что такое машинное обучение, машинное обучение Azure, средства машинного обучения, млопс, автоматизированное машинное обучение
-ms.openlocfilehash: 3797005099c46e7d2e9a12628e4376e51552a3bc
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: d4ef45ff15b8a43dfc2886191aa71e82fd86ed36
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101792743"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115005"
 ---
 <!-- cSpell:ignore scikit RLlib Jupyter MLflow Kubeflow -->
 
@@ -68,7 +68,7 @@ ms.locfileid: "101792743"
 
 Затем можно управлять развернутыми моделями с помощью [пакета SDK для машинное обучение Azure для Python](/python/api/overview/azure/ml/), [машинное обучение Azure Studio](https://ml.azure.com/)или [CLI машинного обучения](/azure/machine-learning/reference-azure-machine-learning-cli).
 
-Эти модели могут использоваться, а также они могут возвращать прогнозы [в реальном времени](/azure/machine-learning/how-to-consume-web-service) или [асинхронно](/azure/machine-learning/tutorial-pipeline-batch-scoring-classification) на больших объемах данных.
+Эти модели можно использовать и возвращать прогнозы в [режиме реального времени](/azure/machine-learning/how-to-consume-web-service) или [асинхронно](/azure/machine-learning/tutorial-pipeline-batch-scoring-classification) на больших объемах данных.
 
 С расширенными [конвейерами машинного обучения](/azure/machine-learning/concept-ml-pipelines) можно совместно работать на каждом из этапов подготовки данных, обучения и оценки моделей с помощью развертывания. Конвейеры позволяют выполнять следующие задачи:
 

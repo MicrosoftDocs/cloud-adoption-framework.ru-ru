@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: internal
-ms.openlocfilehash: 149162962ac8aa2e8871280bb90d7136bb3f8792
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: c954fba8ebc2b29ddda91c831bfcf0154b4244ce
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026274"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102116075"
 ---
 # <a name="establish-iterations-and-release-plans"></a>Установка итераций и разработка планов выпусков
 

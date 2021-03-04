@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.localizationpriority: high
 ms.custom: internal, fasttrack-edit, AQC
-ms.openlocfilehash: 633c54091e8fb8f9dd68c80c0492245e91be7e2a
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 1df00dd75d5a19488271daae19979473dc95f0b3
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101790448"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114852"
 ---
 # <a name="inventory-and-visibility-in-azure"></a>Инвентаризация и визуальный контроль в Azure
 
@@ -29,7 +29,7 @@ ms.locfileid: "101790448"
 | Процесс | Инструмент | Назначение |
 |---|---|---|
 | Мониторинг работоспособности служб Azure | [Работоспособность служб Azure](/azure/service-health/service-health-overview) | Работоспособность, производительность и диагностика служб, работающих в Azure |
-| Централизованное ведение журнала | [Служба Log Analytics](/azure/azure-monitor/log-query/log-analytics-overview) | Централизованное ведение журнала для всех целей визуального контроля |
+| Централизованное ведение журнала | [Служба Log Analytics](/azure/azure-monitor/logs/log-analytics-overview) | Централизованное ведение журнала для всех целей визуального контроля |
 | Централизованный мониторинг | [Azure Monitor](/azure/azure-monitor/overview) | Централизованный мониторинг операционных данных и тенденций |
 | Инвентаризация и отслеживание изменений виртуальных машин | [Отслеживание изменений и инвентаризация](/azure/automation/change-tracking/overview) | Инвентаризация виртуальных машин и мониторинг изменений на уровне гостевой ОС |
 | Мониторинг подписок | [Журнал действий Azure](/azure/azure-monitor/essentials/activity-log) | Мониторинг изменений на уровне подписки |

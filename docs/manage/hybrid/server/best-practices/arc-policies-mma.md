@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 56210c7fdef90f9ba50378adce35ab7f8a09b3e3
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 255ad6726b06d5f59e17c11851c7822e969c87f5
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101799258"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114529"
 ---
 # <a name="manage-azure-policies-and-deploy-the-azure-monitoring-agent-extension-to-azure-arc-linux-and-windows-servers"></a>Управление политиками Azure и развертывание расширения агента мониторинга Azure в Azure Arc Linux и Windows Server
 
@@ -35,7 +35,7 @@ ms.locfileid: "101799258"
 - [Vagrant Ubuntu](./local-vagrant-ubuntu.md)
 - [Окно Vagrant Windows](./local-vagrant-windows.md)
 
-Обратитесь к [документации по поддерживаемой ос Azure Monitor](/azure/azure-monitor/insights/vminsights-enable-overview#supported-operating-systems) и убедитесь, что виртуальные машины, используемые для этих процедур, поддерживаются. Для виртуальных машин Linux проверьте как дистрибутив Linux, так и ядро, чтобы убедиться в том, что используется поддерживаемая конфигурация.
+Обратитесь к [документации по поддерживаемой ос Azure Monitor](/azure/azure-monitor/vm/vminsights-enable-overview#supported-operating-systems) и убедитесь, что виртуальные машины, используемые для этих процедур, поддерживаются. Для виртуальных машин Linux проверьте как дистрибутив Linux, так и ядро, чтобы убедиться в том, что используется поддерживаемая конфигурация.
 
 ## <a name="prerequisites"></a>Предварительные требования
 
@@ -62,7 +62,7 @@ ms.locfileid: "101799258"
    az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
    ```
 
-   Пример.
+   Пример:
 
    ```console
    az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor

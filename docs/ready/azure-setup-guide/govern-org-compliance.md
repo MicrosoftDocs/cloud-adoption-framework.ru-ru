@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-edit, AQC, setup
-ms.openlocfilehash: c4ceb3f9404bb210580006f3cfec06ba1a67f65c
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 54fd40f34d987c187f5354638af4fcb51f41661a
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024285"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115685"
 ---
 <!-- docutune:casing "Blueprints: Blueprint definitions" "Blueprints: Get started" -->
 
@@ -70,7 +70,7 @@ ms.locfileid: "97024285"
 1. Выберите **Схемы: Определения схем**.
 1. Выберите схему, созданную ранее.
 1. Проверьте определение схемы и щелкните **Опубликовать схему**.
-1. Укажите **версию** (например, _1.0_) и все **заметки об изменениях**, а затем выберите **Опубликовать**.
+1. Укажите **версию** (например, `1.0`) и все **заметки об изменениях**, а затем выберите **Опубликовать**.
 
 ::: form action="OpenBlade[#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints]" submitText="Blueprint definitions" :::
 
@@ -81,7 +81,7 @@ ms.locfileid: "97024285"
 1. На портале Azure перейдите к разделу [Схемы: Определения схем](https://portal.azure.com/#blade/Microsoft_Azure_Policy/BlueprintsMenuBlade/Blueprints).
 1. Выберите определение схемы, созданное ранее.
 1. Проверьте определение схемы и щелкните **Опубликовать схему**.
-1. Укажите **версию** (например, _1.0_) и все **заметки об изменениях**, а затем выберите **Опубликовать**.
+1. Укажите **версию** (например, `1.0`) и все **заметки об изменениях**, а затем выберите **Опубликовать**.
 
 ::: zone-end
 
@@ -91,9 +91,9 @@ ms.locfileid: "97024285"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Azure Blueprints](/azure/governance/blueprints)
+- [Azure Blueprints](/azure/governance/blueprints/)
 - [Role-based по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
-- [Примеры схем на основе стандартов](/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
+- [Примеры схем на основе стандартов](/azure/governance/blueprints/samples/#standards-based-blueprint-samples)
 
 ::: zone-end
 
@@ -131,7 +131,7 @@ ms.locfileid: "97024285"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Политика Azure](/azure/governance/policy)
+- [Политика Azure](/azure/governance/policy/)
 - [Role-based по принудительному применению политик](../../decision-guides/policy-enforcement/index.md)
 
 ::: zone-end
@@ -158,9 +158,9 @@ ms.locfileid: "97024285"
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Центр безопасности Azure](/azure/security-center)
+- [Центр безопасности Azure](/azure/security-center/)
 - [JIT-доступ к виртуальной машине](/azure/security-center/security-center-just-in-time#how-does-just-in-time-access-work)
-- [Ценовые категории Центра безопасности](https://azure.microsoft.com/pricing/details/security-center)
+- [Ценовые категории Центра безопасности](https://azure.microsoft.com/pricing/details/security-center/)
 - [Role-based дисциплины "Базовые средства безопасности"](../../govern/security-baseline/index.md)
 
 ::: zone-end

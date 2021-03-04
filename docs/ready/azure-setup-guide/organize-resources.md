@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-edit, AQC, setup
-ms.openlocfilehash: 4da0e4598c91c971a0ed5112b2a3767e272c07a5
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: c577c5c0b0362ff1c8dcc51e38d97d17450bd5bf
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100632432"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115430"
 ---
 <!-- cSpell:ignore profx fsubscriptions fresource -->
 
@@ -28,7 +28,7 @@ ms.locfileid: "100632432"
 
 В Azure предоставляются четыре уровня области управления: группы управления, подписки, группы ресурсов и ресурсы. На рисунке ниже показаны связи между этими уровнями.
 
-   ![Схема со связями уровней иерархии управления](./media/organize-resources/scope-levels.png) _Изображение 1. Связь между четырьмя уровнями области управления._
+   ![Схема со связями уровней иерархии управления](./media/organize-resources/scope-levels.png) *Изображение 1. Связь между четырьмя уровнями области управления.*
 
 - **Группы управления.** Эти группы представляют собой контейнеры, которые помогают управлять доступом, политикой и соответствием требованиям в нескольких подписках. Все подписки в группе управления автоматически наследуют условия, применяемые к группе управления.
 - **Подписки.** Подписка позволяет логически связывать учетные записи пользователей и ресурсы, созданные с помощью этих учетных записей пользователей. Для каждой подписки есть ограничения или квоты на объем создаваемых и используемых ресурсов. Организации могут использовать подписки для управления затратами и ресурсами, которые созданы пользователями, командами или проектами.
@@ -86,7 +86,7 @@ ms.locfileid: "100632432"
 - [Создание исходных подписок](../azure-best-practices/initial-subscriptions.md)
 - [Создание дополнительных подписок Azure для масштабирования среды Azure](../azure-best-practices/scale-subscriptions.md)
 - [Организация и администрирование подписок Azure](../azure-best-practices/organize-subscriptions.md)
-- [Упорядочение ресурсов с помощью групп управления Azure](/azure/azure-resource-manager/management-groups-overview)
+- [Упорядочение ресурсов с помощью групп управления Azure](/azure/governance/management-groups/overview)
 - [Resource access management in Azure](../../govern/resource-consistency/resource-access-management.md) (Управление доступом к ресурсам в Azure)
 - [Подписка Azure, границы, квоты и ограничения службы](/azure/azure-resource-manager/management/azure-subscription-service-limits)
 

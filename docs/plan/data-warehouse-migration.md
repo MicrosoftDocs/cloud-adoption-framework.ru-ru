@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: think-tank
-ms.openlocfilehash: 92e6baf8a0807588390f51c69ad31c4df561aa1e
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: 4b1e563cab763a8e40f7da1a43baa7dd2448ea0b
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98175089"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102116331"
 ---
 <!-- cSpell:ignore Informatica gzipped Attunity -->
 

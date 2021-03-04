@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 539c364ad0a6863ce82035a54c7a47031b5213be
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: b547c84549ddeb1549047178c3e792009708aaf4
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101798323"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114359"
 ---
 # <a name="use-vmware-powercli-to-scale-onboarding-vmware-vsphere-linux-virtual-machines-to-azure-arc"></a>Использование VMware PowerCLI для масштабирования VMware vSphere виртуальных машин Linux в Azure Arc
 
@@ -64,7 +64,7 @@ ms.locfileid: "101798323"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor
@@ -95,9 +95,9 @@ ms.locfileid: "101798323"
 
     - Скрипт автоматически создаст `vars.sh` скрипт оболочки с переменными среды Azure пользователя.
 
-    - Выполнение скрипта начнет проверку подлинности в vCenter и проверит целевую папку виртуальной машины, в которой находятся виртуальные машины-кандидаты Azure Arc, и скопирует как автоматически созданные `vars.sh` , так и `install-azure-arc-agent.sh` сценарии оболочки в ОС Linux для виртуальной машины, расположенные на `/vmware/scaled-deploy/powercli/linux` каждой виртуальной машине в этой папке.
+    - Выполнение скрипта начнет проверку подлинности в vCenter и проверит целевую папку виртуальной машины, в которой находятся виртуальные машины-кандидаты Azure Arc, и скопирует как автоматически созданные `vars.sh` , так и `install_azure_arc_agent.sh` сценарии оболочки в ОС Linux для виртуальной машины, расположенные на `/vmware/scaled-deploy/powercli/linux` каждой виртуальной машине в этой папке.
 
-3. `install-azure-arc-agent.sh`Сценарий оболочки будет запущен в гостевой ОС виртуальной машины и установит агент подключенного компьютера ARC (Azure) для подключения виртуальной машины к службе "Дуга Azure".
+3. `install_azure_arc_agent.sh`Сценарий оболочки будет запущен в гостевой ОС виртуальной машины и установит агент подключенного компьютера ARC (Azure) для подключения виртуальной машины к службе "Дуга Azure".
 
 ## <a name="predeployment"></a>Перед развертыванием
 
@@ -111,7 +111,7 @@ ms.locfileid: "101798323"
 
 ## <a name="deployment"></a>Развертывание
 
-Перед выполнением скрипта PowerCLI необходимо задать [переменные среды](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/vmware/scaled_deployment/powercli/linux/vars.ps1) , которые будут использоваться `install-azure-arc-agent.sh` скриптом. Эти переменные основаны на только что созданном субъекте-службе Azure, вашей подписке Azure и клиенте, а также учетных данных и VMware vSphere.
+Перед выполнением скрипта PowerCLI необходимо задать [переменные среды](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/vmware/scaled_deployment/powercli/linux/vars.ps1) , которые будут использоваться `install_azure_arc_agent.sh` скриптом. Эти переменные основаны на только что созданном субъекте-службе Azure, вашей подписке Azure и клиенте, а также учетных данных и VMware vSphere.
 
 - Получите идентификатор подписки Azure и идентификатор клиента с помощью `az account list` команды.
 
@@ -121,11 +121,11 @@ ms.locfileid: "101798323"
 
 - В `azure_arc_servers_jumpstart\vmware\scaled-deploy\powercli\linux` папке откройте сеанс PowerShell от имени администратора и запустите `scale-deploy.ps1` сценарий.
 
-    ![Снимок экрана, посвященный масштабированию и развертыванию с помощью скрипта PowerShell.](./media/vmware-scale-powercli/cli-linux-scale-deploy-1.png)
+    ![Снимок экрана "scale_deploy.ps1".](./media/vmware-scale-powercli/cli-linux-scale-deploy-1.png)
 
-    ![Второй снимок экрана, посвященный масштабированию и развертыванию с помощью скрипта PowerShell.](./media/vmware-scale-powercli/cli-linux-scale-deploy-2.png)
+    ![Второй снимок экрана "scale_deploy.ps1".](./media/vmware-scale-powercli/cli-linux-scale-deploy-2.png)
 
-    ![Третий снимок экрана, посвященный масштабированию и развертыванию с помощью скрипта PowerShell.](./media/vmware-scale-powercli/cli-linux-scale-deploy-3.png)
+    ![Третий снимок экрана "scale_deploy.ps1".](./media/vmware-scale-powercli/cli-linux-scale-deploy-3.png)
 
 - После завершения работы на виртуальной машине будет установлен агент подключенного компьютера Arc Azure, а также группа ресурсов Azure, заполненная новыми серверами с поддержкой дуги Azure.
 

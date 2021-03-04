@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 38b5d79919fa8e4f75af0e9f485e5fec32149aeb
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 91bbb5af82efc6e54c414c7a6a9e80a72e06ce2d
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101797318"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114342"
 ---
 # <a name="connect-an-existing-windows-server-instance-to-azure-arc"></a>Подключение существующего экземпляра Windows Server к службе "Дуга Azure"
 
@@ -36,7 +36,7 @@ ms.locfileid: "101797318"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor
@@ -61,7 +61,7 @@ ms.locfileid: "101797318"
 
     ![Снимок экрана пустой группы ресурсов в портал Azure.](./media/onboard-server/windows-resource-group.png)
 
-4. Скачайте [`az-connect-win`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/scripts/az_connect_win.ps1) сценарий PowerShell.
+4. Скачайте [`az_connect_win.ps1`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/scripts/az_connect_win.ps1) сценарий PowerShell.
 
 5. Измените переменные среды в соответствии со своей средой и скопируйте сценарий на указанный компьютер.
 
@@ -73,11 +73,11 @@ ms.locfileid: "101797318"
 
 ![Снимок экрана команды "азкмажент Connect".](./media/onboard-server/azcmagent.png)
 
-![Снимок экрана сценария Windows AZ-Connect.](./media/onboard-server/az-connect-windows-2.png)
+![Снимок экрана сценария Windows "az_connect_win.ps1".](./media/onboard-server/az-connect-windows-2.png)
 
 После завершения вы получите экземпляр Windows Server, подключенный как новый ресурс дуги Azure в группе ресурсов.
 
-![Снимок экрана с выполняемым сценарием Windows "az_connect".](./media/onboard-server/az-connect-windows.png)
+![Снимок экрана с выполняемым сценарием Windows "az_connect_win.ps1".](./media/onboard-server/az-connect-windows.png)
 
 ![Снимок экрана ресурса с поддержкой дуги Azure в портал Azure.](./media/onboard-server/windows-resource.png)
 

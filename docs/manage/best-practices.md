@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 58c57b91518039448da5ef79d8a2c712fdc74c36
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: d14e1aa0df8e8923a0ad7611fde658ee1673c2d1
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016615"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114750"
 ---
 # <a name="establish-operational-management-practices-in-the-cloud"></a>Создание методик оперативного управления в облаке
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 87bbd50d77e9fb0aad7abca351840118ef854eda
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 25c0ecd913633a80db36cb3eb49eb85db635b290
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101799303"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114597"
 ---
 # <a name="apply-inventory-tagging-to-azure-arc-enabled-servers"></a>Применение тегов инвентаризации к серверам с поддержкой ARC в Azure
 

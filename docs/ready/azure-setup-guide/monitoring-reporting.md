@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-edit, AQC, setup
-ms.openlocfilehash: c205ecde13f39a35cb5027ee4d855729a9b31493
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: ad428f1aa4c25e08ede9715ddabb5961143712f4
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026019"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115379"
 ---
 # <a name="monitoring-and-reporting-in-azure"></a>Мониторинг и создание отчетов в Azure
 
@@ -34,9 +34,9 @@ Azure Monitor предоставляет единый унифицированн
 
  Обеспечьте мониторинг:
 
-- [Приложения](/azure/application-insights/app-insights-overview)
-- [Контейнеры](/azure/monitoring/monitoring-container-overview)
-- [Виртуальные машины](/azure/monitoring/monitoring-service-map)
+- [Приложения](/azure/azure-monitor/app/app-insights-overview)
+- [Контейнеры](/azure/azure-monitor/containers/container-insights-overview)
+- [Виртуальные машины](/azure/azure-monitor/vm/service-map)
 - [Сети](/azure/networking/network-monitoring-overview)
 
 Дополнительные решения для мониторинга других ресурсов можно найти в Azure Marketplace.
@@ -45,7 +45,7 @@ Azure Monitor предоставляет единый унифицированн
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-Подробные сведения см. в [документации по Azure Monitor](/azure/monitoring-and-diagnostics).
+Подробные сведения см. в [документации по Azure Monitor](/azure/azure-monitor/).
 
 ::: zone-end
 
@@ -93,7 +93,7 @@ Azure Monitor предоставляет единый унифицированн
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-Дополнительные сведения см. в статье [Документация по службе "Работоспособность служб Azure"](/azure/service-health).
+Дополнительные сведения см. в статье [Документация по службе "Работоспособность служб Azure"](/azure/service-health/).
 
 ::: zone-end
 
@@ -123,7 +123,7 @@ Azure Monitor предоставляет единый унифицированн
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-Подробные сведения см. в [документации Помощника по Azure](/azure/advisor).
+Подробные сведения см. в [документации Помощника по Azure](/azure/advisor/).
 
 ::: zone-end
 
@@ -153,6 +153,6 @@ Azure Monitor предоставляет единый унифицированн
 
 ### <a name="learn-more"></a>Дополнительные сведения
 
-Подробные сведения см. в [документации по Центру безопасности Azure](/azure/security-center).
+Подробные сведения см. в [документации по Центру безопасности Azure](/azure/security-center/).
 
 ::: zone-end

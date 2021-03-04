@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: b071b904f71644da4c3883f759442230d8716939
-ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
+ms.openlocfilehash: c6fe231f81324815f8004a6ed3408ab326a6be02
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "99230535"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115107"
 ---
 # <a name="machine-learning-inference-during-deployment"></a>Определение машинного обучения во время развертывания
 

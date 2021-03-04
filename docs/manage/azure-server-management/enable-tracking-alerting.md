@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 2fc89b406c05c294ea57d917a2cd2d5a6e05c2d1
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: fa2fac47eaaefbc90b56683869f7ca5323a6bf59
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101792607"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114784"
 ---
 <!-- cSpell:ignore HKEY kusto -->
 
@@ -39,7 +39,7 @@ ms.locfileid: "101792607"
 
 ![Снимок экрана редактора запросов Log Analytics в портал Azure](./media/change-tracking2.png)
 
-Этот запрос выполняет поиск изменений в содержимом файлов, имеющих путь, содержащий слово «hosts». Можно также выполнить поиск определенного файла, изменив параметр path. (Например, `FileSystemPath ==  "c:\\windows\\system32\\drivers\\etc\\hosts"`.)
+Этот запрос выполняет поиск изменений в содержимом файлов, имеющих путь, содержащий слово «hosts». Можно также выполнить поиск определенного файла, изменив параметр path. (Например, `FileSystemPath == "c:\\windows\\system32\\drivers\\etc\\hosts"`.)
 
 После того как запрос вернет результаты, выберите **создать правило генерации оповещений** , чтобы открыть редактор правил предупреждений. Вы также можете перейти к этому редактору с помощью Azure Monitor в портал Azure.
 

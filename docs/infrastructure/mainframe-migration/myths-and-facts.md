@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: db3949faf5f4cd954bbc2fd1fc7977a9ffa09172
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 5c0a226143f62a08046382d59a58d4b34ca8282c
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97018743"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115039"
 ---
 <!-- cSpell:ignore chargebacks IPLs -->
 
@@ -39,9 +39,9 @@ ms.locfileid: "97018743"
 
 ## <a name="myth-the-cloud-cant-accommodate-mission-critical-applications-for-large-companies-such-as-financial-institutions"></a>Миф: Облако не может поддерживать критически важные приложения для крупных компаний, таких как финансовые учреждения
 
-Хотя могут существовать некоторые изолированные экземпляры, в которых облачные решения немного короткие, обычно это обусловлено тем, что алгоритмы приложения не могут быть распределены. Эти несколько примеров являются исключениями, а не правилом.
+Хотя могут существовать некоторые изолированные экземпляры, в которых облачные решения бывают короткими, обычно это обусловлено тем, что алгоритмы приложений не могут распространяться. Эти несколько примеров являются исключениями, а не правилом.
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Итоги
 
 По сравнению с этим Платформа Azure предлагает альтернативную платформу, способную предоставлять эквивалентные функции и функции мэйнфрейма, а также значительно снизить затраты. Кроме того, Общая стоимость владения облачной моделью затрат на основе подписок гораздо дешевле, чем на мэйнфреймах.
 

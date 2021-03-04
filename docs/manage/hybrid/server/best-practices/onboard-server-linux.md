@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: 6961d80e893d59361ae0c9475972ddfb0e4f87f5
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 9bf8b1b8ace2bcebc1151ccebdba04e094f239fd
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101797342"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114376"
 ---
 # <a name="connect-an-existing-linux-server-to-azure-arc"></a>Подключение существующего сервера Linux к службе "Дуга Azure"
 
@@ -36,7 +36,7 @@ ms.locfileid: "101797342"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
+    Пример:
 
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor
@@ -61,7 +61,7 @@ ms.locfileid: "101797342"
 
     ![Снимок экрана портал Azure с пустой группой ресурсов.](./media/onboard-server/linux-resource-group.png)
 
-4. Скачайте [`az-connect-linux`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/scripts/az_connect_linux.sh) сценарий оболочки.
+4. Скачайте [`az_connect_linux`](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/scripts/az_connect_linux.sh) сценарий оболочки.
 
 5. Измените переменные среды в соответствии с используемой средой.
 
@@ -73,14 +73,14 @@ ms.locfileid: "101797342"
 
 ## <a name="deployment"></a>Развертывание
 
-Запустите скрипт с помощью `. ./az-connect-linux.sh` команды.
+Запустите скрипт с помощью `. ./az_connect_linux.sh` команды.
 
 > [!NOTE]
-> Дополнительной точкой является то, что в скрипте есть функция *экспорта* и необходимо, чтобы переменных был экспортирован в тот же сеанс оболочки, что и остальные команды.
+> Дополнительной точкой является то, что в скрипте есть функция _экспорта_ и необходимо, чтобы переменных был экспортирован в тот же сеанс оболочки, что и остальные команды.
 
 После успешного завершения вы получите сервер Linux, подключенный как новый ресурс дуги Azure в группе ресурсов.
 
-![Снимок экрана запуска сценария Linux "az_connect".](./media/onboard-server/az-connect-linux.png)
+![Снимок экрана запуска сценария Linux "az_connect_linux. sh".](./media/onboard-server/az-connect-linux.png)
 
 ![Снимок экрана ресурса с поддержкой дуги Azure в портал Azure.](./media/onboard-server/linux-resource.png)
 

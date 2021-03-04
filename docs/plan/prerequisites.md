@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: plan
 ms.custom: internal
-ms.openlocfilehash: b8cddcfe51eebcfa36b4f4325687ddf5a1ab9688
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: edd1f389fdf9419f9b81abcb41ec296db11af270
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026257"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102116042"
 ---
 # <a name="prerequisites-for-an-effective-cloud-adoption-plan"></a>Необходимые условия для эффективного плана внедрения в облако
 
-План работает так же эффективно, как и данные, помещаемые в него. Чтобы план внедрения в облако действовал, существуют две категории входных данных: _стратегическое_ и _тактических_. В следующих разделах описаны минимальные точки данных, необходимые в каждой категории.
+План работает так же эффективно, как и данные, помещаемые в него. Чтобы план внедрения в облако действовал, существуют две категории входных данных: *стратегическое* и *тактических*. В следующих разделах описаны минимальные точки данных, необходимые в каждой категории.
 
 ## <a name="strategic-inputs"></a>Стратегические входы
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: b6ad43c6c0f918dd07b5923dedadcfdf765c4fdb
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: e2b2eb1530b206615cfef38eb7c5562998b0c813
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016210"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114648"
 ---
 # <a name="protect-and-recover-in-cloud-management"></a>Защита и восстановление в облачном управлении
 

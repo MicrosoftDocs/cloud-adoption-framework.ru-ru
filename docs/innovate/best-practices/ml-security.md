@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: a702b08b518919b6f3b1a30bf954e81a5b02aeea
-ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
+ms.openlocfilehash: 2f081bb86cab9423c039c5554b623d37dc537d07
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "99230500"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114988"
 ---
 # <a name="machine-learning-security"></a>Безопасность машинного обучения
 
@@ -31,7 +31,7 @@ ms.locfileid: "99230500"
 
 ## <a name="deploy-azure-kubernetes-service-to-secure-an-inference-environment"></a>Развертывание службы Kubernetes Azure для защиты среды вывода
 
-Для вывода в рабочей среде рекомендуется использовать службу Azure Kubernetes Service (AKS). В виртуальной сети доступны два варианта:
+Службу Azure Kubernetes (AKS) рекомендуется использовать для вывода в рабочей среде. В виртуальной сети доступны два варианта:
 
 - Разверните или Подключите кластер AKS с общедоступным IP-адресом к виртуальной сети.
 - Подключите частный кластер AKS к виртуальной сети.

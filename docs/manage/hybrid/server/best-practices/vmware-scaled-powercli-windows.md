@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: think-tank, e2e-hybrid
-ms.openlocfilehash: a1ea6c6d66c6b47377228a1b35f237ccb71fcbdf
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: bee19608b038200fbb4cb0b1418bcfe45385c583
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101798598"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102114325"
 ---
 # <a name="use-vmware-powercli-to-scale-onboarding-vmware-vsphere-windows-server-virtual-machines-to-azure-arc"></a>Использование VMware PowerCLI для масштабирования VMware vSphere виртуальных машин Windows Server в дугу Azure
 
@@ -64,8 +64,8 @@ ms.locfileid: "101798598"
     az ad sp create-for-rbac -n "<Unique SP Name>" --role contributor
     ```
 
-    Пример.
-  
+    Пример:
+
     ```console
     az ad sp create-for-rbac -n "http://AzureArcServers" --role contributor
     ```
@@ -91,9 +91,9 @@ ms.locfileid: "101798598"
 
 1. Пользователь редактирует `vars.ps1` Скрипт PowerCLI.
 
-2. `scale_deploy.ps1`Выполнение скрипта начнет проверку подлинности в vCenter и проверит целевую папку виртуальной машины, где находятся виртуальные машины-кандидаты Azure Arc, и скопирует `vars.ps1` `install-azure-arc-agent.ps1` сценарии и PowerCLI в ОС Windows VM, расположенные в [этой папке](https://github.com/microsoft/azure_arc/tree/main/azure_arc_servers_jumpstart/vmware/scaled_deployment/powercli/windows) , на каждую виртуальную машину в этой папке.
+2. `scale_deploy.ps1`Выполнение скрипта начнет проверку подлинности в vCenter и проверит целевую папку виртуальной машины, где находятся виртуальные машины-кандидаты Azure Arc, и скопирует `vars.ps1` `install_azure_arc_agent.ps1` сценарии и PowerCLI в ОС Windows VM, расположенные в [этой папке](https://github.com/microsoft/azure_arc/tree/main/azure_arc_servers_jumpstart/vmware/scaled_deployment/powercli/windows) , на каждую виртуальную машину в этой папке.
 
-3. `install-azure-arc-agent.ps1`Сценарий PowerCLI будет выполняться в гостевой ОС виртуальной машины и будет установлен агент подключенного компьютера ARC в Azure для подключения виртуальной машины к службе "Дуга Azure".
+3. `install-azure_arc_agent.ps1`Сценарий PowerCLI будет выполняться в гостевой ОС виртуальной машины и будет установлен агент подключенного компьютера ARC в Azure для подключения виртуальной машины к службе "Дуга Azure".
 
 ## <a name="predeployment"></a>Перед развертыванием
 
@@ -107,7 +107,7 @@ ms.locfileid: "101798598"
 
 ## <a name="deployment"></a>Развертывание
 
-Перед выполнением скрипта PowerCLI необходимо задать [переменные среды](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/vmware/scaled_deployment/powercli/windows/vars.ps1) , которые будут использоваться сценарием *install-azure-arc-agent.ps1* . Эти переменные основаны на только что созданном субъекте-службе Azure, вашей подписке Azure и клиенте, а также учетных данных и VMware vSphere.
+Перед выполнением скрипта PowerCLI необходимо задать [переменные среды](https://github.com/microsoft/azure_arc/blob/main/azure_arc_servers_jumpstart/vmware/scaled_deployment/powercli/windows/vars.ps1) , которые будут использоваться `install_arc_agent.ps1` скриптом. Эти переменные основаны на только что созданном субъекте-службе Azure, вашей подписке Azure и клиенте, а также учетных данных и VMware vSphere.
 
 1. Получите идентификатор подписки Azure и идентификатор клиента с помощью `az account list` команды.
 

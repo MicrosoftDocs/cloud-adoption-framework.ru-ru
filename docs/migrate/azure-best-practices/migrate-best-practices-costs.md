@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: c75f3437d5c53f31daf2389061c6874c0d66706a
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 4aed779e6681c01fe47d0085763a92096f2983ae
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101785943"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102116450"
 ---
 <!-- docutune:casing ARO -->
 
@@ -91,7 +91,7 @@ ms.locfileid: "101785943"
 
 - Узнайте больше о [типах виртуальных машин и их размерах](/azure/virtual-machines/sizes), а затем сопоставьте размеры с типами.
 - [Размеры планов для экземпляров виртуальных машин](/azure/cloud-services/cloud-services-sizes-specs).
-- Ознакомьтесь с [примерной оценкой для вымышленной компании Contoso](/azure/cloud-adoption-framework/migrate/).
+- Ознакомьтесь с [примерной оценкой для вымышленной компании Contoso](../../migrate/index.md).
 
 ## <a name="best-practice-select-the-right-storage"></a>Рекомендации. Выберите нужное хранилище.
 
