@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal
-ms.openlocfilehash: ea08b65ee34b431b9088b22c2e5304fcedfb2eb5
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: b80987d889bd24ac22ec9a6b41bff2530af4f2e1
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97022636"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792165"
 ---
 # <a name="get-started-with-the-cloud-adoption-framework"></a>Начало работы с Cloud Adoption Framework
 
@@ -45,7 +45,7 @@ Cloud Adoption Framework позволяет начать работу разны
 | Руководство | Описание |
 | ----- | ----------- |
 | [Нужно перенести существующие рабочие нагрузки в облако.](./migrate.md)                   | Это руководство поможет вам начать работу, если основное внимание уделяется переносу локальных рабочих нагрузок в облако. |
-| [Нужно создавать новые продукты и службы в облаке.](./innovate.md)             | Это руководство поможет вам подготовиться к развертыванию инновационных решений в облаке.                                       |
+| [Нужно создавать новые продукты и службы в облаке.](https://docs.microsoft.com/azure/architecture/reference-architectures/containers/aks-start-here?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/toc.json)             | Это руководство поможет вам подготовиться к развертыванию инновационных решений в облаке.                                       |
 | [Проект и конфигурация среды накладывают определенные ограничения.](./design-and-configuration.md) | Это руководство поможет вам быстро начать проектирование и настройку среды.                                           |
 
 ## <a name="improve-controls"></a>Улучшение возможностей управления

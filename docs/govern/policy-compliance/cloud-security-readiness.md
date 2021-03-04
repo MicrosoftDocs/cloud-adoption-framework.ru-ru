@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 3f07432568ca8cbd1d2875034342517a874675e5
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 4daada6803f18554015f11469e1e31c3efea506a
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97019950"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792420"
 ---
 # <a name="ciso-cloud-readiness-guide"></a>Руководство по подготовке руководителя по информационной безопасности к работе с облаком
 
@@ -45,7 +45,6 @@ ms.locfileid: "97019950"
 - [Обязательное обучение безопасности, фоновые проверки](https://downloads.cloudsecurityalliance.org/star/self-assessment/StandardResponsetoRequestforInformationWindowsAzureSecurityPrivacy.docx)
 - [Выполнение тестов на проникновение, обнаружение вторжений и атак DDoS, аудит и ведение журнала](https://www.microsoft.com/security/business/operations)
 - [Современный центр обработки данных](https://www.microsoft.com/cloud-platform/global-datacenters), физическая безопасность, [безопасная сеть](/azure/security/security-network-overview)
-- [Microsoft Azure Security Response in the Cloud](https://aka.ms/securityresponsepaper) (Реагирование на нарушения безопасности в облаке Microsoft Azure (PDF-документ))
 
 **Конфиденциальность и управление:**
 

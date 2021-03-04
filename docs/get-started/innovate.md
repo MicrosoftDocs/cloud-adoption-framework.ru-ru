@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal
-ms.openlocfilehash: 74f0166a50a88bda3ec4e786c52a5b7db4cfee2c
-ms.sourcegitcommit: 4b525fc72f00bb57fff65998083320b7015ad7da
+ms.openlocfilehash: 50a866ae8600875b524bb6746386023e145e5287
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "100008661"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792505"
 ---
 # <a name="get-started-accelerate-new-product-and-service-innovation-in-the-cloud"></a>Начало работы. ускорение новых нововведений продуктов и услуг в облаке
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 7b39a03b54c2ebd99db4fc6dd508e914620f4257
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: ed0b6a1f4aeeda17568c3bd93ec6fa3b34d755c1
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97016975"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792250"
 ---
 # <a name="enable-server-management-services-on-a-single-vm-for-evaluation"></a>Включение служб управления сервером на одной виртуальной машине для оценки
 
@@ -31,7 +31,7 @@ ms.locfileid: "97016975"
 Дополнительные сведения о том, как подключить эти решения к отдельным виртуальным машинам, см. в следующих статьях:
 
 - [Подключение решения Управление обновлениями и Отслеживание изменений и инвентаризации для виртуальной машины в Azure](/azure/automation/change-tracking/manage-inventory-vms)
-- [Включение Azure Monitor для виртуальных машин.](/azure/azure-monitor/insights/vminsights-enable-single-vm)
+- [Включение Azure Monitor для виртуальных машин.](/azure/azure-monitor/vm/vminsights-enable-portal)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 1252507023f98e4b0998f83e08480da1c41d493b
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 50267dd2dd1456392cdb547949ec1296c78f0e31
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97020812"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792097"
 ---
 # <a name="standard-enterprise-governance-guide"></a>Руководство по организации системы управления для стандартных предприятий
 
@@ -42,7 +42,7 @@ ms.locfileid: "97020812"
 2. Две подписки: для рабочей и нерабочей рабочих нагрузок.
 3. На каждом уровне иерархии группирования должна применяться [согласованная номенклатура](../../../ready/azure-best-practices/naming-and-tagging.md).
 4. Группы ресурсов следует развертывать способом, который учитывает особенности жизненного цикла ее содержимого: развертывание активов, управление ими и прекращение использования должно осуществляться в комплексе. Дополнительные сведения о рекомендациях по группам ресурсов см. в [руководстве по принятию решений для согласования ресурсов](../../../decision-guides/resource-consistency/index.md).
-5. Очень важно [выбрать правильный регион](../../../migrate/azure-best-practices/multiple-regions.md). Мы рекомендуем выбирать регион так, чтобы вы имели доступ к сетевым ресурсам, средствам мониторинга и аудита в процессе отработки отказа или восстановления размещения, а также чтобы [нужные SKU были доступны в предпочтительных регионах](https://azure.microsoft.com/global-infrastructure/services).
+5. Очень важно [выбрать правильный регион](../../../migrate/azure-best-practices/multiple-regions.md). Мы рекомендуем выбирать регион так, чтобы вы имели доступ к сетевым ресурсам, средствам мониторинга и аудита в процессе отработки отказа или восстановления размещения, а также чтобы [нужные SKU были доступны в предпочтительных регионах](https://azure.microsoft.com/global-infrastructure/services/).
 
 Ниже приведен пример использования этого шаблона:
 

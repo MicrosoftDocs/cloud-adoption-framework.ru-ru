@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 0e31ec9f19f504afead27744919d4c34f700dd1e
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: f89f34227e26657a80ef2e9eacb9bdf7397b1649
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97019967"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792845"
 ---
 # <a name="prepare-corporate-it-policy-for-the-cloud"></a>Подготовка корпоративной ИТ-политики для облака
 
@@ -50,8 +50,6 @@ ms.locfileid: "97019967"
 ## <a name="minimum-viable-product-mvp-for-policy"></a>MVP (продукт с минимальной функциональностью) для политики
 
 Первым шагом в развитии новой связи между группой облачной системы управления и группой внедрения облака должно стать соглашение по MVP для политики. В MVP для облачной системы управления следует учесть, что бизнес-риски в начале процесса незначительны, но, скорее всего, увеличатся по мере применения в организации новых облачных служб.
-
-<!-- cSpell:ignore HBI -->
 
 Например, бизнес-риски для предприятия, которое развертывает пять виртуальных машин без данных с высоким уровнем влияния на бизнес (HBI), невысокие. Затем в рамках процесса внедрения облачных решений, когда количество виртуальных машин достигнет 1000 и данные с высоким уровнем влияния на бизнес начнут перемещаться, риски существенно увеличатся.
 

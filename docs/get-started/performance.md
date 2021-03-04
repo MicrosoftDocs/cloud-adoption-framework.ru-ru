@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal
-ms.openlocfilehash: ebc6265566b9925d30df08d16d1214ee33595f58
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: ad555ae23b7d02a63a00ecfa4fb9b6d4ab95bccc
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97022432"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792148"
 ---
 # <a name="get-started-ensure-consistent-performance-across-a-portfolio"></a>Начало работы. обеспечение согласованной производительности в портфеле
 

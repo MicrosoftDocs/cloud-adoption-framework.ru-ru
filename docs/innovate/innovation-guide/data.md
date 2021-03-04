@@ -1,8 +1,8 @@
 ---
 title: Упрощение доступа к данным
 description: Узнайте об упрощении доступа к данным с помощью Каталога данных Azure, Azure Data Share и других средств, которые помогают обнаруживать данные и работать с ними.
-author: absheik
-ms.author: absheik
+author: BrianBlanchard
+ms.author: brblanch
 ms.date: 01/27/2021
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
@@ -10,12 +10,12 @@ ms.subservice: innovate
 ms.localizationpriority: high
 ms.custom: internal, fasttrack-new, AQC, seo-caf-innovate
 keywords: Упрощение доступа, упрощение доступа к данным
-ms.openlocfilehash: a60948ea705b42cf44c664615ef81f2d3f6461df
-ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
+ms.openlocfilehash: cffb167db17bf28c21f4abf0324b91f1ca708f55
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "100525904"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792318"
 ---
 # <a name="democratize-data"></a>Упрощение доступа к данным
 
@@ -39,7 +39,7 @@ ms.locfileid: "100525904"
 
 ::: zone target="docs"
 
-**Откройте [документацию для службы "Каталог данных Azure"](/azure/data-catalog)**
+**Откройте [документацию для службы "Каталог данных Azure"](/azure/data-catalog/)**
 
 ::: zone-end
 
@@ -77,7 +77,7 @@ ms.locfileid: "100525904"
 
 ::: zone target="docs"
 
-**Откройте [документацию для службы Azure Data Share](/azure/data-share)**
+**Откройте [документацию для службы Azure Data Share](/azure/data-share/)**
 
 ::: zone-end
 
@@ -115,7 +115,7 @@ ms.locfileid: "100525904"
 
 ::: zone target="docs"
 
-**Откройте [обзор службы "Аналитика временных рядов Azure"](/azure/time-series-insights/time-series-insights-update-overview)**
+**Откройте [обзор службы "Аналитика временных рядов Azure"](/azure/time-series-insights/overview-what-is-tsi)**
 
 ::: zone-end
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: eb784eb557c6296e454e1f79bc8151152645dd0c
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 2fc89b406c05c294ea57d917a2cd2d5a6e05c2d1
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017162"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792607"
 ---
 <!-- cSpell:ignore HKEY kusto -->
 
@@ -25,11 +25,11 @@ ms.locfileid: "97017162"
 
 ![Снимок экрана с представлением инвентаризации Azure Automation в портал Azure](./media/change-tracking1.png)
 
-Дополнительные сведения о каждом разделе реестра см. в разделе [Отслеживание изменений раздела реестра](/azure/automation/automation-change-tracking#registry-key-change-tracking). Выберите любой ключ для вычисления, а затем включите его. Этот параметр применяется ко всем виртуальным машинам, включенным в текущей рабочей области.
+Дополнительные сведения о каждом разделе реестра см. в разделе [Отслеживание изменений раздела реестра](/azure/automation/change-tracking/overview#registry-key-change-tracking). Выберите любой ключ для вычисления, а затем включите его. Этот параметр применяется ко всем виртуальным машинам, включенным в текущей рабочей области.
 
 Вы также можете использовать службу для трассировки критических изменений файлов. Например, может потребоваться отслеживание файла, `C:\windows\system32\drivers\etc\hosts` так как операционная система использует его для преобразования имен узлов в IP-адреса. Изменения в этом файле могут вызвать проблемы с подключением или перенаправить трафик на опасные веб-сайты.
 
-Чтобы включить отслеживание содержимого файлов для файлов hosts, выполните действия, описанные в разделе [Включение отслеживания содержимого файлов](/azure/automation/change-tracking-file-contents#enable-file-content-tracking).
+Чтобы включить отслеживание содержимого файлов для файлов hosts, выполните действия, описанные в разделе [Включение отслеживания содержимого файлов](/azure/automation/change-tracking/manage-change-tracking#enable-file-content-tracking).
 
 Можно также добавить оповещение для изменений отслеживаемых файлов. Например, может потребоваться настроить оповещение об изменениях в файле hosts. Для этого выберите **log Analytics** на панели команд или в поле **поиска по журналам** для связанной log Analytics рабочей области. В Log Analytics используйте следующий запрос для поиска изменений в файле hosts:
 

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 1859cd42cdfa5487dd2a14d766debf75739576e3
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: 1b9c04a3c5b4e7c87e54b41c29c2eb53b4b81665
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100631956"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792641"
 ---
 # <a name="common-azure-policy-examples"></a>Общие примеры политики Azure
 
@@ -40,14 +40,18 @@ Get-AzPolicyDefinition | Where-Object { ($_.Properties.policyType -eq 'BuiltIn')
 В следующем сценарии показано, как назначить политику. Измените `$SubscriptionID` значение, указав подписку, которой вы хотите назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount) .
 
 ```powershell
+
 # Specify the value for $SubscriptionID.
+
 $SubscriptionID = <subscription ID>
 $scope = "/subscriptions/$SubscriptionID"
 
 # Replace the -Name GUID with the policy GUID you want to assign.
+
 $AllowedLocationPolicy = Get-AzPolicyDefinition -Name "e56962a6-4747-49cd-b67b-bf8b01975c4c"
 
 # Replace the locations with the ones you want to specify.
+
 $policyParam = '{ "listOfAllowedLocations":{"value":["eastus","westus"]}}'
 New-AzPolicyAssignment -Name "Allowed Location" -DisplayName "Allowed locations for resource creation" -Scope $scope -PolicyDefinition $AllowedLocationPolicy -Location eastus -PolicyParameter $policyParam
 ```
@@ -79,14 +83,17 @@ GUID политики — `2835b622-407b-4114-9198-6f7064cbe0dc` .
 В следующем сценарии показано, как назначить политику. Чтобы использовать скрипт, измените значение так, `$SubscriptionID` чтобы оно указывало на подписку, которой необходимо назначить политику. Перед выполнением скрипта выполните вход с помощью командлета [Connect-азаккаунт](/powershell/module/az.accounts/connect-azaccount) .
 
 ```powershell
+
 # Specify the value for $SubscriptionID.
+
 $subscriptionID = <subscription ID>
 $scope = "/subscriptions/$subscriptionID"
 
 $antimalwarePolicy = Get-AzPolicyDefinition -Name "2835b622-407b-4114-9198-6f7064cbe0dc"
 
 # Replace location "eastus" with the value that you want to use.
-New-AzPolicyAssignment -Name "Deploy Antimalware" -DisplayName "Deploy default Microsoft IaaSAntimalware extension for Windows Server" -Scope $scope -PolicyDefinition $antimalwarePolicy -Location eastus –AssignIdentity
+
+New-AzPolicyAssignment -Name "Deploy Antimalware" -DisplayName "Deploy default Microsoft IaaSAntimalware extension for Windows Server" -Scope $scope -PolicyDefinition $antimalwarePolicy -Location eastus -AssignIdentity
 
 ```
 

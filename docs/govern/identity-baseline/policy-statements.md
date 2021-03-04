@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 3036bdff7300db9a84cf48a033aa73715ca225ab
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: e8c5216cd0541e7bd9a13e21669a20f0ef3df928
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97712779"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101792896"
 ---
 # <a name="identity-baseline-sample-policy-statements"></a>Примеры правил политики основных способов идентификации
 
@@ -66,7 +66,7 @@ ms.locfileid: "97712779"
 
 **Инструкция политики:** При развертывании любых приложений, требующих проверки подлинности клиента, необходимо использовать утвержденный поставщик удостоверений, совместимый с основным поставщиком удостоверений для внутренних пользователей.
 
-**Возможные варианты проектирования:** Реализация [Федерации с Azure Active Directory](/azure/active-directory/hybrid/whatis-fed) между внутренними поставщиками удостоверений и клиентами или использование [Azure Active Directory B2B](/azure/active-directory/b2b/what-is-b2b)
+**Возможные варианты проектирования:** Реализация [Федерации с Azure Active Directory](/azure/active-directory/hybrid/whatis-fed) между внутренними поставщиками удостоверений и клиентами или использование [Azure Active Directory B2B](/azure/active-directory/external-identities/what-is-b2b)
 
 ## <a name="identity-reviews"></a>Проверки идентификации
 
