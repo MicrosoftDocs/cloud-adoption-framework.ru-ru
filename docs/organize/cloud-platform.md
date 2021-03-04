@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: 87326ff3f61ae0d5743beaaf25a6f4b3cf1361c0
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 49f9dbc31a35c247b8c908df7b7d4c563019d690
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026495"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786565"
 ---
 # <a name="cloud-platform-functions"></a>Функции облачной платформы
 
@@ -37,7 +37,7 @@ ms.locfileid: "97026495"
 
 - [Основы для облачной архитектуры](https://www.pluralsight.com/courses/cloud-architecture-foundations): Pluralsight курс, помогающий спроектировать правильные решения для базовых решений.
 - [Microsoft Azure архитектура](https://www.pluralsight.com/courses/cloud-architecture-foundations)— Pluralsightный курс для архитекторов-заземлений в архитектуре Azure.
-- [Сетевые службы Azure](/learn/modules/intro-to-azure-networking). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
+- [Сетевые службы Azure](/learn/modules/azure-networking-fundamentals/). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
 
 **Ознакомьтесь со следующими сведениями:**
 

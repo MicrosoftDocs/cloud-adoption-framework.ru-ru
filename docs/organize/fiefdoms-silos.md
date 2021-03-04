@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: dbbd0512d4c3b9b640f265937f1b94c5de47fdc1
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 641a1e6da7b0015d978b6e18c53dc415e6806078
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97026359"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786232"
 ---
 # <a name="organizational-antipatterns-silos-and-fiefdoms"></a>Антишаблоны Организации: приемники и фиефдомс
 

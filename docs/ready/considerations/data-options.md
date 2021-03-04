@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 1a3073ff71cc3dfee726249d7ec5dbcdb710abac
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 76c5a449ad0153acb46d8d99254761cc0bc2767d
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97013609"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785382"
 ---
 # <a name="review-your-data-options"></a>Проверка параметров данных
 
@@ -49,13 +49,13 @@ ms.locfileid: "97013609"
 
 В следующей таблице приведены некоторые требования сценариев общего использования и рекомендуемые службы баз данных для их обработки:
 
-| Сценарий  | Служба данных |
+| Сценарий | Служба данных |
 |---|---|
 | Мне нужна глобально распределенная многомодельная база данных с поддержкой вариантов NoSQL. | [Azure Cosmos DB](/azure/cosmos-db/introduction) |
 | Мне нужна полностью управляемая реляционная база данных, которая масштабируется на лету, со встроенным механизмом безопасности, искусственным интеллектом и высокой скоростью развертывания. | [База данных SQL Azure](/azure/sql-database/sql-database-technical-overview) |
 | Мне нужна полностью управляемая, масштабируемая реляционная база данных MySQL с высокой доступностью и встроенным механизмом безопасности без дополнительной платы. | [База данных Azure для MySQL](/azure/mysql/overview) |
 | Мне нужна полностью управляемая, масштабируемая реляционная база данных PostgreSQL с высокой доступностью и встроенным механизмом безопасности без дополнительной платы. | [База данных Azure для PostgreSQL](/azure/postgresql/overview) |
-| Я планирую размещать корпоративные SQL Server приложения в облаке и иметь полный контроль над серверной операционной системой. | [SQL Server на виртуальных машинах](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview) |
+| Я планирую размещать корпоративные SQL Server приложения в облаке и иметь полный контроль над серверной операционной системой. | [Использование SQL Server на виртуальных машинах](/azure/virtual-machines/windows/sql/virtual-machines-windows-sql-server-iaas-overview) |
 | Мне нужно полностью управляемое эластичное хранилище данных, обеспечивающее безопасность на каждом уровне масштабируемости без дополнительной платы. | [Хранилище данных SQL Azure](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is) |
 | Мне нужны Data Lake Storage ресурсы, поддерживающие кластеры Hadoop или данные HDFS. | [Azure Data Lake](https://azure.microsoft.com/solutions/data-lake) |
 | Мне нужна высокая пропускная способность и доступ к данным с малым временем задержки для поддержки быстрых масштабируемых приложений. | [Кэш Azure для Redis](/azure/azure-cache-for-redis/cache-overview) |

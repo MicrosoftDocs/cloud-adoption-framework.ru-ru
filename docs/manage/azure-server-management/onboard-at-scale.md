@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.custom: internal
-ms.openlocfilehash: 2f4ddeb537e958ae6582fd66e8fad613266d7ef4
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: fab9e826186f9eb915a9c3499af5771a84979a60
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017094"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785178"
 ---
 <!-- cSpell:ignore VMUUID kusto -->
 
@@ -37,10 +37,10 @@ ms.locfileid: "97017094"
 
 Все решения по управлению, обсуждаемые в [средствах и службах управления Azure](./tools-services.md) , зависят от того, что агент log Analytics установлен на виртуальных машинах в Azure, а также на локальных серверах. Вы можете подключить виртуальные машины Azure в нужном масштабе с помощью политики Azure. Назначьте политику, чтобы убедиться, что агент установлен на виртуальных машинах Azure и подключен к нужной рабочей области Log Analytics.
 
-В политике Azure есть [Встроенная инициатива политики](/azure/governance/policy/concepts/definition-structure#initiatives) , которая включает в себя log Analytics агент и [Microsoft Dependency Agent](/azure/azure-monitor/insights/vminsights-onboard#the-microsoft-dependency-agent), необходимые Azure Monitor для виртуальных машин.
+В политике Azure есть [Встроенная инициатива политики](/azure/governance/policy/concepts/definition-structure#initiatives) , которая включает в себя log Analytics агент и [Microsoft Dependency Agent](/azure/azure-monitor/vm/vminsights-enable-overview#the-microsoft-dependency-agent), необходимые Azure Monitor для виртуальных машин.
 
 > [!NOTE]
-> Дополнительные сведения о различных агентах для мониторинга Azure см. [в статье Обзор агентов мониторинга Azure](/azure/azure-monitor/platform/agents-overview).
+> Дополнительные сведения о различных агентах для мониторинга Azure см. [в статье Обзор агентов мониторинга Azure](/azure/azure-monitor/agents/agents-overview).
 
 ### <a name="assign-policies"></a>Назначение политик
 
@@ -73,7 +73,7 @@ ms.locfileid: "97017094"
 > [!NOTE]
 > Создайте требуемую [рабочую область log Analytics и учетную запись службы автоматизации Azure](./prerequisites.md#create-a-workspace-and-automation-account) , прежде чем подключать службы управления сервером Azure к серверам.
 
-Для локальных серверов необходимо загрузить и установить [агент log Analytics и Microsoft dependency Agent](/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud) вручную и настроить их для подключения к нужной рабочей области. Необходимо указать идентификатор рабочей области и сведения о ключе. Чтобы получить эти сведения, перейдите в рабочую область log Analytics в портал Azure, а затем выберите **Параметры**  >  **Дополнительные параметры**.
+Для локальных серверов необходимо загрузить и установить [агент log Analytics и Microsoft dependency Agent](/azure/azure-monitor/vm/vminsights-enable-hybrid) вручную и настроить их для подключения к нужной рабочей области. Необходимо указать идентификатор рабочей области и сведения о ключе. Чтобы получить эти сведения, перейдите в рабочую область log Analytics в портал Azure, а затем выберите **Параметры**  >  **Дополнительные параметры**.
 
 ![Снимок экрана с дополнительными параметрами Log Analytics рабочей области в портал Azure](./media/onboarding-on-premises.png)
 
@@ -134,7 +134,7 @@ ms.locfileid: "97017094"
 
 ### <a name="azure-activity-log"></a>Журнал действий Azure
 
-[Журнал действий Azure](/azure/azure-monitor/platform/activity-logs-overview) также является частью Azure Monitor. Он предоставляет подробные сведения о событиях уровня подписки, происходящих в Azure.
+[Журнал действий Azure](/azure/azure-monitor/essentials/platform-logs-overview) также является частью Azure Monitor. Он предоставляет подробные сведения о событиях уровня подписки, происходящих в Azure.
 
 Чтобы реализовать это решение, выполните следующие действия.
 
@@ -177,7 +177,7 @@ ms.locfileid: "97017094"
 
 ### <a name="azure-monitor-for-vms"></a>Azure Monitor для виртуальных машин
 
-Вы можете включить [Azure Monitor для виртуальных машин](/azure/azure-monitor/insights/vminsights-overview) на странице представление для экземпляра виртуальной машины, как описано в разделе [Включение служб управления на одной виртуальной машине для оценки](./onboard-single-vm.md). Не следует включать решения непосредственно со страницы **решений** , как это делается для других решений, описанных в этой статье. Для крупномасштабных развертываний может быть проще использовать [автоматизацию](./onboarding-automation.md) для включения правильных решений в рабочей области.
+Вы можете включить [Azure Monitor для виртуальных машин](/azure/azure-monitor/vm/vminsights-overview) на странице представление для экземпляра виртуальной машины, как описано в разделе [Включение служб управления на одной виртуальной машине для оценки](./onboard-single-vm.md). Не следует включать решения непосредственно со страницы **решений** , как это делается для других решений, описанных в этой статье. Для крупномасштабных развертываний может быть проще использовать [автоматизацию](./onboarding-automation.md) для включения правильных решений в рабочей области.
 
 ### <a name="azure-security-center"></a>Центр безопасности Azure
 

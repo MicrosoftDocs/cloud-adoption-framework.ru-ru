@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: f8384acb0a37d08fd3b352f1a1690cdeecfa39d2
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 37dd0f8c35479969f2bc4bdb5f8cb3d7e11c514c
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024795"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785399"
 ---
 # <a name="cloud-adoption-functions"></a>Функции внедрения облачных технологий
 
@@ -35,10 +35,10 @@ ms.locfileid: "97024795"
 
 ## <a name="preparation"></a>Подготовка
 
-- [Создание учетной записи Azure](/learn/modules/create-an-azure-account). первый шаг в работе с Azure — создание учетной записи.
-- [Портал Azure](/learn/modules/tour-azure-portal): обзор функций и служб портал Azure и Настройка портала.
-- [Введение в Azure](/learn/modules/welcome-to-azure): Начало работы с Azure. Создайте и настройте первую виртуальную машину в облаке.
-- [Основы Azure](/learn/paths/azure-for-the-data-engineer). Узнайте о концепциях облака, получите доступ к преимуществам, Сравните основные стратегии и Узнайте о различных службах, доступных в Azure.
+- [Создание учетной записи Azure](/learn/modules/create-an-azure-account/). первый шаг в работе с Azure — создание учетной записи.
+- [Портал Azure](/learn/modules/tour-azure-portal/): обзор функций и служб портал Azure и Настройка портала.
+- [Введение в Azure](/learn/modules/intro-to-azure-fundamentals/): Начало работы с Azure. Создайте и настройте первую виртуальную машину в облаке.
+- [Основы Azure](/learn/paths/azure-for-the-data-engineer/). Узнайте о концепциях облака, получите доступ к преимуществам, Сравните основные стратегии и Узнайте о различных службах, доступных в Azure.
 - Ознакомьтесь с [методологией миграции](../migrate/index.md).
 
 ## <a name="minimum-scope"></a>Минимальная область

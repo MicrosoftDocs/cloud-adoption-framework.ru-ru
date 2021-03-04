@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 0b2dad61c2524dc5d381b9c0057d7a5f8dbee319
-ms.sourcegitcommit: b1217b40301583286a3d05032dbfd7a8e6b83fd9
+ms.openlocfilehash: e5a06f41404fe3db7bd0a98a1324461ae61ac85b
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/08/2021
-ms.locfileid: "99838879"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786436"
 ---
 # <a name="landing-zone-implementation-options"></a>Параметры реализации зоны размещения
 
@@ -47,9 +47,9 @@ ms.locfileid: "99838879"
 
 | Параметр реализации | Концентратор | Звездообразная | Технология развертывания | Инструкции по развертыванию |
 |---|---|---|---|---|
-| [Инфраструктура внедрения в облаке корпоративный масштаб корпоративного уровня](../enterprise-scale/index.md) | Включено  | Включено | Шаблоны Azure Resource Manager, портал Azure, политика Azure и GitHub | [Развертывание](../enterprise-scale/implementation-guidelines.md) |
+| [Инфраструктура внедрения в облаке корпоративный масштаб корпоративного уровня](../enterprise-scale/index.md) | Включено | Включено | Шаблоны Azure Resource Manager, портал Azure, политика Azure и GitHub | [Развертывание](../enterprise-scale/implementation-guidelines.md) |
 | [Схема зоны размещения для миграции в соответствии с CAF](./migrate-landing-zone.md) | Требуется рефакторинг | Включено | Шаблоны Azure Resource Manager, портал Azure и проекты Azure | [Развертывание](./migrate-landing-zone.md) |
-| [Модули CAF Terraform](./terraform-landing-zone.md)  | Входит в модуль виртуального центра обработки данных | Включено | Terraform | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
+| [Модули CAF Terraform](./terraform-landing-zone.md) | Входит в модуль виртуального центра обработки данных | Включено | Terraform | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

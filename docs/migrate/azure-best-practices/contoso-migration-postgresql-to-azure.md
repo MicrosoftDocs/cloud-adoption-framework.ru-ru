@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: 030c036b41532c1cc55321ebcfe4c352a66e9775
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: 5373e8e4074198db48ab494a2c735e6b5e207c95
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100631531"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785093"
 ---
 <!-- cSpell:ignore BYOK postgres psql dvdrental vpngateways -->
 
@@ -81,9 +81,8 @@ PostgreSQL 9.6.7 работает на физическом компьютере
 
 ## <a name="proposed-architecture"></a>Предлагаемая архитектура
 
-![Схема архитектуры сценария.](./media/contoso-migration-postgresql-to-azure/architecture.png)
-
-_Рис. 1. Архитектура сценария._
+![Схема архитектуры сценария. ](./media/contoso-migration-postgresql-to-azure/architecture.png)
+ *Рис. 1. Архитектура сценария.*
 
 ### <a name="migration-process"></a>Процесс миграции
 
@@ -95,7 +94,7 @@ _Рис. 1. Архитектура сценария._
 
 Поддерживаются только миграции на ту же или более позднюю версию. Миграция PostgreSQL 9,5 в базу данных Azure для PostgreSQL 9,6 или 10 поддерживается, но миграция с PostgreSQL 11 на PostgreSQL 9,6 не поддерживается.
 
-Корпорация Майкрософт нацелена на поддержку _n-2_ версий подсистемы PostgreSQL в базе данных Azure для PostgreSQL-Single Server. Версии будут соответствовать текущей основной версии в Azure (_n_) и двум предыдущим основным версиям (_-2_).
+Корпорация Майкрософт нацелена на поддержку *n-2* версий подсистемы PostgreSQL в базе данных Azure для PostgreSQL-Single Server. Версии будут соответствовать текущей основной версии в Azure (*n*) и двум предыдущим основным версиям (*-2*).
 
 Последние обновления поддерживаемых версий см. в разделе [Supported PostgreSQL Major Versions](/azure/postgresql/concepts-supported-versions).
 
@@ -116,14 +115,14 @@ Contoso потребуется оценить текущую базу данны
 - Перенос нескольких таблиц с одним и тем же именем, но другой случай может привести к непредсказуемому поведению.
 
   ![Схема процесса миграции. ](./media/contoso-migration-postgresql-to-azure/migration-process.png)
-   _Рис. 2. процесс миграции._
+   *Рис. 2. процесс миграции.*
 
 #### <a name="migration"></a>Миграция
 
 Компания Contoso может выполнять миграцию несколькими способами:
 
 - [Дамп и восстановление](/azure/postgresql/howto-migrate-using-dump-and-restore)
-- [Миграция баз данных Azure](/azure/dms/tutorial-postgresql-azure-postgresql-online)
+- [Azure Database Migration Service](/azure/dms/tutorial-postgresql-azure-postgresql-online)
 - [Импорт и экспорт](/azure/postgresql/howto-migrate-using-export-and-import)
 
 Компания Contoso выбрала Azure Database Migration Service, чтобы позволить компании повторно использовать проект миграции при необходимости выполнять основные обновления. Поскольку одно действие Database Migration Service поддерживает только до четырех баз данных, Contoso настраивает несколько заданий, выполнив следующие действия.
@@ -135,7 +134,7 @@ Contoso потребуется оценить текущую базу данны
 ### <a name="create-an-azure-database-migration-service-instance"></a>Создание экземпляра Azure Database Migration Service
 
 1. В [портал Azure](https://portal.azure.com)выберите **Добавить ресурс**.
-1. Выполните поиск по запросу **службы миграции баз данных Azure** и выберите их.
+1. Выполните поиск по запросу **Azure Database Migration Service** и выберите его.
 1. Щелкните **+ Добавить**.
 1. Выберите подписку и группу ресурсов для службы.
 1. Введите имя для экземпляра.
@@ -145,7 +144,7 @@ Contoso потребуется оценить текущую базу данны
 1. Выберите **Review + create** (Просмотреть и создать).
 
     ![Снимок экрана страницы * * Создание службы миграции * *.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_create.png)
-    _Рис. 3. Проверка и создание._
+    *Рис. 3. Проверка и создание.*
 
 1. Нажмите кнопку **создания**.
 
@@ -193,8 +192,7 @@ Contoso потребуется оценить текущую базу данны
 1. Щелкните элемент **Новый проект миграции**.
 
     ![Снимок экрана, на котором показан выделенный параметр "новый проект миграции".](./media/contoso-migration-postgresql-to-azure/azure_migration_service_new_project.png)
-
-    _Рис. 4. Запуск новой миграции._
+    *Рис. 4. Запуск новой миграции.*
 
 1. Выберите **новое действие**  >  **Миграция данных в сети**.
 1. Введите имя.
@@ -202,50 +200,49 @@ Contoso потребуется оценить текущую базу данны
 1. Для целевого объекта выберите **база данных Azure для PostgreSQL** и нажмите кнопку **сохранить**.
 
     ![Снимок экрана, на котором показана панель "новый проект миграции".](./media/contoso-migration-postgresql-to-azure/azure_migration_service_new_project02.png)
-
-    _Рис. 5. выделен новый проект миграции._
+    *Рис. 5. выделен новый проект миграции.*
 
 1. Введите сведения об источнике и нажмите кнопку **сохранить**.
 
     ![Снимок экрана, показывающий ввод сведений об источнике.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_source.png)
-    _Рис. 6. Ввод исходных данных._
+    *Рис. 6. Ввод исходных данных.*
 
 1. Введите сведения о целевом объекте и нажмите кнопку **сохранить**.
 
     ![Снимок экрана, на котором показано, как выбрать целевую информацию.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_target.png)
-    _Рис. 7. Выбор целевой информации._
+    *Рис. 7. Выбор целевой информации.*
 
-1. Выберите базы данных для миграции. Схема для каждой базы данных должна быть перенесена ранее. Затем выберите **Сохранить**.
+1. Выберите базы данных для миграции. Схема для каждой базы данных должна быть перенесена ранее. Затем нажмите кнопку **Save** (Сохранить).
 
     ![Снимок экрана, на котором показаны выборки баз данных.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_db.png)
-    _Рис. 8. Выбор баз данных._
+    *Рис. 8. Выбор баз данных.*
 
 1. Настройте дополнительные параметры и нажмите кнопку **сохранить**.
 
     ![Снимок экрана, на котором показано, как настроить дополнительные параметры.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_advanced.png)
-    _Рис. 9. Настройка дополнительных параметров._
+    *Рис. 9. Настройка дополнительных параметров.*
 
 1. Присвойте действию имя и выберите **выполнить**.
 
     ![Снимок экрана, показывающий именование и выполнение действия.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_summary.png)
-    _Рис. 10. Именование и запуск действия._
+    *Рис. 10. Именование и запуск действия.*
 
 1. Мониторинг миграции. Повторите попытку, если что-то не удается. Например, в случае отсутствия ссылок на внешние ключи.
 1. После `Full load completed` совпадения числа таблиц выберите **Start прямую миграцию**.
 
     ![Снимок экрана, на котором показан мониторинг миграции для запуска прямую миграцию.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_complete.png)
-    _Рис. 11. Мониторинг миграции для запуска прямую миграцию._
+    *Рис. 11. Мониторинг миграции для запуска прямую миграцию.*
 
 1. Останавливает все транзакции с исходного сервера.
 1. Установите флажок **подтвердить** и нажмите кнопку **Применить**.
 
     ![Снимок экрана, на котором показано выполнение прямую миграцию.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_cutover.png)
-    _Рис. 12. Запуск прямую миграцию._
+    *Рис. 12. Запуск прямую миграцию.*
 
 1. Дождитесь завершения прямую миграцию.
 
     ![Снимок экрана, показывающий завершение прямую миграцию.](./media/contoso-migration-postgresql-to-azure/azure_migration_service_finished.png)
-    _Рис. 13. Завершение прямую миграцию._
+    *Рис. 13. Завершение прямую миграцию.*
 
       > [!NOTE]
       > Предыдущие Database Migration Service действия также можно выполнить с помощью [Azure CLI](/azure/dms/tutorial-postgresql-azure-postgresql-online).
@@ -277,7 +274,7 @@ Contoso потребуется оценить текущую базу данны
 - Реализуйте [BYOK](/azure/postgresql/concepts-data-encryption-postgresql) для шифрования данных.
 - Обновите все приложения, чтобы они [затребовали SSL](/azure/postgresql/concepts-ssl-connection-security) -соединения с базами данных.
 - Настройте [частную ссылку](/azure/postgresql/concepts-data-access-and-security-private-link) , чтобы весь трафик базы данных хранился в Azure и локальной сети.
-- Включите [Azure Advanced Threat protection (ATP)](/azure/postgresql/concepts-data-access-and-security-threat-protection).
+- Включите [защитник Майкрософт для идентификации](/azure/postgresql/concepts-data-access-and-security-threat-protection).
 - Настройте Log Analytics для отслеживания и оповещения о записях безопасности и журналах, представляющих интерес.
 
 ### <a name="backups"></a>Резервные копии

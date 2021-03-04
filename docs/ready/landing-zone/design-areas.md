@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: 88eb52e410c9f7a1caf2c3c8f4bfc45bbb743ce0
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: 81e8660fbb041abbca8b1bbb5025e597e407fd89
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100632534"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785042"
 ---
 <!-- TODO: Refactor terms: "design area", "well-architected" -->
 
@@ -28,7 +28,7 @@ ms.locfileid: "100632534"
 
 Независимо от варианта развертывания следует тщательно рассмотреть каждую область проектирования. Ваши решения влияют на облачную платформу, от которой зависит каждая целевая зона.
 
-| Области проектирования | Назначение  | Соответствующие методологии |
+| Области проектирования | Назначение | Соответствующие методологии |
 |---|---|---|
 | Регистрация организации | Корпоративные клиенты, выбравшие Azure, должны уже на ранних этапах создать и зарегистрировать клиента. | Ready |
 | Идентификация | Система управления идентификацией и доступом — это основная граница безопасности в общедоступном облаке. Это основа для любой безопасной архитектуры, отвечающей всем требованиям. | Ready |

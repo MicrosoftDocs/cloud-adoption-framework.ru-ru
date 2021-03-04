@@ -1,6 +1,6 @@
 ---
 title: Повторное размещение локального приложения Linux на виртуальных машинах Azure и базе данных Azure для MySQL
-description: Узнайте, как компания Contoso повторно размещает приложение Linux, перенеся его на виртуальные машины Azure и в Базу данных Azure для MySQL.
+description: Сведения о том, как Contoso перемещает локальное приложение Linux, переносит его на виртуальные машины Azure и базу данных Azure для MySQL.
 author: givenscj
 ms.author: abuck
 ms.date: 07/01/2020
@@ -8,20 +8,20 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: b82eaf9e330e8f59e542d43ea07f3593afa1ffab
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: f19ef45f5d7c18b381c16231d3e48c1ee490406f
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100631650"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785722"
 ---
 <!-- cSpell:ignore OSTICKETWEB OSTICKETMYSQL contosohost vcenter contosodc contosoosticket osticket InnoDB binlog systemctl NSGs -->
 
 # <a name="rehost-an-on-premises-linux-application-to-azure-vms-and-azure-database-for-mysql"></a>Повторное размещение локального приложения Linux на виртуальных машинах Azure и базе данных Azure для MySQL
 
-В этой статье показано, как вымышленная компания Contoso повторно размещает двухуровневый приложение на [основе лампы](https://wikipedia.org/wiki/LAMP_(software_bundle)) и переносит его из локальной среды в Azure с помощью виртуальных машин Azure и базы данных Azure для MySQL.
+В этой статье показано, как вымышленная компания Contoso повторно размещает двухуровневый приложение на [основе лампы](https://wikipedia.org/wiki/LAMP_software_bundle) и переносит его из локальной среды в Azure с помощью виртуальных машин Azure и базы данных Azure для MySQL.
 
-Приложение службы поддержки, используемое в этом примере, Остиккет, предоставляется в виде открытого кода. Если вы хотите использовать его для тестирования, его можно скачать с сайта [GitHub](https://github.com/osTicket/osTicket).
+Приложение службы поддержки, используемое в этом примере, Остиккет, предоставляется как программное обеспечение с открытым исходным кодом. Если вы хотите использовать его для тестирования, его можно скачать с сайта [GitHub](https://github.com/osTicket/osTicket).
 
 ## <a name="business-drivers"></a>Бизнес-факторы
 
@@ -82,7 +82,7 @@ ms.locfileid: "100631650"
 | Служба | Описание | Стоимость |
 | --- | --- | --- |
 | [Миграция Azure](/azure/migrate/migrate-services-overview) | Contoso использует службу "миграция Azure" для оценки виртуальных машин VMware. Служба "Миграция Azure" оценивает миграционную пригодность компьютеров. Она обеспечивает оценку размера и стоимости для работы в Azure. | Служба " [Миграция Azure](https://azure.microsoft.com/pricing/details/azure-migrate/) " доступна без дополнительной платы. Плата может взиматься в зависимости от средств (от первой стороны или ISV), которые вы решили использовать для оценки и миграции. |
-| [Миграция баз данных Azure](/azure/dms/dms-overview) | Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration/). |
+| [Azure Database Migration Service](/azure/dms/dms-overview) | Database Migration Service обеспечивает простой перенос из нескольких источников базы данных в платформы данных Azure с минимальным временем простоя. | Дополнительные сведения о [поддерживаемых регионах](/azure/dms/dms-overview#regional-availability) см. на странице [цен на Database Migration Service](https://azure.microsoft.com/pricing/details/database-migration/). |
 | [База данных Azure для MySQL](/azure/mysql/) | База данных основана на ядре СУБД MySQL с открытым исходным кодом. Она предоставляет полностью управляемую корпоративную базу данных MySQL, готовую для разработки и развертывания приложений. | Узнайте больше о [ценах](https://azure.microsoft.com/pricing/details/mysql/server/) и параметрах масштабируемости базы данных Azure для MySQL. |
 
 ## <a name="prerequisites"></a>Предварительные требования
@@ -191,7 +191,7 @@ ms.locfileid: "100631650"
 
 1. Для параметра **Преимущество гибридного использования Azure**
 
-    - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Нажмите кнопку **Далее**.
+    - выберите вариант **Нет**, если вы не хотите применять Преимущество гибридного использования Azure. Выберите **Далее**.
 
 1. В разделе **Вычисления** просмотрите имя виртуальной машины, размер, тип диска ОС и группу доступности. Виртуальные машины должны соответствовать [требованиям Azure](/azure/migrate/migrate-support-matrix-vmware#vmware-requirements).
 
@@ -341,7 +341,7 @@ ms.locfileid: "100631650"
 
 1. Установите MySQL Workbench для Windows, следуя [инструкциям по установке](https://dev.mysql.com/doc/workbench/en/wb-installing.html).
 
-1. В MySQL Workbench создайте подключение MySQL к ОСТИККЕТМИСКЛ.
+1. В MySQL Workbench создайте подключение MySQL к `OSTICKETMYSQL` .
 
     ![Снимок экрана, на котором показана вкладка "подключение".](./media/contoso-migration-rehost-linux-vm-mysql/workbench1.png)
 

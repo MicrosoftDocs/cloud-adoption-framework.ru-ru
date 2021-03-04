@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal, readiness, fasttrack-edit
-ms.openlocfilehash: 4c709429bf6d45c231b7aa44e6fa81af9b605fe1
-ms.sourcegitcommit: 86d51757bd34b49ce3b061123a6aaa8c88d3b2cc
+ms.openlocfilehash: b7ddc0641e1aaecf2828e74234c0daf5c9b1216b
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/06/2021
-ms.locfileid: "97909469"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786181"
 ---
 # <a name="define-your-naming-convention"></a>Определение соглашения об именовании
 
@@ -79,7 +79,7 @@ _Схема 2. уровни области для имен ресурсов Azur
 | **группа управления;** | Бизнес-единица и/или <br> тип среды | _MG- \<business unit> [- \<environment type> ]_ <br><br> <li> `mg-mktg` <li> `mg-hr` <li> `mg-corp-prod` <li> `mg-fin-client` |
 | **Подписка** | Соглашение об учетной записи или предприятии | _\<business&nbsp;unit>-\<subscription&nbsp;type>-\<###>_ <br><br> <li> `mktg-prod-001` <li> `corp-shared-001` <li> `fin-client-001` |
 | **Группа ресурсов** | Подписка | _RG — \<app&nbsp;or&nbsp;service&nbsp;name> Тип подписки <&nbsp;> —\<###>_ <br><br> <li> `rg-mktgsharepoint-prod-001` <li> `rg-acctlookupsvc-shared-001` <li> `rg-ad-dir-services-shared-001` |
-| **Экземпляр службы управления API** | Global | _apim\<app&nbsp;or&nbsp;service&nbsp;name>_ <br><br> `apim-navigator-prod` |
+| **Экземпляр службы управления API** | Глобальный | _apim\<app&nbsp;or&nbsp;service&nbsp;name>_ <br><br> `apim-navigator-prod` |
 | **Управляемое удостоверение** | Группа ресурсов | _удостоверения\<app&nbsp;or&nbsp;service&nbsp;name>_ <br><br> <li> `id-appcn-keda-prod-eastus2-001` |
 
 ## <a name="example-names-networking"></a>Примеры имен: Сетевые подключения
@@ -94,50 +94,50 @@ _Схема 2. уровни области для имен ресурсов Azur
 | **Группа безопасности сети (NSG)** | Подсеть или сетевая карта | _NSG\<policy&nbsp;name&nbsp;or&nbsp;app&nbsp;name>-\<###>_ <br><br> <li> `nsg-weballow-001` <li> `nsg-rdpallow-001` <li> `nsg-sqlallow-001` <li> `nsg-dnsblocked-001` |
 | **Шлюз локальной сети** | Виртуальный шлюз | _лгв —\<subscription&nbsp;type>-\<region>-\<###>_ <br><br> <li> `lgw-shared-eastus2-001` <li> `lgw-prod-westus-001` <li> `lgw-client-eastus2-001` |
 | **Шлюз виртуальной сети** | Виртуальная сеть | _ВГВ —\<subscription&nbsp;type>-\<region>-\<###>_ <br><br> <li> `vgw-shared-eastus2-001` <li> `vgw-prod-westus-001` <li> `vgw-client-eastus2-001` |
-| **Подключение "сеть — сеть"** | Группа ресурсов | _CN- \<local&nbsp;gateway&nbsp;name> -to-\<virtual&nbsp;gateway&nbsp;name>_ <br><br> <li> `cn-lgw-shared-eastus2-001-to-vgw-shared-eastus2-001` <li> `cn-lgw-shared-eastus2-001-to-vgw-shared-westus-001` |
+| **Подключение "сеть — сеть"** | Группа ресурсов | _CN- \<local&nbsp;gateway&nbsp;name> -to-\<virtual&nbsp;gateway&nbsp;name>_ <br><br> <li> `cn-lgw-shared-eastus2-001-to-vgw-shared-eastus2-001` <li> `cn-lgw-shared-eastus2-001-to-vgw-shared-westus-001` |
 | **VPN-подключение** | Группа ресурсов | _CN- \<subscription1> - \<region1> -to-\<subscription2>-\<region2>-_ <br><br> <li> `cn-shared-eastus2-to-shared-westus` <li> `cn-prod-eastus2-to-prod-westus` |
 | **Таблица маршрутов** | Группа ресурсов | _направлены\<route&nbsp;table&nbsp;name>_ <br><br> <li> `route-navigator` <li> `route-sharepoint` |
-| **Метка DNS** | Global | _\<DNS&nbsp;A&nbsp;record&nbsp;for&nbsp;VM>.\<region>. cloudapp.azure.com_ <br><br> <li> `dc1.westus.cloudapp.azure.com` <li> `web1.eastus2.cloudapp.azure.com` |
+| **Метка DNS** | Глобальный | _\<DNS&nbsp;A&nbsp;record&nbsp;for&nbsp;VM>.\<region>. cloudapp.azure.com_ <br><br> <li> `dc1.westus.cloudapp.azure.com` <li> `web1.eastus2.cloudapp.azure.com` |
 
 ## <a name="example-names-compute-and-web"></a>Примеры имен: COMPUTE и Web
 
 | Тип ресурса | Область | Формат и примеры |
 |--|--|--|
 | **Виртуальная машина** | Группа ресурсов | _машину\<policy name or app name>\<###>_ <br><br> <li> `vmnavigator001` <li> `vmsharepoint001` <li> `vmsqlnode001` <li> `vmhadoop001` |
-| **Учетная запись хранения виртуальных машин** | Global | _stvm\<performance type>\<app name or prod name>\<region>\<###>_ <br><br> <li> `stvmstcoreeastus2001` <li> `stvmpmcoreeastus2001` <li> `stvmstplmeastus2001` <li> `stvmsthadoopeastus2001` |
-| **Веб-приложение** | Global | _App- \<app name> - \<environment> - \<###> . azurewebsites.NET_ <br><br> <li> `app-navigator-prod-001.azurewebsites.net` <li> `app-accountlookup-dev-001.azurewebsites.net` |
-| **Приложение-функция** | Global | _Func- \<app name> - \<environment> - \<###> . azurewebsites.NET_ <br><br> <li> `func-navigator-prod-001.azurewebsites.net` <li> `func-accountlookup-dev-001.azurewebsites.net` |
-| **облачная служба** | Global | _возможно \<app name> - \<environment> - \<###> , cloudapp.NET}_ <br><br> <li> `cld-navigator-prod-001.azurewebsites.net` <li> `cld-accountlookup-dev-001.azurewebsites.net` |
-| **Пространство имен концентраторов уведомлений** | Global | _нтфнс —\<app name>-\<environment>_ <br><br> <li> `ntfns-navigator-prod` <li> `ntfns-emissions-dev` |
+| **Учетная запись хранения виртуальных машин** | Глобальный | _stvm\<performance type>\<app name or prod name>\<region>\<###>_ <br><br> <li> `stvmstcoreeastus2001` <li> `stvmpmcoreeastus2001` <li> `stvmstplmeastus2001` <li> `stvmsthadoopeastus2001` |
+| **Веб-приложение** | Глобальный | _App- \<app name> - \<environment> - \<###> . azurewebsites.NET_ <br><br> <li> `app-navigator-prod-001.azurewebsites.net` <li> `app-accountlookup-dev-001.azurewebsites.net` |
+| **Приложение-функция** | Глобальный | _Func- \<app name> - \<environment> - \<###> . azurewebsites.NET_ <br><br> <li> `func-navigator-prod-001.azurewebsites.net` <li> `func-accountlookup-dev-001.azurewebsites.net` |
+| **Облачная служба** | Глобальный | _возможно \<app name> - \<environment> - \<###> , cloudapp.NET}_ <br><br> <li> `cld-navigator-prod-001.azurewebsites.net` <li> `cld-accountlookup-dev-001.azurewebsites.net` |
+| **Пространство имен концентраторов уведомлений** | Глобальный | _нтфнс —\<app name>-\<environment>_ <br><br> <li> `ntfns-navigator-prod` <li> `ntfns-emissions-dev` |
 | **Концентратор уведомлений** | Пространство имен концентраторов уведомлений | _NTF\<app name>-\<environment>_ <br><br> <li> `ntf-navigator-prod` <li> `ntf-emissions-dev` |
 
 ## <a name="example-names-databases"></a>Примеры имен: базы данных
 
 | Тип ресурса | Область | Формат и примеры |
 |--|--|--|
-| **сервер Базы данных SQL Azure;** | Global | _SQL\<app name>-\<environment>_ <br><br> <li> `sql-navigator-prod` <li> `sql-emissions-dev` |
+| **сервер Базы данных SQL Azure;** | Глобальный | _SQL\<app name>-\<environment>_ <br><br> <li> `sql-navigator-prod` <li> `sql-emissions-dev` |
 | **База данных SQL Azure** | База данных SQL Azure | _sqldb-\<database name>-\<environment>_ <br><br> <li> `sqldb-users-prod` <li> `sqldb-users-dev` |
-| **База данных Azure Cosmos DB** | Global | _Cosmos\<app name>-\<environment>_ <br><br> <li> `cosmos-navigator-prod` <li> `cosmos-emissions-dev` |
-| **Кэш Azure для экземпляра Redis** | Global | _Redis\<app name>-\<environment>_ <br><br> <li> `redis-navigator-prod` <li> `redis-emissions-dev` |
-| **База данных MySQL** | Global | _MySQL\<app name>-\<environment>_ <br><br> <li> `mysql-navigator-prod` <li> `mysql-emissions-dev` |
-| **База данных PostgreSQL** | Global | _psql\<app name>-\<environment>_ <br><br> <li> `psql-navigator-prod` <li> `psql-emissions-dev` |
-| **Хранилище данных SQL Azure** | Global | _sqldw-\<app name>-\<environment>_ <br><br> <li> `sqldw-navigator-prod` <li> `sqldw-emissions-dev` |
+| **База данных Azure Cosmos DB** | Глобальный | _Cosmos\<app name>-\<environment>_ <br><br> <li> `cosmos-navigator-prod` <li> `cosmos-emissions-dev` |
+| **Кэш Azure для экземпляра Redis** | Глобальный | _Redis\<app name>-\<environment>_ <br><br> <li> `redis-navigator-prod` <li> `redis-emissions-dev` |
+| **База данных MySQL** | Глобальный | _MySQL\<app name>-\<environment>_ <br><br> <li> `mysql-navigator-prod` <li> `mysql-emissions-dev` |
+| **База данных PostgreSQL** | Глобальный | _psql\<app name>-\<environment>_ <br><br> <li> `psql-navigator-prod` <li> `psql-emissions-dev` |
+| **Хранилище данных SQL Azure** | Глобальный | _sqldw-\<app name>-\<environment>_ <br><br> <li> `sqldw-navigator-prod` <li> `sqldw-emissions-dev` |
 | **SQL Server Stretch Database** | База данных SQL Azure | _sqlstrdb-\<app name>-\<environment>_ <br><br> <li> `sqlstrdb-navigator-prod` <li> `sqlstrdb-emissions-dev` |
 
 ## <a name="example-names-storage"></a>Примеры имен: хранилище
 
 | Тип ресурса | Область | Формат и примеры |
 |--|--|--|
-| **Учетная запись хранения (общее использование)** | Global | _st\<storage name>\<###>_ <br><br> <li> `stnavigatordata001` <li> `stemissionsoutput001` |
-| **Учетная запись хранения (журналы диагностики)** | Global | _стдиаг\<first 2 letters of subscription name and number>\<region>\<###>_ <br><br> <li> `stdiagsh001eastus2001` <li> `stdiagsh001westus001` |
-| **StorSimple Azure** | Global | _ssimp\<app name>-\<environment>_ <br><br> <li> `ssimpnavigatorprod` <li> `ssimpemissionsdev` |
-| **Реестр контейнеров Azure** | Global | _ACR\<app name>\<environment>\<###>_ <br><br> <li> `acrnavigatorprod001` |
+| **Учетная запись хранения (общее использование)** | Глобальный | _st\<storage name>\<###>_ <br><br> <li> `stnavigatordata001` <li> `stemissionsoutput001` |
+| **Учетная запись хранения (журналы диагностики)** | Глобальный | _стдиаг\<first 2 letters of subscription name and number>\<region>\<###>_ <br><br> <li> `stdiagsh001eastus2001` <li> `stdiagsh001westus001` |
+| **StorSimple Azure** | Глобальный | _ssimp\<app name>-\<environment>_ <br><br> <li> `ssimpnavigatorprod` <li> `ssimpemissionsdev` |
+| **Реестр контейнеров Azure** | Глобальный | _ACR\<app name>\<environment>\<###>_ <br><br> <li> `acrnavigatorprod001` |
 
 ## <a name="example-names-ai-and-machine-learning"></a>Примеры имен: AI и машинное обучение
 
 | Тип ресурса | Область | Формат и примеры |
 |--|--|--|
-| **Когнитивный поиск Azure** | Global | _srch-\<app name>-\<environment>_ <br><br> <li> `srch-navigator-prod` <li> `srch-emissions-dev` |
+| **Когнитивный поиск Azure** | Глобальный | _srch-\<app name>-\<environment>_ <br><br> <li> `srch-navigator-prod` <li> `srch-emissions-dev` |
 | **Azure Cognitive Services** | Группа ресурсов | _шестеренки\<app name>-\<environment>_ <br><br> <li> `cog-navigator-prod` <li> `cog-emissions-dev` |
 | **Рабочая область машинного обучения Azure** | Группа ресурсов | _МЛВ —\<app name>-\<environment>_ <br><br> <li> `mlw-navigator-prod` <li> `mlw-emissions-dev` |
 
@@ -145,24 +145,24 @@ _Схема 2. уровни области для имен ресурсов Azur
 
 | Тип ресурса | Область | Формат и примеры |
 |--|--|--|
-| **Фабрика данных Azure**. | Global | _файлах\<app name>\<environment>_ <br><br> <li> `adf-navigator-prod` <li> `adf-emissions-dev` |
+| **Фабрика данных Azure**. | Глобальный | _файлах\<app name>\<environment>_ <br><br> <li> `adf-navigator-prod` <li> `adf-emissions-dev` |
 | **Azure Stream Analytics** | Группа ресурсов | _ASA\<app name>-\<environment>_ <br><br> <li> `asa-navigator-prod` <li> `asa-emissions-dev` |
-| **Учетная запись Data Lake Analytics** | Global | _dla\<app name>\<environment>_ <br><br> <li> `dlanavigatorprod` <li> `dlanavigatorprod` |
-| **Учетная запись Data Lake Storage** | Global | _распространения\<app name>\<environment>_ <br><br> <li> `dlsnavigatorprod` <li> `dlsemissionsdev` |
-| **Концентратор событий** | Global | _evh-\<app name>-\<environment>_ <br><br> <li> `evh-navigator-prod` <li> `evh-emissions-dev` |
-| **Кластер HDInsight — HBase** | Global | _HBase\<app name>-\<environment>_ <br><br> <li> `hbase-navigator-prod` <li> `hbase-emissions-dev` |
-| **HDInsight — кластер Hadoop** | Global | _Hadoop\<app name>-\<environment>_ <br><br> <li> `hadoop-navigator-prod` <li> `hadoop-emissions-dev` |
-| **HDInsight — кластер Spark** | Global | _Spark\<app name>-\<environment>_ <br><br> <li> `spark-navigator-prod` <li> `spark-emissions-dev` |
-| **Центр Интернета вещей** | Global | _IOT\<app name>-\<environment>_ <br><br> <li> `iot-navigator-prod` <li> `iot-emissions-dev` |
-| **Что такое Power BI Embedded в Azure?** | Global | _PBI\<app name>-\<environment>_ <br><br> <li> `pbi-navigator-prod` <li> `pbi-emissions-dev` |
+| **Учетная запись Data Lake Analytics** | Глобальный | _dla\<app name>\<environment>_ <br><br> <li> `dlanavigatorprod` <li> `dlanavigatorprod` |
+| **Учетная запись Data Lake Storage** | Глобальный | _распространения\<app name>\<environment>_ <br><br> <li> `dlsnavigatorprod` <li> `dlsemissionsdev` |
+| **Концентратор событий** | Глобальный | _evh-\<app name>-\<environment>_ <br><br> <li> `evh-navigator-prod` <li> `evh-emissions-dev` |
+| **Кластер HDInsight — HBase** | Глобальный | _HBase\<app name>-\<environment>_ <br><br> <li> `hbase-navigator-prod` <li> `hbase-emissions-dev` |
+| **HDInsight — кластер Hadoop** | Глобальный | _Hadoop\<app name>-\<environment>_ <br><br> <li> `hadoop-navigator-prod` <li> `hadoop-emissions-dev` |
+| **HDInsight — кластер Spark** | Глобальный | _Spark\<app name>-\<environment>_ <br><br> <li> `spark-navigator-prod` <li> `spark-emissions-dev` |
+| **Центр Интернета вещей** | Глобальный | _IOT\<app name>-\<environment>_ <br><br> <li> `iot-navigator-prod` <li> `iot-emissions-dev` |
+| **Что такое Power BI Embedded в Azure?** | Глобальный | _PBI\<app name>-\<environment>_ <br><br> <li> `pbi-navigator-prod` <li> `pbi-emissions-dev` |
 
 ## <a name="example-names-integration"></a>Примеры имен: интеграция
 
 | Тип ресурса | Область | Формат и примеры|
 |--|--|--|
-| **Служебная шина** | Global | _SB- \<app name> - \<environment> . servicebus.Windows.NET_ <br><br> <li> `sb-navigator-prod` <li> `sb-emissions-dev` |
-| **Очередь служебной шины** | Служебная шина | _sbq-\<query descriptor>_ <br><br> <li> `sbq-messagequery` |
-| **Раздел служебной шины** | Служебная шина | _SBT\<query descriptor>_ <br><br> <li> `sbt-messagequery` |
+| **Служебная шина** | Глобальный | _SB- \<app name> - \<environment> . servicebus.Windows.NET_ <br><br> <li> `sb-navigator-prod` <li> `sb-emissions-dev` |
+| **Очередь служебной шины** | Служебная шина Azure | _sbq-\<query descriptor>_ <br><br> <li> `sbq-messagequery` |
+| **Раздел служебной шины** | Служебная шина Azure | _SBT\<query descriptor>_ <br><br> <li> `sbt-messagequery` |
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

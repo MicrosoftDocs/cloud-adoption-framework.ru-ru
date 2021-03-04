@@ -8,18 +8,18 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: b09e5ca4d5bbe6e2080cc90f5c017858b0fe5fce
-ms.sourcegitcommit: d957bfc1fa8dc81168ce9c7d801a8dca6254c6eb
+ms.openlocfilehash: ff64f7bb30f6fb986c4d74dd64923c85b67af4db
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 11/23/2020
-ms.locfileid: "95447308"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786453"
 ---
 # <a name="enterprise-scale-business-continuity-and-disaster-recovery"></a>Непрерывность бизнес-процессов и аварийное восстановление в масштабах предприятия
 
 Ваша организация или предприятие должны проектировать подходящие возможности уровня платформы, которые могут использоваться рабочими нагрузками приложений для удовлетворения конкретных требований. В частности, эти рабочие нагрузки приложений имеют требования, относящиеся к восстановлению целевого значения времени (RTO) и цели точки восстановления (RPO). Убедитесь, что вы собираете требования к аварийному восстановлению (DR), чтобы правильно разработать возможности для этих рабочих нагрузок.
 
-## <a name="design-considerations"></a>Рекомендации по проектированию
+**Рекомендации по проектированию:**
 
 Примите во внимание следующие факторы.
 
@@ -63,7 +63,7 @@ ms.locfileid: "95447308"
 
 - Azure Key Vault аварийного восстановления для ключей приложений, сертификатов и секретов.
 
-## <a name="design-recommendations"></a>Рекомендации по проектированию
+**Рекомендации по проектированию:**
 
 Ниже приведены рекомендации по проектированию.
 

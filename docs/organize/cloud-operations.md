@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: 5a5d279ea5da00c3fa9b2f2ad311cf528c21b0af
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 5e026a46a8c7b49bba64a73aadb1bac815d2ec2b
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024744"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101784770"
 ---
 # <a name="cloud-operations-functions"></a>Функции облачных операций
 
@@ -35,7 +35,7 @@ ms.locfileid: "97024744"
 ## <a name="preparation"></a>Подготовка
 
 - [Управление ресурсами в Azure](/learn/paths/manage-resources-in-azure/). Узнайте, как работать с Azure CLI и веб-порталом для создания, управления и контроля облачных ресурсов.
-- [Сетевые службы Azure](/learn/modules/intro-to-azure-networking/). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
+- [Сетевые службы Azure](/learn/modules/azure-networking-fundamentals/). Узнайте об основах работы с сетью Azure и о том, как повысить устойчивость и сократить задержку.
 
 Ознакомьтесь со следующими сведениями:
 

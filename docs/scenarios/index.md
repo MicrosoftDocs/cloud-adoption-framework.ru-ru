@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: bb5643f36ec3ae3b8b22ca41fd13d8cae6a658cf
-ms.sourcegitcommit: 30837e99289338b0cc0f9efb2a5e07aca052e2e8
+ms.openlocfilehash: 80dc2b74e6abc3593c64985a8e853fb852a8ffd3
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2021
-ms.locfileid: "98560737"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101784957"
 ---
 <!-- docutune:ignore "One Migration" -->
 <!-- cSpell:ignore HANA -->
@@ -34,8 +34,8 @@ ms.locfileid: "98560737"
 | **Приложения** | [ASP.NET](../migrate/azure-best-practices/contoso-migration-refactor-web-app-sql.md) | [Java](/azure/java/migration-overview?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json) | [PHP](../migrate/azure-best-practices/contoso-migration-refactor-linux-app-service-mysql.md) |
 | **Data** | [SQL Server](../migrate/azure-best-practices/contoso-migration-rehost-vm-sql-managed-instance.md) | [Базы данных с открытым кодом](../migrate/azure-best-practices/sql-migration.md) | [Аналитика](../migrate/azure-best-practices/analytics/analytics-solutions-overview.md) |
 | **Гибридный** | [Azure Stack](./azure-stack/index.md) | [VMware](../migrate/azure-best-practices/vmware-host.md) | |
-| **Технологические платформы** | SAP (классическая версия и HANA) | Kubernetes | [Мейнфреймы](../infrastructure/mainframe-migration/index.md) | 
-| **Дополнительные сценарии** | [Безопасные рабочие нагрузки](../migrate/azure-best-practices/migrate-best-practices-security-management.md) | [Среды для нескольких арендаторов](/azure/lighthouse/how-to/migration-at-scale?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json) | NetApp |
+| **Технологические платформы** | SAP (классическая версия и HANA) | Kubernetes | [Мейнфреймы](../infrastructure/mainframe-migration/index.md) |
+| **Дополнительные сценарии** | [Безопасные рабочие нагрузки](../migrate/azure-best-practices/migrate-best-practices-security-management.md) | [Среды для нескольких арендаторов](/azure/lighthouse/how-to/migration-at-scale?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/toc.json) | NetApp |
 
 ## <a name="migrate-methodology"></a>Методика миграции
 

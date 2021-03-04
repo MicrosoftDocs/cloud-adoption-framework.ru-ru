@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: reference
 ms.custom: think-tank
-ms.openlocfilehash: 0ee118444a1bad009f5815029e98520c3bc14fbc
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: d52a77b668ce94caf56a83aaac0da2a9cc6e14a3
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025849"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101784617"
 ---
 <!-- docutune:ignore "Azure Virtual Datacenter" -->
 
@@ -24,4 +24,4 @@ ms.locfileid: "97025849"
 Следующие рекомендации служат важной частью основы [методологии готовности](../ready/index.md) и [управляемой методологии](../govern/index.md) в облачной инфраструктуре внедрения. Для поддержки клиентов, выполняющих эту переход, следующие ресурсы архивируются и обслуживаются в отдельном репозитории GitHub.
 
 - [Виртуальный центр обработки данных Azure](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter.pdf). в этой электронной книге показано, как развертывать корпоративные рабочие нагрузки на облачную платформу Azure с учетом существующих политик безопасности и сети.
-- [Руководство по использованию виртуального центра обработки данных Azure](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf). в этом техническом документе обсуждается процесс, с помощью которого специалисты по ИТ и лица, принимающие решения, могут использовать для обнаружения и планирования миграции приложений и серверов в Azure с применением подхода сдвига и перемещения, одновременно сокращая любые дополнительные затраты на разработку и оптимизируя облачные варианты размещения.
+- [Руководство по виртуализации виртуальных центров данных Azure](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/archive/vdc/Azure_Virtual_Datacenter_Lift_and_Shift_Guide.pdf). в этом техническом документе обсуждается процесс, который сотрудники ИТ-отдела и лица, принимающие решения, могут использовать для обнаружения и планирования миграции приложений и серверов в Azure с помощью подхода перемещения и изменения, одновременно уменьшая другие расходы на разработку и оптимизируя возможности размещения в облаке.

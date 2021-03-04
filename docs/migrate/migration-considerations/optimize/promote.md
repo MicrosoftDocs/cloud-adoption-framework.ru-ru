@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 1b93b3c3e500c9ae7291c8d0632ea14f9344241b
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: aed5cc0dadc284e35600a63156ea1658dc181f90
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024999"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786640"
 ---
 # <a name="what-is-required-to-promote-a-migrated-resource-to-production"></a>Что необходимо для повышения уровня перенесенного ресурса до рабочей среды?
 

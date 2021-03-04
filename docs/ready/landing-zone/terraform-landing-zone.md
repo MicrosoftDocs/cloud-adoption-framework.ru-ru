@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: a1e2de16aea7af82795c4227675c5dc72ccf523c
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 0ad91b2d09e08bf05cca62323e18ed242ef5e1b6
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97012521"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785331"
 ---
 <!-- cSpell:ignore eastasia southeastasia vCPUs lalogs tfvars NetworkMonitoring ADAssessment ADReplication AgentHealthAssessment DnsAnalytics KeyVaultAnalytics -->
 
@@ -38,16 +38,16 @@ Azure предоставляет собственные службы для ра
 
 <!-- docutune:casing NetworkMonitoring AdAssessment AdReplication AgentHealthAssessment DnsAnalytics KeyVaultAnalytics -->
 
-## <a name="capabilities"></a>Характеристики
+## <a name="capabilities"></a>Возможности
 
 Развернутые компоненты и их назначение включают следующее.
 
-| Компонент | Несет |
+| Компонент | Обязательство |
 |---|---|
 | Группы ресурсов | Основные группы ресурсов, необходимые для фундамента |
 | Журнал активности | Аудит всех действий и архивации подписок: <li> Учетная запись хранения <li> Центры событий Azure |
 | ведет журнал диагностики. | Все журналы операций хранятся в течение определенного числа дней: <li> Учетная запись хранения <li> Центры событий |
-| Анализ журналов | Хранит журналы операций. Развертывание общих решений для глубокой проверки приложений: <li> нетворкмониторинг <li> адассессмент <li> адрепликатион <li> аженсеалсассессмент <li> днсаналитикс <li> кэйваултаналитикс |
+| Log Analytics | Хранит журналы операций. Развертывание общих решений для глубокой проверки приложений: <li> нетворкмониторинг <li> адассессмент <li> адрепликатион <li> аженсеалсассессмент <li> днсаналитикс <li> кэйваултаналитикс |
 | Центр безопасности Azure | Метрики санации безопасности и оповещения, отправленные по электронной почте и номеру телефона |
 
 ## <a name="use-this-blueprint"></a>Использование этой схемы
@@ -78,11 +78,11 @@ Azure предоставляет собственные службы для ра
 | Разработка подписки    | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Создание первоначальных подписок](../azure-best-practices/initial-subscriptions.md)                                                                                                                                                                                  |
 | Группы ресурсов        | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Масштабирование подписок](../azure-best-practices/scale-subscriptions.md)                                                                                                                                                                                           |
 | Группы управления      | Н/д — предназначено для одной рабочей подписки.                                                                                                                                                                                                                     | [Организация подписок](../azure-best-practices/organize-subscriptions.md)                                                                                                                                                                                     |
-| Данные                   | Недоступно                                                                                                                                                                                                                                                                      | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview) |
-| Хранилище                | Недоступно                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
+| Данные                   | Н/Д                                                                                                                                                                                                                                                                      | [Выберите правильный вариант SQL Server в Azure](/azure/sql-database/sql-database-paas-vs-sql-server-iaas) и [руководстве по хранилищу данных Azure](/azure/architecture/guide/technology-choices/data-store-overview) |
+| Память                | Н/Д                                                                                                                                                                                                                                                                      | [Руководство по службе хранилища Azure](../considerations/storage-options.md)                                                                                                                                                                                                  |
 | Стандарты именования       | При создании среды также создается уникальный префикс. Для ресурсов, которым требуется глобально уникальное имя (например, учетные записи хранения), используйте этот префикс. Пользовательское имя добавляется с помощью случайного суффикса. Использование тегов обязательно, как описано в следующей таблице. | [Рекомендации Azure по добавлению тегов и стандартам именования](../azure-best-practices/naming-and-tagging.md)                                                                                                                                                                              |
-| управления затратами;        | Недоступно                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
-| Вычисления                | Недоступно                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
+| управления затратами;        | Н/Д                                                                                                                                                                                                                                                                      | [Отслеживание затрат](../azure-best-practices/track-costs.md)                                                                                                                                                                                                        |
+| Службы вычислений                | Н/Д                                                                                                                                                                                                                                                                      | [Параметры вычислений](../considerations/compute-options.md)                                                                                                                                                                                                         |
 
 ### <a name="tagging-standards"></a>Стандарты тегов
 
@@ -91,7 +91,7 @@ Azure предоставляет собственные службы для ра
 <!-- TODO: Review capitalization and hyphenation -->
 <!-- TODO: Eliminate either "Tag name" or "Key" column -->
 
-| Имя тега          | Описание                                                                                        | Клавиши             | Примеры значений                                    |
+| Имя тега          | Описание                                                                                        | Клавиши               | Примеры значений                                    |
 |-------------------|----------------------------------------------------------------------------------------------------|-------------------|--------------------------------------------------|
 | Бизнес-единица     | Подразделение высшего уровня компании, которому принадлежит подписка или рабочая нагрузка, к которой принадлежит ресурс. | `BusinessUnit`    | `finance`, `marketing`, `<product-name>`, `corp`, `shared` |
 | место возникновения затрат;       | Центр затрат на учет, связанный с этим ресурсом.                                              | `CostCenter`      | `<cost-center-number>`                                     |

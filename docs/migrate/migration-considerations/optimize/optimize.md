@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 5cbf8e70e65eeeff04e4c22f8a2f559111f1e247
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 0e6aebff9cc0bf7df7ba96dea4107e0ed6bb3fca
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025016"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786674"
 ---
 # <a name="benchmark-and-resize-cloud-assets"></a>Тест производительности и изменение размера облачных ресурсов
 

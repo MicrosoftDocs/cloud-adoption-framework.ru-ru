@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: d5a4f593e62772dbd45fa9aea3eebfb6360fbcf4
-ms.sourcegitcommit: 9f5b94ff2a57f17541c9bd706245ae23883ad22c
+ms.openlocfilehash: 85aa7b4ff6692e8abb1808cd0fd2bed895c631de
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "98625724"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101787269"
 ---
 # <a name="review-your-compute-options"></a>Проверка параметров вычислений
 
@@ -58,14 +58,14 @@ _Рис. 1. Дерево принятия решений служб вычисл
 
 В следующей таблице приведено несколько распространенных сценариев использования и рекомендуемых служб вычислений для работы с ними.
 
-| Сценарий  | Служба вычислений |
+| Сценарий | Служба вычислений |
 | --- | --- |
 | Мне нужно подготовить к работе виртуальные машины Linux и Windows в считанные секунды в любой удобной конфигурации. | [Виртуальные машины Azure](https://azure.microsoft.com/services/virtual-machines) |
 | Мне нужно достичь высокой доступности путем автомасштабирования для создания тысяч виртуальных машин за считанные минуты. | [Масштабируемые наборы виртуальных машин](https://azure.microsoft.com/services/virtual-machine-scale-sets) |
 | Мне нужно упростить развертывание, управление и работу Kubernetes. | [Служба Azure Kubernetes (AKS)](https://azure.microsoft.com/services/kubernetes-service) |
 | Мне нужно ускорить разработку приложений, используя бессерверную архитектуру, основанную на событиях. | [Функции Azure](https://azure.microsoft.com/services/functions) |
 | Мне нужно разработать микрослужбы и оркестрировать контейнеры в Windows и Linux. | [Azure Service Fabric](https://azure.microsoft.com/services/service-fabric) |
-| Я хочу быстро создавать облачные приложения для Интернета и мобильных устройств с помощью полностью управляемой платформы. | [служба приложений Azure](https://azure.microsoft.com/services/app-service); |
+| Я хочу быстро создавать облачные приложения для Интернета и мобильных устройств с помощью полностью управляемой платформы. | [Служба приложений Azure](https://azure.microsoft.com/services/app-service) |
 | Я хочу контейнеризовать приложения и легко выполнять контейнеры с помощью одной команды. | [Экземпляры контейнеров Azure](https://azure.microsoft.com/services/container-instances); |
 | Мне нужно планировать задания и управлять вычислительными ресурсами в облачном масштабе с возможностью масштабирования до десятков, сотен или тысяч виртуальных машин. | [Пакетная служба Azure](https://azure.microsoft.com/services/batch) |
 | Мне нужно создать высокодоступные масштабируемые облачные приложения и интерфейсы API, которые помогут сосредоточиться на приложениях, а не на оборудовании. | [Oблачныe службы Azure2](https://azure.microsoft.com/services/cloud-services) |
