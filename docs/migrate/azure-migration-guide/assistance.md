@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-new, AQC
-ms.openlocfilehash: 858bd62de5d66cc6db4e3dd5fd2d893163716da8
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: ae8995d1069d7bb62a7169f318b103adfef7a564
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025407"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785586"
 ---
 <!-- cSpell:ignore MSPs -->
 
