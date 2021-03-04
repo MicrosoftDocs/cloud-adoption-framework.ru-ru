@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: organize
 ms.custom: internal
-ms.openlocfilehash: 94753e80ed7597a1e6ec97177a9c35c201466afe
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: c8b1c464c268f873f06564d2dd3162c3847380c8
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97024778"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101788425"
 ---
 # <a name="cloud-center-of-excellence-ccoe-functions"></a>Облачный центр по функциям высокого качества (Ккое)
 

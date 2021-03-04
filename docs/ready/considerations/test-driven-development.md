@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: a7f43c5ec340d7cbf50b570406e27e715e90378a
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: d738d917f43c2d9e454e30fcb73b8030ba99fd9c
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97023945"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101788136"
 ---
 # <a name="test-driven-development-tdd-for-landing-zones"></a>Разработка на основе тестирования (TDD) для целевых зон
 
@@ -67,12 +67,12 @@ ms.locfileid: "97023945"
 Управляемая методология в инфраструктуре внедрения облачных технологий обеспечивает подробное путешествие по естественной зрелости группы управления. В этом пути есть несколько примеров "определение завершенности" и "условия приемки" в форме операторов политики.
 
 - [Начальные инструкции политики](../../govern/guides/complex/initial-corporate-policy.md#policy-statements): пример корпоративных политик, определяющих и начальное определение, на основе требований к внедрению на раннем этапе.
-- [Расширение удостоверений](../../govern/guides/complex/identity-baseline-improvement.md#incremental-improvement-of-the-policy-statements). пример корпоративных политик, управляющих ("определение завершенных"), для удовлетворения требований к расширению управления удостоверениями для целевой зоны.
-- [Расширение безопасности](../../govern/guides/complex/security-baseline-improvement.md#incremental-improvement-of-the-policy-statements). пример корпоративных политик, управляющих ("определение завершено"), для удовлетворения требований безопасности, соответствующих плану внедрения в облако.
-- [Расширение операций](../../govern/guides/complex/resource-consistency-improvement.md#incremental-improvement-of-the-policy-statements). пример корпоративных политик, управляющих требованиями ("определение завершенности"), для удовлетворения основных требований к управлению операциями.
-- [Раскрытие затрат](../../govern/guides/complex/cost-management-improvement.md#changes-to-the-policy-statements). пример корпоративных политик, управляющих требованиями ("определение завершенности"), для удовлетворения требований к управлению затратами.
+- [Расширение удостоверений](../../govern/guides/complex/identity-baseline-improvement.md#incremental-improvement-of-the-policy-statements). пример корпоративных политик, управляющих *определением* соответствия требованиям для расширения управления удостоверениями для целевой зоны.
+- [Расширение безопасности](../../govern/guides/complex/security-baseline-improvement.md#incremental-improvement-of-the-policy-statements). пример корпоративных политик *, определяющих* соответствие требованиям безопасности, с учетом эталонного плана внедрения в облако.
+- [Расширение операций](../../govern/guides/complex/resource-consistency-improvement.md#incremental-improvement-of-the-policy-statements). пример корпоративных политик, управляющих *определением "выполнено* " для удовлетворения основных требований к управлению операциями.
+- [Раскрытие затрат](../../govern/guides/complex/cost-management-improvement.md#changes-to-the-policy-statements). пример корпоративных политик, управляющих *определением действий* для удовлетворения требований к управлению затратами.
 
-Приведенные выше примеры представляют собой базовые примеры, помогающие в разработке "определения готовых зон". Для каждой из [пяти дисциплин управления облаком](../../govern/governance-disciplines.md)доступны дополнительные примеры политик.
+Приведенные выше примеры являются основными примерами, которые помогут вам в разработке *определения* для основных зон. Для каждой из [пяти дисциплин управления облаком](../../govern/governance-disciplines.md)доступны дополнительные примеры политик.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

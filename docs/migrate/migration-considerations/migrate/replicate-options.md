@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: b455cfe253aecd8187e026bac88d902422650cc7
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 858ae7a6c9ebfa63af0148088bd51de3bd04334a
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025135"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101788442"
 ---
 # <a name="replication-options"></a>Варианты репликации
 
@@ -30,7 +30,7 @@ ms.locfileid: "97025135"
 - **Миграция из другого облака в Azure.** Вы можете перенести вычислительные операции, подготовленные в других поставщиках облачных служб, на виртуальные машины Azure. Для переноса служба Site Recovery рассматривает эти экземпляры как физические серверы.
 
 ![Azure Site Recovery ](../../../_images/migrate/asr-replication-image.png)
- _рис. 1. Azure Site Recovery перемещение ресурсов в Azure или другие облака._
+ *рис. 1. Azure Site Recovery перемещение ресурсов в Azure или другие облака.*
 
 После оценки локальной и облачной инфраструктуры для миграции Azure Site Recovery участвует в вашей стратегии миграции, реплицируя локальные компьютеры. С помощью приведенных ниже простых действий можно настроить миграцию локальных виртуальных машин, физических серверов и экземпляров облачных виртуальных машин в Azure.
 

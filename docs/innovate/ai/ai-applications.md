@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: 8b4cb93b832205307e07aa2432989cfbcada67b3
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: a147a8b5eef8c5cc5b80310e6555c80b95d10c15
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100632232"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101789292"
 ---
 # <a name="ai-applications-and-agents"></a>Приложения и агенты ИИ
 
@@ -25,7 +25,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 Типичные сценарии для приложений AI включают:
 
-- Анализ мнений
+- Анализ тональности
 - Обнаружение объектов
 - Перевод
 - Персонализация
@@ -42,7 +42,7 @@ Microsoft Azure Cognitive Services устранить эти проблемы и
 
 Чтобы приступить к работе, сначала ознакомьтесь с различными категориями и службами в Azure Cognitive Services. Посетите страницы продукта, чтобы получить дополнительные сведения и взаимодействовать с демонстрационными материалами для получения дополнительных сведений о доступных возможностях, таких как концепция, речь, язык и решение. Существует также электронная книга, в которой рассматриваются распространенные сценарии и способы создания первого приложения с Cognitive Services.
 
-- [Cognitive Services](/azure/cognitive-services/welcome)
+- [Cognitive Services](/azure/cognitive-services/what-are-cognitive-services)
 - [Интерактивные демонстрации на страницах Product/Service](https://azure.microsoft.com/services/cognitive-services/)
 - [Создание интеллектуальных приложений с помощью API-интерфейсов для](https://azure.microsoft.com/resources/building-intelligent-apps-with-cognitive-apis/) распознавания (электронная книга)
 

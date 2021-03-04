@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: dffd1534d461d443a80f20b3f7cd65392dbe9acc
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: f89da567e6869e77999eb55b9388fabf6f91daca
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100631395"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101788578"
 ---
 <!-- cSpell:ignore kusto ITIL -->
 
@@ -86,7 +86,7 @@ ms.locfileid: "100631395"
 
 Корпорация Майкрософт и ее партнеры предлагают различные варианты для всех аудиторий, позволяющих разрабатывать навыки работы со службами Azure.
 
-- [Map Roles and Skills (сопоставление ролей и навыков](/azure/cloud-adoption-framework/plan/suggested-skills)). ресурс для сопоставления пути вашей облачной карьеры. Узнайте о роли облака и рекомендуемых навыках. Выполните учебный учебный курс в удобном для вас темпе, чтобы придерживаться необходимых навыков.
+- [Map Roles and Skills (сопоставление ролей и навыков](../../plan/suggested-skills.md)). ресурс для сопоставления пути вашей облачной карьеры. Узнайте о роли облака и рекомендуемых навыках. Выполните учебный учебный курс в удобном для вас темпе, чтобы придерживаться необходимых навыков.
 
 - Изучите [обучающие курсы и экзамены по сертификации Azure](https://www.microsoft.com/learning/certification-overview.aspx) , чтобы получить официальное распознавание ваших знаний Azure.
 

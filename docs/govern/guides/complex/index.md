@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 537d1879a23cf86c303200eb359d5d75aa02741a
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 16a45aa4eceb2f16cb9e8e82ba9e4d7a99976ca9
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97021293"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101789496"
 ---
 # <a name="governance-guide-for-complex-enterprises"></a>Руководство по организации системы управления для сложных предприятий
 
@@ -46,7 +46,7 @@ ms.locfileid: "97021293"
 
 1. Группы ресурсов следует развертывать с учетом жизненного цикла содержимого. Ресурсы, разработка, управление и удаление которых выполняется совместно, входят в одну группу ресурсов. Дополнительные сведения о рекомендациях по использованию групп ресурсов см. в [руководстве по принятию решений для согласования ресурсов](../../../decision-guides/resource-consistency/index.md).
 
-1. Очень важно [выбрать правильный регион](../../../migrate/azure-best-practices/multiple-regions.md). Мы рекомендуем выбирать регион так, чтобы вы имели доступ к сетевым ресурсам, средствам мониторинга и аудита в процессе отработки отказа или восстановления размещения, а также чтобы [нужные SKU были доступны в предпочтительных регионах](https://azure.microsoft.com/global-infrastructure/services).
+1. Очень важно [выбрать правильный регион](../../../migrate/azure-best-practices/multiple-regions.md). Мы рекомендуем выбирать регион так, чтобы вы имели доступ к сетевым ресурсам, средствам мониторинга и аудита в процессе отработки отказа или восстановления размещения, а также чтобы [нужные SKU были доступны в предпочтительных регионах](https://azure.microsoft.com/global-infrastructure/services/).
 
 ![Схема организации ресурсов на крупных предприятиях](../../../_images/govern/large-enterprise-resource-organization.png)
 

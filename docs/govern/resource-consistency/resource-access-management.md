@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: 88f91656ad0443db4e6cf150b299dc36f38b2a86
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: bda70153046a2d6f122a5e970a27f724c646c3a6
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97712863"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101787762"
 ---
 # <a name="resource-access-management-in-azure"></a>Управление доступом к ресурсам в Azure
 
@@ -46,12 +46,12 @@ ms.locfileid: "97712863"
 
 ## <a name="what-is-azure-resource-manager"></a>Azure Resource Manager
 
-[Как работает Azure?](../../get-started/what-is-azure.md) вы узнали, что Azure включает внешний интерфейс со многими службами, координирующими все функции Azure. К этим службам относится [Azure Resource Manager](/azure/azure-resource-manager). В этой службе размещен интерфейс REST API, с помощью которого клиенты управляют ресурсами.
+[Как работает Azure?](../../get-started/what-is-azure.md) вы узнали, что Azure включает внешний интерфейс со многими службами, координирующими все функции Azure. К этим службам относится [Azure Resource Manager](/azure/azure-resource-manager/). В этой службе размещен интерфейс REST API, с помощью которого клиенты управляют ресурсами.
 
 ![Схема Azure Resource Manager ](../../_images/govern/design/governance-1-12.png)
  *рис. 4. Azure Resource Manager.*
 
-На следующем рисунке показаны три клиента: [PowerShell](/powershell/azure/overview), [портал Azure](https://portal.azure.com)и [Azure CLI](/cli/azure).
+На следующем рисунке показаны три клиента: [PowerShell](/powershell/azure/), [портал Azure](https://portal.azure.com)и [Azure CLI](/cli/azure/).
 
 ![Схема клиентов Azure, подключающихся к диспетчер ресурсов REST API ](../../_images/govern/design/governance-1-13.png)
  *рис. 5. клиенты Azure подключаются к REST API диспетчер ресурсов.*
@@ -70,7 +70,7 @@ Azure Resource Manager требует, чтобы клиент указал ид
 
 Теперь, когда вы имеете представление о принципе работы Azure Resource Manager, рассмотрим, как используемые этой службой элементы управления связаны с подпиской Azure. Перед выполнением Azure Resource Manager любого запроса на управление ресурсом проверяется набор элементов управления.
 
-Сначала проверяется, выполняется ли запрос проверенным пользователем. Azure Resource Manager имеет отношения доверия с [Azure Active Directory (Azure AD)](/azure/active-directory), что позволяет обеспечить механизм удостоверения пользователя.
+Сначала проверяется, выполняется ли запрос проверенным пользователем. Azure Resource Manager имеет отношения доверия с [Azure Active Directory (Azure AD)](/azure/active-directory/), что позволяет обеспечить механизм удостоверения пользователя.
 
 ![Azure Active Directory ](../../_images/govern/design/governance-1-16.png)
  *рис. 8. Azure Active Directory.*
@@ -82,14 +82,14 @@ Azure Resource Manager требует, чтобы клиент указал ид
 
 Каждый запрос клиента на управление ресурсом в определенной подписке требует наличия у пользователя учетной записи в связанном клиенте Azure AD.
 
-Следующим проверяется, имеет ли пользователь необходимые права на выполнение запроса. Разрешения назначаются пользователям с помощью [управления доступом на основе ролей Azure (Azure RBAC)](/azure/role-based-access-control).
+Следующим проверяется, имеет ли пользователь необходимые права на выполнение запроса. Разрешения назначаются пользователям с помощью [управления доступом на основе ролей Azure (Azure RBAC)](/azure/role-based-access-control/).
 
 ![Пользователи, назначенные ролям Azure ](../../_images/govern/design/governance-1-18.png)
  *рис. 10. каждому пользователю в клиенте назначается одна или несколько ролей Azure.*
 
 Роль Azure указывает набор разрешений, которые может выполнять пользователь на определенном ресурсе. Эти разрешения применяются после назначения роли пользователю. Например, [Встроенная `owner` роль](/azure/role-based-access-control/built-in-roles#owner) позволяет пользователю выполнять любые действия с ресурсом.
 
-На следующем этапе проверяется, разрешен ли запрос согласно параметрам, заданным в [политике ресурсов Azure](/azure/governance/policy). Политики ресурсов Azure указывают операции, разрешенные в конкретном ресурсе. Например, в соответствии с политикой ресурсов Azure пользователи смогут развертывать только определенные типы виртуальной машины.
+На следующем этапе проверяется, разрешен ли запрос согласно параметрам, заданным в [политике ресурсов Azure](/azure/governance/policy/). Политики ресурсов Azure указывают операции, разрешенные в конкретном ресурсе. Например, в соответствии с политикой ресурсов Azure пользователи смогут развертывать только определенные типы виртуальной машины.
 
 ![Политика ресурсов Azure ](../../_images/govern/design/governance-1-19.png)
  *рис. 11. Политика ресурсов Azure.*
@@ -104,7 +104,7 @@ Azure Resource Manager требует, чтобы клиент указал ид
 ![Финансовые обязательства, связанные с подпиской на ](../../_images/govern/design/governance-1-21.png)
  *рис. 13. финансовое обязательство связано с подпиской.*
 
-## <a name="summary"></a>Сводка
+## <a name="summary"></a>Итоги
 
 Из этой статьи вы узнали об управлении доступом к ресурсам в Azure с помощью Azure Resource Manager.
 

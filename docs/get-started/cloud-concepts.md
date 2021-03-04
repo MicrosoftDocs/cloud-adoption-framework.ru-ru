@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: overview
 ms.custom: internal
-ms.openlocfilehash: 13bd784f2012010ff347f1a461b4ddb3cdc2fe1f
-ms.sourcegitcommit: a0ddde4afcc7d8c21559e79d406dc439ee4f38d2
+ms.openlocfilehash: 0e73ed6f0f60f32bb5d50d8b089127e65215d1b5
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/21/2020
-ms.locfileid: "97712048"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101788663"
 ---
 # <a name="get-started-understand-and-document-foundational-alignment-decisions"></a>Начало работы: изучение и документирование решений по выравниванию в базовых принципах
 
