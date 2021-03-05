@@ -1,0 +1,381 @@
+# docsTest:ignore "NET Core" "Cloud Operating Model" "Virtual Datacenter" Framework app
+items:
+  - name: "Современные контейнеры\_— Microsoft Cloud Adoption Framework для Azure"
+    href: index.md
+    pdf_name: Modern containers - Microsoft Cloud Adoption Framework for Azure
+  - name: Стратегическое влияние
+    href: strategy.md
+  - name: Техническое планирование
+    href: plan.md
+  - name: Подготовка сред
+    href: ready.md
+  - name: Переход на современные контейнеры
+    href: migrate.md
+  - name: Внедрение инноваций с использованием современных контейнеров
+    href: /azure/architecture/reference-architectures/containers/aks-start-here?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+  - name: Управление портфелем
+    href: govern.md
+  - name: Управление портфелем
+    href: manage.md
+  - name: Гибридные рабочие нагрузки с продуманной архитектурой
+    items:
+      - name: Рекомендации для разработчиков приложений
+        href: /azure/aks/developer-best-practices-resource-management?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Best practices for pod security in Azure Kubernetes Service (AKS) (Рекомендации по обеспечению безопасности pod в Службе Azure Kubernetes (AKS))
+        href: /azure/aks/developer-best-practices-pod-security?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+  - name: Архитектуры
+    items:
+      - name: Базовый кластер AKS
+        href: /azure/architecture/reference-architectures/containers/aks/secure-baseline-aks?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Архитектура микрослужб в AKS
+        href: /azure/architecture/reference-architectures/containers/aks-microservices/aks-microservices?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Использование микрослужб с AKS и Azure DevOps
+        href: /azure/architecture/solution-ideas/articles/microservices-with-aks?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Защищенный процесс DevOps для AKS
+        href: /azure/architecture/solution-ideas/articles/secure-devops-for-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Создание системы телемедицины
+        href: /azure/architecture/example-scenario/apps/telehealth-system?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Конвейер CI/CD для рабочих нагрузок на основе контейнера
+        href: /azure/architecture/example-scenario/apps/devops-with-aks?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+  - name: Рекомендации
+    items:
+      - name: Обзор
+        href: /azure/architecture/browse/hybrid_index?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Мультитенантный режим
+        items:
+          - name: Изоляция кластеров
+            href: /azure/aks/operator-best-practices-cluster-isolation?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Основные возможности планировщика
+            href: /azure/aks/operator-best-practices-scheduler?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Расширенные возможности планировщика
+            href: /azure/aks/operator-best-practices-advanced-scheduler?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Аутентификация и авторизация
+            href: /azure/aks/operator-best-practices-identity?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Безопасность
+        items:
+          - name: Безопасность и обновления кластеров
+            href: /azure/aks/operator-best-practices-cluster-security?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Управление образами контейнеров и обеспечение их безопасности
+            href: /azure/aks/operator-best-practices-container-image-management?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Обеспечение безопасности pod
+            href: /azure/aks/developer-best-practices-pod-security?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Сеть и хранилище
+        items:
+          - name: Возможность подключения к сети
+            href: /azure/aks/operator-best-practices-network?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Хранение и резервные копии
+            href: /azure/aks/operator-best-practices-storage?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Непрерывность бизнес-процессов и аварийное восстановление
+        items:
+          - name: Непрерывность бизнес-процессов и аварийное восстановление
+            href: /azure/aks/operator-best-practices-multi-region?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: "Руководство по обслуживанию\_AKS"
+        items:
+          - name: Вступление
+            href: /azure/architecture/operator-guides/aks/day-2-operations-guide?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Рассмотрение проблем
+            items:
+              - name: Обзор
+                href: /azure/architecture/operator-guides/aks/aks-triage-practices?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 1. Работоспособность кластера
+                href: /azure/architecture/operator-guides/aks/aks-triage-cluster-health?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: "2. Работоспособность узлов и объектов\_рod"
+                href: /azure/architecture/operator-guides/aks/aks-triage-node-health?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 3. Развернутые рабочие нагрузки
+                href: /azure/architecture/operator-guides/aks/aks-triage-deployment?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 4. Контроллеры допуска
+                href: /azure/architecture/operator-guides/aks/aks-triage-controllers?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 5. Подключение реестра контейнеров
+                href: /azure/architecture/operator-guides/aks/aks-triage-container-registry?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Руководство по установке исправлений и обновлению
+            href: /azure/architecture/operator-guides/aks/aks-upgrade-practices?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Распространенные проблемы
+            href: /azure/aks/troubleshooting?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+            maintainContext: true
+      - name: Миграция
+        items:
+          - name: Миграция в AKS
+            href: /azure/aks/aks-migration?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+            maintainContext: true
+          - name: Spring Boot
+            href: /azure/developer/java/migration/migrate-spring-boot-to-azure-kubernetes-service
+            maintainContext: true
+          - name: Tomcat
+            href: /azure/developer/java/migration/migrate-tomcat-to-containers-on-azure-kubernetes-service
+            maintainContext: true
+          - name: WildFly
+            href: /azure/developer/java/migration/migrate-wildfly-to-wildfly-on-azure-kubernetes-service
+            maintainContext: true
+          - name: WebLogic
+            href: /azure/developer/java/migration/migrate-weblogic-to-wildfly-on-azure-kubernetes-service
+            maintainContext: true
+          - name: WebSphere
+            href: /azure/developer/java/migration/migrate-websphere-to-wildfly-on-azure-kubernetes-service
+            maintainContext: true
+          - name: JBoss EAP
+            href: /azure/developer/java/migration/migrate-jboss-eap-to-wildfly-on-azure-kubernetes-service
+            maintainContext: true
+      - name: Система управления
+        items:
+          - name: Обзор
+            href: /azure/governance/policy/concepts/policy-for-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Служба Azure Kubernetes (AKS)
+            href: /azure/aks/intro-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Azure Arc с поддержкой Kubernetes
+            href: /azure/azure-arc/kubernetes/overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Обработчик AKS
+            href: 'https://github.com/Azure/aks-engine/blob/master/docs/README.md'
+          - name: Защита объектов pod
+            href: /azure/aks/use-pod-security-on-azure-policy?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Защита трафика между объектами pod
+            href: /azure/aks/use-network-policies?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Доступ к AKS API с помощью разрешенных IP-адресов
+            href: /azure/aks/api-server-authorized-ip-ranges?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Интеграция RBAC с Azure AD
+            href: /azure/aks/azure-ad-rbac?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Интеграция с Azure AD
+            href: /azure/aks/managed-aad?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Управляемые удостоверения в Kubernetes
+            href: /azure/aks/use-managed-identity?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Создание субъекта-службы Azure AD
+            href: /azure/aks/kubernetes-service-principal?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Доступ к другим ресурсам Azure с помощью интеграции Azure AD Kubernetes
+            href: /azure/aks/use-azure-ad-pod-identity?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Доступ к файлу конфигурации Azure RBAC для AKS
+            href: /azure/aks/control-kubeconfig-access?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Инвентаризация и визуальный контроль
+        items:
+          - name: Обзор
+            href: /azure/azure-monitor/insights/container-insights-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Общие сведения о включении мониторинга
+            href: /azure/azure-monitor/insights/container-insights-onboard?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Включение для нового кластера AKS
+            href: /azure/azure-monitor/insights/container-insights-enable-new-cluster?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Включение для существующего кластера AKS
+            href: /azure/azure-monitor/insights/container-insights-enable-existing-clusters?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Включение для кластера с поддержкой Arc
+            href: /azure/azure-monitor/insights/container-insights-enable-arc-enabled-clusters?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Включение для гибридного кластера
+            href: /azure/azure-monitor/insights/container-insights-hybrid-setup?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Включение для Azure Red Hat OpenShift версии\_3"
+            href: /azure/azure-monitor/insights/container-insights-azure-redhat-setup?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Включение для Azure Red Hat OpenShift версии\_4"
+            href: /azure/azure-monitor/insights/container-insights-azure-redhat4-setup?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Соответствие операций нормативным требованиям
+        items:
+          - name: Обновление кластера AKS
+            href: /azure/aks/upgrade-cluster?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Обновление образа узла
+            href: /azure/aks/node-image-upgrade?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Обновления ОС узла процесса
+            href: /azure/aks/node-updates-kured?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Защита и восстановление
+        items:
+          - name: Мультитенантность и изоляция кластера
+            href: /azure/aks/operator-best-practices-cluster-isolation?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Управление образами контейнеров
+            href: /azure/aks/operator-best-practices-container-image-management?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Хранение и резервное копирование
+            href: /azure/aks/operator-best-practices-storage?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Непрерывность бизнес-процессов и аварийное восстановление (BCDR)
+            href: /azure/aks/operator-best-practices-multi-region?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Задачи стандартных операций
+        items:
+          - name: Основные возможности планировщика
+            href: /azure/aks/operator-best-practices-scheduler?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Расширенные возможности планировщика
+            href: /azure/aks/operator-best-practices-advanced-scheduler?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Аутентификация и авторизация
+            href: /azure/aks/operator-best-practices-identity?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Безопасность кластера
+            href: /azure/aks/operator-best-practices-cluster-security?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Сеть
+            href: /azure/aks/operator-best-practices-network?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+  - name: Набор конструирования корпоративного масштаба
+    items:
+      - name: Набор конструирования для сценария использования AKS в корпоративном масштабе
+        href: enterprise-scale-landing-zone.md
+      - name: Управление удостоверениями и доступом
+        href: eslz-identity-and-access-management.md
+      - name: Топология сети и возможности подключения
+        href: eslz-network-topology-and-connectivity.md
+      - name: Управление и мониторинг
+        href: eslz-management-and-monitoring.md
+      - name: Непрерывность бизнес-процессов и аварийное восстановление
+        href: eslz-business-continuity-and-disaster-recovery.md
+      - name: Управление и соответствие требованиям безопасности
+        href: eslz-security-governance-and-compliance.md
+      - name: Автоматизация платформы и DevOps
+        href: eslz-platform-automation-and-devops.md
+  - name: Продукты контейнеров Azure
+    items:
+      - name: Дерево принятия решений для использования продукта контейнера
+        href: /azure/architecture/guide/technology-choices/compute-decision-tree?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Служба Azure Kubernetes (AKS)
+        items:
+          - name: Обзор
+            href: /azure/aks/intro-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Развертывание кластера AKS на портале
+            href: /azure/aks/kubernetes-walkthrough-portal?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Развертывание кластера AKS с помощью шаблона ARM
+            href: /azure/aks/kubernetes-walkthrough-portal?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Разработка с использованием Helm
+            href: /azure/aks/quickstart-helm?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Упаковка и миграция рабочей нагрузки
+            items:
+              - name: 1. Подготовка приложения для AKS
+                href: /azure/aks/tutorial-kubernetes-prepare-app?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 2. Создание реестра контейнеров
+                href: /azure/aks/tutorial-kubernetes-prepare-acr?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 3. Создание кластера Kubernetes
+                href: /azure/aks/tutorial-kubernetes-deploy-cluster?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 4. Запуск приложения
+                href: /azure/aks/tutorial-kubernetes-deploy-application?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 5. Масштабирование приложения
+                href: /azure/aks/tutorial-kubernetes-scale?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: 6. Обновление приложения
+                href: /azure/aks/tutorial-kubernetes-app-update?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: "7.\_Обновление кластера"
+                href: /azure/aks/tutorial-kubernetes-upgrade-cluster?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: "Разработка с помощью\_Kubernetes"
+        items:
+          - name: Обзор
+            href: /visualstudio/containers/overview-local-process-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Bridge to Kubernetes
+            href: /visualstudio/containers/bridge-to-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Как работает Bridge to Kubernetes
+            href: /visualstudio/containers/overview-bridge-to-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Настройка Bridge to Kubernetes
+            href: /visualstudio/containers/configure-bridge-to-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Служба приложений
+        items:
+          - name: Обзор
+            href: /azure/app-service/overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: ASP.NET Core
+            href: /azure/app-service/quickstart-dotnetcore?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: ASP.NET
+            href: /azure/app-service/quickstart-dotnet-framework?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Node.js
+            href: /azure/app-service/quickstart-nodejs?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: PHP
+            href: /azure/app-service/quickstart-php?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Java
+            href: /azure/app-service/quickstart-java?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Python
+            href: /azure/app-service/quickstart-python?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Ruby
+            href: /azure/app-service/quickstart-ruby?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Статический HTML-сайт
+            href: /azure/app-service/quickstart-html?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Шаблон ARM
+            displayName: Resource Manager
+            href: /azure/app-service/quickstart-arm-template?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Пользовательский контейнер
+            href: /azure/app-service/quickstart-custom-container?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Многоконтейнерное приложение
+            href: /azure/app-service/quickstart-multi-container?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Экземпляры контейнеров Azure
+        items:
+          - name: Обзор
+            href: /azure/container-instances/container-instances-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Об Экземплярах контейнеров Azure
+            href: /azure/container-instances/container-instances-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Развертывание экземпляра контейнера\_— CLI"
+            href: /azure/container-instances/container-instances-quickstart?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Развертывание экземпляра контейнера\_— портал"
+            href: /azure/container-instances/container-instances-quickstart-portal?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Развертывание экземпляра контейнера\_— PowerShell"
+            href: /azure/container-instances/container-instances-quickstart-powershell?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Развертывание экземпляра контейнера\_— шаблон ARM"
+            displayName: Resource Manager
+            href: /azure/container-instances/container-instances-quickstart-template?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Развертывание экземпляра контейнера\_— Docker CLI"
+            href: /azure/container-instances/quickstart-docker-cli?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Пакетная служба Azure
+        items:
+          - name: Обзор
+            href: /azure/batch/batch-technical-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Выполнение пакетного задания — CLI
+            href: /azure/batch/quick-create-cli?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Выполнение пакетного задания — портал
+            href: /azure/batch/quick-create-portal?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Выполнение пакетного задания — .NET
+            href: /azure/batch/quick-run-dotnet?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Выполнение пакетного задания — Python
+            href: /azure/batch/quick-run-python?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Создание учетной записи пакетной службы\_— шаблон ARM"
+            href: /azure/batch/quick-create-template?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Azure Service Fabric
+        items:
+          - name: Azure Service Fabric
+            href: /azure/service-fabric/service-fabric-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Управляемые кластеры Service Fabric
+            href: /azure/service-fabric/overview-managed-cluster?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Шаблон ARM
+            displayName: Resource Manager
+            href: /azure/service-fabric/quickstart-cluster-template?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Управляемый кластер
+            href: /azure/service-fabric/quickstart-managed-cluster-template?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Создание приложения .NET
+            href: /azure/service-fabric/service-fabric-quickstart-dotnet?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Развертывание приложения-контейнера Linux
+            href: /azure/service-fabric/service-fabric-quickstart-containers-linux?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Развертывание приложения-контейнера Windows
+            href: /azure/service-fabric/service-fabric-quickstart-containers?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Развертывание приложения Spring Boot
+            href: /azure/service-fabric/service-fabric-quickstart-java-spring-boot?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Развертывание приложения Reliable Services
+            href: /azure/service-fabric/service-fabric-quickstart-java-reliable-services?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Реестр контейнеров Azure
+        items:
+          - name: Обзор
+            href: /azure/container-registry/container-registry-intro?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Создание реестра контейнеров\_— CLI"
+            href: /azure/container-registry/container-registry-get-started-azure-cli?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Создание реестра контейнеров\_— портал"
+            href: /azure/container-registry/container-registry-get-started-portal?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Создание реестра контейнеров\_— PowerShell"
+            href: /azure/container-registry/container-registry-get-started-powershell?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Создание реестра контейнеров\_— шаблон Resource Manager"
+            displayName: Resource Manager
+            href: /azure/container-registry/container-registry-get-started-geo-replication-template?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Отправка событий в Сетку событий\_— CLI"
+            href: /azure/container-registry/container-registry-event-grid-quickstart?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: "Создание и отправка образов Java\_— CLI"
+            href: /azure/container-registry/container-registry-java-quickstart?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Azure Red Hat OpenShift
+        items:
+          - name: "Azure\_Red\_Hat\_OpenShift (ARO)"
+            href: /azure/openshift/intro-openshift?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Создание кластера ARO
+            href: /azure/openshift/tutorial-create-cluster?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Подключение к кластеру ARO
+            href: /azure/openshift/tutorial-connect-cluster?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Удаление кластера ARO
+            href: /azure/openshift/tutorial-delete-cluster?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+      - name: Функции Azure
+        items:
+          - name: Функции Azure
+            href: /azure/azure-functions/functions-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+          - name: Создание первой функции в Visual Studio Code
+            items:
+              - name: C#
+                href: /azure/azure-functions/create-first-function-vs-code-csharp?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: Java
+                href: /azure/azure-functions/create-first-function-vs-code-java?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: JavaScript
+                href: /azure/azure-functions/create-first-function-vs-code-node?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: PowerShell
+                href: /azure/azure-functions/create-first-function-vs-code-powershell?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: Python
+                href: /azure/azure-functions/create-first-function-vs-code-python?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: TypeScript
+                href: /azure/azure-functions/create-first-function-vs-code-typescript?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+              - name: Другое (Go/Rust)
+                href: /azure/azure-functions/create-first-function-vs-code-other?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/aks/toc.json
+  - name: Модули Learn
+    items:
+      - name: Введение в гибридные облачные службы Azure
+        href: /learn/modules/intro-to-azure-hybrid-services/
+      - name: Проектирование гибридной сетевой архитектуры в Azure
+        href: /learn/modules/design-a-hybrid-network-architecture/

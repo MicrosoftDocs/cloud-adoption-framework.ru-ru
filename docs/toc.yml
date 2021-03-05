@@ -7,30 +7,32 @@ items:
     href: overview.md
   - name: Новые возможности
     href: get-started/whats-new.md
-  - name: Начало работы
+  - name: Пути внедрения
     items:
-      - name: Обзор
-        href: get-started/index.md
-      - name: Базовая согласованность
+      - name: Приступая к работе
         items:
-          - name: 'Документирование решений, связанных с базовой согласованностью'
-            href: get-started/cloud-concepts.md
-          - name: Принцип работы Azure
-            href: get-started/what-is-azure.md
-          - name: Основные понятия Azure
-            href: ready/considerations/fundamental-concepts.md
-          - name: Иерархия портфеля
-            href: reference/fundamental-concepts/hosting-hierarchy.md
-          - name: Поддержка иерархии Azure
-            href: reference/fundamental-concepts/hierarchy-azure-tools.md
-      - name: Ускоренное внедрение
-        items:
-          - name: Ускорение миграции
-            href: get-started/migrate.md
-          - name: Создание новых продуктов и услуг
-            href: get-started/innovate.md
-          - name: Устранение ограничений проекта и конфигурации среды
-            href: get-started/design-and-configuration.md
+          - name: Обзор
+            href: get-started/index.md
+          - name: Базовая согласованность
+            items:
+              - name: 'Документирование решений, связанных с базовой согласованностью'
+                href: get-started/cloud-concepts.md
+              - name: Принцип работы Azure
+                href: get-started/what-is-azure.md
+              - name: Основные понятия Azure
+                href: ready/considerations/fundamental-concepts.md
+              - name: Иерархия портфеля
+                href: reference/fundamental-concepts/hosting-hierarchy.md
+              - name: Поддержка иерархии Azure
+                href: reference/fundamental-concepts/hierarchy-azure-tools.md
+          - name: Ускоренное внедрение
+            items:
+              - name: Ускорение миграции
+                href: get-started/migrate.md
+              - name: Создание новых продуктов и услуг
+                href: get-started/innovate.md
+              - name: Устранение ограничений проекта и конфигурации среды
+                href: get-started/design-and-configuration.md
       - name: Улучшение возможностей управления
         items:
           - name: Обеспечение успеха клиентов
@@ -57,6 +59,14 @@ items:
             href: get-started/team/cloud-governance.md
           - name: Формирование команды по облачным операциям
             href: get-started/team/cloud-operations.md
+      - name: Сценарии внедрения
+        items:
+          - name: Гибридные и многооблачные среды
+            href: scenarios/hybrid/index.md
+          - name: Современные контейнеры
+            href: scenarios/aks/index.md
+      - name: Неподходящие антишаблоны
+        href: antipatterns/antipatterns-to-avoid.md
   - name: Стратегия
     items:
       - name: Обзор
@@ -119,6 +129,8 @@ items:
             href: scenarios/github-velocity/index.md
       - name: 'Навыки, связанные со стратегией'
         href: strategy/suggested-skills.md
+      - name: Антишаблоны стратегии
+        href: antipatterns/strategy-antipatterns.md
   - name: План
     items:
       - name: Обзор
@@ -171,6 +183,8 @@ items:
             href: plan/contoso-migration-assessment.md
           - name: Планирование переноса хранилища данных
             href: plan/data-warehouse-migration.md
+      - name: Антишаблоны планирования
+        href: antipatterns/plan-antipatterns.md
   - name: Ready
     items:
       - name: Обзор
@@ -232,7 +246,37 @@ items:
                   - name: Организация групп управления и подписок
                     href: ready/enterprise-scale/management-group-and-subscription-organization.md
                   - name: Топология сети и возможности подключения
-                    href: ready/enterprise-scale/network-topology-and-connectivity.md
+                    items:
+                      - name: Обзор
+                        href: ready/enterprise-scale/network-topology-and-connectivity.md
+                      - name: Планирование IP-адресации
+                        href: ready/azure-best-practices/plan-for-ip-addressing.md
+                      - name: DNS для локальных ресурсов и ресурсов Azure
+                        href: ready/azure-best-practices/dns-for-on-premises-and-azure-resources.md
+                      - name: Интеграция приватного канала и DNS в большом масштабе
+                        href: ready/azure-best-practices/private-link-and-dns-integration-at-scale.md
+                      - name: Определение топологии сети Azure
+                        href: ready/azure-best-practices/define-an-azure-network-topology.md
+                      - name: Топология виртуальной глобальной сети (под управлением Майкрософт)
+                        href: ready/azure-best-practices/virtual-wan-network-topology.md
+                      - name: Традиционная топология сети Azure
+                        href: ready/azure-best-practices/traditional-azure-networking-topology.md
+                      - name: Подключение к Azure
+                        href: ready/azure-best-practices/connectivity-to-azure.md
+                      - name: Подключение к службам Azure PaaS
+                        href: ready/azure-best-practices/connectivity-to-azure-paas-services.md
+                      - name: Планирование входящего и исходящего подключения к Интернету
+                        href: ready/azure-best-practices/plan-for-inbound-and-outbound-internet-connectivity.md
+                      - name: Планирование доставки приложений
+                        href: ready/azure-best-practices/plan-for-app-delivery.md
+                      - name: Планирование сегментации сети в целевой зоне
+                        href: ready/azure-best-practices/plan-for-landing-zone-network-segmentation.md
+                      - name: Определение требований к шифрованию сети
+                        href: ready/azure-best-practices/define-network-encryption-requirements.md
+                      - name: Планирование проверки трафика
+                        href: ready/azure-best-practices/plan-for-traffic-inspection.md
+                      - name: Подключение к другим поставщикам облачных служб
+                        href: ready/azure-best-practices/connectivity-to-other-providers.md
                   - name: Управление и мониторинг
                     href: ready/enterprise-scale/management-and-monitoring.md
                   - name: Непрерывность бизнес-процессов и аварийное восстановление
@@ -369,6 +413,8 @@ items:
                 href: /azure/cost-management-billing/costs/cost-mgt-alerts-monitor-usage-spending?bc=%2fazure%2fcloud-adoption-framework%2f_bread%2ftoc.json&toc=%2fazure%2fcloud-adoption-framework%2ftoc.json
           - name: 'Навыки, связанные с готовыми и целевыми зонами'
             href: ready/suggested-skills.md
+      - name: Антишаблоны готовности
+        href: antipatterns/ready-antipatterns.md
   - name: Внедрение
     items:
       - name: Миграция
@@ -755,6 +801,8 @@ items:
                 href: migrate/azure-best-practices/analytics/azure-synapse.md
               - name: Управление или соответствие требованиям
                 href: migrate/azure-best-practices/governance-or-compliance.md
+          - name: Антишаблоны переноса
+            href: antipatterns/migrate-antipatterns.md
           - name: Улучшение процессов
             items:
               - name: Обзор
@@ -1369,6 +1417,8 @@ items:
                 href: govern/deployment-acceleration/discipline-improvement.md
               - name: Инструменты Azure для ускорения развертывания
                 href: govern/deployment-acceleration/toolchain.md
+      - name: Антишаблоны управления
+        href: antipatterns/govern-antipatterns.md
   - name: Управление
     items:
       - name: Обзор
@@ -1479,6 +1529,8 @@ items:
             href: manage/considerations/workload.md
       - name: Расширенное управление и проектирование систем
         href: manage/design-principles.md
+      - name: Антишаблоны управления
+        href: antipatterns/manage-antipatterns.md
   - name: Организация
     items:
       - name: Управление организацией
@@ -1539,8 +1591,12 @@ items:
         href: organize/suggested-skills.md
       - name: 'Создание организации, учитывающей структуру затрат'
         href: organize/cost-conscious-organization.md
-      - name: 'Антишаблоны: сравнение ИТ-структур'
-        href: organize/fiefdoms-silos.md
+      - name: Антишаблоны упорядочения
+        items:
+          - name: Организационные антишаблоны
+            href: antipatterns/organize-antipatterns.md
+          - name: Сравнение ИТ-структур
+            href: organize/fiefdoms-silos.md
   - name: Ресурсы
     items:
       - name: Средства и шаблоны
