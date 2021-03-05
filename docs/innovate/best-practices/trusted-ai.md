@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: innovate
 ms.custom: think-tank
-ms.openlocfilehash: 907d88b324c51905062d9035bd7d1554f2016294
-ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
+ms.openlocfilehash: 5f6f1ea6dd601d6f479802605cc34b312c31910e
+ms.sourcegitcommit: c167c45b66cc7324b60c88b8b7aac439f956b65d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "102115056"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102208699"
 ---
 # <a name="responsible-and-trusted-ai"></a>Надежные средства ИИ и ответственный подход к их использованию
 
@@ -83,7 +83,7 @@ ms.locfileid: "102115056"
 
 - **Выясните, что может сделать система.** Если в системе AI используются или создаются метрики, важно отобразить их все и способ их трассировки.
 
-- **Пояснить, насколько хорошо система может сделать то, что может сделать.** Помогите пользователям понять, что AI не будет 100-процентным точным, и задать ожидания в случае, если в системе AI могут возникнуть ошибки.
+- **Пояснить, насколько хорошо система может сделать то, что может сделать.** Помогите пользователям понять, что AI не будет полной точностью, и задать ожидания при возникновении ошибок в системе AI.
 
 ### <a name="during-interaction"></a>Во время взаимодействия
 

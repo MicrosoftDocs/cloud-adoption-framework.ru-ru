@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: internal
-ms.openlocfilehash: 8d25844c2560fd6463bdb77e1b6d5c5116c33001
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 1313d3253d87d60928459521a6cefb43b56ed030
+ms.sourcegitcommit: c167c45b66cc7324b60c88b8b7aac439f956b65d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025764"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102208546"
 ---
 # <a name="deploy-workloads-to-azure-stack-hub"></a>Развертывание рабочих нагрузок в Azure Stack Hub
 
@@ -40,7 +40,7 @@ ms.locfileid: "97025764"
 После того как администратор центра Azure Stack правильно настроил ваш экземпляр стека, миграция может продолжаться, как и в случае с большинством других усилий по миграции Azure. С помощью Azure Stack команда может выполнять любой из следующих типов миграции:
 
 - [Ethereum блокчейн Network](/azure-stack/user/azure-stack-ethereum?view=azs-2002)
-- [Обработчик AKS](/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2002)
+- [Подсистема AKS](/azure-stack/user/azure-stack-kubernetes-aks-engine-overview?view=azs-2002)
 - [Azure Cognitive Services](/azure-stack/user/azure-stack-solution-template-cognitive-services?view=azs-2002)
 - [Веб-приложение C# ASP.NET](/azure-stack/user/azure-stack-dev-start-howto-vm-dotnet?view=azs-2002)
 - [Виртуальная машина Linux](/azure-stack/user/azure-stack-dev-start-howto-deploy-linux?view=azs-2002)
@@ -48,12 +48,12 @@ ms.locfileid: "97025764"
 
 ## <a name="additional-considerations-during-migration"></a>Дополнительные рекомендации по миграции
 
-Следующие статьи помогут команде во время миграции и модернизации:
+Следующие ресурсы могут помочь команде во время миграции и модернизации:
 
-- Службы [масштабируемости и доступности](https://azure.microsoft.com/blog/azure-stack-iaas-part-six/) , такие как оплата за использование, наборы доступности виртуальных машин, масштабируемые наборы ВМ, сетевые адаптеры, а также возможность добавлять виртуальные машины и диски и изменять их размер
+- Службы [масштабируемости и доступности](https://azure.microsoft.com/blog/azure-stack-iaas-part-six/) , такие как оплата за использование, наборы доступности, масштабируемые наборы виртуальных машин, сетевые адаптеры, а также возможность добавлять виртуальные машины и диски и изменять их размер.
 - [Емкость хранилища](https://azure.microsoft.com/blog/azure-stack-iaas-part-3/), включая возможность загрузки и загрузки, а также записи и развертывания образов виртуальных машин.
-- [Шаблоны](https://github.com/Azure/AzureStack-QuickStart-Templates) быстрого запуска Azure Stack Репозиторий GitHub
-- [Шаблоны](https://github.com/Azure/Azure-QuickStart-Templates) быстрого запуска Azure Репозиторий GitHub
+- Репозиторий [Azure Stack шаблонов](https://github.com/Azure/AzureStack-QuickStart-Templates) быстрого запуска.
+- Репозиторий [Azure с шаблонами](https://github.com/Azure/Azure-QuickStart-Templates) быстрого запуска.
 
 ## <a name="next-steps"></a>Дальнейшие действия
 

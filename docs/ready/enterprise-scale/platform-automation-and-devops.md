@@ -1,6 +1,6 @@
 ---
 title: Автоматизация платформы и DevOps
-description: Автоматизация платформы и DevOps.
+description: Сведения об автоматизации платформы и DevOps в инфраструктуре внедрения Microsoft Cloud для Azure.
 author: BrianBlanchard
 ms.author: brblanch
 ms.date: 06/15/2020
@@ -8,15 +8,13 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: 77b04dc10f6a41f73ec5a38e2ae50558a8ec7cd4
-ms.sourcegitcommit: 9cd2b48fbfee229edc778f8c5deaf2dc39dfe2d6
+ms.openlocfilehash: 2d62ae49e60c32f8f66175e92a4c4538cf701fb9
+ms.sourcegitcommit: c167c45b66cc7324b60c88b8b7aac439f956b65d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/01/2021
-ms.locfileid: "99227011"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102209124"
 ---
-<!-- docutune:casing PlatformOps AppDevOps AppDataOps AppSecOps -->
-
 # <a name="platform-automation-and-devops"></a>Автоматизация платформы и DevOps
 
 ![Схема автоматизации платформы и DevOps.](./media/devops.png)
@@ -55,7 +53,7 @@ _Рис. 1. Автоматизация платформы и DevOps._
 
   - Платформа как код (Управление шаблонами, скриптами и другими ресурсами).
 
-  - Отвечает за общие операции с Microsoft Azure в клиенте Azure Active Directory (управление субъектами-службами, регистрация API Graph и определение ролей).
+  - Отвечает за общие операции с Microsoft Azure в клиенте Azure Active Directory (управление субъектами-службами, регистрация API Microsoft Graph и определение ролей).
 
 - **SecOps** (операции безопасности)
 

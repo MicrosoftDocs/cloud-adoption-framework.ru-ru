@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: think-tank
-ms.openlocfilehash: c70e8a29b6e1debf2b05fd4fb1bae981bf0cdf4e
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: efdc93a6a476f89eb898b359df99e0369735a421
+ms.sourcegitcommit: c167c45b66cc7324b60c88b8b7aac439f956b65d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97013167"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102208478"
 ---
 # <a name="data-innovations"></a>Инновации в данных
 
@@ -44,8 +44,8 @@ ms.locfileid: "97013167"
 - Аналитика клинической практике
 - Аналитика соответствия требованиям
 - Аналитика на основе затрат
-- Оптимизация каналов на основе лампочки
-- Personalization
+- Оптимизация омничаннел
+- Персонализация
 - Интеллектуальная цепочка поставок
 - Динамические цены
 - Аналитика закупок

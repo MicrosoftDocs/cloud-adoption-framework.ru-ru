@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: think-tank
-ms.openlocfilehash: 84cf77a093f46966542b2a3a04dd27e325ddde37
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 4584306b34f0f9566a5aac07f676e7f4f0803b0d
+ms.sourcegitcommit: c167c45b66cc7324b60c88b8b7aac439f956b65d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97012504"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102208240"
 ---
 <!-- docutune:ignore InterpretML FairLearn -->
 
@@ -59,7 +59,7 @@ ms.locfileid: "97012504"
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Дополнительные ресурсы для поддержки разработки вашего ответственного решения см. в следующих статьях:
+Дополнительные сведения о разработке ответственных решений см. по адресу:
 
 - [Обзор ответственных ии](https://www.microsoft.com/ai/responsible-ai?activetab=pivot1:primaryr6)
 - [Ответственные ресурсы AI](https://www.microsoft.com/ai/responsible-ai-resources)

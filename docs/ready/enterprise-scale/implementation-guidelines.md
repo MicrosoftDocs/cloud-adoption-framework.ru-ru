@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: 0e760195cc2ea0afb00c472086a0ed7a6fe9b2f9
-ms.sourcegitcommit: 9d76f709e39ff5180404eacd2bd98eb502e006e0
+ms.openlocfilehash: a7a3fdc5312053504d7ec1ef594661bd8b994dac
+ms.sourcegitcommit: c167c45b66cc7324b60c88b8b7aac439f956b65d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/17/2021
-ms.locfileid: "100632415"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102207951"
 ---
 <!-- cSpell:ignore interdomain VMSS VWAN -->
 
@@ -27,9 +27,9 @@ ms.locfileid: "100632415"
 
 1. **Что должно быть верно для архитектуры корпоративного масштабирования:** Охватывает действия, которые должны выполняться администраторами Azure и Azure Active Directory (Azure AD) для установки начальной конфигурации. Эти действия помещаются последовательно и обычно являются одноразовыми действиями.
 
-2. **Включить новый регион (файл > новый > регион):** Охватывает действия, которые требуются при необходимости расширить корпоративную платформу в новом регионе Azure.
+2. **Включить новый регион (файл-> новый > регион):** Охватывает действия, которые требуются при необходимости расширить корпоративную платформу в новом регионе Azure.
 
-3. **Разверните новую целевую зону (файл > новая > Главная зона):** Это повторяющиеся действия, необходимые для создания новой целевой зоны.
+3. **Разверните новую зону размещения (File-> New-> Главная зона):** Это повторяющиеся действия, необходимые для создания новой целевой зоны.
 
 <!-- docutune:enable -->
 
@@ -143,7 +143,7 @@ ms.locfileid: "100632415"
 | [`Allowed-ResourceLocation`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Allowed-ResourceLocation.parameters.json)   | Указывает разрешенный регион, в котором можно развертывать ресурсы. |
 | [`Allowed-RGLocation`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Allowed-RGLocation.parameters.json)         | Указывает разрешенный регион, в котором можно развертывать группы ресурсов. |
 | [`Denied-Resources`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Denied-Resources.parameters.json)           | Ресурсы, запрещенные для компании. |
-| [`Deny-AppGW-Without-WAF`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deny-AppGW-Without-WAF.parameters.json)     | Позволяет разворачивать шлюзы приложений с включенным брандмауэром веб-приложения Azure. |
+| [`Deny-AppGW-Without-WAF`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deny-AppGW-Without-WAF.parameters.json)     | Разрешает использовать шлюзы приложений, развернутые с помощью брандмауэра веб-приложения Azure (WAF). |
 | [`Deny-IP-Forwarding`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Deny-IP-Forwarding.parameters.json)         | Запрещает IP-пересылку. |
 | [`Deny-RDP-From-Internet`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyAssignments-Deny-RDP-From-Internet.parameters.json)     | Запрещает RDP-подключения из Интернета. |
 | [`Deny-Subnet-Without-Nsg`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deny-Subnet-Without-Nsg.parameters.json)    | Запрещает создание подсети без NSG. |
@@ -184,7 +184,7 @@ ms.locfileid: "100632415"
 | [`Deploy-LA-Config`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-LA-Config.parameters.json) | Настройка рабочей области Log Analytics. |
 | [`Deploy-Log-Analytics`](https://github.com/Azure/Enterprise-Scale/tree/main/azopsreference/3fc1081d-6105-4e19-b60c-1ec1252cf560%20(3fc1081d-6105-4e19-b60c-1ec1252cf560)) /. Азстате/Microsoft.Authorization_policyDefinitions-Deploy-Log-Analytics.parameters.json) | Развертывает рабочую область Log Analytics. |
 
-## <a name="file--new--region"></a>Файл > новый регион >
+## <a name="file---new---region"></a>Файл-> новый > регион
 
 1. Если вы создаете сетевые ресурсы с помощью политики Azure, назначьте в подписке подключения политики, перечисленные в следующей таблице. При этом политика Azure гарантирует, что ресурсы в следующем списке будут созданы на основе указанных параметров.
 
@@ -204,7 +204,7 @@ ms.locfileid: "100632415"
 
 <!-- docutune:disable -->
 
-## <a name="file--new--landing-zone-for-applications-and-workloads"></a>Файл > новая > Главная зона для приложений и рабочих нагрузок
+## <a name="file---new---landing-zone-for-applications-and-workloads"></a>Файловая > новая > зона для приложений и рабочих нагрузок
 
 <!-- docutune:enable -->
 
