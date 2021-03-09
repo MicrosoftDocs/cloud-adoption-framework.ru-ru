@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: internal
-ms.openlocfilehash: 5480355807f862268bbfc3c84b7379e165c38629
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 8c9cc17567152fd173db064e5e166fab993a85ab
+ms.sourcegitcommit: 3dd5cb5e84df8049ecbd484061e6df16a1914bb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101787915"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102515368"
 ---
 # <a name="examples-of-fiscal-outcomes"></a>Примеры финансовых результатов
 
@@ -25,7 +25,7 @@ ms.locfileid: "101787915"
 
 Оставшаяся часть этой статьи посвящена этим финансовым результатам в контексте преобразования в облако.
 
-[Трансалта](https://customers.microsoft.com/story/canadian-power-generator-shines-light-on-numbers) Улучшенная аналитика данных, выгодное снижение затрат из первоначальных крупномасштабных капитальных затрат и Сниженные эксплуатационные расходы на основе каждого месяца.
+[Сентара здравоохранение](https://customers.microsoft.com/story/769786-sentara-healthcare-health-provider-azure) переместил свои данные в Azure, предоставляя членам более высокую эффективность работы с мобильными приложениями, более быстрый доступ для врачам к критически важным данным для более быстрой диагностики, снижения затрат на ИТ-отдел и улучшенного пациента с более гибкой, готовой к изменению Организации.
 
 > [!NOTE]
 > Приведенные ниже примеры являются гипотетическими и не должны считаться гарантией возврата при внедрении любой стратегии облака.

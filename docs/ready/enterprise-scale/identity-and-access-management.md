@@ -1,5 +1,5 @@
 ---
-title: Управление удостоверениями и доступом
+title: Управление удостоверениями и доступом (IAM)
 description: Ознакомьтесь со сведениями о проектировании и рекомендациями по управлению удостоверениями и доступом в корпоративной среде.
 author: BrianBlanchard
 ms.author: brblanch
@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: think-tank
-ms.openlocfilehash: c510873857e3767c76eff58b2b9748486f22d527
-ms.sourcegitcommit: c167c45b66cc7324b60c88b8b7aac439f956b65d
+ms.openlocfilehash: 8fbce73e4cd0ae47beeb348be151093dda932c27
+ms.sourcegitcommit: 3dd5cb5e84df8049ecbd484061e6df16a1914bb5
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/05/2021
-ms.locfileid: "102207917"
+ms.lasthandoff: 03/09/2021
+ms.locfileid: "102515385"
 ---
 # <a name="identity-and-access-management"></a>Управление удостоверениями и доступом
 
