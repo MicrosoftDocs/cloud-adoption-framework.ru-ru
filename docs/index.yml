@@ -5,19 +5,19 @@ brand: azure
 metadata:
   title: Microsoft Cloud Adoption Framework для Azure
   description: Cloud Adoption Framework — это пакет с документацией, руководствами по реализации, рекомендациями и средствами, которые ускоряют переход к облаку.
-  ms.service: cloud-adoption-framework
-  ms.topic: hub-page
   services: cloud-adoption-framework
-  ms.subservice: overview
   author: JanetCThomas
   ms.author: janet
   ms.date: 05/15/2020
-  ms.openlocfilehash: dad20e2b85cd94c038e3cb2202a849ac5baf0637
-  ms.sourcegitcommit: 042fb295ef5623d45066ce38a389dd8d636cbc20
+  ms.topic: hub-page
+  ms.service: cloud-adoption-framework
+  ms.subservice: overview
+  ms.openlocfilehash: 2785c4e826facd9277c2b861f9f4b80976a6a6eb
+  ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
   ms.translationtype: HT
   ms.contentlocale: ru-RU
-  ms.lasthandoff: 02/14/2021
-  ms.locfileid: "100492415"
+  ms.lasthandoff: 03/04/2021
+  ms.locfileid: "102115226"
 highlightedContent:
   items:
   - title: Начните переход к облаку
@@ -26,7 +26,7 @@ highlightedContent:
   - title: Найдите инструменты и шаблоны для внедрения облака
     itemType: download
     url: ./reference/tools-templates.md
-  - title: Что такое Cloud Adoption Framework
+  - title: Что такое Cloud Adoption Framework?
     itemType: overview
     url: ./overview.md
   - title: Что нового в Cloud Adoption Framework

@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: c5b545ffcd3b1bf9cf7c82cac58eaa3ae7291fe5
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 8424d6b30aab3e1289b8b18a52ae3cf2a81fc811
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101790737"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115396"
 ---
 # <a name="resource-consistency-discipline-overview"></a>Общие сведения о дисциплине "Согласованность ресурсов"
 
@@ -43,7 +43,7 @@ ms.locfileid: "101790737"
 | <br> ![Значок рисков](../../_images/govern/process-risks.png) | <br> [Бизнес-риски.](./business-risks.md) Вы должны распознать мотивы и риски, связанные с дисциплиной "Согласованность ресурсов". |
 | <br> ![Значок метрик](../../_images/govern/process-metrics.png) | <br> [Индикаторы и метрики.](./metrics-tolerance.md) Показатели, которые помогут понять, следует ли инвестировать в дисциплину "Согласованность ресурсов". |
 | <br> ![Значок соблюдения](../../_images/govern/process-enforce.png) | <br> [Процессы, обеспечивающие соблюдение политик.](./compliance-processes.md) Здесь предложены процессы для поддержки соблюдения политики в дисциплине "Согласованность ресурсов". |
-| <br> ![Значок зрелости](../../_images/govern/process-maturity.png) | <br> [Зрелость.](./discipline-improvement.md) Согласование степени зрелости управления облаком с этапами внедрения облачных технологий.  |
+| <br> ![Значок зрелости](../../_images/govern/process-maturity.png) | <br> [Зрелость.](./discipline-improvement.md) Согласование степени зрелости управления облаком с этапами внедрения облачных технологий. |
 | <br> ![Значок цепочки инструментов](../../_images/govern/process-toolchain.png) | <br> [Цепочка инструментов.](./toolchain.md) Службы Azure, которые можно использовать для поддержки дисциплины "Согласованность ресурсов". |
 
 ## <a name="next-steps"></a>Дальнейшие действия

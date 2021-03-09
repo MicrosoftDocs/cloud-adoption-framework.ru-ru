@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: internal
-ms.openlocfilehash: af6077694345492eff1aadf0a4ec9bf36b5d08a5
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 92b7394511d2dee4151be80ed53d00cc568194eb
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97025509"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786113"
 ---
 # <a name="migrate-or-deploy-windows-virtual-desktop-instances-to-azure"></a>Перенос или развертывание экземпляров Виртуального рабочего стола Windows в Azure
 

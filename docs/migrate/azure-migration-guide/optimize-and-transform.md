@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-new, AQC
-ms.openlocfilehash: 923cb7542d85af87a40beb6c1429a3e47fc440b8
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: af558e03f56fd759474dc2c5900d34d5cf272be4
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98174664"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101789955"
 ---
 <!-- markdownlint-disable DOCSMD001 -->
 
@@ -62,7 +62,7 @@ ms.locfileid: "98174664"
 
 ::: zone target="docs"
 
-- [Управление резервированиями для ресурсов Azure](/azure/billing/billing-manage-reserved-vm-instance)
+- [Управление резервированиями для ресурсов Azure](/azure/cost-management-billing/reservations/manage-reserved-vm-instance)
 - [Изменение размера виртуальной машины Windows](/azure/virtual-machines/windows/resize-vm)
 - [Изменение размера виртуальной машины Linux с помощью интерфейса командной строки Azure](/azure/virtual-machines/linux/change-vm-size)
 
@@ -128,8 +128,8 @@ ms.locfileid: "98174664"
 
 ::: zone target="docs"
 
-- [Руководство. Рекомендации по оптимизации затрат](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
-- [Предотвращение непредвиденных расходов с помощью службы "Управление затратами и выставление счетов Azure"](/azure/billing/billing-getting-started)
-- [Изучение и анализ затрат с помощью функции анализа затрат](/azure/cost-management/quick-acm-cost-analysis)
+- [Учебник. Рекомендации по оптимизации затрат](/azure/cost-management-billing/costs/tutorial-acm-opt-recommendations)
+- [Предотвращение непредвиденных расходов с помощью службы "Управление затратами и выставление счетов Azure"](/azure/cost-management-billing/cost-management-billing-overview)
+- [Изучение и анализ затрат с помощью функции анализа затрат](/azure/cost-management-billing/costs/quick-acm-cost-analysis)
 
 ::: zone-end

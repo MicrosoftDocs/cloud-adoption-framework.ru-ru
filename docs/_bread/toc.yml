@@ -52,6 +52,9 @@ items:
               - name: Управление
                 tocHref: /azure/cloud-adoption-framework/manage/
                 topicHref: /azure/cloud-adoption-framework/manage
+          - name: Сценарии (конкретные случаи)
+            tocHref: /azure/cloud-adoption-framework/scenarios/
+            topicHref: /azure/cloud-adoption-framework/scenarios
           - name: Справочник
             tocHref: /azure/cloud-adoption-framework/reference/
             topicHref: /azure/cloud-adoption-framework/reference

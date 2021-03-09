@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: f89f34227e26657a80ef2e9eacb9bdf7397b1649
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: c2a019cbfbf1eec798bf4ca9858d415ad93c4884
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101792845"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102112336"
 ---
 # <a name="prepare-corporate-it-policy-for-the-cloud"></a>Подготовка корпоративной ИТ-политики для облака
 

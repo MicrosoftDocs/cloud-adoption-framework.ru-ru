@@ -10,12 +10,12 @@ ms.subservice: innovate
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-edit, AQC, sep-caf-innovate
 keywords: Инновационные решения, Cloud Adoption Framework, решения для внедрения инноваций
-ms.openlocfilehash: 068205e9806664ca4156e64db96a0d4d2839bbd3
-ms.sourcegitcommit: a0b808d5602e09c6cd7f3485fd28bb592692ea8d
+ms.openlocfilehash: 15fd33baa38899db3c8d5f15c083944faf002c5d
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "100525850"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101788952"
 ---
 # <a name="azure-innovative-solutions-guide-overview"></a>Обзор инновационных решений Azure
 

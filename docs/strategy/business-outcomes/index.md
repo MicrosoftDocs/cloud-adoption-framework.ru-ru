@@ -1,19 +1,19 @@
 ---
 title: Бизнес-результаты преобразования
 description: В этом разделе документации по Cloud Adoption Framework объясняется, как определить бизнес-результаты, связанные с переходом в облако.
-author: BrianBlanchard
+author: mpvenables
 ms.author: brblanch
-ms.date: 10/28/2020
+ms.date: 03/02/2021
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: internal
-ms.openlocfilehash: e175460e3e8464e10dacdd809e27e7ebb1647e8c
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 4ddf022edeb995b77dd219a3016fbf967abe459b
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97013031"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101787898"
 ---
 # <a name="what-business-outcomes-are-associated-with-transformation-journeys"></a>Какие бизнес-результаты связаны с процессами преобразования?
 
@@ -22,6 +22,12 @@ ms.locfileid: "97013031"
 При любом переходе в облако обсуждение определенных бизнес-результатов обеспечивает прозрачность и укрепляет партнерские отношения между подразделениями. Структура бизнес-результатов — это простой шаблон, который помогает техническим специалистам документировать и согласовывать свою работу. С помощью этого шаблона можно собрать мнения об ожидаемых бизнес-результатах, на которые повлияет планируемый процесс преобразования, от различных заинтересованных лиц. Вы можете выбрать электронный формат шаблона или даже разместить его на доске для обсуждения с руководителями и другими заинтересованными лицами.
 
 Подробные сведения о бизнес-результатах и предлагаемом шаблоне см. в статье [Документирование бизнес-результатов](./business-outcome-template.md). Также вы можете скачать [шаблон структуры бизнес-результатов](https://raw.githubusercontent.com/microsoft/CloudAdoptionFramework/master/strategy/business-outcome-template.xlsx).
+
+## <a name="optimize-your-cloud-investment-using-cloud-economics"></a>Оптимизация облачных инвестиций с применением понятий облачной экономики
+
+Каковы основные принципы облачной экономики в Azure? Независимо от того, выполняете ли вы существующие рабочие нагрузки или создаете решения в Azure, рекомендации по применению принципов облачной экономики помогут вам оптимизировать операционные расходы в Azure с учетом ваших конкретных рабочих нагрузок. Начните формирование собственной бизнес-модели облачной среды, воспользовавшись финансовыми и техническими рекомендациями, а также обеспечьте максимальную отдачу от инвестиций в облако.
+
+Узнайте больше о [принципах облачной экономики](https://azure.microsoft.com/overview/cloud-economics/).
 
 ## <a name="prepare-for-conversations-with-different-personas"></a>Подготовка к обсуждению с разными лицами
 

@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-new, AQC
-ms.openlocfilehash: 53eb1e6f6597e87125266ac46285dce6513e8e13
-ms.sourcegitcommit: 54f01dd0eafa23c532e54c821954ba682357f686
+ms.openlocfilehash: a7aecea80789818cc5b6f93803b0edf6c4b4f7ef
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "98174766"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101785926"
 ---
 # <a name="assess-workloads-and-refine-plans"></a>Оценка рабочих нагрузок и уточнение планов
 
@@ -77,16 +77,16 @@ ms.locfileid: "98174766"
 
 Чтобы использовать визуализацию зависимостей, скачайте и установите агенты на каждом локальном компьютере, который нужно проанализировать.
 
-- [Microsoft Monitoring Agent](/azure/log-analytics/log-analytics-agent-windows) нужно установить на каждом компьютере.
-- [Microsoft Dependency Agent](/azure/azure-monitor/insights/vminsights-enable-hybrid-cloud#install-the-dependency-agent-on-windows) нужно установить на каждом компьютере.
+- [Microsoft Monitoring Agent](/azure/azure-monitor/agents/agent-windows) нужно установить на каждом компьютере.
+- [Microsoft Dependency Agent](/azure/azure-monitor/vm/vminsights-enable-hybrid#install-the-dependency-agent-on-windows) нужно установить на каждом компьютере.
 - Кроме того, если у вас есть компьютеры без подключения к Интернету, скачайте и установите на них шлюз Log Analytics.
 
 <!-- markdownlint-disable MD024 -->
 
 #### <a name="learn-more"></a>Дополнительные сведения
 
-- [Использование решения "Сопоставление служб" в Azure](/azure/azure-monitor/insights/service-map)
-- [Миграция Azure и Сопоставление служб: Визуализация зависимостей](/azure/migrate/concepts-dependency-visualization)
+- [Использование решения "Сопоставление служб" в Azure](/azure/azure-monitor/vm/service-map)
+- [Миграция Azure и Сопоставление служб: визуализация зависимостей](/azure/migrate/concepts-dependency-visualization)
 
 ## <a name="challenge-assumptions"></a>[Проверка предположений](#tab/Challenge-Assumptions)
 

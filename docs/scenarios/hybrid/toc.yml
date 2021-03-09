@@ -1,0 +1,265 @@
+# docsTest:ignore "NET Core" "Cloud Operating Model" "Virtual Datacenter" Framework app
+items:
+  - name: "Гибридные и многооблачные среды\_— миграция в облако в Microsoft Cloud Adoption Framework для Azure"
+    href: scenario-overview.md
+    pdf_name: Hybrid and multicloud - Microsoft Cloud Adoption Framework for Azure
+  - name: Обзор
+    items:
+      - name: Введение в гибридные и многооблачные среды
+        href: index.md
+      - name: Введение в унифицированные операции
+        href: unified-operations.md
+      - name: Продукты Azure
+        href: toolchain.md
+  - name: Создание начальной стратегии
+    href: strategy.md
+  - name: Определение плана
+    href: plan.md
+  - name: Подготовка сред
+    href: ready.md
+  - name: Миграция в облако
+    href: migrate.md
+  - name: Подход к управлению для портфеля
+    href: govern.md
+  - name: Управление портфелем
+    href: manage.md
+  - name: Гибридные рабочие нагрузки с продуманной архитектурой
+    items:
+      - name: Обзор
+        href: /azure/architecture/framework/hybrid/hybrid-overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Оптимизация затрат
+        href: /azure/architecture/framework/hybrid/hybrid-cost?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: эффективность работы;
+        href: /azure/architecture/framework/hybrid/hybrid-opex?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: оптимизация производительности;
+        href: /azure/architecture/framework/hybrid/hybrid-performance-efficiency?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: надежность;
+        href: /azure/architecture/framework/hybrid/hybrid-reliability?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Безопасность
+        href: /azure/architecture/framework/hybrid/hybrid-security?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+  - name: Архитектуры
+    items:
+      - name: Обзор
+        href: /azure/architecture/browse/hybrid_index?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Приложения
+        items:
+          - name: Использование ИИ в пограничной среде
+            href: /azure/architecture/solution-ideas/articles/ai-at-the-edge?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: ИИ в пограничной среде (без подключения)
+            href: /azure/architecture/solution-ideas/articles/ai-at-the-edge-disconnected?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Использование Функций Azure в гибридной среде
+            href: /azure/architecture/hybrid/azure-functions-hybrid?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Пример приложения Robo в Azure Stack HCI
+            href: /azure/architecture/hybrid/azure-stack-robo?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Выполнение контейнеров в гибридной среде
+            href: /azure/architecture/hybrid/hybrid-containers?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Машинное обучение для ИИ в Azure Stack Edge
+            href: /azure/architecture/hybrid/deploy-ai-ml-azure-stack-edge?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Гибридные HPC с использованием пакета HPC
+            href: /azure/architecture/solution-ideas/articles/hybrid-hpc-in-azure-with-hpc-pack?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Гибридные решения DevOps
+            href: /azure/architecture/solution-ideas/articles/devops-in-a-hybrid-environment?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Данные
+        items:
+          - name: "Администрирование SQL\_Server в любом расположении с помощью Azure\_Arc"
+            href: /azure/architecture/hybrid/azure-arc-sql-server?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Использование гибридных больших данных с HDInsight
+            href: /azure/architecture/solution-ideas/articles/extend-your-on-premises-big-data-investments-with-hdinsight?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Расширение локальных решений для данных в Azure
+            href: /azure/architecture/data-guide/scenarios/hybrid-on-premises-and-cloud?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: 'Реализация гибридного подхода к извлечению, преобразованию и загрузке с помощью Фабрики данных Azure'
+            href: /azure/architecture/example-scenario/data/hybrid-etl-with-adf?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Развертывание решений искусственного интеллекта и машинного обучения в пограничной среде с помощью Azure Stack Edge
+            href: /azure/architecture/hybrid/deploy-ai-ml-azure-stack-edge?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Использование локального шлюза данных с Azure Logic Apps
+            href: /azure/architecture/hybrid/gateway-logic-apps?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Управление
+        items:
+          - name: Управление конфигурациями для серверов с поддержкой Azure Arc
+            href: /azure/architecture/hybrid/azure-arc-hybrid-config?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Использование службы автоматизации Azure в гибридной среде
+            href: /azure/architecture/hybrid/azure-automation-hybrid?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Резервное копирование файлов и приложений в Azure Stack Hub
+            href: /azure/architecture/hybrid/azure-stack-backup?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Управление обновлениями в службе автоматизации Azure
+            href: /azure/architecture/hybrid/azure-update-mgmt?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Гибридный мониторинг доступности и производительности
+            href: /azure/architecture/hybrid/hybrid-perf-monitoring?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Управление гибридными рабочими нагрузками Azure с помощью Windows Admin Center
+            href: /azure/architecture/hybrid/hybrid-server-os-mgmt?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Гибридное управление и развертывание Azure Arc для кластеров Kubernetes
+            href: /azure/architecture/hybrid/arc-hybrid-kubernetes?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Аварийное восстановление для виртуальных машин Azure Stack Hub
+            href: /azure/architecture/hybrid/azure-stack-vm-dr?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Масштабирование в разных облаках
+            href: /azure/architecture/solution-ideas/articles/cross-cloud-scaling?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Сеть
+        items:
+          - name: Подключение локальной сети к Azure
+            href: /azure/architecture/reference-architectures/hybrid-networking/?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Подключение через Express Route
+            href: /azure/architecture/reference-architectures/hybrid-networking/expressroute?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Подключение через VPN-шлюз
+            href: /azure/architecture/reference-architectures/hybrid-networking/vpn?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: ExpressRoute с отработкой отказа на VPN
+            href: /azure/architecture/reference-architectures/hybrid-networking/expressroute-vpn-failover?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Подключение к отдельному серверу с помощью сетевого адаптера Azure
+            href: /azure/architecture/hybrid/azure-network-adapter?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Гибридное решение DNS
+            href: /azure/architecture/hybrid/hybrid-dns-infra?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Идентификация
+        items:
+          - name: Варианты гибридной реализации Active Directory (AD)
+            href: /azure/architecture/reference-architectures/identity/?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Интеграция Active Directory и Azure AD
+            href: /azure/architecture/reference-architectures/identity/azure-ad?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: "Расширение Active Directory с помощью служб федерации Active Directory (AD\_FS)"
+            href: /azure/architecture/reference-architectures/identity/adfs?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: "Расширение Active Directory с помощью доменных служб Active Directory (AD\_DS)"
+            href: /azure/architecture/reference-architectures/identity/adds-forest?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Интеграция удостоверений в Azure Stack Hub
+            href: /azure/architecture/solution-ideas/articles/hybrid-identity?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Безопасность
+        items:
+          - name: Гибридный мониторинг безопасности с помощью Центра безопасности Azure и Azure Sentinel
+            href: /azure/architecture/hybrid/hybrid-security-monitoring?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Гибридный мониторинг безопасности с помощью Центра безопасности Azure и Azure Sentinel
+            href: /azure/architecture/solution-ideas/articles/devsecops-in-azure?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Подготовка среды
+        items:
+          - name: Использование гибридных служб файлов
+            href: /azure/architecture/hybrid/hybrid-file-services?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Облачная общая папка Azure Enterprise
+            href: /azure/architecture/hybrid/azure-files-private?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Использование общих папок Azure в гибридной среде
+            href: /azure/architecture/hybrid/azure-file-share?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Использование FSLogix для предприятия
+            href: /azure/architecture/example-scenario/wvd/windows-virtual-desktop-fslogix?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Растянутые кластеры Azure Stack для аварийного восстановления
+            href: /azure/architecture/hybrid/azure-stack-hci-dr?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Azure Stack для удаленных офисов и подразделений
+            href: /azure/architecture/hybrid/azure-stack-robo?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+  - name: Рекомендации
+    items:
+      - name: Подключение
+        items:
+          - name: Azure
+            items:
+              - name: Azure Linux с шаблонами ARM
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arm-template-linux?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Azure Windows с шаблонами ARM
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arm-template-windows?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Локальный центр обработки данных в локальной среде
+            items:
+              - name: Управление Linux с помощью скрипта оболочки
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/onboard-server-linux?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление Windows с помощью PowerShell
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/onboard-server-windows?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление Ubuntu с помощью Vagrant
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/local-vagrant-ubuntu?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление Windows с помощью Vagrant
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/local-vagrant-windows?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: VMware
+            items:
+              - name: Создание шаблона виртуальной машины для Ubuntu
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/vmware-ubuntu-template?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Создание шаблона виртуальной машины для Windows
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/vmware-windows-template?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление Linux с помощью VMware PowerCLI
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/vmware-scaled-powercli-linux?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление Windows с помощью VMware PowerCLI
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/vmware-scaled-powercli-windows?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление Ubuntu с помощью Terraform
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/vmware-terraform-ubuntu?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление Windows с помощью Terraform
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/vmware-terraform-windows?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: "AWS\_— Amazon Web Services"
+            items:
+              - name: Управление AWS Ubuntu с помощью Terraform
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/aws-terraform-ubuntu?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление AWS Linux с помощью Terraform
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/aws-terraform-al2?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление AWS EC2 Onboard с помощью Ansible
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/aws-scale-ansible?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: "GCP\_— Google Cloud Provider"
+            items:
+              - name: Управление GCP Ubuntu с помощью Terraform
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/gcp-terraform-ubuntu?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+              - name: Управление GCP Windows с помощью Terraform
+                href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/gcp-terraform-windows?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Работа
+        items:
+          - name: Инвентаризация ресурсов и добавление к ним тегов
+            href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arc-inventory-tagging?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Управление исправлениями и обновлениями
+            href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arc-update-management?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Применение политик
+            href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arc-policies-mma?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Сбор и обнаружение данных безопасности
+            href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arc-security-center?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Исследование угроз безопасности и реагирование на них
+            href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arc-azure-sentinel?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Управление виртуальными машинами с помощью Microsoft Monitoring Agent (MMA)
+            href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arc-vm-extension-mma?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+          - name: Масштабирование конфигурации MMA
+            href: /azure/cloud-adoption-framework/manage/hybrid/server/best-practices/arc-vm-extension-custom-script?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+  - name: Популярные продукты Azure
+    items:
+      - name: Все продукты для гибридных и многооблачных сред
+        href: /hybrid/?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Azure Arc
+        href: /azure/azure-arc/?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Azure Stack HCI
+        href: /azure-stack/hci/overview#azure-stack-hub?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Модульный центр обработки данных Azure
+        href: /azure-stack#azure-stack-hub?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Azure Stack HCI
+        href: /azure-stack#azure-stack-hci?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Azure IoT Edge
+        href: /azure/iot-edge/?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Azure Sphere
+        href: /azure-sphere?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Windows для Интернета вещей
+        href: /windows/iot-core/?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Виртуальная глобальная сеть
+        href: /azure/virtual-wan/?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: ExpressRoute
+        href: /azure/expressroute/?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: VPN-шлюз
+        href: /azure/vpn-gateway/vpn-gateway-about-vpngateways?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+      - name: Брандмауэр Azure
+        href: /azure/firewall/overview?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
+  - name: Модули Learn
+    items:
+      - name: Гибридное облако
+        items:
+          - name: Введение в гибридные облачные службы Azure
+            href: /learn/modules/intro-to-azure-hybrid-services/
+          - name: Проектирование гибридной сетевой архитектуры в Azure
+            href: /learn/modules/design-a-hybrid-network-architecture/
+          - name: Реализация инфраструктуры гибридной сети
+            href: /learn/modules/implement-hybrid-network-infrastructure/
+      - name: Azure Arc
+        items:
+          - name: Вводные сведения об Azure Arc
+            href: /learn/modules/intro-to-azure-arc/
+          - name: Arc для серверов
+            href: /learn/modules/intro-to-arc-for-servers/
+          - name: Arc для Kubernetes
+            href: /learn/modules/intro-to-arc-enabled-kubernetes/
+          - name: Arc для гибридной инфраструктуры
+            href: /learn/paths/manage-hybrid-infrastructure-with-azure-arc/
+          - name: Arc для гибридных рабочих нагрузок
+            href: /learn/modules/manage-hybrid-workloads-azure-arc/
+      - name: Azure Stack
+        items:
+          - name: Введение в Azure Stack
+            href: /learn/modules/intro-to-azure-stack/
+          - name: Основы Azure Stack HCI
+            href: /learn/paths/azure-stack-hci-foundations/
+          - name: Развертывание Azure Stack HCI
+            href: /learn/modules/azure-stack-hci-plan-deploy/
+          - name: Технологии Azure Stack HCI
+            href: /learn/modules/azure-stack-hci-technologies/
+          - name: "Azure Stack HCI\_— интеграция c Arc"
+            href: /learn/modules/stack-hci-arc-integration/

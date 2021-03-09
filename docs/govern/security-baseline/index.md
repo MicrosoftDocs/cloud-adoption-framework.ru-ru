@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: govern
 ms.custom: internal
-ms.openlocfilehash: b244492009e80ad2505eb7519c6bf4247971561e
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 5820870fb83d4d04e44b776c7c7e58a8c102f1cd
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101789377"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102115260"
 ---
 # <a name="security-baseline-discipline-overview"></a>Общие сведения об основных способах защиты
 

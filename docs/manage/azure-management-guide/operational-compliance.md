@@ -9,19 +9,19 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.localizationpriority: high
 ms.custom: internal, fasttrack-edit, AQC
-ms.openlocfilehash: 56a46d56101da7e610e45f87b30909e3890d4568
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: 41c80e1ad1be85fcc53f015064a1bff28db5f7b7
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97017400"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101790125"
 ---
 <!-- docutune:casing "Update Management" "Guest Configuration" "Blueprints: Getting started" "Blueprints: Blueprint definitions" MMA -->
 <!-- cSpell:ignore WSUS -->
 
 # <a name="operational-compliance-in-azure"></a>Соответствие операций нормативным требованиям в Azure
 
-_Соответствие операций нормативным требованиям_ — это вторая дисциплина в любом базовом плане управления облаком.
+*Соответствие операций нормативным требованиям* — это вторая дисциплина в любом базовом плане управления облаком.
 
 ![Базовый план управления облаком](../../_images/manage/management-baseline.png)
 
@@ -127,9 +127,9 @@ _Соответствие операций нормативным требова
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Политика Azure](/azure/azure-policy)
+- [Политика Azure](/azure/governance/policy/)
 - [Политика Azure: гостевая конфигурация](/azure/governance/policy/concepts/guest-configuration)
-- [Role-based по принудительному применению политик](../../decision-guides/policy-enforcement/index.md)
+- [Рекомендации по принятию решений о применении политик в Cloud Adoption Framework](../../decision-guides/policy-enforcement/index.md)
 
 ## <a name="azure-blueprints"></a>Azure Blueprints
 
@@ -215,8 +215,8 @@ _Соответствие операций нормативным требова
 
 Дополнительные сведения см. на следующих ресурсах:
 
-- [Azure Blueprints](/azure/governance/blueprints)
-- [Role-based по принятию решений касательно согласованности ресурсов](../../decision-guides/resource-consistency/index.md)
-- [Примеры схем на основе стандартов](/azure/governance/blueprints/samples/index#standards-based-blueprint-samples)
+- [Azure Blueprints](/azure/governance/blueprints/)
+- [Рекомендации по принятию решений по обеспечению согласованности ресурсов в Cloud Adoption Framework](../../decision-guides/resource-consistency/index.md)
+- [Примеры схем на основе стандартов](/azure/governance/blueprints/samples/#standards-based-blueprint-samples)
 
 ::: zone-end

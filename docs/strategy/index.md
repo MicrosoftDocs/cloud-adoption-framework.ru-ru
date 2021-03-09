@@ -1,19 +1,19 @@
 ---
-title: Создание стратегии внедрения в облако
+title: Применение понятий облачной экономики для разработки стратегии по внедрению облака
 description: Используйте Cloud Adoption Framework для Azure, чтобы узнать, как облако может помочь оптимизировать бизнес-стратегию.
-author: BrianBlanchard
+author: mpvenables
 ms.author: brblanch
 ms.date: 05/04/2019
 ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: strategy
 ms.custom: internal
-ms.openlocfilehash: 93676cd9b9ff491d44dff7e752d891d9986fae75
-ms.sourcegitcommit: b6f2b4f8db6c3b1157299ece1f044cff56895919
+ms.openlocfilehash: f6dc188b4face3657ae7b48c174c93f0c9a75b8d
+ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/10/2020
-ms.locfileid: "97023962"
+ms.lasthandoff: 03/03/2021
+ms.locfileid: "101786062"
 ---
 # <a name="develop-a-cloud-adoption-strategy"></a>Создание стратегии внедрения в облако
 
