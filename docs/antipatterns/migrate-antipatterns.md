@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: migrate
 ms.custom: think-tank
-ms.openlocfilehash: aef255bf7aba6155942b58e6fa791151e433d532
-ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
+ms.openlocfilehash: 1686da4d10bd708c98344650901b4082e154c74a
+ms.sourcegitcommit: 4f7d5c7207487474dc0c1f497db3ff8705395bbd
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "102117399"
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "102603986"
 ---
 # <a name="cloud-migration-antipatterns"></a>Антишаблоны миграции в облако
 
@@ -53,7 +53,7 @@ ms.locfileid: "102117399"
 
 Сведения о проектах инноваций см. в статье [Обзор инновационных решений Azure](/azure/cloud-adoption-framework/innovate/innovation-guide/) для получения помощи в определении правильного способа планирования и разработки инновационного облачного решения.
 
-Используйте [сеансы архитектуры (ADS)](/azure/architecture/serverless-quest/ads) для проектирования, создания и развертывания высококачественной и надежной архитектуры, которая масштабируется на предприятии. Используйте доски объявлений для обнаружения, предвидения и планирования решения.
+Для критически важных рабочих нагрузок или рабочих нагрузок, требующих изменения в архитектуре, используйте [хорошо спроектированную инфраструктуру](/azure/architecture/framework) или [сеансы проектирования архитектуры (ADS)](/azure/architecture/serverless-quest/ads) , чтобы упростить проектирование, сборку и развертывание высококачественной, надежной архитектуры, масштабируемой на предприятии. Используйте доски объявлений для обнаружения, предвидения и планирования решения.
 
 ## <a name="antipattern-dictate-an-architecture"></a>Антишаблон: Диктовка архитектуры
 

@@ -53,6 +53,6 @@ ms.locfileid: "101797943"
 В приведенном ниже списке статей приводятся рекомендации, которые можно найти в конкретных точках пути внедрения в облако, чтобы помочь вам успешно в сценарии внедрения в облако.
 
 - [Перенос рабочих нагрузок в современные контейнеры](./migrate.md)
-- [Внедрять новые решения на основе современных контейнеров](/azure/architecture/reference-architectures/containers/aks-start-here?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
-- [Управление решениями современных контейнеров](./govern.md)
-- [Управление решениями современных контейнеров](./manage.md)
+- [Внедрение инноваций с помощью решений для современных контейнеров](/azure/architecture/reference-architectures/containers/aks-start-here?toc=/azure/cloud-adoption-framework/toc.json&bc=/azure/cloud-adoption-framework/_bread/toc.json)
+- [Управление решениями для современных контейнеров](./govern.md)
+- [Управление решениями для современных контейнеров](./manage.md)

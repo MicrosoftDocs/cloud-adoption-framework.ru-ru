@@ -19,10 +19,14 @@ items:
     href: ready.md
   - name: Миграция в облако
     href: migrate.md
-  - name: Подход к управлению для портфеля
+  - name: Управление портфелем
     href: govern.md
   - name: Управление портфелем
     href: manage.md
+  - name: Целевые зоны корпоративного уровня
+    items:
+      - name: Поддержка гибридных и многооблачных сред
+        href: enterprise-scale-landing-zone.md
   - name: Гибридные рабочие нагрузки с продуманной архитектурой
     items:
       - name: Обзор
@@ -41,7 +45,7 @@ items:
     items:
       - name: Обзор
         href: /azure/architecture/browse/hybrid_index?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json
-      - name: Приложения
+      - name: '"Приложения"'
         items:
           - name: Использование ИИ в пограничной среде
             href: /azure/architecture/solution-ideas/articles/ai-at-the-edge?bc=/azure/cloud-adoption-framework/_bread/toc.json&toc=/azure/cloud-adoption-framework/scenarios/hybrid/toc.json

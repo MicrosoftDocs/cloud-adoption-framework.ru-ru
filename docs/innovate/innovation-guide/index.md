@@ -10,19 +10,19 @@ ms.subservice: innovate
 ms.localizationpriority: high
 ms.custom: think-tank, fasttrack-edit, AQC, sep-caf-innovate
 keywords: Инновационные решения, Cloud Adoption Framework, решения для внедрения инноваций
-ms.openlocfilehash: 15fd33baa38899db3c8d5f15c083944faf002c5d
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 75981d792211ffef2bbc53c4d7d29a50d2c41096
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101788952"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102113016"
 ---
 # <a name="azure-innovative-solutions-guide-overview"></a>Обзор инновационных решений Azure
 
 ::: zone target="docs"
 
 > [!NOTE]
-> Это руководство по инновационным решениям поможет приступить к внедрению инноваций в Cloud Adoption Framework. С ним также можно ознакомиться в [центре быстрого запуска Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade).
+> Это руководство по инновационным решениям поможет приступить к внедрению инноваций в Cloud Adoption Framework. Оно также доступно в [Центре быстрого запуска Azure](https://portal.azure.com/?feature.quickstart=true#blade/Microsoft_Azure_Resources/QuickstartCenterBlade).
 
 ::: zone-end
 

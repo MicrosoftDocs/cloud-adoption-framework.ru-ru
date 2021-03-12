@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: decision-guide
 ms.custom: internal
-ms.openlocfilehash: b11f734353eb52e34da459ee9acdb172aebea030
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: b54ebb2c61872c80f6fe10c0454e43a5f558734c
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101790312"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102113237"
 ---
 # <a name="resource-naming-and-tagging-decision-guide"></a>Руководство по именованию ресурсов и присвоению тегов
 
@@ -75,7 +75,7 @@ ms.locfileid: "101790312"
 | Тип тега | Примеры | Описание |
 |--|--|--|
 | Функциональные | `app` = `catalogsearch1` <br> `tier` = `web` <br> `webserver` = `apache` <br> `env` = `prod` <br> `env` = `staging` <br> `env` = `dev` | Распределение ресурсов по категориям в зависимости от их назначения в рабочей нагрузке, среды развертывания или других функций и эксплуатационных характеристик. |
-| Классификация | `confidentiality` = `private` <br> `SLA` = `24hours` | Классификация ресурсов по методам использования и применимым к ресурсам политикам. |
+| Классификация | `confidentiality` = `private` <br> `SLA` = `24hours` | Классификация ресурсов по способам использования и политикам, применимым к ресурсам. |
 | Учет | `department` = `finance` <br> `program` = `business-initiative` <br> `region` = `northamerica` | Позволяет сопоставить ресурс с определенным группами внутри организации для выставления счетов. |
 | Партнерство | `owner` = `jsmith` <br> `contactalias` = `catsearchowners` <br> `stakeholders` = `user1;user2;user3` | Предоставляет сведения о том, кто связан с этим ресурсом (за пределами ИТ-отдела) или иным образом зависит от него. |
 | Назначение | `businessprocess` = `support` <br> `businessimpact` = `moderate` <br> `revenueimpact` = `high` | Сопоставляет ресурсы с бизнес-функциями для поддержки решений об инвестициях. |
