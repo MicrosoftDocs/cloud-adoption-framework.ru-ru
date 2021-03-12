@@ -1,5 +1,5 @@
 ---
-title: Инновации в Azure. Инновации с использованием ИИ
+title: Внедрение инноваций с помощью ИИ в Azure
 description: Узнайте о решениях Azure для прогнозирования потребностей клиентов, автоматизируйте бизнес-процессы, извлекайте информацию, которая скрыта в неструктурированных данных, а также реализуйте новые способы общения с клиентами для предоставления лучших возможностей.
 author: BrianBlanchard
 ms.author: brblanch
@@ -10,16 +10,16 @@ ms.subservice: innovate
 ms.localizationpriority: high
 ms.custom: internal, fasttrack-edit, AQC, seo-caf-innovate
 keywords: Автоматизация бизнес-процессов, инновации с использованием искусственного интеллекта, машинное обучение, интеллектуальный анализ знаний
-ms.openlocfilehash: 1b61201bba7af957b661fa9f755350482b3db955
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: c9d9fecd738d098d42fb4f03343a16d28d55664e
+ms.sourcegitcommit: c167c45b66cc7324b60c88b8b7aac439f956b65d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101790210"
+ms.lasthandoff: 03/05/2021
+ms.locfileid: "102208580"
 ---
 <!-- cSpell:ignore ONNX -->
 
-# <a name="innovate-with-ai"></a>Инновации с использованием ИИ
+# <a name="innovate-with-ai-in-azure"></a>Внедрение инноваций с помощью ИИ в Azure
 
 Внедряя инновации, ваша компания получит множество сведений о бизнесе и о клиентах. Используя инновации в сфере ИИ, ваша компания может:
 

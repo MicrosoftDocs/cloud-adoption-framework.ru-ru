@@ -9,12 +9,12 @@ ms.service: cloud-adoption-framework
 ms.subservice: operate
 ms.localizationpriority: high
 ms.custom: internal, fasttrack-edit, AQC
-ms.openlocfilehash: af73cfe2b5bedfa414968f43193d3fc252268f10
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 358032dd02ad1db252beec3fab50d17a6e68d643
+ms.sourcegitcommit: 9e4bc0e233a24642853f5e8acbeb9746b2444024
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101790431"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "102113747"
 ---
 <!-- docutune:ignore "provide advanced threat protection" -->
 
@@ -48,7 +48,7 @@ ms.locfileid: "101790431"
 
 Azure Backup предлагает различные уровни защиты для данных в Azure. Например, для ключевых частей облачной инфраструктуры, таких как виртуальные машины Azure и Файлы Azure, служба обеспечивает функции [резервного копирования виртуальных машин Azure](/azure/backup/backup-azure-vms-introduction) и [резервного копирования файлов Azure](/azure/backup/azure-file-share-backup-overview). Для более важных компонентов, таких как базы данных, запущенные на Виртуальных машинах Azure, предусмотрены специальные решения резервного копирования баз данных для [SQL Server](/azure/backup/backup-azure-sql-database) и [SAP HANA](/azure/backup/sap-hana-db-about) с гораздо меньшим значением RPO.
 
-Узнайте, как без труда реализовать резервное копирование с помощью Azure Backup, из раздела ниже, который поможет включить резервное копирование для Виртуальных машин Azure.
+Просмотрите следующий раздел, чтобы узнать, как без труда включить резервное копирование для виртуальных машин Azure.
 
 ### <a name="enable-backup-for-an-azure-vm"></a>Включение резервного копирования для виртуальной машины Azure
 
