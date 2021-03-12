@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: cloud-adoption-framework
 ms.subservice: ready
 ms.custom: internal
-ms.openlocfilehash: e5a06f41404fe3db7bd0a98a1324461ae61ac85b
-ms.sourcegitcommit: b8f8b7631aabaab28e9705934bf67dad15e3a179
+ms.openlocfilehash: 78799fe23361cb15cbe90889ea334482b7c81b66
+ms.sourcegitcommit: 9475c71873d5e6c9fd523d476f536243cdd8b41c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/03/2021
-ms.locfileid: "101786436"
+ms.lasthandoff: 03/12/2021
+ms.locfileid: "103234447"
 ---
 # <a name="landing-zone-implementation-options"></a>Параметры реализации зоны размещения
 
@@ -39,7 +39,8 @@ ms.locfileid: "101786436"
 | [Схема CAF Foundation](./foundation-blueprint.md) | Добавляет минимальные инструменты, необходимые для разработки стратегии управления. | Запустить мелкий | [Принципы проектирования](./foundation-blueprint.md#design-principles) | [Развертывание](./foundation-blueprint.md) |
 | [КАФ Целевая зона корпоративного уровня (гибридное подключение с виртуальной глобальной сетью)](../enterprise-scale/index.md) | Развертывает готовую к использованию платформу Platform Foundation со всеми необходимыми общими службами для поддержки полного портфеля ИТ-среды, включая гибридное подключение (виртуальная сеть WAN). | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/contoso/Readme.md) |
 | [КАФ зона корпоративного уровня (гибридное подключение с помощью концентратора и периферийных серверов)](../enterprise-scale/index.md) | Развертывает готовую к использованию платформу Platform Foundation со всеми необходимыми общими службами для поддержки полноценного портфеля ИТ-среды, включая гибридное подключение (HUB и периферийные). | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/adventureworks/README.md) |
-| [Целевая зона CAF корпоративного уровня](../enterprise-scale/index.md) | Развертывает готовую к работе платформу Platform Foundation со всеми необходимыми общими службами для поддержки полного портфеля ИТ-среды, когда подключение может быть добавлено позже по мере необходимости. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/wingtip/README.md) |
+| [КАФ Главная зона корпоративного уровня (Foundation)](../enterprise-scale/index.md) | Развертывает готовую к работе платформу Platform Foundation со всеми необходимыми общими службами для поддержки полного портфеля ИТ-среды, когда подключение может быть добавлено позже по мере необходимости. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/wingtip/README.md) |
+| [КАФ Главная зона корпоративного уровня (малый и Средний корпоративный)](../enterprise-scale/index.md) | Эта эталонная реализация предназначена для организаций, которые не имеют большой ИТ-группы и не нуждаются в детализированных моделях делегирования администрирования. | Корпоративный масштаб | [Принципы проектирования](../enterprise-scale/design-principles.md) | [Развертывание](https://github.com/Azure/Enterprise-Scale/blob/main/docs/reference/treyresearch/README.md) |
 | [Модули CAF Terraform](./terraform-landing-zone.md) | Сторонний путь для многооблачных операционных моделей. Этот путь может ограничивать операционные модели на основе Azure. | Запустить мелкий | [Принципы проектирования](./terraform-landing-zone.md#design-decisions) | [Развертывание](./terraform-landing-zone.md#customize-and-deploy-your-first-landing-zone) |
 | [Целевые зоны партнеров](./partner-landing-zone.md) | Партнеры, предоставляющие предложения, согласованные с методологией готовности инфраструктуры внедрения облачных решений, могут предоставить собственные параметры реализации. | Переменная | [Принципы проектирования](./partner-landing-zone.md) | [Найти партнера](https://www.microsoft.com/azure/partners/adopt?filters=ready) |
 
